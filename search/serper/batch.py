@@ -51,18 +51,20 @@ def process_person(name: str, max_results: int) -> List[Dict[str, Any]]:
             "fetch_status": "pending",
             "fetch_error": None,
             "full_text": None,
-            "fetched_at": None
+            "fetched_at": None,
+            "extraction_method": None
         }
         
         try:
             print(f"  Fetching [{i+1}/{len(results)}]: {url}")
-            fetched_title, text = fetch_url_text(url)
+            fetched_title, text, extraction_method = fetch_url_text(url)
             if fetched_title:
                 result_entry["title"] = fetched_title
             
             result_entry["full_text"] = text
             result_entry["fetch_status"] = "success"
             result_entry["fetched_at"] = datetime.utcnow().isoformat()
+            result_entry["extraction_method"] = extraction_method
             
         except Exception as e:
             print(f"  Fetch failed: {e}")

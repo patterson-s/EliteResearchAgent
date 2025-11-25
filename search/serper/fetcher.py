@@ -26,7 +26,7 @@ def extract_pdf_text(content: bytes) -> str:
     except Exception as e:
         return f"[PDF extraction failed: {str(e)}]"
 
-def fetch_url_text(url: str, timeout: int = 10) -> tuple[str, str]:
+def fetch_url_text(url: str, timeout: int = 10) -> tuple[str, str, str]:
     headers = {"User-Agent": USER_AGENT}
     try:
         r = requests.get(url, headers=headers, timeout=timeout)
@@ -39,7 +39,7 @@ def fetch_url_text(url: str, timeout: int = 10) -> tuple[str, str]:
     if 'application/pdf' in content_type or url.lower().endswith('.pdf'):
         title = url.split('/')[-1]
         text = extract_pdf_text(r.content)
-        return title, text
+        return title, text, 'pdf_basic'
 
     soup = BeautifulSoup(r.text, "html.parser")
     title = (soup.title.string or "").strip() if soup.title else ""
@@ -50,4 +50,4 @@ def fetch_url_text(url: str, timeout: int = 10) -> tuple[str, str]:
     
     lines = [ln.strip() for ln in texts.splitlines() if ln.strip()]
     text = "\n".join(lines)
-    return title, text
+    return title, text, 'html'
