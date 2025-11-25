@@ -1,13 +1,14 @@
 import json
 import sys
 from datetime import datetime
-from typing import List
-from database.connection import get_connection, release_connection
+from pathlib import Path
+from typing import List, Dict, Any
 from search.serper.client import search
 from search.serper.fetcher import fetch_url_text
 
 SEARCH_TEMPLATE = '{name} biography OR CV OR career OR education OR appointed OR minister OR ambassador OR director'
 MAX_RESULTS = 20
+OUTPUT_DIR = Path(__file__).parent / "outputs"
 
 def read_names_from_json(filepath: str) -> List[str]:
     with open(filepath, 'r', encoding='utf-8') as f:
@@ -19,31 +20,7 @@ def read_names_from_json(filepath: str) -> List[str]:
 def build_search_query(name: str) -> str:
     return SEARCH_TEMPLATE.format(name=name)
 
-def save_person_search(conn, person_name: str, search_query: str) -> int:
-    cur = conn.cursor()
-    cur.execute("""
-        INSERT INTO sources.persons_searched (person_name, search_query, searched_at)
-        VALUES (%s, %s, %s)
-        RETURNING id
-    """, (person_name, search_query, datetime.utcnow()))
-    person_search_id = cur.fetchone()[0]
-    conn.commit()
-    return person_search_id
-
-def save_search_result(conn, person_search_id: int, rank: int, url: str, 
-                       title: str, fetch_status: str, fetch_error: str = None, 
-                       full_text: str = None):
-    cur = conn.cursor()
-    cur.execute("""
-        INSERT INTO sources.search_results 
-        (person_search_id, rank, url, title, fetch_status, fetch_error, full_text, fetched_at)
-        VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
-        ON CONFLICT (person_search_id, url) DO NOTHING
-    """, (person_search_id, rank, url, title, fetch_status, fetch_error, 
-          full_text, datetime.utcnow() if fetch_status == 'success' else None))
-    conn.commit()
-
-def process_person(conn, name: str, max_results: int):
+def process_person(name: str, max_results: int) -> List[Dict[str, Any]]:
     query = build_search_query(name)
     print(f"  Searching: {query}")
     
@@ -51,54 +28,89 @@ def process_person(conn, name: str, max_results: int):
         resp = search(query, num_results=max_results)
     except Exception as e:
         print(f"  Search failed: {e}")
-        return
-    
-    person_search_id = save_person_search(conn, name, query)
+        return []
     
     organic = resp.get("organic", []) or resp.get("results", []) or []
     print(f"  Found {len(organic)} results")
     results = organic[:max_results]
     
+    all_results = []
+    searched_at = datetime.utcnow().isoformat()
+    
     for i, r in enumerate(results):
         url = r.get("link") or r.get("url") or r.get("snippet")
         title = r.get("title") or ""
+        
+        result_entry = {
+            "person": name,
+            "search_query": query,
+            "searched_at": searched_at,
+            "rank": i + 1,
+            "url": url,
+            "title": title,
+            "fetch_status": "pending",
+            "fetch_error": None,
+            "full_text": None,
+            "fetched_at": None
+        }
         
         try:
             print(f"  Fetching [{i+1}/{len(results)}]: {url}")
             fetched_title, text = fetch_url_text(url)
             if fetched_title:
-                title = fetched_title
+                result_entry["title"] = fetched_title
             
-            save_search_result(conn, person_search_id, i + 1, url, title, 
-                             'success', full_text=text)
+            result_entry["full_text"] = text
+            result_entry["fetch_status"] = "success"
+            result_entry["fetched_at"] = datetime.utcnow().isoformat()
             
         except Exception as e:
             print(f"  Fetch failed: {e}")
-            save_search_result(conn, person_search_id, i + 1, url, title, 
-                             'failed', fetch_error=str(e))
+            result_entry["fetch_status"] = "failed"
+            result_entry["fetch_error"] = str(e)
+        
+        all_results.append(result_entry)
+    
+    return all_results
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: python batch.py <input_json_file>")
+        print("Usage: python -m search.serper.batch <input_json_file>")
         sys.exit(1)
     
     input_file = sys.argv[1]
+    
+    OUTPUT_DIR.mkdir(exist_ok=True)
+    
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    output_file = OUTPUT_DIR / f"search_results_{timestamp}.json"
+    temp_file = OUTPUT_DIR / f"search_results_{timestamp}_temp.json"
     
     print(f"Reading names from: {input_file}")
     names = read_names_from_json(input_file)
     print(f"Found {len(names)} names to process\n")
     
-    conn = get_connection()
+    all_results = []
     
-    try:
-        for idx, name in enumerate(names, 1):
-            print(f"[{idx}/{len(names)}] Processing: {name}")
-            process_person(conn, name, MAX_RESULTS)
-            print()
-    finally:
-        release_connection(conn)
+    for idx, name in enumerate(names, 1):
+        print(f"[{idx}/{len(names)}] Processing: {name}")
+        person_results = process_person(name, MAX_RESULTS)
+        all_results.extend(person_results)
+        print(f"  Collected {len(person_results)} results")
+        
+        with open(temp_file, 'w', encoding='utf-8') as f:
+            json.dump(all_results, f, indent=2, ensure_ascii=False)
+        print(f"  Saved to temp file\n")
     
-    print(f"\nComplete! Processed {len(names)} people")
+    print(f"Writing final results to: {output_file}")
+    with open(output_file, 'w', encoding='utf-8') as f:
+        json.dump(all_results, f, indent=2, ensure_ascii=False)
+    
+    if temp_file.exists():
+        temp_file.unlink()
+    
+    print(f"\nComplete! Processed {len(names)} people, collected {len(all_results)} total results")
+    print(f"Output saved to: {output_file}")
 
 if __name__ == "__main__":
     main()
