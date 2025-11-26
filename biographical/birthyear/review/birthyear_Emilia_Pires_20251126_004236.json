@@ -1,0 +1,202 @@
+{
+  "person_name": "Emilia Pires",
+  "timestamp": "2025-11-26T00:42:36.976435",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 3391,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Em%C3%ADlia_Pires",
+        "similarity": 0.5317810835439392,
+        "rerank_score": 0.82492816
+      },
+      {
+        "chunk_id": 3422,
+        "domain": "forbes.com",
+        "url": "https://www.forbes.com/global/2009/0907/power-women-09-east-timor-finance-emilia-pires.html",
+        "similarity": 0.39394855554469893,
+        "rerank_score": 0.741169
+      },
+      {
+        "chunk_id": 3395,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Em%C3%ADlia_Pires",
+        "similarity": 0.45035397829791657,
+        "rerank_score": 0.6519982
+      },
+      {
+        "chunk_id": 3397,
+        "domain": "ccgt.ucsd.edu",
+        "url": "https://ccgt.ucsd.edu/fellows/past/pires.html",
+        "similarity": 0.41568991753064755,
+        "rerank_score": 0.5513086
+      },
+      {
+        "chunk_id": 3425,
+        "domain": "timor-leste.gov.tl",
+        "url": "https://timor-leste.gov.tl/?p=7085&lang=en",
+        "similarity": 0.40613922756597637,
+        "rerank_score": 0.49260366
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 10,
+    "extractions": [
+      {
+        "chunk_id": 3391,
+        "person_name": "Emilia Pires",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: The text contains a \"Born\" cue under \"Personal details\" but does not include a date. No other birth cues or dates are present.\n- step2: The \"Born\" cue clearly refers to Emilia Pires, but it lacks a date.\n- step3: Since no date is provided, determining a birth year is impossible.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a \"Born\" cue under \"Personal details\" but does not include a date. No other birth cues or dates are present.\n- step2: The \"Born\" cue clearly refers to Emilia Pires, but it lacks a date.\n- step3: Since no date is provided, determining a birth year is impossible.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://en.wikipedia.org/wiki/Em%C3%ADlia_Pires",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.5317810835439392,
+        "rerank_score": 0.82492816
+      },
+      {
+        "chunk_id": 3422,
+        "person_name": "Emilia Pires",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No explicit birth cues or dates are mentioned in the text that clearly indicate Emilia Pires' birthdate.\n- step2: The text does not provide any information that could be disambiguated as her birthdate.\n- step3: Since no birthdate information is present, it is impossible to determine the birth year.",
+        "raw_llm_output": "reasoning:\n- step1: No explicit birth cues or dates are mentioned in the text that clearly indicate Emilia Pires' birthdate.\n- step2: The text does not provide any information that could be disambiguated as her birthdate.\n- step3: Since no birthdate information is present, it is impossible to determine the birth year.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://www.forbes.com/global/2009/0907/power-women-09-east-timor-finance-emilia-pires.html",
+        "domain": "forbes.com",
+        "chunk_index": 0,
+        "similarity": 0.39394855554469893,
+        "rerank_score": 0.741169
+      },
+      {
+        "chunk_id": 3395,
+        "person_name": "Emilia Pires",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings related to birth are found in the chunk.\n- step2: No disambiguation needed as there are no birth-related dates mentioned.\n- step3: No year selection possible due to absence of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings related to birth are found in the chunk.\n- step2: No disambiguation needed as there are no birth-related dates mentioned.\n- step3: No year selection possible due to absence of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://en.wikipedia.org/wiki/Em%C3%ADlia_Pires",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 4,
+        "similarity": 0.45035397829791657,
+        "rerank_score": 0.6519982
+      },
+      {
+        "chunk_id": 3397,
+        "person_name": "Emilia Pires",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No explicit birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as there are no dates or cues related to birth.\n- step3: No year selection possible due to absence of birth-related information.",
+        "raw_llm_output": "reasoning:\n- step1: No explicit birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as there are no dates or cues related to birth.\n- step3: No year selection possible due to absence of birth-related information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://ccgt.ucsd.edu/fellows/past/pires.html",
+        "domain": "ccgt.ucsd.edu",
+        "chunk_index": 0,
+        "similarity": 0.41568991753064755,
+        "rerank_score": 0.5513086
+      },
+      {
+        "chunk_id": 3425,
+        "person_name": "Emilia Pires",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings related to Emilia Pires are found in the chunk.\n- step2: No disambiguation needed as there are no birth-related dates mentioned.\n- step3: No year selection possible due to absence of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings related to Emilia Pires are found in the chunk.\n- step2: No disambiguation needed as there are no birth-related dates mentioned.\n- step3: No year selection possible due to absence of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://timor-leste.gov.tl/?p=7085&lang=en",
+        "domain": "timor-leste.gov.tl",
+        "chunk_index": 0,
+        "similarity": 0.40613922756597637,
+        "rerank_score": 0.49260366
+      },
+      {
+        "chunk_id": 3393,
+        "person_name": "Emilia Pires",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings related to Emilia Pires are found in the chunk.\n- step2: No disambiguation needed as there are no relevant dates mentioned.\n- step3: No year selection possible due to absence of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings related to Emilia Pires are found in the chunk.\n- step2: No disambiguation needed as there are no relevant dates mentioned.\n- step3: No year selection possible due to absence of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://en.wikipedia.org/wiki/Em%C3%ADlia_Pires",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 2,
+        "similarity": 0.4017569790715952,
+        "rerank_score": 0.4325193
+      },
+      {
+        "chunk_id": 3394,
+        "person_name": "Emilia Pires",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No clear birth cues or date strings related to Emilia Pires are found in the chunk.\n- step2: There are no mentions of birth dates or related information for Emilia Pires.\n- step3: Since no birth year or date is mentioned, it is impossible to determine the birth year.",
+        "raw_llm_output": "reasoning:\n- step1: No clear birth cues or date strings related to Emilia Pires are found in the chunk.\n- step2: There are no mentions of birth dates or related information for Emilia Pires.\n- step3: Since no birth year or date is mentioned, it is impossible to determine the birth year.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://en.wikipedia.org/wiki/Em%C3%ADlia_Pires",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 3,
+        "similarity": 0.38098549904292306,
+        "rerank_score": 0.42090955
+      },
+      {
+        "chunk_id": 3398,
+        "person_name": "Emilia Pires",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: The text mentions specific years (2007, 2015, 1975, 2008, 2011) but none are explicitly tied to Emilia Pires' birth.\n- step2: No birth-related cues (\"born\", \"date of birth\", etc.) are present, and the year 1975 refers to her leaving Timor-Leste, not her birth.\n- step3: Since no birth year or clear birth-related information is provided, it's impossible to determine the birth year.",
+        "raw_llm_output": "reasoning:\n- step1: The text mentions specific years (2007, 2015, 1975, 2008, 2011) but none are explicitly tied to Emilia Pires' birth.\n- step2: No birth-related cues (\"born\", \"date of birth\", etc.) are present, and the year 1975 refers to her leaving Timor-Leste, not her birth.\n- step3: Since no birth year or clear birth-related information is provided, it's impossible to determine the birth year.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://live.worldbank.org/en/experts/e/emilia-pires",
+        "domain": "live.worldbank.org",
+        "chunk_index": 0,
+        "similarity": 0.4290301546731616,
+        "rerank_score": 0.39641917
+      },
+      {
+        "chunk_id": 3402,
+        "person_name": "Emilia Pires",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings related to Emilia Pires are found in the text.\n- step2: The text focuses on her professional roles and achievements without mentioning personal details like birthdate.\n- step3: No year selection is possible as there is no birthdate information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings related to Emilia Pires are found in the text.\n- step2: The text focuses on her professional roles and achievements without mentioning personal details like birthdate.\n- step3: No year selection is possible as there is no birthdate information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://conflictfieldresearch.colgate.edu/wp-content/uploads/2015/02/9_Reflections_on_Policy_Space.pdf",
+        "domain": "conflictfieldresearch.colgate.edu",
+        "chunk_index": 0,
+        "similarity": 0.3888204686616886,
+        "rerank_score": 0.36765668
+      },
+      {
+        "chunk_id": 3424,
+        "person_name": "Emilia Pires",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings found in the chunk.\n- step2: No disambiguation needed as no birth information is present.\n- step3: No year selection possible due to absence of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings found in the chunk.\n- step2: No disambiguation needed as no birth information is present.\n- step3: No year selection possible due to absence of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://www.imf.org/external/np/seminars/eng/2013/timor/pdf/EPires.pdf",
+        "domain": "imf.org",
+        "chunk_index": 0,
+        "similarity": 0.43372434876530347,
+        "rerank_score": 0.34052956
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "no_evidence",
+    "birth_year": null,
+    "independent_source_count": 0,
+    "total_extractions": 10,
+    "year_ledgers": {}
+  },
+  "provenance_narrative": "Birth year verification for Emilia Pires\nVerification completed: 2025-11-26 00:42:36 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: timor-leste.gov.tl, ccgt.ucsd.edu, en.wikipedia.org, forbes.com\nSimilarity scores ranged from 0.381 to 0.532\nRerank scores ranged from 0.341 to 0.825\n\nEXTRACTION PHASE\nScanned 10 chunks for birth information\nFound birth information in 0 chunks\n\nVERIFICATION PHASE\nVerification status: no_evidence\nIndependent source count: 0\nNo birth year could be verified\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

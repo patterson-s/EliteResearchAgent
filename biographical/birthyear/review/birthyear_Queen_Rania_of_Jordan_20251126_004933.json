@@ -1,0 +1,115 @@
+{
+  "person_name": "Queen Rania of Jordan",
+  "timestamp": "2025-11-26T00:49:33.806432",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 3075,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Queen_Rania_of_Jordan",
+        "similarity": 0.6601460467322197,
+        "rerank_score": 0.92684203
+      },
+      {
+        "chunk_id": 3095,
+        "domain": "queenrania.jo",
+        "url": "https://www.queenrania.jo/en/rania",
+        "similarity": 0.5639272923367962,
+        "rerank_score": 0.8851659
+      },
+      {
+        "chunk_id": 3097,
+        "domain": "awpc.cattcenter.iastate.edu",
+        "url": "https://awpc.cattcenter.iastate.edu/directory/queen-raina-of-jordan/",
+        "similarity": 0.6179533848412228,
+        "rerank_score": 0.8752871
+      },
+      {
+        "chunk_id": 3110,
+        "domain": "britannica.com",
+        "url": "https://www.britannica.com/biography/Rania-al-Abdullah",
+        "similarity": 0.5647750263925795,
+        "rerank_score": 0.86981434
+      },
+      {
+        "chunk_id": 3111,
+        "domain": "live.worldbank.org",
+        "url": "https://live.worldbank.org/en/experts/e/expertsqueen-rania-al-abdullah",
+        "similarity": 0.538444085798531,
+        "rerank_score": 0.8585411
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 2,
+    "extractions": [
+      {
+        "chunk_id": 3075,
+        "person_name": "Queen Rania of Jordan",
+        "contains_birth_info": true,
+        "extracted_year": 1970,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date \"31 August 1970\" associated with the name \"Rania Al-Yassin\".\n- step2: The birth date is directly linked to Queen Rania of Jordan through her birth name \"Rania Al-Yassin\" and is mentioned in the context of her personal details.\n- step3: The year 1970 is explicitly stated in the date.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date \"31 August 1970\" associated with the name \"Rania Al-Yassin\".\n- step2: The birth date is directly linked to Queen Rania of Jordan through her birth name \"Rania Al-Yassin\" and is mentioned in the context of her personal details.\n- step3: The year 1970 is explicitly stated in the date.\ncontains_birthdate: true\nbirth_year: 1970",
+        "url": "https://en.wikipedia.org/wiki/Queen_Rania_of_Jordan",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.6601460467322197,
+        "rerank_score": 0.92684203
+      },
+      {
+        "chunk_id": 3095,
+        "person_name": "Queen Rania of Jordan",
+        "contains_birth_info": true,
+        "extracted_year": 1970,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date \"August 31, 1970\" associated with \"Rania Al Yassin\".\n- step2: The name \"Rania Al Yassin\" is unambiguously linked to Queen Rania of Jordan, as it is mentioned at the beginning of her biographical details.\n- step3: The birth year is explicitly stated as 1970.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date \"August 31, 1970\" associated with \"Rania Al Yassin\".\n- step2: The name \"Rania Al Yassin\" is unambiguously linked to Queen Rania of Jordan, as it is mentioned at the beginning of her biographical details.\n- step3: The birth year is explicitly stated as 1970.\ncontains_birthdate: true\nbirth_year: 1970",
+        "url": "https://www.queenrania.jo/en/rania",
+        "domain": "queenrania.jo",
+        "chunk_index": 0,
+        "similarity": 0.5639272923367962,
+        "rerank_score": 0.8851659
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "verified",
+    "birth_year": 1970,
+    "independent_source_count": 2,
+    "total_extractions": 2,
+    "year_ledgers": {
+      "1970": {
+        "year": 1970,
+        "count": 2,
+        "domains": [
+          "en.wikipedia.org",
+          "queenrania.jo"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 3075,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Queen_Rania_of_Jordan",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 3095,
+            "domain": "queenrania.jo",
+            "url": "https://www.queenrania.jo/en/rania",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Queen Rania of Jordan\nVerification completed: 2025-11-26 00:49:33 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: live.worldbank.org, britannica.com, awpc.cattcenter.iastate.edu, en.wikipedia.org, queenrania.jo\nSimilarity scores ranged from 0.538 to 0.660\nRerank scores ranged from 0.666 to 0.927\n\nEXTRACTION PHASE\nScanned 2 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1970\n\nVERIFICATION PHASE\nVerification status: verified\nIndependent source count: 2\nVerified birth year: 1970\nSupporting domains: en.wikipedia.org, queenrania.jo\nSupporting extractions: 2\nEvidence types: born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

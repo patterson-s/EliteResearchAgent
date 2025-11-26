@@ -1,0 +1,115 @@
+{
+  "person_name": "Jean Tirole",
+  "timestamp": "2025-11-26T00:44:34.272045",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 1197,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Jean_Tirole",
+        "similarity": 0.6509520971091327,
+        "rerank_score": 0.9053309
+      },
+      {
+        "chunk_id": 1223,
+        "domain": "tse-fr.eu",
+        "url": "https://www.tse-fr.eu/sites/default/files/TSE/documents/doc/cv/tirole_en.pdf",
+        "similarity": 0.5811523275592061,
+        "rerank_score": 0.86108357
+      },
+      {
+        "chunk_id": 1221,
+        "domain": "britannica.com",
+        "url": "https://www.britannica.com/money/Jean-Tirole",
+        "similarity": 0.5925732527688263,
+        "rerank_score": 0.85097736
+      },
+      {
+        "chunk_id": 1253,
+        "domain": "nobelprize.org",
+        "url": "https://www.nobelprize.org/prizes/economic-sciences/2014/tirole/facts/",
+        "similarity": 0.6321381733409146,
+        "rerank_score": 0.8145405
+      },
+      {
+        "chunk_id": 1256,
+        "domain": "mediatheque.lindau-nobel.org",
+        "url": "https://mediatheque.lindau-nobel.org/laureates/tirole/cv",
+        "similarity": 0.5264775541747735,
+        "rerank_score": 0.8088086
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 2,
+    "extractions": [
+      {
+        "chunk_id": 1197,
+        "person_name": "Jean Tirole",
+        "contains_birth_info": true,
+        "extracted_year": 1953,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth cue (\"Born\") followed by a date string (\"9 August 1953\").\n- step2: The date is directly associated with Jean Tirole's name in the introductory section, with no ambiguity.\n- step3: The year is explicitly stated as 1953.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth cue (\"Born\") followed by a date string (\"9 August 1953\").\n- step2: The date is directly associated with Jean Tirole's name in the introductory section, with no ambiguity.\n- step3: The year is explicitly stated as 1953.\ncontains_birthdate: true\nbirth_year: 1953",
+        "url": "https://en.wikipedia.org/wiki/Jean_Tirole",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.6509520971091327,
+        "rerank_score": 0.9053309
+      },
+      {
+        "chunk_id": 1223,
+        "person_name": "Jean Tirole",
+        "contains_birth_info": true,
+        "extracted_year": 1953,
+        "evidence_type": "born-field",
+        "reasoning": "- step1: The text contains a clear birth date cue \"Date of Birth\" followed by \"August 9, 1953.\"\n- step2: The birth date is directly associated with Jean Tirole's name in the structured CV format.\n- step3: The year 1953 is explicitly stated in the date string.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date cue \"Date of Birth\" followed by \"August 9, 1953.\"\n- step2: The birth date is directly associated with Jean Tirole's name in the structured CV format.\n- step3: The year 1953 is explicitly stated in the date string.\ncontains_birthdate: true\nbirth_year: 1953",
+        "url": "https://www.tse-fr.eu/sites/default/files/TSE/documents/doc/cv/tirole_en.pdf",
+        "domain": "tse-fr.eu",
+        "chunk_index": 0,
+        "similarity": 0.5811523275592061,
+        "rerank_score": 0.86108357
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "verified",
+    "birth_year": 1953,
+    "independent_source_count": 2,
+    "total_extractions": 2,
+    "year_ledgers": {
+      "1953": {
+        "year": 1953,
+        "count": 2,
+        "domains": [
+          "tse-fr.eu",
+          "en.wikipedia.org"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 1197,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Jean_Tirole",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 1223,
+            "domain": "tse-fr.eu",
+            "url": "https://www.tse-fr.eu/sites/default/files/TSE/documents/doc/cv/tirole_en.pdf",
+            "evidence_type": "born-field",
+            "quality_rank": 0
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Jean Tirole\nVerification completed: 2025-11-26 00:44:34 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: britannica.com, mediatheque.lindau-nobel.org, tse-fr.eu, en.wikipedia.org, nobelprize.org\nSimilarity scores ranged from 0.387 to 0.651\nRerank scores ranged from 0.462 to 0.905\n\nEXTRACTION PHASE\nScanned 2 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1953\n\nVERIFICATION PHASE\nVerification status: verified\nIndependent source count: 2\nVerified birth year: 1953\nSupporting domains: tse-fr.eu, en.wikipedia.org\nSupporting extractions: 2\nEvidence types: born-field, born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

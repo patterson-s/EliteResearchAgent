@@ -1,0 +1,69 @@
+{
+  "person_name": "V Isabel Guerrero Pulgar",
+  "timestamp": "2025-11-26T00:51:23.216979",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 2,
+    "top_candidates": [
+      {
+        "chunk_id": 847,
+        "domain": "community.nasscom.in",
+        "url": "https://community.nasscom.in/communities/digital-transformation/united-nations-secretary-generals-high-level-panel-on-digital-cooperation.html",
+        "similarity": 0.2855702340574934,
+        "rerank_score": 0.45653152
+      },
+      {
+        "chunk_id": 836,
+        "domain": "blogs.worldbank.org",
+        "url": "https://blogs.worldbank.org/en/team/i/isabel-guerrero",
+        "similarity": 0.4013656220454477,
+        "rerank_score": 0.29176772
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 2,
+    "extractions": [
+      {
+        "chunk_id": 847,
+        "person_name": "V Isabel Guerrero Pulgar",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings are mentioned in the chunk.\n- step2: No disambiguation is needed as there are no dates to consider.\n- step3: No year selection is possible due to the absence of birth-related information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings are mentioned in the chunk.\n- step2: No disambiguation is needed as there are no dates to consider.\n- step3: No year selection is possible due to the absence of birth-related information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://community.nasscom.in/communities/digital-transformation/united-nations-secretary-generals-high-level-panel-on-digital-cooperation.html",
+        "domain": "community.nasscom.in",
+        "chunk_index": 8,
+        "similarity": 0.2855702340574934,
+        "rerank_score": 0.45653152
+      },
+      {
+        "chunk_id": 836,
+        "person_name": "V Isabel Guerrero Pulgar",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as no birth-related information is mentioned.\n- step3: No year selection possible due to absence of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as no birth-related information is mentioned.\n- step3: No year selection possible due to absence of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://blogs.worldbank.org/en/team/i/isabel-guerrero",
+        "domain": "blogs.worldbank.org",
+        "chunk_index": 0,
+        "similarity": 0.4013656220454477,
+        "rerank_score": 0.29176772
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "no_evidence",
+    "birth_year": null,
+    "independent_source_count": 0,
+    "total_extractions": 2,
+    "year_ledgers": {}
+  },
+  "provenance_narrative": "Birth year verification for V Isabel Guerrero Pulgar\nVerification completed: 2025-11-26 00:51:23 UTC\n\nRETRIEVAL PHASE\nRetrieved 2 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: community.nasscom.in, blogs.worldbank.org\nSimilarity scores ranged from 0.286 to 0.401\nRerank scores ranged from 0.292 to 0.457\n\nEXTRACTION PHASE\nScanned 2 chunks for birth information\nFound birth information in 0 chunks\n\nVERIFICATION PHASE\nVerification status: no_evidence\nIndependent source count: 0\nNo birth year could be verified\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

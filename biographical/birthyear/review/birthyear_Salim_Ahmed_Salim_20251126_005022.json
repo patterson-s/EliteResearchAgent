@@ -1,0 +1,115 @@
+{
+  "person_name": "Salim Ahmed Salim",
+  "timestamp": "2025-11-26T00:50:22.857217",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 475,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Salim_Ahmed_Salim",
+        "similarity": 0.541691500059127,
+        "rerank_score": 0.9220975
+      },
+      {
+        "chunk_id": 491,
+        "domain": "tzembassy.go.tz",
+        "url": "https://www.tzembassy.go.tz/ambassadors/view/dr-salim-ahmed-salim",
+        "similarity": 0.5186865666647832,
+        "rerank_score": 0.8576849
+      },
+      {
+        "chunk_id": 482,
+        "domain": "salimahmedsalim.com",
+        "url": "https://www.salimahmedsalim.com/about",
+        "similarity": 0.47637195214308964,
+        "rerank_score": 0.8232293
+      },
+      {
+        "chunk_id": 481,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Salim_Ahmed_Salim",
+        "similarity": 0.4695888394221932,
+        "rerank_score": 0.79939574
+      },
+      {
+        "chunk_id": 526,
+        "domain": "issafrica.s3.amazonaws.com",
+        "url": "https://issafrica.s3.amazonaws.com/site/uploads/Book-2015-Salim.pdf",
+        "similarity": 0.3758180922226493,
+        "rerank_score": 0.7724109
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 2,
+    "extractions": [
+      {
+        "chunk_id": 475,
+        "person_name": "Salim Ahmed Salim",
+        "contains_birth_info": true,
+        "extracted_year": 1942,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date \"23 January 1942\" under the \"Personal details\" section.\n- step2: The birth date is directly associated with Salim Ahmed Salim, as it appears in the section detailing his personal information and is explicitly stated as his birth date.\n- step3: The year 1942 is explicitly mentioned as part of the full birth date.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date \"23 January 1942\" under the \"Personal details\" section.\n- step2: The birth date is directly associated with Salim Ahmed Salim, as it appears in the section detailing his personal information and is explicitly stated as his birth date.\n- step3: The year 1942 is explicitly mentioned as part of the full birth date.\ncontains_birthdate: true\nbirth_year: 1942",
+        "url": "https://en.wikipedia.org/wiki/Salim_Ahmed_Salim",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.541691500059127,
+        "rerank_score": 0.9220975
+      },
+      {
+        "chunk_id": 491,
+        "person_name": "Salim Ahmed Salim",
+        "contains_birth_info": true,
+        "extracted_year": 1942,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth cue \"born 23 January 1942\" directly associated with Salim Ahmed Salim.\n- step2: The birth date is explicitly mentioned in the section dedicated to Salim Ahmed Salim, leaving no ambiguity.\n- step3: The year 1942 is clearly stated in the birth date.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth cue \"born 23 January 1942\" directly associated with Salim Ahmed Salim.\n- step2: The birth date is explicitly mentioned in the section dedicated to Salim Ahmed Salim, leaving no ambiguity.\n- step3: The year 1942 is clearly stated in the birth date.\ncontains_birthdate: true\nbirth_year: 1942",
+        "url": "https://www.tzembassy.go.tz/ambassadors/view/dr-salim-ahmed-salim",
+        "domain": "tzembassy.go.tz",
+        "chunk_index": 0,
+        "similarity": 0.5186865666647832,
+        "rerank_score": 0.8576849
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "verified",
+    "birth_year": 1942,
+    "independent_source_count": 2,
+    "total_extractions": 2,
+    "year_ledgers": {
+      "1942": {
+        "year": 1942,
+        "count": 2,
+        "domains": [
+          "tzembassy.go.tz",
+          "en.wikipedia.org"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 475,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Salim_Ahmed_Salim",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 491,
+            "domain": "tzembassy.go.tz",
+            "url": "https://www.tzembassy.go.tz/ambassadors/view/dr-salim-ahmed-salim",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Salim Ahmed Salim\nVerification completed: 2025-11-26 00:50:22 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: tzembassy.go.tz, salimahmedsalim.com, en.wikipedia.org, issafrica.s3.amazonaws.com\nSimilarity scores ranged from 0.374 to 0.542\nRerank scores ranged from 0.572 to 0.922\n\nEXTRACTION PHASE\nScanned 2 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1942\n\nVERIFICATION PHASE\nVerification status: verified\nIndependent source count: 2\nVerified birth year: 1942\nSupporting domains: tzembassy.go.tz, en.wikipedia.org\nSupporting extractions: 2\nEvidence types: born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

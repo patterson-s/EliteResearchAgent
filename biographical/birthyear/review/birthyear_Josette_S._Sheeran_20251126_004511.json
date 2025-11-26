@@ -1,0 +1,115 @@
+{
+  "person_name": "Josette S. Sheeran",
+  "timestamp": "2025-11-26T00:45:11.571794",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 3931,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Josette_Sheeran",
+        "similarity": 0.5269166480848578,
+        "rerank_score": 0.8945781
+      },
+      {
+        "chunk_id": 3955,
+        "domain": "tparents.org",
+        "url": "https://www.tparents.org/Library/Unification/Talks5/Sheeran/Sheeran-190119.pdf",
+        "similarity": 0.5063096625635395,
+        "rerank_score": 0.8891543
+      },
+      {
+        "chunk_id": 3963,
+        "domain": "tparents.org",
+        "url": "https://www.tparents.org/Library/Unification/Talks5/Sheeran/Sheeran-190119.pdf",
+        "similarity": 0.35646214969991297,
+        "rerank_score": 0.66045773
+      },
+      {
+        "chunk_id": 3937,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Josette_Sheeran",
+        "similarity": 0.41226881310590036,
+        "rerank_score": 0.60358196
+      },
+      {
+        "chunk_id": 3932,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Josette_Sheeran",
+        "similarity": 0.293278000676909,
+        "rerank_score": 0.528169
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 2,
+    "extractions": [
+      {
+        "chunk_id": 3931,
+        "person_name": "Josette S. Sheeran",
+        "contains_birth_info": true,
+        "extracted_year": 1954,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date cue \"Born\" followed by the date \"12 June 1954\" in the \"Personal details\" section.\n- step2: The date is directly associated with Josette Sheeran in the \"Personal details\" section, leaving no ambiguity.\n- step3: The year 1954 is explicitly stated in the birth date.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date cue \"Born\" followed by the date \"12 June 1954\" in the \"Personal details\" section.\n- step2: The date is directly associated with Josette Sheeran in the \"Personal details\" section, leaving no ambiguity.\n- step3: The year 1954 is explicitly stated in the birth date.\ncontains_birthdate: true\nbirth_year: 1954",
+        "url": "https://en.wikipedia.org/wiki/Josette_Sheeran",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.5269166480848578,
+        "rerank_score": 0.8945781
+      },
+      {
+        "chunk_id": 3955,
+        "person_name": "Josette S. Sheeran",
+        "contains_birth_info": true,
+        "extracted_year": 1954,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The chunk contains two clear birth cues: \"Born June 12, 1954\" and \"born 12 June 1954\", both with a full date.\n- step2: Both cues are directly associated with Josette Sheeran in the \"Personal details\" section and in the introductory paragraph about her, making it unambiguous that these dates refer to her.\n- step3: The year 1954 is explicitly stated in both instances, and there is no conflicting information.",
+        "raw_llm_output": "reasoning:\n- step1: The chunk contains two clear birth cues: \"Born June 12, 1954\" and \"born 12 June 1954\", both with a full date.\n- step2: Both cues are directly associated with Josette Sheeran in the \"Personal details\" section and in the introductory paragraph about her, making it unambiguous that these dates refer to her.\n- step3: The year 1954 is explicitly stated in both instances, and there is no conflicting information.\ncontains_birthdate: true\nbirth_year: 1954",
+        "url": "https://www.tparents.org/Library/Unification/Talks5/Sheeran/Sheeran-190119.pdf",
+        "domain": "tparents.org",
+        "chunk_index": 0,
+        "similarity": 0.5063096625635395,
+        "rerank_score": 0.8891543
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "verified",
+    "birth_year": 1954,
+    "independent_source_count": 2,
+    "total_extractions": 2,
+    "year_ledgers": {
+      "1954": {
+        "year": 1954,
+        "count": 2,
+        "domains": [
+          "en.wikipedia.org",
+          "tparents.org"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 3931,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Josette_Sheeran",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 3955,
+            "domain": "tparents.org",
+            "url": "https://www.tparents.org/Library/Unification/Talks5/Sheeran/Sheeran-190119.pdf",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Josette S. Sheeran\nVerification completed: 2025-11-26 00:45:11 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: en.wikipedia.org, tparents.org\nSimilarity scores ranged from 0.293 to 0.527\nRerank scores ranged from 0.316 to 0.895\n\nEXTRACTION PHASE\nScanned 2 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1954\n\nVERIFICATION PHASE\nVerification status: verified\nIndependent source count: 2\nVerified birth year: 1954\nSupporting domains: en.wikipedia.org, tparents.org\nSupporting extractions: 2\nEvidence types: born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

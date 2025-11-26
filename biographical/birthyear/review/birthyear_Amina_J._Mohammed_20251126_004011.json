@@ -1,0 +1,115 @@
+{
+  "person_name": "Amina J. Mohammed",
+  "timestamp": "2025-11-26T00:40:11.760464",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 3532,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Amina_J._Mohammed",
+        "similarity": 0.5293109135457225,
+        "rerank_score": 0.90289277
+      },
+      {
+        "chunk_id": 3552,
+        "domain": "planetarysecurityinitiative.org",
+        "url": "https://www.planetarysecurityinitiative.org/speaker/amina-j-mohammed",
+        "similarity": 0.5368268990422095,
+        "rerank_score": 0.8548001
+      },
+      {
+        "chunk_id": 3539,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Amina_J._Mohammed",
+        "similarity": 0.47033645796824136,
+        "rerank_score": 0.7251239
+      },
+      {
+        "chunk_id": 3563,
+        "domain": "facebook.com",
+        "url": "https://www.facebook.com/HistoricalNigeria/posts/amina-jane-mohammed-gconborn-27-june-1961-is-a-nigerian-british-diplomat-and-pol/122225949998189242/",
+        "similarity": 0.5018606013512902,
+        "rerank_score": 0.7125728
+      },
+      {
+        "chunk_id": 3555,
+        "domain": "educationcannotwait.org",
+        "url": "https://www.educationcannotwait.org/news-stories/featured-content/education-cannot-wait-interviews-amina-j-mohammed-deputy-secretary",
+        "similarity": 0.3212989307038815,
+        "rerank_score": 0.5518883
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 2,
+    "extractions": [
+      {
+        "chunk_id": 3532,
+        "person_name": "Amina J. Mohammed",
+        "contains_birth_info": true,
+        "extracted_year": 1961,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The chunk contains a clear birth date string \"27 June 1961\" associated with the phrase \"Born Amina Jane Mohammed\".\n- step2: The birth date is directly linked to Amina J. Mohammed in the \"Personal details\" section, with no ambiguity.\n- step3: The year 1961 is explicitly stated in the date string.",
+        "raw_llm_output": "reasoning:\n- step1: The chunk contains a clear birth date string \"27 June 1961\" associated with the phrase \"Born Amina Jane Mohammed\".\n- step2: The birth date is directly linked to Amina J. Mohammed in the \"Personal details\" section, with no ambiguity.\n- step3: The year 1961 is explicitly stated in the date string.\ncontains_birthdate: true\nbirth_year: 1961",
+        "url": "https://en.wikipedia.org/wiki/Amina_J._Mohammed",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.5293109135457225,
+        "rerank_score": 0.90289277
+      },
+      {
+        "chunk_id": 3552,
+        "person_name": "Amina J. Mohammed",
+        "contains_birth_info": true,
+        "extracted_year": 1961,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: Two birth cues found: \"was born on 27th of June 1961\" and \"was born 1961 in Kaduna State.\"  \n- step2: Both cues clearly refer to Amina J. Mohammed, with the first being more explicit and directly tied to her name.  \n- step3: The first cue provides a full date (27th June 1961), but the year 1961 is consistent across both cues.",
+        "raw_llm_output": "reasoning:  \n- step1: Two birth cues found: \"was born on 27th of June 1961\" and \"was born 1961 in Kaduna State.\"  \n- step2: Both cues clearly refer to Amina J. Mohammed, with the first being more explicit and directly tied to her name.  \n- step3: The first cue provides a full date (27th June 1961), but the year 1961 is consistent across both cues.  \ncontains_birthdate: true  \nbirth_year: 1961",
+        "url": "https://www.planetarysecurityinitiative.org/speaker/amina-j-mohammed",
+        "domain": "planetarysecurityinitiative.org",
+        "chunk_index": 0,
+        "similarity": 0.5368268990422095,
+        "rerank_score": 0.8548001
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "verified",
+    "birth_year": 1961,
+    "independent_source_count": 2,
+    "total_extractions": 2,
+    "year_ledgers": {
+      "1961": {
+        "year": 1961,
+        "count": 2,
+        "domains": [
+          "en.wikipedia.org",
+          "planetarysecurityinitiative.org"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 3532,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Amina_J._Mohammed",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 3552,
+            "domain": "planetarysecurityinitiative.org",
+            "url": "https://www.planetarysecurityinitiative.org/speaker/amina-j-mohammed",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Amina J. Mohammed\nVerification completed: 2025-11-26 00:40:11 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: educationcannotwait.org, en.wikipedia.org, planetarysecurityinitiative.org, facebook.com\nSimilarity scores ranged from 0.253 to 0.537\nRerank scores ranged from 0.452 to 0.903\n\nEXTRACTION PHASE\nScanned 2 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1961\n\nVERIFICATION PHASE\nVerification status: verified\nIndependent source count: 2\nVerified birth year: 1961\nSupporting domains: en.wikipedia.org, planetarysecurityinitiative.org\nSupporting extractions: 2\nEvidence types: born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

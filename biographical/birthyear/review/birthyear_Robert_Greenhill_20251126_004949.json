@@ -1,0 +1,219 @@
+{
+  "person_name": "Robert Greenhill",
+  "timestamp": "2025-11-26T00:49:49.295860",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 3779,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Robert_G._Greenhill",
+        "similarity": 0.5099359635942639,
+        "rerank_score": 0.8565368
+      },
+      {
+        "chunk_id": 3781,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Robert_G._Greenhill",
+        "similarity": 0.4252205991353059,
+        "rerank_score": 0.7274535
+      },
+      {
+        "chunk_id": 3785,
+        "domain": "un.org",
+        "url": "https://www.un.org/spanish/events/panel/html/greenhill.html",
+        "similarity": 0.4312527000846105,
+        "rerank_score": 0.49992734
+      },
+      {
+        "chunk_id": 3784,
+        "domain": "debategraph.org",
+        "url": "https://debategraph.org/Details.aspx?nid=701604",
+        "similarity": 0.43434167702545623,
+        "rerank_score": 0.4787
+      },
+      {
+        "chunk_id": 3789,
+        "domain": "foreignpolicy.com",
+        "url": "https://foreignpolicy.com/author/robert-greenhill/",
+        "similarity": 0.45692027176604877,
+        "rerank_score": 0.42448413
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 10,
+    "extractions": [
+      {
+        "chunk_id": 3779,
+        "person_name": "Robert Greenhill",
+        "contains_birth_info": true,
+        "extracted_year": 1962,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains the phrase \"born 1962\" directly after the name \"Robert Gordon Greenhill\".\n- step2: The birth year is explicitly tied to Robert Gordon Greenhill, matching the PERSON_NAME Robert Greenhill, with the middle initial providing additional confirmation.\n- step3: The year 1962 is clearly stated and is the most precise information available.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains the phrase \"born 1962\" directly after the name \"Robert Gordon Greenhill\".\n- step2: The birth year is explicitly tied to Robert Gordon Greenhill, matching the PERSON_NAME Robert Greenhill, with the middle initial providing additional confirmation.\n- step3: The year 1962 is clearly stated and is the most precise information available.\ncontains_birthdate: true\nbirth_year: 1962",
+        "url": "https://en.wikipedia.org/wiki/Robert_G._Greenhill",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.5099359635942639,
+        "rerank_score": 0.8565368
+      },
+      {
+        "chunk_id": 3781,
+        "person_name": "Robert Greenhill",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: The chunk contains a category label \"1962 births\" which could indicate a birth year, but it is not directly associated with Robert Greenhill's name.\n- step2: The category label is part of a general categorization system and not a direct statement about Robert Greenhill's birth year. There are no explicit cues or dates directly linking to Robert Greenhill's birth.\n- step3: Since the \"1962 births\" category is not explicitly tied to Robert Greenhill and lacks strong cues, it cannot be confidently used to determine his birth year.",
+        "raw_llm_output": "reasoning:\n- step1: The chunk contains a category label \"1962 births\" which could indicate a birth year, but it is not directly associated with Robert Greenhill's name.\n- step2: The category label is part of a general categorization system and not a direct statement about Robert Greenhill's birth year. There are no explicit cues or dates directly linking to Robert Greenhill's birth.\n- step3: Since the \"1962 births\" category is not explicitly tied to Robert Greenhill and lacks strong cues, it cannot be confidently used to determine his birth year.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://en.wikipedia.org/wiki/Robert_G._Greenhill",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 2,
+        "similarity": 0.4252205991353059,
+        "rerank_score": 0.7274535
+      },
+      {
+        "chunk_id": 3785,
+        "person_name": "Robert Greenhill",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: The only birth-related cue is \"Born in Alberta\", but no specific date or year is mentioned.\n- step2: The cue clearly refers to Robert Greenhill, but lacks a date.\n- step3: No year can be determined from the available information.",
+        "raw_llm_output": "reasoning:\n- step1: The only birth-related cue is \"Born in Alberta\", but no specific date or year is mentioned.\n- step2: The cue clearly refers to Robert Greenhill, but lacks a date.\n- step3: No year can be determined from the available information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://www.un.org/spanish/events/panel/html/greenhill.html",
+        "domain": "un.org",
+        "chunk_index": 0,
+        "similarity": 0.4312527000846105,
+        "rerank_score": 0.49992734
+      },
+      {
+        "chunk_id": 3784,
+        "person_name": "Robert Greenhill",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings related to Robert Greenhill are found in the chunk.\n- step2: The chunk mentions Robert Greenhill in a biographical context but lacks any birth-related information.\n- step3: No year or date is available for selection.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings related to Robert Greenhill are found in the chunk.\n- step2: The chunk mentions Robert Greenhill in a biographical context but lacks any birth-related information.\n- step3: No year or date is available for selection.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://debategraph.org/Details.aspx?nid=701604",
+        "domain": "debategraph.org",
+        "chunk_index": 1,
+        "similarity": 0.43434167702545623,
+        "rerank_score": 0.4787
+      },
+      {
+        "chunk_id": 3789,
+        "person_name": "Robert Greenhill",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings related to Robert Greenhill are found in the chunk.\n- step2: No disambiguation needed as there are no birth-related dates mentioned.\n- step3: No year selection possible due to absence of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings related to Robert Greenhill are found in the chunk.\n- step2: No disambiguation needed as there are no birth-related dates mentioned.\n- step3: No year selection possible due to absence of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://foreignpolicy.com/author/robert-greenhill/",
+        "domain": "foreignpolicy.com",
+        "chunk_index": 0,
+        "similarity": 0.45692027176604877,
+        "rerank_score": 0.42448413
+      },
+      {
+        "chunk_id": 3783,
+        "person_name": "Robert Greenhill",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings found in the chunk.\n- step2: N/A, as no birth information is present.\n- step3: N/A, as no birth information is present.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings found in the chunk.\n- step2: N/A, as no birth information is present.\n- step3: N/A, as no birth information is present.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://debategraph.org/Details.aspx?nid=701604",
+        "domain": "debategraph.org",
+        "chunk_index": 0,
+        "similarity": 0.478133517181136,
+        "rerank_score": 0.39943734
+      },
+      {
+        "chunk_id": 3780,
+        "person_name": "Robert Greenhill",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: The text contains dates (2008, 2014, 2015, 1984, 1986, 1987), but none are explicitly linked to Robert Greenhill's birth.\n- step2: No birth cues (\"born\", \"date of birth\", etc.) are present, and the dates mentioned are related to career milestones or education.\n- step3: Since no birth-related information is provided, determining a birth year is impossible.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains dates (2008, 2014, 2015, 1984, 1986, 1987), but none are explicitly linked to Robert Greenhill's birth.\n- step2: No birth cues (\"born\", \"date of birth\", etc.) are present, and the dates mentioned are related to career milestones or education.\n- step3: Since no birth-related information is provided, determining a birth year is impossible.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://en.wikipedia.org/wiki/Robert_G._Greenhill",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 1,
+        "similarity": 0.40263658348837467,
+        "rerank_score": 0.3058222
+      },
+      {
+        "chunk_id": 3786,
+        "person_name": "Robert Greenhill",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings related to Robert Greenhill are found in the text.\n- step2: N/A, as no birth information is present.\n- step3: N/A, as no birth year is available.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings related to Robert Greenhill are found in the text.\n- step2: N/A, as no birth information is present.\n- step3: N/A, as no birth year is available.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://globalleadershipsummit.ca/speakers/robert-greenhill/",
+        "domain": "globalleadershipsummit.ca",
+        "chunk_index": 0,
+        "similarity": 0.4581461360745227,
+        "rerank_score": 0.28320166
+      },
+      {
+        "chunk_id": 3782,
+        "person_name": "Robert Greenhill",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings found in the chunk.\n- step2: No disambiguation needed as no dates are present.\n- step3: No year selection possible due to absence of dates.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings found in the chunk.\n- step2: No disambiguation needed as no dates are present.\n- step3: No year selection possible due to absence of dates.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://en.wikipedia.org/wiki/Robert_G._Greenhill",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 3,
+        "similarity": 0.47050491814924345,
+        "rerank_score": 0.2767643
+      },
+      {
+        "chunk_id": 3791,
+        "person_name": "Robert Greenhill",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings related to Robert Greenhill are found in the chunk.\n- step2: The text focuses on Robert Greenhill's professional background, roles, and achievements, but does not mention any personal details like birth date.\n- step3: Since no birth date information is present, year selection is not applicable.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings related to Robert Greenhill are found in the chunk.\n- step2: The text focuses on Robert Greenhill's professional background, roles, and achievements, but does not mention any personal details like birth date.\n- step3: Since no birth date information is present, year selection is not applicable.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://www.global-canada.org/about",
+        "domain": "global-canada.org",
+        "chunk_index": 1,
+        "similarity": 0.26122186991527,
+        "rerank_score": 0.26748034
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "no_corroboration",
+    "birth_year": 1962,
+    "independent_source_count": 1,
+    "total_extractions": 10,
+    "year_ledgers": {
+      "1962": {
+        "year": 1962,
+        "count": 1,
+        "domains": [
+          "en.wikipedia.org"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 3779,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Robert_G._Greenhill",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Robert Greenhill\nVerification completed: 2025-11-26 00:49:49 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: un.org, debategraph.org, en.wikipedia.org, foreignpolicy.com\nSimilarity scores ranged from 0.261 to 0.510\nRerank scores ranged from 0.267 to 0.857\n\nEXTRACTION PHASE\nScanned 10 chunks for birth information\nFound birth information in 1 chunks\nYears extracted: 1962\n\nVERIFICATION PHASE\nVerification status: no_corroboration\nIndependent source count: 1\nVerified birth year: 1962\nSupporting domains: en.wikipedia.org\nSupporting extractions: 1\nEvidence types: born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

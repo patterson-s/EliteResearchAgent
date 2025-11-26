@@ -1,0 +1,115 @@
+{
+  "person_name": "Benjamin W. Mkapa",
+  "timestamp": "2025-11-26T00:40:32.300982",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 3914,
+        "domain": "interactioncouncil.org",
+        "url": "https://www.interactioncouncil.org/about-us/members/memoriam/benjamin-william-mkapa",
+        "similarity": 0.5291278901918532,
+        "rerank_score": 0.90633047
+      },
+      {
+        "chunk_id": 3905,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Benjamin_Mkapa",
+        "similarity": 0.5680408691579968,
+        "rerank_score": 0.8939131
+      },
+      {
+        "chunk_id": 3911,
+        "domain": "tzembassy.go.tz",
+        "url": "https://www.tzembassy.go.tz/ambassadors/view/benjamin-w-mkapa",
+        "similarity": 0.5835367593644982,
+        "rerank_score": 0.85967577
+      },
+      {
+        "chunk_id": 3915,
+        "domain": "southcentre.int",
+        "url": "https://www.southcentre.int/board-members/benjamin-william-mkapa/",
+        "similarity": 0.49201470501308553,
+        "rerank_score": 0.7823471
+      },
+      {
+        "chunk_id": 3925,
+        "domain": "us.tzembassy.go.tz",
+        "url": "https://www.us.tzembassy.go.tz/resources/view/official-biography-of-the-late-former-president-of-the-united-republic-of-tanzania",
+        "similarity": 0.5100151682828996,
+        "rerank_score": 0.77199864
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 2,
+    "extractions": [
+      {
+        "chunk_id": 3914,
+        "person_name": "Benjamin W. Mkapa",
+        "contains_birth_info": true,
+        "extracted_year": 1938,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date cue \"Born 12 November 1938\" and another date \"Died July 2020\", but the birth date is the focus.\n- step2: The birth date is directly associated with Benjamin W. Mkapa in the \"Date and place of birth\" section, leaving no ambiguity.\n- step3: The year 1938 is explicitly mentioned as part of the birth date.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date cue \"Born 12 November 1938\" and another date \"Died July 2020\", but the birth date is the focus.\n- step2: The birth date is directly associated with Benjamin W. Mkapa in the \"Date and place of birth\" section, leaving no ambiguity.\n- step3: The year 1938 is explicitly mentioned as part of the birth date.\ncontains_birthdate: true\nbirth_year: 1938",
+        "url": "https://www.interactioncouncil.org/about-us/members/memoriam/benjamin-william-mkapa",
+        "domain": "interactioncouncil.org",
+        "chunk_index": 0,
+        "similarity": 0.5291278901918532,
+        "rerank_score": 0.90633047
+      },
+      {
+        "chunk_id": 3905,
+        "person_name": "Benjamin W. Mkapa",
+        "contains_birth_info": true,
+        "extracted_year": 1938,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date \"12 November 1938\" associated with the name \"Benjamin William Mkapa\".\n- step2: The birth date is directly linked to Benjamin Mkapa in the \"Personal details\" section, with no ambiguity.\n- step3: The year 1938 is explicitly stated as the birth year.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date \"12 November 1938\" associated with the name \"Benjamin William Mkapa\".\n- step2: The birth date is directly linked to Benjamin Mkapa in the \"Personal details\" section, with no ambiguity.\n- step3: The year 1938 is explicitly stated as the birth year.\ncontains_birthdate: true\nbirth_year: 1938",
+        "url": "https://en.wikipedia.org/wiki/Benjamin_Mkapa",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.5680408691579968,
+        "rerank_score": 0.8939131
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "verified",
+    "birth_year": 1938,
+    "independent_source_count": 2,
+    "total_extractions": 2,
+    "year_ledgers": {
+      "1938": {
+        "year": 1938,
+        "count": 2,
+        "domains": [
+          "en.wikipedia.org",
+          "interactioncouncil.org"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 3914,
+            "domain": "interactioncouncil.org",
+            "url": "https://www.interactioncouncil.org/about-us/members/memoriam/benjamin-william-mkapa",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 3905,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Benjamin_Mkapa",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Benjamin W. Mkapa\nVerification completed: 2025-11-26 00:40:32 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: tzembassy.go.tz, southcentre.int, interactioncouncil.org, en.wikipedia.org, us.tzembassy.go.tz\nSimilarity scores ranged from 0.463 to 0.584\nRerank scores ranged from 0.437 to 0.906\n\nEXTRACTION PHASE\nScanned 2 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1938\n\nVERIFICATION PHASE\nVerification status: verified\nIndependent source count: 2\nVerified birth year: 1938\nSupporting domains: en.wikipedia.org, interactioncouncil.org\nSupporting extractions: 2\nEvidence types: born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

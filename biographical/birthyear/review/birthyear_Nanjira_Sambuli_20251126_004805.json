@@ -1,0 +1,226 @@
+{
+  "person_name": "Nanjira Sambuli",
+  "timestamp": "2025-11-26T00:48:05.136089",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 1153,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Nanjira_Sambuli",
+        "similarity": 0.6057497056813806,
+        "rerank_score": 0.90102744
+      },
+      {
+        "chunk_id": 1155,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Nanjira_Sambuli",
+        "similarity": 0.5361635366099888,
+        "rerank_score": 0.75181264
+      },
+      {
+        "chunk_id": 1177,
+        "domain": "techherng.com",
+        "url": "https://techherng.com/nanjira-sambuli/",
+        "similarity": 0.49910793137118153,
+        "rerank_score": 0.6641271
+      },
+      {
+        "chunk_id": 1171,
+        "domain": "techherng.com",
+        "url": "https://techherng.com/nanjira-sambuli/",
+        "similarity": 0.2197790835848895,
+        "rerank_score": 0.45595008
+      },
+      {
+        "chunk_id": 1166,
+        "domain": "istanbulinnovationdays.org",
+        "url": "https://istanbulinnovationdays.org/speaker/nanjira/",
+        "similarity": 0.4828568050643622,
+        "rerank_score": 0.44608507
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 10,
+    "extractions": [
+      {
+        "chunk_id": 1153,
+        "person_name": "Nanjira Sambuli",
+        "contains_birth_info": true,
+        "extracted_year": 1988,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains the phrase \"Born / Nanjira Sambuli / 1988 (age 36–37)\" and \"(born in 1988)\", both indicating a birth year.  \n- step2: Both instances clearly refer to Nanjira Sambuli, with no ambiguity or mention of other individuals with birth dates.  \n- step3: The year 1988 is explicitly stated and consistent across both references.",
+        "raw_llm_output": "reasoning:  \n- step1: The text contains the phrase \"Born / Nanjira Sambuli / 1988 (age 36–37)\" and \"(born in 1988)\", both indicating a birth year.  \n- step2: Both instances clearly refer to Nanjira Sambuli, with no ambiguity or mention of other individuals with birth dates.  \n- step3: The year 1988 is explicitly stated and consistent across both references.  \ncontains_birthdate: true  \nbirth_year: 1988",
+        "url": "https://en.wikipedia.org/wiki/Nanjira_Sambuli",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.6057497056813806,
+        "rerank_score": 0.90102744
+      },
+      {
+        "chunk_id": 1155,
+        "person_name": "Nanjira Sambuli",
+        "contains_birth_info": true,
+        "extracted_year": 1988,
+        "evidence_type": "category",
+        "reasoning": "- step1: The chunk contains dates like \"9 July\", \"2021\", \"14 December 2017\", and \"1988 births\". The phrase \"1988 births\" is a strong birth year cue.\n- step2: The phrase \"1988 births\" is found in the \"Categories\" section directly under Nanjira Sambuli's name, clearly referring to her.\n- step3: The year \"1988\" is explicitly mentioned as the birth year.",
+        "raw_llm_output": "reasoning:\n- step1: The chunk contains dates like \"9 July\", \"2021\", \"14 December 2017\", and \"1988 births\". The phrase \"1988 births\" is a strong birth year cue.\n- step2: The phrase \"1988 births\" is found in the \"Categories\" section directly under Nanjira Sambuli's name, clearly referring to her.\n- step3: The year \"1988\" is explicitly mentioned as the birth year.\ncontains_birthdate: true\nbirth_year: 1988",
+        "url": "https://en.wikipedia.org/wiki/Nanjira_Sambuli",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 2,
+        "similarity": 0.5361635366099888,
+        "rerank_score": 0.75181264
+      },
+      {
+        "chunk_id": 1177,
+        "person_name": "Nanjira Sambuli",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as there are no birth-related information.\n- step3: No year selection possible due to absence of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as there are no birth-related information.\n- step3: No year selection possible due to absence of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://techherng.com/nanjira-sambuli/",
+        "domain": "techherng.com",
+        "chunk_index": 9,
+        "similarity": 0.49910793137118153,
+        "rerank_score": 0.6641271
+      },
+      {
+        "chunk_id": 1171,
+        "person_name": "Nanjira Sambuli",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No explicit birth cues or date strings are present in the chunk.\n- step2: No information related to Nanjira Sambuli's birthdate is mentioned.\n- step3: No year or date can be extracted as there is no relevant information.",
+        "raw_llm_output": "reasoning:\n- step1: No explicit birth cues or date strings are present in the chunk.\n- step2: No information related to Nanjira Sambuli's birthdate is mentioned.\n- step3: No year or date can be extracted as there is no relevant information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://techherng.com/nanjira-sambuli/",
+        "domain": "techherng.com",
+        "chunk_index": 3,
+        "similarity": 0.2197790835848895,
+        "rerank_score": 0.45595008
+      },
+      {
+        "chunk_id": 1166,
+        "person_name": "Nanjira Sambuli",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings are present in the chunk.\n- step2: N/A, as no birth information is mentioned.\n- step3: N/A, as no birth year is available.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings are present in the chunk.\n- step2: N/A, as no birth information is mentioned.\n- step3: N/A, as no birth year is available.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://istanbulinnovationdays.org/speaker/nanjira/",
+        "domain": "istanbulinnovationdays.org",
+        "chunk_index": 0,
+        "similarity": 0.4828568050643622,
+        "rerank_score": 0.44608507
+      },
+      {
+        "chunk_id": 1158,
+        "person_name": "Nanjira Sambuli",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings found in the chunk.  \n- step2: No disambiguation needed as no birth-related information is present.  \n- step3: No year selection possible due to absence of birth information.",
+        "raw_llm_output": "reasoning:  \n- step1: No birth cues or date strings found in the chunk.  \n- step2: No disambiguation needed as no birth-related information is present.  \n- step3: No year selection possible due to absence of birth information.  \ncontains_birthdate: false  \nbirth_year: null",
+        "url": "https://ke.linkedin.com/in/nanjira",
+        "domain": "ke.linkedin.com",
+        "chunk_index": 1,
+        "similarity": 0.47575329535485344,
+        "rerank_score": 0.43395805
+      },
+      {
+        "chunk_id": 1179,
+        "person_name": "Nanjira Sambuli",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings are present in the chunk.\n- step2: The chunk only lists names and brief descriptions without any birth-related information.\n- step3: No year selection is possible as there are no dates mentioned.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings are present in the chunk.\n- step2: The chunk only lists names and brief descriptions without any birth-related information.\n- step3: No year selection is possible as there are no dates mentioned.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://techherng.com/nanjira-sambuli/",
+        "domain": "techherng.com",
+        "chunk_index": 11,
+        "similarity": 0.22516599444593685,
+        "rerank_score": 0.42319635
+      },
+      {
+        "chunk_id": 1181,
+        "person_name": "Nanjira Sambuli",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings found in the chunk.\n- step2: No disambiguation needed as no birth information is present.\n- step3: Year selection impossible due to lack of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings found in the chunk.\n- step2: No disambiguation needed as no birth information is present.\n- step3: Year selection impossible due to lack of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://www.concordia.net/community/nanjira-sambuli/",
+        "domain": "concordia.net",
+        "chunk_index": 0,
+        "similarity": 0.5260232694231152,
+        "rerank_score": 0.40105483
+      },
+      {
+        "chunk_id": 1180,
+        "person_name": "Nanjira Sambuli",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings related to birth are found in the chunk.\n- step2: No disambiguation needed as there are no birth-related dates mentioned.\n- step3: No year selection possible due to absence of birth-related information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings related to birth are found in the chunk.\n- step2: No disambiguation needed as there are no birth-related dates mentioned.\n- step3: No year selection possible due to absence of birth-related information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://www.diplomacy.edu/people/nanjira-sambuli/",
+        "domain": "diplomacy.edu",
+        "chunk_index": 0,
+        "similarity": 0.3866283639999688,
+        "rerank_score": 0.38783002
+      },
+      {
+        "chunk_id": 1156,
+        "person_name": "Nanjira Sambuli",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as no birth-related information is mentioned.\n- step3: No year selection possible due to absence of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as no birth-related information is mentioned.\n- step3: No year selection possible due to absence of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://carnegieendowment.org/people/nanjira-sambuli?lang=en",
+        "domain": "carnegieendowment.org",
+        "chunk_index": 0,
+        "similarity": 0.5049886944976439,
+        "rerank_score": 0.3753177
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "no_corroboration",
+    "birth_year": 1988,
+    "independent_source_count": 1,
+    "total_extractions": 10,
+    "year_ledgers": {
+      "1988": {
+        "year": 1988,
+        "count": 1,
+        "domains": [
+          "en.wikipedia.org"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 1153,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Nanjira_Sambuli",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 1155,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Nanjira_Sambuli",
+            "evidence_type": "category",
+            "quality_rank": 3
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Nanjira Sambuli\nVerification completed: 2025-11-26 00:48:05 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: istanbulinnovationdays.org, techherng.com, en.wikipedia.org\nSimilarity scores ranged from 0.220 to 0.606\nRerank scores ranged from 0.375 to 0.901\n\nEXTRACTION PHASE\nScanned 10 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1988\n\nVERIFICATION PHASE\nVerification status: no_corroboration\nIndependent source count: 1\nVerified birth year: 1988\nSupporting domains: en.wikipedia.org\nSupporting extractions: 2\nEvidence types: category, born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

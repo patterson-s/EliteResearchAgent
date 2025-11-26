@@ -1,0 +1,115 @@
+{
+  "person_name": "Tawakkol Karman",
+  "timestamp": "2025-11-26T00:51:17.882748",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 3479,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Tawakkol_Karman",
+        "similarity": 0.6425071221436046,
+        "rerank_score": 0.9220975
+      },
+      {
+        "chunk_id": 3508,
+        "domain": "mediatheque.lindau-nobel.org",
+        "url": "https://mediatheque.lindau-nobel.org/laureates/karman/cv",
+        "similarity": 0.5851670081606516,
+        "rerank_score": 0.85797083
+      },
+      {
+        "chunk_id": 3507,
+        "domain": "britannica.com",
+        "url": "https://www.britannica.com/biography/Tawakkul-Karman",
+        "similarity": 0.5190377584710855,
+        "rerank_score": 0.8573986
+      },
+      {
+        "chunk_id": 3517,
+        "domain": "awpc.cattcenter.iastate.edu",
+        "url": "https://awpc.cattcenter.iastate.edu/directory/tawakkol-karman/",
+        "similarity": 0.621814409049527,
+        "rerank_score": 0.85097736
+      },
+      {
+        "chunk_id": 3506,
+        "domain": "britannica.com",
+        "url": "https://www.britannica.com/biography/Tawakkul-Karman",
+        "similarity": 0.6092503301712322,
+        "rerank_score": 0.8488849
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 2,
+    "extractions": [
+      {
+        "chunk_id": 3479,
+        "person_name": "Tawakkol Karman",
+        "contains_birth_info": true,
+        "extracted_year": 1979,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date cue \"born 7 February 1979\" directly associated with Tawakkol Karman.\n- step2: The date is unambiguously linked to Tawakkol Karman as it appears in her biographical section under her name.\n- step3: The year 1979 is explicitly stated in the birth date.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date cue \"born 7 February 1979\" directly associated with Tawakkol Karman.\n- step2: The date is unambiguously linked to Tawakkol Karman as it appears in her biographical section under her name.\n- step3: The year 1979 is explicitly stated in the birth date.\ncontains_birthdate: true\nbirth_year: 1979",
+        "url": "https://en.wikipedia.org/wiki/Tawakkol_Karman",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.6425071221436046,
+        "rerank_score": 0.9220975
+      },
+      {
+        "chunk_id": 3508,
+        "person_name": "Tawakkol Karman",
+        "contains_birth_info": true,
+        "extracted_year": 1979,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth cue \"born\" followed by the date \"7 February 1979\".\n- step2: The date is directly associated with Tawakkol Karman's name in the sentence \"Tawakkol Karman (born 7 February 1979...)\", making it unambiguous.\n- step3: The year 1979 is explicitly stated in the date.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth cue \"born\" followed by the date \"7 February 1979\".\n- step2: The date is directly associated with Tawakkol Karman's name in the sentence \"Tawakkol Karman (born 7 February 1979...)\", making it unambiguous.\n- step3: The year 1979 is explicitly stated in the date.\ncontains_birthdate: true\nbirth_year: 1979",
+        "url": "https://mediatheque.lindau-nobel.org/laureates/karman/cv",
+        "domain": "mediatheque.lindau-nobel.org",
+        "chunk_index": 0,
+        "similarity": 0.5851670081606516,
+        "rerank_score": 0.85797083
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "verified",
+    "birth_year": 1979,
+    "independent_source_count": 2,
+    "total_extractions": 2,
+    "year_ledgers": {
+      "1979": {
+        "year": 1979,
+        "count": 2,
+        "domains": [
+          "en.wikipedia.org",
+          "mediatheque.lindau-nobel.org"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 3479,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Tawakkol_Karman",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 3508,
+            "domain": "mediatheque.lindau-nobel.org",
+            "url": "https://mediatheque.lindau-nobel.org/laureates/karman/cv",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Tawakkol Karman\nVerification completed: 2025-11-26 00:51:17 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: britannica.com, en.wikipedia.org, mediatheque.lindau-nobel.org, awpc.cattcenter.iastate.edu\nSimilarity scores ranged from 0.510 to 0.643\nRerank scores ranged from 0.498 to 0.922\n\nEXTRACTION PHASE\nScanned 2 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1979\n\nVERIFICATION PHASE\nVerification status: verified\nIndependent source count: 2\nVerified birth year: 1979\nSupporting domains: en.wikipedia.org, mediatheque.lindau-nobel.org\nSupporting extractions: 2\nEvidence types: born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

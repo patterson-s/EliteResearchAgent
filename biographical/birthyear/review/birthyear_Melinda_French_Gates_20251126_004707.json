@@ -1,0 +1,115 @@
+{
+  "person_name": "Melinda French Gates",
+  "timestamp": "2025-11-26T00:47:07.551046",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 639,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Melinda_French_Gates",
+        "similarity": 0.6733623458169808,
+        "rerank_score": 0.9152729
+      },
+      {
+        "chunk_id": 677,
+        "domain": "biography.com",
+        "url": "https://www.biography.com/business-leaders/melinda-gates",
+        "similarity": 0.6165590167912065,
+        "rerank_score": 0.90633047
+      },
+      {
+        "chunk_id": 640,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Melinda_French_Gates",
+        "similarity": 0.6011496288817342,
+        "rerank_score": 0.85567063
+      },
+      {
+        "chunk_id": 671,
+        "domain": "womenshistory.org",
+        "url": "https://www.womenshistory.org/education-resources/biographies/melinda-gates",
+        "similarity": 0.6062343704993584,
+        "rerank_score": 0.8245895
+      },
+      {
+        "chunk_id": 645,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Melinda_French_Gates",
+        "similarity": 0.535675052732079,
+        "rerank_score": 0.7711725
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 2,
+    "extractions": [
+      {
+        "chunk_id": 639,
+        "person_name": "Melinda French Gates",
+        "contains_birth_info": true,
+        "extracted_year": 1964,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date cue \"born 1964\" and a full date \"August 15, 1964\" associated with Melinda French Gates.\n- step2: The birth date is directly linked to Melinda French Gates in the introductory section and is not associated with any other person.\n- step3: The year 1964 is explicitly stated and is the most precise year available.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date cue \"born 1964\" and a full date \"August 15, 1964\" associated with Melinda French Gates.\n- step2: The birth date is directly linked to Melinda French Gates in the introductory section and is not associated with any other person.\n- step3: The year 1964 is explicitly stated and is the most precise year available.\ncontains_birthdate: true\nbirth_year: 1964",
+        "url": "https://en.wikipedia.org/wiki/Melinda_French_Gates",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.6733623458169808,
+        "rerank_score": 0.9152729
+      },
+      {
+        "chunk_id": 677,
+        "person_name": "Melinda French Gates",
+        "contains_birth_info": true,
+        "extracted_year": 1964,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The chunk contains two explicit birth cues: \"BORN: August 15, 1964\" and \"Melinda French Gates was born Melinda Ann French on August 15, 1964\".\n- step2: Both cues clearly refer to Melinda French Gates, as they are directly associated with her name in the text.\n- step3: The year 1964 is explicitly mentioned in both instances, making it the clear birth year.",
+        "raw_llm_output": "reasoning:\n- step1: The chunk contains two explicit birth cues: \"BORN: August 15, 1964\" and \"Melinda French Gates was born Melinda Ann French on August 15, 1964\".\n- step2: Both cues clearly refer to Melinda French Gates, as they are directly associated with her name in the text.\n- step3: The year 1964 is explicitly mentioned in both instances, making it the clear birth year.\ncontains_birthdate: true\nbirth_year: 1964",
+        "url": "https://www.biography.com/business-leaders/melinda-gates",
+        "domain": "biography.com",
+        "chunk_index": 1,
+        "similarity": 0.6165590167912065,
+        "rerank_score": 0.90633047
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "verified",
+    "birth_year": 1964,
+    "independent_source_count": 2,
+    "total_extractions": 2,
+    "year_ledgers": {
+      "1964": {
+        "year": 1964,
+        "count": 2,
+        "domains": [
+          "en.wikipedia.org",
+          "biography.com"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 639,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Melinda_French_Gates",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 677,
+            "domain": "biography.com",
+            "url": "https://www.biography.com/business-leaders/melinda-gates",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Melinda French Gates\nVerification completed: 2025-11-26 00:47:07 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: en.wikipedia.org, womenshistory.org, biography.com\nSimilarity scores ranged from 0.503 to 0.673\nRerank scores ranged from 0.520 to 0.915\n\nEXTRACTION PHASE\nScanned 2 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1964\n\nVERIFICATION PHASE\nVerification status: verified\nIndependent source count: 2\nVerified birth year: 1964\nSupporting domains: en.wikipedia.org, biography.com\nSupporting extractions: 2\nEvidence types: born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

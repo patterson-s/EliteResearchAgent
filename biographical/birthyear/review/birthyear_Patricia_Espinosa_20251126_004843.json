@@ -1,0 +1,226 @@
+{
+  "person_name": "Patricia Espinosa",
+  "timestamp": "2025-11-26T00:48:43.828399",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 3196,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Patricia_Espinosa",
+        "similarity": 0.5423364107855325,
+        "rerank_score": 0.8909888
+      },
+      {
+        "chunk_id": 3198,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Patricia_Espinosa",
+        "similarity": 0.4917307300387568,
+        "rerank_score": 0.71137124
+      },
+      {
+        "chunk_id": 3206,
+        "domain": "graduateinstitute.ch",
+        "url": "https://www.graduateinstitute.ch/inspiring-stories/patricia-espinosa",
+        "similarity": 0.449323550400032,
+        "rerank_score": 0.44521654
+      },
+      {
+        "chunk_id": 3200,
+        "domain": "un.org",
+        "url": "https://www.un.org/sg/en/management/bios/Espinosa.shtml",
+        "similarity": 0.41537095462443124,
+        "rerank_score": 0.392221
+      },
+      {
+        "chunk_id": 3199,
+        "domain": "rockefellerfoundation.org",
+        "url": "https://www.rockefellerfoundation.org/profiles/patricia-espinosa/",
+        "similarity": 0.449554418919066,
+        "rerank_score": 0.37367067
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 10,
+    "extractions": [
+      {
+        "chunk_id": 3196,
+        "person_name": "Patricia Espinosa",
+        "contains_birth_info": true,
+        "extracted_year": 1958,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date string \"October 21, 1958\" associated with the \"Born\" cue.\n- step2: The birth date is directly linked to Patricia Espinosa Cantellano in the \"Personal details\" section, with no ambiguity.\n- step3: The year 1958 is explicitly stated in the date string.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date string \"October 21, 1958\" associated with the \"Born\" cue.\n- step2: The birth date is directly linked to Patricia Espinosa Cantellano in the \"Personal details\" section, with no ambiguity.\n- step3: The year 1958 is explicitly stated in the date string.\ncontains_birthdate: true\nbirth_year: 1958",
+        "url": "https://en.wikipedia.org/wiki/Patricia_Espinosa",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.5423364107855325,
+        "rerank_score": 0.8909888
+      },
+      {
+        "chunk_id": 3198,
+        "person_name": "Patricia Espinosa",
+        "contains_birth_info": true,
+        "extracted_year": 1958,
+        "evidence_type": "category",
+        "reasoning": "- step1: The chunk contains a category \"1958 births\" which suggests a birth year.\n- step2: This category is directly associated with Patricia Espinosa's name in the Wikipedia entry, indicating it refers to her.\n- step3: The year 1958 is clearly stated and is the most precise information available.",
+        "raw_llm_output": "reasoning:\n- step1: The chunk contains a category \"1958 births\" which suggests a birth year.\n- step2: This category is directly associated with Patricia Espinosa's name in the Wikipedia entry, indicating it refers to her.\n- step3: The year 1958 is clearly stated and is the most precise information available.\ncontains_birthdate: true\nbirth_year: 1958",
+        "url": "https://en.wikipedia.org/wiki/Patricia_Espinosa",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 2,
+        "similarity": 0.4917307300387568,
+        "rerank_score": 0.71137124
+      },
+      {
+        "chunk_id": 3206,
+        "person_name": "Patricia Espinosa",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No explicit birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as there are no birth-related dates mentioned.\n- step3: Year selection is impossible due to the absence of any birth-related information.",
+        "raw_llm_output": "reasoning:\n- step1: No explicit birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as there are no birth-related dates mentioned.\n- step3: Year selection is impossible due to the absence of any birth-related information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://www.graduateinstitute.ch/inspiring-stories/patricia-espinosa",
+        "domain": "graduateinstitute.ch",
+        "chunk_index": 0,
+        "similarity": 0.449323550400032,
+        "rerank_score": 0.44521654
+      },
+      {
+        "chunk_id": 3200,
+        "person_name": "Patricia Espinosa",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings found in the chunk.\n- step2: No disambiguation needed as no birth information is present.\n- step3: Year selection impossible due to lack of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings found in the chunk.\n- step2: No disambiguation needed as no birth information is present.\n- step3: Year selection impossible due to lack of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://www.un.org/sg/en/management/bios/Espinosa.shtml",
+        "domain": "un.org",
+        "chunk_index": 0,
+        "similarity": 0.41537095462443124,
+        "rerank_score": 0.392221
+      },
+      {
+        "chunk_id": 3199,
+        "person_name": "Patricia Espinosa",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings found in the chunk.\n- step2: No disambiguation needed as no dates are mentioned.\n- step3: No year selection possible due to absence of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings found in the chunk.\n- step2: No disambiguation needed as no dates are mentioned.\n- step3: No year selection possible due to absence of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://www.rockefellerfoundation.org/profiles/patricia-espinosa/",
+        "domain": "rockefellerfoundation.org",
+        "chunk_index": 0,
+        "similarity": 0.449554418919066,
+        "rerank_score": 0.37367067
+      },
+      {
+        "chunk_id": 3204,
+        "person_name": "Patricia Espinosa",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation is needed as there are no dates mentioned.\n- step3: No year selection is possible due to the absence of any date information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation is needed as there are no dates mentioned.\n- step3: No year selection is possible due to the absence of any date information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://giwps.georgetown.edu/awardee/patricia-espinosa/",
+        "domain": "giwps.georgetown.edu",
+        "chunk_index": 0,
+        "similarity": 0.47413578092005376,
+        "rerank_score": 0.36772484
+      },
+      {
+        "chunk_id": 3201,
+        "person_name": "Patricia Espinosa",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No explicit birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as no birth-related information is mentioned.\n- step3: No year selection possible due to absence of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No explicit birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as no birth-related information is mentioned.\n- step3: No year selection possible due to absence of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://www.edp.com/en/europe/portugal/patricia-espinosa",
+        "domain": "edp.com",
+        "chunk_index": 0,
+        "similarity": 0.4535605644167445,
+        "rerank_score": 0.3384274
+      },
+      {
+        "chunk_id": 3197,
+        "person_name": "Patricia Espinosa",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings related to birth are found in the chunk.\n- step2: N/A, as no birth-related information is present.\n- step3: N/A, as no birth year is mentioned.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings related to birth are found in the chunk.\n- step2: N/A, as no birth-related information is present.\n- step3: N/A, as no birth year is mentioned.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://en.wikipedia.org/wiki/Patricia_Espinosa",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 1,
+        "similarity": 0.3582695323492162,
+        "rerank_score": 0.2755747
+      },
+      {
+        "chunk_id": 3205,
+        "person_name": "Patricia Espinosa",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as no birth information is mentioned.\n- step3: No year selection possible due to absence of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as no birth information is mentioned.\n- step3: No year selection possible due to absence of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://www.gwlvoices.org/members/patricia-espinosa-cantellano",
+        "domain": "gwlvoices.org",
+        "chunk_index": 0,
+        "similarity": 0.4038394330412713,
+        "rerank_score": 0.2734087
+      },
+      {
+        "chunk_id": 3202,
+        "person_name": "Patricia Espinosa",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings are present in the chunk.\n- step2: N/A, as no birth-related information is mentioned.\n- step3: N/A, as no year or date is available.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings are present in the chunk.\n- step2: N/A, as no birth-related information is mentioned.\n- step3: N/A, as no year or date is available.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://londonspeakerbureau.com/speaker-profile/patricia-espinosa/",
+        "domain": "londonspeakerbureau.com",
+        "chunk_index": 0,
+        "similarity": 0.4800509213727609,
+        "rerank_score": 0.26966777
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "no_corroboration",
+    "birth_year": 1958,
+    "independent_source_count": 1,
+    "total_extractions": 10,
+    "year_ledgers": {
+      "1958": {
+        "year": 1958,
+        "count": 1,
+        "domains": [
+          "en.wikipedia.org"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 3196,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Patricia_Espinosa",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 3198,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Patricia_Espinosa",
+            "evidence_type": "category",
+            "quality_rank": 3
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Patricia Espinosa\nVerification completed: 2025-11-26 00:48:43 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: un.org, en.wikipedia.org, rockefellerfoundation.org, graduateinstitute.ch\nSimilarity scores ranged from 0.358 to 0.542\nRerank scores ranged from 0.270 to 0.891\n\nEXTRACTION PHASE\nScanned 10 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1958\n\nVERIFICATION PHASE\nVerification status: no_corroboration\nIndependent source count: 1\nVerified birth year: 1958\nSupporting domains: en.wikipedia.org\nSupporting extractions: 2\nEvidence types: category, born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

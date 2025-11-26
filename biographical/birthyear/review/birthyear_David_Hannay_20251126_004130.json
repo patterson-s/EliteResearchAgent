@@ -1,0 +1,166 @@
+{
+  "person_name": "David Hannay",
+  "timestamp": "2025-11-26T00:41:30.813669",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 229,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/David_Hannay_(historian)",
+        "similarity": 0.5332222492905612,
+        "rerank_score": 0.91288006
+      },
+      {
+        "chunk_id": 213,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/David_Hannay,_Baron_Hannay_of_Chiswick",
+        "similarity": 0.5168931562759808,
+        "rerank_score": 0.90869105
+      },
+      {
+        "chunk_id": 231,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/David_Hannay_(historian)",
+        "similarity": 0.4818577481479428,
+        "rerank_score": 0.796562
+      },
+      {
+        "chunk_id": 217,
+        "domain": "digitallibrary.un.org",
+        "url": "https://digitallibrary.un.org/record/503175?ln=en",
+        "similarity": 0.4667732235947956,
+        "rerank_score": 0.73459625
+      },
+      {
+        "chunk_id": 230,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/David_Hannay_(historian)",
+        "similarity": 0.4068079726416978,
+        "rerank_score": 0.72348577
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 4,
+    "extractions": [
+      {
+        "chunk_id": 229,
+        "person_name": "David Hannay",
+        "contains_birth_info": true,
+        "extracted_year": 1853,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date string \"25 December 1853\" associated with David Hannay.\n- step2: The date is directly linked to David Hannay in the biographical section, with no ambiguity regarding other individuals.\n- step3: The year 1853 is explicitly stated in the date string.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date string \"25 December 1853\" associated with David Hannay.\n- step2: The date is directly linked to David Hannay in the biographical section, with no ambiguity regarding other individuals.\n- step3: The year 1853 is explicitly stated in the date string.\ncontains_birthdate: true\nbirth_year: 1853",
+        "url": "https://en.wikipedia.org/wiki/David_Hannay_(historian)",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.5332222492905612,
+        "rerank_score": 0.91288006
+      },
+      {
+        "chunk_id": 213,
+        "person_name": "David Hannay",
+        "contains_birth_info": true,
+        "extracted_year": 1935,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date \"28 September 1935\" associated with the name \"David Hannay\".\n- step2: The birth date is directly linked to David Hannay in the \"Personal details\" section, with no ambiguity.\n- step3: The year \"1935\" is explicitly stated in the birth date.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date \"28 September 1935\" associated with the name \"David Hannay\".\n- step2: The birth date is directly linked to David Hannay in the \"Personal details\" section, with no ambiguity.\n- step3: The year \"1935\" is explicitly stated in the birth date.\ncontains_birthdate: true\nbirth_year: 1935",
+        "url": "https://en.wikipedia.org/wiki/David_Hannay,_Baron_Hannay_of_Chiswick",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.5168931562759808,
+        "rerank_score": 0.90869105
+      },
+      {
+        "chunk_id": 231,
+        "person_name": "David Hannay",
+        "contains_birth_info": true,
+        "extracted_year": 1853,
+        "evidence_type": "category",
+        "reasoning": "- step1: The date \"9 February 1917\" is found near the name \"David Hannay,\" but it is unclear if this is a birth date. Additionally, the categories section mentions \"1853 births,\" which is a strong birth year cue.\n- step2: The date \"9 February 1917\" is ambiguous and could be related to the work \"Spain\" or another event. However, \"1853 births\" is explicitly listed under categories related to David Hannay, making it a clear reference to his birth year.\n- step3: The year \"1853\" is the most precise and unambiguous birth year available.",
+        "raw_llm_output": "reasoning:\n- step1: The date \"9 February 1917\" is found near the name \"David Hannay,\" but it is unclear if this is a birth date. Additionally, the categories section mentions \"1853 births,\" which is a strong birth year cue.\n- step2: The date \"9 February 1917\" is ambiguous and could be related to the work \"Spain\" or another event. However, \"1853 births\" is explicitly listed under categories related to David Hannay, making it a clear reference to his birth year.\n- step3: The year \"1853\" is the most precise and unambiguous birth year available.\ncontains_birthdate: true\nbirth_year: 1853",
+        "url": "https://en.wikipedia.org/wiki/David_Hannay_(historian)",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 2,
+        "similarity": 0.4818577481479428,
+        "rerank_score": 0.796562
+      },
+      {
+        "chunk_id": 217,
+        "person_name": "David Hannay",
+        "contains_birth_info": true,
+        "extracted_year": 1935,
+        "evidence_type": "other",
+        "reasoning": "- step1: The text contains a birth year cue in the form of \"Sir David Hannay (United Kingdom, 1935 – )\", which indicates a birth year.\n- step2: The birth year cue is directly associated with Sir David Hannay, as it appears in a parenthetical statement immediately following his name.\n- step3: The year 1935 is the most precise year available and is clearly indicated as his birth year.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a birth year cue in the form of \"Sir David Hannay (United Kingdom, 1935 – )\", which indicates a birth year.\n- step2: The birth year cue is directly associated with Sir David Hannay, as it appears in a parenthetical statement immediately following his name.\n- step3: The year 1935 is the most precise year available and is clearly indicated as his birth year.\ncontains_birthdate: true\nbirth_year: 1935",
+        "url": "https://digitallibrary.un.org/record/503175?ln=en",
+        "domain": "digitallibrary.un.org",
+        "chunk_index": 0,
+        "similarity": 0.4667732235947956,
+        "rerank_score": 0.73459625
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "conflict_resolved",
+    "birth_year": 1935,
+    "independent_source_count": 2,
+    "total_extractions": 4,
+    "year_ledgers": {
+      "1853": {
+        "year": 1853,
+        "count": 1,
+        "domains": [
+          "en.wikipedia.org"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 229,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/David_Hannay_(historian)",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 231,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/David_Hannay_(historian)",
+            "evidence_type": "category",
+            "quality_rank": 3
+          }
+        ]
+      },
+      "1935": {
+        "year": 1935,
+        "count": 2,
+        "domains": [
+          "en.wikipedia.org",
+          "digitallibrary.un.org"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 213,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/David_Hannay,_Baron_Hannay_of_Chiswick",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 217,
+            "domain": "digitallibrary.un.org",
+            "url": "https://digitallibrary.un.org/record/503175?ln=en",
+            "evidence_type": "other",
+            "quality_rank": 2
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for David Hannay\nVerification completed: 2025-11-26 00:41:30 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: en.wikipedia.org, digitallibrary.un.org\nSimilarity scores ranged from 0.378 to 0.533\nRerank scores ranged from 0.496 to 0.913\n\nEXTRACTION PHASE\nScanned 4 chunks for birth information\nFound birth information in 4 chunks\nYears extracted: 1853, 1935\n\nVERIFICATION PHASE\nVerification status: conflict_resolved\nIndependent source count: 2\nVerified birth year: 1935\nSupporting domains: en.wikipedia.org, digitallibrary.un.org\nSupporting extractions: 2\nEvidence types: born-narrative, other\n\nCONFLICT DETAILS\nAlternative year 1853 found in 1 source(s): en.wikipedia.org\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

@@ -1,0 +1,219 @@
+{
+  "person_name": "Bogolo Kenewendo",
+  "timestamp": "2025-11-26T00:40:37.156629",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 9,
+    "top_candidates": [
+      {
+        "chunk_id": 967,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Bogolo_Kenewendo",
+        "similarity": 0.5642235727980726,
+        "rerank_score": 0.890761
+      },
+      {
+        "chunk_id": 970,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Bogolo_Kenewendo",
+        "similarity": 0.5407661067386117,
+        "rerank_score": 0.750937
+      },
+      {
+        "chunk_id": 968,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Bogolo_Kenewendo",
+        "similarity": 0.39502134278790524,
+        "rerank_score": 0.53648347
+      },
+      {
+        "chunk_id": 969,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Bogolo_Kenewendo",
+        "similarity": 0.4745925900043845,
+        "rerank_score": 0.49611887
+      },
+      {
+        "chunk_id": 974,
+        "domain": "drgr.org",
+        "url": "https://drgr.org/about-us/bogolo-kenewendo/",
+        "similarity": 0.42513014934093313,
+        "rerank_score": 0.4896749
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 9,
+    "extractions": [
+      {
+        "chunk_id": 967,
+        "person_name": "Bogolo Kenewendo",
+        "contains_birth_info": true,
+        "extracted_year": 1987,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a birth-related cue \"Born 1987 (age 37–38)\" directly associated with Bogolo Kenewendo.\n- step2: The cue is unambiguously linked to Bogolo Kenewendo as it appears in the \"Personal details\" section under her name.\n- step3: The year 1987 is explicitly mentioned as the birth year.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a birth-related cue \"Born 1987 (age 37–38)\" directly associated with Bogolo Kenewendo.\n- step2: The cue is unambiguously linked to Bogolo Kenewendo as it appears in the \"Personal details\" section under her name.\n- step3: The year 1987 is explicitly mentioned as the birth year.\ncontains_birthdate: true\nbirth_year: 1987",
+        "url": "https://en.wikipedia.org/wiki/Bogolo_Kenewendo",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.5642235727980726,
+        "rerank_score": 0.890761
+      },
+      {
+        "chunk_id": 970,
+        "person_name": "Bogolo Kenewendo",
+        "contains_birth_info": true,
+        "extracted_year": 1987,
+        "evidence_type": "category",
+        "reasoning": "- step1: The chunk contains a category \"1987 births\" which is a strong birth year cue.\n- step2: The category is directly associated with Bogolo Kenewendo's Wikipedia page, making it unambiguous that it refers to her.\n- step3: The year 1987 is explicitly stated and is the most precise information available.",
+        "raw_llm_output": "reasoning:\n- step1: The chunk contains a category \"1987 births\" which is a strong birth year cue.\n- step2: The category is directly associated with Bogolo Kenewendo's Wikipedia page, making it unambiguous that it refers to her.\n- step3: The year 1987 is explicitly stated and is the most precise information available.\ncontains_birthdate: true\nbirth_year: 1987",
+        "url": "https://en.wikipedia.org/wiki/Bogolo_Kenewendo",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 3,
+        "similarity": 0.5407661067386117,
+        "rerank_score": 0.750937
+      },
+      {
+        "chunk_id": 968,
+        "person_name": "Bogolo Kenewendo",
+        "contains_birth_info": true,
+        "extracted_year": 1987,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains the phrase \"Kenewendo was born in Motopi Village... circa 1987,\" which is a clear birth cue with a date.\n- step2: The date \"circa 1987\" is directly associated with Bogolo Kenewendo, as it follows her name in the sentence.\n- step3: The year 1987 is explicitly mentioned as her birth year, albeit with the qualifier \"circa.\"",
+        "raw_llm_output": "reasoning:\n- step1: The text contains the phrase \"Kenewendo was born in Motopi Village... circa 1987,\" which is a clear birth cue with a date.\n- step2: The date \"circa 1987\" is directly associated with Bogolo Kenewendo, as it follows her name in the sentence.\n- step3: The year 1987 is explicitly mentioned as her birth year, albeit with the qualifier \"circa.\"\ncontains_birthdate: true\nbirth_year: 1987",
+        "url": "https://en.wikipedia.org/wiki/Bogolo_Kenewendo",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 1,
+        "similarity": 0.39502134278790524,
+        "rerank_score": 0.53648347
+      },
+      {
+        "chunk_id": 969,
+        "person_name": "Bogolo Kenewendo",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No explicit birth cues or date strings are present in the chunk.\n- step2: No information related to birth date or year is mentioned for Bogolo Kenewendo.\n- step3: No year selection is possible due to absence of birth date information.",
+        "raw_llm_output": "reasoning:\n- step1: No explicit birth cues or date strings are present in the chunk.\n- step2: No information related to birth date or year is mentioned for Bogolo Kenewendo.\n- step3: No year selection is possible due to absence of birth date information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://en.wikipedia.org/wiki/Bogolo_Kenewendo",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 2,
+        "similarity": 0.4745925900043845,
+        "rerank_score": 0.49611887
+      },
+      {
+        "chunk_id": 974,
+        "person_name": "Bogolo Kenewendo",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings found in the chunk.\n- step2: No disambiguation needed as no birth information is present.\n- step3: No year selection possible due to absence of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings found in the chunk.\n- step2: No disambiguation needed as no birth information is present.\n- step3: No year selection possible due to absence of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://drgr.org/about-us/bogolo-kenewendo/",
+        "domain": "drgr.org",
+        "chunk_index": 0,
+        "similarity": 0.42513014934093313,
+        "rerank_score": 0.4896749
+      },
+      {
+        "chunk_id": 971,
+        "person_name": "Bogolo Kenewendo",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No explicit birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as there are no birth-related dates mentioned.\n- step3: No year selection possible due to absence of birth-related information.",
+        "raw_llm_output": "reasoning:\n- step1: No explicit birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as there are no birth-related dates mentioned.\n- step3: No year selection possible due to absence of birth-related information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://ejscenter.org/ejs-amujae-leaders/bogolo-kenewendo/",
+        "domain": "ejscenter.org",
+        "chunk_index": 0,
+        "similarity": 0.4611849159614546,
+        "rerank_score": 0.4617697
+      },
+      {
+        "chunk_id": 973,
+        "person_name": "Bogolo Kenewendo",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings found in the chunk.\n- step2: No disambiguation needed as no birth information is present.\n- step3: No year selection possible due to absence of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings found in the chunk.\n- step2: No disambiguation needed as no birth information is present.\n- step3: No year selection possible due to absence of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://www.theigc.org/people/bogolo-kenewendo",
+        "domain": "theigc.org",
+        "chunk_index": 0,
+        "similarity": 0.4872677360145955,
+        "rerank_score": 0.428784
+      },
+      {
+        "chunk_id": 972,
+        "person_name": "Bogolo Kenewendo",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as no birth information is mentioned.\n- step3: No year selection possible due to absence of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as no birth information is mentioned.\n- step3: No year selection possible due to absence of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://globalaffairs.org/research/experts/bogolo-joy-kenewendo",
+        "domain": "globalaffairs.org",
+        "chunk_index": 0,
+        "similarity": 0.47507484982445514,
+        "rerank_score": 0.33895233
+      },
+      {
+        "chunk_id": 975,
+        "person_name": "Bogolo Kenewendo",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings found in the chunk.\n- step2: No disambiguation needed as no dates are present.\n- step3: Year selection impossible due to lack of date information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings found in the chunk.\n- step2: No disambiguation needed as no dates are present.\n- step3: Year selection impossible due to lack of date information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://www.facebook.com/LeadingLadiesAfrica/posts/meet-hon-bogolo-kenewendo-bogolojoy-a-powerhouse-in-public-policy-trade-and-glob/1169722835183970/",
+        "domain": "facebook.com",
+        "chunk_index": 0,
+        "similarity": 0.5697083900923167,
+        "rerank_score": 0.23949203
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "no_corroboration",
+    "birth_year": 1987,
+    "independent_source_count": 1,
+    "total_extractions": 9,
+    "year_ledgers": {
+      "1987": {
+        "year": 1987,
+        "count": 1,
+        "domains": [
+          "en.wikipedia.org"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 967,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Bogolo_Kenewendo",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 970,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Bogolo_Kenewendo",
+            "evidence_type": "category",
+            "quality_rank": 3
+          },
+          {
+            "chunk_id": 968,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Bogolo_Kenewendo",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Bogolo Kenewendo\nVerification completed: 2025-11-26 00:40:37 UTC\n\nRETRIEVAL PHASE\nRetrieved 9 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: drgr.org, en.wikipedia.org\nSimilarity scores ranged from 0.395 to 0.570\nRerank scores ranged from 0.239 to 0.891\n\nEXTRACTION PHASE\nScanned 9 chunks for birth information\nFound birth information in 3 chunks\nYears extracted: 1987\n\nVERIFICATION PHASE\nVerification status: no_corroboration\nIndependent source count: 1\nVerified birth year: 1987\nSupporting domains: en.wikipedia.org\nSupporting extractions: 3\nEvidence types: category, born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

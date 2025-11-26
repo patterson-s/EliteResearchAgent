@@ -1,0 +1,115 @@
+{
+  "person_name": "Qian Qichen",
+  "timestamp": "2025-11-26T00:49:24.592242",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 422,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Qian_Qichen",
+        "similarity": 0.5769934425471598,
+        "rerank_score": 0.9220975
+      },
+      {
+        "chunk_id": 436,
+        "domain": "en.people.cn",
+        "url": "http://en.people.cn/data/people/qianqichen.shtml",
+        "similarity": 0.5321197222047297,
+        "rerank_score": 0.83093774
+      },
+      {
+        "chunk_id": 432,
+        "domain": "fmprc.gov.cn",
+        "url": "https://www.fmprc.gov.cn/eng/zy/wjrw/3606_665551/202405/t20240531_11367610.html",
+        "similarity": 0.5843619783441858,
+        "rerank_score": 0.73299384
+      },
+      {
+        "chunk_id": 431,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Qian_Qichen",
+        "similarity": 0.5546207753130641,
+        "rerank_score": 0.73023266
+      },
+      {
+        "chunk_id": 423,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Qian_Qichen",
+        "similarity": 0.503569537376481,
+        "rerank_score": 0.72325134
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 2,
+    "extractions": [
+      {
+        "chunk_id": 422,
+        "person_name": "Qian Qichen",
+        "contains_birth_info": true,
+        "extracted_year": 1928,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date string \"5 January 1928\" associated with Qian Qichen.\n- step2: The date is directly linked to Qian Qichen in the \"Personal details\" section and is unambiguously his birth date.\n- step3: The year 1928 is explicitly stated in the date string.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date string \"5 January 1928\" associated with Qian Qichen.\n- step2: The date is directly linked to Qian Qichen in the \"Personal details\" section and is unambiguously his birth date.\n- step3: The year 1928 is explicitly stated in the date string.\ncontains_birthdate: true\nbirth_year: 1928",
+        "url": "https://en.wikipedia.org/wiki/Qian_Qichen",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.5769934425471598,
+        "rerank_score": 0.9220975
+      },
+      {
+        "chunk_id": 436,
+        "person_name": "Qian Qichen",
+        "contains_birth_info": true,
+        "extracted_year": 1928,
+        "evidence_type": "other",
+        "reasoning": "- step1: The text contains the date string \"1928- \" directly after Qian Qichen's name, which is a strong birth year cue.\n- step2: The date is placed immediately after Qian Qichen's name, indicating it belongs to him.\n- step3: The year \"1928\" is clearly identifiable as the birth year.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains the date string \"1928- \" directly after Qian Qichen's name, which is a strong birth year cue.\n- step2: The date is placed immediately after Qian Qichen's name, indicating it belongs to him.\n- step3: The year \"1928\" is clearly identifiable as the birth year.\ncontains_birthdate: true\nbirth_year: 1928",
+        "url": "http://en.people.cn/data/people/qianqichen.shtml",
+        "domain": "en.people.cn",
+        "chunk_index": 0,
+        "similarity": 0.5321197222047297,
+        "rerank_score": 0.83093774
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "verified",
+    "birth_year": 1928,
+    "independent_source_count": 2,
+    "total_extractions": 2,
+    "year_ledgers": {
+      "1928": {
+        "year": 1928,
+        "count": 2,
+        "domains": [
+          "en.people.cn",
+          "en.wikipedia.org"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 422,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Qian_Qichen",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 436,
+            "domain": "en.people.cn",
+            "url": "http://en.people.cn/data/people/qianqichen.shtml",
+            "evidence_type": "other",
+            "quality_rank": 2
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Qian Qichen\nVerification completed: 2025-11-26 00:49:24 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: en.people.cn, en.wikipedia.org, fmprc.gov.cn\nSimilarity scores ranged from 0.431 to 0.584\nRerank scores ranged from 0.410 to 0.922\n\nEXTRACTION PHASE\nScanned 2 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1928\n\nVERIFICATION PHASE\nVerification status: verified\nIndependent source count: 2\nVerified birth year: 1928\nSupporting domains: en.people.cn, en.wikipedia.org\nSupporting extractions: 2\nEvidence types: born-narrative, other\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

@@ -1,0 +1,145 @@
+{
+  "person_name": "Gareth Evans",
+  "timestamp": "2025-11-26T00:43:08.679583",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 164,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Gareth_Evans_(politician)",
+        "similarity": 0.4338568080109155,
+        "rerank_score": 0.89189607
+      },
+      {
+        "chunk_id": 194,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Gareth_Evans_(filmmaker)",
+        "similarity": 0.5556935923156958,
+        "rerank_score": 0.88564163
+      },
+      {
+        "chunk_id": 198,
+        "domain": "crawford.anu.edu.au",
+        "url": "https://crawford.anu.edu.au/people/gareth-evans",
+        "similarity": 0.41636106747334334,
+        "rerank_score": 0.75027883
+      },
+      {
+        "chunk_id": 185,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Gareth_Evans_(politician)",
+        "similarity": 0.44966983086475576,
+        "rerank_score": 0.7309246
+      },
+      {
+        "chunk_id": 197,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Gareth_Evans_(filmmaker)",
+        "similarity": 0.4686555834152354,
+        "rerank_score": 0.6972179
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 3,
+    "extractions": [
+      {
+        "chunk_id": 164,
+        "person_name": "Gareth Evans",
+        "contains_birth_info": true,
+        "extracted_year": 1944,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date string \"5 September 1944\" associated with the name \"Gareth John Evans\".\n- step2: The birth date is directly linked to Gareth Evans in the \"Personal details\" section and repeated in the subsequent paragraph, leaving no ambiguity.\n- step3: The year 1944 is explicitly stated in the date string.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date string \"5 September 1944\" associated with the name \"Gareth John Evans\".\n- step2: The birth date is directly linked to Gareth Evans in the \"Personal details\" section and repeated in the subsequent paragraph, leaving no ambiguity.\n- step3: The year 1944 is explicitly stated in the date string.\ncontains_birthdate: true\nbirth_year: 1944",
+        "url": "https://en.wikipedia.org/wiki/Gareth_Evans_(politician)",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 1,
+        "similarity": 0.4338568080109155,
+        "rerank_score": 0.89189607
+      },
+      {
+        "chunk_id": 194,
+        "person_name": "Gareth Evans",
+        "contains_birth_info": true,
+        "extracted_year": 1980,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date \"April 6, 1980\" associated with the name \"Gareth Huw Evans\".\n- step2: The birth date is directly linked to Gareth Evans in the \"Born\" section and in the subsequent paragraph, with no ambiguity as it is clearly his full name and details.\n- step3: The year 1980 is explicitly stated in the date.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date \"April 6, 1980\" associated with the name \"Gareth Huw Evans\".\n- step2: The birth date is directly linked to Gareth Evans in the \"Born\" section and in the subsequent paragraph, with no ambiguity as it is clearly his full name and details.\n- step3: The year 1980 is explicitly stated in the date.\ncontains_birthdate: true\nbirth_year: 1980",
+        "url": "https://en.wikipedia.org/wiki/Gareth_Evans_(filmmaker)",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.5556935923156958,
+        "rerank_score": 0.88564163
+      },
+      {
+        "chunk_id": 198,
+        "person_name": "Gareth Evans",
+        "contains_birth_info": true,
+        "extracted_year": 1944,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains the phrase \"Born in 1944\" which is a clear birth cue.\n- step2: The phrase \"Born in 1944\" is directly associated with Gareth Evans in the context of his biographical information.\n- step3: The year 1944 is explicitly mentioned as the birth year.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains the phrase \"Born in 1944\" which is a clear birth cue.\n- step2: The phrase \"Born in 1944\" is directly associated with Gareth Evans in the context of his biographical information.\n- step3: The year 1944 is explicitly mentioned as the birth year.\ncontains_birthdate: true\nbirth_year: 1944",
+        "url": "https://crawford.anu.edu.au/people/gareth-evans",
+        "domain": "crawford.anu.edu.au",
+        "chunk_index": 0,
+        "similarity": 0.41636106747334334,
+        "rerank_score": 0.75027883
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "conflict_resolved",
+    "birth_year": 1944,
+    "independent_source_count": 2,
+    "total_extractions": 3,
+    "year_ledgers": {
+      "1944": {
+        "year": 1944,
+        "count": 2,
+        "domains": [
+          "en.wikipedia.org",
+          "crawford.anu.edu.au"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 164,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Gareth_Evans_(politician)",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 198,
+            "domain": "crawford.anu.edu.au",
+            "url": "https://crawford.anu.edu.au/people/gareth-evans",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          }
+        ]
+      },
+      "1980": {
+        "year": 1980,
+        "count": 1,
+        "domains": [
+          "en.wikipedia.org"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 194,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Gareth_Evans_(filmmaker)",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Gareth Evans\nVerification completed: 2025-11-26 00:43:08 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: en.wikipedia.org, crawford.anu.edu.au\nSimilarity scores ranged from 0.338 to 0.556\nRerank scores ranged from 0.332 to 0.892\n\nEXTRACTION PHASE\nScanned 3 chunks for birth information\nFound birth information in 3 chunks\nYears extracted: 1944, 1980\n\nVERIFICATION PHASE\nVerification status: conflict_resolved\nIndependent source count: 2\nVerified birth year: 1944\nSupporting domains: en.wikipedia.org, crawford.anu.edu.au\nSupporting extractions: 2\nEvidence types: born-narrative\n\nCONFLICT DETAILS\nAlternative year 1980 found in 1 source(s): en.wikipedia.org\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

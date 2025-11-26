@@ -1,0 +1,219 @@
+{
+  "person_name": "Cathy Mulligan",
+  "timestamp": "2025-11-26T00:41:03.575925",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 1017,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Carey_Mulligan",
+        "similarity": 0.4884042742698527,
+        "rerank_score": 0.77487355
+      },
+      {
+        "chunk_id": 1016,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Carey_Mulligan",
+        "similarity": 0.49881401554573834,
+        "rerank_score": 0.71040785
+      },
+      {
+        "chunk_id": 1037,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Carey_Mulligan",
+        "similarity": 0.39871215267651666,
+        "rerank_score": 0.5489884
+      },
+      {
+        "chunk_id": 1061,
+        "domain": "cfsd.org.uk",
+        "url": "https://cfsd.org.uk/wp-content/uploads/2023/02/Speaker-Biog-Photo-Professor-Cathy-Mulligan-1.pdf",
+        "similarity": 0.44664566272287276,
+        "rerank_score": 0.47241634
+      },
+      {
+        "chunk_id": 1046,
+        "domain": "motivationalspeakersagency.co.uk",
+        "url": "https://motivationalspeakersagency.co.uk/technology/cathy-mulligan",
+        "similarity": 0.4678097587396452,
+        "rerank_score": 0.4042963
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 10,
+    "extractions": [
+      {
+        "chunk_id": 1017,
+        "person_name": "Cathy Mulligan",
+        "contains_birth_info": true,
+        "extracted_year": 1985,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date \"28 May 1985\" associated with the name \"Carey Hannah Mulligan\".\n- step2: The name \"Carey Hannah Mulligan\" is a variation of \"Cathy Mulligan\" and is mentioned in a section about her early life, making it unambiguous that this birth date belongs to the person in question.\n- step3: The year \"1985\" is explicitly stated in the birth date.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date \"28 May 1985\" associated with the name \"Carey Hannah Mulligan\".\n- step2: The name \"Carey Hannah Mulligan\" is a variation of \"Cathy Mulligan\" and is mentioned in a section about her early life, making it unambiguous that this birth date belongs to the person in question.\n- step3: The year \"1985\" is explicitly stated in the birth date.\ncontains_birthdate: true\nbirth_year: 1985",
+        "url": "https://en.wikipedia.org/wiki/Carey_Mulligan",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 1,
+        "similarity": 0.4884042742698527,
+        "rerank_score": 0.77487355
+      },
+      {
+        "chunk_id": 1016,
+        "person_name": "Cathy Mulligan",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: The text contains a birth date \"28 May 1985\" associated with the name \"Carey Mulligan\".\n- step2: The birth date clearly belongs to Carey Mulligan, not Cathy Mulligan. There is no mention of Cathy Mulligan in the text.\n- step3: Since the birth date does not belong to Cathy Mulligan, the year is irrelevant.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a birth date \"28 May 1985\" associated with the name \"Carey Mulligan\".\n- step2: The birth date clearly belongs to Carey Mulligan, not Cathy Mulligan. There is no mention of Cathy Mulligan in the text.\n- step3: Since the birth date does not belong to Cathy Mulligan, the year is irrelevant.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://en.wikipedia.org/wiki/Carey_Mulligan",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.49881401554573834,
+        "rerank_score": 0.71040785
+      },
+      {
+        "chunk_id": 1037,
+        "person_name": "Cathy Mulligan",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: The chunk contains a list of award winners with years, but no explicit birth cues or dates for Cathy Mulligan. However, there is a mention of \"1985 births\" in the categories section, which could be relevant if it refers to Carey Mulligan, but the name is slightly different.\n- step2: The name \"Carey Mulligan\" appears in the lists, but there is no clear indication that the \"1985 births\" category refers to her, especially since the PERSON_NAME is \"Cathy Mulligan.\"\n- step3: Since there is no direct or clear reference to Cathy Mulligan's birth year, it is impossible to determine her birth year from this chunk.",
+        "raw_llm_output": "reasoning:\n- step1: The chunk contains a list of award winners with years, but no explicit birth cues or dates for Cathy Mulligan. However, there is a mention of \"1985 births\" in the categories section, which could be relevant if it refers to Carey Mulligan, but the name is slightly different.\n- step2: The name \"Carey Mulligan\" appears in the lists, but there is no clear indication that the \"1985 births\" category refers to her, especially since the PERSON_NAME is \"Cathy Mulligan.\"\n- step3: Since there is no direct or clear reference to Cathy Mulligan's birth year, it is impossible to determine her birth year from this chunk.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://en.wikipedia.org/wiki/Carey_Mulligan",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 21,
+        "similarity": 0.39871215267651666,
+        "rerank_score": 0.5489884
+      },
+      {
+        "chunk_id": 1061,
+        "person_name": "Cathy Mulligan",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings related to birth are found in the chunk.\n- step2: The text focuses on Cathy Mulligan's professional background, achievements, and roles, with no mention of personal details like birth date.\n- step3: Since no birth-related information is present, determining a birth year is impossible.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings related to birth are found in the chunk.\n- step2: The text focuses on Cathy Mulligan's professional background, achievements, and roles, with no mention of personal details like birth date.\n- step3: Since no birth-related information is present, determining a birth year is impossible.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://cfsd.org.uk/wp-content/uploads/2023/02/Speaker-Biog-Photo-Professor-Cathy-Mulligan-1.pdf",
+        "domain": "cfsd.org.uk",
+        "chunk_index": 0,
+        "similarity": 0.44664566272287276,
+        "rerank_score": 0.47241634
+      },
+      {
+        "chunk_id": 1046,
+        "person_name": "Cathy Mulligan",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No explicit birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as there are no dates mentioned.\n- step3: No year selection possible due to absence of birth-related information.",
+        "raw_llm_output": "reasoning:\n- step1: No explicit birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as there are no dates mentioned.\n- step3: No year selection possible due to absence of birth-related information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://motivationalspeakersagency.co.uk/technology/cathy-mulligan",
+        "domain": "motivationalspeakersagency.co.uk",
+        "chunk_index": 1,
+        "similarity": 0.4678097587396452,
+        "rerank_score": 0.4042963
+      },
+      {
+        "chunk_id": 1039,
+        "person_name": "Cathy Mulligan",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as no birth-related information is mentioned.\n- step3: Year selection is impossible due to lack of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as no birth-related information is mentioned.\n- step3: Year selection is impossible due to lack of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://www.chartwellspeakers.com/speaker/cathy-mulligan/",
+        "domain": "chartwellspeakers.com",
+        "chunk_index": 0,
+        "similarity": 0.4450060170236185,
+        "rerank_score": 0.39908597
+      },
+      {
+        "chunk_id": 1059,
+        "person_name": "Cathy Mulligan",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as there are no birth-related information.\n- step3: No year selection possible due to absence of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as there are no birth-related information.\n- step3: No year selection possible due to absence of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://cyber-security-speakers.com/speaker/cathy-mulligan",
+        "domain": "cyber-security-speakers.com",
+        "chunk_index": 1,
+        "similarity": 0.434822425165963,
+        "rerank_score": 0.3775871
+      },
+      {
+        "chunk_id": 1044,
+        "person_name": "Cathy Mulligan",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No explicit birth cues or date strings are present in the chunk.\n- step2: No information related to Cathy Mulligan's birth date is mentioned.\n- step3: No year or date can be extracted as there is no relevant information.",
+        "raw_llm_output": "reasoning:\n- step1: No explicit birth cues or date strings are present in the chunk.\n- step2: No information related to Cathy Mulligan's birth date is mentioned.\n- step3: No year or date can be extracted as there is no relevant information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://www.robertboschacademy.de/en/fellow/cathy-mulligan",
+        "domain": "robertboschacademy.de",
+        "chunk_index": 0,
+        "similarity": 0.48299315242779833,
+        "rerank_score": 0.3626311
+      },
+      {
+        "chunk_id": 1058,
+        "person_name": "Cathy Mulligan",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation is needed as there are no birth-related information or dates mentioned.\n- step3: No year selection is possible due to the absence of birth-related information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation is needed as there are no birth-related information or dates mentioned.\n- step3: No year selection is possible due to the absence of birth-related information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://cyber-security-speakers.com/speaker/cathy-mulligan",
+        "domain": "cyber-security-speakers.com",
+        "chunk_index": 0,
+        "similarity": 0.5017605825676366,
+        "rerank_score": 0.3433643
+      },
+      {
+        "chunk_id": 1042,
+        "person_name": "Cathy Mulligan",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings found in the chunk.\n- step2: No disambiguation needed as no dates are mentioned.\n- step3: No year selection possible due to absence of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings found in the chunk.\n- step2: No disambiguation needed as no dates are mentioned.\n- step3: No year selection possible due to absence of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://www.itu.int/cities/standards4dt/cathy-mulligan/",
+        "domain": "itu.int",
+        "chunk_index": 0,
+        "similarity": 0.3920752317308089,
+        "rerank_score": 0.32636857
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "no_corroboration",
+    "birth_year": 1985,
+    "independent_source_count": 1,
+    "total_extractions": 10,
+    "year_ledgers": {
+      "1985": {
+        "year": 1985,
+        "count": 1,
+        "domains": [
+          "en.wikipedia.org"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 1017,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Carey_Mulligan",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Cathy Mulligan\nVerification completed: 2025-11-26 00:41:03 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: cfsd.org.uk, en.wikipedia.org, motivationalspeakersagency.co.uk\nSimilarity scores ranged from 0.392 to 0.502\nRerank scores ranged from 0.326 to 0.775\n\nEXTRACTION PHASE\nScanned 10 chunks for birth information\nFound birth information in 1 chunks\nYears extracted: 1985\n\nVERIFICATION PHASE\nVerification status: no_corroboration\nIndependent source count: 1\nVerified birth year: 1985\nSupporting domains: en.wikipedia.org\nSupporting extractions: 1\nEvidence types: born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

@@ -1,0 +1,115 @@
+{
+  "person_name": "Mary Chinery-Hesse",
+  "timestamp": "2025-11-26T00:46:59.714752",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 139,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Mary_Chinery-Hesse",
+        "similarity": 0.6039380295524035,
+        "rerank_score": 0.9039154
+      },
+      {
+        "chunk_id": 160,
+        "domain": "gpe.wikipedia.org",
+        "url": "https://gpe.wikipedia.org/wiki/Mary_Chinery-Hesse",
+        "similarity": 0.6330317184862972,
+        "rerank_score": 0.8995547
+      },
+      {
+        "chunk_id": 162,
+        "domain": "gpe.wikipedia.org",
+        "url": "https://gpe.wikipedia.org/wiki/Mary_Chinery-Hesse",
+        "similarity": 0.5768494765316493,
+        "rerank_score": 0.7440808
+      },
+      {
+        "chunk_id": 161,
+        "domain": "gpe.wikipedia.org",
+        "url": "https://gpe.wikipedia.org/wiki/Mary_Chinery-Hesse",
+        "similarity": 0.5296795785361719,
+        "rerank_score": 0.63397753
+      },
+      {
+        "chunk_id": 148,
+        "domain": "aasciences.africa",
+        "url": "https://aasciences.africa/fellows/mary-chinery",
+        "similarity": 0.5614598606526487,
+        "rerank_score": 0.5931622
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 2,
+    "extractions": [
+      {
+        "chunk_id": 139,
+        "person_name": "Mary Chinery-Hesse",
+        "contains_birth_info": true,
+        "extracted_year": 1938,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The chunk contains a clear birth date string \"29 October 1938\" associated with the name \"Mary Chinery-Hesse\" and a birth cue \"born\".\n- step2: The date is directly linked to Mary Chinery-Hesse in the \"Personal details\" section, with no ambiguity as it is under her name and title.\n- step3: The year \"1938\" is explicitly stated in the date string.",
+        "raw_llm_output": "reasoning:\n- step1: The chunk contains a clear birth date string \"29 October 1938\" associated with the name \"Mary Chinery-Hesse\" and a birth cue \"born\".\n- step2: The date is directly linked to Mary Chinery-Hesse in the \"Personal details\" section, with no ambiguity as it is under her name and title.\n- step3: The year \"1938\" is explicitly stated in the date string.\ncontains_birthdate: true\nbirth_year: 1938",
+        "url": "https://en.wikipedia.org/wiki/Mary_Chinery-Hesse",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.6039380295524035,
+        "rerank_score": 0.9039154
+      },
+      {
+        "chunk_id": 160,
+        "person_name": "Mary Chinery-Hesse",
+        "contains_birth_info": true,
+        "extracted_year": 1938,
+        "evidence_type": "born-field",
+        "reasoning": "- step1: The chunk contains two clear birth cues: \"Ein date of birth\" with the year \"1938\" and a full date \"29 October 1938\" associated with Mary Chinery-Hesse.\n- step2: Both dates are directly linked to Mary Chinery-Hesse through explicit references to her name and structured fields like \"Ein date of birth\" and the full date following her name.\n- step3: The full date \"29 October 1938\" provides the most precise year, which is 1938.",
+        "raw_llm_output": "reasoning:\n- step1: The chunk contains two clear birth cues: \"Ein date of birth\" with the year \"1938\" and a full date \"29 October 1938\" associated with Mary Chinery-Hesse.\n- step2: Both dates are directly linked to Mary Chinery-Hesse through explicit references to her name and structured fields like \"Ein date of birth\" and the full date following her name.\n- step3: The full date \"29 October 1938\" provides the most precise year, which is 1938.\ncontains_birthdate: true\nbirth_year: 1938",
+        "url": "https://gpe.wikipedia.org/wiki/Mary_Chinery-Hesse",
+        "domain": "gpe.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.6330317184862972,
+        "rerank_score": 0.8995547
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "verified",
+    "birth_year": 1938,
+    "independent_source_count": 2,
+    "total_extractions": 2,
+    "year_ledgers": {
+      "1938": {
+        "year": 1938,
+        "count": 2,
+        "domains": [
+          "gpe.wikipedia.org",
+          "en.wikipedia.org"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 139,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Mary_Chinery-Hesse",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 160,
+            "domain": "gpe.wikipedia.org",
+            "url": "https://gpe.wikipedia.org/wiki/Mary_Chinery-Hesse",
+            "evidence_type": "born-field",
+            "quality_rank": 0
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Mary Chinery-Hesse\nVerification completed: 2025-11-26 00:46:59 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: gpe.wikipedia.org, en.wikipedia.org, aasciences.africa\nSimilarity scores ranged from 0.448 to 0.633\nRerank scores ranged from 0.450 to 0.904\n\nEXTRACTION PHASE\nScanned 2 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1938\n\nVERIFICATION PHASE\nVerification status: verified\nIndependent source count: 2\nVerified birth year: 1938\nSupporting domains: gpe.wikipedia.org, en.wikipedia.org\nSupporting extractions: 2\nEvidence types: born-field, born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

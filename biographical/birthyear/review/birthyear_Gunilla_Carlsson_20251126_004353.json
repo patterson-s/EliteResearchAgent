@@ -1,0 +1,115 @@
+{
+  "person_name": "Gunilla Carlsson",
+  "timestamp": "2025-11-26T00:43:53.617211",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 3369,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Gunilla_Carlsson",
+        "similarity": 0.643937723447752,
+        "rerank_score": 0.8839694
+      },
+      {
+        "chunk_id": 3389,
+        "domain": "europarl.europa.eu",
+        "url": "https://www.europarl.europa.eu/meps/en/2261/GUNILLA_CARLSSON/history/5",
+        "similarity": 0.5775789174114193,
+        "rerank_score": 0.8399576
+      },
+      {
+        "chunk_id": 3380,
+        "domain": "se.linkedin.com",
+        "url": "https://se.linkedin.com/in/gunilla-carlsson-59478b82",
+        "similarity": 0.631752284022408,
+        "rerank_score": 0.68344116
+      },
+      {
+        "chunk_id": 3387,
+        "domain": "bitprop.com",
+        "url": "https://www.bitprop.com/team/gunilla-carlsson",
+        "similarity": 0.5447844044337647,
+        "rerank_score": 0.6628188
+      },
+      {
+        "chunk_id": 3373,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Gunilla_Carlsson",
+        "similarity": 0.4666593302222569,
+        "rerank_score": 0.6562404
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 2,
+    "extractions": [
+      {
+        "chunk_id": 3369,
+        "person_name": "Gunilla Carlsson",
+        "contains_birth_info": true,
+        "extracted_year": 1963,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date string \"11 May 1963\" associated with the name \"Anna Gunilla Ottosson\" (later referred to as Gunilla Carlsson).\n- step2: The birth date is directly linked to Gunilla Carlsson in the \"Personal details\" section, with the phrase \"Anna Gunilla Carlsson (born 11 May 1963)\".\n- step3: The year 1963 is explicitly stated in the birth date string.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date string \"11 May 1963\" associated with the name \"Anna Gunilla Ottosson\" (later referred to as Gunilla Carlsson).\n- step2: The birth date is directly linked to Gunilla Carlsson in the \"Personal details\" section, with the phrase \"Anna Gunilla Carlsson (born 11 May 1963)\".\n- step3: The year 1963 is explicitly stated in the birth date string.\ncontains_birthdate: true\nbirth_year: 1963",
+        "url": "https://en.wikipedia.org/wiki/Gunilla_Carlsson",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.643937723447752,
+        "rerank_score": 0.8839694
+      },
+      {
+        "chunk_id": 3389,
+        "person_name": "Gunilla Carlsson",
+        "contains_birth_info": true,
+        "extracted_year": 1963,
+        "evidence_type": "born-field",
+        "reasoning": "- step1: The text contains a clear birth date cue \"Date of birth :\" followed by the date \"11-05-1963\".\n- step2: The date is directly associated with Gunilla CARLSSON's name in the structured header, leaving no ambiguity.\n- step3: The year is explicitly stated as 1963 in the date string.",
+        "raw_llm_output": "reasoning: \n- step1: The text contains a clear birth date cue \"Date of birth :\" followed by the date \"11-05-1963\".\n- step2: The date is directly associated with Gunilla CARLSSON's name in the structured header, leaving no ambiguity.\n- step3: The year is explicitly stated as 1963 in the date string.\ncontains_birthdate: true\nbirth_year: 1963",
+        "url": "https://www.europarl.europa.eu/meps/en/2261/GUNILLA_CARLSSON/history/5",
+        "domain": "europarl.europa.eu",
+        "chunk_index": 0,
+        "similarity": 0.5775789174114193,
+        "rerank_score": 0.8399576
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "verified",
+    "birth_year": 1963,
+    "independent_source_count": 2,
+    "total_extractions": 2,
+    "year_ledgers": {
+      "1963": {
+        "year": 1963,
+        "count": 2,
+        "domains": [
+          "en.wikipedia.org",
+          "europarl.europa.eu"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 3369,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Gunilla_Carlsson",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 3389,
+            "domain": "europarl.europa.eu",
+            "url": "https://www.europarl.europa.eu/meps/en/2261/GUNILLA_CARLSSON/history/5",
+            "evidence_type": "born-field",
+            "quality_rank": 0
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Gunilla Carlsson\nVerification completed: 2025-11-26 00:43:53 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: bitprop.com, en.wikipedia.org, se.linkedin.com, europarl.europa.eu\nSimilarity scores ranged from 0.444 to 0.644\nRerank scores ranged from 0.316 to 0.884\n\nEXTRACTION PHASE\nScanned 2 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1963\n\nVERIFICATION PHASE\nVerification status: verified\nIndependent source count: 2\nVerified birth year: 1963\nSupporting domains: en.wikipedia.org, europarl.europa.eu\nSupporting extractions: 2\nEvidence types: born-field, born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

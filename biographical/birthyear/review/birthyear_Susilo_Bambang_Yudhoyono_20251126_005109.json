@@ -1,0 +1,115 @@
+{
+  "person_name": "Susilo Bambang Yudhoyono",
+  "timestamp": "2025-11-26T00:51:09.158203",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 2607,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Susilo_Bambang_Yudhoyono",
+        "similarity": 0.6300403734610011,
+        "rerank_score": 0.9245858
+      },
+      {
+        "chunk_id": 2641,
+        "domain": "britannica.com",
+        "url": "https://www.britannica.com/biography/Susilo-Bambang-Yudhoyono",
+        "similarity": 0.650212778574081,
+        "rerank_score": 0.8591094
+      },
+      {
+        "chunk_id": 2608,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Susilo_Bambang_Yudhoyono",
+        "similarity": 0.6032852892710675,
+        "rerank_score": 0.85797083
+      },
+      {
+        "chunk_id": 2644,
+        "domain": "un.org",
+        "url": "https://www.un.org/sg/en/management/bios/Yudhoyono.shtml",
+        "similarity": 0.5848896673151349,
+        "rerank_score": 0.8020137
+      },
+      {
+        "chunk_id": 2642,
+        "domain": "britannica.com",
+        "url": "https://www.britannica.com/biography/Susilo-Bambang-Yudhoyono",
+        "similarity": 0.4763402989984566,
+        "rerank_score": 0.7915799
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 2,
+    "extractions": [
+      {
+        "chunk_id": 2607,
+        "person_name": "Susilo Bambang Yudhoyono",
+        "contains_birth_info": true,
+        "extracted_year": 1949,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The chunk contains a clear birth date string \"9 September 1949\" under the \"Personal details\" section, and another mention of \"born 9 September 1949\" near the end of the chunk.\n- step2: Both instances of the birth date are directly associated with Susilo Bambang Yudhoyono, either through the section header or explicit mention of his name.\n- step3: The year 1949 is explicitly stated in both instances, making it the most precise year available.",
+        "raw_llm_output": "reasoning: \n- step1: The chunk contains a clear birth date string \"9 September 1949\" under the \"Personal details\" section, and another mention of \"born 9 September 1949\" near the end of the chunk.\n- step2: Both instances of the birth date are directly associated with Susilo Bambang Yudhoyono, either through the section header or explicit mention of his name.\n- step3: The year 1949 is explicitly stated in both instances, making it the most precise year available.\ncontains_birthdate: true\nbirth_year: 1949",
+        "url": "https://en.wikipedia.org/wiki/Susilo_Bambang_Yudhoyono",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 1,
+        "similarity": 0.6300403734610011,
+        "rerank_score": 0.9245858
+      },
+      {
+        "chunk_id": 2641,
+        "person_name": "Susilo Bambang Yudhoyono",
+        "contains_birth_info": true,
+        "extracted_year": 1949,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth cue (\"born\") followed by a date string (\"September 9, 1949\").\n- step2: The date is directly associated with Susilo Bambang Yudhoyono, as it appears in a sentence that explicitly states his birth information.\n- step3: The year 1949 is clearly identifiable from the date string.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth cue (\"born\") followed by a date string (\"September 9, 1949\").\n- step2: The date is directly associated with Susilo Bambang Yudhoyono, as it appears in a sentence that explicitly states his birth information.\n- step3: The year 1949 is clearly identifiable from the date string.\ncontains_birthdate: true\nbirth_year: 1949",
+        "url": "https://www.britannica.com/biography/Susilo-Bambang-Yudhoyono",
+        "domain": "britannica.com",
+        "chunk_index": 0,
+        "similarity": 0.650212778574081,
+        "rerank_score": 0.8591094
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "verified",
+    "birth_year": 1949,
+    "independent_source_count": 2,
+    "total_extractions": 2,
+    "year_ledgers": {
+      "1949": {
+        "year": 1949,
+        "count": 2,
+        "domains": [
+          "britannica.com",
+          "en.wikipedia.org"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 2607,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Susilo_Bambang_Yudhoyono",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 2641,
+            "domain": "britannica.com",
+            "url": "https://www.britannica.com/biography/Susilo-Bambang-Yudhoyono",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Susilo Bambang Yudhoyono\nVerification completed: 2025-11-26 00:51:09 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: britannica.com, un.org, en.wikipedia.org\nSimilarity scores ranged from 0.476 to 0.650\nRerank scores ranged from 0.576 to 0.925\n\nEXTRACTION PHASE\nScanned 2 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1949\n\nVERIFICATION PHASE\nVerification status: verified\nIndependent source count: 2\nVerified birth year: 1949\nSupporting domains: britannica.com, en.wikipedia.org\nSupporting extractions: 2\nEvidence types: born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

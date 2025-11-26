@@ -1,0 +1,115 @@
+{
+  "person_name": "Ellen Johnson Sirleaf",
+  "timestamp": "2025-11-26T00:42:25.863667",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 2662,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Ellen_Johnson_Sirleaf",
+        "similarity": 0.6917701177868202,
+        "rerank_score": 0.89053273
+      },
+      {
+        "chunk_id": 2744,
+        "domain": "achievement.org",
+        "url": "https://achievement.org/achiever/ellen-johnson-sirleaf/",
+        "similarity": 0.6185442234496512,
+        "rerank_score": 0.86954874
+      },
+      {
+        "chunk_id": 2699,
+        "domain": "awpc.cattcenter.iastate.edu",
+        "url": "https://awpc.cattcenter.iastate.edu/directory/ellen-johnson-sirleaf/",
+        "similarity": 0.6782651429586987,
+        "rerank_score": 0.8646883
+      },
+      {
+        "chunk_id": 2714,
+        "domain": "britannica.com",
+        "url": "https://www.britannica.com/biography/Ellen-Johnson-Sirleaf",
+        "similarity": 0.6079684621001772,
+        "rerank_score": 0.8266142
+      },
+      {
+        "chunk_id": 2749,
+        "domain": "achievement.org",
+        "url": "https://achievement.org/achiever/ellen-johnson-sirleaf/",
+        "similarity": 0.5442433259979585,
+        "rerank_score": 0.7931224
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 2,
+    "extractions": [
+      {
+        "chunk_id": 2662,
+        "person_name": "Ellen Johnson Sirleaf",
+        "contains_birth_info": true,
+        "extracted_year": 1938,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date cue (\"Born\" and \"born\") with the date \"29 October 1938\" directly associated with Ellen Johnson Sirleaf.\n- step2: The date is unambiguously linked to Ellen Johnson Sirleaf in the \"Personal details\" section, with no other individuals mentioned in proximity to this date.\n- step3: The year 1938 is explicitly stated in the date string.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date cue (\"Born\" and \"born\") with the date \"29 October 1938\" directly associated with Ellen Johnson Sirleaf.\n- step2: The date is unambiguously linked to Ellen Johnson Sirleaf in the \"Personal details\" section, with no other individuals mentioned in proximity to this date.\n- step3: The year 1938 is explicitly stated in the date string.\ncontains_birthdate: true\nbirth_year: 1938",
+        "url": "https://en.wikipedia.org/wiki/Ellen_Johnson_Sirleaf",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.6917701177868202,
+        "rerank_score": 0.89053273
+      },
+      {
+        "chunk_id": 2744,
+        "person_name": "Ellen Johnson Sirleaf",
+        "contains_birth_info": true,
+        "extracted_year": 1938,
+        "evidence_type": "born-field",
+        "reasoning": "- step1: The text contains a clear \"Date of Birth\" header followed by \"October 29, 1938,\" and a sentence stating \"Ellen Eugenia Johnson was born in Monrovia...\" with no date attached.\n- step2: The \"Date of Birth\" header is directly associated with Ellen Johnson Sirleaf's name in the structured format, and the birth information is unambiguously tied to her.\n- step3: The year 1938 is explicitly stated under the \"Date of Birth\" header.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear \"Date of Birth\" header followed by \"October 29, 1938,\" and a sentence stating \"Ellen Eugenia Johnson was born in Monrovia...\" with no date attached.\n- step2: The \"Date of Birth\" header is directly associated with Ellen Johnson Sirleaf's name in the structured format, and the birth information is unambiguously tied to her.\n- step3: The year 1938 is explicitly stated under the \"Date of Birth\" header.\ncontains_birthdate: true\nbirth_year: 1938",
+        "url": "https://achievement.org/achiever/ellen-johnson-sirleaf/",
+        "domain": "achievement.org",
+        "chunk_index": 0,
+        "similarity": 0.6185442234496512,
+        "rerank_score": 0.86954874
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "verified",
+    "birth_year": 1938,
+    "independent_source_count": 2,
+    "total_extractions": 2,
+    "year_ledgers": {
+      "1938": {
+        "year": 1938,
+        "count": 2,
+        "domains": [
+          "achievement.org",
+          "en.wikipedia.org"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 2662,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Ellen_Johnson_Sirleaf",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 2744,
+            "domain": "achievement.org",
+            "url": "https://achievement.org/achiever/ellen-johnson-sirleaf/",
+            "evidence_type": "born-field",
+            "quality_rank": 0
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Ellen Johnson Sirleaf\nVerification completed: 2025-11-26 00:42:25 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: achievement.org, britannica.com, en.wikipedia.org, awpc.cattcenter.iastate.edu\nSimilarity scores ranged from 0.520 to 0.692\nRerank scores ranged from 0.635 to 0.891\n\nEXTRACTION PHASE\nScanned 2 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1938\n\nVERIFICATION PHASE\nVerification status: verified\nIndependent source count: 2\nVerified birth year: 1938\nSupporting domains: achievement.org, en.wikipedia.org\nSupporting extractions: 2\nEvidence types: born-field, born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

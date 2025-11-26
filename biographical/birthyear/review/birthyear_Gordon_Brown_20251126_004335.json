@@ -1,0 +1,115 @@
+{
+  "person_name": "Gordon Brown",
+  "timestamp": "2025-11-26T00:43:35.389632",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 3698,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Gordon_Brown",
+        "similarity": 0.6086888730524403,
+        "rerank_score": 0.8724455
+      },
+      {
+        "chunk_id": 3755,
+        "domain": "britannica.com",
+        "url": "https://www.britannica.com/biography/Gordon-Brown",
+        "similarity": 0.5467843126138469,
+        "rerank_score": 0.8724455
+      },
+      {
+        "chunk_id": 3757,
+        "domain": "britannica.com",
+        "url": "https://www.britannica.com/biography/Gordon-Brown",
+        "similarity": 0.49512422132987055,
+        "rerank_score": 0.8091708
+      },
+      {
+        "chunk_id": 3721,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Gordon_Brown",
+        "similarity": 0.5167738798233118,
+        "rerank_score": 0.7825466
+      },
+      {
+        "chunk_id": 3760,
+        "domain": "clubmadrid.org",
+        "url": "https://clubmadrid.org/who/members/brown-gordon/",
+        "similarity": 0.5156834640555719,
+        "rerank_score": 0.75312227
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 2,
+    "extractions": [
+      {
+        "chunk_id": 3698,
+        "person_name": "Gordon Brown",
+        "contains_birth_info": true,
+        "extracted_year": 1951,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The chunk contains multiple dates, but the birth date is clearly indicated with the cue \"Born\" and the date \"20 February 1951\".\n- step2: The birth date is directly associated with Gordon Brown, as it appears under his personal details and is explicitly stated as his birth date.\n- step3: The year 1951 is clearly stated in the birth date.",
+        "raw_llm_output": "reasoning:\n- step1: The chunk contains multiple dates, but the birth date is clearly indicated with the cue \"Born\" and the date \"20 February 1951\".\n- step2: The birth date is directly associated with Gordon Brown, as it appears under his personal details and is explicitly stated as his birth date.\n- step3: The year 1951 is clearly stated in the birth date.\ncontains_birthdate: true\nbirth_year: 1951",
+        "url": "https://en.wikipedia.org/wiki/Gordon_Brown",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 1,
+        "similarity": 0.6086888730524403,
+        "rerank_score": 0.8724455
+      },
+      {
+        "chunk_id": 3755,
+        "person_name": "Gordon Brown",
+        "contains_birth_info": true,
+        "extracted_year": 1951,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth cue \"born\" followed by a date string \"February 20, 1951\".\n- step2: The birth information is directly associated with Gordon Brown, as it appears immediately after his name in a structured format.\n- step3: The year is explicitly stated as 1951.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth cue \"born\" followed by a date string \"February 20, 1951\".\n- step2: The birth information is directly associated with Gordon Brown, as it appears immediately after his name in a structured format.\n- step3: The year is explicitly stated as 1951.\ncontains_birthdate: true\nbirth_year: 1951",
+        "url": "https://www.britannica.com/biography/Gordon-Brown",
+        "domain": "britannica.com",
+        "chunk_index": 1,
+        "similarity": 0.5467843126138469,
+        "rerank_score": 0.8724455
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "verified",
+    "birth_year": 1951,
+    "independent_source_count": 2,
+    "total_extractions": 2,
+    "year_ledgers": {
+      "1951": {
+        "year": 1951,
+        "count": 2,
+        "domains": [
+          "britannica.com",
+          "en.wikipedia.org"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 3698,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Gordon_Brown",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 3755,
+            "domain": "britannica.com",
+            "url": "https://www.britannica.com/biography/Gordon-Brown",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Gordon Brown\nVerification completed: 2025-11-26 00:43:35 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: britannica.com, en.wikipedia.org, clubmadrid.org\nSimilarity scores ranged from 0.481 to 0.609\nRerank scores ranged from 0.455 to 0.872\n\nEXTRACTION PHASE\nScanned 2 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1951\n\nVERIFICATION PHASE\nVerification status: verified\nIndependent source count: 2\nVerified birth year: 1951\nSupporting domains: britannica.com, en.wikipedia.org\nSupporting extractions: 2\nEvidence types: born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

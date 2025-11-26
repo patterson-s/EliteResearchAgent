@@ -1,0 +1,115 @@
+{
+  "person_name": "Elvira Nabiullina",
+  "timestamp": "2025-11-26T00:42:31.344808",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 3289,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Elvira_Nabiullina",
+        "similarity": 0.5314983146303676,
+        "rerank_score": 0.91813606
+      },
+      {
+        "chunk_id": 3315,
+        "domain": "spisok-putina.org",
+        "url": "https://www.spisok-putina.org/en/personas/nabiullina-2/",
+        "similarity": 0.5148566414093987,
+        "rerank_score": 0.9073207
+      },
+      {
+        "chunk_id": 3299,
+        "domain": "aebrus.ru",
+        "url": "https://aebrus.ru/upload/iblock/3aa/Elvira-Nabiullina.pdf",
+        "similarity": 0.5199842558704079,
+        "rerank_score": 0.8727061
+      },
+      {
+        "chunk_id": 3311,
+        "domain": "opensanctions.org",
+        "url": "https://www.opensanctions.org/entities/Q74746/",
+        "similarity": 0.4957046869621314,
+        "rerank_score": 0.86981434
+      },
+      {
+        "chunk_id": 3307,
+        "domain": "archive.government.ru",
+        "url": "http://archive.government.ru/eng/persons/18/print/",
+        "similarity": 0.49828904216612513,
+        "rerank_score": 0.8646883
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 2,
+    "extractions": [
+      {
+        "chunk_id": 3289,
+        "person_name": "Elvira Nabiullina",
+        "contains_birth_info": true,
+        "extracted_year": 1963,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date string \"29 October 1963\" associated with the \"Born\" field under \"Personal details\".\n- step2: The birth date is directly linked to Elvira Nabiullina in the \"Personal details\" section, with no ambiguity.\n- step3: The year \"1963\" is explicitly stated in the birth date string.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date string \"29 October 1963\" associated with the \"Born\" field under \"Personal details\".\n- step2: The birth date is directly linked to Elvira Nabiullina in the \"Personal details\" section, with no ambiguity.\n- step3: The year \"1963\" is explicitly stated in the birth date string.\ncontains_birthdate: true\nbirth_year: 1963",
+        "url": "https://en.wikipedia.org/wiki/Elvira_Nabiullina",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.5314983146303676,
+        "rerank_score": 0.91813606
+      },
+      {
+        "chunk_id": 3315,
+        "person_name": "Elvira Nabiullina",
+        "contains_birth_info": true,
+        "extracted_year": 1963,
+        "evidence_type": "born-field",
+        "reasoning": "- step1: The chunk contains two explicit date cues: \"Date of Birth: 29 October 1963\" and \"Born in 1963 in Ufa.\"\n- step2: Both dates are clearly associated with Elvira Nabiullina, as they are directly under her name in the structured format and mentioned in the context of her biography.\n- step3: The full date \"29 October 1963\" provides the most precise year, which is 1963.",
+        "raw_llm_output": "reasoning:\n- step1: The chunk contains two explicit date cues: \"Date of Birth: 29 October 1963\" and \"Born in 1963 in Ufa.\"\n- step2: Both dates are clearly associated with Elvira Nabiullina, as they are directly under her name in the structured format and mentioned in the context of her biography.\n- step3: The full date \"29 October 1963\" provides the most precise year, which is 1963.\ncontains_birthdate: true\nbirth_year: 1963",
+        "url": "https://www.spisok-putina.org/en/personas/nabiullina-2/",
+        "domain": "spisok-putina.org",
+        "chunk_index": 0,
+        "similarity": 0.5148566414093987,
+        "rerank_score": 0.9073207
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "verified",
+    "birth_year": 1963,
+    "independent_source_count": 2,
+    "total_extractions": 2,
+    "year_ledgers": {
+      "1963": {
+        "year": 1963,
+        "count": 2,
+        "domains": [
+          "spisok-putina.org",
+          "en.wikipedia.org"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 3289,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Elvira_Nabiullina",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 3315,
+            "domain": "spisok-putina.org",
+            "url": "https://www.spisok-putina.org/en/personas/nabiullina-2/",
+            "evidence_type": "born-field",
+            "quality_rank": 0
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Elvira Nabiullina\nVerification completed: 2025-11-26 00:42:31 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: spisok-putina.org, opensanctions.org, archive.government.ru, aebrus.ru, en.wikipedia.org\nSimilarity scores ranged from 0.350 to 0.531\nRerank scores ranged from 0.590 to 0.918\n\nEXTRACTION PHASE\nScanned 2 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1963\n\nVERIFICATION PHASE\nVerification status: verified\nIndependent source count: 2\nVerified birth year: 1963\nSupporting domains: spisok-putina.org, en.wikipedia.org\nSupporting extractions: 2\nEvidence types: born-field, born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

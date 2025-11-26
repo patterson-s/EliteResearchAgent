@@ -1,0 +1,115 @@
+{
+  "person_name": "Abhijit Banerjee",
+  "timestamp": "2025-11-26T00:39:43.680917",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 3115,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Abhijit_Banerjee",
+        "similarity": 0.6279568697407961,
+        "rerank_score": 0.90330297
+      },
+      {
+        "chunk_id": 3126,
+        "domain": "economics.mit.edu",
+        "url": "https://economics.mit.edu/sites/default/files/2022-08/2022.08%20on%20website.pdf",
+        "similarity": 0.5427585562516817,
+        "rerank_score": 0.8706085
+      },
+      {
+        "chunk_id": 3157,
+        "domain": "britannica.com",
+        "url": "https://www.britannica.com/money/Abhijit-Banerjee",
+        "similarity": 0.5948544932462029,
+        "rerank_score": 0.8524574
+      },
+      {
+        "chunk_id": 3125,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Abhijit_Banerjee",
+        "similarity": 0.5208931063072251,
+        "rerank_score": 0.72605723
+      },
+      {
+        "chunk_id": 3121,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Abhijit_Banerjee",
+        "similarity": 0.47729601163512214,
+        "rerank_score": 0.68697983
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 2,
+    "extractions": [
+      {
+        "chunk_id": 3115,
+        "person_name": "Abhijit Banerjee",
+        "contains_birth_info": true,
+        "extracted_year": 1961,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date string \"February 21, 1961\" associated with the phrase \"Born\" and directly following Abhijit Banerjee's name.\n- step2: The birth date is unambiguously linked to Abhijit Banerjee as it appears in a section dedicated to his personal details and is not associated with any other individual.\n- step3: The year \"1961\" is explicitly stated in the date string.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date string \"February 21, 1961\" associated with the phrase \"Born\" and directly following Abhijit Banerjee's name.\n- step2: The birth date is unambiguously linked to Abhijit Banerjee as it appears in a section dedicated to his personal details and is not associated with any other individual.\n- step3: The year \"1961\" is explicitly stated in the date string.\ncontains_birthdate: true\nbirth_year: 1961",
+        "url": "https://en.wikipedia.org/wiki/Abhijit_Banerjee",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.6279568697407961,
+        "rerank_score": 0.90330297
+      },
+      {
+        "chunk_id": 3126,
+        "person_name": "Abhijit Banerjee",
+        "contains_birth_info": true,
+        "extracted_year": 1961,
+        "evidence_type": "born-field",
+        "reasoning": "- step1: The text contains a clear birth date cue \"DATE OF BIRTH\" followed by \"February 21, 1961\".\n- step2: The date is directly associated with Abhijit Banerjee's name in the structured CV format, leaving no ambiguity.\n- step3: The year 1961 is explicitly stated in the date.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date cue \"DATE OF BIRTH\" followed by \"February 21, 1961\".\n- step2: The date is directly associated with Abhijit Banerjee's name in the structured CV format, leaving no ambiguity.\n- step3: The year 1961 is explicitly stated in the date.\ncontains_birthdate: true\nbirth_year: 1961",
+        "url": "https://economics.mit.edu/sites/default/files/2022-08/2022.08%20on%20website.pdf",
+        "domain": "economics.mit.edu",
+        "chunk_index": 0,
+        "similarity": 0.5427585562516817,
+        "rerank_score": 0.8706085
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "verified",
+    "birth_year": 1961,
+    "independent_source_count": 2,
+    "total_extractions": 2,
+    "year_ledgers": {
+      "1961": {
+        "year": 1961,
+        "count": 2,
+        "domains": [
+          "en.wikipedia.org",
+          "economics.mit.edu"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 3115,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Abhijit_Banerjee",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 3126,
+            "domain": "economics.mit.edu",
+            "url": "https://economics.mit.edu/sites/default/files/2022-08/2022.08%20on%20website.pdf",
+            "evidence_type": "born-field",
+            "quality_rank": 0
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Abhijit Banerjee\nVerification completed: 2025-11-26 00:39:43 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: britannica.com, en.wikipedia.org, economics.mit.edu\nSimilarity scores ranged from 0.390 to 0.628\nRerank scores ranged from 0.334 to 0.903\n\nEXTRACTION PHASE\nScanned 2 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1961\n\nVERIFICATION PHASE\nVerification status: verified\nIndependent source count: 2\nVerified birth year: 1961\nSupporting domains: en.wikipedia.org, economics.mit.edu\nSupporting extractions: 2\nEvidence types: born-field, born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

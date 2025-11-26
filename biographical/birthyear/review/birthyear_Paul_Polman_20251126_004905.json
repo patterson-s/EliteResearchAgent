@@ -1,0 +1,226 @@
+{
+  "person_name": "Paul Polman",
+  "timestamp": "2025-11-26T00:49:05.557629",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 3208,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Paul_Polman",
+        "similarity": 0.6267325734178968,
+        "rerank_score": 0.8974172
+      },
+      {
+        "chunk_id": 3217,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Paul_Polman",
+        "similarity": 0.5049906808502855,
+        "rerank_score": 0.72348577
+      },
+      {
+        "chunk_id": 3209,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Paul_Polman",
+        "similarity": 0.4771621658326975,
+        "rerank_score": 0.5654673
+      },
+      {
+        "chunk_id": 3214,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Paul_Polman",
+        "similarity": 0.46239353304098074,
+        "rerank_score": 0.45900398
+      },
+      {
+        "chunk_id": 3221,
+        "domain": "chartwellspeakers.com",
+        "url": "https://www.chartwellspeakers.com/speaker/paul-polman/",
+        "similarity": 0.519042152851102,
+        "rerank_score": 0.4199102
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 10,
+    "extractions": [
+      {
+        "chunk_id": 3208,
+        "person_name": "Paul Polman",
+        "contains_birth_info": true,
+        "extracted_year": 1956,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains the phrase \"born 1956\" and \"born 11 July 1956\" as clear birth cues.  \n- step2: Both dates are directly associated with Paul Polman in the context, with no ambiguity.  \n- step3: The year 1956 is explicitly stated and is the most precise information available.",
+        "raw_llm_output": "reasoning:  \n- step1: The text contains the phrase \"born 1956\" and \"born 11 July 1956\" as clear birth cues.  \n- step2: Both dates are directly associated with Paul Polman in the context, with no ambiguity.  \n- step3: The year 1956 is explicitly stated and is the most precise information available.  \ncontains_birthdate: true  \nbirth_year: 1956",
+        "url": "https://en.wikipedia.org/wiki/Paul_Polman",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.6267325734178968,
+        "rerank_score": 0.8974172
+      },
+      {
+        "chunk_id": 3217,
+        "person_name": "Paul Polman",
+        "contains_birth_info": true,
+        "extracted_year": 1956,
+        "evidence_type": "category",
+        "reasoning": "- step1: The text contains the phrase \"1956 births\" under the \"Categories\" section, which is a strong birth year cue.\n- step2: The section is directly associated with Paul Polman's name in the list of categories, making it clear that the birth year refers to him.\n- step3: The year \"1956\" is explicitly mentioned and is the most precise information available.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains the phrase \"1956 births\" under the \"Categories\" section, which is a strong birth year cue.\n- step2: The section is directly associated with Paul Polman's name in the list of categories, making it clear that the birth year refers to him.\n- step3: The year \"1956\" is explicitly mentioned and is the most precise information available.\ncontains_birthdate: true\nbirth_year: 1956",
+        "url": "https://en.wikipedia.org/wiki/Paul_Polman",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 9,
+        "similarity": 0.5049906808502855,
+        "rerank_score": 0.72348577
+      },
+      {
+        "chunk_id": 3209,
+        "person_name": "Paul Polman",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: The text mentions \"Polman was born and grew up in the Dutch city of Enschede,\" but does not provide a specific birth date or year.\n- step2: The birth information clearly refers to Paul Polman, as it is in a section about his early life.\n- step3: No specific birth year is mentioned, making it impossible to determine the year.",
+        "raw_llm_output": "reasoning:\n- step1: The text mentions \"Polman was born and grew up in the Dutch city of Enschede,\" but does not provide a specific birth date or year.\n- step2: The birth information clearly refers to Paul Polman, as it is in a section about his early life.\n- step3: No specific birth year is mentioned, making it impossible to determine the year.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://en.wikipedia.org/wiki/Paul_Polman",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 1,
+        "similarity": 0.4771621658326975,
+        "rerank_score": 0.5654673
+      },
+      {
+        "chunk_id": 3214,
+        "person_name": "Paul Polman",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No explicit birth cues or date strings related to Paul Polman are found in the chunk.\n- step2: No disambiguation needed as there are no birth-related mentions.\n- step3: No year selection possible due to absence of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No explicit birth cues or date strings related to Paul Polman are found in the chunk.\n- step2: No disambiguation needed as there are no birth-related mentions.\n- step3: No year selection possible due to absence of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://en.wikipedia.org/wiki/Paul_Polman",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 6,
+        "similarity": 0.46239353304098074,
+        "rerank_score": 0.45900398
+      },
+      {
+        "chunk_id": 3221,
+        "person_name": "Paul Polman",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings found in the chunk.  \n- step2: No disambiguation needed as no birth-related information is present.  \n- step3: No year selection possible due to absence of birth information.",
+        "raw_llm_output": "reasoning:  \n- step1: No birth cues or date strings found in the chunk.  \n- step2: No disambiguation needed as no birth-related information is present.  \n- step3: No year selection possible due to absence of birth information.  \ncontains_birthdate: false  \nbirth_year: null",
+        "url": "https://www.chartwellspeakers.com/speaker/paul-polman/",
+        "domain": "chartwellspeakers.com",
+        "chunk_index": 0,
+        "similarity": 0.519042152851102,
+        "rerank_score": 0.4199102
+      },
+      {
+        "chunk_id": 3216,
+        "person_name": "Paul Polman",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No explicit birth cues or date strings related to Paul Polman are found in the chunk.\n- step2: No disambiguation needed as there are no birth-related mentions.\n- step3: No year selection possible due to absence of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No explicit birth cues or date strings related to Paul Polman are found in the chunk.\n- step2: No disambiguation needed as there are no birth-related mentions.\n- step3: No year selection possible due to absence of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://en.wikipedia.org/wiki/Paul_Polman",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 8,
+        "similarity": 0.484904574413103,
+        "rerank_score": 0.4172008
+      },
+      {
+        "chunk_id": 3241,
+        "person_name": "Paul Polman",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No explicit birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as there are no birth-related dates mentioned.\n- step3: No year selection possible due to absence of birth-related information.",
+        "raw_llm_output": "reasoning:\n- step1: No explicit birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as there are no birth-related dates mentioned.\n- step3: No year selection possible due to absence of birth-related information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://magazine.uc.edu/content/dam/magazine/docs/PaulPolmanPortfolio08.pdf",
+        "domain": "magazine.uc.edu",
+        "chunk_index": 0,
+        "similarity": 0.49810798265190565,
+        "rerank_score": 0.41151342
+      },
+      {
+        "chunk_id": 3213,
+        "person_name": "Paul Polman",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings related to Paul Polman are found in the text.\n- step2: No disambiguation is needed as there are no birth-related mentions.\n- step3: No year selection is possible due to the absence of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings related to Paul Polman are found in the text.\n- step2: No disambiguation is needed as there are no birth-related mentions.\n- step3: No year selection is possible due to the absence of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://en.wikipedia.org/wiki/Paul_Polman",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 5,
+        "similarity": 0.5292675691819602,
+        "rerank_score": 0.4051433
+      },
+      {
+        "chunk_id": 3246,
+        "person_name": "Paul Polman",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings found in the chunk.\n- step2: No disambiguation needed as no birth information is present.\n- step3: No year selection possible due to absence of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings found in the chunk.\n- step2: No disambiguation needed as no birth information is present.\n- step3: No year selection possible due to absence of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://www.un.org/sg/en/management/bios/Polman.shtml",
+        "domain": "un.org",
+        "chunk_index": 0,
+        "similarity": 0.48668664461088784,
+        "rerank_score": 0.36026445
+      },
+      {
+        "chunk_id": 3237,
+        "person_name": "Paul Polman",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings related to birth are found in the text.\n- step2: N/A, as no birth information is present.\n- step3: N/A, as no birth year is mentioned.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings related to birth are found in the text.\n- step2: N/A, as no birth information is present.\n- step3: N/A, as no birth year is mentioned.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://graham.uchicago.edu/bio/paul-polman/",
+        "domain": "graham.uchicago.edu",
+        "chunk_index": 0,
+        "similarity": 0.4555313769454252,
+        "rerank_score": 0.32492098
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "no_corroboration",
+    "birth_year": 1956,
+    "independent_source_count": 1,
+    "total_extractions": 10,
+    "year_ledgers": {
+      "1956": {
+        "year": 1956,
+        "count": 1,
+        "domains": [
+          "en.wikipedia.org"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 3208,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Paul_Polman",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 3217,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Paul_Polman",
+            "evidence_type": "category",
+            "quality_rank": 3
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Paul Polman\nVerification completed: 2025-11-26 00:49:05 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: chartwellspeakers.com, en.wikipedia.org\nSimilarity scores ranged from 0.456 to 0.627\nRerank scores ranged from 0.325 to 0.897\n\nEXTRACTION PHASE\nScanned 10 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1956\n\nVERIFICATION PHASE\nVerification status: no_corroboration\nIndependent source count: 1\nVerified birth year: 1956\nSupporting domains: en.wikipedia.org\nSupporting extractions: 2\nEvidence types: category, born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

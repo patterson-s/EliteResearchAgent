@@ -1,0 +1,115 @@
+{
+  "person_name": "Yingfan Wang",
+  "timestamp": "2025-11-26T00:51:35.438132",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 2947,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Wang_Yingfan",
+        "similarity": 0.5975552098287994,
+        "rerank_score": 0.8775715
+      },
+      {
+        "chunk_id": 2951,
+        "domain": "asian-affairs.com",
+        "url": "http://www.asian-affairs.com/biographies/wangyingfan.html",
+        "similarity": 0.4989608300895337,
+        "rerank_score": 0.7992077
+      },
+      {
+        "chunk_id": 2950,
+        "domain": "un.org",
+        "url": "https://www.un.org/millenniumgoals/advocates/members/yingfan-wang.shtml",
+        "similarity": 0.517602884630509,
+        "rerank_score": 0.7672197
+      },
+      {
+        "chunk_id": 2952,
+        "domain": "press.un.org",
+        "url": "https://press.un.org/en/2000/20000301.bio3275.doc.html",
+        "similarity": 0.4037878947211503,
+        "rerank_score": 0.7154444
+      },
+      {
+        "chunk_id": 2948,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Wang_Yingfan",
+        "similarity": 0.5162869794161902,
+        "rerank_score": 0.6947383
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 2,
+    "extractions": [
+      {
+        "chunk_id": 2947,
+        "person_name": "Yingfan Wang",
+        "contains_birth_info": true,
+        "extracted_year": 1942,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains two explicit birth cues: \"Born (1942-04-01) April 1, 1942\" and \"born April 1942\", both associated with Wang Yingfan.\n- step2: Both dates are clearly linked to Wang Yingfan through the context and the structure of the personal details section.\n- step3: The year 1942 is explicitly mentioned in both instances, making it the most precise year available.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains two explicit birth cues: \"Born (1942-04-01) April 1, 1942\" and \"born April 1942\", both associated with Wang Yingfan.\n- step2: Both dates are clearly linked to Wang Yingfan through the context and the structure of the personal details section.\n- step3: The year 1942 is explicitly mentioned in both instances, making it the most precise year available.\ncontains_birthdate: true\nbirth_year: 1942",
+        "url": "https://en.wikipedia.org/wiki/Wang_Yingfan",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.5975552098287994,
+        "rerank_score": 0.8775715
+      },
+      {
+        "chunk_id": 2951,
+        "person_name": "Yingfan Wang",
+        "contains_birth_info": true,
+        "extracted_year": 1942,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth cue (\"was born\") followed by a date string (\"April 1942\").\n- step2: The birth information is directly associated with \"Wang Ying Fan,\" which matches the PERSON_NAME \"Yingfan Wang\" (allowing for name order variation).\n- step3: The year \"1942\" is explicitly stated and is the most precise year available.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth cue (\"was born\") followed by a date string (\"April 1942\").\n- step2: The birth information is directly associated with \"Wang Ying Fan,\" which matches the PERSON_NAME \"Yingfan Wang\" (allowing for name order variation).\n- step3: The year \"1942\" is explicitly stated and is the most precise year available.\ncontains_birthdate: true\nbirth_year: 1942",
+        "url": "http://www.asian-affairs.com/biographies/wangyingfan.html",
+        "domain": "asian-affairs.com",
+        "chunk_index": 0,
+        "similarity": 0.4989608300895337,
+        "rerank_score": 0.7992077
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "verified",
+    "birth_year": 1942,
+    "independent_source_count": 2,
+    "total_extractions": 2,
+    "year_ledgers": {
+      "1942": {
+        "year": 1942,
+        "count": 2,
+        "domains": [
+          "asian-affairs.com",
+          "en.wikipedia.org"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 2947,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Wang_Yingfan",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 2951,
+            "domain": "asian-affairs.com",
+            "url": "http://www.asian-affairs.com/biographies/wangyingfan.html",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Yingfan Wang\nVerification completed: 2025-11-26 00:51:35 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: asian-affairs.com, press.un.org, en.wikipedia.org, un.org\nSimilarity scores ranged from 0.345 to 0.598\nRerank scores ranged from 0.215 to 0.878\n\nEXTRACTION PHASE\nScanned 2 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1942\n\nVERIFICATION PHASE\nVerification status: verified\nIndependent source count: 2\nVerified birth year: 1942\nSupporting domains: asian-affairs.com, en.wikipedia.org\nSupporting extractions: 2\nEvidence types: born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

@@ -1,0 +1,115 @@
+{
+  "person_name": "Graça Machel",
+  "timestamp": "2025-11-26T00:43:41.389008",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 3320,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Gra%C3%A7a_Machel",
+        "similarity": 0.5926284726670786,
+        "rerank_score": 0.91023487
+      },
+      {
+        "chunk_id": 3337,
+        "domain": "commencement.morgan.edu",
+        "url": "https://commencement.morgan.edu/speakers/graca-machel/",
+        "similarity": 0.54591432837411,
+        "rerank_score": 0.8687491
+      },
+      {
+        "chunk_id": 3344,
+        "domain": "sahistory.org.za",
+        "url": "https://sahistory.org.za/people/graca-simbine-machel",
+        "similarity": 0.5612467665355363,
+        "rerank_score": 0.85097736
+      },
+      {
+        "chunk_id": 3321,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Gra%C3%A7a_Machel",
+        "similarity": 0.5576536635383413,
+        "rerank_score": 0.8282873
+      },
+      {
+        "chunk_id": 3342,
+        "domain": "kids.britannica.com",
+        "url": "https://kids.britannica.com/kids/article/Gra%C3%A7a-Machel/602116",
+        "similarity": 0.5471010084901646,
+        "rerank_score": 0.81489426
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 2,
+    "extractions": [
+      {
+        "chunk_id": 3320,
+        "person_name": "Graça Machel",
+        "contains_birth_info": true,
+        "extracted_year": 1945,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date string \"17 October 1945\" associated with the name \"Graça Simbine\" and a birth cue \"born\".\n- step2: The birth date is directly linked to Graça Machel through her maiden name \"Graça Simbine\" and the phrase \"née Simbine\".\n- step3: The year 1945 is explicitly stated in the birth date string.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date string \"17 October 1945\" associated with the name \"Graça Simbine\" and a birth cue \"born\".\n- step2: The birth date is directly linked to Graça Machel through her maiden name \"Graça Simbine\" and the phrase \"née Simbine\".\n- step3: The year 1945 is explicitly stated in the birth date string.\ncontains_birthdate: true\nbirth_year: 1945",
+        "url": "https://en.wikipedia.org/wiki/Gra%C3%A7a_Machel",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.5926284726670786,
+        "rerank_score": 0.91023487
+      },
+      {
+        "chunk_id": 3337,
+        "person_name": "Graça Machel",
+        "contains_birth_info": true,
+        "extracted_year": 1945,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth cue \"b. October 17, 1945\" and another mention \"Graca Machel was born in 1945\".\n- step2: Both dates are directly associated with Graça Machel, with the first one explicitly stating her full name and birth date.\n- step3: The year 1945 is consistently mentioned and is the most precise information available.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth cue \"b. October 17, 1945\" and another mention \"Graca Machel was born in 1945\".\n- step2: Both dates are directly associated with Graça Machel, with the first one explicitly stating her full name and birth date.\n- step3: The year 1945 is consistently mentioned and is the most precise information available.\ncontains_birthdate: true\nbirth_year: 1945",
+        "url": "https://commencement.morgan.edu/speakers/graca-machel/",
+        "domain": "commencement.morgan.edu",
+        "chunk_index": 0,
+        "similarity": 0.54591432837411,
+        "rerank_score": 0.8687491
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "verified",
+    "birth_year": 1945,
+    "independent_source_count": 2,
+    "total_extractions": 2,
+    "year_ledgers": {
+      "1945": {
+        "year": 1945,
+        "count": 2,
+        "domains": [
+          "en.wikipedia.org",
+          "commencement.morgan.edu"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 3320,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Gra%C3%A7a_Machel",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 3337,
+            "domain": "commencement.morgan.edu",
+            "url": "https://commencement.morgan.edu/speakers/graca-machel/",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Graça Machel\nVerification completed: 2025-11-26 00:43:41 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: kids.britannica.com, sahistory.org.za, en.wikipedia.org, commencement.morgan.edu\nSimilarity scores ranged from 0.441 to 0.593\nRerank scores ranged from 0.563 to 0.910\n\nEXTRACTION PHASE\nScanned 2 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1945\n\nVERIFICATION PHASE\nVerification status: verified\nIndependent source count: 2\nVerified birth year: 1945\nSupporting domains: en.wikipedia.org, commencement.morgan.edu\nSupporting extractions: 2\nEvidence types: born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

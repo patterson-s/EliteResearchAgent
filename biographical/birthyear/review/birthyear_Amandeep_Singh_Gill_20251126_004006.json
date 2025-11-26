@@ -1,0 +1,115 @@
+{
+  "person_name": "Amandeep Singh Gill",
+  "timestamp": "2025-11-26T00:40:06.376083",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 1259,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Amandeep_Singh_Gill",
+        "similarity": 0.5786522835286627,
+        "rerank_score": 0.92176014
+      },
+      {
+        "chunk_id": 1270,
+        "domain": "fsi-live.s3.us-west-1.amazonaws.com",
+        "url": "https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/staff/3887/Amandeep_Singh_Gill-CV.pdf",
+        "similarity": 0.5407929467574859,
+        "rerank_score": 0.91795975
+      },
+      {
+        "chunk_id": 1275,
+        "domain": "pmindiaun.gov.in",
+        "url": "https://pmindiaun.gov.in/Cdgeneva/pages/OA,,",
+        "similarity": 0.4547754152412045,
+        "rerank_score": 0.82254606
+      },
+      {
+        "chunk_id": 1261,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Amandeep_Singh_Gill",
+        "similarity": 0.4943556138506575,
+        "rerank_score": 0.7147281
+      },
+      {
+        "chunk_id": 1262,
+        "domain": "un.org",
+        "url": "https://www.un.org/sg/en/appointments/odet/amandeep-gill",
+        "similarity": 0.431682216785302,
+        "rerank_score": 0.5363378
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 2,
+    "extractions": [
+      {
+        "chunk_id": 1259,
+        "person_name": "Amandeep Singh Gill",
+        "contains_birth_info": true,
+        "extracted_year": 1968,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth cue (\"Born\" and \"born\") with the date \"1968-09-29\" and \"29 September 1968\" directly associated with Amandeep Singh Gill.  \n- step2: Both dates are unambiguously linked to Amandeep Singh Gill, as they appear immediately after his name in the introductory section.  \n- step3: The year 1968 is explicitly stated in both date formats.",
+        "raw_llm_output": "reasoning:  \n- step1: The text contains a clear birth cue (\"Born\" and \"born\") with the date \"1968-09-29\" and \"29 September 1968\" directly associated with Amandeep Singh Gill.  \n- step2: Both dates are unambiguously linked to Amandeep Singh Gill, as they appear immediately after his name in the introductory section.  \n- step3: The year 1968 is explicitly stated in both date formats.  \ncontains_birthdate: true  \nbirth_year: 1968",
+        "url": "https://en.wikipedia.org/wiki/Amandeep_Singh_Gill",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.5786522835286627,
+        "rerank_score": 0.92176014
+      },
+      {
+        "chunk_id": 1270,
+        "person_name": "Amandeep Singh Gill",
+        "contains_birth_info": true,
+        "extracted_year": 1968,
+        "evidence_type": "born-field",
+        "reasoning": "- step1: The chunk contains a clear birth date cue \"Date of Birth\" followed by \"29 September 1968\".\n- step2: The date is directly associated with Amandeep Singh Gill in the structured resume format under his name.\n- step3: The year is explicitly stated as 1968.",
+        "raw_llm_output": "reasoning:\n- step1: The chunk contains a clear birth date cue \"Date of Birth\" followed by \"29 September 1968\".\n- step2: The date is directly associated with Amandeep Singh Gill in the structured resume format under his name.\n- step3: The year is explicitly stated as 1968.\ncontains_birthdate: true\nbirth_year: 1968",
+        "url": "https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/staff/3887/Amandeep_Singh_Gill-CV.pdf",
+        "domain": "fsi-live.s3.us-west-1.amazonaws.com",
+        "chunk_index": 0,
+        "similarity": 0.5407929467574859,
+        "rerank_score": 0.91795975
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "verified",
+    "birth_year": 1968,
+    "independent_source_count": 2,
+    "total_extractions": 2,
+    "year_ledgers": {
+      "1968": {
+        "year": 1968,
+        "count": 2,
+        "domains": [
+          "fsi-live.s3.us-west-1.amazonaws.com",
+          "en.wikipedia.org"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 1259,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Amandeep_Singh_Gill",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 1270,
+            "domain": "fsi-live.s3.us-west-1.amazonaws.com",
+            "url": "https://fsi-live.s3.us-west-1.amazonaws.com/s3fs-public/staff/3887/Amandeep_Singh_Gill-CV.pdf",
+            "evidence_type": "born-field",
+            "quality_rank": 0
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Amandeep Singh Gill\nVerification completed: 2025-11-26 00:40:06 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: fsi-live.s3.us-west-1.amazonaws.com, un.org, en.wikipedia.org, pmindiaun.gov.in\nSimilarity scores ranged from 0.420 to 0.579\nRerank scores ranged from 0.371 to 0.922\n\nEXTRACTION PHASE\nScanned 2 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1968\n\nVERIFICATION PHASE\nVerification status: verified\nIndependent source count: 2\nVerified birth year: 1968\nSupporting domains: fsi-live.s3.us-west-1.amazonaws.com, en.wikipedia.org\nSupporting extractions: 2\nEvidence types: born-field, born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

@@ -1,0 +1,115 @@
+{
+  "person_name": "Kira Radinsky",
+  "timestamp": "2025-11-26T00:46:01.333461",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 1122,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Kira_Radinsky",
+        "similarity": 0.6102855540177495,
+        "rerank_score": 0.9257218
+      },
+      {
+        "chunk_id": 1144,
+        "domain": "jwa.org",
+        "url": "https://jwa.org/encyclopedia/article/radinsky-kira",
+        "similarity": 0.5337941563937211,
+        "rerank_score": 0.8116913
+      },
+      {
+        "chunk_id": 1148,
+        "domain": "pmwcintl.com",
+        "url": "https://pmwcintl.com/speaker/kira-radinsky-314_diagnostic-robotics_2025sv/",
+        "similarity": 0.471251953670341,
+        "rerank_score": 0.7555112
+      },
+      {
+        "chunk_id": 1124,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Kira_Radinsky",
+        "similarity": 0.5463691646055532,
+        "rerank_score": 0.7440808
+      },
+      {
+        "chunk_id": 1146,
+        "domain": "diagnosticrobotics.com",
+        "url": "https://www.diagnosticrobotics.com/kira-radinsky-dr",
+        "similarity": 0.4190094076939262,
+        "rerank_score": 0.5518883
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 2,
+    "extractions": [
+      {
+        "chunk_id": 1122,
+        "person_name": "Kira Radinsky",
+        "contains_birth_info": true,
+        "extracted_year": 1986,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date \"July 28, 1986\" associated with the name \"Kira Radinsky\".\n- step2: The birth date is directly linked to Kira Radinsky through the phrase \"Kira Radinsky (Hebrew: קירה רדינסקי; born July 28, 1986)\", leaving no ambiguity.\n- step3: The year \"1986\" is explicitly stated in the birth date.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date \"July 28, 1986\" associated with the name \"Kira Radinsky\".\n- step2: The birth date is directly linked to Kira Radinsky through the phrase \"Kira Radinsky (Hebrew: קירה רדינסקי; born July 28, 1986)\", leaving no ambiguity.\n- step3: The year \"1986\" is explicitly stated in the birth date.\ncontains_birthdate: true\nbirth_year: 1986",
+        "url": "https://en.wikipedia.org/wiki/Kira_Radinsky",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.6102855540177495,
+        "rerank_score": 0.9257218
+      },
+      {
+        "chunk_id": 1144,
+        "person_name": "Kira Radinsky",
+        "contains_birth_info": true,
+        "extracted_year": 1986,
+        "evidence_type": "other",
+        "reasoning": "- step1: The cue \"b. 1986\" is found, indicating a birth year.  \n- step2: The cue is directly associated with Kira Radinsky's name in the text.  \n- step3: The year \"1986\" is explicitly stated and unambiguous.",
+        "raw_llm_output": "reasoning:  \n- step1: The cue \"b. 1986\" is found, indicating a birth year.  \n- step2: The cue is directly associated with Kira Radinsky's name in the text.  \n- step3: The year \"1986\" is explicitly stated and unambiguous.  \ncontains_birthdate: true  \nbirth_year: 1986",
+        "url": "https://jwa.org/encyclopedia/article/radinsky-kira",
+        "domain": "jwa.org",
+        "chunk_index": 0,
+        "similarity": 0.5337941563937211,
+        "rerank_score": 0.8116913
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "verified",
+    "birth_year": 1986,
+    "independent_source_count": 2,
+    "total_extractions": 2,
+    "year_ledgers": {
+      "1986": {
+        "year": 1986,
+        "count": 2,
+        "domains": [
+          "en.wikipedia.org",
+          "jwa.org"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 1122,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Kira_Radinsky",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 1144,
+            "domain": "jwa.org",
+            "url": "https://jwa.org/encyclopedia/article/radinsky-kira",
+            "evidence_type": "other",
+            "quality_rank": 2
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Kira Radinsky\nVerification completed: 2025-11-26 00:46:01 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: pmwcintl.com, en.wikipedia.org, jwa.org, diagnosticrobotics.com\nSimilarity scores ranged from 0.395 to 0.610\nRerank scores ranged from 0.380 to 0.926\n\nEXTRACTION PHASE\nScanned 2 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1986\n\nVERIFICATION PHASE\nVerification status: verified\nIndependent source count: 2\nVerified birth year: 1986\nSupporting domains: en.wikipedia.org, jwa.org\nSupporting extractions: 2\nEvidence types: born-narrative, other\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

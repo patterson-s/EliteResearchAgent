@@ -1,0 +1,115 @@
+{
+  "person_name": "Ruth Jacoby",
+  "timestamp": "2025-11-26T00:50:10.504337",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 7,
+    "top_candidates": [
+      {
+        "chunk_id": 3802,
+        "domain": "wikidata.org",
+        "url": "https://www.wikidata.org/wiki/Q4956151",
+        "similarity": 0.5640804478196118,
+        "rerank_score": 0.83710164
+      },
+      {
+        "chunk_id": 3796,
+        "domain": "culturaldiplomacy.org",
+        "url": "https://www.culturaldiplomacy.org/academy/index.php?he-amb-ruth-jacoby",
+        "similarity": 0.4289236789884242,
+        "rerank_score": 0.74318707
+      },
+      {
+        "chunk_id": 3800,
+        "domain": "berlinglobal.org",
+        "url": "https://www.berlinglobal.org/index.php?an-interview-with-he-amb-ruth-jacoby-ambassador-of-sweden-to-germany",
+        "similarity": 0.462104030756139,
+        "rerank_score": 0.6469293
+      },
+      {
+        "chunk_id": 3804,
+        "domain": "media.un.org",
+        "url": "https://media.un.org/avlibrary/en/asset/d217/d2170510",
+        "similarity": 0.4557613645329334,
+        "rerank_score": 0.42205253
+      },
+      {
+        "chunk_id": 3806,
+        "domain": "educationspeakersgroup.com",
+        "url": "https://www.educationspeakersgroup.com/r_jacoby.html",
+        "similarity": 0.4642440515507073,
+        "rerank_score": 0.41435426
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 2,
+    "extractions": [
+      {
+        "chunk_id": 3802,
+        "person_name": "Ruth Jacoby",
+        "contains_birth_info": true,
+        "extracted_year": 1949,
+        "evidence_type": "born-field",
+        "reasoning": "- step1: The chunk contains a clear birth date string \"13 January 1949\" under the \"date of birth\" field.\n- step2: The date is directly associated with Ruth Jacoby in the structured Wikidata entry, leaving no ambiguity.\n- step3: The year is explicitly stated as 1949.",
+        "raw_llm_output": "reasoning:\n- step1: The chunk contains a clear birth date string \"13 January 1949\" under the \"date of birth\" field.\n- step2: The date is directly associated with Ruth Jacoby in the structured Wikidata entry, leaving no ambiguity.\n- step3: The year is explicitly stated as 1949.\ncontains_birthdate: true\nbirth_year: 1949",
+        "url": "https://www.wikidata.org/wiki/Q4956151",
+        "domain": "wikidata.org",
+        "chunk_index": 0,
+        "similarity": 0.5640804478196118,
+        "rerank_score": 0.83710164
+      },
+      {
+        "chunk_id": 3796,
+        "person_name": "Ruth Jacoby",
+        "contains_birth_info": true,
+        "extracted_year": 1949,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth cue \"Born\" followed by the date \"January 13, 1949\" in the CURRICULUM VITAE section.\n- step2: The birth date is directly associated with H.E. Amb. Ruth Jacoby, as it appears under her name and professional details.\n- step3: The year 1949 is explicitly mentioned as part of the birth date.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth cue \"Born\" followed by the date \"January 13, 1949\" in the CURRICULUM VITAE section.\n- step2: The birth date is directly associated with H.E. Amb. Ruth Jacoby, as it appears under her name and professional details.\n- step3: The year 1949 is explicitly mentioned as part of the birth date.\ncontains_birthdate: true\nbirth_year: 1949",
+        "url": "https://www.culturaldiplomacy.org/academy/index.php?he-amb-ruth-jacoby",
+        "domain": "culturaldiplomacy.org",
+        "chunk_index": 3,
+        "similarity": 0.4289236789884242,
+        "rerank_score": 0.74318707
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "verified",
+    "birth_year": 1949,
+    "independent_source_count": 2,
+    "total_extractions": 2,
+    "year_ledgers": {
+      "1949": {
+        "year": 1949,
+        "count": 2,
+        "domains": [
+          "culturaldiplomacy.org",
+          "wikidata.org"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 3802,
+            "domain": "wikidata.org",
+            "url": "https://www.wikidata.org/wiki/Q4956151",
+            "evidence_type": "born-field",
+            "quality_rank": 0
+          },
+          {
+            "chunk_id": 3796,
+            "domain": "culturaldiplomacy.org",
+            "url": "https://www.culturaldiplomacy.org/academy/index.php?he-amb-ruth-jacoby",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Ruth Jacoby\nVerification completed: 2025-11-26 00:50:10 UTC\n\nRETRIEVAL PHASE\nRetrieved 7 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: berlinglobal.org, educationspeakersgroup.com, media.un.org, culturaldiplomacy.org, wikidata.org\nSimilarity scores ranged from 0.424 to 0.564\nRerank scores ranged from 0.257 to 0.837\n\nEXTRACTION PHASE\nScanned 2 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1949\n\nVERIFICATION PHASE\nVerification status: verified\nIndependent source count: 2\nVerified birth year: 1949\nSupporting domains: culturaldiplomacy.org, wikidata.org\nSupporting extractions: 2\nEvidence types: born-field, born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

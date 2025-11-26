@@ -1,0 +1,136 @@
+{
+  "person_name": "Yevgeny Primakov",
+  "timestamp": "2025-11-26T00:51:27.465989",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 379,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Yevgeny_Primakov",
+        "similarity": 0.5690184750064324,
+        "rerank_score": 0.8934678
+      },
+      {
+        "chunk_id": 378,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Yevgeny_Primakov",
+        "similarity": 0.5707341440273974,
+        "rerank_score": 0.8849276
+      },
+      {
+        "chunk_id": 392,
+        "domain": "britannica.com",
+        "url": "https://www.britannica.com/biography/Yevgeny-Primakov",
+        "similarity": 0.48478445423694005,
+        "rerank_score": 0.87681407
+      },
+      {
+        "chunk_id": 391,
+        "domain": "britannica.com",
+        "url": "https://www.britannica.com/biography/Yevgeny-Primakov",
+        "similarity": 0.6248875897116487,
+        "rerank_score": 0.85967577
+      },
+      {
+        "chunk_id": 395,
+        "domain": "imemo.ru",
+        "url": "https://www.imemo.ru/en/about/history/primakov",
+        "similarity": 0.4595290598636101,
+        "rerank_score": 0.7185356
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 3,
+    "extractions": [
+      {
+        "chunk_id": 379,
+        "person_name": "Yevgeny Primakov",
+        "contains_birth_info": true,
+        "extracted_year": 1929,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear date string \"29 October 1929\" associated with Yevgeny Primakov's name, which is a strong birth date cue.\n- step2: The date is directly linked to Yevgeny Primakov in the introductory paragraph, with no ambiguity regarding other individuals.\n- step3: The year \"1929\" is explicitly mentioned as part of the full date.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear date string \"29 October 1929\" associated with Yevgeny Primakov's name, which is a strong birth date cue.\n- step2: The date is directly linked to Yevgeny Primakov in the introductory paragraph, with no ambiguity regarding other individuals.\n- step3: The year \"1929\" is explicitly mentioned as part of the full date.\ncontains_birthdate: true\nbirth_year: 1929",
+        "url": "https://en.wikipedia.org/wiki/Yevgeny_Primakov",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 1,
+        "similarity": 0.5690184750064324,
+        "rerank_score": 0.8934678
+      },
+      {
+        "chunk_id": 378,
+        "person_name": "Yevgeny Primakov",
+        "contains_birth_info": true,
+        "extracted_year": 1929,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date under the \"Personal details\" section: \"Born (1929-10-29) 29 October 1929\".\n- step2: The birth date is directly associated with Yevgeny Primakov in the \"Personal details\" section, leaving no ambiguity.\n- step3: The year 1929 is explicitly stated in the birth date.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date under the \"Personal details\" section: \"Born (1929-10-29) 29 October 1929\".\n- step2: The birth date is directly associated with Yevgeny Primakov in the \"Personal details\" section, leaving no ambiguity.\n- step3: The year 1929 is explicitly stated in the birth date.\ncontains_birthdate: true\nbirth_year: 1929",
+        "url": "https://en.wikipedia.org/wiki/Yevgeny_Primakov",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.5707341440273974,
+        "rerank_score": 0.8849276
+      },
+      {
+        "chunk_id": 392,
+        "person_name": "Yevgeny Primakov",
+        "contains_birth_info": true,
+        "extracted_year": 1929,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth cue (\"Born:\") followed by a full date string (\"October 29, 1929\").\n- step2: The birth information is directly associated with Yevgeny Primakov in the \"Quick Facts\" section, under his full name.\n- step3: The year 1929 is explicitly stated in the date string.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth cue (\"Born:\") followed by a full date string (\"October 29, 1929\").\n- step2: The birth information is directly associated with Yevgeny Primakov in the \"Quick Facts\" section, under his full name.\n- step3: The year 1929 is explicitly stated in the date string.\ncontains_birthdate: true\nbirth_year: 1929",
+        "url": "https://www.britannica.com/biography/Yevgeny-Primakov",
+        "domain": "britannica.com",
+        "chunk_index": 1,
+        "similarity": 0.48478445423694005,
+        "rerank_score": 0.87681407
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "verified",
+    "birth_year": 1929,
+    "independent_source_count": 2,
+    "total_extractions": 3,
+    "year_ledgers": {
+      "1929": {
+        "year": 1929,
+        "count": 2,
+        "domains": [
+          "britannica.com",
+          "en.wikipedia.org"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 379,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Yevgeny_Primakov",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 378,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Yevgeny_Primakov",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 392,
+            "domain": "britannica.com",
+            "url": "https://www.britannica.com/biography/Yevgeny-Primakov",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Yevgeny Primakov\nVerification completed: 2025-11-26 00:51:27 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: britannica.com, imemo.ru, en.wikipedia.org\nSimilarity scores ranged from 0.454 to 0.625\nRerank scores ranged from 0.503 to 0.893\n\nEXTRACTION PHASE\nScanned 3 chunks for birth information\nFound birth information in 3 chunks\nYears extracted: 1929\n\nVERIFICATION PHASE\nVerification status: verified\nIndependent source count: 2\nVerified birth year: 1929\nSupporting domains: britannica.com, en.wikipedia.org\nSupporting extractions: 3\nEvidence types: born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

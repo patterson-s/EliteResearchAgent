@@ -1,0 +1,226 @@
+{
+  "person_name": "Nafis Sadik",
+  "timestamp": "2025-11-26T00:47:39.314491",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 460,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Nafis_Sadik",
+        "similarity": 0.57510762681936,
+        "rerank_score": 0.910998
+      },
+      {
+        "chunk_id": 463,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Nafis_Sadik",
+        "similarity": 0.48491222364580744,
+        "rerank_score": 0.7576693
+      },
+      {
+        "chunk_id": 473,
+        "domain": "iussp.org",
+        "url": "https://iussp.org/en/iussp-laureate-1994-nafis-sadik",
+        "similarity": 0.4724033706815646,
+        "rerank_score": 0.70702106
+      },
+      {
+        "chunk_id": 464,
+        "domain": "unfpa.org",
+        "url": "https://www.unfpa.org/about/nafis-sadik",
+        "similarity": 0.4558177422596307,
+        "rerank_score": 0.62687886
+      },
+      {
+        "chunk_id": 469,
+        "domain": "usaforunfpa.org",
+        "url": "https://www.usaforunfpa.org/champion-human-rights-former-unfpa-executive-director-dr-nafis-sadik/",
+        "similarity": 0.42717122925875994,
+        "rerank_score": 0.5917474
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 10,
+    "extractions": [
+      {
+        "chunk_id": 460,
+        "person_name": "Nafis Sadik",
+        "contains_birth_info": true,
+        "extracted_year": 1929,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date \"18 August 1929\" associated with Nafis Sadik.\n- step2: The date is directly linked to Nafis Sadik in the sentence \"Nafis Sadik was born on 18 August 1929...\" and in the introductory line \"(18 August 1929 – 14 August 2022)\".\n- step3: The year 1929 is explicitly mentioned as part of the birth date.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date \"18 August 1929\" associated with Nafis Sadik.\n- step2: The date is directly linked to Nafis Sadik in the sentence \"Nafis Sadik was born on 18 August 1929...\" and in the introductory line \"(18 August 1929 – 14 August 2022)\".\n- step3: The year 1929 is explicitly mentioned as part of the birth date.\ncontains_birthdate: true\nbirth_year: 1929",
+        "url": "https://en.wikipedia.org/wiki/Nafis_Sadik",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.57510762681936,
+        "rerank_score": 0.910998
+      },
+      {
+        "chunk_id": 463,
+        "person_name": "Nafis Sadik",
+        "contains_birth_info": true,
+        "extracted_year": 1929,
+        "evidence_type": "category",
+        "reasoning": "- step1: The text contains a category label \"1929 births\" which suggests a birth year.\n- step2: The category label is directly associated with Nafis Sadik's name in the context of her biographical information.\n- step3: The year 1929 is the most precise year available and is explicitly mentioned.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a category label \"1929 births\" which suggests a birth year.\n- step2: The category label is directly associated with Nafis Sadik's name in the context of her biographical information.\n- step3: The year 1929 is the most precise year available and is explicitly mentioned.\ncontains_birthdate: true\nbirth_year: 1929",
+        "url": "https://en.wikipedia.org/wiki/Nafis_Sadik",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 3,
+        "similarity": 0.48491222364580744,
+        "rerank_score": 0.7576693
+      },
+      {
+        "chunk_id": 473,
+        "person_name": "Nafis Sadik",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: The text contains a clear birth cue (\"was born in Jaunpur, India\") followed by the location but no explicit date.\n- step2: The birth information is directly associated with Nafis Sadik, as it appears in a section detailing her background.\n- step3: No specific birth year or date is mentioned, making it impossible to determine the year.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth cue (\"was born in Jaunpur, India\") followed by the location but no explicit date.\n- step2: The birth information is directly associated with Nafis Sadik, as it appears in a section detailing her background.\n- step3: No specific birth year or date is mentioned, making it impossible to determine the year.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://iussp.org/en/iussp-laureate-1994-nafis-sadik",
+        "domain": "iussp.org",
+        "chunk_index": 0,
+        "similarity": 0.4724033706815646,
+        "rerank_score": 0.70702106
+      },
+      {
+        "chunk_id": 464,
+        "person_name": "Nafis Sadik",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: The text contains the phrase \"Dr. Sadik was born in Jaunpur, India,\" which is a strong birth cue, but it does not include a specific date or year.\n- step2: The cue clearly refers to Dr. Nafis Sadik, as it is directly associated with her name in the sentence.\n- step3: Since no specific date or year is mentioned, it is impossible to determine the birth year.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains the phrase \"Dr. Sadik was born in Jaunpur, India,\" which is a strong birth cue, but it does not include a specific date or year.\n- step2: The cue clearly refers to Dr. Nafis Sadik, as it is directly associated with her name in the sentence.\n- step3: Since no specific date or year is mentioned, it is impossible to determine the birth year.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://www.unfpa.org/about/nafis-sadik",
+        "domain": "unfpa.org",
+        "chunk_index": 0,
+        "similarity": 0.4558177422596307,
+        "rerank_score": 0.62687886
+      },
+      {
+        "chunk_id": 469,
+        "person_name": "Nafis Sadik",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: The text contains the phrase \"Born in British-ruled India\" which is a strong birth cue, but no specific date or year is mentioned.\n- step2: The cue clearly refers to Nafis Sadik as it is directly associated with her name in the sentence.\n- step3: Since no specific date or year is provided, it is impossible to determine the birth year.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains the phrase \"Born in British-ruled India\" which is a strong birth cue, but no specific date or year is mentioned.\n- step2: The cue clearly refers to Nafis Sadik as it is directly associated with her name in the sentence.\n- step3: Since no specific date or year is provided, it is impossible to determine the birth year.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://www.usaforunfpa.org/champion-human-rights-former-unfpa-executive-director-dr-nafis-sadik/",
+        "domain": "usaforunfpa.org",
+        "chunk_index": 0,
+        "similarity": 0.42717122925875994,
+        "rerank_score": 0.5917474
+      },
+      {
+        "chunk_id": 461,
+        "person_name": "Nafis Sadik",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: The chunk mentions Nafis Sadik's age at death (92) and her death date (14 August 2022), but no explicit birth date or year is provided.\n- step2: The age and death information clearly refer to Nafis Sadik, but there is no direct birth date or year mentioned.\n- step3: Since no explicit birth year is provided, it is impossible to determine the birth year from the given information.",
+        "raw_llm_output": "reasoning:\n- step1: The chunk mentions Nafis Sadik's age at death (92) and her death date (14 August 2022), but no explicit birth date or year is provided.\n- step2: The age and death information clearly refer to Nafis Sadik, but there is no direct birth date or year mentioned.\n- step3: Since no explicit birth year is provided, it is impossible to determine the birth year from the given information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://en.wikipedia.org/wiki/Nafis_Sadik",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 1,
+        "similarity": 0.4765424941427286,
+        "rerank_score": 0.5504388
+      },
+      {
+        "chunk_id": 471,
+        "person_name": "Nafis Sadik",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No explicit birth cues or date strings related to Nafis Sadik are present in the text.\n- step2: The text focuses on her career and achievements but does not mention any personal details like birthdate.\n- step3: Since no birthdate information is available, determining a birth year is impossible.",
+        "raw_llm_output": "reasoning:\n- step1: No explicit birth cues or date strings related to Nafis Sadik are present in the text.\n- step2: The text focuses on her career and achievements but does not mention any personal details like birthdate.\n- step3: Since no birthdate information is available, determining a birth year is impossible.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://www.prb.org/resources/nafis-sadik-architect-of-icpd/",
+        "domain": "prb.org",
+        "chunk_index": 0,
+        "similarity": 0.5106114695894971,
+        "rerank_score": 0.5366292
+      },
+      {
+        "chunk_id": 466,
+        "person_name": "Nafis Sadik",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: The text mentions Dr. Nafis Sadik's age at death (92) and the date of her death (August 14), but does not explicitly state her birth date.\n- step2: While the age at death (92) could be used to infer a birth year, there is no specific reference date provided to compute the exact year. The information is not explicitly tied to her birth date.\n- step3: Since there is no clear birth date or year mentioned, it is impossible to determine the birth year from the given text.",
+        "raw_llm_output": "reasoning:\n- step1: The text mentions Dr. Nafis Sadik's age at death (92) and the date of her death (August 14), but does not explicitly state her birth date.\n- step2: While the age at death (92) could be used to infer a birth year, there is no specific reference date provided to compute the exact year. The information is not explicitly tied to her birth date.\n- step3: Since there is no clear birth date or year mentioned, it is impossible to determine the birth year from the given text.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://pai.org/resources/pai-celebrates-the-life-of-dr-nafis-sadik/",
+        "domain": "pai.org",
+        "chunk_index": 0,
+        "similarity": 0.4383272232744106,
+        "rerank_score": 0.49128565
+      },
+      {
+        "chunk_id": 462,
+        "person_name": "Nafis Sadik",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No explicit birth cues or date strings are present in the chunk.\n- step2: No information related to Nafis Sadik's birth date is mentioned.\n- step3: No year selection is possible due to the absence of birth date information.",
+        "raw_llm_output": "reasoning:\n- step1: No explicit birth cues or date strings are present in the chunk.\n- step2: No information related to Nafis Sadik's birth date is mentioned.\n- step3: No year selection is possible due to the absence of birth date information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://en.wikipedia.org/wiki/Nafis_Sadik",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 2,
+        "similarity": 0.43387631592536313,
+        "rerank_score": 0.4811862
+      },
+      {
+        "chunk_id": 472,
+        "person_name": "Nafis Sadik",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation is needed as there are no birth-related information or dates mentioned.\n- step3: Year selection is impossible due to the absence of any birth-related information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation is needed as there are no birth-related information or dates mentioned.\n- step3: Year selection is impossible due to the absence of any birth-related information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://www.prb.org/resources/nafis-sadik-architect-of-icpd/",
+        "domain": "prb.org",
+        "chunk_index": 1,
+        "similarity": 0.41197382511696995,
+        "rerank_score": 0.28992474
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "no_corroboration",
+    "birth_year": 1929,
+    "independent_source_count": 1,
+    "total_extractions": 10,
+    "year_ledgers": {
+      "1929": {
+        "year": 1929,
+        "count": 1,
+        "domains": [
+          "en.wikipedia.org"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 460,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Nafis_Sadik",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 463,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Nafis_Sadik",
+            "evidence_type": "category",
+            "quality_rank": 3
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Nafis Sadik\nVerification completed: 2025-11-26 00:47:39 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: iussp.org, en.wikipedia.org, usaforunfpa.org, unfpa.org\nSimilarity scores ranged from 0.412 to 0.575\nRerank scores ranged from 0.290 to 0.911\n\nEXTRACTION PHASE\nScanned 10 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1929\n\nVERIFICATION PHASE\nVerification status: no_corroboration\nIndependent source count: 1\nVerified birth year: 1929\nSupporting domains: en.wikipedia.org\nSupporting extractions: 2\nEvidence types: category, born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

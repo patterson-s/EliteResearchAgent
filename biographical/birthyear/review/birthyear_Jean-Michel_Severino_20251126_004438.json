@@ -1,0 +1,115 @@
+{
+  "person_name": "Jean-Michel Severino",
+  "timestamp": "2025-11-26T00:44:38.732886",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 2989,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Jean-Michel_Severino",
+        "similarity": 0.6109193295341889,
+        "rerank_score": 0.9158166
+      },
+      {
+        "chunk_id": 2993,
+        "domain": "ietp.com",
+        "url": "https://www.ietp.com/en/content/jean-michel-severino-0",
+        "similarity": 0.5147252648045326,
+        "rerank_score": 0.85421735
+      },
+      {
+        "chunk_id": 3002,
+        "domain": "un.org",
+        "url": "https://www.un.org/spanish/events/panel/html/severino.html",
+        "similarity": 0.5072968358131088,
+        "rerank_score": 0.7213709
+      },
+      {
+        "chunk_id": 2991,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Jean-Michel_Severino",
+        "similarity": 0.5250598348099956,
+        "rerank_score": 0.71088976
+      },
+      {
+        "chunk_id": 2997,
+        "domain": "ferdi.fr",
+        "url": "https://ferdi.fr/en/biographies/jean-michel-severino",
+        "similarity": 0.24836708405026192,
+        "rerank_score": 0.47592255
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 2,
+    "extractions": [
+      {
+        "chunk_id": 2989,
+        "person_name": "Jean-Michel Severino",
+        "contains_birth_info": true,
+        "extracted_year": 1957,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth cue \"Born\" followed by the date \"September 6, 1957\" and another instance with \"(born 6 September 1957)\".\n- step2: Both instances of the birth date are directly associated with Jean-Michel Severino, with no ambiguity as they appear immediately after his name in the text.\n- step3: The birth year is explicitly stated as 1957 in both instances.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth cue \"Born\" followed by the date \"September 6, 1957\" and another instance with \"(born 6 September 1957)\".\n- step2: Both instances of the birth date are directly associated with Jean-Michel Severino, with no ambiguity as they appear immediately after his name in the text.\n- step3: The birth year is explicitly stated as 1957 in both instances.\ncontains_birthdate: true\nbirth_year: 1957",
+        "url": "https://en.wikipedia.org/wiki/Jean-Michel_Severino",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.6109193295341889,
+        "rerank_score": 0.9158166
+      },
+      {
+        "chunk_id": 2993,
+        "person_name": "Jean-Michel Severino",
+        "contains_birth_info": true,
+        "extracted_year": 1957,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth cue (\"was born on\") followed by the date \"September 6th 1957\".\n- step2: The birth information is directly associated with Jean-Michel Severino, as it appears in a sentence that explicitly mentions his name.\n- step3: The year is explicitly stated as 1957.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth cue (\"was born on\") followed by the date \"September 6th 1957\".\n- step2: The birth information is directly associated with Jean-Michel Severino, as it appears in a sentence that explicitly mentions his name.\n- step3: The year is explicitly stated as 1957.\ncontains_birthdate: true\nbirth_year: 1957",
+        "url": "https://www.ietp.com/en/content/jean-michel-severino-0",
+        "domain": "ietp.com",
+        "chunk_index": 0,
+        "similarity": 0.5147252648045326,
+        "rerank_score": 0.85421735
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "verified",
+    "birth_year": 1957,
+    "independent_source_count": 2,
+    "total_extractions": 2,
+    "year_ledgers": {
+      "1957": {
+        "year": 1957,
+        "count": 2,
+        "domains": [
+          "en.wikipedia.org",
+          "ietp.com"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 2989,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Jean-Michel_Severino",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 2993,
+            "domain": "ietp.com",
+            "url": "https://www.ietp.com/en/content/jean-michel-severino-0",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Jean-Michel Severino\nVerification completed: 2025-11-26 00:44:38 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: un.org, en.wikipedia.org, ietp.com, ferdi.fr\nSimilarity scores ranged from 0.248 to 0.611\nRerank scores ranged from 0.354 to 0.916\n\nEXTRACTION PHASE\nScanned 2 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1957\n\nVERIFICATION PHASE\nVerification status: verified\nIndependent source count: 2\nVerified birth year: 1957\nSupporting domains: en.wikipedia.org, ietp.com\nSupporting extractions: 2\nEvidence types: born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

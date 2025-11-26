@@ -1,0 +1,115 @@
+{
+  "person_name": "Doris Leuthard",
+  "timestamp": "2025-11-26T00:42:01.862320",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 999,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Doris_Leuthard",
+        "similarity": 0.5875262464429805,
+        "rerank_score": 0.8900749
+      },
+      {
+        "chunk_id": 1007,
+        "domain": "wikigender.oecdcode.org",
+        "url": "https://wikigender.oecdcode.org/index.html%3Fp=716.html",
+        "similarity": 0.5797459911688694,
+        "rerank_score": 0.87113565
+      },
+      {
+        "chunk_id": 1003,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Doris_Leuthard",
+        "similarity": 0.6056939337338565,
+        "rerank_score": 0.7969415
+      },
+      {
+        "chunk_id": 1004,
+        "domain": "clubmadrid.org",
+        "url": "https://clubmadrid.org/who/members/leuthard-doris/",
+        "similarity": 0.48676441918064256,
+        "rerank_score": 0.7050753
+      },
+      {
+        "chunk_id": 1009,
+        "domain": "bellfoodgroup.com",
+        "url": "https://www.bellfoodgroup.com/en/investors/corporate-governance/board-of-directors/doris-leuthard",
+        "similarity": 0.4771126758138957,
+        "rerank_score": 0.58123237
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 2,
+    "extractions": [
+      {
+        "chunk_id": 999,
+        "person_name": "Doris Leuthard",
+        "contains_birth_info": true,
+        "extracted_year": 1963,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date cue \"Born\" followed by the date \"10 April 1963\" directly under the \"Personal details\" section.\n- step2: The date is unambiguously associated with Doris Leuthard as it appears in her personal details section and is reinforced by the phrase \"(born 10 April 1963)\" later in the text.\n- step3: The year 1963 is explicitly stated and is the most precise year available.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date cue \"Born\" followed by the date \"10 April 1963\" directly under the \"Personal details\" section.\n- step2: The date is unambiguously associated with Doris Leuthard as it appears in her personal details section and is reinforced by the phrase \"(born 10 April 1963)\" later in the text.\n- step3: The year 1963 is explicitly stated and is the most precise year available.\ncontains_birthdate: true\nbirth_year: 1963",
+        "url": "https://en.wikipedia.org/wiki/Doris_Leuthard",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.5875262464429805,
+        "rerank_score": 0.8900749
+      },
+      {
+        "chunk_id": 1007,
+        "person_name": "Doris Leuthard",
+        "contains_birth_info": true,
+        "extracted_year": 1963,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth cue \"born\" followed by the date \"10 April 1963\".\n- step2: The date is directly associated with Doris Leuthard's name in the sentence \"Doris Leuthard (born 10 April 1963) is a...\".\n- step3: The year 1963 is explicitly stated in the date.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth cue \"born\" followed by the date \"10 April 1963\".\n- step2: The date is directly associated with Doris Leuthard's name in the sentence \"Doris Leuthard (born 10 April 1963) is a...\".\n- step3: The year 1963 is explicitly stated in the date.\ncontains_birthdate: true\nbirth_year: 1963",
+        "url": "https://wikigender.oecdcode.org/index.html%3Fp=716.html",
+        "domain": "wikigender.oecdcode.org",
+        "chunk_index": 0,
+        "similarity": 0.5797459911688694,
+        "rerank_score": 0.87113565
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "verified",
+    "birth_year": 1963,
+    "independent_source_count": 2,
+    "total_extractions": 2,
+    "year_ledgers": {
+      "1963": {
+        "year": 1963,
+        "count": 2,
+        "domains": [
+          "en.wikipedia.org",
+          "wikigender.oecdcode.org"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 999,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Doris_Leuthard",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 1007,
+            "domain": "wikigender.oecdcode.org",
+            "url": "https://wikigender.oecdcode.org/index.html%3Fp=716.html",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Doris Leuthard\nVerification completed: 2025-11-26 00:42:01 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: en.wikipedia.org, wikigender.oecdcode.org, clubmadrid.org, bellfoodgroup.com\nSimilarity scores ranged from 0.377 to 0.606\nRerank scores ranged from 0.336 to 0.890\n\nEXTRACTION PHASE\nScanned 2 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1963\n\nVERIFICATION PHASE\nVerification status: verified\nIndependent source count: 2\nVerified birth year: 1963\nSupporting domains: en.wikipedia.org, wikigender.oecdcode.org\nSupporting extractions: 2\nEvidence types: born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

@@ -1,0 +1,136 @@
+{
+  "person_name": "Brent Scowcroft",
+  "timestamp": "2025-11-26T00:40:56.176584",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 607,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Brent_Scowcroft",
+        "similarity": 0.619242353294098,
+        "rerank_score": 0.89545894
+      },
+      {
+        "chunk_id": 608,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Brent_Scowcroft",
+        "similarity": 0.6320702286014575,
+        "rerank_score": 0.80405265
+      },
+      {
+        "chunk_id": 622,
+        "domain": "bush.tamu.edu",
+        "url": "https://bush.tamu.edu/scowcroft/about/",
+        "similarity": 0.5499969189969541,
+        "rerank_score": 0.6760432
+      },
+      {
+        "chunk_id": 620,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Brent_Scowcroft",
+        "similarity": 0.5846302672376013,
+        "rerank_score": 0.66045773
+      },
+      {
+        "chunk_id": 615,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Brent_Scowcroft",
+        "similarity": 0.48441541444101854,
+        "rerank_score": 0.5046147
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 3,
+    "extractions": [
+      {
+        "chunk_id": 607,
+        "person_name": "Brent Scowcroft",
+        "contains_birth_info": true,
+        "extracted_year": 1925,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date \"March 19, 1925\" associated with Brent Scowcroft.\n- step2: The date is directly linked to Brent Scowcroft under the \"Personal details\" section, with no ambiguity.\n- step3: The year 1925 is explicitly stated in the birth date.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date \"March 19, 1925\" associated with Brent Scowcroft.\n- step2: The date is directly linked to Brent Scowcroft under the \"Personal details\" section, with no ambiguity.\n- step3: The year 1925 is explicitly stated in the birth date.\ncontains_birthdate: true\nbirth_year: 1925",
+        "url": "https://en.wikipedia.org/wiki/Brent_Scowcroft",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.619242353294098,
+        "rerank_score": 0.89545894
+      },
+      {
+        "chunk_id": 608,
+        "person_name": "Brent Scowcroft",
+        "contains_birth_info": true,
+        "extracted_year": 1925,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date string \"March 19, 1925\" associated with Brent Scowcroft.\n- step2: The birth date is directly stated in the sentence about Scowcroft's birth, with no ambiguity regarding the person it refers to.\n- step3: The year 1925 is explicitly mentioned in the date string.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date string \"March 19, 1925\" associated with Brent Scowcroft.\n- step2: The birth date is directly stated in the sentence about Scowcroft's birth, with no ambiguity regarding the person it refers to.\n- step3: The year 1925 is explicitly mentioned in the date string.\ncontains_birthdate: true\nbirth_year: 1925",
+        "url": "https://en.wikipedia.org/wiki/Brent_Scowcroft",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 1,
+        "similarity": 0.6320702286014575,
+        "rerank_score": 0.80405265
+      },
+      {
+        "chunk_id": 622,
+        "person_name": "Brent Scowcroft",
+        "contains_birth_info": true,
+        "extracted_year": 1925,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date string \"March 19, 1925\" associated with the phrase \"General Scowcroft was born.\"\n- step2: The birth date is unambiguously linked to \"General Scowcroft,\" who is identified as Brent Scowcroft in the sidebar and other context.\n- step3: The year \"1925\" is explicitly stated in the birth date string.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date string \"March 19, 1925\" associated with the phrase \"General Scowcroft was born.\"\n- step2: The birth date is unambiguously linked to \"General Scowcroft,\" who is identified as Brent Scowcroft in the sidebar and other context.\n- step3: The year \"1925\" is explicitly stated in the birth date string.\ncontains_birthdate: true\nbirth_year: 1925",
+        "url": "https://bush.tamu.edu/scowcroft/about/",
+        "domain": "bush.tamu.edu",
+        "chunk_index": 1,
+        "similarity": 0.5499969189969541,
+        "rerank_score": 0.6760432
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "verified",
+    "birth_year": 1925,
+    "independent_source_count": 2,
+    "total_extractions": 3,
+    "year_ledgers": {
+      "1925": {
+        "year": 1925,
+        "count": 2,
+        "domains": [
+          "en.wikipedia.org",
+          "bush.tamu.edu"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 607,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Brent_Scowcroft",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 608,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Brent_Scowcroft",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 622,
+            "domain": "bush.tamu.edu",
+            "url": "https://bush.tamu.edu/scowcroft/about/",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Brent Scowcroft\nVerification completed: 2025-11-26 00:40:56 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: en.wikipedia.org, bush.tamu.edu\nSimilarity scores ranged from 0.471 to 0.632\nRerank scores ranged from 0.368 to 0.895\n\nEXTRACTION PHASE\nScanned 3 chunks for birth information\nFound birth information in 3 chunks\nYears extracted: 1925\n\nVERIFICATION PHASE\nVerification status: verified\nIndependent source count: 2\nVerified birth year: 1925\nSupporting domains: en.wikipedia.org, bush.tamu.edu\nSupporting extractions: 3\nEvidence types: born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

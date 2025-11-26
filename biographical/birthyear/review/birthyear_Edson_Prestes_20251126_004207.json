@@ -1,0 +1,202 @@
+{
+  "person_name": "Edson Prestes",
+  "timestamp": "2025-11-26T00:42:07.226643",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 1118,
+        "domain": "disarmament.unoda.org",
+        "url": "http://disarmament.unoda.org/en/responsible-innovation-ai/about",
+        "similarity": 0.3166040075654293,
+        "rerank_score": 0.4135014
+      },
+      {
+        "chunk_id": 1113,
+        "domain": "hcss.nl",
+        "url": "https://hcss.nl/wp-content/uploads/2025/04/Prestes-et-al.-final.pdf",
+        "similarity": 0.30536524624906136,
+        "rerank_score": 0.4054258
+      },
+      {
+        "chunk_id": 1102,
+        "domain": "ieee-ras.org",
+        "url": "http://www.ieee-ras.org/about-ras/latest-news/member-in-the-news-edson-prestes-joins-unesco-s-ethics-of-artificial-intelligence-group",
+        "similarity": 0.32685266163727833,
+        "rerank_score": 0.34900057
+      },
+      {
+        "chunk_id": 1091,
+        "domain": "br.linkedin.com",
+        "url": "https://br.linkedin.com/in/edson-prestes",
+        "similarity": 0.44400715063601587,
+        "rerank_score": 0.3054802
+      },
+      {
+        "chunk_id": 1088,
+        "domain": "unesco.org",
+        "url": "https://www.unesco.org/ethics-ai/en/ai-ethics-experts-without-borders/edson-prestes",
+        "similarity": 0.42753978918985425,
+        "rerank_score": 0.29301032
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 10,
+    "extractions": [
+      {
+        "chunk_id": 1118,
+        "person_name": "Edson Prestes",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: The text mentions specific dates related to Edson Prestes' academic degrees: BSc in 1996, MSc in 1999, and PhD in 2003. However, none of these are explicitly stated as his birth date.\n- step2: The dates clearly refer to Edson Prestes' academic achievements, not his birth date.\n- step3: Since no birth date or year is mentioned, it is impossible to determine the birth year.",
+        "raw_llm_output": "reasoning:\n- step1: The text mentions specific dates related to Edson Prestes' academic degrees: BSc in 1996, MSc in 1999, and PhD in 2003. However, none of these are explicitly stated as his birth date.\n- step2: The dates clearly refer to Edson Prestes' academic achievements, not his birth date.\n- step3: Since no birth date or year is mentioned, it is impossible to determine the birth year.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "http://disarmament.unoda.org/en/responsible-innovation-ai/about",
+        "domain": "disarmament.unoda.org",
+        "chunk_index": 3,
+        "similarity": 0.3166040075654293,
+        "rerank_score": 0.4135014
+      },
+      {
+        "chunk_id": 1113,
+        "person_name": "Edson Prestes",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as no birth information is mentioned.\n- step3: No year selection possible due to absence of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as no birth information is mentioned.\n- step3: No year selection possible due to absence of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://hcss.nl/wp-content/uploads/2025/04/Prestes-et-al.-final.pdf",
+        "domain": "hcss.nl",
+        "chunk_index": 9,
+        "similarity": 0.30536524624906136,
+        "rerank_score": 0.4054258
+      },
+      {
+        "chunk_id": 1102,
+        "person_name": "Edson Prestes",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as no birth-related information is mentioned.\n- step3: No year selection possible due to absence of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as no birth-related information is mentioned.\n- step3: No year selection possible due to absence of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "http://www.ieee-ras.org/about-ras/latest-news/member-in-the-news-edson-prestes-joins-unesco-s-ethics-of-artificial-intelligence-group",
+        "domain": "ieee-ras.org",
+        "chunk_index": 1,
+        "similarity": 0.32685266163727833,
+        "rerank_score": 0.34900057
+      },
+      {
+        "chunk_id": 1091,
+        "person_name": "Edson Prestes",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation is needed as there are no birth-related information.\n- step3: No year selection is possible due to the absence of birth-related information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation is needed as there are no birth-related information.\n- step3: No year selection is possible due to the absence of birth-related information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://br.linkedin.com/in/edson-prestes",
+        "domain": "br.linkedin.com",
+        "chunk_index": 1,
+        "similarity": 0.44400715063601587,
+        "rerank_score": 0.3054802
+      },
+      {
+        "chunk_id": 1088,
+        "person_name": "Edson Prestes",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: The text mentions specific years (1996, 1999, 2003) related to Edson Prestes' academic degrees but does not explicitly state his birth date.\n- step2: The years mentioned are clearly associated with Edson Prestes' academic achievements, not his birth.\n- step3: Since no birth date or year is mentioned, it is impossible to determine the birth year.",
+        "raw_llm_output": "reasoning:\n- step1: The text mentions specific years (1996, 1999, 2003) related to Edson Prestes' academic degrees but does not explicitly state his birth date.\n- step2: The years mentioned are clearly associated with Edson Prestes' academic achievements, not his birth.\n- step3: Since no birth date or year is mentioned, it is impossible to determine the birth year.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://www.unesco.org/ethics-ai/en/ai-ethics-experts-without-borders/edson-prestes",
+        "domain": "unesco.org",
+        "chunk_index": 0,
+        "similarity": 0.42753978918985425,
+        "rerank_score": 0.29301032
+      },
+      {
+        "chunk_id": 1099,
+        "person_name": "Edson Prestes",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: The text mentions specific years (1996, 1999, 2003) related to Edson Prestes' academic degrees, but none are explicitly tied to his birth.\n- step2: The years found are clearly associated with Edson Prestes' academic achievements, not his birth.\n- step3: No birth year or birth date is mentioned in the text.",
+        "raw_llm_output": "reasoning:\n- step1: The text mentions specific years (1996, 1999, 2003) related to Edson Prestes' academic degrees, but none are explicitly tied to his birth.\n- step2: The years found are clearly associated with Edson Prestes' academic achievements, not his birth.\n- step3: No birth year or birth date is mentioned in the text.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://g20techpolicy.unesco.org/en/experts/edson-prestes",
+        "domain": "g20techpolicy.unesco.org",
+        "chunk_index": 0,
+        "similarity": 0.4917725170461796,
+        "rerank_score": 0.28442243
+      },
+      {
+        "chunk_id": 1090,
+        "person_name": "Edson Prestes",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings found in the chunk.\n- step2: No disambiguation needed as no birth information is present.\n- step3: No year selection possible due to absence of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings found in the chunk.\n- step2: No disambiguation needed as no birth information is present.\n- step3: No year selection possible due to absence of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://br.linkedin.com/in/edson-prestes",
+        "domain": "br.linkedin.com",
+        "chunk_index": 0,
+        "similarity": 0.475586615278748,
+        "rerank_score": 0.27159917
+      },
+      {
+        "chunk_id": 1092,
+        "person_name": "Edson Prestes",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings related to birth are found in the chunk.\n- step2: The chunk focuses on Edson Prestes' experience, awards, and language skills, but does not mention any birth-related information.\n- step3: Since no birth-related information is present, determining a birth year is impossible.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings related to birth are found in the chunk.\n- step2: The chunk focuses on Edson Prestes' experience, awards, and language skills, but does not mention any birth-related information.\n- step3: Since no birth-related information is present, determining a birth year is impossible.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://br.linkedin.com/in/edson-prestes",
+        "domain": "br.linkedin.com",
+        "chunk_index": 2,
+        "similarity": 0.4350288395380474,
+        "rerank_score": 0.25282234
+      },
+      {
+        "chunk_id": 1098,
+        "person_name": "Edson Prestes",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings found in the chunk.\n- step2: No disambiguation needed as no birth information is present.\n- step3: No year selection possible due to absence of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings found in the chunk.\n- step2: No disambiguation needed as no birth information is present.\n- step3: No year selection possible due to absence of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://br.linkedin.com/in/edson-prestes",
+        "domain": "br.linkedin.com",
+        "chunk_index": 8,
+        "similarity": 0.44661673053478834,
+        "rerank_score": 0.23635799
+      },
+      {
+        "chunk_id": 1100,
+        "person_name": "Edson Prestes",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as no birth-related information is mentioned.\n- step3: No year selection possible due to absence of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as no birth-related information is mentioned.\n- step3: No year selection possible due to absence of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://techethics.ieee.org/about/leadership/edson-prestes/",
+        "domain": "techethics.ieee.org",
+        "chunk_index": 0,
+        "similarity": 0.45998151087658556,
+        "rerank_score": 0.22924213
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "no_evidence",
+    "birth_year": null,
+    "independent_source_count": 0,
+    "total_extractions": 10,
+    "year_ledgers": {}
+  },
+  "provenance_narrative": "Birth year verification for Edson Prestes\nVerification completed: 2025-11-26 00:42:07 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: disarmament.unoda.org, hcss.nl, br.linkedin.com, unesco.org, ieee-ras.org\nSimilarity scores ranged from 0.305 to 0.492\nRerank scores ranged from 0.229 to 0.414\n\nEXTRACTION PHASE\nScanned 10 chunks for birth information\nFound birth information in 0 chunks\n\nVERIFICATION PHASE\nVerification status: no_evidence\nIndependent source count: 0\nNo birth year could be verified\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

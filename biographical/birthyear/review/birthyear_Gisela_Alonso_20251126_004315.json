@@ -1,0 +1,177 @@
+{
+  "person_name": "Gisela Alonso",
+  "timestamp": "2025-11-26T00:43:15.983695",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 7,
+    "top_candidates": [
+      {
+        "chunk_id": 2982,
+        "domain": "ecnurre.com",
+        "url": "https://www.ecnurre.com/obituaries/Gisela-P-Alonzo?obId=31588880",
+        "similarity": 0.5113573069362229,
+        "rerank_score": 0.65861565
+      },
+      {
+        "chunk_id": 2978,
+        "domain": "scielosp.org",
+        "url": "https://www.scielosp.org/article/medicc/2015.v17n2/4-4/",
+        "similarity": 0.3913228066088553,
+        "rerank_score": 0.5414337
+      },
+      {
+        "chunk_id": 2980,
+        "domain": "usao.edu",
+        "url": "https://usao.edu/news/spotlight-alonso.html",
+        "similarity": 0.4360468265015615,
+        "rerank_score": 0.47811517
+      },
+      {
+        "chunk_id": 2986,
+        "domain": "en.granma.cu",
+        "url": "https://en.granma.cu/cuba/2014-05-29/cuba-creates-climate-change-task-force",
+        "similarity": 0.31677971700367585,
+        "rerank_score": 0.45391592
+      },
+      {
+        "chunk_id": 2977,
+        "domain": "un.org",
+        "url": "https://www.un.org/sg/en/management/bios/Alonso.shtml",
+        "similarity": 0.4487487611601511,
+        "rerank_score": 0.35213548
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 7,
+    "extractions": [
+      {
+        "chunk_id": 2982,
+        "person_name": "Gisela Alonso",
+        "contains_birth_info": true,
+        "extracted_year": 1938,
+        "evidence_type": "other",
+        "reasoning": "- step1: The text contains a clear birth date for Gisela Alonso: \"February 15, 1938\". This is a strong birth cue.\n- step2: The birth date is directly associated with Gisela Alonso in the obituary section, leaving no ambiguity about whom it refers to.\n- step3: The year 1938 is explicitly stated, providing a precise birth year.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date for Gisela Alonso: \"February 15, 1938\". This is a strong birth cue.\n- step2: The birth date is directly associated with Gisela Alonso in the obituary section, leaving no ambiguity about whom it refers to.\n- step3: The year 1938 is explicitly stated, providing a precise birth year.\ncontains_birthdate: true\nbirth_year: 1938",
+        "url": "https://www.ecnurre.com/obituaries/Gisela-P-Alonzo?obId=31588880",
+        "domain": "ecnurre.com",
+        "chunk_index": 0,
+        "similarity": 0.5113573069362229,
+        "rerank_score": 0.65861565
+      },
+      {
+        "chunk_id": 2978,
+        "person_name": "Gisela Alonso",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No explicit birth cues or date strings are present in the chunk.\n- step2: The chunk provides professional information about Gisela Alonso but does not mention any birth-related details.\n- step3: Since no birth-related information is available, determining a birth year is impossible.",
+        "raw_llm_output": "reasoning:\n- step1: No explicit birth cues or date strings are present in the chunk.\n- step2: The chunk provides professional information about Gisela Alonso but does not mention any birth-related details.\n- step3: Since no birth-related information is available, determining a birth year is impossible.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://www.scielosp.org/article/medicc/2015.v17n2/4-4/",
+        "domain": "scielosp.org",
+        "chunk_index": 0,
+        "similarity": 0.3913228066088553,
+        "rerank_score": 0.5414337
+      },
+      {
+        "chunk_id": 2980,
+        "person_name": "Gisela Alonso",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings related to Gisela Alonso are present in the text.  \n- step2: No disambiguation needed as there are no relevant dates mentioned.  \n- step3: No year selection possible due to absence of birth-related information.",
+        "raw_llm_output": "reasoning:  \n- step1: No birth cues or date strings related to Gisela Alonso are present in the text.  \n- step2: No disambiguation needed as there are no relevant dates mentioned.  \n- step3: No year selection possible due to absence of birth-related information.  \ncontains_birthdate: false  \nbirth_year: null",
+        "url": "https://usao.edu/news/spotlight-alonso.html",
+        "domain": "usao.edu",
+        "chunk_index": 0,
+        "similarity": 0.4360468265015615,
+        "rerank_score": 0.47811517
+      },
+      {
+        "chunk_id": 2986,
+        "person_name": "Gisela Alonso",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings related to Gisela Alonso are found in the text.\n- step2: The text only mentions Gisela Alonso in a professional context, discussing her role and activities related to climate change and environmental initiatives.\n- step3: Since no birth information is present, year selection is not applicable.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings related to Gisela Alonso are found in the text.\n- step2: The text only mentions Gisela Alonso in a professional context, discussing her role and activities related to climate change and environmental initiatives.\n- step3: Since no birth information is present, year selection is not applicable.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://en.granma.cu/cuba/2014-05-29/cuba-creates-climate-change-task-force",
+        "domain": "en.granma.cu",
+        "chunk_index": 0,
+        "similarity": 0.31677971700367585,
+        "rerank_score": 0.45391592
+      },
+      {
+        "chunk_id": 2977,
+        "person_name": "Gisela Alonso",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings are present in the chunk.\n- step2: N/A, as no birth information is mentioned.\n- step3: N/A, as no year or date is available.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings are present in the chunk.\n- step2: N/A, as no birth information is mentioned.\n- step3: N/A, as no year or date is available.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://www.un.org/sg/en/management/bios/Alonso.shtml",
+        "domain": "un.org",
+        "chunk_index": 0,
+        "similarity": 0.4487487611601511,
+        "rerank_score": 0.35213548
+      },
+      {
+        "chunk_id": 2988,
+        "person_name": "Gisela Alonso",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No explicit birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as no birth-related information is mentioned.\n- step3: No year selection possible due to absence of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No explicit birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as no birth-related information is mentioned.\n- step3: No year selection possible due to absence of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://theorg.com/org/banza-1/org-chart/gisela-alonso",
+        "domain": "theorg.com",
+        "chunk_index": 0,
+        "similarity": 0.44567247540558474,
+        "rerank_score": 0.30638224
+      },
+      {
+        "chunk_id": 2981,
+        "person_name": "Gisela Alonso",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as there are no dates mentioned.\n- step3: No year selection possible due to absence of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as there are no dates mentioned.\n- step3: No year selection possible due to absence of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://usao.edu/news/spotlight-alonso.html",
+        "domain": "usao.edu",
+        "chunk_index": 1,
+        "similarity": 0.3018459409075297,
+        "rerank_score": 0.058286972
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "no_corroboration",
+    "birth_year": 1938,
+    "independent_source_count": 1,
+    "total_extractions": 7,
+    "year_ledgers": {
+      "1938": {
+        "year": 1938,
+        "count": 1,
+        "domains": [
+          "ecnurre.com"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 2982,
+            "domain": "ecnurre.com",
+            "url": "https://www.ecnurre.com/obituaries/Gisela-P-Alonzo?obId=31588880",
+            "evidence_type": "other",
+            "quality_rank": 2
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Gisela Alonso\nVerification completed: 2025-11-26 00:43:15 UTC\n\nRETRIEVAL PHASE\nRetrieved 7 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: scielosp.org, ecnurre.com, un.org, en.granma.cu, usao.edu\nSimilarity scores ranged from 0.302 to 0.511\nRerank scores ranged from 0.058 to 0.659\n\nEXTRACTION PHASE\nScanned 7 chunks for birth information\nFound birth information in 1 chunks\nYears extracted: 1938\n\nVERIFICATION PHASE\nVerification status: no_corroboration\nIndependent source count: 1\nVerified birth year: 1938\nSupporting domains: ecnurre.com\nSupporting extractions: 1\nEvidence types: other\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

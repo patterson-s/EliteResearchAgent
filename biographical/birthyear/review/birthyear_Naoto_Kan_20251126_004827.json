@@ -1,0 +1,115 @@
+{
+  "person_name": "Naoto Kan",
+  "timestamp": "2025-11-26T00:48:27.299021",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 3041,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Naoto_Kan",
+        "similarity": 0.556193491555386,
+        "rerank_score": 0.8923472
+      },
+      {
+        "chunk_id": 3069,
+        "domain": "kids.kiddle.co",
+        "url": "https://kids.kiddle.co/Naoto_Kan",
+        "similarity": 0.5898015272493046,
+        "rerank_score": 0.87706697
+      },
+      {
+        "chunk_id": 3065,
+        "domain": "cornellpress.manifoldapp.org",
+        "url": "https://cornellpress.manifoldapp.org/read/the-fukushima-nuclear-power-plant-disaster-and-the-future-of-renewable-energy/section/15dbe855-71b2-4001-a566-30124fecc33b",
+        "similarity": 0.5653208971331887,
+        "rerank_score": 0.84918517
+      },
+      {
+        "chunk_id": 3070,
+        "domain": "kids.kiddle.co",
+        "url": "https://kids.kiddle.co/Naoto_Kan",
+        "similarity": 0.578937130784339,
+        "rerank_score": 0.78788257
+      },
+      {
+        "chunk_id": 3058,
+        "domain": "britannica.com",
+        "url": "https://www.britannica.com/biography/Kan-Naoto",
+        "similarity": 0.6166490556554629,
+        "rerank_score": 0.7813477
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 2,
+    "extractions": [
+      {
+        "chunk_id": 3041,
+        "person_name": "Naoto Kan",
+        "contains_birth_info": true,
+        "extracted_year": 1946,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date string \"10 October 1946\" associated with the \"Born\" header.\n- step2: The birth date is directly linked to Naoto Kan in the \"Personal details\" section, with no ambiguity.\n- step3: The year 1946 is explicitly stated in the date string.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date string \"10 October 1946\" associated with the \"Born\" header.\n- step2: The birth date is directly linked to Naoto Kan in the \"Personal details\" section, with no ambiguity.\n- step3: The year 1946 is explicitly stated in the date string.\ncontains_birthdate: true\nbirth_year: 1946",
+        "url": "https://en.wikipedia.org/wiki/Naoto_Kan",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 1,
+        "similarity": 0.556193491555386,
+        "rerank_score": 0.8923472
+      },
+      {
+        "chunk_id": 3069,
+        "person_name": "Naoto Kan",
+        "contains_birth_info": true,
+        "extracted_year": 1946,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date string \"10 October 1946\" associated with the \"Born\" header.\n- step2: The birth date is directly under the \"Personal details\" section for Naoto Kan, unambiguously linking it to him.\n- step3: The year 1946 is explicitly stated in the date string.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date string \"10 October 1946\" associated with the \"Born\" header.\n- step2: The birth date is directly under the \"Personal details\" section for Naoto Kan, unambiguously linking it to him.\n- step3: The year 1946 is explicitly stated in the date string.\ncontains_birthdate: true\nbirth_year: 1946",
+        "url": "https://kids.kiddle.co/Naoto_Kan",
+        "domain": "kids.kiddle.co",
+        "chunk_index": 0,
+        "similarity": 0.5898015272493046,
+        "rerank_score": 0.87706697
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "verified",
+    "birth_year": 1946,
+    "independent_source_count": 2,
+    "total_extractions": 2,
+    "year_ledgers": {
+      "1946": {
+        "year": 1946,
+        "count": 2,
+        "domains": [
+          "en.wikipedia.org",
+          "kids.kiddle.co"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 3041,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Naoto_Kan",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 3069,
+            "domain": "kids.kiddle.co",
+            "url": "https://kids.kiddle.co/Naoto_Kan",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Naoto Kan\nVerification completed: 2025-11-26 00:48:27 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: cornellpress.manifoldapp.org, en.wikipedia.org, britannica.com, kids.kiddle.co\nSimilarity scores ranged from 0.467 to 0.617\nRerank scores ranged from 0.602 to 0.892\n\nEXTRACTION PHASE\nScanned 2 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1946\n\nVERIFICATION PHASE\nVerification status: verified\nIndependent source count: 2\nVerified birth year: 1946\nSupporting domains: en.wikipedia.org, kids.kiddle.co\nSupporting extractions: 2\nEvidence types: born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

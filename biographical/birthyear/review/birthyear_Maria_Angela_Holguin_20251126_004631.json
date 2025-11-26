@@ -1,0 +1,115 @@
+{
+  "person_name": "Maria Angela Holguin",
+  "timestamp": "2025-11-26T00:46:31.879150",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 2961,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Mar%C3%ADa_%C3%81ngela_Holgu%C3%ADn",
+        "similarity": 0.5484191852756365,
+        "rerank_score": 0.88178825
+      },
+      {
+        "chunk_id": 2968,
+        "domain": "jeronimomartins.com",
+        "url": "https://www.jeronimomartins.com/en/investors/governance/corporate-bodies/board-of-directors/maria-angela-holguin/",
+        "similarity": 0.4957314029735326,
+        "rerank_score": 0.7089592
+      },
+      {
+        "chunk_id": 2964,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Mar%C3%ADa_%C3%81ngela_Holgu%C3%ADn",
+        "similarity": 0.42232941009645075,
+        "rerank_score": 0.6654328
+      },
+      {
+        "chunk_id": 2962,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Mar%C3%ADa_%C3%81ngela_Holgu%C3%ADn",
+        "similarity": 0.3864351636932491,
+        "rerank_score": 0.65966886
+      },
+      {
+        "chunk_id": 2963,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Mar%C3%ADa_%C3%81ngela_Holgu%C3%ADn",
+        "similarity": 0.4735450002212007,
+        "rerank_score": 0.5065188
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 2,
+    "extractions": [
+      {
+        "chunk_id": 2961,
+        "person_name": "Maria Angela Holguin",
+        "contains_birth_info": true,
+        "extracted_year": 1963,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date \"13 November 1963\" associated with the name \"María Ángela Holguín Cuéllar\".\n- step2: The birth date is directly linked to María Ángela Holguín Cuéllar in the \"Personal details\" section, with no ambiguity.\n- step3: The year \"1963\" is explicitly mentioned as part of the birth date.",
+        "raw_llm_output": "reasoning: \n- step1: The text contains a clear birth date \"13 November 1963\" associated with the name \"María Ángela Holguín Cuéllar\".\n- step2: The birth date is directly linked to María Ángela Holguín Cuéllar in the \"Personal details\" section, with no ambiguity.\n- step3: The year \"1963\" is explicitly mentioned as part of the birth date.\ncontains_birthdate: true\nbirth_year: 1963",
+        "url": "https://en.wikipedia.org/wiki/Mar%C3%ADa_%C3%81ngela_Holgu%C3%ADn",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.5484191852756365,
+        "rerank_score": 0.88178825
+      },
+      {
+        "chunk_id": 2968,
+        "person_name": "Maria Angela Holguin",
+        "contains_birth_info": true,
+        "extracted_year": 1963,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains the phrase \"born in 1963\" as a clear birth cue.  \n- step2: The phrase directly follows the name \"María Ángela Holguín Cuéllar,\" unambiguously referring to her.  \n- step3: The year \"1963\" is explicitly stated and is the most precise information available.",
+        "raw_llm_output": "reasoning:  \n- step1: The text contains the phrase \"born in 1963\" as a clear birth cue.  \n- step2: The phrase directly follows the name \"María Ángela Holguín Cuéllar,\" unambiguously referring to her.  \n- step3: The year \"1963\" is explicitly stated and is the most precise information available.  \ncontains_birthdate: true  \nbirth_year: 1963",
+        "url": "https://www.jeronimomartins.com/en/investors/governance/corporate-bodies/board-of-directors/maria-angela-holguin/",
+        "domain": "jeronimomartins.com",
+        "chunk_index": 1,
+        "similarity": 0.4957314029735326,
+        "rerank_score": 0.7089592
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "verified",
+    "birth_year": 1963,
+    "independent_source_count": 2,
+    "total_extractions": 2,
+    "year_ledgers": {
+      "1963": {
+        "year": 1963,
+        "count": 2,
+        "domains": [
+          "jeronimomartins.com",
+          "en.wikipedia.org"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 2961,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Mar%C3%ADa_%C3%81ngela_Holgu%C3%ADn",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 2968,
+            "domain": "jeronimomartins.com",
+            "url": "https://www.jeronimomartins.com/en/investors/governance/corporate-bodies/board-of-directors/maria-angela-holguin/",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Maria Angela Holguin\nVerification completed: 2025-11-26 00:46:31 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: jeronimomartins.com, en.wikipedia.org\nSimilarity scores ranged from 0.386 to 0.557\nRerank scores ranged from 0.380 to 0.882\n\nEXTRACTION PHASE\nScanned 2 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1963\n\nVERIFICATION PHASE\nVerification status: verified\nIndependent source count: 2\nVerified birth year: 1963\nSupporting domains: jeronimomartins.com, en.wikipedia.org\nSupporting extractions: 2\nEvidence types: born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

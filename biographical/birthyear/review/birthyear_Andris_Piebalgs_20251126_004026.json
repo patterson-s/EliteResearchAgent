@@ -1,0 +1,115 @@
+{
+  "person_name": "Andris Piebalgs",
+  "timestamp": "2025-11-26T00:40:26.968546",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 3175,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Andris_Piebalgs",
+        "similarity": 0.6185348472316361,
+        "rerank_score": 0.9067276
+      },
+      {
+        "chunk_id": 3185,
+        "domain": "europarl.europa.eu",
+        "url": "https://www.europarl.europa.eu/press/audicom2004/cv/cv_piebalgs.pdf",
+        "similarity": 0.5030092683244904,
+        "rerank_score": 0.8377398
+      },
+      {
+        "chunk_id": 3187,
+        "domain": "live.worldbank.org",
+        "url": "https://live.worldbank.org/en/experts/a/andris-piebalgs",
+        "similarity": 0.5247176142142247,
+        "rerank_score": 0.83678174
+      },
+      {
+        "chunk_id": 3180,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Andris_Piebalgs",
+        "similarity": 0.5833166328464496,
+        "rerank_score": 0.72489023
+      },
+      {
+        "chunk_id": 3186,
+        "domain": "live.worldbank.org",
+        "url": "https://live.worldbank.org/en/experts/a/andris-piebalgs",
+        "similarity": 0.5306522712641792,
+        "rerank_score": 0.3431661
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 2,
+    "extractions": [
+      {
+        "chunk_id": 3175,
+        "person_name": "Andris Piebalgs",
+        "contains_birth_info": true,
+        "extracted_year": 1957,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date cue \"Born\" followed by the date \"17 September 1957\" in the \"Personal details\" section.\n- step2: The birth date is directly associated with Andris Piebalgs, as it appears under his name and in a section dedicated to his personal details.\n- step3: The year 1957 is explicitly stated in the birth date.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date cue \"Born\" followed by the date \"17 September 1957\" in the \"Personal details\" section.\n- step2: The birth date is directly associated with Andris Piebalgs, as it appears under his name and in a section dedicated to his personal details.\n- step3: The year 1957 is explicitly stated in the birth date.\ncontains_birthdate: true\nbirth_year: 1957",
+        "url": "https://en.wikipedia.org/wiki/Andris_Piebalgs",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.6185348472316361,
+        "rerank_score": 0.9067276
+      },
+      {
+        "chunk_id": 3185,
+        "person_name": "Andris Piebalgs",
+        "contains_birth_info": true,
+        "extracted_year": 1957,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth cue (\"Born\") followed by a date string (\"September 17, 1957\").\n- step2: The birth information is directly associated with Andris Piebalgs under the \"PERSONAL DATA\" section, leaving no ambiguity.\n- step3: The year is explicitly stated as 1957.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth cue (\"Born\") followed by a date string (\"September 17, 1957\").\n- step2: The birth information is directly associated with Andris Piebalgs under the \"PERSONAL DATA\" section, leaving no ambiguity.\n- step3: The year is explicitly stated as 1957.\ncontains_birthdate: true\nbirth_year: 1957",
+        "url": "https://www.europarl.europa.eu/press/audicom2004/cv/cv_piebalgs.pdf",
+        "domain": "europarl.europa.eu",
+        "chunk_index": 0,
+        "similarity": 0.5030092683244904,
+        "rerank_score": 0.8377398
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "verified",
+    "birth_year": 1957,
+    "independent_source_count": 2,
+    "total_extractions": 2,
+    "year_ledgers": {
+      "1957": {
+        "year": 1957,
+        "count": 2,
+        "domains": [
+          "en.wikipedia.org",
+          "europarl.europa.eu"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 3175,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Andris_Piebalgs",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 3185,
+            "domain": "europarl.europa.eu",
+            "url": "https://www.europarl.europa.eu/press/audicom2004/cv/cv_piebalgs.pdf",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Andris Piebalgs\nVerification completed: 2025-11-26 00:40:26 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: en.wikipedia.org, live.worldbank.org, europarl.europa.eu\nSimilarity scores ranged from 0.239 to 0.619\nRerank scores ranged from 0.308 to 0.907\n\nEXTRACTION PHASE\nScanned 2 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1957\n\nVERIFICATION PHASE\nVerification status: verified\nIndependent source count: 2\nVerified birth year: 1957\nSupporting domains: en.wikipedia.org, europarl.europa.eu\nSupporting extractions: 2\nEvidence types: born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

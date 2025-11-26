@@ -1,0 +1,115 @@
+{
+  "person_name": "Marina Kaljurand",
+  "timestamp": "2025-11-26T00:46:37.209829",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 935,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Marina_Kaljurand",
+        "similarity": 0.6502200958523408,
+        "rerank_score": 0.89997756
+      },
+      {
+        "chunk_id": 946,
+        "domain": "europarl.europa.eu",
+        "url": "https://www.europarl.europa.eu/meps/en/197491/MARINA_KALJURAND/cv",
+        "similarity": 0.6150338065717998,
+        "rerank_score": 0.86024034
+      },
+      {
+        "chunk_id": 958,
+        "domain": "csrcl.huji.ac.il",
+        "url": "https://csrcl.huji.ac.il/people/marina-kaljurand",
+        "similarity": 0.5482966291224072,
+        "rerank_score": 0.8437023
+      },
+      {
+        "chunk_id": 945,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Marina_Kaljurand",
+        "similarity": 0.6087013369741052,
+        "rerank_score": 0.6554468
+      },
+      {
+        "chunk_id": 942,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Marina_Kaljurand",
+        "similarity": 0.5922316585640983,
+        "rerank_score": 0.44999737
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 2,
+    "extractions": [
+      {
+        "chunk_id": 935,
+        "person_name": "Marina Kaljurand",
+        "contains_birth_info": true,
+        "extracted_year": 1962,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date \"6 September 1962\" associated with Marina Kaljurand.\n- step2: The birth date is directly linked to Marina Kaljurand in the \"Personal details\" section and again in the introductory paragraph, with no ambiguity.\n- step3: The year 1962 is explicitly stated and is the most precise information available.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date \"6 September 1962\" associated with Marina Kaljurand.\n- step2: The birth date is directly linked to Marina Kaljurand in the \"Personal details\" section and again in the introductory paragraph, with no ambiguity.\n- step3: The year 1962 is explicitly stated and is the most precise information available.\ncontains_birthdate: true\nbirth_year: 1962",
+        "url": "https://en.wikipedia.org/wiki/Marina_Kaljurand",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.6502200958523408,
+        "rerank_score": 0.89997756
+      },
+      {
+        "chunk_id": 946,
+        "person_name": "Marina Kaljurand",
+        "contains_birth_info": true,
+        "extracted_year": 1962,
+        "evidence_type": "born-field",
+        "reasoning": "- step1: The text contains a clear birth date \"06-09-1962\" under a \"Date of birth\" field directly associated with Marina Kaljurand.  \n- step2: The date is unambiguously linked to Marina Kaljurand as it appears under her name in a structured CV format.  \n- step3: The year \"1962\" is explicitly stated in the date.",
+        "raw_llm_output": "reasoning:  \n- step1: The text contains a clear birth date \"06-09-1962\" under a \"Date of birth\" field directly associated with Marina Kaljurand.  \n- step2: The date is unambiguously linked to Marina Kaljurand as it appears under her name in a structured CV format.  \n- step3: The year \"1962\" is explicitly stated in the date.  \ncontains_birthdate: true  \nbirth_year: 1962",
+        "url": "https://www.europarl.europa.eu/meps/en/197491/MARINA_KALJURAND/cv",
+        "domain": "europarl.europa.eu",
+        "chunk_index": 0,
+        "similarity": 0.6150338065717998,
+        "rerank_score": 0.86024034
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "verified",
+    "birth_year": 1962,
+    "independent_source_count": 2,
+    "total_extractions": 2,
+    "year_ledgers": {
+      "1962": {
+        "year": 1962,
+        "count": 2,
+        "domains": [
+          "en.wikipedia.org",
+          "europarl.europa.eu"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 935,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Marina_Kaljurand",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 946,
+            "domain": "europarl.europa.eu",
+            "url": "https://www.europarl.europa.eu/meps/en/197491/MARINA_KALJURAND/cv",
+            "evidence_type": "born-field",
+            "quality_rank": 0
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Marina Kaljurand\nVerification completed: 2025-11-26 00:46:37 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: en.wikipedia.org, europarl.europa.eu, csrcl.huji.ac.il\nSimilarity scores ranged from 0.532 to 0.650\nRerank scores ranged from 0.319 to 0.900\n\nEXTRACTION PHASE\nScanned 2 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1962\n\nVERIFICATION PHASE\nVerification status: verified\nIndependent source count: 2\nVerified birth year: 1962\nSupporting domains: en.wikipedia.org, europarl.europa.eu\nSupporting extractions: 2\nEvidence types: born-field, born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

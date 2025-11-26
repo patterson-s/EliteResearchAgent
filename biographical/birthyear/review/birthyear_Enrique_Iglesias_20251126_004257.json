@@ -1,0 +1,115 @@
+{
+  "person_name": "Enrique Iglesias",
+  "timestamp": "2025-11-26T00:42:57.694919",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 287,
+        "domain": "biography.com",
+        "url": "https://www.biography.com/musicians/enrique-iglesias",
+        "similarity": 0.521935788440813,
+        "rerank_score": 0.88372874
+      },
+      {
+        "chunk_id": 232,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Enrique_Iglesias",
+        "similarity": 0.6395454453715863,
+        "rerank_score": 0.8660535
+      },
+      {
+        "chunk_id": 289,
+        "domain": "enrique-iglesias.org",
+        "url": "https://enrique-iglesias.org/enrique-iglesias-bio/",
+        "similarity": 0.612063085194167,
+        "rerank_score": 0.8479807
+      },
+      {
+        "chunk_id": 233,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Enrique_Iglesias",
+        "similarity": 0.6042341100544062,
+        "rerank_score": 0.8449346
+      },
+      {
+        "chunk_id": 285,
+        "domain": "biography.com",
+        "url": "https://www.biography.com/musicians/enrique-iglesias",
+        "similarity": 0.6285673473095985,
+        "rerank_score": 0.83549726
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 2,
+    "extractions": [
+      {
+        "chunk_id": 287,
+        "person_name": "Enrique Iglesias",
+        "contains_birth_info": true,
+        "extracted_year": 1975,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The chunk contains explicit birth cues (\"Birth Year\", \"Birth date\") with the dates \"1975\" and \"May 8, 1975\".\n- step2: The dates are directly associated with Enrique Iglesias in the \"QUICK FACTS\" section under his name, leaving no ambiguity.\n- step3: The most precise year available is 1975, explicitly stated in both \"Birth Year\" and \"Birth date\".",
+        "raw_llm_output": "reasoning:\n- step1: The chunk contains explicit birth cues (\"Birth Year\", \"Birth date\") with the dates \"1975\" and \"May 8, 1975\".\n- step2: The dates are directly associated with Enrique Iglesias in the \"QUICK FACTS\" section under his name, leaving no ambiguity.\n- step3: The most precise year available is 1975, explicitly stated in both \"Birth Year\" and \"Birth date\".\ncontains_birthdate: true\nbirth_year: 1975",
+        "url": "https://www.biography.com/musicians/enrique-iglesias",
+        "domain": "biography.com",
+        "chunk_index": 2,
+        "similarity": 0.521935788440813,
+        "rerank_score": 0.88372874
+      },
+      {
+        "chunk_id": 232,
+        "person_name": "Enrique Iglesias",
+        "contains_birth_info": true,
+        "extracted_year": 1975,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth cue (\"Born\") followed by a date string (\"1975-05-08\").\n- step2: The birth information is directly associated with Enrique Iglesias, as it appears in a section clearly about him.\n- step3: The year is explicitly stated as 1975.",
+        "raw_llm_output": "reasoning: \n- step1: The text contains a clear birth cue (\"Born\") followed by a date string (\"1975-05-08\").\n- step2: The birth information is directly associated with Enrique Iglesias, as it appears in a section clearly about him.\n- step3: The year is explicitly stated as 1975.\ncontains_birthdate: true\nbirth_year: 1975",
+        "url": "https://en.wikipedia.org/wiki/Enrique_Iglesias",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.6395454453715863,
+        "rerank_score": 0.8660535
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "verified",
+    "birth_year": 1975,
+    "independent_source_count": 2,
+    "total_extractions": 2,
+    "year_ledgers": {
+      "1975": {
+        "year": 1975,
+        "count": 2,
+        "domains": [
+          "en.wikipedia.org",
+          "biography.com"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 287,
+            "domain": "biography.com",
+            "url": "https://www.biography.com/musicians/enrique-iglesias",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 232,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Enrique_Iglesias",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Enrique Iglesias\nVerification completed: 2025-11-26 00:42:57 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: enrique-iglesias.org, en.wikipedia.org, biography.com\nSimilarity scores ranged from 0.467 to 0.646\nRerank scores ranged from 0.550 to 0.884\n\nEXTRACTION PHASE\nScanned 2 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1975\n\nVERIFICATION PHASE\nVerification status: verified\nIndependent source count: 2\nVerified birth year: 1975\nSupporting domains: en.wikipedia.org, biography.com\nSupporting extractions: 2\nEvidence types: born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

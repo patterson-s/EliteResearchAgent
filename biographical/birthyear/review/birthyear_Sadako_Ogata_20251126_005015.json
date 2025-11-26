@@ -1,0 +1,136 @@
+{
+  "person_name": "Sadako Ogata",
+  "timestamp": "2025-11-26T00:50:15.542537",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 314,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Sadako_Ogata",
+        "similarity": 0.48216593886935294,
+        "rerank_score": 0.918663
+      },
+      {
+        "chunk_id": 315,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Sadako_Ogata",
+        "similarity": 0.5004456169754372,
+        "rerank_score": 0.86928266
+      },
+      {
+        "chunk_id": 343,
+        "domain": "fulbright.org",
+        "url": "https://fulbright.org/wp-content/uploads/2021/02/2002-Sadako-Ogata.pdf",
+        "similarity": 0.3706975146753296,
+        "rerank_score": 0.8047902
+      },
+      {
+        "chunk_id": 326,
+        "domain": "polisci.berkeley.edu",
+        "url": "https://polisci.berkeley.edu/150w/sadako-ogata",
+        "similarity": 0.4001974034463569,
+        "rerank_score": 0.78214747
+      },
+      {
+        "chunk_id": 334,
+        "domain": "awlf.or.jp",
+        "url": "https://awlf.or.jp/en/connect-with-asia-women/ogata-sadako-en/",
+        "similarity": 0.4258133939507354,
+        "rerank_score": 0.7522497
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 3,
+    "extractions": [
+      {
+        "chunk_id": 314,
+        "person_name": "Sadako Ogata",
+        "contains_birth_info": true,
+        "extracted_year": 1927,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date string \"16 September 1927\" associated with Sadako Ogata.\n- step2: The date is directly linked to Sadako Ogata in the \"Personal details\" section, with no ambiguity.\n- step3: The year 1927 is explicitly stated in the birth date.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date string \"16 September 1927\" associated with Sadako Ogata.\n- step2: The date is directly linked to Sadako Ogata in the \"Personal details\" section, with no ambiguity.\n- step3: The year 1927 is explicitly stated in the birth date.\ncontains_birthdate: true\nbirth_year: 1927",
+        "url": "https://en.wikipedia.org/wiki/Sadako_Ogata",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.48216593886935294,
+        "rerank_score": 0.918663
+      },
+      {
+        "chunk_id": 315,
+        "person_name": "Sadako Ogata",
+        "contains_birth_info": true,
+        "extracted_year": 1927,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date \"16 September 1927\" with the cue \"born\".\n- step2: The birth date is directly associated with \"She,\" which unambiguously refers to Sadako Ogata as the preceding sentence introduces her name.\n- step3: The year 1927 is explicitly stated in the date.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date \"16 September 1927\" with the cue \"born\".\n- step2: The birth date is directly associated with \"She,\" which unambiguously refers to Sadako Ogata as the preceding sentence introduces her name.\n- step3: The year 1927 is explicitly stated in the date.\ncontains_birthdate: true\nbirth_year: 1927",
+        "url": "https://en.wikipedia.org/wiki/Sadako_Ogata",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 1,
+        "similarity": 0.5004456169754372,
+        "rerank_score": 0.86928266
+      },
+      {
+        "chunk_id": 343,
+        "person_name": "Sadako Ogata",
+        "contains_birth_info": true,
+        "extracted_year": 1927,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date cue (\"Born on September 16, 1927\") with a full date string.\n- step2: The birth date is explicitly linked to \"Mrs. Ogata,\" which unambiguously refers to Sadako Ogata.\n- step3: The year 1927 is directly stated in the birth date string.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date cue (\"Born on September 16, 1927\") with a full date string.\n- step2: The birth date is explicitly linked to \"Mrs. Ogata,\" which unambiguously refers to Sadako Ogata.\n- step3: The year 1927 is directly stated in the birth date string.\ncontains_birthdate: true\nbirth_year: 1927",
+        "url": "https://fulbright.org/wp-content/uploads/2021/02/2002-Sadako-Ogata.pdf",
+        "domain": "fulbright.org",
+        "chunk_index": 4,
+        "similarity": 0.3706975146753296,
+        "rerank_score": 0.8047902
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "verified",
+    "birth_year": 1927,
+    "independent_source_count": 2,
+    "total_extractions": 3,
+    "year_ledgers": {
+      "1927": {
+        "year": 1927,
+        "count": 2,
+        "domains": [
+          "en.wikipedia.org",
+          "fulbright.org"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 314,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Sadako_Ogata",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 315,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Sadako_Ogata",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 343,
+            "domain": "fulbright.org",
+            "url": "https://fulbright.org/wp-content/uploads/2021/02/2002-Sadako-Ogata.pdf",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Sadako Ogata\nVerification completed: 2025-11-26 00:50:15 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: awlf.or.jp, en.wikipedia.org, polisci.berkeley.edu, fulbright.org\nSimilarity scores ranged from 0.371 to 0.500\nRerank scores ranged from 0.695 to 0.919\n\nEXTRACTION PHASE\nScanned 3 chunks for birth information\nFound birth information in 3 chunks\nYears extracted: 1927\n\nVERIFICATION PHASE\nVerification status: verified\nIndependent source count: 2\nVerified birth year: 1927\nSupporting domains: en.wikipedia.org, fulbright.org\nSupporting extractions: 3\nEvidence types: born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

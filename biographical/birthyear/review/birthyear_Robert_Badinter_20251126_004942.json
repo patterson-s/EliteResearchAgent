@@ -1,0 +1,115 @@
+{
+  "person_name": "Robert Badinter",
+  "timestamp": "2025-11-26T00:49:42.279885",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 64,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Robert_Badinter",
+        "similarity": 0.6260372501332966,
+        "rerank_score": 0.91156644
+      },
+      {
+        "chunk_id": 88,
+        "domain": "deathpenaltyinfo.org",
+        "url": "https://deathpenaltyinfo.org/robert-badinter-former-french-justice-minister-and-death-penalty-abolitionist-dies-at-95",
+        "similarity": 0.44014848138860524,
+        "rerank_score": 0.75355774
+      },
+      {
+        "chunk_id": 78,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Robert_Badinter",
+        "similarity": 0.46691193921390056,
+        "rerank_score": 0.7348247
+      },
+      {
+        "chunk_id": 84,
+        "domain": "theconversation.com",
+        "url": "https://theconversation.com/who-was-robert-badinter-the-most-important-frenchman-of-whom-you-never-heard-223841",
+        "similarity": 0.3811588068123231,
+        "rerank_score": 0.7178241
+      },
+      {
+        "chunk_id": 81,
+        "domain": "osce.org",
+        "url": "https://www.osce.org/node/450118",
+        "similarity": 0.47355146578804247,
+        "rerank_score": 0.7154444
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 2,
+    "extractions": [
+      {
+        "chunk_id": 64,
+        "person_name": "Robert Badinter",
+        "contains_birth_info": true,
+        "extracted_year": 1928,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains multiple birth cues and date strings, including \"Born (1928-03-30) 30 March 1928\" and \"Robert Badinter (1928–2024)\".\n- step2: The birth date is clearly associated with Robert Badinter, as it appears directly under his name in the \"Personal details\" section and is reiterated in the introductory paragraph.\n- step3: The year 1928 is explicitly mentioned as the birth year in both instances.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains multiple birth cues and date strings, including \"Born (1928-03-30) 30 March 1928\" and \"Robert Badinter (1928–2024)\".\n- step2: The birth date is clearly associated with Robert Badinter, as it appears directly under his name in the \"Personal details\" section and is reiterated in the introductory paragraph.\n- step3: The year 1928 is explicitly mentioned as the birth year in both instances.\ncontains_birthdate: true\nbirth_year: 1928",
+        "url": "https://en.wikipedia.org/wiki/Robert_Badinter",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.6260372501332966,
+        "rerank_score": 0.91156644
+      },
+      {
+        "chunk_id": 88,
+        "person_name": "Robert Badinter",
+        "contains_birth_info": true,
+        "extracted_year": 1928,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth cue (\"Born in Paris... in March 1928\") with a specific date.\n- step2: The birth information is directly associated with Robert Badinter, as it follows his name and is part of a sentence describing his background.\n- step3: The year 1928 is explicitly mentioned as the birth year.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth cue (\"Born in Paris... in March 1928\") with a specific date.\n- step2: The birth information is directly associated with Robert Badinter, as it follows his name and is part of a sentence describing his background.\n- step3: The year 1928 is explicitly mentioned as the birth year.\ncontains_birthdate: true\nbirth_year: 1928",
+        "url": "https://deathpenaltyinfo.org/robert-badinter-former-french-justice-minister-and-death-penalty-abolitionist-dies-at-95",
+        "domain": "deathpenaltyinfo.org",
+        "chunk_index": 0,
+        "similarity": 0.44014848138860524,
+        "rerank_score": 0.75355774
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "verified",
+    "birth_year": 1928,
+    "independent_source_count": 2,
+    "total_extractions": 2,
+    "year_ledgers": {
+      "1928": {
+        "year": 1928,
+        "count": 2,
+        "domains": [
+          "en.wikipedia.org",
+          "deathpenaltyinfo.org"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 64,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Robert_Badinter",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 88,
+            "domain": "deathpenaltyinfo.org",
+            "url": "https://deathpenaltyinfo.org/robert-badinter-former-french-justice-minister-and-death-penalty-abolitionist-dies-at-95",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Robert Badinter\nVerification completed: 2025-11-26 00:49:42 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: en.wikipedia.org, deathpenaltyinfo.org, osce.org, theconversation.com\nSimilarity scores ranged from 0.335 to 0.626\nRerank scores ranged from 0.516 to 0.912\n\nEXTRACTION PHASE\nScanned 2 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1928\n\nVERIFICATION PHASE\nVerification status: verified\nIndependent source count: 2\nVerified birth year: 1928\nSupporting domains: en.wikipedia.org, deathpenaltyinfo.org\nSupporting extractions: 2\nEvidence types: born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

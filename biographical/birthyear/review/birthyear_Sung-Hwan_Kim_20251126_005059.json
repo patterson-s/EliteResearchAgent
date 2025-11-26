@@ -1,0 +1,145 @@
+{
+  "person_name": "Sung-Hwan Kim",
+  "timestamp": "2025-11-26T00:50:59.015442",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 3357,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Kim_Sung-hwan_(politician)",
+        "similarity": 0.543080796378962,
+        "rerank_score": 0.8512743
+      },
+      {
+        "chunk_id": 3348,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Kim_Sung-hwan_(diplomat)",
+        "similarity": 0.5680272185025926,
+        "rerank_score": 0.82560414
+      },
+      {
+        "chunk_id": 3362,
+        "domain": "africa-confidential.com",
+        "url": "https://www.africa-confidential.com/profile/id/3234/Kim-Sung-hwan",
+        "similarity": 0.443544767833667,
+        "rerank_score": 0.8066246
+      },
+      {
+        "chunk_id": 3355,
+        "domain": "gf.org",
+        "url": "https://www.gf.org/fellows/sung-hwan-kim/",
+        "similarity": 0.40915703044433493,
+        "rerank_score": 0.7498395
+      },
+      {
+        "chunk_id": 3361,
+        "domain": "en.iiss.pku.edu.cn",
+        "url": "https://en.iiss.pku.edu.cn/info/1171/3611.htm",
+        "similarity": 0.48050845655722346,
+        "rerank_score": 0.6396691
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 3,
+    "extractions": [
+      {
+        "chunk_id": 3357,
+        "person_name": "Sung-Hwan Kim",
+        "contains_birth_info": true,
+        "extracted_year": 1965,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date \"October 15, 1965\" associated with the name \"Kim Sung-hwan.\"\n- step2: The birth date is directly linked to Kim Sung-hwan in the \"Personal details\" section, with no ambiguity as it is clearly his biographical information.\n- step3: The year 1965 is explicitly stated in the birth date.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date \"October 15, 1965\" associated with the name \"Kim Sung-hwan.\"\n- step2: The birth date is directly linked to Kim Sung-hwan in the \"Personal details\" section, with no ambiguity as it is clearly his biographical information.\n- step3: The year 1965 is explicitly stated in the birth date.\ncontains_birthdate: true\nbirth_year: 1965",
+        "url": "https://en.wikipedia.org/wiki/Kim_Sung-hwan_(politician)",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.543080796378962,
+        "rerank_score": 0.8512743
+      },
+      {
+        "chunk_id": 3348,
+        "person_name": "Sung-Hwan Kim",
+        "contains_birth_info": true,
+        "extracted_year": 1953,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains multiple birth cues (\"born\", \"date of birth\") and date strings (\"1953\", \"13 April 1953\").\n- step2: The birth date \"13 April 1953\" is explicitly associated with Kim Sung-hwan in the \"Personal details\" section and near the name in the introductory sentence.\n- step3: The year 1953 is clearly stated and is the most precise year available.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains multiple birth cues (\"born\", \"date of birth\") and date strings (\"1953\", \"13 April 1953\").\n- step2: The birth date \"13 April 1953\" is explicitly associated with Kim Sung-hwan in the \"Personal details\" section and near the name in the introductory sentence.\n- step3: The year 1953 is clearly stated and is the most precise year available.\ncontains_birthdate: true\nbirth_year: 1953",
+        "url": "https://en.wikipedia.org/wiki/Kim_Sung-hwan_(diplomat)",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.5680272185025926,
+        "rerank_score": 0.82560414
+      },
+      {
+        "chunk_id": 3362,
+        "person_name": "Sung-Hwan Kim",
+        "contains_birth_info": true,
+        "extracted_year": 1953,
+        "evidence_type": "born-field",
+        "reasoning": "- step1: The text contains a clear \"Date of Birth\" field with the date \"13 April 1953\" directly associated with the name \"Kim Sung-hwan.\"\n- step2: The date is unambiguously linked to the PERSON_NAME, as it appears in a structured profile section specifically for \"Kim Sung-hwan.\"\n- step3: The year \"1953\" is explicitly stated in the date.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear \"Date of Birth\" field with the date \"13 April 1953\" directly associated with the name \"Kim Sung-hwan.\"\n- step2: The date is unambiguously linked to the PERSON_NAME, as it appears in a structured profile section specifically for \"Kim Sung-hwan.\"\n- step3: The year \"1953\" is explicitly stated in the date.\ncontains_birthdate: true\nbirth_year: 1953",
+        "url": "https://www.africa-confidential.com/profile/id/3234/Kim-Sung-hwan",
+        "domain": "africa-confidential.com",
+        "chunk_index": 0,
+        "similarity": 0.443544767833667,
+        "rerank_score": 0.8066246
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "conflict_resolved",
+    "birth_year": 1953,
+    "independent_source_count": 2,
+    "total_extractions": 3,
+    "year_ledgers": {
+      "1965": {
+        "year": 1965,
+        "count": 1,
+        "domains": [
+          "en.wikipedia.org"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 3357,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Kim_Sung-hwan_(politician)",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          }
+        ]
+      },
+      "1953": {
+        "year": 1953,
+        "count": 2,
+        "domains": [
+          "en.wikipedia.org",
+          "africa-confidential.com"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 3348,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Kim_Sung-hwan_(diplomat)",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 3362,
+            "domain": "africa-confidential.com",
+            "url": "https://www.africa-confidential.com/profile/id/3234/Kim-Sung-hwan",
+            "evidence_type": "born-field",
+            "quality_rank": 0
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Sung-Hwan Kim\nVerification completed: 2025-11-26 00:50:59 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: gf.org, en.wikipedia.org, africa-confidential.com, en.iiss.pku.edu.cn\nSimilarity scores ranged from 0.409 to 0.568\nRerank scores ranged from 0.286 to 0.851\n\nEXTRACTION PHASE\nScanned 3 chunks for birth information\nFound birth information in 3 chunks\nYears extracted: 1953, 1965\n\nVERIFICATION PHASE\nVerification status: conflict_resolved\nIndependent source count: 2\nVerified birth year: 1953\nSupporting domains: en.wikipedia.org, africa-confidential.com\nSupporting extractions: 2\nEvidence types: born-field, born-narrative\n\nCONFLICT DETAILS\nAlternative year 1965 found in 1 source(s): en.wikipedia.org\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

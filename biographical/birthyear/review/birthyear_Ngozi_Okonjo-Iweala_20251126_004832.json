@@ -1,0 +1,115 @@
+{
+  "person_name": "Ngozi Okonjo-Iweala",
+  "timestamp": "2025-11-26T00:48:32.738652",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 3248,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Ngozi_Okonjo-Iweala",
+        "similarity": 0.649875740386855,
+        "rerank_score": 0.9126935
+      },
+      {
+        "chunk_id": 3275,
+        "domain": "britannica.com",
+        "url": "https://www.britannica.com/money/Ngozi-Okonjo-Iweala",
+        "similarity": 0.6248817648126611,
+        "rerank_score": 0.84918517
+      },
+      {
+        "chunk_id": 3269,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Ngozi_Okonjo-Iweala",
+        "similarity": 0.6278029920144592,
+        "rerank_score": 0.7604555
+      },
+      {
+        "chunk_id": 3249,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Ngozi_Okonjo-Iweala",
+        "similarity": 0.5430295149466434,
+        "rerank_score": 0.6690754
+      },
+      {
+        "chunk_id": 3267,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Ngozi_Okonjo-Iweala",
+        "similarity": 0.573907290255545,
+        "rerank_score": 0.5081298
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 2,
+    "extractions": [
+      {
+        "chunk_id": 3248,
+        "person_name": "Ngozi Okonjo-Iweala",
+        "contains_birth_info": true,
+        "extracted_year": 1954,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date \"13 June 1954\" associated with Ngozi Okonjo-Iweala.\n- step2: The birth date is directly linked to Ngozi Okonjo-Iweala in the \"Personal details\" section, with no ambiguity.\n- step3: The year 1954 is explicitly stated in the birth date.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date \"13 June 1954\" associated with Ngozi Okonjo-Iweala.\n- step2: The birth date is directly linked to Ngozi Okonjo-Iweala in the \"Personal details\" section, with no ambiguity.\n- step3: The year 1954 is explicitly stated in the birth date.\ncontains_birthdate: true\nbirth_year: 1954",
+        "url": "https://en.wikipedia.org/wiki/Ngozi_Okonjo-Iweala",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.649875740386855,
+        "rerank_score": 0.9126935
+      },
+      {
+        "chunk_id": 3275,
+        "person_name": "Ngozi Okonjo-Iweala",
+        "contains_birth_info": true,
+        "extracted_year": 1954,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth cue (\"born:\") followed by a date string (\"June 13, 1954\").\n- step2: The date is directly associated with Ngozi Okonjo-Iweala's name in the text, with no ambiguity.\n- step3: The year is explicitly stated as 1954.",
+        "raw_llm_output": "reasoning: \n- step1: The text contains a clear birth cue (\"born:\") followed by a date string (\"June 13, 1954\").\n- step2: The date is directly associated with Ngozi Okonjo-Iweala's name in the text, with no ambiguity.\n- step3: The year is explicitly stated as 1954.\ncontains_birthdate: true\nbirth_year: 1954",
+        "url": "https://www.britannica.com/money/Ngozi-Okonjo-Iweala",
+        "domain": "britannica.com",
+        "chunk_index": 0,
+        "similarity": 0.6248817648126611,
+        "rerank_score": 0.84918517
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "verified",
+    "birth_year": 1954,
+    "independent_source_count": 2,
+    "total_extractions": 2,
+    "year_ledgers": {
+      "1954": {
+        "year": 1954,
+        "count": 2,
+        "domains": [
+          "britannica.com",
+          "en.wikipedia.org"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 3248,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Ngozi_Okonjo-Iweala",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 3275,
+            "domain": "britannica.com",
+            "url": "https://www.britannica.com/money/Ngozi-Okonjo-Iweala",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Ngozi Okonjo-Iweala\nVerification completed: 2025-11-26 00:48:32 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: britannica.com, en.wikipedia.org\nSimilarity scores ranged from 0.518 to 0.650\nRerank scores ranged from 0.407 to 0.913\n\nEXTRACTION PHASE\nScanned 2 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1954\n\nVERIFICATION PHASE\nVerification status: verified\nIndependent source count: 2\nVerified birth year: 1954\nSupporting domains: britannica.com, en.wikipedia.org\nSupporting extractions: 2\nEvidence types: born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

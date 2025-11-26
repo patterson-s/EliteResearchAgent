@@ -1,0 +1,115 @@
+{
+  "person_name": "Luisa Dias Diogo",
+  "timestamp": "2025-11-26T00:46:27.057089",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 3601,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Lu%C3%ADsa_Diogo",
+        "similarity": 0.5563851047403059,
+        "rerank_score": 0.90227455
+      },
+      {
+        "chunk_id": 3605,
+        "domain": "awpc.cattcenter.iastate.edu",
+        "url": "https://awpc.cattcenter.iastate.edu/directory/luisa-d-diogo/",
+        "similarity": 0.5253867094044369,
+        "rerank_score": 0.8795718
+      },
+      {
+        "chunk_id": 3630,
+        "domain": "notablebiographies.com",
+        "url": "https://www.notablebiographies.com/news/Ca-Ge/Diogo-Luisa.html",
+        "similarity": 0.4920788918114472,
+        "rerank_score": 0.8652358
+      },
+      {
+        "chunk_id": 3622,
+        "domain": "councilwomenworldleaders.org",
+        "url": "https://www.councilwomenworldleaders.org/maria-lusa-dias-diogo",
+        "similarity": 0.47890283947004747,
+        "rerank_score": 0.6690754
+      },
+      {
+        "chunk_id": 3627,
+        "domain": "peaceparks.org",
+        "url": "https://www.peaceparks.org/peace-parks-foundation-welcomes-dr-luisa-diogo-to-the-board/",
+        "similarity": 0.41050086135886676,
+        "rerank_score": 0.6522641
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 2,
+    "extractions": [
+      {
+        "chunk_id": 3601,
+        "person_name": "Luisa Dias Diogo",
+        "contains_birth_info": true,
+        "extracted_year": 1958,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date string \"11 April 1958\" associated with the \"Born\" cue.\n- step2: The date is directly linked to Luísa Dias Diogo in the \"Personal details\" section, with no ambiguity.\n- step3: The year 1958 is explicitly stated in the date string.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date string \"11 April 1958\" associated with the \"Born\" cue.\n- step2: The date is directly linked to Luísa Dias Diogo in the \"Personal details\" section, with no ambiguity.\n- step3: The year 1958 is explicitly stated in the date string.\ncontains_birthdate: true\nbirth_year: 1958",
+        "url": "https://en.wikipedia.org/wiki/Lu%C3%ADsa_Diogo",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.5563851047403059,
+        "rerank_score": 0.90227455
+      },
+      {
+        "chunk_id": 3605,
+        "person_name": "Luisa Dias Diogo",
+        "contains_birth_info": true,
+        "extracted_year": 1958,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains two instances of birth cues with the date \"April 11, 1958\" under the section about Luisa Dias Diogo.\n- step2: Both instances clearly refer to Luisa Dias Diogo, with one directly stating \"Diogo was born on April 11, 1958\" and the other under her name in a structured format.\n- step3: The year 1958 is explicitly mentioned in both instances, making it the most precise year available.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains two instances of birth cues with the date \"April 11, 1958\" under the section about Luisa Dias Diogo.\n- step2: Both instances clearly refer to Luisa Dias Diogo, with one directly stating \"Diogo was born on April 11, 1958\" and the other under her name in a structured format.\n- step3: The year 1958 is explicitly mentioned in both instances, making it the most precise year available.\ncontains_birthdate: true\nbirth_year: 1958",
+        "url": "https://awpc.cattcenter.iastate.edu/directory/luisa-d-diogo/",
+        "domain": "awpc.cattcenter.iastate.edu",
+        "chunk_index": 0,
+        "similarity": 0.5253867094044369,
+        "rerank_score": 0.8795718
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "verified",
+    "birth_year": 1958,
+    "independent_source_count": 2,
+    "total_extractions": 2,
+    "year_ledgers": {
+      "1958": {
+        "year": 1958,
+        "count": 2,
+        "domains": [
+          "en.wikipedia.org",
+          "awpc.cattcenter.iastate.edu"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 3601,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Lu%C3%ADsa_Diogo",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 3605,
+            "domain": "awpc.cattcenter.iastate.edu",
+            "url": "https://awpc.cattcenter.iastate.edu/directory/luisa-d-diogo/",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Luisa Dias Diogo\nVerification completed: 2025-11-26 00:46:27 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: awpc.cattcenter.iastate.edu, councilwomenworldleaders.org, peaceparks.org, en.wikipedia.org, notablebiographies.com\nSimilarity scores ranged from 0.352 to 0.556\nRerank scores ranged from 0.454 to 0.902\n\nEXTRACTION PHASE\nScanned 2 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1958\n\nVERIFICATION PHASE\nVerification status: verified\nIndependent source count: 2\nVerified birth year: 1958\nSupporting domains: en.wikipedia.org, awpc.cattcenter.iastate.edu\nSupporting extractions: 2\nEvidence types: born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

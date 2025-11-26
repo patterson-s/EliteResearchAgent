@@ -1,0 +1,115 @@
+{
+  "person_name": "Fulbert Gero Amoussouga",
+  "timestamp": "2025-11-26T00:43:03.109221",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 2919,
+        "domain": "fr.wikipedia.org",
+        "url": "https://fr.wikipedia.org/wiki/Fulbert_G%C3%A9ro_Amoussouga",
+        "similarity": 0.6282532028437089,
+        "rerank_score": 0.9037116
+      },
+      {
+        "chunk_id": 2922,
+        "domain": "ask-oracle.com",
+        "url": "https://www.ask-oracle.com/birth-chart/fulbert-gero-amoussouga/",
+        "similarity": 0.6689242701254381,
+        "rerank_score": 0.8849276
+      },
+      {
+        "chunk_id": 2920,
+        "domain": "fr.wikipedia.org",
+        "url": "https://fr.wikipedia.org/wiki/Fulbert_G%C3%A9ro_Amoussouga",
+        "similarity": 0.5716759929252281,
+        "rerank_score": 0.8116913
+      },
+      {
+        "chunk_id": 2916,
+        "domain": "adaptation-undp.org",
+        "url": "https://www.adaptation-undp.org/resources/benin-joins-implementation-au-and-amcow-s-capacity-development-programme-economics",
+        "similarity": 0.3165127746879428,
+        "rerank_score": 0.5726516
+      },
+      {
+        "chunk_id": 2909,
+        "domain": "cdn.modernghana.com",
+        "url": "https://cdn.modernghana.com/images/content/report_content/list_of_highlevel_panel_members.pdf",
+        "similarity": 0.31002372399038847,
+        "rerank_score": 0.5631623
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 2,
+    "extractions": [
+      {
+        "chunk_id": 2919,
+        "person_name": "Fulbert Gero Amoussouga",
+        "contains_birth_info": true,
+        "extracted_year": 1952,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains clear birth cues (\"Naissance\", \"né le\") and a full date (\"10 avril 1952\").\n- step2: The birth date is directly associated with Fulbert Géro Amoussouga in the \"Biographie\" section, with no ambiguity.\n- step3: The year 1952 is explicitly stated in the birth date.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains clear birth cues (\"Naissance\", \"né le\") and a full date (\"10 avril 1952\").\n- step2: The birth date is directly associated with Fulbert Géro Amoussouga in the \"Biographie\" section, with no ambiguity.\n- step3: The year 1952 is explicitly stated in the birth date.\ncontains_birthdate: true\nbirth_year: 1952",
+        "url": "https://fr.wikipedia.org/wiki/Fulbert_G%C3%A9ro_Amoussouga",
+        "domain": "fr.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.6282532028437089,
+        "rerank_score": 0.9037116
+      },
+      {
+        "chunk_id": 2922,
+        "person_name": "Fulbert Gero Amoussouga",
+        "contains_birth_info": true,
+        "extracted_year": 1952,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date \"April 10, 1952\" associated with Fulbert Géro Amoussouga.\n- step2: The date is directly linked to Fulbert Géro Amoussouga through the phrase \"born on April 10, 1952,\" leaving no ambiguity.\n- step3: The year 1952 is explicitly stated in the birth date.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date \"April 10, 1952\" associated with Fulbert Géro Amoussouga.\n- step2: The date is directly linked to Fulbert Géro Amoussouga through the phrase \"born on April 10, 1952,\" leaving no ambiguity.\n- step3: The year 1952 is explicitly stated in the birth date.\ncontains_birthdate: true\nbirth_year: 1952",
+        "url": "https://www.ask-oracle.com/birth-chart/fulbert-gero-amoussouga/",
+        "domain": "ask-oracle.com",
+        "chunk_index": 0,
+        "similarity": 0.6689242701254381,
+        "rerank_score": 0.8849276
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "verified",
+    "birth_year": 1952,
+    "independent_source_count": 2,
+    "total_extractions": 2,
+    "year_ledgers": {
+      "1952": {
+        "year": 1952,
+        "count": 2,
+        "domains": [
+          "ask-oracle.com",
+          "fr.wikipedia.org"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 2919,
+            "domain": "fr.wikipedia.org",
+            "url": "https://fr.wikipedia.org/wiki/Fulbert_G%C3%A9ro_Amoussouga",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 2922,
+            "domain": "ask-oracle.com",
+            "url": "https://www.ask-oracle.com/birth-chart/fulbert-gero-amoussouga/",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Fulbert Gero Amoussouga\nVerification completed: 2025-11-26 00:43:03 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: ask-oracle.com, fr.wikipedia.org, adaptation-undp.org, cdn.modernghana.com\nSimilarity scores ranged from 0.268 to 0.669\nRerank scores ranged from 0.193 to 0.904\n\nEXTRACTION PHASE\nScanned 2 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1952\n\nVERIFICATION PHASE\nVerification status: verified\nIndependent source count: 2\nVerified birth year: 1952\nSupporting domains: ask-oracle.com, fr.wikipedia.org\nSupporting extractions: 2\nEvidence types: born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

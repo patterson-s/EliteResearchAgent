@@ -1,0 +1,136 @@
+{
+  "person_name": "Jens Stoltenberg",
+  "timestamp": "2025-11-26T00:44:43.229661",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 3636,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Jens_Stoltenberg",
+        "similarity": 0.5767111567141422,
+        "rerank_score": 0.8997663
+      },
+      {
+        "chunk_id": 3637,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Jens_Stoltenberg",
+        "similarity": 0.5946413961774292,
+        "rerank_score": 0.85216236
+      },
+      {
+        "chunk_id": 3690,
+        "domain": "regjeringen.no",
+        "url": "https://www.regjeringen.no/en/the-government/previous-governments/historiske-artikler/offices/prime-minister-since-1814/jens-stoltenberg/id549862/",
+        "similarity": 0.6171282582062192,
+        "rerank_score": 0.8399576
+      },
+      {
+        "chunk_id": 3686,
+        "domain": "britannica.com",
+        "url": "https://www.britannica.com/biography/Jens-Stoltenberg",
+        "similarity": 0.6086291909206253,
+        "rerank_score": 0.8325776
+      },
+      {
+        "chunk_id": 3685,
+        "domain": "nato.int",
+        "url": "https://www.nato.int/en/about-us/organization/who-we-are/nato-secretaries-general/jens-stoltenberg",
+        "similarity": 0.5023351350898906,
+        "rerank_score": 0.81979275
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 3,
+    "extractions": [
+      {
+        "chunk_id": 3636,
+        "person_name": "Jens Stoltenberg",
+        "contains_birth_info": true,
+        "extracted_year": 1959,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date string \"16 March 1959\" associated with the \"Born\" header.\n- step2: The birth date is directly linked to Jens Stoltenberg in the \"Personal details\" section and again in the paragraph starting with \"Jens Stoltenberg (Norwegian: [jɛns ˈstɔ̀ɫtn̩bærɡ] ; born 16 March 1959)\".\n- step3: The year 1959 is explicitly mentioned in both instances, making it the most precise and unambiguous birth year.",
+        "raw_llm_output": "reasoning: \n- step1: The text contains a clear birth date string \"16 March 1959\" associated with the \"Born\" header.\n- step2: The birth date is directly linked to Jens Stoltenberg in the \"Personal details\" section and again in the paragraph starting with \"Jens Stoltenberg (Norwegian: [jɛns ˈstɔ̀ɫtn̩bærɡ] ; born 16 March 1959)\".\n- step3: The year 1959 is explicitly mentioned in both instances, making it the most precise and unambiguous birth year.\ncontains_birthdate: true\nbirth_year: 1959",
+        "url": "https://en.wikipedia.org/wiki/Jens_Stoltenberg",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 1,
+        "similarity": 0.5767111567141422,
+        "rerank_score": 0.8997663
+      },
+      {
+        "chunk_id": 3637,
+        "person_name": "Jens Stoltenberg",
+        "contains_birth_info": true,
+        "extracted_year": 1959,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date \"16 March 1959\" associated with Jens Stoltenberg.\n- step2: The birth date is directly linked to Jens Stoltenberg in the \"Early life\" section, with no ambiguity.\n- step3: The year 1959 is explicitly mentioned as part of the birth date.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date \"16 March 1959\" associated with Jens Stoltenberg.\n- step2: The birth date is directly linked to Jens Stoltenberg in the \"Early life\" section, with no ambiguity.\n- step3: The year 1959 is explicitly mentioned as part of the birth date.\ncontains_birthdate: true\nbirth_year: 1959",
+        "url": "https://en.wikipedia.org/wiki/Jens_Stoltenberg",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 2,
+        "similarity": 0.5946413961774292,
+        "rerank_score": 0.85216236
+      },
+      {
+        "chunk_id": 3690,
+        "person_name": "Jens Stoltenberg",
+        "contains_birth_info": true,
+        "extracted_year": 1959,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth cue (\"Born in Oslo 16 March 1959\") with a full date.\n- step2: The birth information is directly associated with Jens Stoltenberg, as it appears under his name in the biographical section.\n- step3: The year 1959 is explicitly stated in the birth date.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth cue (\"Born in Oslo 16 March 1959\") with a full date.\n- step2: The birth information is directly associated with Jens Stoltenberg, as it appears under his name in the biographical section.\n- step3: The year 1959 is explicitly stated in the birth date.\ncontains_birthdate: true\nbirth_year: 1959",
+        "url": "https://www.regjeringen.no/en/the-government/previous-governments/historiske-artikler/offices/prime-minister-since-1814/jens-stoltenberg/id549862/",
+        "domain": "regjeringen.no",
+        "chunk_index": 0,
+        "similarity": 0.6171282582062192,
+        "rerank_score": 0.8399576
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "verified",
+    "birth_year": 1959,
+    "independent_source_count": 2,
+    "total_extractions": 3,
+    "year_ledgers": {
+      "1959": {
+        "year": 1959,
+        "count": 2,
+        "domains": [
+          "regjeringen.no",
+          "en.wikipedia.org"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 3636,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Jens_Stoltenberg",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 3637,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Jens_Stoltenberg",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 3690,
+            "domain": "regjeringen.no",
+            "url": "https://www.regjeringen.no/en/the-government/previous-governments/historiske-artikler/offices/prime-minister-since-1814/jens-stoltenberg/id549862/",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Jens Stoltenberg\nVerification completed: 2025-11-26 00:44:43 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: britannica.com, regjeringen.no, en.wikipedia.org, nato.int\nSimilarity scores ranged from 0.452 to 0.644\nRerank scores ranged from 0.346 to 0.900\n\nEXTRACTION PHASE\nScanned 3 chunks for birth information\nFound birth information in 3 chunks\nYears extracted: 1959\n\nVERIFICATION PHASE\nVerification status: verified\nIndependent source count: 2\nVerified birth year: 1959\nSupporting domains: regjeringen.no, en.wikipedia.org\nSupporting extractions: 3\nEvidence types: born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

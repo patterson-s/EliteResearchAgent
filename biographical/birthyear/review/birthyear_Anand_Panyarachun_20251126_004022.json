@@ -1,0 +1,115 @@
+{
+  "person_name": "Anand Panyarachun",
+  "timestamp": "2025-11-26T00:40:22.049586",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 1,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Anand_Panyarachun",
+        "similarity": 0.5581305681344821,
+        "rerank_score": 0.9075175
+      },
+      {
+        "chunk_id": 18,
+        "domain": "clubmadrid.org",
+        "url": "https://clubmadrid.org/who/members/panyarachun-anand/",
+        "similarity": 0.49782771901795625,
+        "rerank_score": 0.89567816
+      },
+      {
+        "chunk_id": 14,
+        "domain": "anandp.in.th",
+        "url": "http://anandp.in.th/biography_20140623.html",
+        "similarity": 0.5410167505210486,
+        "rerank_score": 0.8449346
+      },
+      {
+        "chunk_id": 27,
+        "domain": "rmaward.asia",
+        "url": "https://rmaward.asia/rmawardees/anand-panyarachun/",
+        "similarity": 0.437679205423847,
+        "rerank_score": 0.7769112
+      },
+      {
+        "chunk_id": 13,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Anand_Panyarachun",
+        "similarity": 0.5239750791280886,
+        "rerank_score": 0.7099254
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 2,
+    "extractions": [
+      {
+        "chunk_id": 1,
+        "person_name": "Anand Panyarachun",
+        "contains_birth_info": true,
+        "extracted_year": 1932,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date string \"9 August 1932\" associated with the \"Born\" cue.\n- step2: The birth date is directly linked to Anand Panyarachun in the \"Personal details\" section, with no ambiguity.\n- step3: The year 1932 is explicitly stated in the date string.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date string \"9 August 1932\" associated with the \"Born\" cue.\n- step2: The birth date is directly linked to Anand Panyarachun in the \"Personal details\" section, with no ambiguity.\n- step3: The year 1932 is explicitly stated in the date string.\ncontains_birthdate: true\nbirth_year: 1932",
+        "url": "https://en.wikipedia.org/wiki/Anand_Panyarachun",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.5581305681344821,
+        "rerank_score": 0.9075175
+      },
+      {
+        "chunk_id": 18,
+        "person_name": "Anand Panyarachun",
+        "contains_birth_info": true,
+        "extracted_year": 1932,
+        "evidence_type": "born-field",
+        "reasoning": "- step1: The text contains a clear birth date string \"9 August 1932\" under the \"Place and Date of Birth\" section.\n- step2: The section is directly associated with Anand Panyarachun's name, making it unambiguous that this date refers to him.\n- step3: The year 1932 is explicitly stated in the date string.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date string \"9 August 1932\" under the \"Place and Date of Birth\" section.\n- step2: The section is directly associated with Anand Panyarachun's name, making it unambiguous that this date refers to him.\n- step3: The year 1932 is explicitly stated in the date string.\ncontains_birthdate: true\nbirth_year: 1932",
+        "url": "https://clubmadrid.org/who/members/panyarachun-anand/",
+        "domain": "clubmadrid.org",
+        "chunk_index": 0,
+        "similarity": 0.49782771901795625,
+        "rerank_score": 0.89567816
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "verified",
+    "birth_year": 1932,
+    "independent_source_count": 2,
+    "total_extractions": 2,
+    "year_ledgers": {
+      "1932": {
+        "year": 1932,
+        "count": 2,
+        "domains": [
+          "en.wikipedia.org",
+          "clubmadrid.org"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 1,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Anand_Panyarachun",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 18,
+            "domain": "clubmadrid.org",
+            "url": "https://clubmadrid.org/who/members/panyarachun-anand/",
+            "evidence_type": "born-field",
+            "quality_rank": 0
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Anand Panyarachun\nVerification completed: 2025-11-26 00:40:22 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: rmaward.asia, en.wikipedia.org, anandp.in.th, clubmadrid.org\nSimilarity scores ranged from 0.383 to 0.558\nRerank scores ranged from 0.468 to 0.908\n\nEXTRACTION PHASE\nScanned 2 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1932\n\nVERIFICATION PHASE\nVerification status: verified\nIndependent source count: 2\nVerified birth year: 1932\nSupporting domains: en.wikipedia.org, clubmadrid.org\nSupporting extractions: 2\nEvidence types: born-field, born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

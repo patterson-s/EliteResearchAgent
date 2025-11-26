@@ -1,0 +1,202 @@
+{
+  "person_name": "Akaliza Keza Ntwari",
+  "timestamp": "2025-11-26T00:39:49.049369",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 1063,
+        "domain": "fondationbotnar.org",
+        "url": "https://www.fondationbotnar.org/akaliza-keza-ntwari-writes-on-women-led-innovation/",
+        "similarity": 0.4127673876438184,
+        "rerank_score": 0.6320719
+      },
+      {
+        "chunk_id": 1078,
+        "domain": "blogs.kent.ac.uk",
+        "url": "https://blogs.kent.ac.uk/engineering-news/2018/09/04/kent-alumna-from-rwanda-joins-high-level-un-panel-alongside-melinda-gates-and-jack-ma-and-makes-significant-strides-to-change-the-face-of-technology-in-her-country/",
+        "similarity": 0.4572667472616815,
+        "rerank_score": 0.6063825
+      },
+      {
+        "chunk_id": 1087,
+        "domain": "newtimes.co.rw",
+        "url": "https://www.newtimes.co.rw/article/155659/News/young-rwandan-joins-high-level-un-panel-alongside-melinda-gates-jack-ma",
+        "similarity": 0.4139848330688259,
+        "rerank_score": 0.49406826
+      },
+      {
+        "chunk_id": 1080,
+        "domain": "umutesidoreen.wordpress.com",
+        "url": "https://umutesidoreen.wordpress.com/2012/03/29/akaliza-a-woman-taking-over-the-world/",
+        "similarity": 0.4134271318285424,
+        "rerank_score": 0.34059536
+      },
+      {
+        "chunk_id": 1083,
+        "domain": "blogs.kent.ac.uk",
+        "url": "https://blogs.kent.ac.uk/isnews/author/an558/",
+        "similarity": 0.32412307544544605,
+        "rerank_score": 0.23291197
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 10,
+    "extractions": [
+      {
+        "chunk_id": 1063,
+        "person_name": "Akaliza Keza Ntwari",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings related to birth are found in the chunk.\n- step2: N/A, as no birth-related information is present.\n- step3: N/A, as no birth year is mentioned or can be inferred.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings related to birth are found in the chunk.\n- step2: N/A, as no birth-related information is present.\n- step3: N/A, as no birth year is mentioned or can be inferred.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://www.fondationbotnar.org/akaliza-keza-ntwari-writes-on-women-led-innovation/",
+        "domain": "fondationbotnar.org",
+        "chunk_index": 0,
+        "similarity": 0.4127673876438184,
+        "rerank_score": 0.6320719
+      },
+      {
+        "chunk_id": 1078,
+        "person_name": "Akaliza Keza Ntwari",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No explicit birth cues or date strings are mentioned in the chunk.\n- step2: No disambiguation is needed as there are no birth-related dates or cues present.\n- step3: Year selection is impossible due to the absence of any birth-related information.",
+        "raw_llm_output": "reasoning:\n- step1: No explicit birth cues or date strings are mentioned in the chunk.\n- step2: No disambiguation is needed as there are no birth-related dates or cues present.\n- step3: Year selection is impossible due to the absence of any birth-related information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://blogs.kent.ac.uk/engineering-news/2018/09/04/kent-alumna-from-rwanda-joins-high-level-un-panel-alongside-melinda-gates-and-jack-ma-and-makes-significant-strides-to-change-the-face-of-technology-in-her-country/",
+        "domain": "blogs.kent.ac.uk",
+        "chunk_index": 0,
+        "similarity": 0.4572667472616815,
+        "rerank_score": 0.6063825
+      },
+      {
+        "chunk_id": 1087,
+        "person_name": "Akaliza Keza Ntwari",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings found in the chunk.\n- step2: No disambiguation needed as no birth information is present.\n- step3: No year selection possible due to absence of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings found in the chunk.\n- step2: No disambiguation needed as no birth information is present.\n- step3: No year selection possible due to absence of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://www.newtimes.co.rw/article/155659/News/young-rwandan-joins-high-level-un-panel-alongside-melinda-gates-jack-ma",
+        "domain": "newtimes.co.rw",
+        "chunk_index": 0,
+        "similarity": 0.4139848330688259,
+        "rerank_score": 0.49406826
+      },
+      {
+        "chunk_id": 1080,
+        "person_name": "Akaliza Keza Ntwari",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: The text mentions \"I am a 25 year old Rwandan entrepreneur\" and \"moved to Rwanda for the first time in January 2009,\" but no explicit birth date or year is provided.\n- step2: The age (25) and the move date (January 2009) are clearly associated with Akaliza Gara, but there is no direct birth date information.\n- step3: Since no explicit birth year or date is mentioned, it's impossible to determine the birth year.",
+        "raw_llm_output": "reasoning:\n- step1: The text mentions \"I am a 25 year old Rwandan entrepreneur\" and \"moved to Rwanda for the first time in January 2009,\" but no explicit birth date or year is provided.\n- step2: The age (25) and the move date (January 2009) are clearly associated with Akaliza Gara, but there is no direct birth date information.\n- step3: Since no explicit birth year or date is mentioned, it's impossible to determine the birth year.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://umutesidoreen.wordpress.com/2012/03/29/akaliza-a-woman-taking-over-the-world/",
+        "domain": "umutesidoreen.wordpress.com",
+        "chunk_index": 0,
+        "similarity": 0.4134271318285424,
+        "rerank_score": 0.34059536
+      },
+      {
+        "chunk_id": 1083,
+        "person_name": "Akaliza Keza Ntwari",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as no birth information is mentioned.\n- step3: No year selection possible due to absence of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as no birth information is mentioned.\n- step3: No year selection possible due to absence of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://blogs.kent.ac.uk/isnews/author/an558/",
+        "domain": "blogs.kent.ac.uk",
+        "chunk_index": 0,
+        "similarity": 0.32412307544544605,
+        "rerank_score": 0.23291197
+      },
+      {
+        "chunk_id": 1082,
+        "person_name": "Akaliza Keza Ntwari",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as there are no relevant dates.\n- step3: No year selection possible due to lack of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as there are no relevant dates.\n- step3: No year selection possible due to lack of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://umutesidoreen.wordpress.com/2012/03/29/akaliza-a-woman-taking-over-the-world/",
+        "domain": "umutesidoreen.wordpress.com",
+        "chunk_index": 2,
+        "similarity": 0.22166313472280927,
+        "rerank_score": 0.2204603
+      },
+      {
+        "chunk_id": 1076,
+        "person_name": "Akaliza Keza Ntwari",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation is needed as there are no birth-related mentions.\n- step3: No year selection is possible due to the absence of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation is needed as there are no birth-related mentions.\n- step3: No year selection is possible due to the absence of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://itriedtowarnyou.wordpress.com/author/akalizakeza/",
+        "domain": "itriedtowarnyou.wordpress.com",
+        "chunk_index": 0,
+        "similarity": 0.3327866583742057,
+        "rerank_score": 0.18884735
+      },
+      {
+        "chunk_id": 1079,
+        "person_name": "Akaliza Keza Ntwari",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No explicit birth cues or date strings related to birth are found in the chunk.\n- step2: The text focuses on Akaliza's activities and achievements but does not mention any birth-related information.\n- step3: Since no birth-related information is present, determining a birth year is impossible.",
+        "raw_llm_output": "reasoning:\n- step1: No explicit birth cues or date strings related to birth are found in the chunk.\n- step2: The text focuses on Akaliza's activities and achievements but does not mention any birth-related information.\n- step3: Since no birth-related information is present, determining a birth year is impossible.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://blogs.kent.ac.uk/engineering-news/2018/09/04/kent-alumna-from-rwanda-joins-high-level-un-panel-alongside-melinda-gates-and-jack-ma-and-makes-significant-strides-to-change-the-face-of-technology-in-her-country/",
+        "domain": "blogs.kent.ac.uk",
+        "chunk_index": 1,
+        "similarity": 0.2577398117693541,
+        "rerank_score": 0.1560666
+      },
+      {
+        "chunk_id": 1086,
+        "person_name": "Akaliza Keza Ntwari",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings found in the chunk.\n- step2: No disambiguation needed as no dates are present.\n- step3: No year selection possible due to absence of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings found in the chunk.\n- step2: No disambiguation needed as no dates are present.\n- step3: No year selection possible due to absence of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://www.youtube.com/watch?v=7VyxlY7tMMk",
+        "domain": "youtube.com",
+        "chunk_index": 0,
+        "similarity": 0.4564606026592599,
+        "rerank_score": 0.13800836
+      },
+      {
+        "chunk_id": 1081,
+        "person_name": "Akaliza Keza Ntwari",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation is needed as there are no birth-related information or dates mentioned.\n- step3: Year selection is impossible due to the absence of any birth-related information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation is needed as there are no birth-related information or dates mentioned.\n- step3: Year selection is impossible due to the absence of any birth-related information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://umutesidoreen.wordpress.com/2012/03/29/akaliza-a-woman-taking-over-the-world/",
+        "domain": "umutesidoreen.wordpress.com",
+        "chunk_index": 1,
+        "similarity": 0.2111333939244098,
+        "rerank_score": 0.059850052
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "no_evidence",
+    "birth_year": null,
+    "independent_source_count": 0,
+    "total_extractions": 10,
+    "year_ledgers": {}
+  },
+  "provenance_narrative": "Birth year verification for Akaliza Keza Ntwari\nVerification completed: 2025-11-26 00:39:49 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: fondationbotnar.org, umutesidoreen.wordpress.com, newtimes.co.rw, blogs.kent.ac.uk\nSimilarity scores ranged from 0.211 to 0.457\nRerank scores ranged from 0.060 to 0.632\n\nEXTRACTION PHASE\nScanned 10 chunks for birth information\nFound birth information in 0 chunks\n\nVERIFICATION PHASE\nVerification status: no_evidence\nIndependent source count: 0\nNo birth year could be verified\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

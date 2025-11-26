@@ -1,0 +1,226 @@
+{
+  "person_name": "Izabella Teixeira",
+  "timestamp": "2025-11-26T00:44:05.461688",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 2934,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Izabella_Teixeira",
+        "similarity": 0.5293195090206152,
+        "rerank_score": 0.89302075
+      },
+      {
+        "chunk_id": 2938,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Izabella_Teixeira",
+        "similarity": 0.5446187030154532,
+        "rerank_score": 0.6826801
+      },
+      {
+        "chunk_id": 2940,
+        "domain": "iica.int",
+        "url": "https://iica.int/en/press/news/izabella-teixeira-former-minister-of-the-environment-of-brazil-and-a-globally-renowned-expert-on-the-relationship-between-economic-development-and-climate-recognized-as-an-iica-goodwill-ambass/",
+        "similarity": 0.4110205488397455,
+        "rerank_score": 0.43338245
+      },
+      {
+        "chunk_id": 2936,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Izabella_Teixeira",
+        "similarity": 0.41303549226248326,
+        "rerank_score": 0.3539422
+      },
+      {
+        "chunk_id": 2939,
+        "domain": "woodwellclimate.org",
+        "url": "https://www.woodwellclimate.org/staff/izabella-teixeira/",
+        "similarity": 0.4867127621816116,
+        "rerank_score": 0.33261433
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 10,
+    "extractions": [
+      {
+        "chunk_id": 2934,
+        "person_name": "Izabella Teixeira",
+        "contains_birth_info": true,
+        "extracted_year": 1961,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date cue with the phrase \"Born Izabella Mônica Vieira Teixeira (1961-10-09) 9 October 1961\" directly associated with Izabella Teixeira.\n- step2: The birth date is unambiguously linked to Izabella Teixeira as it appears under her personal details section and is explicitly stated as her birth date.\n- step3: The year 1961 is clearly identifiable from the date provided.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date cue with the phrase \"Born Izabella Mônica Vieira Teixeira (1961-10-09) 9 October 1961\" directly associated with Izabella Teixeira.\n- step2: The birth date is unambiguously linked to Izabella Teixeira as it appears under her personal details section and is explicitly stated as her birth date.\n- step3: The year 1961 is clearly identifiable from the date provided.\ncontains_birthdate: true\nbirth_year: 1961",
+        "url": "https://en.wikipedia.org/wiki/Izabella_Teixeira",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.5293195090206152,
+        "rerank_score": 0.89302075
+      },
+      {
+        "chunk_id": 2938,
+        "person_name": "Izabella Teixeira",
+        "contains_birth_info": true,
+        "extracted_year": 1961,
+        "evidence_type": "category",
+        "reasoning": "- step1: The text contains the phrase \"1961 births\" which is a strong birth year cue.\n- step2: The phrase is located under the category section related to Izabella Teixeira, making it unambiguously associated with her.\n- step3: The year is explicitly stated as 1961.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains the phrase \"1961 births\" which is a strong birth year cue.\n- step2: The phrase is located under the category section related to Izabella Teixeira, making it unambiguously associated with her.\n- step3: The year is explicitly stated as 1961.\ncontains_birthdate: true\nbirth_year: 1961",
+        "url": "https://en.wikipedia.org/wiki/Izabella_Teixeira",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 4,
+        "similarity": 0.5446187030154532,
+        "rerank_score": 0.6826801
+      },
+      {
+        "chunk_id": 2940,
+        "person_name": "Izabella Teixeira",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings related to birth are found in the chunk.\n- step2: N/A, as no birth-related information is present.\n- step3: N/A, as no birth year is mentioned.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings related to birth are found in the chunk.\n- step2: N/A, as no birth-related information is present.\n- step3: N/A, as no birth year is mentioned.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://iica.int/en/press/news/izabella-teixeira-former-minister-of-the-environment-of-brazil-and-a-globally-renowned-expert-on-the-relationship-between-economic-development-and-climate-recognized-as-an-iica-goodwill-ambass/",
+        "domain": "iica.int",
+        "chunk_index": 0,
+        "similarity": 0.4110205488397455,
+        "rerank_score": 0.43338245
+      },
+      {
+        "chunk_id": 2936,
+        "person_name": "Izabella Teixeira",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No explicit birth cues or date strings are found in the chunk.\n- step2: The chunk focuses on Izabella Teixeira's professional roles and achievements, without any personal details like birth date.\n- step3: Since no birth-related information is present, determining a birth year is impossible.",
+        "raw_llm_output": "reasoning:\n- step1: No explicit birth cues or date strings are found in the chunk.\n- step2: The chunk focuses on Izabella Teixeira's professional roles and achievements, without any personal details like birth date.\n- step3: Since no birth-related information is present, determining a birth year is impossible.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://en.wikipedia.org/wiki/Izabella_Teixeira",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 2,
+        "similarity": 0.41303549226248326,
+        "rerank_score": 0.3539422
+      },
+      {
+        "chunk_id": 2939,
+        "person_name": "Izabella Teixeira",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as no birth-related information is mentioned.\n- step3: No year selection possible due to absence of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as no birth-related information is mentioned.\n- step3: No year selection possible due to absence of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://www.woodwellclimate.org/staff/izabella-teixeira/",
+        "domain": "woodwellclimate.org",
+        "chunk_index": 0,
+        "similarity": 0.4867127621816116,
+        "rerank_score": 0.33261433
+      },
+      {
+        "chunk_id": 2943,
+        "person_name": "Izabella Teixeira",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings related to Izabella Teixeira are found in the text.\n- step2: No disambiguation needed as there are no birth-related information or dates mentioned.\n- step3: No year selection possible due to absence of birth-related information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings related to Izabella Teixeira are found in the text.\n- step2: No disambiguation needed as there are no birth-related information or dates mentioned.\n- step3: No year selection possible due to absence of birth-related information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://www.americasquarterly.org/aq-author/izabella-teixeira/",
+        "domain": "americasquarterly.org",
+        "chunk_index": 0,
+        "similarity": 0.40509669100469403,
+        "rerank_score": 0.32104528
+      },
+      {
+        "chunk_id": 2929,
+        "person_name": "Izabella Teixeira",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No explicit birth cues or date strings related to Izabella Teixeira are found in the text.\n- step2: No disambiguation needed as there are no birth-related dates mentioned.\n- step3: No year selection possible due to absence of birth-related information.",
+        "raw_llm_output": "reasoning:\n- step1: No explicit birth cues or date strings related to Izabella Teixeira are found in the text.\n- step2: No disambiguation needed as there are no birth-related dates mentioned.\n- step3: No year selection possible due to absence of birth-related information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://cebri.org/en/especialista/63/izabella-teixeira",
+        "domain": "cebri.org",
+        "chunk_index": 0,
+        "similarity": 0.439817580544715,
+        "rerank_score": 0.31399846
+      },
+      {
+        "chunk_id": 2935,
+        "person_name": "Izabella Teixeira",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No explicit birth cues or date strings related to Izabella Teixeira are found in the chunk.\n- step2: No disambiguation needed as there are no birth-related mentions.\n- step3: No year selection possible due to absence of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No explicit birth cues or date strings related to Izabella Teixeira are found in the chunk.\n- step2: No disambiguation needed as there are no birth-related mentions.\n- step3: No year selection possible due to absence of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://en.wikipedia.org/wiki/Izabella_Teixeira",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 1,
+        "similarity": 0.4469910245571665,
+        "rerank_score": 0.3122971
+      },
+      {
+        "chunk_id": 2945,
+        "person_name": "Izabella Teixeira",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings found in the chunk.\n- step2: No disambiguation needed as no birth-related information is present.\n- step3: No year selection possible due to absence of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings found in the chunk.\n- step2: No disambiguation needed as no birth-related information is present.\n- step3: No year selection possible due to absence of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://council.science/profile/izabella-teixeira/",
+        "domain": "council.science",
+        "chunk_index": 0,
+        "similarity": 0.4652887834703353,
+        "rerank_score": 0.30653793
+      },
+      {
+        "chunk_id": 2937,
+        "person_name": "Izabella Teixeira",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings related to Izabella Teixeira are found in the text chunk.\n- step2: The text chunk lists various government officials and their tenure periods, but Izabella Teixeira is not mentioned.\n- step3: Since Izabella Teixeira is not mentioned, no year selection is possible.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings related to Izabella Teixeira are found in the text chunk.\n- step2: The text chunk lists various government officials and their tenure periods, but Izabella Teixeira is not mentioned.\n- step3: Since Izabella Teixeira is not mentioned, no year selection is possible.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://en.wikipedia.org/wiki/Izabella_Teixeira",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 3,
+        "similarity": 0.2081198626022278,
+        "rerank_score": 0.10799147
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "no_corroboration",
+    "birth_year": 1961,
+    "independent_source_count": 1,
+    "total_extractions": 10,
+    "year_ledgers": {
+      "1961": {
+        "year": 1961,
+        "count": 1,
+        "domains": [
+          "en.wikipedia.org"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 2934,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Izabella_Teixeira",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 2938,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Izabella_Teixeira",
+            "evidence_type": "category",
+            "quality_rank": 3
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Izabella Teixeira\nVerification completed: 2025-11-26 00:44:05 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: iica.int, en.wikipedia.org, woodwellclimate.org\nSimilarity scores ranged from 0.208 to 0.545\nRerank scores ranged from 0.108 to 0.893\n\nEXTRACTION PHASE\nScanned 10 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1961\n\nVERIFICATION PHASE\nVerification status: no_corroboration\nIndependent source count: 1\nVerified birth year: 1961\nSupporting domains: en.wikipedia.org\nSupporting extractions: 2\nEvidence types: category, born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

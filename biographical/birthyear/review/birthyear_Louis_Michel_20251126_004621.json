@@ -1,0 +1,115 @@
+{
+  "person_name": "Louis Michel",
+  "timestamp": "2025-11-26T00:46:21.793146",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 3863,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Louis_Michel",
+        "similarity": 0.5596081313283678,
+        "rerank_score": 0.8861155
+      },
+      {
+        "chunk_id": 3871,
+        "domain": "grokipedia.com",
+        "url": "https://grokipedia.com/page/Louis_Michel",
+        "similarity": 0.5849762772711812,
+        "rerank_score": 0.8646883
+      },
+      {
+        "chunk_id": 3893,
+        "domain": "europarl.europa.eu",
+        "url": "https://www.europarl.europa.eu/meps/en/96670/LOUIS_MICHEL/history/8",
+        "similarity": 0.4330411950486178,
+        "rerank_score": 0.834852
+      },
+      {
+        "chunk_id": 3898,
+        "domain": "alchetron.com",
+        "url": "https://alchetron.com/Louis-Michel",
+        "similarity": 0.5512091529196493,
+        "rerank_score": 0.83290404
+      },
+      {
+        "chunk_id": 3872,
+        "domain": "grokipedia.com",
+        "url": "https://grokipedia.com/page/Louis_Michel",
+        "similarity": 0.5014877775279826,
+        "rerank_score": 0.7931224
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 2,
+    "extractions": [
+      {
+        "chunk_id": 3863,
+        "person_name": "Louis Michel",
+        "contains_birth_info": true,
+        "extracted_year": 1947,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains the phrase \"born 1947\" and \"born 2 September 1947\" as clear birth cues.  \n- step2: Both dates are directly associated with Louis Michel in the \"Personal details\" section and near his name, with no ambiguity.  \n- step3: The year 1947 is explicitly stated and is the most precise information available.",
+        "raw_llm_output": "reasoning:  \n- step1: The text contains the phrase \"born 1947\" and \"born 2 September 1947\" as clear birth cues.  \n- step2: Both dates are directly associated with Louis Michel in the \"Personal details\" section and near his name, with no ambiguity.  \n- step3: The year 1947 is explicitly stated and is the most precise information available.  \ncontains_birthdate: true  \nbirth_year: 1947",
+        "url": "https://en.wikipedia.org/wiki/Louis_Michel",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.5596081313283678,
+        "rerank_score": 0.8861155
+      },
+      {
+        "chunk_id": 3871,
+        "person_name": "Louis Michel",
+        "contains_birth_info": true,
+        "extracted_year": 1947,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The chunk contains a clear birth cue (\"born\") followed by a date string (\"2 September 1947\").\n- step2: The date is directly associated with Louis Michel's name in the sentence \"Louis Michel (born 2 September 1947)...\", unambiguously referring to him.\n- step3: The year 1947 is explicitly stated in the date string.",
+        "raw_llm_output": "reasoning:\n- step1: The chunk contains a clear birth cue (\"born\") followed by a date string (\"2 September 1947\").\n- step2: The date is directly associated with Louis Michel's name in the sentence \"Louis Michel (born 2 September 1947)...\", unambiguously referring to him.\n- step3: The year 1947 is explicitly stated in the date string.\ncontains_birthdate: true\nbirth_year: 1947",
+        "url": "https://grokipedia.com/page/Louis_Michel",
+        "domain": "grokipedia.com",
+        "chunk_index": 0,
+        "similarity": 0.5849762772711812,
+        "rerank_score": 0.8646883
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "verified",
+    "birth_year": 1947,
+    "independent_source_count": 2,
+    "total_extractions": 2,
+    "year_ledgers": {
+      "1947": {
+        "year": 1947,
+        "count": 2,
+        "domains": [
+          "grokipedia.com",
+          "en.wikipedia.org"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 3863,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Louis_Michel",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 3871,
+            "domain": "grokipedia.com",
+            "url": "https://grokipedia.com/page/Louis_Michel",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Louis Michel\nVerification completed: 2025-11-26 00:46:21 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: grokipedia.com, en.wikipedia.org, alchetron.com, europarl.europa.eu\nSimilarity scores ranged from 0.403 to 0.585\nRerank scores ranged from 0.482 to 0.886\n\nEXTRACTION PHASE\nScanned 2 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1947\n\nVERIFICATION PHASE\nVerification status: verified\nIndependent source count: 2\nVerified birth year: 1947\nSupporting domains: grokipedia.com, en.wikipedia.org\nSupporting extractions: 2\nEvidence types: born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

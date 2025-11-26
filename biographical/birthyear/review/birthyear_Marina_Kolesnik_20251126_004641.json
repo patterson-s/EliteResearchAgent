@@ -1,0 +1,202 @@
+{
+  "person_name": "Marina Kolesnik",
+  "timestamp": "2025-11-26T00:46:41.971375",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 996,
+        "domain": "charlottepm.com",
+        "url": "https://charlottepm.com/meet-the-team/",
+        "similarity": 0.2470982304349264,
+        "rerank_score": 0.6437107
+      },
+      {
+        "chunk_id": 990,
+        "domain": "people.equilar.com",
+        "url": "https://people.equilar.com/bio/person/marina-kolesnik-donkey-republic/28183511",
+        "similarity": 0.3795837949442549,
+        "rerank_score": 0.44565076
+      },
+      {
+        "chunk_id": 980,
+        "domain": "linkedin.com",
+        "url": "https://www.linkedin.com/in/marinakolesnik",
+        "similarity": 0.31060413571998396,
+        "rerank_score": 0.38498205
+      },
+      {
+        "chunk_id": 989,
+        "domain": "people.equilar.com",
+        "url": "https://people.equilar.com/bio/person/marina-kolesnik-donkey-republic/28183511",
+        "similarity": 0.4899736998983752,
+        "rerank_score": 0.37800032
+      },
+      {
+        "chunk_id": 993,
+        "domain": "tadviser.com",
+        "url": "https://tadviser.com/index.php/Person:Kolesnik_Marina_Alekseevna",
+        "similarity": 0.421667526712351,
+        "rerank_score": 0.36908817
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 10,
+    "extractions": [
+      {
+        "chunk_id": 996,
+        "person_name": "Marina Kolesnik",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: The text contains a mention of Marina Kolesnik's marriage in 2006, but no explicit birth date or year is provided.\n- step2: There are no other dates or cues that could be misinterpreted as Marina Kolesnik's birth date.\n- step3: Since no birth year or date is mentioned, it's impossible to determine the birth year.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a mention of Marina Kolesnik's marriage in 2006, but no explicit birth date or year is provided.\n- step2: There are no other dates or cues that could be misinterpreted as Marina Kolesnik's birth date.\n- step3: Since no birth year or date is mentioned, it's impossible to determine the birth year.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://charlottepm.com/meet-the-team/",
+        "domain": "charlottepm.com",
+        "chunk_index": 0,
+        "similarity": 0.2470982304349264,
+        "rerank_score": 0.6437107
+      },
+      {
+        "chunk_id": 990,
+        "person_name": "Marina Kolesnik",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings related to Marina Kolesnik are found in the chunk.\n- step2: The text focuses on Marina's professional achievements, connections, and educational background, but does not mention any birth-related information.\n- step3: Since no birth-related information is present, determining a birth year is impossible.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings related to Marina Kolesnik are found in the chunk.\n- step2: The text focuses on Marina's professional achievements, connections, and educational background, but does not mention any birth-related information.\n- step3: Since no birth-related information is present, determining a birth year is impossible.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://people.equilar.com/bio/person/marina-kolesnik-donkey-republic/28183511",
+        "domain": "people.equilar.com",
+        "chunk_index": 1,
+        "similarity": 0.3795837949442549,
+        "rerank_score": 0.44565076
+      },
+      {
+        "chunk_id": 980,
+        "person_name": "Marina Kolesnik",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings are present in the chunk.\n- step2: The chunk only mentions Marina Kolesnik's name without any associated dates or birth information.\n- step3: No year selection is possible as there is no birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings are present in the chunk.\n- step2: The chunk only mentions Marina Kolesnik's name without any associated dates or birth information.\n- step3: No year selection is possible as there is no birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://www.linkedin.com/in/marinakolesnik",
+        "domain": "linkedin.com",
+        "chunk_index": 4,
+        "similarity": 0.31060413571998396,
+        "rerank_score": 0.38498205
+      },
+      {
+        "chunk_id": 989,
+        "person_name": "Marina Kolesnik",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No explicit birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as no birth-related information is found.\n- step3: No year selection possible due to absence of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No explicit birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as no birth-related information is found.\n- step3: No year selection possible due to absence of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://people.equilar.com/bio/person/marina-kolesnik-donkey-republic/28183511",
+        "domain": "people.equilar.com",
+        "chunk_index": 0,
+        "similarity": 0.4899736998983752,
+        "rerank_score": 0.37800032
+      },
+      {
+        "chunk_id": 993,
+        "person_name": "Marina Kolesnik",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No explicit birth cues or date strings are present in the chunk.\n- step2: No dates or birth-related information are mentioned in connection with Marina Kolesnik.\n- step3: No year or date can be extracted as there is no relevant information.",
+        "raw_llm_output": "reasoning:\n- step1: No explicit birth cues or date strings are present in the chunk.\n- step2: No dates or birth-related information are mentioned in connection with Marina Kolesnik.\n- step3: No year or date can be extracted as there is no relevant information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://tadviser.com/index.php/Person:Kolesnik_Marina_Alekseevna",
+        "domain": "tadviser.com",
+        "chunk_index": 0,
+        "similarity": 0.421667526712351,
+        "rerank_score": 0.36908817
+      },
+      {
+        "chunk_id": 994,
+        "person_name": "Marina Kolesnik",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation is needed as there are no dates mentioned.\n- step3: Year selection is impossible due to the absence of any date information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation is needed as there are no dates mentioned.\n- step3: Year selection is impossible due to the absence of any date information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://www.kogankolesnik.com/about",
+        "domain": "kogankolesnik.com",
+        "chunk_index": 0,
+        "similarity": 0.40987061138517167,
+        "rerank_score": 0.3617513
+      },
+      {
+        "chunk_id": 987,
+        "person_name": "Marina Kolesnik",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No explicit birth cues or date strings related to Marina Kolesnik are found in the chunk.\n- step2: The chunk mentions Marina Kolesnik in the context of her professional experience and companies she is associated with, but there is no information about her birth date.\n- step3: Since no birth date or year is mentioned, it is impossible to determine the birth year.",
+        "raw_llm_output": "reasoning:\n- step1: No explicit birth cues or date strings related to Marina Kolesnik are found in the chunk.\n- step2: The chunk mentions Marina Kolesnik in the context of her professional experience and companies she is associated with, but there is no information about her birth date.\n- step3: Since no birth date or year is mentioned, it is impossible to determine the birth year.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://www.marketscreener.com/insider/MARINA-KOLESNIK-A0TSRH/",
+        "domain": "marketscreener.com",
+        "chunk_index": 1,
+        "similarity": 0.5007888998294824,
+        "rerank_score": 0.3306662
+      },
+      {
+        "chunk_id": 986,
+        "person_name": "Marina Kolesnik",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No explicit birth cues or date strings are present in the chunk.\n- step2: No dates or cues are associated with Marina Kolesnik's personal information.\n- step3: No year selection is possible due to the absence of birth-related information.",
+        "raw_llm_output": "reasoning:\n- step1: No explicit birth cues or date strings are present in the chunk.\n- step2: No dates or cues are associated with Marina Kolesnik's personal information.\n- step3: No year selection is possible due to the absence of birth-related information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://www.marketscreener.com/insider/MARINA-KOLESNIK-A0TSRH/",
+        "domain": "marketscreener.com",
+        "chunk_index": 0,
+        "similarity": 0.4961086090631463,
+        "rerank_score": 0.31646484
+      },
+      {
+        "chunk_id": 988,
+        "person_name": "Marina Kolesnik",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings related to Marina Kolesnik are found in the chunk.\n- step2: The chunk does not mention any information about Marina Kolesnik's birth date or year.\n- step3: Since no birth information is present, year selection is impossible.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings related to Marina Kolesnik are found in the chunk.\n- step2: The chunk does not mention any information about Marina Kolesnik's birth date or year.\n- step3: Since no birth information is present, year selection is impossible.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://www.marketscreener.com/insider/MARINA-KOLESNIK-A0TSRH/",
+        "domain": "marketscreener.com",
+        "chunk_index": 2,
+        "similarity": 0.2248626653699281,
+        "rerank_score": 0.2958098
+      },
+      {
+        "chunk_id": 992,
+        "person_name": "Marina Kolesnik",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings found in the chunk.\n- step2: No disambiguation needed as there are no birth-related information present.\n- step3: No year selection possible due to absence of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings found in the chunk.\n- step2: No disambiguation needed as there are no birth-related information present.\n- step3: No year selection possible due to absence of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://theorg.com/org/ecosystemone/org-chart/marina-kolesnik",
+        "domain": "theorg.com",
+        "chunk_index": 0,
+        "similarity": 0.4696916841896565,
+        "rerank_score": 0.27369615
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "no_evidence",
+    "birth_year": null,
+    "independent_source_count": 0,
+    "total_extractions": 10,
+    "year_ledgers": {}
+  },
+  "provenance_narrative": "Birth year verification for Marina Kolesnik\nVerification completed: 2025-11-26 00:46:41 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: linkedin.com, charlottepm.com, tadviser.com, people.equilar.com\nSimilarity scores ranged from 0.225 to 0.501\nRerank scores ranged from 0.274 to 0.644\n\nEXTRACTION PHASE\nScanned 10 chunks for birth information\nFound birth information in 0 chunks\n\nVERIFICATION PHASE\nVerification status: no_evidence\nIndependent source count: 0\nNo birth year could be verified\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

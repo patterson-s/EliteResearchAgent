@@ -1,0 +1,34 @@
+{
+  "service_name": "birthyear_extractor",
+  "version": "1.0",
+  
+  "retrieval": {
+    "initial_candidates": 30,
+    "rerank_top_k": 10,
+    "min_similarity": 0.2,
+    "query_template": "date of birth or birth information of {person_name}"
+  },
+  
+  "extraction": {
+    "model": "command-a-03-2025",
+    "temperature": 0.2,
+    "max_tokens": 400,
+    "max_retries": 3,
+    "timeout_seconds": 45
+  },
+  
+  "verification": {
+    "min_independent_sources": 2,
+    "max_chunks_to_scan": 10,
+    "early_stop_on_verified": true
+  },
+  
+  "prompts": {
+    "system_prompt_path": "config/prompts/system.txt",
+    "user_prompt_path": "config/prompts/user.txt"
+  },
+  
+  "api_keys": {
+    "cohere": "COHERE_API_KEY"
+  }
+}

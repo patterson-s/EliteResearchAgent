@@ -1,0 +1,202 @@
+{
+  "person_name": "Mohamed T. El-Ashry",
+  "timestamp": "2025-11-26T00:47:13.116096",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 3776,
+        "domain": "las.illinois.edu",
+        "url": "https://las.illinois.edu/news/2005-10-01/tracking-human-footprint",
+        "similarity": 0.35712714801995576,
+        "rerank_score": 0.69795954
+      },
+      {
+        "chunk_id": 3768,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Mohamed_T._El-Ashry",
+        "similarity": 0.5263120256265238,
+        "rerank_score": 0.588062
+      },
+      {
+        "chunk_id": 3766,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Mohamed_T._El-Ashry",
+        "similarity": 0.5810258673235795,
+        "rerank_score": 0.54535896
+      },
+      {
+        "chunk_id": 3767,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Mohamed_T._El-Ashry",
+        "similarity": 0.45187109920853263,
+        "rerank_score": 0.5151571
+      },
+      {
+        "chunk_id": 3772,
+        "domain": "sciforum.hu",
+        "url": "http://www.sciforum.hu/previous-fora/2003/programme/mohamed-el-ashry.html",
+        "similarity": 0.4768424884981534,
+        "rerank_score": 0.5128152
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 10,
+    "extractions": [
+      {
+        "chunk_id": 3776,
+        "person_name": "Mohamed T. El-Ashry",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No explicit birth cues or dates related to Mohamed T. El-Ashry are mentioned in the text.  \n- step2: The text focuses on his academic achievements and career but does not provide birth information.  \n- step3: No year or date related to his birth is present, making it impossible to determine the birth year.",
+        "raw_llm_output": "reasoning:  \n- step1: No explicit birth cues or dates related to Mohamed T. El-Ashry are mentioned in the text.  \n- step2: The text focuses on his academic achievements and career but does not provide birth information.  \n- step3: No year or date related to his birth is present, making it impossible to determine the birth year.  \ncontains_birthdate: false  \nbirth_year: null",
+        "url": "https://las.illinois.edu/news/2005-10-01/tracking-human-footprint",
+        "domain": "las.illinois.edu",
+        "chunk_index": 0,
+        "similarity": 0.35712714801995576,
+        "rerank_score": 0.69795954
+      },
+      {
+        "chunk_id": 3768,
+        "person_name": "Mohamed T. El-Ashry",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No explicit birth cues or date strings related to birth are found in the chunk.\n- step2: No information is provided that could link any date to Mohamed T. El-Ashry's birth.\n- step3: Since no birth-related information is present, determining a birth year is impossible.",
+        "raw_llm_output": "reasoning:\n- step1: No explicit birth cues or date strings related to birth are found in the chunk.\n- step2: No information is provided that could link any date to Mohamed T. El-Ashry's birth.\n- step3: Since no birth-related information is present, determining a birth year is impossible.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://en.wikipedia.org/wiki/Mohamed_T._El-Ashry",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 2,
+        "similarity": 0.5263120256265238,
+        "rerank_score": 0.588062
+      },
+      {
+        "chunk_id": 3766,
+        "person_name": "Mohamed T. El-Ashry",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No explicit birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as no birth-related information is mentioned.\n- step3: No year selection possible due to absence of birth-related information.",
+        "raw_llm_output": "reasoning:\n- step1: No explicit birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as no birth-related information is mentioned.\n- step3: No year selection possible due to absence of birth-related information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://en.wikipedia.org/wiki/Mohamed_T._El-Ashry",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.5810258673235795,
+        "rerank_score": 0.54535896
+      },
+      {
+        "chunk_id": 3767,
+        "person_name": "Mohamed T. El-Ashry",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings related to Mohamed T. El-Ashry are present in the chunk.  \n- step2: No disambiguation needed as no birth information is mentioned.  \n- step3: No year selection possible due to absence of birth information.",
+        "raw_llm_output": "reasoning:  \n- step1: No birth cues or date strings related to Mohamed T. El-Ashry are present in the chunk.  \n- step2: No disambiguation needed as no birth information is mentioned.  \n- step3: No year selection possible due to absence of birth information.  \ncontains_birthdate: false  \nbirth_year: null",
+        "url": "https://en.wikipedia.org/wiki/Mohamed_T._El-Ashry",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 1,
+        "similarity": 0.45187109920853263,
+        "rerank_score": 0.5151571
+      },
+      {
+        "chunk_id": 3772,
+        "person_name": "Mohamed T. El-Ashry",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: The text contains dates (1959, 1966, 1991, 1994, 2002), but none are explicitly linked to a birth date.\n- step2: The dates 1959 and 1966 are associated with Dr. El-Ashry's academic degrees, not his birth. Other dates refer to professional milestones.\n- step3: No clear birth year or date is mentioned in the text.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains dates (1959, 1966, 1991, 1994, 2002), but none are explicitly linked to a birth date.\n- step2: The dates 1959 and 1966 are associated with Dr. El-Ashry's academic degrees, not his birth. Other dates refer to professional milestones.\n- step3: No clear birth year or date is mentioned in the text.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "http://www.sciforum.hu/previous-fora/2003/programme/mohamed-el-ashry.html",
+        "domain": "sciforum.hu",
+        "chunk_index": 0,
+        "similarity": 0.4768424884981534,
+        "rerank_score": 0.5128152
+      },
+      {
+        "chunk_id": 3775,
+        "person_name": "Mohamed T. El-Ashry",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No explicit birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as there are no birth-related dates mentioned.\n- step3: Year selection is impossible due to the absence of any birth-related information.",
+        "raw_llm_output": "reasoning:\n- step1: No explicit birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as there are no birth-related dates mentioned.\n- step3: Year selection is impossible due to the absence of any birth-related information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://twas.org/directory/el-ashry-mohamed-taha",
+        "domain": "twas.org",
+        "chunk_index": 0,
+        "similarity": 0.4973490030787384,
+        "rerank_score": 0.5106191
+      },
+      {
+        "chunk_id": 3769,
+        "person_name": "Mohamed T. El-Ashry",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings found in the chunk.\n- step2: No disambiguation needed as no birth information is present.\n- step3: No year selection possible due to absence of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings found in the chunk.\n- step2: No disambiguation needed as no birth information is present.\n- step3: No year selection possible due to absence of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://www.un.org/spanish/events/panel/html/elashry.html",
+        "domain": "un.org",
+        "chunk_index": 0,
+        "similarity": 0.4874028987147963,
+        "rerank_score": 0.42792314
+      },
+      {
+        "chunk_id": 3773,
+        "person_name": "Mohamed T. El-Ashry",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No explicit birth cues or date strings related to Mohamed T. El-Ashry are found in the text.\n- step2: No disambiguation needed as there are no birth-related mentions.\n- step3: No year selection possible due to absence of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No explicit birth cues or date strings related to Mohamed T. El-Ashry are found in the text.\n- step2: No disambiguation needed as there are no birth-related mentions.\n- step3: No year selection possible due to absence of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "http://www.sciforum.hu/previous-fora/2003/programme/mohamed-el-ashry.html",
+        "domain": "sciforum.hu",
+        "chunk_index": 1,
+        "similarity": 0.40400657061653755,
+        "rerank_score": 0.3656158
+      },
+      {
+        "chunk_id": 3770,
+        "person_name": "Mohamed T. El-Ashry",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No clear birth cues or date strings are present in the chunk.\n- step2: The chunk mentions Mohamed T. El-Ashry but only in the context of his roles and tenure, not personal details like birth date.\n- step3: No year or date related to birth is mentioned, making it impossible to determine the birth year.",
+        "raw_llm_output": "reasoning:\n- step1: No clear birth cues or date strings are present in the chunk.\n- step2: The chunk mentions Mohamed T. El-Ashry but only in the context of his roles and tenure, not personal details like birth date.\n- step3: No year or date related to birth is mentioned, making it impossible to determine the birth year.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://oralhistory.worldbank.org/person/el-ashry-mohamed-t",
+        "domain": "oralhistory.worldbank.org",
+        "chunk_index": 0,
+        "similarity": 0.4475140594956861,
+        "rerank_score": 0.3233806
+      },
+      {
+        "chunk_id": 3771,
+        "person_name": "Mohamed T. El-Ashry",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings found in the chunk.\n- step2: No disambiguation needed as no dates are mentioned.\n- step3: No year selection possible due to absence of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings found in the chunk.\n- step2: No disambiguation needed as no dates are mentioned.\n- step3: No year selection possible due to absence of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://www.interacademies.org/person/mohamed-el-ashry",
+        "domain": "interacademies.org",
+        "chunk_index": 0,
+        "similarity": 0.43107659421185146,
+        "rerank_score": 0.2963441
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "no_evidence",
+    "birth_year": null,
+    "independent_source_count": 0,
+    "total_extractions": 10,
+    "year_ledgers": {}
+  },
+  "provenance_narrative": "Birth year verification for Mohamed T. El-Ashry\nVerification completed: 2025-11-26 00:47:13 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: sciforum.hu, en.wikipedia.org, las.illinois.edu\nSimilarity scores ranged from 0.357 to 0.581\nRerank scores ranged from 0.296 to 0.698\n\nEXTRACTION PHASE\nScanned 10 chunks for birth information\nFound birth information in 0 chunks\n\nVERIFICATION PHASE\nVerification status: no_evidence\nIndependent source count: 0\nNo birth year could be verified\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

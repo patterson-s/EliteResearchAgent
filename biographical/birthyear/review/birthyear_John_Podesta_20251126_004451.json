@@ -1,0 +1,226 @@
+{
+  "person_name": "John Podesta",
+  "timestamp": "2025-11-26T00:44:51.901925",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 3448,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/John_Podesta",
+        "similarity": 0.5890543194563207,
+        "rerank_score": 0.86303437
+      },
+      {
+        "chunk_id": 3465,
+        "domain": "ballotpedia.org",
+        "url": "https://ballotpedia.org/John_Podesta",
+        "similarity": 0.5948336021023111,
+        "rerank_score": 0.63777614
+      },
+      {
+        "chunk_id": 3461,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/John_Podesta",
+        "similarity": 0.5390752656969968,
+        "rerank_score": 0.5976789
+      },
+      {
+        "chunk_id": 3477,
+        "domain": "legistorm.com",
+        "url": "https://www.legistorm.com/person/bio/82191/John_David_Podesta_Jr_.html",
+        "similarity": 0.5974630511162682,
+        "rerank_score": 0.5923135
+      },
+      {
+        "chunk_id": 3449,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/John_Podesta",
+        "similarity": 0.4992623193689092,
+        "rerank_score": 0.5694942
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 10,
+    "extractions": [
+      {
+        "chunk_id": 3448,
+        "person_name": "John Podesta",
+        "contains_birth_info": true,
+        "extracted_year": 1949,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date cue \"born\" followed by the date \"1949-01-08\" and \"(age 76)\" which indicates the birth year is 1949.\n- step2: The birth date is directly associated with John Podesta in the \"Personal details\" section, leaving no ambiguity.\n- step3: The year 1949 is explicitly stated and is the most precise information available.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date cue \"born\" followed by the date \"1949-01-08\" and \"(age 76)\" which indicates the birth year is 1949.\n- step2: The birth date is directly associated with John Podesta in the \"Personal details\" section, leaving no ambiguity.\n- step3: The year 1949 is explicitly stated and is the most precise information available.\ncontains_birthdate: true\nbirth_year: 1949",
+        "url": "https://en.wikipedia.org/wiki/John_Podesta",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.5890543194563207,
+        "rerank_score": 0.86303437
+      },
+      {
+        "chunk_id": 3465,
+        "person_name": "John Podesta",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: The text contains no explicit birth cues or date strings related to John Podesta.\n- step2: No disambiguation needed as there are no birth-related dates mentioned.\n- step3: No year selection possible due to absence of birth-related information.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains no explicit birth cues or date strings related to John Podesta.\n- step2: No disambiguation needed as there are no birth-related dates mentioned.\n- step3: No year selection possible due to absence of birth-related information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://ballotpedia.org/John_Podesta",
+        "domain": "ballotpedia.org",
+        "chunk_index": 0,
+        "similarity": 0.5948336021023111,
+        "rerank_score": 0.63777614
+      },
+      {
+        "chunk_id": 3461,
+        "person_name": "John Podesta",
+        "contains_birth_info": true,
+        "extracted_year": 1949,
+        "evidence_type": "category",
+        "reasoning": "- step1: The chunk contains a category \"1949 births\" under John Podesta's name, which is a strong birth year cue.\n- step2: The category is directly associated with John Podesta, making it unambiguous that this refers to his birth year.\n- step3: The year 1949 is explicitly stated and is the most precise information available.",
+        "raw_llm_output": "reasoning:\n- step1: The chunk contains a category \"1949 births\" under John Podesta's name, which is a strong birth year cue.\n- step2: The category is directly associated with John Podesta, making it unambiguous that this refers to his birth year.\n- step3: The year 1949 is explicitly stated and is the most precise information available.\ncontains_birthdate: true\nbirth_year: 1949",
+        "url": "https://en.wikipedia.org/wiki/John_Podesta",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 13,
+        "similarity": 0.5390752656969968,
+        "rerank_score": 0.5976789
+      },
+      {
+        "chunk_id": 3477,
+        "person_name": "John Podesta",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: The text mentions \"date of birth\" as part of the biographical information available to LegiStorm Pro subscribers, but no specific date or year is provided.\n- step2: The reference to \"date of birth\" is clearly associated with John Podesta, as it is listed under his biographical section.\n- step3: Since no actual date or year is mentioned, it is impossible to determine the birth year.",
+        "raw_llm_output": "reasoning:\n- step1: The text mentions \"date of birth\" as part of the biographical information available to LegiStorm Pro subscribers, but no specific date or year is provided.\n- step2: The reference to \"date of birth\" is clearly associated with John Podesta, as it is listed under his biographical section.\n- step3: Since no actual date or year is mentioned, it is impossible to determine the birth year.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://www.legistorm.com/person/bio/82191/John_David_Podesta_Jr_.html",
+        "domain": "legistorm.com",
+        "chunk_index": 1,
+        "similarity": 0.5974630511162682,
+        "rerank_score": 0.5923135
+      },
+      {
+        "chunk_id": 3449,
+        "person_name": "John Podesta",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: The text mentions \"born\" in the \"Early life\" section, but no specific date or year is provided.\n- step2: The \"born\" cue clearly refers to John Podesta, but there is no associated date or year.\n- step3: Since no birth year or date is mentioned, it is impossible to determine the birth year.",
+        "raw_llm_output": "reasoning:\n- step1: The text mentions \"born\" in the \"Early life\" section, but no specific date or year is provided.\n- step2: The \"born\" cue clearly refers to John Podesta, but there is no associated date or year.\n- step3: Since no birth year or date is mentioned, it is impossible to determine the birth year.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://en.wikipedia.org/wiki/John_Podesta",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 1,
+        "similarity": 0.4992623193689092,
+        "rerank_score": 0.5694942
+      },
+      {
+        "chunk_id": 3457,
+        "person_name": "John Podesta",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings related to John Podesta are found in the chunk.\n- step2: No disambiguation needed as there are no relevant dates or cues.\n- step3: No year selection possible due to absence of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings related to John Podesta are found in the chunk.\n- step2: No disambiguation needed as there are no relevant dates or cues.\n- step3: No year selection possible due to absence of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://en.wikipedia.org/wiki/John_Podesta",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 9,
+        "similarity": 0.5136977236703528,
+        "rerank_score": 0.41948205
+      },
+      {
+        "chunk_id": 3463,
+        "person_name": "John Podesta",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings related to birth are found in the chunk.\n- step2: No disambiguation needed as there are no birth-related dates mentioned.\n- step3: Year selection is impossible due to the absence of any birth-related information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings related to birth are found in the chunk.\n- step2: No disambiguation needed as there are no birth-related dates mentioned.\n- step3: Year selection is impossible due to the absence of any birth-related information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://cdn.cfr.org/sites/default/files/pdf/Senior%20Advisor%20John%20Podesta%20Bio.pdf",
+        "domain": "cdn.cfr.org",
+        "chunk_index": 0,
+        "similarity": 0.4779437126271693,
+        "rerank_score": 0.36622754
+      },
+      {
+        "chunk_id": 3454,
+        "person_name": "John Podesta",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No clear birth cues or date strings related to John Podesta are found in the chunk.\n- step2: No disambiguation needed as there are no relevant dates mentioned.\n- step3: No year selection possible due to absence of birth-related information.",
+        "raw_llm_output": "reasoning:\n- step1: No clear birth cues or date strings related to John Podesta are found in the chunk.\n- step2: No disambiguation needed as there are no relevant dates mentioned.\n- step3: No year selection possible due to absence of birth-related information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://en.wikipedia.org/wiki/John_Podesta",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 6,
+        "similarity": 0.4681191650254427,
+        "rerank_score": 0.31481943
+      },
+      {
+        "chunk_id": 3455,
+        "person_name": "John Podesta",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No clear birth cues or date strings related to John Podesta are found in the text.\n- step2: No disambiguation needed as there are no relevant dates mentioned.\n- step3: No year selection possible due to absence of birth-related information.",
+        "raw_llm_output": "reasoning:\n- step1: No clear birth cues or date strings related to John Podesta are found in the text.\n- step2: No disambiguation needed as there are no relevant dates mentioned.\n- step3: No year selection possible due to absence of birth-related information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://en.wikipedia.org/wiki/John_Podesta",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 7,
+        "similarity": 0.4882551845756453,
+        "rerank_score": 0.3118254
+      },
+      {
+        "chunk_id": 3472,
+        "person_name": "John Podesta",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings related to any individual are present in the chunk.\n- step2: The chunk lists various campaign staff and categories but does not mention John Podesta's birth information.\n- step3: No year selection is possible as there is no relevant information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings related to any individual are present in the chunk.\n- step2: The chunk lists various campaign staff and categories but does not mention John Podesta's birth information.\n- step3: No year selection is possible as there is no relevant information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://ballotpedia.org/John_Podesta",
+        "domain": "ballotpedia.org",
+        "chunk_index": 7,
+        "similarity": 0.42435206177985035,
+        "rerank_score": 0.28990963
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "no_corroboration",
+    "birth_year": 1949,
+    "independent_source_count": 1,
+    "total_extractions": 10,
+    "year_ledgers": {
+      "1949": {
+        "year": 1949,
+        "count": 1,
+        "domains": [
+          "en.wikipedia.org"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 3448,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/John_Podesta",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 3461,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/John_Podesta",
+            "evidence_type": "category",
+            "quality_rank": 3
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for John Podesta\nVerification completed: 2025-11-26 00:44:51 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: ballotpedia.org, en.wikipedia.org, legistorm.com\nSimilarity scores ranged from 0.424 to 0.597\nRerank scores ranged from 0.290 to 0.863\n\nEXTRACTION PHASE\nScanned 10 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1949\n\nVERIFICATION PHASE\nVerification status: no_corroboration\nIndependent source count: 1\nVerified birth year: 1949\nSupporting domains: en.wikipedia.org\nSupporting extractions: 2\nEvidence types: category, born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

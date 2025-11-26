@@ -1,0 +1,115 @@
+{
+  "person_name": "Kadir Topbas",
+  "timestamp": "2025-11-26T00:45:43.606697",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 3427,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Kadir_Topba%C5%9F",
+        "similarity": 0.5701714262626979,
+        "rerank_score": 0.8963332
+      },
+      {
+        "chunk_id": 3434,
+        "domain": "simple.wikipedia.org",
+        "url": "https://simple.wikipedia.org/wiki/Kadir_Topba%C5%9F",
+        "similarity": 0.578344382515698,
+        "rerank_score": 0.8573986
+      },
+      {
+        "chunk_id": 3432,
+        "domain": "kids.kiddle.co",
+        "url": "https://kids.kiddle.co/Kadir_Topba%C5%9F",
+        "similarity": 0.5751163288002571,
+        "rerank_score": 0.85008353
+      },
+      {
+        "chunk_id": 3431,
+        "domain": "arsiv.uclg-mewa.org",
+        "url": "http://arsiv.uclg-mewa.org/kadir-topbas-en.html",
+        "similarity": 0.4892992661924631,
+        "rerank_score": 0.7701369
+      },
+      {
+        "chunk_id": 3438,
+        "domain": "citymayors.com",
+        "url": "http://www.citymayors.com/mayors/istanbul-mayor.html",
+        "similarity": 0.41662651092325287,
+        "rerank_score": 0.70750624
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 2,
+    "extractions": [
+      {
+        "chunk_id": 3427,
+        "person_name": "Kadir Topbas",
+        "contains_birth_info": true,
+        "extracted_year": 1945,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date \"8 January 1945\" associated with Kadir Topbaş.\n- step2: The date is directly linked to Kadir Topbaş in the \"Personal details\" section and repeated in the biography, with no ambiguity.\n- step3: The year 1945 is explicitly stated and is the most precise information available.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date \"8 January 1945\" associated with Kadir Topbaş.\n- step2: The date is directly linked to Kadir Topbaş in the \"Personal details\" section and repeated in the biography, with no ambiguity.\n- step3: The year 1945 is explicitly stated and is the most precise information available.\ncontains_birthdate: true\nbirth_year: 1945",
+        "url": "https://en.wikipedia.org/wiki/Kadir_Topba%C5%9F",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.5701714262626979,
+        "rerank_score": 0.8963332
+      },
+      {
+        "chunk_id": 3434,
+        "person_name": "Kadir Topbas",
+        "contains_birth_info": true,
+        "extracted_year": 1945,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date cue \"Born\" followed by the date \"8 January 1945\" in the \"Personal details\" section.\n- step2: The date is directly associated with Kadir Topbas in the structured \"Personal details\" section, leaving no ambiguity.\n- step3: The year 1945 is explicitly stated in the date string.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date cue \"Born\" followed by the date \"8 January 1945\" in the \"Personal details\" section.\n- step2: The date is directly associated with Kadir Topbas in the structured \"Personal details\" section, leaving no ambiguity.\n- step3: The year 1945 is explicitly stated in the date string.\ncontains_birthdate: true\nbirth_year: 1945",
+        "url": "https://simple.wikipedia.org/wiki/Kadir_Topba%C5%9F",
+        "domain": "simple.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.578344382515698,
+        "rerank_score": 0.8573986
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "verified",
+    "birth_year": 1945,
+    "independent_source_count": 2,
+    "total_extractions": 2,
+    "year_ledgers": {
+      "1945": {
+        "year": 1945,
+        "count": 2,
+        "domains": [
+          "en.wikipedia.org",
+          "simple.wikipedia.org"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 3427,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Kadir_Topba%C5%9F",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 3434,
+            "domain": "simple.wikipedia.org",
+            "url": "https://simple.wikipedia.org/wiki/Kadir_Topba%C5%9F",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Kadir Topbas\nVerification completed: 2025-11-26 00:45:43 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: arsiv.uclg-mewa.org, kids.kiddle.co, citymayors.com, en.wikipedia.org, simple.wikipedia.org\nSimilarity scores ranged from 0.323 to 0.578\nRerank scores ranged from 0.414 to 0.896\n\nEXTRACTION PHASE\nScanned 2 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1945\n\nVERIFICATION PHASE\nVerification status: verified\nIndependent source count: 2\nVerified birth year: 1945\nSupporting domains: en.wikipedia.org, simple.wikipedia.org\nSupporting extractions: 2\nEvidence types: born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

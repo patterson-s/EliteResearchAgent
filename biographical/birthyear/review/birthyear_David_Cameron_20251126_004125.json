@@ -1,0 +1,115 @@
+{
+  "person_name": "David Cameron",
+  "timestamp": "2025-11-26T00:41:25.120540",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 2782,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/David_Cameron",
+        "similarity": 0.5199336652622695,
+        "rerank_score": 0.85186684
+      },
+      {
+        "chunk_id": 2895,
+        "domain": "ebsco.com",
+        "url": "https://www.ebsco.com/research-starters/biography/david-cameron",
+        "similarity": 0.5655219650391671,
+        "rerank_score": 0.8396422
+      },
+      {
+        "chunk_id": 2783,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/David_Cameron",
+        "similarity": 0.49678607394177393,
+        "rerank_score": 0.8386933
+      },
+      {
+        "chunk_id": 2784,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/David_Cameron",
+        "similarity": 0.5136456116896188,
+        "rerank_score": 0.8173562
+      },
+      {
+        "chunk_id": 2875,
+        "domain": "britannica.com",
+        "url": "https://www.britannica.com/biography/David-Cameron",
+        "similarity": 0.5512885318497615,
+        "rerank_score": 0.8098936
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 2,
+    "extractions": [
+      {
+        "chunk_id": 2782,
+        "person_name": "David Cameron",
+        "contains_birth_info": true,
+        "extracted_year": 1966,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date string \"9 October 1966\" under the \"Personal details\" section.\n- step2: The date is directly associated with David Cameron's full name \"David William Donald Cameron\" and is unambiguously his birth date.\n- step3: The year 1966 is explicitly stated in the date string.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date string \"9 October 1966\" under the \"Personal details\" section.\n- step2: The date is directly associated with David Cameron's full name \"David William Donald Cameron\" and is unambiguously his birth date.\n- step3: The year 1966 is explicitly stated in the date string.\ncontains_birthdate: true\nbirth_year: 1966",
+        "url": "https://en.wikipedia.org/wiki/David_Cameron",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 1,
+        "similarity": 0.5199336652622695,
+        "rerank_score": 0.85186684
+      },
+      {
+        "chunk_id": 2895,
+        "person_name": "David Cameron",
+        "contains_birth_info": true,
+        "extracted_year": 1966,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The chunk contains multiple birth cues (\"Born on October 9, 1966\" and \"Born: October 9, 1966\") with explicit dates.\n- step2: Both instances clearly refer to David Cameron, with one appearing directly after his name and the other under a structured header for him.\n- step3: The year 1966 is explicitly stated in both instances, making it the most precise and consistent year available.",
+        "raw_llm_output": "reasoning:\n- step1: The chunk contains multiple birth cues (\"Born on October 9, 1966\" and \"Born: October 9, 1966\") with explicit dates.\n- step2: Both instances clearly refer to David Cameron, with one appearing directly after his name and the other under a structured header for him.\n- step3: The year 1966 is explicitly stated in both instances, making it the most precise and consistent year available.\ncontains_birthdate: true\nbirth_year: 1966",
+        "url": "https://www.ebsco.com/research-starters/biography/david-cameron",
+        "domain": "ebsco.com",
+        "chunk_index": 0,
+        "similarity": 0.5655219650391671,
+        "rerank_score": 0.8396422
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "verified",
+    "birth_year": 1966,
+    "independent_source_count": 2,
+    "total_extractions": 2,
+    "year_ledgers": {
+      "1966": {
+        "year": 1966,
+        "count": 2,
+        "domains": [
+          "en.wikipedia.org",
+          "ebsco.com"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 2782,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/David_Cameron",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 2895,
+            "domain": "ebsco.com",
+            "url": "https://www.ebsco.com/research-starters/biography/david-cameron",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for David Cameron\nVerification completed: 2025-11-26 00:41:25 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: britannica.com, en.wikipedia.org, ebsco.com\nSimilarity scores ranged from 0.473 to 0.566\nRerank scores ranged from 0.559 to 0.852\n\nEXTRACTION PHASE\nScanned 2 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1966\n\nVERIFICATION PHASE\nVerification status: verified\nIndependent source count: 2\nVerified birth year: 1966\nSupporting domains: en.wikipedia.org, ebsco.com\nSupporting extractions: 2\nEvidence types: born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

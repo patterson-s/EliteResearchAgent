@@ -1,0 +1,115 @@
+{
+  "person_name": "Nikolai Astrup",
+  "timestamp": "2025-11-26T00:48:38.335689",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 781,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Nikolai_Astrup_(politician)",
+        "similarity": 0.6075252037811599,
+        "rerank_score": 0.8539252
+      },
+      {
+        "chunk_id": 790,
+        "domain": "stortinget.no",
+        "url": "https://www.stortinget.no/en/In-English/Members-of-the-Storting/current-members-of-parliament/representative/?perid=NA",
+        "similarity": 0.5363650653486557,
+        "rerank_score": 0.8201387
+      },
+      {
+        "chunk_id": 789,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Nikolai_Astrup_(politician)",
+        "similarity": 0.45647616057418344,
+        "rerank_score": 0.67988104
+      },
+      {
+        "chunk_id": 800,
+        "domain": "newyorker.com",
+        "url": "https://www.newyorker.com/magazine/2021/07/26/have-you-heard-of-nikolai-astrup",
+        "similarity": 0.544270454293626,
+        "rerank_score": 0.609455
+      },
+      {
+        "chunk_id": 785,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Nikolai_Astrup_(politician)",
+        "similarity": 0.4785741541573539,
+        "rerank_score": 0.5015387
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 2,
+    "extractions": [
+      {
+        "chunk_id": 781,
+        "person_name": "Nikolai Astrup",
+        "contains_birth_info": true,
+        "extracted_year": 1978,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date \"12 June 1978\" associated with the name \"Nikolai Astrup\".\n- step2: The birth date is directly linked to Nikolai Astrup in the \"Personal details\" section, with no ambiguity.\n- step3: The year 1978 is explicitly stated in the birth date.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date \"12 June 1978\" associated with the name \"Nikolai Astrup\".\n- step2: The birth date is directly linked to Nikolai Astrup in the \"Personal details\" section, with no ambiguity.\n- step3: The year 1978 is explicitly stated in the birth date.\ncontains_birthdate: true\nbirth_year: 1978",
+        "url": "https://en.wikipedia.org/wiki/Nikolai_Astrup_(politician)",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.6075252037811599,
+        "rerank_score": 0.8539252
+      },
+      {
+        "chunk_id": 790,
+        "person_name": "Nikolai Astrup",
+        "contains_birth_info": true,
+        "extracted_year": 1978,
+        "evidence_type": "born-field",
+        "reasoning": "- step1: The text contains the date \"12 June 1978\" under the \"Biography\" section, which is a clear birth date cue.\n- step2: The date is explicitly linked to Nikolai Astrup in the \"Date of birth\" field, leaving no ambiguity.\n- step3: The year \"1978\" is directly provided in the date string.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains the date \"12 June 1978\" under the \"Biography\" section, which is a clear birth date cue.\n- step2: The date is explicitly linked to Nikolai Astrup in the \"Date of birth\" field, leaving no ambiguity.\n- step3: The year \"1978\" is directly provided in the date string.\ncontains_birthdate: true\nbirth_year: 1978",
+        "url": "https://www.stortinget.no/en/In-English/Members-of-the-Storting/current-members-of-parliament/representative/?perid=NA",
+        "domain": "stortinget.no",
+        "chunk_index": 0,
+        "similarity": 0.5363650653486557,
+        "rerank_score": 0.8201387
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "verified",
+    "birth_year": 1978,
+    "independent_source_count": 2,
+    "total_extractions": 2,
+    "year_ledgers": {
+      "1978": {
+        "year": 1978,
+        "count": 2,
+        "domains": [
+          "stortinget.no",
+          "en.wikipedia.org"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 781,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Nikolai_Astrup_(politician)",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 790,
+            "domain": "stortinget.no",
+            "url": "https://www.stortinget.no/en/In-English/Members-of-the-Storting/current-members-of-parliament/representative/?perid=NA",
+            "evidence_type": "born-field",
+            "quality_rank": 0
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Nikolai Astrup\nVerification completed: 2025-11-26 00:48:38 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: stortinget.no, en.wikipedia.org, newyorker.com\nSimilarity scores ranged from 0.375 to 0.608\nRerank scores ranged from 0.311 to 0.854\n\nEXTRACTION PHASE\nScanned 2 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1978\n\nVERIFICATION PHASE\nVerification status: verified\nIndependent source count: 2\nVerified birth year: 1978\nSupporting domains: stortinget.no, en.wikipedia.org\nSupporting extractions: 2\nEvidence types: born-field, born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

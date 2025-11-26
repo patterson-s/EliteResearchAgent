@@ -1,0 +1,115 @@
+{
+  "person_name": "Jack Ma",
+  "timestamp": "2025-11-26T00:44:25.757273",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 690,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Jack_Ma",
+        "similarity": 0.6590169275691974,
+        "rerank_score": 0.88444936
+      },
+      {
+        "chunk_id": 721,
+        "domain": "cnn.com",
+        "url": "https://www.cnn.com/world/china/jack-ma-fast-facts",
+        "similarity": 0.6383918504941939,
+        "rerank_score": 0.834852
+      },
+      {
+        "chunk_id": 710,
+        "domain": "britannica.com",
+        "url": "https://www.britannica.com/money/Jack-Ma",
+        "similarity": 0.6348068077909292,
+        "rerank_score": 0.79883134
+      },
+      {
+        "chunk_id": 709,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Jack_Ma",
+        "similarity": 0.6359817985826274,
+        "rerank_score": 0.7935067
+      },
+      {
+        "chunk_id": 691,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Jack_Ma",
+        "similarity": 0.5607930200765665,
+        "rerank_score": 0.7520312
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 2,
+    "extractions": [
+      {
+        "chunk_id": 690,
+        "person_name": "Jack Ma",
+        "contains_birth_info": true,
+        "extracted_year": 1964,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date \"10 September 1964\" associated with the name \"Ma Yun\" (Jack Ma).\n- step2: The birth date is directly linked to Jack Ma through the phrase \"Ma Yun (Chinese: 马云; pinyin: Mǎ Yún; born 10 September 1964)\".\n- step3: The year 1964 is explicitly stated and is the most precise information available.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date \"10 September 1964\" associated with the name \"Ma Yun\" (Jack Ma).\n- step2: The birth date is directly linked to Jack Ma through the phrase \"Ma Yun (Chinese: 马云; pinyin: Mǎ Yún; born 10 September 1964)\".\n- step3: The year 1964 is explicitly stated and is the most precise information available.\ncontains_birthdate: true\nbirth_year: 1964",
+        "url": "https://en.wikipedia.org/wiki/Jack_Ma",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.6590169275691974,
+        "rerank_score": 0.88444936
+      },
+      {
+        "chunk_id": 721,
+        "person_name": "Jack Ma",
+        "contains_birth_info": true,
+        "extracted_year": 1964,
+        "evidence_type": "other",
+        "reasoning": "- step1: The text contains a clear birth date under the \"Personal\" section: \"Birth date: September 10, 1964.\"\n- step2: The birth date is directly associated with Jack Ma, as it appears in a section dedicated to his personal details.\n- step3: The year is explicitly stated as 1964.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date under the \"Personal\" section: \"Birth date: September 10, 1964.\"\n- step2: The birth date is directly associated with Jack Ma, as it appears in a section dedicated to his personal details.\n- step3: The year is explicitly stated as 1964.\ncontains_birthdate: true\nbirth_year: 1964",
+        "url": "https://www.cnn.com/world/china/jack-ma-fast-facts",
+        "domain": "cnn.com",
+        "chunk_index": 0,
+        "similarity": 0.6383918504941939,
+        "rerank_score": 0.834852
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "verified",
+    "birth_year": 1964,
+    "independent_source_count": 2,
+    "total_extractions": 2,
+    "year_ledgers": {
+      "1964": {
+        "year": 1964,
+        "count": 2,
+        "domains": [
+          "cnn.com",
+          "en.wikipedia.org"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 690,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Jack_Ma",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 721,
+            "domain": "cnn.com",
+            "url": "https://www.cnn.com/world/china/jack-ma-fast-facts",
+            "evidence_type": "other",
+            "quality_rank": 2
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Jack Ma\nVerification completed: 2025-11-26 00:44:25 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: cnn.com, en.wikipedia.org, britannica.com\nSimilarity scores ranged from 0.399 to 0.659\nRerank scores ranged from 0.290 to 0.884\n\nEXTRACTION PHASE\nScanned 2 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1964\n\nVERIFICATION PHASE\nVerification status: verified\nIndependent source count: 2\nVerified birth year: 1964\nSupporting domains: cnn.com, en.wikipedia.org\nSupporting extractions: 2\nEvidence types: born-narrative, other\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

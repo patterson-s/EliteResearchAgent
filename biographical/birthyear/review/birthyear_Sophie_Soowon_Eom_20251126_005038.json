@@ -1,0 +1,202 @@
+{
+  "person_name": "Sophie Soowon Eom",
+  "timestamp": "2025-11-26T00:50:38.348158",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 814,
+        "domain": "buzzsprout.com",
+        "url": "https://www.buzzsprout.com/1886318/episodes/11578450-the-future-is-multi-channel-marketing-nailing-your-adops-strategy-during-challenging-times-with-sophie-eom-ceo-of-adriel",
+        "similarity": 0.32242976285604386,
+        "rerank_score": 0.59344494
+      },
+      {
+        "chunk_id": 815,
+        "domain": "buzzsprout.com",
+        "url": "https://www.buzzsprout.com/1886318/episodes/11578450-the-future-is-multi-channel-marketing-nailing-your-adops-strategy-during-challenging-times-with-sophie-eom-ceo-of-adriel",
+        "similarity": 0.245022587710973,
+        "rerank_score": 0.4882108
+      },
+      {
+        "chunk_id": 827,
+        "domain": "facebook.com",
+        "url": "https://www.facebook.com/soowon.eom/",
+        "similarity": 0.6938748214340061,
+        "rerank_score": 0.44695392
+      },
+      {
+        "chunk_id": 830,
+        "domain": "un.org",
+        "url": "https://www.un.org/sg/en/content/sg/personnel-appointments/2018-07-12/secretary-generals-high-level-panel-digital-cooperation",
+        "similarity": 0.2171177051532463,
+        "rerank_score": 0.4330947
+      },
+      {
+        "chunk_id": 818,
+        "domain": "buzzsprout.com",
+        "url": "https://www.buzzsprout.com/1886318/episodes/11578450-the-future-is-multi-channel-marketing-nailing-your-adops-strategy-during-challenging-times-with-sophie-eom-ceo-of-adriel",
+        "similarity": 0.2677673873447617,
+        "rerank_score": 0.42892754
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 10,
+    "extractions": [
+      {
+        "chunk_id": 814,
+        "person_name": "Sophie Soowon Eom",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings related to Sophie Soowon Eom are present in the chunk.  \n- step2: The text focuses on professional achievements and roles, with no personal details like birth information.  \n- step3: No year or date is mentioned in connection with her birth.",
+        "raw_llm_output": "reasoning:  \n- step1: No birth cues or date strings related to Sophie Soowon Eom are present in the chunk.  \n- step2: The text focuses on professional achievements and roles, with no personal details like birth information.  \n- step3: No year or date is mentioned in connection with her birth.  \ncontains_birthdate: false  \nbirth_year: null",
+        "url": "https://www.buzzsprout.com/1886318/episodes/11578450-the-future-is-multi-channel-marketing-nailing-your-adops-strategy-during-challenging-times-with-sophie-eom-ceo-of-adriel",
+        "domain": "buzzsprout.com",
+        "chunk_index": 0,
+        "similarity": 0.32242976285604386,
+        "rerank_score": 0.59344494
+      },
+      {
+        "chunk_id": 815,
+        "person_name": "Sophie Soowon Eom",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings are present in the chunk.\n- step2: N/A, as no birth information is mentioned.\n- step3: N/A, as no year or date is available.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings are present in the chunk.\n- step2: N/A, as no birth information is mentioned.\n- step3: N/A, as no year or date is available.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://www.buzzsprout.com/1886318/episodes/11578450-the-future-is-multi-channel-marketing-nailing-your-adops-strategy-during-challenging-times-with-sophie-eom-ceo-of-adriel",
+        "domain": "buzzsprout.com",
+        "chunk_index": 1,
+        "similarity": 0.245022587710973,
+        "rerank_score": 0.4882108
+      },
+      {
+        "chunk_id": 827,
+        "person_name": "Sophie Soowon Eom",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings found in the chunk.\n- step2: No disambiguation needed as there are no dates mentioned.\n- step3: No year selection possible due to absence of date information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings found in the chunk.\n- step2: No disambiguation needed as there are no dates mentioned.\n- step3: No year selection possible due to absence of date information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://www.facebook.com/soowon.eom/",
+        "domain": "facebook.com",
+        "chunk_index": 0,
+        "similarity": 0.6938748214340061,
+        "rerank_score": 0.44695392
+      },
+      {
+        "chunk_id": 830,
+        "person_name": "Sophie Soowon Eom",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as there are no dates mentioned.\n- step3: No year selection possible due to absence of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as there are no dates mentioned.\n- step3: No year selection possible due to absence of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://www.un.org/sg/en/content/sg/personnel-appointments/2018-07-12/secretary-generals-high-level-panel-digital-cooperation",
+        "domain": "un.org",
+        "chunk_index": 2,
+        "similarity": 0.2171177051532463,
+        "rerank_score": 0.4330947
+      },
+      {
+        "chunk_id": 818,
+        "person_name": "Sophie Soowon Eom",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as there are no birth-related information.\n- step3: No year selection possible due to absence of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as there are no birth-related information.\n- step3: No year selection possible due to absence of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://www.buzzsprout.com/1886318/episodes/11578450-the-future-is-multi-channel-marketing-nailing-your-adops-strategy-during-challenging-times-with-sophie-eom-ceo-of-adriel",
+        "domain": "buzzsprout.com",
+        "chunk_index": 4,
+        "similarity": 0.2677673873447617,
+        "rerank_score": 0.42892754
+      },
+      {
+        "chunk_id": 811,
+        "person_name": "Sophie Soowon Eom",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings related to birth are found in the chunk.\n- step2: No disambiguation needed as no birth information is present.\n- step3: Year selection is impossible due to lack of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings related to birth are found in the chunk.\n- step2: No disambiguation needed as no birth information is present.\n- step3: Year selection is impossible due to lack of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://www.forbes.com/profile/soowon-sophie-eom/",
+        "domain": "forbes.com",
+        "chunk_index": 0,
+        "similarity": 0.4521067379329605,
+        "rerank_score": 0.38338786
+      },
+      {
+        "chunk_id": 822,
+        "person_name": "Sophie Soowon Eom",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as there are no birth-related information.\n- step3: No year selection possible due to absence of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as there are no birth-related information.\n- step3: No year selection possible due to absence of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://www.buzzsprout.com/1886318/episodes/11578450-the-future-is-multi-channel-marketing-nailing-your-adops-strategy-during-challenging-times-with-sophie-eom-ceo-of-adriel",
+        "domain": "buzzsprout.com",
+        "chunk_index": 8,
+        "similarity": 0.2611706241932225,
+        "rerank_score": 0.37175277
+      },
+      {
+        "chunk_id": 833,
+        "person_name": "Sophie Soowon Eom",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation is needed as there are no birth-related information or dates mentioned.\n- step3: Year selection is impossible due to the absence of any birth-related information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation is needed as there are no birth-related information or dates mentioned.\n- step3: Year selection is impossible due to the absence of any birth-related information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://koreatechdesk.com/international-womens-day-shine-on-those-leading-the-path-in-the-korean-startup-ecosystem",
+        "domain": "koreatechdesk.com",
+        "chunk_index": 2,
+        "similarity": 0.3088910192171332,
+        "rerank_score": 0.35441124
+      },
+      {
+        "chunk_id": 819,
+        "person_name": "Sophie Soowon Eom",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation is needed as there are no birth-related information or dates mentioned.\n- step3: Year selection is impossible due to the absence of any birth-related information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation is needed as there are no birth-related information or dates mentioned.\n- step3: Year selection is impossible due to the absence of any birth-related information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://www.buzzsprout.com/1886318/episodes/11578450-the-future-is-multi-channel-marketing-nailing-your-adops-strategy-during-challenging-times-with-sophie-eom-ceo-of-adriel",
+        "domain": "buzzsprout.com",
+        "chunk_index": 5,
+        "similarity": 0.28581891779095847,
+        "rerank_score": 0.3040215
+      },
+      {
+        "chunk_id": 821,
+        "person_name": "Sophie Soowon Eom",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as no birth-related information is mentioned.\n- step3: No year selection possible due to absence of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as no birth-related information is mentioned.\n- step3: No year selection possible due to absence of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://www.buzzsprout.com/1886318/episodes/11578450-the-future-is-multi-channel-marketing-nailing-your-adops-strategy-during-challenging-times-with-sophie-eom-ceo-of-adriel",
+        "domain": "buzzsprout.com",
+        "chunk_index": 7,
+        "similarity": 0.3069077634763061,
+        "rerank_score": 0.30130085
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "no_evidence",
+    "birth_year": null,
+    "independent_source_count": 0,
+    "total_extractions": 10,
+    "year_ledgers": {}
+  },
+  "provenance_narrative": "Birth year verification for Sophie Soowon Eom\nVerification completed: 2025-11-26 00:50:38 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: un.org, buzzsprout.com, facebook.com\nSimilarity scores ranged from 0.217 to 0.694\nRerank scores ranged from 0.301 to 0.593\n\nEXTRACTION PHASE\nScanned 10 chunks for birth information\nFound birth information in 0 chunks\n\nVERIFICATION PHASE\nVerification status: no_evidence\nIndependent source count: 0\nNo birth year could be verified\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

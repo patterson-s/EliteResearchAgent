@@ -1,0 +1,115 @@
+{
+  "person_name": "Satish Nambiar",
+  "timestamp": "2025-11-26T00:50:27.669057",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 350,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Satish_Nambiar",
+        "similarity": 0.5704218674883385,
+        "rerank_score": 0.890761
+      },
+      {
+        "chunk_id": 376,
+        "domain": "military-history.fandom.com",
+        "url": "https://military-history.fandom.com/wiki/Satish_Nambiar",
+        "similarity": 0.5525402147597833,
+        "rerank_score": 0.8742601
+      },
+      {
+        "chunk_id": 355,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Satish_Nambiar",
+        "similarity": 0.5344110095570548,
+        "rerank_score": 0.74251556
+      },
+      {
+        "chunk_id": 357,
+        "domain": "usiofindia.org",
+        "url": "https://usiofindia.org/pdf/LT%20GEN%20SATISH%20NAMBIAR.pdf",
+        "similarity": 0.4618828833925706,
+        "rerank_score": 0.7154444
+      },
+      {
+        "chunk_id": 377,
+        "domain": "military-history.fandom.com",
+        "url": "https://military-history.fandom.com/wiki/Satish_Nambiar",
+        "similarity": 0.507396389630296,
+        "rerank_score": 0.7101667
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 2,
+    "extractions": [
+      {
+        "chunk_id": 350,
+        "person_name": "Satish Nambiar",
+        "contains_birth_info": true,
+        "extracted_year": 1936,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date \"30 August 1936\" associated with the cue \"Born\".\n- step2: The birth date is directly linked to Satish Nambiar in the section detailing his personal information, with no ambiguity regarding other individuals.\n- step3: The year 1936 is explicitly mentioned as part of the birth date.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date \"30 August 1936\" associated with the cue \"Born\".\n- step2: The birth date is directly linked to Satish Nambiar in the section detailing his personal information, with no ambiguity regarding other individuals.\n- step3: The year 1936 is explicitly mentioned as part of the birth date.\ncontains_birthdate: true\nbirth_year: 1936",
+        "url": "https://en.wikipedia.org/wiki/Satish_Nambiar",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.5704218674883385,
+        "rerank_score": 0.890761
+      },
+      {
+        "chunk_id": 376,
+        "person_name": "Satish Nambiar",
+        "contains_birth_info": true,
+        "extracted_year": 1936,
+        "evidence_type": "born-field",
+        "reasoning": "- step1: The text contains a clear birth date \"30 Aug 1936\" associated with the name \"Satish Nambiar\" under the \"Born\" section.\n- step2: The birth date is directly linked to Satish Nambiar in the context, with no ambiguity as it appears in his biographical details.\n- step3: The year 1936 is explicitly mentioned as part of the birth date.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date \"30 Aug 1936\" associated with the name \"Satish Nambiar\" under the \"Born\" section.\n- step2: The birth date is directly linked to Satish Nambiar in the context, with no ambiguity as it appears in his biographical details.\n- step3: The year 1936 is explicitly mentioned as part of the birth date.\ncontains_birthdate: true\nbirth_year: 1936",
+        "url": "https://military-history.fandom.com/wiki/Satish_Nambiar",
+        "domain": "military-history.fandom.com",
+        "chunk_index": 0,
+        "similarity": 0.5525402147597833,
+        "rerank_score": 0.8742601
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "verified",
+    "birth_year": 1936,
+    "independent_source_count": 2,
+    "total_extractions": 2,
+    "year_ledgers": {
+      "1936": {
+        "year": 1936,
+        "count": 2,
+        "domains": [
+          "en.wikipedia.org",
+          "military-history.fandom.com"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 350,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Satish_Nambiar",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 376,
+            "domain": "military-history.fandom.com",
+            "url": "https://military-history.fandom.com/wiki/Satish_Nambiar",
+            "evidence_type": "born-field",
+            "quality_rank": 0
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Satish Nambiar\nVerification completed: 2025-11-26 00:50:27 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: en.wikipedia.org, military-history.fandom.com, usiofindia.org\nSimilarity scores ranged from 0.384 to 0.570\nRerank scores ranged from 0.491 to 0.891\n\nEXTRACTION PHASE\nScanned 2 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1936\n\nVERIFICATION PHASE\nVerification status: verified\nIndependent source count: 2\nVerified birth year: 1936\nSupporting domains: en.wikipedia.org, military-history.fandom.com\nSupporting extractions: 2\nEvidence types: born-field, born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

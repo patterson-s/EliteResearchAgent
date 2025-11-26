@@ -1,0 +1,115 @@
+{
+  "person_name": "Horst Kohler",
+  "timestamp": "2025-11-26T00:43:59.911847",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 3007,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Horst_K%C3%B6hler",
+        "similarity": 0.5022961569070252,
+        "rerank_score": 0.87706697
+      },
+      {
+        "chunk_id": 3025,
+        "domain": "britannica.com",
+        "url": "https://www.britannica.com/money/Horst-Kohler",
+        "similarity": 0.5309786839223097,
+        "rerank_score": 0.8235701
+      },
+      {
+        "chunk_id": 3004,
+        "domain": "bundespraesident.de",
+        "url": "https://www.bundespraesident.de/EN/role-and-functions/the-german-federal-presidents/horst-koehler/horst-koehler_node.html",
+        "similarity": 0.5077375976183947,
+        "rerank_score": 0.8055255
+      },
+      {
+        "chunk_id": 3034,
+        "domain": "kielinstitut.de",
+        "url": "https://www.kielinstitut.de/institute/events/prizes-and-awards/global-economy-prize/global-economy-prize-2017/horst-koehler/",
+        "similarity": 0.5277114730483832,
+        "rerank_score": 0.7982658
+      },
+      {
+        "chunk_id": 3028,
+        "domain": "horstkoehler.de",
+        "url": "https://www.horstkoehler.de/en/vita-horst-koehler/",
+        "similarity": 0.4583192288798862,
+        "rerank_score": 0.78749067
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 2,
+    "extractions": [
+      {
+        "chunk_id": 3007,
+        "person_name": "Horst Kohler",
+        "contains_birth_info": true,
+        "extracted_year": 1943,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date \"22 February 1943\" under the \"Personal details\" section.\n- step2: The birth date is directly associated with Horst Köhler, as it appears in his biographical details.\n- step3: The year 1943 is explicitly mentioned as part of the birth date.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date \"22 February 1943\" under the \"Personal details\" section.\n- step2: The birth date is directly associated with Horst Köhler, as it appears in his biographical details.\n- step3: The year 1943 is explicitly mentioned as part of the birth date.\ncontains_birthdate: true\nbirth_year: 1943",
+        "url": "https://en.wikipedia.org/wiki/Horst_K%C3%B6hler",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.5022961569070252,
+        "rerank_score": 0.87706697
+      },
+      {
+        "chunk_id": 3025,
+        "person_name": "Horst Kohler",
+        "contains_birth_info": true,
+        "extracted_year": 1943,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date string \"February 22, 1943\" associated with the strong cue \"born\".\n- step2: The birth date is directly linked to Horst Köhler in the biographical section, with no ambiguity as it is part of his personal details.\n- step3: The year 1943 is explicitly stated in the birth date.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date string \"February 22, 1943\" associated with the strong cue \"born\".\n- step2: The birth date is directly linked to Horst Köhler in the biographical section, with no ambiguity as it is part of his personal details.\n- step3: The year 1943 is explicitly stated in the birth date.\ncontains_birthdate: true\nbirth_year: 1943",
+        "url": "https://www.britannica.com/money/Horst-Kohler",
+        "domain": "britannica.com",
+        "chunk_index": 0,
+        "similarity": 0.5309786839223097,
+        "rerank_score": 0.8235701
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "verified",
+    "birth_year": 1943,
+    "independent_source_count": 2,
+    "total_extractions": 2,
+    "year_ledgers": {
+      "1943": {
+        "year": 1943,
+        "count": 2,
+        "domains": [
+          "britannica.com",
+          "en.wikipedia.org"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 3007,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Horst_K%C3%B6hler",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 3025,
+            "domain": "britannica.com",
+            "url": "https://www.britannica.com/money/Horst-Kohler",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Horst Kohler\nVerification completed: 2025-11-26 00:43:59 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: horstkoehler.de, britannica.com, bundespraesident.de, kielinstitut.de, en.wikipedia.org\nSimilarity scores ranged from 0.409 to 0.531\nRerank scores ranged from 0.597 to 0.877\n\nEXTRACTION PHASE\nScanned 2 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1943\n\nVERIFICATION PHASE\nVerification status: verified\nIndependent source count: 2\nVerified birth year: 1943\nSupporting domains: britannica.com, en.wikipedia.org\nSupporting extractions: 2\nEvidence types: born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

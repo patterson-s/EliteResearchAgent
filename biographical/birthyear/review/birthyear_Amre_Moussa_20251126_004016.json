@@ -1,0 +1,115 @@
+{
+  "person_name": "Amre Moussa",
+  "timestamp": "2025-11-26T00:40:16.710212",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 297,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Amr_Moussa",
+        "similarity": 0.6188842700830991,
+        "rerank_score": 0.86108357
+      },
+      {
+        "chunk_id": 309,
+        "domain": "cnn.com",
+        "url": "https://www.cnn.com/world/amr-moussa-fast-facts",
+        "similarity": 0.5770546159779727,
+        "rerank_score": 0.79522943
+      },
+      {
+        "chunk_id": 304,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Amr_Moussa",
+        "similarity": 0.48085190041994996,
+        "rerank_score": 0.65887916
+      },
+      {
+        "chunk_id": 296,
+        "domain": "europarl.europa.eu",
+        "url": "https://www.europarl.europa.eu/meetdocs/2004_2009/documents/dv/afet_04112008_cvmoussa/afet_04112008_cvmoussaEN.pdf",
+        "similarity": 0.5294598520074653,
+        "rerank_score": 0.53225553
+      },
+      {
+        "chunk_id": 306,
+        "domain": "interpeace.org",
+        "url": "https://www.interpeace.org/member/amre-moussa/",
+        "similarity": 0.5409428203264237,
+        "rerank_score": 0.43741554
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 2,
+    "extractions": [
+      {
+        "chunk_id": 297,
+        "person_name": "Amre Moussa",
+        "contains_birth_info": true,
+        "extracted_year": 1936,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date \"3 October 1936\" associated with strong cues like \"born\" and \"Personal details.\"  \n- step2: The date is directly linked to Amr Moussa in the \"Personal details\" section and near his full name \"Amr Mouhammed Moussa Abu-Zeid.\"  \n- step3: The year 1936 is explicitly stated and unambiguously refers to Amr Moussa.",
+        "raw_llm_output": "reasoning:  \n- step1: The text contains a clear birth date \"3 October 1936\" associated with strong cues like \"born\" and \"Personal details.\"  \n- step2: The date is directly linked to Amr Moussa in the \"Personal details\" section and near his full name \"Amr Mouhammed Moussa Abu-Zeid.\"  \n- step3: The year 1936 is explicitly stated and unambiguously refers to Amr Moussa.  \ncontains_birthdate: true  \nbirth_year: 1936",
+        "url": "https://en.wikipedia.org/wiki/Amr_Moussa",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.6188842700830991,
+        "rerank_score": 0.86108357
+      },
+      {
+        "chunk_id": 309,
+        "person_name": "Amre Moussa",
+        "contains_birth_info": true,
+        "extracted_year": 1936,
+        "evidence_type": "other",
+        "reasoning": "- step1: The text contains a clear birth date string \"October 3, 1936\" under a \"Birth date:\" header.\n- step2: The birth date is directly associated with Amr Moussa in the \"Personal\" section of his biographical information.\n- step3: The year 1936 is explicitly stated in the birth date string.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date string \"October 3, 1936\" under a \"Birth date:\" header.\n- step2: The birth date is directly associated with Amr Moussa in the \"Personal\" section of his biographical information.\n- step3: The year 1936 is explicitly stated in the birth date string.\ncontains_birthdate: true\nbirth_year: 1936",
+        "url": "https://www.cnn.com/world/amr-moussa-fast-facts",
+        "domain": "cnn.com",
+        "chunk_index": 0,
+        "similarity": 0.5770546159779727,
+        "rerank_score": 0.79522943
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "verified",
+    "birth_year": 1936,
+    "independent_source_count": 2,
+    "total_extractions": 2,
+    "year_ledgers": {
+      "1936": {
+        "year": 1936,
+        "count": 2,
+        "domains": [
+          "cnn.com",
+          "en.wikipedia.org"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 297,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Amr_Moussa",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 309,
+            "domain": "cnn.com",
+            "url": "https://www.cnn.com/world/amr-moussa-fast-facts",
+            "evidence_type": "other",
+            "quality_rank": 2
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Amre Moussa\nVerification completed: 2025-11-26 00:40:16 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: cnn.com, en.wikipedia.org, europarl.europa.eu, interpeace.org\nSimilarity scores ranged from 0.478 to 0.619\nRerank scores ranged from 0.289 to 0.861\n\nEXTRACTION PHASE\nScanned 2 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1936\n\nVERIFICATION PHASE\nVerification status: verified\nIndependent source count: 2\nVerified birth year: 1936\nSupporting domains: cnn.com, en.wikipedia.org\nSupporting extractions: 2\nEvidence types: born-narrative, other\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

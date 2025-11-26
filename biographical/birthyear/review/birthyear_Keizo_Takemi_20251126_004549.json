@@ -1,0 +1,115 @@
+{
+  "person_name": "Keizo Takemi",
+  "timestamp": "2025-11-26T00:45:49.294020",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 3965,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Keiz%C5%8D_Takemi",
+        "similarity": 0.6000835196179561,
+        "rerank_score": 0.9061314
+      },
+      {
+        "chunk_id": 3968,
+        "domain": "japan.kantei.go.jp",
+        "url": "https://japan.kantei.go.jp/101_kishida/meibo/daijin/takemi_keizo_e.html",
+        "similarity": 0.5258213824869655,
+        "rerank_score": 0.86136365
+      },
+      {
+        "chunk_id": 3967,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Keiz%C5%8D_Takemi",
+        "similarity": 0.5042574138387855,
+        "rerank_score": 0.7334523
+      },
+      {
+        "chunk_id": 3974,
+        "domain": "who.int",
+        "url": "https://www.who.int/news/item/27-06-2019-a-new-who-goodwill-ambassador-for-universal-health-coverage",
+        "similarity": 0.47127348511491224,
+        "rerank_score": 0.50241756
+      },
+      {
+        "chunk_id": 3964,
+        "domain": "jcie.org",
+        "url": "https://jcie.org/bio/keizo-takemi-bio/",
+        "similarity": 0.5574519620602123,
+        "rerank_score": 0.43467787
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 2,
+    "extractions": [
+      {
+        "chunk_id": 3965,
+        "person_name": "Keizo Takemi",
+        "contains_birth_info": true,
+        "extracted_year": 1951,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth date string \"5 November 1951\" associated with the phrase \"born (1951-11-05)\".\n- step2: The birth date is directly linked to Keizo Takemi in the \"Personal details\" section and is repeated in the introductory paragraph, clearly referring to him.\n- step3: The year 1951 is explicitly stated and is the most precise year available.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date string \"5 November 1951\" associated with the phrase \"born (1951-11-05)\".\n- step2: The birth date is directly linked to Keizo Takemi in the \"Personal details\" section and is repeated in the introductory paragraph, clearly referring to him.\n- step3: The year 1951 is explicitly stated and is the most precise year available.\ncontains_birthdate: true\nbirth_year: 1951",
+        "url": "https://en.wikipedia.org/wiki/Keiz%C5%8D_Takemi",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.6000835196179561,
+        "rerank_score": 0.9061314
+      },
+      {
+        "chunk_id": 3968,
+        "person_name": "Keizo Takemi",
+        "contains_birth_info": true,
+        "extracted_year": 1951,
+        "evidence_type": "born-field",
+        "reasoning": "- step1: The text contains a clear birth date under the \"Profile\" section: \"Date of birth / November 5, 1951\".\n- step2: The birth date is directly associated with Keizo Takemi's profile, with no ambiguity as it is listed under his name and position.\n- step3: The year is explicitly stated as 1951.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a clear birth date under the \"Profile\" section: \"Date of birth / November 5, 1951\".\n- step2: The birth date is directly associated with Keizo Takemi's profile, with no ambiguity as it is listed under his name and position.\n- step3: The year is explicitly stated as 1951.\ncontains_birthdate: true\nbirth_year: 1951",
+        "url": "https://japan.kantei.go.jp/101_kishida/meibo/daijin/takemi_keizo_e.html",
+        "domain": "japan.kantei.go.jp",
+        "chunk_index": 0,
+        "similarity": 0.5258213824869655,
+        "rerank_score": 0.86136365
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "verified",
+    "birth_year": 1951,
+    "independent_source_count": 2,
+    "total_extractions": 2,
+    "year_ledgers": {
+      "1951": {
+        "year": 1951,
+        "count": 2,
+        "domains": [
+          "en.wikipedia.org",
+          "japan.kantei.go.jp"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 3965,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Keiz%C5%8D_Takemi",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 3968,
+            "domain": "japan.kantei.go.jp",
+            "url": "https://japan.kantei.go.jp/101_kishida/meibo/daijin/takemi_keizo_e.html",
+            "evidence_type": "born-field",
+            "quality_rank": 0
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Keizo Takemi\nVerification completed: 2025-11-26 00:45:49 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: en.wikipedia.org, who.int, jcie.org, japan.kantei.go.jp\nSimilarity scores ranged from 0.419 to 0.600\nRerank scores ranged from 0.340 to 0.906\n\nEXTRACTION PHASE\nScanned 2 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1951\n\nVERIFICATION PHASE\nVerification status: verified\nIndependent source count: 2\nVerified birth year: 1951\nSupporting domains: en.wikipedia.org, japan.kantei.go.jp\nSupporting extractions: 2\nEvidence types: born-field, born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

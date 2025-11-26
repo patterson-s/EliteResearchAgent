@@ -1,0 +1,226 @@
+{
+  "person_name": "Dhananjayan Sriskandarajah",
+  "timestamp": "2025-11-26T00:41:42.475190",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 1182,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Dhananjayan_Sriskandarajah",
+        "similarity": 0.6249619620500446,
+        "rerank_score": 0.91118777
+      },
+      {
+        "chunk_id": 1185,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Dhananjayan_Sriskandarajah",
+        "similarity": 0.6098687272915223,
+        "rerank_score": 0.8051581
+      },
+      {
+        "chunk_id": 1189,
+        "domain": "opengovpartnership.org",
+        "url": "https://www.opengovpartnership.org/people/dhananjayan-sriskandarajah/",
+        "similarity": 0.5411848884760391,
+        "rerank_score": 0.76617163
+      },
+      {
+        "chunk_id": 1193,
+        "domain": "cpsummit.ngo",
+        "url": "http://cpsummit.ngo/dhananjayan-sriskandarajah",
+        "similarity": 0.47466386461465354,
+        "rerank_score": 0.7036111
+      },
+      {
+        "chunk_id": 1186,
+        "domain": "live.worldbank.org",
+        "url": "https://live.worldbank.org/en/experts/d/dhananjayan-sriskandarajah",
+        "similarity": 0.5371412627716706,
+        "rerank_score": 0.57666177
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 10,
+    "extractions": [
+      {
+        "chunk_id": 1182,
+        "person_name": "Dhananjayan Sriskandarajah",
+        "contains_birth_info": true,
+        "extracted_year": 1975,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains two birth cues: \"born 1975\" and \"born December 1975\", both associated with Dhananjayan Sriskandarajah.\n- step2: Both dates clearly refer to Dhananjayan Sriskandarajah, as they are directly linked to his name in the text.\n- step3: The year 1975 is explicitly mentioned in both instances, making it the most precise year available.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains two birth cues: \"born 1975\" and \"born December 1975\", both associated with Dhananjayan Sriskandarajah.\n- step2: Both dates clearly refer to Dhananjayan Sriskandarajah, as they are directly linked to his name in the text.\n- step3: The year 1975 is explicitly mentioned in both instances, making it the most precise year available.\ncontains_birthdate: true\nbirth_year: 1975",
+        "url": "https://en.wikipedia.org/wiki/Dhananjayan_Sriskandarajah",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.6249619620500446,
+        "rerank_score": 0.91118777
+      },
+      {
+        "chunk_id": 1185,
+        "person_name": "Dhananjayan Sriskandarajah",
+        "contains_birth_info": true,
+        "extracted_year": 1975,
+        "evidence_type": "category",
+        "reasoning": "- step1: The text contains a category label \"1975 births\" which suggests a birth year.\n- step2: The category is directly associated with Dhananjayan Sriskandarajah's Wikipedia entry, making it a strong indicator of his birth year.\n- step3: The year \"1975\" is explicitly stated and is the most precise information available.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a category label \"1975 births\" which suggests a birth year.\n- step2: The category is directly associated with Dhananjayan Sriskandarajah's Wikipedia entry, making it a strong indicator of his birth year.\n- step3: The year \"1975\" is explicitly stated and is the most precise information available.\ncontains_birthdate: true\nbirth_year: 1975",
+        "url": "https://en.wikipedia.org/wiki/Dhananjayan_Sriskandarajah",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 3,
+        "similarity": 0.6098687272915223,
+        "rerank_score": 0.8051581
+      },
+      {
+        "chunk_id": 1189,
+        "person_name": "Dhananjayan Sriskandarajah",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: The text contains the phrase \"Born in Sri Lanka\" which could be a birth cue, but no specific date or year is mentioned.\n- step2: The cue \"Born in Sri Lanka\" clearly refers to Dhananjayan Sriskandarajah, but it does not provide a date or year.\n- step3: Since no specific date or year is provided, it is impossible to determine the birth year.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains the phrase \"Born in Sri Lanka\" which could be a birth cue, but no specific date or year is mentioned.\n- step2: The cue \"Born in Sri Lanka\" clearly refers to Dhananjayan Sriskandarajah, but it does not provide a date or year.\n- step3: Since no specific date or year is provided, it is impossible to determine the birth year.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://www.opengovpartnership.org/people/dhananjayan-sriskandarajah/",
+        "domain": "opengovpartnership.org",
+        "chunk_index": 0,
+        "similarity": 0.5411848884760391,
+        "rerank_score": 0.76617163
+      },
+      {
+        "chunk_id": 1193,
+        "person_name": "Dhananjayan Sriskandarajah",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: The text contains a mention of \"Born in Sri Lanka\" but no specific birth date or year is provided.\n- step2: The phrase \"Born in Sri Lanka\" clearly refers to Dhananjayan Sriskandarajah, as it is part of his biographical information.\n- step3: Since no specific birth year is mentioned, it is impossible to determine the birth year.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains a mention of \"Born in Sri Lanka\" but no specific birth date or year is provided.\n- step2: The phrase \"Born in Sri Lanka\" clearly refers to Dhananjayan Sriskandarajah, as it is part of his biographical information.\n- step3: Since no specific birth year is mentioned, it is impossible to determine the birth year.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "http://cpsummit.ngo/dhananjayan-sriskandarajah",
+        "domain": "cpsummit.ngo",
+        "chunk_index": 0,
+        "similarity": 0.47466386461465354,
+        "rerank_score": 0.7036111
+      },
+      {
+        "chunk_id": 1186,
+        "person_name": "Dhananjayan Sriskandarajah",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: The text contains the phrase \"Born in Sri Lanka\" which could be a birth cue, but it does not provide a specific date or year.\n- step2: The cue \"Born in Sri Lanka\" clearly refers to Dhananjayan Sriskandarajah, as it is mentioned in the context of his biography.\n- step3: Since there is no specific date or year mentioned, it is impossible to determine the birth year.",
+        "raw_llm_output": "reasoning:\n- step1: The text contains the phrase \"Born in Sri Lanka\" which could be a birth cue, but it does not provide a specific date or year.\n- step2: The cue \"Born in Sri Lanka\" clearly refers to Dhananjayan Sriskandarajah, as it is mentioned in the context of his biography.\n- step3: Since there is no specific date or year mentioned, it is impossible to determine the birth year.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://live.worldbank.org/en/experts/d/dhananjayan-sriskandarajah",
+        "domain": "live.worldbank.org",
+        "chunk_index": 0,
+        "similarity": 0.5371412627716706,
+        "rerank_score": 0.57666177
+      },
+      {
+        "chunk_id": 1183,
+        "person_name": "Dhananjayan Sriskandarajah",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No explicit birth cues or date strings are present in the chunk.\n- step2: No information related to Dhananjayan Sriskandarajah's birth date is mentioned.\n- step3: No year selection is possible as there is no birth date information.",
+        "raw_llm_output": "reasoning:\n- step1: No explicit birth cues or date strings are present in the chunk.\n- step2: No information related to Dhananjayan Sriskandarajah's birth date is mentioned.\n- step3: No year selection is possible as there is no birth date information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://en.wikipedia.org/wiki/Dhananjayan_Sriskandarajah",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 1,
+        "similarity": 0.5173607346132256,
+        "rerank_score": 0.50227106
+      },
+      {
+        "chunk_id": 1184,
+        "person_name": "Dhananjayan Sriskandarajah",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No clear birth cues or date strings related to Dhananjayan Sriskandarajah are present in the chunk.\n- step2: No disambiguation needed as no birth-related information is found.\n- step3: No year selection possible due to absence of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No clear birth cues or date strings related to Dhananjayan Sriskandarajah are present in the chunk.\n- step2: No disambiguation needed as no birth-related information is found.\n- step3: No year selection possible due to absence of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://en.wikipedia.org/wiki/Dhananjayan_Sriskandarajah",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 2,
+        "similarity": 0.3817160000629085,
+        "rerank_score": 0.48030865
+      },
+      {
+        "chunk_id": 1195,
+        "person_name": "Dhananjayan Sriskandarajah",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation is needed as there are no birth-related information or dates mentioned.\n- step3: Year selection is impossible due to the absence of any birth-related information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation is needed as there are no birth-related information or dates mentioned.\n- step3: Year selection is impossible due to the absence of any birth-related information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://www.resolvepoverty.org/the7_team/danny-sriskandarajah/",
+        "domain": "resolvepoverty.org",
+        "chunk_index": 0,
+        "similarity": 0.38008499267188994,
+        "rerank_score": 0.47270843
+      },
+      {
+        "chunk_id": 1188,
+        "person_name": "Dhananjayan Sriskandarajah",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No explicit birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as no birth-related information is mentioned.\n- step3: No year selection possible due to absence of birth-related information.",
+        "raw_llm_output": "reasoning:\n- step1: No explicit birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as no birth-related information is mentioned.\n- step3: No year selection possible due to absence of birth-related information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "http://sdgs.un.org/panelists/mr-danny-sriskandarajah-29228",
+        "domain": "sdgs.un.org",
+        "chunk_index": 0,
+        "similarity": 0.47915480931058624,
+        "rerank_score": 0.3814505
+      },
+      {
+        "chunk_id": 1190,
+        "person_name": "Dhananjayan Sriskandarajah",
+        "contains_birth_info": false,
+        "extracted_year": null,
+        "evidence_type": null,
+        "reasoning": "- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as no birth information is mentioned.\n- step3: No year selection possible due to absence of birth information.",
+        "raw_llm_output": "reasoning:\n- step1: No birth cues or date strings are present in the chunk.\n- step2: No disambiguation needed as no birth information is mentioned.\n- step3: No year selection possible due to absence of birth information.\ncontains_birthdate: false\nbirth_year: null",
+        "url": "https://www.qc.foundation/about-us/governance/dr-dhananjayan-danny-sriskandarajah/",
+        "domain": "qc.foundation",
+        "chunk_index": 0,
+        "similarity": 0.5121727402844896,
+        "rerank_score": 0.35347337
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "no_corroboration",
+    "birth_year": 1975,
+    "independent_source_count": 1,
+    "total_extractions": 10,
+    "year_ledgers": {
+      "1975": {
+        "year": 1975,
+        "count": 1,
+        "domains": [
+          "en.wikipedia.org"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 1182,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Dhananjayan_Sriskandarajah",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 1185,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Dhananjayan_Sriskandarajah",
+            "evidence_type": "category",
+            "quality_rank": 3
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Dhananjayan Sriskandarajah\nVerification completed: 2025-11-26 00:41:42 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: cpsummit.ngo, en.wikipedia.org, opengovpartnership.org, live.worldbank.org\nSimilarity scores ranged from 0.380 to 0.625\nRerank scores ranged from 0.353 to 0.911\n\nEXTRACTION PHASE\nScanned 10 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1975\n\nVERIFICATION PHASE\nVerification status: no_corroboration\nIndependent source count: 1\nVerified birth year: 1975\nSupporting domains: en.wikipedia.org\nSupporting extractions: 2\nEvidence types: category, born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}

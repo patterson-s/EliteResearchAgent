@@ -1,0 +1,115 @@
+{
+  "person_name": "Mohammad Abdullah Al Gergawi",
+  "timestamp": "2025-11-26T00:47:33.865102",
+  "config": {
+    "service_name": "birthyear_extractor",
+    "version": "1.0",
+    "model": "command-a-03-2025"
+  },
+  "retrieval": {
+    "candidates_retrieved": 10,
+    "top_candidates": [
+      {
+        "chunk_id": 729,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Mohammad_Al_Gergawi",
+        "similarity": 0.5765251946239083,
+        "rerank_score": 0.921591
+      },
+      {
+        "chunk_id": 737,
+        "domain": "blog.uaehumanjourney.com",
+        "url": "https://blog.uaehumanjourney.com/2021/08/26/get-to-know-mohammad-bin-abdullah-al-gergawi/",
+        "similarity": 0.6075169500822996,
+        "rerank_score": 0.8047902
+      },
+      {
+        "chunk_id": 733,
+        "domain": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Mohammad_Al_Gergawi",
+        "similarity": 0.5118296216085474,
+        "rerank_score": 0.7606688
+      },
+      {
+        "chunk_id": 750,
+        "domain": "ae.linkedin.com",
+        "url": "https://ae.linkedin.com/in/mohammedalgergawi",
+        "similarity": 0.5295135769142774,
+        "rerank_score": 0.5614318
+      },
+      {
+        "chunk_id": 760,
+        "domain": "aucegypt.edu",
+        "url": "https://www.aucegypt.edu/media/media-releases/auc-honors-mohammad-al-gergawi-uae-minister-cabinet-affairs-global-fellow",
+        "similarity": 0.381851036507122,
+        "rerank_score": 0.528607
+      }
+    ]
+  },
+  "extraction": {
+    "chunks_scanned": 2,
+    "extractions": [
+      {
+        "chunk_id": 729,
+        "person_name": "Mohammad Abdullah Al Gergawi",
+        "contains_birth_info": true,
+        "extracted_year": 1963,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains a clear birth cue (\"Born\") with the date \"1963\" directly associated with Mohammad Abdullah Al Gergawi.  \n- step2: The birth information is unambiguously linked to PERSON_NAME, as it appears in the \"Personal details\" section under his full name.  \n- step3: The year \"1963\" is explicitly stated and is the most precise information available.",
+        "raw_llm_output": "reasoning:  \n- step1: The text contains a clear birth cue (\"Born\") with the date \"1963\" directly associated with Mohammad Abdullah Al Gergawi.  \n- step2: The birth information is unambiguously linked to PERSON_NAME, as it appears in the \"Personal details\" section under his full name.  \n- step3: The year \"1963\" is explicitly stated and is the most precise information available.  \ncontains_birthdate: true  \nbirth_year: 1963",
+        "url": "https://en.wikipedia.org/wiki/Mohammad_Al_Gergawi",
+        "domain": "en.wikipedia.org",
+        "chunk_index": 0,
+        "similarity": 0.5765251946239083,
+        "rerank_score": 0.921591
+      },
+      {
+        "chunk_id": 737,
+        "person_name": "Mohammad Abdullah Al Gergawi",
+        "contains_birth_info": true,
+        "extracted_year": 1963,
+        "evidence_type": "born-narrative",
+        "reasoning": "- step1: The text contains the phrase \"Mohammad Al Gergawi was born in Dubai in 1963,\" which includes a clear birth year.  \n- step2: The birth information is directly associated with Mohammad Abdullah Al Gergawi, as it appears in the \"Early life\" section dedicated to him.  \n- step3: The year \"1963\" is explicitly stated as the birth year.",
+        "raw_llm_output": "reasoning:  \n- step1: The text contains the phrase \"Mohammad Al Gergawi was born in Dubai in 1963,\" which includes a clear birth year.  \n- step2: The birth information is directly associated with Mohammad Abdullah Al Gergawi, as it appears in the \"Early life\" section dedicated to him.  \n- step3: The year \"1963\" is explicitly stated as the birth year.  \ncontains_birthdate: true  \nbirth_year: 1963",
+        "url": "https://blog.uaehumanjourney.com/2021/08/26/get-to-know-mohammad-bin-abdullah-al-gergawi/",
+        "domain": "blog.uaehumanjourney.com",
+        "chunk_index": 0,
+        "similarity": 0.6075169500822996,
+        "rerank_score": 0.8047902
+      }
+    ]
+  },
+  "verification": {
+    "verification_status": "verified",
+    "birth_year": 1963,
+    "independent_source_count": 2,
+    "total_extractions": 2,
+    "year_ledgers": {
+      "1963": {
+        "year": 1963,
+        "count": 2,
+        "domains": [
+          "en.wikipedia.org",
+          "blog.uaehumanjourney.com"
+        ],
+        "extractions": [
+          {
+            "chunk_id": 729,
+            "domain": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Mohammad_Al_Gergawi",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          },
+          {
+            "chunk_id": 737,
+            "domain": "blog.uaehumanjourney.com",
+            "url": "https://blog.uaehumanjourney.com/2021/08/26/get-to-know-mohammad-bin-abdullah-al-gergawi/",
+            "evidence_type": "born-narrative",
+            "quality_rank": 1
+          }
+        ]
+      }
+    }
+  },
+  "provenance_narrative": "Birth year verification for Mohammad Abdullah Al Gergawi\nVerification completed: 2025-11-26 00:47:33 UTC\n\nRETRIEVAL PHASE\nRetrieved 10 candidate chunks using semantic search with Cohere Embed v4.0\nRe-ranked candidates using Cohere Rerank v3.5\nTop candidate domains: aucegypt.edu, en.wikipedia.org, blog.uaehumanjourney.com, ae.linkedin.com\nSimilarity scores ranged from 0.368 to 0.608\nRerank scores ranged from 0.460 to 0.922\n\nEXTRACTION PHASE\nScanned 2 chunks for birth information\nFound birth information in 2 chunks\nYears extracted: 1963\n\nVERIFICATION PHASE\nVerification status: verified\nIndependent source count: 2\nVerified birth year: 1963\nSupporting domains: en.wikipedia.org, blog.uaehumanjourney.com\nSupporting extractions: 2\nEvidence types: born-narrative\n\nTRACEABILITY\nAll extractions link to chunks in sources.chunks table via chunk_id\nAll chunks link to search results in sources.search_results table\nAll search results link to search operations in sources.persons_searched table\nComplete provenance chain maintained from verification back to original search"
+}
