@@ -193,78 +193,81 @@ with left_col:
     if not chunk_events:
         st.info("No events extracted from this chunk")
     else:
-        for event_num, event in enumerate(chunk_events, 1):
-            with st.container():
-                st.markdown(f"**Event {event_num}/{len(chunk_events)}**")
-                
-                event_key = f"event_{chunk_idx}_{event_num}_{event.get('chunk_id', 'unk')}"
-                
-                org = st.text_input("Organization", value=event.get("organization", "") or "", key=f"org_{event_key}")
-                role = st.text_input("Role", value=event.get("role", "") or "", key=f"role_{event_key}")
-                location = st.text_input("Location", value=event.get("location", "") or "", key=f"loc_{event_key}")
-                
-                col_start, col_end = st.columns(2)
-                with col_start:
-                    start_date = st.text_input("Start", value=event.get("start_date", "") or "", key=f"start_{event_key}")
-                with col_end:
-                    end_date = st.text_input("End", value=event.get("end_date", "") or "", key=f"end_{event_key}")
-                
-                description = st.text_area("Description", value=event.get("description", "") or "", height=80, key=f"desc_{event_key}")
-                
-                event["organization"] = org
-                event["role"] = role
-                event["location"] = location
-                event["start_date"] = start_date
-                event["end_date"] = end_date
-                event["description"] = description
-                
-                st.markdown("#### Evaluation")
-                
-                eval_delete = st.checkbox(
-                    "Mark for deletion (incorrect/duplicate/noise)", 
-                    value=event.get("evaluation_delete", False),
-                    key=f"eval_del_{event_key}"
-                )
-                event["evaluation_delete"] = eval_delete
-                
-                eval_narrative = st.text_area(
-                    "Evaluation narrative (what's wrong/right with this extraction)",
-                    value=event.get("evaluation_narrative", ""),
-                    height=100,
-                    key=f"eval_narr_{event_key}",
-                    placeholder="e.g., 'Missing location', 'Wrong dates', 'Duplicate of event X', 'Perfect extraction'"
-                )
-                event["evaluation_narrative"] = eval_narrative
-                
-                quotes = event.get("supporting_quotes", [])
-                if quotes:
-                    st.markdown("**Quotes:**")
-                    for i, quote in enumerate(quotes, 1):
-                        st.markdown(f"{i}. *\"{quote}\"*")
-                
-                with st.expander("Raw LLM Output"):
-                    st.code(event.get("raw_llm_output", "No raw output"), language="json")
-                
-                col_status, col_review = st.columns([2, 1])
-                
-                with col_status:
-                    if event.get("manually_added"):
-                        st.caption("Manually added")
-                    if event.get("evaluation_delete"):
-                        st.caption("Marked for deletion")
-                    if event.get("reviewed"):
-                        st.caption("Reviewed")
-                
-                with col_review:
-                    is_reviewed = event.get("reviewed", False)
-                    if st.button("Mark Reviewed" if not is_reviewed else "Reviewed", 
-                                key=f"review_{event_key}",
-                                type="primary" if not is_reviewed else "secondary"):
-                        if not is_reviewed:
-                            event["reviewed"] = True
-                            st.rerun()
-                
-                st.markdown("---")
+        events_container = st.container(height=800)
+        
+        with events_container:
+            for event_num, event in enumerate(chunk_events, 1):
+                with st.container():
+                    st.markdown(f"**Event {event_num}/{len(chunk_events)}**")
+                    
+                    event_key = f"event_{chunk_idx}_{event_num}_{event.get('chunk_id', 'unk')}"
+                    
+                    org = st.text_input("Organization", value=event.get("organization", "") or "", key=f"org_{event_key}")
+                    role = st.text_input("Role", value=event.get("role", "") or "", key=f"role_{event_key}")
+                    location = st.text_input("Location", value=event.get("location", "") or "", key=f"loc_{event_key}")
+                    
+                    col_start, col_end = st.columns(2)
+                    with col_start:
+                        start_date = st.text_input("Start", value=event.get("start_date", "") or "", key=f"start_{event_key}")
+                    with col_end:
+                        end_date = st.text_input("End", value=event.get("end_date", "") or "", key=f"end_{event_key}")
+                    
+                    description = st.text_area("Description", value=event.get("description", "") or "", height=80, key=f"desc_{event_key}")
+                    
+                    event["organization"] = org
+                    event["role"] = role
+                    event["location"] = location
+                    event["start_date"] = start_date
+                    event["end_date"] = end_date
+                    event["description"] = description
+                    
+                    st.markdown("#### Evaluation")
+                    
+                    eval_delete = st.checkbox(
+                        "Mark for deletion (incorrect/duplicate/noise)", 
+                        value=event.get("evaluation_delete", False),
+                        key=f"eval_del_{event_key}"
+                    )
+                    event["evaluation_delete"] = eval_delete
+                    
+                    eval_narrative = st.text_area(
+                        "Evaluation narrative (what's wrong/right with this extraction)",
+                        value=event.get("evaluation_narrative", ""),
+                        height=100,
+                        key=f"eval_narr_{event_key}",
+                        placeholder="e.g., 'Missing location', 'Wrong dates', 'Duplicate of event X', 'Perfect extraction'"
+                    )
+                    event["evaluation_narrative"] = eval_narrative
+                    
+                    quotes = event.get("supporting_quotes", [])
+                    if quotes:
+                        st.markdown("**Quotes:**")
+                        for i, quote in enumerate(quotes, 1):
+                            st.markdown(f"{i}. *\"{quote}\"*")
+                    
+                    with st.expander("Raw LLM Output"):
+                        st.code(event.get("raw_llm_output", "No raw output"), language="json")
+                    
+                    col_status, col_review = st.columns([2, 1])
+                    
+                    with col_status:
+                        if event.get("manually_added"):
+                            st.caption("Manually added")
+                        if event.get("evaluation_delete"):
+                            st.caption("Marked for deletion")
+                        if event.get("reviewed"):
+                            st.caption("Reviewed")
+                    
+                    with col_review:
+                        is_reviewed = event.get("reviewed", False)
+                        if st.button("Mark Reviewed" if not is_reviewed else "Reviewed", 
+                                    key=f"review_{event_key}",
+                                    type="primary" if not is_reviewed else "secondary"):
+                            if not is_reviewed:
+                                event["reviewed"] = True
+                                st.rerun()
+                    
+                    st.markdown("---")
 
 with right_col:
     st.markdown("### Source Chunk Text")
