@@ -6,7 +6,7 @@ CREATE SCHEMA IF NOT EXISTS services;
 -- Raw extraction attempts from individual chunks
 CREATE TABLE IF NOT EXISTS services.birth_extractions (
     extraction_id SERIAL PRIMARY KEY,
-    chunk_id INT REFERENCES sources.chunks(chunk_id) ON DELETE CASCADE,
+    chunk_id INT REFERENCES sources.chunks(id) ON DELETE CASCADE,
     person_name TEXT NOT NULL,
     extracted_year INT,
     contains_birth_info BOOLEAN NOT NULL,
@@ -58,14 +58,14 @@ SELECT
     bv.independent_source_count,
     bv.verified_at,
     COUNT(DISTINCT be.extraction_id) as extraction_count,
-    COUNT(DISTINCT c.chunk_id) as chunk_count,
-    COUNT(DISTINCT sr.search_result_id) as source_count,
+    COUNT(DISTINCT c.id) as chunk_count,
+    COUNT(DISTINCT sr.id) as source_count,
     STRING_AGG(DISTINCT sr.url, '; ' ORDER BY sr.url) as source_urls
 FROM services.birth_verifications bv
 LEFT JOIN services.birth_verification_evidence bve ON bv.verification_id = bve.verification_id
 LEFT JOIN services.birth_extractions be ON bve.extraction_id = be.extraction_id
-LEFT JOIN sources.chunks c ON be.chunk_id = c.chunk_id
-LEFT JOIN sources.search_results sr ON c.search_result_id = sr.search_result_id
+LEFT JOIN sources.chunks c ON be.chunk_id = c.id
+LEFT JOIN sources.search_results sr ON c.search_result_id = sr.id
 GROUP BY 
     bv.verification_id,
     bv.person_name,
