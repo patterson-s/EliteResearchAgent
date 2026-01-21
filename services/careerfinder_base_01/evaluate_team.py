@@ -20,12 +20,18 @@ def highlight_quotes_in_text(text: str, quotes: List[str]) -> str:
 def initialize_session_state():
     if "data_loaded" not in st.session_state:
         st.session_state.data_loaded = False
+    if "all_people" not in st.session_state:
+        st.session_state.all_people = None
+    if "selected_person_idx" not in st.session_state:
+        st.session_state.selected_person_idx = 0
     if "person_data" not in st.session_state:
         st.session_state.person_data = None
     if "chunks_data" not in st.session_state:
         st.session_state.chunks_data = None
     if "current_chunk_idx" not in st.session_state:
         st.session_state.current_chunk_idx = 0
+    if "all_chunks_raw" not in st.session_state:
+        st.session_state.all_chunks_raw = None
 
 initialize_session_state()
 
@@ -39,7 +45,7 @@ if not st.session_state.data_loaded:
     with col1:
         st.subheader("Person Result File")
         person_file = st.file_uploader(
-            "Upload person result JSON",
+            "Upload person result JSON (single or multi-person)",
             type=["json"],
             key="person_upload"
         )
@@ -55,18 +61,24 @@ if not st.session_state.data_loaded:
     if person_file and chunks_file:
         if st.button("Load Data", type="primary"):
             try:
-                person_data = json.load(person_file)
+                person_data_raw = json.load(person_file)
                 all_chunks = json.load(chunks_file)
+                
+                if isinstance(person_data_raw, list):
+                    st.session_state.all_people = person_data_raw
+                    st.session_state.selected_person_idx = 0
+                    person_data = person_data_raw[0]
+                elif isinstance(person_data_raw, dict):
+                    st.session_state.all_people = [person_data_raw]
+                    st.session_state.selected_person_idx = 0
+                    person_data = person_data_raw
+                else:
+                    st.error("Invalid file format")
+                    st.stop()
                 
                 person_name = person_data.get("person_name")
                 if not person_name:
                     st.error("Person result file missing 'person_name' field")
-                    st.stop()
-                
-                person_chunks = [c for c in all_chunks if c.get("person_name") == person_name]
-                
-                if not person_chunks:
-                    st.error(f"No chunks found for {person_name} in chunks file")
                     st.stop()
                 
                 if "evaluation_metadata" not in person_data:
@@ -75,8 +87,15 @@ if not st.session_state.data_loaded:
                         "evaluator_note": ""
                     }
                 
+                person_chunks = [c for c in all_chunks if c.get("person_name") == person_name]
+                
+                if not person_chunks:
+                    st.error(f"No chunks found for {person_name} in chunks file")
+                    st.stop()
+                
                 st.session_state.person_data = person_data
                 st.session_state.chunks_data = person_chunks
+                st.session_state.all_chunks_raw = all_chunks
                 st.session_state.data_loaded = True
                 st.session_state.current_chunk_idx = 0
                 
@@ -87,6 +106,36 @@ if not st.session_state.data_loaded:
                 st.error(f"Error loading files: {e}")
     
     st.stop()
+
+if len(st.session_state.all_people) > 1:
+    st.markdown("### Select Person to Evaluate")
+    person_names = [p.get("person_name", "Unknown") for p in st.session_state.all_people]
+    
+    selected_person = st.selectbox(
+        "Person",
+        options=range(len(person_names)),
+        format_func=lambda x: person_names[x],
+        index=st.session_state.selected_person_idx,
+        key="person_selector"
+    )
+    
+    if selected_person != st.session_state.selected_person_idx:
+        st.session_state.selected_person_idx = selected_person
+        person_data = st.session_state.all_people[selected_person]
+        
+        if "evaluation_metadata" not in person_data:
+            person_data["evaluation_metadata"] = {
+                "evaluator": "",
+                "evaluator_note": ""
+            }
+        
+        person_name = person_data.get("person_name")
+        person_chunks = [c for c in st.session_state.all_chunks_raw if c.get("person_name") == person_name]
+        
+        st.session_state.person_data = person_data
+        st.session_state.chunks_data = person_chunks
+        st.session_state.current_chunk_idx = 0
+        st.rerun()
 
 data = st.session_state.person_data
 chunks = st.session_state.chunks_data
@@ -131,11 +180,18 @@ with st.sidebar:
     
     st.divider()
     
-    download_json = json.dumps(data, indent=2, ensure_ascii=False)
+    if len(st.session_state.all_people) > 1:
+        download_data = st.session_state.all_people
+        download_filename = "evaluated_multi_person.json"
+    else:
+        download_data = data
+        download_filename = f"evaluated_{person_name.replace(' ', '_')}.json"
+    
+    download_json = json.dumps(download_data, indent=2, ensure_ascii=False)
     st.download_button(
         label="Download Evaluated File",
         data=download_json,
-        file_name=f"evaluated_{person_name.replace(' ', '_')}.json",
+        file_name=download_filename,
         mime="application/json",
         type="primary"
     )
