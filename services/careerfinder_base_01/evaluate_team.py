@@ -17,34 +17,43 @@ def highlight_quotes_in_text(text: str, quotes: List[str]) -> str:
             highlighted = pattern.sub(r'<mark style="background-color: yellow;">\1</mark>', highlighted)
     return highlighted
 
-def get_chunks_for_person(person_data: Dict[str, Any], all_chunks: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-    person_name = person_data.get("person_name")
-    raw_extractions = person_data.get("raw_extractions", [])
+def get_all_chunks_flat(all_people: List[Dict[str, Any]], all_chunks: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    all_person_chunks = []
     
-    sample_chunk_ids = set(str(e.get("chunk_id")) for e in raw_extractions if e.get("chunk_id"))
+    for person_data in all_people:
+        person_name = person_data.get("person_name")
+        raw_extractions = person_data.get("raw_extractions", [])
+        
+        sample_chunk_ids = set(str(e.get("chunk_id")) for e in raw_extractions if e.get("chunk_id"))
+        
+        person_chunks = [
+            c for c in all_chunks 
+            if c.get("person_name") == person_name and str(c.get("chunk_id")) in sample_chunk_ids
+        ]
+        
+        all_person_chunks.extend(person_chunks)
     
-    person_chunks = [
-        c for c in all_chunks 
-        if c.get("person_name") == person_name and str(c.get("chunk_id")) in sample_chunk_ids
-    ]
-    
-    return person_chunks
+    return all_person_chunks
+
+def get_all_events_flat(all_people: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    all_events = []
+    for person_data in all_people:
+        all_events.extend(person_data.get("raw_extractions", []))
+    return all_events
 
 def initialize_session_state():
     if "data_loaded" not in st.session_state:
         st.session_state.data_loaded = False
     if "all_people" not in st.session_state:
         st.session_state.all_people = None
-    if "selected_person_idx" not in st.session_state:
-        st.session_state.selected_person_idx = 0
-    if "person_data" not in st.session_state:
-        st.session_state.person_data = None
     if "chunks_data" not in st.session_state:
         st.session_state.chunks_data = None
     if "current_chunk_idx" not in st.session_state:
         st.session_state.current_chunk_idx = 0
     if "all_chunks_raw" not in st.session_state:
         st.session_state.all_chunks_raw = None
+    if "all_events" not in st.session_state:
+        st.session_state.all_events = None
 
 initialize_session_state()
 
@@ -78,41 +87,36 @@ if not st.session_state.data_loaded:
                 all_chunks = json.load(chunks_file)
                 
                 if isinstance(person_data_raw, list):
-                    st.session_state.all_people = person_data_raw
-                    st.session_state.selected_person_idx = 0
-                    person_data = person_data_raw[0]
+                    all_people = person_data_raw
                 elif isinstance(person_data_raw, dict):
-                    st.session_state.all_people = [person_data_raw]
-                    st.session_state.selected_person_idx = 0
-                    person_data = person_data_raw
+                    all_people = [person_data_raw]
                 else:
                     st.error("Invalid file format")
                     st.stop()
                 
-                person_name = person_data.get("person_name")
-                if not person_name:
-                    st.error("Person result file missing 'person_name' field")
+                for person_data in all_people:
+                    if "evaluation_metadata" not in person_data:
+                        person_data["evaluation_metadata"] = {
+                            "evaluator": "",
+                            "evaluator_note": ""
+                        }
+                
+                flat_chunks = get_all_chunks_flat(all_people, all_chunks)
+                
+                if not flat_chunks:
+                    st.error("No chunks found for any person in chunks file")
                     st.stop()
                 
-                if "evaluation_metadata" not in person_data:
-                    person_data["evaluation_metadata"] = {
-                        "evaluator": "",
-                        "evaluator_note": ""
-                    }
+                flat_events = get_all_events_flat(all_people)
                 
-                person_chunks = get_chunks_for_person(person_data, all_chunks)
-                
-                if not person_chunks:
-                    st.error(f"No chunks found for {person_name} in chunks file")
-                    st.stop()
-                
-                st.session_state.person_data = person_data
-                st.session_state.chunks_data = person_chunks
+                st.session_state.all_people = all_people
+                st.session_state.chunks_data = flat_chunks
                 st.session_state.all_chunks_raw = all_chunks
+                st.session_state.all_events = flat_events
                 st.session_state.data_loaded = True
                 st.session_state.current_chunk_idx = 0
                 
-                st.success(f"Loaded {len(person_chunks)} chunks for {person_name}")
+                st.success(f"Loaded {len(flat_chunks)} chunks across {len(all_people)} people")
                 st.rerun()
                 
             except Exception as e:
@@ -120,64 +124,34 @@ if not st.session_state.data_loaded:
     
     st.stop()
 
-if len(st.session_state.all_people) > 1:
-    st.markdown("### Select Person to Evaluate")
-    person_names = [p.get("person_name", "Unknown") for p in st.session_state.all_people]
-    
-    selected_person = st.selectbox(
-        "Person",
-        options=range(len(person_names)),
-        format_func=lambda x: person_names[x],
-        index=st.session_state.selected_person_idx,
-        key="person_selector"
-    )
-    
-    if selected_person != st.session_state.selected_person_idx:
-        st.session_state.selected_person_idx = selected_person
-        person_data = st.session_state.all_people[selected_person]
-        
-        if "evaluation_metadata" not in person_data:
-            person_data["evaluation_metadata"] = {
-                "evaluator": "",
-                "evaluator_note": ""
-            }
-        
-        person_chunks = get_chunks_for_person(person_data, st.session_state.all_chunks_raw)
-        
-        st.session_state.person_data = person_data
-        st.session_state.chunks_data = person_chunks
-        st.session_state.current_chunk_idx = 0
-        st.rerun()
-
-data = st.session_state.person_data
 chunks = st.session_state.chunks_data
-person_name = data.get("person_name", "Unknown")
-events = data.get("raw_extractions", [])
-evaluation_metadata = data["evaluation_metadata"]
+all_events = st.session_state.all_events
+chunk_idx = st.session_state.current_chunk_idx
 
 with st.sidebar:
     st.header("Evaluator Info")
     
-    evaluator = st.text_input("Evaluator name", value=evaluation_metadata.get("evaluator", ""))
-    evaluator_note = st.text_area("Evaluation note", value=evaluation_metadata.get("evaluator_note", ""), height=100)
+    evaluator = st.text_input("Evaluator name", value=st.session_state.all_people[0]["evaluation_metadata"].get("evaluator", ""))
+    evaluator_note = st.text_area("Evaluation note", value=st.session_state.all_people[0]["evaluation_metadata"].get("evaluator_note", ""), height=100)
     
-    evaluation_metadata["evaluator"] = evaluator
-    evaluation_metadata["evaluator_note"] = evaluator_note
+    for person_data in st.session_state.all_people:
+        person_data["evaluation_metadata"]["evaluator"] = evaluator
+        person_data["evaluation_metadata"]["evaluator_note"] = evaluator_note
     
     st.divider()
     st.subheader("Chunk Navigation")
     
-    chunk_idx = st.number_input(
+    chunk_num_input = st.number_input(
         "Chunk number",
         min_value=1,
         max_value=len(chunks),
-        value=st.session_state.current_chunk_idx + 1,
+        value=chunk_idx + 1,
         step=1,
         key="chunk_nav"
     ) - 1
     
-    if chunk_idx != st.session_state.current_chunk_idx:
-        st.session_state.current_chunk_idx = chunk_idx
+    if chunk_num_input != chunk_idx:
+        st.session_state.current_chunk_idx = chunk_num_input
         st.rerun()
     
     col_prev, col_next = st.columns(2)
@@ -196,8 +170,8 @@ with st.sidebar:
         download_data = st.session_state.all_people
         download_filename = "evaluated_multi_person.json"
     else:
-        download_data = data
-        download_filename = f"evaluated_{person_name.replace(' ', '_')}.json"
+        download_data = st.session_state.all_people[0]
+        download_filename = f"evaluated_{st.session_state.all_people[0].get('person_name', 'unknown').replace(' ', '_')}.json"
     
     download_json = json.dumps(download_data, indent=2, ensure_ascii=False)
     st.download_button(
@@ -213,8 +187,9 @@ with st.sidebar:
 current_chunk = chunks[chunk_idx]
 chunk_id = current_chunk.get("chunk_id")
 chunk_text = current_chunk.get("text", "")
+person_name = current_chunk.get("person_name", "Unknown")
 
-chunk_events = get_events_for_chunk(chunk_id, events)
+chunk_events = get_events_for_chunk(chunk_id, all_events)
 
 with st.sidebar:
     st.metric("Events from this chunk", len(chunk_events))
@@ -245,18 +220,23 @@ with st.sidebar:
             "reviewed": False,
             "raw_llm_output": "Manually added by evaluator"
         }
-        data["raw_extractions"].append(new_event)
-        events.append(new_event)
+        
+        for person_data in st.session_state.all_people:
+            if person_data.get("person_name") == person_name:
+                person_data["raw_extractions"].append(new_event)
+                break
+        
+        all_events.append(new_event)
         st.rerun()
 
 st.subheader(f"{person_name}")
-st.caption(f"Total chunks: {len(chunks)} | Total events extracted: {len(events)}")
+st.caption(f"Chunk {chunk_idx + 1} of {len(chunks)} | Total events: {len(all_events)}")
 
 left_col, right_col = st.columns([1, 1])
 
 with left_col:
     st.markdown("### Extracted Events")
-    st.caption(f"Chunk {chunk_idx + 1} of {len(chunks)} | Chunk ID: {chunk_id}")
+    st.caption(f"Chunk ID: {chunk_id}")
     
     if not chunk_events:
         st.info("No events extracted from this chunk")
@@ -361,10 +341,10 @@ with st.sidebar:
     st.divider()
     st.markdown("### Progress")
     
-    total_events = len(events)
-    reviewed_events = sum(1 for e in events if e.get("reviewed"))
-    marked_for_deletion = sum(1 for e in events if e.get("evaluation_delete"))
-    with_narratives = sum(1 for e in events if e.get("evaluation_narrative"))
+    total_events = len(all_events)
+    reviewed_events = sum(1 for e in all_events if e.get("reviewed"))
+    marked_for_deletion = sum(1 for e in all_events if e.get("evaluation_delete"))
+    with_narratives = sum(1 for e in all_events if e.get("evaluation_narrative"))
     
     review_progress = reviewed_events / max(total_events, 1) * 100
     
@@ -377,9 +357,9 @@ with st.sidebar:
     with col2:
         st.metric("With narratives", with_narratives)
     
-    chunks_with_events = len(set(e.get("chunk_id") for e in events if e.get("chunk_id")))
+    chunks_with_events = len(set(e.get("chunk_id") for e in all_events if e.get("chunk_id")))
     st.metric("Chunks with events", f"{chunks_with_events}/{len(chunks)}")
     
-    manually_added = sum(1 for e in events if e.get("manually_added"))
+    manually_added = sum(1 for e in all_events if e.get("manually_added"))
     if manually_added > 0:
         st.metric("Manually added events", manually_added)
