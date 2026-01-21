@@ -17,6 +17,19 @@ def highlight_quotes_in_text(text: str, quotes: List[str]) -> str:
             highlighted = pattern.sub(r'<mark style="background-color: yellow;">\1</mark>', highlighted)
     return highlighted
 
+def get_chunks_for_person(person_data: Dict[str, Any], all_chunks: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    person_name = person_data.get("person_name")
+    raw_extractions = person_data.get("raw_extractions", [])
+    
+    sample_chunk_ids = set(str(e.get("chunk_id")) for e in raw_extractions if e.get("chunk_id"))
+    
+    person_chunks = [
+        c for c in all_chunks 
+        if c.get("person_name") == person_name and str(c.get("chunk_id")) in sample_chunk_ids
+    ]
+    
+    return person_chunks
+
 def initialize_session_state():
     if "data_loaded" not in st.session_state:
         st.session_state.data_loaded = False
@@ -87,7 +100,7 @@ if not st.session_state.data_loaded:
                         "evaluator_note": ""
                     }
                 
-                person_chunks = [c for c in all_chunks if c.get("person_name") == person_name]
+                person_chunks = get_chunks_for_person(person_data, all_chunks)
                 
                 if not person_chunks:
                     st.error(f"No chunks found for {person_name} in chunks file")
@@ -129,8 +142,7 @@ if len(st.session_state.all_people) > 1:
                 "evaluator_note": ""
             }
         
-        person_name = person_data.get("person_name")
-        person_chunks = [c for c in st.session_state.all_chunks_raw if c.get("person_name") == person_name]
+        person_chunks = get_chunks_for_person(person_data, st.session_state.all_chunks_raw)
         
         st.session_state.person_data = person_data
         st.session_state.chunks_data = person_chunks
