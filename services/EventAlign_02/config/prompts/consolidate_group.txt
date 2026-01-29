@@ -1,0 +1,46 @@
+You are analyzing career events to determine if they describe the SAME event or DIFFERENT events.
+
+EVENTS TO ANALYZE:
+{events_text}
+
+TASK:
+1. Are these events describing the SAME position/event or SEQUENTIAL/DIFFERENT events?
+2. If SAME: What is the best consolidated representation?
+3. What details from each event should be preserved?
+
+DECISION RULES:
+- Same organization + same role + overlapping time = likely SAME event
+- Awards with same name + same year = definitely SAME event
+- Different roles at same org = likely DIFFERENT events
+- Same role but non-overlapping years = likely SEQUENTIAL events
+
+CONSOLIDATION STRATEGY:
+- Use the most complete time range (earliest start, latest end)
+- Use the most formal/complete organization name
+- Use the most descriptive role title
+- Preserve additional context in additional_details
+
+CRITICAL: You MUST fill in ALL fields:
+- event_type: REQUIRED (either "career_position" or "award")
+- organization: REQUIRED - use the most complete organization name from the events
+- role: REQUIRED - use the most descriptive role/title/award name from the events
+- For awards: if there's no explicit organization, use the award name as organization
+- start_year: use the earliest year mentioned, or null if truly unknown
+- end_year: use the latest year mentioned, or null if ongoing/unknown
+- locations: list all locations mentioned
+- additional_details: any extra context worth preserving
+
+Respond ONLY with valid JSON (no markdown, no preamble):
+{{
+  "decision": "same_event" | "sequential_events" | "different_events",
+  "reasoning": "...",
+  "consolidated": {{
+    "event_type": "career_position" | "award",
+    "organization": "REQUIRED - most complete org name",
+    "role": "REQUIRED - most descriptive role/title",
+    "start_year": YYYY or null,
+    "end_year": YYYY or null,
+    "locations": ["..."],
+    "additional_details": ["any extra context to preserve"]
+  }}
+}}

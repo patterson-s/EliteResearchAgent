@@ -1,0 +1,236 @@
+{
+  "status": "success",
+  "chunk_id": 3158,
+  "chunk_index": 1,
+  "source_url": "https://www.britannica.com/money/Abhijit-Banerjee",
+  "title": "Abhijit Banerjee | Biography & Facts | Britannica Money",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1991 and 1992–93",
+          "type": "range",
+          "quotes": [
+            "Harvard in 1991 and 1992–93, and at the Massachusetts Institute of Technology (MIT) from 1993."
+          ]
+        },
+        {
+          "text": "from 1993",
+          "type": "open",
+          "quotes": [
+            "Harvard in 1991 and 1992–93, and at the Massachusetts Institute of Technology (MIT) from 1993."
+          ]
+        },
+        {
+          "text": "2003",
+          "type": "point",
+          "quotes": [
+            "At MIT he was eventually (2003) appointed Ford Foundation International Professor of Economics."
+          ]
+        },
+        {
+          "text": "2003",
+          "type": "point",
+          "quotes": [
+            "In 2003 he and Duflo, along with Sendhil Mullainathan, an economist at MIT, founded the Abdul Latif Jameel Poverty Action Lab (J-PAL),"
+          ]
+        },
+        {
+          "text": "2015",
+          "type": "point",
+          "quotes": [
+            "Banerjee and Duflo were married in 2015."
+          ]
+        },
+        {
+          "text": "mid-1990s",
+          "type": "point",
+          "quotes": [
+            "Building on the results of field experiments conducted in the mid-1990s by Kremer and his colleagues,"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Harvard",
+          "quotes": [
+            "Harvard in 1991 and 1992–93, and at the Massachusetts Institute of Technology (MIT) from 1993."
+          ]
+        },
+        {
+          "name": "Massachusetts Institute of Technology (MIT)",
+          "quotes": [
+            "Harvard in 1991 and 1992–93, and at the Massachusetts Institute of Technology (MIT) from 1993."
+          ]
+        },
+        {
+          "name": "Ford Foundation",
+          "quotes": [
+            "At MIT he was eventually (2003) appointed Ford Foundation International Professor of Economics."
+          ]
+        },
+        {
+          "name": "Abdul Latif Jameel Poverty Action Lab (J-PAL)",
+          "quotes": [
+            "In 2003 he and Duflo, along with Sendhil Mullainathan, an economist at MIT, founded the Abdul Latif Jameel Poverty Action Lab (J-PAL),"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Ford Foundation International Professor of Economics",
+          "quotes": [
+            "At MIT he was eventually (2003) appointed Ford Foundation International Professor of Economics."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "India",
+          "quotes": [
+            "Working with large student populations in two Indian cities over a two-year period, they found that such programs had substantial positive effects in the short and medium term, leading them to conclude that a major cause of poor learning in low-income countries was that teaching methods were not properly adapted to students’ needs."
+          ]
+        },
+        {
+          "place": "Kenya",
+          "quotes": [
+            "In later experimental research in Kenya, Duflo and Kremer determined that decreasing the size of classes taught by permanently employed teachers did not significantly improve learning but that putting teachers on short-term contracts, which were renewed only if the teacher achieved good results, did have beneficial effects."
+          ]
+        },
+        {
+          "place": "western Kenya",
+          "quotes": [
+            "Building on the results of field experiments conducted in the mid-1990s by Kremer and his colleagues, which had shown that poor learning (as measured by average test scores) among schoolchildren in western Kenya was not caused by scarcity of textbooks or even by hunger (many students went to school without breakfast),"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Harvard in 1991 and 1992–93, and at the Massachusetts Institute of Technology (MIT) from 1993."
+        ],
+        "confidence": "medium",
+        "notes": "Role not explicitly mentioned, but affiliation with Harvard is clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Harvard in 1991 and 1992–93, and at the Massachusetts Institute of Technology (MIT) from 1993."
+        ],
+        "confidence": "medium",
+        "notes": "Role not explicitly mentioned, but affiliation with MIT is clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          1,
+          2
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "At MIT he was eventually (2003) appointed Ford Foundation International Professor of Economics."
+        ],
+        "confidence": "high",
+        "notes": "Clear appointment to a specific role at MIT with Ford Foundation support."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2003 he and Duflo, along with Sendhil Mullainathan, an economist at MIT, founded the Abdul Latif Jameel Poverty Action Lab (J-PAL),"
+        ],
+        "confidence": "high",
+        "notes": "Founding of J-PAL implies an active role in its establishment and potentially ongoing involvement."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role and location information. While affiliation with Harvard is clear, the specific role is not mentioned."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classification as career_position is plausible but lacks explicit role confirmation."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role and location information. While affiliation with MIT is clear, the specific role is not mentioned."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classification as career_position is plausible but lacks explicit role confirmation."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 2,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

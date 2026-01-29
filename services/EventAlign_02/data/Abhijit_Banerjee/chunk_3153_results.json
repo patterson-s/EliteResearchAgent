@@ -1,0 +1,175 @@
+{
+  "status": "success",
+  "chunk_id": 3153,
+  "chunk_index": 10,
+  "source_url": "https://www.nobelprize.org/prizes/economic-sciences/2019/banerjee/biographical/",
+  "title": "Abhijit Banerjee – Biographical - NobelPrize.org",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "the year after, in 1993",
+          "type": "point",
+          "quotes": [
+            "This was great for me – it gave me exposure and made it possible for me to move to MIT the year after, in 1993."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Harvard",
+          "quotes": [
+            "suddenly I was getting feelers from here and there, and eventually an offer to return to Harvard.",
+            "The move to Harvard made me a development economist."
+          ]
+        },
+        {
+          "name": "MIT",
+          "quotes": [
+            "made it possible for me to move to MIT the year after, in 1993.",
+            "As I said, I moved to MIT the next year, and continued to be allowed to teach PhD development."
+          ]
+        },
+        {
+          "name": "Columbia",
+          "quotes": [
+            "The resulting relative isolation from the academic network at Columbia might have been one reason why despite her great charm and obvious brilliance, she had a very hard time finding an academic position."
+          ]
+        },
+        {
+          "name": "Princeton",
+          "quotes": [
+            "which is what I taught at Princeton, were already covered."
+          ]
+        },
+        {
+          "name": "MIT’s fund-raising team",
+          "quotes": [
+            "She eventually turned this around and is now one of the heads of MIT’s fund-raising team,"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "development economist",
+          "quotes": [
+            "The move to Harvard made me a development economist."
+          ]
+        },
+        {
+          "title": "heads of MIT’s fund-raising team",
+          "quotes": [
+            "She eventually turned this around and is now one of the heads of MIT’s fund-raising team,"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The move to Harvard made me a development economist.",
+          "suddenly I was getting feelers from here and there, and eventually an offer to return to Harvard."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time marker, but the role and organization are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "made it possible for me to move to MIT the year after, in 1993.",
+          "As I said, I moved to MIT the next year, and continued to be allowed to teach PhD development."
+        ],
+        "confidence": "high",
+        "notes": "Time marker and organization are clearly linked, though no explicit role is mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "She eventually turned this around and is now one of the heads of MIT’s fund-raising team,"
+        ],
+        "confidence": "high",
+        "notes": "Role and organization are clearly linked, though no explicit time marker is provided."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position at Harvard."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role for the career position at MIT."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position as head of MIT's fund-raising team."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The role 'heads of MIT’s fund-raising team' might be better classified as an award if it's an honorary position, but it's kept as career_position based on the provided information."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

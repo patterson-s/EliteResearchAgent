@@ -1,0 +1,190 @@
+{
+  "status": "success",
+  "chunk_id": 3162,
+  "chunk_index": 2,
+  "source_url": "https://www.povertyactionlab.org/person/banerjee",
+  "title": "Abhijit Banerjee | The Abdul Latif Jameel Poverty Action Lab",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "MIT",
+          "quotes": [
+            "MIT’s Master of Applied Science in Data, Economics, and Design of Policy program adds a public policy track",
+            "AI 'work-free society' may not be happier, says Banerjee of MIT"
+          ]
+        },
+        {
+          "name": "J-PAL Africa",
+          "quotes": [
+            "J-PAL Africa, the City of Cape Town, and Community Jameel Launch New Water, Air, and Energy Lab"
+          ]
+        },
+        {
+          "name": "City of Cape Town",
+          "quotes": [
+            "J-PAL Africa, the City of Cape Town, and Community Jameel Launch New Water, Air, and Energy Lab"
+          ]
+        },
+        {
+          "name": "Community Jameel",
+          "quotes": [
+            "J-PAL Africa, the City of Cape Town, and Community Jameel Launch New Water, Air, and Energy Lab"
+          ]
+        },
+        {
+          "name": "UCT",
+          "quotes": [
+            "UCT hosts Nobel Laureate for lecture on universal basic income in the developing world"
+          ]
+        },
+        {
+          "name": "WAE Lab",
+          "quotes": [
+            "City’s WAE Lab targets clean air, water and energy solutions",
+            "New Water, Air, and Energy Lab to improve access for Capetonians",
+            "Excitement as Water, Air and Energy Lab launched in City"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Nobel-Prize laureate",
+          "quotes": [
+            "Podcast | Nobel-Prize laureate Abhijit Banerjee on the world's largest UBI experiment"
+          ]
+        },
+        {
+          "title": "Nobel Laureate",
+          "quotes": [
+            "UCT hosts Nobel Laureate for lecture on universal basic income in the developing world"
+          ]
+        },
+        {
+          "title": "Nobel laureates",
+          "quotes": [
+            "Education department set to enlist phone tutoring from Nobel laureates NGO",
+            "Nobel laureates Abhijit Banerjee & Esther Duflo turn findings into fun – play, exhibition"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Bihar, India",
+          "quotes": [
+            "Evaluating the Impact on Anemia of Making Double Fortified Salt Available in Bihar, India"
+          ]
+        },
+        {
+          "place": "Rajasthan, India",
+          "quotes": [
+            "Empowering Female Leaders and Voters in Rajasthan, India"
+          ]
+        },
+        {
+          "place": "Indonesia",
+          "quotes": [
+            "Effectively Targeting Anti-Poverty Programs in Indonesia"
+          ]
+        },
+        {
+          "place": "India",
+          "quotes": [
+            "Study in India shows several tactics together boost vaccination against deadly diseases",
+            "Study in India shows kids use different math skills at work vs. school",
+            "Illustrating India’s complex environmental crises"
+          ]
+        },
+        {
+          "place": "Kenya",
+          "quotes": [
+            "The Universal Basic Income experiment in Kenya",
+            "People can do more with lump sum of money than payments, experiment in Kenya suggests"
+          ]
+        },
+        {
+          "place": "Cape Town",
+          "quotes": [
+            "New Water, Air, and Energy Lab to improve access for Capetonians"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0,
+          1,
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Podcast | Nobel-Prize laureate Abhijit Banerjee on the world's largest UBI experiment",
+          "UCT hosts Nobel Laureate for lecture on universal basic income in the developing world",
+          "Education department set to enlist phone tutoring from Nobel laureates NGO",
+          "Nobel laureates Abhijit Banerjee & Esther Duflo turn findings into fun – play, exhibition"
+        ],
+        "confidence": "high",
+        "notes": "Nobel Laureate/Prize is clearly an award, and the quotes indicate recognition without ongoing responsibilities."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1,
+          2,
+          3,
+          5
+        ],
+        "role_ids": [],
+        "location_ids": [
+          5
+        ],
+        "supporting_quotes": [
+          "J-PAL Africa, the City of Cape Town, and Community Jameel Launch New Water, Air, and Energy Lab",
+          "City’s WAE Lab targets clean air, water and energy solutions",
+          "New Water, Air, and Energy Lab to improve access for Capetonians",
+          "Excitement as Water, Air and Energy Lab launched in City"
+        ],
+        "confidence": "medium",
+        "notes": "While no specific role is mentioned, the collaboration between organizations and the launch of the WAE Lab suggests an active career position or project involvement."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, though the event appears to describe a career position or project involvement."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 1
+    }
+  }
+}

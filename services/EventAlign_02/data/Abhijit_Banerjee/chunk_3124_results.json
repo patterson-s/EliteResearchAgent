@@ -1,0 +1,87 @@
+{
+  "status": "success",
+  "chunk_id": 3124,
+  "chunk_index": 9,
+  "source_url": "https://en.wikipedia.org/wiki/Abhijit_Banerjee",
+  "title": "Abhijit Banerjee - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2019",
+          "type": "point",
+          "quotes": [
+            "2019\nNobel Prize\nlaureates"
+          ]
+        },
+        {
+          "text": "1969–1975",
+          "type": "range",
+          "quotes": [
+            "Laureates\nof the\nSveriges Riksbank Prize in Economic Sciences\n1969–1975"
+          ]
+        },
+        {
+          "text": "1976–2000",
+          "type": "range",
+          "quotes": [
+            "1976–2000"
+          ]
+        },
+        {
+          "text": "2001–present",
+          "type": "open",
+          "quotes": [
+            "2001–present"
+          ]
+        }
+      ],
+      "organizations": [],
+      "roles": [],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "2019\nNobel Prize\nlaureates"
+        ],
+        "confidence": "high",
+        "notes": "Nobel Prize laureate is clearly an award, with no associated organization, role, or location."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing organization, role, and location information, though this might be expected for a general award mention."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 0,
+      "awards": 1
+    }
+  }
+}

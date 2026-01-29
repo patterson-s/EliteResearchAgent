@@ -1,0 +1,169 @@
+{
+  "status": "success",
+  "chunk_id": 3164,
+  "chunk_index": 4,
+  "source_url": "https://www.povertyactionlab.org/person/banerjee",
+  "title": "Abhijit Banerjee | The Abdul Latif Jameel Poverty Action Lab",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2020",
+          "type": "point",
+          "quotes": [
+            "How Three Local Nobel Prize Winners Think About Poverty In 2020"
+          ]
+        },
+        {
+          "text": "2019",
+          "type": "point",
+          "quotes": [
+            "2019 Nobel Prize Recipient, Abhijit Banerjee, Reflects On Leadership In The Social Sector"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "MIT",
+          "quotes": [
+            "Three from MIT elected to the National Academy of Sciences for 2020",
+            "MIT launches master's in data, economics, and development policy, led by Nobel laureates",
+            "MIT economists Esther Duflo and Abhijit Banerjee win Nobel Prize"
+          ]
+        },
+        {
+          "name": "National Academy of Sciences",
+          "quotes": [
+            "Three from MIT elected to the National Academy of Sciences for 2020"
+          ]
+        },
+        {
+          "name": "J-PAL",
+          "quotes": [
+            "Odisha to partner Nobel laureates’ J-PAL",
+            "J-PAL Co-Founders Abhijit Banerjee and Esther Duflo Awarded Nobel Memorial Prize in Economics"
+          ]
+        },
+        {
+          "name": "Pratham",
+          "quotes": [
+            "Glimpses of Pratham's 20-year partnership with Abhijit Banerjee and Esther Duflo"
+          ]
+        },
+        {
+          "name": "UCT",
+          "quotes": [
+            "UCT's Role in Nobel Win"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Nobel laureate",
+          "quotes": [
+            "Video clip by Nobel laureate Abhijit Banerjee helped Bengal follow Covid-19 rules: Study",
+            "MIT economists Esther Duflo and Abhijit Banerjee win Nobel Prize",
+            "J-PAL Co-Founders Abhijit Banerjee and Esther Duflo Awarded Nobel Memorial Prize in Economics"
+          ]
+        },
+        {
+          "title": "Co-Founders of J-PAL",
+          "quotes": [
+            "J-PAL Co-Founders Abhijit Banerjee and Esther Duflo Awarded Nobel Memorial Prize in Economics"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Odisha",
+          "quotes": [
+            "project on universal basic income in Odisha districts",
+            "Odisha to partner Nobel laureates’ J-PAL"
+          ]
+        },
+        {
+          "place": "Bengal",
+          "quotes": [
+            "COVID-19: How Indian Nobel Laureate Abhijit Banerjee doubled reporting of symptoms in Bengal"
+          ]
+        },
+        {
+          "place": "Rajasthan",
+          "quotes": [
+            "Mindspark in Rajasthan: Personalized adaptive learning tools to improve learning outcomes"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "MIT economists Esther Duflo and Abhijit Banerjee win Nobel Prize",
+          "J-PAL Co-Founders Abhijit Banerjee and Esther Duflo Awarded Nobel Memorial Prize in Economics",
+          "How Three Local Nobel Prize Winners Think About Poverty In 2020",
+          "2019 Nobel Prize Recipient, Abhijit Banerjee, Reflects On Leadership In The Social Sector"
+        ],
+        "confidence": "high",
+        "notes": "Nobel laureate is clearly an award, supported by multiple quotes."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "J-PAL Co-Founders Abhijit Banerjee and Esther Duflo Awarded Nobel Memorial Prize in Economics"
+        ],
+        "confidence": "high",
+        "notes": "Co-Founders of J-PAL indicates an active role in the organization."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 1
+    }
+  }
+}

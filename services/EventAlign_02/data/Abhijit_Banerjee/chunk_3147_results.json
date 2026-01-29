@@ -1,0 +1,139 @@
+{
+  "status": "success",
+  "chunk_id": 3147,
+  "chunk_index": 4,
+  "source_url": "https://www.nobelprize.org/prizes/economic-sciences/2019/banerjee/biographical/",
+  "title": "Abhijit Banerjee – Biographical - NobelPrize.org",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "some thirty years later",
+          "type": "point",
+          "quotes": [
+            "It was only some thirty years later that I caught, in the writings of my friends Thomas Piketty, Daron Acemoglu and Jim Robinson (and their many collaborators), a glimpse of where some genuinely creative Marxist thinking could take us."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Delhi School",
+          "quotes": [
+            "a recruitment visit to the Delhi School, where a brash young faculty member told me that DSE was the royal road to PhD pro­grams in the US."
+          ]
+        },
+        {
+          "name": "JNU",
+          "quotes": [
+            "I was on my way to JNU.",
+            "I have written elsewhere at some length about my JNU experience."
+          ]
+        },
+        {
+          "name": "Presidency",
+          "quotes": [
+            "thanks to the excellent grounding in basic economic logic that I came with from Presidency."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "faculty member",
+          "quotes": [
+            "a brash young faculty member told me that DSE was the royal road to PhD pro­grams in the US."
+          ]
+        },
+        {
+          "title": "undergraduate",
+          "quotes": [
+            "I had tried to read Marx as an undergraduate, and found him, in equal measure, illuminating and confusing"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "a brash young faculty member told me that DSE was the royal road to PhD pro­grams in the US."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time marker, but the role and organization are clear. Assuming this is a past position based on the context."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "I had tried to read Marx as an undergraduate, and found him, in equal measure, illuminating and confusing",
+          "thanks to the excellent grounding in basic economic logic that I came with from Presidency."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time marker, but the role and organization are clear. Assuming this is a past position based on the context."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quote does not explicitly state the role or organization, only implies context."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The role 'undergraduate' might not be a career position, consider reclassification as education event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

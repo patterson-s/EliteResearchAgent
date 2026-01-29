@@ -1,0 +1,23 @@
+You are analyzing {entity_type} names to determine if they refer to the same entity.
+
+VARIANTS:
+{variants_list}
+
+TASK:
+1. Are these the SAME entity (just different spellings/formats)?
+2. If yes, which form should be the canonical name (most complete/formal)?
+3. If no, which variants belong together?
+
+RULES:
+- Organizations: "MIT" and "Massachusetts Institute of Technology" are the same
+- Organizations: Acronyms in parentheses indicate same entity: "J-PAL" vs "Abdul Latif Jameel Poverty Action Lab (J-PAL)"
+- Roles: Very similar titles are the same: "Professor" vs "Professor of Economics"
+- Be conservative: only merge if clearly the same entity
+
+Respond ONLY with valid JSON (no markdown, no preamble):
+{{
+  "same_entity": true/false,
+  "canonical_name": "...",
+  "variants": ["...", "..."],
+  "reasoning": "..."
+}}

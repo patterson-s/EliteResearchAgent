@@ -1,0 +1,308 @@
+[
+  {
+    "cluster_id": 0,
+    "event_indices": [
+      0,
+      1,
+      20
+    ],
+    "size": 3,
+    "year_span": [
+      1961,
+      2019
+    ],
+    "organizations": [
+      "MIT News",
+      "India Today",
+      "The New York Times",
+      "Abdul Latif Jameel Poverty Action Lab (J-PAL)"
+    ],
+    "roles": [
+      "Nobel Laureate",
+      "Co-founder and Co-director",
+      "Ford Foundation International Professor of Economics"
+    ],
+    "potential_duplicates": [
+      {
+        "event1_idx": 0,
+        "event2_idx": 1,
+        "similarity": {
+          "same_org": true,
+          "same_role": false,
+          "org_overlap": [
+            "Abdul Latif Jameel Poverty Action Lab (J-PAL)"
+          ],
+          "role_overlap": []
+        }
+      }
+    ]
+  },
+  {
+    "cluster_id": 1,
+    "event_indices": [
+      2,
+      6
+    ],
+    "size": 2,
+    "year_span": [
+      1994,
+      1994
+    ],
+    "organizations": [
+      "Sloan Research Fellowship"
+    ],
+    "roles": [],
+    "potential_duplicates": []
+  },
+  {
+    "cluster_id": 2,
+    "event_indices": [
+      3,
+      9,
+      27,
+      35
+    ],
+    "size": 4,
+    "year_span": [
+      2006,
+      2012
+    ],
+    "organizations": [
+      "Infosys Prize"
+    ],
+    "roles": [],
+    "potential_duplicates": []
+  },
+  {
+    "cluster_id": 3,
+    "event_indices": [
+      4,
+      14,
+      17,
+      21,
+      22,
+      31,
+      36,
+      40,
+      48,
+      52,
+      55
+    ],
+    "size": 11,
+    "year_span": [
+      2019,
+      2020
+    ],
+    "organizations": [
+      "Royal Swedish Academy of Sciences",
+      "The Guardian",
+      "Export-Import Bank of India",
+      "Abdul Latif Jameel Poverty Action Lab (J-PAL)"
+    ],
+    "roles": [
+      "cofounder of the Abdul Latif Jameel Poverty Action Lab (J-PAL)",
+      "Nobel laureate",
+      "co-recipient of the 2019 Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
+      "Nobel Prize Winner"
+    ],
+    "potential_duplicates": [
+      {
+        "event1_idx": 21,
+        "event2_idx": 31,
+        "similarity": {
+          "same_org": true,
+          "same_role": false,
+          "org_overlap": [
+            "Royal Swedish Academy of Sciences"
+          ],
+          "role_overlap": []
+        }
+      },
+      {
+        "event1_idx": 31,
+        "event2_idx": 40,
+        "similarity": {
+          "same_org": false,
+          "same_role": true,
+          "org_overlap": [],
+          "role_overlap": [
+            "Nobel laureate"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "cluster_id": 4,
+    "event_indices": [
+      5,
+      19
+    ],
+    "size": 2,
+    "year_span": [
+      2022,
+      2022
+    ],
+    "organizations": [
+      "American Academy of Achievement"
+    ],
+    "roles": [],
+    "potential_duplicates": []
+  },
+  {
+    "cluster_id": 5,
+    "event_indices": [
+      10,
+      24,
+      25
+    ],
+    "size": 3,
+    "year_span": [
+      2012,
+      2012
+    ],
+    "organizations": [],
+    "roles": [],
+    "potential_duplicates": []
+  },
+  {
+    "cluster_id": 6,
+    "event_indices": [
+      12,
+      41
+    ],
+    "size": 2,
+    "year_span": [
+      2014,
+      2014
+    ],
+    "organizations": [
+      "Kiel Institute for the World Economy"
+    ],
+    "roles": [],
+    "potential_duplicates": []
+  },
+  {
+    "cluster_id": 7,
+    "event_indices": [
+      23,
+      37,
+      46,
+      50
+    ],
+    "size": 4,
+    "year_span": [
+      2011,
+      2011
+    ],
+    "organizations": [
+      "Foreign Policy magazine"
+    ],
+    "roles": [],
+    "potential_duplicates": []
+  },
+  {
+    "cluster_id": 8,
+    "event_indices": [
+      32,
+      33,
+      34,
+      44,
+      45,
+      51,
+      54
+    ],
+    "size": 7,
+    "year_span": [
+      2003,
+      2003
+    ],
+    "organizations": [
+      "Abdul Latif Jameel Poverty Action Lab (J-PAL)",
+      "J-PAL",
+      "Ford Foundation",
+      "Massachusetts Institute of Technology (MIT)"
+    ],
+    "roles": [
+      "co-founder and Director of J-PAL",
+      "Co-chair of J-PAL’s education sector",
+      "Scientific Director, J-PAL Europe",
+      "Director",
+      "Ford Foundation International Professor of Economics"
+    ],
+    "potential_duplicates": [
+      {
+        "event1_idx": 33,
+        "event2_idx": 44,
+        "similarity": {
+          "same_org": true,
+          "same_role": false,
+          "org_overlap": [
+            "Abdul Latif Jameel Poverty Action Lab (J-PAL)"
+          ],
+          "role_overlap": []
+        }
+      },
+      {
+        "event1_idx": 33,
+        "event2_idx": 45,
+        "similarity": {
+          "same_org": true,
+          "same_role": false,
+          "org_overlap": [
+            "Abdul Latif Jameel Poverty Action Lab (J-PAL)"
+          ],
+          "role_overlap": []
+        }
+      },
+      {
+        "event1_idx": 33,
+        "event2_idx": 54,
+        "similarity": {
+          "same_org": true,
+          "same_role": false,
+          "org_overlap": [
+            "Abdul Latif Jameel Poverty Action Lab (J-PAL)"
+          ],
+          "role_overlap": []
+        }
+      },
+      {
+        "event1_idx": 44,
+        "event2_idx": 45,
+        "similarity": {
+          "same_org": true,
+          "same_role": false,
+          "org_overlap": [
+            "Abdul Latif Jameel Poverty Action Lab (J-PAL)"
+          ],
+          "role_overlap": []
+        }
+      },
+      {
+        "event1_idx": 44,
+        "event2_idx": 54,
+        "similarity": {
+          "same_org": true,
+          "same_role": false,
+          "org_overlap": [
+            "Abdul Latif Jameel Poverty Action Lab (J-PAL)"
+          ],
+          "role_overlap": []
+        }
+      },
+      {
+        "event1_idx": 45,
+        "event2_idx": 54,
+        "similarity": {
+          "same_org": true,
+          "same_role": false,
+          "org_overlap": [
+            "Abdul Latif Jameel Poverty Action Lab (J-PAL)"
+          ],
+          "role_overlap": []
+        }
+      }
+    ]
+  }
+]

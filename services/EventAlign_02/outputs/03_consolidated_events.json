@@ -1,0 +1,1966 @@
+[
+  {
+    "consolidated_event_id": "G001",
+    "decision": "different_events",
+    "canonical_representation": null,
+    "accumulated_details": {
+      "organization_variants": [
+        "Abdul Latif Jameel Poverty Action Lab (J-PAL)"
+      ],
+      "role_variants": [
+        "Co-founder and Co-director",
+        "Ford Foundation International Professor of Economics"
+      ],
+      "location_variants": [],
+      "time_representations": [
+        {
+          "text": "1993–present",
+          "chunk": 3115
+        },
+        {
+          "text": "1993–present",
+          "chunk": 3115
+        }
+      ]
+    },
+    "provenance": {
+      "source_event_count": 2,
+      "source_chunks": [
+        3115,
+        3115
+      ],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Abhijit_Banerjee"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "Although both events share the same organization and time period, they describe different roles (Co-founder and Co-director vs. Ford Foundation International Professor of Economics). According to the decision rules, different roles at the same organization are likely DIFFERENT events."
+    }
+  },
+  {
+    "consolidated_event_id": "G021",
+    "decision": "same_event",
+    "canonical_representation": {
+      "event_type": "award",
+      "organization": "Royal Swedish Academy of Sciences",
+      "role": "Nobel Laureate",
+      "start_year": 2019,
+      "end_year": 2019,
+      "locations": [
+        "Stockholm"
+      ],
+      "additional_details": [
+        "Mentioned in The New York Times, India Today, and MIT News (EVENT 1)",
+        "Time markers include 15 October 2019 and 1961 (EVENT 1)",
+        "Time markers include 2020 (EVENT 3)"
+      ]
+    },
+    "accumulated_details": {
+      "organization_variants": [
+        "Royal Swedish Academy of Sciences",
+        "The New York Times",
+        "India Today",
+        "MIT News"
+      ],
+      "role_variants": [
+        "Nobel laureate",
+        "Nobel Laureate"
+      ],
+      "location_variants": [
+        "Stockholm"
+      ],
+      "time_representations": [
+        {
+          "text": "15 October 2019",
+          "chunk": 3121
+        },
+        {
+          "text": "1961",
+          "chunk": 3121
+        },
+        {
+          "text": "2019",
+          "chunk": 3157
+        },
+        {
+          "text": "2020",
+          "chunk": 3164
+        },
+        {
+          "text": "2019",
+          "chunk": 3164
+        }
+      ]
+    },
+    "provenance": {
+      "source_event_count": 3,
+      "source_chunks": [
+        3121,
+        3157,
+        3164
+      ],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Abhijit_Banerjee",
+        "https://www.povertyactionlab.org/person/banerjee",
+        "https://www.britannica.com/money/Abhijit-Banerjee"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "All events describe an award with the same role (Nobel Laureate) and occur in the same year (2019), indicating they are likely the same event. While EVENT 1 has a broader time range and mentions different organizations, the core details align with EVENT 2 and EVENT 3, which are more specific to the 2019 Nobel Prize. The Royal Swedish Academy of Sciences is the formal organization associated with the Nobel Prize, making it the most complete organization name to use."
+    }
+  },
+  {
+    "consolidated_event_id": "G033",
+    "decision": "same_event",
+    "canonical_representation": {
+      "event_type": "career_position",
+      "organization": "Massachusetts Institute of Technology",
+      "role": "Ford Foundation International Professor of Economics",
+      "start_year": 2003,
+      "end_year": null,
+      "locations": [],
+      "additional_details": [
+        "Source chunks: 3158, 3170, 3174"
+      ]
+    },
+    "accumulated_details": {
+      "organization_variants": [
+        "Massachusetts Institute of Technology (MIT)",
+        "Ford Foundation",
+        "Massachusetts Institute of Technology"
+      ],
+      "role_variants": [
+        "Ford Foundation International Professor of Economics"
+      ],
+      "location_variants": [],
+      "time_representations": [
+        {
+          "text": "2003",
+          "chunk": 3158
+        }
+      ]
+    },
+    "provenance": {
+      "source_event_count": 3,
+      "source_chunks": [
+        3158,
+        3170,
+        3174
+      ],
+      "source_urls": [
+        "https://www.carnegie.org/awards/honoree/abhijit-banerjee/",
+        "https://www.britannica.com/money/Abhijit-Banerjee",
+        "https://economics.mit.edu/people/faculty/abhijit-banerjee/short-bio"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "All three events describe the same career position with the same role ('Ford Foundation International Professor of Economics') at the same organization ('Massachusetts Institute of Technology'). While EVENT 1 specifies the year 2003, EVENT 2 and EVENT 3 have unknown time ranges, but the consistency in role and organization strongly suggests they are referring to the same event. The time marker in EVENT 1 provides a specific year, which can be used as the start_year in the consolidated representation."
+    }
+  },
+  {
+    "consolidated_event_id": "G034",
+    "decision": "different_events",
+    "canonical_representation": null,
+    "accumulated_details": {
+      "organization_variants": [
+        "Abdul Latif Jameel Poverty Action Lab (J-PAL)"
+      ],
+      "role_variants": [
+        "Director",
+        "co-founder and Director of J-PAL",
+        "Co-chair of J-PAL’s education sector"
+      ],
+      "location_variants": [],
+      "time_representations": [
+        {
+          "text": "2003",
+          "chunk": 3158
+        },
+        {
+          "text": "In 2003",
+          "chunk": 3169
+        },
+        {
+          "text": "In 2003",
+          "chunk": 3169
+        },
+        {
+          "text": "In 2003",
+          "chunk": 3174
+        }
+      ]
+    },
+    "provenance": {
+      "source_event_count": 4,
+      "source_chunks": [
+        3158,
+        3169,
+        3169,
+        3174
+      ],
+      "source_urls": [
+        "https://live.worldbank.org/en/experts/a/abhijit-banerjee",
+        "https://www.britannica.com/money/Abhijit-Banerjee",
+        "https://economics.mit.edu/people/faculty/abhijit-banerjee/short-bio"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "While all events share the same organization (Abdul Latif Jameel Poverty Action Lab (J-PAL)) and year (2003), they describe different roles: Co-chair of J-PAL’s education sector, Director, and Co-founder and Co-director. According to the decision rules, different roles at the same organization are likely DIFFERENT events."
+    }
+  },
+  {
+    "consolidated_event_id": "G050",
+    "decision": "same_event",
+    "canonical_representation": {
+      "event_type": "career_position",
+      "organization": "Save the Children USA, British Museum, Global Education Evidence Advisory Panel",
+      "role": "Trustee of Save the Children USA, Trustee of the British Museum, Chair of the Global Education Evidence Advisory Panel",
+      "start_year": null,
+      "end_year": null,
+      "locations": [],
+      "additional_details": [
+        "Roles held concurrently across multiple organizations"
+      ]
+    },
+    "accumulated_details": {
+      "organization_variants": [
+        "Global Education Evidence Advisory Panel",
+        "Save the Children USA",
+        "British Museum"
+      ],
+      "role_variants": [
+        "trustee of Save the Children USA",
+        "chair of the Global Education Evidence Advisory Panel",
+        "Chair of the Global Education Evidence Advisory Panel",
+        "trustee of the British Museum"
+      ],
+      "location_variants": [],
+      "time_representations": []
+    },
+    "provenance": {
+      "source_event_count": 4,
+      "source_chunks": [
+        3170,
+        3174,
+        3174,
+        3174
+      ],
+      "source_urls": [
+        "https://www.carnegie.org/awards/honoree/abhijit-banerjee/",
+        "https://economics.mit.edu/people/faculty/abhijit-banerjee/short-bio"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "All events describe career positions held by the same individual across different organizations (Save the Children USA, British Museum, Global Education Evidence Advisory Panel) with the same roles (trustee, Chair) but are split across different sources. Since the roles are distinct and there's no indication of overlapping or sequential timing, they are best consolidated as a single event representing multiple concurrent positions."
+    }
+  },
+  {
+    "consolidated_event_id": "S003",
+    "decision": "singleton",
+    "canonical_representation": {
+      "event_type": "award",
+      "organization": null,
+      "role": null,
+      "start_year": 1994,
+      "end_year": 1994,
+      "locations": []
+    },
+    "accumulated_details": {
+      "organization_variants": [],
+      "role_variants": [],
+      "location_variants": [],
+      "time_representations": [
+        {
+          "text": "1994",
+          "chunk": 3115
+        }
+      ]
+    },
+    "provenance": {
+      "source_event_count": 1,
+      "source_chunks": [
+        3115
+      ],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Abhijit_Banerjee"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "Single event"
+    }
+  },
+  {
+    "consolidated_event_id": "S004",
+    "decision": "singleton",
+    "canonical_representation": {
+      "event_type": "award",
+      "organization": null,
+      "role": null,
+      "start_year": 2009,
+      "end_year": 2009,
+      "locations": []
+    },
+    "accumulated_details": {
+      "organization_variants": [],
+      "role_variants": [],
+      "location_variants": [],
+      "time_representations": [
+        {
+          "text": "2009",
+          "chunk": 3115
+        }
+      ]
+    },
+    "provenance": {
+      "source_event_count": 1,
+      "source_chunks": [
+        3115
+      ],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Abhijit_Banerjee"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "Single event"
+    }
+  },
+  {
+    "consolidated_event_id": "S005",
+    "decision": "singleton",
+    "canonical_representation": {
+      "event_type": "award",
+      "organization": null,
+      "role": null,
+      "start_year": 2019,
+      "end_year": 2019,
+      "locations": []
+    },
+    "accumulated_details": {
+      "organization_variants": [],
+      "role_variants": [],
+      "location_variants": [],
+      "time_representations": [
+        {
+          "text": "2019",
+          "chunk": 3115
+        }
+      ]
+    },
+    "provenance": {
+      "source_event_count": 1,
+      "source_chunks": [
+        3115
+      ],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Abhijit_Banerjee"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "Single event"
+    }
+  },
+  {
+    "consolidated_event_id": "S006",
+    "decision": "singleton",
+    "canonical_representation": {
+      "event_type": "award",
+      "organization": null,
+      "role": null,
+      "start_year": 2022,
+      "end_year": 2022,
+      "locations": []
+    },
+    "accumulated_details": {
+      "organization_variants": [],
+      "role_variants": [],
+      "location_variants": [],
+      "time_representations": [
+        {
+          "text": "2022",
+          "chunk": 3115
+        }
+      ]
+    },
+    "provenance": {
+      "source_event_count": 1,
+      "source_chunks": [
+        3115
+      ],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Abhijit_Banerjee"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "Single event"
+    }
+  },
+  {
+    "consolidated_event_id": "S007",
+    "decision": "singleton",
+    "canonical_representation": {
+      "event_type": "award",
+      "organization": "Sloan Research Fellowship",
+      "role": null,
+      "start_year": 1994,
+      "end_year": 1994,
+      "locations": []
+    },
+    "accumulated_details": {
+      "organization_variants": [
+        "Sloan Research Fellowship"
+      ],
+      "role_variants": [],
+      "location_variants": [],
+      "time_representations": [
+        {
+          "text": "In 1994",
+          "chunk": 3116
+        }
+      ]
+    },
+    "provenance": {
+      "source_event_count": 1,
+      "source_chunks": [
+        3116
+      ],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Abhijit_Banerjee"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "Single event"
+    }
+  },
+  {
+    "consolidated_event_id": "S008",
+    "decision": "singleton",
+    "canonical_representation": {
+      "event_type": "career_position",
+      "organization": "Presidency College",
+      "role": null,
+      "start_year": 1981,
+      "end_year": 1981,
+      "locations": [
+        "New Delhi"
+      ]
+    },
+    "accumulated_details": {
+      "organization_variants": [
+        "Presidency College",
+        "University of Calcutta"
+      ],
+      "role_variants": [],
+      "location_variants": [
+        "New Delhi"
+      ],
+      "time_representations": [
+        {
+          "text": "in 1981",
+          "chunk": 3116
+        }
+      ]
+    },
+    "provenance": {
+      "source_event_count": 1,
+      "source_chunks": [
+        3116
+      ],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Abhijit_Banerjee"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "Single event"
+    }
+  },
+  {
+    "consolidated_event_id": "S009",
+    "decision": "singleton",
+    "canonical_representation": {
+      "event_type": "award",
+      "organization": "American Academy of Arts and Sciences",
+      "role": null,
+      "start_year": 2004,
+      "end_year": 2004,
+      "locations": []
+    },
+    "accumulated_details": {
+      "organization_variants": [
+        "American Academy of Arts and Sciences"
+      ],
+      "role_variants": [],
+      "location_variants": [],
+      "time_representations": [
+        {
+          "text": "2004",
+          "chunk": 3117
+        }
+      ]
+    },
+    "provenance": {
+      "source_event_count": 1,
+      "source_chunks": [
+        3117
+      ],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Abhijit_Banerjee"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "Single event"
+    }
+  },
+  {
+    "consolidated_event_id": "S010",
+    "decision": "singleton",
+    "canonical_representation": {
+      "event_type": "award",
+      "organization": "Infosys Prize",
+      "role": null,
+      "start_year": 2009,
+      "end_year": 2009,
+      "locations": []
+    },
+    "accumulated_details": {
+      "organization_variants": [
+        "Infosys Prize"
+      ],
+      "role_variants": [],
+      "location_variants": [],
+      "time_representations": [
+        {
+          "text": "2009",
+          "chunk": 3117
+        }
+      ]
+    },
+    "provenance": {
+      "source_event_count": 1,
+      "source_chunks": [
+        3117
+      ],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Abhijit_Banerjee"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "Single event"
+    }
+  },
+  {
+    "consolidated_event_id": "S011",
+    "decision": "singleton",
+    "canonical_representation": {
+      "event_type": "award",
+      "organization": null,
+      "role": null,
+      "start_year": 2012,
+      "end_year": 2012,
+      "locations": []
+    },
+    "accumulated_details": {
+      "organization_variants": [],
+      "role_variants": [],
+      "location_variants": [],
+      "time_representations": [
+        {
+          "text": "2012",
+          "chunk": 3117
+        }
+      ]
+    },
+    "provenance": {
+      "source_event_count": 1,
+      "source_chunks": [
+        3117
+      ],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Abhijit_Banerjee"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "Single event"
+    }
+  },
+  {
+    "consolidated_event_id": "S012",
+    "decision": "singleton",
+    "canonical_representation": {
+      "event_type": "career_position",
+      "organization": "United Nations",
+      "role": null,
+      "start_year": 2013,
+      "end_year": 2013,
+      "locations": []
+    },
+    "accumulated_details": {
+      "organization_variants": [
+        "United Nations"
+      ],
+      "role_variants": [],
+      "location_variants": [],
+      "time_representations": [
+        {
+          "text": "2013",
+          "chunk": 3117
+        }
+      ]
+    },
+    "provenance": {
+      "source_event_count": 1,
+      "source_chunks": [
+        3117
+      ],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Abhijit_Banerjee"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "Single event"
+    }
+  },
+  {
+    "consolidated_event_id": "S013",
+    "decision": "singleton",
+    "canonical_representation": {
+      "event_type": "award",
+      "organization": "Kiel Institute for the World Economy",
+      "role": null,
+      "start_year": 2014,
+      "end_year": 2014,
+      "locations": []
+    },
+    "accumulated_details": {
+      "organization_variants": [
+        "Kiel Institute for the World Economy"
+      ],
+      "role_variants": [],
+      "location_variants": [],
+      "time_representations": [
+        {
+          "text": "2014",
+          "chunk": 3117
+        }
+      ]
+    },
+    "provenance": {
+      "source_event_count": 1,
+      "source_chunks": [
+        3117
+      ],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Abhijit_Banerjee"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "Single event"
+    }
+  },
+  {
+    "consolidated_event_id": "S014",
+    "decision": "singleton",
+    "canonical_representation": {
+      "event_type": "career_position",
+      "organization": "Infosys Prize",
+      "role": null,
+      "start_year": 2018,
+      "end_year": 2018,
+      "locations": []
+    },
+    "accumulated_details": {
+      "organization_variants": [
+        "Infosys Prize"
+      ],
+      "role_variants": [],
+      "location_variants": [],
+      "time_representations": [
+        {
+          "text": "2018",
+          "chunk": 3117
+        }
+      ]
+    },
+    "provenance": {
+      "source_event_count": 1,
+      "source_chunks": [
+        3117
+      ],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Abhijit_Banerjee"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "Single event"
+    }
+  },
+  {
+    "consolidated_event_id": "S015",
+    "decision": "singleton",
+    "canonical_representation": {
+      "event_type": "career_position",
+      "organization": "Export-Import Bank of India",
+      "role": null,
+      "start_year": 2019,
+      "end_year": 2019,
+      "locations": []
+    },
+    "accumulated_details": {
+      "organization_variants": [
+        "Export-Import Bank of India"
+      ],
+      "role_variants": [],
+      "location_variants": [],
+      "time_representations": [
+        {
+          "text": "2019",
+          "chunk": 3117
+        }
+      ]
+    },
+    "provenance": {
+      "source_event_count": 1,
+      "source_chunks": [
+        3117
+      ],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Abhijit_Banerjee"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "Single event"
+    }
+  },
+  {
+    "consolidated_event_id": "S016",
+    "decision": "singleton",
+    "canonical_representation": {
+      "event_type": "award",
+      "organization": null,
+      "role": null,
+      "start_year": null,
+      "end_year": null,
+      "locations": []
+    },
+    "accumulated_details": {
+      "organization_variants": [],
+      "role_variants": [],
+      "location_variants": [],
+      "time_representations": [
+        {
+          "text": "That same year",
+          "chunk": 3118
+        }
+      ]
+    },
+    "provenance": {
+      "source_event_count": 1,
+      "source_chunks": [
+        3118
+      ],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Abhijit_Banerjee"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "Single event"
+    }
+  },
+  {
+    "consolidated_event_id": "S017",
+    "decision": "singleton",
+    "canonical_representation": {
+      "event_type": "career_position",
+      "organization": "University of Zurich",
+      "role": null,
+      "start_year": 2025,
+      "end_year": 2026,
+      "locations": []
+    },
+    "accumulated_details": {
+      "organization_variants": [
+        "UZH Faculty of Business, Economics, and Informatics",
+        "Lemann Center for Development, Education and Public Policy",
+        "University of Zurich"
+      ],
+      "role_variants": [
+        "co-direct"
+      ],
+      "location_variants": [],
+      "time_representations": [
+        {
+          "text": "In October 2025",
+          "chunk": 3118
+        },
+        {
+          "text": "in July 2026",
+          "chunk": 3118
+        }
+      ]
+    },
+    "provenance": {
+      "source_event_count": 1,
+      "source_chunks": [
+        3118
+      ],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Abhijit_Banerjee"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "Single event"
+    }
+  },
+  {
+    "consolidated_event_id": "S018",
+    "decision": "singleton",
+    "canonical_representation": {
+      "event_type": "award",
+      "organization": null,
+      "role": null,
+      "start_year": 2019,
+      "end_year": 2019,
+      "locations": []
+    },
+    "accumulated_details": {
+      "organization_variants": [],
+      "role_variants": [],
+      "location_variants": [],
+      "time_representations": [
+        {
+          "text": "in 2019",
+          "chunk": 3119
+        }
+      ]
+    },
+    "provenance": {
+      "source_event_count": 1,
+      "source_chunks": [
+        3119
+      ],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Abhijit_Banerjee"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "Single event"
+    }
+  },
+  {
+    "consolidated_event_id": "S019",
+    "decision": "singleton",
+    "canonical_representation": {
+      "event_type": "award",
+      "organization": "University of Calcutta",
+      "role": null,
+      "start_year": 2020,
+      "end_year": 2020,
+      "locations": []
+    },
+    "accumulated_details": {
+      "organization_variants": [
+        "University of Calcutta"
+      ],
+      "role_variants": [],
+      "location_variants": [],
+      "time_representations": [
+        {
+          "text": "January 2020",
+          "chunk": 3120
+        }
+      ]
+    },
+    "provenance": {
+      "source_event_count": 1,
+      "source_chunks": [
+        3120
+      ],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Abhijit_Banerjee"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "Single event"
+    }
+  },
+  {
+    "consolidated_event_id": "S020",
+    "decision": "singleton",
+    "canonical_representation": {
+      "event_type": "award",
+      "organization": "American Academy of Achievement",
+      "role": null,
+      "start_year": 2022,
+      "end_year": 2022,
+      "locations": []
+    },
+    "accumulated_details": {
+      "organization_variants": [
+        "American Academy of Achievement"
+      ],
+      "role_variants": [],
+      "location_variants": [],
+      "time_representations": [
+        {
+          "text": "September 2022",
+          "chunk": 3120
+        }
+      ]
+    },
+    "provenance": {
+      "source_event_count": 1,
+      "source_chunks": [
+        3120
+      ],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Abhijit_Banerjee"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "Single event"
+    }
+  },
+  {
+    "consolidated_event_id": "S022",
+    "decision": "singleton",
+    "canonical_representation": {
+      "event_type": "award",
+      "organization": "Royal Swedish Academy of Sciences",
+      "role": "Nobel Prize Winner",
+      "start_year": 2019,
+      "end_year": 2019,
+      "locations": []
+    },
+    "accumulated_details": {
+      "organization_variants": [
+        "Royal Swedish Academy of Sciences",
+        "The Guardian"
+      ],
+      "role_variants": [
+        "Nobel Prize Winner"
+      ],
+      "location_variants": [],
+      "time_representations": [
+        {
+          "text": "14 October 2019",
+          "chunk": 3123
+        },
+        {
+          "text": "14 October 2019",
+          "chunk": 3123
+        },
+        {
+          "text": "19 October 2019",
+          "chunk": 3123
+        }
+      ]
+    },
+    "provenance": {
+      "source_event_count": 1,
+      "source_chunks": [
+        3123
+      ],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Abhijit_Banerjee"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "Single event"
+    }
+  },
+  {
+    "consolidated_event_id": "S023",
+    "decision": "singleton",
+    "canonical_representation": {
+      "event_type": "award",
+      "organization": null,
+      "role": null,
+      "start_year": 2019,
+      "end_year": 2019,
+      "locations": []
+    },
+    "accumulated_details": {
+      "organization_variants": [],
+      "role_variants": [],
+      "location_variants": [],
+      "time_representations": [
+        {
+          "text": "2019:",
+          "chunk": 3125
+        }
+      ]
+    },
+    "provenance": {
+      "source_event_count": 1,
+      "source_chunks": [
+        3125
+      ],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Abhijit_Banerjee"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "Single event"
+    }
+  },
+  {
+    "consolidated_event_id": "S024",
+    "decision": "singleton",
+    "canonical_representation": {
+      "event_type": "award",
+      "organization": null,
+      "role": null,
+      "start_year": 2011,
+      "end_year": 2011,
+      "locations": []
+    },
+    "accumulated_details": {
+      "organization_variants": [],
+      "role_variants": [],
+      "location_variants": [],
+      "time_representations": [
+        {
+          "text": "2011:",
+          "chunk": 3125
+        }
+      ]
+    },
+    "provenance": {
+      "source_event_count": 1,
+      "source_chunks": [
+        3125
+      ],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Abhijit_Banerjee"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "Single event"
+    }
+  },
+  {
+    "consolidated_event_id": "S025",
+    "decision": "singleton",
+    "canonical_representation": {
+      "event_type": "award",
+      "organization": null,
+      "role": null,
+      "start_year": 2012,
+      "end_year": 2012,
+      "locations": []
+    },
+    "accumulated_details": {
+      "organization_variants": [],
+      "role_variants": [],
+      "location_variants": [],
+      "time_representations": [
+        {
+          "text": "2012:",
+          "chunk": 3125
+        }
+      ]
+    },
+    "provenance": {
+      "source_event_count": 1,
+      "source_chunks": [
+        3125
+      ],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Abhijit_Banerjee"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "Single event"
+    }
+  },
+  {
+    "consolidated_event_id": "S026",
+    "decision": "singleton",
+    "canonical_representation": {
+      "event_type": "award",
+      "organization": null,
+      "role": null,
+      "start_year": 2012,
+      "end_year": 2012,
+      "locations": []
+    },
+    "accumulated_details": {
+      "organization_variants": [],
+      "role_variants": [],
+      "location_variants": [],
+      "time_representations": [
+        {
+          "text": "2012 (HM):",
+          "chunk": 3125
+        }
+      ]
+    },
+    "provenance": {
+      "source_event_count": 1,
+      "source_chunks": [
+        3125
+      ],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Abhijit_Banerjee"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "Single event"
+    }
+  },
+  {
+    "consolidated_event_id": "S027",
+    "decision": "singleton",
+    "canonical_representation": {
+      "event_type": "award",
+      "organization": null,
+      "role": null,
+      "start_year": 1974,
+      "end_year": 1974,
+      "locations": []
+    },
+    "accumulated_details": {
+      "organization_variants": [],
+      "role_variants": [],
+      "location_variants": [],
+      "time_representations": [
+        {
+          "text": "1974:",
+          "chunk": 3125
+        }
+      ]
+    },
+    "provenance": {
+      "source_event_count": 1,
+      "source_chunks": [
+        3125
+      ],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Abhijit_Banerjee"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "Single event"
+    }
+  },
+  {
+    "consolidated_event_id": "S028",
+    "decision": "singleton",
+    "canonical_representation": {
+      "event_type": "award",
+      "organization": null,
+      "role": null,
+      "start_year": 2006,
+      "end_year": 2012,
+      "locations": []
+    },
+    "accumulated_details": {
+      "organization_variants": [],
+      "role_variants": [],
+      "location_variants": [],
+      "time_representations": [
+        {
+          "text": "2006–2012:",
+          "chunk": 3125
+        },
+        {
+          "text": "2006:",
+          "chunk": 3125
+        },
+        {
+          "text": "2007:",
+          "chunk": 3125
+        },
+        {
+          "text": "2008:",
+          "chunk": 3125
+        },
+        {
+          "text": "2009:",
+          "chunk": 3125
+        },
+        {
+          "text": "2010:",
+          "chunk": 3125
+        }
+      ]
+    },
+    "provenance": {
+      "source_event_count": 1,
+      "source_chunks": [
+        3125
+      ],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Abhijit_Banerjee"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "Single event"
+    }
+  },
+  {
+    "consolidated_event_id": "S029",
+    "decision": "singleton",
+    "canonical_representation": {
+      "event_type": "career_position",
+      "organization": "British Museum",
+      "role": "Trustees",
+      "start_year": null,
+      "end_year": null,
+      "locations": []
+    },
+    "accumulated_details": {
+      "organization_variants": [
+        "British Museum"
+      ],
+      "role_variants": [
+        "Trustees"
+      ],
+      "location_variants": [],
+      "time_representations": []
+    },
+    "provenance": {
+      "source_event_count": 1,
+      "source_chunks": [
+        3125
+      ],
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Abhijit_Banerjee"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "Single event"
+    }
+  },
+  {
+    "consolidated_event_id": "S030",
+    "decision": "singleton",
+    "canonical_representation": {
+      "event_type": "career_position",
+      "organization": "Editions du Seuil",
+      "role": "Author",
+      "start_year": 2021,
+      "end_year": 2021,
+      "locations": [
+        "Paris"
+      ]
+    },
+    "accumulated_details": {
+      "organization_variants": [
+        "Editions du Seuil"
+      ],
+      "role_variants": [
+        "Author"
+      ],
+      "location_variants": [
+        "Paris"
+      ],
+      "time_representations": [
+        {
+          "text": "April 2021",
+          "chunk": 3138
+        }
+      ]
+    },
+    "provenance": {
+      "source_event_count": 1,
+      "source_chunks": [
+        3138
+      ],
+      "source_urls": [
+        "https://economics.mit.edu/sites/default/files/2022-08/2022.08%20on%20website.pdf"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "Single event"
+    }
+  },
+  {
+    "consolidated_event_id": "S031",
+    "decision": "singleton",
+    "canonical_representation": {
+      "event_type": "award",
+      "organization": "Les Prix Nobel/Nobel Lectures/The Nobel Prizes",
+      "role": null,
+      "start_year": null,
+      "end_year": null,
+      "locations": []
+    },
+    "accumulated_details": {
+      "organization_variants": [
+        "Les Prix Nobel/Nobel Lectures/The Nobel Prizes"
+      ],
+      "role_variants": [],
+      "location_variants": [],
+      "time_representations": []
+    },
+    "provenance": {
+      "source_event_count": 1,
+      "source_chunks": [
+        3155
+      ],
+      "source_urls": [
+        "https://www.nobelprize.org/prizes/economic-sciences/2019/banerjee/biographical/"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "Single event"
+    }
+  },
+  {
+    "consolidated_event_id": "S035",
+    "decision": "singleton",
+    "canonical_representation": {
+      "event_type": "career_position",
+      "organization": "J-PAL",
+      "role": "Scientific Director, J-PAL Europe",
+      "start_year": 2003,
+      "end_year": 2003,
+      "locations": []
+    },
+    "accumulated_details": {
+      "organization_variants": [
+        "J-PAL"
+      ],
+      "role_variants": [
+        "Scientific Director, J-PAL Europe"
+      ],
+      "location_variants": [],
+      "time_representations": [
+        {
+          "text": "In 2003",
+          "chunk": 3160
+        }
+      ]
+    },
+    "provenance": {
+      "source_event_count": 1,
+      "source_chunks": [
+        3160
+      ],
+      "source_urls": [
+        "https://www.povertyactionlab.org/person/banerjee"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "Single event"
+    }
+  },
+  {
+    "consolidated_event_id": "S036",
+    "decision": "singleton",
+    "canonical_representation": {
+      "event_type": "award",
+      "organization": null,
+      "role": null,
+      "start_year": 2009,
+      "end_year": 2009,
+      "locations": []
+    },
+    "accumulated_details": {
+      "organization_variants": [],
+      "role_variants": [],
+      "location_variants": [],
+      "time_representations": [
+        {
+          "text": "2009",
+          "chunk": 3160
+        }
+      ]
+    },
+    "provenance": {
+      "source_event_count": 1,
+      "source_chunks": [
+        3160
+      ],
+      "source_urls": [
+        "https://www.povertyactionlab.org/person/banerjee"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "Single event"
+    }
+  },
+  {
+    "consolidated_event_id": "S037",
+    "decision": "singleton",
+    "canonical_representation": {
+      "event_type": "award",
+      "organization": null,
+      "role": null,
+      "start_year": 2019,
+      "end_year": 2019,
+      "locations": []
+    },
+    "accumulated_details": {
+      "organization_variants": [],
+      "role_variants": [],
+      "location_variants": [],
+      "time_representations": [
+        {
+          "text": "2019",
+          "chunk": 3160
+        }
+      ]
+    },
+    "provenance": {
+      "source_event_count": 1,
+      "source_chunks": [
+        3160
+      ],
+      "source_urls": [
+        "https://www.povertyactionlab.org/person/banerjee"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "Single event"
+    }
+  },
+  {
+    "consolidated_event_id": "S038",
+    "decision": "singleton",
+    "canonical_representation": {
+      "event_type": "award",
+      "organization": null,
+      "role": null,
+      "start_year": 2011,
+      "end_year": 2011,
+      "locations": []
+    },
+    "accumulated_details": {
+      "organization_variants": [],
+      "role_variants": [],
+      "location_variants": [],
+      "time_representations": [
+        {
+          "text": "2011",
+          "chunk": 3160
+        }
+      ]
+    },
+    "provenance": {
+      "source_event_count": 1,
+      "source_chunks": [
+        3160
+      ],
+      "source_urls": [
+        "https://www.povertyactionlab.org/person/banerjee"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "Single event"
+    }
+  },
+  {
+    "consolidated_event_id": "S039",
+    "decision": "singleton",
+    "canonical_representation": {
+      "event_type": "award",
+      "organization": null,
+      "role": "Nobel Laureate",
+      "start_year": null,
+      "end_year": null,
+      "locations": []
+    },
+    "accumulated_details": {
+      "organization_variants": [],
+      "role_variants": [
+        "Nobel laureates",
+        "Nobel-Prize laureate",
+        "Nobel Laureate"
+      ],
+      "location_variants": [],
+      "time_representations": []
+    },
+    "provenance": {
+      "source_event_count": 1,
+      "source_chunks": [
+        3162
+      ],
+      "source_urls": [
+        "https://www.povertyactionlab.org/person/banerjee"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "Single event"
+    }
+  },
+  {
+    "consolidated_event_id": "S040",
+    "decision": "singleton",
+    "canonical_representation": {
+      "event_type": "award",
+      "organization": "J-PAL",
+      "role": "Nobel Laureate",
+      "start_year": null,
+      "end_year": null,
+      "locations": []
+    },
+    "accumulated_details": {
+      "organization_variants": [
+        "J-PAL"
+      ],
+      "role_variants": [
+        "Co-Founders",
+        "Nobel Laureate"
+      ],
+      "location_variants": [],
+      "time_representations": []
+    },
+    "provenance": {
+      "source_event_count": 1,
+      "source_chunks": [
+        3163
+      ],
+      "source_urls": [
+        "https://www.povertyactionlab.org/person/banerjee"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "Single event"
+    }
+  },
+  {
+    "consolidated_event_id": "S042",
+    "decision": "singleton",
+    "canonical_representation": {
+      "event_type": "award",
+      "organization": null,
+      "role": null,
+      "start_year": 2014,
+      "end_year": 2014,
+      "locations": []
+    },
+    "accumulated_details": {
+      "organization_variants": [],
+      "role_variants": [],
+      "location_variants": [],
+      "time_representations": [
+        {
+          "text": "2014",
+          "chunk": 3166
+        }
+      ]
+    },
+    "provenance": {
+      "source_event_count": 1,
+      "source_chunks": [
+        3166
+      ],
+      "source_urls": [
+        "https://www.povertyactionlab.org/person/banerjee"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "Single event"
+    }
+  },
+  {
+    "consolidated_event_id": "S043",
+    "decision": "singleton",
+    "canonical_representation": {
+      "event_type": "award",
+      "organization": "Infosys",
+      "role": "Professor",
+      "start_year": null,
+      "end_year": null,
+      "locations": []
+    },
+    "accumulated_details": {
+      "organization_variants": [
+        "Infosys"
+      ],
+      "role_variants": [
+        "Professor"
+      ],
+      "location_variants": [],
+      "time_representations": []
+    },
+    "provenance": {
+      "source_event_count": 1,
+      "source_chunks": [
+        3167
+      ],
+      "source_urls": [
+        "https://www.povertyactionlab.org/person/banerjee"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "Single event"
+    }
+  },
+  {
+    "consolidated_event_id": "S044",
+    "decision": "singleton",
+    "canonical_representation": {
+      "event_type": "award",
+      "organization": "Infosys Prize",
+      "role": "Economist",
+      "start_year": null,
+      "end_year": null,
+      "locations": []
+    },
+    "accumulated_details": {
+      "organization_variants": [
+        "Infosys Prize"
+      ],
+      "role_variants": [
+        "Economist",
+        "Historian"
+      ],
+      "location_variants": [],
+      "time_representations": []
+    },
+    "provenance": {
+      "source_event_count": 1,
+      "source_chunks": [
+        3168
+      ],
+      "source_urls": [
+        "https://www.povertyactionlab.org/person/banerjee"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "Single event"
+    }
+  },
+  {
+    "consolidated_event_id": "S047",
+    "decision": "singleton",
+    "canonical_representation": {
+      "event_type": "award",
+      "organization": "Foreign Policy magazine",
+      "role": null,
+      "start_year": 2011,
+      "end_year": 2011,
+      "locations": []
+    },
+    "accumulated_details": {
+      "organization_variants": [
+        "Foreign Policy magazine"
+      ],
+      "role_variants": [],
+      "location_variants": [],
+      "time_representations": [
+        {
+          "text": "In 2011",
+          "chunk": 3169
+        }
+      ]
+    },
+    "provenance": {
+      "source_event_count": 1,
+      "source_chunks": [
+        3169
+      ],
+      "source_urls": [
+        "https://live.worldbank.org/en/experts/a/abhijit-banerjee"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "Single event"
+    }
+  },
+  {
+    "consolidated_event_id": "S049",
+    "decision": "singleton",
+    "canonical_representation": {
+      "event_type": "career_position",
+      "organization": "Abdul Latif Jameel Poverty Action Lab (J-PAL)",
+      "role": "cofounder of the Abdul Latif Jameel Poverty Action Lab (J-PAL)",
+      "start_year": 2019,
+      "end_year": 2019,
+      "locations": []
+    },
+    "accumulated_details": {
+      "organization_variants": [
+        "Abdul Latif Jameel Poverty Action Lab (J-PAL)"
+      ],
+      "role_variants": [
+        "cofounder of the Abdul Latif Jameel Poverty Action Lab (J-PAL)"
+      ],
+      "location_variants": [],
+      "time_representations": [
+        {
+          "text": "2019",
+          "chunk": 3170
+        }
+      ]
+    },
+    "provenance": {
+      "source_event_count": 1,
+      "source_chunks": [
+        3170
+      ],
+      "source_urls": [
+        "https://www.carnegie.org/awards/honoree/abhijit-banerjee/"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "Single event"
+    }
+  },
+  {
+    "consolidated_event_id": "S051",
+    "decision": "singleton",
+    "canonical_representation": {
+      "event_type": "award",
+      "organization": null,
+      "role": null,
+      "start_year": 2011,
+      "end_year": 2011,
+      "locations": []
+    },
+    "accumulated_details": {
+      "organization_variants": [],
+      "role_variants": [],
+      "location_variants": [],
+      "time_representations": [
+        {
+          "text": "2011",
+          "chunk": 3170
+        }
+      ]
+    },
+    "provenance": {
+      "source_event_count": 1,
+      "source_chunks": [
+        3170
+      ],
+      "source_urls": [
+        "https://www.carnegie.org/awards/honoree/abhijit-banerjee/"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "Single event"
+    }
+  },
+  {
+    "consolidated_event_id": "S052",
+    "decision": "singleton",
+    "canonical_representation": {
+      "event_type": "award",
+      "organization": null,
+      "role": null,
+      "start_year": 2003,
+      "end_year": 2003,
+      "locations": []
+    },
+    "accumulated_details": {
+      "organization_variants": [],
+      "role_variants": [],
+      "location_variants": [],
+      "time_representations": [
+        {
+          "text": "2003",
+          "chunk": 3170
+        }
+      ]
+    },
+    "provenance": {
+      "source_event_count": 1,
+      "source_chunks": [
+        3170
+      ],
+      "source_urls": [
+        "https://www.carnegie.org/awards/honoree/abhijit-banerjee/"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "Single event"
+    }
+  },
+  {
+    "consolidated_event_id": "S053",
+    "decision": "singleton",
+    "canonical_representation": {
+      "event_type": "award",
+      "organization": null,
+      "role": null,
+      "start_year": 2019,
+      "end_year": 2019,
+      "locations": []
+    },
+    "accumulated_details": {
+      "organization_variants": [],
+      "role_variants": [],
+      "location_variants": [],
+      "time_representations": [
+        {
+          "text": "2019",
+          "chunk": 3171
+        }
+      ]
+    },
+    "provenance": {
+      "source_event_count": 1,
+      "source_chunks": [
+        3171
+      ],
+      "source_urls": [
+        "https://www.leighbureau.com/speakers/abanerjee"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "Single event"
+    }
+  },
+  {
+    "consolidated_event_id": "S056",
+    "decision": "singleton",
+    "canonical_representation": {
+      "event_type": "award",
+      "organization": null,
+      "role": "co-recipient of the 2019 Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
+      "start_year": 2019,
+      "end_year": 2019,
+      "locations": []
+    },
+    "accumulated_details": {
+      "organization_variants": [],
+      "role_variants": [
+        "co-recipient of the 2019 Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel"
+      ],
+      "location_variants": [],
+      "time_representations": [
+        {
+          "text": "2019",
+          "chunk": 3174
+        }
+      ]
+    },
+    "provenance": {
+      "source_event_count": 1,
+      "source_chunks": [
+        3174
+      ],
+      "source_urls": [
+        "https://economics.mit.edu/people/faculty/abhijit-banerjee/short-bio"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "Single event"
+    }
+  },
+  {
+    "consolidated_event_id": "S057",
+    "decision": "singleton",
+    "canonical_representation": {
+      "event_type": "career_position",
+      "organization": "U.N. Secretary-General’s High-level Panel of Eminent Persons on the Post-2015 Development Agenda",
+      "role": "member of the U.N. Secretary-General’s High-level Panel of Eminent Persons on the Post-2015 Development Agenda",
+      "start_year": null,
+      "end_year": null,
+      "locations": []
+    },
+    "accumulated_details": {
+      "organization_variants": [
+        "U.N. Secretary-General’s High-level Panel of Eminent Persons on the Post-2015 Development Agenda"
+      ],
+      "role_variants": [
+        "member of the U.N. Secretary-General’s High-level Panel of Eminent Persons on the Post-2015 Development Agenda"
+      ],
+      "location_variants": [],
+      "time_representations": []
+    },
+    "provenance": {
+      "source_event_count": 1,
+      "source_chunks": [
+        3174
+      ],
+      "source_urls": [
+        "https://economics.mit.edu/people/faculty/abhijit-banerjee/short-bio"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "Single event"
+    }
+  },
+  {
+    "consolidated_event_id": "S061",
+    "decision": "singleton",
+    "canonical_representation": {
+      "event_type": "career_position",
+      "organization": "Global Advisory Board for Covid-19 Response of the government of West Bengal",
+      "role": "Chair of the Global Advisory Board for Covid-19 Response of the government of West Bengal",
+      "start_year": null,
+      "end_year": null,
+      "locations": [
+        "West Bengal"
+      ]
+    },
+    "accumulated_details": {
+      "organization_variants": [
+        "Global Advisory Board for Covid-19 Response of the government of West Bengal"
+      ],
+      "role_variants": [
+        "Chair of the Global Advisory Board for Covid-19 Response of the government of West Bengal"
+      ],
+      "location_variants": [
+        "West Bengal"
+      ],
+      "time_representations": []
+    },
+    "provenance": {
+      "source_event_count": 1,
+      "source_chunks": [
+        3174
+      ],
+      "source_urls": [
+        "https://economics.mit.edu/people/faculty/abhijit-banerjee/short-bio"
+      ]
+    },
+    "confidence": {
+      "consolidation_confidence": "high",
+      "reasoning": "Single event"
+    }
+  }
+]

@@ -1,0 +1,118 @@
+{
+  "status": "success",
+  "chunk_id": 3168,
+  "chunk_index": 8,
+  "source_url": "https://www.povertyactionlab.org/person/banerjee",
+  "title": "Abhijit Banerjee | The Abdul Latif Jameel Poverty Action Lab",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Infosys Prize",
+          "quotes": [
+            "Economist Banerjee, historian Upinder Singh get Infosys Prize 2009"
+          ]
+        },
+        {
+          "name": "J-PAL",
+          "quotes": [
+            "Which Poverty-Fighting Policies Work? J-PAL Has the Answer",
+            "Bono Visits J-PAL"
+          ]
+        },
+        {
+          "name": "MIT",
+          "quotes": [
+            "Interview: MIT Economists Esther Duflo and Abhijit Banerjee",
+            "MIT Steps in to Find a Doctor for this Village"
+          ]
+        },
+        {
+          "name": "BBVA Foundation",
+          "quotes": [
+            "BBVA Foundation Award in Development Cooperation"
+          ]
+        },
+        {
+          "name": "ALJ Poverty Action Lab",
+          "quotes": [
+            "ALJ Poverty Action Lab Created in Europe"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Economist",
+          "quotes": [
+            "Economist Banerjee, historian Upinder Singh get Infosys Prize 2009",
+            "Interview: MIT Economists Esther Duflo and Abhijit Banerjee",
+            "Half of India’s Kids will Grow Up Stunted, Says Top Economist"
+          ]
+        },
+        {
+          "title": "Historian",
+          "quotes": [
+            "Economist Banerjee, historian Upinder Singh get Infosys Prize 2009"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "India",
+          "quotes": [
+            "Half of India’s Kids will Grow Up Stunted, Says Top Economist",
+            "India Set to Play a Bigger Role in Developmental Issues",
+            "Empowering Citizens with Information: Improving Access to Social Assistance in Indonesia"
+          ]
+        },
+        {
+          "place": "Indonesia",
+          "quotes": [
+            "Empowering Citizens with Information: Improving Access to Social Assistance in Indonesia"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Economist Banerjee, historian Upinder Singh get Infosys Prize 2009"
+        ],
+        "confidence": "high",
+        "notes": "Infosys Prize is clearly an award, and the quote links the prize to both Economist and Historian roles."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 1,
+      "warnings": 0,
+      "errors": 0,
+      "career_positions": 0,
+      "awards": 1
+    }
+  }
+}

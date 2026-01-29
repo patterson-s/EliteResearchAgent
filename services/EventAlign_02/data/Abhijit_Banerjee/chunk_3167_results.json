@@ -1,0 +1,150 @@
+{
+  "status": "success",
+  "chunk_id": 3167,
+  "chunk_index": 7,
+  "source_url": "https://www.povertyactionlab.org/person/banerjee",
+  "title": "Abhijit Banerjee | The Abdul Latif Jameel Poverty Action Lab",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "FT Goldman Sachs",
+          "quotes": [
+            "Poor Economics Shortlisted for the FT Goldman Sachs Business Book of the Year"
+          ]
+        },
+        {
+          "name": "The Economist",
+          "quotes": [
+            "Tea With The Economist: Abhijit Banerjee"
+          ]
+        },
+        {
+          "name": "New Republic",
+          "quotes": [
+            "New Republic: Let Them Eat Cake Or Don't Bake At All"
+          ]
+        },
+        {
+          "name": "BBVA Foundation",
+          "quotes": [
+            "BBVA Foundation Frontiers of Knowledge Award Given to J-PAL"
+          ]
+        },
+        {
+          "name": "Infosys",
+          "quotes": [
+            "The Infosys Prize goes to Professor Abhijit Banerjee"
+          ]
+        },
+        {
+          "name": "J-PAL",
+          "quotes": [
+            "BBVA Foundation Frontiers of Knowledge Award Given to J-PAL"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Professor",
+          "quotes": [
+            "The Infosys Prize goes to Professor Abhijit Banerjee"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "India",
+          "quotes": [
+            "India"
+          ]
+        },
+        {
+          "place": "Greece",
+          "quotes": [
+            "Podcast: Greece and the Effectiveness of International Aid"
+          ]
+        },
+        {
+          "place": "Bengal",
+          "quotes": [
+            "The Change That Bengal Needs",
+            "Making Things Work in Bengal"
+          ]
+        },
+        {
+          "place": "Rajasthan",
+          "quotes": [
+            "Rajasthan Lags Behind in Healthcare"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The Infosys Prize goes to Professor Abhijit Banerjee"
+        ],
+        "confidence": "high",
+        "notes": "Infosys Prize is a clear indicator of an award."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3,
+          5
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "BBVA Foundation Frontiers of Knowledge Award Given to J-PAL"
+        ],
+        "confidence": "high",
+        "notes": "BBVA Foundation Award is a clear indicator of an award."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing role information for the award recipient."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 0,
+      "awards": 2
+    }
+  }
+}
