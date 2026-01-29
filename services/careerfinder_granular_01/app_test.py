@@ -275,11 +275,93 @@ with tab3:
     
     if not st.session_state.chunk_loaded:
         st.warning("Please load a chunk in the Setup tab first")
-    elif not st.session_state.step1_results:
-        st.warning("Please run Step 1 extraction first")
     else:
         chunk = st.session_state.current_chunk
         chunk_text = chunk.get("text", "")
+        doc_type = classify_chunk(chunk)
+        
+        st.markdown("### Execution Mode")
+        
+        col_mode1, col_mode2 = st.columns(2)
+        
+        with col_mode1:
+            if st.button("▶️ Run Complete Pipeline (Steps 1→2→3)", type="primary"):
+                config_path = Path(__file__).parent / "config" / "config.json"
+                
+                with st.status("Running complete pipeline...", expanded=True) as status:
+                    try:
+                        st.write("🔄 Step 1: Extracting entities...")
+                        step1_result = extract_entities_step1(
+                            chunk_text,
+                            chunk,
+                            config_path,
+                            None
+                        )
+                        st.session_state.step1_results = step1_result
+                        
+                        entities = step1_result["entities"]
+                        total_entities = sum(len(entities[k]) for k in ["time_markers", "organizations", "roles", "locations"])
+                        st.write(f"✅ Step 1 complete: {total_entities} entities extracted")
+                        
+                        st.write("🔄 Step 2: Assembling events...")
+                        step2_result = assemble_events_step2(entities, config_path)
+                        st.session_state.step2_results = step2_result
+                        
+                        events = step2_result["assembled_events"]
+                        career_positions = sum(1 for e in events if e.get("event_type") == "career_position")
+                        awards = sum(1 for e in events if e.get("event_type") == "award")
+                        
+                        st.write(f"✅ Step 2 complete: {len(events)} events ({career_positions} career, {awards} awards)")
+                        
+                        st.write("🔄 Step 3: Verifying events...")
+                        step3_result = verify_events_step3(events, entities, config_path)
+                        st.session_state.step3_results = step3_result
+                        
+                        summary = step3_result["summary"]
+                        st.write(f"✅ Step 3 complete: {summary.get('valid', 0)} valid, {summary.get('warnings', 0)} warnings, {summary.get('errors', 0)} errors")
+                        
+                        status.update(label="Complete pipeline finished!", state="complete", expanded=False)
+                        st.rerun()
+                        
+                    except Exception as e:
+                        st.error(f"Pipeline failed: {e}")
+                        status.update(label="Pipeline failed", state="error")
+        
+        with col_mode2:
+            if st.session_state.step1_results and st.button("▶️ Run Steps 2→3 Only"):
+                config_path = Path(__file__).parent / "config" / "config.json"
+                
+                with st.status("Running steps 2-3...", expanded=True) as status:
+                    try:
+                        st.write("🔄 Step 2: Assembling events...")
+                        entities = st.session_state.step1_results["entities"]
+                        step2_result = assemble_events_step2(entities, config_path)
+                        st.session_state.step2_results = step2_result
+                        
+                        events = step2_result["assembled_events"]
+                        career_positions = sum(1 for e in events if e.get("event_type") == "career_position")
+                        awards = sum(1 for e in events if e.get("event_type") == "award")
+                        
+                        st.write(f"✅ Step 2 complete: {len(events)} events ({career_positions} career, {awards} awards)")
+                        
+                        st.write("🔄 Step 3: Verifying events...")
+                        step3_result = verify_events_step3(events, entities, config_path)
+                        st.session_state.step3_results = step3_result
+                        
+                        summary = step3_result["summary"]
+                        st.write(f"✅ Step 3 complete: {summary.get('valid', 0)} valid, {summary.get('warnings', 0)} warnings, {summary.get('errors', 0)} errors")
+                        
+                        status.update(label="Steps 2-3 complete!", state="complete", expanded=False)
+                        st.rerun()
+                        
+                    except Exception as e:
+                        st.error(f"Pipeline failed: {e}")
+                        status.update(label="Pipeline failed", state="error")
+        
+        if not st.session_state.step1_results:
+            st.info("💡 Click 'Run Complete Pipeline' above to extract and assemble all events, or go to Step 1 tab to run extraction only.")
+        
+        st.divider()
         
         col_left, col_right = st.columns([1, 1])
         
@@ -291,7 +373,7 @@ with tab3:
             with controls_container:
                 st.markdown("### Step 2: Event Assembly")
                 
-                if st.button("Run Step 2 Assembly", type="primary", disabled=not st.session_state.step1_results):
+                if st.button("Run Step 2 Only", disabled=not st.session_state.step1_results):
                     with st.spinner("Assembling events..."):
                         try:
                             config_path = Path(__file__).parent / "config" / "config.json"
@@ -323,7 +405,7 @@ with tab3:
                     st.divider()
                     st.markdown("### Step 3: Verification")
                     
-                    if st.button("Run Step 3 Verification", type="primary", disabled=not st.session_state.step2_results):
+                    if st.button("Run Step 3 Only", disabled=not st.session_state.step2_results):
                         with st.spinner("Verifying events..."):
                             try:
                                 config_path = Path(__file__).parent / "config" / "config.json"
