@@ -1,0 +1,123 @@
+{
+  "status": "success",
+  "chunk_id": 3172,
+  "chunk_index": 1,
+  "source_url": "https://www.leighbureau.com/speakers/abanerjee",
+  "title": "Abhijit Banerjee | Exclusive Keynote Speaker",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "GiveDirectly",
+          "quotes": [
+            "GiveDirectly"
+          ]
+        },
+        {
+          "name": "Vox",
+          "quotes": [
+            "Vox"
+          ]
+        },
+        {
+          "name": "Fast Company",
+          "quotes": [
+            "Fast Company"
+          ]
+        },
+        {
+          "name": "Financial Times",
+          "quotes": [
+            "Financial Times"
+          ]
+        },
+        {
+          "name": "Leigh Bureau",
+          "quotes": [
+            "speakerinfo@leighbureau.com",
+            "Leigh Bureau on their speakers"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Nobel Prize in Economics",
+          "quotes": [
+            "2019 Nobel Prize in Economics",
+            "2025 Nobel Laureate in Economic Sciences"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Europe, Middle East, India and Africa",
+          "quotes": [
+            "EMEIA - Europe, Middle East, India and Africa"
+          ]
+        },
+        {
+          "place": "North America and South America",
+          "quotes": [
+            "North America and South America"
+          ]
+        },
+        {
+          "place": "Asia and Oceania",
+          "quotes": [
+            "Asia and Oceania"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "2019 Nobel Prize in Economics",
+          "2025 Nobel Laureate in Economic Sciences"
+        ],
+        "confidence": "high",
+        "notes": "Nobel Prize is a clear indicator of an award."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "Conflicting years mentioned in quotes (2019 and 2025) without clarification."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time_marker_ids, organization_ids, and location_ids despite being an award event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 0,
+      "awards": 1
+    }
+  }
+}

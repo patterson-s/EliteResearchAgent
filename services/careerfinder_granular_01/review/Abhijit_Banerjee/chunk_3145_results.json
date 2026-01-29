@@ -1,0 +1,83 @@
+{
+  "status": "success",
+  "chunk_id": 3145,
+  "chunk_index": 2,
+  "source_url": "https://www.nobelprize.org/prizes/economic-sciences/2019/banerjee/biographical/",
+  "title": "Abhijit Banerjee – Biographical - NobelPrize.org",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Presidency College in Kolkata",
+          "quotes": [
+            "my father was the head of the economics department at Presidency Col­lege in Kolkata, widely recognized as the best place to study economics in the country."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "head of the economics department",
+          "quotes": [
+            "my father was the head of the economics department at Presidency Col­lege in Kolkata, widely recognized as the best place to study economics in the country."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Kolkata",
+          "quotes": [
+            "my father was the head of the economics department at Presidency Col­lege in Kolkata, widely recognized as the best place to study economics in the country."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "my father was the head of the economics department at Presidency Col­lege in Kolkata, widely recognized as the best place to study economics in the country."
+        ],
+        "confidence": "high",
+        "notes": "No time marker available, but organization, role, and location are clearly linked."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker information, making temporal coherence impossible to verify."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

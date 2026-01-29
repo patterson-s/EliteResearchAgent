@@ -266,7 +266,7 @@ with tab2:
                 st.caption("🟡 Time Markers | 🔵 Organizations | 🟢 Roles | 🩷 Locations")
             
             if st.session_state.selected_entity_quotes:
-                if st.button("Clear highlighting"):
+                if st.button("Clear highlighting", key="clear_step1"):
                     st.session_state.selected_entity_quotes = []
                     st.rerun()
 
@@ -515,6 +515,6 @@ with tab3:
             )
             
             if st.session_state.selected_entity_quotes:
-                if st.button("Clear highlighting"):
+                if st.button("Clear highlighting", key="clear_step23"):
                     st.session_state.selected_entity_quotes = []
                     st.rerun()

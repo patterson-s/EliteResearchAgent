@@ -1,0 +1,197 @@
+{
+  "status": "success",
+  "chunk_id": 3120,
+  "chunk_index": 5,
+  "source_url": "https://en.wikipedia.org/wiki/Abhijit_Banerjee",
+  "title": "Abhijit Banerjee - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2019",
+          "type": "point",
+          "quotes": [
+            "NYAY, which was the main electoral promise of the Indian National Congress in the 2019 Indian general election."
+          ]
+        },
+        {
+          "text": "January 2020",
+          "type": "point",
+          "quotes": [
+            "He was awarded the Doctor of Letters (Honoris Causa) by the University of Calcutta in January 2020."
+          ]
+        },
+        {
+          "text": "September 2022",
+          "type": "point",
+          "quotes": [
+            "Abhijit Banerjee and Esther Duflo received the Golden Plate Award of the American Academy of Achievement in September 2022."
+          ]
+        },
+        {
+          "text": "30 November 2023",
+          "type": "point",
+          "quotes": [
+            "Retrieved 30 November 2023."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Bharatiya Janata Party",
+          "quotes": [
+            "Banerjee's achievement of the Nobel Prize was received with a cold shoulder by the right-wing Bharatiya Janata Party, which is in power at the Union level in India."
+          ]
+        },
+        {
+          "name": "Indian National Congress",
+          "quotes": [
+            "NYAY, which was the main electoral promise of the Indian National Congress in the 2019 Indian general election."
+          ]
+        },
+        {
+          "name": "Union government",
+          "quotes": [
+            "In response to his criticism of the Union government's handling of the country's economy, Commerce & Industries Minister Piyush Goyal, while speaking on Banerjee's receiving of the Nobel Prize on Twitter, stated that Banerjee's economic theories are based on a leftist viewpoint."
+          ]
+        },
+        {
+          "name": "University of Calcutta",
+          "quotes": [
+            "He was awarded the Doctor of Letters (Honoris Causa) by the University of Calcutta in January 2020."
+          ]
+        },
+        {
+          "name": "American Academy of Achievement",
+          "quotes": [
+            "Abhijit Banerjee and Esther Duflo received the Golden Plate Award of the American Academy of Achievement in September 2022."
+          ]
+        },
+        {
+          "name": "Massachusetts Institute of Technology",
+          "quotes": [
+            "Abhijit Vinayak Banerjee Economics Department MIT."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Commerce & Industries Minister",
+          "quotes": [
+            "Commerce & Industries Minister Piyush Goyal, while speaking on Banerjee's receiving of the Nobel Prize on Twitter, stated that Banerjee's economic theories are based on a leftist viewpoint."
+          ]
+        },
+        {
+          "title": "state BJP president",
+          "quotes": [
+            "BJP leader Rahul Sinha, who had served as the state BJP president in Banerjee's native state of West Bengal, downplayed his achievements and alleged Anti-Indian sentiment on the part of the Nobel Committee."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "India",
+          "quotes": [
+            "It evoked mixed emotions in India, where his success was celebrated with nationalistic fervour while his approach and pro-poor focus were seen as a negation of India's current government's right-wing ideology as well as broader development discourse."
+          ]
+        },
+        {
+          "place": "West Bengal",
+          "quotes": [
+            "BJP leader Rahul Sinha, who had served as the state BJP president in Banerjee's native state of West Bengal, downplayed his achievements and alleged Anti-Indian sentiment on the part of the Nobel Committee."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He was awarded the Doctor of Letters (Honoris Causa) by the University of Calcutta in January 2020."
+        ],
+        "confidence": "high",
+        "notes": "Clear award event with specific time and organization."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Abhijit Banerjee and Esther Duflo received the Golden Plate Award of the American Academy of Achievement in September 2022."
+        ],
+        "confidence": "high",
+        "notes": "Clear award event with specific time and organization."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Abhijit Vinayak Banerjee Economics Department MIT."
+        ],
+        "confidence": "medium",
+        "notes": "Implied career position at MIT, but no specific role or time mentioned."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and role information for career position."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "No specific role mentioned, only organization affiliation."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 2,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 2
+    }
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "status": "success",
+  "chunk_id": 3152,
+  "chunk_index": 9,
+  "source_url": "https://www.nobelprize.org/prizes/economic-sciences/2019/banerjee/biographical/",
+  "title": "Abhijit Banerjee – Biographical - NobelPrize.org",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "in the winter of 1987",
+          "type": "point",
+          "quotes": [
+            "I went on the job market in the winter of 1987."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Stanford",
+          "quotes": [
+            "I almost missed my invitation to give a job talk at Stanford.",
+            "All the “top” schools, except Stanford, had decided to pass."
+          ]
+        },
+        {
+          "name": "Harvard",
+          "quotes": [
+            "When I reported that at Harvard, two of the kindest economists I know, Jerry Green and Kala Krishna, decided to go out and bat for me."
+          ]
+        },
+        {
+          "name": "Princeton",
+          "quotes": [
+            "This is how I ended up with a job at Princeton.",
+            "I commuted to Princeton."
+          ]
+        },
+        {
+          "name": "Columbia",
+          "quotes": [
+            "My wife Tuli was starting a PhD in French Literature at Columbia."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "job candidate",
+          "quotes": [
+            "Everybody told me it would be stressful to be surrounded by so many others who are all looking for the same jobs, so I decided to distance myself from it."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "downtown Chicago",
+          "quotes": [
+            "some 20 miles from downtown Chicago where the meeting was"
+          ]
+        },
+        {
+          "place": "UK",
+          "quotes": [
+            "I went to the UK, to visit Eric who was on sabbatical there"
+          ]
+        },
+        {
+          "place": "Manhattan",
+          "quotes": [
+            "We lived in Manhattan and I commuted to Princeton."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "I went on the job market in the winter of 1987.",
+          "This is how I ended up with a job at Princeton.",
+          "We lived in Manhattan and I commuted to Princeton.",
+          "Everybody told me it would be stressful to be surrounded by so many others who are all looking for the same jobs, so I decided to distance myself from it."
+        ],
+        "confidence": "high",
+        "notes": "The job market entry in 1987 directly links to securing a job at Princeton, with commuting from Manhattan indicating a clear career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The role 'job candidate' does not clearly indicate an active career position. Consider verifying if this role represents a specific job title or responsibility."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "The event lacks a specific job title or role beyond 'job candidate', which may not fully represent a career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

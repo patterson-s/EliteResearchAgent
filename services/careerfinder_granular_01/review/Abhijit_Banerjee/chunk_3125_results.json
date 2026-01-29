@@ -1,0 +1,440 @@
+{
+  "status": "success",
+  "chunk_id": 3125,
+  "chunk_index": 10,
+  "source_url": "https://en.wikipedia.org/wiki/Abhijit_Banerjee",
+  "title": "Abhijit Banerjee - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2019:",
+          "type": "point",
+          "quotes": [
+            "2019: Abhijit Banerjee / Esther Duflo / Michael Kremer"
+          ]
+        },
+        {
+          "text": "2011:",
+          "type": "point",
+          "quotes": [
+            "2011: Sebastian Mallaby"
+          ]
+        },
+        {
+          "text": "2012:",
+          "type": "point",
+          "quotes": [
+            "2012: Walter Isaacson"
+          ]
+        },
+        {
+          "text": "2012 (HM):",
+          "type": "point",
+          "quotes": [
+            "2012 (HM): Abhijit V. Banerjee, Esther Duflo"
+          ]
+        },
+        {
+          "text": "1969:",
+          "type": "point",
+          "quotes": [
+            "Gerald Loeb Special Book Award (1969)"
+          ]
+        },
+        {
+          "text": "1974:",
+          "type": "point",
+          "quotes": [
+            "Gerald Loeb Award for Books (1974)"
+          ]
+        },
+        {
+          "text": "2006–2012:",
+          "type": "range",
+          "quotes": [
+            "Gerald Loeb Award for Business Book (2006–2012)"
+          ]
+        },
+        {
+          "text": "2006:",
+          "type": "point",
+          "quotes": [
+            "2006: James B. Stewart"
+          ]
+        },
+        {
+          "text": "2007:",
+          "type": "point",
+          "quotes": [
+            "2007: Chris Anderson"
+          ]
+        },
+        {
+          "text": "2008:",
+          "type": "point",
+          "quotes": [
+            "2008: David A. Kaplan"
+          ]
+        },
+        {
+          "text": "2009:",
+          "type": "point",
+          "quotes": [
+            "2009: Charles R. Morris"
+          ]
+        },
+        {
+          "text": "2010:",
+          "type": "point",
+          "quotes": [
+            "2010: Andrew Ross Sorkin"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Presidency University, Kolkata",
+          "quotes": [
+            "Presidency University, Kolkata alumni"
+          ]
+        },
+        {
+          "name": "University of Calcutta",
+          "quotes": [
+            "University of Calcutta alumni"
+          ]
+        },
+        {
+          "name": "Jawaharlal Nehru University",
+          "quotes": [
+            "Jawaharlal Nehru University alumni"
+          ]
+        },
+        {
+          "name": "Harvard Graduate School of Arts and Sciences",
+          "quotes": [
+            "Harvard Graduate School of Arts and Sciences alumni"
+          ]
+        },
+        {
+          "name": "MIT School of Humanities, Arts, and Social Sciences",
+          "quotes": [
+            "MIT School of Humanities, Arts, and Social Sciences faculty"
+          ]
+        },
+        {
+          "name": "American Academy of Arts and Sciences",
+          "quotes": [
+            "Fellows of the American Academy of Arts and Sciences"
+          ]
+        },
+        {
+          "name": "British Museum",
+          "quotes": [
+            "Trustees of the British Museum"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "faculty",
+          "quotes": [
+            "MIT School of Humanities, Arts, and Social Sciences faculty"
+          ]
+        },
+        {
+          "title": "Fellows",
+          "quotes": [
+            "Fellows of the American Academy of Arts and Sciences"
+          ]
+        },
+        {
+          "title": "Trustees",
+          "quotes": [
+            "Trustees of the British Museum"
+          ]
+        },
+        {
+          "title": "alumni",
+          "quotes": [
+            "Presidency University, Kolkata alumni",
+            "University of Calcutta alumni",
+            "Jawaharlal Nehru University alumni",
+            "Harvard Graduate School of Arts and Sciences alumni"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Mumbai",
+          "quotes": [
+            "People from Mumbai"
+          ]
+        },
+        {
+          "place": "Maharashtra",
+          "quotes": [
+            "People from Maharashtra"
+          ]
+        },
+        {
+          "place": "Kolkata",
+          "quotes": [
+            "Writers from Kolkata"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "MIT School of Humanities, Arts, and Social Sciences faculty"
+        ],
+        "confidence": "high",
+        "notes": "Direct affiliation with role and organization."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "2019: Abhijit Banerjee / Esther Duflo / Michael Kremer"
+        ],
+        "confidence": "medium",
+        "notes": "Assumed as an award based on the format of the time marker and lack of organizational or role context."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "2011: Sebastian Mallaby"
+        ],
+        "confidence": "medium",
+        "notes": "Assumed as an award based on the format of the time marker and lack of organizational or role context."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "2012: Walter Isaacson"
+        ],
+        "confidence": "medium",
+        "notes": "Assumed as an award based on the format of the time marker and lack of organizational or role context."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "2012 (HM): Abhijit V. Banerjee, Esther Duflo"
+        ],
+        "confidence": "medium",
+        "notes": "Assumed as an award based on the format of the time marker and lack of organizational or role context."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Gerald Loeb Award for Books (1974)"
+        ],
+        "confidence": "high",
+        "notes": "Clearly an award based on the name and context."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Gerald Loeb Award for Business Book (2006–2012)",
+          "2006: James B. Stewart",
+          "2007: Chris Anderson",
+          "2008: David A. Kaplan",
+          "2009: Charles R. Morris",
+          "2010: Andrew Ross Sorkin"
+        ],
+        "confidence": "high",
+        "notes": "Clearly an award series based on the name and context."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Fellows of the American Academy of Arts and Sciences"
+        ],
+        "confidence": "high",
+        "notes": "Fellowship is considered a career position as it implies ongoing affiliation and responsibilities."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          6
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Trustees of the British Museum"
+        ],
+        "confidence": "high",
+        "notes": "Trustee role implies active governance and ongoing responsibilities."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Presidency University, Kolkata alumni",
+          "University of Calcutta alumni",
+          "Jawaharlal Nehru University alumni",
+          "Harvard Graduate School of Arts and Sciences alumni"
+        ],
+        "confidence": "high",
+        "notes": "Alumni status is considered a career position as it reflects past educational affiliations."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 4,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 5,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 6,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 7,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Fellowship classification as career position may need review if it lacks active duties."
+          }
+        ]
+      },
+      {
+        "event_id": 8,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 9,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Alumni status classified as career position may need review."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 10,
+      "valid": 6,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 6
+    }
+  }
+}

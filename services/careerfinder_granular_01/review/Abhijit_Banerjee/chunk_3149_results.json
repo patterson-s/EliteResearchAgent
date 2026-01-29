@@ -1,0 +1,161 @@
+{
+  "status": "success",
+  "chunk_id": 3149,
+  "chunk_index": 6,
+  "source_url": "https://www.nobelprize.org/prizes/economic-sciences/2019/banerjee/biographical/",
+  "title": "Abhijit Banerjee – Biographical - NobelPrize.org",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "circa 1983",
+          "type": "point",
+          "quotes": [
+            "Larry Summers introduced us to empirical economics circa 1983 in his"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Harvard",
+          "quotes": [
+            "My first days at Harvard were hard; I was homesick, pining for my girlfriend in India and unused to working hard."
+          ]
+        },
+        {
+          "name": "JNU",
+          "quotes": [
+            "two years at JNU had ruined my work-habits, never great to start with."
+          ]
+        },
+        {
+          "name": "NGOs",
+          "quotes": [
+            "I applied for jobs at a few NGOs and shocked many well-wishers by being entirely nonchalant about the whole affair."
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": [
+        {
+          "place": "India",
+          "quotes": [
+            "I was homesick, pining for my girlfriend in India and unused to working hard.",
+            "I discovered that in the US, unlike in India, it was cool to work hard."
+          ]
+        },
+        {
+          "place": "US",
+          "quotes": [
+            "I discovered that in the US, unlike in India, it was cool to work hard."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "My first days at Harvard were hard; I was homesick, pining for my girlfriend in India and unused to working hard."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit role mentioned, but affiliation with Harvard is clear. Time marker is not directly linked to this event."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "two years at JNU had ruined my work-habits, never great to start with."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit role or time marker mentioned, but affiliation with JNU is clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "I applied for jobs at a few NGOs and shocked many well-wishers by being entirely nonchalant about the whole affair."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit role or time marker mentioned, but job application to NGOs is clear."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. While affiliation with Harvard is clear, the specific role or position is not mentioned."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "No explicit time marker linked to this event."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role and time marker information. Only affiliation with JNU is clear."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role and time marker information. Only job application to NGOs is mentioned without specific role details."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as 'career_position' but only mentions job application, not an actual position held."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}
