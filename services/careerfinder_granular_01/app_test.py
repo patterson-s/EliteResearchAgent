@@ -6,6 +6,8 @@ from typing import Dict, Any, List
 
 from classification import classify_chunk
 from extraction_step1 import extract_entities_step1
+from extraction_step2 import assemble_events_step2
+from extraction_step3 import verify_events_step3
 from load_data import load_chunks_from_db, get_all_people
 
 st.set_page_config(page_title="CareerFinder Granular - Test Interface", layout="wide")
@@ -19,6 +21,21 @@ def highlight_quotes_in_text(text: str, quotes: List[str], color: str = "yellow"
             highlighted = pattern.sub(f'<mark style="background-color: {color};">{quote}</mark>', highlighted, count=1)
     return highlighted
 
+def resolve_event_display(event: Dict[str, Any], entities: Dict[str, List[Dict[str, Any]]]) -> Dict[str, Any]:
+    resolved = {}
+    
+    time_ids = event.get("time_marker_ids", [])
+    org_ids = event.get("organization_ids", [])
+    role_ids = event.get("role_ids", [])
+    loc_ids = event.get("location_ids", [])
+    
+    resolved["time_markers"] = [entities["time_markers"][i].get("text") for i in time_ids if i < len(entities["time_markers"])]
+    resolved["organizations"] = [entities["organizations"][i].get("name") for i in org_ids if i < len(entities["organizations"])]
+    resolved["roles"] = [entities["roles"][i].get("title") for i in role_ids if i < len(entities["roles"])]
+    resolved["locations"] = [entities["locations"][i].get("place") for i in loc_ids if i < len(entities["locations"])]
+    
+    return resolved
+
 def initialize_session_state():
     if "chunk_loaded" not in st.session_state:
         st.session_state.chunk_loaded = False
@@ -26,6 +43,10 @@ def initialize_session_state():
         st.session_state.current_chunk = None
     if "step1_results" not in st.session_state:
         st.session_state.step1_results = None
+    if "step2_results" not in st.session_state:
+        st.session_state.step2_results = None
+    if "step3_results" not in st.session_state:
+        st.session_state.step3_results = None
     if "selected_entity_quotes" not in st.session_state:
         st.session_state.selected_entity_quotes = []
 
@@ -33,7 +54,7 @@ initialize_session_state()
 
 st.title("CareerFinder Granular - Visual Testing Interface")
 
-tab1, tab2, tab3 = st.tabs(["Setup", "Step 1: Entity Extraction", "Steps 2-3 (Coming Soon)"])
+tab1, tab2, tab3 = st.tabs(["Setup", "Step 1: Entity Extraction", "Steps 2-3: Assembly & Verification"])
 
 with tab1:
     st.header("Load Chunk for Testing")
@@ -63,6 +84,8 @@ with tab1:
                     st.session_state.current_chunk = st.session_state.available_chunks[selected_idx]
                     st.session_state.chunk_loaded = True
                     st.session_state.step1_results = None
+                    st.session_state.step2_results = None
+                    st.session_state.step3_results = None
                     st.rerun()
         
         except Exception as e:
@@ -80,6 +103,8 @@ with tab1:
                 st.session_state.current_chunk = chunk
                 st.session_state.chunk_loaded = True
                 st.session_state.step1_results = None
+                st.session_state.step2_results = None
+                st.session_state.step3_results = None
                 st.success("Chunk loaded successfully")
                 st.rerun()
             except json.JSONDecodeError as e:
@@ -145,6 +170,8 @@ with tab2:
                                 prompt_to_use
                             )
                             st.session_state.step1_results = result
+                            st.session_state.step2_results = None
+                            st.session_state.step3_results = None
                             st.session_state.selected_entity_quotes = []
                             st.success("Extraction complete!")
                             st.rerun()
@@ -244,5 +271,168 @@ with tab2:
                     st.rerun()
 
 with tab3:
-    st.header("Steps 2 & 3: Coming Soon")
-    st.info("Event assembly and verification steps will be added after Step 1 is validated")
+    st.header("Steps 2 & 3: Event Assembly and Verification")
+    
+    if not st.session_state.chunk_loaded:
+        st.warning("Please load a chunk in the Setup tab first")
+    elif not st.session_state.step1_results:
+        st.warning("Please run Step 1 extraction first")
+    else:
+        chunk = st.session_state.current_chunk
+        chunk_text = chunk.get("text", "")
+        
+        col_left, col_right = st.columns([1, 1])
+        
+        with col_left:
+            st.subheader("Controls")
+            
+            controls_container = st.container(height=800)
+            
+            with controls_container:
+                st.markdown("### Step 2: Event Assembly")
+                
+                if st.button("Run Step 2 Assembly", type="primary", disabled=not st.session_state.step1_results):
+                    with st.spinner("Assembling events..."):
+                        try:
+                            config_path = Path(__file__).parent / "config" / "config.json"
+                            entities = st.session_state.step1_results["entities"]
+                            result = assemble_events_step2(entities, config_path)
+                            st.session_state.step2_results = result
+                            st.session_state.step3_results = None
+                            st.success("Assembly complete!")
+                            st.rerun()
+                        except Exception as e:
+                            st.error(f"Assembly failed: {e}")
+                
+                if st.session_state.step2_results:
+                    st.divider()
+                    
+                    events = st.session_state.step2_results["assembled_events"]
+                    
+                    st.metric("Assembled Events", len(events))
+                    
+                    career_positions = sum(1 for e in events if e.get("event_type") == "career_position")
+                    awards = sum(1 for e in events if e.get("event_type") == "award")
+                    
+                    col_m1, col_m2 = st.columns(2)
+                    with col_m1:
+                        st.metric("Career Positions", career_positions)
+                    with col_m2:
+                        st.metric("Awards", awards)
+                    
+                    st.divider()
+                    st.markdown("### Step 3: Verification")
+                    
+                    if st.button("Run Step 3 Verification", type="primary", disabled=not st.session_state.step2_results):
+                        with st.spinner("Verifying events..."):
+                            try:
+                                config_path = Path(__file__).parent / "config" / "config.json"
+                                entities = st.session_state.step1_results["entities"]
+                                events = st.session_state.step2_results["assembled_events"]
+                                result = verify_events_step3(events, entities, config_path)
+                                st.session_state.step3_results = result
+                                st.success("Verification complete!")
+                                st.rerun()
+                            except Exception as e:
+                                st.error(f"Verification failed: {e}")
+                    
+                    if st.session_state.step3_results:
+                        st.divider()
+                        
+                        summary = st.session_state.step3_results["summary"]
+                        
+                        col_s1, col_s2 = st.columns(2)
+                        with col_s1:
+                            st.metric("Valid", summary.get("valid", 0))
+                            st.metric("Warnings", summary.get("warnings", 0))
+                        with col_s2:
+                            st.metric("Errors", summary.get("errors", 0))
+                            st.metric("Total", summary.get("total_events", 0))
+                    
+                    st.divider()
+                    st.subheader("Assembled Events")
+                    
+                    filter_type = st.selectbox(
+                        "Filter by type",
+                        ["All", "career_position", "award"]
+                    )
+                    
+                    filtered_events = events
+                    if filter_type != "All":
+                        filtered_events = [e for e in events if e.get("event_type") == filter_type]
+                    
+                    for i, event in enumerate(filtered_events):
+                        event_type = event.get("event_type", "unknown")
+                        confidence = event.get("confidence", "unknown")
+                        
+                        type_emoji = "💼" if event_type == "career_position" else "🏆"
+                        
+                        entities_data = st.session_state.step1_results["entities"]
+                        resolved = resolve_event_display(event, entities_data)
+                        
+                        org_display = ", ".join(resolved["organizations"]) if resolved["organizations"] else "N/A"
+                        role_display = ", ".join(resolved["roles"]) if resolved["roles"] else "N/A"
+                        loc_display = ", ".join(resolved["locations"]) if resolved["locations"] else "N/A"
+                        time_display = ", ".join(resolved["time_markers"]) if resolved["time_markers"] else "N/A"
+                        
+                        event_summary = f"{org_display} | {role_display}"
+                        
+                        with st.expander(f"{type_emoji} Event {i+1}: {event_summary}"):
+                            st.markdown(f"**Organization:** {org_display}")
+                            st.markdown(f"**Role:** {role_display}")
+                            st.markdown(f"**Location:** {loc_display}")
+                            st.markdown(f"**Time:** {time_display}")
+                            st.markdown(f"**Event Type:** {event_type}")
+                            st.markdown(f"**Confidence:** {confidence}")
+                            
+                            if event.get("notes"):
+                                st.markdown(f"**Notes:** {event.get('notes')}")
+                            
+                            st.divider()
+                            
+                            if st.session_state.step3_results:
+                                verified = st.session_state.step3_results["verified_events"]
+                                if i < len(verified):
+                                    v = verified[i]
+                                    if v.get("issues"):
+                                        st.warning(f"Status: {v.get('status')}")
+                                        for issue in v["issues"]:
+                                            st.markdown(f"- **[{issue['severity']}]** {issue['type']}: {issue['description']}")
+                                    else:
+                                        st.success(f"Status: {v.get('status')}")
+                            
+                            with st.expander("View Full JSON"):
+                                st.json(event)
+                            
+                            if st.button(f"Highlight quotes", key=f"event_quotes_{i}"):
+                                st.session_state.selected_entity_quotes = event.get("supporting_quotes", [])
+                                st.rerun()
+                    
+                    with st.expander("View Step 2 Raw Output"):
+                        st.code(st.session_state.step2_results["raw_llm_output"], language="json")
+                    
+                    if st.session_state.step3_results:
+                        with st.expander("View Step 3 Raw Output"):
+                            st.code(st.session_state.step3_results["raw_llm_output"], language="json")
+        
+        with col_right:
+            st.subheader("Source Text")
+            
+            display_text = chunk_text
+            
+            if st.session_state.selected_entity_quotes:
+                display_text = highlight_quotes_in_text(
+                    chunk_text,
+                    st.session_state.selected_entity_quotes,
+                    "yellow"
+                )
+            
+            st.markdown(
+                f'<div style="background-color: white; color: black; padding: 20px; border: 1px solid #ddd; height: 800px; overflow-y: scroll; font-family: monospace; white-space: pre-wrap; line-height: 1.6;">{display_text}</div>',
+                unsafe_allow_html=True
+            )
+            
+            if st.session_state.selected_entity_quotes:
+                if st.button("Clear highlighting"):
+                    st.session_state.selected_entity_quotes = []
+                    st.rerun()
