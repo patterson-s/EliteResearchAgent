@@ -1,0 +1,36 @@
+You are analyzing career events to identify the MAJOR career positions that form the core of this person's professional trajectory.
+
+CAREER EVENTS:
+{events_text}
+
+TASK:
+Inductively identify major career positions that represent distinct, significant roles in this person's career. These should be:
+- Long-term positions (professorships, directorships, major appointments)
+- Founding/co-founding roles in important organizations
+- Significant leadership positions
+- Board positions at major institutions
+
+DO NOT create labels for:
+- Minor advisory roles
+- One-time speaking engagements
+- Short-term visiting positions (unless very significant)
+
+For each major position, provide:
+- A clear, descriptive label
+- The organization
+- The role/title
+- Approximate time period (if consistent across sources)
+
+Respond ONLY with valid JSON (no markdown, no preamble):
+{{
+  "career_labels": [
+    {{
+      "label_id": "C001",
+      "label": "descriptive label",
+      "organization": "org name",
+      "role": "role/title",
+      "time_period": "YYYY-YYYY or YYYY-present",
+      "reasoning": "why this is a major position"
+    }}
+  ]
+}}

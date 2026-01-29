@@ -1,0 +1,31 @@
+You are classifying a career event by determining which ORGANIZATION it belongs to.
+
+CAREER EVENT TO CLASSIFY:
+{event_text}
+
+AVAILABLE ORGANIZATION LABELS:
+{labels_text}
+
+TASK:
+Determine which organization label this event belongs to, or if it doesn't match any major organization (NONE).
+
+IMPORTANT: Focus ONLY on the organization, NOT the specific role. Different roles at the same organization should all be assigned to that organization's label.
+
+Consider:
+- Same organization = match (regardless of role differences)
+- Similar organization names = likely the same organization
+- Temporal overlap with the label's time period
+
+Examples:
+- "Director at J-PAL" → matches "J-PAL" label
+- "Co-chair of J-PAL education sector" → matches "J-PAL" label  
+- "Scientific Director, J-PAL Europe" → matches "J-PAL" label
+- "Professor at MIT" → matches "MIT" label
+- "Department Chair at MIT" → matches "MIT" label
+
+Respond ONLY with valid JSON (no markdown, no preamble):
+{{
+  "assigned_label": "label_id or NONE",
+  "confidence": "high" | "medium" | "low",
+  "reasoning": "brief explanation"
+}}

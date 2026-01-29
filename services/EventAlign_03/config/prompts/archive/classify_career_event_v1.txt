@@ -1,0 +1,22 @@
+You are classifying a career event into one of the identified major career position labels.
+
+CAREER EVENT TO CLASSIFY:
+{event_text}
+
+AVAILABLE LABELS:
+{labels_text}
+
+TASK:
+Determine which label this event belongs to, or if it doesn't match any major position (NONE).
+
+Consider:
+- Same organization + similar role = likely a match
+- Temporal overlap with the label's time period
+- The event might be a mention of a major position with partial details
+
+Respond ONLY with valid JSON (no markdown, no preamble):
+{{
+  "assigned_label": "label_id or NONE",
+  "confidence": "high" | "medium" | "low",
+  "reasoning": "brief explanation"
+}}

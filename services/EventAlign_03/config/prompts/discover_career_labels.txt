@@ -1,0 +1,37 @@
+You are analyzing career events to identify the MAJOR ORGANIZATIONS that form the core of this person's professional trajectory.
+
+CAREER EVENTS:
+{events_text}
+
+TASK:
+Inductively identify the 5-12 major organizations where this person has held significant positions. Focus on ORGANIZATIONS, not specific roles. These should be:
+- Universities/research institutions with long-term affiliations
+- Organizations they founded or co-founded
+- Major institutions where they held leadership positions
+- Organizations representing significant career commitments
+
+DO NOT create labels for:
+- Organizations for minor/brief advisory roles
+- One-time speaking engagements
+- Short-term visiting positions (unless very significant)
+
+IMPORTANT: Create ONE label per major organization. Do NOT create separate labels for different roles at the same organization. For example, if someone is "Professor" and "Department Chair" at MIT, create only ONE label for "MIT", not two.
+
+For each major organization, provide:
+- A clear label (the organization name)
+- Brief description of their general involvement
+- Approximate time period (if consistent across sources)
+
+Respond ONLY with valid JSON (no markdown, no preamble):
+{{
+  "career_labels": [
+    {{
+      "label_id": "C001",
+      "label": "organization name",
+      "organization": "organization name",
+      "involvement": "brief description of roles/activities",
+      "time_period": "YYYY-YYYY or YYYY-present",
+      "reasoning": "why this is a major organizational affiliation"
+    }}
+  ]
+}}

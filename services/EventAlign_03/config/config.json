@@ -1,0 +1,15 @@
+{
+  "service_name": "EventAlign_03",
+  "version": "1.0.0",
+  "model": "command-a-03-2025",
+  "temperature": 0.1,
+  "max_tokens_discover": 4000,
+  "max_tokens_classify": 4000,
+  "api_key_env_var": "COHERE_API_KEY",
+  "prompts": {
+    "discover_career_labels": "config/prompts/discover_career_labels.txt",
+    "discover_award_labels": "config/prompts/discover_award_labels.txt",
+    "classify_career_event": "config/prompts/classify_career_event.txt",
+    "classify_award_event": "config/prompts/classify_award_event.txt"
+  }
+}

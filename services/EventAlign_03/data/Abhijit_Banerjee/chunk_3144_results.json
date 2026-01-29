@@ -1,0 +1,123 @@
+{
+  "status": "success",
+  "chunk_id": 3144,
+  "chunk_index": 1,
+  "source_url": "https://www.nobelprize.org/prizes/economic-sciences/2019/banerjee/biographical/",
+  "title": "Abhijit Banerjee – Biographical - NobelPrize.org",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Indian Statistical Institute",
+          "quotes": [
+            "I applied and got into the undergraduate program at the Indian Statistical Institute in Kolkata, reputed to be far and away the best place to study math (or mathematical statistics) in India."
+          ]
+        },
+        {
+          "name": "ISI",
+          "quotes": [
+            "ISI, as it is popularly known, is – to my knowledge – the only Indian academic institution that was a true world leader in its field;"
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": [
+        {
+          "place": "Kolkata",
+          "quotes": [
+            "I applied and got into the undergraduate program at the Indian Statistical Institute in Kolkata, reputed to be far and away the best place to study math (or mathematical statistics) in India."
+          ]
+        },
+        {
+          "place": "India",
+          "quotes": [
+            "ISI, as it is popularly known, is – to my knowledge – the only Indian academic institution that was a true world leader in its field;"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "I applied and got into the undergraduate program at the Indian Statistical Institute in Kolkata, reputed to be far and away the best place to study math (or mathematical statistics) in India."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit role mentioned, but being part of an undergraduate program implies a student position. Classified as career_position due to active enrollment in a program."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "ISI, as it is popularly known, is – to my knowledge – the only Indian academic institution that was a true world leader in its field;"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit role or time marker mentioned, but the context suggests an affiliation with ISI as a notable institution in India. Classified as career_position due to implied association with the institution."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. While being part of an undergraduate program implies a student position, the specific role is not explicitly stated."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classified as career_position due to active enrollment, but student positions are typically not considered career positions in the traditional sense."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role and time marker information. The event only implies an affiliation with the institution without specifying the nature of the role or the duration."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classified as career_position due to implied association, but the lack of specific role or time marker makes this classification uncertain."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

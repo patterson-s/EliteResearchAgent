@@ -1,0 +1,253 @@
+{
+  "status": "success",
+  "chunk_id": 3165,
+  "chunk_index": 5,
+  "source_url": "https://www.povertyactionlab.org/person/banerjee",
+  "title": "Abhijit Banerjee | The Abdul Latif Jameel Poverty Action Lab",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "MTV",
+          "quotes": [
+            "MTV can help drive social change",
+            "The entertaining way to behavioural change: Fighting HIV with MTV in Nigeria",
+            "Watch The MTV Soap Opera That Is Secretly Teaching Sex Ed"
+          ]
+        },
+        {
+          "name": "Pratham",
+          "quotes": [
+            "EI Dialogues with Dr. Rukmini Banerji, Pratham",
+            "Government of Andhra Pradesh to scale up ‘Teaching at the Right Level’ with Pratham and J-PAL South Asia at IFMR"
+          ]
+        },
+        {
+          "name": "Abdul Latif Jameel Poverty Action Lab at MIT",
+          "quotes": [
+            "Abdul Latif Jameel Poverty Action Lab at MIT teams up with Egyptian organizations for Cairo event",
+            "Grant to MIT's Poverty Action Lab increases focus on working with governments"
+          ]
+        },
+        {
+          "name": "J-PAL South Asia at IFMR",
+          "quotes": [
+            "Government of Andhra Pradesh to scale up ‘Teaching at the Right Level’ with Pratham and J-PAL South Asia at IFMR"
+          ]
+        },
+        {
+          "name": "UN General Assembly",
+          "quotes": [
+            "Video: Abhijit Banerjee's keynote at the UN General Assembly"
+          ]
+        },
+        {
+          "name": "Bandhan NGO",
+          "quotes": [
+            "Bandhan NGO adjudged most cost-effective agency"
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": [
+        {
+          "place": "Nigeria",
+          "quotes": [
+            "The entertaining way to behavioural change: Fighting HIV with MTV in Nigeria"
+          ]
+        },
+        {
+          "place": "India",
+          "quotes": [
+            "Using evidence for public policy gains traction in India",
+            "'Teaching at the Right Level' in India",
+            "Training Providers to Improve Rural Health in India",
+            "Healthcare workers in West Bengal to undergo 9-month training",
+            "Can training 'fake doctors' improve India's healthcare?",
+            "Government of Andhra Pradesh to scale up ‘Teaching at the Right Level’ with Pratham and J-PAL South Asia at IFMR"
+          ]
+        },
+        {
+          "place": "Cairo",
+          "quotes": [
+            "Abdul Latif Jameel Poverty Action Lab at MIT teams up with Egyptian organizations for Cairo event"
+          ]
+        },
+        {
+          "place": "Kenya",
+          "quotes": [
+            "A charity's radical experiment: giving 6,000 Kenyans enough money to escape poverty for a decade"
+          ]
+        },
+        {
+          "place": "Andhra Pradesh",
+          "quotes": [
+            "Government of Andhra Pradesh to scale up ‘Teaching at the Right Level’ with Pratham and J-PAL South Asia at IFMR"
+          ]
+        },
+        {
+          "place": "Bengal",
+          "quotes": [
+            "Poverty-breaker project piloted in Bengal"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "MTV can help drive social change",
+          "The entertaining way to behavioural change: Fighting HIV with MTV in Nigeria",
+          "Watch The MTV Soap Opera That Is Secretly Teaching Sex Ed"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit role mentioned, but organization and location are linked through quotes. Assuming a career position based on the context of driving social change."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1,
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [
+          1,
+          4
+        ],
+        "supporting_quotes": [
+          "EI Dialogues with Dr. Rukmini Banerji, Pratham",
+          "Government of Andhra Pradesh to scale up ‘Teaching at the Right Level’ with Pratham and J-PAL South Asia at IFMR",
+          "Using evidence for public policy gains traction in India",
+          "'Teaching at the Right Level' in India"
+        ],
+        "confidence": "high",
+        "notes": "Organizations and location are linked through quotes. Assuming a career position based on the context of scaling up educational initiatives."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "Abdul Latif Jameel Poverty Action Lab at MIT teams up with Egyptian organizations for Cairo event",
+          "Grant to MIT's Poverty Action Lab increases focus on working with governments"
+        ],
+        "confidence": "high",
+        "notes": "Organization and location are linked through quotes. Assuming a career position based on the context of collaborating with governments and organizations."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [],
+        "location_ids": [
+          5
+        ],
+        "supporting_quotes": [
+          "Bandhan NGO adjudged most cost-effective agency",
+          "Poverty-breaker project piloted in Bengal"
+        ],
+        "confidence": "medium",
+        "notes": "Organization and location are linked through quotes. Assuming a career position based on the context of implementing poverty-breaker projects."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. No explicit role mentioned, making it difficult to confirm career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quotes do not explicitly state a career position, only imply involvement with MTV."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. No explicit role mentioned, making it difficult to confirm career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quotes imply collaboration but do not explicitly state a career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. No explicit role mentioned, making it difficult to confirm career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quotes imply collaboration but do not explicitly state a career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. No explicit role mentioned, making it difficult to confirm career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quotes imply involvement but do not explicitly state a career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 0,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

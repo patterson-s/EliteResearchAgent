@@ -1,0 +1,22 @@
+You are classifying an award event into one of the identified major award labels.
+
+AWARD EVENT TO CLASSIFY:
+{event_text}
+
+AVAILABLE LABELS:
+{labels_text}
+
+TASK:
+Determine which label this award belongs to, or if it doesn't match any major award (NONE).
+
+Consider:
+- Same award name or awarding organization
+- Same year or very close
+- The event might mention the award with partial details
+
+Respond ONLY with valid JSON (no markdown, no preamble):
+{{
+  "assigned_label": "label_id or NONE",
+  "confidence": "high" | "medium" | "low",
+  "reasoning": "brief explanation"
+}}

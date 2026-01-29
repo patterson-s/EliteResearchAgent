@@ -1,0 +1,188 @@
+{
+  "status": "success",
+  "chunk_id": 3143,
+  "chunk_index": 0,
+  "source_url": "https://www.nobelprize.org/prizes/economic-sciences/2019/banerjee/biographical/",
+  "title": "Abhijit Banerjee – Biographical - NobelPrize.org",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "in the mid 1950s",
+          "type": "point",
+          "quotes": [
+            "in the mid 1950s my mother somehow managed to persuade her parents, who were relatively conventional Maharashtrians of the time, to take the very unusual step of sending her to the London School of Eco­nomics."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "London School of Economics",
+          "quotes": [
+            "my mother somehow managed to persuade her parents, who were relatively conventional Maharashtrians of the time, to take the very unusual step of sending her to the London School of Eco­nomics.",
+            "one of the examiners, Richard Lipsey, a professor at London School of Economics, went out of his way to seek him out and eventually secured for him a scholarship to go to LSE for his final year."
+          ]
+        },
+        {
+          "name": "Kensington Polytechnic",
+          "quotes": [
+            "He took night classes at the Kensington Polytechnic while working various jobs as a manual laborer."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "economist",
+          "quotes": [
+            "A series of accidents, mostly fortunate, made me the human being and economist that I am.",
+            "to a couple who were both economists."
+          ]
+        },
+        {
+          "title": "teacher",
+          "quotes": [
+            "My father was a famously charismatic teacher, who adored and was much adored by his many students."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "London",
+          "quotes": [
+            "This is where she met my dad. My dad was really not meant to be there; he was a college drop-out who, bored with his clerical job in Kolk­ata, made his way to London with a goal of studying more."
+          ]
+        },
+        {
+          "place": "Kolk­ata",
+          "quotes": [
+            "he was a college drop-out who, bored with his clerical job in Kolk­ata, made his way to London with a goal of studying more."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "in the mid 1950s my mother somehow managed to persuade her parents, who were relatively conventional Maharashtrians of the time, to take the very unusual step of sending her to the London School of Eco­nomics."
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but attending an institution is considered a career-related activity."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "He took night classes at the Kensington Polytechnic while working various jobs as a manual laborer."
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but attending an institution is considered a career-related activity."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "A series of accidents, mostly fortunate, made me the human being and economist that I am."
+        ],
+        "confidence": "high",
+        "notes": "Role mentioned without specific organization or time, but clearly indicates a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "My father was a famously charismatic teacher, who adored and was much adored by his many students."
+        ],
+        "confidence": "high",
+        "notes": "Role mentioned without specific organization or time, but clearly indicates a career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. While attending an institution can be career-related, the specific role or activity is unclear."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role and time information. While attending an institution can be career-related, the specific role or activity and time period are unclear."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location information. While the role is clear, the context of where and when this role was held is absent."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location information. While the role is clear, the context of where and when this role was held is absent."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 0,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

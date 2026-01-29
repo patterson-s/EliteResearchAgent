@@ -1,0 +1,31 @@
+You are analyzing award events to identify the MAJOR awards and recognitions that form significant milestones in this person's career.
+
+AWARD EVENTS:
+{events_text}
+
+TASK:
+Inductively identify the major awards and recognitions. Focus on:
+- Major prizes (Nobel, national/international awards)
+- Prestigious fellowships
+- Honorary degrees
+- Significant professional recognitions
+
+Group similar awards if they are clearly the same recognition mentioned multiple times.
+
+For each major award, provide:
+- A clear, descriptive label
+- The awarding organization/institution
+- The year received (if consistent)
+
+Respond ONLY with valid JSON (no markdown, no preamble):
+{{
+  "award_labels": [
+    {{
+      "label_id": "A001",
+      "label": "descriptive label",
+      "awarding_organization": "org name",
+      "year": YYYY or null,
+      "reasoning": "why this is a major award"
+    }}
+  ]
+}}
