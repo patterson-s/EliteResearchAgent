@@ -1,0 +1,150 @@
+{
+  "status": "success",
+  "chunk_id": 3547,
+  "chunk_index": 3,
+  "source_url": "https://www.linkedin.com/in/amina-mohammed",
+  "title": "Amina J. Mohammed - United Nations | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "80 years",
+          "type": "point",
+          "quotes": [
+            "Nations marks 80 years, we pause — not at the summit, but at a milestone."
+          ]
+        },
+        {
+          "text": "2025",
+          "type": "point",
+          "quotes": [
+            "My message to the 2025 PSIA Sciences Po ‌graduates:",
+            "At #GP2025 with SRSG Kamal Kishore,…"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "United Nations",
+          "quotes": [
+            "From the rubble of war, the UN has lifted humanity:",
+            "The United Nations…"
+          ]
+        },
+        {
+          "name": "PSIA Sciences Po",
+          "quotes": [
+            "My message to the 2025 PSIA Sciences Po ‌graduates:"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "SRSG Kamal Kishore",
+          "quotes": [
+            "At #GP2025 with SRSG Kamal Kishore,…"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Amman",
+          "quotes": [
+            "In Amman, I met young Jordanians shaping a future of peace, justice, and inclusion—advancing the SDGs with vision and resolve."
+          ]
+        },
+        {
+          "place": "Africa",
+          "quotes": [
+            "What makes #UnstoppableAfrica? It’s our people: African women breaking barriers, youth driving change, farmers feeding nations, and communities…"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "At #GP2025 with SRSG Kamal Kishore,…"
+        ],
+        "confidence": "medium",
+        "notes": "The role 'SRSG Kamal Kishore' is mentioned in the context of 2025, but the organization is not explicitly linked. Assuming it's a career position based on the title."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "My message to the 2025 PSIA Sciences Po ‌graduates:"
+        ],
+        "confidence": "low",
+        "notes": "PSIA Sciences Po is mentioned, but the role and time marker are not explicitly linked. Assuming it's a career position, possibly as a speaker or faculty member."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization_ids despite the role 'SRSG Kamal Kishore' being mentioned. Organization is not explicitly linked."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location_ids, which might be inferable but is not explicitly provided."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time_marker_ids and role_ids. Time and role are not explicitly linked to the organization 'PSIA Sciences Po'."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location_ids, which might be inferable but is not explicitly provided."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classification as 'career_position' is uncertain; could be a one-time speaking engagement rather than a formal position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

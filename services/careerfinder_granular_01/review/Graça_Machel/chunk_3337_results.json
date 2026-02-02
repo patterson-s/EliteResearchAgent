@@ -1,0 +1,241 @@
+{
+  "status": "success",
+  "chunk_id": 3337,
+  "chunk_index": 0,
+  "source_url": "https://commencement.morgan.edu/speakers/graca-machel/",
+  "title": "Commencement | Graca Machel",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "May 16, 2015",
+          "type": "point",
+          "quotes": [
+            "The Honorable Graca Machel, delivered the 139th Commencement Address at Morgan State University on May 16, 2015."
+          ]
+        },
+        {
+          "text": "October 17, 1945",
+          "type": "point",
+          "quotes": [
+            "Graça Simbine Machel Mandela (b. October 17,1945), is a Mozambican political and social activist for human rights and mostly for children’s rights."
+          ]
+        },
+        {
+          "text": "1986",
+          "type": "point",
+          "quotes": [
+            "She is the widow of the late Mozambican president Samora Machel who died in 1986,"
+          ]
+        },
+        {
+          "text": "1994",
+          "type": "point",
+          "quotes": [
+            "She is President of the Foundation for Community Development (FDC), a not-for-profit Mozambican organization she founded in 1994."
+          ]
+        },
+        {
+          "text": "since the start of the 1990s",
+          "type": "open",
+          "quotes": [
+            "and since the start of the 1990s, to an international community appalled by the toll that adult warfare had taken on the world’s children."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Morgan State University",
+          "quotes": [
+            "The Honorable Graca Machel, delivered the 139th Commencement Address at Morgan State University on May 16, 2015."
+          ]
+        },
+        {
+          "name": "Foundation for Community Development (FDC)",
+          "quotes": [
+            "She is President of the Foundation for Community Development (FDC), a not-for-profit Mozambican organization she founded in 1994."
+          ]
+        },
+        {
+          "name": "Frelimo",
+          "quotes": [
+            "As Minister of Education in Mozambique, Graça Machel worked to implement Frelimo’s goal of universal education for all Mozambicans."
+          ]
+        },
+        {
+          "name": "National Organization of Children of Mozambique",
+          "quotes": [
+            "and as Chairperson of the National Organization of Children of Mozambique, she has worked to place orphans in comfortable homes, empower Mozambican women, and teach reconciliation."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Minister of Education in Mozambique",
+          "quotes": [
+            "As Minister of Education in Mozambique, Graça Machel worked to implement Frelimo’s goal of universal education for all Mozambicans."
+          ]
+        },
+        {
+          "title": "President of the Foundation for Community Development",
+          "quotes": [
+            "She is President of the Foundation for Community Development (FDC), a not-for-profit Mozambican organization she founded in 1994."
+          ]
+        },
+        {
+          "title": "Chairperson of the National Organization of Children of Mozambique",
+          "quotes": [
+            "and as Chairperson of the National Organization of Children of Mozambique, she has worked to place orphans in comfortable homes, empower Mozambican women, and teach reconciliation."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Mozambique",
+          "quotes": [
+            "Graça Simbine Machel Mandela (b. October 17,1945), is a Mozambican political and social activist for human rights and mostly for children’s rights."
+          ]
+        },
+        {
+          "place": "Portugal",
+          "quotes": [
+            "She was sent to a Methodist mission school at age 6 and later went to university in Portugal on a mission scholarship."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "She is President of the Foundation for Community Development (FDC), a not-for-profit Mozambican organization she founded in 1994."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "As Minister of Education in Mozambique, Graça Machel worked to implement Frelimo’s goal of universal education for all Mozambicans."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time marker, but role and organization are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "and as Chairperson of the National Organization of Children of Mozambique, she has worked to place orphans in comfortable homes, empower Mozambican women, and teach reconciliation."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time marker, but role and organization are clearly linked."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The Honorable Graca Machel, delivered the 139th Commencement Address at Morgan State University on May 16, 2015."
+        ],
+        "confidence": "high",
+        "notes": "Commencement address is a one-time event, classified as an award/honorific."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "error",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "high",
+            "description": "Commencement address is not typically classified as an award/honorific. Consider reclassifying as 'career_position' or 'public_speaking_engagement'."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location for the event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 1,
+      "career_positions": 3,
+      "awards": 1
+    }
+  }
+}

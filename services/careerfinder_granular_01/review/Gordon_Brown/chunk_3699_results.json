@@ -1,0 +1,399 @@
+{
+  "status": "success",
+  "chunk_id": 3699,
+  "chunk_index": 2,
+  "source_url": "https://en.wikipedia.org/wiki/Gordon_Brown",
+  "title": "Gordon Brown - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "from 1999 to 2002",
+          "type": "range",
+          "quotes": [
+            "reserves from 1999 to 2002"
+          ]
+        },
+        {
+          "text": "in 2007",
+          "type": "point",
+          "quotes": [
+            "Following Blair's resignation in 2007, Brown was elected unopposed to succeed him as prime minister and party leader."
+          ]
+        },
+        {
+          "text": "in 2008",
+          "type": "point",
+          "quotes": [
+            "In 2008, Brown's government passed the world's first Climate Change Act"
+          ]
+        },
+        {
+          "text": "in 2010",
+          "type": "point",
+          "quotes": [
+            "Labour lost 91 seats in the 2010 general election"
+          ]
+        },
+        {
+          "text": "in 2015",
+          "type": "point",
+          "quotes": [
+            "continuing to serve as MP for Kirkcaldy and Cowdenbeath until he gave up his seat in 2015."
+          ]
+        },
+        {
+          "text": "in 2014",
+          "type": "point",
+          "quotes": [
+            "Brown played a prominent role in the campaign to maintain the union during the 2014 Scottish independence referendum"
+          ]
+        },
+        {
+          "text": "in 2022",
+          "type": "point",
+          "quotes": [
+            "he wrote a report on devolution in 2022 for Labour leader Keir Starmer."
+          ]
+        },
+        {
+          "text": "in the 2024 Birthday Honours",
+          "type": "point",
+          "quotes": [
+            "He was awarded the Order of the Companions of Honour by King Charles III in the 2024 Birthday Honours"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Northern Rock",
+          "quotes": [
+            "The government took majority shareholdings in Northern Rock and Royal Bank of Scotland"
+          ]
+        },
+        {
+          "name": "Royal Bank of Scotland",
+          "quotes": [
+            "The government took majority shareholdings in Northern Rock and Royal Bank of Scotland"
+          ]
+        },
+        {
+          "name": "Conservative Party",
+          "quotes": [
+            "in which the Conservative Party won the most seats."
+          ]
+        },
+        {
+          "name": "Liberal Democrats",
+          "quotes": [
+            "After the Conservatives formed a coalition government with the Liberal Democrats"
+          ]
+        },
+        {
+          "name": "United Nations",
+          "quotes": [
+            "Brown has served as the United Nations Special Envoy for Global Education"
+          ]
+        },
+        {
+          "name": "World Health Organization",
+          "quotes": [
+            "World Health Organization's Ambassador for Global Health Financing."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "prime minister",
+          "quotes": [
+            "Brown was elected unopposed to succeed him as prime minister and party leader."
+          ]
+        },
+        {
+          "title": "party leader",
+          "quotes": [
+            "Brown was elected unopposed to succeed him as prime minister and party leader."
+          ]
+        },
+        {
+          "title": "MP for Kirkcaldy and Cowdenbeath",
+          "quotes": [
+            "continuing to serve as MP for Kirkcaldy and Cowdenbeath until he gave up his seat in 2015."
+          ]
+        },
+        {
+          "title": "Special Envoy for Global Education",
+          "quotes": [
+            "Brown has served as the United Nations Special Envoy for Global Education"
+          ]
+        },
+        {
+          "title": "Ambassador for Global Health Financing",
+          "quotes": [
+            "World Health Organization's Ambassador for Global Health Financing."
+          ]
+        },
+        {
+          "title": "chancellor",
+          "quotes": [
+            "As chancellor,"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Iraq",
+          "quotes": [
+            "and to the war in Iraq"
+          ]
+        },
+        {
+          "place": "Britain",
+          "quotes": [
+            "inquiry into the reasons for Britain's participation"
+          ]
+        },
+        {
+          "place": "Kirkcaldy and Cowdenbeath",
+          "quotes": [
+            "continuing to serve as MP for Kirkcaldy and Cowdenbeath until he gave up his seat in 2015."
+          ]
+        },
+        {
+          "place": "Scotland",
+          "quotes": [
+            "2014 Scottish independence referendum"
+          ]
+        },
+        {
+          "place": "UK",
+          "quotes": [
+            "for public and charitable services in the UK and abroad."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          5
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "reserves from 1999 to 2002",
+          "As chancellor"
+        ],
+        "confidence": "medium",
+        "notes": "Role as chancellor is mentioned without specific organization or location, but time marker is clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Following Blair's resignation in 2007, Brown was elected unopposed to succeed him as prime minister and party leader."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time marker, roles, and quotes."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "continuing to serve as MP for Kirkcaldy and Cowdenbeath until he gave up his seat in 2015."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time marker, role, location, and quotes."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "continuing to serve as MP for Kirkcaldy and Cowdenbeath until he gave up his seat in 2015."
+        ],
+        "confidence": "high",
+        "notes": "Time marker 5 (2014) is within the range of the MP role, which ended in 2015."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          6
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "he wrote a report on devolution in 2022 for Labour leader Keir Starmer."
+        ],
+        "confidence": "low",
+        "notes": "No clear role or organization mentioned, but time marker is clear."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          7
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He was awarded the Order of the Companions of Honour by King Charles III in the 2024 Birthday Honours"
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of an award with time marker and supporting quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Brown has served as the United Nations Special Envoy for Global Education"
+        ],
+        "confidence": "medium",
+        "notes": "No clear time marker, but role and organization are linked in the quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "World Health Organization's Ambassador for Global Health Financing."
+        ],
+        "confidence": "medium",
+        "notes": "No clear time marker, but role and organization are linked in the quote."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location for the chancellor role."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quote 'As chancellor' does not provide clear context or support for the role."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "No clear role or organization mentioned for the 2022 event."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Writing a report may not qualify as a career position."
+          }
+        ]
+      },
+      {
+        "event_id": 5,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 6,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing time marker for the United Nations Special Envoy role."
+          }
+        ]
+      },
+      {
+        "event_id": 7,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing time marker for the World Health Organization Ambassador role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 8,
+      "valid": 3,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 7,
+      "awards": 1
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "status": "success",
+  "chunk_id": 2621,
+  "chunk_index": 15,
+  "source_url": "https://en.wikipedia.org/wiki/Susilo_Bambang_Yudhoyono",
+  "title": "Susilo Bambang Yudhoyono - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "beginning of his first term in 2004",
+          "type": "point",
+          "quotes": [
+            "He added that the economic conditions at the beginning of his first term in 2004 were still characterized by low GDP and significant economic growth, as well as minimal infrastructure."
+          ]
+        },
+        {
+          "text": "2004–2014 period",
+          "type": "range",
+          "quotes": [
+            "He said, during the 2004–2014 period, domestic and foreign debt could also be reduced while the state budget was increased fourfold."
+          ]
+        },
+        {
+          "text": "2004",
+          "type": "point",
+          "quotes": [
+            "In 2004, the country's per capita income was recorded at US$1188 but ten years later it rose to US$3490."
+          ]
+        },
+        {
+          "text": "since 2009",
+          "type": "open",
+          "quotes": [
+            "Indonesia is also recorded as a country with the second highest economic growth rate since 2009 after China with the country's exports increasing threefold."
+          ]
+        },
+        {
+          "text": "from 2011 to 2013",
+          "type": "range",
+          "quotes": [
+            "Yudhoyono gave the example of the Master Plan for the Acceleration of Indonesian Economic Development (MP3EI), which from 2011 to 2013, reached a value of IDR 828.7 trillion."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Consultative Group on Indonesia (CGI)",
+          "quotes": [
+            "Yudhoyono was also able to initiate the disbanding of the Consultative Group on Indonesia (CGI) because he wanted Indonesia to be more independent and less dependent on many parties."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "President",
+          "quotes": [
+            "President Yudhoyono outlined some of the government's achievements in the economic field",
+            "He also strengthened Indonesia's democratic system by ensuring a smooth and orderly leadership transition.",
+            "President Yudhoyono added that the debt ratio of 23 percent to GDP was far below developed countries such as Germany (86.1 percent), United States (104.1 percent), and United Kingdom (107 percent)."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Germany",
+          "quotes": [
+            "President Yudhoyono added that the debt ratio of 23 percent to GDP was far below developed countries such as Germany (86.1 percent), United States (104.1 percent), and United Kingdom (107 percent)."
+          ]
+        },
+        {
+          "place": "United States",
+          "quotes": [
+            "President Yudhoyono added that the debt ratio of 23 percent to GDP was far below developed countries such as Germany (86.1 percent), United States (104.1 percent), and United Kingdom (107 percent)."
+          ]
+        },
+        {
+          "place": "United Kingdom",
+          "quotes": [
+            "President Yudhoyono added that the debt ratio of 23 percent to GDP was far below developed countries such as Germany (86.1 percent), United States (104.1 percent), and United Kingdom (107 percent)."
+          ]
+        },
+        {
+          "place": "China",
+          "quotes": [
+            "Indonesia is also recorded as a country with the second highest economic growth rate since 2009 after China with the country's exports increasing threefold."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He added that the economic conditions at the beginning of his first term in 2004 were still characterized by low GDP and significant economic growth, as well as minimal infrastructure.",
+          "He said, during the 2004–2014 period, domestic and foreign debt could also be reduced while the state budget was increased fourfold.",
+          "President Yudhoyono outlined some of the government's achievements in the economic field",
+          "He also strengthened Indonesia's democratic system by ensuring a smooth and orderly leadership transition.",
+          "President Yudhoyono added that the debt ratio of 23 percent to GDP was far below developed countries such as Germany (86.1 percent), United States (104.1 percent), and United Kingdom (107 percent)."
+        ],
+        "confidence": "high",
+        "notes": "The role of President is clearly linked to the time markers 2004 and 2004-2014, indicating a career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location information, which is unexpected for a career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "While the quotes support the role of President and the time markers, they do not explicitly mention the organization or location, which are missing."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

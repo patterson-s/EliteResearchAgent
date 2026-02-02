@@ -1,0 +1,211 @@
+{
+  "status": "success",
+  "chunk_id": 300,
+  "chunk_index": 3,
+  "source_url": "https://en.wikipedia.org/wiki/Amr_Moussa",
+  "title": "Amr Moussa - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "October 2009",
+          "type": "point",
+          "quotes": [
+            "When asked in October 2009 about rumours that he might run for the presidency in 2012, Moussa did not deny his intention to run for office or rule it out, leaving the door open to speculations."
+          ]
+        },
+        {
+          "text": "25 May 2010",
+          "type": "point",
+          "quotes": [
+            "Amr Moussa with William Hague (London, 25 May 2010)."
+          ]
+        },
+        {
+          "text": "26 January 2011",
+          "type": "point",
+          "quotes": [
+            "On 26 January 2011, at the Annual Horasis meeting in Zürich, Moussa shared strong views on the need for economic and political reforms in Egypt, and made it clear that he was considering a run."
+          ]
+        },
+        {
+          "text": "1 February 2011",
+          "type": "point",
+          "quotes": [
+            "On 1 February 2011, following the announcement by President Hosni Mubarak that he would not stand in the upcoming presidential elections, Moussa told CNN that he would seriously think about standing himself as a candidate in the next few weeks."
+          ]
+        },
+        {
+          "text": "8 February 2011",
+          "type": "point",
+          "quotes": [
+            "On the 8 February broadcast of Al Jazeera English's Empire, well-connected American journalist Seymour Hersh stated that Moussa was considered the U.S.'s favored 'Plan B' should Mubarak resign, 'whether he knows it or not.'"
+          ]
+        },
+        {
+          "text": "11 February 2011",
+          "type": "point",
+          "quotes": [
+            "On 11 February 2011, Al Jazeera English Online read from a Reuters report that stated Moussa was resigning from his position with the Arab League; on the day that President Mubarak resigned the presidency this furthered rumours he might make a strong bid for president when elections are announced in Egypt."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Arab League",
+          "quotes": [
+            "recent run of successes that have occurred under his leadership at the Arab League until the end of his term.",
+            "Moussa was resigning from his position with the Arab League;"
+          ]
+        },
+        {
+          "name": "Al Jazeera English",
+          "quotes": [
+            "On the 8 February broadcast of Al Jazeera English's Empire, well-connected American journalist Seymour Hersh stated that Moussa was considered the U.S.'s favored 'Plan B' should Mubarak resign, 'whether he knows it or not.'",
+            "On 11 February 2011, Al Jazeera English Online read from a Reuters report that stated Moussa was resigning from his position with the Arab League;"
+          ]
+        },
+        {
+          "name": "Reuters",
+          "quotes": [
+            "On 11 February 2011, Al Jazeera English Online read from a Reuters report that stated Moussa was resigning from his position with the Arab League;"
+          ]
+        },
+        {
+          "name": "CNN",
+          "quotes": [
+            "On 1 February 2011, following the announcement by President Hosni Mubarak that he would not stand in the upcoming presidential elections, Moussa told CNN that he would seriously think about standing himself as a candidate in the next few weeks."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "President of Egypt",
+          "quotes": [
+            "When asked in October 2009 about rumours that he might run for the presidency in 2012, Moussa did not deny his intention to run for office or rule it out, leaving the door open to speculations.",
+            "He argued that 'It's the right of every citizen that has the capacity and efficiency to aspire to any political office that would allow him to contribute to the service of his nation'."
+          ]
+        },
+        {
+          "title": "candidate",
+          "quotes": [
+            "On 1 February 2011, following the announcement by President Hosni Mubarak that he would not stand in the upcoming presidential elections, Moussa told CNN that he would seriously think about standing himself as a candidate in the next few weeks."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "London",
+          "quotes": [
+            "Amr Moussa with William Hague (London, 25 May 2010)."
+          ]
+        },
+        {
+          "place": "Zürich",
+          "quotes": [
+            "On 26 January 2011, at the Annual Horasis meeting in Zürich, Moussa shared strong views on the need for economic and political reforms in Egypt, and made it clear that he was considering a run."
+          ]
+        },
+        {
+          "place": "Egypt",
+          "quotes": [
+            "He argued that 'It's the right of every citizen that has the capacity and efficiency to aspire to any political office that would allow him to contribute to the service of his nation'.",
+            "On 26 January 2011, at the Annual Horasis meeting in Zürich, Moussa shared strong views on the need for economic and political reforms in Egypt, and made it clear that he was considering a run."
+          ]
+        },
+        {
+          "place": "Davos",
+          "quotes": [
+            "Moussa during the World Economic Forum (Davos, 2013)"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Moussa was resigning from his position with the Arab League;",
+          "recent run of successes that have occurred under his leadership at the Arab League until the end of his term."
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of a leadership role at the Arab League, ending in February 2011."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          3,
+          4
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "When asked in October 2009 about rumours that he might run for the presidency in 2012, Moussa did not deny his intention to run for office or rule it out, leaving the door open to speculations.",
+          "On 1 February 2011, following the announcement by President Hosni Mubarak that he would not stand in the upcoming presidential elections, Moussa told CNN that he would seriously think about standing himself as a candidate in the next few weeks.",
+          "On the 8 February broadcast of Al Jazeera English's Empire, well-connected American journalist Seymour Hersh stated that Moussa was considered the U.S.'s favored 'Plan B' should Mubarak resign, 'whether he knows it or not.'",
+          "He argued that 'It's the right of every citizen that has the capacity and efficiency to aspire to any political office that would allow him to contribute to the service of his nation'."
+        ],
+        "confidence": "medium",
+        "notes": "Moussa expressed interest in running for President of Egypt and was considered a potential candidate, but no formal position was held during this period."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role_ids and location_ids despite clear indication of a leadership role at the Arab League."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position, but quotes primarily discuss potential candidacy rather than an active role."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization_ids despite discussing potential political roles."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

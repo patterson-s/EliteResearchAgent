@@ -1,0 +1,102 @@
+{
+  "status": "success",
+  "chunk_id": 3068,
+  "chunk_index": 0,
+  "source_url": "https://www.bloomberg.com/profile/person/1741513",
+  "title": "Naoto Kan, Japan: Profile and Biography - Bloomberg Markets",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Bloomberg",
+          "quotes": [
+            "Bloomberg the Company & Its Products",
+            "Bloomberg quickly and accurately delivers business and financial information, news and insight around the world"
+          ]
+        },
+        {
+          "name": "Bloomberg Markets",
+          "quotes": [
+            "Naoto Kan, Japan: Profile and Biography - Bloomberg Markets"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Former Prime Minister",
+          "quotes": [
+            "Naoto Kan, Former Prime Minister, Japan"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Japan",
+          "quotes": [
+            "Naoto Kan, Japan: Profile and Biography - Bloomberg Markets",
+            "Naoto Kan, Former Prime Minister, Japan"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Naoto Kan, Former Prime Minister, Japan",
+          "Naoto Kan, Japan: Profile and Biography - Bloomberg Markets"
+        ],
+        "confidence": "high",
+        "notes": "No time markers provided, but the role and organization are clearly linked through the quotes."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "No time markers provided, making it impossible to verify temporal coherence."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The role 'Former Prime Minister' is a past position, but the event is classified as 'career_position'. Consider if this should be reclassified or if it's a one-time recognition."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "While the role and organization are linked through quotes, the lack of explicit time markers makes the event less complete."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "status": "success",
+  "chunk_id": 2627,
+  "chunk_index": 21,
+  "source_url": "https://en.wikipedia.org/wiki/Susilo_Bambang_Yudhoyono",
+  "title": "Susilo Bambang Yudhoyono - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1 December 2019",
+          "type": "point",
+          "quotes": [
+            "Bogor LavAni on 1 December 2019,"
+          ]
+        },
+        {
+          "text": "17 July 2018",
+          "type": "point",
+          "quotes": [
+            "received treatment at Gatot Soebroto Army Central Hospital on 17 July 2018."
+          ]
+        },
+        {
+          "text": "2 November 2021",
+          "type": "point",
+          "quotes": [
+            "On 2 November 2021, he was diagnosed with early stage prostate cancer"
+          ]
+        },
+        {
+          "text": "2023",
+          "type": "point",
+          "quotes": [
+            "In 2023, Yudhoyono opened SBY-Ani Museum and Gallery in Pacitan."
+          ]
+        },
+        {
+          "text": "2007",
+          "type": "point",
+          "quotes": [
+            "In 2007, he released his first music album entitled My Longing for You"
+          ]
+        },
+        {
+          "text": "2009",
+          "type": "point",
+          "quotes": [
+            "In 2009, he joined forces with Yockie Suryoprayogo under the name 'Yockie and Susilo' releasing the album Evolusi."
+          ]
+        },
+        {
+          "text": "2010",
+          "type": "point",
+          "quotes": [
+            "In 2010, he released a new third album entitled I'm Certain I'll"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Indonesian Military Academy",
+          "quotes": [
+            "as a cadet in the Indonesian Military Academy"
+          ]
+        },
+        {
+          "name": "Bogor LavAni",
+          "quotes": [
+            "form a volleyball team, Bogor LavAni on 1 December 2019,"
+          ]
+        },
+        {
+          "name": "Gatot Soebroto Army Central Hospital",
+          "quotes": [
+            "received treatment at Gatot Soebroto Army Central Hospital on 17 July 2018."
+          ]
+        },
+        {
+          "name": "Mayo Clinic",
+          "quotes": [
+            "received medical care in Mayo Clinic at Minneapolis."
+          ]
+        },
+        {
+          "name": "Democratic Party",
+          "quotes": [
+            "According to Democratic Party member Andi Mallarangeng, Yudhoyono liked to paint since his teenage years in Pacitan,"
+          ]
+        },
+        {
+          "name": "Gaya Teruna",
+          "quotes": [
+            "was part of a band called Gaya Teruna."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "cadet",
+          "quotes": [
+            "as a cadet in the Indonesian Military Academy"
+          ]
+        },
+        {
+          "title": "president",
+          "quotes": [
+            "during his presidency when he make time to play."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Minneapolis",
+          "quotes": [
+            "received medical care in Mayo Clinic at Minneapolis."
+          ]
+        },
+        {
+          "place": "Pacitan",
+          "quotes": [
+            "In 2023, Yudhoyono opened SBY-Ani Museum and Gallery in Pacitan."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "as a cadet in the Indonesian Military Academy"
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker provided, but the role and organization are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "during his presidency when he make time to play."
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker or organization provided, but the role is clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Bogor LavAni on 1 December 2019,"
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but the organization and time marker are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2009, he joined forces with Yockie Suryoprayogo under the name 'Yockie and Susilo' releasing the album Evolusi.",
+          "was part of a band called Gaya Teruna."
+        ],
+        "confidence": "high",
+        "notes": "The organization (band) and time marker are clear, though no specific role is mentioned."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position as a cadet in the Indonesian Military Academy."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "error",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing time marker and organization for the career position during presidency."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role for the career position at Bogor LavAni on 1 December 2019."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The event might not be a career position if the role at Bogor LavAni was not an active one."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role for the career position in the band Gaya Teruna in 2009."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The event might be better classified as an award or artistic endeavor rather than a career position if the role in the band was not an active professional role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 1,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

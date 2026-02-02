@@ -1,0 +1,33 @@
+{
+  "classifications": [
+    {
+      "event_index": 9,
+      "assigned_label": "A001",
+      "confidence": "high",
+      "reasoning": "The event mentions 'Legion of Honour' and 'Officers', which directly matches the label 'Officer of the Legion of Honour' (A001)."
+    },
+    {
+      "event_index": 10,
+      "assigned_label": "NONE",
+      "confidence": "high",
+      "reasoning": "The event mentions 'Officers' but does not provide enough details to match it with any of the available labels. Neither the award name nor the organization matches the provided labels."
+    },
+    {
+      "event_index": 20,
+      "assigned_label": "A002",
+      "confidence": "high",
+      "reasoning": "The event mentions the Academy of Technology as the organization and the year 2010, which matches the details of label A002."
+    }
+  ],
+  "summary": {
+    "total_events": 3,
+    "assigned": 2,
+    "none": 1,
+    "coverage_percent": 66.66666666666666,
+    "label_counts": {
+      "A001": 1,
+      "NONE": 1,
+      "A002": 1
+    }
+  }
+}

@@ -1,0 +1,529 @@
+{
+  "status": "success",
+  "chunk_id": 3870,
+  "chunk_index": 7,
+  "source_url": "https://en.wikipedia.org/wiki/Louis_Michel",
+  "title": "Louis Michel - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2009–2014",
+          "type": "range",
+          "quotes": [
+            "MEPs for Belgium 2009–2014"
+          ]
+        },
+        {
+          "text": "2014–2019",
+          "type": "range",
+          "quotes": [
+            "MEPs for Belgium 2014–2019"
+          ]
+        },
+        {
+          "text": "20th-century",
+          "type": "point",
+          "quotes": [
+            "20th-century Belgian educators",
+            "20th-century Belgian politicians"
+          ]
+        },
+        {
+          "text": "21st-century",
+          "type": "point",
+          "quotes": [
+            "21st-century Belgian educators"
+          ]
+        },
+        {
+          "text": "1947",
+          "type": "point",
+          "quotes": [
+            ":1947 births"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Mouvement Réformateur",
+          "quotes": [
+            "Mouvement Réformateur MEPs"
+          ]
+        },
+        {
+          "name": "Reformist Movement",
+          "quotes": [
+            "Reformist Movement politicians"
+          ]
+        },
+        {
+          "name": "Order of Leopold II",
+          "quotes": [
+            "Recipients of the Grand Cross of the Order of Leopold II"
+          ]
+        },
+        {
+          "name": "Order of Isabella the Catholic",
+          "quotes": [
+            "Knights Grand Cross of the Order of Isabella the Catholic"
+          ]
+        },
+        {
+          "name": "Order of Orange-Nassau",
+          "quotes": [
+            "Knights Grand Cross of the Order of Orange-Nassau"
+          ]
+        },
+        {
+          "name": "Order of Prince Henry",
+          "quotes": [
+            "Grand Crosses of the Order of Prince Henry"
+          ]
+        },
+        {
+          "name": "Order of the Star of Romania",
+          "quotes": [
+            "Grand Crosses of the Order of the Star of Romania"
+          ]
+        },
+        {
+          "name": "Order of the Dannebrog",
+          "quotes": [
+            "Grand Crosses of the Order of the Dannebrog"
+          ]
+        },
+        {
+          "name": "Legion of Honour",
+          "quotes": [
+            "Recipients of the Legion of Honour"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Belgian European commissioners",
+          "quotes": [
+            "Belgian European commissioners"
+          ]
+        },
+        {
+          "title": "Ministers of state of Belgium",
+          "quotes": [
+            "Ministers of state of Belgium"
+          ]
+        },
+        {
+          "title": "Deputy prime ministers of Belgium",
+          "quotes": [
+            "Deputy prime ministers of Belgium"
+          ]
+        },
+        {
+          "title": "Foreign ministers of Belgium",
+          "quotes": [
+            "Foreign ministers of Belgium"
+          ]
+        },
+        {
+          "title": "MEPs for Belgium",
+          "quotes": [
+            "MEPs for Belgium 2009–2014",
+            "MEPs for Belgium 2014–2019"
+          ]
+        },
+        {
+          "title": "Mouvement Réformateur MEPs",
+          "quotes": [
+            "Mouvement Réformateur MEPs"
+          ]
+        },
+        {
+          "title": "Reformist Movement politicians",
+          "quotes": [
+            "Reformist Movement politicians"
+          ]
+        },
+        {
+          "title": "Walloon politicians",
+          "quotes": [
+            "Walloon politicians"
+          ]
+        },
+        {
+          "title": "Belgian politicians",
+          "quotes": [
+            "20th-century Belgian politicians"
+          ]
+        },
+        {
+          "title": "Belgian educators",
+          "quotes": [
+            "20th-century Belgian educators",
+            "21st-century Belgian educators"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Belgium",
+          "quotes": [
+            "Belgian European commissioners",
+            "Ministers of state of Belgium",
+            "Deputy prime ministers of Belgium",
+            "Foreign ministers of Belgium",
+            "MEPs for Belgium 2009–2014",
+            "MEPs for Belgium 2014–2019",
+            "20th-century Belgian politicians",
+            "20th-century Belgian educators",
+            "21st-century Belgian educators"
+          ]
+        },
+        {
+          "place": "Tienen",
+          "quotes": [
+            "People from Tienen"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          4,
+          5
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "MEPs for Belgium 2009–2014",
+          "Mouvement Réformateur MEPs"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          4,
+          5
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "MEPs for Belgium 2014–2019",
+          "Mouvement Réformateur MEPs"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, role, and location."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Recipients of the Grand Cross of the Order of Leopold II"
+        ],
+        "confidence": "high",
+        "notes": "Award indicated by 'Recipients of the Grand Cross'."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Knights Grand Cross of the Order of Isabella the Catholic"
+        ],
+        "confidence": "high",
+        "notes": "Award indicated by 'Knights Grand Cross'."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Knights Grand Cross of the Order of Orange-Nassau"
+        ],
+        "confidence": "high",
+        "notes": "Award indicated by 'Knights Grand Cross'."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Grand Crosses of the Order of Prince Henry"
+        ],
+        "confidence": "high",
+        "notes": "Award indicated by 'Grand Crosses'."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          6
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Grand Crosses of the Order of the Star of Romania"
+        ],
+        "confidence": "high",
+        "notes": "Award indicated by 'Grand Crosses'."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          7
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Grand Crosses of the Order of the Dannebrog"
+        ],
+        "confidence": "high",
+        "notes": "Award indicated by 'Grand Crosses'."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          8
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Recipients of the Legion of Honour"
+        ],
+        "confidence": "high",
+        "notes": "Award indicated by 'Recipients of the Legion of Honour'."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          8,
+          9
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "20th-century Belgian politicians",
+          "20th-century Belgian educators"
+        ],
+        "confidence": "medium",
+        "notes": "No specific organization, but roles and location are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          9
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "21st-century Belgian educators"
+        ],
+        "confidence": "medium",
+        "notes": "No specific organization, but role and location are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          6,
+          7
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Reformist Movement politicians",
+          "Walloon politicians"
+        ],
+        "confidence": "medium",
+        "notes": "No specific organization, but roles and location are clear."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time_marker_ids for award event."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time_marker_ids for award event."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time_marker_ids for award event."
+          }
+        ]
+      },
+      {
+        "event_id": 5,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time_marker_ids for award event."
+          }
+        ]
+      },
+      {
+        "event_id": 6,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time_marker_ids for award event."
+          }
+        ]
+      },
+      {
+        "event_id": 7,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time_marker_ids for award event."
+          }
+        ]
+      },
+      {
+        "event_id": 8,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time_marker_ids for award event."
+          }
+        ]
+      },
+      {
+        "event_id": 9,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization_ids for career_position event."
+          }
+        ]
+      },
+      {
+        "event_id": 10,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization_ids for career_position event."
+          }
+        ]
+      },
+      {
+        "event_id": 11,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization_ids for career_position event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 12,
+      "valid": 2,
+      "warnings": 10,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 8
+    }
+  }
+}

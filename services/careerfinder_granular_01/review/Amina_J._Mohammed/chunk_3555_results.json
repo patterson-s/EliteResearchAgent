@@ -1,0 +1,87 @@
+{
+  "status": "success",
+  "chunk_id": 3555,
+  "chunk_index": 2,
+  "source_url": "https://www.educationcannotwait.org/news-stories/featured-content/education-cannot-wait-interviews-amina-j-mohammed-deputy-secretary",
+  "title": "Education Cannot Wait Interviews Amina J. Mohammed, Deputy Secretary-general of the United Nations | Education Cannot Wait",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "Before COVID-19",
+          "type": "point",
+          "quotes": [
+            "Before COVID-19, more than 260 million children, adolescents and youth were out of school."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "UN General Assembly",
+          "quotes": [
+            "The UN General Assembly President recently stressed the need to continue to invest in education during the current COVID-19 crisis"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "UN General Assembly President",
+          "quotes": [
+            "The UN General Assembly President recently stressed the need to continue to invest in education during the current COVID-19 crisis"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The UN General Assembly President recently stressed the need to continue to invest in education during the current COVID-19 crisis"
+        ],
+        "confidence": "high",
+        "notes": "The role of UN General Assembly President is clearly a career position, and the quote provides context linking the role to the organization."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the event, making it difficult to determine when the career position started or ended."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "The quote provides context linking the role to the organization but does not explicitly confirm the career position or its duration."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "status": "success",
+  "chunk_id": 3027,
+  "chunk_index": 2,
+  "source_url": "https://www.britannica.com/money/Horst-Kohler",
+  "title": "Horst Kohler | President, IMF, & Facts | Britannica Money",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "in 2005",
+          "type": "point",
+          "quotes": [
+            "Köhler exercised what power he did have, as when, in 2005, he followed Chancellor Schröder’s proposal to dissolve the parliament and move national elections up by a year."
+          ]
+        },
+        {
+          "text": "2009",
+          "type": "point",
+          "quotes": [
+            "He was reelected in 2009 by a single vote."
+          ]
+        },
+        {
+          "text": "May 2010",
+          "type": "point",
+          "quotes": [
+            "During a radio interview in May 2010, Köhler stated that some German military deployments, such as the mission in Afghanistan, were to protect the country’s economic interests."
+          ]
+        },
+        {
+          "text": "In 2017",
+          "type": "point",
+          "quotes": [
+            "In 2017 UN Secretary-General António Guterres named Köhler his personal envoy to Western Sahara, a disputed region in Africa."
+          ]
+        },
+        {
+          "text": "Two years later",
+          "type": "point",
+          "quotes": [
+            "Two years later Köhler stepped down from the post, citing health reasons."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "UN",
+          "quotes": [
+            "In 2017 UN Secretary-General António Guterres named Köhler his personal envoy to Western Sahara, a disputed region in Africa."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "German president",
+          "quotes": [
+            "German president is largely a ceremonial one, Köhler exercised what power he did have, as when, in 2005, he followed Chancellor Schröder’s proposal to dissolve the parliament and move national elections up by a year."
+          ]
+        },
+        {
+          "title": "personal envoy to Western Sahara",
+          "quotes": [
+            "In 2017 UN Secretary-General António Guterres named Köhler his personal envoy to Western Sahara, a disputed region in Africa."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Afghanistan",
+          "quotes": [
+            "During a radio interview in May 2010, Köhler stated that some German military deployments, such as the mission in Afghanistan, were to protect the country’s economic interests."
+          ]
+        },
+        {
+          "place": "Western Sahara",
+          "quotes": [
+            "In 2017 UN Secretary-General António Guterres named Köhler his personal envoy to Western Sahara, a disputed region in Africa."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1,
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Köhler exercised what power he did have, as when, in 2005, he followed Chancellor Schröder’s proposal to dissolve the parliament and move national elections up by a year.",
+          "He was reelected in 2009 by a single vote.",
+          "During a radio interview in May 2010, Köhler stated that some German military deployments, such as the mission in Afghanistan, were to protect the country’s economic interests."
+        ],
+        "confidence": "high",
+        "notes": "German president role is clearly a career position, with multiple time markers indicating tenure."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3,
+          4
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "In 2017 UN Secretary-General António Guterres named Köhler his personal envoy to Western Sahara, a disputed region in Africa.",
+          "Two years later Köhler stepped down from the post, citing health reasons."
+        ],
+        "confidence": "high",
+        "notes": "Personal envoy role is an active position within the UN, clearly a career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location information for the German president role."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

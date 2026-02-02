@@ -1,0 +1,252 @@
+{
+  "status": "success",
+  "chunk_id": 4003,
+  "chunk_index": 1,
+  "source_url": "https://theforum.erf.org.eg/app/uploads/2014/02/Kemal_Dervis_Bio_CV14.pdf",
+  "title": "Kemal_Dervis_Bio_CV14.pdf",
+  "document_type": "cv_structured",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "May 5, 2005",
+          "type": "point",
+          "quotes": [
+            "On May 5, 2005, the United Nations General Assembly, representing 191 countries, unanimously confirmed Kemal Dervi ş as the Administrator of The United Nations Development Programme (UNDP)."
+          ]
+        },
+        {
+          "text": "August 15, 2005",
+          "type": "point",
+          "quotes": [
+            "Dervi ş started his four-year term on August 15, 2005."
+          ]
+        },
+        {
+          "text": "March, 2001",
+          "type": "point",
+          "quotes": [
+            "When Dervi ş became Turkey’s minister of economic affairs in March, 2001, after a 22-year career at the World Bank, the country was facing its worst economic crisis in modern history and prospects for success were uncertaincertain."
+          ]
+        },
+        {
+          "text": "August of 2002",
+          "type": "point",
+          "quotes": [
+            "Derviş resigned from his ministerial position in August of 2002 and was elected to parliament in November of that year as a member of the main opposition Republican People's Party."
+          ]
+        },
+        {
+          "text": "November of 2002",
+          "type": "point",
+          "quotes": [
+            "Derviş was elected to parliament in November of that year as a member of the main opposition Republican People's Party."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "International Monetary Fund (IMF)",
+          "quotes": [
+            "coordination with other institutions, includding the International Monetary Fund (IMF) and United Nations institutions, on international institutional and policy issues."
+          ]
+        },
+        {
+          "name": "United Nations Development Programme (UNDP)",
+          "quotes": [
+            "confirmedirmed Kemal Dervi ş as the Administrator of The United Nations Development Programme (UNDP)."
+          ]
+        },
+        {
+          "name": " World Bank",
+          "quotes": [
+            "22-year career at the World Bank, the country was facing its worst economic crisis in modern history and prospects for success were uncertain."
+          ]
+        },
+        {
+          "name": " Ministry of Economic Affairs",
+          "quotes": [
+            "When Dervi ş became Turkey’s minister of economic affairs in March, 2001, after a 22-year career at the World Bank, the country was facing its worst economic crisis in modern history and prospects for success were uncertain."
+          ]
+        },
+        {
+          "name": " Republican People's Party",
+          "quotes": [
+            "Derviş resigned from his ministerial position in August of 2002 and was elected to parliament in November of that year as a member of the main opposition Republican People's Party."
+          ]
+        },
+        {
+          "name": " Center for Global Development",
+          "quotes": [
+            "A Non-Resident Fellow at the Center for Global Development, he is the author of 'A Better Globalization: Legitimacy, Governance and Reform'."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Administrator of The United Nations Development Programme (UNDP)",
+          "quotes": [
+            "On May 5, 2005, the United Nations General Assembly, representing 191 countries, unanimously confirmed Kemal Dervi ş as the Administrator of The United Nations Development Programme (UNDP)."
+          ]
+        },
+        {
+          "title": " Minister of Economic Affairs",
+          "quotes": [
+            "When Dervi ş became Turkey’s minister of economic affairs in March, 2001, after a 22-year career at the World Bank, the country was facing its worst economic crisis in modern history and prospects for success were uncertain."
+          ]
+        },
+        {
+          "title": " Non-Resident Fellow",
+          "quotes": [
+            "A Non-Resident Fellow at the Center for Global Development, he is the author of 'A Better Globalization: Legitimacy, Governance and Reform'."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_cv_structured"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "When Dervi ş became Turkey’s minister of economic affairs in March, 2001, after a 22-year career at the World Bank, the country was facing its worst economic crisis in modern history and prospects for success were uncertain."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Derviş resigned from his ministerial position in August of 2002 and was elected to parliament in November of that year as a member of the main opposition Republican People's Party."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time and organization, role implied as parliamentary member."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "On May 5, 2005, the United Nations General Assembly, representing 191 countries, unanimously confirmed Kemal Dervi ş as the Administrator of The United Nations Development Programme (UNDP).",
+          "Dervi ş started his four-year term on August 15, 2005."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "A Non-Resident Fellow at the Center for Global Development, he is the author of 'A Better Globalization: Legitimacy, Governance and Reform'."
+        ],
+        "confidence": "medium",
+        "notes": "No time marker, but clear linkage between organization and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "22-year career at the World Bank, the country was facing its worst economic crisis in modern history and prospects for success were uncertain."
+        ],
+        "confidence": "medium",
+        "notes": "No time marker, but clear mention of long-term career at the organization."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing role_ids, though role is implied as parliamentary member."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time_marker_ids for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time_marker_ids and role_ids for the career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 2,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

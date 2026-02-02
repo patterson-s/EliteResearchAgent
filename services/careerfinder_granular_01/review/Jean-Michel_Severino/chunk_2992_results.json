@@ -1,0 +1,216 @@
+{
+  "status": "success",
+  "chunk_id": 2992,
+  "chunk_index": 0,
+  "source_url": "https://www.un.org/sg/en/management/bios/Severino.shtml",
+  "title": "MR. JEAN-MICHEL SEVERINO (FRANCE) | Secretary-General | United Nations",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In the period 1996 – 2000",
+          "type": "range",
+          "quotes": [
+            "In the period 1996 – 2000 he was at the World Bank, first as Director for Central Europe, and then Vice-President for Asia."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "French Ministry of Finances",
+          "quotes": [
+            "Mr. Severino is the current General Inspector of Finances at the French Ministry of Finances."
+          ]
+        },
+        {
+          "name": "French Development Agency",
+          "quotes": [
+            "He is the former Director General of the French Development Agency."
+          ]
+        },
+        {
+          "name": "Ministry of Finance and Economy",
+          "quotes": [
+            "Mr. Severino worked for the Ministry of Finance and Economy in several capacities, including adviser of the Minister for Development, leader of the Development Ministry’s geographical coordination, and Director of the Ministry’s Development Programs."
+          ]
+        },
+        {
+          "name": "World Bank",
+          "quotes": [
+            "In the period 1996 – 2000 he was at the World Bank, first as Director for Central Europe, and then Vice-President for Asia."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "General Inspector of Finances",
+          "quotes": [
+            "Mr. Severino is the current General Inspector of Finances at the French Ministry of Finances."
+          ]
+        },
+        {
+          "title": "Director General",
+          "quotes": [
+            "He is the former Director General of the French Development Agency."
+          ]
+        },
+        {
+          "title": "adviser of the Minister for Development",
+          "quotes": [
+            "Mr. Severino worked for the Ministry of Finance and Economy in several capacities, including adviser of the Minister for Development, leader of the Development Ministry’s geographical coordination, and Director of the Ministry’s Development Programs."
+          ]
+        },
+        {
+          "title": "leader of the Development Ministry’s geographical coordination",
+          "quotes": [
+            "Mr. Severino worked for the Ministry of Finance and Economy in several capacities, including adviser of the Minister for Development, leader of the Development Ministry’s geographical coordination, and Director of the Ministry’s Development Programs."
+          ]
+        },
+        {
+          "title": "Director of the Ministry’s Development Programs",
+          "quotes": [
+            "Mr. Severino worked for the Ministry of Finance and Economy in several capacities, including adviser of the Minister for Development, leader of the Development Ministry’s geographical coordination, and Director of the Ministry’s Development Programs."
+          ]
+        },
+        {
+          "title": "Director for Central Europe",
+          "quotes": [
+            "In the period 1996 – 2000 he was at the World Bank, first as Director for Central Europe, and then Vice-President for Asia."
+          ]
+        },
+        {
+          "title": "Vice-President for Asia",
+          "quotes": [
+            "In the period 1996 – 2000 he was at the World Bank, first as Director for Central Europe, and then Vice-President for Asia."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          5,
+          6
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In the period 1996 – 2000 he was at the World Bank, first as Director for Central Europe, and then Vice-President for Asia."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and roles."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Mr. Severino is the current General Inspector of Finances at the French Ministry of Finances."
+        ],
+        "confidence": "high",
+        "notes": "Current position with clear organization and role linkage."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He is the former Director General of the French Development Agency."
+        ],
+        "confidence": "high",
+        "notes": "Former position with clear organization and role linkage."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          2,
+          3,
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Mr. Severino worked for the Ministry of Finance and Economy in several capacities, including adviser of the Minister for Development, leader of the Development Ministry’s geographical coordination, and Director of the Ministry’s Development Programs."
+        ],
+        "confidence": "high",
+        "notes": "Multiple roles within the same organization, clearly linked."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time marker for the current position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time marker for the former position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time marker for the roles at the Ministry of Finance and Economy."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 1,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "status": "success",
+  "chunk_id": 338,
+  "chunk_index": 3,
+  "source_url": "https://loc.gov/loc/lcib/9904/ogata.html",
+  "title": "Global Humanitarianism (April 1999) - Library of Congress Information Bulletin",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "since the Soviets pulled out of Afghanistan",
+          "type": "open",
+          "quotes": [
+            "of fighting since the Soviets pulled out of Afghanistan, more than 2.5 million people have been displaced to camps in Iran and Pakistan, she said."
+          ]
+        },
+        {
+          "text": "More recently",
+          "type": "point",
+          "quotes": [
+            "More recently, conflicts in Kosovo and Sierra Leone dashed the hopes that the post-Cold War turmoil would just be a transient adjustment period."
+          ]
+        },
+        {
+          "text": "Back to April 1999 - Vol 58, No. 4",
+          "type": "point",
+          "quotes": [
+            "Back to April 1999 - Vol 58, No. 4"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Mansfield Center for Pacific Affairs",
+          "quotes": [
+            "For each lecture, the Mansfield Center for Pacific Affairs selects an American and a Japanese speaker."
+          ]
+        },
+        {
+          "name": "Maureen and Mike Mansfield Foundation",
+          "quotes": [
+            "The Mansfield Center directs the public policy and international outreach functions of the Maureen and Mike Mansfield Foundation."
+          ]
+        },
+        {
+          "name": "Harvard",
+          "quotes": [
+            "Stephen Jay Gould, Harvard professor and acclaimed scientist;"
+          ]
+        },
+        {
+          "name": "ABC News",
+          "quotes": [
+            "Cokie Roberts of ABC News (formerly of National Public Radio);"
+          ]
+        },
+        {
+          "name": "National Public Radio",
+          "quotes": [
+            "Cokie Roberts of ABC News (formerly of National Public Radio);"
+          ]
+        },
+        {
+          "name": "Public Affairs Office",
+          "quotes": [
+            "Ms. French is a public affairs specialist in the Public Affairs Office."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Harvard professor and acclaimed scientist",
+          "quotes": [
+            "Stephen Jay Gould, Harvard professor and acclaimed scientist;"
+          ]
+        },
+        {
+          "title": "one of Japan's leading scientists",
+          "quotes": [
+            "Hiroshi Inose, one of Japan's leading scientists;"
+          ]
+        },
+        {
+          "title": "award-winning novelist and social critic",
+          "quotes": [
+            "Ayako Sono, award-winning novelist and social critic;"
+          ]
+        },
+        {
+          "title": "renowned philosopher",
+          "quotes": [
+            "Robert Bellah, renowned philosopher;"
+          ]
+        },
+        {
+          "title": "distinguished Jungian psychoanalyst",
+          "quotes": [
+            "Hayao Kawai, distinguished Jungian psychoanalyst."
+          ]
+        },
+        {
+          "title": "public affairs specialist",
+          "quotes": [
+            "Ms. French is a public affairs specialist in the Public Affairs Office."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Iran",
+          "quotes": [
+            "more than 2.5 million people have been displaced to camps in Iran and Pakistan, she said."
+          ]
+        },
+        {
+          "place": "Pakistan",
+          "quotes": [
+            "more than 2.5 million people have been displaced to camps in Iran and Pakistan, she said."
+          ]
+        },
+        {
+          "place": "Kosovo",
+          "quotes": [
+            "More recently, conflicts in Kosovo and Sierra Leone dashed the hopes that the post-Cold War turmoil would just be a transient adjustment period."
+          ]
+        },
+        {
+          "place": "Sierra Leone",
+          "quotes": [
+            "More recently, conflicts in Kosovo and Sierra Leone dashed the hopes that the post-Cold War turmoil would just be a transient adjustment period."
+          ]
+        },
+        {
+          "place": "South Africa",
+          "quotes": [
+            "who recently visited the country and three others in South Africa."
+          ]
+        },
+        {
+          "place": "Tokyo",
+          "quotes": [
+            "The American lecturer for Tokyo had not been confirmed at press time."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Stephen Jay Gould, Harvard professor and acclaimed scientist;"
+        ],
+        "confidence": "high",
+        "notes": "Direct mention of role at organization without explicit time marker."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [
+          5
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Ms. French is a public affairs specialist in the Public Affairs Office."
+        ],
+        "confidence": "high",
+        "notes": "Direct mention of role at organization without explicit time marker."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

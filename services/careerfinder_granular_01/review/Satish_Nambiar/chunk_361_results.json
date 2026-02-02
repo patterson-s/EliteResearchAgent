@@ -1,0 +1,230 @@
+{
+  "status": "success",
+  "chunk_id": 361,
+  "chunk_index": 0,
+  "source_url": "https://www.thecitizen.in/index.php/en/contributor/detail/lt-general-satish-nambiar",
+  "title": "Lt General Satish Nambiar, The Citizen - Independent Journalism | Indian News | The Citizen",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "during 1992-93",
+          "type": "range",
+          "quotes": [
+            "Lieutenant General Chenicheri Satish Nambiar was the first Force Commander and Head of Mission of UNPROFOR, the United Nations Protection Force in the former Yugoslavia during 1992-93."
+          ]
+        },
+        {
+          "text": "1977-79",
+          "type": "range",
+          "quotes": [
+            "In his long and distinguished career General Nambiar (retired) was a part of the Indian Army Training team in Iraq 1977-79."
+          ]
+        },
+        {
+          "text": "During 1983-1987",
+          "type": "range",
+          "quotes": [
+            "During 1983-1987, he served as the Military Adviser at the High Commission of India, London."
+          ]
+        },
+        {
+          "text": "18 Aug 2015 9:01 AM IST",
+          "type": "point",
+          "quotes": [
+            "Lt General Satish Nambiar\n18 Aug 2015 9:01 AM IST"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "UNPROFOR",
+          "quotes": [
+            "Lieutenant General Chenicheri Satish Nambiar was the first Force Commander and Head of Mission of UNPROFOR, the United Nations Protection Force in the former Yugoslavia during 1992-93."
+          ]
+        },
+        {
+          "name": "United Nations",
+          "quotes": [
+            "Lieutenant General Chenicheri Satish Nambiar was the first Force Commander and Head of Mission of UNPROFOR, the United Nations Protection Force in the former Yugoslavia during 1992-93."
+          ]
+        },
+        {
+          "name": "Indian Army",
+          "quotes": [
+            "In his long and distinguished career General Nambiar (retired) was a part of the Indian Army Training team in Iraq 1977-79."
+          ]
+        },
+        {
+          "name": "High Commission of India",
+          "quotes": [
+            "During 1983-1987, he served as the Military Adviser at the High Commission of India, London."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Force Commander and Head of Mission",
+          "quotes": [
+            "Lieutenant General Chenicheri Satish Nambiar was the first Force Commander and Head of Mission of UNPROFOR, the United Nations Protection Force in the former Yugoslavia during 1992-93."
+          ]
+        },
+        {
+          "title": "Military Adviser",
+          "quotes": [
+            "During 1983-1987, he served as the Military Adviser at the High Commission of India, London."
+          ]
+        },
+        {
+          "title": "Director General of Military Operations",
+          "quotes": [
+            "He was also the Director General of Military Operations."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "former Yugoslavia",
+          "quotes": [
+            "Lieutenant General Chenicheri Satish Nambiar was the first Force Commander and Head of Mission of UNPROFOR, the United Nations Protection Force in the former Yugoslavia during 1992-93."
+          ]
+        },
+        {
+          "place": "Iraq",
+          "quotes": [
+            "In his long and distinguished career General Nambiar (retired) was a part of the Indian Army Training team in Iraq 1977-79."
+          ]
+        },
+        {
+          "place": "London",
+          "quotes": [
+            "During 1983-1987, he served as the Military Adviser at the High Commission of India, London."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Lieutenant General Chenicheri Satish Nambiar was the first Force Commander and Head of Mission of UNPROFOR, the United Nations Protection Force in the former Yugoslavia during 1992-93."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organizations, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "In his long and distinguished career General Nambiar (retired) was a part of the Indian Army Training team in Iraq 1977-79."
+        ],
+        "confidence": "high",
+        "notes": "No specific role mentioned, but clear affiliation with Indian Army and location in Iraq."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "During 1983-1987, he served as the Military Adviser at the High Commission of India, London."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He was also the Director General of Military Operations."
+        ],
+        "confidence": "medium",
+        "notes": "No time marker or organization specified, but role is clearly a career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing role information, though affiliation and location are clear."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and organization information, though role is clear."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 2,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

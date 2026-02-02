@@ -1,0 +1,224 @@
+{
+  "status": "success",
+  "chunk_id": 3222,
+  "chunk_index": 1,
+  "source_url": "https://www.chartwellspeakers.com/speaker/paul-polman/",
+  "title": "Paul Polman - Unilever CEO - Chartwell Speakers Bureau",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2021",
+          "type": "point",
+          "quotes": [
+            "Net Positive: How Courageous Companies Thrive by Giving More Than They Take (2021)"
+          ]
+        },
+        {
+          "text": "2019",
+          "type": "point",
+          "quotes": [
+            "United Nations Global Compact | Paul Polman Gives Impassioned Speech at SDG Business Forum 2019"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "INSEAD",
+          "quotes": [
+            "INSEAD Business Leader for the World Award, amongst several others."
+          ]
+        },
+        {
+          "name": "The Financial Times",
+          "quotes": [
+            "The Financial Times said Paul was a ‘standout CEO of the past decade’"
+          ]
+        },
+        {
+          "name": "Unilever",
+          "quotes": [
+            "Yale Insights | Paul Polman, Unilever",
+            "Stanford Graduate School of Business | Unilever CEO Paul Polman: Pursue Your Purpose",
+            "McKinsey & Company | Committing to sustainability with Unilever CEO Paul Polman"
+          ]
+        },
+        {
+          "name": "United Nations Global Compact",
+          "quotes": [
+            "United Nations Global Compact | Paul Polman Gives Impassioned Speech at SDG Business Forum 2019"
+          ]
+        },
+        {
+          "name": "Stanford Graduate School of Business",
+          "quotes": [
+            "Stanford Graduate School of Business | Unilever CEO Paul Polman: Pursue Your Purpose"
+          ]
+        },
+        {
+          "name": "Yale Insights",
+          "quotes": [
+            "Yale Insights | Paul Polman, Unilever"
+          ]
+        },
+        {
+          "name": "McKinsey & Company",
+          "quotes": [
+            "McKinsey & Company | Committing to sustainability with Unilever CEO Paul Polman"
+          ]
+        },
+        {
+          "name": "ChangeNOW2024",
+          "quotes": [
+            "Driving Impact from the Board | Paul Polman | Fireside chat x ChangeNOW2024"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "CEO",
+          "quotes": [
+            "The Financial Times said Paul was a ‘standout CEO of the past decade’",
+            "Stanford Graduate School of Business | Unilever CEO Paul Polman: Pursue Your Purpose",
+            "McKinsey & Company | Committing to sustainability with Unilever CEO Paul Polman"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "INSEAD Business Leader for the World Award, amongst several others."
+        ],
+        "confidence": "high",
+        "notes": "Award mentioned without specific time marker or role, but clearly an honor."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The Financial Times said Paul was a ‘standout CEO of the past decade’",
+          "Stanford Graduate School of Business | Unilever CEO Paul Polman: Pursue Your Purpose",
+          "McKinsey & Company | Committing to sustainability with Unilever CEO Paul Polman"
+        ],
+        "confidence": "high",
+        "notes": "CEO role at Unilever mentioned across multiple quotes without specific time markers, but clearly an active position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "United Nations Global Compact | Paul Polman Gives Impassioned Speech at SDG Business Forum 2019"
+        ],
+        "confidence": "medium",
+        "notes": "Speech at UN Global Compact event in 2019 suggests involvement, but role is not explicitly stated."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          7
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Driving Impact from the Board | Paul Polman | Fireside chat x ChangeNOW2024"
+        ],
+        "confidence": "medium",
+        "notes": "Involvement with ChangeNOW2024 mentioned, but specific role or time marker is unclear."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the award."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the CEO position at Unilever."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role for the event at United Nations Global Compact in 2019."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classification as career_position is uncertain without a clear role."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and role for the involvement with ChangeNOW2024."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classification as career_position is uncertain without a clear role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 0,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 1
+    }
+  }
+}

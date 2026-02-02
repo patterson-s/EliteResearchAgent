@@ -1,0 +1,185 @@
+{
+  "status": "success",
+  "chunk_id": 589,
+  "chunk_index": 89,
+  "source_url": "https://issafrica.s3.amazonaws.com/site/uploads/Book-2015-Salim.pdf",
+  "title": "Book-2015-Salim.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1973",
+          "type": "point",
+          "quotes": [
+            "Scandinavian Institute of International Affairs, 1973, 6."
+          ]
+        },
+        {
+          "text": "1976",
+          "type": "point",
+          "quotes": [
+            "United Nations General Assembly, Report of the Special Committee on the Situation With Regard to the Implementation of the Declaration on the Granting of Independence to Colonial Countries and Peoples, 1976 (A/31/23/Rev.1), Volume 2, 7;"
+          ]
+        },
+        {
+          "text": "22 July 1977",
+          "type": "point",
+          "quotes": [
+            "UN General Assembly, Report of the International Conference in Support of the Peoples of Zimbabwe and Namibia (S/12344/Rev.1), 22 July 1977."
+          ]
+        },
+        {
+          "text": "1977",
+          "type": "point",
+          "quotes": [
+            "United Nations General Assembly, Report of the Special Committee on the Situation With Regard to the Implementation of the Declaration on the Granting of Independence to Colonial Countries and Peoples, 1977 (A/32/23/Rev.1), Volume 1, 61–62."
+          ]
+        },
+        {
+          "text": "1907–1945",
+          "type": "range",
+          "quotes": [
+            "J Iliffe, The age of improvement and differentiation (1907–1945), in Kimambo and AJ Temu (eds), A history of Tanzania, 1969."
+          ]
+        },
+        {
+          "text": "2014",
+          "type": "point",
+          "quotes": [
+            "H Othman, The union with Zanzibar, in Saïda Yahya-Othman (ed.), Yes, in my Lifetime: Selected works of Haroub Othman. Dar es Salaam: Mkuki na Nyota, 2014, 163–169."
+          ]
+        },
+        {
+          "text": "2007",
+          "type": "point",
+          "quotes": [
+            "JMS Magotti, Simba Wa Vita Katika Historia ya Tanzania: Rashid Mfaume Kawawa. Dar es Salaam: Matai and Company, 2007, 15–17;"
+          ]
+        },
+        {
+          "text": "5 February 2015",
+          "type": "point",
+          "quotes": [
+            "Interview with Salim Ahmed Salim, 5 February 2015."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Scandinavian Institute of International Affairs",
+          "quotes": [
+            "of Colonialism and Apartheid in Southern Africa, Olav Stokke and Carl Widstrand (eds), Scandinavian Institute of International Affairs, 1973, 6."
+          ]
+        },
+        {
+          "name": "United Nations General Assembly",
+          "quotes": [
+            "United Nations General Assembly, Report of the Special Committee on the Situation With Regard to the Implementation of the Declaration on the Granting of Independence to Colonial Countries and Peoples, 1976 (A/31/23/Rev.1), Volume 2, 7;"
+          ]
+        },
+        {
+          "name": "UN General Assembly",
+          "quotes": [
+            "see also UN General Assembly, Report of the International Conference in Support of the Peoples of Zimbabwe and Namibia (S/12344/Rev.1), 22 July 1977."
+          ]
+        },
+        {
+          "name": "United Nations General Assembly",
+          "quotes": [
+            "United Nations General Assembly, Report of the Special Committee on the Situation With Regard to the Implementation of the Declaration on the Granting of Independence to Colonial Countries and Peoples, 1977 (A/32/23/Rev.1), Volume 1, 61–62."
+          ]
+        },
+        {
+          "name": "UN",
+          "quotes": [
+            "despite his onerous duties as an ambassador to Tanzania’s Permanent Mission at the UN."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "ambassador to Tanzania’s Permanent Mission at the UN",
+          "quotes": [
+            "despite his onerous duties as an ambassador to Tanzania’s Permanent Mission at the UN."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Dar es Salaam",
+          "quotes": [
+            "H Othman, The union with Zanzibar, in Saïda Yahya-Othman (ed.), Yes, in my Lifetime: Selected works of Haroub Othman. Dar es Salaam: Mkuki na Nyota, 2014, 163–169."
+          ]
+        },
+        {
+          "place": "Kigoma",
+          "quotes": [
+            "Salim’s maternal grandmother was a Manyema believed to be from Kigoma;"
+          ]
+        },
+        {
+          "place": "Tabora",
+          "quotes": [
+            "his paternal grandmother was a Nyamwezi from Tabora (both in mainland Tanzania)."
+          ]
+        },
+        {
+          "place": "Oman",
+          "quotes": [
+            "His paternal grandfather was originally from Oman."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "despite his onerous duties as an ambassador to Tanzania’s Permanent Mission at the UN."
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker, but the role and organization are clearly linked."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the career position, making it difficult to place the event in a temporal context."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information, which could be relevant for context."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "status": "success",
+  "chunk_id": 558,
+  "chunk_index": 58,
+  "source_url": "https://issafrica.s3.amazonaws.com/site/uploads/Book-2015-Salim.pdf",
+  "title": "Book-2015-Salim.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1984",
+          "type": "point",
+          "quotes": [
+            "led the Paris International Conference Against Apartheid in 1984"
+          ]
+        },
+        {
+          "text": "1972 and 1980",
+          "type": "range",
+          "quotes": [
+            "chaired the UN Special Committee on Decolonization in 1972 and 1980"
+          ]
+        },
+        {
+          "text": "21 March 1990",
+          "type": "point",
+          "quotes": [
+            "Namibia gained its independence on 21 March 1990"
+          ]
+        },
+        {
+          "text": "1994",
+          "type": "point",
+          "quotes": [
+            "democratisation process in South Africa that culminated in non-racial elections in 1994"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "UN",
+          "quotes": [
+            "He also chaired the UN Special Committee on Decolonization in 1972 and 1980"
+          ]
+        },
+        {
+          "name": "OAU",
+          "quotes": [
+            "With regard to fighting colonialism and apartheid, Salim’s work at the OAU was very much a continuation of what he had done at the UN"
+          ]
+        },
+        {
+          "name": "IMF",
+          "quotes": [
+            "the IMF and the World Bank now placed their emphasis on macroeconomic stabilisation, trade liberalisation and the expansion of market forces in domestic economies"
+          ]
+        },
+        {
+          "name": "World Bank",
+          "quotes": [
+            "the IMF and the World Bank now placed their emphasis on macroeconomic stabilisation, trade liberalisation and the expansion of market forces in domestic economies"
+          ]
+        },
+        {
+          "name": "ANC",
+          "quotes": [
+            "Earlier that year Nelson Mandela had been released from prison in apartheid South Africa and the ANC unbanned"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "chair",
+          "quotes": [
+            "He also chaired the UN Special Committee on Decolonization in 1972 and 1980"
+          ]
+        },
+        {
+          "title": "leadership of the OAU",
+          "quotes": [
+            "barely six months after Salim had taken over leadership of the OAU"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Paris",
+          "quotes": [
+            "led the Paris International Conference Against Apartheid in 1984"
+          ]
+        },
+        {
+          "place": "South Africa",
+          "quotes": [
+            "on Sanctions Against South Africa and led the Paris International Conference Against Apartheid in 1984"
+          ]
+        },
+        {
+          "place": "Namibia",
+          "quotes": [
+            "Namibia gained its independence on 21 March 1990"
+          ]
+        },
+        {
+          "place": "Africa",
+          "quotes": [
+            "The fall of the Berlin Wall unleashed a chain of unexpected developments. With the US having apparently triumphed over the former Soviet Union, the diktats of the so-called Washington Consensus would henceforth prescribe development solutions to Africa’s challenges"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He also chaired the UN Special Committee on Decolonization in 1972 and 1980",
+          "chaired the UN Special Committee on Decolonization in 1972 and 1980"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "barely six months after Salim had taken over leadership of the OAU",
+          "With regard to fighting colonialism and apartheid, Salim’s work at the OAU was very much a continuation of what he had done at the UN"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time marker, but clear linkage between organization and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          0,
+          1
+        ],
+        "supporting_quotes": [
+          "led the Paris International Conference Against Apartheid in 1984",
+          "on Sanctions Against South Africa and led the Paris International Conference Against Apartheid in 1984"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time and location, with implied leadership role."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position at OAU."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and role details for the leadership position at the Paris International Conference Against Apartheid in 1984."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

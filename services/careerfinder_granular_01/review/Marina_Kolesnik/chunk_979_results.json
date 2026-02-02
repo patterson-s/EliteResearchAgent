@@ -1,0 +1,210 @@
+{
+  "status": "success",
+  "chunk_id": 979,
+  "chunk_index": 3,
+  "source_url": "https://www.linkedin.com/in/marinakolesnik",
+  "title": "Marina Kolesnik - New York, New York, United States | Professional Profile | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "Over the past few years",
+          "type": "range",
+          "quotes": [
+            "Over the past few years, I’ve had more and more conversations with founders in Central…"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Christ University, Bangalore",
+          "quotes": [
+            "🎉🎉Christ University, Bangalore has been our partner in the truest way 🙌"
+          ]
+        },
+        {
+          "name": "Blackstone Private Equity",
+          "quotes": [
+            "Blackstone Private Equity agreed to acquire Hologic, Inc., a global leader in women’s health dedicated to…"
+          ]
+        },
+        {
+          "name": "Hologic, Inc.",
+          "quotes": [
+            "Blackstone Private Equity agreed to acquire Hologic, Inc., a global leader in women’s health dedicated to…"
+          ]
+        },
+        {
+          "name": "World Science Festival",
+          "quotes": [
+            "I had the pleasure of attending the World Science Festival — a celebration not only of remarkable scientific achievements, but also of the strength…"
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": [
+        {
+          "place": "Bangalore",
+          "quotes": [
+            "🎉🎉Christ University, Bangalore has been our partner in the truest way 🙌"
+          ]
+        },
+        {
+          "place": "Central",
+          "quotes": [
+            "Over the past few years, I’ve had more and more conversations with founders in Central…"
+          ]
+        },
+        {
+          "place": "Poland",
+          "quotes": [
+            "Poland’s Quiet Revolution – Why I’m Paying Attention PL💡"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "🎉🎉Christ University, Bangalore has been our partner in the truest way 🙌"
+        ],
+        "confidence": "low",
+        "notes": "No explicit role mentioned, but the organization and location are clearly linked. Assuming a partnership or affiliation without a specific role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Over the past few years, I’ve had more and more conversations with founders in Central…"
+        ],
+        "confidence": "low",
+        "notes": "No organization or role mentioned, but the time marker and location are linked. Assuming a general activity or engagement without a specific organization or role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1,
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Blackstone Private Equity agreed to acquire Hologic, Inc., a global leader in women’s health dedicated to…"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit role mentioned, but the organizations are clearly linked in an acquisition context. Assuming a business transaction or affiliation without a specific role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "I had the pleasure of attending the World Science Festival — a celebration not only of remarkable scientific achievements, but also of the strength…"
+        ],
+        "confidence": "low",
+        "notes": "No explicit role mentioned, but attendance at the event is noted. Assuming a participant or attendee role without a specific organization or location."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. No explicit role mentioned, making it unclear what the career position entails."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classification as 'career_position' is questionable without a clear role or responsibility."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and role information. Only time marker and location are present, making the event incomplete."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classification as 'career_position' is questionable without a clear organization or role."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. No explicit role mentioned, making it unclear what the career position entails."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classification as 'career_position' is questionable without a clear role or responsibility."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role and location information. Only attendance at the event is noted, making the event incomplete."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classification as 'career_position' is questionable without a clear role or responsibility."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 0,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

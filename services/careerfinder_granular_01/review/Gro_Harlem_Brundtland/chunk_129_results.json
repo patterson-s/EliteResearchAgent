@@ -1,0 +1,304 @@
+{
+  "status": "success",
+  "chunk_id": 129,
+  "chunk_index": 1,
+  "source_url": "https://clubmadrid.org/who/members/brundtland-gro-harlem/",
+  "title": "Gro Harlem Brundtland Prime Minister of Norway",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "5 April, 2019",
+          "type": "point",
+          "quotes": [
+            "5 April, 2019"
+          ]
+        },
+        {
+          "text": "21 June, 2012",
+          "type": "point",
+          "quotes": [
+            "21 June, 2012"
+          ]
+        },
+        {
+          "text": "15 June, 2012",
+          "type": "point",
+          "quotes": [
+            "15 June, 2012"
+          ]
+        },
+        {
+          "text": "23 July, 2011",
+          "type": "point",
+          "quotes": [
+            "23 July, 2011"
+          ]
+        },
+        {
+          "text": "26 April, 2011",
+          "type": "point",
+          "quotes": [
+            "26 April, 2011"
+          ]
+        },
+        {
+          "text": "22 September, 2010",
+          "type": "point",
+          "quotes": [
+            "22 September, 2010"
+          ]
+        },
+        {
+          "text": "28 March, 2010",
+          "type": "point",
+          "quotes": [
+            "28 March, 2010"
+          ]
+        },
+        {
+          "text": "18 December, 2009",
+          "type": "point",
+          "quotes": [
+            "18 December, 2009"
+          ]
+        },
+        {
+          "text": "26 November, 2009",
+          "type": "point",
+          "quotes": [
+            "26 November, 2009"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Club de Madrid",
+          "quotes": [
+            "Club de Madrid in support of the people of Norway",
+            "The Club de Madrid moves forward along with the International sustainable development agenda",
+            "COP16 preparatory meeting with Mexican Minister of Foreign Affairs and COP16 President",
+            "Panel on Climate Change Forum in Brussels",
+            "Club de Madrid in Copenhagen",
+            "2009 Annual Conference of Club de Madrid",
+            "WORLD LEADERSHIP ALLIANCE CLUB DE MADRID"
+          ]
+        },
+        {
+          "name": "WORLD LEADERSHIP ALLIANCE CLUB DE MADRID",
+          "quotes": [
+            "Welcome to the basic information about the cookies on the website of the entity: WORLD LEADERSHIP ALLIANCE CLUB DE MADRID"
+          ]
+        },
+        {
+          "name": "COP16",
+          "quotes": [
+            "COP16 preparatory meeting with Mexican Minister of Foreign Affairs and COP16 President"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Mexican Minister of Foreign Affairs",
+          "quotes": [
+            "COP16 preparatory meeting with Mexican Minister of Foreign Affairs and COP16 President"
+          ]
+        },
+        {
+          "title": "COP16 President",
+          "quotes": [
+            "COP16 preparatory meeting with Mexican Minister of Foreign Affairs and COP16 President"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Brussels",
+          "quotes": [
+            "Panel on Climate Change Forum in Brussels"
+          ]
+        },
+        {
+          "place": "Copenhagen",
+          "quotes": [
+            "Club de Madrid in Copenhagen"
+          ]
+        },
+        {
+          "place": "Norway",
+          "quotes": [
+            "Club de Madrid in support of the people of Norway"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "COP16 preparatory meeting with Mexican Minister of Foreign Affairs and COP16 President"
+        ],
+        "confidence": "high",
+        "notes": "COP16 President role is clearly associated with COP16 organization"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "COP16 preparatory meeting with Mexican Minister of Foreign Affairs and COP16 President"
+        ],
+        "confidence": "high",
+        "notes": "Mexican Minister of Foreign Affairs role is clearly associated with COP16 organization"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "Club de Madrid in support of the people of Norway"
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but organization and location are linked"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Panel on Climate Change Forum in Brussels"
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but organization and location are linked"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Club de Madrid in Copenhagen"
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but organization and location are linked"
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the event."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the event."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role and time markers for the event."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position but lacks specific role, which might not be accurate."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role and time markers for the event."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position but lacks specific role, which might not be accurate."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role and time markers for the event."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position but lacks specific role, which might not be accurate."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 0,
+      "warnings": 5,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

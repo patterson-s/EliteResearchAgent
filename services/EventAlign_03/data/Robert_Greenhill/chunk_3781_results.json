@@ -1,0 +1,264 @@
+{
+  "status": "success",
+  "chunk_id": 3781,
+  "chunk_index": 2,
+  "source_url": "https://en.wikipedia.org/wiki/Robert_G._Greenhill",
+  "title": "Robert G. Greenhill - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "31 August 2006",
+          "type": "point",
+          "quotes": [
+            "United Nations. 31 August 2006"
+          ]
+        },
+        {
+          "text": "24 November 2006",
+          "type": "point",
+          "quotes": [
+            "Womensenews.org. 24 November 2006"
+          ]
+        },
+        {
+          "text": "1 March 2016",
+          "type": "point",
+          "quotes": [
+            "Retrieved 1 March 2016"
+          ]
+        },
+        {
+          "text": "4 May 2016",
+          "type": "point",
+          "quotes": [
+            "Archived from the original on 4 May 2016"
+          ]
+        },
+        {
+          "text": "14 January 2022",
+          "type": "point",
+          "quotes": [
+            "Retrieved 14 January 2022"
+          ]
+        },
+        {
+          "text": "25 January 2013",
+          "type": "point",
+          "quotes": [
+            "Weforum.org. 25 January 2013"
+          ]
+        },
+        {
+          "text": "6 October 2015",
+          "type": "point",
+          "quotes": [
+            "Opencanada.org. 6 October 2015"
+          ]
+        },
+        {
+          "text": "12 November 2015",
+          "type": "point",
+          "quotes": [
+            "Brookings.edu. 12 November 2015"
+          ]
+        },
+        {
+          "text": "14 September 2015",
+          "type": "point",
+          "quotes": [
+            "Toronto Star. 14 September 2015"
+          ]
+        },
+        {
+          "text": "12 September 2015",
+          "type": "point",
+          "quotes": [
+            "The Economist. 12 September 2015"
+          ]
+        },
+        {
+          "text": "12 August 2014",
+          "type": "point",
+          "quotes": [
+            "Ualbertacentennial.ca. 12 August 2014"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "United Nations Secretariat to the High Level Panel on System-wide Coherence",
+          "quotes": [
+            "United Nations Secretariat to the High Level Panel on System-wide Coherence"
+          ]
+        },
+        {
+          "name": "United Nations",
+          "quotes": [
+            "United Nations. 31 August 2006"
+          ]
+        },
+        {
+          "name": "U.N. Women",
+          "quotes": [
+            "U.N. Women Primed for Stronger, Central Agency | Women's eNews"
+          ]
+        },
+        {
+          "name": "Women's eNews",
+          "quotes": [
+            "U.N. Women Primed for Stronger, Central Agency | Women's eNews"
+          ]
+        },
+        {
+          "name": "Canadian International Development Agency",
+          "quotes": [
+            "PRESIDENT OF CANADIAN INTERNATIONAL DEVELOPMENT AGENCY TO JOIN WORLD ECONOMIC FORUM"
+          ]
+        },
+        {
+          "name": "World Economic Forum",
+          "quotes": [
+            "PRESIDENT OF CANADIAN INTERNATIONAL DEVELOPMENT AGENCY TO JOIN WORLD ECONOMIC FORUM"
+          ]
+        },
+        {
+          "name": "Info-Prod Research (Middle East)",
+          "quotes": [
+            "Info-Prod Research (Middle East) | HighBeam Research"
+          ]
+        },
+        {
+          "name": "HighBeam Research",
+          "quotes": [
+            "Info-Prod Research (Middle East) | HighBeam Research"
+          ]
+        },
+        {
+          "name": "Global Canada",
+          "quotes": [
+            "Global Canada"
+          ]
+        },
+        {
+          "name": "Brookings Institution",
+          "quotes": [
+            "Canada's new team for global affairs | Brookings Institution"
+          ]
+        },
+        {
+          "name": "The Globe and Mail",
+          "quotes": [
+            "The Globe and Mail"
+          ]
+        },
+        {
+          "name": "Toronto Star",
+          "quotes": [
+            "Toronto Star"
+          ]
+        },
+        {
+          "name": "The Economist",
+          "quotes": [
+            "The Economist"
+          ]
+        },
+        {
+          "name": "University of Alberta: Students' Union",
+          "quotes": [
+            "University of Alberta: Students' Union"
+          ]
+        },
+        {
+          "name": "National Post",
+          "quotes": [
+            "National Post"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "President of Canadian International Development Agency",
+          "quotes": [
+            "PRESIDENT OF CANADIAN INTERNATIONAL DEVELOPMENT AGENCY TO JOIN WORLD ECONOMIC FORUM"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Canada",
+          "quotes": [
+            "Prime Minister Announces Changes in the Senior Ranks of the Public Service – Canada News Centre"
+          ]
+        },
+        {
+          "place": "Middle East",
+          "quotes": [
+            "Info-Prod Research (Middle East) | HighBeam Research"
+          ]
+        },
+        {
+          "place": "Alberta",
+          "quotes": [
+            "Businesspeople from Alberta"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [
+          4,
+          5
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "PRESIDENT OF CANADIAN INTERNATIONAL DEVELOPMENT AGENCY TO JOIN WORLD ECONOMIC FORUM",
+          "Weforum.org. 25 January 2013"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role, organizations, and time marker."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing location information, which is unexpected for a career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quote mentions the role and organizations but does not explicitly state the time period or duration of the position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

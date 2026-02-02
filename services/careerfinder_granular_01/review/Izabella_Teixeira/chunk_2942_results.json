@@ -1,0 +1,149 @@
+{
+  "status": "success",
+  "chunk_id": 2942,
+  "chunk_index": 2,
+  "source_url": "https://iica.int/en/press/news/izabella-teixeira-former-minister-of-the-environment-of-brazil-and-a-globally-renowned-expert-on-the-relationship-between-economic-development-and-climate-recognized-as-an-iica-goodwill-ambass/",
+  "title": "Izabella Teixeira, former Minister of the Environment of Brazil and a globally renowned expert  on the relationship between economic development and climate, recognized as an IICA Goodwill Ambassador before ministers of Agriculture of the Americas",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "November 24, 2025",
+          "type": "point",
+          "quotes": [
+            "November 24, 2025",
+            "Representatives of the governments of Canada and Australia and the California Department of Agriculture visited the IICA pavilion to place the importance of soil health on the COP30 agenda"
+          ]
+        },
+        {
+          "text": "November 21, 2025",
+          "type": "point",
+          "quotes": [
+            "November 21, 2025",
+            "At COP30, IICA Director General-elect holds high-level meetings, presents proposals, and pledges assistance for Bolivia’s new government with drafting of agricultural development plan"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Inter-American Institute for Cooperation on Agriculture (IICA)",
+          "quotes": [
+            "Representatives of the governments of Canada and Australia and the California Department of Food and Agriculture visited the pavilion of the Inter-American Institute for Cooperation on Agriculture (IICA) at COP30 to draw attention to the importance of soil health."
+          ]
+        },
+        {
+          "name": "California Department of Food and Agriculture",
+          "quotes": [
+            "Representatives of the governments of Canada and Australia and the California Department of Food and Agriculture visited the IICA pavilion to place the importance of soil health on the COP30 agenda"
+          ]
+        },
+        {
+          "name": "COP30",
+          "quotes": [
+            "Representatives of the governments of Canada and Australia and the California Department of Agriculture visited the IICA pavilion to place the importance of soil health on the COP30 agenda"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Director General-elect",
+          "quotes": [
+            "At COP30, IICA Director General-elect holds high-level meetings, presents proposals, and pledges assistance for Bolivia’s new government with drafting of agricultural development plan"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Belém do Pará, Brasil",
+          "quotes": [
+            "Belém do Pará, Brasil",
+            "Representatives of the governments of Canada and Australia and the California Department of Agriculture visited the IICA pavilion to place the importance of soil health on the COP30 agenda"
+          ]
+        },
+        {
+          "place": "Brazil’s Amazon region",
+          "quotes": [
+            "The meeting took place in the COP Blue Zone in Belém, the city in Brazil’s Amazon region that has been the focus of the world’s attention for the past two weeks as countries negotiate new commitments for tackling the economic, social and climate challenges facing the planet."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "At COP30, IICA Director General-elect holds high-level meetings, presents proposals, and pledges assistance for Bolivia’s new government with drafting of agricultural development plan"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between IICA and Director General-elect role with specific activities mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "November 24, 2025",
+          "Representatives of the governments of Canada and Australia and the California Department of Food and Agriculture visited the IICA pavilion to place the importance of soil health on the COP30 agenda"
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but the event involves organizational representatives in an official capacity."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for the career position event."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quote does not clearly mention a specific role or individual, only organizational representatives."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

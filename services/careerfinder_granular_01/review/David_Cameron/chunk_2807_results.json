@@ -1,0 +1,291 @@
+{
+  "status": "success",
+  "chunk_id": 2807,
+  "chunk_index": 26,
+  "source_url": "https://en.wikipedia.org/wiki/David_Cameron",
+  "title": "David Cameron - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "since 1782",
+          "type": "open",
+          "quotes": [
+            "becoming the first prime minister to suffer such a foreign-policy defeat since 1782."
+          ]
+        },
+        {
+          "text": "September 2014",
+          "type": "point",
+          "quotes": [
+            "In September 2014, MPs passed a motion in favour of British planes joining, at the request of the Iraqi government, a bombing campaign against Islamic State (IS) targets in Iraq;"
+          ]
+        },
+        {
+          "text": "July 2015",
+          "type": "point",
+          "quotes": [
+            "In July 2015 a Freedom of Information (FOI) request by Reprieve revealed that, without the knowledge of UK parliamentarians, RAF pilots had, in fact, been bombing targets in Syria, and that Cameron knew of this."
+          ]
+        },
+        {
+          "text": "since 2008",
+          "type": "open",
+          "quotes": [
+            "The Reprieve FoI request also revealed that British drone pilots had been embedded, almost continuously, with American forces at Creech Air Force Base since 2008."
+          ]
+        },
+        {
+          "text": "November 2015",
+          "type": "point",
+          "quotes": [
+            "Following the terrorist attacks on Paris in November 2015, for which Islamic State claimed responsibility, Cameron began pushing for a strategy for the Royal Air Force to bomb Syria in retaliation."
+          ]
+        },
+        {
+          "text": "26 November",
+          "type": "point",
+          "quotes": [
+            "Cameron set out his case for military intervention to Parliament on 26 November, telling MPs that it was the only way to guarantee Britain's safety, and would be part of a 'comprehensive' strategy to defeat IS."
+          ]
+        },
+        {
+          "text": "3 December 2015",
+          "type": "point",
+          "quotes": [
+            "On 3 December 2015, MPs voted 397–223 in favour of launching air strikes against ISIL targets in Syria."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Islamic State (IS)",
+          "quotes": [
+            "a bombing campaign against Islamic State (IS) targets in Iraq;"
+          ]
+        },
+        {
+          "name": "Reprieve",
+          "quotes": [
+            "In July 2015 a Freedom of Information (FOI) request by Reprieve revealed that, without the knowledge of UK parliamentarians, RAF pilots had, in fact, been bombing targets in Syria, and that Cameron knew of this."
+          ]
+        },
+        {
+          "name": "RAF",
+          "quotes": [
+            "RAF pilots had, in fact, been bombing targets in Syria, and that Cameron knew of this."
+          ]
+        },
+        {
+          "name": "Ministry of Defence",
+          "quotes": [
+            "the Ministry of Defence said that the pilots concerned were 'embedded' with foreign military forces, and so were 'effectively' operating as such, while Fallon denied that MPs had been, as he put it, 'kept in the dark'."
+          ]
+        },
+        {
+          "name": "Royal Air Force",
+          "quotes": [
+            "Following the terrorist attacks on Paris in November 2015, for which Islamic State claimed responsibility, Cameron began pushing for a strategy for the Royal Air Force to bomb Syria in retaliation."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Prime Minister",
+          "quotes": [
+            "The Prime Minister, along with Defence Secretary Michael Fallon, faced strong criticism, including from Conservative MPs, for not informing the Commons about this deployment;"
+          ]
+        },
+        {
+          "title": "Defence Secretary",
+          "quotes": [
+            "The Prime Minister, along with Defence Secretary Michael Fallon, faced strong criticism, including from Conservative MPs, for not informing the Commons about this deployment;"
+          ]
+        },
+        {
+          "title": "MPs",
+          "quotes": [
+            "In September 2014, MPs passed a motion in favour of British planes joining, at the request of the Iraqi government, a bombing campaign against Islamic State (IS) targets in Iraq;"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Iraq",
+          "quotes": [
+            "a bombing campaign against Islamic State (IS) targets in Iraq;"
+          ]
+        },
+        {
+          "place": "Syria",
+          "quotes": [
+            "the motion explicitly expressed parliament's disapproval of UK military action in Syria."
+          ]
+        },
+        {
+          "place": "Creech Air Force Base",
+          "quotes": [
+            "The Reprieve FoI request also revealed that British drone pilots had been embedded, almost continuously, with American forces at Creech Air Force Base since 2008."
+          ]
+        },
+        {
+          "place": "Paris",
+          "quotes": [
+            "Following the terrorist attacks on Paris in November 2015, for which Islamic State claimed responsibility, Cameron began pushing for a strategy for the Royal Air Force to bomb Syria in retaliation."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The Prime Minister, along with Defence Secretary Michael Fallon, faced strong criticism, including from Conservative MPs, for not informing the Commons about this deployment;"
+        ],
+        "confidence": "high",
+        "notes": "Prime Minister role is clearly a career position, though no specific time markers or organizations are directly linked in the quotes."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The Prime Minister, along with Defence Secretary Michael Fallon, faced strong criticism, including from Conservative MPs, for not informing the Commons about this deployment;"
+        ],
+        "confidence": "high",
+        "notes": "Defence Secretary role is clearly a career position, though no specific time markers or organizations are directly linked in the quotes."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "In September 2014, MPs passed a motion in favour of British planes joining, at the request of the Iraqi government, a bombing campaign against Islamic State (IS) targets in Iraq;"
+        ],
+        "confidence": "high",
+        "notes": "MPs role is a career position, linked with a specific time marker and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Following the terrorist attacks on Paris in November 2015, for which Islamic State claimed responsibility, Cameron began pushing for a strategy for the Royal Air Force to bomb Syria in retaliation."
+        ],
+        "confidence": "medium",
+        "notes": "Royal Air Force involvement in Syria is linked to a specific time marker and location, but no specific role is mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          2,
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "The Reprieve FoI request also revealed that British drone pilots had been embedded, almost continuously, with American forces at Creech Air Force Base since 2008.",
+          "the Ministry of Defence said that the pilots concerned were 'embedded' with foreign military forces, and so were 'effectively' operating as such, while Fallon denied that MPs had been, as he put it, 'kept in the dark'."
+        ],
+        "confidence": "medium",
+        "notes": "Reprieve and Ministry of Defence involvement at Creech Air Force Base is linked to a specific time marker and location, but no specific role is mentioned."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers and organization information, though role is clearly supported by the quote."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers and organization information, though role is clearly supported by the quote."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, though time marker, organization, and location are present and supported by the quote."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, though time marker, organization, and location are present and supported by the quote."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 1,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

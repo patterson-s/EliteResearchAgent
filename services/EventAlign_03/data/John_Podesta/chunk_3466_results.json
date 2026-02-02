@@ -1,0 +1,235 @@
+{
+  "status": "success",
+  "chunk_id": 3466,
+  "chunk_index": 1,
+  "source_url": "https://ballotpedia.org/John_Podesta",
+  "title": "John Podesta - Ballotpedia",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "until 1993",
+          "type": "point",
+          "quotes": [
+            "the Washington, D.C., political advocacy and strategic communications firm Podesta Group, initially called Podesta Associates, until 1993."
+          ]
+        },
+        {
+          "text": "Since 1995",
+          "type": "open",
+          "quotes": [
+            "Since 1995, Podesta has been a visiting professor at the Georgetown Law Center."
+          ]
+        },
+        {
+          "text": "In 1993",
+          "type": "point",
+          "quotes": [
+            "In 1993, Podesta joined former President Bill Clinton's White House staff, first as staff secretary, then as deputy chief of staff, and finally as chief of staff."
+          ]
+        },
+        {
+          "text": "November 1998",
+          "type": "point",
+          "quotes": [
+            "He became chief of staff in November 1998."
+          ]
+        },
+        {
+          "text": "early 1998 and then, of course, into the fall",
+          "type": "range",
+          "quotes": [
+            "From a press perspective, we were constantly battling with the fact that it was difficult to talk about anything else or that Washington's attention was totally focused on the Lewinsky matter in early 1998 and then, of course, into the fall."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Podesta Group",
+          "quotes": [
+            "the Washington, D.C., political advocacy and strategic communications firm Podesta Group, initially called Podesta Associates, until 1993."
+          ]
+        },
+        {
+          "name": "Podesta Associates",
+          "quotes": [
+            "the Washington, D.C., political advocacy and strategic communications firm Podesta Group, initially called Podesta Associates, until 1993."
+          ]
+        },
+        {
+          "name": "Georgetown Law Center",
+          "quotes": [
+            "Since 1995, Podesta has been a visiting professor at the Georgetown Law Center."
+          ]
+        },
+        {
+          "name": "White House",
+          "quotes": [
+            "In 1993, Podesta joined former President Bill Clinton's White House staff, first as staff secretary, then as deputy chief of staff, and finally as chief of staff."
+          ]
+        },
+        {
+          "name": "Time",
+          "quotes": [
+            "According to Time, Podesta was initially assigned to handle 'scandals' in the Clinton administration."
+          ]
+        },
+        {
+          "name": "PBS",
+          "quotes": [
+            "Later, Podesta told PBS of the administration's strategy and approach to the story:"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "visiting professor",
+          "quotes": [
+            "Since 1995, Podesta has been a visiting professor at the Georgetown Law Center."
+          ]
+        },
+        {
+          "title": "staff secretary",
+          "quotes": [
+            "In 1993, Podesta joined former President Bill Clinton's White House staff, first as staff secretary, then as deputy chief of staff, and finally as chief of staff."
+          ]
+        },
+        {
+          "title": "deputy chief of staff",
+          "quotes": [
+            "In 1993, Podesta joined former President Bill Clinton's White House staff, first as staff secretary, then as deputy chief of staff, and finally as chief of staff."
+          ]
+        },
+        {
+          "title": "chief of staff",
+          "quotes": [
+            "In 1993, Podesta joined former President Bill Clinton's White House staff, first as staff secretary, then as deputy chief of staff, and finally as chief of staff."
+          ]
+        },
+        {
+          "title": "Bill Clinton advisor",
+          "quotes": [
+            "Bill Clinton advisor"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Washington, D.C.",
+          "quotes": [
+            "the Washington, D.C., political advocacy and strategic communications firm Podesta Group, initially called Podesta Associates, until 1993."
+          ]
+        },
+        {
+          "place": "China",
+          "quotes": [
+            "During that year, for example, we did a trip to China, which proved to be an enormously important trip."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "the Washington, D.C., political advocacy and strategic communications firm Podesta Group, initially called Podesta Associates, until 1993."
+        ],
+        "confidence": "medium",
+        "notes": "Role not explicitly mentioned, but organization and location are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2,
+          3
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          2,
+          3,
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 1993, Podesta joined former President Bill Clinton's White House staff, first as staff secretary, then as deputy chief of staff, and finally as chief of staff.",
+          "He became chief of staff in November 1998."
+        ],
+        "confidence": "high",
+        "notes": "Multiple roles at the same organization with clear time markers."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Since 1995, Podesta has been a visiting professor at the Georgetown Law Center."
+        ],
+        "confidence": "high",
+        "notes": "Clear role and organization with an open time marker."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, though organization and location are clear."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quote does not explicitly mention the role, only the organization and location."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 2,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

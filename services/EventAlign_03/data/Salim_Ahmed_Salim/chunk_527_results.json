@@ -1,0 +1,261 @@
+{
+  "status": "success",
+  "chunk_id": 527,
+  "chunk_index": 27,
+  "source_url": "https://issafrica.s3.amazonaws.com/site/uploads/Book-2015-Salim.pdf",
+  "title": "Book-2015-Salim.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1960",
+          "type": "point",
+          "quotes": [
+            "Salim finished secondary school in 1960."
+          ]
+        },
+        {
+          "text": "From 1965 to 1968",
+          "type": "range",
+          "quotes": [
+            "From 1965 to 1968, he enrolled for undergraduate studies at St Stephen’s College at the University of Delhi"
+          ]
+        },
+        {
+          "text": "January 1975",
+          "type": "point",
+          "quotes": [
+            "just before Tanzania become a non-permanent member of the UN Security Council in January 1975."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Benbella High School",
+          "quotes": [
+            "(now Benbella High School)"
+          ]
+        },
+        {
+          "name": "King George VI Secondary School",
+          "quotes": [
+            "King George VI Secondary School (Now Lumumba College)"
+          ]
+        },
+        {
+          "name": "St Stephen’s College at the University of Delhi",
+          "quotes": [
+            "he enrolled for undergraduate studies at St Stephen’s College at the University of Delhi"
+          ]
+        },
+        {
+          "name": "Columbia University",
+          "quotes": [
+            "enrolling in a master’s degree in international affairs at Columbia University, New York."
+          ]
+        },
+        {
+          "name": "United Nations",
+          "quotes": [
+            "serving as Tanzania’s Permanent Representative to the UN"
+          ]
+        },
+        {
+          "name": "UN Security Council",
+          "quotes": [
+            "with the associated pressing and unpredictable demands of the UN Security Council."
+          ]
+        },
+        {
+          "name": "All Zanzibar National Students’ Organization",
+          "quotes": [
+            "As a schoolboy, Salim was the founding vice-chairperson of the All Zanzibar National Students’ Organization"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "High Commissioner of the United Republic of Tanzania to India",
+          "quotes": [
+            "during his tenure as High Commissioner of the United Republic of Tanzania to India"
+          ]
+        },
+        {
+          "title": "Tanzania’s Permanent Representative to the UN",
+          "quotes": [
+            "serving as Tanzania’s Permanent Representative to the UN"
+          ]
+        },
+        {
+          "title": "founding vice-chairperson of the All Zanzibar National Students’ Organization",
+          "quotes": [
+            "As a schoolboy, Salim was the founding vice-chairperson of the All Zanzibar National Students’ Organization"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Mkoani",
+          "quotes": [
+            "only he and one other student from his district, Mkoani,"
+          ]
+        },
+        {
+          "place": "Zanzibar",
+          "quotes": [
+            "Applying for further education was of secondary importance to the efforts he wished to devote to achieving Zanzibar’s independence."
+          ]
+        },
+        {
+          "place": "India",
+          "quotes": [
+            "High Commissioner of the United Republic of Tanzania to India"
+          ]
+        },
+        {
+          "place": "New York",
+          "quotes": [
+            "while posted in New York, Salim continued his studies"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "From 1965 to 1968, he enrolled for undergraduate studies at St Stephen’s College at the University of Delhi"
+        ],
+        "confidence": "high",
+        "notes": "Clear enrollment period at St Stephen’s College"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          6
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "serving as Tanzania’s Permanent Representative to the UN",
+          "As a schoolboy, Salim was the founding vice-chairperson of the All Zanzibar National Students’ Organization"
+        ],
+        "confidence": "medium",
+        "notes": "Role linked to UN but no specific time marker; assuming overlap with other UN-related events"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "during his tenure as High Commissioner of the United Republic of Tanzania to India"
+        ],
+        "confidence": "high",
+        "notes": "Clear role and location but no time marker; assuming distinct position"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          7
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "As a schoolboy, Salim was the founding vice-chairperson of the All Zanzibar National Students’ Organization"
+        ],
+        "confidence": "high",
+        "notes": "Founding role in student organization, likely during school years"
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as 'career_position' but describes enrollment in undergraduate studies, which may be better classified as education rather than a career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position, making it difficult to place this event in the timeline."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quote mentions the role but also references a schoolboy activity, which may not be directly relevant to this career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and organization for the career position, making it difficult to place this event in the timeline and context."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as 'career_position' but describes a founding role in a student organization, which may be better classified as education or extracurricular activity."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time marker, making it difficult to place this event in the timeline."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 0,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

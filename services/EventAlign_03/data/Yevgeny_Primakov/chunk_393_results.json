@@ -1,0 +1,262 @@
+{
+  "status": "success",
+  "chunk_id": 393,
+  "chunk_index": 2,
+  "source_url": "https://www.britannica.com/biography/Yevgeny-Primakov",
+  "title": "Yevgeny Primakov | Biography & Facts | Britannica",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1998-1999",
+          "type": "range",
+          "quotes": [
+            "prime minister (1998-1999)"
+          ]
+        },
+        {
+          "text": "1996-1998",
+          "type": "range",
+          "quotes": [
+            "foreign minister (1996-1998)"
+          ]
+        },
+        {
+          "text": "December 1999",
+          "type": "point",
+          "quotes": [
+            "Primakov led the Fatherland–All Russia bloc in the December 1999 Duma elections"
+          ]
+        },
+        {
+          "text": "2000",
+          "type": "point",
+          "quotes": [
+            "contender in the 2000 presidential race"
+          ]
+        },
+        {
+          "text": "2001",
+          "type": "point",
+          "quotes": [
+            "He left his party when it aligned with Unity in 2001"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Communist Party of the Soviet Union",
+          "quotes": [
+            "Political Affiliation: Communist Party of the Soviet Union"
+          ]
+        },
+        {
+          "name": "Fatherland–All Russia bloc",
+          "quotes": [
+            "Primakov led the Fatherland–All Russia bloc in the December 1999 Duma elections"
+          ]
+        },
+        {
+          "name": "Unity",
+          "quotes": [
+            "his party won fewer seats than Unity, the party backed by Yeltsin"
+          ]
+        },
+        {
+          "name": "Russian Chamber of Commerce and Industry",
+          "quotes": [
+            "He later became the president of the Russian Chamber of Commerce and Industry"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "prime minister",
+          "quotes": [
+            "prime minister (1998-1999)"
+          ]
+        },
+        {
+          "title": "foreign minister",
+          "quotes": [
+            "foreign minister (1996-1998)"
+          ]
+        },
+        {
+          "title": "president of the Russian Chamber of Commerce and Industry",
+          "quotes": [
+            "He later became the president of the Russian Chamber of Commerce and Industry"
+          ]
+        },
+        {
+          "title": "contender in the 2000 presidential race",
+          "quotes": [
+            "contender in the 2000 presidential race"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Russia",
+          "quotes": [
+            "prime minister (1998-1999), Russia",
+            "foreign minister (1996-1998), Russia"
+          ]
+        },
+        {
+          "place": "Kosovo",
+          "quotes": [
+            "Primakov proved to be popular in Russia, and he handled the country’s peace efforts in Kosovo"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "foreign minister (1996-1998)",
+          "foreign minister (1996-1998), Russia"
+        ],
+        "confidence": "high",
+        "notes": "Clear role and time period with location"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "prime minister (1998-1999)",
+          "prime minister (1998-1999), Russia"
+        ],
+        "confidence": "high",
+        "notes": "Clear role and time period with location"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Primakov led the Fatherland–All Russia bloc in the December 1999 Duma elections"
+        ],
+        "confidence": "high",
+        "notes": "Leadership role in an organization during a specific time"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "contender in the 2000 presidential race"
+        ],
+        "confidence": "high",
+        "notes": "Clear role and time period"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He later became the president of the Russian Chamber of Commerce and Industry"
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker, but clear role and organization"
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing role information, though leadership role is implied in the quote."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Being a 'contender' in a presidential race may not qualify as a career position."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "No time marker provided for the event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 2,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

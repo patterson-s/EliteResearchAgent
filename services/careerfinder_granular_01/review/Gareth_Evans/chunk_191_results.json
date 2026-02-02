@@ -1,0 +1,193 @@
+{
+  "status": "success",
+  "chunk_id": 191,
+  "chunk_index": 4,
+  "source_url": "https://www.gevans.org/",
+  "title": "Gareth Evans - Official Site",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "from 1988 to 1996",
+          "type": "range",
+          "quotes": [
+            "As a scholar, activist, politician, and Australia's minister for foreign affairs from 1988 to 1996, Evans has been a charismatic and indefatigable presence, rallying the forces of internationalism to work toward genocide prevention, conflict resolution, social justice, and nuclear disarmament."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "MUP",
+          "quotes": [
+            "The Memoir can be purchased from MUP"
+          ]
+        },
+        {
+          "name": "Foreign Affairs",
+          "quotes": [
+            "JOHN IKENBERRY, Foreign Affairs"
+          ]
+        },
+        {
+          "name": "Sydney Morning Herald",
+          "quotes": [
+            "NORMAN ABJORENSEN, Sydney Morning Herald"
+          ]
+        },
+        {
+          "name": "The Weekend Australian",
+          "quotes": [
+            "PETER CRAVEN, The Weekend Australian"
+          ]
+        },
+        {
+          "name": "The Australian",
+          "quotes": [
+            "TROY BRAMSTON, The Australian"
+          ]
+        },
+        {
+          "name": "ABC Radio National",
+          "quotes": [
+            "GERALDINE DOOGUE, ABC Radio National"
+          ]
+        },
+        {
+          "name": "Books + Publishing",
+          "quotes": [
+            "Books + Publishing"
+          ]
+        },
+        {
+          "name": "ABC Radio The Conversation Hour",
+          "quotes": [
+            "JON FAINE, ABC Radio The Conversation Hour"
+          ]
+        },
+        {
+          "name": "Federal Gallery",
+          "quotes": [
+            "ROBERT SOLOMON, Federal Gallery"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "scholar",
+          "quotes": [
+            "As a scholar, activist, politician, and Australia's minister for foreign affairs from 1988 to 1996, Evans has been a charismatic and indefatigable presence, rallying the forces of internationalism to work toward genocide prevention, conflict resolution, social justice, and nuclear disarmament."
+          ]
+        },
+        {
+          "title": "activist",
+          "quotes": [
+            "As a scholar, activist, politician, and Australia's minister for foreign affairs from 1988 to 1996, Evans has been a charismatic and indefatigable presence, rallying the forces of internationalism to work toward genocide prevention, conflict resolution, social justice, and nuclear disarmament."
+          ]
+        },
+        {
+          "title": "politician",
+          "quotes": [
+            "As a scholar, activist, politician, and Australia's minister for foreign affairs from 1988 to 1996, Evans has been a charismatic and indefatigable presence, rallying the forces of internationalism to work toward genocide prevention, conflict resolution, social justice, and nuclear disarmament."
+          ]
+        },
+        {
+          "title": "Australia's minister for foreign affairs",
+          "quotes": [
+            "As a scholar, activist, politician, and Australia's minister for foreign affairs from 1988 to 1996, Evans has been a charismatic and indefatigable presence, rallying the forces of internationalism to work toward genocide prevention, conflict resolution, social justice, and nuclear disarmament."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Australia",
+          "quotes": [
+            "One of Australia's leading figures",
+            "Australian and international politics",
+            "Australia and our place in the world"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "As a scholar, activist, politician, and Australia's minister for foreign affairs from 1988 to 1996, Evans has been a charismatic and indefatigable presence, rallying the forces of internationalism to work toward genocide prevention, conflict resolution, social justice, and nuclear disarmament."
+        ],
+        "confidence": "high",
+        "notes": "The role of Australia's minister for foreign affairs is clearly a career position with active responsibilities."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0,
+          1,
+          2
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "As a scholar, activist, politician, and Australia's minister for foreign affairs from 1988 to 1996, Evans has been a charismatic and indefatigable presence, rallying the forces of internationalism to work toward genocide prevention, conflict resolution, social justice, and nuclear disarmament."
+        ],
+        "confidence": "medium",
+        "notes": "The roles of scholar, activist, and politician are mentioned alongside the ministerial position but without specific time markers. Assuming these roles are part of Evans' ongoing career, they are classified as career positions."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "Missing time markers for the roles of scholar, activist, and politician."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career positions."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

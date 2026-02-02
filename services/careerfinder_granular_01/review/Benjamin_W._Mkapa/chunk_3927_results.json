@@ -1,0 +1,226 @@
+{
+  "status": "success",
+  "chunk_id": 3927,
+  "chunk_index": 0,
+  "source_url": "https://theconversation.com/tanzanias-benjamin-mkapa-the-peace-maker-true-east-african-and-pan-africanist-143464",
+  "title": "Tanzania’s Benjamin Mkapa: the peace maker, true East African and Pan-Africanist",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "December 2005",
+          "type": "point",
+          "quotes": [
+            "President Benjamin Mkapa at the end of his tenure in December 2005."
+          ]
+        },
+        {
+          "text": "July 24",
+          "type": "point",
+          "quotes": [
+            "The former Tanzanian president Benjamin William Mkapa, who died on July 24, was the country’s third president."
+          ]
+        },
+        {
+          "text": "from 1995 to 2005",
+          "type": "range",
+          "quotes": [
+            "He was in office from 1995 to 2005."
+          ]
+        },
+        {
+          "text": "1938",
+          "type": "point",
+          "quotes": [
+            "Born in 1938 in Masasi south-eastern Tanzania, Mkapa was a staunch supporter of the Tanzania African National Union, which won independence from Britain in 1961 under Mwalimu Julius Nyerere."
+          ]
+        },
+        {
+          "text": "1961",
+          "type": "point",
+          "quotes": [
+            "Born in 1938 in Masasi south-eastern Tanzania, Mkapa was a staunch supporter of the Tanzania African National Union, which won independence from Britain in 1961 under Mwalimu Julius Nyerere."
+          ]
+        },
+        {
+          "text": "from 1961 to 1985",
+          "type": "range",
+          "quotes": [
+            "His star rose steadily under Nyerere’s long reign – from 1961 to 1985 – as leader of the renamed party, Chama Cha Mapinduzi."
+          ]
+        },
+        {
+          "text": "1991",
+          "type": "point",
+          "quotes": [
+            "It was Nyerere who in 1991 opened debate on a multi-party democratic system for Tanzania."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "University of Agder",
+          "quotes": [
+            "Kjell Johannes Havnevik, University of Agder"
+          ]
+        },
+        {
+          "name": "Tanzania African National Union",
+          "quotes": [
+            "Mkapa was a staunch supporter of the Tanzania African National Union, which won independence from Britain in 1961 under Mwalimu Julius Nyerere."
+          ]
+        },
+        {
+          "name": "Chama Cha Mapinduzi",
+          "quotes": [
+            "His star rose steadily under Nyerere’s long reign – from 1961 to 1985 – as leader of the renamed party, Chama Cha Mapinduzi."
+          ]
+        },
+        {
+          "name": "Shihata",
+          "quotes": [
+            "In addition to being editor of the party newspaper and establishing the national news agency Shihata, he served as the Minister of Foreign Affairs, Information and Culture and Science, Technology and Education."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "President",
+          "quotes": [
+            "The former Tanzanian president Benjamin William Mkapa, who died on July 24, was the country’s third president."
+          ]
+        },
+        {
+          "title": "Minister of Foreign Affairs, Information and Culture and Science, Technology and Education",
+          "quotes": [
+            "In addition to being editor of the party newspaper and establishing the national news agency Shihata, he served as the Minister of Foreign Affairs, Information and Culture and Science, Technology and Education."
+          ]
+        },
+        {
+          "title": "editor of the party newspaper",
+          "quotes": [
+            "In addition to being editor of the party newspaper and establishing the national news agency Shihata, he served as the Minister of Foreign Affairs, Information and Culture and Science, Technology and Education."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Masasi south-eastern Tanzania",
+          "quotes": [
+            "Born in 1938 in Masasi south-eastern Tanzania, Mkapa was a staunch supporter of the Tanzania African National Union, which won independence from Britain in 1961 under Mwalimu Julius Nyerere."
+          ]
+        },
+        {
+          "place": "Tanzania",
+          "quotes": [
+            "It was Nyerere who in 1991 opened debate on a multi-party democratic system for Tanzania."
+          ]
+        },
+        {
+          "place": "Kenya",
+          "quotes": [
+            "He saw it coming in the wake of developments in neighbouring Kenya, where multi-party democracy was promoted at an early stage by church leaders, civil society and the population at large."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "He was in office from 1995 to 2005.",
+          "The former Tanzanian president Benjamin William Mkapa, who died on July 24, was the country’s third president."
+        ],
+        "confidence": "high",
+        "notes": "Presidential term clearly defined by time range and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2,
+          3
+        ],
+        "role_ids": [
+          1,
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In addition to being editor of the party newspaper and establishing the national news agency Shihata, he served as the Minister of Foreign Affairs, Information and Culture and Science, Technology and Education."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time markers, but roles and organizations are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "His star rose steadily under Nyerere’s long reign – from 1961 to 1985 – as leader of the renamed party, Chama Cha Mapinduzi."
+        ],
+        "confidence": "medium",
+        "notes": "Time range provided, but specific role is not explicitly stated, only implied."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position, making it difficult to place the event in a timeline."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, though time range and organization are provided."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

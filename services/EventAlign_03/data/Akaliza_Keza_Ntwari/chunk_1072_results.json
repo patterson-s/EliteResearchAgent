@@ -1,0 +1,197 @@
+{
+  "status": "success",
+  "chunk_id": 1072,
+  "chunk_index": 9,
+  "source_url": "https://www.fondationbotnar.org/akaliza-keza-ntwari-writes-on-women-led-innovation/",
+  "title": "Akaliza Keza Ntwari writes on women-led innovation - Fondation Botnar",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2024",
+          "type": "point",
+          "quotes": [
+            "2024: Amplifying youth voices for digital rights and online safety"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Amnesty International",
+          "quotes": [
+            "a programme developed in partnership with Amnesty International"
+          ]
+        },
+        {
+          "name": "RIGHTS Click",
+          "quotes": [
+            "RIGHTS Click supports child and youth activists around the world to lead impactful research, campaigns, and advocacy for change."
+          ]
+        },
+        {
+          "name": "TikTok",
+          "quotes": [
+            "to put pressure on big tech companies, like TikTok, to change their practices."
+          ]
+        },
+        {
+          "name": "Global Youth Summit on Digital Rights",
+          "quotes": [
+            "Over 100 activists from 45 countries came together at a Global Youth Summit on Digital Rights"
+          ]
+        },
+        {
+          "name": "Global Community for Digital Rights",
+          "quotes": [
+            "The learnings, actions, and commitments from this gathering culminated in the creation of a Global Community for Digital Rights"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Digital rights champion",
+          "quotes": [
+            "William Orura, Digital rights champion"
+          ]
+        },
+        {
+          "title": "youth advocates",
+          "quotes": [
+            "13 Digital Rights Champions from 11 countries mobilised as leading youth advocates"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Philippines",
+          "quotes": [
+            "the release of a report on Red-tagging in the Philippines"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "2024: Amplifying youth voices for digital rights and online safety",
+          "RIGHTS Click supports child and youth activists around the world to lead impactful research, campaigns, and advocacy for change.",
+          "13 Digital Rights Champions from 11 countries mobilised as leading youth advocates"
+        ],
+        "confidence": "medium",
+        "notes": "RIGHTS Click is linked with youth advocacy in 2024, but the exact role of 'youth advocates' is not explicitly tied to a specific individual or location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "2024: Amplifying youth voices for digital rights and online safety",
+          "William Orura, Digital rights champion"
+        ],
+        "confidence": "high",
+        "notes": "William Orura is explicitly mentioned as a Digital rights champion, though no specific organization or location is tied to this role in 2024."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "2024: Amplifying youth voices for digital rights and online safety",
+          "The learnings, actions, and commitments from this gathering culminated in the creation of a Global Community for Digital Rights",
+          "13 Digital Rights Champions from 11 countries mobilised as leading youth advocates"
+        ],
+        "confidence": "medium",
+        "notes": "The Global Community for Digital Rights is linked with youth advocacy in 2024, but the exact role of 'youth advocates' is not explicitly tied to a specific individual or location."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing location information, which is not inferable from context."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quotes do not explicitly tie the role of 'youth advocates' to a specific individual."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization and location information, which is not inferable from context."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classification as 'career_position' is questionable since 'Digital rights champion' could be an award or recognition rather than an active role."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing location information, which is not inferable from context."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quotes do not explicitly tie the role of 'youth advocates' to a specific individual."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

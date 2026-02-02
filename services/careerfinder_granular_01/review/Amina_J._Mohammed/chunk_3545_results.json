@@ -1,0 +1,134 @@
+{
+  "status": "success",
+  "chunk_id": 3545,
+  "chunk_index": 1,
+  "source_url": "https://www.linkedin.com/in/amina-mohammed",
+  "title": "Amina J. Mohammed - United Nations | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "United Nations",
+          "quotes": [
+            "Ms. Amina J. Mohammed is the Deputy Secretary-General of the United Nations and Chair of…",
+            "United Nations"
+          ]
+        },
+        {
+          "name": "LinkedIn",
+          "quotes": [
+            "By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement, Privacy Policy, and Cookie Policy.",
+            "New to LinkedIn?",
+            "Join now",
+            "By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement, Privacy Policy, and Cookie Policy.",
+            "Welcome back",
+            "Sign in to view Amina J.’s full profile",
+            "Sign in",
+            "or",
+            "By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement, Privacy Policy, and Cookie Policy.",
+            "New to LinkedIn?",
+            "Join now",
+            "or",
+            "New to LinkedIn?",
+            "Join now",
+            "By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement, Privacy Policy, and Cookie Policy."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Deputy Secretary-General",
+          "quotes": [
+            "Ms. Amina J. Mohammed is the Deputy Secretary-General of the United Nations and Chair of…"
+          ]
+        },
+        {
+          "title": "Chair",
+          "quotes": [
+            "Ms. Amina J. Mohammed is the Deputy Secretary-General of the United Nations and Chair of…"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Doha",
+          "quotes": [
+            "This week, the world gathered in Doha to renew the global commitment to end poverty, ensure decent work for all, and build societies where everyone…"
+          ]
+        },
+        {
+          "place": "Gaza",
+          "quotes": [
+            "Across Gaza, Sudan, Haiti and Ukraine, women are holding families together through unimaginable loss…"
+          ]
+        },
+        {
+          "place": "Sudan",
+          "quotes": [
+            "Across Gaza, Sudan, Haiti and Ukraine, women are holding families together through unimaginable loss…"
+          ]
+        },
+        {
+          "place": "Haiti",
+          "quotes": [
+            "Across Gaza, Sudan, Haiti and Ukraine, women are holding families together through unimaginable loss…"
+          ]
+        },
+        {
+          "place": "Ukraine",
+          "quotes": [
+            "Across Gaza, Sudan, Haiti and Ukraine, women are holding families together through unimaginable loss…"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Ms. Amina J. Mohammed is the Deputy Secretary-General of the United Nations and Chair of…",
+          "United Nations"
+        ],
+        "confidence": "high",
+        "notes": "No time markers available, but organization and roles are clearly linked."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the career position event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

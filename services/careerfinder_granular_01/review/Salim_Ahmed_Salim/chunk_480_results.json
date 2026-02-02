@@ -1,0 +1,281 @@
+{
+  "status": "success",
+  "chunk_id": 480,
+  "chunk_index": 5,
+  "source_url": "https://en.wikipedia.org/wiki/Salim_Ahmed_Salim",
+  "title": "Salim Ahmed Salim - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "29 November 2014",
+          "type": "point",
+          "quotes": [
+            "Archived from the original on 29 November 2014"
+          ]
+        },
+        {
+          "text": "14 November 2014",
+          "type": "point",
+          "quotes": [
+            "Retrieved 14 November 2014"
+          ]
+        },
+        {
+          "text": "1996",
+          "type": "point",
+          "quotes": [
+            "University of Bologna. 1996"
+          ]
+        },
+        {
+          "text": "27 September 2013",
+          "type": "point",
+          "quotes": [
+            "Retrieved 27 September 2013"
+          ]
+        },
+        {
+          "text": "4 March 2013",
+          "type": "point",
+          "quotes": [
+            "Archived from the original on 4 March 2013"
+          ]
+        },
+        {
+          "text": "17 February 2013",
+          "type": "point",
+          "quotes": [
+            "Retrieved 17 February 2013"
+          ]
+        },
+        {
+          "text": "1 August 2003",
+          "type": "point",
+          "quotes": [
+            "Addis Tribune via allafrica.com. 1 August 2003"
+          ]
+        },
+        {
+          "text": "16 November 1995",
+          "type": "point",
+          "quotes": [
+            "- dated 16 November 1995"
+          ]
+        },
+        {
+          "text": "1984–1985",
+          "type": "range",
+          "quotes": [
+            "Prime Minister of Tanzania 1984–1985"
+          ]
+        },
+        {
+          "text": "1990–1993",
+          "type": "range",
+          "quotes": [
+            "Minister of Foreign Affairs and International Cooperation 1990–1993"
+          ]
+        },
+        {
+          "text": "1979–1980",
+          "type": "range",
+          "quotes": [
+            "President of the United Nations General Assembly 1979–1980"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "University of Bologna",
+          "quotes": [
+            "Lauree Honoris Causa : Salim Salim Ahmed. University of Bologna"
+          ]
+        },
+        {
+          "name": "University of Cape Town",
+          "quotes": [
+            "UCT Honours Roll. University of Cape Town"
+          ]
+        },
+        {
+          "name": "Addis Ababa University",
+          "quotes": [
+            "Over 4,000 Graduate From Addis Ababa University"
+          ]
+        },
+        {
+          "name": "United Nations General Assembly",
+          "quotes": [
+            "President of the United Nations General Assembly 1979–1980"
+          ]
+        },
+        {
+          "name": "The South Center – Geneva",
+          "quotes": [
+            "The South Center – Geneva"
+          ]
+        },
+        {
+          "name": "East African Center for Constitutional Development",
+          "quotes": [
+            "East African Center for Constitutional Development"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Prime Minister of Tanzania",
+          "quotes": [
+            "Prime Minister of Tanzania 1984–1985"
+          ]
+        },
+        {
+          "title": "Minister of Foreign Affairs and International Cooperation",
+          "quotes": [
+            "Minister of Foreign Affairs and International Cooperation 1990–1993"
+          ]
+        },
+        {
+          "title": "President of the United Nations General Assembly",
+          "quotes": [
+            "President of the United Nations General Assembly 1979–1980"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Geneva",
+          "quotes": [
+            "The South Center – Geneva"
+          ]
+        },
+        {
+          "place": "Addis Ababa",
+          "quotes": [
+            "Over 4,000 Graduate From Addis Ababa University"
+          ]
+        },
+        {
+          "place": "Tanzania",
+          "quotes": [
+            "Prime Minister of Tanzania 1984–1985"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          8
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "Prime Minister of Tanzania 1984–1985"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role, time, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          9
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Minister of Foreign Affairs and International Cooperation 1990–1993"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role and time."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          10
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "President of the United Nations General Assembly 1979–1980"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role, organization, and time."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Lauree Honoris Causa : Salim Salim Ahmed. University of Bologna",
+          "University of Bologna. 1996"
+        ],
+        "confidence": "high",
+        "notes": "Honoris Causa indicates an honorary degree, which is classified as an award."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information for the role of Minister of Foreign Affairs and International Cooperation."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 3,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 1
+    }
+  }
+}

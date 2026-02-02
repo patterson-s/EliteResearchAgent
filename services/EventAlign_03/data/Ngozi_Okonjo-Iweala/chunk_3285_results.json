@@ -1,0 +1,174 @@
+{
+  "status": "success",
+  "chunk_id": 3285,
+  "chunk_index": 1,
+  "source_url": "https://www.carnegie.org/awards/honoree/ngozi-okonjo-iweala/",
+  "title": "Ngozi Okonjo-Iweala : Awards | Carnegie Corporation of New York",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Atlanta Symphony Orchestra Talent Development Program",
+          "quotes": [
+            "Cofounder, Atlanta Symphony Orchestra Talent Development Program"
+          ]
+        },
+        {
+          "name": "SLAC National Accelerator Laboratory",
+          "quotes": [
+            "Professor Emerita of Physics, SLAC National Accelerator Laboratory, Stanford University"
+          ]
+        },
+        {
+          "name": "Stanford University",
+          "quotes": [
+            "Professor Emerita of Physics, SLAC National Accelerator Laboratory, Stanford University"
+          ]
+        },
+        {
+          "name": "Betty Kwan Chinn Homeless Foundation",
+          "quotes": [
+            "Founder, Betty Kwan Chinn Homeless Foundation"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Cofounder",
+          "quotes": [
+            "Cofounder, Atlanta Symphony Orchestra Talent Development Program"
+          ]
+        },
+        {
+          "title": "Professor Emerita of Physics",
+          "quotes": [
+            "Professor Emerita of Physics, SLAC National Accelerator Laboratory, Stanford University"
+          ]
+        },
+        {
+          "title": "Founder",
+          "quotes": [
+            "Founder, Betty Kwan Chinn Homeless Foundation"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Salt Lake City",
+          "quotes": [
+            "Salt Lake City"
+          ]
+        },
+        {
+          "place": "Atlanta",
+          "quotes": [
+            "Cofounder, Atlanta Symphony Orchestra Talent Development Program"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Cofounder, Atlanta Symphony Orchestra Talent Development Program"
+        ],
+        "confidence": "high",
+        "notes": "Clear cofounder role with organization and location mentioned in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1,
+          2
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Professor Emerita of Physics, SLAC National Accelerator Laboratory, Stanford University"
+        ],
+        "confidence": "high",
+        "notes": "Clear professor emerita role with organizations mentioned in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Founder, Betty Kwan Chinn Homeless Foundation"
+        ],
+        "confidence": "high",
+        "notes": "Clear founder role with organization mentioned in the same quote."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers and location for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers and location for career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

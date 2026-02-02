@@ -1,0 +1,195 @@
+{
+  "status": "success",
+  "chunk_id": 2674,
+  "chunk_index": 12,
+  "source_url": "https://en.wikipedia.org/wiki/Ellen_Johnson_Sirleaf",
+  "title": "Ellen Johnson Sirleaf - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2005",
+          "type": "point",
+          "quotes": [
+            "Following her victory in the 2005 election, Sirleaf pledged to promote national reconciliation by bringing in opposition leaders into her administration."
+          ]
+        },
+        {
+          "text": "2008",
+          "type": "point",
+          "quotes": [
+            "Information Minister Lawrence Bropleh was sacked in 2008 over allegations that he had stolen more than $200,000 in state funds,"
+          ]
+        },
+        {
+          "text": "2010",
+          "type": "point",
+          "quotes": [
+            "Internal Affairs Minister Ambullai Johnson, Sirleaf's brother, was dismissed in 2010 after the disappearance of funds for county development."
+          ]
+        },
+        {
+          "text": "3 November 2010",
+          "type": "point",
+          "quotes": [
+            "Sirleaf dismissed her entire cabinet from office on 3 November 2010, promising to reassemble the cabinet in as short a time as possible."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Ministries of Finance, Law, Commerce and Industry, Gender and Development, and Youth and Sports",
+          "quotes": [
+            "Sirleaf also appointed several women to high-level posts in her administration, with female ministers initially leading the Ministries of Finance, Law, Commerce and Industry, Gender and Development, and Youth and Sports."
+          ]
+        },
+        {
+          "name": "Liberian Anti-Corruption Commission",
+          "quotes": [
+            "Sirleaf has rejected claims that she has failed to fight corruption, pointing to the establishment of the Liberian Anti-Corruption Commission and the restructuring of the General Auditing Commission."
+          ]
+        },
+        {
+          "name": "General Auditing Commission",
+          "quotes": [
+            "Sirleaf has rejected claims that she has failed to fight corruption, pointing to the establishment of the Liberian Anti-Corruption Commission and the restructuring of the General Auditing Commission."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Minister of Transport",
+          "quotes": [
+            "Opposition politicians who joined her initial administration included Minister of Transport Jeremiah Sulunteh,"
+          ]
+        },
+        {
+          "title": "Minister of Education",
+          "quotes": [
+            "Opposition politicians who joined her initial administration included Minister of Transport Jeremiah Sulunteh, Minister of Education Joseph Korto,"
+          ]
+        },
+        {
+          "title": "Ambassador to the United Nations",
+          "quotes": [
+            "Opposition politicians who joined her initial administration included Minister of Transport Jeremiah Sulunteh, Minister of Education Joseph Korto, and Ambassador to the United Nations Nathaniel Barnes."
+          ]
+        },
+        {
+          "title": "Information Minister",
+          "quotes": [
+            "Information Minister Lawrence Bropleh was sacked in 2008 over allegations that he had stolen more than $200,000 in state funds,"
+          ]
+        },
+        {
+          "title": "Internal Affairs Minister",
+          "quotes": [
+            "Internal Affairs Minister Ambullai Johnson, Sirleaf's brother, was dismissed in 2010 after the disappearance of funds for county development."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0,
+          1,
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Opposition politicians who joined her initial administration included Minister of Transport Jeremiah Sulunteh, Minister of Education Joseph Korto, and Ambassador to the United Nations Nathaniel Barnes."
+        ],
+        "confidence": "high",
+        "notes": "Roles are clearly mentioned as part of Sirleaf's administration following her 2005 election."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Information Minister Lawrence Bropleh was sacked in 2008 over allegations that he had stolen more than $200,000 in state funds,"
+        ],
+        "confidence": "high",
+        "notes": "Role is clearly mentioned with a specific time marker and reason for dismissal."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Internal Affairs Minister Ambullai Johnson, Sirleaf's brother, was dismissed in 2010 after the disappearance of funds for county development."
+        ],
+        "confidence": "high",
+        "notes": "Role is clearly mentioned with a specific time marker and reason for dismissal."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career positions."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

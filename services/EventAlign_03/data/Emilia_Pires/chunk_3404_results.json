@@ -1,0 +1,113 @@
+{
+  "status": "success",
+  "chunk_id": 3404,
+  "chunk_index": 2,
+  "source_url": "https://conflictfieldresearch.colgate.edu/wp-content/uploads/2015/02/9_Reflections_on_Policy_Space.pdf",
+  "title": "9_Reflections_on_Policy_Space.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "For the period of JAM, for like three months",
+          "type": "range",
+          "quotes": [
+            "For the period of JAM, for like three months, the bank paid everybody. We negotiated that they would pay the Timorese a monthly allowance or stipend."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "DPA",
+          "quotes": [
+            "We only knew people [in the DPA] , but we didn’t really know the others."
+          ]
+        },
+        {
+          "name": "World Bank",
+          "quotes": [
+            "Meanwhile, the World Bank had taken on the JAM thing and we didn’t even know the connection between the JAM and the UNTAET."
+          ]
+        },
+        {
+          "name": "UNTAET",
+          "quotes": [
+            "Meanwhile, the World Bank had taken on the JAM thing and we didn’t even know the connection between the JAM and the UNTAET."
+          ]
+        },
+        {
+          "name": "Trust Fund for East Timor (TFET)",
+          "quotes": [
+            "How was this struggle over the Trust Fund for East Timor (TFET) resolved?"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "development officer",
+          "quotes": [
+            "I became Xanana’s development officer, the person to liaise with all the international community."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Melbourne",
+          "quotes": [
+            "new Timorese, who had not the same capacity as the ones who were part of JAM and were part of the conference in Melbourne."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "For the period of JAM, for like three months, the bank paid everybody. We negotiated that they would pay the Timorese a monthly allowance or stipend.",
+          "I became Xanana’s development officer, the person to liaise with all the international community."
+        ],
+        "confidence": "medium",
+        "notes": "The role of 'development officer' is clearly a career position, but the exact organization is not specified in the same quote. The time marker 'For the period of JAM' is linked to this role based on context."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information. While the role of 'development officer' is clearly a career position, the exact organization is not specified in the supporting quotes."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information, though this might be inferable from context but not explicitly stated in the quotes."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

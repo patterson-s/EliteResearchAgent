@@ -1,0 +1,128 @@
+{
+  "status": "success",
+  "chunk_id": 2802,
+  "chunk_index": 21,
+  "source_url": "https://en.wikipedia.org/wiki/David_Cameron",
+  "title": "David Cameron - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In December 2014",
+          "type": "point",
+          "quotes": [
+            "In December 2014, his government launched a £67 million initiative to retrain approximately 15,000 teachers in STEM subjects, and offered bursaries to attract top university graduates in maths and physics into teaching roles."
+          ]
+        },
+        {
+          "text": "in 2011",
+          "type": "point",
+          "quotes": [
+            "Cameron introduced the pupil premium in 2011, allocating additional per-pupil funding to schools serving students eligible for free school meals."
+          ]
+        },
+        {
+          "text": "By 2015",
+          "type": "point",
+          "quotes": [
+            "By 2015 the deficit as a percentage of GDP had reduced to half what it was in 2010."
+          ]
+        },
+        {
+          "text": "2008 financial crisis",
+          "type": "point",
+          "quotes": [
+            "Cameron jointly with Osborne, introduced an austerity‑based fiscal strategy which they claimed was aiming to sharply reduce the public deficit that had ballooned in the wake of the 2008 financial crisis."
+          ]
+        },
+        {
+          "text": "2008–2016",
+          "type": "range",
+          "quotes": [
+            "UK median household disposable income by income group for 2008–2016, indexed to 2008"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "National Teaching Service",
+          "quotes": [
+            "Parallel to this were proposals for a National Teaching Service designed to deploy high‑quality educators to poorly performing schools, and expanded powers for regional school commissioners to intervene swiftly in inadequately rated schools."
+          ]
+        },
+        {
+          "name": "National Health Service",
+          "quotes": [
+            "The National Health Service and education were 'ringfenced' and protected from direct spending cuts."
+          ]
+        },
+        {
+          "name": "NHS",
+          "quotes": [
+            "The programme relied primarily on reductions in public spending—approximately 5% of GDP over the coalition period—while protecting day‑to‑day budgets for the NHS, education, and international development."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Chancellor",
+          "quotes": [
+            "Cameron and Chancellor George Osborne claimed they aimed to eliminate the structural deficit (i.e. deficit on current spending as opposed to investment), and to have government debt falling as a percentage of GDP."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Cameron and Chancellor George Osborne claimed they aimed to eliminate the structural deficit (i.e. deficit on current spending as opposed to investment), and to have government debt falling as a percentage of GDP.",
+          "Cameron jointly with Osborne, introduced an austerity‑based fiscal strategy which they claimed was aiming to sharply reduce the public deficit that had ballooned in the wake of the 2008 financial crisis."
+        ],
+        "confidence": "high",
+        "notes": "The role of Chancellor is clearly associated with the time marker '2008 financial crisis' and the actions taken by Cameron and Osborne."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quotes mention 'Chancellor George Osborne' but do not explicitly state Cameron's role, only implying it through association."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

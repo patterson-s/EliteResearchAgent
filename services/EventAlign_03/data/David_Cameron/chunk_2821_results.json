@@ -1,0 +1,129 @@
+{
+  "status": "success",
+  "chunk_id": 2821,
+  "chunk_index": 40,
+  "source_url": "https://en.wikipedia.org/wiki/David_Cameron",
+  "title": "David Cameron - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "April 2016",
+          "type": "point",
+          "quotes": [
+            "In April 2016 then Labour MP for Bolsover, Dennis Skinner was reprimanded by House Speaker John Bercow for referring to Cameron as 'Dodgy Dave'"
+          ]
+        },
+        {
+          "text": "July 2016",
+          "type": "point",
+          "quotes": [
+            "In July 2016, Skinner once again referred to Cameron as 'Dodgy Dave' in parliament, however this time he was not reprimanded, or asked to leave."
+          ]
+        },
+        {
+          "text": "2008",
+          "type": "point",
+          "quotes": [
+            "Speaking at a Conservative reception in 2008, As leader of the Conservative Party, Cameron was accused of relying on 'old-boy networks'"
+          ]
+        },
+        {
+          "text": "May 2012",
+          "type": "point",
+          "quotes": [
+            "Following poor results in the May 2012 local elections after a difficult few months for the government, with Labour increasing its lead"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Conservative Party",
+          "quotes": [
+            "As leader of the Conservative Party, Cameron was accused of relying on 'old-boy networks'"
+          ]
+        },
+        {
+          "name": "Bullingdon Club",
+          "quotes": [
+            "Several of Cameron's senior appointments, such as George Osborne as chancellor of the Exchequer, are former members of the Bullingdon Club."
+          ]
+        },
+        {
+          "name": "Standpoint",
+          "quotes": [
+            "Michael Mosbacher, co-founder of Standpoint, wrote that Cameron's cabinet has the lowest number of Etonians of any past Conservative government"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "leader of the Conservative Party",
+          "quotes": [
+            "As leader of the Conservative Party, Cameron was accused of relying on 'old-boy networks'"
+          ]
+        },
+        {
+          "title": "chancellor of the Exchequer",
+          "quotes": [
+            "Several of Cameron's senior appointments, such as George Osborne as chancellor of the Exchequer, are former members of the Bullingdon Club."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "As leader of the Conservative Party, Cameron was accused of relying on 'old-boy networks'",
+          "Speaking at a Conservative reception in 2008, As leader of the Conservative Party, Cameron was accused of relying on 'old-boy networks'"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time marker, organization, and role."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information, though this might not be critical for this event."
+          },
+          {
+            "type": "quote_support",
+            "severity": "medium",
+            "description": "The supporting quotes mention the role and organization but do not explicitly confirm a specific time frame for the career position, only referencing 2008 in a speaking context."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

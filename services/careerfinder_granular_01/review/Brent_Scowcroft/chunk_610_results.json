@@ -1,0 +1,251 @@
+{
+  "status": "success",
+  "chunk_id": 610,
+  "chunk_index": 3,
+  "source_url": "https://en.wikipedia.org/wiki/Brent_Scowcroft",
+  "title": "Brent Scowcroft - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "on August 16, 1974",
+          "type": "point",
+          "quotes": [
+            "lieutenant general on August 16, 1974, and retired from active duty at that rank on December 1, 1975."
+          ]
+        },
+        {
+          "text": "on December 1, 1975",
+          "type": "point",
+          "quotes": [
+            "lieutenant general on August 16, 1974, and retired from active duty at that rank on December 1, 1975."
+          ]
+        },
+        {
+          "text": "in 1991",
+          "type": "point",
+          "quotes": [
+            "On the 24th anniversary of the USS Liberty incident (in 1991), approximately 50 Liberty survivors, including Captain William McGonagle, were invited to the White House to meet with President George H.W. Bush."
+          ]
+        },
+        {
+          "text": "from 1969",
+          "type": "open",
+          "quotes": [
+            "Scowcroft was long sought after as a respected, professional and largely apolitical or nonpartisan expert (within the standards of fellow White House veterans) and chaired and served on a number of policy advisory councils, having served as his assistant when Kissinger was the National Security Adviser under Richard Nixon, from 1969."
+          ]
+        },
+        {
+          "text": "in 2018",
+          "type": "point",
+          "quotes": [
+            "Scowcroft's continued service in the Air Force would have been contingent on reconfirmation of his rank by the Senate, a distinction that National Security Advisor H. R. McMaster elected to pursue in 2018."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Air Force",
+          "quotes": [
+            "Scowcroft's continued service in the Air Force would have been contingent on reconfirmation of his rank by the Senate, a distinction that National Security Advisor H. R. McMaster elected to pursue in 2018."
+          ]
+        },
+        {
+          "name": "White House",
+          "quotes": [
+            "On the 24th anniversary of the USS Liberty incident (in 1991), approximately 50 Liberty survivors, including Captain William McGonagle, were invited to the White House to meet with President George H.W. Bush."
+          ]
+        },
+        {
+          "name": "Kissinger Associates",
+          "quotes": [
+            "Before joining the Bush administration, Scowcroft was vice chairman of Kissinger Associates."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "lieutenant general",
+          "quotes": [
+            "lieutenant general on August 16, 1974, and retired from active duty at that rank on December 1, 1975."
+          ]
+        },
+        {
+          "title": "United States National Security Advisor",
+          "quotes": [
+            ", become the United States National Security Advisor (for him, the first time), replacing Henry Kissinger."
+          ]
+        },
+        {
+          "title": "National Security Advisor",
+          "quotes": [
+            "Scowcroft's continued service in the Air Force would have been contingent on reconfirmation of his rank by the Senate, a distinction that National Security Advisor H. R. McMaster elected to pursue in 2018."
+          ]
+        },
+        {
+          "title": "White House Chief of Staff",
+          "quotes": [
+            "Instead, Scowcroft and White House Chief of Staff John H. Sununu greeted them."
+          ]
+        },
+        {
+          "title": "Rear Admiral",
+          "quotes": [
+            "Rear Admiral Thomas A. Brooks, who had spoken out in favor of Liberty survivors previously, presented them with a Presidential Unit Citation that had been signed by President Lyndon B. Johnson but never awarded."
+          ]
+        },
+        {
+          "title": "Chairman of the Joint Chiefs of Staff",
+          "quotes": [
+            "Former Chairman of the Joint Chiefs of Staff Admiral Thomas H. Moorer, a longtime Liberty advocate, was also in attendance."
+          ]
+        },
+        {
+          "title": "vice chairman of Kissinger Associates",
+          "quotes": [
+            "Before joining the Bush administration, Scowcroft was vice chairman of Kissinger Associates."
+          ]
+        },
+        {
+          "title": "assistant to the National Security Adviser",
+          "quotes": [
+            "having served as his assistant when Kissinger was the National Security Adviser under Richard Nixon, from 1969."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "White House",
+          "quotes": [
+            "On the 24th anniversary of the USS Liberty incident (in 1991), approximately 50 Liberty survivors, including Captain William McGonagle, were invited to the White House to meet with President George H.W. Bush."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "lieutenant general on August 16, 1974, and retired from active duty at that rank on December 1, 1975."
+        ],
+        "confidence": "high",
+        "notes": "No organization mentioned, but role and time markers are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          7
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "having served as his assistant when Kissinger was the National Security Adviser under Richard Nixon, from 1969."
+        ],
+        "confidence": "medium",
+        "notes": "No organization explicitly mentioned, but role and time marker are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          6
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Before joining the Bush administration, Scowcroft was vice chairman of Kissinger Associates."
+        ],
+        "confidence": "high",
+        "notes": "No time marker, but organization and role are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          ", become the United States National Security Advisor (for him, the first time), replacing Henry Kissinger."
+        ],
+        "confidence": "medium",
+        "notes": "No organization or time marker, but role is clear."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information, though role and time markers are clear."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information, though role and time marker are clear."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker, though organization and role are clear."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization and time marker, only role is clear."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 0,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

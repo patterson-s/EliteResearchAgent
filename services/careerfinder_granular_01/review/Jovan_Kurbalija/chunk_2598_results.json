@@ -1,0 +1,156 @@
+{
+  "status": "success",
+  "chunk_id": 2598,
+  "chunk_index": 9,
+  "source_url": "https://ch.linkedin.com/in/jovan-kurbalija-90834629",
+  "title": "Jovan Kurbalija – DiploFoundation | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "in 2005",
+          "type": "point",
+          "quotes": [
+            "The first application was to the mandate for post-Kyoto climate change negotiations that subsequently successfully brought the US back into the COP process in 2005."
+          ]
+        },
+        {
+          "text": "2026–2027",
+          "type": "range",
+          "quotes": [
+            "The aim was to build a shared understanding of the current state and development of extremism, and to generate insights and ideas to support the preparation of the EU Counter-Terrorism Strategy and the operational priorities for 2026–2027."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "EU",
+          "quotes": [
+            "In the EU, the first application was to the mandate for post-Kyoto climate change negotiations that subsequently successfully brought the US back into the COP process in 2005."
+          ]
+        },
+        {
+          "name": "JRC",
+          "quotes": [
+            "Rounding up the panel, David Mair of JRC drew attention to the importance of having scientific knowledge brokers inside government."
+          ]
+        },
+        {
+          "name": "OECD",
+          "quotes": [
+            "Following the OECD’s decision to transition to an open-access information model making all data and publications freely accessible, the Global Forum’s pages have now been rebuilt, with all content relating to our work available to users in both English and French."
+          ]
+        },
+        {
+          "name": "Global Forum",
+          "quotes": [
+            "Following the OECD’s decision to transition to an open-access information model making all data and publications freely accessible, the Global Forum’s pages have now been rebuilt, with all content relating to our work available to users in both English and French."
+          ]
+        },
+        {
+          "name": "EU Commission",
+          "quotes": [
+            "The second Townhall meeting organized by the EU Commission brought together a wide range of professionals working on the prevention of radicalization and extremism – including policymakers, practitioners, and researchers."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "scientific knowledge brokers",
+          "quotes": [
+            "To fill this gap, scientific knowledge brokers were needed to find the right experts.",
+            "Such people had the expertise to find the scientists with the relevant knowledge, to translate policy needs to the scientists, and then be able to present in jargon-free language the reliability of scientific evidence to policy makers."
+          ]
+        },
+        {
+          "title": "Deputy Minister",
+          "quotes": [
+            "Later in the conference, Deputy Minister Thanasis Kontogeorgis expressed his strong sympathy for the recommendations in helping to address emerging policy issues such as climate adaptation and fast technological change."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Rounding up the panel, David Mair of JRC drew attention to the importance of having scientific knowledge brokers inside government.",
+          "To fill this gap, scientific knowledge brokers were needed to find the right experts."
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker, but role and organization are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Later in the conference, Deputy Minister Thanasis Kontogeorgis expressed his strong sympathy for the recommendations in helping to address emerging policy issues such as climate adaptation and fast technological change."
+        ],
+        "confidence": "medium",
+        "notes": "No specific organization or time marker mentioned, but role is clearly a career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the event, making it difficult to place in a timeline."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Location is missing, though it may not be critical for this type of role."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and time marker, which limits the context of the position."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Location is missing, though it may not be critical for this type of role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "status": "success",
+  "chunk_id": 710,
+  "chunk_index": 0,
+  "source_url": "https://www.britannica.com/money/Jack-Ma",
+  "title": "Jack Ma | Biography, Alibaba, & Facts | Britannica Money",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "September 10, 1964",
+          "type": "point",
+          "quotes": [
+            "born: September 10, 1964, Hangzhou, Zhejiang province, China"
+          ]
+        },
+        {
+          "text": "1984",
+          "type": "point",
+          "quotes": [
+            "He was admitted on his third try, in 1984"
+          ]
+        },
+        {
+          "text": "1988",
+          "type": "point",
+          "quotes": [
+            "he graduated with a bachelor’s degree in English in 1988"
+          ]
+        },
+        {
+          "text": "From 1988 to 1993",
+          "type": "range",
+          "quotes": [
+            "From 1988 to 1993 he taught English at the Hangzhou Institute of Electronics and Engineering"
+          ]
+        },
+        {
+          "text": "1994",
+          "type": "point",
+          "quotes": [
+            "In 1994 he founded his first company, the Haibo Translation Agency"
+          ]
+        },
+        {
+          "text": "1995",
+          "type": "point",
+          "quotes": [
+            "On a trip to the United States on behalf of the Hangzhou city government in 1995"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Alibaba Group",
+          "quotes": [
+            "head of the Alibaba Group, which comprised several of China’s most popular websites"
+          ]
+        },
+        {
+          "name": "Alibaba.com",
+          "quotes": [
+            "the business-to-business marketplace Alibaba.com"
+          ]
+        },
+        {
+          "name": "Taobao.com",
+          "quotes": [
+            "the shopping site Taobao.com"
+          ]
+        },
+        {
+          "name": "Hangzhou Teachers College",
+          "quotes": [
+            "Ma failed the entrance exam for the Hangzhou Teachers College twice"
+          ]
+        },
+        {
+          "name": "Hangzhou Institute of Electronics and Engineering",
+          "quotes": [
+            "he taught English at the Hangzhou Institute of Electronics and Engineering (now Hangzhou Dianzi University)"
+          ]
+        },
+        {
+          "name": "Haibo Translation Agency",
+          "quotes": [
+            "In 1994 he founded his first company, the Haibo Translation Agency"
+          ]
+        },
+        {
+          "name": "China Pages",
+          "quotes": [
+            "On his return, he founded China Pages, which created Web pages for Chinese businesses"
+          ]
+        },
+        {
+          "name": "Hangzhou Telecom",
+          "quotes": [
+            "strong competition from the communications company Hangzhou Telecom"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "head of the Alibaba Group",
+          "quotes": [
+            "who was head of the Alibaba Group"
+          ]
+        },
+        {
+          "title": "guide for foreign tourists",
+          "quotes": [
+            "during his teens he worked as a guide for foreign tourists to Hangzhou"
+          ]
+        },
+        {
+          "title": "English teacher",
+          "quotes": [
+            "From 1988 to 1993 he taught English at the Hangzhou Institute of Electronics and Engineering"
+          ]
+        },
+        {
+          "title": "founder",
+          "quotes": [
+            "In 1994 he founded his first company, the Haibo Translation Agency"
+          ]
+        },
+        {
+          "title": "founder",
+          "quotes": [
+            "On his return, he founded China Pages"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Hangzhou",
+          "quotes": [
+            "born: September 10, 1964, Hangzhou, Zhejiang province, China"
+          ]
+        },
+        {
+          "place": "Zhejiang province",
+          "quotes": [
+            "born: September 10, 1964, Hangzhou, Zhejiang province, China"
+          ]
+        },
+        {
+          "place": "China",
+          "quotes": [
+            "born: September 10, 1964, Hangzhou, Zhejiang province, China"
+          ]
+        },
+        {
+          "place": "United States",
+          "quotes": [
+            "On a trip to the United States on behalf of the Hangzhou city government in 1995"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "From 1988 to 1993 he taught English at the Hangzhou Institute of Electronics and Engineering",
+          "he taught English at the Hangzhou Institute of Electronics and Engineering (now Hangzhou Dianzi University)"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 1994 he founded his first company, the Haibo Translation Agency"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          6
+        ],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "On his return, he founded China Pages",
+          "which created Web pages for Chinese businesses"
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker, but clear linkage between organization and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "head of the Alibaba Group, which comprised several of China’s most popular websites",
+          "who was head of the Alibaba Group"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between organization and role, though no specific time marker."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time marker for the career position at China Pages."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time marker for the career position at Alibaba Group."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 2,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

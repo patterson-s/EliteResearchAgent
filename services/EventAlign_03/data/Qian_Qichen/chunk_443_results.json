@@ -1,0 +1,206 @@
+{
+  "status": "success",
+  "chunk_id": 443,
+  "chunk_index": 5,
+  "source_url": "https://www.hoover.org/sites/default/files/research/docs/clm10_rs.pdf",
+  "title": "clm10_rs.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "November 20, 1990",
+          "type": "point",
+          "quotes": [
+            "A bit more than a week before the vote was to take place (November 20, 1990), Baker (who was in Paris) called Qian with a “deal.”"
+          ]
+        },
+        {
+          "text": "November 28, 1990",
+          "type": "point",
+          "quotes": [
+            "Thinking he had Qian’s agreement, Baker was angered when China abstained from the Security Council vote on November 28, 1990, and he tried to withdraw the invitation to Qian to visit the White House."
+          ]
+        },
+        {
+          "text": "the following November",
+          "type": "point",
+          "quotes": [
+            "Whether those feelings played a role in how Baker was treated on his visit to Beijing the following November, Qian does not say."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "China Leadership Monitor",
+          "quotes": [
+            "Suettinger, China Leadership Monitor , No.10"
+          ]
+        },
+        {
+          "name": "U.N.",
+          "quotes": [
+            "China had been working cooperatively within the U.N. context to try to craft a resolution that would bring about Iraq’s voluntary withdrawal from Kuwait,"
+          ]
+        },
+        {
+          "name": "U.S.",
+          "quotes": [
+            "a resolution that authorized the use of force by the U.S. -led coalition."
+          ]
+        },
+        {
+          "name": "Security Council",
+          "quotes": [
+            "Thinking he had Qian’s agreement, Baker was angered when China abstained from the Security Council vote on November 28, 1990,"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "former secretary of state",
+          "quotes": [
+            "Qian is considerably less generous to former secretary of state Baker,"
+          ]
+        },
+        {
+          "title": "Chinese ambassador",
+          "quotes": [
+            "Early -morning phone calls from the Chinese ambassador to Brent Scowcroft put the Oval Office meeting back on the schedule,"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Washington",
+          "quotes": [
+            "Qian does conclude the anecdote by noting that he and Scowcroft shared a hearty laugh about the toast during one of Qian’s later visits to Washington."
+          ]
+        },
+        {
+          "place": "Paris",
+          "quotes": [
+            "Baker (who was in Paris) called Qian with a “deal.”"
+          ]
+        },
+        {
+          "place": "Beijing",
+          "quotes": [
+            "Whether those feelings played a role in how Baker was treated on his visit to Beijing the following November, Qian does not say."
+          ]
+        },
+        {
+          "place": "Oval Office",
+          "quotes": [
+            "If China would support the U.S. resolution on Iraq —or at least pledge not to veto it —Baker would be happy to invite Qian to make an official visit to Washington, with a visit to the Oval Office as part of the bargain."
+          ]
+        },
+        {
+          "place": "Tiananmen",
+          "quotes": [
+            "That would break the ban on high -level meetings that had been in effect since Tiananmen."
+          ]
+        },
+        {
+          "place": "Eastern Europe",
+          "quotes": [
+            "that China might also fall victim to the same public pressures that had brought down most of the socialist governments of Eastern Europe."
+          ]
+        },
+        {
+          "place": "Iraq",
+          "quotes": [
+            "China had been working cooperatively within the U.N. context to try to craft a resolution that would bring about Iraq’s voluntary withdrawal from Kuwait,"
+          ]
+        },
+        {
+          "place": "Kuwait",
+          "quotes": [
+            "China had been working cooperatively within the U.N. context to try to craft a resolution that would bring about Iraq’s voluntary withdrawal from Kuwait,"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Qian is considerably less generous to former secretary of state Baker,"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time marker, but the role and organization are clear. Assuming this is a past position based on 'former'."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Early -morning phone calls from the Chinese ambassador to Brent Scowcroft put the Oval Office meeting back on the schedule,"
+        ],
+        "confidence": "high",
+        "notes": "No explicit organization mentioned, but the role and location are clear."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker information, making it difficult to place this event in a timeline."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "The quote mentions 'former secretary of state Baker' but does not explicitly state that Qian held this position, only that Qian is commenting on Baker's role."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information, which is crucial for understanding the context of the role."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "The quote mentions 'Chinese ambassador' but does not explicitly state who this ambassador is or that it refers to the person in question."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

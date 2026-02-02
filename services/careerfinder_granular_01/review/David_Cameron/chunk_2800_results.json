@@ -1,0 +1,174 @@
+{
+  "status": "success",
+  "chunk_id": 2800,
+  "chunk_index": 19,
+  "source_url": "https://en.wikipedia.org/wiki/David_Cameron",
+  "title": "David Cameron - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2015",
+          "type": "point",
+          "quotes": [
+            "2015, he was able to claim that his government's austerity programme had succeeded in halving the budget deficit"
+          ]
+        },
+        {
+          "text": "December 2010",
+          "type": "point",
+          "quotes": [
+            "In December 2010, Cameron attended a meeting with FIFA vice-president Chung Mong-joon, in which a vote-trading deal for the right to host the 2018 World Cup in England was discussed."
+          ]
+        },
+        {
+          "text": "May 2010",
+          "type": "point",
+          "quotes": [
+            "Upon entering office in May 2010, Cameron positioned social reform as integral to his government's broader ambition to tackle poverty and restore social responsibility."
+          ]
+        },
+        {
+          "text": "2011",
+          "type": "point",
+          "quotes": [
+            "A 2011 white paper proposed opening schools, hospitals, and council-run services to non‑public providers under 'payment‑by‑results' contracts, with aims of improving efficiency and innovation through increased choice and competition."
+          ]
+        },
+        {
+          "text": "December 2015",
+          "type": "point",
+          "quotes": [
+            "In December 2015, due to sustained concern over failing children's services, Cameron announced that persistently underperforming local authorities would be required to transfer services to high‑performing councils, independent charities, or spin‑out organisations—a structural reform intended to improve outcomes and accountability."
+          ]
+        },
+        {
+          "text": "May 2016",
+          "type": "point",
+          "quotes": [
+            "Cameron's government in May 2016 directed reforms specifically for social workers and those leaving care."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "FIFA",
+          "quotes": [
+            "In December 2010, Cameron attended a meeting with FIFA vice-president Chung Mong-joon, in which a vote-trading deal for the right to host the 2018 World Cup in England was discussed."
+          ]
+        },
+        {
+          "name": "Liberal Democrats",
+          "quotes": [
+            "As a part of the deal to enter into coalition with the Liberal Democrats, the Conservatives pledged to hold a referendum"
+          ]
+        },
+        {
+          "name": "Conservatives",
+          "quotes": [
+            "As a part of the deal to enter into coalition with the Liberal Democrats, the Conservatives pledged to hold a referendum"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "vice-president",
+          "quotes": [
+            "In December 2010, Cameron attended a meeting with FIFA vice-president Chung Mong-joon, in which a vote-trading deal for the right to host the 2018 World Cup in England was discussed."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "England",
+          "quotes": [
+            "In December 2010, Cameron attended a meeting with FIFA vice-president Chung Mong-joon, in which a vote-trading deal for the right to host the 2018 World Cup in England was discussed."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Upon entering office in May 2010, Cameron positioned social reform as integral to his government's broader ambition to tackle poverty and restore social responsibility.",
+          "A 2011 white paper proposed opening schools, hospitals, and council-run services to non‑public providers under 'payment‑by‑results' contracts, with aims of improving efficiency and innovation through increased choice and competition.",
+          "In December 2015, due to sustained concern over failing children's services, Cameron announced that persistently underperforming local authorities would be required to transfer services to high‑performing councils, independent charities, or spin‑out organisations—a structural reform intended to improve outcomes and accountability.",
+          "Cameron's government in May 2016 directed reforms specifically for social workers and those leaving care."
+        ],
+        "confidence": "high",
+        "notes": "While the exact role is not specified, the quotes clearly indicate Cameron's active leadership in government, which is a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "In December 2010, Cameron attended a meeting with FIFA vice-president Chung Mong-joon, in which a vote-trading deal for the right to host the 2018 World Cup in England was discussed."
+        ],
+        "confidence": "medium",
+        "notes": "Cameron's attendance at a meeting with FIFA officials suggests an active role in negotiations, likely as part of his governmental duties, though his specific role is not explicitly stated."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization, role, and location information despite clear leadership context."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing role information, though context suggests governmental duties."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classification as career_position is plausible but lacks explicit role confirmation."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

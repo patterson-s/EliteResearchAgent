@@ -1,0 +1,249 @@
+{
+  "status": "success",
+  "chunk_id": 3788,
+  "chunk_index": 0,
+  "source_url": "https://igopp.org/wp-content/uploads/2015/06/AN-Robert-Greenhill.pdf",
+  "title": "AN-Robert-Greenhill.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Global Canada Initiative",
+          "quotes": [
+            "Robert Greenhill is Executive Chairman of the Global Canada Initiative."
+          ]
+        },
+        {
+          "name": "World Economic Forum",
+          "quotes": [
+            "Previous roles include Managing Director and Chief Business Officer of the World Economic Forum"
+          ]
+        },
+        {
+          "name": "Canadian International Development Agency (CIDA)",
+          "quotes": [
+            "Deputy Minister and President of the Canadian International Development Agency (CIDA)"
+          ]
+        },
+        {
+          "name": "Bombardier Inc.",
+          "quotes": [
+            "President and Chief Operating Officer of the International Group of Bombardier Inc."
+          ]
+        },
+        {
+          "name": "McKinsey & Company",
+          "quotes": [
+            "Robert started his career with McKinsey & Company."
+          ]
+        },
+        {
+          "name": "UN Global Compact",
+          "quotes": [
+            "Robert sits on the board of the UN Global Compact, a unique initiative engaging business in support of human rights, labour, environment and anti-corruption principles and UN goals and activities."
+          ]
+        },
+        {
+          "name": "University of Alberta",
+          "quotes": [
+            "Robert has a BA from the University of Alberta"
+          ]
+        },
+        {
+          "name": "London School of Economics",
+          "quotes": [
+            "MA from the London School of Economics"
+          ]
+        },
+        {
+          "name": "INSEAD",
+          "quotes": [
+            "MBA from INSEAD."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Executive Chairman",
+          "quotes": [
+            "Robert Greenhill is Executive Chairman of the Global Canada Initiative."
+          ]
+        },
+        {
+          "title": "Managing Director and Chief Business Officer",
+          "quotes": [
+            "Previous roles include Managing Director and Chief Business Officer of the World Economic Forum"
+          ]
+        },
+        {
+          "title": "Deputy Minister and President",
+          "quotes": [
+            "Deputy Minister and President of the Canadian International Development Agency (CIDA)"
+          ]
+        },
+        {
+          "title": "President and Chief Operating Officer",
+          "quotes": [
+            "President and Chief Operating Officer of the International Group of Bombardier Inc."
+          ]
+        },
+        {
+          "title": "Board Member",
+          "quotes": [
+            "Robert sits on the board of the UN Global Compact"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Robert Greenhill is Executive Chairman of the Global Canada Initiative."
+        ],
+        "confidence": "high",
+        "notes": "Direct statement linking role and organization."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Previous roles include Managing Director and Chief Business Officer of the World Economic Forum"
+        ],
+        "confidence": "high",
+        "notes": "Clear past role mentioned with organization."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Deputy Minister and President of the Canadian International Development Agency (CIDA)"
+        ],
+        "confidence": "high",
+        "notes": "Direct statement linking role and organization."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "President and Chief Operating Officer of the International Group of Bombardier Inc."
+        ],
+        "confidence": "high",
+        "notes": "Direct statement linking role and organization."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Robert started his career with McKinsey & Company."
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but indicates a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Robert sits on the board of the UN Global Compact, a unique initiative engaging business in support of human rights, labour, environment and anti-corruption principles and UN goals and activities."
+        ],
+        "confidence": "high",
+        "notes": "Active board membership indicates a career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for career position at McKinsey & Company."
+          }
+        ]
+      },
+      {
+        "event_id": 5,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 6,
+      "valid": 5,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 6,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "status": "success",
+  "chunk_id": 2769,
+  "chunk_index": 25,
+  "source_url": "https://achievement.org/achiever/ellen-johnson-sirleaf/",
+  "title": "Ellen Johnson Sirleaf | Academy of Achievement",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "born between ’57 and ’61",
+          "type": "range",
+          "quotes": [
+            "Oh they were what, born between ’57 and ’61. That would make them what, 15? Somewhere between 10 and 15 years old."
+          ]
+        },
+        {
+          "text": "a few years ago",
+          "type": "point",
+          "quotes": [
+            "But then we’re also in a society of many young people, children. Children who had lost all hope, and just a few years ago you saw nothing but despair in their eyes."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Harvard",
+          "quotes": [
+            "By turning to a master’s in public administration at Harvard, it sounds like you already were starting to think about being an administrator, being a leader of an organization."
+          ]
+        },
+        {
+          "name": "Ministry",
+          "quotes": [
+            "Well, I already was. By the time I got there I had already, in a way, established my leadership in the Ministry where I worked."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "leader of an organization",
+          "quotes": [
+            "By turning to a master’s in public administration at Harvard, it sounds like you already were starting to think about being an administrator, being a leader of an organization."
+          ]
+        },
+        {
+          "title": "Iron Lady",
+          "quotes": [
+            "We’ve read that you are alternately referred to as “the Iron Lady,” and sometimes as “Ma,” as the mother of your people."
+          ]
+        },
+        {
+          "title": "Ma",
+          "quotes": [
+            "We’ve read that you are alternately referred to as “the Iron Lady,” and sometimes as “Ma,” as the mother of your people."
+          ]
+        },
+        {
+          "title": "mother and grandmother",
+          "quotes": [
+            "But then we’re also in a society of many young people, children. Children who had lost all hope, and just a few years ago you saw nothing but despair in their eyes. You want to be able to reach out to them with the sensitivity of a mother and grandmother."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Liberia",
+          "quotes": [
+            "Was there any problem getting a divorce at that time in Liberia?"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "By turning to a master’s in public administration at Harvard, it sounds like you already were starting to think about being an administrator, being a leader of an organization.",
+          "Well, I already was. By the time I got there I had already, in a way, established my leadership in the Ministry where I worked."
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker, but the role and organization are clearly linked."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker information, making it difficult to place the event in a timeline."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "The quotes suggest leadership in a Ministry but do not explicitly confirm the role as 'leader of an organization' at Harvard, which is the linked organization in the event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

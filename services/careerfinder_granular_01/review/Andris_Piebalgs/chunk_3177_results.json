@@ -1,0 +1,297 @@
+{
+  "status": "success",
+  "chunk_id": 3177,
+  "chunk_index": 2,
+  "source_url": "https://en.wikipedia.org/wiki/Andris_Piebalgs",
+  "title": "Andris Piebalgs - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2007",
+          "type": "point",
+          "quotes": [
+            "2007. In 2009, Andris Piebalgs received the 'Diamond Prize' from the Regional Chamber of Commerce in Katowice (Poland)"
+          ]
+        },
+        {
+          "text": "2009",
+          "type": "point",
+          "quotes": [
+            "In 2009, Andris Piebalgs received the 'Diamond Prize' from the Regional Chamber of Commerce in Katowice (Poland)"
+          ]
+        },
+        {
+          "text": "2009",
+          "type": "point",
+          "quotes": [
+            "In 2009, the Energy Efficiency Global Forum presented him the Energy Efficiency Visionary Awards"
+          ]
+        },
+        {
+          "text": "from 19 April 2014 – 25 May 2014",
+          "type": "range",
+          "quotes": [
+            "He was twice appointed Acting Commissioner for Financial Programming and the Budget in Janusz Lewandowski's stead, from 19 April 2014 – 25 May 2014"
+          ]
+        },
+        {
+          "text": "from 1 July 2014 – 16 July 2014",
+          "type": "range",
+          "quotes": [
+            "and from 1 July 2014 – 16 July 2014 after he took up his seat."
+          ]
+        },
+        {
+          "text": "15 November 2004",
+          "type": "point",
+          "quotes": [
+            "On 15 November 2004 when questioned by the European Parliament as the Commissioner Designate for Energy, Piebalgs stressed the importance of environmental considerations in energy policy"
+          ]
+        },
+        {
+          "text": "11 January 2010",
+          "type": "point",
+          "quotes": [
+            "Hearing of the Commissioner Designate for Development took place on 11 January 2010 in the European Parliament."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Regional Chamber of Commerce in Katowice",
+          "quotes": [
+            "Andris Piebalgs received the 'Diamond Prize' from the Regional Chamber of Commerce in Katowice (Poland)"
+          ]
+        },
+        {
+          "name": "Energy Efficiency Global Forum",
+          "quotes": [
+            "the Energy Efficiency Global Forum presented him the Energy Efficiency Visionary Awards"
+          ]
+        },
+        {
+          "name": "European Parliament",
+          "quotes": [
+            "when questioned by the European Parliament as the Commissioner Designate for Energy",
+            "Hearing of the Commissioner Designate for Development took place on 11 January 2010 in the European Parliament."
+          ]
+        },
+        {
+          "name": "European Union",
+          "quotes": [
+            "He expressed his unhappiness there was not yet a 'level playing field' for competition in the energy and gas industries across the union."
+          ]
+        },
+        {
+          "name": "ITER",
+          "quotes": [
+            "supporting the development of nuclear fusion and the ITER project."
+          ]
+        },
+        {
+          "name": "Greens",
+          "quotes": [
+            "Following his hearing Piebalgs received strong backing from across the political spectrum, including the Greens"
+          ]
+        },
+        {
+          "name": "Committees of Development, Foreign Affairs and International Trade",
+          "quotes": [
+            "members of the European Parliament (MEPs) from Committees of Development, Foreign Affairs and International Trade questioned him"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Acting Commissioner for Financial Programming and the Budget",
+          "quotes": [
+            "He was twice appointed Acting Commissioner for Financial Programming and the Budget in Janusz Lewandowski's stead"
+          ]
+        },
+        {
+          "title": "Commissioner Designate for Energy",
+          "quotes": [
+            "when questioned by the European Parliament as the Commissioner Designate for Energy"
+          ]
+        },
+        {
+          "title": "Commissioner Designate for Development",
+          "quotes": [
+            "Hearing of the Commissioner Designate for Development took place on 11 January 2010"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Katowice, Poland",
+          "quotes": [
+            "Andris Piebalgs received the 'Diamond Prize' from the Regional Chamber of Commerce in Katowice (Poland)"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "In 2009, Andris Piebalgs received the 'Diamond Prize' from the Regional Chamber of Commerce in Katowice (Poland)"
+        ],
+        "confidence": "high",
+        "notes": "Clear award indication with 'received the Diamond Prize'"
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2009, the Energy Efficiency Global Forum presented him the Energy Efficiency Visionary Awards"
+        ],
+        "confidence": "high",
+        "notes": "Clear award indication with 'presented him the Energy Efficiency Visionary Awards'"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He was twice appointed Acting Commissioner for Financial Programming and the Budget in Janusz Lewandowski's stead, from 19 April 2014 – 25 May 2014"
+        ],
+        "confidence": "high",
+        "notes": "Clear career position with 'appointed Acting Commissioner'"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "and from 1 July 2014 – 16 July 2014 after he took up his seat."
+        ],
+        "confidence": "high",
+        "notes": "Clear career position with 'appointed Acting Commissioner' (second term)"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "On 15 November 2004 when questioned by the European Parliament as the Commissioner Designate for Energy, Piebalgs stressed the importance of environmental considerations in energy policy"
+        ],
+        "confidence": "high",
+        "notes": "Clear career position with 'Commissioner Designate for Energy'"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          6
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Hearing of the Commissioner Designate for Development took place on 11 January 2010 in the European Parliament."
+        ],
+        "confidence": "high",
+        "notes": "Clear career position with 'Commissioner Designate for Development'"
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 5,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 6,
+      "valid": 4,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 2
+    }
+  }
+}

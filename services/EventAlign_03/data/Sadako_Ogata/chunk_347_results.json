@@ -1,0 +1,185 @@
+{
+  "status": "success",
+  "chunk_id": 347,
+  "chunk_index": 1,
+  "source_url": "https://www.pon.harvard.edu/the-great-negotiator-award/2005-sadako-ogata-japanese-diplomat/",
+  "title": "2005: Sadako Ogata, Japanese Diplomat - PON - Program on Negotiation at Harvard Law School",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "Fall 2025",
+          "type": "point",
+          "quotes": [
+            "Download Program Guide: Fall 2025",
+            "Register Online: Fall 2025",
+            "Negotiation and Leadership Fall 2025 Program Guide"
+          ]
+        },
+        {
+          "text": "Spring 2026",
+          "type": "point",
+          "quotes": [
+            "Download Program Guide: Spring 2026",
+            "Register Online: Spring 2026",
+            "Negotiation Master Class Spring 2026 Program Guide",
+            "Negotiation and Leadership Spring 2026 Program Guide"
+          ]
+        },
+        {
+          "text": "April 2026",
+          "type": "point",
+          "quotes": [
+            "Download Program Guide: April 2026",
+            "Register Online: April 2026"
+          ]
+        },
+        {
+          "text": "March 2026",
+          "type": "point",
+          "quotes": [
+            "Download Program Guide: March 2026",
+            "Register Online: March 2026",
+            "Managing Complex Negotiations March 2026 Program Guide",
+            "Negotiation Essentials Online (NEO) March 2026 Program Guide"
+          ]
+        },
+        {
+          "text": "December 2025",
+          "type": "point",
+          "quotes": [
+            "Managing Complex Negotiations December 2025 Program Guide"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "UN",
+          "quotes": [
+            "she and her colleagues at the UN overcame daunting barriers to help improve the plight of refugees."
+          ]
+        },
+        {
+          "name": "Harvard Law School",
+          "quotes": [
+            "This discussion was held at the 3 day executive education workshop for senior executives at the Program on Negotiation at Harvard Law School.",
+            "Guhan Subramanian is the Professor of Law and Business at the Harvard Law School"
+          ]
+        },
+        {
+          "name": "Harvard Business School",
+          "quotes": [
+            "Guhan Subramanian is the Professor of Law and Business at the Harvard Law School and Professor of Business Law at the Harvard Business School."
+          ]
+        },
+        {
+          "name": "Program on Negotiation",
+          "quotes": [
+            "This discussion was held at the 3 day executive education workshop for senior executives at the Program on Negotiation at Harvard Law School."
+          ]
+        },
+        {
+          "name": "Paramount Pictures",
+          "quotes": [
+            "Art Buchwald, Paramount Pictures, and the Cost of Litigation Instead of Negotiation"
+          ]
+        },
+        {
+          "name": "NHL",
+          "quotes": [
+            "A Business Negotiation Case Study: Ending the NHL Lockout"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Professor of Law and Business",
+          "quotes": [
+            "Guhan Subramanian is the Professor of Law and Business at the Harvard Law School"
+          ]
+        },
+        {
+          "title": "Professor of Business Law",
+          "quotes": [
+            "Guhan Subramanian is the Professor of Law and Business at the Harvard Law School and Professor of Business Law at the Harvard Business School."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2,
+          3
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Guhan Subramanian is the Professor of Law and Business at the Harvard Law School",
+          "This discussion was held at the 3 day executive education workshop for senior executives at the Program on Negotiation at Harvard Law School."
+        ],
+        "confidence": "high",
+        "notes": "No specific time markers provided, but the role and organizations are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Guhan Subramanian is the Professor of Law and Business at the Harvard Law School and Professor of Business Law at the Harvard Business School."
+        ],
+        "confidence": "high",
+        "notes": "No specific time markers provided, but the role and organization are clearly linked."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers for the career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

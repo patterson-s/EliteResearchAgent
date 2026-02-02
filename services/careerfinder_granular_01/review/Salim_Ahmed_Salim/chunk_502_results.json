@@ -1,0 +1,112 @@
+{
+  "status": "success",
+  "chunk_id": 502,
+  "chunk_index": 2,
+  "source_url": "https://issafrica.s3.amazonaws.com/site/uploads/Book-2015-Salim.pdf",
+  "title": "Book-2015-Salim.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "in 1989",
+          "type": "point",
+          "quotes": [
+            "When Salim assumed the leadership of the OAU as its secretary-general in 1989,"
+          ]
+        },
+        {
+          "text": "in the same year",
+          "type": "point",
+          "quotes": [
+            "The declaration adopted by the OAU summit in the same year outlined most of the priorities now contained in the African Peace and Security Architecture and the African Governance Architecture."
+          ]
+        },
+        {
+          "text": "in May 1963",
+          "type": "point",
+          "quotes": [
+            "His view was that when our forebears met in Addis Ababa in May 1963, they had not intended the non-interference clause of the OAU Charter to mean there should be no interference irrespective of the situation."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "OAU",
+          "quotes": [
+            "When Salim assumed the leadership of the OAU as its secretary-general in 1989,",
+            "As OAU secretary-general, Salim worked tirelessly to help our leaders lay the legal foundation that led to the institutional transformation of the OAU into the African Union (AU)",
+            "he became critical of the way that the OAU principle of non-interference in the internal affairs of member states hampered continental institutions",
+            "The AU Constitutive Act still maintains the non-interference clause among its core principles."
+          ]
+        },
+        {
+          "name": "African Union (AU)",
+          "quotes": [
+            "As OAU secretary-general, Salim worked tirelessly to help our leaders lay the legal foundation that led to the institutional transformation of the OAU into the African Union (AU)"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "secretary-general",
+          "quotes": [
+            "When Salim assumed the leadership of the OAU as its secretary-general in 1989,",
+            "As OAU secretary-general, Salim worked tirelessly to help our leaders lay the legal foundation that led to the institutional transformation of the OAU into the African Union (AU)",
+            "during his tenure as OAU secretary-general, he became critical of the way that the OAU principle of non-interference in the internal affairs of member states hampered continental institutions"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Addis Ababa",
+          "quotes": [
+            "His view was that when our forebears met in Addis Ababa in May 1963, they had not intended the non-interference clause of the OAU Charter to mean there should be no interference irrespective of the situation."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "When Salim assumed the leadership of the OAU as its secretary-general in 1989,",
+          "As OAU secretary-general, Salim worked tirelessly to help our leaders lay the legal foundation that led to the institutional transformation of the OAU into the African Union (AU)",
+          "during his tenure as OAU secretary-general, he became critical of the way that the OAU principle of non-interference in the internal affairs of member states hampered continental institutions"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time marker, organization, and role in the quotes."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 1,
+      "warnings": 0,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

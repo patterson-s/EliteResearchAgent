@@ -1,0 +1,253 @@
+{
+  "status": "success",
+  "chunk_id": 3798,
+  "chunk_index": 0,
+  "source_url": "https://ecdpm.org/about/about-us/governance/ruth-jacoby",
+  "title": "Ruth Jacoby - ECDPM",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "from March 2016 to June 2025",
+          "type": "range",
+          "quotes": [
+            "Ruth Jacoby served as a member of ECDPM's supervisory board from March 2016 to June 2025 and now acts as an honorary advisor to the board."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "ECDPM",
+          "quotes": [
+            "Ruth Jacoby served as a member of ECDPM's supervisory board from March 2016 to June 2025 and now acts as an honorary advisor to the board."
+          ]
+        },
+        {
+          "name": "Swedish Ministry for Foreign Affairs",
+          "quotes": [
+            "She is a former director-general for international development cooperation at the Swedish Ministry for Foreign Affairs"
+          ]
+        },
+        {
+          "name": "UN High-level Panel on System-wide Coherence",
+          "quotes": [
+            "a member of the UN High-level Panel on System-wide Coherence"
+          ]
+        },
+        {
+          "name": "World Bank",
+          "quotes": [
+            "a former executive director of the board of the World Bank"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "member of ECDPM's supervisory board",
+          "quotes": [
+            "Ruth Jacoby served as a member of ECDPM's supervisory board from March 2016 to June 2025"
+          ]
+        },
+        {
+          "title": "honorary advisor to the board",
+          "quotes": [
+            "now acts as an honorary advisor to the board"
+          ]
+        },
+        {
+          "title": "director-general for international development cooperation",
+          "quotes": [
+            "She is a former director-general for international development cooperation at the Swedish Ministry for Foreign Affairs"
+          ]
+        },
+        {
+          "title": "member of the UN High-level Panel on System-wide Coherence",
+          "quotes": [
+            "a member of the UN High-level Panel on System-wide Coherence"
+          ]
+        },
+        {
+          "title": "executive director of the board",
+          "quotes": [
+            "a former executive director of the board of the World Bank"
+          ]
+        },
+        {
+          "title": "ambassador of Sweden to Germany and Italy",
+          "quotes": [
+            "a former ambassador of Sweden to Germany and Italy"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Germany",
+          "quotes": [
+            "a former ambassador of Sweden to Germany and Italy"
+          ]
+        },
+        {
+          "place": "Italy",
+          "quotes": [
+            "a former ambassador of Sweden to Germany and Italy"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Ruth Jacoby served as a member of ECDPM's supervisory board from March 2016 to June 2025 and now acts as an honorary advisor to the board.",
+          "Ruth Jacoby served as a member of ECDPM's supervisory board from March 2016 to June 2025"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Ruth Jacoby served as a member of ECDPM's supervisory board from March 2016 to June 2025 and now acts as an honorary advisor to the board.",
+          "now acts as an honorary advisor to the board"
+        ],
+        "confidence": "high",
+        "notes": "Current role mentioned without specific time range"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "She is a former director-general for international development cooperation at the Swedish Ministry for Foreign Affairs"
+        ],
+        "confidence": "high",
+        "notes": "Former role with clear organization and title"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "a member of the UN High-level Panel on System-wide Coherence"
+        ],
+        "confidence": "high",
+        "notes": "Current membership with clear organization and role"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "a former executive director of the board of the World Bank"
+        ],
+        "confidence": "high",
+        "notes": "Former role with clear organization and title"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          5
+        ],
+        "location_ids": [
+          0,
+          1
+        ],
+        "supporting_quotes": [
+          "a former ambassador of Sweden to Germany and Italy"
+        ],
+        "confidence": "high",
+        "notes": "Former role with clear locations and title"
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time marker for current role as honorary advisor."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 4,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 5,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 6,
+      "valid": 5,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 6,
+      "awards": 0
+    }
+  }
+}

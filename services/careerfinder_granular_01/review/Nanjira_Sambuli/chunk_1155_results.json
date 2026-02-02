@@ -1,0 +1,209 @@
+{
+  "status": "success",
+  "chunk_id": 1155,
+  "chunk_index": 2,
+  "source_url": "https://en.wikipedia.org/wiki/Nanjira_Sambuli",
+  "title": "Nanjira Sambuli - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "9 July 2021",
+          "type": "point",
+          "quotes": [
+            "9 July 2021"
+          ]
+        },
+        {
+          "text": "10 October 2018",
+          "type": "point",
+          "quotes": [
+            "Retrieved 10 October 2018"
+          ]
+        },
+        {
+          "text": "14 December 2017",
+          "type": "point",
+          "quotes": [
+            "The Bigger Deal (14 December 2017)"
+          ]
+        },
+        {
+          "text": "9 July 2019",
+          "type": "point",
+          "quotes": [
+            "Archived from the original on 9 July 2019"
+          ]
+        },
+        {
+          "text": "12 May 2015",
+          "type": "point",
+          "quotes": [
+            "World Wide Web Foundation. 12 May 2015"
+          ]
+        },
+        {
+          "text": "10 March 2021",
+          "type": "point",
+          "quotes": [
+            "Archived from the original on 10 March 2021"
+          ]
+        },
+        {
+          "text": "6 March 2021",
+          "type": "point",
+          "quotes": [
+            "Retrieved 6 March 2021"
+          ]
+        },
+        {
+          "text": "13 July 2018",
+          "type": "point",
+          "quotes": [
+            "This Is Africa. 13 July 2018"
+          ]
+        },
+        {
+          "text": "16 October 2019",
+          "type": "point",
+          "quotes": [
+            "BBC News. 16 October 2019"
+          ]
+        },
+        {
+          "text": "18 June 2022",
+          "type": "point",
+          "quotes": [
+            "Archived from the original on 18 June 2022"
+          ]
+        },
+        {
+          "text": "27 October 2019",
+          "type": "point",
+          "quotes": [
+            "Retrieved 27 October 2019"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Aljazeera",
+          "quotes": [
+            "www.aljazeera.com"
+          ]
+        },
+        {
+          "name": "YouTube",
+          "quotes": [
+            "YouTube"
+          ]
+        },
+        {
+          "name": "Omidyar Network",
+          "quotes": [
+            "Omidyar Network"
+          ]
+        },
+        {
+          "name": "World Wide Web Foundation",
+          "quotes": [
+            "World Wide Web Foundation"
+          ]
+        },
+        {
+          "name": "This Is Africa",
+          "quotes": [
+            "This Is Africa"
+          ]
+        },
+        {
+          "name": "BBC News",
+          "quotes": [
+            "BBC News"
+          ]
+        },
+        {
+          "name": "The Independent",
+          "quotes": [
+            "The Independent"
+          ]
+        },
+        {
+          "name": "University of Nairobi",
+          "quotes": [
+            "University of Nairobi alumni"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Kenyan Digital Equality Advocate",
+          "quotes": [
+            "Kenyan Digital Equality Advocate Nanjira Sambuli takes on Global Digital Cooperation"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Kenya",
+          "quotes": [
+            "Kenyan activists",
+            "Kenyan women activists"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Kenyan Digital Equality Advocate Nanjira Sambuli takes on Global Digital Cooperation",
+          "Kenyan activists",
+          "Kenyan women activists"
+        ],
+        "confidence": "medium",
+        "notes": "No specific organization or time marker linked to the role, but the role and location are clearly connected."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time_marker_ids and organization_ids, making it difficult to establish temporal context and organizational affiliation."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quotes do not explicitly mention a specific career position or responsibilities, only general advocacy activities."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

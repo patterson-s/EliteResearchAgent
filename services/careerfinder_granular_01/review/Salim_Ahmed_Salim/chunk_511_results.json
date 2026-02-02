@@ -1,0 +1,191 @@
+{
+  "status": "success",
+  "chunk_id": 511,
+  "chunk_index": 11,
+  "source_url": "https://issafrica.s3.amazonaws.com/site/uploads/Book-2015-Salim.pdf",
+  "title": "Book-2015-Salim.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1971",
+          "type": "point",
+          "quotes": [
+            "strengthened by the 1971 Advisory Opinion of the International Court of Justice"
+          ]
+        },
+        {
+          "text": "1973",
+          "type": "point",
+          "quotes": [
+            "the 1973 UNGA recognition of the South West Africa People’s Organization (SWAPO) as the sole representatives of the Namibian people"
+          ]
+        },
+        {
+          "text": "1976",
+          "type": "point",
+          "quotes": [
+            "the 1976 UNGA endorsement of SWAPO’s armed struggle as a legitimate means of achieving self-determination"
+          ]
+        },
+        {
+          "text": "January 1976",
+          "type": "point",
+          "quotes": [
+            "UN Security Council Resolution 385, adopted unanimously in January 1976, would serve as the foundation for the FLS coalition’s negotiating position"
+          ]
+        },
+        {
+          "text": "from 1976 to 1981",
+          "type": "range",
+          "quotes": [
+            "Salim held regular consultations with all of these stakeholders during the shuttle negotiations between SWAPO and the South African government from 1976 to 1981"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "UN Council for Namibia",
+          "quotes": [
+            "placed it under the control of the UN Council for Namibia as a result of South Africa’s failure to fulfil its legal and administrative obligations",
+            "strategically positioned in the UN to engage the UN Council for Namibia"
+          ]
+        },
+        {
+          "name": "UN Security Council",
+          "quotes": [
+            "However, it was not until two years later that the UN Security Council would recognise the legitimate struggle of Namibians against South Africa’s illegal occupation",
+            "specifically through the Security Council’s Western Contact Group (WCG)",
+            "strategically positioned in the UN to engage... the UN Security Council"
+          ]
+        },
+        {
+          "name": "International Court of Justice",
+          "quotes": [
+            "strengthened by the 1971 Advisory Opinion of the International Court of Justice"
+          ]
+        },
+        {
+          "name": "South West Africa People’s Organization (SWAPO)",
+          "quotes": [
+            "the 1973 UNGA recognition of the South West Africa People’s Organization (SWAPO) as the sole representatives of the Namibian people",
+            "to diplomatically coerce the South African government into negotiations with SWAPO",
+            "strategically positioned in the UN to engage... SWAPO"
+          ]
+        },
+        {
+          "name": "Western Contact Group (WCG)",
+          "quotes": [
+            "specifically through the Security Council’s Western Contact Group (WCG) of Canada, France, the Federal Republic of Germany, the UK and the US",
+            "strategically positioned in the UN to engage... the WCG"
+          ]
+        },
+        {
+          "name": "UN Special Committee on Decolonization",
+          "quotes": [
+            "Salim’s role in the UN Special Committee on Decolonization positioned him as an ideal focal point for the pursuit of Namibia’s liberation",
+            "strategically positioned in the UN to engage... the UN Special Committee on Decolonization"
+          ]
+        },
+        {
+          "name": "UNGA",
+          "quotes": [
+            "the 1973 UNGA recognition of the South West Africa People’s Organization (SWAPO) as the sole representatives of the Namibian people",
+            "strategically positioned in the UN to engage... the UNGA",
+            "He also ensured that the UN Special Committee on Decolonization echoed the key bargaining positions of the FLS to the UNGA"
+          ]
+        },
+        {
+          "name": "FLS",
+          "quotes": [
+            "Against this background, the FLS coalition, through the UN mechanisms, sought to mobilise the UN member states",
+            "strategically positioned in the UN to engage... the FLS"
+          ]
+        },
+        {
+          "name": "OAU",
+          "quotes": [
+            "strategically positioned in the UN to engage... the OAU"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "focal point for the pursuit of Namibia’s liberation",
+          "quotes": [
+            "Salim’s role in the UN Special Committee on Decolonization positioned him as an ideal focal point for the pursuit of Namibia’s liberation"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Namibia",
+          "quotes": [
+            "revoke South Africa’s administrative mandate over Namibia",
+            "the legitimate struggle of Namibians against South Africa’s illegal occupation",
+            "UN plan for Namibia’s independence"
+          ]
+        },
+        {
+          "place": "South Africa",
+          "quotes": [
+            "revoke South Africa’s administrative mandate over Namibia",
+            "the legitimate struggle of Namibians against South Africa’s illegal occupation",
+            "to diplomatically coerce the South African government into negotiations with SWAPO",
+            "which was mandated to diplomatically direct the South African government into negotiating on an inclusive"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          5,
+          6
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Salim’s role in the UN Special Committee on Decolonization positioned him as an ideal focal point for the pursuit of Namibia’s liberation",
+          "strategically positioned in the UN to engage... the UN Special Committee on Decolonization",
+          "He also ensured that the UN Special Committee on Decolonization echoed the key bargaining positions of the FLS to the UNGA"
+        ],
+        "confidence": "high",
+        "notes": "Role is clearly linked to organizations and location through quotes."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the event, making it difficult to place the career position in a temporal context."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

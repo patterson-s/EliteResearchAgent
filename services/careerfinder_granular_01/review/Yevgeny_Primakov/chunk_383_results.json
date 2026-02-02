@@ -1,0 +1,280 @@
+{
+  "status": "success",
+  "chunk_id": 383,
+  "chunk_index": 5,
+  "source_url": "https://en.wikipedia.org/wiki/Yevgeny_Primakov",
+  "title": "Yevgeny Primakov - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2006",
+          "type": "point",
+          "quotes": [
+            "Primakov later claimed Hussein's execution in 2006 was rushed to prevent him from revealing information on Iraq–United States relations that could embarrass the U.S. government."
+          ]
+        },
+        {
+          "text": "26 May 2008",
+          "type": "point",
+          "quotes": [
+            "On 26 May 2008, Primakov was elected as a member of the Presidium of the Russian Academy of Sciences."
+          ]
+        },
+        {
+          "text": "2009",
+          "type": "point",
+          "quotes": [
+            "In 2009, the University of Niš, Serbia awarded Primakov an honorary doctorate."
+          ]
+        },
+        {
+          "text": "November 2004",
+          "type": "point",
+          "quotes": [
+            "In November 2004, Primakov testified in defense of the former Yugoslav President Slobodan Milošević, on trial for war crimes."
+          ]
+        },
+        {
+          "text": "March 1999",
+          "type": "point",
+          "quotes": [
+            "He had earlier led a Russian delegation that met with Milošević during the NATO bombing of Yugoslavia in March 1999."
+          ]
+        },
+        {
+          "text": "26 June 2015",
+          "type": "point",
+          "quotes": [
+            "Primakov died in Moscow on 26 June 2015, at the age of 85, after prolonged illness (liver cancer)."
+          ]
+        },
+        {
+          "text": "October 2015",
+          "type": "point",
+          "quotes": [
+            "In honor of Primakov, Primakov Readings was established in October 2015 - an annual international summit aimed at promoting dialogue on current global trends in the world economy, international politics and security among high-ranking experts, diplomats and decision-makers from around the Globe, organized by the Institute of World Economy and International Relations and held in Moscow."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "United Nations",
+          "quotes": [
+            "Primakov suggested that Hussein must hand over all Iraq's weapons of mass destruction to the United Nations, among other things."
+          ]
+        },
+        {
+          "name": "Russian Academy of Sciences",
+          "quotes": [
+            "On 26 May 2008, Primakov was elected as a member of the Presidium of the Russian Academy of Sciences."
+          ]
+        },
+        {
+          "name": "University of Niš",
+          "quotes": [
+            "In 2009, the University of Niš, Serbia awarded Primakov an honorary doctorate."
+          ]
+        },
+        {
+          "name": "NATO",
+          "quotes": [
+            "He had earlier led a Russian delegation that met with Milošević during the NATO bombing of Yugoslavia in March 1999."
+          ]
+        },
+        {
+          "name": "Institute of World Economy and International Relations",
+          "quotes": [
+            "In honor of Primakov, Primakov Readings was established in October 2015 - an annual international summit aimed at promoting dialogue on current global trends in the world economy, international politics and security among high-ranking experts, diplomats and decision-makers from around the Globe, organized by the Institute of World Economy and International Relations and held in Moscow."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "member of the Presidium",
+          "quotes": [
+            "On 26 May 2008, Primakov was elected as a member of the Presidium of the Russian Academy of Sciences."
+          ]
+        },
+        {
+          "title": "President",
+          "quotes": [
+            "In November 2004, Primakov testified in defense of the former Yugoslav President Slobodan Milošević, on trial for war crimes."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Moscow",
+          "quotes": [
+            "Primakov died in Moscow on 26 June 2015, at the age of 85, after prolonged illness (liver cancer)."
+          ]
+        },
+        {
+          "place": "Serbia",
+          "quotes": [
+            "In 2009, the University of Niš, Serbia awarded Primakov an honorary doctorate."
+          ]
+        },
+        {
+          "place": "Yugoslavia",
+          "quotes": [
+            "He had earlier led a Russian delegation that met with Milošević during the NATO bombing of Yugoslavia in March 1999."
+          ]
+        },
+        {
+          "place": "Novodevichy Cemetery",
+          "quotes": [
+            "He was buried with military honours at Novodevichy Cemetery."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "On 26 May 2008, Primakov was elected as a member of the Presidium of the Russian Academy of Sciences.",
+          "Primakov was elected as a member of the Presidium of the Russian Academy of Sciences."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "In 2009, the University of Niš, Serbia awarded Primakov an honorary doctorate.",
+          "the University of Niš, Serbia awarded Primakov an honorary doctorate."
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of an honorary award."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In November 2004, Primakov testified in defense of the former Yugoslav President Slobodan Milošević, on trial for war crimes.",
+          "Primakov testified in defense of the former Yugoslav President Slobodan Milošević"
+        ],
+        "confidence": "medium",
+        "notes": "Role is clear, but organization is not explicitly mentioned. Assuming this was part of his professional duties."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "He had earlier led a Russian delegation that met with Milošević during the NATO bombing of Yugoslavia in March 1999.",
+          "led a Russian delegation that met with Milošević during the NATO bombing of Yugoslavia"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit role or organization mentioned, but the activity suggests a professional capacity."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          6
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "In honor of Primakov, Primakov Readings was established in October 2015 - an annual international summit aimed at promoting dialogue on current global trends in the world economy, international politics and security among high-ranking experts, diplomats and decision-makers from around the Globe, organized by the Institute of World Economy and International Relations and held in Moscow.",
+          "Primakov Readings was established in October 2015"
+        ],
+        "confidence": "high",
+        "notes": "Posthumous honor established in his name."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information, though role is clear."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and role information, though activity suggests professional capacity."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 3,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 2
+    }
+  }
+}

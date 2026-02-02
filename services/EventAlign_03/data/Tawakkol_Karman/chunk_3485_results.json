@@ -1,0 +1,247 @@
+{
+  "status": "success",
+  "chunk_id": 3485,
+  "chunk_index": 6,
+  "source_url": "https://en.wikipedia.org/wiki/Tawakkol_Karman",
+  "title": "Tawakkol Karman - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "22 January",
+          "type": "point",
+          "quotes": [
+            "On 22 January, she was stopped while driving with her husband by three plain-clothed men without police identification and taken to prison"
+          ]
+        },
+        {
+          "text": "24 January",
+          "type": "point",
+          "quotes": [
+            "where she was held for 36 hours until she was released on parole on 24 January"
+          ]
+        },
+        {
+          "text": "9 April",
+          "type": "point",
+          "quotes": [
+            "In a 9 April editorial that appeared in The Guardian, she wrote:"
+          ]
+        },
+        {
+          "text": "29 January",
+          "type": "point",
+          "quotes": [
+            "She then led another protest on 29 January where she called for a 'Day of Rage' on 3 February"
+          ]
+        },
+        {
+          "text": "3 February",
+          "type": "point",
+          "quotes": [
+            "She then led another protest on 29 January where she called for a 'Day of Rage' on 3 February"
+          ]
+        },
+        {
+          "text": "17 March",
+          "type": "point",
+          "quotes": [
+            "On 17 March, she was re-arrested amidst ongoing protests."
+          ]
+        },
+        {
+          "text": "May",
+          "type": "point",
+          "quotes": [
+            "Karman has had some tense disagreements with other organisers, especially after she urged protesters to march to the Presidential Palace in May as a response to the killing of 13 protesters by security forces."
+          ]
+        },
+        {
+          "text": "18 June",
+          "type": "point",
+          "quotes": [
+            "On 18 June she wrote an article entitled 'Yemen's Unfinished Revolution' in The New York Times"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "The Guardian",
+          "quotes": [
+            "In a 9 April editorial that appeared in The Guardian, she wrote:"
+          ]
+        },
+        {
+          "name": "The New York Times",
+          "quotes": [
+            "On 18 June she wrote an article entitled 'Yemen's Unfinished Revolution' in The New York Times"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "organiser",
+          "quotes": [
+            "Tawakkol Karman organised student rallies in Sana'a",
+            "Karman has had some tense disagreements with other organisers"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Sana'a",
+          "quotes": [
+            "Tawakkol Karman organised student rallies in Sana'a"
+          ]
+        },
+        {
+          "place": "Yemen",
+          "quotes": [
+            "This was to become a defining moment in the Yemeni revolution",
+            "Speaking of the uprising she had said that: 'We will continue until the fall of Ali Abdullah Saleh's regime...'",
+            "Karman explained the reasons why the Yemeni protests attracted Yemenis:",
+            "On 18 June she wrote an article entitled 'Yemen's Unfinished Revolution' in The New York Times"
+          ]
+        },
+        {
+          "place": "Egypt",
+          "quotes": [
+            "similar to events of the 2011 Egyptian revolution"
+          ]
+        },
+        {
+          "place": "Tunisia",
+          "quotes": [
+            "that were in turn inspired by the 2010–2011 Tunisian revolution"
+          ]
+        },
+        {
+          "place": "United States",
+          "quotes": [
+            "On 18 June she wrote an article entitled 'Yemen's Unfinished Revolution' in The New York Times in which she criticised the United States and Saudi Arabia for their support for the 'corrupt' Saleh government"
+          ]
+        },
+        {
+          "place": "Saudi Arabia",
+          "quotes": [
+            "On 18 June she wrote an article entitled 'Yemen's Unfinished Revolution' in The New York Times in which she criticised the United States and Saudi Arabia for their support for the 'corrupt' Saleh government"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Tawakkol Karman organised student rallies in Sana'a",
+          "Karman has had some tense disagreements with other organisers"
+        ],
+        "confidence": "high",
+        "notes": "The role of 'organiser' is clearly linked to activities in Sana'a, indicating an active position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In a 9 April editorial that appeared in The Guardian, she wrote:"
+        ],
+        "confidence": "medium",
+        "notes": "While the role is not explicitly stated, writing an editorial for The Guardian suggests an active contribution, classified as a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          7
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [
+          1,
+          4,
+          5
+        ],
+        "supporting_quotes": [
+          "On 18 June she wrote an article entitled 'Yemen's Unfinished Revolution' in The New York Times in which she criticised the United States and Saudi Arabia for their support for the 'corrupt' Saleh government"
+        ],
+        "confidence": "medium",
+        "notes": "Writing an article for The New York Times and criticizing governments suggests an active role, classified as a career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time_marker_ids and organization_ids, though the role and location are clearly supported by quotes."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role_ids and location_ids. The event is linked to a specific date and organization, but lacks role and location details."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classification as 'career_position' is questionable since writing an editorial may not necessarily imply an active, ongoing role."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role_ids. The event is linked to a specific date, organization, and locations, but lacks role details."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classification as 'career_position' is questionable since writing an article, even with criticism, may not necessarily imply an active, ongoing role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

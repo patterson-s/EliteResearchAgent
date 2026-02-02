@@ -1,0 +1,139 @@
+{
+  "status": "success",
+  "chunk_id": 899,
+  "chunk_index": 42,
+  "source_url": "https://www.un.org/digital-emerging-technologies/sites/www.un.org.techenvoy/files/hlp_on_digital_cooperation-report_final.pdf",
+  "title": "hlp_on_digital_cooperation-report_final.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "IGF coalitions",
+          "quotes": [
+            "identify points of convergence among existing IGF coalitions, and issues around which new coalitions need to be established"
+          ]
+        },
+        {
+          "name": "Web Summit",
+          "quotes": [
+            "representation from major digital events such as the Web Summit, Mobile World Congress, Lift:Lab, Shift, LaWeb, and Telecom World"
+          ]
+        },
+        {
+          "name": "Mobile World Congress",
+          "quotes": [
+            "representation from major digital events such as the Web Summit, Mobile World Congress, Lift:Lab, Shift, LaWeb, and Telecom World"
+          ]
+        },
+        {
+          "name": "Lift:Lab",
+          "quotes": [
+            "representation from major digital events such as the Web Summit, Mobile World Congress, Lift:Lab, Shift, LaWeb, and Telecom World"
+          ]
+        },
+        {
+          "name": "Shift",
+          "quotes": [
+            "representation from major digital events such as the Web Summit, Mobile World Congress, Lift:Lab, Shift, LaWeb, and Telecom World"
+          ]
+        },
+        {
+          "name9": "LaWeb",
+          "quotes": [
+            "representation from major digital events such as the Web Summit, Mobile World Congress, Lift:Lab, Shift, LaWeb, and Telecom World"
+          ]
+        },
+        {
+          "name": "Telecom World",
+          "quotes": [
+            "representation from major digital events such as the Web Summit, Mobile World Congress, Lift:Lab, Shift, LaWeb, and Telecom World"
+          ]
+        },
+        {
+          "name": "UN",
+          "quotes": [
+            "facilitate convergences among debates in major digital and policy events at the UN and beyond."
+          ]
+        },
+        {
+          "name": "IGF Plus",
+          "quotes": [
+            "The IGF Trust Fund would be a dedicated fund for the IGF Plus."
+          ]
+        },
+        {
+          "name": "Office of the UN Secretary-General",
+          "quotes": [
+            "The IGF Plus Secretariat should be linked to the the Office of the UN Secretary-General to reflect its interdisciplinary and system-wide approach."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "members of the Cooperation Accelerator",
+          "quotes": [
+            "The Cooperation Accelerator could consist of members selected for their multi-disciplinary experience and expertise."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "identify points of convergence among existing IGF coalitions, and issues around which new coalitions need to be established",
+          "The Cooperation Accelerator could consist of members selected for their multi-disciplinary experience and expertise."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time markers, but the role and organization are clearly linked through the quotes."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "No time markers provided, making temporal coherence impossible to verify."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing location information, which may be relevant for a career position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The role 'members of the Cooperation Accelerator' seems more like a group membership than a distinct career position, but classification is borderline."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

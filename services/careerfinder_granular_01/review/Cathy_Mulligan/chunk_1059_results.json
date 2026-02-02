@@ -1,0 +1,138 @@
+{
+  "status": "success",
+  "chunk_id": 1059,
+  "chunk_index": 1,
+  "source_url": "https://cyber-security-speakers.com/speaker/cathy-mulligan",
+  "title": "Hire Cathy Mulligan | Cyber Security Speaker Agent",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2025",
+          "type": "point",
+          "quotes": [
+            "named as the No.1 cyber security speakers agency in 2025!",
+            "The Top 10 Cyber Security Books To Read in 2025 To Boost Your Knowledge",
+            "The Top 10 Female Cyber Security Speakers to Hire 2025 – Official Rankings List",
+            "Cyber Security Awareness Month 2025: 14 Trending Keynote Speaker Experts",
+            "Copyright © 2025 The Cyber Security Speakers Agency. All rights reserved."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Robert Bosch Academy",
+          "quotes": [
+            "A Fellow of the Robert Bosch Academy and the World Economic Forum, Cathy continues to contribute cutting-edge insight on topics ranging from blockchain and digital identity to AI ethics and future connectivity."
+          ]
+        },
+        {
+          "name": "World Economic Forum",
+          "quotes": [
+            "A Fellow of the Robert Bosch Academy and the World Economic Forum, Cathy continues to contribute cutting-edge insight on topics ranging from blockchain and digital identity to AI ethics and future connectivity."
+          ]
+        },
+        {
+          "name": "The Cyber Security Speakers Agency",
+          "quotes": [
+            "Hire Cathy Mulligan via The Cyber Security Speakers Agency for your next event and gain access to one of the most visionary minds in digital innovation today.",
+            "The Cyber Security Speakers Agency is the UK’s top speakers’ bureau specialising in digital data protection experts – named as the No.1 cyber security speakers agency in 2025!",
+            "Copyright © 2025 The Cyber Security Speakers Agency. All rights reserved."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Fellow",
+          "quotes": [
+            "A Fellow of the Robert Bosch Academy and the World Economic Forum, Cathy continues to contribute cutting-edge insight on topics ranging from blockchain and digital identity to AI ethics and future connectivity."
+          ]
+        },
+        {
+          "title": "speaker",
+          "quotes": [
+            "As a speaker, she offers a compelling mix of technical depth, strategic insight and real-world experience.",
+            "Whether addressing global summits or corporate boards, she brings clarity to complex digital issues and inspires action."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "A Fellow of the Robert Bosch Academy and the World Economic Forum, Cathy continues to contribute cutting-edge insight on topics ranging from blockchain and digital identity to AI ethics and future connectivity."
+        ],
+        "confidence": "high",
+        "notes": "Fellowship implies ongoing contribution and active role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Hire Cathy Mulligan via The Cyber Security Speakers Agency for your next event and gain access to one of the most visionary minds in digital innovation today.",
+          "The Cyber Security Speakers Agency is the UK’s top speakers’ bureau specialising in digital data protection experts – named as the No.1 cyber security speakers agency in 2025!",
+          "As a speaker, she offers a compelling mix of technical depth, strategic insight and real-world experience."
+        ],
+        "confidence": "high",
+        "notes": "Speaker role is ongoing and associated with the agency, supported by multiple quotes."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Fellowship roles are typically classified as awards unless they involve active duties. The notes suggest ongoing contribution, but the quotes do not explicitly mention active responsibilities."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the fellowship roles, making it difficult to determine the duration or temporal context."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

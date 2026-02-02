@@ -1,0 +1,250 @@
+{
+  "status": "success",
+  "chunk_id": 154,
+  "chunk_index": 1,
+  "source_url": "http://www.ghanadot.com/commentary.ablorh.jmarychineryhesse.html",
+  "title": "Mary Chinery-Hesse appointed Chancellor of Legon",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "August 14, 2018",
+          "type": "point",
+          "quotes": [
+            "www.ghanadot.com, Washington, DC, August 14, 2018."
+          ]
+        },
+        {
+          "text": "July 18",
+          "type": "point",
+          "quotes": [
+            "Review, July 18, Ghanadot"
+          ]
+        },
+        {
+          "text": "July 05",
+          "type": "point",
+          "quotes": [
+            "Commentary, July 05, Ghanadot"
+          ]
+        },
+        {
+          "text": "July 16",
+          "type": "point",
+          "quotes": [
+            "Commentary, July 16, Ghanadot"
+          ]
+        },
+        {
+          "text": "Feb13, 2018",
+          "type": "point",
+          "quotes": [
+            "Commentary, Feb13, 2018, Ghanadot"
+          ]
+        },
+        {
+          "text": "early 80s",
+          "type": "point",
+          "quotes": [
+            "In the course of my association with Mr J. H. Mensah in the early 80s in New York, during his days in exile and his leadership within the Ghana Democratic Movement (GDM), a political activist group opposing the PNDC of Ghana, I found him to be a very phenomenal character."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "University of Ghana",
+          "quotes": [
+            "Ms. Chinery-Hesse received a BA (Hons) in Sociology and Economics, and Doctor of Laws (Honoris causa) from the University of Ghana;"
+          ]
+        },
+        {
+          "name": "University of Dublin",
+          "quotes": [
+            "and postgraduate training in Development Economics at the University of Dublin."
+          ]
+        },
+        {
+          "name": "Ghana Democratic Movement (GDM)",
+          "quotes": [
+            "during his days in exile and his leadership within the Ghana Democratic Movement (GDM), a political activist group opposing the PNDC of Ghana,"
+          ]
+        },
+        {
+          "name": "PNDC of Ghana",
+          "quotes": [
+            "a political activist group opposing the PNDC of Ghana,"
+          ]
+        },
+        {
+          "name": "Ghanadot",
+          "quotes": [
+            "www.ghanadot.com, Washington, DC, August 14, 2018.",
+            "Review, July 18, Ghanadot",
+            "Commentary, July 05, Ghanadot",
+            "Commentary, July 16, Ghanadot",
+            "Commentary, Feb13, 2018, Ghanadot"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Chancelot of Ghana’s premier university",
+          "quotes": [
+            "The publisher of Ghandot and its readers wish Ms. Mary Chinnery Hesse a successful term as the Chancelot of Ghana’s premier university."
+          ]
+        },
+        {
+          "title": "Publisher",
+          "quotes": [
+            "E. Ablorh-Odjidja, Publisher"
+          ]
+        },
+        {
+          "title": "leadership within the Ghana Democratic Movement (GDM)",
+          "quotes": [
+            "during his days in exile and his leadership within the Ghana Democratic Movement (GDM), a political activist group opposing the PNDC of Ghana,"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Washington, DC",
+          "quotes": [
+            "www.ghanadot.com, Washington, DC, August 14, 2018."
+          ]
+        },
+        {
+          "place": "New York",
+          "quotes": [
+            "in the early 80s in New York, during his days in exile and his leadership within the Ghana Democratic Movement (GDM),"
+          ]
+        },
+        {
+          "place": "Ghana",
+          "quotes": [
+            "The publisher of Ghandot and its readers wish Ms. Mary Chinnery Hesse a successful term as the Chancelot of Ghana’s premier university.",
+            "a political activist group opposing the PNDC of Ghana,"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "In the course of my association with Mr J. H. Mensah in the early 80s in New York, during his days in exile and his leadership within the Ghana Democratic Movement (GDM), a political activist group opposing the PNDC of Ghana, I found him to be a very phenomenal character."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, role, and location in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "The publisher of Ghandot and its readers wish Ms. Mary Chinnery Hesse a successful term as the Chancelot of Ghana’s premier university.",
+          "Ms. Chinery-Hesse received a BA (Hons) in Sociology and Economics, and Doctor of Laws (Honoris causa) from the University of Ghana;"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time marker, but role and organization are clearly linked. The role is assumed to be a career position based on the context."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "www.ghanadot.com, Washington, DC, August 14, 2018.",
+          "Review, July 18, Ghanadot",
+          "Commentary, July 05, Ghanadot",
+          "Commentary, July 16, Ghanadot",
+          "Commentary, Feb13, 2018, Ghanadot",
+          "E. Ablorh-Odjidja, Publisher"
+        ],
+        "confidence": "high",
+        "notes": "Multiple time markers and consistent association with the organization and role, indicating an ongoing position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and organization details, though role and location are present."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classification as career_position is uncertain without clear active responsibilities mentioned."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "Multiple time markers provided, but no clear start and end dates for the position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

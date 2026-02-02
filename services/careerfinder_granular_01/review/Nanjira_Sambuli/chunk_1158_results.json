@@ -1,0 +1,110 @@
+{
+  "status": "success",
+  "chunk_id": 1158,
+  "chunk_index": 1,
+  "source_url": "https://ke.linkedin.com/in/nanjira",
+  "title": "Nanjira Sambuli - Nairobi County, Kenya | Professional Profile | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "Jul 24, 2019",
+          "type": "point",
+          "quotes": [
+            "How NOT to do Digital Development\nJul 24, 2019"
+          ]
+        },
+        {
+          "text": "Jun 5, 2017",
+          "type": "point",
+          "quotes": [
+            "A Tech Policy ‘Starter Pack’ for African Innovators and Techpreneurs\nJun 5, 2017"
+          ]
+        },
+        {
+          "text": "Jan 19, 2017",
+          "type": "point",
+          "quotes": [
+            "A Few Things You Should Know about Kenya's Cyber Policy Landscape\nJan 19, 2017"
+          ]
+        }
+      ],
+      "organizations": [],
+      "roles": [
+        {
+          "title": "researcher",
+          "quotes": [
+            "Nanjira Sambuli is a Kenyan researcher, policy analyst and strategist studying the…"
+          ]
+        },
+        {
+          "title": "policy analyst",
+          "quotes": [
+            "Nanjira Sambuli is a Kenyan researcher, policy analyst and strategist studying the…"
+          ]
+        },
+        {
+          "title": "strategist",
+          "quotes": [
+            "Nanjira Sambuli is a Kenyan researcher, policy analyst and strategist studying the…"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Kenyan",
+          "quotes": [
+            "Nanjira Sambuli is a Kenyan researcher, policy analyst and strategist studying the…"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0,
+          1,
+          2
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Nanjira Sambuli is a Kenyan researcher, policy analyst and strategist studying the…"
+        ],
+        "confidence": "high",
+        "notes": "No specific time markers or organizations mentioned, but roles and location are clear and imply an ongoing career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers and organizations, making it difficult to verify the temporal context and specific affiliations of the career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

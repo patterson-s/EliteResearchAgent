@@ -1,0 +1,151 @@
+{
+  "status": "success",
+  "chunk_id": 3243,
+  "chunk_index": 2,
+  "source_url": "https://magazine.uc.edu/content/dam/magazine/docs/PaulPolmanPortfolio08.pdf",
+  "title": "PaulPolmanPortfolio08.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In 2005",
+          "type": "point",
+          "quotes": [
+            "In 2005, Polman returned to his /f_inance roots, leaving P&G to become Nestlé’s chief /f_inancial o ﬃcer."
+          ]
+        },
+        {
+          "text": "In September 2008",
+          "type": "point",
+          "quotes": [
+            "In September 2008, he was named chief executive o ﬃcer at Unilever."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "P&G",
+          "quotes": [
+            "In 2005, Polman returned to his /f_inance roots, leaving P&G to become Nestlé’s chief /f_inancial o ﬃcer."
+          ]
+        },
+        {
+          "name": "Nestlé",
+          "quotes": [
+            "In 2005, Polman returned to his /f_inance roots, leaving P&G to become Nestlé’s chief /f_inancial o ﬃcer."
+          ]
+        },
+        {
+          "name": "Unilever",
+          "quotes": [
+            "In September 2008, he was named chief executive o ﬃcer at Unilever."
+          ]
+        },
+        {
+          "name": "UC",
+          "quotes": [
+            "Polman returns to UC periodically to share his experiences with students and has hosted Lindner Honors-PLUS students at his o ﬃces in Europe."
+          ]
+        },
+        {
+          "name": "College-Conservatory of Music",
+          "quotes": [
+            "Polman holds many treasured memories of his time at UC, but perhaps his fondest is meeting his wife Kim, who was studying at the College-Conservatory of Music."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "chief /f_inancial o ﬃcer",
+          "quotes": [
+            "In 2005, Polman returned to his /f_inance roots, leaving P&G to become Nestlé’s chief /f_inancial o ﬃcer."
+          ]
+        },
+        {
+          "title": "chief executive o ﬃcer",
+          "quotes": [
+            "In September 2008, he was named chief executive o ﬃcer at Unilever."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Europe",
+          "quotes": [
+            "Polman returns to UC periodically to share his experiences with students and has hosted Lindner Honors-PLUS students at his o ﬃces in Europe."
+          ]
+        },
+        {
+          "place": "Cincinnati",
+          "quotes": [
+            "Pat Matson Knapp is a Cincinnati-based writer and magazine editor."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2005, Polman returned to his /f_inance roots, leaving P&G to become Nestlé’s chief /f_inancial o ﬃcer."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In September 2008, he was named chief executive o ﬃcer at Unilever."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 2,
+      "warnings": 0,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

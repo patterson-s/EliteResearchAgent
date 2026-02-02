@@ -1,0 +1,241 @@
+{
+  "status": "success",
+  "chunk_id": 2788,
+  "chunk_index": 7,
+  "source_url": "https://en.wikipedia.org/wiki/David_Cameron",
+  "title": "David Cameron - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1992",
+          "type": "point",
+          "quotes": [
+            "The Conservatives' unexpected success in the 1992 election led Cameron to hit back at older party members who had criticised him and his colleagues"
+          ]
+        },
+        {
+          "text": "Black Wednesday",
+          "type": "point",
+          "quotes": [
+            "Cameron was working for Lamont at the time of Black Wednesday, when pressure from currency speculators forced the pound sterling out of the European Exchange Rate Mechanism"
+          ]
+        },
+        {
+          "text": "1992 Conservative Party conference",
+          "type": "point",
+          "quotes": [
+            "At the 1992 Conservative Party conference, he had difficulty trying to arrange to brief the speakers in the economic debate"
+          ]
+        },
+        {
+          "text": "1993 Budget",
+          "type": "point",
+          "quotes": [
+            "Taxes needed to be raised in the 1993 Budget, and Cameron fed the options Lamont was considering through to Conservative Campaign Headquarters"
+          ]
+        },
+        {
+          "text": "By May 1993",
+          "type": "point",
+          "quotes": [
+            "By May 1993, the Conservatives' average poll rating dropped below 30%, where they would remain until the 1997 general election"
+          ]
+        },
+        {
+          "text": "1997 general election",
+          "type": "point",
+          "quotes": [
+            "By May 1993, the Conservatives' average poll rating dropped below 30%, where they would remain until the 1997 general election"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Conservative leadership",
+          "quotes": [
+            "which had been Major's campaign headquarters during his bid for the Conservative leadership"
+          ]
+        },
+        {
+          "name": "Transport House",
+          "quotes": [
+            "He revealed he had led other members of the team across Smith Square to jeer at Transport House, the former Labour headquarters"
+          ]
+        },
+        {
+          "name": "European Exchange Rate Mechanism",
+          "quotes": [
+            "pressure from currency speculators forced the pound sterling out of the European Exchange Rate Mechanism"
+          ]
+        },
+        {
+          "name": "Christian Democratic Union",
+          "quotes": [
+            "Later that month, Cameron joined a delegation of Special Advisers who visited Germany to build better relations with the Christian Democratic Union"
+          ]
+        },
+        {
+          "name": "Bundesbank",
+          "quotes": [
+            "he was reported to be 'still smarting' over the Bundesbank's contribution to the economic crisis"
+          ]
+        },
+        {
+          "name": "Conservative Campaign Headquarters",
+          "quotes": [
+            "Cameron fed the options Lamont was considering through to Conservative Campaign Headquarters for their political acceptability to be assessed"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Director of Strategy",
+          "quotes": [
+            "who was later to become Director of Strategy during his party leadership"
+          ]
+        },
+        {
+          "title": "Special adviser to the chancellor",
+          "quotes": [
+            "Special adviser to the chancellor"
+          ]
+        },
+        {
+          "title": "special adviser",
+          "quotes": [
+            "Cameron was rewarded with a promotion to special adviser to the chancellor of the exchequer"
+          ]
+        },
+        {
+          "title": "chancellor of the exchequer",
+          "quotes": [
+            "Cameron was rewarded with a promotion to special adviser to the chancellor of the exchequer, Norman Lamont"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Gayfere Street, Westminster",
+          "quotes": [
+            "in Gayfere Street, Westminster, which had been Major's campaign headquarters during his bid for the Conservative leadership"
+          ]
+        },
+        {
+          "place": "Smith Square",
+          "quotes": [
+            "He revealed he had led other members of the team across Smith Square to jeer at Transport House"
+          ]
+        },
+        {
+          "place": "Germany",
+          "quotes": [
+            "Later that month, Cameron joined a delegation of Special Advisers who visited Germany to build better relations with the Christian Democratic Union"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2,
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Cameron was working for Lamont at the time of Black Wednesday, when pressure from currency speculators forced the pound sterling out of the European Exchange Rate Mechanism",
+          "Special adviser to the chancellor",
+          "Cameron was rewarded with a promotion to special adviser to the chancellor of the exchequer"
+        ],
+        "confidence": "high",
+        "notes": "Role is clearly a career position, linked to the time marker Black Wednesday."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Taxes needed to be raised in the 1993 Budget, and Cameron fed the options Lamont was considering through to Conservative Campaign Headquarters",
+          "Special adviser to the chancellor"
+        ],
+        "confidence": "high",
+        "notes": "Role is clearly a career position, linked to the 1993 Budget and Conservative Campaign Headquarters."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "Later that month, Cameron joined a delegation of Special Advisers who visited Germany to build better relations with the Christian Democratic Union",
+          "Special adviser to the chancellor"
+        ],
+        "confidence": "medium",
+        "notes": "Role is clearly a career position, linked to the Christian Democratic Union and Germany, but no specific time marker is available."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information despite being linked to a specific role and time marker."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "No specific time marker provided, making temporal coherence verification impossible."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

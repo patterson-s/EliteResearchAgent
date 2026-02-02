@@ -1,0 +1,225 @@
+{
+  "status": "success",
+  "chunk_id": 455,
+  "chunk_index": 1,
+  "source_url": "https://www.caixinglobal.com/2017-05-11/former-chinese-foreign-minister-qian-qichen-90-dies-101089310.html",
+  "title": "Former Chinese Foreign Minister Qian Qichen, 90, Dies - Caixin Global",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1991",
+          "type": "point",
+          "quotes": [
+            "full-blown war against Iraq led by the United States in 1991."
+          ]
+        },
+        {
+          "text": "2005",
+          "type": "point",
+          "quotes": [
+            "Qian was rarely seen in public after he retired as dean of Peking University’s School of International Studies in 2005."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Peking University’s School of International Studies",
+          "quotes": [
+            "Qian was rarely seen in public after he retired as dean of Peking University’s School of International Studies in 2005."
+          ]
+        },
+        {
+          "name": "Hong Kong Exchange",
+          "quotes": [
+            "Hong Kong Exchange to Launch Yuan-Denominated Gold Futures."
+          ]
+        },
+        {
+          "name": "YTO Express",
+          "quotes": [
+            "YTO Express Eyes Global Expansion With Hong Kong Logistics Purchase."
+          ]
+        },
+        {
+          "name": "Alibaba",
+          "quotes": [
+            "Alibaba to Launch Agentic AI Sourcing Tool for Businesses as European Orders Soar."
+          ]
+        },
+        {
+          "name": "Exim Bank",
+          "quotes": [
+            "Top Sovereign Lending Official at Exim Bank Under Investigation."
+          ]
+        },
+        {
+          "name": "Intel",
+          "quotes": [
+            "Intel Pivots to Custom Chips to Tap China’s Trillion-Yuan Computing Markets."
+          ]
+        },
+        {
+          "name": "CreditEase",
+          "quotes": [
+            "CreditEase’s Tang Ning: China’s Wealth Management Market is Undergoing Five Major Shifts."
+          ]
+        },
+        {
+          "name": "Caixin Global Limited",
+          "quotes": [
+            "Copyright © 2024 Caixin Global Limited. All Rights Reserved."
+          ]
+        },
+        {
+          "name": "The Wall Street Journal",
+          "quotes": [
+            "The Wall Street Journal"
+          ]
+        },
+        {
+          "name": "CNBC",
+          "quotes": [
+            "CNBC"
+          ]
+        },
+        {
+          "name": "MarketWatch",
+          "quotes": [
+            "MarketWatch"
+          ]
+        },
+        {
+          "name": "The Australian Financial Review",
+          "quotes": [
+            "The Australian Financial Review"
+          ]
+        },
+        {
+          "name": "The Straits Times",
+          "quotes": [
+            "The Straits Times"
+          ]
+        },
+        {
+          "name": "東洋経済オンライン",
+          "quotes": [
+            "東洋経済オンライン"
+          ]
+        },
+        {
+          "name": "Nikkei Asia",
+          "quotes": [
+            "Nikkei Asia"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "dean of Peking University’s School of International Studies",
+          "quotes": [
+            "Qian was rarely seen in public after he retired as dean of Peking University’s School of International Studies in 2005."
+          ]
+        },
+        {
+          "title": "reporter",
+          "quotes": [
+            "Contact reporter Li Rongde (rongdeli@caixin.com)"
+          ]
+        },
+        {
+          "title": "Indian Prime Minister",
+          "quotes": [
+            "Participation of Indian Prime Minister Narendra Modi in the 5th Eastern Economic Forum Discussed in Moscow."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Iraq",
+          "quotes": [
+            "full-blown war against Iraq led by the United States in 1991."
+          ]
+        },
+        {
+          "place": "Hong Kong",
+          "quotes": [
+            "Hong Kong Exchange to Launch Yuan-Denominated Gold Futures.",
+            "YTO Express Eyes Global Expansion With Hong Kong Logistics Purchase.",
+            "$17 Billion Causeway Linking Hong Kong, Macau and Chinese Mainland Nears Milestone."
+          ]
+        },
+        {
+          "place": "Macau",
+          "quotes": [
+            "$17 Billion Causeway Linking Hong Kong, Macau and Chinese Mainland Nears Milestone."
+          ]
+        },
+        {
+          "place": "Chinese Mainland",
+          "quotes": [
+            "$17 Billion Causeway Linking Hong Kong, Macau and Chinese Mainland Nears Milestone."
+          ]
+        },
+        {
+          "place": "Moscow",
+          "quotes": [
+            "Participation of Indian Prime Minister Narendra Modi in the 5th Eastern Economic Forum Discussed in Moscow."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Qian was rarely seen in public after he retired as dean of Peking University’s School of International Studies in 2005."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role, organization, and time marker."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "The time_marker_ids reference '1991' which is not relevant to the event. The correct time marker should be '2005' as mentioned in the supporting quote."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "The location_ids field is empty, but the event is about a position at Peking University’s School of International Studies, which implies a location. Consider adding a location if available."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "status": "success",
+  "chunk_id": 3550,
+  "chunk_index": 6,
+  "source_url": "https://www.linkedin.com/in/amina-mohammed",
+  "title": "Amina J. Mohammed - United Nations | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "October 2025",
+          "type": "point",
+          "quotes": [
+            "ADBI and South Asian University (SAU) welcome submissions for the Climate Change and Resilience in South Asia conference, set to take place in New Delhi in October 2025."
+          ]
+        },
+        {
+          "text": "15 July 2025",
+          "type": "point",
+          "quotes": [
+            "⏳𝐃𝐞𝐚𝐝𝐥𝐢𝐧𝐞: 𝟏𝟓 𝐉𝐮𝐥𝐲 𝟐𝟎𝟐𝟓"
+          ]
+        },
+        {
+          "text": "by 2036",
+          "type": "point",
+          "quotes": [
+            "With $55 billion per annum, about 1.2% of GDP, needed in infrastructure investments by 2036, aligning the public-private sector on sustainability is key."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Asian Development Bank Institute",
+          "quotes": [
+            "Asian Development Bank Institute\n📣 #CallForPapers\nADBI and South Asian University (SAU) welcome submissions for the Climate Change and Resilience in South Asia conference, set to take place in New Delhi in October 2025."
+          ]
+        },
+        {
+          "name": "South Asian University (SAU)",
+          "quotes": [
+            "ADBI and South Asian University (SAU) welcome submissions for the Climate Change and Resilience in South Asia conference, set to take place in New Delhi in October 2025."
+          ]
+        },
+        {
+          "name": "IFC - International Finance Corporation",
+          "quotes": [
+            "IFC - International Finance Corporation and Delegation of the European Union to India have been partnering to build smart, resilient cities, driving sustainable urban growth through private sector engagement."
+          ]
+        },
+        {
+          "name": "Delegation of the European Union to India",
+          "quotes": [
+            "IFC - International Finance Corporation and Delegation of the European Union to India have been partnering to build smart, resilient cities, driving sustainable urban growth through private sector engagement."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Sr. Country Officer",
+          "quotes": [
+            "🔹 Roshika Singh, IFC's Sr. Country Officer, highlighted the private sector's crucial role in India's urban transformation."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "New Delhi",
+          "quotes": [
+            "ADBI and South Asian University (SAU) welcome submissions for the Climate Change and Resilience in South Asia conference, set to take place in New Delhi in October 2025."
+          ]
+        },
+        {
+          "place": "India",
+          "quotes": [
+            "IFC - International Finance Corporation and Delegation of the European Union to India have been partnering to build smart, resilient cities, driving sustainable urban growth through private sector engagement."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "🔹 Roshika Singh, IFC's Sr. Country Officer, highlighted the private sector's crucial role in India's urban transformation."
+        ],
+        "confidence": "high",
+        "notes": "Role and organization are clearly linked in the quote, indicating an active position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "ADBI and South Asian University (SAU) welcome submissions for the Climate Change and Resilience in South Asia conference, set to take place in New Delhi in October 2025.",
+          "⏳𝐃𝐞𝐚𝐝𝐥𝐢𝐧𝐞: 𝟏𝟓 𝐉𝐮𝐥𝐲 𝟐𝟎𝟐𝟓"
+        ],
+        "confidence": "medium",
+        "notes": "Organizations and location are linked to a specific event, but no explicit role is mentioned. Assuming this is an organizational activity rather than a personal career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2,
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "IFC - International Finance Corporation and Delegation of the European Union to India have been partnering to build smart, resilient cities, driving sustainable urban growth through private sector engagement."
+        ],
+        "confidence": "medium",
+        "notes": "Organizations and location are linked to an ongoing partnership, but no explicit role is mentioned. Assuming this is an organizational activity rather than a personal career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, making it unclear if this is a personal career position or an organizational activity."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position but lacks explicit role, potentially misclassified."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, making it unclear if this is a personal career position or an organizational activity."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position but lacks explicit role, potentially misclassified."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

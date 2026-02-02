@@ -1,0 +1,294 @@
+{
+  "status": "success",
+  "chunk_id": 3640,
+  "chunk_index": 5,
+  "source_url": "https://en.wikipedia.org/wiki/Jens_Stoltenberg",
+  "title": "Jens Stoltenberg - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "from the 2001 election to the 2005 election",
+          "type": "range",
+          "quotes": [
+            "The changes made from the 2001 election to the 2005 election were described by Norwegian newspaper VG as an 'extreme makeover'."
+          ]
+        },
+        {
+          "text": "November 2002",
+          "type": "point",
+          "quotes": [
+            "In November 2002, Stoltenberg was unanimously elected new leader at the party's congress."
+          ]
+        },
+        {
+          "text": "2005–2013",
+          "type": "range",
+          "quotes": [
+            "Second term as Prime Minister (2005–2013)"
+          ]
+        },
+        {
+          "text": "from 17 October 2005 to 16 October 2013",
+          "type": "range",
+          "quotes": [
+            "Stoltenberg's second cabinet governed Norway from 17 October 2005 to 16 October 2013."
+          ]
+        },
+        {
+          "text": "1 May 2009",
+          "type": "point",
+          "quotes": [
+            "Stoltenberg speaks on International Workers' Day at Youngstorget in Oslo on 1 May 2009."
+          ]
+        },
+        {
+          "text": "2009",
+          "type": "point",
+          "quotes": [
+            "Following Stoltenberg's re-election in 2009, he worked on the Norwegian response to the ongoing global recession and championed for environmentalist policies through private and corporate taxation."
+          ]
+        },
+        {
+          "text": "27 April 2010",
+          "type": "point",
+          "quotes": [
+            "Stoltenberg with Russian president Dimitry Medvedev, 27 April 2010"
+          ]
+        },
+        {
+          "text": "since 1978",
+          "type": "open",
+          "quotes": [
+            "A marine border dispute with Russia in the Barents Sea since 1978 was settled when Stoltenberg and President of Russia Dimitry Medvedev signed an"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Norwegian newspaper VG",
+          "quotes": [
+            "The changes made from the 2001 election to the 2005 election were described by Norwegian newspaper VG as an 'extreme makeover'."
+          ]
+        },
+        {
+          "name": "Labour",
+          "quotes": [
+            "The 2005 parliamentary election saw a vast improvement for Labour, and the party gained a majority in parliament together with the other 'Red-Green' parties, the Socialist Left Party and the Centre Party."
+          ]
+        },
+        {
+          "name": "Socialist Left Party",
+          "quotes": [
+            "The 2005 parliamentary election saw a vast improvement for Labour, and the party gained a majority in parliament together with the other 'Red-Green' parties, the Socialist Left Party and the Centre Party."
+          ]
+        },
+        {
+          "name": "Centre Party",
+          "quotes": [
+            "The 2005 parliamentary election saw a vast improvement for Labour, and the party gained a majority in parliament together with the other 'Red-Green' parties, the Socialist Left Party and the Centre Party."
+          ]
+        },
+        {
+          "name": "Red-Green Coalition",
+          "quotes": [
+            "This paved the way for a historic first in Norway, with Labour joining in a coalition government, the Red-Green Coalition, after a coalition deal with Stoltenberg was struck."
+          ]
+        },
+        {
+          "name": "Norwegian military",
+          "quotes": [
+            "Since the government's formation, key political issues such as Norwegian military participation in the war in Afghanistan, petroleum activities in the Barents Sea, LGBT rights, immigration and the quality of standard education were greatly debated by the public."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Party leader",
+          "quotes": [
+            "The bad election result in 2001 was quickly followed by a leadership battle between Jagland and Stoltenberg."
+          ]
+        },
+        {
+          "title": "Prime Minister",
+          "quotes": [
+            "Second term as Prime Minister (2005–2013)"
+          ]
+        },
+        {
+          "title": "President of Russia",
+          "quotes": [
+            "Stoltenberg with Russian president Dimitry Medvedev, 27 April 2010"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Norway",
+          "quotes": [
+            "Stoltenberg's second cabinet governed Norway from 17 October 2005 to 16 October 2013."
+          ]
+        },
+        {
+          "place": "Oslo",
+          "quotes": [
+            "Stoltenberg speaks on International Workers' Day at Youngstorget in Oslo on 1 May 2009."
+          ]
+        },
+        {
+          "place": "Afghanistan",
+          "quotes": [
+            "Since the government's formation, key political issues such as Norwegian military participation in the war in Afghanistan, petroleum activities in the Barents Sea, LGBT rights, immigration and the quality of standard education were greatly debated by the public."
+          ]
+        },
+        {
+          "place": "Barents Sea",
+          "quotes": [
+            "Since the government's formation, key political issues such as Norwegian military participation in the war in Afghanistan, petroleum activities in the Barents Sea, LGBT rights, immigration and the quality of standard education were greatly debated by the public."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1,
+          2,
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1,
+          2
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "In November 2002, Stoltenberg was unanimously elected new leader at the party's congress.",
+          "Second term as Prime Minister (2005–2013)",
+          "Stoltenberg's second cabinet governed Norway from 17 October 2005 to 16 October 2013."
+        ],
+        "confidence": "high",
+        "notes": "The role of Prime Minister is clearly a career position, and the time markers align with the quotes."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Following Stoltenberg's re-election in 2009, he worked on the Norwegian response to the ongoing global recession and championed for environmentalist policies through private and corporate taxation."
+        ],
+        "confidence": "high",
+        "notes": "The role of Prime Minister is a career position, and the quote indicates ongoing responsibilities."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          6
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2,
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Stoltenberg with Russian president Dimitry Medvedev, 27 April 2010"
+        ],
+        "confidence": "medium",
+        "notes": "The meeting with the President of Russia is likely part of Stoltenberg's duties as Prime Minister, but the connection is not explicitly stated."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          7
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          3
+        ],
+        "supporting_quotes": [
+          "A marine border dispute with Russia in the Barents Sea since 1978 was settled when Stoltenberg and President of Russia Dimitry Medvedev signed an"
+        ],
+        "confidence": "high",
+        "notes": "The settlement of the border dispute is likely part of Stoltenberg's responsibilities as Prime Minister."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "The connection between the meeting and Stoltenberg's role as Prime Minister is not explicitly stated in the quote."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 0,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

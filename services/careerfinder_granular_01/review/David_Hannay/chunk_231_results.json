@@ -1,0 +1,273 @@
+{
+  "status": "success",
+  "chunk_id": 231,
+  "chunk_index": 2,
+  "source_url": "https://en.wikipedia.org/wiki/David_Hannay_(historian)",
+  "title": "David Hannay (historian) - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "9 February 1917",
+          "type": "point",
+          "quotes": [
+            "Hannay, David (9 February 1917)."
+          ]
+        },
+        {
+          "text": "9 February 2025",
+          "type": "point",
+          "quotes": [
+            "Retrieved 9 February 2025"
+          ]
+        },
+        {
+          "text": "March 2025",
+          "type": "point",
+          "quotes": [
+            "Use dmy dates from March 2025"
+          ]
+        },
+        {
+          "text": "September 2016",
+          "type": "point",
+          "quotes": [
+            "Use British English from September 2016"
+          ]
+        },
+        {
+          "text": "August 2016",
+          "type": "point",
+          "quotes": [
+            "Articles needing additional references from August 2016"
+          ]
+        },
+        {
+          "text": "1853",
+          "type": "point",
+          "quotes": [
+            "1853 births"
+          ]
+        },
+        {
+          "text": "1934",
+          "type": "point",
+          "quotes": [
+            "1934 deaths"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Westminster School, London",
+          "quotes": [
+            "People educated at Westminster School, London"
+          ]
+        },
+        {
+          "name": "Wikisource",
+          "quotes": [
+            "Works by or about David McDowall Hannay at Wikisource"
+          ]
+        },
+        {
+          "name": "Wikimedia Commons",
+          "quotes": [
+            "Media related to David Hannay (historian) at Wikimedia Commons"
+          ]
+        },
+        {
+          "name": "Project Gutenberg",
+          "quotes": [
+            "Works by David Hannay at Project Gutenberg"
+          ]
+        },
+        {
+          "name": "Internet Archive",
+          "quotes": [
+            "Works by or about David Hannay at the Internet Archive"
+          ]
+        },
+        {
+          "name": "ISNI",
+          "quotes": [
+            "International ISNI"
+          ]
+        },
+        {
+          "name": "VIAF",
+          "quotes": [
+            "International VIAF"
+          ]
+        },
+        {
+          "name": "GND",
+          "quotes": [
+            "International GND"
+          ]
+        },
+        {
+          "name": "FAST",
+          "quotes": [
+            "International FAST"
+          ]
+        },
+        {
+          "name": "WorldCat",
+          "quotes": [
+            "International WorldCat"
+          ]
+        },
+        {
+          "name": "Trove",
+          "quotes": [
+            "People Trove"
+          ]
+        },
+        {
+          "name": "DDB",
+          "quotes": [
+            "People DDB"
+          ]
+        },
+        {
+          "name": "IdRef",
+          "quotes": [
+            "Other IdRef"
+          ]
+        },
+        {
+          "name": "Open Library",
+          "quotes": [
+            "Other Open Library"
+          ]
+        },
+        {
+          "name": "Yale LUX",
+          "quotes": [
+            "Other Yale LUX"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "historian",
+          "quotes": [
+            "This article about a British historian or genealogist is a stub."
+          ]
+        },
+        {
+          "title": "genealogist",
+          "quotes": [
+            "This article about a British historian or genealogist is a stub."
+          ]
+        },
+        {
+          "title": "naval historian",
+          "quotes": [
+            "English naval historians"
+          ]
+        },
+        {
+          "title": "journalist",
+          "quotes": [
+            "English male journalists"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "London",
+          "quotes": [
+            "People educated at Westminster School, London"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "This article about a British historian or genealogist is a stub.",
+          "English naval historians",
+          "English male journalists"
+        ],
+        "confidence": "medium",
+        "notes": "No specific time markers or organizations linked to roles, but roles are clearly career positions."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "People educated at Westminster School, London"
+        ],
+        "confidence": "high",
+        "notes": "Westminster School, London is likely an educational affiliation, but no specific role is mentioned."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers and organizations for career positions."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quotes mention roles but lack context or specific details."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position but appears to be an educational affiliation."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for the event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

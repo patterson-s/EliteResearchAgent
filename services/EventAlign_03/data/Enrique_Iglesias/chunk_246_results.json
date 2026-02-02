@@ -1,0 +1,259 @@
+{
+  "status": "success",
+  "chunk_id": 246,
+  "chunk_index": 14,
+  "source_url": "https://en.wikipedia.org/wiki/Enrique_Iglesias",
+  "title": "Enrique Iglesias - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "Also in 2021",
+          "type": "point",
+          "quotes": [
+            "Also in 2021, Iglesias embarked on a co-headline tour with Ricky Martin."
+          ]
+        },
+        {
+          "text": "A year later",
+          "type": "point",
+          "quotes": [
+            "A year later, Iglesias embarked on another co-headline tour of North America with both Martin and Pitbull named 'The Trilogy Tour'."
+          ]
+        },
+        {
+          "text": "On 29 September 2023",
+          "type": "point",
+          "quotes": [
+            "On 29 September 2023, Iglesias returned to Latin and Spanish radio stations with the song 'Asi Es La Vida' the first single from Final Vol. 2."
+          ]
+        },
+        {
+          "text": "In February 2024",
+          "type": "point",
+          "quotes": [
+            "In February 2024, Iglesias released 'Fría' to Latin-pop formats which featured Cuban singer Yotuel."
+          ]
+        },
+        {
+          "text": "Later that month",
+          "type": "point",
+          "quotes": [
+            "Later that month, he released 'Space in My Heart' a duet with Country Star Miranda Lambert which returned him to the Adult Top 40."
+          ]
+        },
+        {
+          "text": "On 29 March 2024",
+          "type": "point",
+          "quotes": [
+            "On 29 March 2024, Iglesias released Final Vol. 2, which included a mixture of genres such as Pop, Dance Bachata, Reggaeton, Cumbia and Dembow."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Billboard",
+          "quotes": [
+            "and become his eighth No. 1 on Billboard's Tropical Airplay chart."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "opening act",
+          "quotes": [
+            "The tour consisted of twenty-six arena dates across North America and featured Colombian pop star Sebastian Yatra as the opening act."
+          ]
+        },
+        {
+          "title": "songwriter",
+          "quotes": [
+            "Iglesias has collaborated with songwriter"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "North America",
+          "quotes": [
+            "The tour consisted of twenty-six arena dates across North America and featured Colombian pop star Sebastian Yatra as the opening act."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Also in 2021, Iglesias embarked on a co-headline tour with Ricky Martin.",
+          "The tour consisted of twenty-six arena dates across North America and featured Colombian pop star Sebastian Yatra as the opening act."
+        ],
+        "confidence": "high",
+        "notes": "Co-headline tour is considered a career activity."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "A year later, Iglesias embarked on another co-headline tour of North America with both Martin and Pitbull named 'The Trilogy Tour'.",
+          "The tour consisted of twenty-six arena dates across North America and featured Colombian pop star Sebastian Yatra as the opening act."
+        ],
+        "confidence": "high",
+        "notes": "Co-headline tour is considered a career activity."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "On 29 September 2023, Iglesias returned to Latin and Spanish radio stations with the song 'Asi Es La Vida' the first single from Final Vol. 2."
+        ],
+        "confidence": "high",
+        "notes": "Music release is considered a career activity."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In February 2024, Iglesias released 'Fría' to Latin-pop formats which featured Cuban singer Yotuel."
+        ],
+        "confidence": "high",
+        "notes": "Music release is considered a career activity."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Later that month, he released 'Space in My Heart' a duet with Country Star Miranda Lambert which returned him to the Adult Top 40."
+        ],
+        "confidence": "high",
+        "notes": "Music release is considered a career activity."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "On 29 March 2024, Iglesias released Final Vol. 2, which included a mixture of genres such as Pop, Dance Bachata, Reggaeton, Cumbia and Dembow."
+        ],
+        "confidence": "high",
+        "notes": "Album release is considered a career activity."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and role information for the co-headline tour."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and role information for the co-headline tour."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization, role, and location information for the music release."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization, role, and location information for the music release."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization, role, and location information for the music release."
+          }
+        ]
+      },
+      {
+        "event_id": 5,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization, role, and location information for the album release."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 6,
+      "valid": 0,
+      "warnings": 6,
+      "errors": 0,
+      "career_positions": 6,
+      "awards": 0
+    }
+  }
+}

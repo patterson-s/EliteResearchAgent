@@ -1,0 +1,216 @@
+{
+  "status": "success",
+  "chunk_id": 3284,
+  "chunk_index": 0,
+  "source_url": "https://www.carnegie.org/awards/honoree/ngozi-okonjo-iweala/",
+  "title": "Ngozi Okonjo-Iweala : Awards | Carnegie Corporation of New York",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "from 2007 to 2011",
+          "type": "range",
+          "quotes": [
+            "Prior to her time in Nigeria, she had a 25-year career at the World Bank, ultimately serving as the managing director of operations from 2007 to 2011, before returning in 2021 as director-general."
+          ]
+        },
+        {
+          "text": "before returning in 2021",
+          "type": "point",
+          "quotes": [
+            "Prior to her time in Nigeria, she had a 25-year career at the World Bank, ultimately serving as the managing director of operations from 2007 to 2011, before returning in 2021 as director-general."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "World Trade Organization",
+          "quotes": [
+            "Ngozi Okonjo-Iweala, Director-General, World Trade Organization",
+            "the first woman and the first African to serve as Director-General of the World Trade Organization"
+          ]
+        },
+        {
+          "name": "World Bank",
+          "quotes": [
+            "Prior to her time in Nigeria, she had a 25-year career at the World Bank, ultimately serving as the managing director of operations from 2007 to 2011, before returning in 2021 as director-general."
+          ]
+        },
+        {
+          "name": "Paris Club",
+          "quotes": [
+            "She also spearheaded the write-off by the Paris Club of $30 billion of the country’s debt."
+          ]
+        },
+        {
+          "name": "Harvard University",
+          "quotes": [
+            "She holds a BA in economics from Harvard University and a PhD from MIT."
+          ]
+        },
+        {
+          "name": "MIT",
+          "quotes": [
+            "She holds a BA in economics from Harvard University and a PhD from MIT."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Director-General",
+          "quotes": [
+            "Ngozi Okonjo-Iweala, Director-General, World Trade Organization",
+            "the first woman and the first African to serve as Director-General of the World Trade Organization",
+            "before returning in 2021 as director-general."
+          ]
+        },
+        {
+          "title": "finance minister",
+          "quotes": [
+            "She was the first woman to serve as Nigeria’s finance minister, a post she held for seven years."
+          ]
+        },
+        {
+          "title": "managing director of operations",
+          "quotes": [
+            "Prior to her time in Nigeria, she had a 25-year career at the World Bank, ultimately serving as the managing director of operations from 2007 to 2011."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Nigeria",
+          "quotes": [
+            "Born in: Nigeria",
+            "She was the first woman to serve as Nigeria’s finance minister, a post she held for seven years."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Prior to her time in Nigeria, she had a 25-year career at the World Bank, ultimately serving as the managing director of operations from 2007 to 2011."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Prior to her time in Nigeria, she had a 25-year career at the World Bank, ultimately serving as the managing director of operations from 2007 to 2011, before returning in 2021 as director-general."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Ngozi Okonjo-Iweala, Director-General, World Trade Organization",
+          "the first woman and the first African to serve as Director-General of the World Trade Organization"
+        ],
+        "confidence": "high",
+        "notes": "No explicit time marker, but clear linkage between organization and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "She was the first woman to serve as Nigeria’s finance minister, a post she held for seven years."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit organization mentioned, but role and location are clear."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "Time marker 'before returning in 2021' is not explicitly linked to the role 'director-general' in the quote."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time marker for the role 'Director-General' at the World Trade Organization."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization for the role 'finance minister' in Nigeria."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 1,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "status": "success",
+  "chunk_id": 3994,
+  "chunk_index": 7,
+  "source_url": "https://en.wikipedia.org/wiki/Kemal_Dervi%C5%9F",
+  "title": "Kemal Derviş - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "World Bank",
+          "quotes": [
+            "World Bank people"
+          ]
+        },
+        {
+          "name": "22nd Parliament of Turkey",
+          "quotes": [
+            "Members of the 22nd Parliament of Turkey"
+          ]
+        },
+        {
+          "name": "57th government of Turkey",
+          "quotes": [
+            "Members of the 57th government of Turkey"
+          ]
+        },
+        {
+          "name": "Center for Global Development",
+          "quotes": [
+            "Center for Global Development"
+          ]
+        },
+        {
+          "name": "United Nations",
+          "quotes": [
+            "Turkish officials of the United Nations"
+          ]
+        },
+        {
+          "name": "Center on International Cooperation",
+          "quotes": [
+            "Center on International Cooperation"
+          ]
+        },
+        {
+          "name": "Carnegie Council for Ethics in International Affairs",
+          "quotes": [
+            "Carnegie Council for Ethics in International Affairs"
+          ]
+        },
+        {
+          "name": "Institut Le Rosey",
+          "quotes": [
+            "Alumni of Institut Le Rosey"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Ministers of state of Turkey",
+          "quotes": [
+            "Ministers of state of Turkey"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Switzerland",
+          "quotes": [
+            "Turkish expatriates in Switzerland"
+          ]
+        },
+        {
+          "place": "England",
+          "quotes": [
+            "Turkish expatriates in England"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Members of the 57th government of Turkey",
+          "Ministers of state of Turkey"
+        ],
+        "confidence": "high",
+        "notes": "Direct linkage between organization and role through shared context of Turkish government."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Turkish officials of the United Nations"
+        ],
+        "confidence": "medium",
+        "notes": "Implied career position based on 'officials' but no specific role mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "World Bank people"
+        ],
+        "confidence": "low",
+        "notes": "Unclear specific role at World Bank, but 'people' suggests affiliation."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Members of the 22nd Parliament of Turkey"
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of parliamentary membership as a career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing role information for career position."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "error",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing role information for career position."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Unclear if 'people' indicates a specific career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 1,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

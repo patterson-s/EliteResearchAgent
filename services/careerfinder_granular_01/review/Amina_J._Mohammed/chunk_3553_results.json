@@ -1,0 +1,249 @@
+{
+  "status": "success",
+  "chunk_id": 3553,
+  "chunk_index": 0,
+  "source_url": "https://www.educationcannotwait.org/news-stories/featured-content/education-cannot-wait-interviews-amina-j-mohammed-deputy-secretary",
+  "title": "Education Cannot Wait Interviews Amina J. Mohammed, Deputy Secretary-general of the United Nations | Education Cannot Wait",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "June 2020",
+          "type": "point",
+          "quotes": [
+            "Q&A\nJune 2020"
+          ]
+        },
+        {
+          "text": "2012",
+          "type": "point",
+          "quotes": [
+            "Ms. Mohammed first joined the United Nations in 2012 as Special Adviser to former Secretary-General Ban Ki-moon"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "United Nations",
+          "quotes": [
+            "Education Cannot Wait Interviews Amina J. Mohammed, Deputy Secretary-general of the United Nations",
+            "Ms. Mohammed first joined the United Nations in 2012 as Special Adviser to former Secretary-General Ban Ki-moon"
+          ]
+        },
+        {
+          "name": "Education Cannot Wait",
+          "quotes": [
+            "Education Cannot Wait Interviews Amina J. Mohammed, Deputy Secretary-general of the United Nations"
+          ]
+        },
+        {
+          "name": "United Nations Sustainable Development Group",
+          "quotes": [
+            "is the Deputy Secretary-General of the United Nations and Chair of the United Nations Sustainable Development Group."
+          ]
+        },
+        {
+          "name": "Federal Republic of Nigeria",
+          "quotes": [
+            "served as Minister of Environment of the Federal Republic of Nigeria"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Deputy Secretary-General of the United Nations",
+          "quotes": [
+            "Education Cannot Wait Interviews Amina J. Mohammed, Deputy Secretary-general of the United Nations",
+            "is the Deputy Secretary-General of the United Nations and Chair of the United Nations Sustainable Development Group."
+          ]
+        },
+        {
+          "title": "Chair of the United Nations Sustainable Development Group",
+          "quotes": [
+            "is the Deputy Secretary-General of the United Nations and Chair of the United Nations Sustainable Development Group."
+          ]
+        },
+        {
+          "title": "Minister of Environment of the Federal Republic of Nigeria",
+          "quotes": [
+            "served as Minister of Environment of the Federal Republic of Nigeria"
+          ]
+        },
+        {
+          "title": "Special Adviser to former Secretary-General Ban Ki-moon",
+          "quotes": [
+            "Ms. Mohammed first joined the United Nations in 2012 as Special Adviser to former Secretary-General Ban Ki-moon"
+          ]
+        },
+        {
+          "title": "adviser to three successive Presidents on poverty, public sector reform, and sustainable development",
+          "quotes": [
+            "she rose to the position of adviser to three successive Presidents on poverty, public sector reform, and sustainable development."
+          ]
+        },
+        {
+          "title": "adjunct professor",
+          "quotes": [
+            "has served as an adjunct professor, lecturing on international development."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Nigeria",
+          "quotes": [
+            "Ms. Mohammed began her career working on the design of schools and clinics in Nigeria.",
+            "served as Minister of Environment of the Federal Republic of Nigeria"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Ms. Mohammed first joined the United Nations in 2012 as Special Adviser to former Secretary-General Ban Ki-moon"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "served as Minister of Environment of the Federal Republic of Nigeria"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "she rose to the position of adviser to three successive Presidents on poverty, public sector reform, and sustainable development."
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          5
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "has served as an adjunct professor, lecturing on international development."
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0,
+          1,
+          2
+        ],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Education Cannot Wait Interviews Amina J. Mohammed, Deputy Secretary-general of the United Nations",
+          "is the Deputy Secretary-General of the United Nations and Chair of the United Nations Sustainable Development Group."
+        ],
+        "confidence": "high",
+        "notes": ""
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time marker for career position as Minister of Environment of Nigeria."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and time marker for career position as adviser to three successive Presidents."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and time marker for career position as adjunct professor."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 2,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

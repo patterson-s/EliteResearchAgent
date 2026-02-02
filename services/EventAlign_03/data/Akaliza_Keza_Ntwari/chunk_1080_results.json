@@ -1,0 +1,170 @@
+{
+  "status": "success",
+  "chunk_id": 1080,
+  "chunk_index": 0,
+  "source_url": "https://umutesidoreen.wordpress.com/2012/03/29/akaliza-a-woman-taking-over-the-world/",
+  "title": "Akaliza: A woman taking over the world  | Umutesidoreen's Blog",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "January 2009",
+          "type": "point",
+          "quotes": [
+            "I moved to Rwanda for the first time in January 2009 after having lived in eight different cities around the world and visiting over 15 others by the time I was graduating from university."
+          ]
+        },
+        {
+          "text": "this year",
+          "type": "point",
+          "quotes": [
+            "This year I plan to start creating animated films and series targeting Rwandan children."
+          ]
+        },
+        {
+          "text": "this year",
+          "type": "point",
+          "quotes": [
+            "I have a fantastic team which I am hoping to expand this year, by God’s grace."
+          ]
+        },
+        {
+          "text": "the last three years",
+          "type": "range",
+          "quotes": [
+            "I’ve improved a lot over the last three years, but I still have a long way to go… buhoro buhoro (slowly, slowly)."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Shaking Sun",
+          "quotes": [
+            "Shaking Sun is a multimedia company that offers a range of services including website development, graphic design and animation."
+          ]
+        },
+        {
+          "name": "Government",
+          "quotes": [
+            "There are a lot of opportunities in the ICT sector in Rwanda. Not only is there a lot of promotion from the Government, but in Rwanda you have the incredible opportunity to be the first to do something."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "entrepreneur",
+          "quotes": [
+            "My name is Akaliza Gara and I am a 25 year old Rwandan entrepreneur."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Rwanda",
+          "quotes": [
+            "I moved to Rwanda for the first time in January 2009 after having lived in eight different cities around the world and visiting over 15 others by the time I was graduating from university."
+          ]
+        },
+        {
+          "place": "Rwandan",
+          "quotes": [
+            "There are a lot of opportunities in the ICT sector in Rwanda. Not only is there a lot of promotion from the Government, but in Rwanda you have the incredible opportunity to be the first to do something. You could be the first Rwanda, to develop a Blackberry app or the first Rwandan to design a laptop."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "I moved to Rwanda for the first time in January 2009 after having lived in eight different cities around the world and visiting over 15 others by the time I was graduating from university.",
+          "My name is Akaliza Gara and I am a 25 year old Rwandan entrepreneur."
+        ],
+        "confidence": "high",
+        "notes": "Directly linked through the individual's self-identification as an entrepreneur and their move to Rwanda in January 2009."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1,
+          2
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "This year I plan to start creating animated films and series targeting Rwandan children.",
+          "I have a fantastic team which I am hoping to expand this year, by God’s grace.",
+          "Shaking Sun is a multimedia company that offers a range of services including website development, graphic design and animation.",
+          "My name is Akaliza Gara and I am a 25 year old Rwandan entrepreneur."
+        ],
+        "confidence": "medium",
+        "notes": "Linked through the individual's plans for the year and their association with Shaking Sun, though the exact role is not explicitly stated as part of the company."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quotes support the move to Rwanda but do not explicitly mention a specific career position or role beyond self-identification as an entrepreneur."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "quote_support",
+            "severity": "medium",
+            "description": "Quotes mention plans and association with Shaking Sun but do not explicitly state a specific role or position within the company."
+          },
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "Two 'this year' time markers may refer to the same time period, but this is not explicitly confirmed."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

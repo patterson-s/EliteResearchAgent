@@ -1,0 +1,204 @@
+{
+  "status": "success",
+  "chunk_id": 2717,
+  "chunk_index": 4,
+  "source_url": "https://www.britannica.com/biography/Ellen-Johnson-Sirleaf",
+  "title": "Ellen Johnson Sirleaf | Achievements, Nobel Peace Prize, & Facts | Britannica",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2012",
+          "type": "point",
+          "quotes": [
+            "Sirleaf herself coming under fire in 2012 because some of her children had high-level jobs in government or state-owned enterprises."
+          ]
+        },
+        {
+          "text": "2014",
+          "type": "point",
+          "quotes": [
+            "the country was hit with the devastating Ebola virus disease in 2014."
+          ]
+        },
+        {
+          "text": "2017",
+          "type": "point",
+          "quotes": [
+            "Sirleaf, constitutionally limited to two terms as president, prepared to step down after the 2017 presidential election."
+          ]
+        },
+        {
+          "text": "January 2018",
+          "type": "point",
+          "quotes": [
+            "in January 2018 the UP expelled her from the party."
+          ]
+        },
+        {
+          "text": "January 22",
+          "type": "point",
+          "quotes": [
+            "Later that month, on January 22, she stepped down as president of Liberia, handing power to Weah, who had emerged as the winner of the second round of voting."
+          ]
+        },
+        {
+          "text": "2006-2018",
+          "type": "range",
+          "quotes": [
+            "president (2006-2018)"
+          ]
+        },
+        {
+          "text": "since 1944",
+          "type": "open",
+          "quotes": [
+            "It was the first transfer of power between democratically elected leaders in Liberia since 1944."
+          ]
+        },
+        {
+          "text": "2011",
+          "type": "point",
+          "quotes": [
+            "Nobel Prize (2011)"
+          ]
+        },
+        {
+          "text": "2017",
+          "type": "point",
+          "quotes": [
+            "Ibrahim Prize (2017)"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Unity Party (UP)",
+          "quotes": [
+            "Her running mate of the previous two elections and current vice president of Liberia, Joseph Boakai, became the presidential candidate of her political party, the Unity Party (UP)."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "president",
+          "quotes": [
+            "Sirleaf, constitutionally limited to two terms as president, prepared to step down after the 2017 presidential election."
+          ]
+        },
+        {
+          "title": "vice president of Liberia",
+          "quotes": [
+            "Her running mate of the previous two elections and current vice president of Liberia, Joseph Boakai, became the presidential candidate of her political party, the Unity Party (UP)."
+          ]
+        },
+        {
+          "title": "presidential candidate",
+          "quotes": [
+            "Her running mate of the previous two elections and current vice president of Liberia, Joseph Boakai, became the presidential candidate of her political party, the Unity Party (UP)."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Liberia",
+          "quotes": [
+            "Over the course of the next two years, the disease killed more than 4,800 Liberians, crippled the country’s economy, and erased many of the country’s hard-fought gains of the previous postwar decade."
+          ]
+        },
+        {
+          "place": "Monrovia",
+          "quotes": [
+            "Born: October 29, 1938, Monrovia, Liberia (age 87)"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "president (2006-2018)",
+          "Sirleaf, constitutionally limited to two terms as president, prepared to step down after the 2017 presidential election."
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of a presidential role with specific time range."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          7
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Nobel Prize (2011)"
+        ],
+        "confidence": "high",
+        "notes": "Nobel Prize is a clear indicator of an award."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          8
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Ibrahim Prize (2017)"
+        ],
+        "confidence": "high",
+        "notes": "Ibrahim Prize is a clear indicator of an award."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 2,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 2
+    }
+  }
+}

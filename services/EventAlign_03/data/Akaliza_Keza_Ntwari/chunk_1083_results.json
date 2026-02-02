@@ -1,0 +1,147 @@
+{
+  "status": "success",
+  "chunk_id": 1083,
+  "chunk_index": 0,
+  "source_url": "https://blogs.kent.ac.uk/isnews/author/an558/",
+  "title": "Akaliza Keza Ntwari – Library and IT news",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2022/2023",
+          "type": "range",
+          "quotes": [
+            "The University of Kent is taking part in the Jisc Digital Experience Insights surveys for students, academic staff, professional services staff, and researchers. The 2022/2023 …"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "University of Kent",
+          "quotes": [
+            "The University of Kent is taking part in the Jisc Digital Experience Insights surveys for students, academic staff, professional services staff, and researchers.",
+            "In celebration of Black History Month in the UK, the digital capabilities service at the University of Kent is releasing a series of blog posts …",
+            "The digital capabilities service aims to offer a wide range of IT training and resources for members of the University of Kent community."
+          ]
+        },
+        {
+          "name": "Institute of Cyber Security for Society (iCSS)",
+          "quotes": [
+            "The Digital Capabilities service, in collaboration with the Institute of Cyber Security for Society (iCSS), HR/ T&OD, and IT Infrastructure, is pleased to offer staff …"
+          ]
+        },
+        {
+          "name": "Jisc",
+          "quotes": [
+            "The University of Kent is taking part in the Jisc Digital Experience Insights surveys for students, academic staff, professional services staff, and researchers."
+          ]
+        },
+        {
+          "name": "Microsoft Teams",
+          "quotes": [
+            "When planning an online meeting or event, there are important areas to consider to keep it inclusive and accessible to all participants. Microsoft Teams has …"
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": [
+        {
+          "place": "UK",
+          "quotes": [
+            "In celebration of Black History Month in the UK, the digital capabilities service at the University of Kent is releasing a series of blog posts …"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0,
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "The University of Kent is taking part in the Jisc Digital Experience Insights surveys for students, academic staff, professional services staff, and researchers. The 2022/2023 …",
+          "In celebration of Black History Month in the UK, the digital capabilities service at the University of Kent is releasing a series of blog posts …"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit role mentioned, but the University of Kent's participation in Jisc surveys and its activities in the UK suggest an ongoing affiliation. Event type defaulted to career_position due to the lack of award indicators."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The Digital Capabilities service, in collaboration with the Institute of Cyber Security for Society (iCSS), HR/ T&OD, and IT Infrastructure, is pleased to offer staff …"
+        ],
+        "confidence": "low",
+        "notes": "No explicit role or time marker mentioned. Collaboration between the University of Kent and iCSS suggests an ongoing affiliation, but the nature of the event is unclear. Defaulted to career_position due to lack of award indicators."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. While the event involves the University of Kent and Jisc, there is no explicit role mentioned for the individual."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quotes mention the University of Kent's participation in surveys and activities but do not clearly indicate an individual's role or position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing time marker, role, and location information. The event lacks critical details to establish its context and nature."
+          },
+          {
+            "type": "quote_support",
+            "severity": "medium",
+            "description": "Supporting quote mentions collaboration between organizations but does not provide information about an individual's role or position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classification as 'career_position' is uncertain due to the lack of role and time marker information."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

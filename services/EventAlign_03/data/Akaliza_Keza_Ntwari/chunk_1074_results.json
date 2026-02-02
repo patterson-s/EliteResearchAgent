@@ -1,0 +1,176 @@
+{
+  "status": "success",
+  "chunk_id": 1074,
+  "chunk_index": 11,
+  "source_url": "https://www.fondationbotnar.org/akaliza-keza-ntwari-writes-on-women-led-innovation/",
+  "title": "Akaliza Keza Ntwari writes on women-led innovation - Fondation Botnar",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "April 2024",
+          "type": "point",
+          "quotes": [
+            "Being launched different Requests for Proposals (RFP) in April 2024, inviting both youth-led organisations and innovators to develop solutions aligned with the priority areas set by country stakeholders."
+          ]
+        },
+        {
+          "text": "40 years ago",
+          "type": "point",
+          "quotes": [
+            "Earth is home to over 10,000 cities; 40 years ago, half of these didn’t exist, and many of the growing cities we see today are built and developed at a rapid pace."
+          ]
+        },
+        {
+          "text": "by 2030",
+          "type": "point",
+          "quotes": [
+            "75% of the places that will be urbanised by 2030 are yet to be built – this offers an enormous opportunity for everyone, especially for young people, to contribute to shaping their cities for generations to come."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Being Initiative",
+          "quotes": [
+            "These milestones represent a key moment for the Being Initiative.",
+            "Pictures by: the Being Initiative"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Being Youth Advisor",
+          "quotes": [
+            "Oriana Ortiz Parrao\nBeing Youth Advisor"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Rabat, Morocco",
+          "quotes": [
+            "The first Being Global Gathering in Rabat, Morocco, brought together mental health advocates, practitioners, researchers, and young leaders to exchange insights, address implementation challenges, and explore pathways to scale."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Oriana Ortiz Parrao\nBeing Youth Advisor",
+          "These milestones represent a key moment for the Being Initiative."
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker linked to the role, but the organization and role are clearly connected."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Being launched different Requests for Proposals (RFP) in April 2024, inviting both youth-led organisations and innovators to develop solutions aligned with the priority areas set by country stakeholders.",
+          "These milestones represent a key moment for the Being Initiative."
+        ],
+        "confidence": "high",
+        "notes": "The organization is clearly linked to the time marker, indicating an active initiative."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "The first Being Global Gathering in Rabat, Morocco, brought together mental health advocates, practitioners, researchers, and young leaders to exchange insights, address implementation challenges, and explore pathways to scale.",
+          "These milestones represent a key moment for the Being Initiative."
+        ],
+        "confidence": "medium",
+        "notes": "The organization and location are linked through the event, but no specific role or time marker is mentioned."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Location information is missing."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing role information for the career position."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Location information is missing."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing role and time marker information for the career position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event might be misclassified as a career_position since it describes an event rather than a role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

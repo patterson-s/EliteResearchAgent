@@ -1,0 +1,295 @@
+{
+  "status": "success",
+  "chunk_id": 1023,
+  "chunk_index": 7,
+  "source_url": "https://en.wikipedia.org/wiki/Carey_Mulligan",
+  "title": "Carey Mulligan - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "25 December 2020",
+          "type": "point",
+          "quotes": [
+            "Due to the COVID-19 pandemic, the film's release was delayed to 25 December 2020."
+          ]
+        },
+        {
+          "text": "2021",
+          "type": "point",
+          "quotes": [
+            "In 2021, Mulligan replaced Nicole Kidman in The Dig, a film about the events of the 1939 excavation of Sutton Hoo, co-starring Ralph Fiennes and Lily James."
+          ]
+        },
+        {
+          "text": "2022",
+          "type": "point",
+          "quotes": [
+            "Mulligan's sole release of 2022 was She Said, based on the non-fiction book of the same name."
+          ]
+        },
+        {
+          "text": "2023",
+          "type": "point",
+          "quotes": [
+            "Mulligan then starred as Felicia Montealegre in Bradley Cooper's directorial Maestro (2023), a biopic about the relationship between Montealegre and her husband Leonard Bernstein (played by Cooper)."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Academy Award",
+          "quotes": [
+            "For her performance, she received her second nomination for the Academy Award for Best Actress",
+            "For her portrayal of Montealegre, she received her third nomination for the Academy Award for Best Actress"
+          ]
+        },
+        {
+          "name": "Critics' Choice Movie Award",
+          "quotes": [
+            "For her performance, she received her second nomination for the Academy Award for Best Actress and won the Critics' Choice Movie Award for Best Actress, among many other accolades."
+          ]
+        },
+        {
+          "name": "Independent Spirit Awards",
+          "quotes": [
+            "After winning Best Female Lead at the 36th Independent Spirit Awards, Mulligan dedicated her award to the late Helen McCrory."
+          ]
+        },
+        {
+          "name": "Netflix",
+          "quotes": [
+            "It received a limited release in the United Kingdom, followed by a streaming release via Netflix.",
+            "Her next release was an adaptation of the science fiction novel Spaceman of Bohemia for Netflix, co-starring Adam Sandler."
+          ]
+        },
+        {
+          "name": "New York Times",
+          "quotes": [
+            "She portrayed Megan Twohey, one of the real-life New York Times reporters who broke the Harvey Weinstein scandal."
+          ]
+        },
+        {
+          "name": "Golden Globe",
+          "quotes": [
+            "For her performance, Mulligan received a Golden Globe nomination for Best Supporting Actress."
+          ]
+        },
+        {
+          "name": "The Hollywood Reporter",
+          "quotes": [
+            "David Rooney of The Hollywood Reporter particularly applauded Mulligan's 'heartbreaking' performance, adding that she 'has never been better.'"
+          ]
+        },
+        {
+          "name": "Variety",
+          "quotes": [
+            "She also played a small part in Fennell's second feature Saltburn, for which she was deemed a 'scene-stealer' by Variety."
+          ]
+        },
+        {
+          "name": "Berlin International Film Festival",
+          "quotes": [
+            "The film had its world premiere at the 74th Berlin International Film Festival, and received mostly mixed reviews."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "writer-director",
+          "quotes": [
+            "as 90%, with a critics consensus reading, 'A boldly provocative, timely thriller, Promising Young Woman is an auspicious feature debut for writer-director Emerald Fennell — and a career highlight for Carey Mulligan.'"
+          ]
+        },
+        {
+          "title": "Best Actress",
+          "quotes": [
+            "For her performance, she received her second nomination for the Academy Award for Best Actress and won the Critics' Choice Movie Award for Best Actress, among many other accolades."
+          ]
+        },
+        {
+          "title": "Best Female Lead",
+          "quotes": [
+            "After winning Best Female Lead at the 36th Independent Spirit Awards, Mulligan dedicated her award to the late Helen McCrory."
+          ]
+        },
+        {
+          "title": "Megan Twohey",
+          "quotes": [
+            "She portrayed Megan Twohey, one of the real-life New York Times reporters who broke the Harvey Weinstein scandal."
+          ]
+        },
+        {
+          "title": "Best Supporting Actress",
+          "quotes": [
+            "For her performance, Mulligan received a Golden Globe nomination for Best Supporting Actress."
+          ]
+        },
+        {
+          "title": "Felicia Montealegre",
+          "quotes": [
+            "Mulligan then starred as Felicia Montealegre in Bradley Cooper's directorial Maestro (2023), a biopic about the relationship between Montealegre and her husband Leonard Bernstein (played by Cooper)."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "United Kingdom",
+          "quotes": [
+            "It received a limited release in the United Kingdom, followed by a streaming release via Netflix."
+          ]
+        },
+        {
+          "place": "Sutton Hoo",
+          "quotes": [
+            "In 2021, Mulligan replaced Nicole Kidman in The Dig, a film about the events of the 1939 excavation of Sutton Hoo, co-starring Ralph Fiennes and Lily James."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "For her performance, she received her second nomination for the Academy Award for Best Actress and won the Critics' Choice Movie Award for Best Actress, among many other accolades."
+        ],
+        "confidence": "high",
+        "notes": "Clear award recognition for Best Actress."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "After winning Best Female Lead at the 36th Independent Spirit Awards, Mulligan dedicated her award to the late Helen McCrory."
+        ],
+        "confidence": "high",
+        "notes": "Clear award recognition for Best Female Lead."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "In 2021, Mulligan replaced Nicole Kidman in The Dig, a film about the events of the 1939 excavation of Sutton Hoo, co-starring Ralph Fiennes and Lily James."
+        ],
+        "confidence": "high",
+        "notes": "Clear acting role in a specific film."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Mulligan's sole release of 2022 was She Said, based on the non-fiction book of the same name.",
+          "She portrayed Megan Twohey, one of the real-life New York Times reporters who broke the Harvey Weinstein scandal."
+        ],
+        "confidence": "high",
+        "notes": "Clear acting role in a specific film, portraying a real-life character."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          5
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Mulligan then starred as Felicia Montealegre in Bradley Cooper's directorial Maestro (2023), a biopic about the relationship between Montealegre and her husband Leonard Bernstein (played by Cooper)."
+        ],
+        "confidence": "high",
+        "notes": "Clear acting role in a specific film."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing organization information for the film 'The Dig'."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information for the film 'She Said'."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information for the film 'Maestro'."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 2,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 2
+    }
+  }
+}

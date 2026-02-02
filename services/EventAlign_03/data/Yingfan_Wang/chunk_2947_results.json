@@ -1,0 +1,220 @@
+{
+  "status": "success",
+  "chunk_id": 2947,
+  "chunk_index": 0,
+  "source_url": "https://en.wikipedia.org/wiki/Wang_Yingfan",
+  "title": "Wang Yingfan - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "October 2000 – June 2003",
+          "type": "range",
+          "quotes": [
+            "In office\nOctober 2000 – June 2003"
+          ]
+        },
+        {
+          "text": "from 2000 to 2003",
+          "type": "range",
+          "quotes": [
+            "Wang Yingfan\n(\nChinese\n:\n王英凡\n; born April 1942) is a Chinese\ndiplomat\nwho served as\nPermanent Representative\nof China to the\nUnited Nations\nfrom 2000 to 2003."
+          ]
+        },
+        {
+          "text": "from 1985 to 1990",
+          "type": "range",
+          "quotes": [
+            "He was also the Chinese Ambassador to the\nPhilippines\nfrom 1985 to 1990."
+          ]
+        },
+        {
+          "text": "from 2003 to 2008",
+          "type": "range",
+          "quotes": [
+            "Wang was Vice-Chairman of the\nNational People's Congress Foreign Affairs Committee\nfrom 2003 to 2008."
+          ]
+        },
+        {
+          "text": "April 1942",
+          "type": "point",
+          "quotes": [
+            "Wang Yingfan\n(\nChinese\n:\n王英凡\n; born April 1942) is a Chinese\ndiplomat"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "United Nations",
+          "quotes": [
+            "Permanent Representative and Ambassador of China to the United Nations",
+            "Permanent Representative\nof China to the\nUnited Nations"
+          ]
+        },
+        {
+          "name": "National People's Congress Foreign Affairs Committee",
+          "quotes": [
+            "Wang was Vice-Chairman of the\nNational People's Congress Foreign Affairs Committee\nfrom 2003 to 2008."
+          ]
+        },
+        {
+          "name": "Chinese Communist Party",
+          "quotes": [
+            "Political party\nChinese Communist Party"
+          ]
+        },
+        {
+          "name": "Beijing Foreign Studies University",
+          "quotes": [
+            "Alma mater\nBeijing Foreign Studies University",
+            "Wang graduated from\nBeijing Foreign Studies University"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Permanent Representative of China to the United Nations",
+          "quotes": [
+            "Permanent Representative and Ambassador of China to the United Nations",
+            "Wang Yingfan\n(\nChinese\n:\n王英凡\n; born April 1942) is a Chinese\ndiplomat\nwho served as\nPermanent Representative\nof China to the\nUnited Nations\nfrom 2000 to 2003."
+          ]
+        },
+        {
+          "title": "Chinese Ambassador to the Philippines",
+          "quotes": [
+            "He was also the Chinese Ambassador to the\nPhilippines\nfrom 1985 to 1990."
+          ]
+        },
+        {
+          "title": "Vice-Chairman of the National People's Congress Foreign Affairs Committee",
+          "quotes": [
+            "Wang was Vice-Chairman of the\nNational People's Congress Foreign Affairs Committee\nfrom 2003 to 2008."
+          ]
+        },
+        {
+          "title": "diplomat",
+          "quotes": [
+            "Wang Yingfan\n(\nChinese\n:\n王英凡\n; born April 1942) is a Chinese\ndiplomat"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Inner-Mongolia Autonomous Region",
+          "quotes": [
+            "Born\n(\n1942-04-01\n)\nApril 1, 1942\n(\nage 83\n)\nInner-Mongolia Autonomous Region",
+            "Wang Yingfan was born in the\nInner-Mongolia Autonomous Region\nof the\nPeople's Republic of China"
+          ]
+        },
+        {
+          "place": "People's Republic of China",
+          "quotes": [
+            "Wang Yingfan was born in the\nInner-Mongolia Autonomous Region\nof the\nPeople's Republic of China"
+          ]
+        },
+        {
+          "place": "Philippines",
+          "quotes": [
+            "He was also the Chinese Ambassador to the\nPhilippines\nfrom 1985 to 1990."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In office\nOctober 2000 – June 2003",
+          "Wang Yingfan\n(\nChinese\n:\n王英凡\n; born April 1942) is a Chinese\ndiplomat\nwho served as\nPermanent Representative\nof China to the\nUnited Nations\nfrom 2000 to 2003.",
+          "Permanent Representative and Ambassador of China to the United Nations"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          3
+        ],
+        "supporting_quotes": [
+          "He was also the Chinese Ambassador to the\nPhilippines\nfrom 1985 to 1990."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Wang was Vice-Chairman of the\nNational People's Congress Foreign Affairs Committee\nfrom 2003 to 2008."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing organization information for the role of Chinese Ambassador to the Philippines."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 2,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

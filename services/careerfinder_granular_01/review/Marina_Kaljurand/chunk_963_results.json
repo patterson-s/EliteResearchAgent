@@ -1,0 +1,179 @@
+{
+  "status": "success",
+  "chunk_id": 963,
+  "chunk_index": 4,
+  "source_url": "http://www.womeninforeignpolicy.org/diplomacy/2018/1/30/marina-kaljurand-diplomat-estonia",
+  "title": "Marina Kaljurand — Women in Foreign Policy | #wifp",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "When I was a Consul in Finland, my husband took a paternity leave and stayed at home with Kristjan, our son, for a year.",
+          "type": "point",
+          "quotes": [
+            "When I was a Consul in Finland, my husband took a paternity leave and stayed at home with Kristjan, our son, for a year."
+          ]
+        },
+        {
+          "text": "In Washington DC and Moscow, I was by myself.",
+          "type": "point",
+          "quotes": [
+            "In Washington DC and Moscow, I was by myself."
+          ]
+        }
+      ],
+      "organizations": [],
+      "roles": [
+        {
+          "title": "Consul",
+          "quotes": [
+            "When I was a Consul in Finland, my husband took a paternity leave and stayed at home with Kristjan, our son, for a year."
+          ]
+        },
+        {
+          "title": "diplomat",
+          "quotes": [
+            "Also, today it is not only the diplomats, who have to balance family and work in a foreign country since numerous occupations require working abroad- be it in Finland or some other place.",
+            "Before the events in Moscow, you were a diplomat behind the scene; however, after Moscow, you became a public figure."
+          ]
+        },
+        {
+          "title": "public figure",
+          "quotes": [
+            "Before the events in Moscow, you were a diplomat behind the scene; however, after Moscow, you became a public figure."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Finland",
+          "quotes": [
+            "When I was a Consul in Finland, my husband took a paternity leave and stayed at home with Kristjan, our son, for a year.",
+            "Also, today it is not only the diplomats, who have to balance family and work in a foreign country since numerous occupations require working abroad- be it in Finland or some other place."
+          ]
+        },
+        {
+          "place": "Washington DC",
+          "quotes": [
+            "In Washington DC and Moscow, I was by myself."
+          ]
+        },
+        {
+          "place": "Moscow",
+          "quotes": [
+            "In Washington DC and Moscow, I was by myself.",
+            "Before the events in Moscow, you were a diplomat behind the scene; however, after Moscow, you became a public figure."
+          ]
+        },
+        {
+          "place": "the States and Russia",
+          "quotes": [
+            "However, I was ready to come back from the States and Russia in case it had not worked."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "When I was a Consul in Finland, my husband took a paternity leave and stayed at home with Kristjan, our son, for a year."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role (Consul) and location (Finland) with supporting quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          1,
+          2
+        ],
+        "supporting_quotes": [
+          "In Washington DC and Moscow, I was by myself.",
+          "Before the events in Moscow, you were a diplomat behind the scene; however, after Moscow, you became a public figure."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time marker, but clear linkage between role (diplomat) and locations (Washington DC and Moscow) with supporting quotes."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "Before the events in Moscow, you were a diplomat behind the scene; however, after Moscow, you became a public figure."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role (public figure) and location (Moscow) with supporting quote."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Role 'public figure' may not be a traditional career position, consider verifying classification."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

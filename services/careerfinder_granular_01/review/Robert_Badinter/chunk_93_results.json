@@ -1,0 +1,100 @@
+{
+  "status": "success",
+  "chunk_id": 93,
+  "chunk_index": 3,
+  "source_url": "https://www.theguardian.com/world/2024/feb/12/robert-badinter-obituary",
+  "title": "Robert Badinter obituary | France | The Guardian",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1966",
+          "type": "point",
+          "quotes": [
+            "whom he married in 1966"
+          ]
+        },
+        {
+          "text": "1957",
+          "type": "point",
+          "quotes": [
+            "His first marriage, in 1957, to the actor Édith Vignaud"
+          ]
+        }
+      ],
+      "organizations": [],
+      "roles": [
+        {
+          "title": "lawyer",
+          "quotes": [
+            "France mourns Robert Badinter, lawyer who fought to ban death penalty"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "France",
+          "quotes": [
+            "France mourns Robert Badinter, lawyer who fought to ban death penalty"
+          ]
+        },
+        {
+          "place": "Paris",
+          "quotes": [
+            "Explore more on these topics\nFrance\nCapital punishment\nLGBTQ+ rights\nParis\nNazism\nobituaries"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "France mourns Robert Badinter, lawyer who fought to ban death penalty"
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker or organization mentioned, but the role and location are clear. Assuming this is a career position based on the active role description."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and organization information, which are typically expected for career positions."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quote does not explicitly state a specific career position, only mentions the role of a lawyer in a general context."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

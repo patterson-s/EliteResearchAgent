@@ -1,0 +1,198 @@
+{
+  "status": "success",
+  "chunk_id": 2827,
+  "chunk_index": 46,
+  "source_url": "https://en.wikipedia.org/wiki/David_Cameron",
+  "title": "David Cameron - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "17 September 2010",
+          "type": "point",
+          "quotes": [
+            "a private ceremony for the funeral of his father on 17 September 2010 in Berkshire, which prevented him from hearing the address of Pope Benedict XVI"
+          ]
+        },
+        {
+          "text": "In 2012",
+          "type": "point",
+          "quotes": [
+            "In 2012 Cameron was criticised for leaving his daughter alone in a pub. Cameron had apparently left and forgotten her."
+          ]
+        },
+        {
+          "text": "In 2025",
+          "type": "point",
+          "quotes": [
+            "In 2025, Cameron revealed to The Sunday Times that the previous year he had been diagnosed with prostate cancer after his wife encouraged him to get tested."
+          ]
+        },
+        {
+          "text": "October 2010",
+          "type": "point",
+          "quotes": [
+            "In October 2010, Cameron inherited £300,000 from his father's estate."
+          ]
+        },
+        {
+          "text": "1982",
+          "type": "point",
+          "quotes": [
+            "In 1982, Ian Cameron created the Panamanian Blairmore Holdings, an offshore investment fund, valued at about $20 million in 1988, 'not liable to taxation on its income or capital gains', which used bearer shares until 2006."
+          ]
+        },
+        {
+          "text": "April 2016",
+          "type": "point",
+          "quotes": [
+            "In April 2016, following the Panama Papers financial documents leak, Cameron faced calls to resign, after it was revealed that he and his wife Samantha had invested in Ian Cameron's offshore fund."
+          ]
+        },
+        {
+          "text": "2010",
+          "type": "point",
+          "quotes": [
+            "He owned £31,500 of shares in the fund and sold them for a profit of £19,000 shortly before becoming prime minister in 2010, which he paid full UK tax on."
+          ]
+        },
+        {
+          "text": "April 2016",
+          "type": "point",
+          "quotes": [
+            "A protest was held in London in April 2016, demanding Cameron's resignation."
+          ]
+        },
+        {
+          "text": "2009",
+          "type": "point",
+          "quotes": [
+            "In 2009 the New Statesman estimated his wealth at £3.2 million, adding that Cameron is expected to inherit 'million-pound legacies' from both sides of his family."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "The Sunday Times",
+          "quotes": [
+            "In 2025, Cameron revealed to The Sunday Times that the previous year he had been diagnosed with prostate cancer after his wife encouraged him to get tested."
+          ]
+        },
+        {
+          "name": "Blairmore Holdings",
+          "quotes": [
+            "In 1982, Ian Cameron created the Panamanian Blairmore Holdings, an offshore investment fund, valued at about $20 million in 1988, 'not liable to taxation on its income or capital gains', which used bearer shares until 2006."
+          ]
+        },
+        {
+          "name": "New Statesman",
+          "quotes": [
+            "In 2009 the New Statesman estimated his wealth at £3.2 million, adding that Cameron is expected to inherit 'million-pound legacies' from both sides of his family."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "prime minister",
+          "quotes": [
+            "He owned £31,500 of shares in the fund and sold them for a profit of £19,000 shortly before becoming prime minister in 2010, which he paid full UK tax on."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Berkshire",
+          "quotes": [
+            "a private ceremony for the funeral of his father on 17 September 2010 in Berkshire, which prevented him from hearing the address of Pope Benedict XVI"
+          ]
+        },
+        {
+          "place": "Westminster Hall",
+          "quotes": [
+            "a private ceremony for the funeral of his father on 17 September 2010 in Berkshire, which prevented him from hearing the address of Pope Benedict XVI in Westminster Hall, an occasion he would otherwise have attended."
+          ]
+        },
+        {
+          "place": "the City of London",
+          "quotes": [
+            "Ian Cameron, who had worked as a stockbroker in the City of London, used multimillion-pound investment funds based in offshore tax havens, such as Jersey, Panama City and Geneva, to increase the family wealth."
+          ]
+        },
+        {
+          "place": "Jersey",
+          "quotes": [
+            "Ian Cameron, who had worked as a stockbroker in the City of London, used multimillion-pound investment funds based in offshore tax havens, such as Jersey, Panama City and Geneva, to increase the family wealth."
+          ]
+        },
+        {
+          "place": "Panama City",
+          "quotes": [
+            "Ian Cameron, who had worked as a stockbroker in the City of London, used multimillion-pound investment funds based in offshore tax havens, such as Jersey, Panama City and Geneva, to increase the family wealth."
+          ]
+        },
+        {
+          "place": "Geneva",
+          "quotes": [
+            "Ian Cameron, who had worked as a stockbroker in the City of London, used multimillion-pound investment funds based in offshore tax havens, such as Jersey, Panama City and Geneva, to increase the family wealth."
+          ]
+        },
+        {
+          "place": "London",
+          "quotes": [
+            "A protest was held in London in April 2016, demanding Cameron's resignation."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          6
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He owned £31,500 of shares in the fund and sold them for a profit of £19,000 shortly before becoming prime minister in 2010, which he paid full UK tax on."
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of becoming prime minister in 2010."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location information for the career position."
+          },
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "Time marker is only a year (2010), lacking specific start and end dates for the position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "status": "success",
+  "chunk_id": 2766,
+  "chunk_index": 22,
+  "source_url": "https://achievement.org/achiever/ellen-johnson-sirleaf/",
+  "title": "Ellen Johnson Sirleaf | Academy of Achievement",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "University of Wisconsin",
+          "quotes": [
+            "He was an agriculturalist. As a matter of fact, he had come back from the University of Wisconsin, where he’d done work in agriculture, and that’s how we got married.",
+            "That’s when I went back to college, and he went back to do graduate work, again at the University of Wisconsin."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "housewife",
+          "quotes": [
+            "And with four children born successively almost every year, I became a housewife very fast."
+          ]
+        },
+        {
+          "title": "agriculturalist",
+          "quotes": [
+            "He was an agriculturalist. As a matter of fact, he had come back from the University of Wisconsin, where he’d done work in agriculture, and that’s how we got married."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Africa",
+          "quotes": [
+            "Fortunately we have, in Africa, the extended family system."
+          ]
+        },
+        {
+          "place": "United States",
+          "quotes": [
+            "No, no, no. Fortunately we have, in Africa, the extended family system. There’s no way we both could have gone to school in the U.S. with four young children."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "He was an agriculturalist. As a matter of fact, he had come back from the University of Wisconsin, where he’d done work in agriculture, and that’s how we got married.",
+          "That’s when I went back to college, and he went back to do graduate work, again at the University of Wisconsin."
+        ],
+        "confidence": "high",
+        "notes": "The role of agriculturalist is clearly linked to the University of Wisconsin through the provided quotes."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "And with four children born successively almost every year, I became a housewife very fast.",
+          "Fortunately we have, in Africa, the extended family system."
+        ],
+        "confidence": "medium",
+        "notes": "The role of housewife is mentioned in the context of having children and living in Africa, but there is no direct link to an organization or specific time marker."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the career position at the University of Wisconsin."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization, time markers, and location for the housewife role, though location is inferable from context."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The role of 'housewife' may not always be considered a career position, depending on context."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

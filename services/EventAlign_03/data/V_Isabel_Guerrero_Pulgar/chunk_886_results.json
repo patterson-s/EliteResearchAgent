@@ -1,0 +1,93 @@
+{
+  "status": "success",
+  "chunk_id": 886,
+  "chunk_index": 29,
+  "source_url": "https://www.un.org/digital-emerging-technologies/sites/www.un.org.techenvoy/files/hlp_on_digital_cooperation-report_final.pdf",
+  "title": "hlp_on_digital_cooperation-report_final.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2016",
+          "type": "point",
+          "quotes": [
+            "Societies around the world debate these questions heatedly when hard cases come to light, such as Apple’s 2016 refusal of the United States Federal Bureau of Investigation (FBI)’s request"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "UN",
+          "quotes": [
+            "UN Secretary-General António Guterres has called for a ban on machines with the power and discretion to take lives without human involvement"
+          ]
+        },
+        {
+          "name": "United States Federal Bureau of Investigation (FBI)",
+          "quotes": [
+            "Societies around the world debate these questions heatedly when hard cases come to light, such as Apple’s 2016 refusal of the United States Federal Bureau of Investigation (FBI)’s request"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "UN Secretary-General",
+          "quotes": [
+            "UN Secretary-General António Guterres has called for a ban on machines with the power and discretion to take lives without human involvement"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "UN Secretary-General António Guterres has called for a ban on machines with the power and discretion to take lives without human involvement"
+        ],
+        "confidence": "high",
+        "notes": "The role of UN Secretary-General is clearly a career position with active responsibilities."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position event."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quote does not explicitly mention the start or duration of the role, only a statement made by the UN Secretary-General."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

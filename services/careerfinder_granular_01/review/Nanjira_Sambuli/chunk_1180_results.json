@@ -1,0 +1,132 @@
+{
+  "status": "success",
+  "chunk_id": 1180,
+  "chunk_index": 0,
+  "source_url": "https://www.diplomacy.edu/people/nanjira-sambuli/",
+  "title": "Nanjira Sambuli – Diplo",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "15 Dec 21 - 15 Dec 21",
+          "type": "range",
+          "quotes": [
+            "Technology for Development\n15 Dec 21 - 15 Dec 21\nOnline"
+          ]
+        },
+        {
+          "text": "26 Mar 20 -",
+          "type": "open",
+          "quotes": [
+            "Technology and human rights in times of crisis\n26 Mar 20 -\nOnline"
+          ]
+        },
+        {
+          "text": "09 Apr, 2020",
+          "type": "point",
+          "quotes": [
+            "09 Apr, 2020\n2024\nGlobal governance of digital technologies: A contemporary diplomacy challenge"
+          ]
+        },
+        {
+          "text": "2024",
+          "type": "point",
+          "quotes": [
+            "09 Apr, 2020\n2024\nGlobal governance of digital technologies: A contemporary diplomacy challenge"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Diplo",
+          "quotes": [
+            "Nanjira Sambuli – Diplo",
+            "The latest from Diplo and GIP",
+            "Diplo: Effective and inclusive diplomacy",
+            "Diplo is a non-profit foundation established by the governments of Malta and Switzerland."
+          ]
+        },
+        {
+          "name": "Geneva Internet Platform",
+          "quotes": [
+            "The latest from Diplo and GIP"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Researcher",
+          "quotes": [
+            "A researcher, policy analyst, and advocacy strategist who works to understand the intersection of information and communications technology (ICT) adoption with governance, media, entrepreneurship, and culture through a gender lens."
+          ]
+        },
+        {
+          "title": "policy analyst",
+          "quotes": [
+            "A researcher, policy analyst, and advocacy strategist who works to understand the intersection of information and communications technology (ICT) adoption with governance, media, entrepreneurship, and culture through a gender lens."
+          ]
+        },
+        {
+          "title": "advocacy strategist",
+          "quotes": [
+            "A researcher, policy analyst, and advocacy strategist who works to understand the intersection of information and communications technology (ICT) adoption with governance, media, entrepreneurship, and culture through a gender lens."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0,
+          1,
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "A researcher, policy analyst, and advocacy strategist who works to understand the intersection of information and communications technology (ICT) adoption with governance, media, entrepreneurship, and culture through a gender lens.",
+          "Nanjira Sambuli – Diplo"
+        ],
+        "confidence": "high",
+        "notes": "No specific time markers provided, but roles and organization are clearly linked."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the career position, making it difficult to determine the duration or timeframe of the roles."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "No location information provided, though this may be less critical for roles that are not tied to a specific geographic location."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

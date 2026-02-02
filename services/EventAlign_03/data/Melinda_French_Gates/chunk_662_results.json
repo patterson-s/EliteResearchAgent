@@ -1,0 +1,119 @@
+{
+  "status": "success",
+  "chunk_id": 662,
+  "chunk_index": 4,
+  "source_url": "https://www.linkedin.com/in/melindagates",
+  "title": "Melinda French Gates - Founder of Pivotal. Co-founder of the Gates Foundation. Author of The Moment of Lift & The Next Day. | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "Last year",
+          "type": "point",
+          "quotes": [
+            "Last year, Pivotal Ventures partnered with Lever for Change to launch Action for Women’s Health, a $250 million open call to organizations working to…"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Flatiron Books",
+          "quotes": [
+            "In this candid and inspiring book from Flatiron Books, Melinda traces her awakening to the link between women’s empowerment and the health of societies."
+          ]
+        },
+        {
+          "name": "Pivotal Ventures",
+          "quotes": [
+            "Last year, Pivotal Ventures partnered with Lever for Change to launch Action for Women’s Health, a $250 million open call to organizations working to…"
+          ]
+        },
+        {
+          "name": "Lever for Change",
+          "quotes": [
+            "Last year, Pivotal Ventures partnered with Lever for Change to launch Action for Women’s Health, a $250 million open call to organizations working to…"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "one of the world’s foremost advocates for women",
+          "quotes": [
+            "A personal statement of passionate conviction, this book tells of Melinda’s journey from a partner working behind the scenes to one of the world’s foremost advocates for women, driven by the belief that no one should be excluded, all lives have equal value, and gender equity is the lever that lifts everything."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          1,
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Last year, Pivotal Ventures partnered with Lever for Change to launch Action for Women’s Health, a $250 million open call to organizations working to…"
+        ],
+        "confidence": "medium",
+        "notes": "While the role is not explicitly stated, the partnership between Pivotal Ventures and Lever for Change implies an active collaboration, likely involving leadership or strategic responsibilities. The absence of a specific role title makes the classification slightly uncertain."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "A personal statement of passionate conviction, this book tells of Melinda’s journey from a partner working behind the scenes to one of the world’s foremost advocates for women, driven by the belief that no one should be excluded, all lives have equal value, and gender equity is the lever that lifts everything."
+        ],
+        "confidence": "high",
+        "notes": "The role of 'one of the world’s foremost advocates for women' is clearly a career position, as it describes an ongoing advocacy role with active responsibilities."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role_ids and location_ids, making the event less informative."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classification as career_position is uncertain due to the absence of a specific role title."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,369 @@
+{
+  "status": "success",
+  "chunk_id": 3900,
+  "chunk_index": 2,
+  "source_url": "https://alchetron.com/Louis-Michel",
+  "title": "Louis Michel - Alchetron, The Free Social Encyclopedia",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1999–2004",
+          "type": "range",
+          "quotes": [
+            "Michel has been interested in the Central Africa situation and busy with the Democratic Republic of the Congo dossier since he became Belgian Minister of Foreign Affairs (1999–2004)"
+          ]
+        },
+        {
+          "text": "2001",
+          "type": "point",
+          "quotes": [
+            "Many rumours accuse Louis Michel of having used Joseph Kabila as a puppet since his father was murdered in 2001"
+          ]
+        },
+        {
+          "text": "1908 and 1960",
+          "type": "range",
+          "quotes": [
+            "Congo was a Belgian colony between 1908 and 1960"
+          ]
+        },
+        {
+          "text": "1960s",
+          "type": "point",
+          "quotes": [
+            "They have included such events as the secession of Katanga backed by Belgium, the murder of the Prime Minister Lumumba by the Belgian secret services, the expulsion of the Belgian ambassador in the 1960s"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Barroso Commission",
+          "quotes": [
+            "Michel has been interested in the Central Africa situation and busy with the Democratic Republic of the Congo dossier since he became Belgian Minister of Foreign Affairs (1999–2004) and European Commissioner in charge of the Development & Humanitarian Aid in the Barroso Commission"
+          ]
+        },
+        {
+          "name": "Order of Orange-Nassau",
+          "quotes": [
+            "Knight Grand Cross in the Order of Orange-Nassau"
+          ]
+        },
+        {
+          "name": "Order of Isabella the Catholic",
+          "quotes": [
+            "Knight Grand Cross in the Order of Isabella the Catholic"
+          ]
+        },
+        {
+          "name": "Order of the Dannebrog",
+          "quotes": [
+            "Knight Grand Cross in the Order of the Dannebrog"
+          ]
+        },
+        {
+          "name": "Order of the Star of Romania",
+          "quotes": [
+            "Knight Grand-Cross in the Order of the Star of Romania"
+          ]
+        },
+        {
+          "name": "Order of the Pléiade (Ordre de la Francophonie et du dialogue des cultures)",
+          "quotes": [
+            "Grand officer in the Order of the Pléiade (Ordre de la Francophonie et du dialogue des cultures; that is, 'Order of the Francophonie and of the dialogue of cultures')"
+          ]
+        },
+        {
+          "name": "Légion d'honneur",
+          "quotes": [
+            "Grand Officer in the Légion d'honneur"
+          ]
+        },
+        {
+          "name": "Ordre du Mérite",
+          "quotes": [
+            "Grand Cordon de l'ordre du Mérite"
+          ]
+        },
+        {
+          "name": "Ordre 'Stara Planina'",
+          "quotes": [
+            "Ordre 'Stara Planina' de 1ère classe"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Belgian Minister of Foreign Affairs",
+          "quotes": [
+            "Michel has been interested in the Central Africa situation and busy with the Democratic Republic of the Congo dossier since he became Belgian Minister of Foreign Affairs (1999–2004)"
+          ]
+        },
+        {
+          "title": "European Commissioner in charge of the Development & Humanitarian Aid",
+          "quotes": [
+            "Michel has been interested in the Central Africa situation and busy with the Democratic Republic of the Congo dossier since he became Belgian Minister of Foreign Affairs (1999–2004) and European Commissioner in charge of the Development & Humanitarian Aid in the Barroso Commission"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Democratic Republic of the Congo",
+          "quotes": [
+            "Michel has been interested in the Central Africa situation and busy with the Democratic Republic of the Congo dossier since he became Belgian Minister of Foreign Affairs (1999–2004)"
+          ]
+        },
+        {
+          "place": "Brussels",
+          "quotes": [
+            "Since then, the relations between Brussels and Kinshasa have been tumultuous"
+          ]
+        },
+        {
+          "place": "Kinshasa",
+          "quotes": [
+            "Since then, the relations between Brussels and Kinshasa have been tumultuous"
+          ]
+        },
+        {
+          "place": "Katanga",
+          "quotes": [
+            "They have included such events as the secession of Katanga backed by Belgium"
+          ]
+        },
+        {
+          "place": "Central Africa",
+          "quotes": [
+            "Michel has been interested in the Central Africa situation and busy with the Democratic Republic of the Congo dossier since he became Belgian Minister of Foreign Affairs (1999–2004)"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0,
+          4
+        ],
+        "supporting_quotes": [
+          "Michel has been interested in the Central Africa situation and busy with the Democratic Republic of the Congo dossier since he became Belgian Minister of Foreign Affairs (1999–2004)"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role, time, and locations based on the quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0,
+          4
+        ],
+        "supporting_quotes": [
+          "Michel has been interested in the Central Africa situation and busy with the Democratic Republic of the Congo dossier since he became Belgian Minister of Foreign Affairs (1999–2004) and European Commissioner in charge of the Development & Humanitarian Aid in the Barroso Commission"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role, organization, time, and locations based on the quote."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Knight Grand Cross in the Order of Orange-Nassau"
+        ],
+        "confidence": "high",
+        "notes": "Clearly an award with no associated time marker or location."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Knight Grand Cross in the Order of Isabella the Catholic"
+        ],
+        "confidence": "high",
+        "notes": "Clearly an award with no associated time marker or location."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Knight Grand Cross in the Order of the Dannebrog"
+        ],
+        "confidence": "high",
+        "notes": "Clearly an award with no associated time marker or location."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Knight Grand-Cross in the Order of the Star of Romania"
+        ],
+        "confidence": "high",
+        "notes": "Clearly an award with no associated time marker or location."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Grand officer in the Order of the Pléiade (Ordre de la Francophonie et du dialogue des cultures; that is, 'Order of the Francophonie and of the dialogue of cultures')"
+        ],
+        "confidence": "high",
+        "notes": "Clearly an award with no associated time marker or location."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          6
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Grand Officer in the Légion d'honneur"
+        ],
+        "confidence": "high",
+        "notes": "Clearly an award with no associated time marker or location."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          7
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Grand Cordon de l'ordre du Mérite"
+        ],
+        "confidence": "high",
+        "notes": "Clearly an award with no associated time marker or location."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          8
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Ordre 'Stara Planina' de 1ère classe"
+        ],
+        "confidence": "high",
+        "notes": "Clearly an award with no associated time marker or location."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 4,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 5,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 6,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 7,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 8,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 9,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 10,
+      "valid": 9,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 8
+    }
+  }
+}

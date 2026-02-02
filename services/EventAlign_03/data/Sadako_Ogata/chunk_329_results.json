@@ -1,0 +1,270 @@
+{
+  "status": "success",
+  "chunk_id": 329,
+  "chunk_index": 1,
+  "source_url": "https://humanities.wustl.edu/news/japans-five-foot-giant-international-relations",
+  "title": "Japan’s “five-foot giant” of international relations | Center for the Humanities",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In 1960",
+          "type": "point",
+          "quotes": [
+            "In 1960, Ogata married Ogata Shijūrō (1927–2014), a deputy governor of the Bank of Japan."
+          ]
+        },
+        {
+          "text": "in 1991",
+          "type": "point",
+          "quotes": [
+            "Ogata was working as a professor of international relations and dean at Sophia University in Tokyo when the General Assembly approved her appointment as UNHCR in 1991."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Japan International Cooperation Agency (JICA)",
+          "quotes": [
+            "of the Japan International Cooperation Agency (JICA), which is the organization that distributes Japan’s foreign aid."
+          ]
+        },
+        {
+          "name": "Bank of Japan",
+          "quotes": [
+            "In 1960, Ogata married Ogata Shijūrō (1927–2014), a deputy governor of the Bank of Japan."
+          ]
+        },
+        {
+          "name": "UNHCR",
+          "quotes": [
+            "Ogata as UNHCR is one example.",
+            "Ogata was working as a professor of international relations and dean at Sophia University in Tokyo when the General Assembly approved her appointment as UNHCR in 1991."
+          ]
+        },
+        {
+          "name": "International Criminal Court",
+          "quotes": [
+            "Others include Tomoko Akane, president of the International Criminal Court,"
+          ]
+        },
+        {
+          "name": "United Nations",
+          "quotes": [
+            "and Izumi Nakamitsu, under-secretary-general of the United Nations."
+          ]
+        },
+        {
+          "name": "Sophia University",
+          "quotes": [
+            "Ogata was working as a professor of international relations and dean at Sophia University in Tokyo when the General Assembly approved her appointment as UNHCR in 1991."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "UNHCR",
+          "quotes": [
+            "Ogata as UNHCR is one example.",
+            "Ogata was working as a professor of international relations and dean at Sophia University in Tokyo when the General Assembly approved her appointment as UNHCR in 1991."
+          ]
+        },
+        {
+          "title": "president of the International Criminal Court",
+          "quotes": [
+            "Others include Tomoko Akane, president of the International Criminal Court,"
+          ]
+        },
+        {
+          "title": "under-secretary-general of the United Nations",
+          "quotes": [
+            "and Izumi Nakamitsu, under-secretary-general of the United Nations."
+          ]
+        },
+        {
+          "title": "professor of international relations and dean",
+          "quotes": [
+            "Ogata was working as a professor of international relations and dean at Sophia University in Tokyo when the General Assembly approved her appointment as UNHCR in 1991."
+          ]
+        },
+        {
+          "title": "deputy governor of the Bank of Japan",
+          "quotes": [
+            "In 1960, Ogata married Ogata Shijūrō (1927–2014), a deputy governor of the Bank of Japan."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Japan",
+          "quotes": [
+            "One of those puzzles is how a woman from Japan rose to the pinnacle of several professions.",
+            "International organizations that seek to advance women have found competent leaders from Japan."
+          ]
+        },
+        {
+          "place": "Tokyo",
+          "quotes": [
+            "Ogata was working as a professor of international relations and dean at Sophia University in Tokyo when the General Assembly approved her appointment as UNHCR in 1991."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Ogata was working as a professor of international relations and dean at Sophia University in Tokyo when the General Assembly approved her appointment as UNHCR in 1991."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Ogata was working as a professor of international relations and dean at Sophia University in Tokyo when the General Assembly approved her appointment as UNHCR in 1991.",
+          "Ogata as UNHCR is one example."
+        ],
+        "confidence": "high",
+        "notes": "UNHCR appointment is clearly a career position, linked to the time marker 1991."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Others include Tomoko Akane, president of the International Criminal Court,"
+        ],
+        "confidence": "medium",
+        "notes": "No time marker, but role and organization are clear. Assumed to be a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "and Izumi Nakamitsu, under-secretary-general of the United Nations."
+        ],
+        "confidence": "medium",
+        "notes": "No time marker, but role and organization are clear. Assumed to be a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 1960, Ogata married Ogata Shijūrō (1927–2014), a deputy governor of the Bank of Japan."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role, though it pertains to Ogata's spouse. Included for completeness."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "UNHCR appointment might be better classified as an award if it's a one-time recognition, but it's kept as career_position based on provided context."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the event, making temporal coherence verification impossible."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the event, making temporal coherence verification impossible."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "error",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "high",
+            "description": "The event describes the spouse's career position, not the subject's. Misclassified as subject's career_position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 1,
+      "warnings": 3,
+      "errors": 1,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

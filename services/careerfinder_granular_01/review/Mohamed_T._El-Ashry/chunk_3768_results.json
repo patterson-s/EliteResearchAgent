@@ -1,0 +1,207 @@
+{
+  "status": "success",
+  "chunk_id": 3768,
+  "chunk_index": 2,
+  "source_url": "https://en.wikipedia.org/wiki/Mohamed_T._El-Ashry",
+  "title": "Mohamed T. El-Ashry - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2000-08-22",
+          "type": "point",
+          "quotes": [
+            "T.; Tribune, International Herald (2000-08-22)."
+          ]
+        },
+        {
+          "text": "2015-11-05",
+          "type": "point",
+          "quotes": [
+            "\"The Renewable Energy Era Has Already Started\" . New Security Beat . 2015-11-05 ."
+          ]
+        },
+        {
+          "text": "2012",
+          "type": "point",
+          "quotes": [
+            "El-Ashry, Mohamed T. (2012)."
+          ]
+        },
+        {
+          "text": "2022-11-27",
+          "type": "point",
+          "quotes": [
+            "Retrieved 2022-11-27."
+          ]
+        },
+        {
+          "text": "2022-11-23",
+          "type": "point",
+          "quotes": [
+            "World Wildlife Fund . Retrieved 2022-11-23."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "The New York Times",
+          "quotes": [
+            "The New York Times ."
+          ]
+        },
+        {
+          "name": "New Security Beat",
+          "quotes": [
+            "New Security Beat ."
+          ]
+        },
+        {
+          "name": "Daedalus",
+          "quotes": [
+            "Daedalus ."
+          ]
+        },
+        {
+          "name": "World Wildlife Fund",
+          "quotes": [
+            "World Wildlife Fund ."
+          ]
+        },
+        {
+          "name": "TWAS",
+          "quotes": [
+            "TWAS ."
+          ]
+        },
+        {
+          "name": "United Nations Secretariat",
+          "quotes": [
+            "United Nations Secretariat to the High Level Panel on System-wide Coherence ."
+          ]
+        },
+        {
+          "name": "American Academy of Arts & Sciences",
+          "quotes": [
+            "American Academy of Arts & Sciences ."
+          ]
+        },
+        {
+          "name": "University of Illinois",
+          "quotes": [
+            "University of Illinois alumni ."
+          ]
+        },
+        {
+          "name": "Cairo University",
+          "quotes": [
+            "Cairo University alumni ."
+          ]
+        },
+        {
+          "name": "African Academy of Sciences",
+          "quotes": [
+            "Fellows of the African Academy of Sciences ."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Leaders",
+          "quotes": [
+            "Mohamed T. El-Ashry | Leaders | WWF ."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Egypt",
+          "quotes": [
+            "Egyptian academics .",
+            "Egyptian scientists ."
+          ]
+        },
+        {
+          "place": "United States",
+          "quotes": [
+            "University of Illinois alumni ."
+          ]
+        },
+        {
+          "place": "Netherlands",
+          "quotes": [
+            "Netherlands ."
+          ]
+        },
+        {
+          "place": "Norway",
+          "quotes": [
+            "Norway ."
+          ]
+        },
+        {
+          "place": "Croatia",
+          "quotes": [
+            "Croatia ."
+          ]
+        },
+        {
+          "place": "Israel",
+          "quotes": [
+            "Israel ."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Mohamed T. El-Ashry | Leaders | WWF ."
+        ],
+        "confidence": "high",
+        "notes": "Role and organization are clearly linked, but no time marker is available."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position, making temporal placement uncertain."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quote does not clearly specify the role or responsibilities, only mentions 'Leaders' without context."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

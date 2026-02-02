@@ -1,0 +1,179 @@
+{
+  "status": "success",
+  "chunk_id": 625,
+  "chunk_index": 0,
+  "source_url": "https://www.atlanticcouncil.org/programs/scowcroft-center-for-strategy-and-security/about-brent-scowcroft/",
+  "title": "About Brent Scowcroft - Atlantic Council",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In the early days of the Cold War",
+          "type": "point",
+          "quotes": [
+            "In the early days of the Cold War, Scowcroft was a leading advocate for strong transatlantic cooperation as a means to preserve peace and security."
+          ]
+        },
+        {
+          "text": "When the Cold War abruptly ended in 1989",
+          "type": "point",
+          "quotes": [
+            "When the Cold War abruptly ended in 1989, he made it his life’s work to preserve and advance that same system of international cooperation, democracy, and human dignity that unites the Atlantic community."
+          ]
+        },
+        {
+          "text": "In 1961",
+          "type": "point",
+          "quotes": [
+            "‘In 1961, the Council’s founders—those ‘present at the creation’ of our international rules-based system, joined forces across party lines and among disparate organizations to form the Atlantic Council,’ said Scowcroft."
+          ]
+        },
+        {
+          "text": "The Atlantic Council in 2012",
+          "type": "point",
+          "quotes": [
+            "The Atlantic Council in 2012 honored Scowcroft’s legacy by relaunching its flagship international security program as the Brent Scowcroft Center on International Security."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Atlantic Council",
+          "quotes": [
+            "The Atlantic Council in 2012 honored Scowcroft’s legacy by relaunching its flagship international security program as the Brent Scowcroft Center on International Security.",
+            "‘In 1961, the Council’s founders—those ‘present at the creation’ of our international rules-based system, joined forces across party lines and among disparate organizations to form the Atlantic Council,’ said Scowcroft."
+          ]
+        },
+        {
+          "name": "Brent Scowcroft Center on International Security",
+          "quotes": [
+            "The Atlantic Council in 2012 honored Scowcroft’s legacy by relaunching its flagship international security program as the Brent Scowcroft Center on International Security."
+          ]
+        },
+        {
+          "name": "Scowcroft Center for Strategy and Security",
+          "quotes": [
+            "The Atlantic Council in 2012 honored Scowcroft’s legacy by relaunching its flagship international security program as the Brent Scowcroft Center on International Security, recently re-envisioned as the Scowcroft Center for Strategy and Security."
+          ]
+        },
+        {
+          "name": "USAF",
+          "quotes": [
+            "Lt. Gen. Brent Scowcroft USAF (ret.)"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Lt. Gen.",
+          "quotes": [
+            "Over the course of Lt. Gen. Brent Scowcroft’s career in public service, he developed a reputation as a source of balanced, bipartisan analysis that made him a sought-after voice on national security for commanders-in-chief of both parties.",
+            "Lt. Gen. Brent Scowcroft USAF (ret.)"
+          ]
+        },
+        {
+          "title": "a leading advocate for strong transatlantic cooperation",
+          "quotes": [
+            "In the early days of the Cold War, Scowcroft was a leading advocate for strong transatlantic cooperation as a means to preserve peace and security."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In the early days of the Cold War, Scowcroft was a leading advocate for strong transatlantic cooperation as a means to preserve peace and security."
+        ],
+        "confidence": "high",
+        "notes": "Role clearly indicates an active position during the early Cold War."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The Atlantic Council in 2012 honored Scowcroft’s legacy by relaunching its flagship international security program as the Brent Scowcroft Center on International Security."
+        ],
+        "confidence": "high",
+        "notes": "The renaming of the center is a clear honor/award, not an active role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Lt. Gen. Brent Scowcroft USAF (ret.)",
+          "Over the course of Lt. Gen. Brent Scowcroft’s career in public service, he developed a reputation as a source of balanced, bipartisan analysis that made him a sought-after voice on national security for commanders-in-chief of both parties."
+        ],
+        "confidence": "high",
+        "notes": "Military rank and service clearly indicate a career position, though no specific time marker is provided."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location information."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "Missing time marker for the career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 1
+    }
+  }
+}

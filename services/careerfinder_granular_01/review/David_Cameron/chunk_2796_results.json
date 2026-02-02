@@ -1,0 +1,297 @@
+{
+  "status": "success",
+  "chunk_id": 2796,
+  "chunk_index": 15,
+  "source_url": "https://en.wikipedia.org/wiki/David_Cameron",
+  "title": "David Cameron - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "February 2006",
+          "type": "point",
+          "quotes": [
+            "Hague, assisted by Davis, stood in for Cameron during his paternity leave in February 2006."
+          ]
+        },
+        {
+          "text": "June 2008",
+          "type": "point",
+          "quotes": [
+            "In June 2008 Davis announced his intention to resign as an MP, and was immediately replaced as shadow home secretary by Dominic Grieve;"
+          ]
+        },
+        {
+          "text": "from 1999 until 2010",
+          "type": "range",
+          "quotes": [
+            "Theresa May, who was a member of the Shadow Cabinet from 1999 until 2010"
+          ]
+        },
+        {
+          "text": "January 2009",
+          "type": "point",
+          "quotes": [
+            "A reshuffle of the Shadow Cabinet was undertaken in January 2009, with the chief change being the appointment of former Chancellor of the Exchequer Kenneth Clarke as Shadow Business, Enterprise and Regulatory Reform Secretary."
+          ]
+        },
+        {
+          "text": "2005",
+          "type": "point",
+          "quotes": [
+            "During his successful 2005 campaign to be elected leader of the Conservative Party, Cameron pledged that the Conservative Party's members of the European Parliament would leave the European People's Party group,"
+          ]
+        },
+        {
+          "text": "July 2006",
+          "type": "point",
+          "quotes": [
+            "in July 2006, he concluded an agreement to form the Movement for European Reform with the Czech Civic Democratic Party,"
+          ]
+        },
+        {
+          "text": "2009",
+          "type": "point",
+          "quotes": [
+            "leading to the formation of a new European Parliament group, the European Conservatives and Reformists, in 2009 after the European Parliament elections."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Conservative Party",
+          "quotes": [
+            "During his successful 2005 campaign to be elected leader of the Conservative Party, Cameron pledged that the Conservative Party's members of the European Parliament would leave the European People's Party group,"
+          ]
+        },
+        {
+          "name": "European Parliament",
+          "quotes": [
+            "During his successful 2005 campaign to be elected leader of the Conservative Party, Cameron pledged that the Conservative Party's members of the European Parliament would leave the European People's Party group,"
+          ]
+        },
+        {
+          "name": "European People's Party",
+          "quotes": [
+            "During his successful 2005 campaign to be elected leader of the Conservative Party, Cameron pledged that the Conservative Party's members of the European Parliament would leave the European People's Party group,"
+          ]
+        },
+        {
+          "name": "Movement for European Reform",
+          "quotes": [
+            "in July 2006, he concluded an agreement to form the Movement for European Reform with the Czech Civic Democratic Party,"
+          ]
+        },
+        {
+          "name": "Civic Democratic Party",
+          "quotes": [
+            "in July 2006, he concluded an agreement to form the Movement for European Reform with the Czech Civic Democratic Party,"
+          ]
+        },
+        {
+          "name": "European Conservatives and Reformists",
+          "quotes": [
+            "leading to the formation of a new European Parliament group, the European Conservatives and Reformists, in 2009 after the European Parliament elections."
+          ]
+        },
+        {
+          "name": "Shadow Cabinet",
+          "quotes": [
+            "Theresa May, who was a member of the Shadow Cabinet from 1999 until 2010"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "shadow chancellor of the Exchequer",
+          "quotes": [
+            "both George Osborne and David Davis were retained, as shadow chancellor of the Exchequer and Shadow Home Secretary, respectively."
+          ]
+        },
+        {
+          "title": "Shadow Home Secretary",
+          "quotes": [
+            "both George Osborne and David Davis were retained, as shadow chancellor of the Exchequer and Shadow Home Secretary, respectively."
+          ]
+        },
+        {
+          "title": "Shadow Business, Enterprise and Regulatory Reform Secretary",
+          "quotes": [
+            "the chief change being the appointment of former Chancellor of the Exchequer Kenneth Clarke as Shadow Business, Enterprise and Regulatory Reform Secretary."
+          ]
+        },
+        {
+          "title": "Chancellor of the Exchequer",
+          "quotes": [
+            "the chief change being the appointment of former Chancellor of the Exchequer Kenneth Clarke as Shadow Business, Enterprise and Regulatory Reform Secretary."
+          ]
+        },
+        {
+          "title": "leader of the Conservative Party",
+          "quotes": [
+            "During his successful 2005 campaign to be elected leader of the Conservative Party, Cameron pledged that the Conservative Party's members of the European Parliament would leave the European People's Party group,"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Warsaw",
+          "quotes": [
+            "Cameron attended a gathering at Warsaw's Palladium cinema celebrating the foundation of the alliance."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "During his successful 2005 campaign to be elected leader of the Conservative Party, Cameron pledged that the Conservative Party's members of the European Parliament would leave the European People's Party group,"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [
+          3,
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "in July 2006, he concluded an agreement to form the Movement for European Reform with the Czech Civic Democratic Party,"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time and organizations."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          6
+        ],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "leading to the formation of a new European Parliament group, the European Conservatives and Reformists, in 2009 after the European Parliament elections."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time and organization."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2,
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "the chief change being the appointment of former Chancellor of the Exchequer Kenneth Clarke as Shadow Business, Enterprise and Regulatory Reform Secretary."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time and roles."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          6
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Theresa May, who was a member of the Shadow Cabinet from 1999 until 2010"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time and organization."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for the career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 1,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

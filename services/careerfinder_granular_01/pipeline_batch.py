@@ -142,11 +142,27 @@ def process_person(
     
     return summary
 
+def get_completed_people(output_dir: Path) -> set:
+    completed = set()
+    if not output_dir.exists():
+        return completed
+    
+    for person_dir in output_dir.iterdir():
+        if person_dir.is_dir():
+            summary_file = person_dir / "summary.json"
+            if summary_file.exists():
+                with open(summary_file, "r", encoding="utf-8") as f:
+                    summary = json.load(f)
+                    completed.add(summary["person_name"])
+    
+    return completed
+
 def main():
     parser = argparse.ArgumentParser(description="Batch process chunks for career extraction")
     parser.add_argument("--person", help="Process specific person by name")
     parser.add_argument("--first", action="store_true", help="Process first person in database")
-    parser.add_argument("--all", action="store_true", help="Process all people (not implemented yet)")
+    parser.add_argument("--all", action="store_true", help="Process all people in database")
+    parser.add_argument("--resume", action="store_true", help="Skip already completed people (auto-enabled with --all)")
     parser.add_argument("--workers", type=int, default=4, help="Number of parallel workers (default: 4)")
     args = parser.parse_args()
     
@@ -155,7 +171,31 @@ def main():
     output_dir = script_dir / "review"
     
     if args.all:
-        print("--all option not yet implemented. Use --first or --person NAME")
+        people = get_all_people()
+        if not people:
+            print("No people found in database")
+            return
+        
+        completed = get_completed_people(output_dir)
+        remaining = [p for p in people if p not in completed]
+        
+        if completed:
+            print(f"\nFound {len(completed)} already completed people")
+            print(f"Remaining: {len(remaining)} people\n")
+        
+        if not remaining:
+            print("All people already processed")
+            return
+        
+        total = len(remaining)
+        print(f"Processing {total} people with {args.workers} workers per person\n")
+        
+        for i, person_name in enumerate(remaining, 1):
+            process_person(person_name, config_path, output_dir, args.workers)
+            pct = (i / total) * 100
+            print(f"\n>>> Progress: {i}/{total} ({pct:.1f}%) complete\n")
+        
+        print(f"\nAll {total} people processed")
         return
     
     if args.first:
@@ -164,11 +204,24 @@ def main():
             print("No people found in database")
             return
         person_name = people[0]
+        
+        if args.resume:
+            completed = get_completed_people(output_dir)
+            if person_name in completed:
+                print(f"{person_name} already completed, skipping")
+                return
+        
         print(f"Processing first person: {person_name}")
     elif args.person:
         person_name = args.person
+        
+        if args.resume:
+            completed = get_completed_people(output_dir)
+            if person_name in completed:
+                print(f"{person_name} already completed, skipping")
+                return
     else:
-        print("Please specify --person NAME or --first")
+        print("Please specify --person NAME, --first, or --all")
         return
     
     process_person(person_name, config_path, output_dir, args.workers)

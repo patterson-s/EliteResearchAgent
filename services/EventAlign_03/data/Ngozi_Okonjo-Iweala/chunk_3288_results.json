@@ -1,0 +1,213 @@
+{
+  "status": "success",
+  "chunk_id": 3288,
+  "chunk_index": 2,
+  "source_url": "https://www.forbes.com/profile/ngozi-okonjo-iweala/",
+  "title": "Ngozi Okonjo-Iweala - World Trade Organization",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "Aug 14, 2013",
+          "type": "point",
+          "quotes": [
+            "By\nSkoll World Forum\nSubscriber\nAug 14, 2013"
+          ]
+        },
+        {
+          "text": "Apr 8, 2012",
+          "type": "point",
+          "quotes": [
+            "By\nSkoll World Forum\nSubscriber\nApr 8, 2012"
+          ]
+        },
+        {
+          "text": "Mar 24, 2012",
+          "type": "point",
+          "quotes": [
+            "By\nMaha Atal\nContributor\nMar 24, 2012"
+          ]
+        },
+        {
+          "text": "July 2011",
+          "type": "point",
+          "quotes": [
+            "Ngozi Okonjo-Iweala (left) was appointed in July 2011 as the [...]"
+          ]
+        },
+        {
+          "text": "June 2012",
+          "type": "point",
+          "quotes": [
+            "To replace Robert Zoellick, who leaves in June 2012, the US has nominated Jim Yong Kim, an international health specialist and the head of Dartmouth University."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Skoll World Forum",
+          "quotes": [
+            "By\nSkoll World Forum\nSubscriber\nAug 14, 2013",
+            "By\nSkoll World Forum\nSubscriber\nApr 8, 2012"
+          ]
+        },
+        {
+          "name": "Financial Times’ This Is Africa",
+          "quotes": [
+            "Editor’s Note: This article is part of a series by the Financial Times’ This Is Africa publication on realizing Africa’s agricultural potential, in partnership with the Rockefeller Foundation."
+          ]
+        },
+        {
+          "name": "Rockefeller Foundation",
+          "quotes": [
+            "Editor’s Note: This article is part of a series by the Financial Times’ This Is Africa publication on realizing Africa’s agricultural potential, in partnership with the Rockefeller Foundation."
+          ]
+        },
+        {
+          "name": "International Monetary Fund",
+          "quotes": [
+            "Last spring, when the International Monetary Fund began its search for a new Managing Director, I argued that the Fund should pass over Christine Lagarde - then French finance minister - for a candidate from the developing world."
+          ]
+        },
+        {
+          "name": "World Bank",
+          "quotes": [
+            "Ngozi Okonjo-Iweala is the right choice for the World Bank",
+            "The World Bank Is Broken: Can The New President Fix It?",
+            "Who should be the new president of the World Bank? To replace Robert Zoellick, who leaves in June 2012, the US has nominated Jim Yong Kim, an international health specialist and the head of Dartmouth University."
+          ]
+        },
+        {
+          "name": "Dartmouth University",
+          "quotes": [
+            "the US has nominated Jim Yong Kim, an international health specialist and the head of Dartmouth University."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Managing Director",
+          "quotes": [
+            "Last spring, when the International Monetary Fund began its search for a new Managing Director, I argued that the Fund should pass over Christine Lagarde - then French finance minister - for a candidate from the developing world."
+          ]
+        },
+        {
+          "title": "French finance minister",
+          "quotes": [
+            "Last spring, when the International Monetary Fund began its search for a new Managing Director, I argued that the Fund should pass over Christine Lagarde - then French finance minister - for a candidate from the developing world."
+          ]
+        },
+        {
+          "title": "president of the World Bank",
+          "quotes": [
+            "Who should be the new president of the World Bank? To replace Robert Zoellick, who leaves in June 2012, the US has nominated Jim Yong Kim, an international health specialist and the head of Dartmouth University."
+          ]
+        },
+        {
+          "title": "head of Dartmouth University",
+          "quotes": [
+            "the US has nominated Jim Yong Kim, an international health specialist and the head of Dartmouth University."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          5
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Ngozi Okonjo-Iweala (left) was appointed in July 2011 as the [...]",
+          "Ngozi Okonjo-Iweala is the right choice for the World Bank"
+        ],
+        "confidence": "medium",
+        "notes": "The exact role at the World Bank is not specified in the quotes, but the context suggests a significant position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [
+          7
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "To replace Robert Zoellick, who leaves in June 2012, the US has nominated Jim Yong Kim, an international health specialist and the head of Dartmouth University."
+        ],
+        "confidence": "high",
+        "notes": "Jim Yong Kim is mentioned as the head of Dartmouth University, which is a clear career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Last spring, when the International Monetary Fund began its search for a new Managing Director, I argued that the Fund should pass over Christine Lagarde - then French finance minister - for a candidate from the developing world."
+        ],
+        "confidence": "high",
+        "notes": "Christine Lagarde is mentioned as the French finance minister, which is a clear career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "The exact role at the World Bank is not specified in the quotes, making the event incomplete."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "The quote 'Ngozi Okonjo-Iweala is the right choice for the World Bank' does not clearly support a specific career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 2,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

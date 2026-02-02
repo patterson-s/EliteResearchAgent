@@ -1,0 +1,280 @@
+{
+  "status": "success",
+  "chunk_id": 3217,
+  "chunk_index": 9,
+  "source_url": "https://en.wikipedia.org/wiki/Paul_Polman",
+  "title": "Paul Polman - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "RFM Corporation",
+          "quotes": [
+            "Selecta (joint venture with RFM Corporation)"
+          ]
+        },
+        {
+          "name": "Henkel",
+          "quotes": [
+            "Persil (brand owned by Henkel)"
+          ]
+        },
+        {
+          "name": "Lever Brothers",
+          "quotes": [
+            "Predecessors Lever Brothers"
+          ]
+        },
+        {
+          "name": "Margarine Unie",
+          "quotes": [
+            "Predecessors Margarine Unie"
+          ]
+        },
+        {
+          "name": "W. H. Burford & Sons",
+          "quotes": [
+            "Predecessors W. H. Burford & Sons"
+          ]
+        },
+        {
+          "name": "Unilever",
+          "quotes": [
+            "Unilever Gloucester",
+            "Unilever House",
+            "Unilever Leeds",
+            "Unilever Research & Development Port Sunlight Laboratory"
+          ]
+        },
+        {
+          "name": "Procter & Gamble",
+          "quotes": [
+            "Categories: Procter & Gamble people"
+          ]
+        },
+        {
+          "name": "Nestlé",
+          "quotes": [
+            "Categories: Nestlé people"
+          ]
+        },
+        {
+          "name": "University of Groningen",
+          "quotes": [
+            "University of Groningen alumni"
+          ]
+        },
+        {
+          "name": "University of Cincinnati",
+          "quotes": [
+            "University of Cincinnati alumni"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "chief executives in the food industry",
+          "quotes": [
+            "Dutch chief executives in the food industry"
+          ]
+        },
+        {
+          "title": "Honorary Knights Commander of the Order of the British Empire",
+          "quotes": [
+            "Honorary Knights Commander of the Order of the British Empire"
+          ]
+        },
+        {
+          "title": "Unilever people",
+          "quotes": [
+            "Unilever people"
+          ]
+        },
+        {
+          "title": "Procter & Gamble people",
+          "quotes": [
+            "Procter & Gamble people"
+          ]
+        },
+        {
+          "title": "Nestlé people",
+          "quotes": [
+            "Nestlé people"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Enschede",
+          "quotes": [
+            "People from Enschede"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Unilever people"
+        ],
+        "confidence": "medium",
+        "notes": "No time markers available, but organization and role are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          6
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Procter & Gamble people"
+        ],
+        "confidence": "medium",
+        "notes": "No time markers available, but organization and role are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          7
+        ],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Nestlé people"
+        ],
+        "confidence": "medium",
+        "notes": "No time markers available, but organization and role are clear."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Honorary Knights Commander of the Order of the British Empire"
+        ],
+        "confidence": "high",
+        "notes": "Role is clearly an award/honorific."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Dutch chief executives in the food industry"
+        ],
+        "confidence": "medium",
+        "notes": "No specific organization mentioned, but role implies a career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quote 'Unilever people' does not clearly describe a specific role or responsibilities."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quote 'Procter & Gamble people' does not clearly describe a specific role or responsibilities."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quote 'Nestlé people' does not clearly describe a specific role or responsibilities."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization and time markers for career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "medium",
+            "description": "Supporting quote 'Dutch chief executives in the food industry' is vague and does not specify a particular position or organization."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 1,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 1
+    }
+  }
+}

@@ -1,0 +1,262 @@
+{
+  "status": "success",
+  "chunk_id": 2908,
+  "chunk_index": 0,
+  "source_url": "https://sdgs.un.org/panelists/he-mr-fulbert-macaire-amoussouga-gero-29217",
+  "title": "H.E. Mr. Fulbert Macaire Amoussouga Gero | Department of Economic and Social Affairs",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Department of Economic and Social Affairs",
+          "quotes": [
+            "H.E. Mr. Fulbert Macaire Amoussouga Gero | Department of Economic and Social Affairs"
+          ]
+        },
+        {
+          "name": "Government of Benin",
+          "quotes": [
+            "Minister of MDGs policies and Sustainable Development, Benin"
+          ]
+        },
+        {
+          "name": "Economic Analysis Unit of the President of the Republic of Benin",
+          "quotes": [
+            "Amoussouga heads the Economic Analysis Unit of the President of the Republic of Benin"
+          ]
+        },
+        {
+          "name": "African Union",
+          "quotes": [
+            "current chair of the African Union"
+          ]
+        },
+        {
+          "name": "University of Abomey",
+          "quotes": [
+            "Director of the Graduate School of the Faculty of Economics and Management at the University of Abomey"
+          ]
+        },
+        {
+          "name": "Faculty of Economics and Management",
+          "quotes": [
+            "Director of the Graduate School of the Faculty of Economics and Management at the University of Abomey"
+          ]
+        },
+        {
+          "name": "Graduate School of the Faculty of Economics and Management",
+          "quotes": [
+            "Director of the Graduate School of the Faculty of Economics and Management at the University of Abomey"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Minister of MDGs policies and Sustainable Development",
+          "quotes": [
+            "Minister of MDGs policies and Sustainable Development, Benin"
+          ]
+        },
+        {
+          "title": "Head of the Economic Analysis Unit",
+          "quotes": [
+            "Amoussouga heads the Economic Analysis Unit of the President of the Republic of Benin"
+          ]
+        },
+        {
+          "title": "Chair of the African Union",
+          "quotes": [
+            "current chair of the African Union"
+          ]
+        },
+        {
+          "title": "Director of the Graduate School",
+          "quotes": [
+            "Director of the Graduate School of the Faculty of Economics and Management at the University of Abomey"
+          ]
+        },
+        {
+          "title": "Researcher specializing in African economic development",
+          "quotes": [
+            "where he specializes in research on African economic development"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Benin",
+          "quotes": [
+            "Minister of MDGs policies and Sustainable Development, Benin",
+            "Economic Analysis Unit of the President of the Republic of Benin"
+          ]
+        },
+        {
+          "place": "Abomey",
+          "quotes": [
+            "University of Abomey"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Minister of MDGs policies and Sustainable Development, Benin"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role, organization, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Amoussouga heads the Economic Analysis Unit of the President of the Republic of Benin"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role, organization, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "current chair of the African Union"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role and organization."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4,
+          5,
+          6
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Director of the Graduate School of the Faculty of Economics and Management at the University of Abomey"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role, organizations, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "where he specializes in research on African economic development"
+        ],
+        "confidence": "medium",
+        "notes": "Role mentioned without specific organization or location, but implies ongoing research activity."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers and location for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing time markers, organization, and location for career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 0,
+      "warnings": 5,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

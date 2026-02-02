@@ -1,0 +1,288 @@
+{
+  "status": "success",
+  "chunk_id": 2806,
+  "chunk_index": 25,
+  "source_url": "https://en.wikipedia.org/wiki/David_Cameron",
+  "title": "David Cameron - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "At the end of May 2011",
+          "type": "point",
+          "quotes": [
+            "At the end of May 2011 Cameron stepped down as patron of the Jewish National Fund"
+          ]
+        },
+        {
+          "text": "In March 2014",
+          "type": "point",
+          "quotes": [
+            "In March 2014, during his first visit to Israel as prime minister, Cameron addressed Israel's Knesset in Jerusalem"
+          ]
+        },
+        {
+          "text": "In August 2013",
+          "type": "point",
+          "quotes": [
+            "In August 2013 Cameron lost a motion in favour of bombing Syrian armed forces in response to the Ghouta chemical"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Jewish National Fund",
+          "quotes": [
+            "At the end of May 2011 Cameron stepped down as patron of the Jewish National Fund"
+          ]
+        },
+        {
+          "name": "Knesset",
+          "quotes": [
+            "In March 2014, during his first visit to Israel as prime minister, Cameron addressed Israel's Knesset in Jerusalem"
+          ]
+        },
+        {
+          "name": "Palestinian Authority",
+          "quotes": [
+            "During his two-day visit, he met with Israeli prime minister Benjamin Netanyahu and with Palestinian Authority president Mahmoud Abbas"
+          ]
+        },
+        {
+          "name": "Foreign Office",
+          "quotes": [
+            "Senior Foreign Office minister Baroness Warsi resigned over the Cameron government's decision not to condemn Israel for the 2014 Israel–Gaza conflict"
+          ]
+        },
+        {
+          "name": "G20",
+          "quotes": [
+            "Meeting Barack Obama during the 2010 G20 Toronto summit"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "patron of the Jewish National Fund",
+          "quotes": [
+            "At the end of May 2011 Cameron stepped down as patron of the Jewish National Fund"
+          ]
+        },
+        {
+          "title": "prime minister",
+          "quotes": [
+            "becoming the first British prime minister not to be patron of the charity in the 110 years of its existence.",
+            "In March 2014, during his first visit to Israel as prime minister, Cameron addressed Israel's Knesset in Jerusalem",
+            "During his two-day visit, he met with Israeli prime minister Benjamin Netanyahu and with Palestinian Authority president Mahmoud Abbas"
+          ]
+        },
+        {
+          "title": "Senior Foreign Office minister",
+          "quotes": [
+            "Senior Foreign Office minister Baroness Warsi resigned over the Cameron government's decision not to condemn Israel for the 2014 Israel–Gaza conflict"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Israel",
+          "quotes": [
+            "In a speech in 2011, Cameron said: 'You have a prime minister whose commitment and determination to work for peace in Israel is deep and strong.'",
+            "In March 2014, during his first visit to Israel as prime minister, Cameron addressed Israel's Knesset in Jerusalem"
+          ]
+        },
+        {
+          "place": "Jerusalem",
+          "quotes": [
+            "In March 2014, during his first visit to Israel as prime minister, Cameron addressed Israel's Knesset in Jerusalem"
+          ]
+        },
+        {
+          "place": "Gaza",
+          "quotes": [
+            "Senior Foreign Office minister Baroness Warsi resigned over the Cameron government's decision not to condemn Israel for the 2014 Israel–Gaza conflict"
+          ]
+        },
+        {
+          "place": "Syria",
+          "quotes": [
+            "Military intervention in Iraq and Syria",
+            "In August 2013 Cameron lost a motion in favour of bombing Syrian armed forces in response to the Ghouta chemical"
+          ]
+        },
+        {
+          "place": "Toronto",
+          "quotes": [
+            "Meeting Barack Obama during the 2010 G20 Toronto summit"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "At the end of May 2011 Cameron stepped down as patron of the Jewish National Fund"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          1,
+          2
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0,
+          1
+        ],
+        "supporting_quotes": [
+          "In March 2014, during his first visit to Israel as prime minister, Cameron addressed Israel's Knesset in Jerusalem",
+          "During his two-day visit, he met with Israeli prime minister Benjamin Netanyahu and with Palestinian Authority president Mahmoud Abbas"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organizations, role, and locations"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          3
+        ],
+        "supporting_quotes": [
+          "In August 2013 Cameron lost a motion in favour of bombing Syrian armed forces in response to the Ghouta chemical"
+        ],
+        "confidence": "medium",
+        "notes": "No organization mentioned, but role and location are clear"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "Senior Foreign Office minister Baroness Warsi resigned over the Cameron government's decision not to condemn Israel for the 2014 Israel–Gaza conflict"
+        ],
+        "confidence": "high",
+        "notes": "No time marker, but organization, role, and location are clear"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          4
+        ],
+        "supporting_quotes": [
+          "Meeting Barack Obama during the 2010 G20 Toronto summit"
+        ],
+        "confidence": "high",
+        "notes": "No time marker, but organization, role, and location are clear"
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information, though role and location are clear"
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker, though organization, role, and location are clear"
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position, but describes a resignation event which might be better classified as a separate event type"
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker, though organization, role, and location are clear"
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position, but describes a meeting which might be better classified as a separate event type"
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 2,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

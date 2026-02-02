@@ -1,0 +1,250 @@
+{
+  "status": "success",
+  "chunk_id": 371,
+  "chunk_index": 9,
+  "source_url": "https://corporatecitizen.in/v4-issue10/cover-story-dynamic-duo-75-indira-and%20-lt-gen-sat%20ish-nambiar-retd-breaking-barriers.html",
+  "title": "Cover Story: Dynamic Duo: 75 Indira and Lt. Gen.Satish Nambiar (retd) Breaking Barriers",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1996",
+          "type": "point",
+          "quotes": [
+            "He was commissioned in 1996 and is a colonel now."
+          ]
+        },
+        {
+          "text": "2004",
+          "type": "point",
+          "quotes": [
+            "With Param Vir Chakra awardees at the United Service Institution of India: 2004"
+          ]
+        },
+        {
+          "text": "May 1992",
+          "type": "point",
+          "quotes": [
+            "With former US Secretary of State Cyrus Vance in Sarajevo: May 1992."
+          ]
+        },
+        {
+          "text": "3rd May 1970",
+          "type": "point",
+          "quotes": [
+            "Wedding on 3rd May 1970 at Kadalayi Temple, Kannur."
+          ]
+        },
+        {
+          "text": "May 2009",
+          "type": "point",
+          "quotes": [
+            "With Vice President Hamid Ansari at the release of the book titled âFor the Honor of India â A History of Indian Peacekeepingâ: May 2009."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "United Service Institution of India",
+          "quotes": [
+            "With Param Vir Chakra awardees at the United Service Institution of India: 2004"
+          ]
+        },
+        {
+          "name": "AWWA",
+          "quotes": [
+            "Well, we ladies had a role to play in various set ups like the Ladies Club, the AWWA and so on."
+          ]
+        },
+        {
+          "name": "Ladies Club",
+          "quotes": [
+            "Well, we ladies had a role to play in various set ups like the Ladies Club, the AWWA and so on."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "colonel",
+          "quotes": [
+            "He was commissioned in 1996 and is a colonel now."
+          ]
+        },
+        {
+          "title": "US Secretary of State",
+          "quotes": [
+            "With former US Secretary of State Cyrus Vance in Sarajevo: May 1992."
+          ]
+        },
+        {
+          "title": "Vice President",
+          "quotes": [
+            "With Vice President Hamid Ansari at the release of the book titled âFor the Honor of India â A History of Indian Peacekeepingâ: May 2009."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Sarajevo",
+          "quotes": [
+            "With former US Secretary of State Cyrus Vance in Sarajevo: May 1992."
+          ]
+        },
+        {
+          "place": "Kadalayi Temple, Kannur",
+          "quotes": [
+            "Wedding on 3rd May 1970 at Kadalayi Temple, Kannur."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He was commissioned in 1996 and is a colonel now."
+        ],
+        "confidence": "high",
+        "notes": "Directly stated role with a clear time marker."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "With former US Secretary of State Cyrus Vance in Sarajevo: May 1992."
+        ],
+        "confidence": "high",
+        "notes": "Role mentioned with a specific time and location, indicating an official capacity."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "With Param Vir Chakra awardees at the United Service Institution of India: 2004"
+        ],
+        "confidence": "medium",
+        "notes": "Association with an organization and awardees, but no specific role mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "With Vice President Hamid Ansari at the release of the book titled âFor the Honor of India â A History of Indian Peacekeepingâ: May 2009."
+        ],
+        "confidence": "high",
+        "notes": "Role mentioned with a specific time and context, indicating an official capacity."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "quote_support",
+            "severity": "medium",
+            "description": "The quote mentions being with a former US Secretary of State, but does not clearly state the subject's role or position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The event is classified as a career position, but the quote does not explicitly describe an active role."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "error",
+        "issues": [
+          {
+            "type": "quote_support",
+            "severity": "high",
+            "description": "The quote does not mention a specific role for the subject, only an association with an organization and awardees."
+          },
+          {
+            "type": "classification",
+            "severity": "medium",
+            "description": "The event is classified as a career position, but lacks evidence of an active role."
+          },
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing role information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location information for the career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "The quote mentions being with the Vice President, but does not clearly state the subject's role or position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 1,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "status": "success",
+  "chunk_id": 560,
+  "chunk_index": 60,
+  "source_url": "https://issafrica.s3.amazonaws.com/site/uploads/Book-2015-Salim.pdf",
+  "title": "Book-2015-Salim.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1990",
+          "type": "point",
+          "quotes": [
+            "The 1990 Report on Fundamental Changes",
+            "set out their understanding of the implications of the changing world in the 1990 Report of the Secretary-General on the Fundamental Changes Taking Place in the World and their Implications for Africa.",
+            "submitted to the 26th Ordinary Session of the Assembly in Addis Ababa, 9–11 July 1990",
+            "The 1990 report would serve as something of a road map for Salim’s tenure"
+          ]
+        },
+        {
+          "text": "9–11 July 1990",
+          "type": "range",
+          "quotes": [
+            "submitted to the 26th Ordinary Session of the Assembly in Addis Ababa, 9–11 July 1990"
+          ]
+        },
+        {
+          "text": "the 1990s",
+          "type": "range",
+          "quotes": [
+            "‘the present international situation makes it imperative for Africa to map out a strategy in order to face the challenges of the 1990s and lay the foundation for sustained development in the 21st century’"
+          ]
+        },
+        {
+          "text": "21st century",
+          "type": "point",
+          "quotes": [
+            "‘the present international situation makes it imperative for Africa to map out a strategy in order to face the challenges of the 1990s and lay the foundation for sustained development in the 21st century’"
+          ]
+        },
+        {
+          "text": "During the Cold War",
+          "type": "point",
+          "quotes": [
+            "During the Cold War, Africa had been broadly divided between pro-Eastern Europe/pro-Russia and pro-United States, reflecting broad international ideological and strategic polarities."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "OAU",
+          "quotes": [
+            "An important first step in the transformation of the OAU was to make the organisation more visible, knowledgeable and relevant.",
+            "To chart the course of the OAU after the demise of communism, Salim and his team set out their understanding of the implications of the changing world in the 1990 Report of the Secretary-General on the Fundamental Changes Taking Place in the World and their Implications for Africa.",
+            "The 1990 report would serve as something of a road map for Salim’s tenure at the organisation.",
+            "It set out the foundations for the integration of the OAU and its security projects in the years that followed."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Secretary-General",
+          "quotes": [
+            "set out their understanding of the implications of the changing world in the 1990 Report of the Secretary-General on the Fundamental Changes Taking Place in the World and their Implications for Africa."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Addis Ababa",
+          "quotes": [
+            "submitted to the 26th Ordinary Session of the Assembly in Addis Ababa, 9–11 July 1990"
+          ]
+        },
+        {
+          "place": "Africa",
+          "quotes": [
+            "‘the present international situation makes it imperative for Africa to map out a strategy in order to face the challenges of the 1990s and lay the foundation for sustained development in the 21st century’",
+            "Salim had come to a firm resolve that Africans should rely essentially on their own abilities and resources to change their destiny.",
+            "According to Salim, what was lacking, however, was an inward-looking pro-African group that represented and pursued African interests on the continent and on the international stage.",
+            "It called for African solutions to African problems."
+          ]
+        },
+        {
+          "place": "Eastern Europe",
+          "quotes": [
+            "During the Cold War, Africa had been broadly divided between pro-Eastern Europe/pro-Russia and pro-United States, reflecting broad international ideological and strategic polarities."
+          ]
+        },
+        {
+          "place": "Russia",
+          "quotes": [
+            "During the Cold War, Africa had been broadly divided between pro-Eastern Europe/pro-Russia and pro-United States, reflecting broad international ideological and strategic polarities."
+          ]
+        },
+        {
+          "place": "United States",
+          "quotes": [
+            "During the Cold War, Africa had been broadly divided between pro-Eastern Europe/pro-Russia and pro-United States, reflecting broad international ideological and strategic polarities."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0,
+          1
+        ],
+        "supporting_quotes": [
+          "set out their understanding of the implications of the changing world in the 1990 Report of the Secretary-General on the Fundamental Changes Taking Place in the World and their Implications for Africa.",
+          "submitted to the 26th Ordinary Session of the Assembly in Addis Ababa, 9–11 July 1990",
+          "The 1990 report would serve as something of a road map for Salim’s tenure at the organisation."
+        ],
+        "confidence": "high",
+        "notes": "The role of Secretary-General at the OAU is clearly linked to the 1990 report and the event in Addis Ababa."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "The event links to both a point in time (1990) and a range (9–11 July 1990), which is plausible but could be clarified for better temporal precision."
+          },
+          {
+            "type": "quote_support",
+            "severity": "medium",
+            "description": "The supporting quotes mention the 1990 report and its submission in Addis Ababa but do not explicitly state the start or end of the Secretary-General's tenure, only implying it through context."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "The event lacks a clear end_date for the career position, which is not uncommon but could be inferred from additional context not provided."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

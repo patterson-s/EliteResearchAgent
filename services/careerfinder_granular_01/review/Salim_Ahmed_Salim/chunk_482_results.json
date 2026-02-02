@@ -1,0 +1,239 @@
+{
+  "status": "success",
+  "chunk_id": 482,
+  "chunk_index": 0,
+  "source_url": "https://www.salimahmedsalim.com/about",
+  "title": "Dr. Salim Ahmed Salim - Tanzanian Politician &… | Salim Ahmed Salim",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "23 January 1942",
+          "type": "point",
+          "quotes": [
+            "Dr. Salim Ahmed Salim was born on 23 January 1942 at the Mwembeladu hospital in Unguja"
+          ]
+        },
+        {
+          "text": "from 1948 to 1956",
+          "type": "range",
+          "quotes": [
+            "Dr. Salim attended Uweleni Primary School in Mkoani from 1948 to 1956."
+          ]
+        },
+        {
+          "text": "In 1957",
+          "type": "point",
+          "quotes": [
+            "In 1957 Dr. Salim was among three students from the entire island of Pemba to be selected from the Standard 8 class in the province to pursue secondary education at the Government Boys' Secondary School"
+          ]
+        },
+        {
+          "text": "until 1960",
+          "type": "range",
+          "quotes": [
+            "Dr. Salim stayed at the school for one year, after which he attended King George VI Secondary School (later named Lumumba College) until 1960."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Uweleni Primary School",
+          "quotes": [
+            "Dr. Salim attended Uweleni Primary School in Mkoani from 1948 to 1956."
+          ]
+        },
+        {
+          "name": "Scouts movement",
+          "quotes": [
+            "He joined the Scouts movement in Standard 6, where he was introduced to essential life skills, learning specifically service to the community."
+          ]
+        },
+        {
+          "name": "Government Boys' Secondary School",
+          "quotes": [
+            "In 1957 Dr. Salim was among three students from the entire island of Pemba to be selected from the Standard 8 class in the province to pursue secondary education at the Government Boys' Secondary School (now known as Ben Bella Secondary) on the main island of Unguja."
+          ]
+        },
+        {
+          "name": "King George VI Secondary School",
+          "quotes": [
+            "Dr. Salim stayed at the school for one year, after which he attended King George VI Secondary School (later named Lumumba College) until 1960."
+          ]
+        },
+        {
+          "name": "All Zanzibar Students' Union",
+          "quotes": [
+            "In his second year in secondary school, Dr. Salim, along with his fellow students, started a student organisation called the All Zanzibar Students' Union,"
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": [
+        {
+          "place": "Mwembeladu hospital in Unguja",
+          "quotes": [
+            "Dr. Salim Ahmed Salim was born on 23 January 1942 at the Mwembeladu hospital in Unguja"
+          ]
+        },
+        {
+          "place": "Mkoani",
+          "quotes": [
+            "Dr. Salim attended Uweleni Primary School in Mkoani from 1948 to 1956."
+          ]
+        },
+        {
+          "place": "Pemba",
+          "quotes": [
+            "In 1957 Dr. Salim was among three students from the entire island of Pemba to be selected from the Standard 8 class in the province to pursue secondary education at the Government Boys' Secondary School"
+          ]
+        },
+        {
+          "place": "Unguja",
+          "quotes": [
+            "In 1957 Dr. Salim was among three students from the entire island of Pemba to be selected from the Standard 8 class in the province to pursue secondary education at the Government Boys' Secondary School (now known as Ben Bella Secondary) on the main island of Unguja."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Dr. Salim attended Uweleni Primary School in Mkoani from 1948 to 1956."
+        ],
+        "confidence": "high",
+        "notes": "Student position at primary school"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2,
+          3
+        ],
+        "organization_ids": [
+          2,
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [
+          3
+        ],
+        "supporting_quotes": [
+          "In 1957 Dr. Salim was among three students from the entire island of Pemba to be selected from the Standard 8 class in the province to pursue secondary education at the Government Boys' Secondary School (now known as Ben Bella Secondary) on the main island of Unguja.",
+          "Dr. Salim stayed at the school for one year, after which he attended King George VI Secondary School (later named Lumumba College) until 1960."
+        ],
+        "confidence": "high",
+        "notes": "Student position at secondary schools"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In his second year in secondary school, Dr. Salim, along with his fellow students, started a student organisation called the All Zanzibar Students' Union,"
+        ],
+        "confidence": "medium",
+        "notes": "Founder of student organization, time markers not explicitly mentioned but implied during secondary school years"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He joined the Scouts movement in Standard 6, where he was introduced to essential life skills, learning specifically service to the community."
+        ],
+        "confidence": "medium",
+        "notes": "Member of Scouts movement, time markers not explicitly mentioned but implied during primary school years"
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as 'career_position' but describes a student role, which may not be considered a career position in the traditional sense."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as 'career_position' but describes a student role, which may not be considered a career position in the traditional sense."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the founding of the student organization, though implied during secondary school years."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as 'career_position' but describes a student organization founding, which may not be considered a career position in the traditional sense."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the Scouts movement membership, though implied during primary school years."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as 'career_position' but describes a membership in the Scouts movement, which may not be considered a career position in the traditional sense."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 0,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

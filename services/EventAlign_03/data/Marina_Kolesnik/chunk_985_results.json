@@ -1,0 +1,93 @@
+{
+  "status": "success",
+  "chunk_id": 985,
+  "chunk_index": 0,
+  "source_url": "https://www.bloomberg.com/profile/person/23615308",
+  "title": "Marina Kolesnik, Donkeyrepublic Holding APS: Profile and Biography - Bloomberg Markets",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Donkeyrepublic Holding APS",
+          "quotes": [
+            "Marina Kolesnik, Donkeyrepublic Holding APS: Profile and Biography - Bloomberg Markets",
+            "Board Member, Donkeyrepublic Holding APS"
+          ]
+        },
+        {
+          "name": "Bloomberg",
+          "quotes": [
+            "Bloomberg the Company & Its Products",
+            "Bloomberg Terminal Demo Request",
+            "Bloomberg Anywhere Remote Login",
+            "Bloomberg Customer Support",
+            "Bloomberg Markets",
+            "Bloomberg quickly and accurately delivers business and financial information, news and insight around the world"
+          ]
+        },
+        {
+          "name": "Bloomberg Markets",
+          "quotes": [
+            "Marina Kolesnik, Donkeyrepublic Holding APS: Profile and Biography - Bloomberg Markets"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Board Member",
+          "quotes": [
+            "Board Member, Donkeyrepublic Holding APS"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Board Member, Donkeyrepublic Holding APS",
+          "Marina Kolesnik, Donkeyrepublic Holding APS: Profile and Biography - Bloomberg Markets"
+        ],
+        "confidence": "high",
+        "notes": "No time markers provided, but organization and role are clearly linked."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position, making temporal coherence impossible to verify."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "status": "success",
+  "chunk_id": 85,
+  "chunk_index": 2,
+  "source_url": "https://theconversation.com/who-was-robert-badinter-the-most-important-frenchman-of-whom-you-never-heard-223841",
+  "title": "Who was Robert Badinter, the most important Frenchman of whom you never heard?",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1981",
+          "type": "point",
+          "quotes": [
+            "as the man who abolished the death penalty in 1981."
+          ]
+        },
+        {
+          "text": "since the French Revolution",
+          "type": "open",
+          "quotes": [
+            "There had been talk of abolishing the capital punishment since the French Revolution."
+          ]
+        },
+        {
+          "text": "1791",
+          "type": "point",
+          "quotes": [
+            "Already in 1791, deputies had debated on whether to include it in the country’s first criminal code."
+          ]
+        },
+        {
+          "text": "1829",
+          "type": "point",
+          "quotes": [
+            "In the following century, French novelist Victor Hugo would take up the baton, devoting two novels to the subject, The Last Day of a Condemned Man (1829) and Claude Gueux (1834)."
+          ]
+        },
+        {
+          "text": "1834",
+          "type": "point",
+          "quotes": [
+            "In the following century, French novelist Victor Hugo would take up the baton, devoting two novels to the subject, The Last Day of a Condemned Man (1829) and Claude Gueux (1834)."
+          ]
+        },
+        {
+          "text": "October, 2021",
+          "type": "point",
+          "quotes": [
+            "Robert Badinter filmed at his home in October, 2021."
+          ]
+        },
+        {
+          "text": "1972",
+          "type": "point",
+          "quotes": [
+            "Despite this, in 1972 he was unable to save a client, Roger Bontems."
+          ]
+        },
+        {
+          "text": "1977",
+          "type": "point",
+          "quotes": [
+            "In 1977, his defence of Patrick Henry, who is convicted for the kidnapping and murder of 7-year-old Philippe Bertrand, is seen as a turning point in the history of the abolition of the death penalty."
+          ]
+        },
+        {
+          "text": "14 February",
+          "type": "point",
+          "quotes": [
+            "On 14 February, Emmanual Macron described him as ‘a soul crying out, a force wrenching life from the clutch of death.’"
+          ]
+        },
+        {
+          "text": "1981",
+          "type": "point",
+          "quotes": [
+            "until becoming Justice Minister under President François Mittérand in 1981."
+          ]
+        },
+        {
+          "text": "18 September of that year",
+          "type": "point",
+          "quotes": [
+            "On 18 September of that year, the French parliament ended capital punishment, with 363 votes against 117."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "French parliament",
+          "quotes": [
+            "On 18 September of that year, the French parliament ended capital punishment, with 363 votes against 117."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Justice Minister",
+          "quotes": [
+            "until becoming Justice Minister under President François Mittérand in 1981."
+          ]
+        },
+        {
+          "title": "President",
+          "quotes": [
+            "until becoming Justice Minister under President François Mittérand in 1981."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          9
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "until becoming Justice Minister under President François Mittérand in 1981."
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of a career position as Justice Minister in 1981."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position as Justice Minister."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

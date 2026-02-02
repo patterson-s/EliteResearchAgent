@@ -1,0 +1,250 @@
+{
+  "status": "success",
+  "chunk_id": 2803,
+  "chunk_index": 22,
+  "source_url": "https://en.wikipedia.org/wiki/David_Cameron",
+  "title": "David Cameron - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "Between 2010 and mid-2015",
+          "type": "range",
+          "quotes": [
+            "Between 2010 and mid-2015, unemployment fell from around 7.9% to about 5.5% as employment expanded by roughly 2.45 million jobs."
+          ]
+        },
+        {
+          "text": "2010",
+          "type": "point",
+          "quotes": [
+            "national debt rose from circa 71% of GDP in 2010 to approximately 84% by 2016."
+          ]
+        },
+        {
+          "text": "by 2016",
+          "type": "point",
+          "quotes": [
+            "national debt rose from circa 71% of GDP in 2010 to approximately 84% by 2016."
+          ]
+        },
+        {
+          "text": "July 2013",
+          "type": "point",
+          "quotes": [
+            "He said in July 2013 that 'in the last decade we have had an immigration policy that's completely lax. The pressure it puts on our public services and communities is too great.'"
+          ]
+        },
+        {
+          "text": "In 2015",
+          "type": "point",
+          "quotes": [
+            "In 2015 The Independent reported: 'The Conservatives have failed spectacularly to deliver their pledge to reduce net migration to less than 100,000 a year.'"
+          ]
+        },
+        {
+          "text": "12 months to September 2014",
+          "type": "range",
+          "quotes": [
+            "The Office for National Statistics (ONS) announced a net flow of 298,000 migrants to the UK in the 12 months to September 2014—up from 210,000 in the previous year."
+          ]
+        },
+        {
+          "text": "In 2014",
+          "type": "point",
+          "quotes": [
+            "In 2014 Cameron dismissed warnings that his cuts to the UK defence budget had left it less than a 'first class-player in terms of defence' and no longer a 'full partner' to the United States."
+          ]
+        },
+        {
+          "text": "July 2015 budget",
+          "type": "point",
+          "quotes": [
+            "In the July 2015 budget, Chancellor George Osborne announced that the UK defence spending would meet the NATO target of 2% of GDP."
+          ]
+        },
+        {
+          "text": "March 2011",
+          "type": "point",
+          "quotes": [
+            "With then Foreign Secretary William Hague speaking to NATO Secretary General Anders Fogh Rasmussen (left) at the London Conference on Libya, March 2011"
+          ]
+        },
+        {
+          "text": "17 March 2011",
+          "type": "point",
+          "quotes": [
+            "After weeks of lobbying by the UK and its allies, on 17 March 2011, the United Nations Security Council approved a no-fly zone to prevent government forces loyal to Muammar Gaddafi from carrying out air attacks on"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Office for National Statistics (ONS)",
+          "quotes": [
+            "The Office for National Statistics (ONS) announced a net flow of 298,000 migrants to the UK in the 12 months to September 2014—up from 210,000 in the previous year."
+          ]
+        },
+        {
+          "name": "NATO",
+          "quotes": [
+            "In the July 2015 budget, Chancellor George Osborne announced that the UK defence spending would meet the NATO target of 2% of GDP."
+          ]
+        },
+        {
+          "name": "United Nations Security Council",
+          "quotes": [
+            "After weeks of lobbying by the UK and its allies, on 17 March 2011, the United Nations Security Council approved a no-fly zone to prevent government forces loyal to Muammar Gaddafi from carrying out air attacks on"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Chancellor",
+          "quotes": [
+            "In the July 2015 budget, Chancellor George Osborne announced that the UK defence spending would meet the NATO target of 2% of GDP."
+          ]
+        },
+        {
+          "title": "Foreign Secretary",
+          "quotes": [
+            "With then Foreign Secretary William Hague speaking to NATO Secretary General Anders Fogh Rasmussen (left) at the London Conference on Libya, March 2011"
+          ]
+        },
+        {
+          "title": "NATO Secretary General",
+          "quotes": [
+            "With then Foreign Secretary William Hague speaking to NATO Secretary General Anders Fogh Rasmussen (left) at the London Conference on Libya, March 2011"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Afghanistan",
+          "quotes": [
+            "Visiting British troops in Afghanistan, October 2014"
+          ]
+        },
+        {
+          "place": "Libya",
+          "quotes": [
+            "With then Foreign Secretary William Hague speaking to NATO Secretary General Anders Fogh Rasmussen (left) at the London Conference on Libya, March 2011"
+          ]
+        },
+        {
+          "place": "UK",
+          "quotes": [
+            "The Office for National Statistics (ONS) announced a net flow of 298,000 migrants to the UK in the 12 months to September 2014—up from 210,000 in the previous year."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          7
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In the July 2015 budget, Chancellor George Osborne announced that the UK defence spending would meet the NATO target of 2% of GDP."
+        ],
+        "confidence": "high",
+        "notes": "Direct mention of Chancellor role in a specific context."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          8
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "With then Foreign Secretary William Hague speaking to NATO Secretary General Anders Fogh Rasmussen (left) at the London Conference on Libya, March 2011"
+        ],
+        "confidence": "high",
+        "notes": "Foreign Secretary role mentioned in a specific event."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          8
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "With then Foreign Secretary William Hague speaking to NATO Secretary General Anders Fogh Rasmussen (left) at the London Conference on Libya, March 2011"
+        ],
+        "confidence": "high",
+        "notes": "NATO Secretary General role mentioned in a specific event."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the Chancellor role."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing location information for the Chancellor role."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "NATO Secretary General role might be misclassified as a career_position; could be an award or honorary title."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the NATO Secretary General role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "status": "success",
+  "chunk_id": 752,
+  "chunk_index": 3,
+  "source_url": "https://ae.linkedin.com/in/mohammedalgergawi",
+  "title": "‏Mohammad Al Gergawi‏ - ‏وزير شؤون مجلس الوزراء بدولة الإمارات العربية المتحدة • UAE Minister of Cabinet Affairs‏ | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In 2002",
+          "type": "point",
+          "quotes": [
+            "In 2002, the #Dubai International Financial Centre (DIFC) was launched in the midst of a regional environment filled with challenges and uncertainty."
+          ]
+        },
+        {
+          "text": "فبراير ٢٠٠٦⁦ - الحالي",
+          "type": "open",
+          "quotes": [
+            "فبراير ٢٠٠٦⁦ - الحالي"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Dubai International Financial Centre (DIFC)",
+          "quotes": [
+            "In 2002, the #Dubai International Financial Centre (DIFC) was launched in the midst of a regional environment filled with challenges and uncertainty."
+          ]
+        },
+        {
+          "name": "Ministry of Cabinet Affairs - UAE",
+          "quotes": [
+            "Minister of Cabinet Affairs, Ministry of Cabinet Affairs - UAE"
+          ]
+        },
+        {
+          "name": "Dubai Holding",
+          "quotes": [
+            "Video: Reflections on Two Decades of Dubai Holding: A Journey of Vision and Achievement"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Minister of Cabinet Affairs",
+          "quotes": [
+            "Minister of Cabinet Affairs, Ministry of Cabinet Affairs - UAE"
+          ]
+        },
+        {
+          "title": "Secretary General",
+          "quotes": [
+            "Secretary General"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Dubai",
+          "quotes": [
+            "In 2002, the #Dubai International Financial Centre (DIFC) was launched in the midst of a regional environment filled with challenges and uncertainty."
+          ]
+        },
+        {
+          "place": "United Arab Emirates",
+          "quotes": [
+            "Ministry of Cabinet Affairs - UAE",
+            "United Arab Emirates"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "In 2002, the #Dubai International Financial Centre (DIFC) was launched in the midst of a regional environment filled with challenges and uncertainty."
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but the event is linked to the launch of DIFC."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "فبراير ٢٠٠٦⁦ - الحالي",
+          "Minister of Cabinet Affairs, Ministry of Cabinet Affairs - UAE"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Video: Reflections on Two Decades of Dubai Holding: A Journey of Vision and Achievement"
+        ],
+        "confidence": "low",
+        "notes": "No specific time, role, or location mentioned, but the event is related to Dubai Holding."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Secretary General"
+        ],
+        "confidence": "low",
+        "notes": "No specific time, organization, or location mentioned for the role of Secretary General."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for the career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quote does not explicitly state a career position, only mentions the launch of DIFC."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing time, role, and location information for the career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quote is a video title and does not clearly support a career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing time, organization, and location information for the career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "medium",
+            "description": "Quote only mentions the role title without context or supporting details."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 1,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

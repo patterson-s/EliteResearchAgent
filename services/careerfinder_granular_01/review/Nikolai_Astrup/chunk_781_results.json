@@ -1,0 +1,307 @@
+{
+  "status": "success",
+  "chunk_id": 781,
+  "chunk_index": 0,
+  "source_url": "https://en.wikipedia.org/wiki/Nikolai_Astrup_(politician)",
+  "title": "Nikolai Astrup (politician) - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "24 January 2020 – 14 October 2021",
+          "type": "range",
+          "quotes": [
+            "In office\n24 January 2020 – 14 October 2021"
+          ]
+        },
+        {
+          "text": "22 January 2019 – 24 January 2020",
+          "type": "range",
+          "quotes": [
+            "In office\n22 January 2019 – 24 January 2020"
+          ]
+        },
+        {
+          "text": "17 January 2018 – 22 January 2019",
+          "type": "range",
+          "quotes": [
+            "In office\n17 January 2018 – 22 January 2019"
+          ]
+        },
+        {
+          "text": "1 October 2009",
+          "type": "point",
+          "quotes": [
+            "Assumed office\n1 October 2009"
+          ]
+        },
+        {
+          "text": "28 January 2012 – 27 January 2018",
+          "type": "range",
+          "quotes": [
+            "In office\n28 January 2012 – 27 January 2018"
+          ]
+        },
+        {
+          "text": "2020 to 2021",
+          "type": "range",
+          "quotes": [
+            "He served as Minister of Local Government from 2020 to 2021."
+          ]
+        },
+        {
+          "text": "2018 to 2019",
+          "type": "range",
+          "quotes": [
+            "Previously he served as the Minister of International Development from 2018 to 2019"
+          ]
+        },
+        {
+          "text": "2019 until 2020",
+          "type": "range",
+          "quotes": [
+            "a post he served in until 2020."
+          ]
+        },
+        {
+          "text": "2012 to 2013",
+          "type": "range",
+          "quotes": [
+            "being the first since Heikki Holmås from 2012 to 2013."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Conservative Party",
+          "quotes": [
+            "Nikolai Eivindssøn Astrup\n(born 12 June 1978) is a Norwegian politician representing the\nConservative Party."
+          ]
+        },
+        {
+          "name": "Christian Democratic Party",
+          "quotes": [
+            "In 2019, he also became the first Minister of Digitalisation after the\nChristian Democratic Party\njoined the Cabinet,"
+          ]
+        },
+        {
+          "name": "London School of Economics",
+          "quotes": [
+            "Alma mater\nLondon School of Economics"
+          ]
+        },
+        {
+          "name": "Institut Le",
+          "quotes": [
+            "Astrup graduated from\nInstitut Le"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Minister of Local Government",
+          "quotes": [
+            "Minister of Local Government\nIn office\n24 January 2020 – 14 October 2021",
+            "He served as Minister of Local Government from 2020 to 2021."
+          ]
+        },
+        {
+          "title": "Minister of Digitalisation",
+          "quotes": [
+            "Minister of Digitalisation\nIn office\n22 January 2019 – 24 January 2020",
+            "In 2019, he also became the first Minister of Digitalisation"
+          ]
+        },
+        {
+          "title": "Minister of International Development",
+          "quotes": [
+            "Minister of International Development\nIn office\n17 January 2018 – 22 January 2019",
+            "Previously he served as the Minister of International Development from 2018 to 2019"
+          ]
+        },
+        {
+          "title": "Member of the Norwegian Parliament",
+          "quotes": [
+            "Member of the Norwegian Parliament\nIncumbent\nAssumed office\n1 October 2009"
+          ]
+        },
+        {
+          "title": "Leader of the Oslo Conservatives",
+          "quotes": [
+            "Leader of the\nOslo\nConservatives\nIn office\n28 January 2012 – 27 January 2018"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Oslo",
+          "quotes": [
+            "Constituency\nOslo",
+            "Leader of the\nOslo\nConservatives",
+            "(born 12 June 1978) is a Norwegian politician representing the\nConservative Party.\nHe served as Minister of Local Government from 2020 to 2021.\n[\n1\n]\nPreviously he served as the Minister of International Development from 2018 to 2019 in\nPrime Minister\nErna Solberg's cabinet, being the first since\nHeikki Holmås\nfrom 2012 to 2013. In 2019, he also became the first Minister of Digitalisation after the\nChristian Democratic Party\njoined the Cabinet, a post he served in until 2020.\nEducation\n[\nedit\n]\nAstrup graduated from\nInstitut Le"
+          ]
+        },
+        {
+          "place": "Norway",
+          "quotes": [
+            "(born 12 June 1978) is a Norwegian politician representing the\nConservative Party."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Member of the Norwegian Parliament\nIncumbent\nAssumed office\n1 October 2009"
+        ],
+        "confidence": "high",
+        "notes": "Clear role and time marker, no organization mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Leader of the\nOslo\nConservatives\nIn office\n28 January 2012 – 27 January 2018",
+          "Constituency\nOslo"
+        ],
+        "confidence": "high",
+        "notes": "Clear role, organization, and time marker with location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2,
+          7
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Minister of International Development\nIn office\n17 January 2018 – 22 January 2019",
+          "Previously he served as the Minister of International Development from 2018 to 2019"
+        ],
+        "confidence": "high",
+        "notes": "Clear role and time markers, no organization mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1,
+          8
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Minister of Digitalisation\nIn office\n22 January 2019 – 24 January 2020",
+          "In 2019, he also became the first Minister of Digitalisation after the\nChristian Democratic Party\njoined the Cabinet, a post he served in until 2020."
+        ],
+        "confidence": "high",
+        "notes": "Clear role, organization, and time markers."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          6
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Minister of Local Government\nIn office\n24 January 2020 – 14 October 2021",
+          "He served as Minister of Local Government from 2020 to 2021."
+        ],
+        "confidence": "high",
+        "notes": "Clear role and time markers, no organization mentioned."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 2,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

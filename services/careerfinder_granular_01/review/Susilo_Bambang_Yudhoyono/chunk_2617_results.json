@@ -1,0 +1,262 @@
+{
+  "status": "success",
+  "chunk_id": 2617,
+  "chunk_index": 11,
+  "source_url": "https://en.wikipedia.org/wiki/Susilo_Bambang_Yudhoyono",
+  "title": "Susilo Bambang Yudhoyono - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2004 Indian Ocean tsunami",
+          "type": "point",
+          "quotes": [
+            "After the 2004 Indian Ocean tsunami Kalla, apparently on his own initiative, assembled Ministers and signed a vice-presidential decree ordering work to begin on rehabilitating Aceh."
+          ]
+        },
+        {
+          "text": "September 2005",
+          "type": "point",
+          "quotes": [
+            "In September 2005, when Yudhoyono went to New York City to attend the annual United Nations Summit, he left Vice President Kalla in charge."
+          ]
+        },
+        {
+          "text": "6 May 2005",
+          "type": "point",
+          "quotes": [
+            "On 6 May 2005, Yudhoyono visited Suharto at hospital when the latter suffered from intestinal bleeding."
+          ]
+        },
+        {
+          "text": "5 January 2007",
+          "type": "point",
+          "quotes": [
+            "On 5 January 2007, Yudhoyono"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "United Nations",
+          "quotes": [
+            "In September 2005, when Yudhoyono went to New York City to attend the annual United Nations Summit, he left Vice President Kalla in charge."
+          ]
+        },
+        {
+          "name": "Golkar",
+          "quotes": [
+            "The suggestion seemed to gain momentum when Kalla only showed up for one video conference and then spent the rest of the time taking care of Golkar matters."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Vice President",
+          "quotes": [
+            "Kalla, apparently on his own initiative, assembled Ministers and signed a vice-presidential decree ordering work to begin on rehabilitating Aceh.",
+            "he left Vice President Kalla in charge.",
+            "To defuse political tensions stemming from protests over rising fuel prices, President Yudhoyono dispatched Vice President Jusuf Kalla to meet with several national figures.",
+            "Vice President Kalla's arrival at the residence of former President Abdurrahman Wahid in Ciganjur, Jakarta, was greeted by Yenny Wahid, Gus Dur's eldest daughter, on the porch.",
+            "Vice President Kalla was greeted by former President Megawati Sukarnoputri, Taufiq Kiemas, and her eldest daughter, Puan Maharani.",
+            "in his second term, when he chose a civil bureaucrat as his vice president, political attacks began to emerge that shook his government."
+          ]
+        },
+        {
+          "title": "President",
+          "quotes": [
+            "To defuse political tensions stemming from protests over rising fuel prices, President Yudhoyono dispatched Vice President Jusuf Kalla to meet with several national figures.",
+            "President Yudhoyono's first term was relatively stable due to his strategy of maintaining balance, but in his second term, when he chose a civil bureaucrat as his vice president, political attacks began to emerge that shook his government.",
+            "On 6 May 2005, Yudhoyono visited Suharto at hospital when the latter suffered from intestinal bleeding."
+          ]
+        },
+        {
+          "title": "former President",
+          "quotes": [
+            "To defuse political tensions stemming from protests over rising fuel prices, President Yudhoyono dispatched Vice President Jusuf Kalla to meet with several national figures, including former President Abdurrahman Wahid and Megawati Sukarnoputri.",
+            "Vice President Kalla's arrival at the residence of former President Abdurrahman Wahid in Ciganjur, Jakarta, was greeted by Yenny Wahid, Gus Dur's eldest daughter, on the porch.",
+            "Vice President Kalla was greeted by former President Megawati Sukarnoputri, Taufiq Kiemas, and her eldest daughter, Puan Maharani."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "New York City",
+          "quotes": [
+            "In September 2005, when Yudhoyono went to New York City to attend the annual United Nations Summit, he left Vice President Kalla in charge."
+          ]
+        },
+        {
+          "place": "Ciganjur, Jakarta",
+          "quotes": [
+            "Vice President Kalla's arrival at the residence of former President Abdurrahman Wahid in Ciganjur, Jakarta, was greeted by Yenny Wahid, Gus Dur's eldest daughter, on the porch."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "After the 2004 Indian Ocean tsunami Kalla, apparently on his own initiative, assembled Ministers and signed a vice-presidential decree ordering work to begin on rehabilitating Aceh."
+        ],
+        "confidence": "high",
+        "notes": "Kalla's role as Vice President is clearly active and involves decision-making."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "In September 2005, when Yudhoyono went to New York City to attend the annual United Nations Summit, he left Vice President Kalla in charge."
+        ],
+        "confidence": "high",
+        "notes": "Yudhoyono's attendance at the UN Summit and Kalla being left in charge indicate active roles."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "On 6 May 2005, Yudhoyono visited Suharto at hospital when the latter suffered from intestinal bleeding."
+        ],
+        "confidence": "high",
+        "notes": "Yudhoyono's role as President is active, as he is performing official duties."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The suggestion seemed to gain momentum when Kalla only showed up for one video conference and then spent the rest of the time taking care of Golkar matters."
+        ],
+        "confidence": "medium",
+        "notes": "Kalla's involvement with Golkar suggests an active role, though the exact nature is unclear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0,
+          2
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "To defuse political tensions stemming from protests over rising fuel prices, President Yudhoyono dispatched Vice President Jusuf Kalla to meet with several national figures, including former President Abdurrahman Wahid and Megawati Sukarnoputri.",
+          "Vice President Kalla's arrival at the residence of former President Abdurrahman Wahid in Ciganjur, Jakarta, was greeted by Yenny Wahid, Gus Dur's eldest daughter, on the porch."
+        ],
+        "confidence": "high",
+        "notes": "Kalla's role as Vice President and his interactions with former Presidents indicate active political engagement."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location information."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location information."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "Missing time marker information."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing location information."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "Missing time marker information."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 1,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

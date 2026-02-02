@@ -1,0 +1,341 @@
+{
+  "status": "success",
+  "chunk_id": 1197,
+  "chunk_index": 0,
+  "source_url": "https://en.wikipedia.org/wiki/Jean_Tirole",
+  "title": "Jean Tirole - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1976",
+          "type": "point",
+          "quotes": [
+            "Tirole received engineering degrees from the École Polytechnique in 1976"
+          ]
+        },
+        {
+          "text": "1978",
+          "type": "point",
+          "quotes": [
+            "Tirole received engineering degrees from the École nationale des ponts et chaussées in 1978"
+          ]
+        },
+        {
+          "text": "2014",
+          "type": "point",
+          "quotes": [
+            "In 2014, he received the Nobel Memorial Prize in Economic Sciences"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Toulouse 1 Capitole University",
+          "quotes": [
+            "who is currently a professor of economics at Toulouse 1 Capitole University"
+          ]
+        },
+        {
+          "name": "École Polytechnique",
+          "quotes": [
+            "Tirole received engineering degrees from the École Polytechnique in 1976"
+          ]
+        },
+        {
+          "name": "École nationale des ponts et chaussées",
+          "quotes": [
+            "Tirole received engineering degrees from the École nationale des ponts et chaussées in 1978"
+          ]
+        },
+        {
+          "name": "Université Paris Dauphine",
+          "quotes": [
+            "later completing graduate studies at Université Paris Dauphine"
+          ]
+        },
+        {
+          "name": "Massachusetts Institute of Technology",
+          "quotes": [
+            "Alma mater: Massachusetts Institute of Technology"
+          ]
+        },
+        {
+          "name": "Toulouse School of Economics",
+          "quotes": [
+            "Institutions: Toulouse School of Economics"
+          ]
+        },
+        {
+          "name": "Ecole des hautes études en sciences sociales",
+          "quotes": [
+            "Institutions: Ecole des hautes études en sciences sociales"
+          ]
+        },
+        {
+          "name": "Corps of Bridges, Waters and Forests",
+          "quotes": [
+            "He was appointed a member of the elite Corps of Bridges, Waters and Forests"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "professor of economics",
+          "quotes": [
+            "who is currently a professor of economics at Toulouse 1 Capitole University"
+          ]
+        },
+        {
+          "title": "member of the Corps of Bridges, Waters and Forests",
+          "quotes": [
+            "He was appointed a member of the elite Corps of Bridges, Waters and Forests"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Troyes, France",
+          "quotes": [
+            "Born: 9 August 1953, Troyes, France"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Tirole received engineering degrees from the École Polytechnique in 1976"
+        ],
+        "confidence": "high",
+        "notes": "No specific role mentioned, but receiving a degree is a significant educational milestone."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Tirole received engineering degrees from the École nationale des ponts et chaussées in 1978"
+        ],
+        "confidence": "high",
+        "notes": "No specific role mentioned, but receiving a degree is a significant educational milestone."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "later completing graduate studies at Université Paris Dauphine"
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker or role mentioned, but indicates further education."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Alma mater: Massachusetts Institute of Technology"
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker or role mentioned, but indicates affiliation with the institution."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          5,
+          6
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Institutions: Toulouse School of Economics",
+          "Institutions: Ecole des hautes études en sciences sociales"
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker or role mentioned, but indicates affiliation with the institutions."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "who is currently a professor of economics at Toulouse 1 Capitole University"
+        ],
+        "confidence": "high",
+        "notes": "Current position with a clear role and organization."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          7
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He was appointed a member of the elite Corps of Bridges, Waters and Forests"
+        ],
+        "confidence": "high",
+        "notes": "Clear role and organization, indicating a significant appointment."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2014, he received the Nobel Memorial Prize in Economic Sciences"
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of a one-time award."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Receiving a degree is an educational milestone, not a career position."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Receiving a degree is an educational milestone, not a career position."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Further education is not typically classified as a career position."
+          },
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing time marker and role information."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Affiliation with an institution without a role is not a career position."
+          },
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing time marker and role information."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Affiliation with institutions without a role is not a career position."
+          },
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing time marker and role information."
+          }
+        ]
+      },
+      {
+        "event_id": 5,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 6,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 7,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 8,
+      "valid": 3,
+      "warnings": 5,
+      "errors": 0,
+      "career_positions": 7,
+      "awards": 1
+    }
+  }
+}

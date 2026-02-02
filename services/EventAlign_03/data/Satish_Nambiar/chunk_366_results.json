@@ -1,0 +1,161 @@
+{
+  "status": "success",
+  "chunk_id": 366,
+  "chunk_index": 4,
+  "source_url": "https://corporatecitizen.in/v4-issue10/cover-story-dynamic-duo-75-indira-and%20-lt-gen-sat%20ish-nambiar-retd-breaking-barriers.html",
+  "title": "Cover Story: Dynamic Duo: 75 Indira and Lt. Gen.Satish Nambiar (retd) Breaking Barriers",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "October 1992",
+          "type": "point",
+          "quotes": [
+            "Pinning UN medal on members of the Argentinian contingent: October 1992."
+          ]
+        },
+        {
+          "text": "11th December 1971",
+          "type": "point",
+          "quotes": [
+            "Taking the surrender of the Jamalpur garrison: 11th December 1971."
+          ]
+        },
+        {
+          "text": "Post-independence",
+          "type": "point",
+          "quotes": [
+            "Post-independence, for example, there was little understanding about the security of India because it had been looked after by the British."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "UN",
+          "quotes": [
+            "Pinning UN medal on members of the Argentinian contingent: October 1992."
+          ]
+        },
+        {
+          "name": "Army, Navy and Air Force",
+          "quotes": [
+            "In the armed forces, everything has a time, and every person, his role. The drills that the Army, Navy and Air Force are shown practicing are not just for show."
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": [
+        {
+          "place": "Jamalpur",
+          "quotes": [
+            "Taking the surrender of the Jamalpur garrison: 11th December 1971."
+          ]
+        },
+        {
+          "place": "India",
+          "quotes": [
+            "Post-independence, for example, there was little understanding about the security of India because it had been looked after by the British."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Pinning UN medal on members of the Argentinian contingent: October 1992."
+        ],
+        "confidence": "high",
+        "notes": "The event involves the UN awarding a medal, which is a one-time recognition."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Taking the surrender of the Jamalpur garrison: 11th December 1971."
+        ],
+        "confidence": "medium",
+        "notes": "The event involves taking the surrender of a garrison, which implies an active military role, but the specific organization is not mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Post-independence, for example, there was little understanding about the security of India because it had been looked after by the British."
+        ],
+        "confidence": "low",
+        "notes": "The event refers to a post-independence context in India, but the specific role or organization is not clear."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and role information for the career position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position but lacks clear active role or responsibilities."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 1
+    }
+  }
+}

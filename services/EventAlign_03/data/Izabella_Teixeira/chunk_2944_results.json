@@ -1,0 +1,155 @@
+{
+  "status": "success",
+  "chunk_id": 2944,
+  "chunk_index": 1,
+  "source_url": "https://www.americasquarterly.org/aq-author/izabella-teixeira/",
+  "title": "Izabella Teixeira - Americas Quarterly",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Americas Society/Council of the Americas",
+          "quotes": [
+            "We are an independent publication of the Americas Society/Council of the Americas, based in New York City.",
+            "PUBLISHED BY AMERICAS SOCIETY/ COUNCIL OF THE AMERICAS"
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": [
+        {
+          "place": "New York City",
+          "quotes": [
+            "We are an independent publication of the Americas Society/Council of the Americas, based in New York City.",
+            "680 Park Avenue\nNew York, NY 10065"
+          ]
+        },
+        {
+          "place": "Argentina",
+          "quotes": [
+            "Countries\nArgentina"
+          ]
+        },
+        {
+          "place": "Bolivia",
+          "quotes": [
+            "Bolivia"
+          ]
+        },
+        {
+          "place": "Brazil",
+          "quotes": [
+            "Brazil"
+          ]
+        },
+        {
+          "place": "Chile",
+          "quotes": [
+            "Chile"
+          ]
+        },
+        {
+          "place": "Colombia",
+          "quotes": [
+            "Colombia"
+          ]
+        },
+        {
+          "place": "Ecuador",
+          "quotes": [
+            "Ecuador"
+          ]
+        },
+        {
+          "place": "Guatemala",
+          "quotes": [
+            "Guatemala"
+          ]
+        },
+        {
+          "place": "Mexico",
+          "quotes": [
+            "Mexico"
+          ]
+        },
+        {
+          "place": "Panama",
+          "quotes": [
+            "Panama"
+          ]
+        },
+        {
+          "place": "Peru",
+          "quotes": [
+            "Peru"
+          ]
+        },
+        {
+          "place": "Venezuela",
+          "quotes": [
+            "Venezuela"
+          ]
+        },
+        {
+          "place": "Caribbean Countries",
+          "quotes": [
+            "Caribbean Countries"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "We are an independent publication of the Americas Society/Council of the Americas, based in New York City.",
+          "PUBLISHED BY AMERICAS SOCIETY/ COUNCIL OF THE AMERICAS",
+          "680 Park Avenue\nNew York, NY 10065"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit role mentioned, but the organization and location are clearly linked. Assuming a career position based on the publication context."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. No explicit role mentioned, making it difficult to confirm the nature of the career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quotes do not explicitly mention a career position, only the organization and location."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "status": "success",
+  "chunk_id": 3298,
+  "chunk_index": 0,
+  "source_url": "https://www.un.org/sg/en/management/bios/Nabiullina.shtml",
+  "title": "ELVIRA NABIULLINA (RUSSIAN FEDERATION) | Secretary-General | United Nations",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "Between 2003 and her September 2007 appointment as minister",
+          "type": "range",
+          "quotes": [
+            "Between 2003 and her September 2007 appointment as minister, Nabiullina chaired the Center for Strategic Development and an advisory committee preparing for Russia's 2006 presidency of the G8 group of nations."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Center for Strategic Development",
+          "quotes": [
+            "Between 2003 and her September 2007 appointment as minister, Nabiullina chaired the Center for Strategic Development and an advisory committee preparing for Russia's 2006 presidency of the G8 group of nations."
+          ]
+        },
+        {
+          "name": "G8 group of nations",
+          "quotes": [
+            "Between 2003 and her September 2007 appointment as minister, Nabiullina chaired the Center for Strategic Development and an advisory committee preparing for Russia's 2006 presidency of the G8 group of nations."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Economic Adviser to Russian President, Vladimir Putin",
+          "quotes": [
+            "Ms. Nabiullina is the current Economic Adviser to Russian President, Vladimir Putin."
+          ]
+        },
+        {
+          "title": "Minister of Economic Development and Trade",
+          "quotes": [
+            "She is a former Minister of Economic Development and Trade and Deputy Minister of Economy."
+          ]
+        },
+        {
+          "title": "Deputy Minister of Economy",
+          "quotes": [
+            "She is a former Minister of Economic Development and Trade and Deputy Minister of Economy."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Russian Federation",
+          "quotes": [
+            "ELVIRA NABIULLINA (RUSSIAN FEDERATION)"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Between 2003 and her September 2007 appointment as minister, Nabiullina chaired the Center for Strategic Development and an advisory committee preparing for Russia's 2006 presidency of the G8 group of nations.",
+          "ELVIRA NABIULLINA (RUSSIAN FEDERATION)"
+        ],
+        "confidence": "high",
+        "notes": "Role is implied as 'chair' of the Center for Strategic Development and an advisory committee."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Ms. Nabiullina is the current Economic Adviser to Russian President, Vladimir Putin.",
+          "ELVIRA NABIULLINA (RUSSIAN FEDERATION)"
+        ],
+        "confidence": "high",
+        "notes": "Current role with no specific time marker provided."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1,
+          2
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "She is a former Minister of Economic Development and Trade and Deputy Minister of Economy.",
+          "ELVIRA NABIULLINA (RUSSIAN FEDERATION)"
+        ],
+        "confidence": "high",
+        "notes": "Former roles with no specific time markers provided."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role_ids despite the role being implied in the notes."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time_marker_ids and organization_ids for the current role."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time_marker_ids and organization_ids for the former roles."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

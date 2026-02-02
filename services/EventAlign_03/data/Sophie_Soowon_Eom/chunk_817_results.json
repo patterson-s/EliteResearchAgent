@@ -1,0 +1,194 @@
+{
+  "status": "success",
+  "chunk_id": 817,
+  "chunk_index": 3,
+  "source_url": "https://www.buzzsprout.com/1886318/episodes/11578450-the-future-is-multi-channel-marketing-nailing-your-adops-strategy-during-challenging-times-with-sophie-eom-ceo-of-adriel",
+  "title": "The Future is Multi-Channel Marketing: Nailing your AdOps Strategy During Challenging Times with Sophie Eom, CEO of Adriel",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "over the last year",
+          "type": "point",
+          "quotes": [
+            "So that's one big trend that I've seen over the last year."
+          ]
+        },
+        {
+          "text": "since not only 2022, but two years before",
+          "type": "open",
+          "quotes": [
+            "Yeah, absolutely. Actually, I've seen this trend since not only 2022, but two years before."
+          ]
+        },
+        {
+          "text": "early 2021",
+          "type": "point",
+          "quotes": [
+            "Compared to the survey results that we collected from over 100 companies, who are primarily the agency heads and brand heads out of the states in early 2021"
+          ]
+        },
+        {
+          "text": "this year",
+          "type": "point",
+          "quotes": [
+            "And this year, the advertisers started to test and learn on multiple platforms."
+          ]
+        },
+        {
+          "text": "2022",
+          "type": "point",
+          "quotes": [
+            "And ESG is also a hot topic in 2022 in AdTech industry."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "AlikeAudience",
+          "quotes": [
+            "while at AlikeAudience, we sensed the momentum of advertisers shifts of budget into new emerging channel"
+          ]
+        },
+        {
+          "name": "Amazon",
+          "quotes": [
+            "I've seen momentum on e-commerce platforms like Amazon, eBay, Walmart and even Kroger"
+          ]
+        },
+        {
+          "name": "eBay",
+          "quotes": [
+            "I've seen momentum on e-commerce platforms like Amazon, eBay, Walmart and even Kroger"
+          ]
+        },
+        {
+          "name": "Walmart",
+          "quotes": [
+            "I've seen momentum on e-commerce platforms like Amazon, eBay, Walmart and even Kroger"
+          ]
+        },
+        {
+          "name": "Kroger",
+          "quotes": [
+            "I've seen momentum on e-commerce platforms like Amazon, eBay, Walmart and even Kroger"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "audience segmentation provider",
+          "quotes": [
+            "That's really interesting. And Elice, from your standpoint, as an audience segmentation provider, do you agree with what Sophie saw in the past year?"
+          ]
+        },
+        {
+          "title": "agency heads",
+          "quotes": [
+            "Compared to the survey results that we collected from over 100 companies, who are primarily the agency heads and brand heads out of the states in early 2021"
+          ]
+        },
+        {
+          "title": "brand heads",
+          "quotes": [
+            "Compared to the survey results that we collected from over 100 companies, who are primarily the agency heads and brand heads out of the states in early 2021"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "So that's one big trend that I've seen over the last year.",
+          "Yeah, absolutely. Actually, I've seen this trend since not only 2022, but two years before.",
+          "while at AlikeAudience, we sensed the momentum of advertisers shifts of budget into new emerging channel",
+          "That's really interesting. And Elice, from your standpoint, as an audience segmentation provider, do you agree with what Sophie saw in the past year?",
+          "Compared to the survey results that we collected from over 100 companies, who are primarily the agency heads and brand heads out of the states in early 2021",
+          "And ESG is also a hot topic in 2022 in AdTech industry."
+        ],
+        "confidence": "medium",
+        "notes": "The role and organization are clearly linked, but the exact time frame is somewhat ambiguous, spanning multiple years."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1,
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Compared to the survey results that we collected from over 100 companies, who are primarily the agency heads and brand heads out of the states in early 2021"
+        ],
+        "confidence": "high",
+        "notes": "The roles are mentioned in the context of survey results, indicating a professional capacity, but no specific organization is linked."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "Time frame is ambiguous, spanning multiple years without clear start and end dates."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Location information is missing."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Organization information is missing, making it unclear where the roles were held."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Location information is missing."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

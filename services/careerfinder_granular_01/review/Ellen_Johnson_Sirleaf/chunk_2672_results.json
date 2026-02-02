@@ -1,0 +1,247 @@
+{
+  "status": "success",
+  "chunk_id": 2672,
+  "chunk_index": 10,
+  "source_url": "https://en.wikipedia.org/wiki/Ellen_Johnson_Sirleaf",
+  "title": "Ellen Johnson Sirleaf - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2013",
+          "type": "point",
+          "quotes": [
+            "Sirleaf with U.S. Secretary of State Hillary Clinton, Washington, D.C., 2013"
+          ]
+        },
+        {
+          "text": "15 March 2006",
+          "type": "point",
+          "quotes": [
+            "On 15 March 2006, President Sirleaf addressed a joint meeting of the United States Congress"
+          ]
+        },
+        {
+          "text": "2010–2011",
+          "type": "range",
+          "quotes": [
+            "During the 2010–2011 Ivorian crisis, Sirleaf, as chairperson of the Mano River Union, supported ECOWAS's recognition of Gbagbo's opponent"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "The Guardian",
+          "quotes": [
+            "The Guardian published a correction to its story: 'Nobel peace prize winner defends law criminalising homosexuality in Liberia'"
+          ]
+        },
+        {
+          "name": "Mano River Union",
+          "quotes": [
+            "Sirleaf, as chairperson of the Mano River Union, supported ECOWAS's recognition of Gbagbo's opponent"
+          ]
+        },
+        {
+          "name": "United States Africa Command (AFRICOM)",
+          "quotes": [
+            "Following the establishment of United States Africa Command (AFRICOM) by the United States military, Sirleaf offered to allow the U.S. to headquarter the new command in Liberia"
+          ]
+        },
+        {
+          "name": "United States Congress",
+          "quotes": [
+            "On 15 March 2006, President Sirleaf addressed a joint meeting of the United States Congress"
+          ]
+        },
+        {
+          "name": "ECOWAS",
+          "quotes": [
+            "Sirleaf, as chairperson of the Mano River Union, supported ECOWAS's recognition of Gbagbo's opponent"
+          ]
+        },
+        {
+          "name": "Movement for Democracy in Liberia",
+          "quotes": [
+            "meeting with Ivorian President Laurent Gbagbo in an attempt to repair relations between the two countries following Côte d'Ivoire's support of the Movement for Democracy in Liberia"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "President",
+          "quotes": [
+            "the President thinks that with the unprecedented freedom of speech and expression Liberia enjoys today",
+            "President Ellen Johnson Sirleaf",
+            "Sirleaf with U.S. Secretary of State Hillary Clinton, Washington, D.C., 2013",
+            "President Sirleaf addressed a joint meeting of the United States Congress"
+          ]
+        },
+        {
+          "title": "chairperson of the Mano River Union",
+          "quotes": [
+            "Sirleaf, as chairperson of the Mano River Union, supported ECOWAS's recognition of Gbagbo's opponent"
+          ]
+        },
+        {
+          "title": "U.S. Secretary of State",
+          "quotes": [
+            "Sirleaf with U.S. Secretary of State Hillary Clinton, Washington, D.C., 2013"
+          ]
+        },
+        {
+          "title": "Ivorian President",
+          "quotes": [
+            "meeting with Ivorian President Laurent Gbagbo"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Liberia",
+          "quotes": [
+            "our budding democracy will be strong enough to accommodate new ideas and debate both their value and Liberia's laws",
+            "Nobel peace prize winner defends law criminalising homosexuality in Liberia",
+            "Sirleaf offered to allow the U.S. to headquarter the new command in Liberia",
+            "asking for American support to help her country 'become a brilliant beacon, an example to Africa and the"
+          ]
+        },
+        {
+          "place": "Ivory Coast",
+          "quotes": [
+            "Upon her election to office, Sirleaf made her first foreign trip as President to neighboring Ivory Coast"
+          ]
+        },
+        {
+          "place": "Côte d'Ivoire",
+          "quotes": [
+            "following Côte d'Ivoire's support of the Movement for Democracy in Liberia during the Second Liberian Civil War"
+          ]
+        },
+        {
+          "place": "Washington, D.C.",
+          "quotes": [
+            "Sirleaf with U.S. Secretary of State Hillary Clinton, Washington, D.C., 2013"
+          ]
+        },
+        {
+          "place": "Stuttgart, Germany",
+          "quotes": [
+            "The command was eventually headquartered in Stuttgart, Germany"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          4
+        ],
+        "supporting_quotes": [
+          "On 15 March 2006, President Sirleaf addressed a joint meeting of the United States Congress",
+          "President Ellen Johnson Sirleaf",
+          "President Sirleaf addressed a joint meeting of the United States Congress"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role, organization, and time marker."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          1,
+          4
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "During the 2010–2011 Ivorian crisis, Sirleaf, as chairperson of the Mano River Union, supported ECOWAS's recognition of Gbagbo's opponent"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role, organizations, and time marker."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0,
+          2
+        ],
+        "location_ids": [
+          4
+        ],
+        "supporting_quotes": [
+          "Sirleaf with U.S. Secretary of State Hillary Clinton, Washington, D.C., 2013",
+          "President Ellen Johnson Sirleaf"
+        ],
+        "confidence": "medium",
+        "notes": "No specific organization mentioned, but clear linkage between role, time marker, and location."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information for the event."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the event."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Role 'U.S. Secretary of State' seems inconsistent with the subject being Sirleaf; likely a misattribution."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

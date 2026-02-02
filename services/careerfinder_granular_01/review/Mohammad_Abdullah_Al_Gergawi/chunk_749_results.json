@@ -1,0 +1,88 @@
+{
+  "status": "success",
+  "chunk_id": 749,
+  "chunk_index": 0,
+  "source_url": "https://ae.linkedin.com/in/mohammedalgergawi",
+  "title": "‏Mohammad Al Gergawi‏ - ‏وزير شؤون مجلس الوزراء بدولة الإمارات العربية المتحدة • UAE Minister of Cabinet Affairs‏ | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "LinkedIn",
+          "quotes": [
+            "تحترم LinkedIn خصوصيتك",
+            "تستخدم LinkedIn والأطراف الخارجية ملفات تعريف الارتباط الأساسية وغير الأساسية لتوفير خدماتنا وتأمينها وتحليلها وتحسينها"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "وزير شؤون مجلس الوزراء بدولة الإمارات العربية المتحدة • UAE Minister of Cabinet Affairs",
+          "quotes": [
+            "وزير شؤون مجلس الوزراء بدولة الإمارات العربية المتحدة • UAE Minister of Cabinet Affairs"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "دبي الإمارات العربية المتحدة",
+          "quotes": [
+            "دبي الإمارات العربية المتحدة"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "وزير شؤون مجلس الوزراء بدولة الإمارات العربية المتحدة • UAE Minister of Cabinet Affairs",
+          "دبي الإمارات العربية المتحدة"
+        ],
+        "confidence": "medium",
+        "notes": "No organization directly linked to the role, but the role is clearly a career position. Location is assumed to be associated with the role."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the career position event."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization linkage for the career position, despite the role being clearly associated with a government position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

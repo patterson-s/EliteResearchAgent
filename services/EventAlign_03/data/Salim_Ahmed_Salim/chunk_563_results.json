@@ -1,0 +1,174 @@
+{
+  "status": "success",
+  "chunk_id": 563,
+  "chunk_index": 63,
+  "source_url": "https://issafrica.s3.amazonaws.com/site/uploads/Book-2015-Salim.pdf",
+  "title": "Book-2015-Salim.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1990",
+          "type": "point",
+          "quotes": [
+            "1990 Declaration on Fundamental Changes."
+          ]
+        },
+        {
+          "text": "1963",
+          "type": "point",
+          "quotes": [
+            "When the OAU was established in 1963, there had been no provision for dealing with internal conflicts."
+          ]
+        },
+        {
+          "text": "May 1991",
+          "type": "point",
+          "quotes": [
+            "The OAU’s Conference on Security, Stability, Development and Cooperation in Africa was held in May 1991, in Kampala, Uganda."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "OAU",
+          "quotes": [
+            "When the OAU was established in 1963, there had been no provision for dealing with internal conflicts.",
+            "For him, the OAU was conceived as a framework for collective regional security in the wider sense, and in a more specific sense as a strategic plan for promoting regional cooperation in the political and diplomatic fields.",
+            "The subsequent OAU declaration also noted the urgent need for Africa to build capacity for the peaceful and speedy resolution of conflicts.",
+            "The OAU’s Conference on Security, Stability, Development and Cooperation in Africa was held in May 1991, in Kampala, Uganda."
+          ]
+        },
+        {
+          "name": "OAU Commission on Mediation, Arbitration and Consultation",
+          "quotes": [
+            "leaders had created the OAU Commission on Mediation, Arbitration and Consultation. However, this commission was not put into operation."
+          ]
+        },
+        {
+          "name": "UN",
+          "quotes": [
+            "it acknowledged the importance of international support and the mandate of the UN."
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": [
+        {
+          "place": "Africa",
+          "quotes": [
+            "a paradigm shift in acknowledging intrastate conflict as the number-one threat to human security on the continent.",
+            "a strategic plan for promoting regional cooperation in the political and diplomatic fields, thereby providing the necessary institutional dynamism to promote security, stability and development in Africa.",
+            "The Declaration sought to put Africa at the centre of attempts to deal with conflicts, by emphasizing that the continent bore primary responsibility for resolving its problems.",
+            "The report also made it clear that it was Africa’s responsibility for dealing with continental conflicts and urged continental actors to play a central role in preventing and resolving conflicts."
+          ]
+        },
+        {
+          "place": "Kampala, Uganda",
+          "quotes": [
+            "The OAU’s Conference on Security, Stability, Development and Cooperation in Africa was held in May 1991, in Kampala, Uganda."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "When the OAU was established in 1963, there had been no provision for dealing with internal conflicts.",
+          "For him, the OAU was conceived as a framework for collective regional security in the wider sense, and in a more specific sense as a strategic plan for promoting regional cooperation in the political and diplomatic fields."
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but the establishment of the OAU is a significant career event."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "leaders had created the OAU Commission on Mediation, Arbitration and Consultation. However, this commission was not put into operation."
+        ],
+        "confidence": "low",
+        "notes": "No specific role or time marker mentioned, but the creation of the commission is noted."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "The OAU’s Conference on Security, Stability, Development and Cooperation in Africa was held in May 1991, in Kampala, Uganda."
+        ],
+        "confidence": "high",
+        "notes": "Specific event with clear time marker, organization, and location."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. While the establishment of the OAU is significant, no specific role is mentioned for the individual."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "error",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing time marker, role, and location information. The event is incomplete and lacks essential details."
+          },
+          {
+            "type": "classification",
+            "severity": "medium",
+            "description": "Classification as 'career_position' is questionable without a clear role or active responsibilities."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 1,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "status": "success",
+  "chunk_id": 2673,
+  "chunk_index": 11,
+  "source_url": "https://en.wikipedia.org/wiki/Ellen_Johnson_Sirleaf",
+  "title": "Ellen Johnson Sirleaf - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2011",
+          "type": "point",
+          "quotes": [
+            "During the 2011 Libyan civil war, Sirleaf added her voice to the international community who asked the previous Libyan leader Muammar al-Gaddafi to cease the use of violence and tactics of political repression."
+          ]
+        },
+        {
+          "text": "27 February 2015",
+          "type": "point",
+          "quotes": [
+            "On 27 February 2015, President Sirleaf was expected to make a visit to U.S. President Barack Obama at the White House in Washington, D.C."
+          ]
+        },
+        {
+          "text": "2013–2015",
+          "type": "range",
+          "quotes": [
+            "the recent 2013–2015 Ebola virus epidemic, which heavily affected Liberia, Sierra Leone, and Guinea, and other areas in West Africa"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Liberia Broadcasting System",
+          "quotes": [
+            "China has contributed to Liberia's reconstruction, building several transmitters to extend the Liberia Broadcasting System nationwide"
+          ]
+        },
+        {
+          "name": "University of Liberia",
+          "quotes": [
+            "constructing a new campus for the University of Liberia"
+          ]
+        },
+        {
+          "name": "Council of Women World Leaders",
+          "quotes": [
+            "Sirleaf is a member of the Council of Women World Leaders, an international network of current and former women presidents and prime ministers"
+          ]
+        },
+        {
+          "name": "White House",
+          "quotes": [
+            "President Sirleaf was expected to make a visit to U.S. President Barack Obama at the White House in Washington, D.C."
+          ]
+        },
+        {
+          "name": "Office of the White House Press Secretary",
+          "quotes": [
+            "according to an official online statement from the Office of the White House Press Secretary"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "President",
+          "quotes": [
+            "President Sirleaf was expected to make a visit to U.S. President Barack Obama"
+          ]
+        },
+        {
+          "title": "U.S. President",
+          "quotes": [
+            "President Sirleaf was expected to make a visit to U.S. President Barack Obama"
+          ]
+        },
+        {
+          "title": "White House Press Secretary",
+          "quotes": [
+            "according to an official online statement from the Office of the White House Press Secretary"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "China",
+          "quotes": [
+            "Sirleaf has also strengthened relations with the People's Republic of China"
+          ]
+        },
+        {
+          "place": "Liberia",
+          "quotes": [
+            "China has contributed to Liberia's reconstruction",
+            "which heavily affected Liberia"
+          ]
+        },
+        {
+          "place": "Libya",
+          "quotes": [
+            "During the 2011 Libyan civil war",
+            "Her government later severed diplomatic ties with Libya"
+          ]
+        },
+        {
+          "place": "Washington, D.C.",
+          "quotes": [
+            "President Sirleaf was expected to make a visit to U.S. President Barack Obama at the White House in Washington, D.C."
+          ]
+        },
+        {
+          "place": "Sierra Leone",
+          "quotes": [
+            "which heavily affected Liberia, Sierra Leone, and Guinea"
+          ]
+        },
+        {
+          "place": "Guinea",
+          "quotes": [
+            "which heavily affected Liberia, Sierra Leone, and Guinea"
+          ]
+        },
+        {
+          "place": "West Africa",
+          "quotes": [
+            "and other areas in West Africa"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          1,
+          3,
+          5,
+          6,
+          7
+        ],
+        "supporting_quotes": [
+          "During the 2011 Libyan civil war, Sirleaf added her voice to the international community who asked the previous Libyan leader Muammar al-Gaddafi to cease the use of violence and tactics of political repression.",
+          "the recent 2013–2015 Ebola virus epidemic, which heavily affected Liberia, Sierra Leone, and Guinea, and other areas in West Africa",
+          "President Sirleaf was expected to make a visit to U.S. President Barack Obama"
+        ],
+        "confidence": "high",
+        "notes": "Presidential role is clearly indicated, with activities spanning multiple years and locations."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Sirleaf is a member of the Council of Women World Leaders, an international network of current and former women presidents and prime ministers",
+          "President Sirleaf was expected to make a visit to U.S. President Barack Obama"
+        ],
+        "confidence": "high",
+        "notes": "Membership in the Council of Women World Leaders is tied to her role as President."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          4
+        ],
+        "supporting_quotes": [
+          "On 27 February 2015, President Sirleaf was expected to make a visit to U.S. President Barack Obama at the White House in Washington, D.C.",
+          "according to an official online statement from the Office of the White House Press Secretary"
+        ],
+        "confidence": "high",
+        "notes": "Visit to the White House and interaction with the Press Secretary indicate official presidential duties."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information despite clear presidential role."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quotes mention activities but do not explicitly state the presidential role for all locations."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 2,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

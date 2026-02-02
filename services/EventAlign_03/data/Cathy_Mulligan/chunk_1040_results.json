@@ -1,0 +1,224 @@
+{
+  "status": "success",
+  "chunk_id": 1040,
+  "chunk_index": 1,
+  "source_url": "https://www.chartwellspeakers.com/speaker/cathy-mulligan/",
+  "title": "Cathy Mulligan | Digital Transformation | Chartwell Speakers",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2026",
+          "type": "point",
+          "quotes": [
+            "Digital Sustainability: Designing Resilient Digital Systems (2026)"
+          ]
+        },
+        {
+          "text": "2021-2023",
+          "type": "range",
+          "quotes": [
+            "Ernie Tedeschi, Chief Economist at the White House Council of Economic Advisers (2021-2023)"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Google",
+          "quotes": [
+            "Anna Baird, Executive Advisor, Google"
+          ]
+        },
+        {
+          "name": "Braintree, a subsidiary of PayPal",
+          "quotes": [
+            "Harper Reed, Entrepreneur, Futurist and former Head of Commerce at Braintree, a subsidiary of PayPal"
+          ]
+        },
+        {
+          "name": "White House Council of Economic Advisers",
+          "quotes": [
+            "Ernie Tedeschi, Chief Economist at the White House Council of Economic Advisers (2021-2023)"
+          ]
+        },
+        {
+          "name": "BBC",
+          "quotes": [
+            "The Future of Money, BBC",
+            "Cryptocurrencies: Fad or the future?, BBC"
+          ]
+        },
+        {
+          "name": "Tech News",
+          "quotes": [
+            "Blockchain is Bigger than Bitcoin, Tech News"
+          ]
+        },
+        {
+          "name": "Medium",
+          "quotes": [
+            "Profile, Medium"
+          ]
+        },
+        {
+          "name": "WIRED UK",
+          "quotes": [
+            "WIRED UK | Cathy Mulligan: Mythbusting The Hype Around Cryptocurrency and Blockchain"
+          ]
+        },
+        {
+          "name": "Friends of Ocean Action",
+          "quotes": [
+            "Friends of Ocean Action | Webinar: Sea of Trust, Creating a robust and inclusive global ocean data system"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Executive Advisor, Google",
+          "quotes": [
+            "Anna Baird, Executive Advisor, Google"
+          ]
+        },
+        {
+          "title": "Workplace wellbeing & productivity specialist",
+          "quotes": [
+            "Jason Howlett, Workplace wellbeing & productivity specialist"
+          ]
+        },
+        {
+          "title": "Expert on banking & financial innovation",
+          "quotes": [
+            "Kathryn Judge, Expert on banking & financial innovation"
+          ]
+        },
+        {
+          "title": "Entrepreneur, Futurist and former Head of Commerce at Braintree, a subsidiary of PayPal",
+          "quotes": [
+            "Harper Reed, Entrepreneur, Futurist and former Head of Commerce at Braintree, a subsidiary of PayPal"
+          ]
+        },
+        {
+          "title": "Expert in corporate transformation & innovation",
+          "quotes": [
+            "Susie Braam, Expert in corporate transformation & innovation"
+          ]
+        },
+        {
+          "title": "International broadcaster across business, economy, civil society and the economy",
+          "quotes": [
+            "Maithreyi Seetharaman, International broadcaster across business, economy, civil society and the economy"
+          ]
+        },
+        {
+          "title": "Market Infrastructure & Sustainability Leader",
+          "quotes": [
+            "David Craig, Market Infrastructure & Sustainability Leader"
+          ]
+        },
+        {
+          "title": "Chief Economist at the White House Council of Economic Advisers",
+          "quotes": [
+            "Ernie Tedeschi, Chief Economist at the White House Council of Economic Advisers (2021-2023)"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          7
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Ernie Tedeschi, Chief Economist at the White House Council of Economic Advisers (2021-2023)"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Anna Baird, Executive Advisor, Google"
+        ],
+        "confidence": "high",
+        "notes": "No time marker, but clear linkage between organization and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Harper Reed, Entrepreneur, Futurist and former Head of Commerce at Braintree, a subsidiary of PayPal"
+        ],
+        "confidence": "high",
+        "notes": "No time marker, but clear linkage between organization and role."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

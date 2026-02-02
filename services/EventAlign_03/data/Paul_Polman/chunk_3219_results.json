@@ -1,0 +1,272 @@
+{
+  "status": "success",
+  "chunk_id": 3219,
+  "chunk_index": 1,
+  "source_url": "https://www.paulpolman.com/about/",
+  "title": "About Paul Polman",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "until early 2025",
+          "type": "range",
+          "quotes": [
+            "She oversees our partnerships and strategic engagements, and will be on maternity leave with her baby boy until early 2025."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Systemiq",
+          "quotes": [
+            "This is why I work closely with organisations like Systemiq who are focused on driving Systems change and why I co-founded IMAGINE, to drive transformative leadership and partnership."
+          ]
+        },
+        {
+          "name": "IMAGINE",
+          "quotes": [
+            "This is why I work closely with organisations like Systemiq who are focused on driving Systems change and why I co-founded IMAGINE, to drive transformative leadership and partnership."
+          ]
+        },
+        {
+          "name": "Unilever",
+          "quotes": [
+            "Jeff previously served as Unilever’s Chief Sustainability Officer, and at Coca Cola and for the US Government, including as a climate advisor to President Clinton."
+          ]
+        },
+        {
+          "name": "Coca Cola",
+          "quotes": [
+            "Jeff previously served as Unilever’s Chief Sustainability Officer, and at Coca Cola and for the US Government, including as a climate advisor to President Clinton."
+          ]
+        },
+        {
+          "name": "US Government",
+          "quotes": [
+            "Jeff previously served as Unilever’s Chief Sustainability Officer, and at Coca Cola and for the US Government, including as a climate advisor to President Clinton."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Chief Sustainability Officer",
+          "quotes": [
+            "Jeff previously served as Unilever’s Chief Sustainability Officer, and at Coca Cola and for the US Government, including as a climate advisor to President Clinton."
+          ]
+        },
+        {
+          "title": "climate advisor to President Clinton",
+          "quotes": [
+            "Jeff previously served as Unilever’s Chief Sustainability Officer, and at Coca Cola and for the US Government, including as a climate advisor to President Clinton."
+          ]
+        },
+        {
+          "title": "oversees partnerships and strategic engagements",
+          "quotes": [
+            "She oversees our partnerships and strategic engagements, and will be on maternity leave with her baby boy until early 2025."
+          ]
+        },
+        {
+          "title": "drives high-level impact across all five accelerators",
+          "quotes": [
+            "Jeff drives high-level impact across all five accelerators."
+          ]
+        },
+        {
+          "title": "oversees public engagements",
+          "quotes": [
+            "Meryl puts her years of top PR experience towards systems change. She oversees public engagements and gets volume and impact behind the message."
+          ]
+        },
+        {
+          "title": "oversee partnerships and strategic engagements",
+          "quotes": [
+            "While Kelsey is on maternity leave, he will oversee our partnerships and strategic engagements."
+          ]
+        },
+        {
+          "title": "oversees key strategic engagements and partnerships",
+          "quotes": [
+            "Julia oversees key strategic engagements and partnerships."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "south of England",
+          "quotes": [
+            "I have a farm in the south of England that we are rewilding."
+          ]
+        },
+        {
+          "place": "East Africa",
+          "quotes": [
+            "Kelsey has built impact investing programmes across the world, including to increase access to higher education in East Africa."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Jeff previously served as Unilever’s Chief Sustainability Officer, and at Coca Cola and for the US Government, including as a climate advisor to President Clinton."
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker, but the role and organization are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Jeff previously served as Unilever’s Chief Sustainability Officer, and at Coca Cola and for the US Government, including as a climate advisor to President Clinton."
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker, but the role and organization are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Jeff previously served as Unilever’s Chief Sustainability Officer, and at Coca Cola and for the US Government, including as a climate advisor to President Clinton."
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker, but the role and organization are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "She oversees our partnerships and strategic engagements, and will be on maternity leave with her baby boy until early 2025."
+        ],
+        "confidence": "medium",
+        "notes": "No specific organization mentioned, but the role and time marker are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "This is why I work closely with organisations like Systemiq who are focused on driving Systems change and why I co-founded IMAGINE, to drive transformative leadership and partnership."
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but the organizations are clearly linked."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quote mentions Unilever, but the event is linked to Coca Cola. Possible misalignment."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quote mentions Unilever, but the event is linked to US Government. Possible misalignment."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role for the career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 0,
+      "warnings": 5,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

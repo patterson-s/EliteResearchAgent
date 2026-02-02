@@ -1,0 +1,197 @@
+{
+  "status": "success",
+  "chunk_id": 3710,
+  "chunk_index": 13,
+  "source_url": "https://en.wikipedia.org/wiki/Gordon_Brown",
+  "title": "Gordon Brown - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "July 2007",
+          "type": "point",
+          "quotes": [
+            "In a speech in July 2007, Brown clarified his position regarding Britain's relationship with the United States"
+          ]
+        },
+        {
+          "text": "13 December 2007",
+          "type": "point",
+          "quotes": [
+            "On 13 December 2007, Foreign Secretary David Miliband attended for the Prime Minister at the official signing ceremony for the Treaty of Lisbon"
+          ]
+        },
+        {
+          "text": "October 2008",
+          "type": "point",
+          "quotes": [
+            "During Brown's premiership, in October 2008, the Advisory Council on the Misuse of Drugs (ACMD) recommended to the then Home Secretary Jacqui Smith that cannabis remain classified as a Class C drug"
+          ]
+        },
+        {
+          "text": "2009",
+          "type": "point",
+          "quotes": [
+            "After Professor David Nutt, the chair of the ACMD, criticised this move in a lecture in 2009, he was asked to step down by then Home Secretary Alan"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Advisory Council on the Misuse of Drugs (ACMD)",
+          "quotes": [
+            "During Brown's premiership, in October 2008, the Advisory Council on the Misuse of Drugs (ACMD) recommended to the then Home Secretary Jacqui Smith that cannabis remain classified as a Class C drug"
+          ]
+        },
+        {
+          "name": "Labour party",
+          "quotes": [
+            "Brown and the Labour party had pledged to allow a referendum on the Constitutional Treaty"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Prime Minister",
+          "quotes": [
+            "On 13 December 2007, Foreign Secretary David Miliband attended for the Prime Minister at the official signing ceremony for the Treaty of Lisbon"
+          ]
+        },
+        {
+          "title": "Foreign Secretary",
+          "quotes": [
+            "On 13 December 2007, Foreign Secretary David Miliband attended for the Prime Minister at the official signing ceremony for the Treaty of Lisbon"
+          ]
+        },
+        {
+          "title": "Home Secretary",
+          "quotes": [
+            "During Brown's premiership, in October 2008, the Advisory Council on the Misuse of Drugs (ACMD) recommended to the then Home Secretary Jacqui Smith that cannabis remain classified as a Class C drug"
+          ]
+        },
+        {
+          "title": "chair of the ACMD",
+          "quotes": [
+            "After Professor David Nutt, the chair of the ACMD, criticised this move in a lecture in 2009, he was asked to step down by then Home Secretary Alan"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "China",
+          "quotes": [
+            "send a message to China, concerning the 2008 Tibetan unrest"
+          ]
+        },
+        {
+          "place": "United States",
+          "quotes": [
+            "We will not allow people to separate us from the United States of America in dealing with the common challenges that we face around the world"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "On 13 December 2007, Foreign Secretary David Miliband attended for the Prime Minister at the official signing ceremony for the Treaty of Lisbon"
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of role as Foreign Secretary on a specific date."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "During Brown's premiership, in October 2008, the Advisory Council on the Misuse of Drugs (ACMD) recommended to the then Home Secretary Jacqui Smith that cannabis remain classified as a Class C drug"
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of role as Home Secretary and involvement with ACMD."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "After Professor David Nutt, the chair of the ACMD, criticised this move in a lecture in 2009, he was asked to step down by then Home Secretary Alan"
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of role as chair of the ACMD."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location information for the career position as Foreign Secretary."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "error",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "high",
+            "description": "The role 'chair of the ACMD' is misclassified as a career_position. It should likely be classified as an award or affiliation unless it involves active duties."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing location information for the role as chair of the ACMD."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 1,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

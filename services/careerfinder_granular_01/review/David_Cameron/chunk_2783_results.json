@@ -1,0 +1,342 @@
+{
+  "status": "success",
+  "chunk_id": 2783,
+  "chunk_index": 2,
+  "source_url": "https://en.wikipedia.org/wiki/David_Cameron",
+  "title": "David Cameron - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "from 2010 to 2016",
+          "type": "range",
+          "quotes": [
+            "David William Donald Cameron, Baron Cameron of Chipping Norton (born 9 October 1966), is a British politician who served as Prime Minister of the United Kingdom from 2010 to 2016."
+          ]
+        },
+        {
+          "text": "from 2023 to 2024",
+          "type": "range",
+          "quotes": [
+            "After his premiership, he served as Foreign Secretary in the government of prime minister Rishi Sunak from 2023 to 2024."
+          ]
+        },
+        {
+          "text": "from 2005 to 2016",
+          "type": "range",
+          "quotes": [
+            "Cameron was Leader of the Conservative Party from 2005 to 2016 and served as Leader of the Opposition from 2005 to 2010."
+          ]
+        },
+        {
+          "text": "from 2005 to 2010",
+          "type": "range",
+          "quotes": [
+            "Cameron was Leader of the Conservative Party from 2005 to 2016 and served as Leader of the Opposition from 2005 to 2010."
+          ]
+        },
+        {
+          "text": "from 2001 to 2016",
+          "type": "range",
+          "quotes": [
+            "He was Member of Parliament (MP) for Witney from 2001 to 2016, and has been a member of the House of Lords since November 2023."
+          ]
+        },
+        {
+          "text": "since November 2023",
+          "type": "open",
+          "quotes": [
+            "He was Member of Parliament (MP) for Witney from 2001 to 2016, and has been a member of the House of Lords since November 2023."
+          ]
+        },
+        {
+          "text": "May 2015 – July 2016",
+          "type": "range",
+          "quotes": [
+            "Second ministry and term (May 2015 – July 2016)"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Conservative Party",
+          "quotes": [
+            "Cameron was Leader of the Conservative Party from 2005 to 2016 and served as Leader of the Opposition from 2005 to 2010."
+          ]
+        },
+        {
+          "name": "House of Lords",
+          "quotes": [
+            "He was Member of Parliament (MP) for Witney from 2001 to 2016, and has been a member of the House of Lords since November 2023."
+          ]
+        },
+        {
+          "name": "Eton College",
+          "quotes": [
+            "Born in London to an upper-middle-class family, Cameron was educated at Eton College and Brasenose College, Oxford."
+          ]
+        },
+        {
+          "name": "Brasenose College, Oxford",
+          "quotes": [
+            "Born in London to an upper-middle-class family, Cameron was educated at Eton College and Brasenose College, Oxford."
+          ]
+        },
+        {
+          "name": "Shadow Cabinet",
+          "quotes": [
+            "After becoming an MP in 2001, he served in the opposition Shadow Cabinet under Conservative leader Michael Howard, and succeeded Howard in 2005."
+          ]
+        },
+        {
+          "name": "Liberal Democrats",
+          "quotes": [
+            "Following the 2010 general election, negotiations led to Cameron becoming prime minister as the head of a coalition government with the Liberal Democrats."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Prime Minister of the United Kingdom",
+          "quotes": [
+            "David William Donald Cameron, Baron Cameron of Chipping Norton (born 9 October 1966), is a British politician who served as Prime Minister of the United Kingdom from 2010 to 2016."
+          ]
+        },
+        {
+          "title": "Foreign Secretary",
+          "quotes": [
+            "After his premiership, he served as Foreign Secretary in the government of prime minister Rishi Sunak from 2023 to 2024."
+          ]
+        },
+        {
+          "title": "Leader of the Conservative Party",
+          "quotes": [
+            "Cameron was Leader of the Conservative Party from 2005 to 2016 and served as Leader of the Opposition from 2005 to 2010."
+          ]
+        },
+        {
+          "title": "Leader of the Opposition",
+          "quotes": [
+            "Cameron was Leader of the Conservative Party from 2005 to 2016 and served as Leader of the Opposition from 2005 to 2010."
+          ]
+        },
+        {
+          "title": "Member of Parliament (MP)",
+          "quotes": [
+            "He was Member of Parliament (MP) for Witney from 2001 to 2016, and has been a member of the House of Lords since November 2023."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "London",
+          "quotes": [
+            "Born in London to an upper-middle-class family, Cameron was educated at Eton College and Brasenose College, Oxford."
+          ]
+        },
+        {
+          "place": "Witney",
+          "quotes": [
+            "He was Member of Parliament (MP) for Witney from 2001 to 2016, and has been a member of the House of Lords since November 2023."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "David William Donald Cameron, Baron Cameron of Chipping Norton (born 9 October 1966), is a British politician who served as Prime Minister of the United Kingdom from 2010 to 2016."
+        ],
+        "confidence": "high",
+        "notes": "Clear role and time marker."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "After his premiership, he served as Foreign Secretary in the government of prime minister Rishi Sunak from 2023 to 2024."
+        ],
+        "confidence": "high",
+        "notes": "Clear role and time marker."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2,
+          3
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          2,
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Cameron was Leader of the Conservative Party from 2005 to 2016 and served as Leader of the Opposition from 2005 to 2010."
+        ],
+        "confidence": "high",
+        "notes": "Clear roles, organization, and time markers."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4,
+          5
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "He was Member of Parliament (MP) for Witney from 2001 to 2016, and has been a member of the House of Lords since November 2023."
+        ],
+        "confidence": "high",
+        "notes": "Clear role, organization, time markers, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          6
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Second ministry and term (May 2015 – July 2016)"
+        ],
+        "confidence": "medium",
+        "notes": "Time marker and role are clear, but no additional context provided."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Following the 2010 general election, negotiations led to Cameron becoming prime minister as the head of a coalition government with the Liberal Democrats."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time marker, but role and organization are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "After becoming an MP in 2001, he served in the opposition Shadow Cabinet under Conservative leader Michael Howard, and succeeded Howard in 2005."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit role, but organization and context are clear."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "Overlapping time markers (2005-2016 and 2005-2010) for the same roles might need clarification."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "The quote mentions a second term but does not explicitly state the role, only the time marker."
+          }
+        ]
+      },
+      {
+        "event_id": 5,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 6,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role for the career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 7,
+      "valid": 3,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 7,
+      "awards": 0
+    }
+  }
+}

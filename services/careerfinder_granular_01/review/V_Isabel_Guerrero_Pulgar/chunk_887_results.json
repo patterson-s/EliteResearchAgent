@@ -1,0 +1,151 @@
+{
+  "status": "success",
+  "chunk_id": 887,
+  "chunk_index": 30,
+  "source_url": "https://www.un.org/digital-emerging-technologies/sites/www.un.org.techenvoy/files/hlp_on_digital_cooperation-report_final.pdf",
+  "title": "hlp_on_digital_cooperation-report_final.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "in 2013",
+          "type": "point",
+          "quotes": [
+            "Complications arise when data is located in another country: in 2013, Microsoft refused an FBI request to provide a suspect’s emails that were stored on a server in Ireland."
+          ]
+        },
+        {
+          "text": "in 2018",
+          "type": "point",
+          "quotes": [
+            "The world is suffering from a “trust deficit disorder”, in the words of the UN Secretary-General addressing the UN General Assembly in 2018."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Microsoft",
+          "quotes": [
+            "in 2013, Microsoft refused an FBI request to provide a suspect’s emails that were stored on a server in Ireland."
+          ]
+        },
+        {
+          "name": "FBI",
+          "quotes": [
+            "in 2013, Microsoft refused an FBI request to provide a suspect’s emails that were stored on a server in Ireland."
+          ]
+        },
+        {
+          "name": "United States of America (USA)",
+          "quotes": [
+            "The United States of America (USA) has since passed a law obliging American companies to comply with warrants to provide data of American citizens even if it is stored abroad."
+          ]
+        },
+        {
+          "name": "UN General Assembly",
+          "quotes": [
+            "Trust among nations and in multilateral processes has weakened as"
+          ]
+        },
+        {
+          "name": "Brave",
+          "quotes": [
+            "promising examples include the web browser Brave and the search engine DuckDuckGo."
+          ]
+        },
+        {
+          "name": "DuckDuckGo",
+          "quotes": [
+            "promising examples include the web browser Brave and the search engine DuckDuckGo."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "UN Secretary-General",
+          "quotes": [
+            "in the words of the UN Secretary-General addressing the UN General Assembly in 2018."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Ireland",
+          "quotes": [
+            "Microsoft refused an FBI request to provide a suspect’s emails that were stored on a server in Ireland."
+          ]
+        },
+        {
+          "place": "USA",
+          "quotes": [
+            "It enables other governments to separately negotiate agreements to access their citizens’ data stored by American companies in the USA."
+          ]
+        },
+        {
+          "place": "UK",
+          "quotes": [
+            "the UK and India are among countries exploring the idea of a third-party ‘data fiduciary’ who users can authorise to manage their personal data on their behalf."
+          ]
+        },
+        {
+          "place": "India",
+          "quotes": [
+            "the UK and India are among countries exploring the idea of a third-party ‘data fiduciary’ who users can authorise to manage their personal data on their behalf."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "in the words of the UN Secretary-General addressing the UN General Assembly in 2018."
+        ],
+        "confidence": "high",
+        "notes": "UN Secretary-General is a clear career position, linked to the UN General Assembly through the quote."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing location information for the career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "The supporting quote does not explicitly mention the UN Secretary-General's role or responsibilities, only their address to the UN General Assembly."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

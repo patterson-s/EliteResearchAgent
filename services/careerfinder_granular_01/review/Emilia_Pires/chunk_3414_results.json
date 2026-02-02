@@ -1,0 +1,170 @@
+{
+  "status": "success",
+  "chunk_id": 3414,
+  "chunk_index": 12,
+  "source_url": "https://conflictfieldresearch.colgate.edu/wp-content/uploads/2015/02/9_Reflections_on_Policy_Space.pdf",
+  "title": "9_Reflections_on_Policy_Space.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In a few years",
+          "type": "point",
+          "quotes": [
+            "In a few years let’s see whether it works or not."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "UN",
+          "quotes": [
+            "I went to the UN and I found out all the procurement Timorese that were working there and I offered them jobs and matched their salaries or I gave a little bit extra, and then I got them all out of the UN and to me."
+          ]
+        },
+        {
+          "name": "ADB",
+          "quotes": [
+            "I got one from ADB. So, I am taking people out of the donors’ people into the government."
+          ]
+        },
+        {
+          "name": "International Organizations",
+          "quotes": [
+            "there is a struggle for the educated Timo rese happening between the government and the International Organizations in Timor?",
+            "But then the International Organizations pay them that."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "procurement Timorese",
+          "quotes": [
+            "I found out all the procurement Timorese that were working there and I offered them jobs and matched their salaries or I gave a little bit extra, and then I got them all out of the UN and to me."
+          ]
+        },
+        {
+          "title": "Timorese consultant",
+          "quotes": [
+            "to hire a Timorese consultant I usually pay two or three thousand and international consultant I pay twelve to fifteen thousand."
+          ]
+        },
+        {
+          "title": "international consultant",
+          "quotes": [
+            "to hire a Timorese consultant I usually pay two or three thousand and international consultant I pay twelve to fifteen thousand."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Timor",
+          "quotes": [
+            "there is a struggle for the educated Timo rese happening between the government and the International Organizations in Timor?"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "I found out all the procurement Timorese that were working there and I offered them jobs and matched their salaries or I gave a little bit extra, and then I got them all out of the UN and to me."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time marker, but the role and organization are clear. Assuming this is a career position based on the context of offering jobs and salaries."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "I got one from ADB. So, I am taking people out of the donors’ people into the government."
+        ],
+        "confidence": "low",
+        "notes": "No explicit role mentioned, but the organization (ADB) and action (taking people into the government) suggest a career-related event. Time marker is absent."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1,
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "to hire a Timorese consultant I usually pay two or three thousand and international consultant I pay twelve to fifteen thousand."
+        ],
+        "confidence": "high",
+        "notes": "Roles are clearly mentioned with salary details, indicating active hiring and payment. No organization or time marker specified, but roles are sufficient to classify as career positions."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the event."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role and time marker for the event."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and time marker for the event."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position, but roles mentioned are more about hiring practices than a specific position held by the individual."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

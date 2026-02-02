@@ -1,0 +1,239 @@
+{
+  "status": "success",
+  "chunk_id": 3789,
+  "chunk_index": 0,
+  "source_url": "https://foreignpolicy.com/author/robert-greenhill/",
+  "title": "Robert Greenhill – Foreign Policy",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Global Canada",
+          "quotes": [
+            "Robert Greenhill is the executive chairman at Global Canada, a Montreal-based think tank"
+          ]
+        },
+        {
+          "name": "Centre for International Governance Innovation",
+          "quotes": [
+            "Robert Greenhill is the executive chairman at Global Canada, a Montreal-based think tank, and a senior fellow at the Centre for International Governance Innovation."
+          ]
+        },
+        {
+          "name": "World Economic Forum",
+          "quotes": [
+            "He was previously managing director of the World Economic Forum"
+          ]
+        },
+        {
+          "name": "Canadian International Development Agency",
+          "quotes": [
+            "president of the Canadian International Development Agency, where he was deeply involved in crafting Canada’s strategy to support Haiti"
+          ]
+        },
+        {
+          "name": "Bombardier International",
+          "quotes": [
+            "and president of Bombardier International."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "executive chairman",
+          "quotes": [
+            "Robert Greenhill is the executive chairman at Global Canada, a Montreal-based think tank"
+          ]
+        },
+        {
+          "title": "senior fellow",
+          "quotes": [
+            "and a senior fellow at the Centre for International Governance Innovation."
+          ]
+        },
+        {
+          "title": "managing director",
+          "quotes": [
+            "He was previously managing director of the World Economic Forum"
+          ]
+        },
+        {
+          "title": "president",
+          "quotes": [
+            "president of the Canadian International Development Agency, where he was deeply involved in crafting Canada’s strategy to support Haiti; and president of Bombardier International."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Montreal",
+          "quotes": [
+            "Robert Greenhill is the executive chairman at Global Canada, a Montreal-based think tank"
+          ]
+        },
+        {
+          "place": "Port-au-Prince",
+          "quotes": [
+            "A man runs near burning tires during a protest against insecurity in Port-au-Prince on April 16."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Robert Greenhill is the executive chairman at Global Canada, a Montreal-based think tank"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between organization, role, and location"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "and a senior fellow at the Centre for International Governance Innovation."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between organization and role"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He was previously managing director of the World Economic Forum"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between organization and role"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "president of the Canadian International Development Agency, where he was deeply involved in crafting Canada’s strategy to support Haiti"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between organization and role"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "and president of Bombardier International."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between organization and role"
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers and location for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers and location for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers and location for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers and location for career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 0,
+      "warnings": 5,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

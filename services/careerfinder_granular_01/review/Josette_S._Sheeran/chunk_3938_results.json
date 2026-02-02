@@ -1,0 +1,142 @@
+{
+  "status": "success",
+  "chunk_id": 3938,
+  "chunk_index": 7,
+  "source_url": "https://en.wikipedia.org/wiki/Josette_Sheeran",
+  "title": "Josette Sheeran - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "June 2025",
+          "type": "point",
+          "quotes": [
+            "Articles with a promotional tone from June 2025",
+            "Wikipedia articles with style issues from June 2025"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Agencies for Food and Agriculture",
+          "quotes": [
+            "Agencies for Food and Agriculture"
+          ]
+        },
+        {
+          "name": "The Washington Times",
+          "quotes": [
+            "The Washington Times people"
+          ]
+        },
+        {
+          "name": "United Nations",
+          "quotes": [
+            "Under-secretaries-general of the United Nations",
+            "American officials of the United Nations",
+            "Special Envoys of the Secretary-General of the United Nations"
+          ]
+        },
+        {
+          "name": "University of Colorado",
+          "quotes": [
+            "University of Colorado alumni"
+          ]
+        },
+        {
+          "name": "C-SPAN",
+          "quotes": [
+            "People appearing on C-SPAN"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Under-secretaries-general",
+          "quotes": [
+            "Under-secretaries-general of the United Nations"
+          ]
+        },
+        {
+          "title": "Special Envoys of the Secretary-General",
+          "quotes": [
+            "Special Envoys of the Secretary-General of the United Nations"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Under-secretaries-general of the United Nations"
+        ],
+        "confidence": "high",
+        "notes": "Role and organization clearly linked in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Special Envoys of the Secretary-General of the United Nations"
+        ],
+        "confidence": "high",
+        "notes": "Role and organization clearly linked in the same quote."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

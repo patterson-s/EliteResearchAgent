@@ -1,0 +1,416 @@
+{
+  "status": "success",
+  "chunk_id": 3635,
+  "chunk_index": 0,
+  "source_url": "https://en.wikipedia.org/wiki/Jens_Stoltenberg",
+  "title": "Jens Stoltenberg - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1979–1990",
+          "type": "range",
+          "quotes": [
+            "Journalistic career (1979–1990)"
+          ]
+        },
+        {
+          "text": "1990–2013",
+          "type": "range",
+          "quotes": [
+            "First career in Norwegian politics (1990–2013)"
+          ]
+        },
+        {
+          "text": "1990–1996",
+          "type": "range",
+          "quotes": [
+            "Ministry for Environment and Minister for Trade and Energy (1990–1996)"
+          ]
+        },
+        {
+          "text": "1996–1997",
+          "type": "range",
+          "quotes": [
+            "Minister of Finance (1996–1997)"
+          ]
+        },
+        {
+          "text": "25 October 1996 – 17 October 1997",
+          "type": "range",
+          "quotes": [
+            "In office 25 October 1996 – 17 October 1997"
+          ]
+        },
+        {
+          "text": "2000–2001",
+          "type": "range",
+          "quotes": [
+            "First term as Prime Minister (2000–2001)"
+          ]
+        },
+        {
+          "text": "2005–2013",
+          "type": "range",
+          "quotes": [
+            "Second term as Prime Minister (2005–2013)"
+          ]
+        },
+        {
+          "text": "17 October 2005 – 16 October 2013",
+          "type": "range",
+          "quotes": [
+            "In office 17 October 2005 – 16 October 2013"
+          ]
+        },
+        {
+          "text": "2013–2014",
+          "type": "range",
+          "quotes": [
+            "United Nations Special Envoy (2013–2014)"
+          ]
+        },
+        {
+          "text": "2014–2024",
+          "type": "range",
+          "quotes": [
+            "NATO Secretary General (2014–2024)"
+          ]
+        },
+        {
+          "text": "1 October 2014 – 1 October 2024",
+          "type": "range",
+          "quotes": [
+            "In office 1 October 2014 – 1 October 2024"
+          ]
+        },
+        {
+          "text": "2025–present",
+          "type": "open",
+          "quotes": [
+            "Minister of Finance (2025–present)"
+          ]
+        },
+        {
+          "text": "4 February 2025",
+          "type": "point",
+          "quotes": [
+            "Assumed office 4 February 2025"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "NATO",
+          "quotes": [
+            "NATO Secretary General (2014–2024)"
+          ]
+        },
+        {
+          "name": "United Nations",
+          "quotes": [
+            "United Nations Special Envoy (2013–2014)"
+          ]
+        },
+        {
+          "name": "Norges Bank",
+          "quotes": [
+            "Nomination for governorship of the Norges Bank"
+          ]
+        },
+        {
+          "name": "Munich Security Conference",
+          "quotes": [
+            "Munich Security Conference"
+          ]
+        },
+        {
+          "name": "Bilderberg Group",
+          "quotes": [
+            "Bilderberg Group"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Minister of Finance",
+          "quotes": [
+            "Minister of Finance (1996–1997)",
+            "Minister of Finance (2025–present)"
+          ]
+        },
+        {
+          "title": "Prime Minister of Norway",
+          "quotes": [
+            "First term as Prime Minister (2000–2001)",
+            "Second term as Prime Minister (2005–2013)",
+            "Prime Minister of Norway"
+          ]
+        },
+        {
+          "title": "Secretary General of NATO",
+          "quotes": [
+            "Secretary General of NATO",
+            "NATO Secretary General (2014–2024)"
+          ]
+        },
+        {
+          "title": "United Nations Special Envoy",
+          "quotes": [
+            "United Nations Special Envoy (2013–2014)"
+          ]
+        },
+        {
+          "title": "Ministry for Environment",
+          "quotes": [
+            "Ministry for Environment and Minister for Trade and Energy (1990–1996)"
+          ]
+        },
+        {
+          "title": "Minister for Trade and Energy",
+          "quotes": [
+            "Ministry for Environment and Minister for Trade and Energy (1990–1996)"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Norway",
+          "quotes": [
+            "First career in Norwegian politics (1990–2013)",
+            "Prime Minister of Norway"
+          ]
+        },
+        {
+          "place": "Ukraine",
+          "quotes": [
+            "December 2024 views on Ukraine"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Journalistic career (1979–1990)"
+        ],
+        "confidence": "medium",
+        "notes": "No specific organization or role mentioned, but time range is clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1,
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          5,
+          6
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "First career in Norwegian politics (1990–2013)",
+          "Ministry for Environment and Minister for Trade and Energy (1990–1996)"
+        ],
+        "confidence": "high",
+        "notes": "Roles and time range are clearly linked to Norwegian politics."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3,
+          4
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Minister of Finance (1996–1997)",
+          "In office 25 October 1996 – 17 October 1997"
+        ],
+        "confidence": "high",
+        "notes": "Role and time range are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "First term as Prime Minister (2000–2001)"
+        ],
+        "confidence": "high",
+        "notes": "Role and time range are clearly linked to Norway."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          6,
+          7
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Second term as Prime Minister (2005–2013)",
+          "In office 17 October 2005 – 16 October 2013"
+        ],
+        "confidence": "high",
+        "notes": "Role and time range are clearly linked to Norway."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          8
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "United Nations Special Envoy (2013–2014)"
+        ],
+        "confidence": "high",
+        "notes": "Role and organization are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          9,
+          10
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "NATO Secretary General (2014–2024)",
+          "In office 1 October 2014 – 1 October 2024"
+        ],
+        "confidence": "high",
+        "notes": "Role and organization are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          11,
+          12
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Minister of Finance (2025–present)",
+          "Assumed office 4 February 2025"
+        ],
+        "confidence": "high",
+        "notes": "Role and time range are clearly linked."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and role details for journalistic career."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing organization details for Norwegian politics career."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 4,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 5,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 6,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 7,
+        "status": "error",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "high",
+            "description": "Future date (2025) used for Minister of Finance position, which is implausible given the context."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 8,
+      "valid": 5,
+      "warnings": 2,
+      "errors": 1,
+      "career_positions": 8,
+      "awards": 0
+    }
+  }
+}

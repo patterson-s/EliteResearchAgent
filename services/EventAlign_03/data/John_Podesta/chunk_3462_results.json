@@ -1,0 +1,266 @@
+{
+  "status": "success",
+  "chunk_id": 3462,
+  "chunk_index": 14,
+  "source_url": "https://en.wikipedia.org/wiki/John_Podesta",
+  "title": "John Podesta - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Georgetown University Law Center",
+          "quotes": [
+            "Georgetown University Law Center alumni",
+            "Georgetown University Law Center faculty"
+          ]
+        },
+        {
+          "name": "Hillary Clinton 2016 presidential campaign",
+          "quotes": [
+            "Hillary Clinton 2016 presidential campaign"
+          ]
+        },
+        {
+          "name": "Knox College (Illinois)",
+          "quotes": [
+            "Knox College (Illinois) alumni"
+          ]
+        },
+        {
+          "name": "Obama administration",
+          "quotes": [
+            "Obama administration personnel"
+          ]
+        },
+        {
+          "name": "Clinton administration",
+          "quotes": [
+            "Clinton administration cabinet members"
+          ]
+        },
+        {
+          "name": "Biden administration",
+          "quotes": [
+            "Biden administration personnel"
+          ]
+        },
+        {
+          "name": "White House",
+          "quotes": [
+            "White House chiefs of staff",
+            "White House deputy chiefs of staff",
+            "White House staff secretaries"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Counselors to the president of the United States",
+          "quotes": [
+            "Counselors to the president of the United States"
+          ]
+        },
+        {
+          "title": "White House chiefs of staff",
+          "quotes": [
+            "White House chiefs of staff"
+          ]
+        },
+        {
+          "title": "White House deputy chiefs of staff",
+          "quotes": [
+            "White House deputy chiefs of staff"
+          ]
+        },
+        {
+          "title": "White House staff secretaries",
+          "quotes": [
+            "White House staff secretaries"
+          ]
+        },
+        {
+          "title": "Clinton administration cabinet members",
+          "quotes": [
+            "Clinton administration cabinet members"
+          ]
+        },
+        {
+          "title": "Senior advisors to the president of the United States",
+          "quotes": [
+            "Senior advisors to the president of the United States"
+          ]
+        },
+        {
+          "title": "Political campaign staff",
+          "quotes": [
+            "Political campaign staff"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Chicago",
+          "quotes": [
+            "Lawyers from Chicago",
+            "Politicians from Chicago"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          6
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "White House chiefs of staff"
+        ],
+        "confidence": "high",
+        "notes": "Direct match between organization and role quotes."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          6
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "White House deputy chiefs of staff"
+        ],
+        "confidence": "high",
+        "notes": "Direct match between organization and role quotes."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          6
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "White House staff secretaries"
+        ],
+        "confidence": "high",
+        "notes": "Direct match between organization and role quotes."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Clinton administration cabinet members"
+        ],
+        "confidence": "high",
+        "notes": "Direct match between organization and role quotes."
+      },
+      {
+        "event_type": "career_position",
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          6
+        ],
+        "time_marker_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Hillary Clinton 2016 presidential campaign",
+          "Political campaign staff"
+        ],
+        "confidence": "high",
+        "notes": "Role and organization mentioned in separate quotes but logically connected."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 0,
+      "warnings": 5,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

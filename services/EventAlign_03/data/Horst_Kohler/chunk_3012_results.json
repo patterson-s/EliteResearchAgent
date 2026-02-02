@@ -1,0 +1,201 @@
+{
+  "status": "success",
+  "chunk_id": 3012,
+  "chunk_index": 5,
+  "source_url": "https://en.wikipedia.org/wiki/Horst_K%C3%B6hler",
+  "title": "Horst Köhler - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "Throughout his six years as president",
+          "type": "range",
+          "quotes": [
+            "Throughout his six years as president, Köhler 'worked hard to put Africa on the top of Germany's political agenda', according to Deutsche Welle."
+          ]
+        },
+        {
+          "text": "By the summer of 2005",
+          "type": "point",
+          "quotes": [
+            "By the summer of 2005, he was Germany's most popular political figure, with an approval rating of 72 percent, according to a poll published in Der Spiegel."
+          ]
+        },
+        {
+          "text": "In July 2005",
+          "type": "point",
+          "quotes": [
+            "In July 2005, he dissolved the Bundestag at Chancellor Gerhard Schröder's request, after the latter had lost a motion of confidence."
+          ]
+        },
+        {
+          "text": "Bundestag election in September 2005",
+          "type": "point",
+          "quotes": [
+            "This led to an early Bundestag election in September 2005."
+          ]
+        },
+        {
+          "text": "In August 2005",
+          "type": "point",
+          "quotes": [
+            "In August 2005, Köhler attended the memorial ceremony for Brother Roger, the founder of the Taizé Community, an ecumenical monastic community in Burgundy."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Deutsche Welle",
+          "quotes": [
+            "Throughout his six years as president, Köhler 'worked hard to put Africa on the top of Germany's political agenda', according to Deutsche Welle."
+          ]
+        },
+        {
+          "name": "Der Spiegel",
+          "quotes": [
+            "By the summer of 2005, he was Germany's most popular political figure, with an approval rating of 72 percent, according to a poll published in Der Spiegel."
+          ]
+        },
+        {
+          "name": "Bundestag",
+          "quotes": [
+            "In July 2005, he dissolved the Bundestag at Chancellor Gerhard Schröder's request, after the latter had lost a motion of confidence."
+          ]
+        },
+        {
+          "nameumber": "Taizé Community",
+          "quotes": [
+            "In August 2005, Köhler attended the memorial ceremony for Brother Roger, the founder of the Taizé Community, an ecumenical monastic community in Burgundy."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "President",
+          "quotes": [
+            "Throughout his six years as president, Köhler 'worked hard to put Africa on the top of Germany's political agenda', according to Deutsche Welle."
+          ]
+        },
+        {
+          "title": "Chancellor",
+          "quotes": [
+            "In July 2005, he dissolved the Bundestag at Chancellor Gerhard Schröder's request, after the latter had lost a motion of confidence."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Africa",
+          "quotes": [
+            "In my view, the humanity of our world can be measured against the fate of Africa. Do Europe's self-respect, its foundations, values and history, not require it to play an honest and generous role in Africa?"
+          ]
+        },
+        {
+          "place": "Europe",
+          "quotes": [
+            "In my view, the humanity of our world can be measured against the fate of Africa. Do Europe's self-respect, its foundations, values and history, not require it to play an honest and generous role in Africa?"
+          ]
+        },
+        {
+          "place": "Burgundy",
+          "quotes": [
+            "In August 2005, Köhler attended the memorial ceremony for Brother Roger, the founder of the Taizé Community, an ecumenical monastic community in Burgundy."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Throughout his six years as president, Köhler 'worked hard to put Africa on the top of Germany's political agenda', according to Deutsche Welle."
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of a career position as President with active responsibilities."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In July 2005, he dissolved the Bundestag at Chancellor Gerhard Schröder's request, after the latter had lost a motion of confidence."
+        ],
+        "confidence": "high",
+        "notes": "President's action in dissolving the Bundestag indicates an active role in governance."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "In August 2005, Köhler attended the memorial ceremony for Brother Roger, the founder of the Taizé Community, an ecumenical monastic community in Burgundy."
+        ],
+        "confidence": "medium",
+        "notes": "Attendance at a memorial ceremony is part of presidential duties, though not explicitly a governance action."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location information, which could be inferred but is not explicitly provided."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 2,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

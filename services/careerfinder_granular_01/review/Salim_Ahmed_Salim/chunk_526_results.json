@@ -1,0 +1,227 @@
+{
+  "status": "success",
+  "chunk_id": 526,
+  "chunk_index": 26,
+  "source_url": "https://issafrica.s3.amazonaws.com/site/uploads/Book-2015-Salim.pdf",
+  "title": "Book-2015-Salim.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1920s and 1930s",
+          "type": "range",
+          "quotes": [
+            "civil-society organisations that were established in the 1920s and 1930s"
+          ]
+        },
+        {
+          "text": "1931",
+          "type": "point",
+          "quotes": [
+            "A law allowing the creation of trade unions was passed in 1931."
+          ]
+        },
+        {
+          "text": "23 January 1942",
+          "type": "point",
+          "quotes": [
+            "Salim was born on 23 January 1942 at Mwembeladu Hospital, in Unguja."
+          ]
+        },
+        {
+          "text": "from 1948 to 1956",
+          "type": "range",
+          "quotes": [
+            "Salim attended standard one to eight in Pemba from 1948 to 1956 at Uweleni Primary School,"
+          ]
+        },
+        {
+          "text": "From 1957 to 1960",
+          "type": "range",
+          "quotes": [
+            "From 1957 to 1960 Salim attended secondary school in Unguja (standard 9 to 12),"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Kilimanjaro Native Cooperative Union",
+          "quotes": [
+            "Among the mainland organisations were the Kilimanjaro Native Cooperative Union,"
+          ]
+        },
+        {
+          "name": "African Traders’ Association",
+          "quotes": [
+            "traders’ associations, such as the African Traders’ Association,"
+          ]
+        },
+        {
+          "name": "Tanganyika Territory Civil Servants’ Association",
+          "quotes": [
+            "civil-servants’ associations, such as the Tanganyika Territory Civil Servants’ Association."
+          ]
+        },
+        {
+          "name": "Clove Growers’ Association",
+          "quotes": [
+            "his father worked as a clerk in the Clove Growers’ Association;"
+          ]
+        },
+        {
+          "name": "Boy Scouts",
+          "quotes": [
+            "During those years he was active in drama, debating and the Boy Scouts,"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "troop leader",
+          "quotes": [
+            "where he became a troop leader and acquired several proficiency badges."
+          ]
+        },
+        {
+          "title": "clerk",
+          "quotes": [
+            "his father worked as a clerk in the Clove Growers’ Association;"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Zanzibar",
+          "quotes": [
+            "In Tanganyika and Zanzibar the emergence and growth of the nationalist movements"
+          ]
+        },
+        {
+          "place": "Tanganyika",
+          "quotes": [
+            "In Tanganyika and Zanzibar the emergence and growth of the nationalist movements"
+          ]
+        },
+        {
+          "place": "Mwembeladu Hospital, Unguja",
+          "quotes": [
+            "Salim was born on 23 January 1942 at Mwembeladu Hospital, in Unguja."
+          ]
+        },
+        {
+          "place": "Pemba",
+          "quotes": [
+            "At that time hospital facilities were insufficient in Pemba, his parents’ home,"
+          ]
+        },
+        {
+          "place": "Unguja",
+          "quotes": [
+            "his mother hailed from Unguja – the other main island that constitutes Zanzibar."
+          ]
+        },
+        {
+          "place": "Pemba",
+          "quotes": [
+            "Salim attended standard one to eight in Pemba from 1948 to 1956 at Uweleni Primary School,"
+          ]
+        },
+        {
+          "place": "Unguja",
+          "quotes": [
+            "as well as at Darajani and Mashimoni primary schools in Unguja."
+          ]
+        },
+        {
+          "place": "Unguja",
+          "quotes": [
+            "From 1957 to 1960 Salim attended secondary school in Unguja (standard 9 to 12),"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "where he became a troop leader and acquired several proficiency badges.",
+          "During those years he was active in drama, debating and the Boy Scouts,"
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker linked to this role, but it is mentioned as part of his activities during his school years."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "his father worked as a clerk in the Clove Growers’ Association;"
+        ],
+        "confidence": "high",
+        "notes": "This event refers to Salim's father's role, not Salim himself. However, it is included as a career position based on the provided data."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position as troop leader."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "While 'troop leader' suggests an active role, the event is classified as a career position but lacks specific responsibilities or duration."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "error",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "high",
+            "description": "The event describes the father's role, not Salim's, making it inappropriate to classify as a career position for Salim."
+          },
+          {
+            "type": "quote_support",
+            "severity": "high",
+            "description": "The supporting quote explicitly states the role belongs to Salim's father, not Salim himself."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 1,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

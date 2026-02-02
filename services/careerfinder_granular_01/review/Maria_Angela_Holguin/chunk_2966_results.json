@@ -1,0 +1,153 @@
+{
+  "status": "success",
+  "chunk_id": 2966,
+  "chunk_index": 0,
+  "source_url": "https://www.un.org/sg/en/management/bios/Holguin.shtml",
+  "title": "MARIA ANGELA HOLGUIN (COLOMBIA) | Secretary-General | United Nations",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "United Nations",
+          "quotes": [
+            "Ms. Holguin is the current Foreign Minister of Colombia. Her career spans two decades of activity in the private and public sectors, including senior positions in the Office of the President of the Republic, the Ministry of Foreign Affairs and the Office of the Inspector General of the Nation. She previously served as Permanent Representative of Colombia to the United Nations."
+          ]
+        },
+        {
+          "name": "Office of the President of the Republic",
+          "quotes": [
+            "Ms. Holguin is the current Foreign Minister of Colombia. Her career spans two decades of activity in the private and public sectors, including senior positions in the Office of the President of the Republic, the Ministry of Foreign Affairs and the Office of the Inspector General of the Nation."
+          ]
+        },
+        {
+          "name": "Ministry of Foreign Affairs",
+          "quotes": [
+            "Ms. Holguin is the current Foreign Minister of Colombia. Her career spans two decades of activity in the private and public sectors, including senior positions in the Office of the President of the Republic, the Ministry of Foreign Affairs and the Office of the Inspector General of the Nation."
+          ]
+        },
+        {
+          "name": "Office of the Inspector General of the Nation",
+          "quotes": [
+            "Ms. Holguin is the current Foreign Minister of Colombia. Her career spans two decades of activity in the private and public sectors, including senior positions in the Office of the President of the Republic, the Ministry of Foreign Affairs and the Office of the Inspector General of the Nation."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Foreign Minister of Colombia",
+          "quotes": [
+            "Ms. Holguin is the current Foreign Minister of Colombia."
+          ]
+        },
+        {
+          "title": "Permanent Representative of Colombia to the United Nations",
+          "quotes": [
+            "She previously served as Permanent Representative of Colombia to the United Nations."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Colombia",
+          "quotes": [
+            "Ms. Holguin is the current Foreign Minister of Colombia."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "She previously served as Permanent Representative of Colombia to the United Nations."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role and organization in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Ms. Holguin is the current Foreign Minister of Colombia."
+        ],
+        "confidence": "high",
+        "notes": "Direct statement of current role and organization."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1,
+          2,
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Her career spans two decades of activity in the private and public sectors, including senior positions in the Office of the President of the Republic, the Ministry of Foreign Affairs and the Office of the Inspector General of the Nation."
+        ],
+        "confidence": "medium",
+        "notes": "No specific roles mentioned, but senior positions in these organizations imply career positions."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing specific role information despite mentioning senior positions in multiple organizations."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 2,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

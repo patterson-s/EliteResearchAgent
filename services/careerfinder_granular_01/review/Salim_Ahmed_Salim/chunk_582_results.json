@@ -1,0 +1,125 @@
+{
+  "status": "success",
+  "chunk_id": 582,
+  "chunk_index": 82,
+  "source_url": "https://issafrica.s3.amazonaws.com/site/uploads/Book-2015-Salim.pdf",
+  "title": "Book-2015-Salim.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Commission",
+          "quotes": [
+            "Before concluding, I would like to pay a special tribute to the chairperson of the Commission, Madam Nkosazana Dlamini-Zuma, for the way she has steered the organisation with the support of her colleagues, the various commissioners."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "chairperson of the Commission",
+          "quotes": [
+            "Before concluding, I would like to pay a special tribute to the chairperson of the Commission, Madam Nkosazana Dlamini-Zuma, for the way she has steered the organisation with the support of her colleagues, the various commissioners."
+          ]
+        },
+        {
+          "title": "commissioners",
+          "quotes": [
+            "Before concluding, I would like to pay a special tribute to the chairperson of the Commission, Madam Nkosazana Dlamini-Zuma, for the way she has steered the organisation with the support of her colleagues, the various commissioners."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Tanzania",
+          "quotes": [
+            "In some countries, like in my country, Tanzania, the need for a 50% representation of women in Parliament and other decision-making bodies is no more a question of why but rather how."
+          ]
+        },
+        {
+          "place": "Africa",
+          "quotes": [
+            "properly empowered and allowed to make full use of their potential will unleash an irreversible movement towards the political, social and economic emancipation of the continent. They would certainly make a major contribution in the struggle against poverty, including in the important area of ensuring that Africa is self-reliant in food production."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Before concluding, I would like to pay a special tribute to the chairperson of the Commission, Madam Nkosazana Dlamini-Zuma, for the way she has steered the organisation with the support of her colleagues, the various commissioners."
+        ],
+        "confidence": "high",
+        "notes": "The role 'chairperson of the Commission' clearly indicates an active leadership position within the organization."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Before concluding, I would like to pay a special tribute to the chairperson of the Commission, Madam Nkosazana Dlamini-Zuma, for the way she has steered the organisation with the support of her colleagues, the various commissioners."
+        ],
+        "confidence": "high",
+        "notes": "The role 'commissioners' indicates active members of the organization, supporting the chairperson."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the event, making it difficult to place in a timeline."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the event, making it difficult to place in a timeline."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "The quote mentions 'commissioners' as a group rather than a specific role for an individual, which may not clearly support a specific career position for a single person."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

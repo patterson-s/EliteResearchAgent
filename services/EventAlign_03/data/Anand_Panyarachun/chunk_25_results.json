@@ -1,0 +1,210 @@
+{
+  "status": "success",
+  "chunk_id": 25,
+  "chunk_index": 3,
+  "source_url": "https://www.cfr.org/blog/anand-panyarachun-and-making-modern-thailand-review",
+  "title": "Anand Panyarachun and The Making of Modern Thailand: A Review | Council on Foreign Relations",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1997",
+          "type": "point",
+          "quotes": [
+            "delivered Thailand’s widely-praised and progressive 1997 constitution"
+          ]
+        },
+        {
+          "text": "2006",
+          "type": "point",
+          "quotes": [
+            "paving the way for the 2006 military coup"
+          ]
+        },
+        {
+          "text": "2008",
+          "type": "point",
+          "quotes": [
+            "Anand also attended a funeral of a yellow shirt protester in 2008"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "United Nation’s panel on global peace and security",
+          "quotes": [
+            "presiding over a United Nation’s panel on global peace and security"
+          ]
+        },
+        {
+          "name": "commission on Southern Thailand",
+          "quotes": [
+            "chairing the commission on Southern Thailand"
+          ]
+        },
+        {
+          "name": "National Reform Commission",
+          "quotes": [
+            "chairing the National Reform Commission on Thailand’s deep political and societal divides"
+          ]
+        },
+        {
+          "name": "People’s Alliance for Democracy (PAD)",
+          "quotes": [
+            "He donated fifty-thousand Thai baht to the ultra-royalist and conservative People’s Alliance for Democracy (PAD) movement"
+          ]
+        },
+        {
+          "name": "United States Institute of Peace",
+          "quotes": [
+            "Petra Desatova, PhD, is a researcher on the United States Institute of Peace project into Thailand’s"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "chair",
+          "quotes": [
+            "chairing the commission on Southern Thailand",
+            "chairing the National Reform Commission on Thailand’s deep political and societal divides"
+          ]
+        },
+        {
+          "title": "researcher",
+          "quotes": [
+            "Petra Desatova, PhD, is a researcher on the United States Institute of Peace project into Thailand’s"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Thailand",
+          "quotes": [
+            "delivered Thailand’s widely-praised and progressive 1997 constitution",
+            "Anand supports the devolution of power to Thailand’s outer regions",
+            "Thailand’s political developments",
+            "Thailand experts as well as anyone interested in the politics and diplomacy of a long-time, critical U.S. treaty ally",
+            "United States Institute of Peace project into Thailand’s"
+          ]
+        },
+        {
+          "place": "Southern Thailand",
+          "quotes": [
+            "chairing the commission on Southern Thailand"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "chairing the National Reform Commission on Thailand’s deep political and societal divides",
+          "Thailand’s political developments"
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker, but role and organization are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "chairing the commission on Southern Thailand"
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker, but role, organization, and location are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Petra Desatova, PhD, is a researcher on the United States Institute of Peace project into Thailand’s"
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker, but role, organization, and location are clear. Assumed to be Petra Desatova's role, not Anand's."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quote mentions Petra Desatova, not Anand, which may cause confusion."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

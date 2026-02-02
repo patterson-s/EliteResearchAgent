@@ -1,0 +1,237 @@
+{
+  "status": "success",
+  "chunk_id": 3024,
+  "chunk_index": 17,
+  "source_url": "https://en.wikipedia.org/wiki/Horst_K%C3%B6hler",
+  "title": "Horst Köhler - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "the Bundeswehr",
+          "quotes": [
+            "the Bundeswehr"
+          ]
+        },
+        {
+          "name": "United Nations",
+          "quotes": [
+            "German officials of the United Nations"
+          ]
+        },
+        {
+          "name": "International Monetary Fund",
+          "quotes": [
+            "Managing directors of the International Monetary Fund"
+          ]
+        },
+        {
+          "name": "European Bank for Reconstruction and Development",
+          "quotes": [
+            "Presidents of the European Bank for Reconstruction and Development"
+          ]
+        },
+        {
+          "name": "University of Tübingen",
+          "quotes": [
+            "University of Tübingen alumni"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Presidents of Germany",
+          "quotes": [
+            "Presidents of Germany"
+          ]
+        },
+        {
+          "title": "Managing directors of the International Monetary Fund",
+          "quotes": [
+            "Managing directors of the International Monetary Fund"
+          ]
+        },
+        {
+          "title": "Presidents of the European Bank for Reconstruction and Development",
+          "quotes": [
+            "Presidents of the European Bank for Reconstruction and Development"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Zamość County",
+          "quotes": [
+            "People from Zamość County"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Managing directors of the International Monetary Fund"
+        ],
+        "confidence": "high",
+        "notes": "Direct linkage between organization and role in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Presidents of the European Bank for Reconstruction and Development"
+        ],
+        "confidence": "high",
+        "notes": "Direct linkage between organization and role in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "the Bundeswehr"
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but organization is clearly a career affiliation."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "German officials of the United Nations"
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but 'officials' implies a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "University of Tübingen alumni"
+        ],
+        "confidence": "low",
+        "notes": "Alumni status is ambiguous but typically implies a past affiliation, treated as a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Presidents of Germany"
+        ],
+        "confidence": "high",
+        "notes": "Role is clearly a career position, but no organization is directly linked."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for career position at 'the Bundeswehr'."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for career position at 'United Nations'."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Alumni status is ambiguous and may not qualify as a career position."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role and organization linkage for 'University of Tübingen alumni'."
+          }
+        ]
+      },
+      {
+        "event_id": 5,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization information for the role 'Presidents of Germany'."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 6,
+      "valid": 2,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 6,
+      "awards": 0
+    }
+  }
+}

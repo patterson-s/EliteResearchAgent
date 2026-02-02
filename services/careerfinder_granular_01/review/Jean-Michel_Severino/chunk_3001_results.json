@@ -1,0 +1,138 @@
+{
+  "status": "success",
+  "chunk_id": 3001,
+  "chunk_index": 0,
+  "source_url": "https://www.e3-cap.com/team/jean-michel-severino",
+  "title": "E3 Capital - Jean-Michel SÃ©verino",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "I&P (Investisseurs et Partenaires)",
+          "quotes": [
+            "Jean-Michel was the founder and CEO of I&P (Investisseurs et Partenaires), a prominent fund manager with a focus on SMEs in Africa."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Chairman, Supervisory Board of I&P",
+          "quotes": [
+            "Jean-Michel SÃ©verino, Chairman, Supervisory Board of I&P"
+          ]
+        },
+        {
+          "title": "founder and CEO of I&P",
+          "quotes": [
+            "Jean-Michel was the founder and CEO of I&P (Investisseurs et Partenaires), a prominent fund manager with a focus on SMEs in Africa."
+          ]
+        },
+        {
+          "title": "board member",
+          "quotes": [
+            "He is a board member for several private companies specializing in impact investing, development economics, African economic development and public-private partnerships."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Jean-Michel was the founder and CEO of I&P (Investisseurs et Partenaires), a prominent fund manager with a focus on SMEs in Africa."
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of a founding and leadership role in the organization."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Jean-Michel SÃ©verino, Chairman, Supervisory Board of I&P"
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of a leadership role on the Supervisory Board of the organization."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He is a board member for several private companies specializing in impact investing, development economics, African economic development and public-private partnerships."
+        ],
+        "confidence": "medium",
+        "notes": "No specific organization mentioned, but the role is clearly a career position. Confidence is medium due to lack of organizational linkage."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization linkage and time markers for the career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,298 @@
+{
+  "status": "success",
+  "chunk_id": 3201,
+  "chunk_index": 0,
+  "source_url": "https://www.edp.com/en/europe/portugal/patricia-espinosa",
+  "title": "Patricia Espinosa | edp",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2016-2022",
+          "type": "range",
+          "quotes": [
+            "she served as the Executive Secretary of the United Nations Framework Convention on Climate Change (2016-2022)"
+          ]
+        },
+        {
+          "text": "2006-2012",
+          "type": "range",
+          "quotes": [
+            "Secretary of Foreign Affairs of Mexico (2006-2012)"
+          ]
+        },
+        {
+          "text": "2013-2016",
+          "type": "range",
+          "quotes": [
+            "Ambassador of Mexico to the Federal Republic of Germany (2013-2016)"
+          ]
+        },
+        {
+          "text": "2002-2006",
+          "type": "range",
+          "quotes": [
+            "Ambassador of Mexico to Austria, Slovakia, and Slovenia (2002-2006)"
+          ]
+        },
+        {
+          "text": "2012",
+          "type": "point",
+          "quotes": [
+            "In 2012, she was appointed Ambassador Emeritus, the highest recognition that the Mexican State grants to its diplomats."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "onepoint5",
+          "quotes": [
+            "Ambassador Patricia Espinosa is a founding partner and CEO of onepoint5, a consulting company in the areas of environment, social responsibility, and corporate governance, specializing in climate change."
+          ]
+        },
+        {
+          "name": "United Nations Framework Convention on Climate Change (UNFCCC)",
+          "quotes": [
+            "she served as the Executive Secretary of the United Nations Framework Convention on Climate Change (2016-2022)"
+          ]
+        },
+        {
+          "name": "Mexican State",
+          "quotes": [
+            "the highest recognition that the Mexican State grants to its diplomats."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "CEO and Founding Partner",
+          "quotes": [
+            "Ambassador Patricia Espinosa is a founding partner and CEO of onepoint5"
+          ]
+        },
+        {
+          "title": "Executive Secretary of the United Nations Framework Convention on Climate Change",
+          "quotes": [
+            "she served as the Executive Secretary of the United Nations Framework Convention on Climate Change (2016-2022)"
+          ]
+        },
+        {
+          "title": "Secretary of Foreign Affairs of Mexico",
+          "quotes": [
+            "Secretary of Foreign Affairs of Mexico (2006-2012)"
+          ]
+        },
+        {
+          "title": "Ambassador of Mexico to the Federal Republic of Germany",
+          "quotes": [
+            "Ambassador of Mexico to the Federal Republic of Germany (2013-2016)"
+          ]
+        },
+        {
+          "title": "Ambassador of Mexico to Austria, Slovakia, and Slovenia",
+          "quotes": [
+            "Ambassador of Mexico to Austria, Slovakia, and Slovenia (2002-2006)"
+          ]
+        },
+        {
+          "title": "Ambassador Emeritus",
+          "quotes": [
+            "she was appointed Ambassador Emeritus, the highest recognition that the Mexican State grants to its diplomats."
+          ]
+        },
+        {
+          "title": "Career Diplomat",
+          "quotes": [
+            "As a Career Diplomat, Ambassador Espinosa is a respected leader on the international stage"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Federal Republic of Germany",
+          "quotes": [
+            "Ambassador of Mexico to the Federal Republic of Germany (2013-2016)"
+          ]
+        },
+        {
+          "place": "Austria",
+          "quotes": [
+            "Ambassador of Mexico to Austria, Slovakia, and Slovenia (2002-2006)"
+          ]
+        },
+        {
+          "place": "Slovakia",
+          "quotes": [
+            "Ambassador of Mexico to Austria, Slovakia, and Slovenia (2002-2006)"
+          ]
+        },
+        {
+          "place": "Slovenia",
+          "quotes": [
+            "Ambassador of Mexico to Austria, Slovakia, and Slovenia (2002-2006)"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [
+          1,
+          2,
+          3
+        ],
+        "supporting_quotes": [
+          "Ambassador of Mexico to Austria, Slovakia, and Slovenia (2002-2006)"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, role, and locations."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Secretary of Foreign Affairs of Mexico (2006-2012)"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Ambassador of Mexico to the Federal Republic of Germany (2013-2016)"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "she served as the Executive Secretary of the United Nations Framework Convention on Climate Change (2016-2022)"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          5
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2012, she was appointed Ambassador Emeritus, the highest recognition that the Mexican State grants to its diplomats."
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of a one-time recognition without ongoing responsibilities."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Ambassador Patricia Espinosa is a founding partner and CEO of onepoint5, a consulting company in the areas of environment, social responsibility, and corporate governance, specializing in climate change."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time marker, but clear linkage between organization and role. Assuming current position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 4,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 5,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time marker for the career position at onepoint5."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 6,
+      "valid": 5,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 1
+    }
+  }
+}

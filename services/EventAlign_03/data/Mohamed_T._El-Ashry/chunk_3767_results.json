@@ -1,0 +1,255 @@
+{
+  "status": "success",
+  "chunk_id": 3767,
+  "chunk_index": 1,
+  "source_url": "https://en.wikipedia.org/wiki/Mohamed_T._El-Ashry",
+  "title": "Mohamed T. El-Ashry - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "in 1990",
+          "type": "point",
+          "quotes": [
+            "a Fellow of the Third World Academy of Sciences in 1990"
+          ]
+        },
+        {
+          "text": "in 2001",
+          "type": "point",
+          "quotes": [
+            "and a Fellow of the African Academy of Sciences in 2001"
+          ]
+        },
+        {
+          "text": "since 2012",
+          "type": "open",
+          "quotes": [
+            "a member of the American Academy of Arts and Sciences since 2012 advising on renewable energy"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "American Association for the Advancement of Science",
+          "quotes": [
+            "of the American Association for the Advancement of Science"
+          ]
+        },
+        {
+          "name": "Third World Academy of Sciences",
+          "quotes": [
+            "a Fellow of the Third World Academy of Sciences in 1990"
+          ]
+        },
+        {
+          "name": "African Academy of Sciences",
+          "quotes": [
+            "and a Fellow of the African Academy of Sciences in 2001"
+          ]
+        },
+        {
+          "name": "UN Foundation",
+          "quotes": [
+            "and a Senior Fellow with the UN Foundation."
+          ]
+        },
+        {
+          "name": "American Academy of Arts and Sciences",
+          "quotes": [
+            "a member of the American Academy of Arts and Sciences since 2012 advising on renewable energy"
+          ]
+        },
+        {
+          "name": "World Wide Fund for Nature",
+          "quotes": [
+            "and a board member World Wide Fund for Nature"
+          ]
+        },
+        {
+          "name": "Resources for the Future",
+          "quotes": [
+            "and a board member World Wide Fund for Nature, Resources for the Future"
+          ]
+        },
+        {
+          "name": "Renewable Energy Policy Network for the 21st Century",
+          "quotes": [
+            "and a board member World Wide Fund for Nature, Resources for the Future, and Renewable Energy Policy Network for the 21st Century."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Fellow",
+          "quotes": [
+            "a Fellow of the Third World Academy of Sciences in 1990",
+            "and a Fellow of the African Academy of Sciences in 2001"
+          ]
+        },
+        {
+          "title": "Senior Fellow",
+          "quotes": [
+            "and a Senior Fellow with the UN Foundation."
+          ]
+        },
+        {
+          "title": "member",
+          "quotes": [
+            "a member of the American Academy of Arts and Sciences since 2012 advising on renewable energy"
+          ]
+        },
+        {
+          "title": "board member",
+          "quotes": [
+            "and a board member World Wide Fund for Nature, Resources for the Future, and Renewable Energy Policy Network for the 21st Century."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "a Fellow of the Third World Academy of Sciences in 1990"
+        ],
+        "confidence": "high",
+        "notes": "Fellowship without active duties mentioned, treated as honorary"
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "and a Fellow of the African Academy of Sciences in 2001"
+        ],
+        "confidence": "high",
+        "notes": "Fellowship without active duties mentioned, treated as honorary"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "a member of the American Academy of Arts and Sciences since 2012 advising on renewable energy"
+        ],
+        "confidence": "high",
+        "notes": "Active role with advising responsibilities"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "and a Senior Fellow with the UN Foundation."
+        ],
+        "confidence": "medium",
+        "notes": "Senior Fellow role likely implies active duties, but time marker is missing"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          5,
+          6,
+          7
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "and a board member World Wide Fund for Nature, Resources for the Future, and Renewable Energy Policy Network for the 21st Century."
+        ],
+        "confidence": "medium",
+        "notes": "Board member role implies active duties, but time marker is missing"
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for Senior Fellow role at UN Foundation"
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for board member roles at multiple organizations"
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 3,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 2
+    }
+  }
+}

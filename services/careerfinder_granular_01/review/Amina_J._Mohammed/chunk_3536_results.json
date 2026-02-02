@@ -1,0 +1,258 @@
+{
+  "status": "success",
+  "chunk_id": 3536,
+  "chunk_index": 4,
+  "source_url": "https://en.wikipedia.org/wiki/Amina_J._Mohammed",
+  "title": "Amina J. Mohammed - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1 January 1970",
+          "type": "point",
+          "quotes": [
+            "Tori. 1 January 1970. Retrieved 1 February 2025."
+          ]
+        },
+        {
+          "text": "10 March 2016",
+          "type": "point",
+          "quotes": [
+            "HuffPost. 10 March 2016. Retrieved 1 February 2025."
+          ]
+        },
+        {
+          "text": "2 June 2015",
+          "type": "point",
+          "quotes": [
+            "Wiggins, Kaye (2 June 2015). 'UN sets sights on sustainable development goals'. Financial Times. Retrieved 8 September 2024."
+          ]
+        },
+        {
+          "text": "3 January 2017",
+          "type": "point",
+          "quotes": [
+            "United Nations. 3 January 2017. Retrieved 8 September 2024."
+          ]
+        },
+        {
+          "text": "13 May 2020",
+          "type": "point",
+          "quotes": [
+            "Oak TV. Archived from the original on 13 May 2020. Retrieved 27 February 2017."
+          ]
+        },
+        {
+          "text": "27 July 2018",
+          "type": "point",
+          "quotes": [
+            "The Japan Times. 10 November 2017. Archived from the original on 27 July 2018. Retrieved 30 November 2017."
+          ]
+        },
+        {
+          "text": "10 November 2017",
+          "type": "point",
+          "quotes": [
+            "The Japan Times. 10 November 2017. Archived from the original on 27 July 2018. Retrieved 30 November 2017."
+          ]
+        },
+        {
+          "text": "9 November 2017",
+          "type": "point",
+          "quotes": [
+            "9 November 2017. Retrieved 8 September 2024."
+          ]
+        },
+        {
+          "text": "12 November 2017",
+          "type": "point",
+          "quotes": [
+            "12 November 2017. Retrieved 8 September 2024."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "United Nations",
+          "quotes": [
+            "DW. Retrieved 1 February 2025.",
+            "United Nations. Retrieved 31 May 2022.",
+            "United Nations. Retrieved 8 September 2024.",
+            "United Nations. 3 January 2017. Retrieved 8 September 2024."
+          ]
+        },
+        {
+          "name": "HuffPost",
+          "quotes": [
+            "HuffPost. 10 March 2016. Retrieved 1 February 2025."
+          ]
+        },
+        {
+          "name": "Financial Times",
+          "quotes": [
+            "Financial Times. Retrieved 8 September 2024."
+          ]
+        },
+        {
+          "name": "World Health Organization (WHO)",
+          "quotes": [
+            "World Health Organization (WHO). Retrieved 8 September 2024."
+          ]
+        },
+        {
+          "name": "Africa Europe Foundation (AEF)",
+          "quotes": [
+            "Africa Europe Foundation (AEF). Retrieved 8 September 2024."
+          ]
+        },
+        {
+          "name": "Global Partnership for Sustainable Development Data",
+          "quotes": [
+            "Global Partnership for Sustainable Development Data."
+          ]
+        },
+        {
+          "name": "International Gender Champions (IGC)",
+          "quotes": [
+            "International Gender Champions (IGC)."
+          ]
+        },
+        {
+          "name": "World Economic Forum",
+          "quotes": [
+            "World Economic Forum's Young Global Leaders."
+          ]
+        },
+        {
+          "name": "African Union",
+          "quotes": [
+            "African Union."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Honourable Minister for Environment, Nigeria",
+          "quotes": [
+            "HuffPost. 10 March 2016. Retrieved 1 February 2025.",
+            "oak.tv. Oak TV. Archived from the original on 13 May 2020. Retrieved 27 February 2017."
+          ]
+        },
+        {
+          "title": "Ex-Adviser to the UN Secretary General on Post-2015 Development Planning",
+          "quotes": [
+            "HuffPost. 10 March 2016. Retrieved 1 February 2025."
+          ]
+        },
+        {
+          "title": "Deputy Secretary-General",
+          "quotes": [
+            "United Nations. Retrieved 8 September 2024.",
+            "United Nations. 3 January 2017. Retrieved 8 September 2024."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Nigeria",
+          "quotes": [
+            "DW. Retrieved 1 February 2025.",
+            "HuffPost. 10 March 2016. Retrieved 1 February 2025.",
+            "United Nations. 3 January 2017. Retrieved 8 September 2024."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "HuffPost. 10 March 2016. Retrieved 1 February 2025."
+        ],
+        "confidence": "high",
+        "notes": "Role as Minister and Ex-Adviser linked to Nigeria and HuffPost."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "United Nations. 3 January 2017. Retrieved 8 September 2024."
+        ],
+        "confidence": "high",
+        "notes": "Role as Deputy Secretary-General linked to United Nations and Nigeria."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "quote_support",
+            "severity": "medium",
+            "description": "Supporting quote does not clearly mention the roles or provide context for the event."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing end_date for the career position, which may be inferable but is not explicitly provided."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "quote_support",
+            "severity": "medium",
+            "description": "Supporting quote does not clearly mention the role of Deputy Secretary-General or provide sufficient context."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing end_date for the career position, which may be inferable but is not explicitly provided."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

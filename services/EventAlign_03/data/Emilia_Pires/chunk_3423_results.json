@@ -1,0 +1,205 @@
+{
+  "status": "success",
+  "chunk_id": 3423,
+  "chunk_index": 1,
+  "source_url": "https://www.forbes.com/global/2009/0907/power-women-09-east-timor-finance-emilia-pires.html",
+  "title": "Emilia Pires",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "for the 24-year occupation",
+          "type": "range",
+          "quotes": [
+            "She stayed in Australia for the 24-year occupation, slipping home under a different name to visit besieged relatives."
+          ]
+        },
+        {
+          "text": "in 1999",
+          "type": "point",
+          "quotes": [
+            "She returned to Dili in 1999, one of few East Timorese with any meaningful government experience."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "state of Victoria's civil service",
+          "quotes": [
+            "graduated from university and later joined the state of Victoria's civil service."
+          ]
+        },
+        {
+          "name": "the media",
+          "quotes": [
+            "Now she makes her case with myriad Timorese stakeholders: the media, the Catholic Church, villages where she explains the nation's finances in layman's terms."
+          ]
+        },
+        {
+          "name": "the Catholic Church",
+          "quotes": [
+            "Now she makes her case with myriad Timorese stakeholders: the media, the Catholic Church, villages where she explains the nation's finances in layman's terms."
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": [
+        {
+          "place": "Australia",
+          "quotes": [
+            "But instead Indonesia invaded, and Pires faced a choice--flee to Portugal or remain in Australia.",
+            "She stayed in Australia for the 24-year occupation, slipping home under a different name to visit besieged relatives."
+          ]
+        },
+        {
+          "place": "Portugal",
+          "quotes": [
+            "But instead Indonesia invaded, and Pires faced a choice--flee to Portugal or remain in Australia."
+          ]
+        },
+        {
+          "place": "Melbourne",
+          "quotes": [
+            "She went to school in a tough Melbourne suburb, graduated from university and later joined the state of Victoria's civil service."
+          ]
+        },
+        {
+          "place": "Dili",
+          "quotes": [
+            "She returned to Dili in 1999, one of few East Timorese with any meaningful government experience."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "graduated from university and later joined the state of Victoria's civil service."
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker, but the event is clearly a career position based on the context of joining the civil service."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "She stayed in Australia for the 24-year occupation, slipping home under a different name to visit besieged relatives."
+        ],
+        "confidence": "high",
+        "notes": "The event is a career position as it involves a prolonged stay in Australia, likely with ongoing responsibilities during the occupation."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          3
+        ],
+        "supporting_quotes": [
+          "She returned to Dili in 1999, one of few East Timorese with any meaningful government experience."
+        ],
+        "confidence": "high",
+        "notes": "The event is a career position as it involves returning to Dili with government experience, implying ongoing responsibilities."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1,
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Now she makes her case with myriad Timorese stakeholders: the media, the Catholic Church, villages where she explains the nation's finances in layman's terms."
+        ],
+        "confidence": "medium",
+        "notes": "The event is a career position as it involves engaging with stakeholders, which implies ongoing responsibilities, though no specific time marker is provided."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and role information."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and role information."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and role information."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker, location, and role information."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quote does not explicitly mention a specific career position, only stakeholder engagement."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 0,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

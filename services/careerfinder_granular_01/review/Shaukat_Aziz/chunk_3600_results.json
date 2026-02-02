@@ -1,0 +1,149 @@
+{
+  "status": "success",
+  "chunk_id": 3600,
+  "chunk_index": 1,
+  "source_url": "https://londonspeakerbureau.com/speaker-profile/shaukat-aziz/",
+  "title": "Shaukat Aziz – Keynote Speaker | London Speaker Bureau",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Citibank",
+          "quotes": [
+            "Mr Aziz’s long career with Citibank and his experiences as Prime Minister and Minister of Finance give him a unique perspective on geopolitical issues, international finance and the fluctuating global economy."
+          ]
+        },
+        {
+          "name": "United States",
+          "quotes": [
+            "Known for securing significant loans from the United States in return for support of the war against terror, Aziz restored Pakistan’s credibility in the global marketplace."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Prime Minister",
+          "quotes": [
+            "Mr Aziz’s long career with Citibank and his experiences as Prime Minister and Minister of Finance give him a unique perspective on geopolitical issues, international finance and the fluctuating global economy."
+          ]
+        },
+        {
+          "title": "Minister of Finance",
+          "quotes": [
+            "Mr Aziz’s long career with Citibank and his experiences as Prime Minister and Minister of Finance give him a unique perspective on geopolitical issues, international finance and the fluctuating global economy."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Mr Aziz’s long career with Citibank and his experiences as Prime Minister and Minister of Finance give him a unique perspective on geopolitical issues, international finance and the fluctuating global economy."
+        ],
+        "confidence": "medium",
+        "notes": "No specific time markers or roles directly linked to Citibank, but the quote implies a long career there."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Mr Aziz’s long career with Citibank and his experiences as Prime Minister and Minister of Finance give him a unique perspective on geopolitical issues, international finance and the fluctuating global economy."
+        ],
+        "confidence": "medium",
+        "notes": "No specific organization or time markers linked to the role of Prime Minister, but the quote implies it was a held position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Mr Aziz’s long career with Citibank and his experiences as Prime Minister and Minister of Finance give him a unique perspective on geopolitical issues, international finance and the fluctuating global economy."
+        ],
+        "confidence": "medium",
+        "notes": "No specific organization or time markers linked to the role of Minister of Finance, but the quote implies it was a held position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers and role details for the career position at Citibank."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quote implies a long career at Citibank but does not provide specific details about the role or responsibilities."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and time markers for the role of Prime Minister."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quote mentions the role of Prime Minister but does not provide specific details about the tenure or responsibilities."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and time markers for the role of Minister of Finance."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quote mentions the role of Minister of Finance but does not provide specific details about the tenure or responsibilities."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

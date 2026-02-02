@@ -1,0 +1,130 @@
+{
+  "status": "success",
+  "chunk_id": 1252,
+  "chunk_index": 1,
+  "source_url": "https://www.ecgi.global/network/our-members/jean-tirole",
+  "title": "Tirole, Jean | ECGI",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "ECGI",
+          "quotes": [
+            "Which newsletters do you wish to receive? The ECGI Blog",
+            "The Future of Corporate Governance (monthly)",
+            "The ECGI Members' Debrief (monthly, members only)",
+            "ECGI news (occasional)",
+            "Please select the communications that you wish to receive from ECGI.",
+            "There is also a separate mailing list for ECGI members (to which members are automatically subscribed when they join ECGI).",
+            "I consent to receive communication emails from ECGI",
+            "We use Mailchimp as our marketing platform. By clicking below to subscribe, you acknowledge that your information will be transferred to Mailchimp for processing."
+          ]
+        },
+        {
+          "name": "Mailchimp",
+          "quotes": [
+            "We use Mailchimp as our marketing platform. By clicking below to subscribe, you acknowledge that your information will be transferred to Mailchimp for processing.",
+            "Learn more about Mailchimp's privacy practices."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "academic",
+          "quotes": [
+            "Are you an academic? Yes, I am an academic"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Europe and the UK",
+          "quotes": [
+            "Which regions are you interested in? Events in Europe and the UK"
+          ]
+        },
+        {
+          "place": "North America",
+          "quotes": [
+            "Which regions are you interested in? Events in North America"
+          ]
+        },
+        {
+          "place": "Asia and Antipodes",
+          "quotes": [
+            "Which regions are you interested in? Events in Asia and Antipodes"
+          ]
+        },
+        {
+          "place": "rest of the world",
+          "quotes": [
+            "Which regions are you interested in? Events in the rest of the world"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Are you an academic? Yes, I am an academic",
+          "Which newsletters do you wish to receive? The ECGI Blog",
+          "The Future of Corporate Governance (monthly)",
+          "The ECGI Members' Debrief (monthly, members only)",
+          "ECGI news (occasional)",
+          "Please select the communications that you wish to receive from ECGI.",
+          "There is also a separate mailing list for ECGI members (to which members are automatically subscribed when they join ECGI).",
+          "I consent to receive communication emails from ECGI"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time markers, but the role and organization are clearly linked through the quotes. The role 'academic' is assumed to be associated with ECGI based on the context of receiving communications and newsletters."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "No time markers provided, making it impossible to verify temporal coherence."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing location information, though it may not be critical for this event."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "The role 'academic' is only self-reported and not explicitly linked to ECGI in the quotes, though context suggests a connection."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

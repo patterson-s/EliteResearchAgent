@@ -1,0 +1,254 @@
+{
+  "status": "success",
+  "chunk_id": 381,
+  "chunk_index": 3,
+  "source_url": "https://en.wikipedia.org/wiki/Yevgeny_Primakov",
+  "title": "Yevgeny Primakov - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "following the collapse of the Soviet Union and the end of the Cold War",
+          "type": "point",
+          "quotes": [
+            "He was also famously an advocate of multilateralism as an alternative to American global hegemony following the collapse of the Soviet Union and the end of the Cold War."
+          ]
+        },
+        {
+          "text": "beginning in 1999",
+          "type": "point",
+          "quotes": [
+            "Called the 'Primakov doctrine', beginning in 1999, he promoted Russia, India and China, RIC, origin of BRICS as a 'strategic triangle' to counterbalance the United States"
+          ]
+        },
+        {
+          "text": "Prime Minister of Russia (1998–1999)",
+          "type": "range",
+          "quotes": [
+            "Prime Minister of Russia (1998–1999)"
+          ]
+        },
+        {
+          "text": "in September 1998",
+          "type": "point",
+          "quotes": [
+            "After Yeltsin's bid to reinstate Viktor Chernomyrdin as Prime Minister of Russia was blocked by the State Duma in September 1998, the President turned to Primakov as a compromise figure whom he rightly judged would be accepted by the parliament's majority."
+          ]
+        },
+        {
+          "text": "in October 1998",
+          "type": "point",
+          "quotes": [
+            "one of Primakov's first actions as prime minister, in October 1998, was to appeal to the United States and Canada for food aid, while also appealing to the European Union for economic relief."
+          ]
+        },
+        {
+          "text": "during the 1999 NATO bombing of Yugoslavia",
+          "type": "point",
+          "quotes": [
+            "While Primakov's opposition to US unilateralism was popular among some Russians, it also led to a breach with the West during the 1999 NATO bombing of Yugoslavia, and isolated Russia during subsequent developments in the former Yugoslavia."
+          ]
+        },
+        {
+          "text": "On 24 March 1999",
+          "type": "point",
+          "quotes": [
+            "On 24 March 1999, Primakov was heading to Washington, D.C. for an official visit."
+          ]
+        },
+        {
+          "text": "on 12 May 1999",
+          "type": "point",
+          "quotes": [
+            "Yeltsin fired Primakov on 12 May 1999, ostensibly over the sluggish pace of the Russian economy."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "State Duma",
+          "quotes": [
+            "After Yeltsin's bid to reinstate Viktor Chernomyrdin as Prime Minister of Russia was blocked by the State Duma in September 1998, the President turned to Primakov as a compromise figure whom he rightly judged would be accepted by the parliament's majority."
+          ]
+        },
+        {
+          "name": "European Union",
+          "quotes": [
+            "one of Primakov's first actions as prime minister, in October 1998, was to appeal to the United States and Canada for food aid, while also appealing to the European Union for economic relief."
+          ]
+        },
+        {
+          "name": "NATO",
+          "quotes": [
+            "While Primakov's opposition to US unilateralism was popular among some Russians, it also led to a breach with the West during the 1999 NATO bombing of Yugoslavia, and isolated Russia during subsequent developments in the former Yugoslavia."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Prime Minister of Russia",
+          "quotes": [
+            "Prime Minister of Russia (1998–1999)",
+            "After Yeltsin's bid to reinstate Viktor Chernomyrdin as Prime Minister of Russia was blocked by the State Duma in September 1998, the President turned to Primakov as a compromise figure whom he rightly judged would be accepted by the parliament's majority."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Washington, D.C.",
+          "quotes": [
+            "On 24 March 1999, Primakov was heading to Washington, D.C. for an official visit."
+          ]
+        },
+        {
+          "place": "Moscow",
+          "quotes": [
+            "Primakov decided to cancel the visit, ordered the plane to turn around over the ocean and returned to Moscow in a manoeuvre popularly dubbed 'Primakov's Loop'."
+          ]
+        },
+        {
+          "place": "Yugoslavia",
+          "quotes": [
+            "While Primakov's opposition to US unilateralism was popular among some Russians, it also led to a breach with the West during the 1999 NATO bombing of Yugoslavia, and isolated Russia during subsequent developments in the former Yugoslavia."
+          ]
+        },
+        {
+          "place": "Central Asia",
+          "quotes": [
+            "The move was interpreted by some observers as an agreement to fight together against 'colour revolutions' in Central Asia."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2,
+          3,
+          5,
+          7
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Prime Minister of Russia (1998–1999)",
+          "After Yeltsin's bid to reinstate Viktor Chernomyrdin as Prime Minister of Russia was blocked by the State Duma in September 1998, the President turned to Primakov as a compromise figure whom he rightly judged would be accepted by the parliament's majority."
+        ],
+        "confidence": "high",
+        "notes": "Clear time range and role mentioned in quotes."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "While Primakov's opposition to US unilateralism was popular among some Russians, it also led to a breach with the West during the 1999 NATO bombing of Yugoslavia, and isolated Russia during subsequent developments in the former Yugoslavia."
+        ],
+        "confidence": "high",
+        "notes": "Primakov's role as Prime Minister during the NATO bombing of Yugoslavia is clearly mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          7
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Yeltsin fired Primakov on 12 May 1999, ostensibly over the sluggish pace of the Russian economy."
+        ],
+        "confidence": "high",
+        "notes": "End of Primakov's tenure as Prime Minister is clearly stated."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          6
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "On 24 March 1999, Primakov was heading to Washington, D.C. for an official visit."
+        ],
+        "confidence": "high",
+        "notes": "Primakov's official visit to Washington, D.C. as Prime Minister is mentioned."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location information, despite role and time being clear."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location information, despite role and time being clear."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information, despite role, time, and location being clear."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 1,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

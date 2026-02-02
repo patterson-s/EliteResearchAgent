@@ -1,0 +1,149 @@
+{
+  "status": "success",
+  "chunk_id": 2940,
+  "chunk_index": 0,
+  "source_url": "https://iica.int/en/press/news/izabella-teixeira-former-minister-of-the-environment-of-brazil-and-a-globally-renowned-expert-on-the-relationship-between-economic-development-and-climate-recognized-as-an-iica-goodwill-ambass/",
+  "title": "Izabella Teixeira, former Minister of the Environment of Brazil and a globally renowned expert  on the relationship between economic development and climate, recognized as an IICA Goodwill Ambassador before ministers of Agriculture of the Americas",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "November 12, 2025",
+          "type": "point",
+          "quotes": [
+            "November 12, 2025"
+          ]
+        },
+        {
+          "text": "11 November 2025",
+          "type": "point",
+          "quotes": [
+            "Belém do Pará, Brazil, 11 November 2025 (IICA)"
+          ]
+        },
+        {
+          "text": "2015",
+          "type": "point",
+          "quotes": [
+            "Teixeira, who led Brazil’s delegation of negotiators to COP21 in 2015, when almost 200 countries adopted the Paris Agreement,"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Inter-American Institute for Cooperation on Agriculture (IICA)",
+          "quotes": [
+            "recognized as a Goodwill Ambassador of the Inter-American Institute for Cooperation on Agriculture (IICA)."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Minister of the Environment of Brazil",
+          "quotes": [
+            "Izabella Teixeira, former Minister of the Environment of Brazil"
+          ]
+        },
+        {
+          "title": "Goodwill Ambassador",
+          "quotes": [
+            "recognized as an IICA Goodwill Ambassador before ministers of Agriculture of the Americas"
+          ]
+        },
+        {
+          "title": "Director General",
+          "quotes": [
+            "IICA Director General Manuel Otero"
+          ]
+        },
+        {
+          "title": "biologist",
+          "quotes": [
+            "Renowned biologist Izabella Teixeira"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Belém do Pará, Brazil",
+          "quotes": [
+            "Belém do Pará, Brazil, 11 November 2025 (IICA)"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Teixeira, who led Brazil’s delegation of negotiators to COP21 in 2015, when almost 200 countries adopted the Paris Agreement,",
+          "Izabella Teixeira, former Minister of the Environment of Brazil"
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of a past role as Minister of the Environment of Brazil, with specific responsibility mentioned in 2015."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Belém do Pará, Brazil, 11 November 2025 (IICA)",
+          "recognized as an IICA Goodwill Ambassador before ministers of Agriculture of the Americas",
+          "recognized as a Goodwill Ambassador of the Inter-American Institute for Cooperation on Agriculture (IICA)."
+        ],
+        "confidence": "high",
+        "notes": "Clear recognition as a Goodwill Ambassador for IICA, with a specific date and location provided."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location information for the career position as Minister of the Environment of Brazil."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

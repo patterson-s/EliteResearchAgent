@@ -1,0 +1,257 @@
+{
+  "status": "success",
+  "chunk_id": 811,
+  "chunk_index": 0,
+  "source_url": "https://www.forbes.com/profile/soowon-sophie-eom/",
+  "title": "Soowon Sophie Eom",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "last March",
+          "type": "point",
+          "quotes": [
+            "They were acquired by Korea's Yello Financial Group (now named DAYLI Financial Group) last March, and plan to expand into Japan and France."
+          ]
+        },
+        {
+          "text": "(2017)",
+          "type": "point",
+          "quotes": [
+            "30 Under 30 - Asia - Finance & Venture Capital (2017)"
+          ]
+        },
+        {
+          "text": "Nov 21, 2025",
+          "type": "point",
+          "quotes": [
+            "Nov 21, 2025"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Solidware",
+          "quotes": [
+            "Together with her husband, Eom launched Solidware, a startup that uses big data and machine learning to help financial companies give better credit scores -- and thus, customers a better chance at getting loans."
+          ]
+        },
+        {
+          "name": "Yello Financial Group",
+          "quotes": [
+            "They were acquired by Korea's Yello Financial Group (now named DAYLI Financial Group) last March, and plan to expand into Japan and France."
+          ]
+        },
+        {
+          "name": "DAYLI Financial Group",
+          "quotes": [
+            "They were acquired by Korea's Yello Financial Group (now named DAYLI Financial Group) last March, and plan to expand into Japan and France."
+          ]
+        },
+        {
+          "name": "Forbes",
+          "quotes": [
+            "Forbes Lists",
+            "More on Forbes",
+            "By Zoya Hasan, Forbes Staff"
+          ]
+        },
+        {
+          "name": "Davinci Labs",
+          "quotes": [
+            "Website: davincilabs.ai"
+          ]
+        },
+        {
+          "name": "Finomena",
+          "quotes": [
+            "Finomena, cofounders: Abhishek Garg, Riddhi Mittal"
+          ]
+        },
+        {
+          "name": "Easy Transfer",
+          "quotes": [
+            "Gao Yutong (Tony), Cofounder, Easy Transfer"
+          ]
+        },
+        {
+          "name": "ZhenFund",
+          "quotes": [
+            "Gu Minman, Principal, ZhenFund"
+          ]
+        },
+        {
+          "name": "HonestFund",
+          "quotes": [
+            "HonestFund, Cofounders: Kim Joosoo, Seo Sanghoon"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Cofounder",
+          "quotes": [
+            "Together with her husband, Eom launched Solidware, a startup that uses big data and machine learning to help financial companies give better credit scores -- and thus, customers a better chance at getting loans."
+          ]
+        },
+        {
+          "title": "Principal",
+          "quotes": [
+            "Gu Minman, Principal, ZhenFund"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Seoul, South Korea",
+          "quotes": [
+            "Soowon Sophie Eom, Seoul, South Korea"
+          ]
+        },
+        {
+          "place": "Japan",
+          "quotes": [
+            "They were acquired by Korea's Yello Financial Group (now named DAYLI Financial Group) last March, and plan to expand into Japan and France."
+          ]
+        },
+        {
+          "place": "France",
+          "quotes": [
+            "They were acquired by Korea's Yello Financial Group (now named DAYLI Financial Group) last March, and plan to expand into Japan and France."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Together with her husband, Eom launched Solidware, a startup that uses big data and machine learning to help financial companies give better credit scores -- and thus, customers a better chance at getting loans."
+        ],
+        "confidence": "high",
+        "notes": "Clear cofounder role at Solidware, linked to location Seoul, South Korea."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          1,
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [
+          1,
+          2
+        ],
+        "supporting_quotes": [
+          "They were acquired by Korea's Yello Financial Group (now named DAYLI Financial Group) last March, and plan to expand into Japan and France."
+        ],
+        "confidence": "medium",
+        "notes": "Acquisition event, no specific role mentioned but implies ongoing affiliation with Yello/DAYLI Financial Group."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "30 Under 30 - Asia - Finance & Venture Capital (2017)"
+        ],
+        "confidence": "high",
+        "notes": "Forbes 30 Under 30 is a one-time recognition, classified as an award."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          8
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Gu Minman, Principal, ZhenFund"
+        ],
+        "confidence": "high",
+        "notes": "Principal role at ZhenFund, clear career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers for career position at Solidware."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "quote_support",
+            "severity": "medium",
+            "description": "No specific role mentioned in the quote for the acquisition event, though ongoing affiliation is implied."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Acquisition event could be classified as a career_position or a separate event type, but current classification is plausible."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information for the Principal role at ZhenFund."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 1,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 1
+    }
+  }
+}

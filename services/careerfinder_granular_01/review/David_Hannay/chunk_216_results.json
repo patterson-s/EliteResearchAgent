@@ -1,0 +1,300 @@
+{
+  "status": "success",
+  "chunk_id": 216,
+  "chunk_index": 3,
+  "source_url": "https://en.wikipedia.org/wiki/David_Hannay,_Baron_Hannay_of_Chiswick",
+  "title": "David Hannay, Baron Hannay of Chiswick - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1935",
+          "type": "point",
+          "quotes": [
+            "1935 births"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "House of Lords Appointments Commission",
+          "quotes": [
+            "Peers recommended by the House of Lords Appointments Commission"
+          ]
+        },
+        {
+          "name": "Craigflower Preparatory School",
+          "quotes": [
+            "People educated at Craigflower Preparatory School"
+          ]
+        },
+        {
+          "name": "Winchester College",
+          "quotes": [
+            "People educated at Winchester College"
+          ]
+        },
+        {
+          "name": "New College, Oxford",
+          "quotes": [
+            "Alumni of New College, Oxford",
+            "Fellows of New College, Oxford"
+          ]
+        },
+        {
+          "name": "United Nations",
+          "quotes": [
+            "Permanent representatives of the United Kingdom to the United Nations"
+          ]
+        },
+        {
+          "name": "Order of the Companions of Honour",
+          "quotes": [
+            "Members of the Order of the Companions of Honour"
+          ]
+        },
+        {
+          "name": "Order of St Michael and St George",
+          "quotes": [
+            "Knights Grand Cross of the Order of St Michael and St George"
+          ]
+        },
+        {
+          "name": "European Union",
+          "quotes": [
+            "Permanent representatives of the United Kingdom to the European Union"
+          ]
+        },
+        {
+          "name": "University of Birmingham",
+          "quotes": [
+            "Pro-chancellors of the University of Birmingham"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Permanent representative of the United Kingdom to the United Nations",
+          "quotes": [
+            "Permanent representatives of the United Kingdom to the United Nations"
+          ]
+        },
+        {
+          "title": "Permanent representative of the United Kingdom to the European Union",
+          "quotes": [
+            "Permanent representatives of the United Kingdom to the European Union"
+          ]
+        },
+        {
+          "title": "Pro-chancellor of the University of Birmingham",
+          "quotes": [
+            "Pro-chancellors of the University of Birmingham"
+          ]
+        },
+        {
+          "title": "Crossbench life peer",
+          "quotes": [
+            "Crossbench life peers"
+          ]
+        },
+        {
+          "title": "Diplomatic peer",
+          "quotes": [
+            "Diplomatic peers"
+          ]
+        },
+        {
+          "title": "Fellow of New College, Oxford",
+          "quotes": [
+            "Fellows of New College, Oxford"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Permanent representatives of the United Kingdom to the United Nations"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between organization and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          7
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Permanent representatives of the United Kingdom to the European Union"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between organization and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          8
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Pro-chancellors of the University of Birmingham"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between organization and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          5
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Fellows of New College, Oxford"
+        ],
+        "confidence": "high",
+        "notes": "Fellowship at New College, Oxford, implies an active role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          3,
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Crossbench life peers",
+          "Diplomatic peers"
+        ],
+        "confidence": "medium",
+        "notes": "Roles mentioned without specific organization linkage, but imply active positions."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          5,
+          6
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Members of the Order of the Companions of Honour",
+          "Knights Grand Cross of the Order of St Michael and St George"
+        ],
+        "confidence": "high",
+        "notes": "Membership in these orders is typically an honorary recognition."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Fellowship at New College, Oxford, may be an award rather than a career position."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization linkage for career positions."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 5,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 6,
+      "valid": 1,
+      "warnings": 5,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 1
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "status": "success",
+  "chunk_id": 1150,
+  "chunk_index": 2,
+  "source_url": "https://pmwcintl.com/speaker/kira-radinsky-314_diagnostic-robotics_2025sv/",
+  "title": "Kira Radinsky  - 2025sv  - PMWC Precision Medicine World Conference",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "March 4–6, 2026",
+          "type": "range",
+          "quotes": [
+            "Don’t Miss the Future of Precision Medicine & AI\nMarch 4–6, 2026 · Santa Clara Convention Center · Co-hosted by Stanford & UCSF"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Stanford",
+          "quotes": [
+            "Don’t Miss the Future of Precision Medicine & AI\nMarch 4–6, 2026 · Santa Clara Convention Center · Co-hosted by Stanford & UCSF"
+          ]
+        },
+        {
+          "name": "UCSF",
+          "quotes": [
+            "Don’t Miss the Future of Precision Medicine & AI\nMarch 4–6, 2026 · Santa Clara Convention Center · Co-hosted by Stanford & UCSF"
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": [
+        {
+          "place": "Santa Clara Convention Center",
+          "quotes": [
+            "Don’t Miss the Future of Precision Medicine & AI\nMarch 4–6, 2026 · Santa Clara Convention Center · Co-hosted by Stanford & UCSF"
+          ]
+        },
+        {
+          "place": "San Jose Airport (SJC)",
+          "quotes": [
+            "5 min from San Jose Airport (SJC)"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Don’t Miss the Future of Precision Medicine & AI\nMarch 4–6, 2026 · Santa Clara Convention Center · Co-hosted by Stanford & UCSF"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit role mentioned, but co-hosting an event implies an organizational responsibility. Classified as career_position due to active involvement in organizing the event."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. While co-hosting an event implies organizational responsibility, no specific role is mentioned."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quote does not explicitly mention a career position or active role, only organizational involvement in co-hosting an event."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classification as 'career_position' is questionable since the event involvement does not clearly indicate a long-term or active role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

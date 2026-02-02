@@ -1,0 +1,174 @@
+{
+  "status": "success",
+  "chunk_id": 1039,
+  "chunk_index": 0,
+  "source_url": "https://www.chartwellspeakers.com/speaker/cathy-mulligan/",
+  "title": "Cathy Mulligan | Digital Transformation | Chartwell Speakers",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "more than 25 years of experience",
+          "type": "open",
+          "quotes": [
+            "With more than 25 years of experience spanning academia, industry, and policy, she is recognised internationally for her ability to make complex technologies, from blockchain and AI to digital twins and Web3, both accessible and actionable for business leaders, governments, and society."
+          ]
+        },
+        {
+          "text": "2026",
+          "type": "point",
+          "quotes": [
+            "Her tenth book will be published in 2026."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "United Nations",
+          "quotes": [
+            "She has advised the United Nations, various governments, the European Commission, high level start-ups and and multinational corporations on harnessing digital technologies for systemic change, from climate action to financial innovation."
+          ]
+        },
+        {
+          "name": "European Commission",
+          "quotes": [
+            "She has advised the United Nations, various governments, the European Commission, high level start-ups and and multinational corporations on harnessing digital technologies for systemic change, from climate action to financial innovation."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Former Vice President and CTO",
+          "quotes": [
+            "Former Vice President and CTO for a major technology firm in North West Europe"
+          ]
+        },
+        {
+          "title": "Adviser",
+          "quotes": [
+            "Adviser on Real World Solutions to Governments and Multinational corporations on Digitalisation"
+          ]
+        },
+        {
+          "title": "Keynote Speaker",
+          "quotes": [
+            "Cathy Mulligan | Digital Transformation | Chartwell Speakers"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "North West Europe",
+          "quotes": [
+            "Former Vice President and CTO for a major technology firm in North West Europe"
+          ]
+        },
+        {
+          "place": "Davos",
+          "quotes": [
+            "She has delivered keynote speeches and workshops around the world, including Davos, inspiring leaders across industries to navigate disruption and seize the opportunities of our digital future."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "With more than 25 years of experience spanning academia, industry, and policy, she is recognised internationally for her ability to make complex technologies, from blockchain and AI to digital twins and Web3, both accessible and actionable for business leaders, governments, and society.",
+          "Former Vice President and CTO for a major technology firm in North West Europe"
+        ],
+        "confidence": "medium",
+        "notes": "No specific organization mentioned for the Vice President and CTO role, but the role is clearly a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "She has advised the United Nations, various governments, the European Commission, high level start-ups and and multinational corporations on harnessing digital technologies for systemic change, from climate action to financial innovation.",
+          "Adviser on Real World Solutions to Governments and Multinational corporations on Digitalisation"
+        ],
+        "confidence": "high",
+        "notes": "Advisory role with specific organizations mentioned, indicating an active career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Cathy Mulligan | Digital Transformation | Chartwell Speakers",
+          "She has delivered keynote speeches and workshops around the world, including Davos, inspiring leaders across industries to navigate disruption and seize the opportunities of our digital future."
+        ],
+        "confidence": "high",
+        "notes": "Keynote Speaker is an active role, often part of a career in public speaking or thought leadership."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the Vice President and CTO role."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time marker for the Keynote Speaker role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

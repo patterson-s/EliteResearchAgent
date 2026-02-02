@@ -1,0 +1,129 @@
+{
+  "status": "success",
+  "chunk_id": 2757,
+  "chunk_index": 13,
+  "source_url": "https://achievement.org/achiever/ellen-johnson-sirleaf/",
+  "title": "Ellen Johnson Sirleaf | Academy of Achievement",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In 2005",
+          "type": "point",
+          "quotes": [
+            "In 2005 you became a presidential candidate yourself."
+          ]
+        },
+        {
+          "text": "I was a candidate in ’97",
+          "type": "point",
+          "quotes": [
+            "I was a candidate in ’97. I didn’t win."
+          ]
+        }
+      ],
+      "organizations": [],
+      "roles": [
+        {
+          "title": "presidential candidate",
+          "quotes": [
+            "In 2005 you became a presidential candidate yourself.",
+            "I was a candidate in ’97. I didn’t win."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Liberia",
+          "quotes": [
+            "I just hope he doesn’t come back to Liberia, that’s all."
+          ]
+        },
+        {
+          "place": "Europe",
+          "quotes": [
+            "He was a sports hero. He had won the football of the year for Europe, for Africa several times."
+          ]
+        },
+        {
+          "place": "Africa",
+          "quotes": [
+            "He was a sports hero. He had won the football of the year for Europe, for Africa several times."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2005 you became a presidential candidate yourself."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time marker and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "I was a candidate in ’97. I didn’t win."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time marker and role."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location information."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location information."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "status": "success",
+  "chunk_id": 965,
+  "chunk_index": 6,
+  "source_url": "http://www.womeninforeignpolicy.org/diplomacy/2018/1/30/marina-kaljurand-diplomat-estonia",
+  "title": "Marina Kaljurand — Women in Foreign Policy | #wifp",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Embassy of Grenada to the Russian Federation",
+          "quotes": [
+            "Lynessa Griffith, Diplomat and Cultural Attaché at the Embassy of Grenada to the Russian Federation"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Diplomat and Cultural Attaché",
+          "quotes": [
+            "Lynessa Griffith, Diplomat and Cultural Attaché at the Embassy of Grenada to the Russian Federation"
+          ]
+        },
+        {
+          "title": "candidate in the Presidential race",
+          "quotes": [
+            "When you were a candidate in the Presidential race in Estonia, your handbag notoriously gained a lot of attention."
+          ]
+        },
+        {
+          "title": "female prime ministers",
+          "quotes": [
+            "We have female prime ministers, but we do not have male prime ministers."
+          ]
+        },
+        {
+          "title": "prime minister",
+          "quotes": [
+            "Let’s try to narrow the gap and use the word, prime minister."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Estonia",
+          "quotes": [
+            "When you were a candidate in the Presidential race in Estonia, your handbag notoriously gained a lot of attention."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Lynessa Griffith, Diplomat and Cultural Attaché at the Embassy of Grenada to the Russian Federation"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between organization and role in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "When you were a candidate in the Presidential race in Estonia, your handbag notoriously gained a lot of attention."
+        ],
+        "confidence": "high",
+        "notes": "Role and location are clearly linked in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          2,
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "We have female prime ministers, but we do not have male prime ministers.",
+          "Let’s try to narrow the gap and use the word, prime minister."
+        ],
+        "confidence": "medium",
+        "notes": "Roles are mentioned in separate quotes but are related to the same context of political positions. Treated as a single event due to lack of distinct time markers or organizations."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing organization for the career position."
+          },
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "Missing time markers for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location for the career position."
+          },
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "Missing time markers for the career position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Roles 'female prime ministers' and 'prime minister' are mentioned in separate quotes and may not clearly constitute a single career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

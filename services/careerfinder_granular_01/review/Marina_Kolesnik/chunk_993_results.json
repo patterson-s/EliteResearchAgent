@@ -1,0 +1,286 @@
+{
+  "status": "success",
+  "chunk_id": 993,
+  "chunk_index": 0,
+  "source_url": "https://tadviser.com/index.php/Person:Kolesnik_Marina_Alekseevna",
+  "title": "Kolesnik Marina Alekseevna",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In 2015",
+          "type": "point",
+          "quotes": [
+            "In 2015, 'Top-10 of women in the Russian IT industry of 2015' is included in the list of TAdviser."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Harvard business school",
+          "quotes": [
+            "Marina Kolesnik ended the MBA program at the Harvard business school."
+          ]
+        },
+        {
+          "name": "DataArt",
+          "quotes": [
+            "participated in creation of DataArt, one of the leading developers of the custom software in travel business for the USA and the countries of Europe"
+          ]
+        },
+        {
+          "name": "Mail.ru",
+          "quotes": [
+            "is a co-founder of the largest communication portal of Runet of Mail.ru"
+          ]
+        },
+        {
+          "name": "McKinsey&Co",
+          "quotes": [
+            "worked as the consultant in the international consulting company McKinsey&Co."
+          ]
+        },
+        {
+          "name": "Oktogo.ru",
+          "quotes": [
+            "Founder of Oktogo.ru service."
+          ]
+        },
+        {
+          "name": "TAdviser",
+          "quotes": [
+            "'Top-10 of women in the Russian IT industry of 2015' is included in the list of TAdviser."
+          ]
+        },
+        {
+          "name": "PROMT",
+          "quotes": [
+            "The machine-translated articles are not always perfect and may contain errors in vocabulary, syntax or grammar."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Managing director (CEO)",
+          "quotes": [
+            "Managing director (CEO)"
+          ]
+        },
+        {
+          "title": "co-founder",
+          "quotes": [
+            "is a co-founder of the largest communication portal of Runet of Mail.ru"
+          ]
+        },
+        {
+          "title": "consultant",
+          "quotes": [
+            "worked as the consultant in the international consulting company McKinsey&Co."
+          ]
+        },
+        {
+          "title": "Founder",
+          "quotes": [
+            "Founder of Oktogo.ru service."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Russia",
+          "quotes": [
+            "Russia",
+            "Russian online enterprises",
+            "Russian IT industry"
+          ]
+        },
+        {
+          "place": "Northwestern Federal District of the Russian Federation",
+          "quotes": [
+            "Northwestern Federal District of the Russian Federation"
+          ]
+        },
+        {
+          "place": "St. Petersburg",
+          "quotes": [
+            "St. Petersburg"
+          ]
+        },
+        {
+          "place": "USA",
+          "quotes": [
+            "one of the leading developers of the custom software in travel business for the USA and the countries of Europe"
+          ]
+        },
+        {
+          "place": "Europe",
+          "quotes": [
+            "one of the leading developers of the custom software in travel business for the USA and the countries of Europe"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "'Top-10 of women in the Russian IT industry of 2015' is included in the list of TAdviser."
+        ],
+        "confidence": "high",
+        "notes": "Recognition as part of a list, indicating an award or honor."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [
+          4,
+          3
+        ],
+        "supporting_quotes": [
+          "participated in creation of DataArt, one of the leading developers of the custom software in travel business for the USA and the countries of Europe"
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but participation in creation implies a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "is a co-founder of the largest communication portal of Runet of Mail.ru"
+        ],
+        "confidence": "high",
+        "notes": "Clear role as co-founder, indicating a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "worked as the consultant in the international consulting company McKinsey&Co."
+        ],
+        "confidence": "high",
+        "notes": "Clear role as consultant, indicating a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Founder of Oktogo.ru service."
+        ],
+        "confidence": "high",
+        "notes": "Clear role as founder, indicating a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Marina Kolesnik ended the MBA program at the Harvard business school."
+        ],
+        "confidence": "low",
+        "notes": "No specific role mentioned, but completion of MBA program implies educational career advancement."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time_marker_ids and role_ids, though participation in creation implies a career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 4,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 5,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Completion of MBA program is educational but not a career position; consider reclassifying as education event."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role_ids and location_ids."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 6,
+      "valid": 4,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 1
+    }
+  }
+}

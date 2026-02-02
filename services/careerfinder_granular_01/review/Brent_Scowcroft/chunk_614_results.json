@@ -1,0 +1,151 @@
+{
+  "status": "success",
+  "chunk_id": 614,
+  "chunk_index": 7,
+  "source_url": "https://en.wikipedia.org/wiki/Brent_Scowcroft",
+  "title": "Brent Scowcroft - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1951",
+          "type": "point",
+          "quotes": [
+            "Scowcroft married Marian Horner in 1951."
+          ]
+        },
+        {
+          "text": "July 17, 1995",
+          "type": "point",
+          "quotes": [
+            "Marian Horner Scowcroft, a diabetic, died on July 17, 1995, at George Washington University Hospital."
+          ]
+        },
+        {
+          "text": "March 1993",
+          "type": "point",
+          "quotes": [
+            "In March 1993, when Scowcroft was given an honorary KBE by Queen Elizabeth II, his daughter was also received by the Queen."
+          ]
+        },
+        {
+          "text": "August 6, 2020",
+          "type": "point",
+          "quotes": [
+            "On August 6, 2020, Scowcroft died at his home in Falls Church, Virginia, at age 95."
+          ]
+        },
+        {
+          "text": "January 29, 2021",
+          "type": "point",
+          "quotes": [
+            "On January 29, 2021, Scowcroft is buried at Arlington National Cemetery."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "St. Francis School of Nursing",
+          "quotes": [
+            "His wife, a Pennsylvania native, was trained as a nurse at St. Francis School of Nursing in Pittsburgh and graduated from Columbia University."
+          ]
+        },
+        {
+          "name": "Columbia University",
+          "quotes": [
+            "His wife, a Pennsylvania native, was trained as a nurse at St. Francis School of Nursing in Pittsburgh and graduated from Columbia University."
+          ]
+        },
+        {
+          "name": "George Washington University Hospital",
+          "quotes": [
+            "Marian Horner Scowcroft, a diabetic, died on July 17, 1995, at George Washington University Hospital."
+          ]
+        },
+        {
+          "name": "Arlington National Cemetery",
+          "quotes": [
+            "On January 29, 2021, Scowcroft is buried at Arlington National Cemetery."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "National Security Advisor",
+          "quotes": [
+            "argued that what 'set Brent apart as National Security Advisor was that he played fair…he did not take advantage of his close relationship with the president to disadvantage others."
+          ]
+        },
+        {
+          "title": "Director of Central Intelligence",
+          "quotes": [
+            "John Deutch, former Director of Central Intelligence, recalled that “Brent had the ideal temperament to lead the country."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Pennsylvania",
+          "quotes": [
+            "His wife, a Pennsylvania native, was trained as a nurse at St. Francis School of Nursing in Pittsburgh and graduated from Columbia University."
+          ]
+        },
+        {
+          "place": "Pittsburgh",
+          "quotes": [
+            "His wife, a Pennsylvania native, was trained as a nurse at St. Francis School of Nursing in Pittsburgh and graduated from Columbia University."
+          ]
+        },
+        {
+          "place": "Falls Church, Virginia",
+          "quotes": [
+            "On August 6, 2020, Scowcroft died at his home in Falls Church, Virginia, at age 95."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In March 1993, when Scowcroft was given an honorary KBE by Queen Elizabeth II, his daughter was also received by the Queen."
+        ],
+        "confidence": "high",
+        "notes": "Clearly an honorary award with no ongoing responsibilities."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing organization, role, and location information, though inferable from context."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 0,
+      "awards": 1
+    }
+  }
+}

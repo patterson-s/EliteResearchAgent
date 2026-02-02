@@ -1,0 +1,212 @@
+{
+  "status": "success",
+  "chunk_id": 126,
+  "chunk_index": 3,
+  "source_url": "https://www.ebsco.com/research-starters/biography/gro-harlem-brundtland",
+  "title": "Gro Harlem Brundtland | Research Starters | EBSCO Research",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "in 1994",
+          "type": "point",
+          "quotes": [
+            "Norwegians voted against the union in a referendum in 1994; for Brundtland this rejection was devastating."
+          ]
+        },
+        {
+          "text": "1992",
+          "type": "point",
+          "quotes": [
+            "The Brundtland Commission’s recommendations for global environmentalism provided the momentum for Earth Summit, the 1992 United Nations Conference on Environment and Development in Rio de Janeiro, Brazil."
+          ]
+        },
+        {
+          "text": "April, 1987",
+          "type": "point",
+          "quotes": [
+            "Our Common Future (April, 1987), was a landmark document in the global environmental movement."
+          ]
+        },
+        {
+          "text": "in 2003",
+          "type": "point",
+          "quotes": [
+            "Brundtland’s decisive action helped to avert a global outbreak of SARS (severe acute respiratory syndrome) in 2003, a feat rewarded with the Policy Leader of the Year Award from Scientific American magazine."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "European Union",
+          "quotes": [
+            "She believed that Norway should become a member of the European Union, but Norwegians voted against the union in a referendum in 1994;"
+          ]
+        },
+        {
+          "name": "Brundtland Commission",
+          "quotes": [
+            "The Brundtland Commission’s recommendations for global environmentalism provided the momentum for Earth Summit, the 1992 United Nations Conference on Environment and Development in Rio de Janeiro, Brazil."
+          ]
+        },
+        {
+          "name": "United Nations",
+          "quotes": [
+            "The Brundtland Commission’s recommendations for global environmentalism provided the momentum for Earth Summit, the 1992 United Nations Conference on Environment and Development in Rio de Janeiro, Brazil."
+          ]
+        },
+        {
+          "name": "WHO",
+          "quotes": [
+            "While director-general of WHO, Brundtland’s decisive action helped to avert a global outbreak of SARS (severe acute respiratory syndrome) in 2003,"
+          ]
+        },
+        {
+          "name": "Scientific American",
+          "quotes": [
+            "a feat rewarded with the Policy Leader of the Year Award from Scientific American magazine."
+          ]
+        },
+        {
+          "name": "WHO Commission on Macroeconomics and Health",
+          "quotes": [
+            "The WHO Commission on Macroeconomics and Health was established to take the lead."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "director-general of WHO",
+          "quotes": [
+            "While director-general of WHO, Brundtland’s decisive action helped to avert a global outbreak of SARS (severe acute respiratory syndrome) in 2003,"
+          ]
+        },
+        {
+          "title": "head of WHO",
+          "quotes": [
+            "During her tenure as the head of WHO, she also led major organizational reform and restructuring of the organization,"
+          ]
+        },
+        {
+          "title": "prime minister",
+          "quotes": [
+            "Like her record as prime minister, she left a legacy of female leadership in WHO by appointing numerous"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Norway",
+          "quotes": [
+            "She believed that Norway should become a member of the European Union, but Norwegians voted against the union in a referendum in 1994;"
+          ]
+        },
+        {
+          "place": "Rio de Janeiro, Brazil",
+          "quotes": [
+            "The Brundtland Commission’s recommendations for global environmentalism provided the momentum for Earth Summit, the 1992 United Nations Conference on Environment and Development in Rio de Janeiro, Brazil."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          1,
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "The Brundtland Commission’s recommendations for global environmentalism provided the momentum for Earth Summit, the 1992 United Nations Conference on Environment and Development in Rio de Janeiro, Brazil."
+        ],
+        "confidence": "high",
+        "notes": "No specific role mentioned, but involvement with Brundtland Commission and United Nations is clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "While director-general of WHO, Brundtland’s decisive action helped to avert a global outbreak of SARS (severe acute respiratory syndrome) in 2003,",
+          "During her tenure as the head of WHO, she also led major organizational reform and restructuring of the organization,"
+        ],
+        "confidence": "high",
+        "notes": "Both 'director-general of WHO' and 'head of WHO' are mentioned as roles held by Brundtland."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "a feat rewarded with the Policy Leader of the Year Award from Scientific American magazine."
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of an award received from Scientific American."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information despite involvement with Brundtland Commission and United Nations being clear."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classification as career_position is uncertain without clear role or responsibilities mentioned."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 2,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 1
+    }
+  }
+}

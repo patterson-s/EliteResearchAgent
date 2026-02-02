@@ -1,0 +1,202 @@
+{
+  "status": "success",
+  "chunk_id": 232,
+  "chunk_index": 0,
+  "source_url": "https://en.wikipedia.org/wiki/Enrique_Iglesias",
+  "title": "Enrique Iglesias - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1995–1996",
+          "type": "range",
+          "quotes": [
+            "2.1 1995–1996: Enrique Iglesias"
+          ]
+        },
+        {
+          "text": "1997–1998",
+          "type": "range",
+          "quotes": [
+            "2.2 1997–1998: Vivir and Cosas del Amor"
+          ]
+        },
+        {
+          "text": "1999–2007",
+          "type": "range",
+          "quotes": [
+            "2.3 1999–2007: English market success"
+          ]
+        },
+        {
+          "text": "2007–2009",
+          "type": "range",
+          "quotes": [
+            "2.4 2007–2009: Insomniac, 95/08 Éxitos and Greatest Hits"
+          ]
+        },
+        {
+          "text": "2010–2011",
+          "type": "range",
+          "quotes": [
+            "2.5 2010–2011: Euphoria"
+          ]
+        },
+        {
+          "text": "2012–2014",
+          "type": "range",
+          "quotes": [
+            "2.6 2012–2014: Sex and Love"
+          ]
+        },
+        {
+          "text": "2015–present",
+          "type": "open",
+          "quotes": [
+            "2.7 2015–present: Final"
+          ]
+        },
+        {
+          "text": "1995–present",
+          "type": "open",
+          "quotes": [
+            "Years active 1995–present"
+          ]
+        },
+        {
+          "text": "2001–present",
+          "type": "open",
+          "quotes": [
+            "Partner Anna Kournikova (2001–present)"
+          ]
+        },
+        {
+          "text": "8 May 1975",
+          "type": "point",
+          "quotes": [
+            "Born Enrique Miguel Iglesias Preysler (1975-05-08) 8 May 1975 (age 50)"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Gulliver Preparatory School",
+          "quotes": [
+            "Education Gulliver Preparatory School"
+          ]
+        },
+        {
+          "name": "University of Miami",
+          "quotes": [
+            "Education University of Miami"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Singer",
+          "quotes": [
+            "Occupations Singer"
+          ]
+        },
+        {
+          "title": "songwriter",
+          "quotes": [
+            "Occupations songwriter"
+          ]
+        },
+        {
+          "title": "record producer",
+          "quotes": [
+            "Occupations record producer"
+          ]
+        },
+        {
+          "title": "composer",
+          "quotes": [
+            "Occupations composer"
+          ]
+        },
+        {
+          "title": "actor",
+          "quotes": [
+            "Occupations actor"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Madrid",
+          "quotes": [
+            "Born Enrique Miguel Iglesias Preysler (1975-05-08) 8 May 1975 (age 50) Madrid, Spain"
+          ]
+        },
+        {
+          "place": "Spain",
+          "quotes": [
+            "Born Enrique Miguel Iglesias Preysler (1975-05-08) 8 May 1975 (age 50) Madrid, Spain"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          7
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Years active 1995–present",
+          "Occupations Singer",
+          "Occupations songwriter",
+          "Occupations record producer",
+          "Occupations composer",
+          "Occupations actor"
+        ],
+        "confidence": "high",
+        "notes": "All roles are listed under 'Occupations' and are active from 1995 to present."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing organization information, which might be relevant for career positions."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information, which might provide additional context for the career positions."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

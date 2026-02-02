@@ -1,0 +1,228 @@
+{
+  "status": "success",
+  "chunk_id": 3014,
+  "chunk_index": 7,
+  "source_url": "https://en.wikipedia.org/wiki/Horst_K%C3%B6hler",
+  "title": "Horst Köhler - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "22 May 2010",
+          "type": "point",
+          "quotes": [
+            "Horst Köhler, Interview with Deutschlandradio, 22 May 2010"
+          ]
+        },
+        {
+          "text": "31 May 2010",
+          "type": "point",
+          "quotes": [
+            "Köhler stepped down on 31 May 2010, issuing a statement saying 'I declare my resignation from the Office of President, with immediate effect.'"
+          ]
+        },
+        {
+          "text": "30 June 2010",
+          "type": "point",
+          "quotes": [
+            "As stipulated by the constitution, the powers of the vacant office were executed by the current President of the Bundesrat, Jens Böhrnsen, until Christian Wulff was elected president on 30 June 2010."
+          ]
+        },
+        {
+          "text": "17 February 2012",
+          "type": "point",
+          "quotes": [
+            "Wulff resigned on 17 February 2012 and was succeeded by Joachim Gauck."
+          ]
+        },
+        {
+          "text": "Between 2010 and 2011",
+          "type": "range",
+          "quotes": [
+            "Between 2010 and 2011, Köhler served as member of the Palais-Royal Initiative, a group convened by Michel Camdessus, Alexandre Lamfalussy"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Deutschlandradio",
+          "quotes": [
+            "Horst Köhler, Interview with Deutschlandradio, 22 May 2010"
+          ]
+        },
+        {
+          "name": "Bundesrat",
+          "quotes": [
+            "As stipulated by the constitution, the powers of the vacant office were executed by the current President of the Bundesrat, Jens Böhrnsen, until Christian Wulff was elected president on 30 June 2010."
+          ]
+        },
+        {
+          "name": "UN High-Level Panel of the Post-2015 Development Agenda",
+          "quotes": [
+            "Köhler as member of the UN High-Level Panel of the Post-2015 Development Agenda"
+          ]
+        },
+        {
+          "name": "Palais-Royal Initiative",
+          "quotes": [
+            "Between 2010 and 2011, Köhler served as member of the Palais-Royal Initiative, a group convened by Michel Camdessus, Alexandre Lamfalussy"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "President",
+          "quotes": [
+            "I declare my resignation from the Office of President, with immediate effect."
+          ]
+        },
+        {
+          "title": "President of the Bundesrat",
+          "quotes": [
+            "the current President of the Bundesrat, Jens Böhrnsen"
+          ]
+        },
+        {
+          "title": "member of the UN High-Level Panel of the Post-2015 Development Agenda",
+          "quotes": [
+            "Köhler as member of the UN High-Level Panel of the Post-2015 Development Agenda"
+          ]
+        },
+        {
+          "title": "member of the Palais-Royal Initiative",
+          "quotes": [
+            "Between 2010 and 2011, Köhler served as member of the Palais-Royal Initiative"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Somalia",
+          "quotes": [
+            "piracy off the coast of Somalia"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Horst Köhler, Interview with Deutschlandradio, 22 May 2010",
+          "I declare my resignation from the Office of President, with immediate effect."
+        ],
+        "confidence": "high",
+        "notes": "President role is clearly indicated, but no organization is explicitly linked in the quotes."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "As stipulated by the constitution, the powers of the vacant office were executed by the current President of the Bundesrat, Jens Böhrnsen, until Christian Wulff was elected president on 30 June 2010."
+        ],
+        "confidence": "high",
+        "notes": "President of the Bundesrat role is clearly linked to the Bundesrat organization."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Between 2010 and 2011, Köhler served as member of the Palais-Royal Initiative, a group convened by Michel Camdessus, Alexandre Lamfalussy"
+        ],
+        "confidence": "high",
+        "notes": "Member role is clearly linked to the Palais-Royal Initiative organization."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Köhler as member of the UN High-Level Panel of the Post-2015 Development Agenda"
+        ],
+        "confidence": "medium",
+        "notes": "No clear time marker, but the role and organization are explicitly linked."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the President role, despite the role being clearly indicated in the quotes."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker information for the UN High-Level Panel membership, though the role and organization are explicitly linked."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 2,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

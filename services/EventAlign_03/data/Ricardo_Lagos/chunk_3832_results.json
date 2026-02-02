@@ -1,0 +1,277 @@
+{
+  "status": "success",
+  "chunk_id": 3832,
+  "chunk_index": 1,
+  "source_url": "https://clubmadrid.org/who/members/lagos-ricardo/",
+  "title": "Ricardo Lagos former President of Chile",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "10 January, 2019",
+          "type": "point",
+          "quotes": [
+            "Club de Madrid Discusses Global Governance in China and Presents Conclusions to Xi Jinping\n10 January, 2019"
+          ]
+        },
+        {
+          "text": "3 November, 2017",
+          "type": "point",
+          "quotes": [
+            "Cardoso, González, Sanguinetti and Lagos, participants of the XVIII Foro Iberoamérica which starts today in Buenos Aires\n3 November, 2017"
+          ]
+        },
+        {
+          "text": "15 September, 2016",
+          "type": "point",
+          "quotes": [
+            "Nine ex Latinamerican Presidents ask for a new social contract in International Democracy Day\n15 September, 2016"
+          ]
+        },
+        {
+          "text": "15 March, 2016",
+          "type": "point",
+          "quotes": [
+            "Club de Madrid congratulates Htian Kya, first ever civilian to be elected President of Myanmar in 50 years\n15 March, 2016"
+          ]
+        },
+        {
+          "text": "25 January, 2016",
+          "type": "point",
+          "quotes": [
+            "Club de Madrid tackles the role of the military in Myanmar’s democratic transition\n25 January, 2016"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Club de Madrid",
+          "quotes": [
+            "Club de Madrid Discusses Global Governance in China and Presents Conclusions to Xi Jinping",
+            "Club de Madrid congratulates Htian Kya, first ever civilian to be elected President of Myanmar in 50 years",
+            "Club de Madrid tackles the role of the military in Myanmar’s democratic transition"
+          ]
+        },
+        {
+          "name": "XVIII Foro Iberoamérica",
+          "quotes": [
+            "Cardoso, González, Sanguinetti and Lagos, participants of the XVIII Foro Iberoamérica which starts today in Buenos Aires"
+          ]
+        },
+        {
+          "name": "WORLD LEADERSHIP ALLIANCE CLUB DE MADRID",
+          "quotes": [
+            "Welcome to the basic information about the cookies on the website of the entity: WORLD LEADERSHIP ALLIANCE CLUB DE MADRID"
+          ]
+        },
+        {
+          "name": "GDPR Cookie Compliance",
+          "quotes": [
+            "Powered by GDPR Cookie Compliance"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Presidents",
+          "quotes": [
+            "Nine ex Latinamerican Presidents ask for a new social contract in International Democracy Day"
+          ]
+        },
+        {
+          "title": "President of Myanmar",
+          "quotes": [
+            "Club de Madrid congratulates Htian Kya, first ever civilian to be elected President of Myanmar in 50 years"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "China",
+          "quotes": [
+            "Club de Madrid Discusses Global Governance in China and Presents Conclusions to Xi Jinping"
+          ]
+        },
+        {
+          "place": "Buenos Aires",
+          "quotes": [
+            "Cardoso, González, Sanguinetti and Lagos, participants of the XVIII Foro Iberoamérica which starts today in Buenos Aires"
+          ]
+        },
+        {
+          "place": "Myanmar",
+          "quotes": [
+            "Club de Madrid congratulates Htian Kya, first ever civilian to be elected President of Myanmar in 50 years",
+            "Club de Madrid tackles the role of the military in Myanmar’s democratic transition"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "Club de Madrid congratulates Htian Kya, first ever civilian to be elected President of Myanmar in 50 years"
+        ],
+        "confidence": "high",
+        "notes": "Direct mention of Htian Kya being elected President of Myanmar."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Nine ex Latinamerican Presidents ask for a new social contract in International Democracy Day"
+        ],
+        "confidence": "medium",
+        "notes": "Mentions ex Latinamerican Presidents but does not specify individuals or organizations."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Club de Madrid Discusses Global Governance in China and Presents Conclusions to Xi Jinping"
+        ],
+        "confidence": "high",
+        "notes": "Club de Madrid's activity in China, implying ongoing organizational role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Cardoso, González, Sanguinetti and Lagos, participants of the XVIII Foro Iberoamérica which starts today in Buenos Aires"
+        ],
+        "confidence": "high",
+        "notes": "Participation in XVIII Foro Iberoamérica, indicating involvement in the event."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "Club de Madrid tackles the role of the military in Myanmar’s democratic transition"
+        ],
+        "confidence": "high",
+        "notes": "Club de Madrid's involvement in Myanmar's democratic transition, suggesting ongoing organizational activity."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "error",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization, role, and location information for the career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "medium",
+            "description": "Quote does not specify individuals or organizations, making it unclear who holds the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for the career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 0,
+      "warnings": 4,
+      "errors": 1,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

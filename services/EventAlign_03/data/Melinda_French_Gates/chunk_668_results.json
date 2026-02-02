@@ -1,0 +1,175 @@
+{
+  "status": "success",
+  "chunk_id": 668,
+  "chunk_index": 10,
+  "source_url": "https://www.linkedin.com/in/melindagates",
+  "title": "Melinda French Gates - Founder of Pivotal. Co-founder of the Gates Foundation. Author of The Moment of Lift & The Next Day. | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "over three years",
+          "type": "range",
+          "quotes": [
+            "YMHF will grant at least $5M annually over three years to nonprofits and Tribes delivering culturally responsive mental health care to youth ages 12–24."
+          ]
+        },
+        {
+          "text": "by end of 2028",
+          "type": "point",
+          "quotes": [
+            "The Fund is winding down operations over the next few years, with plans to complete its final round of grantmaking by end of 2028."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Decolonizing Wealth Project",
+          "quotes": [
+            "Today, Decolonizing Wealth Project launched its newest fund - the Liberated Capital Youth Mental Health Fund (YHMF)."
+          ]
+        },
+        {
+          "name": "Liberated Capital Youth Mental Health Fund (YHMF)",
+          "quotes": [
+            "Today, Decolonizing Wealth Project launched its newest fund - the Liberated Capital Youth Mental Health Fund (YHMF)."
+          ]
+        },
+        {
+          "name": "Pivotal Ventures",
+          "quotes": [
+            "With support from seed funder Pivotal Ventures, a network of organizations founded by Melinda French Gates, YMHF will grant at least $5M annually over three years to nonprofits and Tribes delivering culturally responsive mental health care to youth ages 12–24."
+          ]
+        },
+        {
+          "name": "ENLIGHT FOUNDATION",
+          "quotes": [
+            "ENLIGHT FOUNDATION - private family foundation that supports youth leadership, civic engagement, and education initiatives by investing in systems change, movement building, and cross-cultural collaboration."
+          ]
+        },
+        {
+          "name": "Netri Foundation",
+          "quotes": [
+            "Netri Foundation - supporting NGOs working to end extreme poverty through grants and social investments in health, education, agriculture, and more across 30+ countries."
+          ]
+        },
+        {
+          "name": "To.org",
+          "quotes": [
+            "To.org - a hybrid platform combining philanthropy, venture investment, and creative activism to support systemic change and bold solutions across climate, equity, and social innovation."
+          ]
+        },
+        {
+          "name": "UBS Optimus Foundation",
+          "quotes": [
+            "UBS Optimus Foundation - funds high-impact, evidence-based solutions to improve children's health, education, and protection, with a focus on innovation, climate-health, and scalable partnerships."
+          ]
+        },
+        {
+          "name": "Varkey Foundation",
+          "quotes": [
+            "Varkey Foundation - supports global education initiatives, focusing on teacher training, leadership development, and elevating the status of educators to improve learning outcomes worldwide."
+          ]
+        },
+        {
+          "name": "Wellspring Philanthropic Fund",
+          "quotes": [
+            "Wellspring Philanthropic Fund - supports social justice initiatives globally, with a focus on human rights, gender equity, civic engagement, and access to education and economic opportunity. The Fund is winding down operations over the next few years, with plans to complete its final round of grantmaking by end of 2028."
+          ]
+        },
+        {
+          "name": "Wikimedia Foundation",
+          "quotes": [
+            "Wikimedia Foundation - supports free knowledge globally, primarily by operating Wikipedia and related projects, and funds open-access, community-led initiatives that advance education, digital inclusion, and information equity."
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          1,
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Today, Decolonizing Wealth Project launched its newest fund - the Liberated Capital Youth Mental Health Fund (YHMF).",
+          "YMHF will grant at least $5M annually over three years to nonprofits and Tribes delivering culturally responsive mental health care to youth ages 12–24."
+        ],
+        "confidence": "high",
+        "notes": "The event represents the launch and operation of the Liberated Capital Youth Mental Health Fund (YHMF) by Decolonizing Wealth Project, with support from Pivotal Ventures."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          8
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Wellspring Philanthropic Fund - supports social justice initiatives globally, with a focus on human rights, gender equity, civic engagement, and access to education and economic opportunity. The Fund is winding down operations over the next few years, with plans to complete its final round of grantmaking by end of 2028."
+        ],
+        "confidence": "high",
+        "notes": "The event represents the winding down of operations for the Wellspring Philanthropic Fund, with a clear timeline for completion of grantmaking."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for the career position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event describes the launch of a fund, which may not clearly fit the 'career_position' type without explicit role information."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for the career position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event describes the winding down of operations, which may not clearly fit the 'career_position' type without explicit role information."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

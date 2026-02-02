@@ -1,0 +1,246 @@
+{
+  "status": "success",
+  "chunk_id": 69,
+  "chunk_index": 5,
+  "source_url": "https://en.wikipedia.org/wiki/Robert_Badinter",
+  "title": "Robert Badinter - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "in 2006",
+          "type": "point",
+          "quotes": [
+            "in 2006."
+          ]
+        },
+        {
+          "text": "2023",
+          "type": "point",
+          "quotes": [
+            "He was awarded the International Abolition Award by Death Penalty Focus in 2023."
+          ]
+        },
+        {
+          "text": "1986–1995",
+          "type": "range",
+          "quotes": [
+            "President of the Constitutional Council: 1986–1995."
+          ]
+        },
+        {
+          "text": "1981–1986",
+          "type": "range",
+          "quotes": [
+            "Minister of Justice: 1981–1986 (resigned upon appointment as president of the Constitutional Council)."
+          ]
+        },
+        {
+          "text": "1995–2011",
+          "type": "range",
+          "quotes": [
+            "Senator for Hauts-de-Seine: 1995–2011. Elected in 1995, reelected in 2004."
+          ]
+        },
+        {
+          "text": "2004",
+          "type": "point",
+          "quotes": [
+            "Senator for Hauts-de-Seine: 1995–2011. Elected in 1995, reelected in 2004."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "International Commission Against the Death Penalty",
+          "quotes": [
+            "As a longstanding activist for the abolition of the death penalty, Robert Badinter was appointed an honorary member of the International Commission Against the Death Penalty."
+          ]
+        },
+        {
+          "name": "Death Penalty Focus",
+          "quotes": [
+            "He was awarded the International Abolition Award by Death Penalty Focus in 2023."
+          ]
+        },
+        {
+          "name": "Constitutional Council",
+          "quotes": [
+            "President of the Constitutional Council: 1986–1995."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "honorary member",
+          "quotes": [
+            "Robert Badinter was appointed an honorary member of the International Commission Against the Death Penalty."
+          ]
+        },
+        {
+          "title": "President of the Constitutional Council",
+          "quotes": [
+            "President of the Constitutional Council: 1986–1995."
+          ]
+        },
+        {
+          "title": "Minister of Justice",
+          "quotes": [
+            "Minister of Justice: 1981–1986 (resigned upon appointment as president of the Constitutional Council)."
+          ]
+        },
+        {
+          "title": "Senator for Hauts-de-Seine",
+          "quotes": [
+            "Senator for Hauts-de-Seine: 1995–2011. Elected in 1995, reelected in 2004."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Hauts-de-Seine",
+          "quotes": [
+            "Senator for Hauts-de-Seine: 1995–2011. Elected in 1995, reelected in 2004."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Minister of Justice: 1981–1986 (resigned upon appointment as president of the Constitutional Council)."
+        ],
+        "confidence": "high",
+        "notes": "Clear career position with defined time range and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "President of the Constitutional Council: 1986–1995."
+        ],
+        "confidence": "high",
+        "notes": "Clear career position with defined time range, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4,
+          5
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Senator for Hauts-de-Seine: 1995–2011. Elected in 1995, reelected in 2004."
+        ],
+        "confidence": "high",
+        "notes": "Clear career position with defined time range, role, and location."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He was awarded the International Abolition Award by Death Penalty Focus in 2023."
+        ],
+        "confidence": "high",
+        "notes": "Clear award with defined time marker and organization."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "in 2006.",
+          "Robert Badinter was appointed an honorary member of the International Commission Against the Death Penalty."
+        ],
+        "confidence": "high",
+        "notes": "Honorary membership is classified as an award since it is purely honorific without active duties."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "The quote 'in 2006.' does not clearly support the event details, but the main quote does."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 4,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 2
+    }
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "status": "success",
+  "chunk_id": 795,
+  "chunk_index": 0,
+  "source_url": "https://www.devex.com/people/nikolai-a-1446407",
+  "title": "Nikolai Astrup | Devex",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "since January 2019",
+          "type": "open",
+          "quotes": [
+            "Nikolai Astrup has served as minister of digitalization in Norway since January 2019."
+          ]
+        },
+        {
+          "text": "From January 2018 to January 2019",
+          "type": "range",
+          "quotes": [
+            "From January 2018 to January 2019, Astrup served as minister of international development."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "U.N. Secretary-General’s High-level Panel on Digital Cooperation",
+          "quotes": [
+            "He is a member of the U.N. Secretary-General’s High-level Panel on Digital Cooperation."
+          ]
+        },
+        {
+          "name": "London School of Economics and Political Science",
+          "quotes": [
+            "Astrup holds a master's degree in European politics and governance and a bachelor's degree in international relations, both from the London School of Economics and Political Science."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "minister of digitalization",
+          "quotes": [
+            "Nikolai Astrup has served as minister of digitalization in Norway since January 2019."
+          ]
+        },
+        {
+          "title": "minister of international development",
+          "quotes": [
+            "From January 2018 to January 2019, Astrup served as minister of international development."
+          ]
+        },
+        {
+          "title": "member of the U.N. Secretary-General’s High-level Panel on Digital Cooperation",
+          "quotes": [
+            "He is a member of the U.N. Secretary-General’s High-level Panel on Digital Cooperation."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Norway",
+          "quotes": [
+            "Nikolai Astrup has served as minister of digitalization in Norway since January 2019."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "From January 2018 to January 2019, Astrup served as minister of international development."
+        ],
+        "confidence": "high",
+        "notes": "Clear role and time period, no organization or location specified."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Nikolai Astrup has served as minister of digitalization in Norway since January 2019."
+        ],
+        "confidence": "high",
+        "notes": "Clear role, time period, and location, no organization specified."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He is a member of the U.N. Secretary-General’s High-level Panel on Digital Cooperation."
+        ],
+        "confidence": "high",
+        "notes": "Clear role and organization, no time period or location specified."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing organization and location information, though role and time period are clear."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing organization information, though role, time period, and location are clear."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time period and location information, though role and organization are clear."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

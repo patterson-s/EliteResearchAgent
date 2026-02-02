@@ -1,0 +1,300 @@
+{
+  "status": "success",
+  "chunk_id": 1242,
+  "chunk_index": 19,
+  "source_url": "https://www.tse-fr.eu/sites/default/files/TSE/documents/doc/cv/tirole_en.pdf",
+  "title": "tirole_en.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2009",
+          "type": "point",
+          "quotes": [
+            "2009"
+          ]
+        },
+        {
+          "text": "14 May 2009",
+          "type": "point",
+          "quotes": [
+            "14 May 2009"
+          ]
+        },
+        {
+          "text": "2010",
+          "type": "point",
+          "quotes": [
+            "2010"
+          ]
+        },
+        {
+          "text": "2011",
+          "type": "point",
+          "quotes": [
+            "2011"
+          ]
+        },
+        {
+          "text": "2012",
+          "type": "point",
+          "quotes": [
+            "2012"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "International Journal of Industrial Organization",
+          "quotes": [
+            "International Journal of Industrial Organization,  26(2):  412 -420.",
+            "International Journal of Industrial Organization , 26(6): 1333 -1347."
+          ]
+        },
+        {
+          "name": "MIT Press",
+          "quotes": [
+            "MIT Press,  pp. 543 -582."
+          ]
+        },
+        {
+          "name": "American Economic Review",
+          "quotes": [
+            "American Economic Review , 99(1):  265-294.",
+            "American Economic Review, Papers & Proceedings  99(2): 589 -593.",
+            "American Economic Review, Papers and Proceedings , 99(2): 459 -465.",
+            "American Economic Review , 102(1): 29 -59."
+          ]
+        },
+        {
+          "name": "Palgrave Macmillan",
+          "quotes": [
+            "Palgrave Macmillan, 2008. The New Palgrave Dictionary of Economics Online.  Palgrave Macmillan."
+          ]
+        },
+        {
+          "name": "Economica",
+          "quotes": [
+            "Economica , 77: 1 -19, reprinted in The Economics of Corporate Social Responsibility , ed. by A. McWilliams, 2014."
+          ]
+        },
+        {
+          "name": "Review of Economic Studies",
+          "quotes": [
+            "Review of Economic Studies , 77: 2: 697-729."
+          ]
+        },
+        {
+          "name": "Rivista di Politica Economica",
+          "quotes": [
+            "Rivista  di Politica   Economica , 98: 9 -41."
+          ]
+        },
+        {
+          "name": "Quarterly Journal of Economics",
+          "quotes": [
+            "Quarterly Journal of Economics , 126  (2): 805 -855."
+          ]
+        },
+        {
+          "name": "Journal of Economic Literature",
+          "quotes": [
+            "Journal of Economic Literature , 49(2): 287 -325"
+          ]
+        },
+        {
+          "name": "Journal of the European Economic Association",
+          "quotes": [
+            "Journal of the European Economic Association , 9(3):  462 -495."
+          ]
+        },
+        {
+          "name": "Journal of Public Economics",
+          "quotes": [
+            "Journal of Public Economics , 95(11/12): 1339 -1348."
+          ]
+        },
+        {
+          "name": "Competition Policy International",
+          "quotes": [
+            "Competition Policy International , 7(1): 137 -158 (also TSE note #4)."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "ed.",
+          "quotes": [
+            "in P.  Buccirossi ed., Handbook of Antitrust Economics ,  MIT Press,  pp. 543 -582.",
+            "in Steven Durlauf and Lawrence Blume eds. The New Palgrave Dictionary of Economics ."
+          ]
+        },
+        {
+          "title": "Coase lecture",
+          "quotes": [
+            "(Coase lecture) (with R. Bénabou)"
+          ]
+        },
+        {
+          "title": "Angelo Costa lecture",
+          "quotes": [
+            "(Angelo Costa lecture)"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "in P.  Buccirossi ed., Handbook of Antitrust Economics ,  MIT Press,  pp. 543 -582."
+        ],
+        "confidence": "medium",
+        "notes": "No time marker available, but role and organization are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "in Steven Durlauf and Lawrence Blume eds. The New Palgrave Dictionary of Economics ."
+        ],
+        "confidence": "medium",
+        "notes": "No time marker available, but role and organization are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "role_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "(Coase lecture) (with R. Bénabou)"
+        ],
+        "confidence": "low",
+        "notes": "No organization or time marker available, only role mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "role_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "(Angelo Costa lecture)"
+        ],
+        "confidence": "low",
+        "notes": "No organization or time marker available, only role mentioned."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and location information."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quote does not clearly indicate a career position, seems more like a publication reference."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and location information."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quote does not clearly indicate a career position, seems more like a publication reference."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "error",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization, time marker, and location information."
+          },
+          {
+            "type": "quote_support",
+            "severity": "medium",
+            "description": "Supporting quote does not clearly indicate a career position, seems more like a lecture reference."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position but lacks typical career position attributes."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "error",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization, time marker, and location information."
+          },
+          {
+            "type": "quote_support",
+            "severity": "medium",
+            "description": "Supporting quote does not clearly indicate a career position, seems more like a lecture reference."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position but lacks typical career position attributes."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 2,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

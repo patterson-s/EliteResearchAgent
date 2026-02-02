@@ -1,0 +1,282 @@
+{
+  "status": "success",
+  "chunk_id": 94,
+  "chunk_index": 0,
+  "source_url": "https://www.amacad.org/person/robert-badinter",
+  "title": "Robert Badinter | American Academy of Arts and Sciences",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1928 – 2024",
+          "type": "range",
+          "quotes": [
+            "Dr. Robert Badinter (1928 – 2024)"
+          ]
+        },
+        {
+          "text": "2006",
+          "type": "point",
+          "quotes": [
+            "Elected 2006 International Honorary Member"
+          ]
+        },
+        {
+          "text": "Apr 2025",
+          "type": "point",
+          "quotes": [
+            "Last Updated Apr 2025"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Sénat de France",
+          "quotes": [
+            "Dr. Robert Badinter was the Senateur des Hauts de-Seine."
+          ]
+        },
+        {
+          "name": "French Constitutional Court",
+          "quotes": [
+            "Before the senate, he was the Former President of the French Constitutional Court"
+          ]
+        },
+        {
+          "name": "University of Paris",
+          "quotes": [
+            "former professor of University of Paris"
+          ]
+        },
+        {
+          "name": "American Academy of Arts and Sciences",
+          "quotes": [
+            "Robert Badinter | American Academy of Arts and Sciences"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Senateur des Hauts de-Seine",
+          "quotes": [
+            "Dr. Robert Badinter was the Senateur des Hauts de-Seine."
+          ]
+        },
+        {
+          "title": "President of the French Constitutional Court",
+          "quotes": [
+            "Before the senate, he was the Former President of the French Constitutional Court"
+          ]
+        },
+        {
+          "title": "French Minister of Justice",
+          "quotes": [
+            "Before the senate, he was the [...] former French Minister of Justice"
+          ]
+        },
+        {
+          "title": "professor",
+          "quotes": [
+            "former professor of University of Paris"
+          ]
+        },
+        {
+          "title": "visiting professor and lecturer",
+          "quotes": [
+            "Badinter was a leading campaigner against capital punishment and a visiting professor and lecturer at many U.S. law schools."
+          ]
+        },
+        {
+          "title": "International Honorary Member",
+          "quotes": [
+            "Elected 2006 International Honorary Member"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Paris, France",
+          "quotes": [
+            "Sénat de France; Paris, France"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "former professor of University of Paris"
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker, but role and organization are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Before the senate, he was the Former President of the French Constitutional Court"
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker, but role and organization are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Dr. Robert Badinter was the Senateur des Hauts de-Seine.",
+          "Sénat de France; Paris, France"
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker, but role, organization, and location are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Before the senate, he was the [...] former French Minister of Justice"
+        ],
+        "confidence": "medium",
+        "notes": "No specific organization or time marker, but role is clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Badinter was a leading campaigner against capital punishment and a visiting professor and lecturer at many U.S. law schools."
+        ],
+        "confidence": "high",
+        "notes": "No specific organization or time marker, but role is clear."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          5
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Elected 2006 International Honorary Member",
+          "Robert Badinter | American Academy of Arts and Sciences"
+        ],
+        "confidence": "high",
+        "notes": "Time marker, organization, and role are clear, classified as award due to 'International Honorary Member'."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization and time marker for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization and time marker for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 5,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 6,
+      "valid": 1,
+      "warnings": 5,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 1
+    }
+  }
+}

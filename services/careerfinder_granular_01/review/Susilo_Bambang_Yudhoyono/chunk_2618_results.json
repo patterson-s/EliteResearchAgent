@@ -1,0 +1,232 @@
+{
+  "status": "success",
+  "chunk_id": 2618,
+  "chunk_index": 12,
+  "source_url": "https://en.wikipedia.org/wiki/Susilo_Bambang_Yudhoyono",
+  "title": "Susilo Bambang Yudhoyono - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "November 2006",
+          "type": "point",
+          "quotes": [
+            "President Yudhoyono and his wife Ani Yudhoyono greeting US President George W. Bush and his wife Laura Bush at Bogor Palace, November 2006"
+          ]
+        },
+        {
+          "text": "September 2007",
+          "type": "point",
+          "quotes": [
+            "Yudhoyono meeting Russian President Vladimir Putin to sign a defense deal in Jakarta, September 2007"
+          ]
+        },
+        {
+          "text": "February 2005",
+          "type": "point",
+          "quotes": [
+            "In February 2005, the US government reinstated Indonesia's eligibility for the International Military Education and Training program in order to upgrade the quality of its officer corps."
+          ]
+        },
+        {
+          "text": "May 2005",
+          "type": "point",
+          "quotes": [
+            "In May 2005, it removed restrictions on nonlethal defense equipment such as communications and transport systems."
+          ]
+        },
+        {
+          "text": "2003",
+          "type": "point",
+          "quotes": [
+            "following the 2003 purchase"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Indonesian Defence Force",
+          "quotes": [
+            "modernizing the Indonesian Defence Force will help Jakarta address mutual security concerns such as terrorism, maritime piracy, narcotics trafficking, pandemic disease, and disaster relief."
+          ]
+        },
+        {
+          "name": "APEC",
+          "quotes": [
+            "Invoking these accomplishments at the APEC conference, Yudhoyono argued that Indonesia had proven itself worthy of resumed military engagement with the United States."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "President",
+          "quotes": [
+            "President Yudhoyono and his wife Ani Yudhoyono greeting US President George W. Bush and his wife Laura Bush at Bogor Palace, November 2006"
+          ]
+        },
+        {
+          "title": "US President",
+          "quotes": [
+            "President Yudhoyono and his wife Ani Yudhoyono greeting US President George W. Bush and his wife Laura Bush at Bogor Palace, November 2006"
+          ]
+        },
+        {
+          "title": "Russian President",
+          "quotes": [
+            "Yudhoyono meeting Russian President Vladimir Putin to sign a defense deal in Jakarta, September 2007"
+          ]
+        },
+        {
+          "title": "Undersecretary of State for Political Affairs",
+          "quotes": [
+            "Undersecretary of State for Political Affairs Nicholas Burns said that Indonesia, as 'the world's largest Muslim state and its third-largest democracy, is a voice of moderation in the Islamic world and plays a unique strategic role in Southeast Asia'."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Bogor Palace",
+          "quotes": [
+            "President Yudhoyono and his wife Ani Yudhoyono greeting US President George W. Bush and his wife Laura Bush at Bogor Palace, November 2006"
+          ]
+        },
+        {
+          "place": "Jakarta",
+          "quotes": [
+            "Yudhoyono meeting Russian President Vladimir Putin to sign a defense deal in Jakarta, September 2007"
+          ]
+        },
+        {
+          "place": "Washington",
+          "quotes": [
+            "which was aided by support from Washington."
+          ]
+        },
+        {
+          "place": "Moscow",
+          "quotes": [
+            "about further defense cooperation with Moscow following the 2003 purchase"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "President Yudhoyono and his wife Ani Yudhoyono greeting US President George W. Bush and his wife Laura Bush at Bogor Palace, November 2006"
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of President Yudhoyono's role in an official capacity."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0,
+          2
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Yudhoyono meeting Russian President Vladimir Putin to sign a defense deal in Jakarta, September 2007"
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of President Yudhoyono's role in an official capacity."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Undersecretary of State for Political Affairs Nicholas Burns said that Indonesia, as 'the world's largest Muslim state and its third-largest democracy, is a voice of moderation in the Islamic world and plays a unique strategic role in Southeast Asia'."
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of an active role without specific time or location."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as 'career_position' but the role 'US President' (role_id 1) seems to be a misattribution. The quote clearly refers to Yudhoyono as 'President' and George W. Bush as 'US President'."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information. While the context suggests a governmental role, no specific organization is linked."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as 'career_position' but the role 'Russian President' (role_id 2) seems to be a misattribution. The quote clearly refers to Yudhoyono meeting with Vladimir Putin, who is the Russian President."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information. While the context suggests a governmental role, no specific organization is linked."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "error",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "high",
+            "description": "Event classified as 'career_position' but the role 'Undersecretary of State for Political Affairs' (role_id 3) does not match Yudhoyono's role. The quote refers to a statement made by Nicholas Burns, not Yudhoyono."
+          },
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing time and location information, and the role does not align with Yudhoyono's career."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 1,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

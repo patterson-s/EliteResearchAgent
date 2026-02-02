@@ -1,0 +1,128 @@
+{
+  "status": "success",
+  "chunk_id": 544,
+  "chunk_index": 44,
+  "source_url": "https://issafrica.s3.amazonaws.com/site/uploads/Book-2015-Salim.pdf",
+  "title": "Book-2015-Salim.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In the 1970s",
+          "type": "point",
+          "quotes": [
+            "In the 1970s, the various liberation struggles had gained momentum in Africa and other occupied territories."
+          ]
+        },
+        {
+          "text": "in the eight years that he served in this capacity",
+          "type": "range",
+          "quotes": [
+            "In the eight years that he served in this capacity, in keeping with the spirit and letter of the 1960 UNGA Declaration on the Granting of Independence to Colonial Countries and Peoples, Salim and the committee strongly advocated and campaigned for the self-determination, decolonisation and freedom of all people, not just in Africa, but also elsewhere in the world."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "UN",
+          "quotes": [
+            "African representation at the UN, and the support of the OAU and NAM, had given Africa increased prominence and influence in national and international decision-making processes."
+          ]
+        },
+        {
+          "name": "OAU",
+          "quotes": [
+            "African representation at the UN, and the support of the OAU and NAM, had given Africa increased prominence and influence in national and international decision-making processes."
+          ]
+        },
+        {
+          "name": "NAM",
+          "quotes": [
+            "African representation at the UN, and the support of the OAU and NAM, had given Africa increased prominence and influence in national and international decision-making processes."
+          ]
+        },
+        {
+          "name": "UN Special Committee on Decolonization",
+          "quotes": [
+            "Under Salim’s chairmanship, the UN Special Committee on Decolonization played an essential role in steering many colonies and non-self-governing territories to full sovereignty and independence."
+          ]
+        },
+        {
+          "name": "UNGA",
+          "quotes": [
+            "In the eight years that he served in this capacity, in keeping with the spirit and letter of the 1960 UNGA Declaration on the Granting of Independence to Colonial Countries and Peoples, Salim and the committee strongly advocated and campaigned for the self-determination, decolonisation and freedom of all people, not just in Africa, but also elsewhere in the world."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "chairmanship",
+          "quotes": [
+            "Under Salim’s chairmanship, the UN Special Committee on Decolonization played an essential role in steering many colonies and non-self-governing territories to full sovereignty and independence."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Africa",
+          "quotes": [
+            "The right of nations to attain self-rule has always been top of Salim’s agenda. He had staunchly supported the struggle for independence, particularly in Africa, before his UN appointment."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Under Salim’s chairmanship, the UN Special Committee on Decolonization played an essential role in steering many colonies and non-self-governing territories to full sovereignty and independence.",
+          "In the eight years that he served in this capacity, in keeping with the spirit and letter of the 1960 UNGA Declaration on the Granting of Independence to Colonial Countries and Peoples, Salim and the committee strongly advocated and campaigned for the self-determination, decolonisation and freedom of all people, not just in Africa, but also elsewhere in the world."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between chairmanship role and UN Special Committee on Decolonization with a defined time period."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing location information, which could be relevant for a role with global impact."
+          },
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "Time marker is vague ('in the eight years that he served in this capacity') without specific start and end dates."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

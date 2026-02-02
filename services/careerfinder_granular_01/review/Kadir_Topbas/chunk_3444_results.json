@@ -1,0 +1,195 @@
+{
+  "status": "success",
+  "chunk_id": 3444,
+  "chunk_index": 1,
+  "source_url": "https://www.dailysabah.com/turkey/istanbul/former-mayor-of-istanbul-kadir-topbas-dies-of-covid-19-aged-76",
+  "title": "Former Mayor of Istanbul Kadir Topbaş dies of COVID-19 aged 76 | Daily Sabah",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2007",
+          "type": "point",
+          "quotes": [
+            "He became UCLG co-chair in 2007."
+          ]
+        },
+        {
+          "text": "September 2017",
+          "type": "point",
+          "quotes": [
+            "Topbaş had announced his resignation after 13 years of service in September 2017."
+          ]
+        },
+        {
+          "text": "March 2019",
+          "type": "point",
+          "quotes": [
+            "He was replaced by Başakşehir district mayor Mevlüt Uysal of the AK Party, which conceded the next local elections in March 2019 to main opposition Republican People's Party's (CHP) Ekrem Imamoğlu."
+          ]
+        },
+        {
+          "text": "Feb 13, 2021",
+          "type": "point",
+          "quotes": [
+            "Last Update: Feb 13, 2021 8:13 pm"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Middle East and West Asia Regional Government",
+          "quotes": [
+            "and Local Governments, Middle East and West Asia Regional Government, and vice president of the United Cities and Local Governments (UCLG)."
+          ]
+        },
+        {
+          "name": "United Cities and Local Governments (UCLG)",
+          "quotes": [
+            "and Local Governments, Middle East and West Asia Regional Government, and vice president of the United Cities and Local Governments (UCLG)."
+          ]
+        },
+        {
+          "name": "AK Party",
+          "quotes": [
+            "He was replaced by Başakşehir district mayor Mevlüt Uysal of the AK Party, which conceded the next local elections in March 2019 to main opposition Republican People's Party's (CHP) Ekrem Imamoğlu."
+          ]
+        },
+        {
+          "name": "Republican People's Party (CHP)",
+          "quotes": [
+            "He was replaced by Başakşehir district mayor Mevlüt Uysal of the AK Party, which conceded the next local elections in March 2019 to main opposition Republican People's Party's (CHP) Ekrem Imamoğlu."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "vice president of the United Cities and Local Governments (UCLG)",
+          "quotes": [
+            "and Local Governments, Middle East and West Asia Regional Government, and vice president of the United Cities and Local Governments (UCLG)."
+          ]
+        },
+        {
+          "title": "UCLG co-chair",
+          "quotes": [
+            "He became UCLG co-chair in 2007."
+          ]
+        },
+        {
+          "title": "Başakşehir district mayor",
+          "quotes": [
+            "He was replaced by Başakşehir district mayor Mevlüt Uysal of the AK Party, which conceded the next local elections in March 2019 to main opposition Republican People's Party's (CHP) Ekrem Imamoğlu."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Başakşehir district",
+          "quotes": [
+            "He was replaced by Başakşehir district mayor Mevlüt Uysal of the AK Party, which conceded the next local elections in March 2019 to main opposition Republican People's Party's (CHP) Ekrem Imamoğlu."
+          ]
+        },
+        {
+          "place": "Turkey",
+          "quotes": [
+            "Keep up to date with what’s happening in Turkey, it’s region and the world."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He became UCLG co-chair in 2007."
+        ],
+        "confidence": "high",
+        "notes": "Directly stated role and time marker."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "and Local Governments, Middle East and West Asia Regional Government, and vice president of the United Cities and Local Governments (UCLG)."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time marker, but role and organizations are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "He was replaced by Başakşehir district mayor Mevlüt Uysal of the AK Party, which conceded the next local elections in March 2019 to main opposition Republican People's Party's (CHP) Ekrem Imamoğlu."
+        ],
+        "confidence": "high",
+        "notes": "Role, organization, and location are clearly linked with a time marker."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 2,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "status": "success",
+  "chunk_id": 116,
+  "chunk_index": 0,
+  "source_url": "https://theelders.org/profile/gro-harlem-brundtland",
+  "title": "Gro Harlem Brundtland",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "The Elders",
+          "quotes": [
+            "Member of The Elders"
+          ]
+        },
+        {
+          "name": "WHO",
+          "quotes": [
+            "former Director-General of WHO"
+          ]
+        },
+        {
+          "name": "UN",
+          "quotes": [
+            "I have witnessed the tangible differences the UN makes",
+            "Photo: UN/Milton Grant",
+            "Photo: UN/Rossana Fraga"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Member of The Elders",
+          "quotes": [
+            "Member of The Elders"
+          ]
+        },
+        {
+          "title": "Prime Minister of Norway",
+          "quotes": [
+            "First woman Prime Minister of Norway",
+            "Norway’s first female Prime Minister"
+          ]
+        },
+        {
+          "title": "Director-General of WHO",
+          "quotes": [
+            "former Director-General of WHO"
+          ]
+        },
+        {
+          "title": "medical doctor",
+          "quotes": [
+            "a medical doctor who champions health as a human right"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Norway",
+          "quotes": [
+            "First woman Prime Minister of Norway",
+            "Norway’s first female Prime Minister"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Member of The Elders"
+        ],
+        "confidence": "high",
+        "notes": "Direct match between organization and role quotes."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "former Director-General of WHO"
+        ],
+        "confidence": "high",
+        "notes": "Direct match between organization and role quotes."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "First woman Prime Minister of Norway",
+          "Norway’s first female Prime Minister"
+        ],
+        "confidence": "high",
+        "notes": "Role and location quotes directly match."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "a medical doctor who champions health as a human right"
+        ],
+        "confidence": "high",
+        "notes": "Standalone role with clear professional designation."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization, location, and time markers for career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 0,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

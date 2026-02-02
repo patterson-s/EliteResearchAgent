@@ -1,0 +1,119 @@
+{
+  "status": "success",
+  "chunk_id": 3407,
+  "chunk_index": 5,
+  "source_url": "https://conflictfieldresearch.colgate.edu/wp-content/uploads/2015/02/9_Reflections_on_Policy_Space.pdf",
+  "title": "9_Reflections_on_Policy_Space.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Planning Commission",
+          "quotes": [
+            "The Planning Commission was set up by Sergio De Mello and they dismantled the NPDA, the National Planning and Development Agency, that I was head of and I became the Secretary for the Planning Commission."
+          ]
+        },
+        {
+          "name": "NPDA (National Planning and Development Agency)",
+          "quotes": [
+            "The Planning Commission was set up by Sergio De Mello and they dismantled the NPDA, the National Planning and Development Agency, that I was head of and I became the Secretary for the Planning Commission."
+          ]
+        },
+        {
+          "name": "CNRT",
+          "quotes": [
+            "So the motive for the vision plan came from you and the Timorese, CNRT, at that time?"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "head of the NPDA",
+          "quotes": [
+            "The Planning Commission was set up by Sergio De Mello and they dismantled the NPDA, the National Planning and Development Agency, that I was head of and I became the Secretary for the Planning Commission."
+          ]
+        },
+        {
+          "title": "Secretary for the Planning Commission",
+          "quotes": [
+            "The Planning Commission was set up by Sergio De Mello and they dismantled the NPDA, the National Planning and Development Agency, that I was head of and I became the Secretary for the Planning Commission."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The Planning Commission was set up by Sergio De Mello and they dismantled the NPDA, the National Planning and Development Agency, that I was head of and I became the Secretary for the Planning Commission."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between NPDA and head of the NPDA role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The Planning Commission was set up by Sergio De Mello and they dismantled the NPDA, the National Planning and Development Agency, that I was head of and I became the Secretary for the Planning Commission."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between Planning Commission and Secretary role."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

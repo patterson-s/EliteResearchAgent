@@ -1,0 +1,132 @@
+{
+  "status": "success",
+  "chunk_id": 660,
+  "chunk_index": 2,
+  "source_url": "https://www.linkedin.com/in/melindagates",
+  "title": "Melinda French Gates - Founder of Pivotal. Co-founder of the Gates Foundation. Author of The Moment of Lift & The Next Day. | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "Nov 9, 2023",
+          "type": "point",
+          "quotes": [
+            "Nov 9, 2023"
+          ]
+        },
+        {
+          "text": "Jun 24, 2023",
+          "type": "point",
+          "quotes": [
+            "Jun 24, 2023"
+          ]
+        },
+        {
+          "text": "May 2, 2023",
+          "type": "point",
+          "quotes": [
+            "May 2, 2023"
+          ]
+        },
+        {
+          "text": "Apr 23, 2023",
+          "type": "point",
+          "quotes": [
+            "Apr 23, 2023"
+          ]
+        },
+        {
+          "text": "In 1976",
+          "type": "point",
+          "quotes": [
+            "In 1976, Anna Belle Clement O’Brien, known as the first lady of…"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "TIME",
+          "quotes": [
+            "This article was originally published by TIME."
+          ]
+        },
+        {
+          "name": "LinkedIn",
+          "quotes": [
+            "By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement, Privacy Policy, and Cookie Policy."
+          ]
+        },
+        {
+          "name": "Lever for Change",
+          "quotes": [
+            "our $250 million global open call with Lever for Change"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "leader in the field of artificial intelligence",
+          "quotes": [
+            "Dr. Fei-Fei Li, a leader in the field of artificial intelligence"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Philippines",
+          "quotes": [
+            "a hunter-gatherer society in the Philippines"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Dr. Fei-Fei Li, a leader in the field of artificial intelligence"
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker, organization, or location provided, but the role is clearly stated."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker, organization, and location information, making the event contextually incomplete."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quote mentions Dr. Fei-Fei Li as a leader in AI but does not specify a particular career position or role responsibilities."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

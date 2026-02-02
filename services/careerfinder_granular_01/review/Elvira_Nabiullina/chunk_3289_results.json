@@ -1,0 +1,347 @@
+{
+  "status": "success",
+  "chunk_id": 3289,
+  "chunk_index": 0,
+  "source_url": "https://en.wikipedia.org/wiki/Elvira_Nabiullina",
+  "title": "Elvira Nabiullina - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "24 June 2013",
+          "type": "point",
+          "quotes": [
+            "Assumed office 24 June 2013"
+          ]
+        },
+        {
+          "text": "22 May 2012 – 24 June 2013",
+          "type": "range",
+          "quotes": [
+            "Aide to the President of Russia In office 22 May 2012 – 24 June 2013"
+          ]
+        },
+        {
+          "text": "24 September 2007 – 21 May 2012",
+          "type": "range",
+          "quotes": [
+            "Minister of Economic Development In office 24 September 2007 – 21 May 2012"
+          ]
+        },
+        {
+          "text": "May 2012 to June 2013",
+          "type": "range",
+          "quotes": [
+            "She was President Vladimir Putin's economic adviser from May 2012 to June 2013"
+          ]
+        },
+        {
+          "text": "September 2007 to May 2012",
+          "type": "range",
+          "quotes": [
+            "after serving as the minister of economic development from September 2007 to May 2012"
+          ]
+        },
+        {
+          "text": "29 October 1963",
+          "type": "point",
+          "quotes": [
+            "Born ( 1963-10-29 ) 29 October 1963",
+            "Nabiullina was born in Ufa, Bashkir ASSR, on 29 October 1963"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Bank of Russia",
+          "quotes": [
+            "Governor of the Bank of Russia",
+            "current governor of the Central Bank of Russia"
+          ]
+        },
+        {
+          "name": "Central Bank of Russia",
+          "quotes": [
+            "Governor of the Central Bank of Russia",
+            "current governor of the Central Bank of Russia"
+          ]
+        },
+        {
+          "name": "President of Russia",
+          "quotes": [
+            "Aide to the President of Russia",
+            "President Vladimir Putin's economic adviser"
+          ]
+        },
+        {
+          "name": "Minister of Economic Development",
+          "quotes": [
+            "Minister of Economic Development",
+            "serving as the minister of economic development"
+          ]
+        },
+        {
+          "name": "Forbes",
+          "quotes": [
+            "As of 2019, she was listed as the 53rd most powerful woman in the world by Forbes"
+          ]
+        },
+        {
+          "name": "Moscow State University",
+          "quotes": [
+            "She graduated from Moscow State University"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Governor of the Bank of Russia",
+          "quotes": [
+            "Governor of the Bank of Russia",
+            "current governor of the Central Bank of Russia"
+          ]
+        },
+        {
+          "title": "Aide to the President of Russia",
+          "quotes": [
+            "Aide to the President of Russia"
+          ]
+        },
+        {
+          "title": "economic adviser",
+          "quotes": [
+            "President Vladimir Putin's economic adviser"
+          ]
+        },
+        {
+          "title": "Minister of Economic Development",
+          "quotes": [
+            "Minister of Economic Development",
+            "serving as the minister of economic development"
+          ]
+        },
+        {
+          "title": "1st class Active State Councillor of the Russian Federation",
+          "quotes": [
+            "She has the federal state civilian service rank of 1st class Active State Councillor of the Russian Federation"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Ufa",
+          "quotes": [
+            "Born in Ufa, Bashkir ASSR",
+            "Nabiullina was born in Ufa, Bashkir ASSR"
+          ]
+        },
+        {
+          "place": "Bashkir ASSR",
+          "quotes": [
+            "Born in Ufa, Bashkir ASSR",
+            "Nabiullina was born in Ufa, Bashkir ASSR"
+          ]
+        },
+        {
+          "place": "Russian SFSR",
+          "quotes": [
+            "Ufa, Bashkir ASSR, Russian SFSR, Soviet Union"
+          ]
+        },
+        {
+          "place": "Soviet Union",
+          "quotes": [
+            "Ufa, Bashkir ASSR, Russian SFSR, Soviet Union"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2,
+          4
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Minister of Economic Development In office 24 September 2007 – 21 May 2012",
+          "after serving as the minister of economic development from September 2007 to May 2012",
+          "Minister of Economic Development",
+          "serving as the minister of economic development"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1,
+          3
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Aide to the President of Russia In office 22 May 2012 – 24 June 2013",
+          "She was President Vladimir Putin's economic adviser from May 2012 to June 2013",
+          "Aide to the President of Russia",
+          "President Vladimir Putin's economic adviser"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role, though the role 'economic adviser' is mentioned separately but within the same time frame."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Assumed office 24 June 2013",
+          "Governor of the Bank of Russia",
+          "current governor of the Central Bank of Russia"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role. 'Bank of Russia' and 'Central Bank of Russia' are treated as the same organization based on context."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "She has the federal state civilian service rank of 1st class Active State Councillor of the Russian Federation"
+        ],
+        "confidence": "medium",
+        "notes": "No specific time or organization mentioned, but the role is clearly a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "supporting_quotes": [
+          "Born ( 1963-10-29 ) 29 October 1963",
+          "Nabiullina was born in Ufa, Bashkir ASSR, on 29 October 1963",
+          "Born in Ufa, Bashkir ASSR",
+          "Ufa, Bashkir ASSR, Russian SFSR, Soviet Union"
+        ],
+        "confidence": "high",
+        "notes": "Birth event with clear location details."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "She graduated from Moscow State University"
+        ],
+        "confidence": "medium",
+        "notes": "No specific time mentioned, but graduation is a significant career event."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing organization_ids for 'Central Bank of Russia' despite mention in quotes."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time_marker_ids and organization_ids for the role '1st class Active State Councillor of the Russian Federation'."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "error",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "high",
+            "description": "Birth event misclassified as 'career_position'."
+          }
+        ]
+      },
+      {
+        "event_id": 5,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time_marker_ids for graduation event from Moscow State University."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 6,
+      "valid": 2,
+      "warnings": 3,
+      "errors": 1,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

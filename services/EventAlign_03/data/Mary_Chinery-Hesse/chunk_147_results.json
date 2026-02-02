@@ -1,0 +1,257 @@
+{
+  "status": "success",
+  "chunk_id": 147,
+  "chunk_index": 0,
+  "source_url": "https://www.policycenter.ma/expertexterne/mary-chinery-hesse",
+  "title": "Mary Chinery-Hesse | Policy Center",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "West Africa Commission on Drugs",
+          "quotes": [
+            "Member, West Africa Commission on Drugs",
+            "She is a Commissioner of the West African Commission on Drugs (WACD)"
+          ]
+        },
+        {
+          "name": "Policy Center for the New South",
+          "quotes": [
+            "This individual is not a direct affiliate of the Policy Center for the New South. They have contributed to one or more of our events, publications, or projects."
+          ]
+        },
+        {
+          "name": "United Nations",
+          "quotes": [
+            "Dr. Mary Chinery-Hesse, a retired International Civil Servant worked at the United Nations as Resident Coordinator and UNDP Resident Representative",
+            "She was then appointed as the first woman Deputy Director-General of the International Labour Organization, with the rank of Under Secretary-General of the United Nations."
+          ]
+        },
+        {
+          "name": "UNDP",
+          "quotes": [
+            "Dr. Mary Chinery-Hesse, a retired International Civil Servant worked at the United Nations as Resident Coordinator and UNDP Resident Representative"
+          ]
+        },
+        {
+          "name": "International Labour Organization",
+          "quotes": [
+            "She was then appointed as the first woman Deputy Director-General of the International Labour Organization, with the rank of Under Secretary-General of the United Nations."
+          ]
+        },
+        {
+          "name": "African Union Panel Of The Wise",
+          "quotes": [
+            "She currently serves on the Five-Member African Union Panel Of The Wise."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Member, West Africa Commission on Drugs",
+          "quotes": [
+            "Member, West Africa Commission on Drugs"
+          ]
+        },
+        {
+          "title": "Resident Coordinator and UNDP Resident Representative",
+          "quotes": [
+            "Dr. Mary Chinery-Hesse, a retired International Civil Servant worked at the United Nations as Resident Coordinator and UNDP Resident Representative"
+          ]
+        },
+        {
+          "title": "Deputy Director-General of the International Labour Organization",
+          "quotes": [
+            "She was then appointed as the first woman Deputy Director-General of the International Labour Organization, with the rank of Under Secretary-General of the United Nations."
+          ]
+        },
+        {
+          "title": "Under Secretary-General of the United Nations",
+          "quotes": [
+            "She was then appointed as the first woman Deputy Director-General of the International Labour Organization, with the rank of Under Secretary-General of the United Nations."
+          ]
+        },
+        {
+          "title": "Chief Advisor to the President of the Republic of Ghana",
+          "quotes": [
+            "She also served as the Chief Advisor to the President of the Republic of Ghana."
+          ]
+        },
+        {
+          "title": "Member, African Union Panel Of The Wise",
+          "quotes": [
+            "She currently serves on the Five-Member African Union Panel Of The Wise."
+          ]
+        },
+        {
+          "title": "Commissioner of the West African Commission on Drugs (WACD)",
+          "quotes": [
+            "She is a Commissioner of the West African Commission on Drugs (WACD)"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Ghana",
+          "quotes": [
+            "She also served as the Chief Advisor to the President of the Republic of Ghana."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0,
+          6
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Member, West Africa Commission on Drugs",
+          "She is a Commissioner of the West African Commission on Drugs (WACD)"
+        ],
+        "confidence": "high",
+        "notes": "Both roles are directly linked to the West Africa Commission on Drugs."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2,
+          3
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Dr. Mary Chinery-Hesse, a retired International Civil Servant worked at the United Nations as Resident Coordinator and UNDP Resident Representative"
+        ],
+        "confidence": "high",
+        "notes": "Role is clearly linked to both the United Nations and UNDP."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2,
+          4
+        ],
+        "role_ids": [
+          2,
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "She was then appointed as the first woman Deputy Director-General of the International Labour Organization, with the rank of Under Secretary-General of the United Nations."
+        ],
+        "confidence": "high",
+        "notes": "Role is linked to both the International Labour Organization and the United Nations."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "She also served as the Chief Advisor to the President of the Republic of Ghana."
+        ],
+        "confidence": "high",
+        "notes": "Role is clearly linked to Ghana."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [
+          5
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "She currently serves on the Five-Member African Union Panel Of The Wise."
+        ],
+        "confidence": "high",
+        "notes": "Role is directly linked to the African Union Panel Of The Wise."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "This individual is not a direct affiliate of the Policy Center for the New South. They have contributed to one or more of our events, publications, or projects."
+        ],
+        "confidence": "medium",
+        "notes": "Contribution is mentioned but not a formal position, classified as career_position due to active contribution."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 4,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 5,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The role is described as a contribution rather than a formal position, which may not fit the typical definition of a career_position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 6,
+      "valid": 5,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 6,
+      "awards": 0
+    }
+  }
+}

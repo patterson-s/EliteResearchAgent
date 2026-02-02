@@ -1,0 +1,237 @@
+{
+  "status": "success",
+  "chunk_id": 2836,
+  "chunk_index": 55,
+  "source_url": "https://en.wikipedia.org/wiki/David_Cameron",
+  "title": "David Cameron - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "May 2010",
+          "type": "point",
+          "quotes": [
+            "May 2010."
+          ]
+        },
+        {
+          "text": "12 May 2010",
+          "type": "point",
+          "quotes": [
+            "Lyall, Sarah (12 May 2010)."
+          ]
+        },
+        {
+          "text": "7 June 2010",
+          "type": "point",
+          "quotes": [
+            "Lyall, Sarah (7 June 2010)."
+          ]
+        },
+        {
+          "text": "16 December 2014",
+          "type": "point",
+          "quotes": [
+            "Ashworth-Hayes, Sam (16 December 2014)."
+          ]
+        },
+        {
+          "text": "27 June 2017",
+          "type": "point",
+          "quotes": [
+            "The Daily Telegraph. 27 June 2017."
+          ]
+        },
+        {
+          "text": "28 June 2017",
+          "type": "point",
+          "quotes": [
+            "Belfast Telegraph. 28 June 2017."
+          ]
+        },
+        {
+          "text": "11 January 2016",
+          "type": "point",
+          "quotes": [
+            "BBC News. 11 January 2016."
+          ]
+        },
+        {
+          "text": "17 December 2015",
+          "type": "point",
+          "quotes": [
+            "www.pioneerspost.com. 17 December 2015."
+          ]
+        },
+        {
+          "text": "3 August 2022",
+          "type": "point",
+          "quotes": [
+            "Giulietti, Corrado; McConnell, Brendon (3 August 2022)."
+          ]
+        },
+        {
+          "text": "16 June 2024",
+          "type": "point",
+          "quotes": [
+            "The Guardian. 16 June 2024."
+          ]
+        },
+        {
+          "text": "17 May 2016",
+          "type": "point",
+          "quotes": [
+            "Brooks, Rachel (17 May 2016)."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "The New York Times",
+          "quotes": [
+            "Lyall, Sarah (12 May 2010). 'Britain's Improbable New Leaders Promise Big Changes'. The New York Times."
+          ]
+        },
+        {
+          "name": "Full Fact",
+          "quotes": [
+            "Ashworth-Hayes, Sam (16 December 2014). 'Factcheck: Has the budget deficit been halved?'. Full Fact."
+          ]
+        },
+        {
+          "name": "The Daily Telegraph",
+          "quotes": [
+            "'Prince William and David Cameron caught up in Fifa corruption scandal'. The Daily Telegraph."
+          ]
+        },
+        {
+          "name": "Belfast Telegraph",
+          "quotes": [
+            "'Video: David Cameron and Prince William implicated in FIFA corruption probe'. Belfast Telegraph."
+          ]
+        },
+        {
+          "name": "BBC News",
+          "quotes": [
+            "'David Cameron pledges 'assault on poverty' with social reforms'. BBC News."
+          ]
+        },
+        {
+          "name": "GOV.UK",
+          "quotes": [
+            "'Prime Minister's speech on life chances'. GOV.UK."
+          ]
+        },
+        {
+          "name": "www.pioneerspost.com",
+          "quotes": [
+            "'David Cameron announces \"landmark\" reforms in children's services'. www.pioneerspost.com."
+          ]
+        },
+        {
+          "name": "arXiv",
+          "quotes": [
+            "Giulietti, Corrado; McConnell, Brendon (3 August 2022). 'Kicking You When You're Already Down: The Multipronged Impact of Austerity on Crime'. arXiv: 2012.08133 [econ.GN]."
+          ]
+        },
+        {
+          "name": "The Guardian",
+          "quotes": [
+            "'The Guardian view on social security: Labour must face the harm caused by benefit cuts'. The Guardian."
+          ]
+        },
+        {
+          "name": "Government Business",
+          "quotes": [
+            "Brooks, Rachel (17 May 2016). 'Cameron outlines social work reforms'. Government Business."
+          ]
+        },
+        {
+          "name": "BBC",
+          "quotes": [
+            "'BBC - Newsnight: Michael Crick: Was the coalition built on a lie?'. www.bbc.co.uk."
+          ]
+        },
+        {
+          "name": "The Political Studies Association",
+          "quotes": [
+            "'The AV referendum a decade on: David Cameron's first gamble'. The Political Studies Association."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Prime Minister",
+          "quotes": [
+            "'Prime Minister's speech on life chances'. GOV.UK."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3,
+          6,
+          7,
+          10
+        ],
+        "organization_ids": [
+          1,
+          5,
+          6,
+          7,
+          9,
+          10
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Ashworth-Hayes, Sam (16 December 2014). 'Factcheck: Has the budget deficit been halved?'. Full Fact.",
+          "BBC News. 11 January 2016.",
+          "www.pioneerspost.com. 17 December 2015.",
+          "Brooks, Rachel (17 May 2016). 'Cameron outlines social work reforms'. Government Business.",
+          "'Prime Minister's speech on life chances'. GOV.UK."
+        ],
+        "confidence": "high",
+        "notes": "The role of Prime Minister is clearly associated with various organizations and time markers, indicating an active position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing location information, which is unexpected for a career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quotes do not explicitly mention the role of 'Prime Minister' in all cases, though the role is inferred from context."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "status": "success",
+  "chunk_id": 3058,
+  "chunk_index": 0,
+  "source_url": "https://www.britannica.com/biography/Kan-Naoto",
+  "title": "Kan Naoto | Japanese Prime Minister & Politician | Britannica",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "October 10, 1946",
+          "type": "point",
+          "quotes": [
+            "Kan Naoto (born October 10, 1946, Ube, Yamaguchi prefecture, Japan) is a Japanese businessman, politician, and bureaucrat"
+          ]
+        },
+        {
+          "text": "2010–11",
+          "type": "range",
+          "quotes": [
+            "who served as prime minister of Japan (2010–11)."
+          ]
+        },
+        {
+          "text": "1970",
+          "type": "point",
+          "quotes": [
+            "He received a bachelor’s degree in physics in 1970 from the Tokyo Institute of Technology,"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Tokyo Institute of Technology",
+          "quotes": [
+            "He received a bachelor’s degree in physics in 1970 from the Tokyo Institute of Technology,"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "prime minister of Japan",
+          "quotes": [
+            "who served as prime minister of Japan (2010–11)."
+          ]
+        },
+        {
+          "title": "businessman",
+          "quotes": [
+            "Kan Naoto (born October 10, 1946, Ube, Yamaguchi prefecture, Japan) is a Japanese businessman, politician, and bureaucrat"
+          ]
+        },
+        {
+          "title": "politician",
+          "quotes": [
+            "Kan Naoto (born October 10, 1946, Ube, Yamaguchi prefecture, Japan) is a Japanese businessman, politician, and bureaucrat"
+          ]
+        },
+        {
+          "title": "bureaucrat",
+          "quotes": [
+            "Kan Naoto (born October 10, 1946, Ube, Yamaguchi prefecture, Japan) is a Japanese businessman, politician, and bureaucrat"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Ube, Yamaguchi prefecture, Japan",
+          "quotes": [
+            "Kan Naoto (born October 10, 1946, Ube, Yamaguchi prefecture, Japan) is a Japanese businessman, politician, and bureaucrat"
+          ]
+        },
+        {
+          "place": "southwestern Honshu",
+          "quotes": [
+            "Kan, the son of a salaryman factory manager, was raised in southwestern Honshu, far from the political and economic centre of the country."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "who served as prime minister of Japan (2010–11)."
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of a career position with specific time range and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1,
+          2,
+          3
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Kan Naoto (born October 10, 1946, Ube, Yamaguchi prefecture, Japan) is a Japanese businessman, politician, and bureaucrat"
+        ],
+        "confidence": "high",
+        "notes": "Roles mentioned as current or ongoing affiliations without specific time markers."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He received a bachelor’s degree in physics in 1970 from the Tokyo Institute of Technology,"
+        ],
+        "confidence": "high",
+        "notes": "Educational achievement linked to a specific organization and time point, considered a career milestone."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for roles, making it unclear when these positions were held."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Educational achievement classified as a career position, which may not align with typical career milestones."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

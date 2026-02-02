@@ -1,0 +1,397 @@
+{
+  "status": "success",
+  "chunk_id": 3758,
+  "chunk_index": 0,
+  "source_url": "https://cepr.org/about/people/gordon-brown",
+  "title": "Gordon Brown | CEPR",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "from 2007 to 2010",
+          "type": "range",
+          "quotes": [
+            "He served as Prime Minister of the United Kingdom from 2007 to 2010"
+          ]
+        },
+        {
+          "text": "2009",
+          "type": "point",
+          "quotes": [
+            "through his stewardship of the 2009 London G20 summit",
+            "In April 2009, he hosted the G20 Summit in London"
+          ]
+        },
+        {
+          "text": "from 1997 to 2007",
+          "type": "range",
+          "quotes": [
+            "Previously, he served as Chancellor of the Exchequer from 1997 to 2007"
+          ]
+        },
+        {
+          "text": "1983-2005",
+          "type": "range",
+          "quotes": [
+            "Gordon served as the Labour Member of Parliament for Dunfermline East (1983-2005)"
+          ]
+        },
+        {
+          "text": "2005-2015",
+          "type": "range",
+          "quotes": [
+            "and for Kirkcaldy and Cowdenbeath (2005-2015)"
+          ]
+        },
+        {
+          "text": "2007-2010",
+          "type": "range",
+          "quotes": [
+            "He was elected as Leader of the Labour Party serving from 2007-2010"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "United Nations",
+          "quotes": [
+            "Gordon Brown is the United Nations Special Envoy for Global Education"
+          ]
+        },
+        {
+          "name": "CEPR",
+          "quotes": [
+            "Gordon Brown | CEPR"
+          ]
+        },
+        {
+          "name": "Labour Party",
+          "quotes": [
+            "His roles in parliament and government have continued to shape his views",
+            "He was elected as Leader of the Labour Party serving from 2007-2010",
+            "Gordon served as the Labour Member of Parliament for Dunfermline East (1983-2005)"
+          ]
+        },
+        {
+          "name": "G20",
+          "quotes": [
+            "through his stewardship of the 2009 London G20 summit",
+            "In April 2009, he hosted the G20 Summit in London"
+          ]
+        },
+        {
+          "name": "Treasury",
+          "quotes": [
+            "During ten years at the Treasury, Gordon masterminded many of Labour’s proudest achievements"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "United Nations Special Envoy for Global Education",
+          "quotes": [
+            "Gordon Brown is the United Nations Special Envoy for Global Education"
+          ]
+        },
+        {
+          "title": "Prime Minister of the United Kingdom",
+          "quotes": [
+            "He served as Prime Minister of the United Kingdom from 2007 to 2010"
+          ]
+        },
+        {
+          "title": "Chancellor of the Exchequer",
+          "quotes": [
+            "Previously, he served as Chancellor of the Exchequer from 1997 to 2007"
+          ]
+        },
+        {
+          "title": "Labour Member of Parliament",
+          "quotes": [
+            "Gordon served as the Labour Member of Parliament for Dunfermline East (1983-2005)",
+            "and for Kirkcaldy and Cowdenbeath (2005-2015)"
+          ]
+        },
+        {
+          "title": "Leader of the Labour Party",
+          "quotes": [
+            "He was elected as Leader of the Labour Party serving from 2007-2010"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "United Kingdom",
+          "quotes": [
+            "He served as Prime Minister of the United Kingdom from 2007 to 2010"
+          ]
+        },
+        {
+          "place": "London",
+          "quotes": [
+            "through his stewardship of the 2009 London G20 summit",
+            "In April 2009, he hosted the G20 Summit in London"
+          ]
+        },
+        {
+          "place": "Dunfermline East",
+          "quotes": [
+            "Gordon served as the Labour Member of Parliament for Dunfermline East (1983-2005)"
+          ]
+        },
+        {
+          "place": "Kirkcaldy and Cowdenbeath",
+          "quotes": [
+            "and for Kirkcaldy and Cowdenbeath (2005-2015)"
+          ]
+        },
+        {
+          "place": "Fife, Scotland",
+          "quotes": [
+            "in his home area of Fife in Scotland"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "Gordon served as the Labour Member of Parliament for Dunfermline East (1983-2005)"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [
+          3
+        ],
+        "supporting_quotes": [
+          "and for Kirkcaldy and Cowdenbeath (2005-2015)"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Previously, he served as Chancellor of the Exchequer from 1997 to 2007",
+          "During ten years at the Treasury, Gordon masterminded many of Labour’s proudest achievements"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role. Location not specified."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          6
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He served as Prime Minister of the United Kingdom from 2007 to 2010",
+          "He was elected as Leader of the Labour Party serving from 2007-2010"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role. Location not specified."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "He served as Prime Minister of the United Kingdom from 2007 to 2010"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, role, and location. Organization not specified."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "through his stewardship of the 2009 London G20 summit",
+          "In April 2009, he hosted the G20 Summit in London"
+        ],
+        "confidence": "medium",
+        "notes": "Clear linkage between time, organization, and location. Role not explicitly stated but implied as host/steward."
+      },
+      {
+        "event_type": "career_position",
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "time_marker_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Gordon Brown is the United Nations Special Envoy for Global Education"
+        ],
+        "confidence": "high",
+        "notes": "No time marker provided, but clear linkage between organization and role."
+      },
+      {
+        "event_type": "career_position",
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "time_marker_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Gordon Brown | CEPR"
+        ],
+        "confidence": "low",
+        "notes": "No time marker or role provided. Organization mentioned but role unclear."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Location not specified for the role of Chancellor of the Exchequer."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Location not specified for the roles of Prime Minister and Leader of the Labour Party."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Organization not specified for the role of Prime Minister of the United Kingdom."
+          }
+        ]
+      },
+      {
+        "event_id": 5,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Role not explicitly stated but implied as host/steward of the G20 Summit."
+          }
+        ]
+      },
+      {
+        "event_id": 6,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Time marker not provided for the role of United Nations Special Envoy for Global Education."
+          }
+        ]
+      },
+      {
+        "event_id": 7,
+        "status": "error",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Time marker, role, and location not provided for the organization CEPR."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 8,
+      "valid": 2,
+      "warnings": 5,
+      "errors": 1,
+      "career_positions": 8,
+      "awards": 0
+    }
+  }
+}

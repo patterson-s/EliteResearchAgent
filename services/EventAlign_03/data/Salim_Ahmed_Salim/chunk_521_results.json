@@ -1,0 +1,118 @@
+{
+  "status": "success",
+  "chunk_id": 521,
+  "chunk_index": 21,
+  "source_url": "https://issafrica.s3.amazonaws.com/site/uploads/Book-2015-Salim.pdf",
+  "title": "Book-2015-Salim.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1972",
+          "type": "point",
+          "quotes": [
+            "the UNGA 1972 report notes: In the view of the [General Assembly’s] recognition of the legitimacy of the struggle of the colonial peoples to exercise their right to self-determination and independence by all necessary means at their disposal"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "UN",
+          "quotes": [
+            "Salim to assume a watchdog role in the UN, empowering the Special Committee on Decolonization, the UNGA and the Security Council to take firm resolutions decrying the continued economic links between colonial governments and other (mostly Western) powers."
+          ]
+        },
+        {
+          "name": "Special Committee on Decolonization",
+          "quotes": [
+            "Salim to assume a watchdog role in the UN, empowering the Special Committee on Decolonization, the UNGA and the Security Council to take firm resolutions decrying the continued economic links between colonial governments and other (mostly Western) powers."
+          ]
+        },
+        {
+          "name": "UNGA",
+          "quotes": [
+            "Salim to assume a watchdog role in the UN, empowering the Special Committee on Decolonization, the UNGA and the Security Council to take firm resolutions decrying the continued economic links between colonial governments and other (mostly Western) powers.",
+            "the UNGA 1972 report notes: In the view of the [General Assembly’s] recognition of the legitimacy of the struggle of the colonial peoples to exercise their right to self-determination and independence by all necessary means at their disposal"
+          ]
+        },
+        {
+          "name": "Security Council",
+          "quotes": [
+            "Salim to assume a watchdog role in the UN, empowering the Special Committee on Decolonization, the UNGA and the Security Council to take firm resolutions decrying the continued economic links between colonial governments and other (mostly Western) powers."
+          ]
+        },
+        {
+          "name": "NATO",
+          "quotes": [
+            "These reports highlighted international military linkages that impeded the decolonisation process, such as the collaboration between Portugal and NATO, the recruitment of foreign mercenaries by the Rhodesian government, and the"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "watchdog role in the UN",
+          "quotes": [
+            "Salim to assume a watchdog role in the UN, empowering the Special Committee on Decolonization, the UNGA and the Security Council to take firm resolutions decrying the continued economic links between colonial governments and other (mostly Western) powers."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Salim to assume a watchdog role in the UN, empowering the Special Committee on Decolonization, the UNGA and the Security Council to take firm resolutions decrying the continued economic links between colonial governments and other (mostly Western) powers.",
+          "the UNGA 1972 report notes: In the view of the [General Assembly’s] recognition of the legitimacy of the struggle of the colonial peoples to exercise their right to self-determination and independence by all necessary means at their disposal"
+        ],
+        "confidence": "high",
+        "notes": "The role is clearly a position within the UN and its associated bodies, with active responsibilities."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Location information is missing, which is unexpected for a career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "While the quotes support the role and organizations, they do not explicitly mention the start or end dates of the position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

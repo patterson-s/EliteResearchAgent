@@ -1,0 +1,239 @@
+{
+  "status": "success",
+  "chunk_id": 1018,
+  "chunk_index": 2,
+  "source_url": "https://en.wikipedia.org/wiki/Carey_Mulligan",
+  "title": "Carey Mulligan - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "At age 17",
+          "type": "point",
+          "quotes": [
+            "At age 17, she applied to three London drama schools instead of the universities she was expected to apply to, but was not invited to attend them."
+          ]
+        },
+        {
+          "text": "2004–2008",
+          "type": "range",
+          "quotes": [
+            "2004–2008: Early work"
+          ]
+        },
+        {
+          "text": "In 2004",
+          "type": "point",
+          "quotes": [
+            "In 2004, Mulligan made her stage debut in the play Forty Winks at the Royal Court Theatre in London."
+          ]
+        },
+        {
+          "text": "the following year",
+          "type": "point",
+          "quotes": [
+            "She made her film debut the following year in Joe Wright's 2005 film adaptation of the Jane Austen novel Pride & Prejudice,"
+          ]
+        },
+        {
+          "text": "Later that year",
+          "type": "point",
+          "quotes": [
+            "Later that year, she won the role of orphan Ada Clare in the BAFTA award-winning BBC adaption of Charles Dickens' Bleak House, her television debut."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Woldingham School",
+          "quotes": [
+            "During her final year at Woldingham School, screenwriter Julian Fellowes delivered a lecture at the school on the production of the film Gosford Park."
+          ]
+        },
+        {
+          "name": "Ealing Studios",
+          "quotes": [
+            "During her late teens and early twenties, she worked as a pub barmaid and an errand-runner for Ealing Studios between acting jobs."
+          ]
+        },
+        {
+          "name": "Royal Court Theatre",
+          "quotes": [
+            "In 2004, Mulligan made her stage debut in the play Forty Winks at the Royal Court Theatre in London."
+          ]
+        },
+        {
+          "name": "BBC",
+          "quotes": [
+            "Later that year, she won the role of orphan Ada Clare in the BAFTA award-winning BBC adaption of Charles Dickens' Bleak House, her television debut."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "pub barmaid",
+          "quotes": [
+            "During her late teens and early twenties, she worked as a pub barmaid and an errand-runner for Ealing Studios between acting jobs."
+          ]
+        },
+        {
+          "title": "errand-runner",
+          "quotes": [
+            "During her late teens and early twenties, she worked as a pub barmaid and an errand-runner for Ealing Studios between acting jobs."
+          ]
+        },
+        {
+          "title": "Kitty Bennet",
+          "quotes": [
+            "She auditioned three times, and was eventually given the role of Kitty Bennet."
+          ]
+        },
+        {
+          "title": "Ada Clare",
+          "quotes": [
+            "Later that year, she won the role of orphan Ada Clare in the BAFTA award-winning BBC adaption of Charles Dickens' Bleak House, her television debut."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "London",
+          "quotes": [
+            "At age 17, she applied to three London drama schools instead of the universities she was expected to apply to, but was not invited to attend them."
+          ]
+        },
+        {
+          "place": "London",
+          "quotes": [
+            "In 2004, Mulligan made her stage debut in the play Forty Winks at the Royal Court Theatre in London."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1,
+          2
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "2004–2008: Early work",
+          "In 2004, Mulligan made her stage debut in the play Forty Winks at the Royal Court Theatre in London."
+        ],
+        "confidence": "high",
+        "notes": "Stage debut at Royal Court Theatre marks the beginning of her early work period."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "2004–2008: Early work",
+          "During her late teens and early twenties, she worked as a pub barmaid and an errand-runner for Ealing Studios between acting jobs."
+        ],
+        "confidence": "high",
+        "notes": "Worked as a pub barmaid and errand-runner for Ealing Studios during her early career."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "She auditioned three times, and was eventually given the role of Kitty Bennet.",
+          "She made her film debut the following year in Joe Wright's 2005 film adaptation of the Jane Austen novel Pride & Prejudice,"
+        ],
+        "confidence": "medium",
+        "notes": "Film debut with the role of Kitty Bennet, but organization is not specified."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Later that year, she won the role of orphan Ada Clare in the BAFTA award-winning BBC adaption of Charles Dickens' Bleak House, her television debut."
+        ],
+        "confidence": "high",
+        "notes": "Television debut with the role of Ada Clare in a BBC adaptation."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing role information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 2,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

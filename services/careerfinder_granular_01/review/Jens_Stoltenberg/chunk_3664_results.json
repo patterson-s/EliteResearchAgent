@@ -1,0 +1,213 @@
+{
+  "status": "success",
+  "chunk_id": 3664,
+  "chunk_index": 29,
+  "source_url": "https://en.wikipedia.org/wiki/Jens_Stoltenberg",
+  "title": "Jens Stoltenberg - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "July 22, 2011",
+          "type": "point",
+          "quotes": [
+            "Oslo government district bombing and Utøya island shooting July 22, 2011: The immediate prehospital emergency medical service response"
+          ]
+        },
+        {
+          "text": "25 July 2011",
+          "type": "point",
+          "quotes": [
+            "E24. NTB. 25 July 2011. Archived from the original on 9 August 2011. Retrieved 25 July 2011."
+          ]
+        },
+        {
+          "text": "24 July 2011",
+          "type": "point",
+          "quotes": [
+            "Kleivan, Nikolai (24 July 2011). 'Stoltenberg på minnestund: – Vi har maktet å stå oppreist i en kritisk tid'"
+          ]
+        },
+        {
+          "text": "24 July 2011",
+          "type": "point",
+          "quotes": [
+            "'Norway attacks rolling coverage: Sunday 24 July 2011'. The Guardian. 24 July 2011."
+          ]
+        },
+        {
+          "text": "24 July 2011",
+          "type": "point",
+          "quotes": [
+            "'Address by Prime Minister in Oslo Cathedral'. Government.no. 24 July 2011. Archived from the original on 11 February 2012. Retrieved 25 July 2011."
+          ]
+        },
+        {
+          "text": "24 July 2011",
+          "type": "point",
+          "quotes": [
+            "'Norway Island survivor: CNN's Richard Quest talks to Stine Renate Haheim'. CNN. Archived from the original on 21 January 2012. Retrieved 24 July 2011."
+          ]
+        },
+        {
+          "text": "4 April 2014",
+          "type": "point",
+          "quotes": [
+            "'Helle inspirerte verdensstjernen'. Side2.no. Archived from the original on 29 March 2014. Retrieved 4 April 2014."
+          ]
+        },
+        {
+          "text": "24 August 2012",
+          "type": "point",
+          "quotes": [
+            "'Anders Behring Breivik: Norway court finds him sane'. BBC News. 24 August 2012."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Scandinavian Journal of Trauma, Resuscitation and Emergency Medicine",
+          "quotes": [
+            "Scandinavian Journal of Trauma, Resuscitation and Emergency Medicine. 20 (1): 3."
+          ]
+        },
+        {
+          "name": "E24",
+          "quotes": [
+            "E24. NTB. 25 July 2011."
+          ]
+        },
+        {
+          "name": "NTB",
+          "quotes": [
+            "E24. NTB. 25 July 2011."
+          ]
+        },
+        {
+          "name": "Verdens Gang",
+          "quotes": [
+            "Verdens Gang (in Norwegian)."
+          ]
+        },
+        {
+          "name": "The Guardian",
+          "quotes": [
+            "'Norway attacks rolling coverage: Sunday 24 July 2011'. The Guardian. 24 July 2011."
+          ]
+        },
+        {
+          "name": "Government.no",
+          "quotes": [
+            "'Address by Prime Minister in Oslo Cathedral'. Government.no. 24 July 2011."
+          ]
+        },
+        {
+          "name": "CNN",
+          "quotes": [
+            "'Norway Island survivor: CNN's Richard Quest talks to Stine Renate Haheim'. CNN."
+          ]
+        },
+        {
+          "name": "Side2.no",
+          "quotes": [
+            "'Helle inspirerte verdensstjernen'. Side2.no."
+          ]
+        },
+        {
+          "name": "BBC News",
+          "quotes": [
+            "'Anders Behring Breivik: Norway court finds him sane'. BBC News. 24 August 2012."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Prime Minister",
+          "quotes": [
+            "'Address by Prime Minister in Oslo Cathedral'. Government.no. 24 July 2011."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Oslo",
+          "quotes": [
+            "Oslo government district bombing and Utøya island shooting July 22, 2011"
+          ]
+        },
+        {
+          "place": "Utøya island",
+          "quotes": [
+            "Oslo government district bombing and Utøya island shooting July 22, 2011"
+          ]
+        },
+        {
+          "place": "Norway",
+          "quotes": [
+            "'Norway attacks rolling coverage: Sunday 24 July 2011'. The Guardian. 24 July 2011."
+          ]
+        },
+        {
+          "place": "Oslo Cathedral",
+          "quotes": [
+            "'Address by Prime Minister in Oslo Cathedral'. Government.no. 24 July 2011."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          3
+        ],
+        "supporting_quotes": [
+          "'Address by Prime Minister in Oslo Cathedral'. Government.no. 24 July 2011."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role, organization, and location with a specific date."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "quote_support",
+            "severity": "medium",
+            "description": "The supporting quote mentions an address by the Prime Minister but does not explicitly confirm this as a career position or ongoing role."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The event is classified as a career_position, but the quote only describes a single event (an address) rather than an ongoing role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

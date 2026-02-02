@@ -1,0 +1,160 @@
+{
+  "status": "success",
+  "chunk_id": 3396,
+  "chunk_index": 0,
+  "source_url": "https://www.un.org/sg/en/management/bios/Pires.shtml",
+  "title": "EMILIA PIRES (TIMOR-LESTE) | Secretary-General | United Nations",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "United Nations",
+          "quotes": [
+            "EMILIA PIRES (TIMOR-LESTE) | Secretary-General | United Nations",
+            "Former Deputy Secretaries-General of the United Nations"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Minister of Finance of Timor-Leste",
+          "quotes": [
+            "Ms. Pires is the Minister of Finance of Timor-Leste."
+          ]
+        },
+        {
+          "title": "Co-Chair of the International Dialogue of Peacebuilding and Statebuilding",
+          "quotes": [
+            "Ms. Pires also Co-Chairs the International Dialogue of Peacebuilding and Statebuilding with the Netherlands"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Timor-Leste",
+          "quotes": [
+            "EMILIA PIRES (TIMOR-LESTE)",
+            "Ms. Pires is the Minister of Finance of Timor-Leste."
+          ]
+        },
+        {
+          "place": "Netherlands",
+          "quotes": [
+            "Ms. Pires also Co-Chairs the International Dialogue of Peacebuilding and Statebuilding with the Netherlands"
+          ]
+        },
+        {
+          "place": "United Kingdom",
+          "quotes": [
+            "which has recently taken over from the United Kingdom"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Ms. Pires is the Minister of Finance of Timor-Leste.",
+          "EMILIA PIRES (TIMOR-LESTE)"
+        ],
+        "confidence": "high",
+        "notes": "No time marker available, but role and location are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Ms. Pires also Co-Chairs the International Dialogue of Peacebuilding and Statebuilding with the Netherlands"
+        ],
+        "confidence": "high",
+        "notes": "No time marker available, but role and location are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "EMILIA PIRES (TIMOR-LESTE) | Secretary-General | United Nations",
+          "Former Deputy Secretaries-General of the United Nations"
+        ],
+        "confidence": "medium",
+        "notes": "Role is not explicitly stated, but the association with the United Nations is clear. Assuming a career position based on context."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time_marker and organization information, though role and location are clear."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time_marker and organization information, though role and location are clear."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing role, time_marker, and location information. Only organization is partially clear."
+          },
+          {
+            "type": "quote_support",
+            "severity": "medium",
+            "description": "Quotes do not clearly support a specific career position, only an association with the United Nations."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

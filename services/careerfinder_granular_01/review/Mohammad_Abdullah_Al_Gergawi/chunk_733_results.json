@@ -1,0 +1,240 @@
+{
+  "status": "success",
+  "chunk_id": 733,
+  "chunk_index": 4,
+  "source_url": "https://en.wikipedia.org/wiki/Mohammad_Al_Gergawi",
+  "title": "Mohammad Al Gergawi - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "7 May 2024",
+          "type": "point",
+          "quotes": [
+            "International, Meetings (7 May 2024). 'Museum of the Future: An Incubator for Visionaries'."
+          ]
+        },
+        {
+          "text": "3 November 2025",
+          "type": "point",
+          "quotes": [
+            "Meetings International. Retrieved 3 November 2025."
+          ]
+        },
+        {
+          "text": "16 April 2021",
+          "type": "point",
+          "quotes": [
+            "User (16 April 2021). 'Mohammad Al Gergawi UAE Minister Biography'."
+          ]
+        },
+        {
+          "text": "10 December 2024",
+          "type": "point",
+          "quotes": [
+            "Retrieved 10 December 2024."
+          ]
+        },
+        {
+          "text": "25 November 2021",
+          "type": "point",
+          "quotes": [
+            "'HE Mohammed AlGergawi'. 25 November 2021. Archived from the original on 25 November 2021."
+          ]
+        },
+        {
+          "text": "10 December 2024",
+          "type": "point",
+          "quotes": [
+            "Retrieved 10 December 2024."
+          ]
+        },
+        {
+          "text": "26 August 2021",
+          "type": "point",
+          "quotes": [
+            "User (26 August 2021). 'Mohammad bin Abdullah Al Gergawi | Biography & Facts'."
+          ]
+        },
+        {
+          "text": "11 December 2024",
+          "type": "point",
+          "quotes": [
+            "Retrieved 11 December 2024."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Meetings International",
+          "quotes": [
+            "Meetings International. Retrieved 3 November 2025."
+          ]
+        },
+        {
+          "name": "blog.uaehumanjourney.com",
+          "quotes": [
+            "User (16 April 2021). 'Mohammad Al Gergawi UAE Minister Biography'. blog.uaehumanjourney.com."
+          ]
+        },
+        {
+          "name": "National Defense College",
+          "quotes": [
+            "'National Defense College Sitemap'. www.ndc.ac.ae."
+          ]
+        },
+        {
+          "name": "Emirates Post Shop",
+          "quotes": [
+            "'Emirates Post Shop | Dubai Capital of Arab Media 2020'. Emirates Post Shop."
+          ]
+        },
+        {
+          "name": "Ministry of Cabinet Affairs, United Arab Emirates",
+          "quotes": [
+            "Mohammad Al Gergawi's page, Ministry of Cabinet Affairs, United Arab Emirates."
+          ]
+        },
+        {
+          "name": "World Economic Forum",
+          "quotes": [
+            "Mohammad Al Gergawi's page, World Economic Forum."
+          ]
+        },
+        {
+          "name": "Mohammed bin Rashid School of Government",
+          "quotes": [
+            "Academic staff of Mohammed bin Rashid School of Government."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "UAE Minister",
+          "quotes": [
+            "'Mohammad Al Gergawi UAE Minister Biography'."
+          ]
+        },
+        {
+          "title": "Cabinet affairs ministers of the United Arab Emirates",
+          "quotes": [
+            "Cabinet affairs ministers of the United Arab Emirates."
+          ]
+        },
+        {
+          "title": "Academic staff",
+          "quotes": [
+            "Academic staff of Mohammed bin Rashid School of Government."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Dubai",
+          "quotes": [
+            "People from Dubai.",
+            "'Dubai selected as 2020 'Capital of Arab Media''."
+          ]
+        },
+        {
+          "place": "United Arab Emirates",
+          "quotes": [
+            "Ministry of Cabinet Affairs, United Arab Emirates."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2,
+          7
+        ],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "User (16 April 2021). 'Mohammad Al Gergawi UAE Minister Biography'.",
+          "Mohammad Al Gergawi's page, World Economic Forum.",
+          "Cabinet affairs ministers of the United Arab Emirates.",
+          "Ministry of Cabinet Affairs, United Arab Emirates.",
+          "User (26 August 2021). 'Mohammad bin Abdullah Al Gergawi | Biography & Facts'."
+        ],
+        "confidence": "high",
+        "notes": "The role of UAE Minister and Cabinet affairs ministers is clearly linked to the Ministry of Cabinet Affairs and the World Economic Forum, with supporting quotes from 2021."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          6
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Academic staff of Mohammed bin Rashid School of Government."
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker, but the role of Academic staff is clearly linked to the Mohammed bin Rashid School of Government."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "Time markers 2 and 7 refer to specific dates (16 April 2021 and 26 August 2021) but do not provide a clear start and end date for the position."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing specific role details or responsibilities beyond the titles 'UAE Minister' and 'Cabinet affairs ministers of the United Arab Emirates'."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "No time markers provided for the career position at Mohammed bin Rashid School of Government."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information for the role of Academic staff."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

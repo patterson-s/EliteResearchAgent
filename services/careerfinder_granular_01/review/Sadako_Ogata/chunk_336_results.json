@@ -1,0 +1,227 @@
+{
+  "status": "success",
+  "chunk_id": 336,
+  "chunk_index": 1,
+  "source_url": "https://loc.gov/loc/lcib/9904/ogata.html",
+  "title": "Global Humanitarianism (April 1999) - Library of Congress Information Bulletin",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "54 years since World War II",
+          "type": "point",
+          "quotes": [
+            "After rebuilding its economy to world power status in the 54 years since World War II, it has foundered in its current economic crisis and 'insufficiently responded to its recent problems.'"
+          ]
+        },
+        {
+          "text": "last year",
+          "type": "point",
+          "quotes": [
+            "Ms. Ogata said that the Japanese felt bypassed by President Clinton's nine-day visit to China last year, and the feeling was reinforced by subsequent criticism by the United States and China of Japanese financial policies."
+          ]
+        },
+        {
+          "text": "eight years",
+          "type": "range",
+          "quotes": [
+            "Ms. Ogata has been High Commissioner for Refugees for eight years."
+          ]
+        },
+        {
+          "text": "1932",
+          "type": "point",
+          "quotes": [
+            "She is the great-granddaughter of Japanese Prime Minister Inukai, who was assassinated in 1932."
+          ]
+        },
+        {
+          "text": "the 1950s and early 1960s",
+          "type": "range",
+          "quotes": [
+            "She lived in the United States again during the 1950s and early 1960s, when she studied the causes of World War II."
+          ]
+        },
+        {
+          "text": "early 1930s",
+          "type": "point",
+          "quotes": [
+            "Her dissertation is on the making of Japanese foreign policy in Manchuria in the early 1930s."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Georgetown University",
+          "quotes": [
+            "She earned an M.A. in international relations from Georgetown University and a Ph.D. in political science from the University of California at Berkeley before concentrating on the study of Japanese political and diplomatic history at the University of Tokyo."
+          ]
+        },
+        {
+          "name": "University of California at Berkeley",
+          "quotes": [
+            "She earned an M.A. in international relations from Georgetown University and a Ph.D. in political science from the University of California at Berkeley before concentrating on the study of Japanese political and diplomatic history at the University of Tokyo."
+          ]
+        },
+        {
+          "name": "University of Tokyo",
+          "quotes": [
+            "She earned an M.A. in international relations from Georgetown University and a Ph.D. in political science from the University of California at Berkeley before concentrating on the study of Japanese political and diplomatic history at the University of Tokyo."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "High Commissioner for Refugees",
+          "quotes": [
+            "Ms. Ogata has been High Commissioner for Refugees for eight years."
+          ]
+        },
+        {
+          "title": "Japanese Prime Minister",
+          "quotes": [
+            "She is the great-granddaughter of Japanese Prime Minister Inukai, who was assassinated in 1932."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Japan",
+          "quotes": [
+            "Japan is at a 'delicate juncture' in history.",
+            "The Japanese must not forget that not only their economy, but also their political and security interests have a global base."
+          ]
+        },
+        {
+          "place": "United States",
+          "quotes": [
+            "She lived with her diplomatic family in the United States and China.",
+            "She lived in the United States again during the 1950s and early 1960s, when she studied the causes of World War II."
+          ]
+        },
+        {
+          "place": "China",
+          "quotes": [
+            "She lived with her diplomatic family in the United States and China.",
+            "Ms. Ogata said that the Japanese felt bypassed by President Clinton's nine-day visit to China last year."
+          ]
+        },
+        {
+          "place": "Manchuria",
+          "quotes": [
+            "Her dissertation is on the making of Japanese foreign policy in Manchuria in the early 1930s."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Ms. Ogata has been High Commissioner for Refugees for eight years."
+        ],
+        "confidence": "high",
+        "notes": "Direct statement of role and duration."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          3
+        ],
+        "supporting_quotes": [
+          "Her dissertation is on the making of Japanese foreign policy in Manchuria in the early 1930s."
+        ],
+        "confidence": "medium",
+        "notes": "Implies research focus during a specific time period, but no explicit role mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0,
+          1,
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "She earned an M.A. in international relations from Georgetown University and a Ph.D. in political science from the University of California at Berkeley before concentrating on the study of Japanese political and diplomatic history at the University of Tokyo."
+        ],
+        "confidence": "high",
+        "notes": "Clear educational and academic affiliations, though no specific role mentioned."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "error",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "high",
+            "description": "Event classified as career_position but lacks explicit role or responsibilities, making it more akin to academic research focus."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and role information."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "error",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "high",
+            "description": "Event classified as career_position but lacks explicit role or responsibilities, appears to be educational affiliations."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time, role, and location information."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 2,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

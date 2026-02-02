@@ -1,0 +1,184 @@
+{
+  "status": "success",
+  "chunk_id": 2648,
+  "chunk_index": 3,
+  "source_url": "https://www.indonesia-investments.com/culture/politics/reformation/susilo-bambang-yudhoyono/item7596?",
+  "title": "Susilo Bambang Yudhoyono Government - SBY | Indonesia Investments",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2004",
+          "type": "point",
+          "quotes": [
+            "Most famous natural disaster is the horrific tsunami in Aceh which killed more than 200,000 people in Aceh in 2004."
+          ]
+        },
+        {
+          "text": "2006",
+          "type": "point",
+          "quotes": [
+            "Other disasters were the earthquake in Bantul (Central Java) in 2006 killing 6,000 people,"
+          ]
+        },
+        {
+          "text": "2007",
+          "type": "point",
+          "quotes": [
+            "multiple floods in Jakarta triggering the evacuation of about half a million people in 2007"
+          ]
+        },
+        {
+          "text": "2010",
+          "type": "point",
+          "quotes": [
+            "the Merapi volcano eruptions in 2010 which killed 353 people and caused the evacuating of 350,000 people."
+          ]
+        },
+        {
+          "text": "2008-2009",
+          "type": "range",
+          "quotes": [
+            "These strong fundamentals - supported by the 2000s commodities boom and rapidly rising purchasing power - were what made Indonesia successfully sail through the global crisis of 2008-2009."
+          ]
+        },
+        {
+          "text": "9 April 2009",
+          "type": "point",
+          "quotes": [
+            "The legislative election for the DPR (People’s Representative Council) and DPD (Regional Representative Council), held on 9 April 2009,"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "DPR (People’s Representative Council)",
+          "quotes": [
+            "The legislative election for the DPR (People’s Representative Council) and DPD (Regional Representative Council), held on 9 April 2009,"
+          ]
+        },
+        {
+          "name": "DPD (Regional Representative Council)",
+          "quotes": [
+            "The legislative election for the DPR (People’s Representative Council) and DPD (Regional Representative Council), held on 9 April 2009,"
+          ]
+        },
+        {
+          "name": "PD party",
+          "quotes": [
+            "proved a clear victory for Yudhoyono's PD party (20.8 percent),"
+          ]
+        },
+        {
+          "name": "Golkar",
+          "quotes": [
+            "while Golkar came in second (14.4 percent)"
+          ]
+        },
+        {
+          "name": "PDI-P",
+          "quotes": [
+            "and the PDI-P third (14.0 percent)."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "cabinet ministers",
+          "quotes": [
+            "approximately half of Yudhoyono's cabinet ministers consisted of non-partisan professionals (technocrats),"
+          ]
+        },
+        {
+          "title": "presidential candidate",
+          "quotes": [
+            "A party (or a coalition of parties) winning more than 112 seats (twenty percent) in the 560-member DPR or winning at least 25 percent of the national vote was allowed to nominate a presidential candidate."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Indonesia",
+          "quotes": [
+            "Surely his ambitions were - realistically speaking - too high as Indonesia is a difficult country to reform within a timespan of a few years."
+          ]
+        },
+        {
+          "place": "Aceh",
+          "quotes": [
+            "Most famous natural disaster is the horrific tsunami in Aceh which killed more than 200,000 people in Aceh in 2004."
+          ]
+        },
+        {
+          "place": "Bantul (Central Java)",
+          "quotes": [
+            "Other disasters were the earthquake in Bantul (Central Java) in 2006 killing 6,000 people,"
+          ]
+        },
+        {
+          "place": "East Java",
+          "quotes": [
+            "the Sidoarjo mud flow (which ruined hundreds of hectares in the province of East Java and caused the evacuation of thousands of people),"
+          ]
+        },
+        {
+          "place": "Jakarta",
+          "quotes": [
+            "multiple floods in Jakarta triggering the evacuation of about half a million people in 2007"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The legislative election for the DPR (People’s Representative Council) and DPD (Regional Representative Council), held on 9 April 2009,"
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but the event involves organizations, implying a career-related activity."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. While the event involves organizations, no specific role is mentioned, making it unclear what career position is being described."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classification as 'career_position' is questionable without a clear role. This event might be better classified as an organizational activity rather than a career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

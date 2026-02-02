@@ -1,0 +1,314 @@
+{
+  "status": "success",
+  "chunk_id": 2790,
+  "chunk_index": 9,
+  "source_url": "https://en.wikipedia.org/wiki/David_Cameron",
+  "title": "David Cameron - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "March 1994",
+          "type": "point",
+          "quotes": [
+            "In March 1994, someone leaked to the press that the Labour Party had called for a meeting with John Major to discuss a consensus on the Prevention of Terrorism Act."
+          ]
+        },
+        {
+          "text": "July 1994",
+          "type": "point",
+          "quotes": [
+            "In July 1994 Cameron left his role as Special Adviser to work as the Director of Corporate Affairs at Carlton Communications."
+          ]
+        },
+        {
+          "text": "1997",
+          "type": "point",
+          "quotes": [
+            "He left Carlton in 1997 to run for Parliament, returning to his job after his defeat."
+          ]
+        },
+        {
+          "text": "1998",
+          "type": "point",
+          "quotes": [
+            "In a roundtable discussion on the future of broadcasting in 1998, he criticised the effect of overlapping different regulators on the industry."
+          ]
+        },
+        {
+          "text": "February 2001",
+          "type": "point",
+          "quotes": [
+            "Cameron resigned as Director of Corporate Affairs in February 2001 to run for Parliament for a second time, although he remained on the payroll as a consultant."
+          ]
+        },
+        {
+          "text": "December 1994",
+          "type": "point",
+          "quotes": [
+            "He was reported to have missed out on selection for Ashford in December 1994, after failing to get to the selection meeting as a result of train delays."
+          ]
+        },
+        {
+          "text": "January 1996",
+          "type": "point",
+          "quotes": [
+            "In January 1996, when two shortlisted contenders dropped out, Cameron was interviewed and subsequently selected for Stafford, a constituency revised in boundary changes, which was projected to have a Conservative majority."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Labour Party",
+          "quotes": [
+            "In March 1994, someone leaked to the press that the Labour Party had called for a meeting with John Major to discuss a consensus on the Prevention of Terrorism Act."
+          ]
+        },
+        {
+          "name": "Home Office",
+          "quotes": [
+            "A senior Home Office civil servant noted the influence of Howard's Special Advisers, saying previous incumbents 'would listen to the evidence before making a decision. Howard just talks to young public school gentlemen from the party headquarters.'"
+          ]
+        },
+        {
+          "name": "Carlton Communications",
+          "quotes": [
+            "In July 1994 Cameron left his role as Special Adviser to work as the Director of Corporate Affairs at Carlton Communications."
+          ]
+        },
+        {
+          "name": "ITV",
+          "quotes": [
+            "Carlton, which had won the ITV franchise for London weekdays in 1991, was a growing media company which also had film-distribution and video-producing arms."
+          ]
+        },
+        {
+          "name": "ITV Granada",
+          "quotes": [
+            "In 1997 Cameron played up the company's prospects for digital terrestrial television, for which it joined with ITV Granada and Sky to form British Digital Broadcasting."
+          ]
+        },
+        {
+          "name": "Sky",
+          "quotes": [
+            "In 1997 Cameron played up the company's prospects for digital terrestrial television, for which it joined with ITV Granada and Sky to form British Digital Broadcasting."
+          ]
+        },
+        {
+          "name": "British Digital Broadcasting",
+          "quotes": [
+            "In 1997 Cameron played up the company's prospects for digital terrestrial television, for which it joined with ITV Granada and Sky to form British Digital Broadcasting."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Special Adviser",
+          "quotes": [
+            "In July 1994 Cameron left his role as Special Adviser to work as the Director of Corporate Affairs at Carlton Communications."
+          ]
+        },
+        {
+          "title": "Director of Corporate Affairs",
+          "quotes": [
+            "In July 1994 Cameron left his role as Special Adviser to work as the Director of Corporate Affairs at Carlton Communications."
+          ]
+        },
+        {
+          "title": "consultant",
+          "quotes": [
+            "Cameron resigned as Director of Corporate Affairs in February 2001 to run for Parliament for a second time, although he remained on the payroll as a consultant."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Ashford",
+          "quotes": [
+            "He was reported to have missed out on selection for Ashford in December 1994, after failing to get to the selection meeting as a result of train delays."
+          ]
+        },
+        {
+          "place": "Stafford",
+          "quotes": [
+            "In January 1996, when two shortlisted contenders dropped out, Cameron was interviewed and subsequently selected for Stafford, a constituency revised in boundary changes, which was projected to have a Conservative majority."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In July 1994 Cameron left his role as Special Adviser to work as the Director of Corporate Affairs at Carlton Communications."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He left Carlton in 1997 to run for Parliament, returning to his job after his defeat."
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but clear organizational affiliation and time marker."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Cameron resigned as Director of Corporate Affairs in February 2001 to run for Parliament for a second time, although he remained on the payroll as a consultant."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role transition."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Cameron resigned as Director of Corporate Affairs in February 2001 to run for Parliament for a second time, although he remained on the payroll as a consultant."
+        ],
+        "confidence": "high",
+        "notes": "Consultant role mentioned as part of the same event, indicating ongoing affiliation."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          6
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "He was reported to have missed out on selection for Ashford in December 1994, after failing to get to the selection meeting as a result of train delays."
+        ],
+        "confidence": "medium",
+        "notes": "No organization or role mentioned, but clear location and time marker."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          7
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "In January 1996, when two shortlisted contenders dropped out, Cameron was interviewed and subsequently selected for Stafford, a constituency revised in boundary changes, which was projected to have a Conservative majority."
+        ],
+        "confidence": "medium",
+        "notes": "No organization or role mentioned, but clear location and time marker."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, though organization and time are clear."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "error",
+        "issues": [
+          {
+            "type": "duplicate",
+            "severity": "high",
+            "description": "Duplicate event with identical time, organization, and role as event 2."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and role information, though location and time are clear."
+          }
+        ]
+      },
+      {
+        "event_id": 5,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and role information, though location and time are clear."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 6,
+      "valid": 2,
+      "warnings": 3,
+      "errors": 1,
+      "career_positions": 6,
+      "awards": 0
+    }
+  }
+}

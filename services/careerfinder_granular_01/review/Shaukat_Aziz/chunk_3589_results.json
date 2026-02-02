@@ -1,0 +1,240 @@
+{
+  "status": "success",
+  "chunk_id": 3589,
+  "chunk_index": 24,
+  "source_url": "https://en.wikipedia.org/wiki/Shaukat_Aziz",
+  "title": "Shaukat Aziz - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Citigroup",
+          "quotes": [
+            "Citigroup people"
+          ]
+        },
+        {
+          "name": "Institute of Business Administration, Karachi",
+          "quotes": [
+            "Institute of Business Administration, Karachi alumni"
+          ]
+        },
+        {
+          "name": "St. Patrick's High School, Karachi",
+          "quotes": [
+            "St. Patrick's High School, Karachi alumni"
+          ]
+        },
+        {
+          "name": "Government Gordon College",
+          "quotes": [
+            "Government Gordon College alumni"
+          ]
+        },
+        {
+          "name": "Pakistan Muslim League (Q)",
+          "quotes": [
+            "Pakistan Muslim League (Q) MNAs"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Prime ministers of Pakistan",
+          "quotes": [
+            "Prime ministers of Pakistan"
+          ]
+        },
+        {
+          "title": "Ministers of finance of Pakistan",
+          "quotes": [
+            "Ministers of finance of Pakistan"
+          ]
+        },
+        {
+          "title": "Pakistani MNAs 2002–2007",
+          "quotes": [
+            "Pakistani MNAs 2002–2007"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Karachi",
+          "quotes": [
+            "Businesspeople from Karachi",
+            "Politicians from Karachi",
+            "St. Patrick's High School, Karachi alumni",
+            "Institute of Business Administration, Karachi alumni"
+          ]
+        },
+        {
+          "place": "United Kingdom",
+          "quotes": [
+            "Pakistani emigrants to the United Kingdom"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Pakistan Muslim League (Q) MNAs",
+          "Pakistani MNAs 2002–2007"
+        ],
+        "confidence": "high",
+        "notes": "Direct linkage between organization and role through shared context."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Prime ministers of Pakistan"
+        ],
+        "confidence": "high",
+        "notes": "Prime Minister is a clear career position, though no specific organization or time is mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Ministers of finance of Pakistan"
+        ],
+        "confidence": "high",
+        "notes": "Minister of Finance is a clear career position, though no specific organization or time is mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Citigroup people"
+        ],
+        "confidence": "medium",
+        "notes": "Assumed career position at Citigroup, though no specific role is mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1,
+          2,
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Institute of Business Administration, Karachi alumni",
+          "St. Patrick's High School, Karachi alumni",
+          "Government Gordon College alumni",
+          "Businesspeople from Karachi",
+          "Politicians from Karachi"
+        ],
+        "confidence": "medium",
+        "notes": "Alumni status implies past affiliation, but no specific role is mentioned. Grouped together due to shared location and context."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization and time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization and time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing role and time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing role and time markers for career position. Alumni status does not clearly imply active career positions."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Alumni status may not qualify as a career position without active roles."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 0,
+      "warnings": 5,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

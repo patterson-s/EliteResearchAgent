@@ -1,0 +1,133 @@
+{
+  "status": "success",
+  "chunk_id": 3754,
+  "chunk_index": 0,
+  "source_url": "https://www.britannica.com/biography/Gordon-Brown",
+  "title": "Gordon Brown | Prime Minister of UK, Labour Party Leader | Britannica",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Labour Party",
+          "quotes": [
+            "Gordon Brown | Prime Minister of UK, Labour Party Leader | Britannica",
+            "BBC News - Profile: Former Labour prime minister Gordon Brown"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Prime Minister of the United Kingdom",
+          "quotes": [
+            "Gordon Brown | Prime Minister of UK, Labour Party Leader | Britannica",
+            "When did Gordon Brown serve as the Prime Minister of the United Kingdom?"
+          ]
+        },
+        {
+          "title": "Labour Party Leader",
+          "quotes": [
+            "Gordon Brown | Prime Minister of UK, Labour Party Leader | Britannica"
+          ]
+        },
+        {
+          "title": "Chancellor of the Exchequer",
+          "quotes": [
+            "Chancellor of the Exchequer",
+            "What position did Gordon Brown hold before becoming Prime Minister?"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "United Kingdom",
+          "quotes": [
+            "Gordon Brown | Prime Minister of UK, Labour Party Leader | Britannica",
+            "Prime Minister of the United Kingdom"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Gordon Brown | Prime Minister of UK, Labour Party Leader | Britannica",
+          "BBC News - Profile: Former Labour prime minister Gordon Brown",
+          "When did Gordon Brown serve as the Prime Minister of the United Kingdom?"
+        ],
+        "confidence": "high",
+        "notes": "Prime Minister and Labour Party Leader roles are clearly linked to the Labour Party and the United Kingdom."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Chancellor of the Exchequer",
+          "What position did Gordon Brown hold before becoming Prime Minister?"
+        ],
+        "confidence": "medium",
+        "notes": "Chancellor of the Exchequer is mentioned as a previous role, but no organization or location is explicitly linked. Confidence is medium due to lack of direct context."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the career position event."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization, location, and time markers for the career position event."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quotes do not clearly establish the context or duration of the role as Chancellor of the Exchequer."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

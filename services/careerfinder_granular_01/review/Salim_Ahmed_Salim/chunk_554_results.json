@@ -1,0 +1,195 @@
+{
+  "status": "success",
+  "chunk_id": 554,
+  "chunk_index": 54,
+  "source_url": "https://issafrica.s3.amazonaws.com/site/uploads/Book-2015-Salim.pdf",
+  "title": "Book-2015-Salim.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Special Committee on Decolonization",
+          "quotes": [
+            "During his tenure as chairman of the Special Committee on Decolonization, Salim brought the world’s attention to injustices in Africa"
+          ]
+        },
+        {
+          "name": "NAM",
+          "quotes": [
+            "his involvement with the NAM and the establishment of the NIEO during this period were indications of his commitment not just to political autonomy, but also to economic freedom and social justice."
+          ]
+        },
+        {
+          "name": "NIEO",
+          "quotes": [
+            "his involvement with the NAM and the establishment of the NIEO during this period were indications of his commitment not just to political autonomy, but also to economic freedom and social justice."
+          ]
+        },
+        {
+          "name": "UN",
+          "quotes": [
+            "Although Salim recounts his tenure at the UN as being characterised by optimism, he admits it was not without its challenges."
+          ]
+        },
+        {
+          "name": "National Security Council",
+          "quotes": [
+            "Senior US administration officials in the National Security Council doubted that the situation in southern Africa [would] change."
+          ]
+        },
+        {
+          "name}": "United States",
+          "quotes": [
+            "the United States [could] simply continue to talk in terms of sharing the need for changes and their abhorrence of the policy of apartheid."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "chairman of the Special Committee on Decolonization",
+          "quotes": [
+            "During his tenure as chairman of the Special Committee on Decolonization, Salim brought the world’s attention to injustices in Africa"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Africa",
+          "quotes": [
+            "Salim’s contributions to Africa, and especially to the abolition of apartheid, must be acknowledged."
+          ]
+        },
+        {
+          "place": "South Africa",
+          "quotes": [
+            "Above all, it is for the people of South Africa themselves to pass judgement on the repercussion of this action and they have spoken in very forceful terms."
+          ]
+        },
+        {
+          "place": "southern Africa",
+          "quotes": [
+            "Senior US administration officials in the National Security Council doubted that the situation in southern Africa [would] change."
+          ]
+        },
+        {
+          "place": "Rhodesia",
+          "quotes": [
+            "They believed that Rhodesia would continue to be run by Smith or people like him"
+          ]
+        },
+        {
+          "place": "Mozambique",
+          "quotes": [
+            "Mozambique and Angola would continue to be run by the Portuguese"
+          ]
+        },
+        {
+          "place": "Angola",
+          "quotes": [
+            "Mozambique and Angola would continue to be run by the Portuguese"
+          ]
+        },
+        {
+          "place": "Namibia",
+          "quotes": [
+            "Namibia would continue to be occupied by the South African apartheid regime"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "During his tenure as chairman of the Special Committee on Decolonization, Salim brought the world’s attention to injustices in Africa",
+          "Salim’s contributions to Africa, and especially to the abolition of apartheid, must be acknowledged."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role, organization, and location based on quotes."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1,
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "his involvement with the NAM and the establishment of the NIEO during this period were indications of his commitment not just to political autonomy, but also to economic freedom and social justice."
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but involvement implies active participation."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Although Salim recounts his tenure at the UN as being characterised by optimism, he admits it was not without its challenges."
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but tenure implies active position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, though involvement implies active participation."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, though tenure implies active position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

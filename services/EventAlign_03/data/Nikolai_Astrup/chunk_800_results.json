@@ -1,0 +1,143 @@
+{
+  "status": "success",
+  "chunk_id": 800,
+  "chunk_index": 0,
+  "source_url": "https://www.newyorker.com/magazine/2021/07/26/have-you-heard-of-nikolai-astrup",
+  "title": "Have You Heard of Nikolai Astrup? | The New Yorker",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1880",
+          "type": "point",
+          "quotes": [
+            "Astrup, who was born in 1880, spent nearly his entire life."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Clark Art Institute",
+          "quotes": [
+            "An enchanting Astrup exhibition at the Clark Art Institute, in Williamstown, Massachusetts, startled me with densely composed, brilliantly colored paintings and wizardly woodcuts,"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "amateur horticulturalist",
+          "quotes": [
+            "among other things, the artist was a passionate amateur horticulturalist"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Williamstown, Massachusetts",
+          "quotes": [
+            "An enchanting Astrup exhibition at the Clark Art Institute, in Williamstown, Massachusetts, startled me with densely composed, brilliantly colored paintings and wizardly woodcuts,"
+          ]
+        },
+        {
+          "place": "Norway",
+          "quotes": [
+            "If so, you’re either a rare bird or Norwegian.",
+            "I’m of Norwegian descent, with ancestral roots in much the same rugged, sparsely populated, preposterously scenic western region of the country where Astrup, who was born in 1880, spent nearly his entire life.",
+            "It seems that many houses in Norway display reproductions of his art somewhere on their walls.",
+            "For Norwegians, Astrup’s appeal was and remains something like patriotic."
+          ]
+        },
+        {
+          "place": "western region of Norway",
+          "quotes": [
+            "I’m of Norwegian descent, with ancestral roots in much the same rugged, sparsely populated, preposterously scenic western region of the country where Astrup, who was born in 1880, spent nearly his entire life."
+          ]
+        },
+        {
+          "place": "Skjeldal",
+          "quotes": [
+            "There’s a farming community called Skjeldal."
+          ]
+        },
+        {
+          "place": "Jølster",
+          "quotes": [
+            "Afterward, he promptly returned to the mountainous municipality of Jølster, and stayed there.",
+            "the Clark show, subtitled “Visions of Norway,” exacerbates with photographic murals of Jølster that suggest a walk-through travel brochure."
+          ]
+        },
+        {
+          "place": "Paris",
+          "quotes": [
+            "Astrup was a naturalist, influenced by modernist movements including Post-Impressionism and Symbolism, thanks to his early training—with help from a patron’s grant—in Paris and Germany."
+          ]
+        },
+        {
+          "place": "Germany",
+          "quotes": [
+            "Astrup was a naturalist, influenced by modernist movements including Post-Impressionism and Symbolism, thanks to his early training—with help from a patron’s grant—in Paris and Germany."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "Astrup, who was born in 1880, spent nearly his entire life.",
+          "among other things, the artist was a passionate amateur horticulturalist",
+          "I’m of Norwegian descent, with ancestral roots in much the same rugged, sparsely populated, preposterously scenic western region of the country where Astrup, who was born in 1880, spent nearly his entire life."
+        ],
+        "confidence": "medium",
+        "notes": "The role of amateur horticulturalist is linked to the artist's life in the western region of Norway, but the exact timeframe is unclear."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "Exact timeframe for the role of amateur horticulturalist is unclear, only a birth year (1880) is provided."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quotes mention the role of amateur horticulturalist but do not clearly link it to a specific career position or timeframe."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information, which could provide context for the career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

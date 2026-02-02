@@ -1,0 +1,255 @@
+{
+  "status": "success",
+  "chunk_id": 2856,
+  "chunk_index": 75,
+  "source_url": "https://en.wikipedia.org/wiki/David_Cameron",
+  "title": "David Cameron - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "21 January 2011",
+          "type": "point",
+          "quotes": [
+            "Douglas, Torin (21 January 2011). 'Andy Coulson quits Downing Street communications role'."
+          ]
+        },
+        {
+          "text": "10 July 2011",
+          "type": "point",
+          "quotes": [
+            "Merrick, Jane; Hanning, James; Chorley, Matt; Brady, Brian (10 July 2011). 'The Battle of Wapping, Mk II – Press, Media'."
+          ]
+        },
+        {
+          "text": "10 June 2010",
+          "type": "point",
+          "quotes": [
+            "'David Cameron's PR director Andy Coulson paid £140,000'. BBC News. 10 June 2010."
+          ]
+        },
+        {
+          "text": "6 July 2011",
+          "type": "point",
+          "quotes": [
+            "'Prime Minister's 'gross error of judgment' over former editor Andy Coulson'. The Scotsman. 6 July 2011."
+          ]
+        },
+        {
+          "text": "20 July 2011",
+          "type": "point",
+          "quotes": [
+            "'Sorry' David Cameron sees values of hindsight'. The Independent. 20 July 2011."
+          ]
+        },
+        {
+          "text": "31 May 2012",
+          "type": "point",
+          "quotes": [
+            "Rose, Gareth (31 May 2012). 'Scottish police charge Andy Coulson with Tommy Sheridan trial perjury'."
+          ]
+        },
+        {
+          "text": "30 May 2012",
+          "type": "point",
+          "quotes": [
+            "Carrell, Severin; Wintour, Patrick (30 May 2012). 'Andy Coulson charged with perjury'."
+          ]
+        },
+        {
+          "text": "27 June 2012",
+          "type": "point",
+          "quotes": [
+            "Oborne, Peter (27 June 2012). 'Lord Ashcroft's Tory Right is stopping the Coalition working'."
+          ]
+        },
+        {
+          "text": "11 July 2012",
+          "type": "point",
+          "quotes": [
+            "'Lords reform: Coalition suffers biggest rebellion'. BBC News. 11 July 2012."
+          ]
+        },
+        {
+          "text": "5 January 2014",
+          "type": "point",
+          "quotes": [
+            "Rawnsley, Andrew (5 January 2014). 'Lord Ashcroft's big bucket of cold water to douse Tory optimism'."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "BBC News",
+          "quotes": [
+            "Douglas, Torin (21 January 2011). 'Andy Coulson quits Downing Street communications role'. BBC News."
+          ]
+        },
+        {
+          "name": "The Independent",
+          "quotes": [
+            "Merrick, Jane; Hanning, James; Chorley, Matt; Brady, Brian (10 July 2011). 'The Battle of Wapping, Mk II – Press, Media'. The Independent."
+          ]
+        },
+        {
+          "name": "The Scotsman",
+          "quotes": [
+            "'Prime Minister's 'gross error of judgment' over former editor Andy Coulson'. The Scotsman. 6 July 2011."
+          ]
+        },
+        {
+          "name": "The Guardian",
+          "quotes": [
+            "Carrell, Severin; Wintour, Patrick (30 May 2012). 'Andy Coulson charged with perjury'. The Guardian."
+          ]
+        },
+        {
+          "name": "The Daily Telegraph",
+          "quotes": [
+            "Oborne, Peter (27 June 2012). 'Lord Ashcroft's Tory Right is stopping the Coalition working'. The Daily Telegraph."
+          ]
+        },
+        {
+          "name": "The Observer",
+          "quotes": [
+            "Rawnsley, Andrew (5 January 2014). 'Lord Ashcroft's big bucket of cold water to douse Tory optimism'. The Observer."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Downing Street communications role",
+          "quotes": [
+            "Douglas, Torin (21 January 2011). 'Andy Coulson quits Downing Street communications role'."
+          ]
+        },
+        {
+          "title": "PR director",
+          "quotes": [
+            "'David Cameron's PR director Andy Coulson paid £140,000'. BBC News. 10 June 2010."
+          ]
+        },
+        {
+          "title": "former editor",
+          "quotes": [
+            "'Prime Minister's 'gross error of judgment' over former editor Andy Coulson'. The Scotsman. 6 July 2011."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Downing Street",
+          "quotes": [
+            "Douglas, Torin (21 January 2011). 'Andy Coulson quits Downing Street communications role'."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Douglas, Torin (21 January 2011). 'Andy Coulson quits Downing Street communications role'."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role and location with a specific date."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "'David Cameron's PR director Andy Coulson paid £140,000'. BBC News. 10 June 2010."
+        ],
+        "confidence": "high",
+        "notes": "Clear mention of role with a specific date, though no organization or location is explicitly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "'Prime Minister's 'gross error of judgment' over former editor Andy Coulson'. The Scotsman. 6 July 2011."
+        ],
+        "confidence": "medium",
+        "notes": "Role mentioned as 'former editor' without a current organization or location, but still indicates a past career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information despite having a clear role and location."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location information despite having a clear role and date."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization, location, and clear time frame for the role, though it is indicated as a past position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The role is described as 'former editor', which may not clearly indicate an active career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,393 @@
+{
+  "status": "success",
+  "chunk_id": 3819,
+  "chunk_index": 12,
+  "source_url": "https://en.wikipedia.org/wiki/Ricardo_Lagos",
+  "title": "Ricardo Lagos - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1938",
+          "type": "point",
+          "quotes": [
+            "1938 births"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Duke University",
+          "quotes": [
+            "Duke University alumni",
+            "Duke University faculty"
+          ]
+        },
+        {
+          "name": "University of Chile",
+          "quotes": [
+            "University of Chile alumni"
+          ]
+        },
+        {
+          "name": "University of North Carolina at Chapel Hill",
+          "quotes": [
+            "University of North Carolina at Chapel Hill faculty"
+          ]
+        },
+        {
+          "name": "Brown University",
+          "quotes": [
+            "Brown University faculty"
+          ]
+        },
+        {
+          "name": "Socialist Party of Chile",
+          "quotes": [
+            "Socialist Party of Chile politicians"
+          ]
+        },
+        {
+          "name": "Party for Democracy (Chile)",
+          "quotes": [
+            "Party for Democracy (Chile) politicians"
+          ]
+        },
+        {
+          "name": "Radical Party of Chile",
+          "quotes": [
+            "Radical Party of Chile politicians"
+          ]
+        },
+        {
+          "name": "Instituto Nacional General José Miguel Carrera",
+          "quotes": [
+            "Instituto Nacional General José Miguel Carrera alumni"
+          ]
+        },
+        {
+          "name": "Inter-American Dialogue",
+          "quotes": [
+            "Members of the Inter-American Dialogue"
+          ]
+        },
+        {
+          "name": "The Elders",
+          "quotes": [
+            "The Elders (organization)"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Presidents of Chile",
+          "quotes": [
+            "Presidents of Chile"
+          ]
+        },
+        {
+          "title": "Ministers of public works of Chile",
+          "quotes": [
+            "Ministers of public works of Chile"
+          ]
+        },
+        {
+          "title": "Ministers of education of Chile",
+          "quotes": [
+            "Ministers of education of Chile"
+          ]
+        },
+        {
+          "title": "Chilean democracy activists",
+          "quotes": [
+            "Chilean democracy activists"
+          ]
+        },
+        {
+          "title": "20th-century Chilean economists",
+          "quotes": [
+            "20th-century Chilean economists"
+          ]
+        },
+        {
+          "title": "Candidates for President of Chile",
+          "quotes": [
+            "Candidates for President of Chile"
+          ]
+        },
+        {
+          "title": "Special Envoys of the Secretary-General of the United Nations",
+          "quotes": [
+            "Special Envoys of the Secretary-General of the United Nations"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Santiago, Chile",
+          "quotes": [
+            "Politicians from Santiago, Chile"
+          ]
+        },
+        {
+          "place": "Chile",
+          "quotes": [
+            "Presidents of Chile",
+            "Ministers of public works of Chile",
+            "Ministers of education of Chile",
+            "Chilean democracy activists",
+            "20th-century Chilean economists",
+            "Chilean former marxists",
+            "Socialist Party of Chile politicians",
+            "Party for Democracy (Chile) politicians",
+            "Radical Party of Chile politicians",
+            "Instituto Nacional General José Miguel Carrera alumni",
+            "Candidates for President of Chile",
+            "Chilean people of Spanish descent",
+            "Chilean Roman Catholics"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4,
+          5,
+          6
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Socialist Party of Chile politicians",
+          "Party for Democracy (Chile) politicians",
+          "Radical Party of Chile politicians",
+          "Chilean democracy activists"
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker, but organizations and role are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Presidents of Chile"
+        ],
+        "confidence": "high",
+        "notes": "Role is clearly a career position, but no specific organization or time marker."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1,
+          2
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Ministers of public works of Chile",
+          "Ministers of education of Chile"
+        ],
+        "confidence": "high",
+        "notes": "Roles are clearly career positions, but no specific organization or time marker."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          8
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Members of the Inter-American Dialogue"
+        ],
+        "confidence": "medium",
+        "notes": "No specific role, but organization implies membership, which is typically a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          9
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The Elders (organization)"
+        ],
+        "confidence": "medium",
+        "notes": "No specific role, but organization implies membership, which is typically a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          6
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Special Envoys of the Secretary-General of the United Nations"
+        ],
+        "confidence": "high",
+        "notes": "Role is clearly a career position, but no specific organization or time marker."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0,
+          2,
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Duke University alumni",
+          "Duke University faculty",
+          "University of North Carolina at Chapel Hill faculty",
+          "Brown University faculty"
+        ],
+        "confidence": "medium",
+        "notes": "Organizations imply faculty positions, which are career positions, but no specific role or time marker."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1,
+          7
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "University of Chile alumni",
+          "Instituto Nacional General José Miguel Carrera alumni"
+        ],
+        "confidence": "medium",
+        "notes": "Organizations imply alumni status, but no specific role or time marker."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker, making it difficult to place this event in a timeline."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and time marker, which could impact the event's context."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and time marker, which could impact the event's context."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role and time marker, making it less clear what the specific position entails."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role and time marker, making it less clear what the specific position entails."
+          }
+        ]
+      },
+      {
+        "event_id": 5,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and time marker, which could impact the event's context."
+          }
+        ]
+      },
+      {
+        "event_id": 6,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role and time marker, making it less clear what the specific faculty positions entail."
+          }
+        ]
+      },
+      {
+        "event_id": 7,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role and time marker, making it less clear what the specific alumni status entails."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 8,
+      "valid": 0,
+      "warnings": 8,
+      "errors": 0,
+      "career_positions": 8,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "status": "success",
+  "chunk_id": 2794,
+  "chunk_index": 13,
+  "source_url": "https://en.wikipedia.org/wiki/David_Cameron",
+  "title": "David Cameron - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2005",
+          "type": "point",
+          "quotes": [
+            "His campaign did not gain wide support until his speech, delivered without notes, at the 2005 Conservative party conference."
+          ]
+        },
+        {
+          "text": "18 October 2005",
+          "type": "point",
+          "quotes": [
+            "In the first ballot of Conservative MPs on 18 October 2005, Cameron came second, with 56 votes, slightly more than expected;"
+          ]
+        },
+        {
+          "text": "20 October 2005",
+          "type": "point",
+          "quotes": [
+            "In the second ballot on 20 October 2005, Cameron came first with 90 votes; David Davis was second, with 57; and Liam Fox was eliminated with 51 votes."
+          ]
+        },
+        {
+          "text": "6 December 2005",
+          "type": "point",
+          "quotes": [
+            "Cameron's election as the leader of the Conservative Party and leader of the opposition was announced on 6 December 2005."
+          ]
+        },
+        {
+          "text": "14 December 2005",
+          "type": "point",
+          "quotes": [
+            "As is customary for an opposition leader not already a member, upon election Cameron became a member of the Privy Council, being formally approved to join on 14 December 2005, and sworn of the council on 8 March 2006."
+          ]
+        },
+        {
+          "text": "8 March 2006",
+          "type": "point",
+          "quotes": [
+            "As is customary for an opposition leader not already a member, upon election Cameron became a member of the Privy Council, being formally approved to join on 14 December 2005, and sworn of the council on 8 March 2006."
+          ]
+        },
+        {
+          "text": "2006",
+          "type": "point",
+          "quotes": [
+            "In an interview at the headquarters of Oxfam in 2006 Cameron's relative youth, moderate image, and inexperience before becoming leader invited satirical comparison with Tony Blair."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Conservative party",
+          "quotes": [
+            "His campaign did not gain wide support until his speech, delivered without notes, at the 2005 Conservative party conference."
+          ]
+        },
+        {
+          "name": "The Daily Telegraph",
+          "quotes": [
+            "The Daily Telegraph said speaking without notes 'showed a sureness and a confidence that is greatly to his credit'."
+          ]
+        },
+        {
+          "name": "Privy Council",
+          "quotes": [
+            "As is customary for an opposition leader not already a member, upon election Cameron became a member of the Privy Council, being formally approved to join on 14 December 2005, and sworn of the council on 8 March 2006."
+          ]
+        },
+        {
+          "name": "Oxfam",
+          "quotes": [
+            "In an interview at the headquarters of Oxfam in 2006 Cameron's relative youth, moderate image, and inexperience before becoming leader invited satirical comparison with Tony Blair."
+          ]
+        },
+        {
+          "name": "Private Eye",
+          "quotes": [
+            "Private Eye soon published a picture of both leaders on its front cover, with the caption 'World's first face transplant a success'."
+          ]
+        },
+        {
+          "name": "New Statesman",
+          "quotes": [
+            "On the left, the New Statesman unfavourably likened his 'new style of politics' to Tony Blair's early leadership years."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "leader of the Conservative Party",
+          "quotes": [
+            "Cameron's election as the leader of the Conservative Party and leader of the opposition was announced on 6 December 2005."
+          ]
+        },
+        {
+          "title": "leader of the opposition",
+          "quotes": [
+            "Cameron's election as the leader of the Conservative Party and leader of the opposition was announced on 6 December 2005."
+          ]
+        },
+        {
+          "title": "member of the Privy Council",
+          "quotes": [
+            "As is customary for an opposition leader not already a member, upon election Cameron became a member of the Privy Council, being formally approved to join on 14 December 2005, and sworn of the council on 8 March 2006."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3,
+          4,
+          5
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Cameron's election as the leader of the Conservative Party and leader of the opposition was announced on 6 December 2005.",
+          "As is customary for an opposition leader not already a member, upon election Cameron became a member of the Privy Council, being formally approved to join on 14 December 2005, and sworn of the council on 8 March 2006."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time markers, organization, and roles."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4,
+          5
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "As is customary for an opposition leader not already a member, upon election Cameron became a member of the Privy Council, being formally approved to join on 14 December 2005, and sworn of the council on 8 March 2006."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time markers, organization, and role."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "Time markers include both approval (14 December 2005) and swearing-in (8 March 2006) dates, which may not fully represent the position's duration."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Location information is missing, though it may not be critical for this role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

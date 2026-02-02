@@ -1,0 +1,232 @@
+{
+  "status": "success",
+  "chunk_id": 605,
+  "chunk_index": 2,
+  "source_url": "https://issafrica.org/iss-today/salim-ahmed-salim-son-of-africa",
+  "title": "Salim Ahmed Salim: son of Africa | ISS Africa",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In 1989",
+          "type": "point",
+          "quotes": [
+            "In 1989 Salim took up the position of secretary general of the Organisation of African Unity (OAU)."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Organisation of African Unity (OAU)",
+          "quotes": [
+            "In 1989 Salim took up the position of secretary general of the Organisation of African Unity (OAU).",
+            "The 1990 Declaration on Fundamental Changes and Africa’s Response was a road map for a continental strategy to address those challenges.",
+            "Salim was able to establish the new principle of the responsibility to protect within the African context despite the fact that it went against the OAU’s founding principles of non-interference in states’ internal affairs and an unwillingness to compromise member states’ sovereignty.",
+            "Today the OAU’s successor, the African"
+          ]
+        },
+        {
+          "name": "Mozambique Liberation Front (FRELIMO)",
+          "quotes": [
+            "He was instrumental in the reform of the army and coordinated its role in the frontline liberation struggles especially during the war between the Mozambique Liberation Front (FRELIMO) government and Mozambican National Resistance (RENAMO) rebels."
+          ]
+        },
+        {
+          "name": "Mozambican National Resistance (RENAMO)",
+          "quotes": [
+            "He was instrumental in the reform of the army and coordinated its role in the frontline liberation struggles especially during the war between the Mozambique Liberation Front (FRELIMO) government and Mozambican National Resistance (RENAMO) rebels."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "minister of defence and national service",
+          "quotes": [
+            "Under Tanzania’s second president, Sheikh Ali Hassan Mwinyi, Salim served as minister of defence and national service, and deputy prime minister."
+          ]
+        },
+        {
+          "title": "deputy prime minister",
+          "quotes": [
+            "Under Tanzania’s second president, Sheikh Ali Hassan Mwinyi, Salim served as minister of defence and national service, and deputy prime minister."
+          ]
+        },
+        {
+          "title": "secretary general",
+          "quotes": [
+            "In 1989 Salim took up the position of secretary general of the Organisation of African Unity (OAU)."
+          ]
+        },
+        {
+          "title": "prime minister",
+          "quotes": [
+            "As prime minister, Salim played an important role in major constitutional reforms both in Tanzania and Zanzibar."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Tanzania",
+          "quotes": [
+            "As prime minister, Salim played an important role in major constitutional reforms both in Tanzania and Zanzibar.",
+            "Under Tanzania’s second president, Sheikh Ali Hassan Mwinyi, Salim served as minister of defence and national service, and deputy prime minister."
+          ]
+        },
+        {
+          "place": "Zanzibar",
+          "quotes": [
+            "As prime minister, Salim played an important role in major constitutional reforms both in Tanzania and Zanzibar."
+          ]
+        },
+        {
+          "place": "Mozambique",
+          "quotes": [
+            "He was instrumental in the reform of the army and coordinated its role in the frontline liberation struggles especially during the war between the Mozambique Liberation Front (FRELIMO) government and Mozambican National Resistance (RENAMO) rebels."
+          ]
+        },
+        {
+          "place": "Namibia",
+          "quotes": [
+            "In addition, the independence of Namibia and start of negotiations in South Africa signaled the completion of the continent’s liberation from colonialism and apartheid."
+          ]
+        },
+        {
+          "place": "South Africa",
+          "quotes": [
+            "In addition, the independence of Namibia and start of negotiations in South Africa signaled the completion of the continent’s liberation from colonialism and apartheid."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 1989 Salim took up the position of secretary general of the Organisation of African Unity (OAU)."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Under Tanzania’s second president, Sheikh Ali Hassan Mwinyi, Salim served as minister of defence and national service, and deputy prime minister."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between roles and location, no specific time marker provided."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [
+          0,
+          1
+        ],
+        "supporting_quotes": [
+          "As prime minister, Salim played an important role in major constitutional reforms both in Tanzania and Zanzibar."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role and locations, no specific time marker provided."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1,
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "He was instrumental in the reform of the army and coordinated its role in the frontline liberation struggles especially during the war between the Mozambique Liberation Front (FRELIMO) government and Mozambican National Resistance (RENAMO) rebels."
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but clear involvement with organizations and location."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role for the career position."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 1,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

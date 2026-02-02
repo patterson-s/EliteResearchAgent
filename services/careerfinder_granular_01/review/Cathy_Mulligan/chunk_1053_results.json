@@ -1,0 +1,234 @@
+{
+  "status": "success",
+  "chunk_id": 1053,
+  "chunk_index": 2,
+  "source_url": "https://se.linkedin.com/in/cathymulligan",
+  "title": "Catherine Mulligan, Ph.D. FHEA – Digital Transformation | Digital Resilience | Digital Sustainability  | LinkedIn TopVoice | ex-WEF fellow | ex-UNSG HLP on Digital Cooperation | All views expressed here are personal views only | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2006 – 2010",
+          "type": "range",
+          "quotes": [
+            "PhD. 2006 – 2010 University of Cambridge"
+          ]
+        },
+        {
+          "text": "2005 – 2006",
+          "type": "range",
+          "quotes": [
+            "MPhil 2005 – 2006 UNSW"
+          ]
+        },
+        {
+          "text": "1995 – 1999",
+          "type": "range",
+          "quotes": [
+            "BSc. 1995 – 1999"
+          ]
+        },
+        {
+          "text": "mars 2025",
+          "type": "point",
+          "quotes": [
+            "Data Science and Machine Learning MIT Schwarzman College of Computing Utfärdat mars 2025"
+          ]
+        },
+        {
+          "text": "jan. 2025",
+          "type": "point",
+          "quotes": [
+            "SWEDEX C1 Folkuniversitetet Utfärdat jan. 2025"
+          ]
+        },
+        {
+          "text": "nov. 2024",
+          "type": "point",
+          "quotes": [
+            "Post Graduate Certificate in Higher Education Falmouth University Utfärdat nov. 2024"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "University of Cambridge",
+          "quotes": [
+            "PhD. 2006 – 2010 University of Cambridge"
+          ]
+        },
+        {
+          "name": "UNSW",
+          "quotes": [
+            "MPhil 2005 – 2006 UNSW"
+          ]
+        },
+        {
+          "name": "MIT Schwarzman College of Computing",
+          "quotes": [
+            "Data Science and Machine Learning MIT Schwarzman College of Computing Utfärdat mars 2025"
+          ]
+        },
+        {
+          "name": "Folkuniversitetet",
+          "quotes": [
+            "SWEDEX C1 Folkuniversitetet Utfärdat jan. 2025"
+          ]
+        },
+        {
+          "name": "Falmouth University",
+          "quotes": [
+            "Post Graduate Certificate in Higher Education Falmouth University Utfärdat nov. 2024"
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "PhD. 2006 – 2010 University of Cambridge"
+        ],
+        "confidence": "medium",
+        "notes": "Assuming PhD studies as a career position, though no specific role is mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "MPhil 2005 – 2006 UNSW"
+        ],
+        "confidence": "medium",
+        "notes": "Assuming MPhil studies as a career position, though no specific role is mentioned."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Data Science and Machine Learning MIT Schwarzman College of Computing Utfärdat mars 2025"
+        ],
+        "confidence": "high",
+        "notes": "Assuming this is a certification or award based on the context."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "SWEDEX C1 Folkuniversitetet Utfärdat jan. 2025"
+        ],
+        "confidence": "high",
+        "notes": "Assuming this is a language certification or award."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Post Graduate Certificate in Higher Education Falmouth University Utfärdat nov. 2024"
+        ],
+        "confidence": "high",
+        "notes": "Assuming this is a certification or award based on the context."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "PhD studies are typically not considered a career position unless specific responsibilities are mentioned."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, making it unclear if this should be classified as a career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "MPhil studies are typically not considered a career position unless specific responsibilities are mentioned."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, making it unclear if this should be classified as a career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 4,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 3,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 3
+    }
+  }
+}

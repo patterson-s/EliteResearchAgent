@@ -1,0 +1,90 @@
+{
+  "status": "success",
+  "chunk_id": 1093,
+  "chunk_index": 3,
+  "source_url": "https://br.linkedin.com/in/edson-prestes",
+  "title": "Edson Prestes - Association For Computer Machinery | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2004",
+          "type": "point",
+          "quotes": [
+            "Rafael Garbin\n“Edson foi o meu primeiro professor no curso de Ciência da computação no Unilasalle em  2004, e sem dúvida nenhuma é um grande mestre, extremamente didático e simples.”"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Unilasalle",
+          "quotes": [
+            "Rafael Garbin\n“Edson foi o meu primeiro professor no curso de Ciência da computação no Unilasalle em  2004, e sem dúvida nenhuma é um grande mestre, extremamente didático e simples.”"
+          ]
+        },
+        {
+          "name": "IEEE",
+          "quotes": [
+            "Naveen Kandwal\n#IEEE Paper > Universal System for Higher Accreditations (USHA): Novel Blockchain-Based Educational Transcripts Issuance and Verification Architecture"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "professor",
+          "quotes": [
+            "Rafael Garbin\n“Edson foi o meu primeiro professor no curso de Ciência da computação no Unilasalle em  2004, e sem dúvida nenhuma é um grande mestre, extremamente didático e simples.”"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Rafael Garbin\n“Edson foi o meu primeiro professor no curso de Ciência da computação no Unilasalle em  2004, e sem dúvida nenhuma é um grande mestre, extremamente didático e simples.”"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role in the same quote."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Location information is missing, though it may be inferable from the organization (Unilasalle)."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

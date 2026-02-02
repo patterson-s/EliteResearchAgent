@@ -1,0 +1,116 @@
+{
+  "status": "success",
+  "chunk_id": 2889,
+  "chunk_index": 4,
+  "source_url": "https://uk.linkedin.com/in/davidcameronofficial",
+  "title": "David Cameron - Foreign, Commonwealth and Development Office | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2013",
+          "type": "point",
+          "quotes": [
+            "Having launched the company as Prime Minister in 2013 to partner with the NHS and…"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "The Francis Crick Institute",
+          "quotes": [
+            "This week’s Rare Disease Summit at The Francis Crick Institute was a timely & important forum bringing together key stakeholders from policy…"
+          ]
+        },
+        {
+          "name": "Genomics England",
+          "quotes": [
+            "Fascinating and inspirational visit to Genomics England this week. Having launched the company as Prime Minister in 2013 to partner with the NHS and…"
+          ]
+        },
+        {
+          "name": "NHS",
+          "quotes": [
+            "Having launched the company as Prime Minister in 2013 to partner with the NHS and…"
+          ]
+        },
+        {
+          "name": "Oxford-Harrington Rare Disease Centre",
+          "quotes": [
+            "40 new treatments for rare diseases within a decade is our mission at the Oxford-Harrington Rare Disease Centre, but we can only do it if science…"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Prime Minister",
+          "quotes": [
+            "Having launched the company as Prime Minister in 2013 to partner with the NHS and…"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Manchester",
+          "quotes": [
+            "Shocked & saddened by today's truly tragic events in Manchester. My heart goes out to the victims & all those affected, especially the families &…"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          1,
+          2
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Having launched the company as Prime Minister in 2013 to partner with the NHS and…",
+          "Fascinating and inspirational visit to Genomics England this week. Having launched the company as Prime Minister in 2013 to partner with the NHS and…"
+        ],
+        "confidence": "high",
+        "notes": "The role of Prime Minister and the launch of Genomics England in partnership with the NHS are clearly linked in the quotes."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing location information, which is not explicitly mentioned in the quotes but could be inferred from context if available."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The event is classified as a career_position, but the role of 'Prime Minister' launching a company (Genomics England) might be better classified as an award or initiative if it does not involve ongoing responsibilities. However, without further context, this remains a low-severity issue."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

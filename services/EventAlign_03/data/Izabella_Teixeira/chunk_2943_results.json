@@ -1,0 +1,212 @@
+{
+  "status": "success",
+  "chunk_id": 2943,
+  "chunk_index": 0,
+  "source_url": "https://www.americasquarterly.org/aq-author/izabella-teixeira/",
+  "title": "Izabella Teixeira - Americas Quarterly",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "since 2010",
+          "type": "open",
+          "quotes": [
+            "Izabella Teixeira has served as Brazil’s minister of the environment since 2010."
+          ]
+        },
+        {
+          "text": "1984",
+          "type": "point",
+          "quotes": [
+            "which she joined in 1984 as an environmental analyst."
+          ]
+        },
+        {
+          "text": "From 2007 to 2008",
+          "type": "range",
+          "quotes": [
+            "From 2007 to 2008, Minister Teixeira was the vice secretary of the environment of Rio de Janeiro"
+          ]
+        },
+        {
+          "text": "2010",
+          "type": "point",
+          "quotes": [
+            "She was the first appointed minister of the environment in 2010"
+          ]
+        },
+        {
+          "text": "2011",
+          "type": "point",
+          "quotes": [
+            "and reappointed under the new leadership in 2011."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Brazilian institute for Environment and Renewable Natural Resources (IBAMA)",
+          "quotes": [
+            "a career employee of the Brazilian institute for Environment and Renewable Natural Resources (IBAMA)"
+          ]
+        },
+        {
+          "name": "Ministry of the Environment",
+          "quotes": [
+            "as well as at the Ministry of the Environment"
+          ]
+        },
+        {
+          "name": "state government of Rio de Janeiro",
+          "quotes": [
+            "as well as at the Ministry of the Environment and the state government of Rio de Janeiro."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "minister of the environment",
+          "quotes": [
+            "Izabella Teixeira has served as Brazil’s minister of the environment since 2010."
+          ]
+        },
+        {
+          "title": "environmental analyst",
+          "quotes": [
+            "which she joined in 1984 as an environmental analyst."
+          ]
+        },
+        {
+          "title": "vice secretary of the environment of Rio de Janeiro",
+          "quotes": [
+            "From 2007 to 2008, Minister Teixeira was the vice secretary of the environment of Rio de Janeiro"
+          ]
+        },
+        {
+          "title": "vice minister of the environment",
+          "quotes": [
+            "until she was nominated to serve as the vice minister of the environment"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Brazil",
+          "quotes": [
+            "Izabella Teixeira has served as Brazil’s minister of the environment since 2010."
+          ]
+        },
+        {
+          "place": "Rio de Janeiro",
+          "quotes": [
+            "From 2007 to 2008, Minister Teixeira was the vice secretary of the environment of Rio de Janeiro"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "which she joined in 1984 as an environmental analyst.",
+          "a career employee of the Brazilian institute for Environment and Renewable Natural Resources (IBAMA)"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "From 2007 to 2008, Minister Teixeira was the vice secretary of the environment of Rio de Janeiro",
+          "as well as at the Ministry of the Environment and the state government of Rio de Janeiro."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          3,
+          4
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Izabella Teixeira has served as Brazil’s minister of the environment since 2010.",
+          "She was the first appointed minister of the environment in 2010",
+          "and reappointed under the new leadership in 2011.",
+          "as well as at the Ministry of the Environment"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time markers, organization, role, and location."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "Multiple time markers (2010, 2011, 'since 2010') might indicate overlapping or unclear start/end dates."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 2,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "status": "success",
+  "chunk_id": 285,
+  "chunk_index": 0,
+  "source_url": "https://www.biography.com/musicians/enrique-iglesias",
+  "title": "Enrique Iglesias - Songs, Age & Kids",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1975",
+          "type": "point",
+          "quotes": [
+            "Born in Spain in 1975",
+            "Enrique Iglesias was born Enrique Miguel Iglesias Preysler in Madrid, Spain, on May 8, 1975"
+          ]
+        },
+        {
+          "text": "1995",
+          "type": "point",
+          "quotes": [
+            "He released his self-titled debut album in 1995"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Gulliver Private School",
+          "quotes": [
+            "at his school, the prestigious Gulliver Private School in Miami"
+          ]
+        },
+        {
+          "name": "University of Miami",
+          "quotes": [
+            "After graduating from high school, Iglesias enrolled at the University of Miami"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "singer",
+          "quotes": [
+            "Enrique Iglesias is the son of popular Spanish singer Julio Iglesias",
+            "His first live performance came in a production of Hello, Dolly!"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Madrid, Spain",
+          "quotes": [
+            "Enrique Iglesias was born Enrique Miguel Iglesias Preysler in Madrid, Spain, on May 8, 1975"
+          ]
+        },
+        {
+          "place": "Miami",
+          "quotes": [
+            "Iglesias grew up largely in Miami",
+            "Following the kidnapping of his grandfather, Iglesias was sent to Miami to live with his father due to security concerns",
+            "at his school, the prestigious Gulliver Private School in Miami",
+            "started writing and performing songs at various Miami restaurants with a small group of friends",
+            "After graduating from high school, Iglesias enrolled at the University of Miami"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "He released his self-titled debut album in 1995",
+          "Enrique Iglesias is the son of popular Spanish singer Julio Iglesias",
+          "started writing and performing songs at various Miami restaurants with a small group of friends"
+        ],
+        "confidence": "high",
+        "notes": "The debut album release in 1995 marks the beginning of his professional singing career."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "After graduating from high school, Iglesias enrolled at the University of Miami"
+        ],
+        "confidence": "medium",
+        "notes": "While not a direct career position, this event is included as part of his educational background which is relevant to his career path."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quotes mention personal background and early activities but do not explicitly describe a formal career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "error",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "high",
+            "description": "Event classified as 'career_position' but describes educational enrollment, which is not a career role."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the event."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quote does not mention any career-related activities."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 1,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

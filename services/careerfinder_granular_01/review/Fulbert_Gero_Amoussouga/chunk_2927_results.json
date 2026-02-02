@@ -1,0 +1,218 @@
+{
+  "status": "success",
+  "chunk_id": 2927,
+  "chunk_index": 3,
+  "source_url": "https://www.devex.com/news/just-announced-meet-the-architects-of-our-post-mdg-agenda-78815",
+  "title": "Just announced: Meet the architects of our post-MDG agenda | Devex",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "World Health Organization",
+          "quotes": [
+            "on the World Health Organization, and other development and humanitarian aid trends in Asia Pacific."
+          ]
+        },
+        {
+          "name": "Devex",
+          "quotes": [
+            "Prior to Devex, she wrote for ABS-CBN, one of the largest broadcasting networks in the Philippines,"
+          ]
+        },
+        {
+          "name": "ABS-CBN",
+          "quotes": [
+            "Prior to Devex, she wrote for ABS-CBN, one of the largest broadcasting networks in the Philippines,"
+          ]
+        },
+        {
+          "name": "University of Santo Tomas",
+          "quotes": [
+            "She received her journalism degree from the University of Santo Tomas."
+          ]
+        },
+        {
+          "name": "United Nations",
+          "quotes": [
+            "United Nations\nThe UN's changing of the guard",
+            "United Nations\nChina ramps up push for more UN jobs"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "copy editor",
+          "quotes": [
+            "and was a copy editor for various international scientific journals."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Asia Pacific",
+          "quotes": [
+            "on the World Health Organization, and other development and humanitarian aid trends in Asia Pacific."
+          ]
+        },
+        {
+          "place": "Philippines",
+          "quotes": [
+            "one of the largest broadcasting networks in the Philippines,"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Prior to Devex, she wrote for ABS-CBN, one of the largest broadcasting networks in the Philippines,"
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but the context suggests a writing/journalism position at Devex and ABS-CBN."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "and was a copy editor for various international scientific journals."
+        ],
+        "confidence": "high",
+        "notes": "Clear role as a copy editor, but no specific organization or time mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "on the World Health Organization, and other development and humanitarian aid trends in Asia Pacific."
+        ],
+        "confidence": "low",
+        "notes": "No specific role mentioned, but the context suggests involvement with the World Health Organization in Asia Pacific."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "She received her journalism degree from the University of Santo Tomas."
+        ],
+        "confidence": "high",
+        "notes": "Educational background, but no specific role or time mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "United Nations\nThe UN's changing of the guard",
+          "United Nations\nChina ramps up push for more UN jobs"
+        ],
+        "confidence": "low",
+        "notes": "No specific role mentioned, but the context suggests involvement with the United Nations."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and time information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "error",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "high",
+            "description": "Event classified as career_position but describes educational background, not a professional role."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for the career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quotes do not clearly indicate a specific role or position at the United Nations."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 0,
+      "warnings": 4,
+      "errors": 1,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

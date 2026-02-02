@@ -1,0 +1,217 @@
+{
+  "status": "success",
+  "chunk_id": 2799,
+  "chunk_index": 18,
+  "source_url": "https://en.wikipedia.org/wiki/David_Cameron",
+  "title": "David Cameron - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2010–2016",
+          "type": "range",
+          "quotes": [
+            "Premiership (2010–2016)"
+          ]
+        },
+        {
+          "text": "11 May 2010",
+          "type": "point",
+          "quotes": [
+            "Gordon Brown's resignation as prime minister on 11 May 2010",
+            "appointed Nick Clegg... as deputy prime minister on 11 May 2010"
+          ]
+        },
+        {
+          "text": "12 May 2010",
+          "type": "point",
+          "quotes": [
+            "David Cameron during his first speech as prime minister, 12 May 2010"
+          ]
+        },
+        {
+          "text": "June 2010",
+          "type": "point",
+          "quotes": [
+            "In June 2010, Cameron described the economic situation as he came to power"
+          ]
+        },
+        {
+          "text": "1812",
+          "type": "point",
+          "quotes": [
+            "since Lord Liverpool in 1812"
+          ]
+        },
+        {
+          "text": "May 1997",
+          "type": "point",
+          "quotes": [
+            "beating the record previously set by Tony Blair in May 1997"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Conservatives",
+          "quotes": [
+            "saying there was 'barely a cigarette paper' between them on a large number of issues",
+            "the Conservatives and Liberal Democrats controlled 363 seats"
+          ]
+        },
+        {
+          "name": "Liberal Democrats",
+          "quotes": [
+            "Clegg who said that the Conservatives were totally different from his party",
+            "form a coalition government... with the Liberal Democrats",
+            "appointed Nick Clegg, the leader of the Liberal Democrats",
+            "the Conservatives and Liberal Democrats controlled 363 seats"
+          ]
+        },
+        {
+          "name": "House of Commons",
+          "quotes": [
+            "Between them, the Conservatives and Liberal Democrats controlled 363 seats in the House of Commons"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "prime minister",
+          "quotes": [
+            "Gordon Brown's resignation as prime minister",
+            "Cameron became the youngest prime minister",
+            "David Cameron during his first speech as prime minister"
+          ]
+        },
+        {
+          "title": "deputy prime minister",
+          "quotes": [
+            "appointed Nick Clegg... as deputy prime minister"
+          ]
+        },
+        {
+          "title": "leader of the Liberal Democrats",
+          "quotes": [
+            "appointed Nick Clegg, the leader of the Liberal Democrats"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "10 Downing Street",
+          "quotes": [
+            "In his first address outside 10 Downing Street"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1,
+          0
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "appointed Nick Clegg... as deputy prime minister on 11 May 2010",
+          "appointed Nick Clegg, the leader of the Liberal Democrats",
+          "Premiership (2010–2016)"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2,
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "David Cameron during his first speech as prime minister, 12 May 2010",
+          "Cameron became the youngest prime minister",
+          "In his first address outside 10 Downing Street",
+          "Premiership (2010–2016)"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, role, and location"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "appointed Nick Clegg, the leader of the Liberal Democrats",
+          "Clegg who said that the Conservatives were totally different from his party"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time marker, but role and organization are clearly linked"
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "Start date (12 May 2010) is after the start of the premiership range (2010–2016), but this is likely due to the event marking the beginning of the term."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position event, though the role and organization are clearly linked."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

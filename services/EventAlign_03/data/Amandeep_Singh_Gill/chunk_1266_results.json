@@ -1,0 +1,236 @@
+{
+  "status": "success",
+  "chunk_id": 1266,
+  "chunk_index": 2,
+  "source_url": "https://www.linkedin.com/in/amandeep-gill-33052416",
+  "title": "Amandeep Gill - United Nations | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2012 - 2016",
+          "type": "range",
+          "quotes": [
+            "2012 - 2016"
+          ]
+        },
+        {
+          "text": "1994 - 1996",
+          "type": "range",
+          "quotes": [
+            "1994 - 1996"
+          ]
+        },
+        {
+          "text": "Dec 2007 - May 2010",
+          "type": "range",
+          "quotes": [
+            "Dec 2007 - May 2010"
+          ]
+        },
+        {
+          "text": "2018-2019",
+          "type": "range",
+          "quotes": [
+            "Member, UN Secretary General's Advisory Board on Disarmament Matters 2018-2019"
+          ]
+        },
+        {
+          "text": "Aug 2017 - Mar 2018",
+          "type": "range",
+          "quotes": [
+            "Aug 2017 - Mar 2018"
+          ]
+        },
+        {
+          "text": "Feb 2020 - Present",
+          "type": "open",
+          "quotes": [
+            "Feb 2020 - Present"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "United Nations",
+          "quotes": [
+            "United Nations"
+          ]
+        },
+        {
+          "name": "Farmers First Foundation",
+          "quotes": [
+            "Co-Founder, Farmers First Foundation"
+          ]
+        },
+        {
+          "name": "UN Secretary General's Advisory Board on Disarmament Matters",
+          "quotes": [
+            "Member, UN Secretary General's Advisory Board on Disarmament Matters 2018-2019"
+          ]
+        },
+        {
+          "name": "Task Force on AI for India's Economic Transformation",
+          "quotes": [
+            "Member, Task Force on AI for India's Economic Transformation"
+          ]
+        },
+        {
+          "name": "UNESCO",
+          "quotes": [
+            "Member, Ad Hoc Group of Experts on AI Ethics, UNESCO"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Co-Founder",
+          "quotes": [
+            "Co-Founder, Farmers First Foundation"
+          ]
+        },
+        {
+          "title": "Member",
+          "quotes": [
+            "Member, UN Secretary General's Advisory Board on Disarmament Matters 2018-2019"
+          ]
+        },
+        {
+          "title": "Member",
+          "quotes": [
+            "Member, Task Force on AI for India's Economic Transformation"
+          ]
+        },
+        {
+          "title": "Member",
+          "quotes": [
+            "Member, Ad Hoc Group of Experts on AI Ethics, UNESCO"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Member, UN Secretary General's Advisory Board on Disarmament Matters 2018-2019"
+        ],
+        "confidence": "high",
+        "notes": "Direct linkage between time, organization, and role in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Co-Founder, Farmers First Foundation"
+        ],
+        "confidence": "high",
+        "notes": "No time marker, but clear linkage between organization and role in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Member, Task Force on AI for India's Economic Transformation"
+        ],
+        "confidence": "high",
+        "notes": "No time marker, but clear linkage between organization and role in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Member, Ad Hoc Group of Experts on AI Ethics, UNESCO"
+        ],
+        "confidence": "high",
+        "notes": "No time marker, but clear linkage between organization and role in the same quote."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 1,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

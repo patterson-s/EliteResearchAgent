@@ -1,0 +1,238 @@
+{
+  "status": "success",
+  "chunk_id": 2811,
+  "chunk_index": 30,
+  "source_url": "https://en.wikipedia.org/wiki/David_Cameron",
+  "title": "David Cameron - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2016",
+          "type": "point",
+          "quotes": [
+            "he accused Johnson, as well as Michael Gove, of behaving 'appallingly' during the referendum campaign of 2016."
+          ]
+        },
+        {
+          "text": "September 2020",
+          "type": "point",
+          "quotes": [
+            "In September 2020, Cameron became the fifth former prime minister to criticise the UK Internal Market Bill"
+          ]
+        },
+        {
+          "text": "19 September 2019",
+          "type": "point",
+          "quotes": [
+            "Cameron published a memoir, For the Record, on 19 September 2019 through HarperCollins."
+          ]
+        },
+        {
+          "text": "2018",
+          "type": "point",
+          "quotes": [
+            "According to the Guardian, the book was initially scheduled for 2018, but was delayed so Cameron would not be perceived as a 'backstreet driver' in the ongoing Brexit negotiations."
+          ]
+        },
+        {
+          "text": "2018",
+          "type": "point",
+          "quotes": [
+            "In 2018 he became an advisor to Greensill Capital and held share options in the company"
+          ]
+        },
+        {
+          "text": "2019",
+          "type": "point",
+          "quotes": [
+            "In 2019 Cameron arranged for a private meeting with Lex Greensill and Secretary of State for Health and Social Care Matt Hancock;"
+          ]
+        },
+        {
+          "text": "2020",
+          "type": "point",
+          "quotes": [
+            "In 2020 a few months before Greensill Capital collapsed, Cameron lobbied the government to bend the rules to allow it to receive Covid Corporate Financing Facility loans."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "UK Internal Market Bill",
+          "quotes": [
+            "In September 2020, Cameron became the fifth former prime minister to criticise the UK Internal Market Bill"
+          ]
+        },
+        {
+          "name": "HarperCollins",
+          "quotes": [
+            "Cameron published a memoir, For the Record, on 19 September 2019 through HarperCollins."
+          ]
+        },
+        {
+          "name": "Guardian",
+          "quotes": [
+            "According to the Guardian, the book was initially scheduled for 2018, but was delayed so Cameron would not be perceived as a 'backstreet driver' in the ongoing Brexit negotiations."
+          ]
+        },
+        {
+          "name": "Greensill Capital",
+          "quotes": [
+            "In 2018 he became an advisor to Greensill Capital and held share options in the company"
+          ]
+        },
+        {
+          "name": "NHS",
+          "quotes": [
+            "In 2019 Cameron arranged for a private meeting with Lex Greensill and Secretary of State for Health and Social Care Matt Hancock; under Hancock, several NHS trusts went on to use Greensill Capital's Earnd app."
+          ]
+        },
+        {
+          "name": "Covid Corporate Financing Facility",
+          "quotes": [
+            "In 2020 a few months before Greensill Capital collapsed, Cameron lobbied the government to bend the rules to allow it to receive Covid Corporate Financing Facility loans."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "former prime minister",
+          "quotes": [
+            "In September 2020, Cameron became the fifth former prime minister to criticise the UK Internal Market Bill"
+          ]
+        },
+        {
+          "title": "advisor",
+          "quotes": [
+            "In 2018 he became an advisor to Greensill Capital and held share options in the company"
+          ]
+        },
+        {
+          "title": "Chancellor of the Exchequer",
+          "quotes": [
+            "He sent several text messages to Chancellor of the Exchequer Rishi Sunak, who ultimately declined"
+          ]
+        },
+        {
+          "title": "Secretary of State for Health and Social Care",
+          "quotes": [
+            "In 2019 Cameron arranged for a private meeting with Lex Greensill and Secretary of State for Health and Social Care Matt Hancock;"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "10 Downing Street",
+          "quotes": [
+            "The book gives an insight into his life at 10 Downing Street, as well as inside explanations of the decisions taken by his government."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3,
+          6
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2018 he became an advisor to Greensill Capital and held share options in the company",
+          "In 2020 a few months before Greensill Capital collapsed, Cameron lobbied the government to bend the rules to allow it to receive Covid Corporate Financing Facility loans."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time markers, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In September 2020, Cameron became the fifth former prime minister to criticise the UK Internal Market Bill"
+        ],
+        "confidence": "high",
+        "notes": "Former prime minister role is clearly stated, though no specific organization is mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2019 Cameron arranged for a private meeting with Lex Greensill and Secretary of State for Health and Social Care Matt Hancock; under Hancock, several NHS trusts went on to use Greensill Capital's Earnd app."
+        ],
+        "confidence": "medium",
+        "notes": "Cameron's role in arranging the meeting suggests active involvement, but the primary role mentioned is that of Matt Hancock."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing organization information for the 'former prime minister' role, though the role is clearly stated."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The event is classified as a career position, but the primary role mentioned is that of Matt Hancock, not Cameron. Cameron's role in arranging the meeting is more of an action than a formal position."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information, though not critical for this event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

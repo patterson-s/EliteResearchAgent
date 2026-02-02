@@ -1,0 +1,191 @@
+{
+  "status": "success",
+  "chunk_id": 3349,
+  "chunk_index": 1,
+  "source_url": "https://en.wikipedia.org/wiki/Kim_Sung-hwan_(diplomat)",
+  "title": "Kim Sung-hwan (diplomat) - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "9 October 2010",
+          "type": "point",
+          "quotes": [
+            "Minister of Foreign Affairs and Trade . 9 October 2010"
+          ]
+        },
+        {
+          "text": "13 February 2011",
+          "type": "point",
+          "quotes": [
+            ". Retrieved 13 February 2011."
+          ]
+        },
+        {
+          "text": "8 October 2010",
+          "type": "point",
+          "quotes": [
+            "양영권 (8 October 2010). 김성환 외교장관 취임, 내정 8일만에 '속전속결' 임명."
+          ]
+        },
+        {
+          "text": "July 13, 2012",
+          "type": "point",
+          "quotes": [
+            ". Archived from the original on July 13, 2012"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Ministry of Foreign Affairs and Trade",
+          "quotes": [
+            "Minister of Foreign Affairs and Trade"
+          ]
+        },
+        {
+          "name": "JoongAng Ilbo",
+          "quotes": [
+            "JoongAng Ilbo"
+          ]
+        },
+        {
+          "name": "Wikimedia Commons",
+          "quotes": [
+            "at Wikimedia Commons"
+          ]
+        },
+        {
+          "name": "Wikipedia",
+          "quotes": [
+            "You can help Wikipedia by expanding it."
+          ]
+        },
+        {
+          "name": "Seoul National University",
+          "quotes": [
+            "Seoul National University alumni"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Minister of Foreign Affairs and Trade",
+          "quotes": [
+            "Minister of Foreign Affairs and Trade"
+          ]
+        },
+        {
+          "title": "Foreign Minister",
+          "quotes": [
+            "Calls Foreign Minister Kim to Offer Congratulations on His Inauguration"
+          ]
+        },
+        {
+          "title": "Ambassador of South Korea to Austria",
+          "quotes": [
+            "Ambassadors of South Korea to Austria"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "South Korea",
+          "quotes": [
+            "Government ministers of South Korea",
+            "South Korean diplomats",
+            "Ministers of foreign affairs of South Korea",
+            "Ambassadors of South Korea to Austria"
+          ]
+        },
+        {
+          "place": "Seoul",
+          "quotes": [
+            "People from Seoul"
+          ]
+        },
+        {
+          "place": "Austria",
+          "quotes": [
+            "Ambassadors of South Korea to Austria"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          2
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Minister of Foreign Affairs and Trade . 9 October 2010",
+          "양영권 (8 October 2010). 김성환 외교장관 취임, 내정 8일만에 '속전속결' 임명.",
+          "Calls Foreign Minister Kim to Offer Congratulations on His Inauguration"
+        ],
+        "confidence": "high",
+        "notes": "The role of Minister of Foreign Affairs and Trade is clearly a career position, supported by multiple quotes."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          0,
+          2
+        ],
+        "supporting_quotes": [
+          "Ambassadors of South Korea to Austria"
+        ],
+        "confidence": "medium",
+        "notes": "The role of Ambassador of South Korea to Austria is a career position, but there is no specific time marker associated with it."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position of Ambassador of South Korea to Austria."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "status": "success",
+  "chunk_id": 3577,
+  "chunk_index": 12,
+  "source_url": "https://en.wikipedia.org/wiki/Shaukat_Aziz",
+  "title": "Shaukat Aziz - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In 2006",
+          "type": "point",
+          "quotes": [
+            "In 2006, Aziz invited state-run and private-media of Russia where he repeatedly stressed for the need to enhance cooperation between Pakistan and Russia in the fields of education, science and technology, energy, defence and trade and investment."
+          ]
+        },
+        {
+          "text": "in 2007",
+          "type": "point",
+          "quotes": [
+            "Finally, in 2007, Russian prime minister Mikhail Fradkov paid a three-day-long visit to Pakistan, becoming the first Russian prime minister and leader to visit the country in 38 years."
+          ]
+        },
+        {
+          "text": "from the period of nationalisation in the 1970s until the economic boom in 2004–08",
+          "type": "range",
+          "quotes": [
+            "Pakistan's GDP growth rate from the period of nationalisation in the 1970s until the economic boom in 2004–08"
+          ]
+        },
+        {
+          "text": "October 1999",
+          "type": "point",
+          "quotes": [
+            "GDP growth, which was at 3.9% in October 1999, stood between 6.6% and 9%."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "state-run and private-media of Russia",
+          "quotes": [
+            "In 2006, Aziz invited state-run and private-media of Russia where he repeatedly stressed for the need to enhance cooperation between Pakistan and Russia in the fields of education, science and technology, energy, defence and trade and investment."
+          ]
+        },
+        {
+          "name": "state-owned corporations",
+          "quotes": [
+            "During his tenure, Aziz aggressively promoted the privatisation, deregulation and economic liberalisation programme and open the large heavy mechanical industries, petroleum companies, electropetroleum and chemical enterprises and state-owned corporations to private sectors."
+          ]
+        },
+        {
+          "name": "state enterprises",
+          "quotes": [
+            "He successfully privatised all state-owned corporations and state enterprises before completing his term."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "finance minister",
+          "quotes": [
+            "His tenure as finance minister and prime minister, the agriculture production and construction well increased, whilst aggressively and forcefully implementing his policies to liberalise the trade, and eliminated the non-tariff barriers."
+          ]
+        },
+        {
+          "title": "prime minister",
+          "quotes": [
+            "His tenure as finance minister and prime minister, the agriculture production and construction well increased, whilst aggressively and forcefully implementing his policies to liberalise the trade, and eliminated the non-tariff barriers."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "China",
+          "quotes": [
+            "to China to sign a Free Trade Agreement with China, and regarded the country as a 'strategic partner' and a 'time-tested friend', whilst China regarded the FTA agreement as 'a historic development'."
+          ]
+        },
+        {
+          "place": "India",
+          "quotes": [
+            "Aziz built closer economic ties with India while alleviating the territorial conflicts."
+          ]
+        },
+        {
+          "place": "Russia",
+          "quotes": [
+            "Aziz pushed his foreign policy to Russia, calling Russia a 'global super power'."
+          ]
+        },
+        {
+          "place": "Pakistan",
+          "quotes": [
+            "In 2006, Aziz invited state-run and private-media of Russia where he repeatedly stressed for the need to enhance cooperation between Pakistan and Russia in the fields of education, science and technology, energy, defence and trade and investment."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "His tenure as finance minister and prime minister, the agriculture production and construction well increased, whilst aggressively and forcefully implementing his policies to liberalise the trade, and eliminated the non-tariff barriers."
+        ],
+        "confidence": "medium",
+        "notes": "No specific time markers or organizations linked directly to the roles, but the quote clearly indicates a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          3
+        ],
+        "supporting_quotes": [
+          "In 2006, Aziz invited state-run and private-media of Russia where he repeatedly stressed for the need to enhance cooperation between Pakistan and Russia in the fields of education, science and technology, energy, defence and trade and investment."
+        ],
+        "confidence": "high",
+        "notes": "Event linked to a specific time marker, organization, and location, indicating a career-related activity."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          3
+        ],
+        "supporting_quotes": [
+          "Finally, in 2007, Russian prime minister Mikhail Fradkov paid a three-day-long visit to Pakistan, becoming the first Russian prime minister and leader to visit the country in 38 years."
+        ],
+        "confidence": "medium",
+        "notes": "Event linked to a specific time marker and location, but no direct role or organization mentioned. Assumed to be part of diplomatic duties."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers, organizations, and locations for the career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quote supports the roles but does not provide specific dates or organizations."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role for the career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quote does not explicitly mention a role, only activities related to a career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and role for the career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quote does not mention a specific role or organization, only a diplomatic event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

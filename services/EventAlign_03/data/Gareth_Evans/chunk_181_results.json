@@ -1,0 +1,260 @@
+{
+  "status": "success",
+  "chunk_id": 181,
+  "chunk_index": 18,
+  "source_url": "https://en.wikipedia.org/wiki/Gareth_Evans_(politician)",
+  "title": "Gareth Evans (politician) - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1995–2010",
+          "type": "range",
+          "quotes": [
+            "Fifteen Years on the Frontlines 1995–2010"
+          ]
+        },
+        {
+          "text": "3 June 2012",
+          "type": "point",
+          "quotes": [
+            "Archived 3 June 2012 at Archive-It"
+          ]
+        },
+        {
+          "text": "May–June 2010",
+          "type": "range",
+          "quotes": [
+            "New Left Review 63, May–June 2010"
+          ]
+        },
+        {
+          "text": "6 May 2013",
+          "type": "point",
+          "quotes": [
+            "Archived from the original (PDF) on 6 May 2013"
+          ]
+        },
+        {
+          "text": "10 October 2012",
+          "type": "point",
+          "quotes": [
+            "Retrieved 10 October 2012"
+          ]
+        },
+        {
+          "text": "19 May 2012",
+          "type": "point",
+          "quotes": [
+            "Archived 19 May 2012 at the Wayback Machine"
+          ]
+        },
+        {
+          "text": "2011",
+          "type": "point",
+          "quotes": [
+            "Clinton declared in 2011 that the ICG is 'an extraordinary, important organization that is relied upon certainly across the world'"
+          ]
+        },
+        {
+          "text": "2002",
+          "type": "point",
+          "quotes": [
+            "Evans, Gareth; Sahnoun, Mohamed (2002). 'The Responsibility to Protect'"
+          ]
+        },
+        {
+          "text": "24 February 2025",
+          "type": "point",
+          "quotes": [
+            "Retrieved 24 February 2025"
+          ]
+        },
+        {
+          "text": "26 July 2007",
+          "type": "point",
+          "quotes": [
+            "26 July 2007"
+          ]
+        },
+        {
+          "text": "11 November 2016",
+          "type": "point",
+          "quotes": [
+            "11 November 2016"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "International Crisis Group",
+          "quotes": [
+            "See Tom Hazeline, 'The North Atlantic Counsel: The Complicity of the International Crisis Group'",
+            "Clinton declared in 2011 that the ICG is 'an extraordinary, important organization that is relied upon certainly across the world'"
+          ]
+        },
+        {
+          "name": "Crisis Group",
+          "quotes": [
+            "Gareth Evans, 'Farewell Message on Leaving Crisis Group'"
+          ]
+        },
+        {
+          "name": "ICG",
+          "quotes": [
+            "Clinton declared in 2011 that the ICG is 'an extraordinary, important organization that is relied upon certainly across the world'"
+          ]
+        },
+        {
+          "name": "ICISS Commission",
+          "quotes": [
+            "former foreign minister of Australia and co-chair ... of the ICISS Commission"
+          ]
+        },
+        {
+          "name": "United Nations",
+          "quotes": [
+            "'The United Nations and Conflict Prevention', Gareth Evans"
+          ]
+        },
+        {
+          "name": "High-level Panel on Threats, Challenges and Change",
+          "quotes": [
+            "'High Level Panel on Threats, Challenges and Change'"
+          ]
+        },
+        {
+          "name": "UNDP",
+          "quotes": [
+            "'Human Development Report 2006 - Beyond scarcity: Power, poverty and the global water crisis'"
+          ]
+        },
+        {
+          "name": "Global Leadership Foundation",
+          "quotes": [
+            "'Gareth Evans | Global Leadership Foundation'"
+          ]
+        },
+        {
+          "name": "New Left Review",
+          "quotes": [
+            "New Left Review 63, May–June 2010"
+          ]
+        },
+        {
+          "name": "Foreign Affairs",
+          "quotes": [
+            "Evans, Gareth; Sahnoun, Mohamed (2002). 'The Responsibility to Protect'"
+          ]
+        },
+        {
+          "name": "Brookings Institution Press",
+          "quotes": [
+            "Edward Luck in Robert I.Rotberg (ed), Mass Atrocity Crimes: Preventing Future Outrages (Brookings Institution Press and World Peace Foundation, 2010)"
+          ]
+        },
+        {
+          "name": "World Peace Foundation",
+          "quotes": [
+            "Edward Luck in Robert I.Rotberg (ed), Mass Atrocity Crimes: Preventing Future Outrages (Brookings Institution Press and World Peace Foundation, 2010)"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "co-chair of the ICISS Commission",
+          "quotes": [
+            "former foreign minister of Australia and co-chair ... of the ICISS Commission"
+          ]
+        },
+        {
+          "title": "foreign minister of Australia",
+          "quotes": [
+            "former foreign minister of Australia and co-chair ... of the ICISS Commission"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          7
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "former foreign minister of Australia and co-chair ... of the ICISS Commission",
+          "Evans, Gareth; Sahnoun, Mohamed (2002). 'The Responsibility to Protect'"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role and organization with supporting time marker."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "former foreign minister of Australia and co-chair ... of the ICISS Commission"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time marker, but role and organization are clearly linked."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information, though this may not be critical for this event."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "Missing time marker, making it difficult to place this event in a timeline."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information, though this may not be critical for this event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "status": "success",
+  "chunk_id": 3300,
+  "chunk_index": 0,
+  "source_url": "https://www.forbes.com/profile/elvira-nabiullina/",
+  "title": "Elvira Nabiullina - Bank of Russia",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2013",
+          "type": "point",
+          "quotes": [
+            "A former economic advisor to Russian President Vladamir Putin, Nabiullina became the first woman to run a central bank of a G8 country in 2013."
+          ]
+        },
+        {
+          "text": "2021",
+          "type": "point",
+          "quotes": [
+            "Forbes Lists\n#60\nPower Women\n(2021)"
+          ]
+        },
+        {
+          "text": "Jan 18, 2023",
+          "type": "point",
+          "quotes": [
+            "More on Forbes\nJan 18, 2023\nWhy Russia’s Central Bank Will Never Sell Former Zombie Banks Back To Private Interests"
+          ]
+        },
+        {
+          "text": "Sep 23, 2022",
+          "type": "point",
+          "quotes": [
+            "By\nKenneth Rapoza\nFormer Contributor\nSep 23, 2022\nWill Putin’s Military Mobilization Mean The End Of His War?"
+          ]
+        },
+        {
+          "text": "Dec 19, 2021",
+          "type": "point",
+          "quotes": [
+            "By\nMike O'Sullivan\nSenior Contributor\nDec 19, 2021\nRussian Ex-Zombie Bank Resuscitates, Prepares IPO"
+          ]
+        },
+        {
+          "text": "Dec 8, 2020",
+          "type": "point",
+          "quotes": [
+            "By\nKenneth Rapoza\nFormer Contributor\nDec 8, 2020\nFrom Kamala Harris To Jacinda Ardern: The World’s Most Powerful Women In Politics In 2020"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Bank of Russia",
+          "quotes": [
+            "Elvira Nabiullina - Bank of Russia",
+            "Governor,\nBank of Russia",
+            "Why Russia’s Central Bank Will Never Sell Former Zombie Banks Back To Private Interests"
+          ]
+        },
+        {
+          "name": "Moscow State University",
+          "quotes": [
+            "Bachelor of Arts/Science, Moscow State University",
+            "Related by education: Moscow State University"
+          ]
+        },
+        {
+          "name": "Forbes",
+          "quotes": [
+            "Forbes Lists",
+            "More on Forbes"
+          ]
+        },
+        {
+          "name": "Otkritie",
+          "quotes": [
+            "How one of Russia's biggest private banks, Otkritie died, came back to life, and is now preparing to go public in 2022."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Governor",
+          "quotes": [
+            "Governor,\nBank of Russia"
+          ]
+        },
+        {
+          "title": "economic advisor to Russian President Vladamir Putin",
+          "quotes": [
+            "A former economic advisor to Russian President Vladamir Putin, Nabiullina became the first woman to run a central bank of a G8 country in 2013."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Moscow, Russia",
+          "quotes": [
+            "Residence\nMoscow, Russia"
+          ]
+        },
+        {
+          "place": "Russia",
+          "quotes": [
+            "Citizen of Russia",
+            "Why Russia’s Central Bank Will Never Sell Former Zombie Banks Back To Private Interests",
+            "Will Putin’s Military Mobilization Mean The End Of His War?",
+            "Russian Ex-Zombie Bank Resuscitates, Prepares IPO"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "A former economic advisor to Russian President Vladamir Putin, Nabiullina became the first woman to run a central bank of a G8 country in 2013.",
+          "Governor,\nBank of Russia",
+          "Why Russia’s Central Bank Will Never Sell Former Zombie Banks Back To Private Interests"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "A former economic advisor to Russian President Vladamir Putin, Nabiullina became the first woman to run a central bank of a G8 country in 2013."
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker, but role is clearly a past position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and organization information, though role and location are clear."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

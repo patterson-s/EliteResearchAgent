@@ -1,0 +1,86 @@
+{
+  "status": "success",
+  "chunk_id": 2593,
+  "chunk_index": 4,
+  "source_url": "https://ch.linkedin.com/in/jovan-kurbalija-90834629",
+  "title": "Jovan Kurbalija – DiploFoundation | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2016",
+          "type": "point",
+          "quotes": [
+            "DiploFoundation\n2016"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "DiploFoundation",
+          "quotes": [
+            "The text and approaches presented in the book have been used by DiploFoundation and many universities as a basis from training courses and capacity development programmes on Internet governance.",
+            "DiploFoundation\n2016"
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "DiploFoundation\n2016"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit role mentioned, but the organization and time marker suggest an affiliation or involvement in 2016."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. While the organization and time marker suggest an affiliation, there is no explicit role mentioned."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quote 'DiploFoundation\n2016' does not clearly describe a specific role or responsibility, only an affiliation."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classification as 'career_position' is questionable without explicit role or responsibility information."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "status": "success",
+  "chunk_id": 3717,
+  "chunk_index": 20,
+  "source_url": "https://en.wikipedia.org/wiki/Gordon_Brown",
+  "title": "Gordon Brown - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "On 28 September 2023",
+          "type": "point",
+          "quotes": [
+            "On 28 September 2023, Brown released the book Permacrisis: A Plan to Fix a Fractured World,"
+          ]
+        },
+        {
+          "text": "In 2024",
+          "type": "point",
+          "quotes": [
+            "In 2024 Brown co-authored a pamphlet on child poverty demanding a multibillion-pound package to solve what he dubbed 'a social crisis'."
+          ]
+        },
+        {
+          "text": "In November 2024",
+          "type": "point",
+          "quotes": [
+            "In November 2024, Brown wrote an article in opposition to the Terminally Ill Adults (End of Life) Bill arguing that the UK needed to improve its palliative care provision instead of legalising assisted dying."
+          ]
+        },
+        {
+          "text": "on 3 August 2000",
+          "type": "point",
+          "quotes": [
+            "At the age of 49, Brown married Sarah Macaulay in a private ceremony at his home in North Queensferry, Fife, on 3 August 2000."
+          ]
+        },
+        {
+          "text": "on 28 December 2001",
+          "type": "point",
+          "quotes": [
+            "A daughter, Jennifer Jane, was born prematurely on 28 December 2001; she died on 7 January 2002, one day after experiencing a brain haemorrhage."
+          ]
+        },
+        {
+          "text": "on 7 January 2002",
+          "type": "point",
+          "quotes": [
+            "A daughter, Jennifer Jane, was born prematurely on 28 December 2001; she died on 7 January 2002, one day after experiencing a brain haemorrhage."
+          ]
+        },
+        {
+          "text": "17 October 2003",
+          "type": "point",
+          "quotes": [
+            "The couple have two sons, John Macaulay (born 17 October 2003)"
+          ]
+        },
+        {
+          "text": "on 18 July 2006",
+          "type": "point",
+          "quotes": [
+            "and (James) Fraser (born on 18 July 2006)."
+          ]
+        },
+        {
+          "text": "In November 2006",
+          "type": "point",
+          "quotes": [
+            "In November 2006, Fraser was diagnosed with cystic fibrosis."
+          ]
+        },
+        {
+          "text": "In 2011",
+          "type": "point",
+          "quotes": [
+            "In 2011, Brown stated he had wanted the details of his son's condition kept private and that the publication had left him 'in tears'."
+          ]
+        },
+        {
+          "text": "At the 2008 Labour Party Conference",
+          "type": "point",
+          "quotes": [
+            "At the 2008 Labour Party Conference, Sarah caused surprise by taking to the stage to introduce her husband for his keynote address."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Labour Party",
+          "quotes": [
+            "At the 2008 Labour Party Conference, Sarah caused surprise by taking to the stage to introduce her husband for his keynote address."
+          ]
+        },
+        {
+          "name": "The Sun",
+          "quotes": [
+            "The Sun had learned of the situation in 2006 and published the story."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Head of Media Relations",
+          "quotes": [
+            "Andrew has been Head of Media Relations in the UK"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "North Queensferry, Fife",
+          "quotes": [
+            "At the age of 49, Brown married Sarah Macaulay in a private ceremony at his home in North Queensferry, Fife, on 3 August 2000."
+          ]
+        },
+        {
+          "place": "UK",
+          "quotes": [
+            "Andrew has been Head of Media Relations in the UK"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Andrew has been Head of Media Relations in the UK"
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker or organization provided, but role and location are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          10
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "At the 2008 Labour Party Conference, Sarah caused surprise by taking to the stage to introduce her husband for his keynote address."
+        ],
+        "confidence": "high",
+        "notes": "Event is linked to the Labour Party Conference, but no specific role is mentioned."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and organization information, though role and location are clear."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, though time marker and organization are present."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position but lacks clear role or responsibilities, potentially more of a one-time appearance."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

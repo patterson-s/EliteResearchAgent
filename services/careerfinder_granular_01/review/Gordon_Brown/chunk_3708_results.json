@@ -1,0 +1,180 @@
+{
+  "status": "success",
+  "chunk_id": 3708,
+  "chunk_index": 11,
+  "source_url": "https://en.wikipedia.org/wiki/Gordon_Brown",
+  "title": "Gordon Brown - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "in 2008",
+          "type": "point",
+          "quotes": [
+            "Brown at the World Economic Forum meeting in Davos in 2008"
+          ]
+        },
+        {
+          "text": "2007",
+          "type": "point",
+          "quotes": [
+            "Doctors were given the right of opting out of out-of-hours care in 2007, under a controversial pay deal"
+          ]
+        },
+        {
+          "text": "2006",
+          "type": "point",
+          "quotes": [
+            "which awarded them a 22 per cent pay rise in 2006"
+          ]
+        },
+        {
+          "text": "5 June 2007",
+          "type": "point",
+          "quotes": [
+            "On 5 June 2007, just three weeks before he was due to take the post of prime minister, Brown made a speech"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "House of Lords",
+          "quotes": [
+            "The House of Lords defeated the bill, with Lords characterising it as 'fatally flawed, ill thought through and unnecessary'"
+          ]
+        },
+        {
+          "name": "Commons Authority",
+          "quotes": [
+            "however, no wrongdoing was found and the Commons Authority did not pursue Brown over the claim"
+          ]
+        },
+        {
+          "name": "Commons Fees Office",
+          "quotes": [
+            "Meanwhile, the Commons Fees Office stated that a double payment for a £153 plumbing repair bill was a mistake on their part"
+          ]
+        },
+        {
+          "name": "World Economic Forum",
+          "quotes": [
+            "Brown at the World Economic Forum meeting in Davos in 2008"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Ministerial Code",
+          "quotes": [
+            "The manifesto included a clampdown on corruption and a new Ministerial Code, which set out clear standards of behaviour for ministers"
+          ]
+        },
+        {
+          "title": "Health Secretary",
+          "quotes": [
+            "signed by then-Health Secretary John Reid"
+          ]
+        },
+        {
+          "title": "prime minister",
+          "quotes": [
+            "just three weeks before he was due to take the post of prime minister, Brown made a speech"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Davos",
+          "quotes": [
+            "Brown at the World Economic Forum meeting in Davos in 2008"
+          ]
+        },
+        {
+          "place": "Whitehall",
+          "quotes": [
+            "to look at rebalancing powers between Whitehall and local government"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "just three weeks before he was due to take the post of prime minister, Brown made a speech"
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of an upcoming career position as prime minister."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Brown at the World Economic Forum meeting in Davos in 2008"
+        ],
+        "confidence": "medium",
+        "notes": "Attendance at the World Economic Forum meeting, likely in a professional capacity, but specific role is unclear."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location information for the career position as prime minister."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for the event at the World Economic Forum meeting."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Attendance at a meeting is not a clear indicator of a career position without additional context."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

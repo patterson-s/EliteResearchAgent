@@ -1,0 +1,296 @@
+{
+  "status": "success",
+  "chunk_id": 3792,
+  "chunk_index": 2,
+  "source_url": "https://www.global-canada.org/about",
+  "title": "About",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "in 2014",
+          "type": "point",
+          "quotes": [
+            "and the title of Fellow of Engineers CanadaÂ in 2014."
+          ]
+        },
+        {
+          "text": "over twenty yearsâ experience",
+          "type": "open",
+          "quotes": [
+            "Nathalie Hamel is Community Coordinator, Global Canada Initiative, with over twenty yearsâ experience in project management and business administration."
+          ]
+        },
+        {
+          "text": "for more than 10 years",
+          "type": "open",
+          "quotes": [
+            "She has studied and lived abroad for more than 10 years."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Engineers Canada",
+          "quotes": [
+            "and the title of Fellow of Engineers CanadaÂ in 2014."
+          ]
+        },
+        {
+          "name": "Roncalli International Foundation",
+          "quotes": [
+            "including as a member of the Board of Directors of the Roncalli International Foundation,"
+          ]
+        },
+        {
+          "name": "Governor Generalâs Canadian Leadership Conference",
+          "quotes": [
+            "the National Executive Committee of the Governor Generalâs Canadian Leadership Conference"
+          ]
+        },
+        {
+          "name": "Future Skills Centre of Canada",
+          "quotes": [
+            "the Advisory Board of the Future Skills Centre of Canada."
+          ]
+        },
+        {
+          "name": "Global Canada Initiative",
+          "quotes": [
+            "Nathalie Hamel is Community Coordinator, Global Canada Initiative,"
+          ]
+        },
+        {
+          "name": "UniversitÃ© de MontrÃ©al",
+          "quotes": [
+            "Nathalie has a BA and an M.Ed. from UniversitÃ© de MontrÃ©al."
+          ]
+        },
+        {
+          "name": "Global Canada",
+          "quotes": [
+            "Global Canada does not accept government funding.",
+            "Global Canada is financed by support from foundations, corporations and individuals.",
+            "No supporter has editorial control over Global Canada activities or publications."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Fellow of Engineers Canada",
+          "quotes": [
+            "and the title of Fellow of Engineers CanadaÂ in 2014."
+          ]
+        },
+        {
+          "title": "member of the Board of Directors",
+          "quotes": [
+            "including as a member of the Board of Directors of the Roncalli International Foundation,"
+          ]
+        },
+        {
+          "title": "member of the National Executive Committee",
+          "quotes": [
+            "the National Executive Committee of the Governor Generalâs Canadian Leadership Conference"
+          ]
+        },
+        {
+          "title": "member of the Advisory Board",
+          "quotes": [
+            "the Advisory Board of the Future Skills Centre of Canada."
+          ]
+        },
+        {
+          "title": "Community Coordinator",
+          "quotes": [
+            "Nathalie Hamel is Community Coordinator, Global Canada Initiative,"
+          ]
+        },
+        {
+          "title": "teacher",
+          "quotes": [
+            "Her professional background includes work as a teacher and a translator."
+          ]
+        },
+        {
+          "title": "translator",
+          "quotes": [
+            "Her professional background includes work as a teacher and a translator."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "and the title of Fellow of Engineers CanadaÂ in 2014."
+        ],
+        "confidence": "high",
+        "notes": "Fellow of Engineers Canada is classified as an award since it is a one-time recognition without ongoing responsibilities."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "including as a member of the Board of Directors of the Roncalli International Foundation,"
+        ],
+        "confidence": "high",
+        "notes": "Member of the Board of Directors implies active responsibilities."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "the National Executive Committee of the Governor Generalâs Canadian Leadership Conference"
+        ],
+        "confidence": "high",
+        "notes": "Member of the National Executive Committee implies active responsibilities."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "the Advisory Board of the Future Skills Centre of Canada."
+        ],
+        "confidence": "high",
+        "notes": "Member of the Advisory Board implies active responsibilities."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Nathalie Hamel is Community Coordinator, Global Canada Initiative, with over twenty yearsâ experience in project management and business administration."
+        ],
+        "confidence": "high",
+        "notes": "Community Coordinator is an active role with ongoing responsibilities."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          5,
+          6
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Her professional background includes work as a teacher and a translator."
+        ],
+        "confidence": "medium",
+        "notes": "Teacher and translator roles are mentioned together without specific organizations or time markers, but they are classified as career positions due to their professional nature."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 5,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers and organizations for career positions."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 6,
+      "valid": 2,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 1
+    }
+  }
+}

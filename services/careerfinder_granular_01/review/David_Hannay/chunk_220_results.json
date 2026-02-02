@@ -1,0 +1,292 @@
+{
+  "status": "success",
+  "chunk_id": 220,
+  "chunk_index": 0,
+  "source_url": "https://www.salzburgglobal.org/person/david-hannay",
+  "title": "Salzburg Global: Person",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "from 1996 to 2003",
+          "type": "range",
+          "quotes": [
+            "from 1996 to 2003, he was the British Government's Special Representative for Cyprus."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "House of Lords, Parliament of the United Kingdom",
+          "quotes": [
+            "David Hannay is a member of the House of Lords and the European Select Committee."
+          ]
+        },
+        {
+          "name": "European Select Committee",
+          "quotes": [
+            "David Hannay is a member of the House of Lords and the European Select Committee."
+          ]
+        },
+        {
+          "name": "British Foreign Service",
+          "quotes": [
+            "He has held several posts in the British Foreign Service, including appointments in Brussels as second and first secretary at the United Kingdom Delegation to the European Communities."
+          ]
+        },
+        {
+          "name": "United Kingdom Delegation to the European Communities",
+          "quotes": [
+            "He has held several posts in the British Foreign Service, including appointments in Brussels as second and first secretary at the United Kingdom Delegation to the European Communities."
+          ]
+        },
+        {
+          "name": "United Nations",
+          "quotes": [
+            "He served as the UK permanent representative to the United Nations,"
+          ]
+        },
+        {
+          "name": "Salzburg Global Seminar",
+          "quotes": [
+            "He is a senior fellow of the Salzburg Global Seminar and has served as a faculty member for several seminars."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Member, House of Lords",
+          "quotes": [
+            "David Hannay is a member of the House of Lords and the European Select Committee."
+          ]
+        },
+        {
+          "title": "Member, European Select Committee",
+          "quotes": [
+            "David Hannay is a member of the House of Lords and the European Select Committee."
+          ]
+        },
+        {
+          "title": "UK special representative for Cyprus",
+          "quotes": [
+            "He is also the former UK special representative for Cyprus."
+          ]
+        },
+        {
+          "title": "second and first secretary at the United Kingdom Delegation to the European Communities",
+          "quotes": [
+            "He has held several posts in the British Foreign Service, including appointments in Brussels as second and first secretary at the United Kingdom Delegation to the European Communities."
+          ]
+        },
+        {
+          "title": "UK permanent representative to the United Nations",
+          "quotes": [
+            "He served as the UK permanent representative to the United Nations,"
+          ]
+        },
+        {
+          "title": "British Government's Special Representative for Cyprus",
+          "quotes": [
+            "from 1996 to 2003, he was the British Government's Special Representative for Cyprus."
+          ]
+        },
+        {
+          "title": "senior fellow of the Salzburg Global Seminar",
+          "quotes": [
+            "He is a senior fellow of the Salzburg Global Seminar and has served as a faculty member for several seminars."
+          ]
+        },
+        {
+          "title": "faculty member for several seminars",
+          "quotes": [
+            "He is a senior fellow of the Salzburg Global Seminar and has served as a faculty member for several seminars."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "London",
+          "quotes": [
+            "David Hannay is a member of the House of Lords, Parliament of the United Kingdom, London"
+          ]
+        },
+        {
+          "place": "Brussels",
+          "quotes": [
+            "He has held several posts in the British Foreign Service, including appointments in Brussels as second and first secretary at the United Kingdom Delegation to the European Communities."
+          ]
+        },
+        {
+          "place": "Cyprus",
+          "quotes": [
+            "He is also the former UK special representative for Cyprus."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          5
+        ],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "from 1996 to 2003, he was the British Government's Special Representative for Cyprus.",
+          "He is also the former UK special representative for Cyprus."
+        ],
+        "confidence": "high",
+        "notes": "Directly linked by time marker and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "David Hannay is a member of the House of Lords and the European Select Committee.",
+          "David Hannay is a member of the House of Lords, Parliament of the United Kingdom, London"
+        ],
+        "confidence": "high",
+        "notes": "Directly linked by organization and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2,
+          3
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "He has held several posts in the British Foreign Service, including appointments in Brussels as second and first secretary at the United Kingdom Delegation to the European Communities."
+        ],
+        "confidence": "high",
+        "notes": "Directly linked by organization, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He served as the UK permanent representative to the United Nations,"
+        ],
+        "confidence": "high",
+        "notes": "Directly linked by organization and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [
+          6,
+          7
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He is a senior fellow of the Salzburg Global Seminar and has served as a faculty member for several seminars."
+        ],
+        "confidence": "high",
+        "notes": "Directly linked by organization and roles."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "Missing time marker for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "Missing time marker for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "Missing time marker for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "Missing time marker for career position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Fellowship role might be misclassified as career_position if it's an honorary title without active duties."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 1,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

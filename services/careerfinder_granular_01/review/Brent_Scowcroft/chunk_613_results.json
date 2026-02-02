@@ -1,0 +1,296 @@
+{
+  "status": "success",
+  "chunk_id": 613,
+  "chunk_index": 6,
+  "source_url": "https://en.wikipedia.org/wiki/Brent_Scowcroft",
+  "title": "Brent Scowcroft - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2008",
+          "type": "point",
+          "quotes": [
+            "were published in a 2008 book titled America and the World: Conversations on the Future of American Foreign Policy."
+          ]
+        },
+        {
+          "text": "2016",
+          "type": "point",
+          "quotes": [
+            "Scowcroft endorsed Hillary Clinton in the run-up for the 2016 United States presidential election."
+          ]
+        },
+        {
+          "text": "1989",
+          "type": "point",
+          "quotes": [
+            "In 1989, he was sent to Beijing, China following the Tiananmen Square massacre by President George H.W. Bush for a sensitive China-related mission."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "U.S.-Azerbaijan Chamber of Commerce (USACC)",
+          "quotes": [
+            "Scowcroft was a member of the Honorary Council of Advisors for U.S.-Azerbaijan Chamber of Commerce (USACC)."
+          ]
+        },
+        {
+          "name": "Lockheed Martin",
+          "quotes": [
+            "Critics have suggested that Scowcroft was unethical in his lobbying for the Turkish and Azeri governments because of his ties to Lockheed Martin and other defense contractors that do significant business with Turkey."
+          ]
+        },
+        {
+          "name": "International Republican Institute",
+          "quotes": [
+            "He was also a member of the board of directors of the International Republican Institute,"
+          ]
+        },
+        {
+          "name": "Columbia University's School of International and Public Affairs",
+          "quotes": [
+            "served on the Advisory Board for Columbia University's School of International and Public Affairs"
+          ]
+        },
+        {
+          "name": "America Abroad Media",
+          "quotes": [
+            "and for America Abroad Media."
+          ]
+        },
+        {
+          "name": "The New York Times",
+          "quotes": [
+            "In a largely laudatory obituary, The New York Times noted 'his appeal for public service was a classic reminder of a less partisan age, when presidents often reached out to experienced talent, regardless of party loyalties.'"
+          ]
+        },
+        {
+          "name": "Atlantic Council",
+          "quotes": [
+            "The Atlantic Council provided an assessment, with quotes from several experts after Scowcroft's death,"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "member of the Honorary Council of Advisors",
+          "quotes": [
+            "Scowcroft was a member of the Honorary Council of Advisors for U.S.-Azerbaijan Chamber of Commerce (USACC)."
+          ]
+        },
+        {
+          "title": "member of the board of directors",
+          "quotes": [
+            "He was also a member of the board of directors of the International Republican Institute,"
+          ]
+        },
+        {
+          "title": "national security adviser",
+          "quotes": [
+            "'Brent Scowcroft was in many ways the ideal national security adviser—indeed, he offers a model for how the job should be done.'"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Beijing, China",
+          "quotes": [
+            "In 1989, he was sent to Beijing, China following the Tiananmen Square massacre by President George H.W. Bush for a sensitive China-related mission."
+          ]
+        },
+        {
+          "place": "Turkey",
+          "quotes": [
+            "Critics have suggested that Scowcroft was unethical in his lobbying for the Turkish and Azeri governments because of his ties to Lockheed Martin and other defense contractors that do significant business with Turkey."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Scowcroft was a member of the Honorary Council of Advisors for U.S.-Azerbaijan Chamber of Commerce (USACC)."
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker, but role and organization are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He was also a member of the board of directors of the International Republican Institute,"
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker, but role and organization are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "served on the Advisory Board for Columbia University's School of International and Public Affairs"
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker or role title, but organization and service are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "and for America Abroad Media."
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker, role, or details, but organization is mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "In 1989, he was sent to Beijing, China following the Tiananmen Square massacre by President George H.W. Bush for a sensitive China-related mission."
+        ],
+        "confidence": "high",
+        "notes": "Specific time marker and location, but no organization or role title mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "role_ids": [
+          2
+        ],
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "'Brent Scowcroft was in many ways the ideal national security adviser—indeed, he offers a model for how the job should be done.'"
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker or organization, but role is clear."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and role title for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing time marker, role title, and details for the career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "medium",
+            "description": "Quote does not provide sufficient context for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and role title for the career position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event might be better classified as a mission rather than a career position."
+          }
+        ]
+      },
+      {
+        "event_id": 5,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and organization for the career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 6,
+      "valid": 0,
+      "warnings": 6,
+      "errors": 0,
+      "career_positions": 6,
+      "awards": 0
+    }
+  }
+}

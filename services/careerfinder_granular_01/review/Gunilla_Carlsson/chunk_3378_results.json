@@ -1,0 +1,237 @@
+{
+  "status": "success",
+  "chunk_id": 3378,
+  "chunk_index": 1,
+  "source_url": "https://www.gcsp.ch/experts/ms-gunilla-carlsson",
+  "title": "Ms Gunilla Carlsson | GCSP",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2007",
+          "type": "point",
+          "quotes": [
+            "Chair of Swedish initiated Commission on Climate Change and Development in Copenhagen 2007"
+          ]
+        },
+        {
+          "text": "2012",
+          "type": "point",
+          "quotes": [
+            "ahead of conference in Rio de Janero 2012"
+          ]
+        },
+        {
+          "text": "2013",
+          "type": "point",
+          "quotes": [
+            "high-level panel for global development goals 2013"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Peoples Party (EPP)",
+          "quotes": [
+            "Peoples Party (EPP), Member of World Bank Gender Advisory Council, Chair of Swedish initiated Commission on Climate Change and Development in Copenhagen 2007"
+          ]
+        },
+        {
+          "name": "World Bank Gender Advisory Council",
+          "quotes": [
+            "Peoples Party (EPP), Member of World Bank Gender Advisory Council, Chair of Swedish initiated Commission on Climate Change and Development in Copenhagen 2007"
+          ]
+        },
+        {
+          "name": "Swedish initiated Commission on Climate Change and Development",
+          "quotes": [
+            "Chair of Swedish initiated Commission on Climate Change and Development in Copenhagen 2007"
+          ]
+        },
+        {
+          "name": "UN",
+          "quotes": [
+            "appointed by UN Secretary General Ban Ki-Moon to the high level panel for global sustainability ahead of conference in Rio de Janero 2012"
+          ]
+        },
+        {
+          "name": "GAVI",
+          "quotes": [
+            "Today she serves at several boards, including independent member of GAVI"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Member of World Bank Gender Advisory Council",
+          "quotes": [
+            "Peoples Party (EPP), Member of World Bank Gender Advisory Council, Chair of Swedish initiated Commission on Climate Change and Development in Copenhagen 2007"
+          ]
+        },
+        {
+          "title": "Chair of Swedish initiated Commission on Climate Change and Development",
+          "quotes": [
+            "Chair of Swedish initiated Commission on Climate Change and Development in Copenhagen 2007"
+          ]
+        },
+        {
+          "title": "appointed by UN Secretary General Ban Ki-Moon to the high level panel for global sustainability",
+          "quotes": [
+            "appointed by UN Secretary General Ban Ki-Moon to the high level panel for global sustainability ahead of conference in Rio de Janero 2012"
+          ]
+        },
+        {
+          "title": "high-level panel for global development goals",
+          "quotes": [
+            "high-level panel for global development goals 2013"
+          ]
+        },
+        {
+          "title": "independent member of GAVI",
+          "quotes": [
+            "Today she serves at several boards, including independent member of GAVI"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Copenhagen",
+          "quotes": [
+            "Chair of Swedish initiated Commission on Climate Change and Development in Copenhagen 2007"
+          ]
+        },
+        {
+          "place": "Rio de Janero",
+          "quotes": [
+            "ahead of conference in Rio de Janero 2012"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          1,
+          2
+        ],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Peoples Party (EPP), Member of World Bank Gender Advisory Council, Chair of Swedish initiated Commission on Climate Change and Development in Copenhagen 2007",
+          "Chair of Swedish initiated Commission on Climate Change and Development in Copenhagen 2007"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role, organization, and time marker."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "appointed by UN Secretary General Ban Ki-Moon to the high level panel for global sustainability ahead of conference in Rio de Janero 2012"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role, organization, and time marker."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "high-level panel for global development goals 2013"
+        ],
+        "confidence": "medium",
+        "notes": "No organization mentioned, but role and time marker are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Today she serves at several boards, including independent member of GAVI"
+        ],
+        "confidence": "high",
+        "notes": "No time marker, but role and organization are clear and indicate ongoing service."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information, though role and time marker are clear."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker, though role and organization are clear and indicate ongoing service."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 2,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

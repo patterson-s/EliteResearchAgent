@@ -1,0 +1,172 @@
+{
+  "status": "success",
+  "chunk_id": 3845,
+  "chunk_index": 10,
+  "source_url": "https://www.pbs.org/wgbh/commandingheights/shared/minitext/int_ricardolagos.html",
+  "title": "Commanding Heights : Ricardo Lagos | on PBS",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "since 1995",
+          "type": "open",
+          "quotes": [
+            "Fernando Henrique Cardoso [president of Brazil since 1995]"
+          ]
+        },
+        {
+          "text": "in the '60s",
+          "type": "point",
+          "quotes": [
+            "Yes, we were good friends with Cardoso in the '60s."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Economic Commission for Latin America [ECLA]",
+          "quotes": [
+            "Cardoso came to Chile as a political exile from Brazil, and he was working at the Economic Commission for Latin America [ECLA] in the United Nations"
+          ]
+        },
+        {
+          "name": "United Nations",
+          "quotes": [
+            "Cardoso came to Chile as a political exile from Brazil, and he was working at the Economic Commission for Latin America [ECLA] in the United Nations"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "minister of public works",
+          "quotes": [
+            "As the minister of public works, I had a tremendous challenge trying to build highways in Chile"
+          ]
+        },
+        {
+          "title": "president of Brazil",
+          "quotes": [
+            "Fernando Henrique Cardoso [president of Brazil since 1995]"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Chile",
+          "quotes": [
+            "As the minister of public works, I had a tremendous challenge trying to build highways in Chile",
+            "Cardoso came to Chile as a political exile from Brazil",
+            "I built a business in Chile [to raise money for the highways and got]about US$6 billion. For Chile that's a lot of money [for] building highways",
+            "I need to build many highways if I want to get benefits of a Chile that is improving."
+          ]
+        },
+        {
+          "place": "Brazil",
+          "quotes": [
+            "Fernando Henrique Cardoso [president of Brazil since 1995]",
+            "Cardoso came to Chile as a political exile from Brazil"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Cardoso came to Chile as a political exile from Brazil, and he was working at the Economic Commission for Latin America [ECLA] in the United Nations",
+          "Yes, we were good friends with Cardoso in the '60s."
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but working at ECLA implies a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "As the minister of public works, I had a tremendous challenge trying to build highways in Chile"
+        ],
+        "confidence": "high",
+        "notes": "Clear role and location, but no specific time marker."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Fernando Henrique Cardoso [president of Brazil since 1995]"
+        ],
+        "confidence": "high",
+        "notes": "Clear role, location, and time marker."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, though working at ECLA implies a career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and organization information."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

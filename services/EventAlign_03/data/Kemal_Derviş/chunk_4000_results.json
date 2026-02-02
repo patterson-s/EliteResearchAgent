@@ -1,0 +1,278 @@
+{
+  "status": "success",
+  "chunk_id": 4000,
+  "chunk_index": 0,
+  "source_url": "https://paw.princeton.edu/memorial/kemal-dervis-73",
+  "title": "Kemal Dervis ’73 | Princeton Alumni Weekly",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "May 7, 2023",
+          "type": "point",
+          "quotes": [
+            "Kemal died of neurodegenerative disease May 7, 2023, in Bethesda, Md."
+          ]
+        },
+        {
+          "text": "Jan. 10, 1949",
+          "type": "point",
+          "quotes": [
+            "Born Jan. 10, 1949, in Istanbul, he earned bachelor’s and master’s degrees at the London School of Economics and a Ph.D. in economics from Princeton in 1973."
+          ]
+        },
+        {
+          "text": "1973",
+          "type": "point",
+          "quotes": [
+            "Born Jan. 10, 1949, in Istanbul, he earned bachelor’s and master’s degrees at the London School of Economics and a Ph.D. in economics from Princeton in 1973."
+          ]
+        },
+        {
+          "text": "Between 2002 and 2020",
+          "type": "range",
+          "quotes": [
+            "Between 2002 and 2020, his economic policies set the basis of major economic development in Turkey, where he took the newly created post of minister of the economy."
+          ]
+        },
+        {
+          "text": "2005",
+          "type": "point",
+          "quotes": [
+            "In 2005, Secretary-General Kofi Annan chose him to lead the United Nations Development Program, becoming the first person to lead the office who was from a country that had received aid from it."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "World Bank",
+          "quotes": [
+            "Kemal worked in various posts for the World Bank for two decades."
+          ]
+        },
+        {
+          "name": "London School of Economics",
+          "quotes": [
+            "Born Jan. 10, 1949, in Istanbul, he earned bachelor’s and master’s degrees at the London School of Economics and a Ph.D. in economics from Princeton in 1973."
+          ]
+        },
+        {
+          "name": "Princeton",
+          "quotes": [
+            "Born Jan. 10, 1949, in Istanbul, he earned bachelor’s and master’s degrees at the London School of Economics and a Ph.D. in economics from Princeton in 1973."
+          ]
+        },
+        {
+          "name": "United Nations Development Program",
+          "quotes": [
+            "In 2005, Secretary-General Kofi Annan chose him to lead the United Nations Development Program, becoming the first person to lead the office who was from a country that had received aid from it."
+          ]
+        },
+        {
+          "name": "Brookings Institution",
+          "quotes": [
+            "After four years at the United Nations, Kemal joined the Brookings Institution as the director and vice president of the global economy and development program and was a nonresident distinguished fellow."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "minister of the economy",
+          "quotes": [
+            "Between 2002 and 2020, his economic policies set the basis of major economic development in Turkey, where he took the newly created post of minister of the economy."
+          ]
+        },
+        {
+          "title": "lead the United Nations Development Program",
+          "quotes": [
+            "In 2005, Secretary-General Kofi Annan chose him to lead the United Nations Development Program, becoming the first person to lead the office who was from a country that had received aid from it."
+          ]
+        },
+        {
+          "title": "director and vice president of the global economy and development program",
+          "quotes": [
+            "After four years at the United Nations, Kemal joined the Brookings Institution as the director and vice president of the global economy and development program and was a nonresident distinguished fellow."
+          ]
+        },
+        {
+          "title": "nonresident distinguished fellow",
+          "quotes": [
+            "After four years at the United Nations, Kemal joined the Brookings Institution as the director and vice president of the global economy and development program and was a nonresident distinguished fellow."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Bethesda, Md.",
+          "quotes": [
+            "Kemal died of neurodegenerative disease May 7, 2023, in Bethesda, Md."
+          ]
+        },
+        {
+          "place": "Istanbul",
+          "quotes": [
+            "Born Jan. 10, 1949, in Istanbul, he earned bachelor’s and master’s degrees at the London School of Economics and a Ph.D. in economics from Princeton in 1973."
+          ]
+        },
+        {
+          "place": "Turkey",
+          "quotes": [
+            "Between 2002 and 2020, his economic policies set the basis of major economic development in Turkey, where he took the newly created post of minister of the economy."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1,
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "Between 2002 and 2020, his economic policies set the basis of major economic development in Turkey, where he took the newly created post of minister of the economy.",
+          "Born Jan. 10, 1949, in Istanbul, he earned bachelor’s and master’s degrees at the London School of Economics and a Ph.D. in economics from Princeton in 1973."
+        ],
+        "confidence": "high",
+        "notes": "Role and time period clearly linked to Turkey, but no specific organization mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2005, Secretary-General Kofi Annan chose him to lead the United Nations Development Program, becoming the first person to lead the office who was from a country that had received aid from it."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role, organization, and time marker."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          2,
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "After four years at the United Nations, Kemal joined the Brookings Institution as the director and vice president of the global economy and development program and was a nonresident distinguished fellow."
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker, but roles and organization are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Kemal worked in various posts for the World Bank for two decades."
+        ],
+        "confidence": "low",
+        "notes": "No specific time marker or role mentioned, but organization is clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Born Jan. 10, 1949, in Istanbul, he earned bachelor’s and master’s degrees at the London School of Economics and a Ph.D. in economics from Princeton in 1973."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time marker, organization, and educational achievement."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information despite clear linkage to Turkey and role as minister of the economy."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for roles at Brookings Institution."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing time marker and role information for World Bank positions."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "error",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "high",
+            "description": "Event classified as career_position but describes educational achievement, not a professional role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 1,
+      "warnings": 3,
+      "errors": 1,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "status": "success",
+  "chunk_id": 561,
+  "chunk_index": 61,
+  "source_url": "https://issafrica.s3.amazonaws.com/site/uploads/Book-2015-Salim.pdf",
+  "title": "Book-2015-Salim.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1991",
+          "type": "point",
+          "quotes": [
+            "The Abuja Treaty of 1991, as it was known (the Treaty Establishing the African Economic Community)"
+          ]
+        },
+        {
+          "text": "1993",
+          "type": "point",
+          "quotes": [
+            "the 1993 Cairo Declaration, which established the OAU Mechanism for Conflict Prevention, Management and Resolution"
+          ]
+        },
+        {
+          "text": "1990",
+          "type": "point",
+          "quotes": [
+            "the 1990 report was well received, and the assembly discussed the report and came up with the Declaration on the Political and Socio-Economic Situation in Africa and the Fundamental Changes Taking Place in the World."
+          ]
+        },
+        {
+          "text": "1980s",
+          "type": "range",
+          "quotes": [
+            "If the 1980s are referred as a lost decade in economic terms for the African continent"
+          ]
+        },
+        {
+          "text": "1990s",
+          "type": "range",
+          "quotes": [
+            "the 1990s were arguably the most unstable and violent."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "OAU",
+          "quotes": [
+            "the OAU to review its priorities in the world order marked by increasing complexities and uncertainties",
+            "Getting a decision or declaration passed by the OAU Council of Ministers or the assembly was a difficult task.",
+            "Salim’s leadership at the OAU would begin with the protracted process of laying the legal and structural foundation for a more proactive organisation",
+            "These efforts eventually led to the OAU being transformed into the AU."
+          ]
+        },
+        {
+          "name": "African Economic Community",
+          "quotes": [
+            "the Treaty Establishing the African Economic Community",
+            "Economic integration through the African Economic Community"
+          ]
+        },
+        {
+          "name": "OAU Mechanism for Conflict Prevention, Management and Resolution",
+          "quotes": [
+            "the 1993 Cairo Declaration, which established the OAU Mechanism for Conflict Prevention, Management and Resolution",
+            "the vigorous pursuit of peace and stability for the African continent through its Mechanism for Conflict Prevention, Management and Resolution"
+          ]
+        },
+        {
+          "name": "AU",
+          "quotes": [
+            "These efforts eventually led to the OAU being transformed into the AU."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "secretary-general",
+          "quotes": [
+            "However, unlike other proposals made by the secretary-general, the 1990 report was well received"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Africa",
+          "quotes": [
+            "Africa was making little progress and found itself deep in poverty, debt and dependency.",
+            "the need for Africa to reposition itself urgently in a new global order.",
+            "Africa had to adapt to the changes taking place globally.",
+            "Africa could not be ignored if it acted collectively.",
+            "a lost decade in economic terms for the African continent"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "However, unlike other proposals made by the secretary-general, the 1990 report was well received",
+          "the 1990 report was well received, and the assembly discussed the report and came up with the Declaration on the Political and Socio-Economic Situation in Africa and the Fundamental Changes Taking Place in the World."
+        ],
+        "confidence": "high",
+        "notes": "The secretary-general role is clearly associated with the OAU through the 1990 report and its reception."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Salim’s leadership at the OAU would begin with the protracted process of laying the legal and structural foundation for a more proactive organisation"
+        ],
+        "confidence": "medium",
+        "notes": "While the exact time is not specified, the context suggests this is a leadership role at the OAU, likely following the 1990 report."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing specific time marker for the event, only linked to '1990' which is associated with the report but not explicitly with the career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quotes mention the secretary-general role but do not explicitly state it as a career position held by the individual."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing time marker for the event, making it difficult to place the career position in a timeline."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quote mentions leadership at the OAU but does not explicitly confirm the role or time period."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

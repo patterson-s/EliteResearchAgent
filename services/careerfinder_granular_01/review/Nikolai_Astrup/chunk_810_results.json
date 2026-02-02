@@ -1,0 +1,128 @@
+{
+  "status": "success",
+  "chunk_id": 810,
+  "chunk_index": 0,
+  "source_url": "https://www.norway.no/en/missions/wto-un/latest-news/new-minister-of-international-development/",
+  "title": "New Minister of International Development - Norway in Geneva",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Permanent Missions to the UN and WTO/EFTA",
+          "quotes": [
+            "Permanent Missions to the UN and WTO/EFTA"
+          ]
+        },
+        {
+          "name": "UN",
+          "quotes": [
+            "development cooperation with the UN system"
+          ]
+        },
+        {
+          "name": "World Bank",
+          "quotes": [
+            "development cooperation with the UN system, the World Bank, regional development banks and other global funds and programs"
+          ]
+        },
+        {
+          "name": "Norad",
+          "quotes": [
+            "as well as Norad, Fredskorpset and Norfund"
+          ]
+        },
+        {
+          "name": "Fredskorpset",
+          "quotes": [
+            "as well as Norad, Fredskorpset and Norfund"
+          ]
+        },
+        {
+          "name": "Norfund",
+          "quotes": [
+            "as well as Norad, Fredskorpset and Norfund"
+          ]
+        },
+        {
+          "name": "Norwegian Ministry of Foreign Affairs",
+          "quotes": [
+            "Norwegian Ministry of Foreign Affairs"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Minister of International Development",
+          "quotes": [
+            "New Minister of International Development",
+            "Astrup assumes responsibility for development policy work"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Geneva",
+          "quotes": [
+            "New Minister of International Development - Norway in Geneva"
+          ]
+        },
+        {
+          "place": "Norway",
+          "quotes": [
+            "New Minister of International Development - Norway in Geneva"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          6
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "New Minister of International Development",
+          "Astrup assumes responsibility for development policy work",
+          "New Minister of International Development - Norway in Geneva"
+        ],
+        "confidence": "high",
+        "notes": "No time markers available, but organization, role, and location are clearly linked through quotes."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the career position event, making temporal coherence impossible to verify."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

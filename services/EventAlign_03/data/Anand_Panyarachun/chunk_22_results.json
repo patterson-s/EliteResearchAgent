@@ -1,0 +1,149 @@
+{
+  "status": "success",
+  "chunk_id": 22,
+  "chunk_index": 0,
+  "source_url": "https://www.cfr.org/blog/anand-panyarachun-and-making-modern-thailand-review",
+  "title": "Anand Panyarachun and The Making of Modern Thailand: A Review | Council on Foreign Relations",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "between the 1960s and 1990s",
+          "type": "range",
+          "quotes": [
+            "Anand Panyarachun, the former prime minister of Thailand and a long-time central figure in Thai politics, belongs to an old generation of Thai technocrats, who shaped Thailand’s economic and political developments between the 1960s and 1990s."
+          ]
+        },
+        {
+          "text": "since the early 1980s",
+          "type": "open",
+          "quotes": [
+            "Faulder is a veteran journalist and foreign correspondent, who has been based in Thailand since the early 1980s."
+          ]
+        },
+        {
+          "text": "mid-1970s",
+          "type": "point",
+          "quotes": [
+            "Particularly well documented in Faulder’s Anand biography are the politically turbulent mid-1970s, which were marked by the end of the Vietnam War and withdrawal"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Council on Foreign Relations",
+          "quotes": [
+            "Anand Panyarachun and The Making of Modern Thailand: A Review | Council on Foreign Relations"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "former prime minister of Thailand",
+          "quotes": [
+            "Anand Panyarachun, the former prime minister of Thailand and a long-time central figure in Thai politics, belongs to an old generation of Thai technocrats, who shaped Thailand’s economic and political developments between the 1960s and 1990s."
+          ]
+        },
+        {
+          "title": "prime minister",
+          "quotes": [
+            "This tension, however did not prevent him from accepting General Suchinda Kraprayoon’s offer to be appointed Thailand’s prime minister following the 1991 military coup."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Thailand",
+          "quotes": [
+            "Anand Panyarachun, the former prime minister of Thailand and a long-time central figure in Thai politics, belongs to an old generation of Thai technocrats, who shaped Thailand’s economic and political developments between the 1960s and 1990s."
+          ]
+        },
+        {
+          "place": "Europe and the United States",
+          "quotes": [
+            "Educated almost exclusively in Europe and the United States, these technocrats had stellar careers and many, like Anand, who is now eighty-six years old, continue to command immense social respect to this day, even as Thailand’s political system has broken down, with little consensus left."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Anand Panyarachun, the former prime minister of Thailand and a long-time central figure in Thai politics, belongs to an old generation of Thai technocrats, who shaped Thailand’s economic and political developments between the 1960s and 1990s."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, role, and location in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "This tension, however did not prevent him from accepting General Suchinda Kraprayoon’s offer to be appointed Thailand’s prime minister following the 1991 military coup."
+        ],
+        "confidence": "high",
+        "notes": "No explicit time marker, but role and location are clear and supported by the quote."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "No time marker provided for the career position."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

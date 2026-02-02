@@ -1,0 +1,268 @@
+{
+  "status": "success",
+  "chunk_id": 280,
+  "chunk_index": 5,
+  "source_url": "https://en.wikipedia.org/wiki/Enrique_V._Iglesias",
+  "title": "Enrique V. Iglesias - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "University of the Republic (Uruguay)",
+          "quotes": [
+            "University of the Republic (Uruguay) alumni"
+          ]
+        },
+        {
+          "name": "Inter-American Development Bank",
+          "quotes": [
+            "Presidents of the Inter-American Development Bank"
+          ]
+        },
+        {
+          "name": "Central Bank of Uruguay",
+          "quotes": [
+            "Presidents of the Central Bank of Uruguay"
+          ]
+        },
+        {
+          "name": "Office of Planning and Budgeting of Uruguay",
+          "quotes": [
+            "Directors of the Office of Planning and Budgeting of Uruguay"
+          ]
+        },
+        {
+          "name": "Russian Academy of Sciences",
+          "quotes": [
+            "Foreign members of the Russian Academy of Sciences"
+          ]
+        },
+        {
+          "name": "Inter-American Dialogue",
+          "quotes": [
+            "Members of the Inter-American Dialogue"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Ministers of foreign relations of Uruguay",
+          "quotes": [
+            "Ministers of foreign relations of Uruguay"
+          ]
+        },
+        {
+          "title": "Presidents of the Inter-American Development Bank",
+          "quotes": [
+            "Presidents of the Inter-American Development Bank"
+          ]
+        },
+        {
+          "title": "Presidents of the Central Bank of Uruguay",
+          "quotes": [
+            "Presidents of the Central Bank of Uruguay"
+          ]
+        },
+        {
+          "title": "Directors of the Office of Planning and Budgeting of Uruguay",
+          "quotes": [
+            "Directors of the Office of Planning and Budgeting of Uruguay"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Uruguay",
+          "quotes": [
+            "Uruguayan economists",
+            "University of the Republic (Uruguay) alumni",
+            "Ministers of foreign relations of Uruguay",
+            "Presidents of the Central Bank of Uruguay",
+            "Directors of the Office of Planning and Budgeting of Uruguay"
+          ]
+        },
+        {
+          "place": "Spain",
+          "quotes": [
+            "Knights of the Golden Fleece of Spain",
+            "Knights Grand Cross of the Order of Isabella the Catholic",
+            "Spanish economists",
+            "Spanish emigrants to Uruguay"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Presidents of the Inter-American Development Bank"
+        ],
+        "confidence": "high",
+        "notes": "Direct match between organization and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Presidents of the Central Bank of Uruguay",
+          "Uruguayan economists"
+        ],
+        "confidence": "high",
+        "notes": "Direct match between organization and role, with location context."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Directors of the Office of Planning and Budgeting of Uruguay",
+          "Uruguayan economists"
+        ],
+        "confidence": "high",
+        "notes": "Direct match between organization and role, with location context."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Ministers of foreign relations of Uruguay",
+          "Uruguayan economists"
+        ],
+        "confidence": "medium",
+        "notes": "Role without explicit organization, but strongly tied to location."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Foreign members of the Russian Academy of Sciences"
+        ],
+        "confidence": "high",
+        "notes": "Membership in academy classified as honorary without active duties."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Members of the Inter-American Dialogue"
+        ],
+        "confidence": "medium",
+        "notes": "Membership assumed honorary without explicit active duties."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers and organization for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 5,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 6,
+      "valid": 2,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 2
+    }
+  }
+}

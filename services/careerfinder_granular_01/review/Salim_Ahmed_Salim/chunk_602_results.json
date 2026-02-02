@@ -1,0 +1,100 @@
+{
+  "status": "success",
+  "chunk_id": 602,
+  "chunk_index": 5,
+  "source_url": "https://thechanzo.com/2024/09/02/dr-salim-ahmed-salim-archive-a-digital-memoir-about-africa/",
+  "title": "Dr Salim Ahmed Salim Archive: A Digital Memoir About Africa - The Chanzo",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "Saturday April 20, 2024",
+          "type": "point",
+          "quotes": [
+            "The Chanzo is hosting Digital Freedom and Innovation Day on Saturday April 20, 2024 at Makumbusho ya Taifa."
+          ]
+        },
+        {
+          "text": "November 25, 2025",
+          "type": "point",
+          "quotes": [
+            "Serikali Yapinga Idadi ya Vifo Vinavyotajwa Kufuatia Oktoba 29. Yatoa Sababu Mbalimbali za Kutototoa Takwimu za Vifo",
+            "Tanzania Dismisses ‘Protest’ Label for Oct. 29 Unrest as PM Brands Violence ‘Economic Sabotage’; Challenges Death Toll Figures",
+            "The Chanzo Morning Briefing Tanzania News – November 25, 2025"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "The Chanzo",
+          "quotes": [
+            "The Chanzo is hosting Digital Freedom and Innovation Day on Saturday April 20, 2024 at Makumbusho ya Taifa.",
+            "The Chanzo is supported by readers like you.",
+            "The Chanzo Initiative, 2025 © All Rights Reserved"
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": [
+        {
+          "place": "Makumbusho ya Taifa",
+          "quotes": [
+            "The Chanzo is hosting Digital Freedom and Innovation Day on Saturday April 20, 2024 at Makumbusho ya Taifa."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "The Chanzo is hosting Digital Freedom and Innovation Day on Saturday April 20, 2024 at Makumbusho ya Taifa."
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but the organization is hosting an event, implying an active role."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. While the organization is hosting an event, no specific role is mentioned for the individual."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classification as 'career_position' is questionable without a clear role or responsibility mentioned."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

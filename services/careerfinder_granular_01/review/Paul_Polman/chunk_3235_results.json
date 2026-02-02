@@ -1,0 +1,154 @@
+{
+  "status": "success",
+  "chunk_id": 3235,
+  "chunk_index": 11,
+  "source_url": "https://uk.linkedin.com/in/paulpolman",
+  "title": "Paul Polman - Business, campaigning, younger me nearly a priest. ‘Net Positive: how courageous companies thrive by giving more than they take’ #1 Thinkers50 | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "24th June",
+          "type": "point",
+          "quotes": [
+            "🌍 During London Climate Action Week (24th June), auctusESG convened a closed-door roundtable with the Commonwealth Secretariat in London."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "CDP",
+          "quotes": [
+            "Only 5% of companies reporting to CDP provide adequate details on funding their climate transition."
+          ]
+        },
+        {
+          "name": "SBTi",
+          "quotes": [
+            "Organizations like SBTi, CDP, and Climate Action 100+ offer tools to assess credibility and track progress."
+          ]
+        },
+        {
+          "name": "Climate Action 100+",
+          "quotes": [
+            "Organizations like SBTi, CDP, and Climate Action 100+ offer tools to assess credibility and track progress."
+          ]
+        },
+        {
+          "name": "The Mangrove Breakthrough",
+          "quotes": [
+            "Carbon Markets are important for financing protection and reforestation of mangroves, say The Mangrove Breakthrough Executive Director and Chair in this op-ed."
+          ]
+        },
+        {
+          "name": "auctusESG",
+          "quotes": [
+            "🌍 During London Climate Action Week (24th June), auctusESG convened a closed-door roundtable with the Commonwealth Secretariat in London."
+          ]
+        },
+        {
+          "name": "Commonwealth Secretariat",
+          "quotes": [
+            "🌍 During London Climate Action Week (24th June), auctusESG convened a closed-door roundtable with the Commonwealth Secretariat in London."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Executive Director and Chair",
+          "quotes": [
+            "Carbon Markets are important for financing protection and reforestation of mangroves, say The Mangrove Breakthrough Executive Director and Chair in this op-ed."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "London",
+          "quotes": [
+            "🌍 During London Climate Action Week (24th June), auctusESG convened a closed-door roundtable with the Commonwealth Secretariat in London."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Carbon Markets are important for financing protection and reforestation of mangroves, say The Mangrove Breakthrough Executive Director and Chair in this op-ed."
+        ],
+        "confidence": "high",
+        "notes": "The role of Executive Director and Chair at The Mangrove Breakthrough indicates an active leadership position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          4,
+          5
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "🌍 During London Climate Action Week (24th June), auctusESG convened a closed-door roundtable with the Commonwealth Secretariat in London."
+        ],
+        "confidence": "high",
+        "notes": "auctusESG organizing a roundtable with the Commonwealth Secretariat indicates an active organizational role, though specific roles are not mentioned."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the career position at The Mangrove Breakthrough."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for the career position related to auctusESG and the Commonwealth Secretariat."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The event is classified as a career position, but the quote only mentions organizing a roundtable, which may not clearly indicate an active, ongoing role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

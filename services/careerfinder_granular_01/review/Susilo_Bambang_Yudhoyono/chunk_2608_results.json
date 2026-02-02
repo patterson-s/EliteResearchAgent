@@ -1,0 +1,196 @@
+{
+  "status": "success",
+  "chunk_id": 2608,
+  "chunk_index": 2,
+  "source_url": "https://en.wikipedia.org/wiki/Susilo_Bambang_Yudhoyono",
+  "title": "Susilo Bambang Yudhoyono - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2009",
+          "type": "point",
+          "quotes": [
+            "2009."
+          ]
+        },
+        {
+          "text": "from 1976 to 2005",
+          "type": "range",
+          "quotes": [
+            "an insurgency which lasted from 1976 to 2005."
+          ]
+        },
+        {
+          "text": "2011",
+          "type": "point",
+          "quotes": [
+            "Yudhoyono also chaired the 18th and 19th ASEAN Summits in 2011"
+          ]
+        },
+        {
+          "text": "2014",
+          "type": "point",
+          "quotes": [
+            "was awarded the Lifetime Achievement Award (Champions of the Earth) in 2014."
+          ]
+        },
+        {
+          "text": "9 September 1949",
+          "type": "point",
+          "quotes": [
+            "Susilo Bambang Yudhoyono was born on 9 September 1949,"
+          ]
+        },
+        {
+          "text": "4 August 2001",
+          "type": "point",
+          "quotes": [
+            "Raden Soekotjo (1925 – 4 August 2001),"
+          ]
+        },
+        {
+          "text": "30 June 1932 – 30 August 2019",
+          "type": "range",
+          "quotes": [
+            "Siti Habibah (30 June 1932 – 30 August 2019)."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "ASEAN Summits",
+          "quotes": [
+            "Yudhoyono also chaired the 18th and 19th ASEAN Summits in 2011"
+          ]
+        },
+        {
+          "name": "Klub Rajawali",
+          "quotes": [
+            "he and his friends established a volleyball club called Klub Rajawali"
+          ]
+        },
+        {
+          "name": "Gaya Teruna",
+          "quotes": [
+            "a band called Gaya Teruna."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "president",
+          "quotes": [
+            "During his tenure as president,"
+          ]
+        },
+        {
+          "title": "Father of Peace",
+          "quotes": [
+            "he was given the title \"Father of Peace.\""
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Tremas, a village in Arjosari, Pacitan Regency, East Java",
+          "quotes": [
+            "Susilo Bambang Yudhoyono was born on 9 September 1949, in Tremas, a village in Arjosari, Pacitan Regency, East Java,"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "During his tenure as president,"
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker or organization linked, but the role of 'president' indicates a career position."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "he was given the title \"Father of Peace\".",
+          "was awarded the Lifetime Achievement Award (Champions of the Earth) in 2014."
+        ],
+        "confidence": "high",
+        "notes": "The title 'Father of Peace' and the Lifetime Achievement Award are both indicators of an award or honorific."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Yudhoyono also chaired the 18th and 19th ASEAN Summits in 2011"
+        ],
+        "confidence": "high",
+        "notes": "Chairing the ASEAN Summits indicates an active role, classifying this as a career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and organization information, though the role 'president' suggests a career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, though the context suggests an active role in chairing the ASEAN Summits."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 1
+    }
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "status": "success",
+  "chunk_id": 546,
+  "chunk_index": 46,
+  "source_url": "https://issafrica.s3.amazonaws.com/site/uploads/Book-2015-Salim.pdf",
+  "title": "Book-2015-Salim.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "April 1972",
+          "type": "point",
+          "quotes": [
+            "During a Special Committee on Decolonisation meeting in Lusaka, in April 1972, Salim said that the mission had..."
+          ]
+        },
+        {
+          "text": "1974",
+          "type": "point",
+          "quotes": [
+            "One of the most significant initiatives during the Cold War period, particularly for developing countries, was known as the New International Economic Order (NIEO), which was adopted under UNGA Resolution 3201 in 1974."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "UN",
+          "quotes": [
+            "reacted to the case by arranging for a delegation of UN diplomats to travel to the areas of Guinea-Bissau that had been claimed as liberated, to determine their status – despite strong resistance by the Portuguese government."
+          ]
+        },
+        {
+          "name": "Special Committee on Decolonisation",
+          "quotes": [
+            "He then organised a high-profile meeting of the Special Committee on Decolonisation in Conakry, in neighbouring Guinea."
+          ]
+        },
+        {
+          "name": "UN Fourth Committee",
+          "quotes": [
+            "They were consequently acknowledged as ‘the authentic representatives of their respective people’13 in the UN Fourth Committee."
+          ]
+        },
+        {
+          "name": "Non-Aligned Movement",
+          "quotes": [
+            "The Non-Aligned Movement and the benefits of solidarity"
+          ]
+        },
+        {
+          "name": "UNGA",
+          "quotes": [
+            "One of the most significant initiatives during the Cold War period, particularly for developing countries, was known as the New International Economic Order (NIEO), which was adopted under UNGA Resolution 3201 in 1974."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "UN observers",
+          "quotes": [
+            "Salim ahmed Salim: Son of africa 57as UN observers, rather than simply petitioners."
+          ]
+        },
+        {
+          "title": "petitioners",
+          "quotes": [
+            "Salim ahmed Salim: Son of africa 57as UN observers, rather than simply petitioners."
+          ]
+        },
+        {
+          "title": "authentic representatives of their respective people",
+          "quotes": [
+            "They were consequently acknowledged as ‘the authentic representatives of their respective people’13 in the UN Fourth Committee."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Guinea-Bissau",
+          "quotes": [
+            "reacted to the case by arranging for a delegation of UN diplomats to travel to the areas of Guinea-Bissau that had been claimed as liberated, to determine their status – despite strong resistance by the Portuguese government."
+          ]
+        },
+        {
+          "place": "Conakry",
+          "quotes": [
+            "He then organised a high-profile meeting of the Special Committee on Decolonisation in Conakry, in neighbouring Guinea."
+          ]
+        },
+        {
+          "place": "Guinea",
+          "quotes": [
+            "He then organised a high-profile meeting of the Special Committee on Decolonisation in Conakry, in neighbouring Guinea."
+          ]
+        },
+        {
+          "place": "Lusaka",
+          "quotes": [
+            "During a Special Committee on Decolonisation meeting in Lusaka, in April 1972, Salim said that the mission had..."
+          ]
+        },
+        {
+          "place": "Cape Verde Islands",
+          "quotes": [
+            "...making it abundantly clear that the collapse of Portuguese colonialism in Guinea-Bissau and Cape Verde Islands is both inevitable and imminent."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [
+          3
+        ],
+        "supporting_quotes": [
+          "During a Special Committee on Decolonisation meeting in Lusaka, in April 1972, Salim said that the mission had..."
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but involvement in the meeting suggests a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0,
+          2
+        ],
+        "role_ids": [
+          0,
+          2
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "reacted to the case by arranging for a delegation of UN diplomats to travel to the areas of Guinea-Bissau that had been claimed as liberated, to determine their status – despite strong resistance by the Portuguese government.",
+          "They were consequently acknowledged as ‘the authentic representatives of their respective people’13 in the UN Fourth Committee.",
+          "Salim ahmed Salim: Son of africa 57as UN observers, rather than simply petitioners."
+        ],
+        "confidence": "high",
+        "notes": "Involvement with UN and UN Fourth Committee in an official capacity suggests a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [
+          1,
+          2
+        ],
+        "supporting_quotes": [
+          "He then organised a high-profile meeting of the Special Committee on Decolonisation in Conakry, in neighbouring Guinea."
+        ],
+        "confidence": "medium",
+        "notes": "Organizing a meeting suggests an active role, likely a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "One of the most significant initiatives during the Cold War period, particularly for developing countries, was known as the New International Economic Order (NIEO), which was adopted under UNGA Resolution 3201 in 1974."
+        ],
+        "confidence": "low",
+        "notes": "No specific role mentioned, but involvement with UNGA suggests a potential career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, though involvement in the meeting suggests a career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, though organizing a meeting suggests an active role."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role and location information, though involvement with UNGA suggests a potential career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quote does not explicitly mention Salim's role, only the initiative."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 1,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

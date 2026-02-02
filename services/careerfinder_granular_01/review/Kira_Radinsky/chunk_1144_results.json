@@ -1,0 +1,277 @@
+{
+  "status": "success",
+  "chunk_id": 1144,
+  "chunk_index": 0,
+  "source_url": "https://jwa.org/encyclopedia/article/radinsky-kira",
+  "title": "Kira Radinsky | Jewish Women's Archive",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2012",
+          "type": "point",
+          "quotes": [
+            "earning her PhD in 2012 at age 26."
+          ]
+        },
+        {
+          "text": "2013",
+          "type": "point",
+          "quotes": [
+            "In 2013 Radinsky co-founded and became Chief Technology Officer of SalesPredict",
+            "In 2013, she was honored by MIT Technology Review as one of the top innovators under 35."
+          ]
+        },
+        {
+          "text": "from 2016 to 2019",
+          "type": "range",
+          "quotes": [
+            "from 2016 to 2019, she worked as SalesPredict’s chief scientist and director of data science."
+          ]
+        },
+        {
+          "text": "2016",
+          "type": "point",
+          "quotes": [
+            "Radinsky became a visiting professor at Technion in 2016."
+          ]
+        },
+        {
+          "text": "Since 2021",
+          "type": "open",
+          "quotes": [
+            "Since 2021, Radinsky has served as the CEO at Diagnostic Robotics,"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Technion–Israel Institute of Technology",
+          "quotes": [
+            "Raised in Israel, Radinsky entered the Technion–Israel Institute of Technology at age fifteen.",
+            "Radinsky became a visiting professor at Technion in 2016."
+          ]
+        },
+        {
+          "name": "Israeli intelligence",
+          "quotes": [
+            "After her army service (working as a programmer for Israeli intelligence),"
+          ]
+        },
+        {
+          "name": "New York Times",
+          "quotes": [
+            "she created a software program that could analyze data from New York Times articles going back to 1880,"
+          ]
+        },
+        {
+          "name": "SalesPredict",
+          "quotes": [
+            "In 2013 Radinsky co-founded and became Chief Technology Officer of SalesPredict,",
+            "from 2016 to 2019, she worked as SalesPredict’s chief scientist and director of data science."
+          ]
+        },
+        {
+          "name": "MIT Technology Review",
+          "quotes": [
+            "In 2013, she was honored by MIT Technology Review as one of the top innovators under 35."
+          ]
+        },
+        {
+          "name": "World Economic Forum",
+          "quotes": [
+            "She is a member of the World Economic Forum."
+          ]
+        },
+        {
+          "name": "Diagnostic Robotics",
+          "quotes": [
+            "Since 2021, Radinsky has served as the CEO at Diagnostic Robotics,"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Chief Technology Officer of SalesPredict",
+          "quotes": [
+            "In 2013 Radinsky co-founded and became Chief Technology Officer of SalesPredict,"
+          ]
+        },
+        {
+          "title": "chief scientist and director of data science at SalesPredict",
+          "quotes": [
+            "from 2016 to 2019, she worked as SalesPredict’s chief scientist and director of data science."
+          ]
+        },
+        {
+          "title": "visiting professor at Technion",
+          "quotes": [
+            "Radinsky became a visiting professor at Technion in 2016."
+          ]
+        },
+        {
+          "title": "CEO at Diagnostic Robotics",
+          "quotes": [
+            "Since 2021, Radinsky has served as the CEO at Diagnostic Robotics,"
+          ]
+        },
+        {
+          "title": "programmer for Israeli intelligence",
+          "quotes": [
+            "After her army service (working as a programmer for Israeli intelligence),"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Israel",
+          "quotes": [
+            "Raised in Israel, Radinsky entered the Technion–Israel Institute of Technology at age fifteen."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "earning her PhD in 2012 at age 26."
+        ],
+        "confidence": "medium",
+        "notes": "No specific organization or role mentioned, but implies completion of PhD."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2013 Radinsky co-founded and became Chief Technology Officer of SalesPredict"
+        ],
+        "confidence": "high",
+        "notes": "Clear role and organization mentioned."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2013, she was honored by MIT Technology Review as one of the top innovators under 35."
+        ],
+        "confidence": "high",
+        "notes": "Clear award indicator with no ongoing responsibilities."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "from 2016 to 2019, she worked as SalesPredict’s chief scientist and director of data science."
+        ],
+        "confidence": "high",
+        "notes": "Clear role and organization mentioned with specific time range."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Radinsky became a visiting professor at Technion in 2016."
+        ],
+        "confidence": "high",
+        "notes": "Clear role and organization mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          6
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Since 2021, Radinsky has served as the CEO at Diagnostic Robotics,"
+        ],
+        "confidence": "high",
+        "notes": "Clear role and organization mentioned with ongoing responsibilities."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "After her army service (working as a programmer for Israeli intelligence),"
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker, but implies past role with Israeli intelligence."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "She is a member of the World Economic Forum."
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker, but implies ongoing membership."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [],
+    "summary": {}
+  }
+}

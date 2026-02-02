@@ -1,0 +1,180 @@
+{
+  "status": "success",
+  "chunk_id": 548,
+  "chunk_index": 48,
+  "source_url": "https://issafrica.s3.amazonaws.com/site/uploads/Book-2015-Salim.pdf",
+  "title": "Book-2015-Salim.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In 1974",
+          "type": "point",
+          "quotes": [
+            "In 1974 Salim addressed the UNGA on behalf of the African group, condemning the failure of the US, UK and France to cast their vote against the expulsion of South Africa from the UN for its consistent violation of the UN Charter and the principles of the Universal Declaration of Human Rights."
+          ]
+        },
+        {
+          "text": "in 1971",
+          "type": "point",
+          "quotes": [
+            "For example, in 1971, while chairing the UN Special Committee on Decolonization, Salim became involved in the process of regaining China’s seat in the UN."
+          ]
+        },
+        {
+          "text": "for almost two decades",
+          "type": "range",
+          "quotes": [
+            "China had, for almost two decades, unsuccessfully made efforts to have its lawful rights restored at the UN,"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "NAM",
+          "quotes": [
+            "NAM. Two other notable African leaders associated with it were President Nyerere and President Jomo Kenyatta of Kenya."
+          ]
+        },
+        {
+          "name": "UN",
+          "quotes": [
+            "At the UN, the NAM was recognised as a legitimate bloc in the same manner that the Eastern European, Western European, Asian, Latin American and African groups were recognised."
+          ]
+        },
+        {
+          "name": "UNGA",
+          "quotes": [
+            "In 1974 Salim addressed the UNGA on behalf of the African group, condemning the failure of the US, UK and France to cast their vote against the expulsion of South Africa from the UN for its consistent violation of the UN Charter and the principles of the Universal Declaration of Human Rights."
+          ]
+        },
+        {
+          "name": "African group of the United Nations",
+          "quotes": [
+            "It is my privilege to speak on behalf of the African group of the United Nations, as Chairman of that group for this month..."
+          ]
+        },
+        {
+          "name": "UN Special Committee on Decolonization",
+          "quotes": [
+            "For example, in 1971, while chairing the UN Special Committee on Decolonization, Salim became involved in the process of regaining China’s seat in the UN."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Chairman of the African group",
+          "quotes": [
+            "It is my privilege to speak on behalf of the African group of the United Nations, as Chairman of that group for this month..."
+          ]
+        },
+        {
+          "title": "diplomat",
+          "quotes": [
+            "Salim quickly established himself as a diplomat committed to the cause of self-determination and liberation for all people,"
+          ]
+        },
+        {
+          "title": "leader (from the developing world)",
+          "quotes": [
+            "and at the same time as a leader (from the developing world) dedicated to balancing out economic, political and other systems that polarised the world at that time."
+          ]
+        },
+        {
+          "title": "chairing the UN Special Committee on Decolonization",
+          "quotes": [
+            "For example, in 1971, while chairing the UN Special Committee on Decolonization, Salim became involved in the process of regaining China’s seat in the UN."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "South Africa",
+          "quotes": [
+            "condemning the failure of the US, UK and France to cast their vote against the expulsion of South Africa from the UN for its consistent violation of the UN Charter and the principles of the Universal Declaration of Human Rights."
+          ]
+        },
+        {
+          "place": "China",
+          "quotes": [
+            "Salim became involved in the process of regaining China’s seat in the UN."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "For example, in 1971, while chairing the UN Special Committee on Decolonization, Salim became involved in the process of regaining China’s seat in the UN."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          2,
+          3
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "In 1974 Salim addressed the UNGA on behalf of the African group, condemning the failure of the US, UK and France to cast their vote against the expulsion of South Africa from the UN for its consistent violation of the UN Charter and the principles of the Universal Declaration of Human Rights.",
+          "It is my privilege to speak on behalf of the African group of the United Nations, as Chairman of that group for this month..."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organizations, role, and location."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing end date for the career position, which could impact temporal coherence."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

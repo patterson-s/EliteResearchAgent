@@ -1,0 +1,240 @@
+{
+  "status": "success",
+  "chunk_id": 3641,
+  "chunk_index": 6,
+  "source_url": "https://en.wikipedia.org/wiki/Jens_Stoltenberg",
+  "title": "Jens Stoltenberg - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "27 April 2010",
+          "type": "point",
+          "quotes": [
+            "agreement on 27 April 2010 in Oslo."
+          ]
+        },
+        {
+          "text": "22 July 2011",
+          "type": "point",
+          "quotes": [
+            "On 22 July 2011, a far-right extremist committed two attacks"
+          ]
+        },
+        {
+          "text": "Sunday 24 July",
+          "type": "point",
+          "quotes": [
+            "On Sunday 24 July, Stoltenberg spoke at the church service in the Oslo Cathedral."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "State Duma",
+          "quotes": [
+            "However, the agreement still needs ratification by the State Duma and the Parliament of Norway in order to be implemented."
+          ]
+        },
+        {
+          "name": "Parliament of Norway",
+          "quotes": [
+            "However, the agreement still needs ratification by the State Duma and the Parliament of Norway in order to be implemented."
+          ]
+        },
+        {
+          "name": "United Nations Convention on Law of the Sea",
+          "quotes": [
+            "Whereas Norway had previously insisted on a border in accordance with the equidistance principle, which is recognized in international law, specifically the United Nations Convention on Law of the Sea Article 15 and the Convention on the Territorial Sea and the Contiguous Zone Article 6,"
+          ]
+        },
+        {
+          "name": "Convention on the Territorial Sea and the Contiguous Zone",
+          "quotes": [
+            "Whereas Norway had previously insisted on a border in accordance with the equidistance principle, which is recognized in international law, specifically the United Nations Convention on Law of the Sea Article 15 and the Convention on the Territorial Sea and the Contiguous Zone Article 6,"
+          ]
+        },
+        {
+          "name": "Soviet Union",
+          "quotes": [
+            "Russia invoked a Stalin-era decree of the Soviet Union from 1926, which was not recognised by any other country."
+          ]
+        },
+        {
+          "name": "NATO",
+          "quotes": [
+            "As Prime Minister, Stoltenberg worked for a constructive relationship with Russia through dialogue and cooperation underpinned by NATO's deterrence and defence capabilities."
+          ]
+        },
+        {
+          "name": "Labour Party",
+          "quotes": [
+            "About an hour later, he shot and killed 69 people at Utøya, an island forty-five minutes away where the ruling Labour Party was holding its annual youth camp."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Prime Minister",
+          "quotes": [
+            "As Prime Minister, Stoltenberg worked for a constructive relationship with Russia through dialogue and cooperation underpinned by NATO's deterrence and defence capabilities."
+          ]
+        },
+        {
+          "title": "camp's leader",
+          "quotes": [
+            "He named two of the victims at Utøya, Monica Bøsei, who was the camp's leader, and Tore Eikeland, who was the leader of the youth chapter in Hordaland."
+          ]
+        },
+        {
+          "title": "leader of the youth chapter in Hordaland",
+          "quotes": [
+            "He named two of the victims at Utøya, Monica Bøsei, who was the camp's leader, and Tore Eikeland, who was the leader of the youth chapter in Hordaland."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Oslo",
+          "quotes": [
+            "agreement on 27 April 2010 in Oslo.",
+            "a bomb went off in Oslo outside the government building which houses the prime minister's office, killing eight people while wounding others.",
+            "On Sunday 24 July, Stoltenberg spoke at the church service in the Oslo Cathedral."
+          ]
+        },
+        {
+          "place": "Utøya",
+          "quotes": [
+            "About an hour later, he shot and killed 69 people at Utøya, an island forty-five minutes away where the ruling Labour Party was holding its annual youth camp."
+          ]
+        },
+        {
+          "place": "Hordaland",
+          "quotes": [
+            "He named two of the victims at Utøya, Monica Bøsei, who was the camp's leader, and Tore Eikeland, who was the leader of the youth chapter in Hordaland."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          6
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "As Prime Minister, Stoltenberg worked for a constructive relationship with Russia through dialogue and cooperation underpinned by NATO's deterrence and defence capabilities."
+        ],
+        "confidence": "high",
+        "notes": "Prime Minister role is clearly associated with NATO and active responsibilities."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "agreement on 27 April 2010 in Oslo."
+        ],
+        "confidence": "low",
+        "notes": "No clear role or organization associated with this event, but it is mentioned as a significant agreement in Oslo."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          7
+        ],
+        "role_ids": [
+          1,
+          2
+        ],
+        "location_ids": [
+          1,
+          2
+        ],
+        "supporting_quotes": [
+          "He named two of the victims at Utøya, Monica Bøsei, who was the camp's leader, and Tore Eikeland, who was the leader of the youth chapter in Hordaland."
+        ],
+        "confidence": "high",
+        "notes": "Roles are clearly associated with the Labour Party's youth camp at Utøya and the youth chapter in Hordaland."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "On Sunday 24 July, Stoltenberg spoke at the church service in the Oslo Cathedral."
+        ],
+        "confidence": "high",
+        "notes": "Prime Minister Stoltenberg's activity in Oslo is clearly a part of his official duties."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and role information, making the event incomplete."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing organization information, though the role and location are clear."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 2,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

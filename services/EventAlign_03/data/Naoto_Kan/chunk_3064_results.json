@@ -1,0 +1,86 @@
+{
+  "status": "success",
+  "chunk_id": 3064,
+  "chunk_index": 2,
+  "source_url": "https://www.bbc.com/news/10228471",
+  "title": "Profile: Naoto Kan - BBC News",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "BBC",
+          "quotes": [
+            "BBC chairman survives MPs' questions â but crisis at corporation is not over",
+            "Historian criticises BBC for removing Trump line from Radio 4 lecture"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "BBC chairman",
+          "quotes": [
+            "BBC chairman survives MPs' questions â but crisis at corporation is not over"
+          ]
+        },
+        {
+          "title": "Justice secretary",
+          "quotes": [
+            "Justice secretary wants jury trials scrapped except in most serious cases"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "BBC chairman survives MPs' questions â but crisis at corporation is not over"
+        ],
+        "confidence": "high",
+        "notes": "Role and organization are clearly linked in the same quote."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the event, making temporal coherence impossible to verify."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing location information, which may be expected for a career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

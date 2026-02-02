@@ -1,0 +1,193 @@
+{
+  "status": "success",
+  "chunk_id": 1149,
+  "chunk_index": 1,
+  "source_url": "https://pmwcintl.com/speaker/kira-radinsky-314_diagnostic-robotics_2025sv/",
+  "title": "Kira Radinsky  - 2025sv  - PMWC Precision Medicine World Conference",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2016",
+          "type": "point",
+          "quotes": [
+            "The company was acquired by eBay in 2016"
+          ]
+        },
+        {
+          "text": "until 2017",
+          "type": "range",
+          "quotes": [
+            "Radinsky continued to work with eBay as its director of data science until 2017"
+          ]
+        },
+        {
+          "text": "February 5 9.00 A.M.-3.45 P.M., February 6 9.45 A.M.-4.00 P.M., February 7 11.15 A.M.-2.00 P.M.",
+          "type": "range",
+          "quotes": [
+            "Showcase Track S1 - February 5 9.00 A.M.-3.45 P.M.,Showcase Track S1 - February 6 9.45 A.M.-4.00 P.M.,Showcase Track S1 - February 7 11.15 A.M.-2.00 P.M."
+          ]
+        },
+        {
+          "text": "PMWC 2025",
+          "type": "point",
+          "quotes": [
+            "Session Abstract – PMWC 2025 Silicon Valley"
+          ]
+        },
+        {
+          "text": "by NOV. 26TH",
+          "type": "point",
+          "quotes": [
+            "Apply to Speak at PMWC Silicon Valley by NOV. 26TH"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "eBay",
+          "quotes": [
+            "The company was acquired by eBay in 2016",
+            "Radinsky continued to work with eBay as its director of data science until 2017"
+          ]
+        },
+        {
+          "name": "Diagnostic Robotics",
+          "quotes": [
+            "She has since founded Diagnostic Robotics, a healthcare analytics solution company focused on using machine learning and other advanced technologies to make healthcare more efficient, effective, and accessible.",
+            "Diagnostic Robotics exists to bring trusted, leading edge, proactive analytics and tools to healthcare."
+          ]
+        },
+        {
+          "name": "PMWC",
+          "quotes": [
+            "Session Abstract – PMWC 2025 Silicon Valley",
+            "Apply to Speak at PMWC Silicon Valley by NOV. 26TH"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "director of data science",
+          "quotes": [
+            "Radinsky continued to work with eBay as its director of data science until 2017"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Silicon Valley",
+          "quotes": [
+            "Session Abstract – PMWC 2025 Silicon Valley",
+            "Apply to Speak at PMWC Silicon Valley by NOV. 26TH"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The company was acquired by eBay in 2016",
+          "Radinsky continued to work with eBay as its director of data science until 2017"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time markers, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "She has since founded Diagnostic Robotics, a healthcare analytics solution company focused on using machine learning and other advanced technologies to make healthcare more efficient, effective, and accessible.",
+          "Diagnostic Robotics exists to bring trusted, leading edge, proactive analytics and tools to healthcare."
+        ],
+        "confidence": "high",
+        "notes": "Founding an organization implies a career position, though specific role is not mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3,
+          4
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Session Abstract – PMWC 2025 Silicon Valley",
+          "Apply to Speak at PMWC Silicon Valley by NOV. 26TH"
+        ],
+        "confidence": "medium",
+        "notes": "Involvement with PMWC suggests a career position, but specific role is unclear."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers and role for the career position at Diagnostic Robotics."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role for the career position at PMWC."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quotes do not clearly indicate an active career position, but rather involvement in an event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

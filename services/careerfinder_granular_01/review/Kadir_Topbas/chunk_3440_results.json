@@ -1,0 +1,144 @@
+{
+  "status": "success",
+  "chunk_id": 3440,
+  "chunk_index": 3,
+  "source_url": "http://www.citymayors.com/mayors/istanbul-mayor.html",
+  "title": "City Mayors: Kadir Topbas - Mayor of Istanbul",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2004",
+          "type": "point",
+          "quotes": [
+            "Topbas was first elected in the 2004 elections for the mayoralty of Greater Istanbul on behalf of the governing Justice and Development Party."
+          ]
+        },
+        {
+          "text": "2009",
+          "type": "point",
+          "quotes": [
+            "He received a second term in the 2009 local elections, albeit having faced a close challenge from a left of centre opponent."
+          ]
+        },
+        {
+          "text": "2007",
+          "type": "point",
+          "quotes": [
+            "In 2007 he became co-president of the United Cities and Local Governments organisation."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Justice and Development Party",
+          "quotes": [
+            "Topbas was first elected in the 2004 elections for the mayoralty of Greater Istanbul on behalf of the governing Justice and Development Party."
+          ]
+        },
+        {
+          "name": "United Cities and Local Governments",
+          "quotes": [
+            "In 2007 he became co-president of the United Cities and Local Governments organisation."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "mayor of Greater Istanbul",
+          "quotes": [
+            "Topbas was first elected in the 2004 elections for the mayoralty of Greater Istanbul on behalf of the governing Justice and Development Party."
+          ]
+        },
+        {
+          "title": "co-president of the United Cities and Local Governments",
+          "quotes": [
+            "In 2007 he became co-president of the United Cities and Local Governments organisation."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Greater Istanbul",
+          "quotes": [
+            "Topbas was first elected in the 2004 elections for the mayoralty of Greater Istanbul on behalf of the governing Justice and Development Party."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Topbas was first elected in the 2004 elections for the mayoralty of Greater Istanbul on behalf of the governing Justice and Development Party.",
+          "He received a second term in the 2009 local elections, albeit having faced a close challenge from a left of centre opponent."
+        ],
+        "confidence": "high",
+        "notes": "The role of mayor is clearly a career position, and the time markers indicate a continuous term from 2004 to at least 2009."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2007 he became co-president of the United Cities and Local Governments organisation."
+        ],
+        "confidence": "high",
+        "notes": "The role of co-president is a leadership position within an organization, indicating an active career role."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information for the role of co-president."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

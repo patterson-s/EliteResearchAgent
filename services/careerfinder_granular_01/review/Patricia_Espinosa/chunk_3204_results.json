@@ -1,0 +1,210 @@
+{
+  "status": "success",
+  "chunk_id": 3204,
+  "chunk_index": 0,
+  "source_url": "https://giwps.georgetown.edu/awardee/patricia-espinosa/",
+  "title": "Patricia Espinosa - Georgetown Institute for Women, Peace and Security",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "from 2006 to 2012",
+          "type": "range",
+          "quotes": [
+            "as Minister of Foreign Affairs of Mexico from 2006 to 2012"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Georgetown Institute for Women, Peace and Security",
+          "quotes": [
+            "Patricia Espinosa - Georgetown Institute for Women, Peace and Security"
+          ]
+        },
+        {
+          "name": "United Nations Framework Convention on Climate Change (UNFCCC)",
+          "quotes": [
+            "currently serving as the executive secretary of the United Nations Framework Convention on Climate Change (UNFCCC)"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "executive secretary of the United Nations Framework Convention on Climate Change (UNFCCC)",
+          "quotes": [
+            "currently serving as the executive secretary of the United Nations Framework Convention on Climate Change (UNFCCC)"
+          ]
+        },
+        {
+          "title": "Mexican Ambassador to Germany, Austria, Slovenia and Slovakia",
+          "quotes": [
+            "Previously, she served as the Mexican Ambassador to Germany, Austria, Slovenia and Slovakia"
+          ]
+        },
+        {
+          "title": "Minister of Foreign Affairs of Mexico",
+          "quotes": [
+            "as Minister of Foreign Affairs of Mexico from 2006 to 2012"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Germany",
+          "quotes": [
+            "Mexican Ambassador to Germany, Austria, Slovenia and Slovakia"
+          ]
+        },
+        {
+          "place": "Austria",
+          "quotes": [
+            "Mexican Ambassador to Germany, Austria, Slovenia and Slovakia"
+          ]
+        },
+        {
+          "place": "Slovenia",
+          "quotes": [
+            "Mexican Ambassador to Germany, Austria, Slovenia and Slovakia"
+          ]
+        },
+        {
+          "place": "Slovakia",
+          "quotes": [
+            "Mexican Ambassador to Germany, Austria, Slovenia and Slovakia"
+          ]
+        },
+        {
+          "place": "Mexico",
+          "quotes": [
+            "Minister of Foreign Affairs of Mexico"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          4
+        ],
+        "supporting_quotes": [
+          "as Minister of Foreign Affairs of Mexico from 2006 to 2012",
+          "Minister of Foreign Affairs of Mexico"
+        ],
+        "confidence": "high",
+        "notes": "Clear role and time marker with location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "supporting_quotes": [
+          "Previously, she served as the Mexican Ambassador to Germany, Austria, Slovenia and Slovakia",
+          "Mexican Ambassador to Germany, Austria, Slovenia and Slovakia"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time marker, but role and locations are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "currently serving as the executive secretary of the United Nations Framework Convention on Climate Change (UNFCCC)"
+        ],
+        "confidence": "high",
+        "notes": "Current role with clear organization and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Patricia Espinosa - Georgetown Institute for Women, Peace and Security"
+        ],
+        "confidence": "low",
+        "notes": "Affiliation unclear, assumed as a career position due to lack of award indicators."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing role and unclear affiliation, assumed as career position but uncertain."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classification as career_position is uncertain due to lack of clear role or award indicators."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 2,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

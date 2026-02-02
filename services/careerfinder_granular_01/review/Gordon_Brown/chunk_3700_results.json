@@ -1,0 +1,157 @@
+{
+  "status": "success",
+  "chunk_id": 3700,
+  "chunk_index": 3,
+  "source_url": "https://en.wikipedia.org/wiki/Gordon_Brown",
+  "title": "Gordon Brown - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1999–2002",
+          "type": "range",
+          "quotes": [
+            "Sale of UK gold reserves, 1999–2002"
+          ]
+        },
+        {
+          "text": "1914–1998",
+          "type": "range",
+          "quotes": [
+            "His father was John Ebenezer Brown (1914–1998), a minister of the Church of Scotland"
+          ]
+        },
+        {
+          "text": "1918–2004",
+          "type": "range",
+          "quotes": [
+            "His mother was Jessie Elizabeth \"Bunty\" Brown (née Souter; 1918–2004)"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Church of Scotland",
+          "quotes": [
+            "His father was John Ebenezer Brown (1914–1998), a minister of the Church of Scotland"
+          ]
+        },
+        {
+          "name": "Kirkcaldy West Primary School",
+          "quotes": [
+            "Brown was educated first at Kirkcaldy West Primary School, where he was selected for an experimental fast stream education programme"
+          ]
+        },
+        {
+          "name": "Kirkcaldy High School",
+          "quotes": [
+            "which took him two years early to Kirkcaldy High School for an academic hothouse education"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Chancellor of the Exchequer",
+          "quotes": [
+            "Chancellor of the Exchequer"
+          ]
+        },
+        {
+          "title": "Prime Minister of the United Kingdom",
+          "quotes": [
+            "Prime Minister of the United Kingdom"
+          ]
+        },
+        {
+          "title": "minister of the Church of Scotland",
+          "quotes": [
+            "His father was John Ebenezer Brown (1914–1998), a minister of the Church of Scotland"
+          ]
+        },
+        {
+          "title": "MP for Kirkcaldy and Cowdenbeath",
+          "quotes": [
+            "MP for Kirkcaldy and Cowdenbeath"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Giffnock, Renfrewshire, Scotland",
+          "quotes": [
+            "James Gordon Brown was born at the Orchard Maternity Nursing Home in Giffnock, Renfrewshire, Scotland"
+          ]
+        },
+        {
+          "place": "Kirkcaldy, Fife",
+          "quotes": [
+            "The family moved to Kirkcaldy – then the largest town in Fife, across the Firth of Forth from Edinburgh – when Gordon was three"
+          ]
+        },
+        {
+          "place": "Edinburgh",
+          "quotes": [
+            "The family moved to Kirkcaldy – then the largest town in Fife, across the Firth of Forth from Edinburgh – when Gordon was three"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "His father was John Ebenezer Brown (1914–1998), a minister of the Church of Scotland"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time marker, organization, and role."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "error",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "high",
+            "description": "Time marker '1999–2002' does not align with the context of the supporting quote, which refers to a different time period (1914–1998)."
+          },
+          {
+            "type": "quote_support",
+            "severity": "high",
+            "description": "Supporting quote mentions the father's role and time period, not the event subject's career position."
+          },
+          {
+            "type": "classification",
+            "severity": "high",
+            "description": "Event classified as 'career_position' but the role 'minister of the Church of Scotland' is attributed to the subject's father, not the subject themselves."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 0,
+      "errors": 1,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

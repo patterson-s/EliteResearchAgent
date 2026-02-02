@@ -1,0 +1,142 @@
+{
+  "status": "success",
+  "chunk_id": 370,
+  "chunk_index": 8,
+  "source_url": "https://corporatecitizen.in/v4-issue10/cover-story-dynamic-duo-75-indira-and%20-lt-gen-sat%20ish-nambiar-retd-breaking-barriers.html",
+  "title": "Cover Story: Dynamic Duo: 75 Indira and Lt. Gen.Satish Nambiar (retd) Breaking Barriers",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "3rd March 1992 to 2nd March 1993",
+          "type": "range",
+          "quotes": [
+            "First Force Commander and Head of Mission of the UN Peacekeeping Forces in the former Yugoslavia: 3rd March 1992 to 2nd March 1993."
+          ]
+        },
+        {
+          "text": "1984",
+          "type": "point",
+          "quotes": [
+            "As Military Adviser, High Commission of India: 1984."
+          ]
+        },
+        {
+          "text": "back in the fifties",
+          "type": "point",
+          "quotes": [
+            "Even back in the fifties when I completed my school and college, the brighter chaps always opted for the corporate world as there was more money."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "UN Peacekeeping Forces",
+          "quotes": [
+            "First Force Commander and Head of Mission of the UN Peacekeeping Forces in the former Yugoslavia: 3rd March 1992 to 2nd March 1993."
+          ]
+        },
+        {
+          "name": "High Commission of India",
+          "quotes": [
+            "As Military Adviser, High Commission of India: 1984."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "First Force Commander and Head of Mission",
+          "quotes": [
+            "First Force Commander and Head of Mission of the UN Peacekeeping Forces in the former Yugoslavia: 3rd March 1992 to 2nd March 1993."
+          ]
+        },
+        {
+          "title": "Military Adviser",
+          "quotes": [
+            "As Military Adviser, High Commission of India: 1984."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "former Yugoslavia",
+          "quotes": [
+            "First Force Commander and Head of Mission of the UN Peacekeeping Forces in the former Yugoslavia: 3rd March 1992 to 2nd March 1993."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "First Force Commander and Head of Mission of the UN Peacekeeping Forces in the former Yugoslavia: 3rd March 1992 to 2nd March 1993."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "As Military Adviser, High Commission of India: 1984."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role. No location mentioned."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information, though it may not be critical for this role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

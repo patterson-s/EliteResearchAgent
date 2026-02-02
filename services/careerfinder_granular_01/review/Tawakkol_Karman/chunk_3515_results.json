@@ -1,0 +1,80 @@
+{
+  "status": "success",
+  "chunk_id": 3515,
+  "chunk_index": 3,
+  "source_url": "https://www.tawakkolkarman.net/",
+  "title": "Home",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "From 1978 To 2012",
+          "type": "range",
+          "quotes": [
+            "She Played A Pivotal Role In Pressuring Former Yemeni President Ali Abdullah Saleh, Who Ruled From 1978 To 2012, To Relinquish Power."
+          ]
+        }
+      ],
+      "organizations": [],
+      "roles": [
+        {
+          "title": "Former Yemeni President",
+          "quotes": [
+            "She Played A Pivotal Role In Pressuring Former Yemeni President Ali Abdullah Saleh, Who Ruled From 1978 To 2012, To Relinquish Power."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "She Played A Pivotal Role In Pressuring Former Yemeni President Ali Abdullah Saleh, Who Ruled From 1978 To 2012, To Relinquish Power."
+        ],
+        "confidence": "high",
+        "notes": "The role of 'Former Yemeni President' is clearly a career position, and the time marker directly relates to this role."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The role 'Former Yemeni President' is classified as a career_position, but the quote describes pressuring the president to relinquish power, which does not clearly indicate an active career role for the subject of the event."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "The event lacks organization and location information, which is unexpected for a career_position event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

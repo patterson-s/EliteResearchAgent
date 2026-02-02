@@ -1,0 +1,115 @@
+{
+  "status": "success",
+  "chunk_id": 2969,
+  "chunk_index": 2,
+  "source_url": "https://www.jeronimomartins.com/en/investors/governance/corporate-bodies/board-of-directors/maria-angela-holguin/",
+  "title": "María Ángela Holguín | Board of Directors | Jerónimo Martins",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "since 11 April 2019",
+          "type": "open",
+          "quotes": [
+            "part of the Group) and is a non-executive director of the Company since 11 April 2019."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Jerónimo Martins",
+          "quotes": [
+            "Jerónimo Martins is a Portugal-based international Group operating in the Food Distribution and Specialised Retail sectors.",
+            "Registered at the Commercial Registry Office of Lisbon.",
+            "Copyright © 2025 Jerónimo Martins - All rights reserved"
+          ]
+        },
+        {
+          "name": "Commercial Registry Office of Lisbon",
+          "quotes": [
+            "Registered at the Commercial Registry Office of Lisbon."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "non-executive director",
+          "quotes": [
+            "part of the Group) and is a non-executive director of the Company since 11 April 2019."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Portugal",
+          "quotes": [
+            "Jerónimo Martins is a Portugal-based international Group operating in the Food Distribution and Specialised Retail sectors."
+          ]
+        },
+        {
+          "place": "Lisbon",
+          "quotes": [
+            "Registered at the Commercial Registry Office of Lisbon."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0,
+          1
+        ],
+        "supporting_quotes": [
+          "part of the Group) and is a non-executive director of the Company since 11 April 2019.",
+          "Jerónimo Martins is a Portugal-based international Group operating in the Food Distribution and Specialised Retail sectors.",
+          "Registered at the Commercial Registry Office of Lisbon."
+        ],
+        "confidence": "high",
+        "notes": "The role of non-executive director is clearly linked to Jerónimo Martins and the time marker is explicit."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing end_date for the career position, which is marked as 'open' but may need clarification for completeness."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "The quote mentions 'the Company' instead of explicitly stating 'Jerónimo Martins' in the role description, though context strongly suggests it."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "status": "success",
+  "chunk_id": 3770,
+  "chunk_index": 0,
+  "source_url": "https://oralhistory.worldbank.org/person/el-ashry-mohamed-t",
+  "title": "History",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1940 - 2023",
+          "type": "range",
+          "quotes": [
+            "1940 - 2023"
+          ]
+        },
+        {
+          "text": "1991 - 2003",
+          "type": "range",
+          "quotes": [
+            "Bank Tenure 1991 - 2003"
+          ]
+        },
+        {
+          "text": "1991 - 1993",
+          "type": "range",
+          "quotes": [
+            "Director - Environment Department, 1991 - 1993;"
+          ]
+        },
+        {
+          "text": "1993 - 1994",
+          "type": "range",
+          "quotes": [
+            "Chief Environmental Advisor to the President, Environment Department, 1993 - 1994;"
+          ]
+        },
+        {
+          "text": "1994 - 2003",
+          "type": "range",
+          "quotes": [
+            "Chief Executive Officer and Chairman, Global Environment Facility, 1994 - 2003."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Environment Department",
+          "quotes": [
+            "Director - Environment Department, 1991 - 1993;",
+            "Chief Environmental Advisor to the President, Environment Department, 1993 - 1994;"
+          ]
+        },
+        {
+          "name": "Global Environment Facility",
+          "quotes": [
+            "Chief Executive Officer and Chairman, Global Environment Facility, 1994 - 2003."
+          ]
+        },
+        {
+          "name": "World Bank Group",
+          "quotes": [
+            "World Bank Group Information Research Guide"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Director - Environment Department",
+          "quotes": [
+            "Director - Environment Department, 1991 - 1993;"
+          ]
+        },
+        {
+          "title": "Chief Environmental Advisor to the President",
+          "quotes": [
+            "Chief Environmental Advisor to the President, Environment Department, 1993 - 1994;"
+          ]
+        },
+        {
+          "title": "Chief Executive Officer and Chairman",
+          "quotes": [
+            "Chief Executive Officer and Chairman, Global Environment Facility, 1994 - 2003."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Director - Environment Department, 1991 - 1993;"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Chief Environmental Advisor to the President, Environment Department, 1993 - 1994;"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Chief Executive Officer and Chairman, Global Environment Facility, 1994 - 2003."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role"
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 3,
+      "warnings": 0,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

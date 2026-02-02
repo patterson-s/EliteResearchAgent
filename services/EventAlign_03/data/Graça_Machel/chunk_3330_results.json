@@ -1,0 +1,197 @@
+{
+  "status": "success",
+  "chunk_id": 3330,
+  "chunk_index": 0,
+  "source_url": "https://theelders.org/profile/graca-machel",
+  "title": "Graça Machel",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "The Elders",
+          "quotes": [
+            "Deputy Chair of The Elders",
+            "co-founder of The Elders",
+            "As Elders, we strive to use our collective clout to bring people together, amplify the space to give voice to the voiceless, and catalyse action."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Deputy Chair of The Elders",
+          "quotes": [
+            "Deputy Chair of The Elders"
+          ]
+        },
+        {
+          "title": "Women’s and children's rights advocate",
+          "quotes": [
+            "Women’s and children's rights advocate; former freedom fighter and first Education Minister of Mozambique; co-founder of The Elders."
+          ]
+        },
+        {
+          "title": "former freedom fighter",
+          "quotes": [
+            "Women’s and children's rights advocate; former freedom fighter and first Education Minister of Mozambique; co-founder of The Elders."
+          ]
+        },
+        {
+          "title": "first Education Minister of Mozambique",
+          "quotes": [
+            "Women’s and children's rights advocate; former freedom fighter and first Education Minister of Mozambique; co-founder of The Elders."
+          ]
+        },
+        {
+          "title": "co-founder of The Elders",
+          "quotes": [
+            "Women’s and children's rights advocate; former freedom fighter and first Education Minister of Mozambique; co-founder of The Elders."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Mozambique",
+          "quotes": [
+            "Women’s and children's rights advocate; former freedom fighter and first Education Minister of Mozambique; co-founder of The Elders."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Deputy Chair of The Elders"
+        ],
+        "confidence": "high",
+        "notes": "Clear role as Deputy Chair with no time markers provided."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          2,
+          3
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Women’s and children's rights advocate; former freedom fighter and first Education Minister of Mozambique; co-founder of The Elders."
+        ],
+        "confidence": "high",
+        "notes": "Combined roles of former freedom fighter and first Education Minister of Mozambique, with no time markers provided."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Women’s and children's rights advocate; former freedom fighter and first Education Minister of Mozambique; co-founder of The Elders."
+        ],
+        "confidence": "high",
+        "notes": "Role as co-founder of The Elders, with no time markers provided."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Women’s and children's rights advocate; former freedom fighter and first Education Minister of Mozambique; co-founder of The Elders."
+        ],
+        "confidence": "high",
+        "notes": "Ongoing role as Women’s and children's rights advocate, with no time markers provided."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers and organization for the career position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The role 'former freedom fighter' might not be an active career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers and organization for the career position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The role 'Women’s and children's rights advocate' might be more of an ongoing activity than a specific career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 0,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

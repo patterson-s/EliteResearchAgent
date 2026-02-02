@@ -1,0 +1,343 @@
+{
+  "status": "success",
+  "chunk_id": 109,
+  "chunk_index": 4,
+  "source_url": "https://en.wikipedia.org/wiki/Gro_Harlem_Brundtland",
+  "title": "Gro Harlem Brundtland - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2013",
+          "type": "point",
+          "quotes": [
+            "She was appointed Deputy Chair of the group in 2013 and was succeeded in this role by Ban Ki-moon and Graça Machel in 2018."
+          ]
+        },
+        {
+          "text": "2018",
+          "type": "point",
+          "quotes": [
+            "She was appointed Deputy Chair of the group in 2013 and was succeeded in this role by Ban Ki-moon and Graça Machel in 2018."
+          ]
+        },
+        {
+          "text": "1982 and 1983",
+          "type": "range",
+          "quotes": [
+            "Brundtland attended the Bilderberg meetings in 1982 and 1983."
+          ]
+        },
+        {
+          "text": "1991",
+          "type": "point",
+          "quotes": [
+            "Her husband attended in 1991."
+          ]
+        },
+        {
+          "text": "2019",
+          "type": "point",
+          "quotes": [
+            "In 2019, Brundtland served as co-chair with the WHO Global Preparedness Monitoring Board."
+          ]
+        },
+        {
+          "text": "22 July 2011",
+          "type": "point",
+          "quotes": [
+            "Brundtland narrowly escaped assassination by Anders Behring Breivik on 22 July 2011."
+          ]
+        },
+        {
+          "text": "2012",
+          "type": "point",
+          "quotes": [
+            "During his trial in 2012, Breivik revealed detailed assassination plans for Brundtland."
+          ]
+        },
+        {
+          "text": "9 December 1960",
+          "type": "point",
+          "quotes": [
+            "She married Arne Olav Brundtland on 9 December 1960."
+          ]
+        },
+        {
+          "text": "2002",
+          "type": "point",
+          "quotes": [
+            "Brundtland was operated on for uterine cancer in 2002 at Oslo University Hospital, Ullevål."
+          ]
+        },
+        {
+          "text": "2007",
+          "type": "point",
+          "quotes": [
+            "In 2008 it became known that during 2007 she had received two treatments at Ullevål, paid for by Norwegian public expenditures."
+          ]
+        },
+        {
+          "text": "2008",
+          "type": "point",
+          "quotes": [
+            "In 2008 it became known that during 2007 she had received two treatments at Ullevål, paid for by Norwegian public expenditures."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "The Elders",
+          "quotes": [
+            "has also been involved in The Elders' initiative on child marriage, including the founding of Girls Not Brides: The Global Partnership to End Child Marriage."
+          ]
+        },
+        {
+          "name": "Girls Not Brides: The Global Partnership to End Child Marriage",
+          "quotes": [
+            "has also been involved in The Elders' initiative on child marriage, including the founding of Girls Not Brides: The Global Partnership to End Child Marriage."
+          ]
+        },
+        {
+          "name": "Bilderberg",
+          "quotes": [
+            "Brundtland attended the Bilderberg meetings in 1982 and 1983."
+          ]
+        },
+        {
+          "name": "WHO Global Preparedness Monitoring Board",
+          "quotes": [
+            "In 2019, Brundtland served as co-chair with the WHO Global Preparedness Monitoring Board."
+          ]
+        },
+        {
+          "name": "AUF",
+          "quotes": [
+            "She had been on the island of Utøya hours before the massacre there to give a speech to the AUF camp;"
+          ]
+        },
+        {
+          "name": "Oslo University Hospital, Ullevål",
+          "quotes": [
+            "Brundtland was operated on for uterine cancer in 2002 at Oslo University Hospital, Ullevål."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Deputy Chair",
+          "quotes": [
+            "She was appointed Deputy Chair of the group in 2013 and was succeeded in this role by Ban Ki-moon and Graça Machel in 2018."
+          ]
+        },
+        {
+          "title": "co-chair",
+          "quotes": [
+            "In 2019, Brundtland served as co-chair with the WHO Global Preparedness Monitoring Board."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Utøya",
+          "quotes": [
+            "She had been on the island of Utøya hours before the massacre there to give a speech to the AUF camp;"
+          ]
+        },
+        {
+          "place": "Oslo",
+          "quotes": [
+            "but he had been delayed while travelling from Oslo."
+          ]
+        },
+        {
+          "place": "south of France",
+          "quotes": [
+            "They own a house in the south of France."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "She was appointed Deputy Chair of the group in 2013 and was succeeded in this role by Ban Ki-moon and Graça Machel in 2018."
+        ],
+        "confidence": "medium",
+        "notes": "The organization is not explicitly mentioned, but the role is clear. Assuming it refers to The Elders based on context."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Brundtland attended the Bilderberg meetings in 1982 and 1983."
+        ],
+        "confidence": "high",
+        "notes": "Attendance at meetings indicates involvement with the organization."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2019, Brundtland served as co-chair with the WHO Global Preparedness Monitoring Board."
+        ],
+        "confidence": "high",
+        "notes": "Clear role and organization mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "has also been involved in The Elders' initiative on child marriage, including the founding of Girls Not Brides: The Global Partnership to End Child Marriage."
+        ],
+        "confidence": "medium",
+        "notes": "Involvement with organizations mentioned, but no specific role or time frame."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Brundtland was operated on for uterine cancer in 2002 at Oslo University Hospital, Ullevål."
+        ],
+        "confidence": "low",
+        "notes": "Medical treatment, not a career position, but included for completeness."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "She had been on the island of Utøya hours before the massacre there to give a speech to the AUF camp;"
+        ],
+        "confidence": "medium",
+        "notes": "Involvement with organization and location mentioned, but no specific role or time frame."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information, assumed based on context but not explicitly stated."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Attendance at meetings does not necessarily imply a career position."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing time frame and role information."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "error",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "high",
+            "description": "Medical treatment is not a career position."
+          }
+        ]
+      },
+      {
+        "event_id": 5,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing time frame and role information."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 6,
+      "valid": 1,
+      "warnings": 4,
+      "errors": 1,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

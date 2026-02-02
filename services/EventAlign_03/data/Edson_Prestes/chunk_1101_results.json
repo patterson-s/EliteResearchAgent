@@ -1,0 +1,97 @@
+{
+  "status": "success",
+  "chunk_id": 1101,
+  "chunk_index": 0,
+  "source_url": "http://www.ieee-ras.org/about-ras/latest-news/member-in-the-news-edson-prestes-joins-unesco-s-ethics-of-artificial-intelligence-group",
+  "title": "Member in the News: Edson Prestes joins Unesco's Ethics of Artificial Intelligence group - IEEE Robotics and Automation Society",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Unesco",
+          "quotes": [
+            "Edson Prestes joins Unesco's Ethics of Artificial Intelligence group"
+          ]
+        },
+        {
+          "name": "IEEE Robotics and Automation Society",
+          "quotes": [
+            "Member in the News: Edson Prestes joins Unesco's Ethics of Artificial Intelligence group - IEEE Robotics and Automation Society"
+          ]
+        },
+        {
+          "name": "IEEE",
+          "quotes": [
+            "Join IEEE",
+            "IEEE.org",
+            "IEEE Xplore",
+            "IEEE Standards",
+            "IEEE Spectrum",
+            "IEEE Robotics and Automation Society"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Member",
+          "quotes": [
+            "Member in the News: Edson Prestes joins Unesco's Ethics of Artificial Intelligence group"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Edson Prestes joins Unesco's Ethics of Artificial Intelligence group",
+          "Member in the News: Edson Prestes joins Unesco's Ethics of Artificial Intelligence group"
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of a new role as a member in Unesco's group, supported by multiple quotes."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the career position event."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The role 'Member' in Unesco's group may not clearly indicate active responsibilities, potentially blurring the line between a career position and an honorary/advisory role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "status": "success",
+  "chunk_id": 3874,
+  "chunk_index": 3,
+  "source_url": "https://grokipedia.com/page/Louis_Michel",
+  "title": "Louis Michel",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In January 2000",
+          "type": "point",
+          "quotes": [
+            "In January 2000, Michel traveled to the DRC, where he met with President Laurent-Désiré Kabila to discuss resuming development assistance and addressing humanitarian needs, marking an early effort to stabilize bilateral ties strained by prior governance issues under Mobutu Sese Seko."
+          ]
+        },
+        {
+          "text": "February 2000",
+          "type": "point",
+          "quotes": [
+            "This engagement reflected a broader push for a revised African policy, announced by Michel in February 2000, which emphasized sustainable development, debt relief, and integration of financial collaboration with diplomatic initiatives, while prioritizing poverty reduction over geopolitical favoritism."
+          ]
+        },
+        {
+          "text": "2001",
+          "type": "point",
+          "quotes": [
+            "Budgetary commitments included allocating €40.9 million in the 2001 federal budget for development priorities, signaling increased funding amid negotiations for the government's policy declaration."
+          ]
+        },
+        {
+          "text": "By 2002",
+          "type": "point",
+          "quotes": [
+            "By 2002, these efforts contributed to a framework for multilateral cooperation, though critics noted limited empirical impact on poverty metrics in recipient countries, with Belgian aid volumes remaining modest relative to OECD peers at approximately 0.3% of GNI."
+          ]
+        },
+        {
+          "text": "2002-2004",
+          "type": "range",
+          "quotes": [
+            "Minister of Foreign Affairs (2002-2004)"
+          ]
+        },
+        {
+          "text": "2002",
+          "type": "point",
+          "quotes": [
+            "Louis Michel assumed the role of Belgium's Minister of Foreign Affairs in 2002, succeeding in a period marked by escalating transatlantic tensions over Iraq and Belgium's commitment to multilateral diplomacy."
+          ]
+        },
+        {
+          "text": "2003",
+          "type": "point",
+          "quotes": [
+            "A pivotal focus was Belgium's firm opposition to the 2003 US-led invasion of Iraq without explicit UN Security Council authorization."
+          ]
+        },
+        {
+          "text": "16 March 2003",
+          "type": "point",
+          "quotes": [
+            "On 16 March 2003, Belgium announced it would deny transit rights to US forces for the operation absent UN approval, reflecting Michel's emphasis on international law over alliance pressures."
+          ]
+        },
+        {
+          "text": "August 2002",
+          "type": "point",
+          "quotes": [
+            "Michel's tenure also featured controversy over arms exports to conflict zones. In August 2002,"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "OECD",
+          "quotes": [
+            "By 2002, these efforts contributed to a framework for multilateral cooperation, though critics noted limited empirical impact on poverty metrics in recipient countries, with Belgian aid volumes remaining modest relative to OECD peers at approximately 0.3% of GNI."
+          ]
+        },
+        {
+          "name": "UN",
+          "quotes": [
+            "As Deputy Prime Minister concurrently, he prioritized UN-centered approaches to global conflicts, aligning Belgium with France and Germany in opposing unilateral actions."
+          ]
+        },
+        {
+          "name": "UN Security Council",
+          "quotes": [
+            "A pivotal focus was Belgium's firm opposition to the 2003 US-led invasion of Iraq without explicit UN Security Council authorization."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Minister of Foreign Affairs",
+          "quotes": [
+            "Louis Michel assumed the role of Belgium's Minister of Foreign Affairs in 2002, succeeding in a period marked by escalating transatlantic tensions over Iraq and Belgium's commitment to multilateral diplomacy."
+          ]
+        },
+        {
+          "title": "Deputy Prime Minister",
+          "quotes": [
+            "As Deputy Prime Minister concurrently, he prioritized UN-centered approaches to global conflicts, aligning Belgium with France and Germany in opposing unilateral actions."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "DRC",
+          "quotes": [
+            "In January 2000, Michel traveled to the DRC, where he met with President Laurent-Désiré Kabila to discuss resuming development assistance and addressing humanitarian needs, marking an early effort to stabilize bilateral ties strained by prior governance issues under Mobutu Sese Seko."
+          ]
+        },
+        {
+          "place": "Iraq",
+          "quotes": [
+            "A pivotal focus was Belgium's firm opposition to the 2003 US-led invasion of Iraq without explicit UN Security Council authorization."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4,
+          5
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Minister of Foreign Affairs (2002-2004)",
+          "Louis Michel assumed the role of Belgium's Minister of Foreign Affairs in 2002, succeeding in a period marked by escalating transatlantic tensions over Iraq and Belgium's commitment to multilateral diplomacy."
+        ],
+        "confidence": "high",
+        "notes": "Clear role and time range indicated."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "As Deputy Prime Minister concurrently, he prioritized UN-centered approaches to global conflicts, aligning Belgium with France and Germany in opposing unilateral actions."
+        ],
+        "confidence": "high",
+        "notes": "Concurrent role mentioned in the same context as Minister of Foreign Affairs."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing organization and location information, though inferable from context."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing organization and location information, though inferable from context."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

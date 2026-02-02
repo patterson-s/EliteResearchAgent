@@ -1,0 +1,74 @@
+{
+  "status": "success",
+  "chunk_id": 2734,
+  "chunk_index": 15,
+  "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10722368/",
+  "title": "Searching for Meaning in the Life of Ellen Johnson-Sirleaf: A Call to Meaningful Responses to Tragedies - PMC",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [],
+      "roles": [
+        {
+          "title": "leading a political alliance in Liberia",
+          "quotes": [
+            "“I had always looked for challenges, and this (leading a political alliance in Liberia) was one of the greatest of all” (Johnson-Sirleaf, 2010, p. 211)"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Liberia",
+          "quotes": [
+            "“I had always looked for challenges, and this (leading a political alliance in Liberia) was one of the greatest of all” (Johnson-Sirleaf, 2010, p. 211)"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "“I had always looked for challenges, and this (leading a political alliance in Liberia) was one of the greatest of all” (Johnson-Sirleaf, 2010, p. 211)"
+        ],
+        "confidence": "medium",
+        "notes": "No time markers or organizations provided, but the role and location are clear. Classified as career_position due to the active leadership role."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers and organization information, which are expected for a career_position event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

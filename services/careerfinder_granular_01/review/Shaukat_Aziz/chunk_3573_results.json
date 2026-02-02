@@ -1,0 +1,213 @@
+{
+  "status": "success",
+  "chunk_id": 3573,
+  "chunk_index": 8,
+  "source_url": "https://en.wikipedia.org/wiki/Shaukat_Aziz",
+  "title": "Shaukat Aziz - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2006",
+          "type": "point",
+          "quotes": [
+            "Aziz remains supportive towards Khan and efficiently took matters of Abdul Qadeer Khan in 2006 from President Musharraf."
+          ]
+        },
+        {
+          "text": "10 September 2006",
+          "type": "point",
+          "quotes": [
+            "On 10 September 2006, Aziz sent flowers and personally visited Khan when he was hospitalised."
+          ]
+        },
+        {
+          "text": "12 October 2007",
+          "type": "point",
+          "quotes": [
+            "On 12 October 2007, Musharraf made it clear to United States and rest of the world that Khan 'won't be handed over' at given any circumstances."
+          ]
+        },
+        {
+          "text": "2007",
+          "type": "point",
+          "quotes": [
+            "Shukat Aziz publicly supporting Abdul Qadeer Khan in 2007, source [40]"
+          ]
+        },
+        {
+          "text": "by 2030",
+          "type": "point",
+          "quotes": [
+            "After assuming the office, Aziz announced a controversial 'New 25-year energy plan', aiming to raise Pakistan's dependence on imported oil for power generation to 50% by 2030."
+          ]
+        },
+        {
+          "text": "2007",
+          "type": "point",
+          "quotes": [
+            "In 2007, Aziz approved the constructional development of KANUPP-II and the nuclear reprocessing site, the Nuclear Power Fuel Complex in Islamabad."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "World Economic Forum",
+          "quotes": [
+            "Shaukat Aziz at the World Economic Forum, 2008"
+          ]
+        },
+        {
+          "name": "Chashma Nuclear Power Plant",
+          "quotes": [
+            "Prime Minister Aziz approved the constructional, and approved the developmental work of CHASNUPP-II reactor at the Chashma Nuclear Power Plant in Chashma city, Punjab Province of Pakistan."
+          ]
+        },
+        {
+          "name": "Pakistan Nuclear Regulatory Authority",
+          "quotes": [
+            "Aziz oversaw to increase the capacity building of the Pakistan Nuclear Regulatory Authority, a governmental"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Prime Minister",
+          "quotes": [
+            "Prime Minister Shaukat Aziz",
+            "Prime Minister Aziz's 'New 25-year energy plan' remains extremely controversial and met great public criticism by media and energy experts."
+          ]
+        },
+        {
+          "title": "President",
+          "quotes": [
+            "Aziz remains supportive towards Khan and efficiently took matters of Abdul Qadeer Khan in 2006 from President Musharraf."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Pakistan",
+          "quotes": [
+            "The (meritorious) services of scientist Dr. Abdul Qadeer Khan are 'unforgettable' for our beloved country, 'Pakistan'...",
+            "aiming to raise Pakistan's dependence on imported oil for power generation to 50% by 2030."
+          ]
+        },
+        {
+          "place": "Chashma city",
+          "quotes": [
+            "Prime Minister Aziz approved the constructional, and approved the developmental work of CHASNUPP-II reactor at the Chashma Nuclear Power Plant in Chashma city, Punjab Province of Pakistan."
+          ]
+        },
+        {
+          "place": "Punjab Province",
+          "quotes": [
+            "Prime Minister Aziz approved the constructional, and approved the developmental work of CHASNUPP-II reactor at the Chashma Nuclear Power Plant in Chashma city, Punjab Province of Pakistan."
+          ]
+        },
+        {
+          "place": "Islamabad",
+          "quotes": [
+            "In 2007, Aziz approved the constructional development of KANUPP-II and the nuclear reprocessing site, the Nuclear Power Fuel Complex in Islamabad."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Prime Minister Shaukat Aziz",
+          "Prime Minister Aziz's 'New 25-year energy plan' remains extremely controversial and met great public criticism by media and energy experts."
+        ],
+        "confidence": "high",
+        "notes": "Prime Minister role is clearly indicated, though no specific time markers are directly linked in the quotes provided."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          3
+        ],
+        "supporting_quotes": [
+          "In 2007, Aziz approved the constructional development of KANUPP-II and the nuclear reprocessing site, the Nuclear Power Fuel Complex in Islamabad.",
+          "Aziz oversaw to increase the capacity building of the Pakistan Nuclear Regulatory Authority, a governmental"
+        ],
+        "confidence": "high",
+        "notes": "Prime Minister Aziz's actions in 2007 are clearly linked to the Pakistan Nuclear Regulatory Authority and the location Islamabad."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          1,
+          2
+        ],
+        "supporting_quotes": [
+          "Prime Minister Aziz approved the constructional, and approved the developmental work of CHASNUPP-II reactor at the Chashma Nuclear Power Plant in Chashma city, Punjab Province of Pakistan."
+        ],
+        "confidence": "high",
+        "notes": "Prime Minister Aziz's approval of the CHASNUPP-II reactor is linked to the Chashma Nuclear Power Plant and the locations Chashma city and Punjab Province."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers and organization information, though the role of Prime Minister is clearly indicated."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 2,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

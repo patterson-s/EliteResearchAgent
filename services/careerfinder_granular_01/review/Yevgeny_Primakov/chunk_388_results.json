@@ -1,0 +1,282 @@
+{
+  "status": "success",
+  "chunk_id": 388,
+  "chunk_index": 10,
+  "source_url": "https://en.wikipedia.org/wiki/Yevgeny_Primakov",
+  "title": "Yevgeny Primakov - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1991",
+          "type": "point",
+          "quotes": [
+            "Director of the KGB First Chief Directorate 1991",
+            "Director of the USSR Centre for Strategic Research 1991",
+            "Director of the Foreign Intelligence Service 1991–1996"
+          ]
+        },
+        {
+          "text": "1991–1996",
+          "type": "range",
+          "quotes": [
+            "Director of the Foreign Intelligence Service 1991–1996"
+          ]
+        },
+        {
+          "text": "1989–1990",
+          "type": "range",
+          "quotes": [
+            "Chairman of the Soviet of the Union 1989–1990"
+          ]
+        },
+        {
+          "text": "1996–1998",
+          "type": "range",
+          "quotes": [
+            "Minister of Foreign Affairs 1996–1998"
+          ]
+        },
+        {
+          "text": "1998–1999",
+          "type": "range",
+          "quotes": [
+            "Acting Prime Minister of Russia 1998–1999"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "KGB First Chief Directorate",
+          "quotes": [
+            "Director of the KGB First Chief Directorate 1991"
+          ]
+        },
+        {
+          "name": "USSR Centre for Strategic Research",
+          "quotes": [
+            "Director of the USSR Centre for Strategic Research 1991"
+          ]
+        },
+        {
+          "name": "Foreign Intelligence Service",
+          "quotes": [
+            "Director of the Foreign Intelligence Service 1991–1996"
+          ]
+        },
+        {
+          "name": "Soviet of the Union",
+          "quotes": [
+            "Chairman of the Soviet of the Union 1989–1990"
+          ]
+        },
+        {
+          "name": "Ministry of Foreign Affairs",
+          "quotes": [
+            "Minister of Foreign Affairs 1996–1998"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Director of the KGB First Chief Directorate",
+          "quotes": [
+            "Director of the KGB First Chief Directorate 1991"
+          ]
+        },
+        {
+          "title": "Director of the USSR Centre for Strategic Research",
+          "quotes": [
+            "Director of the USSR Centre for Strategic Research 1991"
+          ]
+        },
+        {
+          "title": "Director of the Foreign Intelligence Service",
+          "quotes": [
+            "Director of the Foreign Intelligence Service 1991–1996"
+          ]
+        },
+        {
+          "title": "Chairman of the Soviet of the Union",
+          "quotes": [
+            "Chairman of the Soviet of the Union 1989–1990"
+          ]
+        },
+        {
+          "title": "Minister of Foreign Affairs",
+          "quotes": [
+            "Minister of Foreign Affairs 1996–1998"
+          ]
+        },
+        {
+          "title": "Acting Prime Minister of Russia",
+          "quotes": [
+            "Acting Prime Minister of Russia 1998–1999"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Chairman of the Soviet of the Union 1989–1990"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Director of the KGB First Chief Directorate 1991"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Director of the USSR Centre for Strategic Research 1991"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Director of the Foreign Intelligence Service 1991–1996"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Minister of Foreign Affairs 1996–1998"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          5
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Acting Prime Minister of Russia 1998–1999"
+        ],
+        "confidence": "high",
+        "notes": "No organization mentioned, but role and time are clear."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 4,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 5,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the role of Acting Prime Minister of Russia."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 6,
+      "valid": 5,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 6,
+      "awards": 0
+    }
+  }
+}

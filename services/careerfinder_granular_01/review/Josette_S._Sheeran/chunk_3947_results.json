@@ -1,0 +1,103 @@
+{
+  "status": "success",
+  "chunk_id": 3947,
+  "chunk_index": 6,
+  "source_url": "https://www.linkedin.com/in/josette-sheeran-a5935837",
+  "title": "Josette Sheeran - Firefly Global Group | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "GlobalGiving",
+          "quotes": [
+            "co-authored with colleagues at GlobalGiving and the Center for Disaster Preparedness Foundation (CDPF)"
+          ]
+        },
+        {
+          "name": "Center for Disaster Preparedness Foundation (CDPF)",
+          "quotes": [
+            "co-authored with colleagues at GlobalGiving and the Center for Disaster Preparedness Foundation (CDPF)"
+          ]
+        },
+        {
+          "name": "Development in Practice Journal (DiP)",
+          "quotes": [
+            "published in peer-reviewed Development in Practice Journal (DiP)"
+          ]
+        },
+        {
+          "name": "USAID",
+          "quotes": [
+            "90% of USAID projects are now terminated, but redesigned foreign assistance will continue."
+          ]
+        },
+        {
+          "name": "Development Finance Corporation (DFC)",
+          "quotes": [
+            "The most likely scenario comes from Ben Black, the nominee to lead the Development Finance Corporation (DFC)."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "nominee to lead the Development Finance Corporation (DFC)",
+          "quotes": [
+            "The most likely scenario comes from Ben Black, the nominee to lead the Development Finance Corporation (DFC)."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The most likely scenario comes from Ben Black, the nominee to lead the Development Finance Corporation (DFC)."
+        ],
+        "confidence": "high",
+        "notes": "The role is clearly a career position as it involves leading an organization, even though it is a nominee position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the career position event."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing location information for the career position event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

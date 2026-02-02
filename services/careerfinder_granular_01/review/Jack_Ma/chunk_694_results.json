@@ -1,0 +1,321 @@
+{
+  "status": "success",
+  "chunk_id": 694,
+  "chunk_index": 4,
+  "source_url": "https://en.wikipedia.org/wiki/Jack_Ma",
+  "title": "Jack Ma - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "From 1998 to 1999",
+          "type": "range",
+          "quotes": [
+            "From 1998 to 1999, Ma headed an information technology company established by the China International Electronic Commerce Center"
+          ]
+        },
+        {
+          "text": "In 1999",
+          "type": "point",
+          "quotes": [
+            "In 1999, he quit and returned to Hangzhou with his team to establish Alibaba"
+          ]
+        },
+        {
+          "text": "In October 1999 and January 2000",
+          "type": "range",
+          "quotes": [
+            "In October 1999 and January 2000, Alibaba won a total of a $25 million foreign venture seed capital"
+          ]
+        },
+        {
+          "text": "Since 2003",
+          "type": "open",
+          "quotes": [
+            "Since 2003, Ma established Taobao Marketplace, Alipay, Ali Mama and Lynx"
+          ]
+        },
+        {
+          "text": "From 1999",
+          "type": "open",
+          "quotes": [
+            "From 1999, Ma was executive chairman of Alibaba Group"
+          ]
+        },
+        {
+          "text": "May 2010",
+          "type": "point",
+          "quotes": [
+            "At the annual general meeting of shareholders for Alibaba.com in May 2010, Ma announced Alibaba Group would begin in 2010 to earmark 0.3% of annual revenue to environmental protection"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "China International Electronic Commerce Center",
+          "quotes": [
+            "From 1998 to 1999, Ma headed an information technology company established by the China International Electronic Commerce Center"
+          ]
+        },
+        {
+          "name": "Ministry of Foreign Trade and Economic Cooperation",
+          "quotes": [
+            "a department of the Ministry of Foreign Trade and Economic Cooperation"
+          ]
+        },
+        {
+          "name": "Alibaba",
+          "quotes": [
+            "In 1999, he quit and returned to Hangzhou with his team to establish Alibaba"
+          ]
+        },
+        {
+          "name": "Goldman Sachs",
+          "quotes": [
+            "from the American investment bank, Goldman Sachs"
+          ]
+        },
+        {
+          "name": "SoftBank",
+          "quotes": [
+            "and the Japanese investment management conglomerate SoftBank"
+          ]
+        },
+        {
+          "name": "Taobao Marketplace",
+          "quotes": [
+            "Since 2003, Ma established Taobao Marketplace, Alipay, Ali Mama and Lynx"
+          ]
+        },
+        {
+          "name": "Alipay",
+          "quotes": [
+            "Since 2003, Ma established Taobao Marketplace, Alipay, Ali Mama and Lynx"
+          ]
+        },
+        {
+          "name": "eBay",
+          "quotes": [
+            "American e-commerce giant eBay offered to purchase the company"
+          ]
+        },
+        {
+          "name": "Yahoo",
+          "quotes": [
+            "garnering support from Yahoo co-founder Jerry Yang"
+          ]
+        },
+        {
+          "name": "Alibaba Group",
+          "quotes": [
+            "From 1999, Ma was executive chairman of Alibaba Group"
+          ]
+        },
+        {
+          "name": "Alibaba.com",
+          "quotes": [
+            "It has nine major subsidiaries: Alibaba.com, Taobao Marketplace"
+          ]
+        },
+        {
+          "name": "Tmall",
+          "quotes": [
+            "Tmall, eTao, Alibaba Cloud Computing, Juhuasuan"
+          ]
+        },
+        {
+          "name": "1688.com",
+          "quotes": [
+            "1688.com, AliExpress.com, and Alipay"
+          ]
+        },
+        {
+          "name": "AliExpress.com",
+          "quotes": [
+            "1688.com, AliExpress.com, and Alipay"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "executive chairman of Alibaba Group",
+          "quotes": [
+            "From 1999, Ma was executive chairman of Alibaba Group"
+          ]
+        },
+        {
+          "title": "Chairman of Alibaba Group",
+          "quotes": [
+            "Chairman of Alibaba Group"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Hangzhou",
+          "quotes": [
+            "he quit and returned to Hangzhou with his team to establish Alibaba, a Hangzhou-based business-to-business marketplace site"
+          ]
+        },
+        {
+          "place": "China",
+          "quotes": [
+            "The program was expected to improve the domestic Chinese e-commerce market and perfect an e-commerce platform for online Chinese enterprises"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "From 1998 to 1999, Ma headed an information technology company established by the China International Electronic Commerce Center"
+        ],
+        "confidence": "high",
+        "notes": "Role is implied as heading the company, but no specific title is mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1,
+          4
+        ],
+        "organization_ids": [
+          2,
+          9
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "In 1999, he quit and returned to Hangzhou with his team to establish Alibaba",
+          "From 1999, Ma was executive chairman of Alibaba Group"
+        ],
+        "confidence": "high",
+        "notes": "Clear establishment and role as executive chairman."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In October 1999 and January 2000, Alibaba won a total of a $25 million foreign venture seed capital"
+        ],
+        "confidence": "high",
+        "notes": "Winning seed capital is considered an award as it is a one-time recognition."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          5,
+          6
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Since 2003, Ma established Taobao Marketplace, Alipay, Ali Mama and Lynx"
+        ],
+        "confidence": "high",
+        "notes": "Establishment of new entities implies active leadership roles."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [
+          10
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "At the annual general meeting of shareholders for Alibaba.com in May 2010, Ma announced Alibaba Group would begin in 2010 to earmark 0.3% of annual revenue to environmental protection",
+          "Chairman of Alibaba Group"
+        ],
+        "confidence": "high",
+        "notes": "Announcement made in the capacity of Chairman of Alibaba Group."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role_ids and location_ids despite having organization and time information."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Winning seed capital might not be strictly an award, but classification is plausible."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role_ids and location_ids despite having organization and time information."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 2,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 1
+    }
+  }
+}

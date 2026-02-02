@@ -1,0 +1,217 @@
+{
+  "status": "success",
+  "chunk_id": 3926,
+  "chunk_index": 1,
+  "source_url": "https://www.us.tzembassy.go.tz/resources/view/official-biography-of-the-late-former-president-of-the-united-republic-of-tanzania",
+  "title": "OFFICIAL BIOGRAPHY OF THE LATE FORMER PRESIDENT OF THE UNITED REPUBLIC OF TANZANIA | Embassy of Tanzania in Washington D.C, USA",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "UN Observers of the Referendum in Sudan",
+          "quotes": [
+            "to lead the UN Observers of the Referendum in Sudan which culminated in the birth of South Sudan after a protracted conflict."
+          ]
+        },
+        {
+          "name": "Benjamin William Mkapa Foundation (BMF)",
+          "quotes": [
+            "H.E. Benjamin William Mkapa was the Founder of the Benjamin William Mkapa Foundation (BMF), whose mission is to facilitate the delivery of responsive health services, including HIV and AIDS, particularly in underserved areas in Tanzania through innovations in health systems."
+          ]
+        },
+        {
+          "name": "Carnegie Endowment for International Peace (CEIP)",
+          "quotes": [
+            "Programu ya Afrika ya Taasisi ya Carnegie Endowment for International Peace (CEIP)"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Founder of the Benjamin William Mkapa Foundation (BMF)",
+          "quotes": [
+            "H.E. Benjamin William Mkapa was the Founder of the Benjamin William Mkapa Foundation (BMF), whose mission is to facilitate the delivery of responsive health services, including HIV and AIDS, particularly in underserved areas in Tanzania through innovations in health systems."
+          ]
+        },
+        {
+          "title": "Minister for Foreign Affairs and East African Cooperation",
+          "quotes": [
+            "PRESS STATEMENT BY HON. MAHMOUD THABIT KOMBO, MINISTER FOR FOREIGN AFFAIRS AND EAST AFRICAN COOPERATION REGARDING 2025 GENERAL ELECTIONS IN TANZANIA"
+          ]
+        },
+        {
+          "title": "Waziri wa Ujenzi",
+          "quotes": [
+            "Ubalozi uliratibu ushiriki wa Mhe. Abdallah H. Ulega ( Mb.), Waziri wa Ujenzi kwenye Mkutano uliojadili uimarishwaji wa miundombinu ulioandaliwa na Benki ya Dunia hapa Washington, D.C."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Tanzania",
+          "quotes": [
+            "H.E. Benjamin William Mkapa was the Founder of the Benjamin William Mkapa Foundation (BMF), whose mission is to facilitate the delivery of responsive health services, including HIV and AIDS, particularly in underserved areas in Tanzania through innovations in health systems."
+          ]
+        },
+        {
+          "place": "South Sudan",
+          "quotes": [
+            "to lead the UN Observers of the Referendum in Sudan which culminated in the birth of South Sudan after a protracted conflict."
+          ]
+        },
+        {
+          "place": "Washington, D.C.",
+          "quotes": [
+            "Ubalozi uliratibu ushiriki wa Mhe. Abdallah H. Ulega ( Mb.), Waziri wa Ujenzi kwenye Mkutano uliojadili uimarishwaji wa miundombinu ulioandaliwa na Benki ya Dunia hapa Washington, D.C."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "to lead the UN Observers of the Referendum in Sudan which culminated in the birth of South Sudan after a protracted conflict."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit role mentioned, but leadership is implied. Time marker is missing."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "H.E. Benjamin William Mkapa was the Founder of the Benjamin William Mkapa Foundation (BMF), whose mission is to facilitate the delivery of responsive health services, including HIV and AIDS, particularly in underserved areas in Tanzania through innovations in health systems."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role, organization, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "PRESS STATEMENT BY HON. MAHMOUD THABIT KOMBO, MINISTER FOR FOREIGN AFFAIRS AND EAST AFRICAN COOPERATION REGARDING 2025 GENERAL ELECTIONS IN TANZANIA"
+        ],
+        "confidence": "high",
+        "notes": "Role is clearly a career position, but no organization or location is explicitly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "Ubalozi uliratibu ushiriki wa Mhe. Abdallah H. Ulega ( Mb.), Waziri wa Ujenzi kwenye Mkutano uliojadili uimarishwaji wa miundombinu ulioandaliwa na Benki ya Dunia hapa Washington, D.C."
+        ],
+        "confidence": "medium",
+        "notes": "Role and location are linked, but no organization is mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Programu ya Afrika ya Taasisi ya Carnegie Endowment for International Peace (CEIP)"
+        ],
+        "confidence": "low",
+        "notes": "Organization is mentioned, but no role or location is linked. Unclear if this constitutes a distinct career event."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role and time marker. Leadership is implied but not explicitly stated."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location. Role is clearly a career position but lacks context."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization. Role and location are linked but lack organizational context."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing role and location. Organization is mentioned but unclear if this constitutes a distinct career event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 1,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

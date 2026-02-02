@@ -1,0 +1,276 @@
+{
+  "status": "success",
+  "chunk_id": 636,
+  "chunk_index": 4,
+  "source_url": "https://adst.org/2020/08/an-honest-broker-remembering-brent-scowcroft/",
+  "title": "An Honest Broker: Remembering Brent Scowcroft – Association for Diplomatic Studies & Training",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "Thursday",
+          "type": "point",
+          "quotes": [
+            "So I had an appointment on Thursday with Baker, and Friday with Scowcroft."
+          ]
+        },
+        {
+          "text": "Friday",
+          "type": "point",
+          "quotes": [
+            "So I had an appointment on Thursday with Baker, and Friday with Scowcroft."
+          ]
+        },
+        {
+          "text": "10:30 in the morning",
+          "type": "point",
+          "quotes": [
+            "Friday I waltzed it over to the White House at about 10:30 in the morning."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Rotary Club",
+          "quotes": [
+            "I was scheduled to make a speech to the Rotary Club [in Guatemala], which is the biggest gathering with businessmen in the country."
+          ]
+        },
+        {
+          "name": "Public Affairs Officer",
+          "quotes": [
+            "I got ahold of the Public Affairs Officer, John Tracy; a marvelous Irishman, a great friend of mine and an excellent PAO [Public Affairs Officer.]"
+          ]
+        },
+        {
+          "name": "National Security Council",
+          "quotes": [
+            "Suddenly I remembered that General Brent Scowcroft, who was the head of the National Security Council, was a good friend of Dick Cheney’s."
+          ]
+        },
+        {
+          "name": "White House",
+          "quotes": [
+            "Friday I waltzed it over to the White House at about 10:30 in the morning."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Public Affairs Officer",
+          "quotes": [
+            "I got ahold of the Public Affairs Officer, John Tracy; a marvelous Irishman, a great friend of mine and an excellent PAO [Public Affairs Officer.]"
+          ]
+        },
+        {
+          "title": "head of the National Security Council",
+          "quotes": [
+            "Suddenly I remembered that General Brent Scowcroft, who was the head of the National Security Council, was a good friend of Dick Cheney’s."
+          ]
+        },
+        {
+          "title": "Ambassador",
+          "quotes": [
+            "I need a letter signed by the President of the United States saying that Ambassador Stroock does indeed speak for this Administration."
+          ]
+        },
+        {
+          "title": "President",
+          "quotes": [
+            "The press asked Vinicio Cerezo, the President, about it, and he said, “Well, I know Tom."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Guatemala",
+          "quotes": [
+            "I was scheduled to make a speech to the Rotary Club [in Guatemala], which is the biggest gathering with businessmen in the country."
+          ]
+        },
+        {
+          "place": "Washington",
+          "quotes": [
+            "When I got back to Washington, I thought to myself; just being recalled and coming back, that’s not dramatic enough."
+          ]
+        },
+        {
+          "place": "Foggy Bottom",
+          "quotes": [
+            "To get a letter signed by the President through the fudge factory down at Foggy Bottom, is not going to happen in a week."
+          ]
+        },
+        {
+          "place": "White House",
+          "quotes": [
+            "Friday I waltzed it over to the White House at about 10:30 in the morning."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "I got ahold of the Public Affairs Officer, John Tracy; a marvelous Irishman, a great friend of mine and an excellent PAO [Public Affairs Officer]."
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of a role within an organization."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Suddenly I remembered that General Brent Scowcroft, who was the head of the National Security Council, was a good friend of Dick Cheney’s."
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of a leadership role within an organization."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "I need a letter signed by the President of the United States saying that Ambassador Stroock does indeed speak for this Administration."
+        ],
+        "confidence": "medium",
+        "notes": "Role mentioned without explicit organization or time, but implies a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1,
+          2
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [
+          3
+        ],
+        "supporting_quotes": [
+          "Friday I waltzed it over to the White House at about 10:30 in the morning."
+        ],
+        "confidence": "high",
+        "notes": "Visit to an organization at a specific time and location, likely related to a career activity."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "I was scheduled to make a speech to the Rotary Club [in Guatemala], which is the biggest gathering with businessmen in the country."
+        ],
+        "confidence": "high",
+        "notes": "Scheduled activity with an organization at a specific location, likely related to a career activity."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time_marker_ids for the career position event."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time_marker_ids for the career position event."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization_ids and time_marker_ids for the career position event."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role_ids for the career position event."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quote does not clearly indicate a career position, but rather a visit to an organization."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time_marker_ids and role_ids for the career position event."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quote indicates a scheduled activity, but does not clearly establish it as a career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 0,
+      "warnings": 5,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

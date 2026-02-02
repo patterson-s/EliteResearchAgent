@@ -1,0 +1,197 @@
+{
+  "status": "success",
+  "chunk_id": 771,
+  "chunk_index": 0,
+  "source_url": "https://www.global-sdgs.keio.ac.jp/wp-content/uploads/2020/11/biography_01.pdf",
+  "title": "biography_01.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Keio University",
+          "quotes": [
+            "Professor Shinnosuke Obi, Vice-President for International Collaboration, Keio University",
+            "Dean of the International Center at the university",
+            "Chair of the Committee for International Affairs at the Keio University Faculty and Graduate School of Science and Technology",
+            "double-degrees offered to both students at Keio and its partner institutions around the world"
+          ]
+        },
+        {
+          "name": "Asia-Pacific Association for International Education (APAIE)",
+          "quotes": [
+            "He is also the current Vice President of the Asia- Pacific Association for International Education (APAIE)."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Vice-President for International Collaboration",
+          "quotes": [
+            "Professor Shinnosuke Obi is the Vice-President for International Collaboration at Keio University."
+          ]
+        },
+        {
+          "title": "Dean of the International Center",
+          "quotes": [
+            "He concurrently serves as the Dean of the International Center at the university."
+          ]
+        },
+        {
+          "title": "Chair of the Committee for International Affairs",
+          "quotes": [
+            "Prior to his current appointments, he served for more than a decade as the Chair of the Committee for International Affairs at the Keio University Faculty and Graduate School of Science and Technology."
+          ]
+        },
+        {
+          "title": "Vice President of the Asia-Pacific Association for International Education (APAIE)",
+          "quotes": [
+            "He is also the current Vice President of the Asia- Pacific Association for International Education (APAIE)."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Japan",
+          "quotes": [
+            "Professor Shinnosuke Obi is the Vice-President for International Collaboration at Keio University, Japan."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Professor Shinnosuke Obi is the Vice-President for International Collaboration at Keio University.",
+          "Professor Shinnosuke Obi is the Vice-President for International Collaboration at Keio University, Japan."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role and organization with supporting location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He concurrently serves as the Dean of the International Center at the university."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role and organization."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Prior to his current appointments, he served for more than a decade as the Chair of the Committee for International Affairs at the Keio University Faculty and Graduate School of Science and Technology."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role and organization, noted as prior appointment."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He is also the current Vice President of the Asia- Pacific Association for International Education (APAIE)."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role and organization."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers for the event."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers and location for the event."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers and location for the event."
+          },
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "Event is noted as prior appointment but lacks specific dates to confirm temporal coherence."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers and location for the event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 0,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

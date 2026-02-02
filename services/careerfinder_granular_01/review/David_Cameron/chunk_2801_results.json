@@ -1,0 +1,315 @@
+{
+  "status": "success",
+  "chunk_id": 2801,
+  "chunk_index": 20,
+  "source_url": "https://en.wikipedia.org/wiki/David_Cameron",
+  "title": "David Cameron - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "May 2011",
+          "type": "point",
+          "quotes": [
+            "The referendum was held in May 2011 and proposed replacing the current first-past-the-post voting system with an alternative voting system"
+          ]
+        },
+        {
+          "text": "2014",
+          "type": "point",
+          "quotes": [
+            "Cameron agreed to holding the 2014 Scottish independence referendum and eliminated the 'devomax' option from the ballot for a straight out yes or no vote."
+          ]
+        },
+        {
+          "text": "2016",
+          "type": "point",
+          "quotes": [
+            "The 2016 referendum on the UK's membership of the European Union meant that his tenure as British prime minister saw an unprecedented three referendums on the UK's constitutional future."
+          ]
+        },
+        {
+          "text": "2012",
+          "type": "point",
+          "quotes": [
+            "At Prime Minister's Questions in 2012 Cameron supported the introduction of gay marriage, despite more of his own Conservative MPs voting against the move than for it"
+          ]
+        },
+        {
+          "text": "since 1782",
+          "type": "open",
+          "quotes": [
+            "Cameron became the first prime minister since 1782 to lose a foreign policy vote in the House of Commons over proposed military action against Bashar al-Assad's regime in Syria."
+          ]
+        },
+        {
+          "text": "From May 2010 to mid‑2014",
+          "type": "range",
+          "quotes": [
+            "From May 2010 to mid‑2014, the number of academies soared from 203 to over 4,600, with more than half of secondary schools operating under academy status by mid‑2013."
+          ]
+        },
+        {
+          "text": "mid‑2013",
+          "type": "point",
+          "quotes": [
+            "From May 2010 to mid‑2014, the number of academies soared from 203 to over 4,600, with more than half of secondary schools operating under academy status by mid‑2013."
+          ]
+        },
+        {
+          "text": "by 2020",
+          "type": "point",
+          "quotes": [
+            "He pledged to open at least 500 additional free schools by 2020, aiming to create around 270,000 new places"
+          ]
+        },
+        {
+          "text": "mid‑2016",
+          "type": "point",
+          "quotes": [
+            "He pledged to open at least 500 additional free schools by 2020, aiming to create around 270,000 new places, and announced the launch of 31 free schools in mid‑2016 alone, offering approximately 20,000 extra places."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Liberal Democrats",
+          "quotes": [
+            "it was defeated at the polls and later go on to be a catalyst for the fall of the Liberal Democrats."
+          ]
+        },
+        {
+          "name": "Better Together",
+          "quotes": [
+            "His support for the successful Better Together campaign extended to making a successful request to the Queen to intervene."
+          ]
+        },
+        {
+          "name": "UN",
+          "quotes": [
+            "Earlier in his term, he had managed to secure a huge majority for UK participation in UN-backed military action in Libya"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "British prime minister",
+          "quotes": [
+            "The 2016 referendum on the UK's membership of the European Union meant that his tenure as British prime minister saw an unprecedented three referendums on the UK's constitutional future."
+          ]
+        },
+        {
+          "title": "Prime Minister",
+          "quotes": [
+            "At Prime Minister's Questions in 2012 Cameron supported the introduction of gay marriage, despite more of his own Conservative MPs voting against the move than for it"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Scotland",
+          "quotes": [
+            "Cameron agreed to holding the 2014 Scottish independence referendum and eliminated the 'devomax' option from the ballot for a straight out yes or no vote."
+          ]
+        },
+        {
+          "place": "UK",
+          "quotes": [
+            "The 2016 referendum on the UK's membership of the European Union meant that his tenure as British prime minister saw an unprecedented three referendums on the UK's constitutional future."
+          ]
+        },
+        {
+          "place": "Libya",
+          "quotes": [
+            "Earlier in his term, he had managed to secure a huge majority for UK participation in UN-backed military action in Libya"
+          ]
+        },
+        {
+          "place": "Syria",
+          "quotes": [
+            "Cameron became the first prime minister since 1782 to lose a foreign policy vote in the House of Commons over proposed military action against Bashar al-Assad's regime in Syria."
+          ]
+        },
+        {
+          "place": "England",
+          "quotes": [
+            "Cameron advocated a substantial expansion of academy and free school provision in England, positioning them as central to improving standards."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2,
+          5
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "The 2016 referendum on the UK's membership of the European Union meant that his tenure as British prime minister saw an unprecedented three referendums on the UK's constitutional future.",
+          "From May 2010 to mid‑2014, the number of academies soared from 203 to over 4,600, with more than half of secondary schools operating under academy status by mid‑2013."
+        ],
+        "confidence": "high",
+        "notes": "The role of British Prime Minister is clearly a career position, and the time markers provide a range for this tenure."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "At Prime Minister's Questions in 2012 Cameron supported the introduction of gay marriage, despite more of his own Conservative MPs voting against the move than for it"
+        ],
+        "confidence": "high",
+        "notes": "The role of Prime Minister is a career position, and the time marker provides a specific point during this tenure."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Cameron agreed to holding the 2014 Scottish independence referendum and eliminated the 'devomax' option from the ballot for a straight out yes or no vote."
+        ],
+        "confidence": "high",
+        "notes": "The role of British Prime Minister is a career position, and the time marker provides a specific point during this tenure related to Scotland."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "Earlier in his term, he had managed to secure a huge majority for UK participation in UN-backed military action in Libya"
+        ],
+        "confidence": "medium",
+        "notes": "The involvement with the UN and military action in Libya is part of the Prime Minister's duties, but no specific time marker is available."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5,
+          6
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          4
+        ],
+        "supporting_quotes": [
+          "From May 2010 to mid‑2014, the number of academies soared from 203 to over 4,600, with more than half of secondary schools operating under academy status by mid‑2013.",
+          "Cameron advocated a substantial expansion of academy and free school provision in England, positioning them as central to improving standards."
+        ],
+        "confidence": "high",
+        "notes": "The expansion of academies and free schools in England is part of the Prime Minister's policy initiatives, with specific time markers provided."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          8
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He pledged to open at least 500 additional free schools by 2020, aiming to create around 270,000 new places, and announced the launch of 31 free schools in mid‑2016 alone, offering approximately 20,000 extra places."
+        ],
+        "confidence": "high",
+        "notes": "The pledge to open additional free schools is part of the Prime Minister's policy initiatives, with a specific time marker provided."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "Time markers include a range (2, 5) but no specific start or end date provided for the tenure as British Prime Minister."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Organization IDs are missing, which could provide additional context for the role."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "No time markers provided, making it difficult to place this event in a timeline."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 5,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 6,
+      "valid": 4,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 6,
+      "awards": 0
+    }
+  }
+}

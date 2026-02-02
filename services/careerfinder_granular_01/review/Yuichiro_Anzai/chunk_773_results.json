@@ -1,0 +1,85 @@
+{
+  "status": "success",
+  "chunk_id": 773,
+  "chunk_index": 0,
+  "source_url": "https://www.tokyofoundation.org/news/detail.php?news_id=1070",
+  "title": "Yuichiro Anzai Named Chief Executive Officer | News | The Tokyo Foundation",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "December 1, 2020",
+          "type": "point",
+          "quotes": [
+            "On December 1, 2020, the Tokyo Foundation for Policy Research appointed Executive Director Yuichiro Anzai to serve concurrently as Chief Executive Officer."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Tokyo Foundation for Policy Research",
+          "quotes": [
+            "the Tokyo Foundation for Policy Research appointed Executive Director Yuichiro Anzai to serve concurrently as Chief Executive Officer."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Chief Executive Officer",
+          "quotes": [
+            "appointed Executive Director Yuichiro Anzai to serve concurrently as Chief Executive Officer."
+          ]
+        },
+        {
+          "title": "Executive Director",
+          "quotes": [
+            "appointed Executive Director Yuichiro Anzai to serve concurrently as Chief Executive Officer."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "On December 1, 2020, the Tokyo Foundation for Policy Research appointed Executive Director Yuichiro Anzai to serve concurrently as Chief Executive Officer."
+        ],
+        "confidence": "high",
+        "notes": "Both roles are mentioned as concurrent positions within the same organization and time frame."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 1,
+      "warnings": 0,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

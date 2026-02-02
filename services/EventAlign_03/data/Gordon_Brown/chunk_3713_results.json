@@ -1,0 +1,187 @@
+{
+  "status": "success",
+  "chunk_id": 3713,
+  "chunk_index": 16,
+  "source_url": "https://en.wikipedia.org/wiki/Gordon_Brown",
+  "title": "Gordon Brown - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In April 2010",
+          "type": "point",
+          "quotes": [
+            "In April 2010, Brown asked the Queen to dissolve Parliament."
+          ]
+        },
+        {
+          "text": "6 May",
+          "type": "point",
+          "quotes": [
+            "The result of the election on 6 May was a hung parliament."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Scottish Parliament",
+          "quotes": [
+            "Margaret Curran, a sitting MSP in the Scottish Parliament."
+          ]
+        },
+        {
+          "name": "SNP",
+          "quotes": [
+            "The SNP, Conservatives and Liberal Democrats all derided Labour for their disorganised nature."
+          ]
+        },
+        {
+          "name": "Conservatives",
+          "quotes": [
+            "The SNP, Conservatives and Liberal Democrats all derided Labour for their disorganised nature."
+          ]
+        },
+        {
+          "name": "Liberal Democrats",
+          "quotes": [
+            "The SNP, Conservatives and Liberal Democrats all derided Labour for their disorganised nature."
+          ]
+        },
+        {
+          "name": "Scottish National Party",
+          "quotes": [
+            "Labour lost the constituency to the Scottish National Party's John Mason."
+          ]
+        },
+        {
+          "name": "UK Independence Party (UKIP)",
+          "quotes": [
+            "In the European elections, Labour polled 16% of the vote, finishing in third place behind the Conservatives and UK Independence Party (UKIP)."
+          ]
+        },
+        {
+          "name": "Green Party",
+          "quotes": [
+            "The beneficiary of the public backlash was generally seen to be the minor parties, including the Green Party and UKIP."
+          ]
+        },
+        {
+          "name": "Labour",
+          "quotes": [
+            "Labour lost the constituency to the Scottish National Party's John Mason."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "MSP",
+          "quotes": [
+            "Margaret Curran, a sitting MSP in the Scottish Parliament."
+          ]
+        },
+        {
+          "title": "MP",
+          "quotes": [
+            "Brown was re-elected as MP for Kirkcaldy and Cowdenbeath with 29,559 votes."
+          ]
+        },
+        {
+          "title": "Prime Minister",
+          "quotes": [
+            "they have a prime minister who refuses to come to the constituency"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Glasgow East",
+          "quotes": [
+            "A by-election in Glasgow East triggered by the resignation of David Marshall."
+          ]
+        },
+        {
+          "place": "Scotland",
+          "quotes": [
+            "In Scotland, voter turnout was only twenty-eight per cent."
+          ]
+        },
+        {
+          "place": "Kirkcaldy and Cowdenbeath",
+          "quotes": [
+            "Brown was re-elected as MP for Kirkcaldy and Cowdenbeath with 29,559 votes."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Margaret Curran, a sitting MSP in the Scottish Parliament."
+        ],
+        "confidence": "high",
+        "notes": "Directly stated role in the organization."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "In April 2010, Brown asked the Queen to dissolve Parliament.",
+          "Brown was re-elected as MP for Kirkcaldy and Cowdenbeath with 29,559 votes."
+        ],
+        "confidence": "high",
+        "notes": "Re-election as MP is a clear career position, linked to the time markers and location."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the career position, making it difficult to place the event in a timeline."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

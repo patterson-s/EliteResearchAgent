@@ -1,0 +1,188 @@
+{
+  "status": "success",
+  "chunk_id": 3355,
+  "chunk_index": 2,
+  "source_url": "https://www.gf.org/fellows/sung-hwan-kim/",
+  "title": "Guggenheim Fellowships: Supporting Artists, Scholars, & Scientists",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2021",
+          "type": "point",
+          "quotes": [
+            "Years Awarded 2021"
+          ]
+        },
+        {
+          "text": "Over the past two decades",
+          "type": "range",
+          "quotes": [
+            "Over the past two decades, Kim has been producing lyrical multimedia installations, films, and performances that merge the mythological and the everyday."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Williams College",
+          "quotes": [
+            "He received his BA in mathematics and art at Williams College, and SMVisS at MIT."
+          ]
+        },
+        {
+          "name": "MIT",
+          "quotes": [
+            "He received his BA in mathematics and art at Williams College, and SMVisS at MIT."
+          ]
+        },
+        {
+          "name": "Rijksakademie van beeldende kunsten",
+          "quotes": [
+            "He was a fellow at the Rijksakademie van beeldende kunsten and a recipient of Berliner Künstlerprogramm des DAAD."
+          ]
+        },
+        {
+          "name": "Berliner Künstlerprogramm des DAAD",
+          "quotes": [
+            "He was a fellow at the Rijksakademie van beeldende kunsten and a recipient of Berliner Künstlerprogramm des DAAD."
+          ]
+        },
+        {
+          "name": "Bayerischer Rundfunk",
+          "quotes": [
+            "created two radio plays, commissioned by Bayerischer Rundfunk: One from in the room (for which they won the Karl-Sczuka-Förderpreis),"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "fellow",
+          "quotes": [
+            "He was a fellow at the Rijksakademie van beeldende kunsten and a recipient of Berliner Künstlerprogramm des DAAD."
+          ]
+        },
+        {
+          "title": "recipient",
+          "quotes": [
+            "He was a fellow at the Rijksakademie van beeldende kunsten and a recipient of Berliner Künstlerprogramm des DAAD."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Seoul",
+          "quotes": [
+            "Sung Hwan Kim, born in 1975 in Seoul, lives and works in New York."
+          ]
+        },
+        {
+          "place": "New York",
+          "quotes": [
+            "Sung Hwan Kim, born in 1975 in Seoul, lives and works in New York."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He was a fellow at the Rijksakademie van beeldende kunsten and a recipient of Berliner Künstlerprogramm des DAAD."
+        ],
+        "confidence": "high",
+        "notes": "Fellowship typically implies an active role with responsibilities."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He was a fellow at the Rijksakademie van beeldende kunsten and a recipient of Berliner Künstlerprogramm des DAAD."
+        ],
+        "confidence": "high",
+        "notes": "Recipient of a program, likely an award or honor without ongoing responsibilities."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Years Awarded 2021"
+        ],
+        "confidence": "low",
+        "notes": "No specific organization or role mentioned, but 'Years Awarded' suggests an award."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "quote_support",
+            "severity": "medium",
+            "description": "The quote mentions a fellowship but does not clearly outline active responsibilities, which is typical for a career position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Fellowship could be misclassified as a career position if it does not involve active duties."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "error",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization and role details, making the event incomplete."
+          },
+          {
+            "type": "quote_support",
+            "severity": "medium",
+            "description": "The quote only mentions the year awarded without specifying the award or organization."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 1,
+      "career_positions": 1,
+      "awards": 2
+    }
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "status": "success",
+  "chunk_id": 3565,
+  "chunk_index": 0,
+  "source_url": "https://en.wikipedia.org/wiki/Shaukat_Aziz",
+  "title": "Shaukat Aziz - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "28 August 2004 – 15 November 2007",
+          "type": "range",
+          "quotes": [
+            "Shaukat Aziz (born 6 March 1949) is a Pakistani-born British former banker who served as the 15th prime minister of Pakistan from 28 August 2004 to 15 November 2007."
+          ]
+        },
+        {
+          "text": "6 November 1999 – 15 November 2007",
+          "type": "range",
+          "quotes": [
+            "Previously, he served as the finance minister of Pakistan from 6 November 1999 to 15 November 2007."
+          ]
+        },
+        {
+          "text": "1969",
+          "type": "point",
+          "quotes": [
+            "He graduated from the Institute of Business Administration and later joined the corporate staff of the CitiBank Pakistan in 1969."
+          ]
+        },
+        {
+          "text": "1999",
+          "type": "point",
+          "quotes": [
+            "and became executive vice-president of Citibank in 1999."
+          ]
+        },
+        {
+          "text": "1949",
+          "type": "point",
+          "quotes": [
+            "Shaukat Aziz (born 6 March 1949)"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "CitiBank Pakistan",
+          "quotes": [
+            "He graduated from the Institute of Business Administration and later joined the corporate staff of the CitiBank Pakistan in 1969."
+          ]
+        },
+        {
+          "name": "Institute of Business Administration",
+          "quotes": [
+            "He graduated from the Institute of Business Administration and later joined the corporate staff of the CitiBank Pakistan in 1969."
+          ]
+        },
+        {
+          "name": "Citibank",
+          "quotes": [
+            "and became executive vice-president of Citibank in 1999."
+          ]
+        },
+        {
+          "name": "National Assembly of Pakistan",
+          "quotes": [
+            "Member of the National Assembly of Pakistan"
+          ]
+        },
+        {
+          "name": "PML(Q)",
+          "quotes": [
+            "Other political affiliations PML(Q) (2002–2007)"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Prime Minister of Pakistan",
+          "quotes": [
+            "Shaukat Aziz (born 6 March 1949) is a Pakistani-born British former banker who served as the 15th prime minister of Pakistan from 28 August 2004 to 15 November 2007."
+          ]
+        },
+        {
+          "title": "Finance Minister of Pakistan",
+          "quotes": [
+            "Previously, he served as the finance minister of Pakistan from 6 November 1999 to 15 November 2007."
+          ]
+        },
+        {
+          "title": "executive vice-president of Citibank",
+          "quotes": [
+            "and became executive vice-president of Citibank in 1999."
+          ]
+        },
+        {
+          "title": "Member of the National Assembly of Pakistan",
+          "quotes": [
+            "Member of the National Assembly of Pakistan"
+          ]
+        },
+        {
+          "title": "CitiBank financier",
+          "quotes": [
+            "He initially served as CitiBank financier, and became executive vice-president of Citibank in 1999."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Karachi",
+          "quotes": [
+            "Aziz was born in Karachi."
+          ]
+        },
+        {
+          "place": "Federal Capital Territory",
+          "quotes": [
+            "Karachi, Federal Capital Territory, Pakistan"
+          ]
+        },
+        {
+          "place": "Pakistan",
+          "quotes": [
+            "Karachi, Federal Capital Territory, Pakistan"
+          ]
+        },
+        {
+          "place": "London",
+          "quotes": [
+            "Residence(s) London, United Kingdom"
+          ]
+        },
+        {
+          "place": "United Kingdom",
+          "quotes": [
+            "Residence(s) London, United Kingdom"
+          ]
+        },
+        {
+          "place": "Attock-III",
+          "quotes": [
+            "Constituency NA-59 (Attock-III)"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He graduated from the Institute of Business Administration and later joined the corporate staff of the CitiBank Pakistan in 1969.",
+          "He initially served as CitiBank financier, and became executive vice-president of Citibank in 1999."
+        ],
+        "confidence": "high",
+        "notes": "Role as CitiBank financier is linked to CitiBank Pakistan based on the quotes."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "and became executive vice-president of Citibank in 1999."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Previously, he served as the finance minister of Pakistan from 6 November 1999 to 15 November 2007."
+        ],
+        "confidence": "high",
+        "notes": "No specific organization mentioned, but role is clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Shaukat Aziz (born 6 March 1949) is a Pakistani-born British former banker who served as the 15th prime minister of Pakistan from 28 August 2004 to 15 November 2007."
+        ],
+        "confidence": "high",
+        "notes": "No specific organization mentioned, but role is clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Member of the National Assembly of Pakistan"
+        ],
+        "confidence": "medium",
+        "notes": "No time marker available, but role and organization are clear."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "The quote only mentions the role and year, but does not explicitly link the organization (Citibank) with the specific role in 1999."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the event, making it difficult to place in the timeline."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 3,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

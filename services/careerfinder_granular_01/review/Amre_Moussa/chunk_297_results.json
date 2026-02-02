@@ -1,0 +1,258 @@
+{
+  "status": "success",
+  "chunk_id": 297,
+  "chunk_index": 0,
+  "source_url": "https://en.wikipedia.org/wiki/Amr_Moussa",
+  "title": "Amr Moussa - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1 June 2001 – 1 July 2011",
+          "type": "range",
+          "quotes": [
+            "Amr Moussa...was the Secretary-General of the Arab League...from 1 June 2001 to 1 July 2011."
+          ]
+        },
+        {
+          "text": "20 May 1991 – 15 May 2001",
+          "type": "range",
+          "quotes": [
+            "Minister of Foreign Affairs in office 20 May 1991 – 15 May 2001"
+          ]
+        },
+        {
+          "text": "1 January 1990 – 20 May 1991",
+          "type": "range",
+          "quotes": [
+            "Egyptian Ambassador to the United Nations in office 1 January 1990 – 20 May 1991"
+          ]
+        },
+        {
+          "text": "3 October 1936",
+          "type": "point",
+          "quotes": [
+            "Born Amr Mouhammed Moussa Abu-Zeid (1936-10-03) 3 October 1936"
+          ]
+        },
+        {
+          "text": "8 September 2013",
+          "type": "point",
+          "quotes": [
+            "On 8 September 2013, he was elected president of the committee of 50 that will amend the Egyptian constitution."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Arab League",
+          "quotes": [
+            "Secretary-General of the Arab League",
+            "Amr Moussa...was the Secretary-General of the Arab League...from 1 June 2001 to 1 July 2011."
+          ]
+        },
+        {
+          "name": "Government of Egypt",
+          "quotes": [
+            "Previously he served in the government of Egypt as Minister of Foreign Affairs from 1991 to 2001."
+          ]
+        },
+        {
+          "name": "United Nations",
+          "quotes": [
+            "Egyptian Ambassador to the United Nations in office 1 January 1990 – 20 May 1991"
+          ]
+        },
+        {
+          "name": "Congress Party",
+          "quotes": [
+            "Political party Congress Party"
+          ]
+        },
+        {
+          "name": "Cairo University",
+          "quotes": [
+            "Alma mater Cairo University"
+          ]
+        },
+        {
+          "name": "committee of 50",
+          "quotes": [
+            "On 8 September 2013, he was elected president of the committee of 50 that will amend the Egyptian constitution."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Secretary-General",
+          "quotes": [
+            "Amr Moussa...was the Secretary-General of the Arab League",
+            "6th Secretary-General of the Arab League"
+          ]
+        },
+        {
+          "title": "Minister of Foreign Affairs",
+          "quotes": [
+            "Previously he served in the government of Egypt as Minister of Foreign Affairs from 1991 to 2001.",
+            "Minister of Foreign Affairs in office 20 May 1991 – 15 May 2001"
+          ]
+        },
+        {
+          "title": "Egyptian Ambassador to the United Nations",
+          "quotes": [
+            "Egyptian Ambassador to the United Nations in office 1 January 1990 – 20 May 1991"
+          ]
+        },
+        {
+          "title": "president of the committee of 50",
+          "quotes": [
+            "On 8 September 2013, he was elected president of the committee of 50 that will amend the Egyptian constitution."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Cairo",
+          "quotes": [
+            "Born...in Cairo, Egypt",
+            "Alma mater Cairo University"
+          ]
+        },
+        {
+          "place": "Egypt",
+          "quotes": [
+            "Born...in Cairo, Egypt",
+            "Previously he served in the government of Egypt as Minister of Foreign Affairs from 1991 to 2001."
+          ]
+        },
+        {
+          "place": "France",
+          "quotes": [
+            "His father also had a son named Pierre during his studies in France in the 1920s."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Egyptian Ambassador to the United Nations in office 1 January 1990 – 20 May 1991"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Minister of Foreign Affairs in office 20 May 1991 – 15 May 2001",
+          "Previously he served in the government of Egypt as Minister of Foreign Affairs from 1991 to 2001."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, role, and location"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Amr Moussa...was the Secretary-General of the Arab League...from 1 June 2001 to 1 July 2011.",
+          "Secretary-General of the Arab League",
+          "6th Secretary-General of the Arab League"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "On 8 September 2013, he was elected president of the committee of 50 that will amend the Egyptian constitution."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role"
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information for the role of president of the committee of 50."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 3,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

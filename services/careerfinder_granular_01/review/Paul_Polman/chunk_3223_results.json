@@ -1,0 +1,74 @@
+{
+  "status": "success",
+  "chunk_id": 3223,
+  "chunk_index": 2,
+  "source_url": "https://www.chartwellspeakers.com/speaker/paul-polman/",
+  "title": "Paul Polman - Unilever CEO - Chartwell Speakers Bureau",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "BlackRock",
+          "quotes": [
+            "Former Global CIO for Sustainable Investing at BlackRock"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Global CIO for Sustainable Investing",
+          "quotes": [
+            "Former Global CIO for Sustainable Investing at BlackRock"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Former Global CIO for Sustainable Investing at BlackRock"
+        ],
+        "confidence": "high",
+        "notes": "No time markers provided, but organization and role are clearly linked."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

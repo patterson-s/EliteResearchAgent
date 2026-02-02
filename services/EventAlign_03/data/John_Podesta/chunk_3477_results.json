@@ -1,0 +1,105 @@
+{
+  "status": "success",
+  "chunk_id": 3477,
+  "chunk_index": 1,
+  "source_url": "https://www.legistorm.com/person/bio/82191/John_David_Podesta_Jr_.html",
+  "title": "John Podesta - Previously held position: White House Office (Sept. 2022-Jan. 2025)\n             Joseph Robinette Biden (Joe), Senior Adviser to the President for Clean Energy Innovation and Implementation - Biography | LegiStorm",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "LegiStorm Pro",
+          "quotes": [
+            "Subscribers to LegiStorm Pro see biographical and contact information about John David Podesta",
+            "Click here to see more LegiStorm Pro benefits and subscribe, or log in to your Pro account."
+          ]
+        },
+        {
+          "name": "LegiStorm LLC",
+          "quotes": [
+            "© LegiStorm LegiStorm LLC 1025 Thomas Jefferson St. NW Suite 400 West Washington, DC 20007"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "lobbyist or foreign agent",
+          "quotes": [
+            "John David Podesta has been registered as a lobbyist or foreign agent."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Washington, DC",
+          "quotes": [
+            "LegiStorm LLC 1025 Thomas Jefferson St. NW Suite 400 West Washington, DC 20007"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Subscribers to LegiStorm Pro see biographical and contact information about John David Podesta",
+          "Click here to see more LegiStorm Pro benefits and subscribe, or log in to your Pro account.",
+          "© LegiStorm LegiStorm LLC 1025 Thomas Jefferson St. NW Suite 400 West Washington, DC 20007",
+          "John David Podesta has been registered as a lobbyist or foreign agent.",
+          "LegiStorm LLC 1025 Thomas Jefferson St. NW Suite 400 West Washington, DC 20007"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time markers, but the role and organizations are clearly linked. Confidence is medium due to lack of temporal information."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "No time markers provided, making temporal coherence impossible to verify."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time information, which is expected for a career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quotes do not clearly establish the duration or specific timeframe of the career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

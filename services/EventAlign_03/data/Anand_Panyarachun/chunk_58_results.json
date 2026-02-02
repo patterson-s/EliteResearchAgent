@@ -1,0 +1,185 @@
+{
+  "status": "success",
+  "chunk_id": 58,
+  "chunk_index": 8,
+  "source_url": "https://www.pbs.org/wgbh/commandingheights/shared/minitextlo/int_anandpanyarachun.html",
+  "title": "Commanding Heights : Anand Panyarachun | on PBS",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "during the Clinton years to perhaps now with the beginning of the Bush years",
+          "type": "range",
+          "quotes": [
+            "I think that the United States, directly or indirectly through the IMF, at least both during the Clinton years to perhaps now with the beginning of the Bush years, was perceived as searching for [a] new role."
+          ]
+        },
+        {
+          "text": "20, 30 years ago",
+          "type": "point",
+          "quotes": [
+            "There was a time, 20, 30 years ago, when it was viewed as being a world policeman -- and it was not such a good policeman at that."
+          ]
+        },
+        {
+          "text": "10 years ago",
+          "type": "point",
+          "quotes": [
+            "Then, 10 years ago, I rejoined the private sector, but I am now doing more and more on the non-business side."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "International Monetary Fund",
+          "quotes": [
+            "directly or indirectly through the International Monetary Fund, that had to be asked to be allowed in the Thai economy, the Asian economy."
+          ]
+        },
+        {
+          "name": "IMF",
+          "quotes": [
+            "definitely it appears that the IMF were the large stakeholder of the United States, pushing the Thai government and the Indonesian government to undertake certain reforms"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "prime minister",
+          "quotes": [
+            "as a businessman and former prime minister, when did you first get the feeling that something was seriously wrong, and do you remember what you felt at the time?",
+            "I spent 23 years in the diplomatic service and the following 13 [or] 14 years in the private sector, and I would say two years as a prime minister twice."
+          ]
+        },
+        {
+          "title": "businessman",
+          "quotes": [
+            "as a businessman and former prime minister, when did you first get the feeling that something was seriously wrong, and do you remember what you felt at the time?"
+          ]
+        },
+        {
+          "title": "world policeman",
+          "quotes": [
+            "There was a time, 20, 30 years ago, when it was viewed as being a world policeman -- and it was not such a good policeman at that."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Thai economy",
+          "quotes": [
+            "directly or indirectly through the International Monetary Fund, that had to be asked to be allowed in the Thai economy, the Asian economy."
+          ]
+        },
+        {
+          "place": "Asian economy",
+          "quotes": [
+            "directly or indirectly through the International Monetary Fund, that had to be asked to be allowed in the Thai economy, the Asian economy."
+          ]
+        },
+        {
+          "place": "United States",
+          "quotes": [
+            "I think that the United States, directly or indirectly through the IMF, at least both during the Clinton years to perhaps now with the beginning of the Bush years, was perceived as searching for [a] new role."
+          ]
+        },
+        {
+          "place": "Thailand",
+          "quotes": [
+            "Thailand's Slowdown: Failing to Grasp the Warning Signs"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "as a businessman and former prime minister, when did you first get the feeling that something was seriously wrong, and do you remember what you felt at the time?"
+        ],
+        "confidence": "high",
+        "notes": "Role as businessman is clearly stated, though no specific time or organization is mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "as a businessman and former prime minister, when did you first get the feeling that something was seriously wrong, and do you remember what you felt at the time?",
+          "I spent 23 years in the diplomatic service and the following 13 [or] 14 years in the private sector, and I would say two years as a prime minister twice."
+        ],
+        "confidence": "high",
+        "notes": "Role as prime minister is clearly stated, though no specific time or organization is mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Then, 10 years ago, I rejoined the private sector, but I am now doing more and more on the non-business side."
+        ],
+        "confidence": "high",
+        "notes": "Rejoining the private sector is clearly linked to the time marker '10 years ago'."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time and organization information for the career position as businessman."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time and organization information for the career position as prime minister."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

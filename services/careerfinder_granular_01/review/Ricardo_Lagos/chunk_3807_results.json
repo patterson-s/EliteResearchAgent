@@ -1,0 +1,297 @@
+{
+  "status": "success",
+  "chunk_id": 3807,
+  "chunk_index": 0,
+  "source_url": "https://en.wikipedia.org/wiki/Ricardo_Lagos",
+  "title": "Ricardo Lagos - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2000 to 2006",
+          "type": "range",
+          "quotes": [
+            "President of Chile from 2000 to 2006"
+          ]
+        },
+        {
+          "text": "11 March 2000 – 11 March 2006",
+          "type": "range",
+          "quotes": [
+            "In office 11 March 2000 – 11 March 2006"
+          ]
+        },
+        {
+          "text": "11 March 1994 – 1 August 1998",
+          "type": "range",
+          "quotes": [
+            "In office 11 March 1994 – 1 August 1998"
+          ]
+        },
+        {
+          "text": "11 March 1990 – 28 September 1992",
+          "type": "range",
+          "quotes": [
+            "In office 11 March 1990 – 28 September 1992"
+          ]
+        },
+        {
+          "text": "1987–present",
+          "type": "open",
+          "quotes": [
+            "Political party Party for Democracy (1987–present)"
+          ]
+        },
+        {
+          "text": "1959–1961",
+          "type": "range",
+          "quotes": [
+            "Other political affiliations Radical Party (1959–1961)"
+          ]
+        },
+        {
+          "text": "1961–1987",
+          "type": "range",
+          "quotes": [
+            "Other political affiliations Socialist Party of Chile (1961–1987)"
+          ]
+        },
+        {
+          "text": "1961; ann. 1969",
+          "type": "range",
+          "quotes": [
+            "Carmen Weber ​ ​ (m. 1961; ann. 1969) ​"
+          ]
+        },
+        {
+          "text": "1971",
+          "type": "point",
+          "quotes": [
+            "Luisa Durán ​ (m. 1971) ​"
+          ]
+        },
+        {
+          "text": "(1938-03-02)",
+          "type": "point",
+          "quotes": [
+            "Born (1938-03-02) 2 March 1938 (age 87)"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Party for Democracy",
+          "quotes": [
+            "Political party Party for Democracy (1987–present)"
+          ]
+        },
+        {
+          "name": "Radical Party",
+          "quotes": [
+            "Other political affiliations Radical Party (1959–1961)"
+          ]
+        },
+        {
+          "name": "Socialist Party of Chile",
+          "quotes": [
+            "Other political affiliations Socialist Party of Chile (1961–1987)"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "President of Chile",
+          "quotes": [
+            "President of Chile from 2000 to 2006",
+            "32nd President of Chile"
+          ]
+        },
+        {
+          "title": "Minister of Public Works",
+          "quotes": [
+            "Minister of Public Works In office 11 March 1994 – 1 August 1998"
+          ]
+        },
+        {
+          "title": "Minister of Education",
+          "quotes": [
+            "Minister of Education In office 11 March 1990 – 28 September 1992"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Santiago, Chile",
+          "quotes": [
+            "Born (1938-03-02) 2 March 1938 (age 87) Santiago, Chile"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "President of Chile from 2000 to 2006",
+          "In office 11 March 2000 – 11 March 2006",
+          "32nd President of Chile"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time markers and role"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Minister of Public Works In office 11 March 1994 – 1 August 1998"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time marker and role"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Minister of Education In office 11 March 1990 – 28 September 1992"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time marker and role"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Political party Party for Democracy (1987–present)"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time marker and organization"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Other political affiliations Radical Party (1959–1961)"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time marker and organization"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          6
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Other political affiliations Socialist Party of Chile (1961–1987)"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time marker and organization"
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Political party membership is classified as a career position, but it may not involve active responsibilities."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Political party membership is classified as a career position, but it may not involve active responsibilities."
+          }
+        ]
+      },
+      {
+        "event_id": 5,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Political party membership is classified as a career position, but it may not involve active responsibilities."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 6,
+      "valid": 3,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 6,
+      "awards": 0
+    }
+  }
+}

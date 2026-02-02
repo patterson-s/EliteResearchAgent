@@ -1,0 +1,126 @@
+{
+  "status": "success",
+  "chunk_id": 598,
+  "chunk_index": 1,
+  "source_url": "https://thechanzo.com/2024/09/02/dr-salim-ahmed-salim-archive-a-digital-memoir-about-africa/",
+  "title": "Dr Salim Ahmed Salim Archive: A Digital Memoir About Africa - The Chanzo",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "in 2023",
+          "type": "point",
+          "quotes": [
+            "The memorable unveiling and launch of the Dr Salim Ahmed Salim Digital Archive in 2023 definitely confirmed amongst us that the celebrated diplomat’s voice, legacy, and thoughts shall not be silenced or vanish in vain."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "National Defence College (NDC)",
+          "quotes": [
+            "Dr Lucy Shule, currently the Director of Studies at the National Defence College (NDC), was my very recent supervisor for my post-grad studies at the Centre for Foreign Relations, from whom I learnt a great deal."
+          ]
+        },
+        {
+          "name": "Centre for Foreign Relations",
+          "quotes": [
+            "Dr Lucy Shule, currently the Director of Studies at the National Defence College (NDC), was my very recent supervisor for my post-grad studies at the Centre for Foreign Relations, from whom I learnt a great deal."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Director of Studies",
+          "quotes": [
+            "Dr Lucy Shule, currently the Director of Studies at the National Defence College (NDC), was my very recent supervisor for my post-grad studies at the Centre for Foreign Relations, from whom I learnt a great deal."
+          ]
+        },
+        {
+          "title": "supervisor",
+          "quotes": [
+            "Dr Lucy Shule, currently the Director of Studies at the National Defence College (NDC), was my very recent supervisor for my post-grad studies at the Centre for Foreign Relations, from whom I learnt a great deal."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Dr Lucy Shule, currently the Director of Studies at the National Defence College (NDC), was my very recent supervisor for my post-grad studies at the Centre for Foreign Relations, from whom I learnt a great deal."
+        ],
+        "confidence": "high",
+        "notes": "The role 'Director of Studies' at 'National Defence College (NDC)' is clearly a career position with ongoing responsibilities."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Dr Lucy Shule, currently the Director of Studies at the National Defence College (NDC), was my very recent supervisor for my post-grad studies at the Centre for Foreign Relations, from whom I learnt a great deal."
+        ],
+        "confidence": "high",
+        "notes": "The role 'supervisor' at 'Centre for Foreign Relations' is clearly a career position with ongoing responsibilities."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the career position at National Defence College (NDC)."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the career position at Centre for Foreign Relations."
+          },
+          {
+            "type": "duplicate",
+            "severity": "low",
+            "description": "Potential duplicate event as both events share the same supporting quote and may refer to the same time period."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

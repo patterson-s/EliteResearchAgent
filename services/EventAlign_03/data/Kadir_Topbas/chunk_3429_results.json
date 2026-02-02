@@ -1,0 +1,265 @@
+{
+  "status": "success",
+  "chunk_id": 3429,
+  "chunk_index": 2,
+  "source_url": "https://en.wikipedia.org/wiki/Kadir_Topba%C5%9F",
+  "title": "Kadir Topbaş - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "November 2020",
+          "type": "point",
+          "quotes": [
+            "In November 2020, Topbaş was hospitalized for COVID-19 during the COVID-19 pandemic in Turkey."
+          ]
+        },
+        {
+          "text": "13 February 2021",
+          "type": "point",
+          "quotes": [
+            "He died on 13 February 2021, due to multiple organ failure amidst being treated for COVID-19 complications."
+          ]
+        },
+        {
+          "text": "12 September 2014",
+          "type": "point",
+          "quotes": [
+            "Order of Cultural Merit, South Korea, 12 September 2014, Seoul"
+          ]
+        },
+        {
+          "text": "22 September 2017",
+          "type": "point",
+          "quotes": [
+            "Istanbul's mayor announces his sudden resignation. Associated Press News. 22 September 2017."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Saray Muhallebicisi",
+          "quotes": [
+            "Saray Muhallebicisi'nin bir şubesi daha kapandı İBB eski Başkanı Kadir Topbaş sahibi."
+          ]
+        },
+        {
+          "name": "İBB",
+          "quotes": [
+            "Saray Muhallebicisi'nin bir şubesi daha kapandı İBB eski Başkanı Kadir Topbaş sahibi.",
+            "İBB Başkanı Kadir Topbaş istifa etti"
+          ]
+        },
+        {
+          "name": "UCLG",
+          "quotes": [
+            "Dr. KADİR TOPBAŞ, PRESIDENT OF UCLG, WAS RE-ELECTED PRESIDENT OF UNION OF MUNICIPALITIES OF TURKEY"
+          ]
+        },
+        {
+          "name": "Union of Municipalities of Turkey",
+          "quotes": [
+            "Dr. KADİR TOPBAŞ, PRESIDENT OF UCLG, WAS RE-ELECTED PRESIDENT OF UNION OF MUNICIPALITIES OF TURKEY"
+          ]
+        },
+        {
+          "name": "İstanbul Büyükşehir Belediyesi",
+          "quotes": [
+            "İstanbul Büyükşehir Belediyesi'nin yeni başkanı Mevlüt Uysal"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Mayor of Istanbul",
+          "quotes": [
+            "Former Mayor of Istanbul Kadir Topbaş dies of COVID-19 aged 76.",
+            "Istanbul's mayor announces his sudden resignation."
+          ]
+        },
+        {
+          "title": "President of UCLG",
+          "quotes": [
+            "Dr. KADİR TOPBAŞ, PRESIDENT OF UCLG, WAS RE-ELECTED PRESIDENT OF UNION OF MUNICIPALITIES OF TURKEY"
+          ]
+        },
+        {
+          "title": "President of Union of Municipalities of Turkey",
+          "quotes": [
+            "Dr. KADİR TOPBAŞ, PRESIDENT OF UCLG, WAS RE-ELECTED PRESIDENT OF UNION OF MUNICIPALITIES OF TURKEY"
+          ]
+        },
+        {
+          "title": "İBB Başkanı",
+          "quotes": [
+            "İBB Başkanı Kadir Topbaş istifa etti"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Turkey",
+          "quotes": [
+            "COVID-19 pandemic in Turkey",
+            "Turkish opposition leader Kemal Kılıçdaroğlu gets COVID-19 jab"
+          ]
+        },
+        {
+          "place": "Istanbul",
+          "quotes": [
+            "Former Mayor of Istanbul Kadir Topbaş dies of COVID-19 aged 76.",
+            "Istanbul's mayor announces his sudden resignation."
+          ]
+        },
+        {
+          "place": "Seoul",
+          "quotes": [
+            "Order of Cultural Merit, South Korea, 12 September 2014, Seoul"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1,
+          4
+        ],
+        "role_ids": [
+          0,
+          3
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Former Mayor of Istanbul Kadir Topbaş dies of COVID-19 aged 76.",
+          "Istanbul's mayor announces his sudden resignation.",
+          "İBB Başkanı Kadir Topbaş istifa etti",
+          "İstanbul Büyükşehir Belediyesi'nin yeni başkanı Mevlüt Uysal"
+        ],
+        "confidence": "high",
+        "notes": "The role of Mayor of Istanbul and İBB Başkanı are linked to the same organization (İBB/İstanbul Büyükşehir Belediyesi) and location (Istanbul)."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2,
+          3
+        ],
+        "role_ids": [
+          1,
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Dr. KADİR TOPBAŞ, PRESIDENT OF UCLG, WAS RE-ELECTED PRESIDENT OF UNION OF MUNICIPALITIES OF TURKEY"
+        ],
+        "confidence": "high",
+        "notes": "The roles of President of UCLG and President of Union of Municipalities of Turkey are clearly linked in the quote."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "Order of Cultural Merit, South Korea, 12 September 2014, Seoul"
+        ],
+        "confidence": "high",
+        "notes": "The Order of Cultural Merit is clearly an award, as indicated by its name and context."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Saray Muhallebicisi'nin bir şubesi daha kapandı İBB eski Başkanı Kadir Topbaş sahibi."
+        ],
+        "confidence": "medium",
+        "notes": "The ownership of Saray Muhallebicisi is implied but not explicitly linked to a specific role or time period."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "Missing time markers for career position, making temporal coherence verification impossible."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quotes mention resignation and new mayor but do not explicitly confirm the start of the position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "Missing time markers for career position, making temporal coherence verification impossible."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Location information is missing, though roles are clearly linked."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role and time markers, making the event incomplete."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Ownership is implied but not explicitly stated in the quote."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 1,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 1
+    }
+  }
+}

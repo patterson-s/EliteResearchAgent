@@ -1,0 +1,243 @@
+{
+  "status": "success",
+  "chunk_id": 3395,
+  "chunk_index": 4,
+  "source_url": "https://en.wikipedia.org/wiki/Em%C3%ADlia_Pires",
+  "title": "Emília Pires - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "5 June 2010",
+          "type": "point",
+          "quotes": [
+            ". Overseas Development Institute. Archived from the original on 5 June 2010."
+          ]
+        },
+        {
+          "text": "11 April 2012",
+          "type": "point",
+          "quotes": [
+            ". Retrieved 11 April 2012."
+          ]
+        },
+        {
+          "text": "August 2023",
+          "type": "point",
+          "quotes": [
+            "Use British English from August 2023"
+          ]
+        },
+        {
+          "text": "March 2022",
+          "type": "point",
+          "quotes": [
+            "Wikipedia articles in need of updating from March 2022"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Overseas Development Institute",
+          "quotes": [
+            ". Overseas Development Institute. Archived from the original on 5 June 2010."
+          ]
+        },
+        {
+          "name": "OECD",
+          "quotes": [
+            "^ OECD. \"Summary Note: Deepening Voice and Accountability to Fight Poverty: A Dialogue of Communication Implementers\" (PDF) . OECD . Retrieved 11 April 2012."
+          ]
+        },
+        {
+          "name": "University of Melbourne",
+          "quotes": [
+            "University of Melbourne alumni"
+          ]
+        },
+        {
+          "name": "London School of Economics",
+          "quotes": [
+            "Alumni of the London School of Economics"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Former Minister of Finance, Timor-Leste",
+          "quotes": [
+            "Emilia Pires Former Minister of Finance, Timor-Leste Special Envoy, g7+"
+          ]
+        },
+        {
+          "title": "Minister of Finance",
+          "quotes": [
+            "EMILIA PIRES Minister of Finance"
+          ]
+        },
+        {
+          "title": "Special Envoy, g7+",
+          "quotes": [
+            "Emilia Pires Former Minister of Finance, Timor-Leste Special Envoy, g7+"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Timor-Leste",
+          "quotes": [
+            "Emilia Pires Former Minister of Finance, Timor-Leste Special Envoy, g7+"
+          ]
+        },
+        {
+          "place": "Bobonaro Municipality",
+          "quotes": [
+            "People from Bobonaro Municipality"
+          ]
+        },
+        {
+          "place": "Australia",
+          "quotes": [
+            "East Timorese expatriates in Australia"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0,
+          2
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Emilia Pires Former Minister of Finance, Timor-Leste Special Envoy, g7+",
+          "Emilia Pires Former Minister of Finance, Timor-Leste Special Envoy, g7+"
+        ],
+        "confidence": "high",
+        "notes": "No specific time markers provided for these roles, but they are clearly career positions."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "EMILIA PIRES Minister of Finance"
+        ],
+        "confidence": "high",
+        "notes": "No specific time markers or locations provided, but the role is clearly a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          ". Overseas Development Institute. Archived from the original on 5 June 2010."
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but the organization and time marker suggest a career affiliation."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "^ OECD. \"Summary Note: Deepening Voice and Accountability to Fight Poverty: A Dialogue of Communication Implementers\" (PDF) . OECD . Retrieved 11 April 2012."
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but the organization and time marker suggest a career affiliation."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career positions."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers and locations for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quote does not clearly mention a role, only an organization and time marker."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quote does not clearly mention a role, only an organization and time marker."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 0,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

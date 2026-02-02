@@ -1,0 +1,163 @@
+{
+  "status": "success",
+  "chunk_id": 2886,
+  "chunk_index": 1,
+  "source_url": "https://uk.linkedin.com/in/davidcameronofficial",
+  "title": "David Cameron - Foreign, Commonwealth and Development Office | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "from May 2010 until July 2016",
+          "type": "range",
+          "quotes": [
+            "David Cameron was Prime Minister of the United Kingdom from May 2010 until July 2016, and…"
+          ]
+        },
+        {
+          "text": "Mar 8, 2024",
+          "type": "point",
+          "quotes": [
+            "Why we need International Women's Day\nMar 8, 2024"
+          ]
+        },
+        {
+          "text": "Jan 31, 2024",
+          "type": "point",
+          "quotes": [
+            "We all abhor unpleasant deals, but that's what must happen if we are to solve the Gaza crisis\nJan 31, 2024"
+          ]
+        },
+        {
+          "text": "Jan 18, 2024",
+          "type": "point",
+          "quotes": [
+            "This is how we're saving lives.\nJan 18, 2024"
+          ]
+        },
+        {
+          "text": "Jun 24, 2020",
+          "type": "point",
+          "quotes": [
+            "COVID shows that a new Global Virus Surveillance Organisation is needed\nJun 24, 2020"
+          ]
+        },
+        {
+          "text": "Feb 11, 2020",
+          "type": "point",
+          "quotes": [
+            "Technology can help us fight dementia\nFeb 11, 2020"
+          ]
+        },
+        {
+          "text": "Dec 5, 2018",
+          "type": "point",
+          "quotes": [
+            "Speech to World Dementia Council, five years on from first global dementia summit\nDec 5, 2018"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Foreign, Commonwealth and Development Office",
+          "quotes": [
+            "Foreign, Commonwealth and Development Office"
+          ]
+        },
+        {
+          "name": "University of Oxford",
+          "quotes": [
+            "University of Oxford"
+          ]
+        },
+        {
+          "name": "LinkedIn",
+          "quotes": [
+            "By clicking Continue to join or sign in, you agree to LinkedIn’s\nUser Agreement"
+          ]
+        },
+        {
+          "name": "World Dementia Council",
+          "quotes": [
+            "Speech to World Dementia Council, five years on from first global dementia summit"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Prime Minister of the United Kingdom",
+          "quotes": [
+            "David Cameron was Prime Minister of the United Kingdom from May 2010 until July 2016, and…"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "United Kingdom",
+          "quotes": [
+            "David Cameron was Prime Minister of the United Kingdom from May 2010 until July 2016, and…"
+          ]
+        },
+        {
+          "place": "Israel",
+          "quotes": [
+            "Last week I travelled from Israel, a country where they want to eradicate every last Hamas terrorist, to Qatar, where…"
+          ]
+        },
+        {
+          "place": "Qatar",
+          "quotes": [
+            "Last week I travelled from Israel, a country where they want to eradicate every last Hamas terrorist, to Qatar, where…"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "David Cameron was Prime Minister of the United Kingdom from May 2010 until July 2016, and…"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, role, and location in the same quote."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

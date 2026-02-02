@@ -1,0 +1,239 @@
+{
+  "status": "success",
+  "chunk_id": 123,
+  "chunk_index": 0,
+  "source_url": "https://www.ebsco.com/research-starters/biography/gro-harlem-brundtland",
+  "title": "Gro Harlem Brundtland | Research Starters | EBSCO Research",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1939",
+          "type": "point",
+          "quotes": [
+            "Born in Oslo in 1939",
+            "Born: April 20, 1939"
+          ]
+        },
+        {
+          "text": "1970s",
+          "type": "range",
+          "quotes": [
+            "She was a significant advocate for women's rights, notably contributing to the legalization of abortion in Norway during the 1970s.",
+            "She was active in the women’s rights movement and was a key figure in the legalization of abortion in Norway in the 1970s."
+          ]
+        },
+        {
+          "text": "from 1998 to 2003",
+          "type": "range",
+          "quotes": [
+            "In addition to her political career, Brundtland served as the Director-General of the World Health Organization from 1998 to 2003"
+          ]
+        },
+        {
+          "text": "1981, 1986-1989, 1990-1996",
+          "type": "range",
+          "quotes": [
+            "Prime minister of Norway (1981, 1986-1989, 1990-1996)"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Labor Party",
+          "quotes": [
+            "Born in Oslo in 1939, Brundtland's early exposure to politics and health, influenced by her family's involvement in the Labor Party, shaped her career trajectory.",
+            "Labor Party member and medical doctor Brundtland was elected Norway’s first female prime minister, and its youngest.",
+            "the daughter of two prominent Labor Party members, Swedish-born Inga Brynolf and Norwegian Gudmund Harlem.",
+            "When just seven years old, Gro joined the Progress Group, the Norwegian children’s Labor Party."
+          ]
+        },
+        {
+          "name": "Brundtland Commission",
+          "quotes": [
+            "she later established the Brundtland Commission, which popularized the concept of sustainable development."
+          ]
+        },
+        {
+          "name": "World Health Organization",
+          "quotes": [
+            "In addition to her political career, Brundtland served as the Director-General of the World Health Organization from 1998 to 2003"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Minister of the Environment",
+          "quotes": [
+            "Her environmental work began as Minister of the Environment, where she tackled issues like acid rain and land preservation"
+          ]
+        },
+        {
+          "title": "Director-General of the World Health Organization",
+          "quotes": [
+            "In addition to her political career, Brundtland served as the Director-General of the World Health Organization from 1998 to 2003"
+          ]
+        },
+        {
+          "title": "Prime minister of Norway",
+          "quotes": [
+            "Gro Harlem Brundtland is a prominent Norwegian politician and medical doctor, known for her groundbreaking role as Norway's first female and youngest prime minister.",
+            "Labor Party member and medical doctor Brundtland was elected Norway’s first female prime minister, and its youngest."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Oslo",
+          "quotes": [
+            "Born in Oslo in 1939",
+            "Gro Harlem Brundtland (BREWNT-lahnd) was born Gro Harlem in Oslo, Norway",
+            "Place of Birth: Oslo, Norway"
+          ]
+        },
+        {
+          "place": "Norway",
+          "quotes": [
+            "Gro Harlem Brundtland is a prominent Norwegian politician and medical doctor, known for her groundbreaking role as Norway's first female and youngest prime minister.",
+            "notably contributing to the legalization of abortion in Norway during the 1970s.",
+            "Labor Party member and medical doctor Brundtland was elected Norway’s first female prime minister, and its youngest.",
+            "Gro Harlem Brundtland (BREWNT-lahnd) was born Gro Harlem in Oslo, Norway",
+            "Place of Birth: Oslo, Norway"
+          ]
+        },
+        {
+          "place": "United States",
+          "quotes": [
+            "At the age of ten she moved with her family to the United States, where her father was studying rehabilitation medicine on a Rockefeller scholarship."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Prime minister of Norway (1981, 1986-1989, 1990-1996)",
+          "Gro Harlem Brundtland is a prominent Norwegian politician and medical doctor, known for her groundbreaking role as Norway's first female and youngest prime minister.",
+          "Labor Party member and medical doctor Brundtland was elected Norway’s first female prime minister, and its youngest."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In addition to her political career, Brundtland served as the Director-General of the World Health Organization from 1998 to 2003"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Her environmental work began as Minister of the Environment, where she tackled issues like acid rain and land preservation"
+        ],
+        "confidence": "medium",
+        "notes": "Role mentioned without specific time or organization, but assumed to be part of her political career."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "She was a significant advocate for women's rights, notably contributing to the legalization of abortion in Norway during the 1970s.",
+          "She was active in the women’s rights movement and was a key figure in the legalization of abortion in Norway in the 1970s."
+        ],
+        "confidence": "medium",
+        "notes": "Activity mentioned without specific role or organization, but assumed to be part of her advocacy work."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time and organization information for the role of Minister of the Environment."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role and organization information for the women's rights advocacy work in Norway during the 1970s."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position, but lacks clear role or organization, potentially more advocacy-related."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 2,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

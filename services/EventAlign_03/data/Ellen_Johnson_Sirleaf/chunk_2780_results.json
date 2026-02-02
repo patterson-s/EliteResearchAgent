@@ -1,0 +1,86 @@
+{
+  "status": "success",
+  "chunk_id": 2780,
+  "chunk_index": 2,
+  "source_url": "https://www.g-l-f.org/who-we-are/members/ellen-johnson-sirleaf/",
+  "title": "Ellen Johnson Sirleaf | Global Leadership Foundation",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "The Elders",
+          "quotes": [
+            "Member of The Elders"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Member",
+          "quotes": [
+            "Member of The Elders"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Madrid",
+          "quotes": [
+            "Madrid"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Member of The Elders"
+        ],
+        "confidence": "high",
+        "notes": "No time marker available, but organization and role are clear."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker information, making temporal coherence impossible to verify."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "While 'Member of The Elders' suggests a career position, the lack of active responsibilities or role details makes classification slightly uncertain."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "status": "success",
+  "chunk_id": 3541,
+  "chunk_index": 0,
+  "source_url": "https://www.un.org/sg/en/dsg/amina-mohammed-biography",
+  "title": "Biography of Amina J. Mohammed | Secretary-General | United Nations",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2012",
+          "type": "point",
+          "quotes": [
+            "Ms. Mohammed first joined the United Nations in 2012 as Special Adviser to former Secretary-General Ban Ki-moon"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "United Nations",
+          "quotes": [
+            "Ms. Amina J. Mohammed is the Deputy Secretary-General of the United Nations and Chair of the United Nations Sustainable Development Group.",
+            "Ms. Mohammed first joined the United Nations in 2012 as Special Adviser to former Secretary-General Ban Ki-moon"
+          ]
+        },
+        {
+          "name": "United Nations Sustainable Development Group",
+          "quotes": [
+            "Ms. Amina J. Mohammed is the Deputy Secretary-General of the United Nations and Chair of the United Nations Sustainable Development Group."
+          ]
+        },
+        {
+          "name": "Federal Republic of Nigeria",
+          "quotes": [
+            "Ms. Mohammed served as Minister of Environment of the Federal Republic of Nigeria where she steered the country’s efforts on climate action and efforts to protect the natural environment."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Deputy Secretary-General of the United Nations",
+          "quotes": [
+            "Ms. Amina J. Mohammed is the Deputy Secretary-General of the United Nations and Chair of the United Nations Sustainable Development Group."
+          ]
+        },
+        {
+          "title": "Chair of the United Nations Sustainable Development Group",
+          "quotes": [
+            "Ms. Amina J. Mohammed is the Deputy Secretary-General of the United Nations and Chair of the United Nations Sustainable Development Group."
+          ]
+        },
+        {
+          "title": "Minister of Environment of the Federal Republic of Nigeria",
+          "quotes": [
+            "Ms. Mohammed served as Minister of Environment of the Federal Republic of Nigeria where she steered the country’s efforts on climate action and efforts to protect the natural environment."
+          ]
+        },
+        {
+          "title": "Special Adviser to former Secretary-General Ban Ki-moon",
+          "quotes": [
+            "Ms. Mohammed first joined the United Nations in 2012 as Special Adviser to former Secretary-General Ban Ki-moon with the responsibility for post-2015 development planning."
+          ]
+        },
+        {
+          "title": "adviser to four successive Presidents on poverty, public sector reform, and sustainable development",
+          "quotes": [
+            "She served as an advocate focused on increasing access to education and other social services, before moving into the public sector, where she rose to the position of adviser to four successive Presidents on poverty, public sector reform, and sustainable development."
+          ]
+        },
+        {
+          "title": "adjunct professor",
+          "quotes": [
+            "Ms. Mohammed has been conferred several honorary doctorates and has served as an adjunct professor, lecturing on"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Nigeria",
+          "quotes": [
+            "Ms. Mohammed began her career working on the design of schools and hospitals in Nigeria.",
+            "Ms. Mohammed served as Minister of Environment of the Federal Republic of Nigeria where she steered the country’s efforts on climate action and efforts to protect the natural environment."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Ms. Mohammed first joined the United Nations in 2012 as Special Adviser to former Secretary-General Ban Ki-moon",
+          "Ms. Mohammed first joined the United Nations in 2012 as Special Adviser to former Secretary-General Ban Ki-moon with the responsibility for post-2015 development planning."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Ms. Amina J. Mohammed is the Deputy Secretary-General of the United Nations and Chair of the United Nations Sustainable Development Group."
+        ],
+        "confidence": "high",
+        "notes": "Simultaneous roles within the same organization, no specific time marker provided."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Ms. Mohammed served as Minister of Environment of the Federal Republic of Nigeria where she steered the country’s efforts on climate action and efforts to protect the natural environment."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between organization, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "She served as an advocate focused on increasing access to education and other social services, before moving into the public sector, where she rose to the position of adviser to four successive Presidents on poverty, public sector reform, and sustainable development."
+        ],
+        "confidence": "medium",
+        "notes": "No specific organization or time marker, but role is clearly a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          5
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Ms. Mohammed has been conferred several honorary doctorates and has served as an adjunct professor, lecturing on"
+        ],
+        "confidence": "medium",
+        "notes": "No specific organization or time marker, but role is clearly a career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and time marker for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and time marker for career position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Role as adjunct professor might be better classified as an award or academic recognition if it's honorary."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 2,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

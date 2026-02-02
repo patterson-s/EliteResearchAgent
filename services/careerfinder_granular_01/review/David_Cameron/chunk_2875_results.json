@@ -1,0 +1,327 @@
+{
+  "status": "success",
+  "chunk_id": 2875,
+  "chunk_index": 1,
+  "source_url": "https://www.britannica.com/biography/David-Cameron",
+  "title": "David Cameron | Biography, Brexit, & Facts | Britannica",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2010–16",
+          "type": "range",
+          "quotes": [
+            "David Cameron ... served as prime minister of the United Kingdom (2010–16)."
+          ]
+        },
+        {
+          "text": "1988",
+          "type": "point",
+          "quotes": [
+            "He attended Eton College and Brasenose College, Oxford, from which he graduated (1988) with a first-class degree in philosophy, politics, and economics."
+          ]
+        },
+        {
+          "text": "1992",
+          "type": "point",
+          "quotes": [
+            "In 1992 he became a special adviser to Norman Lamont, then chancellor of the Exchequer, and the following year he undertook the same role for Michael Howard, then home secretary."
+          ]
+        },
+        {
+          "text": "1994",
+          "type": "point",
+          "quotes": [
+            "Cameron joined the media company Carlton Communications in 1994 as director of corporate affairs."
+          ]
+        },
+        {
+          "text": "2001",
+          "type": "point",
+          "quotes": [
+            "He stayed at Carlton until he entered Parliament in 2001 as MP for Witney, northwest of London."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Conservative Party",
+          "quotes": [
+            "David Cameron ... is a British Conservative Party leader who served as prime minister of the United Kingdom (2010–16).",
+            "After Oxford he joined the Conservative Party Research Department."
+          ]
+        },
+        {
+          "name": "Eton College",
+          "quotes": [
+            "He attended Eton College and Brasenose College, Oxford, from which he graduated (1988) with a first-class degree in philosophy, politics, and economics."
+          ]
+        },
+        {
+          "name": "Brasenose College, Oxford",
+          "quotes": [
+            "He attended Eton College and Brasenose College, Oxford, from which he graduated (1988) with a first-class degree in philosophy, politics, and economics."
+          ]
+        },
+        {
+          "name": "Carlton Communications",
+          "quotes": [
+            "Cameron joined the media company Carlton Communications in 1994 as director of corporate affairs."
+          ]
+        },
+        {
+          "name": "Parliament",
+          "quotes": [
+            "He stayed at Carlton until he entered Parliament in 2001 as MP for Witney, northwest of London."
+          ]
+        },
+        {
+          "name": "Exchequer",
+          "quotes": [
+            "In 1992 he became a special adviser to Norman Lamont, then chancellor of the Exchequer, and the following year he undertook the same role for Michael Howard, then home secretary."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "prime minister",
+          "quotes": [
+            "David Cameron ... served as prime minister of the United Kingdom (2010–16)."
+          ]
+        },
+        {
+          "title": "special adviser to Norman Lamont",
+          "quotes": [
+            "In 1992 he became a special adviser to Norman Lamont, then chancellor of the Exchequer, and the following year he undertook the same role for Michael Howard, then home secretary."
+          ]
+        },
+        {
+          "title": "special adviser to Michael Howard",
+          "quotes": [
+            "In 1992 he became a special adviser to Norman Lamont, then chancellor of the Exchequer, and the following year he undertook the same role for Michael Howard, then home secretary."
+          ]
+        },
+        {
+          "title": "director of corporate affairs",
+          "quotes": [
+            "Cameron joined the media company Carlton Communications in 1994 as director of corporate affairs."
+          ]
+        },
+        {
+          "title": "MP for Witney",
+          "quotes": [
+            "He stayed at Carlton until he entered Parliament in 2001 as MP for Witney, northwest of London."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "London",
+          "quotes": [
+            "David Cameron (born October 9, 1966, London, England) is a British Conservative Party leader who served as prime minister of the United Kingdom (2010–16).",
+            "He stayed at Carlton until he entered Parliament in 2001 as MP for Witney, northwest of London."
+          ]
+        },
+        {
+          "place": "United Kingdom",
+          "quotes": [
+            "David Cameron ... served as prime minister of the United Kingdom (2010–16)."
+          ]
+        },
+        {
+          "place": "Witney",
+          "quotes": [
+            "He stayed at Carlton until he entered Parliament in 2001 as MP for Witney, northwest of London."
+          ]
+        },
+        {
+          "place": "England",
+          "quotes": [
+            "David Cameron (born October 9, 1966, London, England) is a British Conservative Party leader who served as prime minister of the United Kingdom (2010–16)."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          1,
+          4
+        ],
+        "supporting_quotes": [
+          "David Cameron ... served as prime minister of the United Kingdom (2010–16).",
+          "David Cameron (born October 9, 1966, London, England) is a British Conservative Party leader who served as prime minister of the United Kingdom (2010–16)."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 1992 he became a special adviser to Norman Lamont, then chancellor of the Exchequer, and the following year he undertook the same role for Michael Howard, then home secretary."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 1992 he became a special adviser to Norman Lamont, then chancellor of the Exchequer, and the following year he undertook the same role for Michael Howard, then home secretary."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role, though the exact year for Michael Howard is implied as 1993."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Cameron joined the media company Carlton Communications in 1994 as director of corporate affairs."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [
+          2,
+          0
+        ],
+        "supporting_quotes": [
+          "He stayed at Carlton until he entered Parliament in 2001 as MP for Witney, northwest of London.",
+          "He stayed at Carlton until he entered Parliament in 2001 as MP for Witney, northwest of London."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          1,
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He attended Eton College and Brasenose College, Oxford, from which he graduated (1988) with a first-class degree in philosophy, politics, and economics."
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but attendance and graduation are clear career milestones."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "Time marker '1992' is a point in time, but the event describes a role that started in 1992 and continued into 1993. Consider using a range or splitting into two events."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "Time marker '1992' is a point in time, but the event describes a role that started in 1993. Consider using a range or adjusting the time marker."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 4,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 5,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as 'career_position' but lacks a specific role. Consider reclassifying or adding more details."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 6,
+      "valid": 3,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 6,
+      "awards": 0
+    }
+  }
+}

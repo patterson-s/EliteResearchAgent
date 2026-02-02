@@ -1,0 +1,103 @@
+{
+  "status": "success",
+  "chunk_id": 1115,
+  "chunk_index": 0,
+  "source_url": "http://disarmament.unoda.org/en/responsible-innovation-ai/about",
+  "title": "About | United Nations Office for Disarmament Affairs",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "three-year initiative",
+          "type": "range",
+          "quotes": [
+            "have partnered for a three-year initiative on responsible innovation in artificial intelligence (AI) for peace and security."
+          ]
+        },
+        {
+          "text": "18 November 2022",
+          "type": "point",
+          "quotes": [
+            "funded by a decision of the Council of the European Union (Council Decision (CFSP) 2022/2269 of 18 November 2022)"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "United Nations Office for Disarmament Affairs (ODA)",
+          "quotes": [
+            "The United Nations Office for Disarmament Affairs (ODA) and the Stockholm International Peace Research Institute (SIPRI) have partnered for a three-year initiative"
+          ]
+        },
+        {
+          "name": "Stockholm International Peace Research Institute (SIPRI)",
+          "quotes": [
+            "The United Nations Office for Disarmament Affairs (ODA) and the Stockholm International Peace Research Institute (SIPRI) have partnered for a three-year initiative"
+          ]
+        },
+        {
+          "name": "Council of the European Union",
+          "quotes": [
+            "funded by a decision of the Council of the European Union (Council Decision (CFSP) 2022/2269 of 18 November 2022)"
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [
+          0,
+          1,
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The United Nations Office for Disarmament Affairs (ODA) and the Stockholm International Peace Research Institute (SIPRI) have partnered for a three-year initiative on responsible innovation in artificial intelligence (AI) for peace and security.",
+          "funded by a decision of the Council of the European Union (Council Decision (CFSP) 2022/2269 of 18 November 2022)"
+        ],
+        "confidence": "medium",
+        "notes": "No specific roles mentioned, but the partnership implies active collaboration. Event classified as career_position due to the nature of the initiative and funding."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. No specific roles mentioned, which is unusual for a career_position event."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classification as career_position is questionable. The event describes a partnership initiative rather than an individual's career role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

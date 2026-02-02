@@ -1,0 +1,85 @@
+{
+  "status": "success",
+  "chunk_id": 310,
+  "chunk_index": 1,
+  "source_url": "https://www.cnn.com/world/amr-moussa-fast-facts",
+  "title": "Amr Moussa Fast Facts | CNN",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "September 2017",
+          "type": "point",
+          "quotes": [
+            "September 2017 - Volume one of Moussa’s memoirs, titled “Ketabiyah” (“My Testimony”), is published."
+          ]
+        },
+        {
+          "text": "December 2020",
+          "type": "point",
+          "quotes": [
+            "December 2020 - Volume two of Moussa’s memoirs is published, entitled “The Years of the Arab League.”"
+          ]
+        }
+      ],
+      "organizations": [],
+      "roles": [
+        {
+          "title": "secretary",
+          "quotes": [
+            "overseas trip since becoming secretary."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "overseas trip since becoming secretary."
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker or organization linked to the role, but the role is clearly mentioned as a career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers and organization information for the career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quote does not provide clear context or confirmation of the career position beyond the role title."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

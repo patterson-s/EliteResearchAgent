@@ -1,0 +1,220 @@
+{
+  "status": "success",
+  "chunk_id": 2640,
+  "chunk_index": 34,
+  "source_url": "https://en.wikipedia.org/wiki/Susilo_Bambang_Yudhoyono",
+  "title": "Susilo Bambang Yudhoyono - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Democratic Party (Indonesia)",
+          "quotes": [
+            "Democratic Party (Indonesia) politicians"
+          ]
+        },
+        {
+          "name": "Indonesian National Military Academy",
+          "quotes": [
+            "Indonesian National Military Academy alumni"
+          ]
+        },
+        {
+          "name": "Command and General Staff College",
+          "quotes": [
+            "Non-U.S. alumni of the Command and General Staff College"
+          ]
+        },
+        {
+          "name": "Webster University",
+          "quotes": [
+            "Webster University alumni"
+          ]
+        },
+        {
+          "name": "Bogor Agricultural University",
+          "quotes": [
+            "Bogor Agricultural University alumni"
+          ]
+        },
+        {
+          "name": "Sepuluh Nopember Institute of Technology",
+          "quotes": [
+            "Sepuluh Nopember Institute of Technology alumni"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Candidates in the 2009 Indonesian presidential election",
+          "quotes": [
+            "Candidates in the 2009 Indonesian presidential election"
+          ]
+        },
+        {
+          "title": "Presidents of Indonesia",
+          "quotes": [
+            "Presidents of Indonesia"
+          ]
+        },
+        {
+          "title": "Indonesian generals",
+          "quotes": [
+            "Indonesian generals"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Pacitan Regency",
+          "quotes": [
+            "People from Pacitan Regency"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Democratic Party (Indonesia) politicians",
+          "Candidates in the 2009 Indonesian presidential election"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time marker, but the role and organization are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Presidents of Indonesia"
+        ],
+        "confidence": "high",
+        "notes": "No explicit organization or time marker, but the role is a clear career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Indonesian National Military Academy alumni",
+          "Non-U.S. alumni of the Command and General Staff College",
+          "Webster University alumni",
+          "Bogor Agricultural University alumni",
+          "Sepuluh Nopember Institute of Technology alumni",
+          "Indonesian generals"
+        ],
+        "confidence": "medium",
+        "notes": "Multiple organizations linked to the role of Indonesian generals, but no explicit time marker."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "People from Pacitan Regency"
+        ],
+        "confidence": "low",
+        "notes": "No explicit role or organization, only location mentioned."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker, though role and organization are linked."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and time marker, though role is clear."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker, though multiple organizations and role are linked."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Role 'Indonesian generals' could be misclassified as a career position without active duties."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "error",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing role and organization, only location mentioned."
+          },
+          {
+            "type": "classification",
+            "severity": "high",
+            "description": "Event lacks sufficient information to be classified as a career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 1,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

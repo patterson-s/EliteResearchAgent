@@ -1,0 +1,266 @@
+{
+  "status": "success",
+  "chunk_id": 2612,
+  "chunk_index": 6,
+  "source_url": "https://en.wikipedia.org/wiki/Susilo_Bambang_Yudhoyono",
+  "title": "Susilo Bambang Yudhoyono - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In June 2000",
+          "type": "point",
+          "quotes": [
+            "In June 2000, there were rumours that Wahid, because of his lack of skill as an administrator was going to appoint a first minister to look after the day-to-day running of the government."
+          ]
+        },
+        {
+          "text": "In August 2000",
+          "type": "point",
+          "quotes": [
+            "In August 2000, after a cabinet reshuffle, Yudhoyono became the coordinating minister for politic and security affairs."
+          ]
+        },
+        {
+          "text": "At the beginning of 2001",
+          "type": "point",
+          "quotes": [
+            "At the beginning of 2001, with political pressure increasing on him, Wahid ordered Yudhoyono to form a crisis centre with Yudhoyono as chairman"
+          ]
+        },
+        {
+          "text": "Since 1998",
+          "type": "open",
+          "quotes": [
+            "Since 1998, the military has decided to stay out of day-to-day politics. The basic idea of military reform is to go back to the role and function of the military as a defense force and move them away from politics systematically."
+          ]
+        },
+        {
+          "text": "in 2000",
+          "type": "point",
+          "quotes": [
+            "although he would be made honorary general in 2000."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Army",
+          "quotes": [
+            "he had recommended to the president that Yudhoyono would do better as Army chief of staff.",
+            "One of his tasks was to separate the army from politics."
+          ]
+        },
+        {
+          "name": "Cabinet",
+          "quotes": [
+            "of the Cabinet, he had recommended to the president that Yudhoyono would do better as Army chief of staff.",
+            "In August 2000, after a cabinet reshuffle, Yudhoyono became the coordinating minister for politic and security affairs."
+          ]
+        },
+        {
+          "name": "army policy center",
+          "quotes": [
+            "and is a view he has held since his days in an army policy center."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Army chief of staff",
+          "quotes": [
+            "he had recommended to the president that Yudhoyono would do better as Army chief of staff."
+          ]
+        },
+        {
+          "title": "minister of mining and energy",
+          "quotes": [
+            "Yudhoyono became the minister of mining and energy instead.",
+            "even as minister of mining and energy."
+          ]
+        },
+        {
+          "title": "lieutenant general",
+          "quotes": [
+            "Yudhoyono ended his military career with the rank of lieutenant general,"
+          ]
+        },
+        {
+          "title": "honorary general",
+          "quotes": [
+            "although he would be made honorary general in 2000."
+          ]
+        },
+        {
+          "title": "first minister",
+          "quotes": [
+            "was going to appoint a first minister to look after the day-to-day running of the government."
+          ]
+        },
+        {
+          "title": "coordinating minister for politic and security affairs",
+          "quotes": [
+            "Yudhoyono became the coordinating minister for politic and security affairs."
+          ]
+        },
+        {
+          "title": "intermediary between Wahid and the Suharto family",
+          "quotes": [
+            "Another task that Yudhoyono was given was as an intermediary between Wahid and the Suharto family."
+          ]
+        },
+        {
+          "title": "chairman",
+          "quotes": [
+            "Wahid ordered Yudhoyono to form a crisis centre with Yudhoyono as chairman"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          5
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In August 2000, after a cabinet reshuffle, Yudhoyono became the coordinating minister for politic and security affairs.",
+          "Yudhoyono became the coordinating minister for politic and security affairs."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          7
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "At the beginning of 2001, with political pressure increasing on him, Wahid ordered Yudhoyono to form a crisis centre with Yudhoyono as chairman",
+          "Wahid ordered Yudhoyono to form a crisis centre with Yudhoyono as chairman"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time and role, though no specific organization mentioned."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "although he would be made honorary general in 2000."
+        ],
+        "confidence": "high",
+        "notes": "Honorary title without ongoing responsibilities, classified as an award."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Yudhoyono ended his military career with the rank of lieutenant general,",
+          "he had recommended to the president that Yudhoyono would do better as Army chief of staff."
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker, but clear linkage between organization and role. Assumed to be part of military career."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          6
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Another task that Yudhoyono was given was as an intermediary between Wahid and the Suharto family."
+        ],
+        "confidence": "medium",
+        "notes": "No specific time or organization, but role is clearly a career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing organization information, though role and time are clear."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker, making it difficult to place this event in the timeline."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time and organization information, though the role is clear."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 2,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 1
+    }
+  }
+}

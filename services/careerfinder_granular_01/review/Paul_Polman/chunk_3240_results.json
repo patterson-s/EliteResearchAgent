@@ -1,0 +1,167 @@
+{
+  "status": "success",
+  "chunk_id": 3240,
+  "chunk_index": 1,
+  "source_url": "https://www.aacsb.edu/about-us/advocacy/member-spotlight/influential-leaders/2015/paul-polman",
+  "title": "Paul Polman | 2015 AACSB Influential Leader",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Global Commission on the Economy and Climate",
+          "quotes": [
+            "of the Global Commission on the Economy and Climate, led by the former president of Mexico."
+          ]
+        },
+        {
+          "name": "Dutch Sustainable Growth Coalition",
+          "quotes": [
+            "Polman also cofounded the Dutch Sustainable Growth Coalition"
+          ]
+        },
+        {
+          "name": "World Economic Forum International Business Council",
+          "quotes": [
+            "and is a member of the World Economic Forum International Business Council"
+          ]
+        },
+        {
+          "name": "Scaling Up Nutrition (SUN)",
+          "quotes": [
+            "and the global task force for Scaling Up Nutrition (SUN)."
+          ]
+        },
+        {
+          "name": "Unilever",
+          "quotes": [
+            "Polman’s realignment of the Unilever’s values to a socially focused agenda helped recapture lost market share, improve Unilever’s shareholder return by almost 100 percent, and grow the company into one of the world’s largest and most respected consumer products companies."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "member",
+          "quotes": [
+            "and is a member of the World Economic Forum International Business Council and the global task force for Scaling Up Nutrition (SUN)."
+          ]
+        },
+        {
+          "title": "cofounder",
+          "quotes": [
+            "Polman also cofounded the Dutch Sustainable Growth Coalition"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Polman also cofounded the Dutch Sustainable Growth Coalition"
+        ],
+        "confidence": "high",
+        "notes": "Clear cofounder role with specific organization mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2,
+          3
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "and is a member of the World Economic Forum International Business Council and the global task force for Scaling Up Nutrition (SUN)."
+        ],
+        "confidence": "high",
+        "notes": "Clear member role with specific organizations mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Polman’s realignment of the Unilever’s values to a socially focused agenda helped recapture lost market share, improve Unilever’s shareholder return by almost 100 percent, and grow the company into one of the world’s largest and most respected consumer products companies."
+        ],
+        "confidence": "medium",
+        "notes": "Implied leadership role at Unilever based on actions described, but specific title not mentioned."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers for career position."
+          },
+          {
+            "type": "role",
+            "severity": "low",
+            "description": "Role ID 0 does not match any role title in the quotes."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers and role for career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "No explicit role mentioned in the supporting quote, only implied leadership."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

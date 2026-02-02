@@ -1,0 +1,74 @@
+{
+  "status": "success",
+  "chunk_id": 2588,
+  "chunk_index": 1,
+  "source_url": "http://www.wgig.org/docs/Kurbalija-bio.doc",
+  "title": "Biography of Jovan Kurbalija, Director, DiploFoundation - WGIG",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "DiploFoundation",
+          "quotes": [
+            "Biography of Jovan Kurbalija, Director, DiploFoundation"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Director",
+          "quotes": [
+            "Biography of Jovan Kurbalija, Director, DiploFoundation"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Biography of Jovan Kurbalija, Director, DiploFoundation"
+        ],
+        "confidence": "high",
+        "notes": "No time marker available, but organization and role are clearly linked."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker information, making temporal coherence verification impossible."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "status": "success",
+  "chunk_id": 190,
+  "chunk_index": 3,
+  "source_url": "https://www.gevans.org/",
+  "title": "Gareth Evans - Official Site",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2017",
+          "type": "point",
+          "quotes": [
+            "Incorrigible Optimist: A Political Memoir (Melbourne University Press, 2017) xiii + 402 pp"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Monash University Publishing",
+          "quotes": [
+            "Gareth Evans has done it again, this time with an excellent contribution to Monash University Publishing's 'In the National Interest' series."
+          ]
+        },
+        {
+          "name": "Melbourne University Press",
+          "quotes": [
+            "Incorrigible Optimist: A Political Memoir (Melbourne University Press, 2017) xiii + 402 pp"
+          ]
+        },
+        {
+          "name": "The Round Table: Commonwealth Journal of International Affairs",
+          "quotes": [
+            "From John Langmore's review for The Round Table: Commonwealth Journal of International Affairs"
+          ]
+        },
+        {
+          "name": "AIIA Australian Outlook",
+          "quotes": [
+            "From Derek McDougall's review for AIIA Australian Outlook:"
+          ]
+        },
+        {
+          "name": "ANZSIL Perspective",
+          "quotes": [
+            "From Alison Pert's review for ANZSIL Perspective:"
+          ]
+        },
+        {
+          "name": "Australian Foreign Affairs",
+          "quotes": [
+            "From Mercedes Page's review for Australian Foreign Affairs:"
+          ]
+        },
+        {
+          "name": "Australian Book Review",
+          "quotes": [
+            "From Alison Broinowski's review for Australian Book Review:"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "leader of foreign policy",
+          "quotes": [
+            "During this era of intensified nationalism and growing geopolitical uncertainties it is unusual for a leader of foreign policy to publish a book focused on their own nation's ethical and political responsibilities to other countries..."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Australia",
+          "quotes": [
+            "The book provides a useful overview of a key set of issues in Australian foreign policy, helpful to both Australian and non-Australian readers seeking a better understanding of these issues.",
+            "Having consistent 'purposes beyond ourselves' (Hedley Bull's expression, which Evans recalls) is an investment in the soft power on which a middle-sized country like Australia depends."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Incorrigible Optimist: A Political Memoir (Melbourne University Press, 2017) xiii + 402 pp"
+        ],
+        "confidence": "high",
+        "notes": "Publication of a memoir, likely an award or recognition for the author's contributions."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The event is classified as an 'award', but the supporting quote only mentions the publication of a memoir, which does not clearly indicate an award or recognition."
+          },
+          {
+            "type": "quote_support",
+            "severity": "medium",
+            "description": "The supporting quote does not explicitly mention any award or recognition, only the publication details of the memoir."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "The event lacks role and location information, which might be inferable but is not explicitly provided."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 0,
+      "awards": 1
+    }
+  }
+}

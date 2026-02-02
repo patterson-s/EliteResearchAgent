@@ -1,0 +1,266 @@
+{
+  "status": "success",
+  "chunk_id": 3937,
+  "chunk_index": 6,
+  "source_url": "https://en.wikipedia.org/wiki/Josette_Sheeran",
+  "title": "Josette Sheeran - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "November 7, 2006",
+          "type": "point",
+          "quotes": [
+            "American diplomat Josette Sheeran selected to head U.N. World Food Program, U.N. announces, International Herald Tribune, November 7, 2006 (Associated Press item)"
+          ]
+        },
+        {
+          "text": "2007-2012",
+          "type": "range",
+          "quotes": [
+            "Diplomatic posts Preceded by James Morris Executive Director of the World Food Programme 2007–2012 Succeeded by Ertharin Cousin"
+          ]
+        },
+        {
+          "text": "2009–2012",
+          "type": "range",
+          "quotes": [
+            "Political offices Preceded by Alan Larson Under Secretary of State for Economic, Business, and Agricultural Affairs 2009–2012 Succeeded by Reuben Jeffery III"
+          ]
+        },
+        {
+          "text": "2021-07-26",
+          "type": "point",
+          "quotes": [
+            "Electric car startup Canoo names former diplomat as president. Reuters. 2021-07-26. Retrieved 2023-12-03."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "United Nations",
+          "quotes": [
+            "Secretary-General Appoints Josette Sheeran of United States as Special Envoy for Haiti. United Nations."
+          ]
+        },
+        {
+          "name": "World Food Programme",
+          "quotes": [
+            "WFP Executive Director Assumes Role At World Economic Forum. World Food Programme."
+          ]
+        },
+        {
+          "name": "U.N. World Food Program",
+          "quotes": [
+            "American diplomat Josette Sheeran selected to head U.N. World Food Program, U.N. announces, International Herald Tribune, November 7, 2006 (Associated Press item)"
+          ]
+        },
+        {
+          "name": "Canoo",
+          "quotes": [
+            "Electric car startup Canoo names former diplomat as president. Reuters. 2021-07-26. Retrieved 2023-12-03."
+          ]
+        },
+        {
+          "name": "World Economic Forum",
+          "quotes": [
+            "WFP Executive Director Assumes Role At World Economic Forum. World Food Programme."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Special Envoy for Haiti",
+          "quotes": [
+            "Secretary-General Appoints Josette Sheeran of United States as Special Envoy for Haiti. United Nations."
+          ]
+        },
+        {
+          "title": "Executive Director of the World Food Programme",
+          "quotes": [
+            "WFP Executive Director Assumes Role At World Economic Forum. World Food Programme.",
+            "Diplomatic posts Preceded by James Morris Executive Director of the World Food Programme 2007–2012 Succeeded by Ertharin Cousin"
+          ]
+        },
+        {
+          "title": "Under Secretary of State for Economic, Business, and Agricultural Affairs",
+          "quotes": [
+            "Political offices Preceded by Alan Larson Under Secretary of State for Economic, Business, and Agricultural Affairs 2009–2012 Succeeded by Reuben Jeffery III"
+          ]
+        },
+        {
+          "title": "president",
+          "quotes": [
+            "Electric car startup Canoo names former diplomat as president. Reuters. 2021-07-26. Retrieved 2023-12-03."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "United States",
+          "quotes": [
+            "Secretary-General Appoints Josette Sheeran of United States as Special Envoy for Haiti. United Nations."
+          ]
+        },
+        {
+          "place": "Haiti",
+          "quotes": [
+            "Secretary-General Appoints Josette Sheeran of United States as Special Envoy for Haiti. United Nations."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "American diplomat Josette Sheeran selected to head U.N. World Food Program, U.N. announces, International Herald Tribune, November 7, 2006 (Associated Press item)",
+          "Diplomatic posts Preceded by James Morris Executive Director of the World Food Programme 2007–2012 Succeeded by Ertharin Cousin"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time markers, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Political offices Preceded by Alan Larson Under Secretary of State for Economic, Business, and Agricultural Affairs 2009–2012 Succeeded by Reuben Jeffery III"
+        ],
+        "confidence": "medium",
+        "notes": "No specific organization mentioned, but role is clearly a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Electric car startup Canoo names former diplomat as president. Reuters. 2021-07-26. Retrieved 2023-12-03."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time marker, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0,
+          1
+        ],
+        "supporting_quotes": [
+          "Secretary-General Appoints Josette Sheeran of United States as Special Envoy for Haiti. United Nations."
+        ],
+        "confidence": "high",
+        "notes": "No time marker, but clear linkage between organization, role, and locations."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "WFP Executive Director Assumes Role At World Economic Forum. World Food Programme."
+        ],
+        "confidence": "medium",
+        "notes": "Assumed role at World Economic Forum during tenure as Executive Director of the World Food Programme."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information, though role is clear."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker information, though other fields are clear."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "Time marker overlaps with another event, but plausible as simultaneous roles."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 2,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,265 @@
+{
+  "status": "success",
+  "chunk_id": 3057,
+  "chunk_index": 17,
+  "source_url": "https://en.wikipedia.org/wiki/Naoto_Kan",
+  "title": "Naoto Kan - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2005–2009",
+          "type": "range",
+          "quotes": [
+            "of the House of Representatives (Japan) 2005–2009"
+          ]
+        },
+        {
+          "text": "2009–2012",
+          "type": "range",
+          "quotes": [
+            "Members of the House of Representatives (Japan) 2009–2012"
+          ]
+        },
+        {
+          "text": "2012–2014",
+          "type": "range",
+          "quotes": [
+            "Members of the House of Representatives (Japan) 2012–2014"
+          ]
+        },
+        {
+          "text": "2014–2017",
+          "type": "range",
+          "quotes": [
+            "Members of the House of Representatives (Japan) 2014–2017"
+          ]
+        },
+        {
+          "text": "2017–2021",
+          "type": "range",
+          "quotes": [
+            "Members of the House of Representatives (Japan) 2017–2021"
+          ]
+        },
+        {
+          "text": "2021–2024",
+          "type": "range",
+          "quotes": [
+            "Members of the House of Representatives (Japan) 2021–2024"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "House of Representatives (Japan)",
+          "quotes": [
+            "of the House of Representatives (Japan) 2005–2009",
+            "Members of the House of Representatives (Japan) 2009–2012",
+            "Members of the House of Representatives (Japan) 2012–2014",
+            "Members of the House of Representatives (Japan) 2014–2017",
+            "Members of the House of Representatives (Japan) 2017–2021",
+            "Members of the House of Representatives (Japan) 2021–2024"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Members of the House of Representatives",
+          "quotes": [
+            "Members of the House of Representatives (Japan) 2009–2012",
+            "Members of the House of Representatives (Japan) 2012–2014",
+            "Members of the House of Representatives (Japan) 2014–2017",
+            "Members of the House of Representatives (Japan) 2017–2021",
+            "Members of the House of Representatives (Japan) 2021–2024"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Japan",
+          "quotes": [
+            "of the House of Representatives (Japan) 2005–2009",
+            "Members of the House of Representatives (Japan) 2009–2012",
+            "Members of the House of Representatives (Japan) 2012–2014",
+            "Members of the House of Representatives (Japan) 2014–2017",
+            "Members of the House of Representatives (Japan) 2017–2021",
+            "Members of the House of Representatives (Japan) 2021–2024"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "of the House of Representatives (Japan) 2005–2009"
+        ],
+        "confidence": "medium",
+        "notes": "Role is implied but not explicitly stated in the quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Members of the House of Representatives (Japan) 2009–2012"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Members of the House of Representatives (Japan) 2012–2014"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Members of the House of Representatives (Japan) 2014–2017"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Members of the House of Representatives (Japan) 2017–2021"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Members of the House of Representatives (Japan) 2021–2024"
+        ],
+        "confidence": "high",
+        "notes": ""
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, though it is implied in the quote."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 4,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 5,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 6,
+      "valid": 5,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 6,
+      "awards": 0
+    }
+  }
+}

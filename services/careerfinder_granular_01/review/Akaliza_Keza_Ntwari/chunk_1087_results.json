@@ -1,0 +1,95 @@
+{
+  "status": "success",
+  "chunk_id": 1087,
+  "chunk_index": 0,
+  "source_url": "https://www.newtimes.co.rw/article/155659/News/young-rwandan-joins-high-level-un-panel-alongside-melinda-gates-jack-ma",
+  "title": "Young Rwandan joins high level UN panel alongside Melinda Gates, Jack Ma\n - The New Times",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "Friday, July 13, 2018",
+          "type": "point",
+          "quotes": [
+            "Eddie Nsabimana\nFriday, July 13, 2018"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "UN",
+          "quotes": [
+            "Young Rwandan joins high level UN panel alongside Melinda Gates, Jack Ma"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "member of high level UN panel",
+          "quotes": [
+            "Young Rwandan joins high level UN panel alongside Melinda Gates, Jack Ma"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Rwanda",
+          "quotes": [
+            "Young Rwandan joins high level UN panel alongside Melinda Gates, Jack Ma",
+            "Akaliza is one of the few young Rwandan women who have made significant strides in changing the face of technology in the country."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Eddie Nsabimana\nFriday, July 13, 2018",
+          "Young Rwandan joins high level UN panel alongside Melinda Gates, Jack Ma"
+        ],
+        "confidence": "high",
+        "notes": "The role 'member of high level UN panel' indicates an active position within the UN organization."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Location entity mentions 'Rwanda' but is not linked to the event. Consider linking or clarifying if this is the location of the role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

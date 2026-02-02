@@ -1,0 +1,129 @@
+{
+  "status": "success",
+  "chunk_id": 3297,
+  "chunk_index": 1,
+  "source_url": "https://www.cbr.ru/eng/about_br/nabiullinaes/",
+  "title": "Elvira Nabiullina | Bank of Russia",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "October 2025",
+          "type": "point",
+          "quotes": [
+            "October 2025"
+          ]
+        },
+        {
+          "text": "29 October 2025",
+          "type": "point",
+          "quotes": [
+            "29 October 2025"
+          ]
+        },
+        {
+          "text": "24 October 2025",
+          "type": "point",
+          "quotes": [
+            "24 October 2025"
+          ]
+        },
+        {
+          "text": "30.10.2025",
+          "type": "point",
+          "quotes": [
+            "Last updated on: 30.10.2025"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "State Duma",
+          "quotes": [
+            "Elvira Nabiullina’s speech at plenary session of State Duma on Monetary Policy Guidelines for 2026–2028"
+          ]
+        },
+        {
+          "name": "Federation Council",
+          "quotes": [
+            "Elvira Nabiullina’s speech at Federation Council’s meeting"
+          ]
+        },
+        {
+          "name": "Bank of Russia",
+          "quotes": [
+            "Statement by Bank of Russia Governor Elvira Nabiullina in follow-up to Board of Directors meeting on 24 October 2025"
+          ]
+        },
+        {
+          "name": "Board of Directors",
+          "quotes": [
+            "Statement by Bank of Russia Governor Elvira Nabiullina in follow-up to Board of Directors meeting on 24 October 2025"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Bank of Russia Governor",
+          "quotes": [
+            "Statement by Bank of Russia Governor Elvira Nabiullina in follow-up to Board of Directors meeting on 24 October 2025"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          2,
+          3
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Statement by Bank of Russia Governor Elvira Nabiullina in follow-up to Board of Directors meeting on 24 October 2025"
+        ],
+        "confidence": "high",
+        "notes": "The role of Bank of Russia Governor is clearly linked to the organization and the specific date of the Board of Directors meeting."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing location information, which is unexpected for a career position event."
+          },
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "Time marker '24 October 2025' is linked, but no start or end date is provided for the career position, making temporal coherence unverifiable."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

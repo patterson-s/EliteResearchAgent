@@ -1,0 +1,254 @@
+{
+  "status": "success",
+  "chunk_id": 3303,
+  "chunk_index": 0,
+  "source_url": "https://www.npr.org/sections/money/2022/04/19/1093339972/who-is-the-real-elvira-nabiullina",
+  "title": "Who is the real Elvira Nabiullina? : Planet Money : NPR",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "April 19, 2022",
+          "type": "point",
+          "quotes": [
+            "April 19, 2022"
+          ]
+        },
+        {
+          "text": "1986",
+          "type": "point",
+          "quotes": [
+            "Nabiullina graduated from Moscow State University in 1986."
+          ]
+        },
+        {
+          "text": "Over the next twelve years",
+          "type": "range",
+          "quotes": [
+            "Over the next twelve years, she worked her way up through the USSR Science and Industry Union and its successor, the Russian Union of Industrialists and Entrepreneurs, and then through the ministry for economic development and trade."
+          ]
+        },
+        {
+          "text": "2000",
+          "type": "point",
+          "quotes": [
+            "then it was back to the ministry in 2000 as first deputy, after Vladimir Putin became prime minister the previous year."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Russia's central bank",
+          "quotes": [
+            "Elvira Nabiullina, the head of Russia's central bank."
+          ]
+        },
+        {
+          "name": "USSR Science and Industry Union",
+          "quotes": [
+            "Over the next twelve years, she worked her way up through the USSR Science and Industry Union and its successor, the Russian Union of Industrialists and Entrepreneurs, and then through the ministry for economic development and trade."
+          ]
+        },
+        {
+          "name": "Russian Union of Industrialists and Entrepreneurs",
+          "quotes": [
+            "Over the next twelve years, she worked her way up through the USSR Science and Industry Union and its successor, the Russian Union of Industrialists and Entrepreneurs, and then through the ministry for economic development and trade."
+          ]
+        },
+        {
+          "name": "ministry for economic development and trade",
+          "quotes": [
+            "Over the next twelve years, she worked her way up through the USSR Science and Industry Union and its successor, the Russian Union of Industrialists and Entrepreneurs, and then through the ministry for economic development and trade."
+          ]
+        },
+        {
+          "name": "NPR",
+          "quotes": [
+            "Who is the real Elvira Nabiullina? : Planet Money : NPR"
+          ]
+        },
+        {
+          "name": "Planet Money",
+          "quotes": [
+            "Who is the real Elvira Nabiullina? : Planet Money : NPR"
+          ]
+        },
+        {
+          "name": "Moscow State University",
+          "quotes": [
+            "Nabiullina graduated from Moscow State University in 1986."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "head of Russia's central bank",
+          "quotes": [
+            "Elvira Nabiullina, the head of Russia's central bank."
+          ]
+        },
+        {
+          "title": "first deputy",
+          "quotes": [
+            "then it was back to the ministry in 2000 as first deputy, after Vladimir Putin became prime minister the previous year."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Russia",
+          "quotes": [
+            "Russian central bank chief Elvira Nabiullina"
+          ]
+        },
+        {
+          "place": "Ukraine",
+          "quotes": [
+            "Putin's decision to go to war in Ukraine."
+          ]
+        },
+        {
+          "place": "Moscow",
+          "quotes": [
+            "Nabiullina graduated from Moscow State University in 1986."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          7
+        ],
+        "role_ids": [],
+        "location_ids": [
+          3
+        ],
+        "supporting_quotes": [
+          "Nabiullina graduated from Moscow State University in 1986."
+        ],
+        "confidence": "high",
+        "notes": "Graduation event linked to Moscow State University and the year 1986."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          2,
+          3,
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Over the next twelve years, she worked her way up through the USSR Science and Industry Union and its successor, the Russian Union of Industrialists and Entrepreneurs, and then through the ministry for economic development and trade."
+        ],
+        "confidence": "high",
+        "notes": "Career progression through multiple organizations over a 12-year period."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "then it was back to the ministry in 2000 as first deputy, after Vladimir Putin became prime minister the previous year."
+        ],
+        "confidence": "high",
+        "notes": "Appointment as first deputy in the ministry for economic development and trade in 2000."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Elvira Nabiullina, the head of Russia's central bank.",
+          "Russian central bank chief Elvira Nabiullina"
+        ],
+        "confidence": "high",
+        "notes": "Current position as head of Russia's central bank, linked to the location Russia."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as 'career_position' but describes a graduation, which is typically not a career position."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, which is expected for a career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role and location information, which is expected for a career position."
+          },
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "Time marker 'Over the next twelve years' is vague and does not provide specific start and end dates."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 2,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,265 @@
+{
+  "status": "success",
+  "chunk_id": 3043,
+  "chunk_index": 3,
+  "source_url": "https://en.wikipedia.org/wiki/Naoto_Kan",
+  "title": "Naoto Kan - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "in 2004",
+          "type": "point",
+          "quotes": [
+            "However, in 2004 Kan was accused of unpaid annuities and again resigned the position of leader."
+          ]
+        },
+        {
+          "text": "On 10 May 2004",
+          "type": "point",
+          "quotes": [
+            "On 10 May 2004, he officially announced his resignation and made the Shikoku Pilgrimage."
+          ]
+        },
+        {
+          "text": "mid-October 2005",
+          "type": "point",
+          "quotes": [
+            "In mid-October 2005, Kan, who turned 60 in 2006, proposed the creation of a new political party to be called the 'Dankai (baby boomer) Party'."
+          ]
+        },
+        {
+          "text": "2006",
+          "type": "point",
+          "quotes": [
+            "In mid-October 2005, Kan, who turned 60 in 2006, proposed the creation of a new political party to be called the 'Dankai (baby boomer) Party'."
+          ]
+        },
+        {
+          "text": "2007",
+          "type": "point",
+          "quotes": [
+            "The initial intent of the party was to offer places of activity for the Japanese baby boomers – 2.7 million of whom began to retire en masse in 2007."
+          ]
+        },
+        {
+          "text": "On 6 January 2010",
+          "type": "point",
+          "quotes": [
+            "On 6 January 2010, he was picked by Yukio Hatoyama to be the new finance minister, assuming the post in addition to deputy prime minister."
+          ]
+        },
+        {
+          "text": "2010–2011",
+          "type": "range",
+          "quotes": [
+            "Prime Minister (2010–2011)"
+          ]
+        },
+        {
+          "text": "On 2 June 2010",
+          "type": "point",
+          "quotes": [
+            "On 2 June 2010, Yukio Hatoyama announced his intention to resign as the leader of the Democratic Party of Japan (DPJ) and as prime minister."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "LDP",
+          "quotes": [
+            "His face was used as the trademark of the campaign against the LDP."
+          ]
+        },
+        {
+          "name": "Ministry of Health, Labour and Welfare",
+          "quotes": [
+            "Later, the Ministry of Health, Labour and Welfare spokesman apologized, saying the unpaid record was due to an administrative error."
+          ]
+        },
+        {
+          "name": "Dankai Party",
+          "quotes": [
+            "In mid-October 2005, Kan, who turned 60 in 2006, proposed the creation of a new political party to be called the 'Dankai (baby boomer) Party'."
+          ]
+        },
+        {
+          "name": "Japan Self-Defense Forces",
+          "quotes": [
+            "Kan believes the Japan Self-Defense Forces should play a more prominent role on the international stage."
+          ]
+        },
+        {
+          "name": "Democratic Party of Japan (DPJ)",
+          "quotes": [
+            "On 2 June 2010, Yukio Hatoyama announced his intention to resign as the leader of the Democratic Party of Japan (DPJ) and as prime minister."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Prime Minister",
+          "quotes": [
+            "with Kan being presented as the alternative candidate to then Prime Minister Junichiro Koizumi.",
+            "Prime Minister (2010–2011)",
+            "On 2 June 2010, Yukio Hatoyama announced his intention to resign as the leader of the Democratic Party of Japan (DPJ) and as prime minister."
+          ]
+        },
+        {
+          "title": "leader",
+          "quotes": [
+            "However, in 2004 Kan was accused of unpaid annuities and again resigned the position of leader."
+          ]
+        },
+        {
+          "title": "finance minister",
+          "quotes": [
+            "Finance Minister (2010)",
+            "On 6 January 2010, he was picked by Yukio Hatoyama to be the new finance minister, assuming the post in addition to deputy prime minister."
+          ]
+        },
+        {
+          "title": "deputy prime minister",
+          "quotes": [
+            "On 6 January 2010, he was picked by Yukio Hatoyama to be the new finance minister, assuming the post in addition to deputy prime minister."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Shikoku",
+          "quotes": [
+            "On 10 May 2004, he officially announced his resignation and made the Shikoku Pilgrimage."
+          ]
+        },
+        {
+          "place": "Toronto",
+          "quotes": [
+            "Kan with U.S. president Barack Obama at the 2010 G-20 Toronto summit on 27 June 2010"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "However, in 2004 Kan was accused of unpaid annuities and again resigned the position of leader.",
+          "On 10 May 2004, he officially announced his resignation and made the Shikoku Pilgrimage."
+        ],
+        "confidence": "high",
+        "notes": "Role as 'leader' is clearly a career position, though the organization is not specified."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2,
+          3
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In mid-October 2005, Kan, who turned 60 in 2006, proposed the creation of a new political party to be called the 'Dankai (baby boomer) Party'."
+        ],
+        "confidence": "high",
+        "notes": "Proposing the creation of a new political party is an active role, classified as a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2,
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "On 6 January 2010, he was picked by Yukio Hatoyama to be the new finance minister, assuming the post in addition to deputy prime minister."
+        ],
+        "confidence": "high",
+        "notes": "Roles as 'finance minister' and 'deputy prime minister' are clearly career positions."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          6
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Prime Minister (2010–2011)",
+          "On 2 June 2010, Yukio Hatoyama announced his intention to resign as the leader of the Democratic Party of Japan (DPJ) and as prime minister."
+        ],
+        "confidence": "high",
+        "notes": "Role as 'Prime Minister' is a clear career position, linked to the Democratic Party of Japan (DPJ)."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the 'leader' role."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for the event."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 2,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

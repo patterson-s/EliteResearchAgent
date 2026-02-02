@@ -1,0 +1,173 @@
+{
+  "status": "success",
+  "chunk_id": 3543,
+  "chunk_index": 0,
+  "source_url": "https://conferenciamujer.cepal.org/16/en/amina-j-mohammed",
+  "title": "Amina J. Mohammed | XVI Regional Conference on Women in Latin America and the Caribbean",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2012",
+          "type": "point",
+          "quotes": [
+            "She joined the United Nations in 2012 as Special Adviser to the Secretary-General"
+          ]
+        },
+        {
+          "text": "2025",
+          "type": "point",
+          "quotes": [
+            "15/08/2025\nXVI Regional Conference on Women in Latin America and the Caribbean - Fourth day"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "United Nations",
+          "quotes": [
+            "She joined the United Nations in 2012 as Special Adviser to the Secretary-General",
+            "Deputy Secretary-General of the United Nations"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Minister of Environment",
+          "quotes": [
+            "she served as Nigeria’s Minister of Environment"
+          ]
+        },
+        {
+          "title": "advisor on poverty, public sector reform, and sustainable development",
+          "quotes": [
+            "she served as Nigeria’s Minister of Environment and as an advisor on poverty, public sector reform, and sustainable development to various presidents of the country"
+          ]
+        },
+        {
+          "title": "Special Adviser to the Secretary-General",
+          "quotes": [
+            "She joined the United Nations in 2012 as Special Adviser to the Secretary-General"
+          ]
+        },
+        {
+          "title": "Deputy Secretary-General of the United Nations",
+          "quotes": [
+            "Amina J. Mohammed\nDeputy Secretary-General of the United Nations"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Nigeria",
+          "quotes": [
+            "she served as Nigeria’s Minister of Environment"
+          ]
+        },
+        {
+          "place": "Latin America and the Caribbean",
+          "quotes": [
+            "XVI Regional Conference on Women in Latin America and the Caribbean"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "she served as Nigeria’s Minister of Environment",
+          "she served as Nigeria’s Minister of Environment and as an advisor on poverty, public sector reform, and sustainable development to various presidents of the country"
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker provided, but roles and location are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "She joined the United Nations in 2012 as Special Adviser to the Secretary-General"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time marker, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Amina J. Mohammed\nDeputy Secretary-General of the United Nations"
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker provided, but role and organization are clear."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position as Nigeria's Minister of Environment and advisor roles."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position as Deputy Secretary-General of the United Nations."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

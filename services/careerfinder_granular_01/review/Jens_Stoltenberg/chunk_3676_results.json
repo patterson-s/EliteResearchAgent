@@ -1,0 +1,301 @@
+{
+  "status": "success",
+  "chunk_id": 3676,
+  "chunk_index": 41,
+  "source_url": "https://en.wikipedia.org/wiki/Jens_Stoltenberg",
+  "title": "Jens Stoltenberg - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "11 August 2013",
+          "type": "point",
+          "quotes": [
+            "BBC News. 11 August 2013."
+          ]
+        },
+        {
+          "text": "23 March 2014",
+          "type": "point",
+          "quotes": [
+            "Archived from the original on 23 March 2014. Retrieved 23 March 2014."
+          ]
+        },
+        {
+          "text": "12 August 2013",
+          "type": "point",
+          "quotes": [
+            "Nilas (12 August 2013)."
+          ]
+        },
+        {
+          "text": "18 May 2017",
+          "type": "point",
+          "quotes": [
+            "Archived from the original on 30 October 2019. Retrieved 18 May 2017."
+          ]
+        },
+        {
+          "text": "17 July 2020",
+          "type": "point",
+          "quotes": [
+            "Reuters, 17 July 2020, accessed 15 February 2021"
+          ]
+        },
+        {
+          "text": "6 August 2015",
+          "type": "point",
+          "quotes": [
+            "The Local Norway. 6 August 2015."
+          ]
+        },
+        {
+          "text": "8 December 2001",
+          "type": "point",
+          "quotes": [
+            "Dagbladet (in Norwegian). 8 December 2001."
+          ]
+        },
+        {
+          "text": "2 November 2002",
+          "type": "point",
+          "quotes": [
+            "Dagbladet (in Norwegian). 2 November 2002."
+          ]
+        },
+        {
+          "text": "23 October 2024",
+          "type": "point",
+          "quotes": [
+            "Retrieved 23 October 2024."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "BBC News",
+          "quotes": [
+            "BBC News. 11 August 2013."
+          ]
+        },
+        {
+          "name": "Verdens Gang",
+          "quotes": [
+            "Verdens Gang (in Norwegian)."
+          ]
+        },
+        {
+          "name": "Time",
+          "quotes": [
+            "Time."
+          ]
+        },
+        {
+          "name": "Deutsche Welle",
+          "quotes": [
+            "Deutsche Welle, Germany."
+          ]
+        },
+        {
+          "name": "Journal",
+          "quotes": [
+            "Journal."
+          ]
+        },
+        {
+          "name": "Reuters",
+          "quotes": [
+            "Reuters, 17 July 2020, accessed 15 February 2021"
+          ]
+        },
+        {
+          "name": "The Local Norway",
+          "quotes": [
+            "The Local Norway. 6 August 2015."
+          ]
+        },
+        {
+          "name": "Dagbladet",
+          "quotes": [
+            "Dagbladet (in Norwegian)."
+          ]
+        },
+        {
+          "name": "NATO",
+          "quotes": [
+            "NATO secretary-general picks top tracks"
+          ]
+        },
+        {
+          "name": "Orden de Isabel la Católica",
+          "quotes": [
+            "se concede la Gran Cruz de la Orden de Isabel la Católica"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Prime Minister",
+          "quotes": [
+            "Norway PM Jens Stoltenberg",
+            "Norwegian Prime Minister"
+          ]
+        },
+        {
+          "title": "NATO secretary-general",
+          "quotes": [
+            "NATO secretary-general picks top tracks"
+          ]
+        },
+        {
+          "title": "statsminister",
+          "quotes": [
+            "statsminister Jens Stoltenberg (Ap)"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Norway",
+          "quotes": [
+            "Norwegian Prime Minister",
+            "The Local Norway"
+          ]
+        },
+        {
+          "place": "Berlin, Germany",
+          "quotes": [
+            "Berlin, Germany: Deutsche Welle."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Norway PM Jens Stoltenberg",
+          "Norwegian Prime Minister",
+          "BBC News. 11 August 2013.",
+          "Nilas (12 August 2013)."
+        ],
+        "confidence": "high",
+        "notes": "Prime Minister role in Norway is clearly a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [
+          8
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "NATO secretary-general picks top tracks",
+          "The Local Norway. 6 August 2015."
+        ],
+        "confidence": "high",
+        "notes": "NATO secretary-general is a clear career position."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          9
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "se concede la Gran Cruz de la Orden de Isabel la Católica"
+        ],
+        "confidence": "high",
+        "notes": "Orden de Isabel la Católica is an award, but no specific time marker is available."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "statsminister Jens Stoltenberg (Ap)"
+        ],
+        "confidence": "medium",
+        "notes": "statsminister role in Norway is a career position, but no specific time marker is available."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the Prime Minister role."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing time marker for the award event."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing time marker and organization information for the statsminister role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 1,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 1
+    }
+  }
+}

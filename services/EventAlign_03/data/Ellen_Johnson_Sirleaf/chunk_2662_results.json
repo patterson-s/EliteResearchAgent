@@ -1,0 +1,339 @@
+{
+  "status": "success",
+  "chunk_id": 2662,
+  "chunk_index": 0,
+  "source_url": "https://en.wikipedia.org/wiki/Ellen_Johnson_Sirleaf",
+  "title": "Ellen Johnson Sirleaf - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "from 2006 to 2018",
+          "type": "range",
+          "quotes": [
+            "President of Liberia from 2006 to 2018",
+            "served as the 24th president of Liberia from 2006 to 2018"
+          ]
+        },
+        {
+          "text": "16 January 2006 – 22 January 2018",
+          "type": "range",
+          "quotes": [
+            "In office 16 January 2006 – 22 January 2018"
+          ]
+        },
+        {
+          "text": "1979 – 12 April 1980",
+          "type": "range",
+          "quotes": [
+            "In office 1979 – 12 April 1980"
+          ]
+        },
+        {
+          "text": "1990–1990",
+          "type": "range",
+          "quotes": [
+            "In office 1990–1990"
+          ]
+        },
+        {
+          "text": "1985–1996",
+          "type": "range",
+          "quotes": [
+            "Liberian Action Party (1985–1996)"
+          ]
+        },
+        {
+          "text": "1997–2018",
+          "type": "range",
+          "quotes": [
+            "Unity (1997–2018)"
+          ]
+        },
+        {
+          "text": "2018–present",
+          "type": "open",
+          "quotes": [
+            "Independent (2018–present)"
+          ]
+        },
+        {
+          "text": "1956; div. 1961",
+          "type": "range",
+          "quotes": [
+            "James Sirleaf ​ ​(m. 1956; div. 1961)​"
+          ]
+        },
+        {
+          "text": "29 October 1938",
+          "type": "point",
+          "quotes": [
+            "Born Ellen Eugenia Johnson (1938-10-29) 29 October 1938"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Liberian Action Party",
+          "quotes": [
+            "Liberian Action Party (1985–1996)"
+          ]
+        },
+        {
+          "name": "Unity",
+          "quotes": [
+            "Unity (1997–2018)"
+          ]
+        },
+        {
+          "name": "Madison Business College",
+          "quotes": [
+            "Madison Business College (AA)"
+          ]
+        },
+        {
+          "name": "University of Colorado, Boulder",
+          "quotes": [
+            "University of Colorado, Boulder (BA)"
+          ]
+        },
+        {
+          "name": "Harvard University",
+          "quotes": [
+            "Harvard University (MPA)"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "President of Liberia",
+          "quotes": [
+            "President of Liberia from 2006 to 2018",
+            "served as the 24th president of Liberia from 2006 to 2018",
+            "In office 16 January 2006 – 22 January 2018"
+          ]
+        },
+        {
+          "title": "Minister of Finance",
+          "quotes": [
+            "Minister of Finance In office 1979 – 12 April 1980",
+            "Minister of Finance In office 1990–1990"
+          ]
+        },
+        {
+          "title": "Vice President",
+          "quotes": [
+            "Vice President Joseph Boakai"
+          ]
+        },
+        {
+          "title": "female head of state",
+          "quotes": [
+            "first elected female head of state in Africa"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Monrovia, Liberia",
+          "quotes": [
+            "Monrovia, Liberia"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "President of Liberia from 2006 to 2018",
+          "served as the 24th president of Liberia from 2006 to 2018",
+          "In office 16 January 2006 – 22 January 2018",
+          "Monrovia, Liberia"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time markers, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Minister of Finance In office 1979 – 12 April 1980",
+          "Monrovia, Liberia"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time marker, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Minister of Finance In office 1990–1990",
+          "Monrovia, Liberia"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time marker, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Liberian Action Party (1985–1996)"
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but organization and time marker are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Unity (1997–2018)"
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but organization and time marker are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          6
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Independent (2018–present)"
+        ],
+        "confidence": "low",
+        "notes": "No specific role or organization mentioned, only time marker."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "Time range '1990–1990' seems unusually short for a career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, only organization and time marker are present."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position but lacks role, consider reclassification if no active duties."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, only organization and time marker are present."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position but lacks role, consider reclassification if no active duties."
+          }
+        ]
+      },
+      {
+        "event_id": 5,
+        "status": "error",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing role and organization information, only time marker is present."
+          },
+          {
+            "type": "classification",
+            "severity": "medium",
+            "description": "Event classified as career_position but lacks role and organization, likely misclassified."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 6,
+      "valid": 2,
+      "warnings": 3,
+      "errors": 1,
+      "career_positions": 6,
+      "awards": 0
+    }
+  }
+}

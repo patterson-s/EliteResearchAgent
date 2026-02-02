@@ -1,0 +1,115 @@
+{
+  "status": "success",
+  "chunk_id": 3548,
+  "chunk_index": 4,
+  "source_url": "https://www.linkedin.com/in/amina-mohammed",
+  "title": "Amina J. Mohammed - United Nations | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "FY 2025–26",
+          "type": "range",
+          "quotes": [
+            "This Request for Proposal (RFP) is to invite potential grantees with a proven track record to implement projects in the thematic area of Solid Waste Management or Liquid Waste Management for a period of 2–3 years starting from FY 2025–26."
+          ]
+        },
+        {
+          "text": "Deadline: 26.10.2025",
+          "type": "point",
+          "quotes": [
+            "Deadline: 26.10.2025"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "SBI Foundation",
+          "quotes": [
+            "SBI Foundation's Environment & Sustainability vertical SBIF CONSERW intends to engage Non-Profit Organisations registered in India for funding projects in the thematic area of Sustainable Waste Management."
+          ]
+        },
+        {
+          "name": "World Biogas Association",
+          "quotes": [
+            "🚮➡️⚡➡️🌾 𝗧𝘂𝗿𝗻𝗶𝗻𝗴 𝗜𝗻𝗱𝗶𝗮’𝘀 𝗪𝗮𝘀𝘁𝗲 𝗶𝗻𝘁𝗼 𝗘𝗻𝗲𝗿𝗴𝘆 & 𝗚𝗿𝗼𝘄𝘁𝗵! The 𝗹𝗮𝘁𝗲𝘀𝘁 𝗔𝗱𝘃𝗶𝘀𝗼𝗿𝘆 𝗼𝗻 𝗖𝗼𝗺𝗽𝗿𝗲𝘀𝘀𝗲𝗱 𝗕𝗶𝗼𝗴𝗮𝘀 (𝗖𝗕𝗚) 𝗳𝗿𝗼𝗺 𝗠𝘂𝗻𝗶𝗰𝗶𝗽𝗮𝗹 𝗦𝗼𝗹𝗶𝗱 𝗪𝗮𝘀𝘁𝗲 has been released by the Ministry of Housing and"
+          ]
+        },
+        {
+          "name": "Ministry of Housing and",
+          "quotes": [
+            "The 𝗹𝗮𝘁𝗲𝘀𝘁 𝗔𝗱𝘃𝗶𝘀𝗼𝗿𝘆 𝗼𝗻 𝗖𝗼𝗺𝗽𝗿𝗲𝘀𝘀𝗲𝗱 𝗕𝗶𝗼𝗴𝗮𝘀 (𝗖𝗕𝗚) 𝗳𝗿𝗼𝗺 𝗠𝘂𝗻𝗶𝗰𝗶𝗽𝗮𝗹 𝗦𝗼𝗹𝗶𝗱 𝗪𝗮𝘀𝘁𝗲 has been released by the Ministry of Housing and"
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": [
+        {
+          "place": "Montevideo",
+          "quotes": [
+            "🇺🇾 Montevideo’s streets are changing with quieter engines, cleaner air and a bold shift toward sustainable public transport."
+          ]
+        },
+        {
+          "place": "India",
+          "quotes": [
+            "SBI Foundation's Environment & Sustainability vertical SBIF CONSERW intends to engage Non-Profit Organisations registered in India for funding projects in the thematic area of Sustainable Waste Management."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "This Request for Proposal (RFP) is to invite potential grantees with a proven track record to implement projects in the thematic area of Solid Waste Management or Liquid Waste Management for a period of 2–3 years starting from FY 2025–26.",
+          "SBI Foundation's Environment & Sustainability vertical SBIF CONSERW intends to engage Non-Profit Organisations registered in India for funding projects in the thematic area of Sustainable Waste Management."
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but the event involves SBI Foundation engaging organizations in India for waste management projects during FY 2025–26."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. No specific role is mentioned in the event, which is unusual for a career_position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classification as career_position is questionable. The event seems to describe a funding initiative rather than a specific career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

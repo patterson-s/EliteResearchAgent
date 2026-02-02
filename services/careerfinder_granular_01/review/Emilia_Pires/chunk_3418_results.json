@@ -1,0 +1,159 @@
+{
+  "status": "success",
+  "chunk_id": 3418,
+  "chunk_index": 16,
+  "source_url": "https://conflictfieldresearch.colgate.edu/wp-content/uploads/2015/02/9_Reflections_on_Policy_Space.pdf",
+  "title": "9_Reflections_on_Policy_Space.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2008",
+          "type": "point",
+          "quotes": [
+            "Well, we grew 10.2% in 2008 - economic growth without inflation."
+          ]
+        },
+        {
+          "text": "2009 and beyond",
+          "type": "open",
+          "quotes": [
+            "Where is Timor now? Are you optimistic about 2009 and beyond?"
+          ]
+        },
+        {
+          "text": "one year and a half",
+          "type": "range",
+          "quotes": [
+            "In one year and a half we have been"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "UN",
+          "quotes": [
+            "And sometimes said to the UN, listen, the secretary of state for security he is a PhD from the University of Australia."
+          ]
+        },
+        {
+          "name": "University of Australia",
+          "quotes": [
+            "the secretary of state for security he is a PhD from the University of Australia."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "minister",
+          "quotes": [
+            "just because I am a third world country minister that automatically I am stupid."
+          ]
+        },
+        {
+          "title": "secretary of state for security",
+          "quotes": [
+            "the secretary of state for security he is a PhD from the University of Australia."
+          ]
+        },
+        {
+          "title": "advisors",
+          "quotes": [
+            "I had to scream at some of my advisors and tell them, when I ask you for an option paper, I want all options on the paper."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Timor",
+          "quotes": [
+            "Where is Timor now? Are you optimistic about 2009 and beyond?"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "just because I am a third world country minister that automatically I am stupid.",
+          "Where is Timor now? Are you optimistic about 2009 and beyond?"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time marker or organization linked, but role and location are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "the secretary of state for security he is a PhD from the University of Australia."
+        ],
+        "confidence": "high",
+        "notes": "Role and organization are clearly linked, but no time marker available."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and organization information, despite having role and location."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quotes do not clearly establish a specific career position, only mention being a minister in a third world country."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and location information, despite having role and organization."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quote mentions the role and organization but does not provide context for the career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

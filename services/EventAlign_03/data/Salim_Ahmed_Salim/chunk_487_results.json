@@ -1,0 +1,181 @@
+{
+  "status": "success",
+  "chunk_id": 487,
+  "chunk_index": 5,
+  "source_url": "https://www.salimahmedsalim.com/about",
+  "title": "Dr. Salim Ahmed Salim - Tanzanian Politician &… | Salim Ahmed Salim",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1989",
+          "type": "point",
+          "quotes": [
+            "Dr. Salim was appointed deputy prime minister and minister of defence – a position he would serve until he became secretary-general of the Organisation of African Unity (OAU) in 1989."
+          ]
+        },
+        {
+          "text": "27 July 1989",
+          "type": "point",
+          "quotes": [
+            "Dr. Salim was elected secretary-general of the OAU on 27 July 1989 with more than a two-thirds majority."
+          ]
+        },
+        {
+          "text": "12 years",
+          "type": "range",
+          "quotes": [
+            "Dr. Salim served as secretary-general of the OAU for an unprecedented 12 years, with many highs and many lows."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Organisation of African Unity (OAU)",
+          "quotes": [
+            "Dr. Salim was appointed deputy prime minister and minister of defence – a position he would serve until he became secretary-general of the Organisation of African Unity (OAU) in 1989."
+          ]
+        },
+        {
+          "name": "African Union",
+          "quotes": [
+            "creating the necessary conditions for a conflict-resolution mechanism in the OAU (and later the African Union) to allow Africans to solve African problems."
+          ]
+        },
+        {
+          "name": "AU Peace and Security Council",
+          "quotes": [
+            "This transformation, which was one of Dr. Salim’s lasting legacies, resulted in the creation and establishment of the African Union (AU), specifically the AU Peace and Security Council."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "deputy prime minister",
+          "quotes": [
+            "Dr. Salim was appointed deputy prime minister and minister of defence – a position he would serve until he became secretary-general of the Organisation of African Unity (OAU) in 1989."
+          ]
+        },
+        {
+          "title": "minister of defence",
+          "quotes": [
+            "Dr. Salim was appointed deputy prime minister and minister of defence – a position he would serve until he became secretary-general of the Organisation of African Unity (OAU) in 1989."
+          ]
+        },
+        {
+          "title": "secretary-general of the Organisation of African Unity (OAU)",
+          "quotes": [
+            "Dr. Salim was appointed deputy prime minister and minister of defence – a position he would serve until he became secretary-general of the Organisation of African Unity (OAU) in 1989."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "South Africa",
+          "quotes": [
+            "The tasks and challenges ahead were daunting – the organisation's dwindling finances; ending apartheid in South Africa; seeking to unite the continent; mending regional and linguistic divisions that had undermined the organisation; and repositioning Africa in the post-Cold War order."
+          ]
+        },
+        {
+          "place": "Burundi",
+          "quotes": [
+            "The lows were daunting: the war in Burundi; the genocide in Rwanda; the Ethiopian-Eritrean war and tensions that preceded it; the broader conflict in the DRC; and regional conflicts and challenges across the continent."
+          ]
+        },
+        {
+          "place": "Rwanda",
+          "quotes": [
+            "The lows were daunting: the war in Burundi; the genocide in Rwanda; the Ethiopian-Eritrean war and tensions that preceded it; the broader conflict in the DRC; and regional conflicts and challenges across the continent."
+          ]
+        },
+        {
+          "place": "Ethiopia",
+          "quotes": [
+            "The lows were daunting: the war in Burundi; the genocide in Rwanda; the Ethiopian-Eritrean war and tensions that preceded it; the broader conflict in the DRC; and regional conflicts and challenges across the continent."
+          ]
+        },
+        {
+          "place": "Eritrea",
+          "quotes": [
+            "The lows were daunting: the war in Burundi; the genocide in Rwanda; the Ethiopian-Eritrean war and tensions that preceded it; the broader conflict in the DRC; and regional conflicts and challenges across the continent."
+          ]
+        },
+        {
+          "place": "DRC",
+          "quotes": [
+            "The lows were daunting: the war in Burundi; the genocide in Rwanda; the Ethiopian-Eritrean war and tensions that preceded it; the broader conflict in the DRC; and regional conflicts and challenges across the continent."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Dr. Salim was appointed deputy prime minister and minister of defence – a position he would serve until he became secretary-general of the Organisation of African Unity (OAU) in 1989."
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker or organization provided for this role, but it is clearly a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Dr. Salim was appointed deputy prime minister and minister of defence – a position he would serve until he became secretary-general of the Organisation of African Unity (OAU) in 1989.",
+          "Dr. Salim was elected secretary-general of the OAU on 27 July 1989 with more than a two-thirds majority."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time markers, organization, and role."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers and organization information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

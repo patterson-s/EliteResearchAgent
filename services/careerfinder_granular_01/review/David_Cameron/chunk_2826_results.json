@@ -1,0 +1,216 @@
+{
+  "status": "success",
+  "chunk_id": 2826,
+  "chunk_index": 45,
+  "source_url": "https://en.wikipedia.org/wiki/David_Cameron",
+  "title": "David Cameron - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "in 1996",
+          "type": "point",
+          "quotes": [
+            "married Samantha Sheffield, the daughter of Sir Reginald Sheffield, 8th Baronet, and Annabel Lucy Veronica Jones (later Viscountess Astor) in 1996."
+          ]
+        },
+        {
+          "text": "8 April 2002",
+          "type": "point",
+          "quotes": [
+            "Their first child, Ivan Reginald Ian, was born on 8 April 2002 in Hammersmith and Fulham, London"
+          ]
+        },
+        {
+          "text": "25 February 2009",
+          "type": "point",
+          "quotes": [
+            "Ivan died at St Mary's Hospital, Paddington, London, on 25 February 2009, aged six."
+          ]
+        },
+        {
+          "text": "2004",
+          "type": "point",
+          "quotes": [
+            "The Camerons have two daughters, Nancy Gwen (born 2004) and Florence Rose Endellion (born 2010)"
+          ]
+        },
+        {
+          "text": "2006",
+          "type": "point",
+          "quotes": [
+            "and a son, Arthur Elwen (born 2006)."
+          ]
+        },
+        {
+          "text": "24 August 2010",
+          "type": "point",
+          "quotes": [
+            "She was born at the Royal Cornwall Hospital on 24 August 2010, three weeks prematurely, while the family was on holiday in Cornwall."
+          ]
+        },
+        {
+          "text": "June 2025",
+          "type": "point",
+          "quotes": [
+            "Cameron at SXSW London in June 2025."
+          ]
+        },
+        {
+          "text": "early May 2008",
+          "type": "point",
+          "quotes": [
+            "In early May 2008, the Camerons decided to enroll their daughter Nancy at a state primary school."
+          ]
+        },
+        {
+          "text": "8 September 2010",
+          "type": "point",
+          "quotes": [
+            "It was announced that Cameron would miss Prime Minister's Questions on 8 September 2010 to fly to southern France to see his father, Ian Cameron, who had had a stroke with coronary complications."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "NHS Cheyne Day Centre",
+          "quotes": [
+            "Ivan was cared for at the specialist NHS Cheyne Day Centre in West London, which closed shortly after he left it."
+          ]
+        },
+        {
+          "name": "St Mary's Hospital",
+          "quotes": [
+            "Ivan died at St Mary's Hospital, Paddington, London, on 25 February 2009, aged six."
+          ]
+        },
+        {
+          "name": "Royal Cornwall Hospital",
+          "quotes": [
+            "She was born at the Royal Cornwall Hospital on 24 August 2010, three weeks prematurely, while the family was on holiday in Cornwall."
+          ]
+        },
+        {
+          "name": "St Mary Abbots",
+          "quotes": [
+            "For three years before that, they had been attending its associated church, St Mary Abbots,"
+          ]
+        },
+        {
+          "name": "SXSW London",
+          "quotes": [
+            "Cameron at SXSW London in June 2025."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Prime Minister",
+          "quotes": [
+            "It was announced that Cameron would miss Prime Minister's Questions on 8 September 2010 to fly to southern France to see his father, Ian Cameron, who had had a stroke with coronary complications."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Hammersmith and Fulham, London",
+          "quotes": [
+            "Their first child, Ivan Reginald Ian, was born on 8 April 2002 in Hammersmith and Fulham, London"
+          ]
+        },
+        {
+          "place": "Paddington, London",
+          "quotes": [
+            "Ivan died at St Mary's Hospital, Paddington, London, on 25 February 2009, aged six."
+          ]
+        },
+        {
+          "place": "Cornwall",
+          "quotes": [
+            "She was born at the Royal Cornwall Hospital on 24 August 2010, three weeks prematurely, while the family was on holiday in Cornwall."
+          ]
+        },
+        {
+          "place": "St Endellion",
+          "quotes": [
+            "Her third given name, Endellion, is taken from the village of St Endellion near where the Camerons were holidaying."
+          ]
+        },
+        {
+          "place": "North Kensington",
+          "quotes": [
+            "near the Cameron family home in North Kensington."
+          ]
+        },
+        {
+          "place": "Dean, Oxfordshire",
+          "quotes": [
+            "Cameron's constituency home is in Dean, Oxfordshire"
+          ]
+        },
+        {
+          "place": "Chipping Norton",
+          "quotes": [
+            "the Camerons have been described as key members of the Chipping Norton set."
+          ]
+        },
+        {
+          "place": "southern France",
+          "quotes": [
+            "It was announced that Cameron would miss Prime Minister's Questions on 8 September 2010 to fly to southern France to see his father, Ian Cameron, who had had a stroke with coronary complications."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          8
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "It was announced that Cameron would miss Prime Minister's Questions on 8 September 2010 to fly to southern France to see his father, Ian Cameron, who had had a stroke with coronary complications."
+        ],
+        "confidence": "high",
+        "notes": "The role of Prime Minister is clearly indicated, and the event is supported by a specific date."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location information for the career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "The quote supports the role of Prime Minister but does not explicitly state the start or end date of the position, only mentioning a specific date when Cameron missed Prime Minister's Questions."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

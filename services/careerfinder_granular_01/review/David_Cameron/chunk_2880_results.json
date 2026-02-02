@@ -1,0 +1,87 @@
+{
+  "status": "success",
+  "chunk_id": 2880,
+  "chunk_index": 2,
+  "source_url": "https://www.gov.uk/government/history/past-prime-ministers/david-cameron",
+  "title": "History of The Rt Hon Lord Cameron - GOV.UK",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "July 2016",
+          "type": "point",
+          "quotes": [
+            "July 2016."
+          ]
+        },
+        {
+          "text": "September 2016",
+          "type": "point",
+          "quotes": [
+            "In September 2016, he resigned as a Member of Parliament."
+          ]
+        }
+      ],
+      "organizations": [],
+      "roles": [
+        {
+          "title": "Member of Parliament",
+          "quotes": [
+            "In September 2016, he resigned as a Member of Parliament."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In September 2016, he resigned as a Member of Parliament."
+        ],
+        "confidence": "high",
+        "notes": "Event is clearly a career position based on the role 'Member of Parliament' and the action of resigning."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "The event is linked to time marker 'July 2016' but the supporting quote mentions 'September 2016'. The time marker should likely be updated to match the quote."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "The event lacks organization and location information, which may be expected for a career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

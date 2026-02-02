@@ -1,0 +1,144 @@
+{
+  "status": "success",
+  "chunk_id": 223,
+  "chunk_index": 1,
+  "source_url": "https://una.org.uk/magazine/winter-special-issue-2012/interview-david-hannay-britain%E2%80%99s-quest-role",
+  "title": "Interview: David Hannay on Britain’s quest for a role | UNA-UK",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "after 2015",
+          "type": "point",
+          "quotes": [
+            "But what’s really crucial in my view is that the MDGs after 2015 focus on what has been called the ‘bottom billion’,"
+          ]
+        },
+        {
+          "text": "first 15 years",
+          "type": "range",
+          "quotes": [
+            "MDGs a more effective tool for development policy than they have been in their first 15 years."
+          ]
+        },
+        {
+          "text": "during the first 15 years",
+          "type": "range",
+          "quotes": [
+            "Other countries that have made huge progress during the first 15 years, countries like China, India and Brazil,"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "MDGs",
+          "quotes": [
+            "MDGs a more effective tool for development policy than they have been in their first 15 years."
+          ]
+        },
+        {
+          "name": "UK",
+          "quotes": [
+            "So we shouldn’t be looking so much for money but for experience and how best UK and EU aid programmes can work together with these emerging countries."
+          ]
+        },
+        {
+          "name": "EU",
+          "quotes": [
+            "So we shouldn’t be looking so much for money but for experience and how best UK and EU aid programmes can work together with these emerging countries."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "former president",
+          "quotes": [
+            "The family support measures that former president Lula introduced have been a great success,"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "China",
+          "quotes": [
+            "Other countries that have made huge progress during the first 15 years, countries like China, India and Brazil,"
+          ]
+        },
+        {
+          "place": "India",
+          "quotes": [
+            "Other countries that have made huge progress during the first 15 years, countries like China, India and Brazil,"
+          ]
+        },
+        {
+          "place": "Brazil",
+          "quotes": [
+            "Other countries that have made huge progress during the first 15 years, countries like China, India and Brazil,"
+          ]
+        },
+        {
+          "place": "Brazil",
+          "quotes": [
+            "Take Brazil. The family support measures that former president Lula introduced have been a great success,"
+          ]
+        },
+        {
+          "place": "Britain",
+          "quotes": [
+            "We should also remember that Britain is in single figures in any league table of world power,"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          3
+        ],
+        "supporting_quotes": [
+          "The family support measures that former president Lula introduced have been a great success,"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time marker or organization linked to this role, but the role is clearly a career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and organization links for the career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quote mentions 'former president Lula' but does not explicitly state the organization or time period for this role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

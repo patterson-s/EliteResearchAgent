@@ -1,0 +1,228 @@
+{
+  "status": "success",
+  "chunk_id": 1238,
+  "chunk_index": 15,
+  "source_url": "https://www.tse-fr.eu/sites/default/files/TSE/documents/doc/cv/tirole_en.pdf",
+  "title": "tirole_en.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "Autumn 2000",
+          "type": "point",
+          "quotes": [
+            "Rand Journal of Economics, Autumn 2000, 31(3): 450 -501."
+          ]
+        },
+        {
+          "text": "Winter",
+          "type": "point",
+          "quotes": [
+            "Rand Journal of Economics, Winter, 31: 634 -657."
+          ]
+        },
+        {
+          "text": "2001",
+          "type": "point",
+          "quotes": [
+            "2001"
+          ]
+        },
+        {
+          "text": "2002",
+          "type": "point",
+          "quotes": [
+            "2002"
+          ]
+        },
+        {
+          "text": "2002 meeting of the American Finance Association",
+          "type": "point",
+          "quotes": [
+            "Smith Breeden award (distinguished paper) of the Journal of Finance (delivered at 2002 meeting of the American Finance Association)"
+          ]
+        },
+        {
+          "text": "Paris 2003",
+          "type": "point",
+          "quotes": [
+            "Paris Europlace prize (Paris 2003)."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "European Economic Review",
+          "quotes": [
+            "European Economic Review Papers and Proceedings , 44: 869 -878.",
+            "European Economic Review, Papers and Proceedings , 45: 819 -826.",
+            "European Economic Review , 46(4-5): 633 -655."
+          ]
+        },
+        {
+          "name": "Journal of Money, Credit and Banking",
+          "quotes": [
+            "Journal of Money, Credit and Banking , 32 (3): 295 -319."
+          ]
+        },
+        {
+          "name": "Rand Journal of Economics",
+          "quotes": [
+            "Rand Journal of Economics, Autumn 2200, 31(3): 450 -501.",
+            "Rand Journal of Economics, Winter, 31: 634 -657."
+          ]
+        },
+        {
+          "name": "Journal of Industrial Economics",
+          "quotes": [
+            "Journal of Industrial Economics , vol. 48(4):373 -390.",
+            "Journal of Industrial Economics, vol. 48(4): 433 -472.",
+            "Journal of Industrial Economics , 50(2): 197 -234, reprinted in R. Merges, ed., Economics of Intellectual Property Law , Edward Elgar 2007."
+          ]
+        },
+        {
+          "name": "La Documentation Française",
+          "quotes": [
+            "La Documentation Française, Paris."
+          ]
+        },
+        {
+          "name": "Communications & Stratégies",
+          "quotes": [
+            "Communications & Stratégies , vol. 40: 139 -160."
+          ]
+        },
+        {
+          "name": "Brazilian Review of Econometrics",
+          "quotes": [
+            "Brazilian Review of Econometrics , 20: 115 -146."
+          ]
+        },
+        {
+          "name": "Econometrica",
+          "quotes": [
+            "Econometrica , 69 (1): 1 -35."
+          ]
+        },
+        {
+          "name": "American Economic Review",
+          "quotes": [
+            "American Economic Review, Papers and Proceedings , 91: 287 -292."
+          ]
+        },
+        {
+          "name": "Journal of Finance",
+          "quotes": [
+            "Journal of Finance , vol. 56(5): 1837 -1867."
+          ]
+        },
+        {
+          "name": "Journal of Economic Theory",
+          "quotes": [
+            "Journal of Economic Theory , 100: 191 -219."
+          ]
+        },
+        {
+          "name": "Quarterly Journal of Economics",
+          "quotes": [
+            "Quarterly Journal of Economics , 117(4): 1453 -89."
+          ]
+        },
+        {
+          "name": "Ashgate",
+          "quotes": [
+            "Corporate Strategies for Managing Environmental Risk , Ashgate."
+          ]
+        },
+        {
+          "name": "Edward Elgar",
+          "quotes": [
+            "Edward Elgar 2007."
+          ]
+        },
+        {
+          "name": "American Finance Association",
+          "quotes": [
+            "Smith Breeden award (distinguished paper) of the Journal of Finance (delivered at 2002 meeting of the American Finance Association)"
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": [
+        {
+          "place": "Paris",
+          "quotes": [
+            "La Documentation Française, Paris.",
+            "Paris Europlace prize (Paris 2003)."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          14
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Smith Breeden award (distinguished paper) of the Journal of Finance (delivered at 2002 meeting of the American Finance Association)"
+        ],
+        "confidence": "high",
+        "notes": "Clear award indication with specific event and organization."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Paris Europlace prize (Paris 2003)."
+        ],
+        "confidence": "high",
+        "notes": "Clear award indication with specific location and time."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing organization information for the Paris Europlace prize."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 0,
+      "awards": 2
+    }
+  }
+}

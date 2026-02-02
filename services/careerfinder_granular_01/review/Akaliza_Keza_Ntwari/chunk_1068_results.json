@@ -1,0 +1,180 @@
+{
+  "status": "success",
+  "chunk_id": 1068,
+  "chunk_index": 5,
+  "source_url": "https://www.fondationbotnar.org/akaliza-keza-ntwari-writes-on-women-led-innovation/",
+  "title": "Akaliza Keza Ntwari writes on women-led innovation - Fondation Botnar",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In September",
+          "type": "point",
+          "quotes": [
+            "In September, Fondation Botnar and Restless Development co-hosted the Youth Power Summit in New York City, a youth-led event running alongside the UN Summit of the Future."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Fondation Botnar",
+          "quotes": [
+            "In September, Fondation Botnar and Restless Development co-hosted the Youth Power Summit in New York City, a youth-led event running alongside the UN Summit of the Future."
+          ]
+        },
+        {
+          "name": "Restless Development",
+          "quotes": [
+            "In September, Fondation Botnar and Restless Development co-hosted the Youth Power Summit in New York City, a youth-led event running alongside the UN Summit of the Future."
+          ]
+        },
+        {
+          "name": "UN Summit of the Future",
+          "quotes": [
+            "In September, Fondation Botnar and Restless Development co-hosted the Youth Power Summit in New York City, a youth-led event running alongside the UN Summit of the Future."
+          ]
+        },
+        {
+          "name": "MTV Staying Alive Foundation",
+          "quotes": [
+            "In addition, organisations like MTV Staying Alive Foundation, Born This Way Foundation, and Amnesty International led intergenerational sessions on topics such as advancing girls’ education and youth leadership in humanitarian crises."
+          ]
+        },
+        {
+          "name": "Born This Way Foundation",
+          "quotes": [
+            "In addition, organisations like MTV Staying Alive Foundation, Born This Way Foundation, and Amnesty International led intergenerational sessions on topics such as advancing girls’ education and youth leadership in humanitarian crises."
+          ]
+        },
+        {
+          "name": "Amnesty International",
+          "quotes": [
+            "In addition, organisations like MTV Staying Alive Foundation, Born This Way Foundation, and Amnesty International led intergenerational sessions on topics such as advancing girls’ education and youth leadership in humanitarian crises."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Global Youth Mobiliser, Restless Development",
+          "quotes": [
+            "Marie Mokuba, Global Youth Mobiliser, Restless Development"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "New York City",
+          "quotes": [
+            "In September, Fondation Botnar and Restless Development co-hosted the Youth Power Summit in New York City, a youth-led event running alongside the UN Summit of the Future."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "In September, Fondation Botnar and Restless Development co-hosted the Youth Power Summit in New York City, a youth-led event running alongside the UN Summit of the Future.",
+          "Marie Mokuba, Global Youth Mobiliser, Restless Development"
+        ],
+        "confidence": "high",
+        "notes": "The role is directly associated with Restless Development and the event in New York City."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "In September, Fondation Botnar and Restless Development co-hosted the Youth Power Summit in New York City, a youth-led event running alongside the UN Summit of the Future."
+        ],
+        "confidence": "high",
+        "notes": "Fondation Botnar and Restless Development co-hosted the event, indicating an active role in organizing it."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3,
+          4,
+          5
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In addition, organisations like MTV Staying Alive Foundation, Born This Way Foundation, and Amnesty International led intergenerational sessions on topics such as advancing girls’ education and youth leadership in humanitarian crises."
+        ],
+        "confidence": "medium",
+        "notes": "These organizations are mentioned as leading sessions, implying active involvement, but no specific time marker is provided."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, making it unclear what specific position was held."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and role information, making it difficult to verify the event's specifics."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classification as 'career_position' is questionable since the event describes organizations leading sessions, which may not constitute a formal position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "status": "success",
+  "chunk_id": 533,
+  "chunk_index": 33,
+  "source_url": "https://issafrica.s3.amazonaws.com/site/uploads/Book-2015-Salim.pdf",
+  "title": "Book-2015-Salim.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "from April 1984 to November 1985",
+          "type": "range",
+          "quotes": [
+            "Salim was Tanzania’s prime minister from April 1984 to November 1985, succeeding Prime Minister Edward Sokoine, who was killed in a road accident."
+          ]
+        },
+        {
+          "text": "November 1985",
+          "type": "point",
+          "quotes": [
+            "He concluded his term in November 1985, when the general elections were held."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "International Monetary Fund (IMF)",
+          "quotes": [
+            "a long tug of war with the International Monetary Fund (IMF) and the World Bank, which prescribed that Tanzania adopt and implement the structural adjustment programmes."
+          ]
+        },
+        {
+          "name": "World Bank",
+          "quotes": [
+            "a long tug of war with the International Monetary Fund (IMF) and the World Bank, which prescribed that Tanzania adopt and implement the structural adjustment programmes."
+          ]
+        },
+        {
+          "name": "UN",
+          "quotes": [
+            "argued for Tanzania’s case against harsh World Bank and IMF conditionalities at the UN and other international forums."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Prime Minister",
+          "quotes": [
+            "Salim was Tanzania’s prime minister from April 1984 to November 1985, succeeding Prime Minister Edward Sokoine, who was killed in a road accident."
+          ]
+        },
+        {
+          "title": "Member of Parliament",
+          "quotes": [
+            "During the 1985 elections, Salim was elected as Member of Parliament for the Mkoani Constituency in Pemba’s South Region."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Tanzania",
+          "quotes": [
+            "Salim was Tanzania’s prime minister from April 1984 to November 1985, succeeding Prime Minister Edward Sokoine, who was killed in a road accident."
+          ]
+        },
+        {
+          "place": "Kigoma",
+          "quotes": [
+            "His first undertaking was to visit various regions and districts, particularly in areas such as Kigoma, Mtwara and Songea, where the impact of the economic crisis was particularly evident."
+          ]
+        },
+        {
+          "place": "Mtwara",
+          "quotes": [
+            "His first undertaking was to visit various regions and districts, particularly in areas such as Kigoma, Mtwara and Songea, where the impact of the economic crisis was particularly evident."
+          ]
+        },
+        {
+          "place": "Songea",
+          "quotes": [
+            "His first undertaking was to visit various regions and districts, particularly in areas such as Kigoma, Mtwara and Songea, where the impact of the economic crisis was particularly evident."
+          ]
+        },
+        {
+          "place": "China",
+          "quotes": [
+            "Salim discussed the situation and the way forward with Nyerere and subsequently sought supplies of clothes from countries such as China, and prodded for measures of liberalisation to remove unnecessary economic restrictions."
+          ]
+        },
+        {
+          "place": "Mkoani Constituency in Pemba’s South Region",
+          "quotes": [
+            "During the 1985 elections, Salim was elected as Member of Parliament for the Mkoani Constituency in Pemba’s South Region."
+          ]
+        },
+        {
+          "place": "Chake Chake",
+          "quotes": [
+            "There was only one good road from Chake Chake to Mkoani and the various feeder roads were almost impassable."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Salim was Tanzania’s prime minister from April 1984 to November 1985, succeeding Prime Minister Edward Sokoine, who was killed in a road accident.",
+          "He concluded his term in November 1985, when the general elections were held."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time markers, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          5
+        ],
+        "supporting_quotes": [
+          "During the 1985 elections, Salim was elected as Member of Parliament for the Mkoani Constituency in Pemba’s South Region."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role and location, though no explicit time marker."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time marker for the career position as Member of Parliament."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

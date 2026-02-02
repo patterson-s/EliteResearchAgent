@@ -1,0 +1,245 @@
+{
+  "status": "success",
+  "chunk_id": 351,
+  "chunk_index": 1,
+  "source_url": "https://en.wikipedia.org/wiki/Satish_Nambiar",
+  "title": "Satish Nambiar - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2005",
+          "type": "point",
+          "quotes": [
+            "He served on the United Nations High Level Panel on 'Threats, Challenges and Change', which provided basis for the UN Secretary General's report to the 2005 World Summit."
+          ]
+        },
+        {
+          "text": "Since 2011",
+          "type": "open",
+          "quotes": [
+            "Since 2011, he is a distinguished fellow of the Institute for Defence Studies and Analyses, New Delhi."
+          ]
+        },
+        {
+          "text": "1971",
+          "type": "point",
+          "quotes": [
+            "Vir Chakra, for Operation Cactus-Lilly (1971)."
+          ]
+        },
+        {
+          "text": "2009",
+          "type": "point",
+          "quotes": [
+            "Padma Bhushan, 2009."
+          ]
+        },
+        {
+          "text": "1992–1993",
+          "type": "range",
+          "quotes": [
+            "Commander UNPROFOR 1992–1993"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "United Nations High Level Panel on Threats, Challenges and Change",
+          "quotes": [
+            "He served on the United Nations High Level Panel on 'Threats, Challenges and Change', which provided basis for the UN Secretary General's report to the 2005 World Summit."
+          ]
+        },
+        {
+          "name": "Institute for Defence Studies and Analyses",
+          "quotes": [
+            "Since 2011, he is a distinguished fellow of the Institute for Defence Studies and Analyses, New Delhi."
+          ]
+        },
+        {
+          "name": "Centre for Armed Forces Historical Research, United Service Institution of India",
+          "quotes": [
+            "Satish Nambiar; Chandar S. Sundaram; Rana Chhina (2009). For the Honour of India: A History of Indian Peacekeeping. Centre for Armed Forces Historical Research, United Service Institution of India."
+          ]
+        },
+        {
+          "name": "United Nations Publications",
+          "quotes": [
+            "UN High-level Panel on Threats, Challenges, and Change (2004). A More Secure World: Our Shared Responsibility : Report of the High-level Panel on Threats, Challenges, and Change. United Nations Publications."
+          ]
+        },
+        {
+          "name": "UNPROFOR",
+          "quotes": [
+            "Commander UNPROFOR 1992–1993"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "researcher and author",
+          "quotes": [
+            "After his retirement, Nambiar worked as a researcher and author on topics related to war, defence strategy and international relations."
+          ]
+        },
+        {
+          "title": "distinguished fellow",
+          "quotes": [
+            "Since 2011, he is a distinguished fellow of the Institute for Defence Studies and Analyses, New Delhi."
+          ]
+        },
+        {
+          "title": "Commander UNPROFOR",
+          "quotes": [
+            "Commander UNPROFOR 1992–1993"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "New Delhi",
+          "quotes": [
+            "Since 2011, he is a distinguished fellow of the Institute for Defence Studies and Analyses, New Delhi."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Commander UNPROFOR 1992–1993"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Since 2011, he is a distinguished fellow of the Institute for Defence Studies and Analyses, New Delhi."
+        ],
+        "confidence": "high",
+        "notes": "Ongoing fellowship with a specific title and institution, indicating an active role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He served on the United Nations High Level Panel on 'Threats, Challenges and Change', which provided basis for the UN Secretary General's report to the 2005 World Summit."
+        ],
+        "confidence": "high",
+        "notes": "Active service on a panel, indicating a career position."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Padma Bhushan, 2009."
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of a one-time award."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Vir Chakra, for Operation Cactus-Lilly (1971)."
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of a one-time award."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Fellowship could be classified as either career_position or award depending on active duties, which are not explicitly mentioned."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and role details, though the context suggests a career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 4,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 3,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 2
+    }
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "status": "success",
+  "chunk_id": 3986,
+  "chunk_index": 0,
+  "source_url": "https://www.siani.se/news-story/lennart-bage-new-acting-director-general-sida/",
+  "title": "Lennart Båge new Acting Director-General at Sida - SIANI",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "from the 1st of November 2016",
+          "type": "point",
+          "quotes": [
+            "Lennart Båge is stepping down from his role as SIANI Steering Committee member as he is taking on the role of Sida’s new Acting Director-General from the 1st of November 2016."
+          ]
+        },
+        {
+          "text": "since August 2015",
+          "type": "open",
+          "quotes": [
+            "He has been part of SIANIs steering committee since August 2015."
+          ]
+        },
+        {
+          "text": "Between the years 2001-2009",
+          "type": "range",
+          "quotes": [
+            "Between the years 2001-2009 he was the president of the International Fund for Agricultural Development (IFAD)."
+          ]
+        },
+        {
+          "text": "since the 70s",
+          "type": "open",
+          "quotes": [
+            "He has been involved in rural development, at project, programme and policy level since the 70s."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "SIANI",
+          "quotes": [
+            "Lennart Båge is stepping down from his role as SIANI Steering Committee member as he is taking on the role of Sida’s new Acting Director-General from the 1st of November 2016."
+          ]
+        },
+        {
+          "name": "Sida",
+          "quotes": [
+            "Lennart Båge is stepping down from his role as SIANI Steering Committee member as he is taking on the role of Sida’s new Acting Director-General from the 1st of November 2016."
+          ]
+        },
+        {
+          "name": "International Fund for Agricultural Development (IFAD)",
+          "quotes": [
+            "Between the years 2001-2009 he was the president of the International Fund for Agricultural Development (IFAD)."
+          ]
+        },
+        {
+          "name": "United Nations",
+          "quotes": [
+            "IFAD is a specialised agency of the United Nations with the specific mandate to empower poor rural women and men in developing countries to achieve higher incomes and improved food security."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Acting Director-General",
+          "quotes": [
+            "Lennart Båge is stepping down from his role as SIANI Steering Committee member as he is taking on the role of Sida’s new Acting Director-General from the 1st of November 2016."
+          ]
+        },
+        {
+          "title": "SIANI Steering Committee member",
+          "quotes": [
+            "Lennart Båge is stepping down from his role as SIANI Steering Committee member as he is taking on the role of Sida’s new Acting Director-General from the 1st of November 2016."
+          ]
+        },
+        {
+          "title": "president of the International Fund for Agricultural Development (IFAD)",
+          "quotes": [
+            "Between the years 2001-2009 he was the president of the International Fund for Agricultural Development (IFAD)."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He has been part of SIANIs steering committee since August 2015.",
+          "Lennart Båge is stepping down from his role as SIANI Steering Committee member as he is taking on the role of Sida’s new Acting Director-General from the 1st of November 2016."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Lennart Båge is stepping down from his role as SIANI Steering Committee member as he is taking on the role of Sida’s new Acting Director-General from the 1st of November 2016."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Between the years 2001-2009 he was the president of the International Fund for Agricultural Development (IFAD)."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "Time marker 'from the 1st of November 2016' is a point in time but is used as a start date without an end date, which may be incomplete."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 2,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

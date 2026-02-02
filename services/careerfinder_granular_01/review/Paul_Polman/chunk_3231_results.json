@@ -1,0 +1,125 @@
+{
+  "status": "success",
+  "chunk_id": 3231,
+  "chunk_index": 7,
+  "source_url": "https://uk.linkedin.com/in/paulpolman",
+  "title": "Paul Polman - Business, campaigning, younger me nearly a priest. ‘Net Positive: how courageous companies thrive by giving more than they take’ #1 Thinkers50 | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "A few years later",
+          "type": "point",
+          "quotes": [
+            "A few years later, our family office identified an emerging commercial opportunity to invest in climate solutions, and we became the cornerstone investors in Wollemi."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Trawalla Group",
+          "quotes": [
+            "Alan Schwartz AO\nTrawalla Group\n• 4K followers\nWhy I founded the Transition Accelerator"
+          ]
+        },
+        {
+          "name": "Wollemi",
+          "quotes": [
+            "A few years later, our family office identified an emerging commercial opportunity to invest in climate solutions, and we became the cornerstone investors in Wollemi."
+          ]
+        },
+        {
+          "name": "Transition Accelerator",
+          "quotes": [
+            "That’s why we launched the Transition Accelerator, a not-for-profit “investment bank” focused on expanding the scope of investible climate opportunities."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "founder of the Transition Accelerator",
+          "quotes": [
+            "Why I founded the Transition Accelerator"
+          ]
+        },
+        {
+          "title": "cornerstone investors",
+          "quotes": [
+            "we became the cornerstone investors in Wollemi."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "A few years later, our family office identified an emerging commercial opportunity to invest in climate solutions, and we became the cornerstone investors in Wollemi.",
+          "we became the cornerstone investors in Wollemi."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time marker, organization, and role in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Alan Schwartz AO\nTrawalla Group\n• 4K followers\nWhy I founded the Transition Accelerator",
+          "Why I founded the Transition Accelerator"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between organization and role in the same quote, though no explicit time marker is provided."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time marker for the career position event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

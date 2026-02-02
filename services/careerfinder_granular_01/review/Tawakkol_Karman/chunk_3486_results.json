@@ -1,0 +1,136 @@
+{
+  "status": "success",
+  "chunk_id": 3486,
+  "chunk_index": 7,
+  "source_url": "https://en.wikipedia.org/wiki/Tawakkol_Karman",
+  "title": "Tawakkol Karman - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "16 October",
+          "type": "point",
+          "quotes": [
+            "On 16 October, government snipers in Taiz shot and killed Aziza Othman Kaleb."
+          ]
+        },
+        {
+          "text": "Ten days after Kaleb was shot",
+          "type": "point",
+          "quotes": [
+            "Ten days after Kaleb was shot, women in Sana'a protested against the violent force used against them by burning their makrama."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Democracy Now!",
+          "quotes": [
+            "In an interview on Democracy Now!, Karman said, 'In our weekly protests in front of the cabinet, we called on the government to allow people to have freedom of speech and for people to be able to own online newspapers.'"
+          ]
+        },
+        {
+          "name": "CNN",
+          "quotes": [
+            "CNN stated that she was the first woman to have been killed during the Yemen protests."
+          ]
+        },
+        {
+          "name": "The Hindu",
+          "quotes": [
+            "The Hindu estimated that 30 percent of the protestors in protests in Freedom Square in Taiz were women."
+          ]
+        },
+        {
+          "name": "United Nations Security Council",
+          "quotes": [
+            "After the Nobel Peace Prize announcement, Tawakkol Karman became increasingly involved in mobilizing world opinion and United Nations Security Council members to assist the protesters in ousting Saleh and bringing him before the international court."
+          ]
+        },
+        {
+          "name": "United States",
+          "quotes": [
+            "She lobbied the United Nations Security Council and the United States not to make a deal that would pardon Saleh, but instead hold him accountable, freeze his assets and support the protesters."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Nobel Peace Prize laureate",
+          "quotes": [
+            "After the Nobel Peace Prize announcement, Tawakkol Karman became increasingly involved in mobilizing world opinion and United Nations Security Council members to assist the protesters in ousting Saleh and bringing him before the international court."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Taiz",
+          "quotes": [
+            "On 16 October, government snipers in Taiz shot and killed Aziza Othman Kaleb."
+          ]
+        },
+        {
+          "place": "Freedom Square",
+          "quotes": [
+            "The Hindu estimated that 30 percent of the protestors in protests in Freedom Square in Taiz were women."
+          ]
+        },
+        {
+          "place": "Sana'a",
+          "quotes": [
+            "Ten days after Kaleb was shot, women in Sana'a protested against the violent force used against them by burning their makrama."
+          ]
+        },
+        {
+          "place": "Washington, D.C.",
+          "quotes": [
+            "At the time, Karman was in Washington, D.C., where she said the female protesters who burned their makrama were 'reject(ing) the injustice that the Saleh regime has imposed on them.'"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "After the Nobel Peace Prize announcement, Tawakkol Karman became increasingly involved in mobilizing world opinion and United Nations Security Council members to assist the protesters in ousting Saleh and bringing him before the international court."
+        ],
+        "confidence": "high",
+        "notes": "The role 'Nobel Peace Prize laureate' clearly indicates a one-time award."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time_marker_ids, organization_ids, and location_ids for the award event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 0,
+      "awards": 1
+    }
+  }
+}

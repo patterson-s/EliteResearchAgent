@@ -1,0 +1,179 @@
+{
+  "status": "success",
+  "chunk_id": 1071,
+  "chunk_index": 8,
+  "source_url": "https://www.fondationbotnar.org/akaliza-keza-ntwari-writes-on-women-led-innovation/",
+  "title": "Akaliza Keza Ntwari writes on women-led innovation - Fondation Botnar",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "since its launch in 2014",
+          "type": "open",
+          "quotes": [
+            "The BASAibu wiki platforms have been used by close to 4 million young people in Bali since its launch in 2014."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "US Consulate in Surabaya",
+          "quotes": [
+            "The BASAibu Wiki, with over 61,000 visits and recognition from the US Consulate in Surabaya, consists of digital platforms that promote civic engagement, connect youth with policymakers, and enable them to participate in discussions and debates."
+          ]
+        },
+        {
+          "name": "World Health Organisation",
+          "quotes": [
+            "The initiative was recognised by the World Health Organisation as one of the most innovative health interventions in Asia-Pacific."
+          ]
+        },
+        {
+          "name": "AI Foundation (AI&Me)",
+          "quotes": [
+            "Pictures by: AI Foundation (AI&Me), BASAibu (BASAibu), PATH and Tran Phu High school (NCD)"
+          ]
+        },
+        {
+          "name": "BASAibu",
+          "quotes": [
+            "Pictures by: AI Foundation (AI&Me), BASAibu (BASAibu), PATH and Tran Phu High school (NCD)"
+          ]
+        },
+        {
+          "name": "PATH",
+          "quotes": [
+            "Pictures by: AI Foundation (AI&Me), BASAibu (BASAibu), PATH and Tran Phu High school (NCD)"
+          ]
+        },
+        {
+          "name": "Tran Phu High school",
+          "quotes": [
+            "Pictures by: AI Foundation (AI&Me), BASAibu (BASAibu), PATH and Tran Phu High school (NCD)"
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": [
+        {
+          "place": "Indonesia",
+          "quotes": [
+            "Amplifying youth civic engagement in Indonesia"
+          ]
+        },
+        {
+          "place": "Bali",
+          "quotes": [
+            "The BASAibu wiki platforms have been used by close to 4 million young people in Bali since its launch in 2014."
+          ]
+        },
+        {
+          "place": "Colombia",
+          "quotes": [
+            "Building opportunities for young professionals in Colombia"
+          ]
+        },
+        {
+          "place": "Vietnam",
+          "quotes": [
+            "Promoting health education for youth in Vietnam"
+          ]
+        },
+        {
+          "place": "Asia-Pacific",
+          "quotes": [
+            "The initiative was recognised by the World Health Organisation as one of the most innovative health interventions in Asia-Pacific."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [
+          4
+        ],
+        "supporting_quotes": [
+          "The initiative was recognised by the World Health Organisation as one of the most innovative health interventions in Asia-Pacific."
+        ],
+        "confidence": "high",
+        "notes": "Recognition by WHO is a one-time award without ongoing responsibilities."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "The BASAibu wiki platforms have been used by close to 4 million young people in Bali since its launch in 2014.",
+          "Pictures by: AI Foundation (AI&Me), BASAibu (BASAibu), PATH and Tran Phu High school (NCD)"
+        ],
+        "confidence": "medium",
+        "notes": "BASAibu is mentioned as an active organization with ongoing activities, but specific roles are not provided."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The BASAibu Wiki, with over 61,000 visits and recognition from the US Consulate in Surabaya, consists of digital platforms that promote civic engagement, connect youth with policymakers, and enable them to participate in discussions and debates."
+        ],
+        "confidence": "high",
+        "notes": "Recognition by the US Consulate in Surabaya is a one-time acknowledgment without ongoing responsibilities."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 2,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 2
+    }
+  }
+}

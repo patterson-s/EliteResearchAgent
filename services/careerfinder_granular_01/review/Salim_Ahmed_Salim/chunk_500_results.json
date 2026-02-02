@@ -1,0 +1,153 @@
+{
+  "status": "success",
+  "chunk_id": 500,
+  "chunk_index": 0,
+  "source_url": "https://issafrica.s3.amazonaws.com/site/uploads/Book-2015-Salim.pdf",
+  "title": "Book-2015-Salim.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "June 1996",
+          "type": "point",
+          "quotes": [
+            "The Mwalimu Nyerere Foundation was established in June 1996, as a permanent tribute to Mwalimu Julius K Nyerere’s contribution to sustainably improving the quality of human relations."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Institute for Security Studies",
+          "quotes": [
+            "The Institute for Security Studies is an African organisation that aims to enhance human security on the continent."
+          ]
+        },
+        {
+          "name": "Centre for Humanitarian Dialogue (HD)",
+          "quotes": [
+            "The Centre for Humanitarian Dialogue (HD) is a private diplomacy organisation founded on the principles of humanity, impartiality and independence."
+          ]
+        },
+        {
+          "name": "African Centre for the Constructive Resolution of Disputes (ACCORD)",
+          "quotes": [
+            "The African Centre for the Constructive Resolution of Disputes (ACCORD) is a non-governmental institute headquartered in Durban, South Africa."
+          ]
+        },
+        {
+          "name": "African Union",
+          "quotes": [
+            "The African Union spearheads Africa’s development and integration in close collaboration with African Union Member States, the Regional Economic Communities and African citizens."
+          ]
+        },
+        {
+          "name": "Mwalimu Nyerere Foundation",
+          "quotes": [
+            "The Mwalimu Nyerere Foundation was established in June 1996, as a permanent tribute to Mwalimu Julius K Nyerere’s contribution to sustainably improving the quality of human relations."
+          ]
+        },
+        {
+          "name": "United Nations (UN)",
+          "quotes": [
+            "Salim’s service at the UN"
+          ]
+        },
+        {
+          "name": "Organization of African Unity",
+          "quotes": [
+            "Salim at the Organization of African Unity"
+          ]
+        },
+        {
+          "name": "African National Congress (ANC)",
+          "quotes": [
+            "ANC African National Congress"
+          ]
+        },
+        {
+          "name": "Afro-Shirazi Party (ASP)",
+          "quotes": [
+            "ASP Afro-Shirazi Party"
+          ]
+        },
+        {
+          "name": "Chama Cha Mapinduzi (CCM)",
+          "quotes": [
+            "CCM Chama Cha Mapinduzi (Revolutionary Party)"
+          ]
+        },
+        {
+          "name": "Frente de Libertação de Moçambique (FRELIMO)",
+          "quotes": [
+            "FRELIMO Frente de Libertação de Moçambique (Mozambican Liberation Front)"
+          ]
+        },
+        {
+          "name": "International Monetary Fund (IMF)",
+          "quotes": [
+            "IMF International Monetary"
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": [
+        {
+          "place": "Durban, South Africa",
+          "quotes": [
+            "The African Centre for the Constructive Resolution of Disputes (ACCORD) is a non-governmental institute headquartered in Durban, South Africa."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The Mwalimu Nyerere Foundation was established in June 1996, as a permanent tribute to Mwalimu Julius K Nyerere’s contribution to sustainably improving the quality of human relations."
+        ],
+        "confidence": "high",
+        "notes": "The event represents the establishment of the Mwalimu Nyerere Foundation, which is a significant organizational milestone, classified as a career_position due to its ongoing nature."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "medium",
+            "description": "The establishment of a foundation is typically not classified as a career_position. It seems more like an organizational milestone or award, but without clear recognition markers, classification is uncertain."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing role_ids and location_ids, though these might not be applicable for the establishment of a foundation."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

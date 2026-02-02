@@ -1,0 +1,335 @@
+{
+  "status": "success",
+  "chunk_id": 64,
+  "chunk_index": 0,
+  "source_url": "https://en.wikipedia.org/wiki/Robert_Badinter",
+  "title": "Robert Badinter - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1981–1986",
+          "type": "range",
+          "quotes": [
+            "Ministerial mandate (1981–1986)"
+          ]
+        },
+        {
+          "text": "24 September 1995 – 30 September 2011",
+          "type": "range",
+          "quotes": [
+            "In office\n24 September 1995 – 30 September 2011"
+          ]
+        },
+        {
+          "text": "4 March 1986 – 4 March 1995",
+          "type": "range",
+          "quotes": [
+            "In office\n4 March 1986 – 4 March 1995"
+          ]
+        },
+        {
+          "text": "23 June 1981 – 19 February 1986",
+          "type": "range",
+          "quotes": [
+            "In office\n23 June 1981 – 19 February 1986"
+          ]
+        },
+        {
+          "text": "1928–2024",
+          "type": "range",
+          "quotes": [
+            "French politician, lawyer and author (1928–2024)"
+          ]
+        },
+        {
+          "text": "30 March 1928",
+          "type": "point",
+          "quotes": [
+            "Born\n(\n1928-03-30\n)\n30 March 1928"
+          ]
+        },
+        {
+          "text": "9 February 2024",
+          "type": "point",
+          "quotes": [
+            "Died\n9 February 2024\n(2024-02-09)"
+          ]
+        },
+        {
+          "text": "1921",
+          "type": "point",
+          "quotes": [
+            "His\nBessarabian\nJewish family had immigrated to France in 1921 to escape\npogroms"
+          ]
+        },
+        {
+          "text": "1943",
+          "type": "point",
+          "quotes": [
+            "His father was captured in the 1943\nRue Sainte-Catherine Roundup"
+          ]
+        },
+        {
+          "text": "1981",
+          "type": "point",
+          "quotes": [
+            "enacted the abolition of\ncapital punishment in France\nin 1981"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Socialist Party",
+          "quotes": [
+            "Political party\nSocialist Party"
+          ]
+        },
+        {
+          "name": "University of Paris",
+          "quotes": [
+            "Alma mater\nUniversity of Paris\n(\nLLB\n)"
+          ]
+        },
+        {
+          "name": "Columbia University",
+          "quotes": [
+            "Alma mater\nUniversity of Paris\n(\nLLB\n)\nColumbia University\n(\nMA\n)"
+          ]
+        },
+        {
+          "name": "Constitutional Council",
+          "quotes": [
+            "President of the\nConstitutional Council"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Senator",
+          "quotes": [
+            "Senator"
+          ]
+        },
+        {
+          "title": "President of the Constitutional Council",
+          "quotes": [
+            "President of the\nConstitutional Council"
+          ]
+        },
+        {
+          "title": "Minister of Justice",
+          "quotes": [
+            "Minister of Justice"
+          ]
+        },
+        {
+          "title": "Lawyer",
+          "quotes": [
+            "French politician, lawyer and author (1928–2024)"
+          ]
+        },
+        {
+          "title": "Professor",
+          "quotes": [
+            "Occupation\nLawyer, professor, politician, activist"
+          ]
+        },
+        {
+          "title": "Politician",
+          "quotes": [
+            "Occupation\nLawyer, professor, politician, activist"
+          ]
+        },
+        {
+          "title": "Activist",
+          "quotes": [
+            "Occupation\nLawyer, professor, politician, activist"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Paris",
+          "quotes": [
+            "Born\n(\n1928-03-30\n)\n30 March 1928\nParis\n, France"
+          ]
+        },
+        {
+          "place": "France",
+          "quotes": [
+            "Born\n(\n1928-03-30\n)\n30 March 1928\nParis\n, France"
+          ]
+        },
+        {
+          "place": "Lyon",
+          "quotes": [
+            "During World War II, after the Nazi occupation of Paris, his family sought refuge in Lyon"
+          ]
+        },
+        {
+          "place": "Hauts-de-Seine",
+          "quotes": [
+            "Constituency\nHauts-de-Seine"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In office\n23 June 1981 – 19 February 1986",
+          "Minister of Justice"
+        ],
+        "confidence": "high",
+        "notes": "Directly linked through shared time period and role"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Ministerial mandate (1981–1986)",
+          "Minister of Justice"
+        ],
+        "confidence": "high",
+        "notes": "Time marker and role directly linked through quote"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In office\n4 March 1986 – 4 March 1995",
+          "Senator"
+        ],
+        "confidence": "high",
+        "notes": "Time marker and role directly linked through quote"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In office\n24 September 1995 – 30 September 2011",
+          "President of the\nConstitutional Council"
+        ],
+        "confidence": "high",
+        "notes": "Time marker, organization, and role directly linked through quotes"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "French politician, lawyer and author (1928–2024)",
+          "Occupation\nLawyer, professor, politician, activist"
+        ],
+        "confidence": "medium",
+        "notes": "Roles and time marker linked through shared quote, but no specific organization mentioned"
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position but includes multiple roles without specific time periods or organizations, which might be better suited as a general description."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 2,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

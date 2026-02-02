@@ -1,0 +1,177 @@
+{
+  "status": "success",
+  "chunk_id": 559,
+  "chunk_index": 59,
+  "source_url": "https://issafrica.s3.amazonaws.com/site/uploads/Book-2015-Salim.pdf",
+  "title": "Book-2015-Salim.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "9 July 1990",
+          "type": "point",
+          "quotes": [
+            "of State and Government, held in Addis Ababa on 9 July 1990."
+          ]
+        },
+        {
+          "text": "1993",
+          "type": "point",
+          "quotes": [
+            "Salim visited South Africa in 1993 – the first OAU secretary-general to do so."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "OAU",
+          "quotes": [
+            "In his speech to the state representatives, Mandela paid tribute to the OAU and its contribution to the termination of apartheid."
+          ]
+        },
+        {
+          "name": "OAU observation mission",
+          "quotes": [
+            "Through its observation mission in Johannesburg, the OAU monitored the ups and downs of the negotiation process in the run-up to democracy,"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "OAU secretary-general",
+          "quotes": [
+            "Salim visited South Africa in 1993 – the first OAU secretary-general to do so."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Addis Ababa",
+          "quotes": [
+            "of State and Government, held in Addis Ababa on 9 July 1990."
+          ]
+        },
+        {
+          "place": "Johannesburg",
+          "quotes": [
+            "Through its observation mission in Johannesburg, the OAU monitored the ups and downs of the negotiation process in the run-up to democracy,"
+          ]
+        },
+        {
+          "place": "South Africa",
+          "quotes": [
+            "He sketched out his grand vision for a non-racial and inclusive democracy in South Africa based on individuals’ rights"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "Salim visited South Africa in 1993 – the first OAU secretary-general to do so.",
+          "In his speech to the state representatives, Mandela paid tribute to the OAU and its contribution to the termination of apartheid."
+        ],
+        "confidence": "high",
+        "notes": "The role of OAU secretary-general is clearly a career position, and the visit to South Africa in 1993 is a specific activity associated with this role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Through its observation mission in Johannesburg, the OAU monitored the ups and downs of the negotiation process in the run-up to democracy,"
+        ],
+        "confidence": "medium",
+        "notes": "The OAU observation mission in Johannesburg is an activity of the organization, but the exact role and time period are not specified. However, it is classified as a career position due to the active monitoring responsibilities."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "of State and Government, held in Addis Ababa on 9 July 1990."
+        ],
+        "confidence": "low",
+        "notes": "The event in Addis Ababa on 9 July 1990 is mentioned, but the exact role and organization are not clear from the provided information. This event is classified as a career position by default due to the lack of indicators suggesting it is an award."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time_marker_ids and role_ids, making it difficult to establish the exact period and responsibilities of the position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classification as career_position is questionable since the event describes an organizational activity rather than a specific role."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization_ids and role_ids, making it impossible to determine the context and nature of the event."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classification as career_position is uncertain due to lack of clear role or organizational affiliation."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

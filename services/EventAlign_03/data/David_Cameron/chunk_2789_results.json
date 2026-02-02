@@ -1,0 +1,250 @@
+{
+  "status": "success",
+  "chunk_id": 2789,
+  "chunk_index": 8,
+  "source_url": "https://en.wikipedia.org/wiki/David_Cameron",
+  "title": "David Cameron - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "the end of May 1993",
+          "type": "point",
+          "quotes": [
+            "Lamont was sacked at the end of May 1993, and decided not to write the usual letter of resignation;"
+          ]
+        },
+        {
+          "text": "the beginning of September 1993",
+          "type": "point",
+          "quotes": [
+            "At the beginning of September 1993, he applied to go on Conservative Central Office's list of prospective parliamentary candidates (PPCs)."
+          ]
+        },
+        {
+          "text": "during the 1990s",
+          "type": "open",
+          "quotes": [
+            "The Home Office building where Cameron worked during the 1990s"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Newbury by-election",
+          "quotes": [
+            "unpopularity did not necessarily affect Cameron, who was considered as a potential \"kamikaze\" candidate for the Newbury by-election,"
+          ]
+        },
+        {
+          "name": "Treasury",
+          "quotes": [
+            "Cameron remained at the Treasury for less than a month before being specifically recruited by Home Secretary Michael Howard."
+          ]
+        },
+        {
+          "name": "Home Office",
+          "quotes": [
+            "The Home Office building where Cameron worked during the 1990s"
+          ]
+        },
+        {
+          "name": "Conservative Central Office",
+          "quotes": [
+            "At the beginning of September 1993, he applied to go on Conservative Central Office's list of prospective parliamentary candidates (PPCs)."
+          ]
+        },
+        {
+          "name": "Her Majesty's Prison Service",
+          "quotes": [
+            "According to Derek Lewis, then Director-General of Her Majesty's Prison Service, Cameron showed him a \"his and her list\" of proposals made by Howard and his wife, Sandra."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Special Adviser to the Home Secretary",
+          "quotes": [
+            "Special Adviser to the Home Secretary"
+          ]
+        },
+        {
+          "title": "Home Secretary",
+          "quotes": [
+            "Home Secretary Michael Howard"
+          ]
+        },
+        {
+          "title": "Director-General of Her Majesty's Prison Service",
+          "quotes": [
+            "According to Derek Lewis, then Director-General of Her Majesty's Prison Service, Cameron showed him a \"his and her list\" of proposals made by Howard and his wife, Sandra."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Newbury",
+          "quotes": [
+            "unpopularity did not necessarily affect Cameron, who was considered as a potential \"kamikaze\" candidate for the Newbury by-election,"
+          ]
+        },
+        {
+          "place": "Home Office building",
+          "quotes": [
+            "The Home Office building where Cameron worked during the 1990s"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "The Home Office building where Cameron worked during the 1990s",
+          "Special Adviser to the Home Secretary"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "According to Derek Lewis, then Director-General of Her Majesty's Prison Service, Cameron showed him a \"his and her list\" of proposals made by Howard and his wife, Sandra."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time marker, but role and organization are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "At the beginning of September 1993, he applied to go on Conservative Central Office's list of prospective parliamentary candidates (PPCs)."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time and organization, though no specific role mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Cameron remained at the Treasury for less than a month before being specifically recruited by Home Secretary Michael Howard."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time marker, but organization is mentioned with a clear transition to another role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "unpopularity did not necessarily affect Cameron, who was considered as a potential \"kamikaze\" candidate for the Newbury by-election,"
+        ],
+        "confidence": "low",
+        "notes": "No explicit time marker or role, but organization and location are linked."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the event."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role for the event."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and role for the event."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing time marker and role for the event. Confidence is also low."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 1,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

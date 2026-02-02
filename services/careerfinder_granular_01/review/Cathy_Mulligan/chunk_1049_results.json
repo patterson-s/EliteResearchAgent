@@ -1,0 +1,146 @@
+{
+  "status": "success",
+  "chunk_id": 1049,
+  "chunk_index": 4,
+  "source_url": "https://motivationalspeakersagency.co.uk/technology/cathy-mulligan",
+  "title": "Hire Cathy Mulligan | Speaker Agent Contact Details",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "over two decades",
+          "type": "range",
+          "quotes": [
+            "The Motivational Speakers Agency has supplied top-tier motivational speakers at events for over two decades."
+          ]
+        },
+        {
+          "text": "2024",
+          "type": "point",
+          "quotes": [
+            "Recognised as the World’s leading speaker bureau for motivational speaker bookings in 2024"
+          ]
+        },
+        {
+          "text": "2025",
+          "type": "point",
+          "quotes": [
+            "The Top 10 Motivational Books to Read in 2025 to Boost Your Knowledge"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "The Motivational Speakers Agency",
+          "quotes": [
+            "The Motivational Speakers Agency has supplied top-tier motivational speakers at events for over two decades.",
+            "With The Motivational Speakers Agency, you can trust that you are securing the perfect speaker for your event!"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "dedicated agents and support staff",
+          "quotes": [
+            "With a team of over 125 dedicated agents and support staff, we deliver exceptional talent across over 50 countries worldwide."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Costock, Loughborough LE12 6XA",
+          "quotes": [
+            "Head Office: Barrington House, Leake Road Costock, Loughborough LE12 6XA"
+          ]
+        },
+        {
+          "place": "Mayfair, London",
+          "quotes": [
+            "London Office: 1st Floor, 17 Hanover Square, Mayfair, London"
+          ]
+        },
+        {
+          "place": "The Gherkin",
+          "quotes": [
+            "The Motivational Speakers Agency would like to keep you updated by occasionally sending you newsletters that include information about exclusive free events, showcases and entertainment at venues such as The Gherkin, O2 Arena and Wembley."
+          ]
+        },
+        {
+          "place": "O2 Arena",
+          "quotes": [
+            "The Motivational Speakers Agency would like to keep you updated by occasionally sending you newsletters that include information about exclusive free events, showcases and entertainment at venues such as The Gherkin, O2 Arena and Wembley."
+          ]
+        },
+        {
+          "place": "Wembley",
+          "quotes": [
+            "The Motivational Speakers Agency would like to keep you updated by occasionally sending you newsletters that include information about exclusive free events, showcases and entertainment at venues such as The Gherkin, O2 Arena and Wembley."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0,
+          1
+        ],
+        "supporting_quotes": [
+          "The Motivational Speakers Agency has supplied top-tier motivational speakers at events for over two decades.",
+          "With a team of over 125 dedicated agents and support staff, we deliver exceptional talent across over 50 countries worldwide.",
+          "Head Office: Barrington House, Leake Road Costock, Loughborough LE12 6XA",
+          "London Office: 1st Floor, 17 Hanover Square, Mayfair, London"
+        ],
+        "confidence": "high",
+        "notes": "The organization, role, and locations are clearly linked through the quotes, indicating an ongoing career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "quote_support",
+            "severity": "medium",
+            "description": "The quotes support the organization and locations but do not clearly link the role 'dedicated agents and support staff' to a specific individual or career position."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "The event lacks specific start and end dates, relying on a vague 'over two decades' time marker."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The classification as 'career_position' is questionable since the quotes describe the organization's activities rather than an individual's role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

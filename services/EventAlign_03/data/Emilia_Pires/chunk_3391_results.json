@@ -1,0 +1,238 @@
+{
+  "status": "success",
+  "chunk_id": 3391,
+  "chunk_index": 0,
+  "source_url": "https://en.wikipedia.org/wiki/Em%C3%ADlia_Pires",
+  "title": "Emília Pires - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "7 April 2007 – 16 February 2015",
+          "type": "range",
+          "quotes": [
+            "Emilia Pires was East Timor's Minister of Finance from April 2007 until 16 February 2015."
+          ]
+        },
+        {
+          "text": "August 8, 2012",
+          "type": "point",
+          "quotes": [
+            "Ms. Pires was sworn in as the Minister of Finance of the V Constitutional Government of East Timor on August 8, 2012."
+          ]
+        },
+        {
+          "text": "July 2012",
+          "type": "point",
+          "quotes": [
+            "In July 2012, Pires was appointed by the Secretary-General of United Nations, Ban Ki-moon, to the 26-member High-level Panel of Eminent Persons advising the United Nations on the post 2015 global development agenda."
+          ]
+        },
+        {
+          "text": "1975",
+          "type": "point",
+          "quotes": [
+            "In 1975, as a teenager, Emilia Pires left East Timor (then Portuguese Timor) for Australia as a refugee, with her parents, brothers and sisters."
+          ]
+        },
+        {
+          "text": "24 years",
+          "type": "range",
+          "quotes": [
+            "However, exile lasted for 24 years before Pires was able to return."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "United Nations",
+          "quotes": [
+            "In July 2012, Pires was appointed by the Secretary-General of United Nations, Ban Ki-moon, to the 26-member High-level Panel of Eminent Persons advising the United Nations on the post 2015 global development agenda."
+          ]
+        },
+        {
+          "name": "High-level Panel of Eminent Persons",
+          "quotes": [
+            "In July 2012, Pires was appointed by the Secretary-General of United Nations, Ban Ki-moon, to the 26-member High-level Panel of Eminent Persons advising the United Nations on the post 2015 global development agenda."
+          ]
+        },
+        {
+          "name": "La Trobe University",
+          "quotes": [
+            "Alma mater: La Trobe University, University of Melbourne, London School of Economics"
+          ]
+        },
+        {
+          "name": "University of Melbourne",
+          "quotes": [
+            "Alma mater: La Trobe University, University of Melbourne, London School of Economics"
+          ]
+        },
+        {
+          "name": "London School of Economics",
+          "quotes": [
+            "Alma mater: La Trobe University, University of Melbourne, London School of Economics"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Minister of Finance",
+          "quotes": [
+            "Emilia Pires was East Timor's Minister of Finance from April 2007 until 16 February 2015.",
+            "Ms. Pires was sworn in as the Minister of Finance of the V Constitutional Government of East Timor on August 8, 2012."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "East Timor",
+          "quotes": [
+            "Emilia Pires was East Timor's Minister of Finance from April 2007 until 16 February 2015.",
+            "Ms. Pires was sworn in as the Minister of Finance of the V Constitutional Government of East Timor on August 8, 2012.",
+            "In 1975, as a teenager, Emilia Pires left East Timor (then Portuguese Timor) for Australia as a refugee, with her parents, brothers and sisters."
+          ]
+        },
+        {
+          "place": "Australia",
+          "quotes": [
+            "In 1975, as a teenager, Emilia Pires left East Timor (then Portuguese Timor) for Australia as a refugee, with her parents, brothers and sisters."
+          ]
+        },
+        {
+          "place": "Rairobo",
+          "quotes": [
+            "Born: Rairobo, East Timor"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Emilia Pires was East Timor's Minister of Finance from April 2007 until 16 February 2015."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In July 2012, Pires was appointed by the Secretary-General of United Nations, Ban Ki-moon, to the 26-member High-level Panel of Eminent Persons advising the United Nations on the post 2015 global development agenda."
+        ],
+        "confidence": "high",
+        "notes": "Clear appointment to a specific panel within the United Nations."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Ms. Pires was sworn in as the Minister of Finance of the V Constitutional Government of East Timor on August 8, 2012."
+        ],
+        "confidence": "high",
+        "notes": "Specific swearing-in event within the broader tenure as Minister of Finance."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3,
+          4
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          0,
+          1
+        ],
+        "supporting_quotes": [
+          "In 1975, as a teenager, Emilia Pires left East Timor (then Portuguese Timor) for Australia as a refugee, with her parents, brothers and sisters.",
+          "However, exile lasted for 24 years before Pires was able to return."
+        ],
+        "confidence": "medium",
+        "notes": "Exile period mentioned but no specific role or organization; classified as career_position due to life event significance."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information despite clear appointment context."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Exile period classified as career_position despite lacking specific role or organization."
+          },
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization and role information for exile period."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 2,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

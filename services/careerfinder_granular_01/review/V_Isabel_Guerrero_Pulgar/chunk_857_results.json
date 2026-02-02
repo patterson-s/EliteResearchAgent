@@ -1,0 +1,95 @@
+{
+  "status": "success",
+  "chunk_id": 857,
+  "chunk_index": 0,
+  "source_url": "https://www.un.org/digital-emerging-technologies/sites/www.un.org.techenvoy/files/hlp_on_digital_cooperation-report_final.pdf",
+  "title": "hlp_on_digital_cooperation-report_final.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "June 2019",
+          "type": "point",
+          "quotes": [
+            "Report of the UN Secretary-General’s High-level Panel on Digital Cooperation\nJune 2019"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "UN Secretary-General’s High-level Panel on Digital Cooperation",
+          "quotes": [
+            "Report of the UN Secretary-General’s High-level Panel on Digital Cooperation"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Secretary-General",
+          "quotes": [
+            "That is why the Secretary-General appointed this Panel and what we have sought to do with this Report."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Report of the UN Secretary-General’s High-level Panel on Digital Cooperation\nJune 2019",
+          "That is why the Secretary-General appointed this Panel and what we have sought to do with this Report."
+        ],
+        "confidence": "medium",
+        "notes": "The role of Secretary-General is implied as an active position, but the exact nature of the involvement in the panel is not explicitly stated. However, given the context, it is classified as a career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Location information is missing, which may be relevant for a career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "The role of Secretary-General is mentioned, but the exact nature of involvement in the panel is not explicitly stated in the quotes."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The classification as a career position is based on implication rather than explicit evidence of active responsibilities."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

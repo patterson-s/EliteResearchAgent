@@ -1,0 +1,285 @@
+{
+  "status": "success",
+  "chunk_id": 321,
+  "chunk_index": 7,
+  "source_url": "https://en.wikipedia.org/wiki/Sadako_Ogata",
+  "title": "Sadako Ogata - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "13 April 2013",
+          "type": "point",
+          "quotes": [
+            "from the original on 13 April 2013"
+          ]
+        },
+        {
+          "text": "17 April 2014",
+          "type": "point",
+          "quotes": [
+            "Retrieved 17 April 2014"
+          ]
+        },
+        {
+          "text": "31 December 2017",
+          "type": "point",
+          "quotes": [
+            "REPUBLIC OF KOSOVO – OFFICE OF THE PRESIDENT. 31 December 2017"
+          ]
+        },
+        {
+          "text": "24 August 2022",
+          "type": "point",
+          "quotes": [
+            "Retrieved 24 August 2022"
+          ]
+        },
+        {
+          "text": "4 July 1995",
+          "type": "point",
+          "quotes": [
+            "Liberty Medal. 4 July 1995"
+          ]
+        },
+        {
+          "text": "29 October 2019",
+          "type": "point",
+          "quotes": [
+            "Kyodo News. 29 October 2019"
+          ]
+        },
+        {
+          "text": "1991–2000",
+          "type": "range",
+          "quotes": [
+            "United Nations High Commissioner for Refugees 1991–2000"
+          ]
+        },
+        {
+          "text": "1978–79",
+          "type": "range",
+          "quotes": [
+            "Sadako Ogata (1978–79)"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "REPUBLIC OF KOSOVO – OFFICE OF THE PRESIDENT",
+          "quotes": [
+            "REPUBLIC OF KOSOVO – OFFICE OF THE PRESIDENT. 31 December 2017"
+          ]
+        },
+        {
+          "name": "Liberty Medal",
+          "quotes": [
+            "Liberty Medal. 4 July 1995"
+          ]
+        },
+        {
+          "name": "Kyodo News",
+          "quotes": [
+            "Kyodo News. 29 October 2019"
+          ]
+        },
+        {
+          "name": "United Nations",
+          "quotes": [
+            "United Nations High Commissioner for Refugees 1991–2000"
+          ]
+        },
+        {
+          "name": "UNICEF",
+          "quotes": [
+            "Chairperson and presidents of UNICEF"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "United Nations High Commissioner for Refugees",
+          "quotes": [
+            "United Nations High Commissioner for Refugees 1991–2000"
+          ]
+        },
+        {
+          "title": "Chairperson",
+          "quotes": [
+            "Chairperson and presidents of UNICEF"
+          ]
+        },
+        {
+          "title": "President",
+          "quotes": [
+            "Chairperson and presidents of UNICEF"
+          ]
+        },
+        {
+          "title": "Grand Collar (Raja) recipient",
+          "quotes": [
+            "Order of Sikatuna recipients Grand Collar (Raja)"
+          ]
+        },
+        {
+          "title": "Grand Cross (Datu) recipient",
+          "quotes": [
+            "Order of Sikatuna recipients Grand Cross (Datu)"
+          ]
+        },
+        {
+          "title": "Freedom Award laureate",
+          "quotes": [
+            "Freedom Award laureates"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          6
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "United Nations High Commissioner for Refugees 1991–2000"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time range, organization, and role."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          5
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Liberty Medal. 4 July 1995",
+          "Freedom Award laureates"
+        ],
+        "confidence": "high",
+        "notes": "Liberty Medal indicates an award, and 'Freedom Award laureate' confirms it."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          3,
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Order of Sikatuna recipients Grand Collar (Raja)",
+          "Order of Sikatuna recipients Grand Cross (Datu)"
+        ],
+        "confidence": "high",
+        "notes": "Both roles are recipients of the Order of Sikatuna, indicating awards."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          7
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Sadako Ogata (1978–79)"
+        ],
+        "confidence": "low",
+        "notes": "No clear organization or role mentioned, but time range suggests a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          1,
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Chairperson and presidents of UNICEF"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between organization and roles, indicating career positions."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time_marker_ids and organization_ids for award event."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization_ids and role_ids for career_position event."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time_marker_ids for career_position event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 2,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 2
+    }
+  }
+}

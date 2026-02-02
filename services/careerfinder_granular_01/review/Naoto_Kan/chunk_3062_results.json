@@ -1,0 +1,198 @@
+{
+  "status": "success",
+  "chunk_id": 3062,
+  "chunk_index": 0,
+  "source_url": "https://www.bbc.com/news/10228471",
+  "title": "Profile: Naoto Kan - BBC News",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "11 March",
+          "type": "point",
+          "quotes": [
+            "Survivors of the deadly 11 March natural disasters in the country's north-east have complained of the slow recovery response."
+          ]
+        },
+        {
+          "text": "June",
+          "type": "point",
+          "quotes": [
+            "The 64-year-old staved off a no confidence motion in June only by promising to resign once key bills on the budget and renewable energy passed parliament."
+          ]
+        },
+        {
+          "text": "September 2009",
+          "type": "point",
+          "quotes": [
+            "A founder of the Democratic Party of Japan (DPJ) that swept the LDP from power in September 2009, he inherited a divided parliament, a stagnating economy and massive public debt."
+          ]
+        },
+        {
+          "text": "mid-1990s",
+          "type": "point",
+          "quotes": [
+            "He served as health minister under a coalition deal with the LDP in the mid-1990s, becoming very popular after he exposed a scandal involving tainted blood products."
+          ]
+        },
+        {
+          "text": "1980",
+          "type": "point",
+          "quotes": [
+            "In 1980 - after three unsuccessful attempts - he won a seat in parliament as part of the tiny Social Democratic Federation."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Democratic Party of Japan (DPJ)",
+          "quotes": [
+            "A founder of the Democratic Party of Japan (DPJ) that swept the LDP from power in September 2009, he inherited a divided parliament, a stagnating economy and massive public debt."
+          ]
+        },
+        {
+          "name": "Liberal Democratic Party (LDP)",
+          "quotes": [
+            "Nor has he ever been a member of the Liberal Democratic Party (LDP), which governed the country for more than half a century."
+          ]
+        },
+        {
+          "name": "Tokyo Institute of Technology",
+          "quotes": [
+            "A physics graduate from the Tokyo Institute of Technology, he ran a patent firm and then became a civic activist, focusing on environmental issues."
+          ]
+        },
+        {
+          "name": "Social Democratic Federation",
+          "quotes": [
+            "In 1980 - after three unsuccessful attempts - he won a seat in parliament as part of the tiny Social Democratic Federation."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "prime minister",
+          "quotes": [
+            "Naoto Kan faced the toughest test of any Japanese prime minister for decades."
+          ]
+        },
+        {
+          "title": "health minister",
+          "quotes": [
+            "He served as health minister under a coalition deal with the LDP in the mid-1990s, becoming very popular after he exposed a scandal involving tainted blood products."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Yamaguchi",
+          "quotes": [
+            "He was born in Yamaguchi in the south, the son of a factory manager."
+          ]
+        },
+        {
+          "place": "north-east",
+          "quotes": [
+            "Survivors of the deadly 11 March natural disasters in the country's north-east have complained of the slow recovery response."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He served as health minister under a coalition deal with the LDP in the mid-1990s, becoming very popular after he exposed a scandal involving tainted blood products."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 1980 - after three unsuccessful attempts - he won a seat in parliament as part of the tiny Social Democratic Federation."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time and organization, role implied as parliamentary seat."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "A founder of the Democratic Party of Japan (DPJ) that swept the LDP from power in September 2009, he inherited a divided parliament, a stagnating economy and massive public debt.",
+          "Naoto Kan faced the toughest test of any Japanese prime minister for decades."
+        ],
+        "confidence": "medium",
+        "notes": "Role as prime minister implied through quotes, but no direct time marker linking to DPJ founding."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing role_ids, though role is implied as parliamentary seat."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time_marker_ids and role_ids, though role as prime minister is implied through quotes."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

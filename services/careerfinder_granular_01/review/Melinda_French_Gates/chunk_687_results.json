@@ -1,0 +1,221 @@
+{
+  "status": "success",
+  "chunk_id": 687,
+  "chunk_index": 0,
+  "source_url": "https://www.forbes.com/profile/melinda-french-gates/",
+  "title": "Melinda French Gates - Pivotal Ventures",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In 2024",
+          "type": "point",
+          "quotes": [
+            "In 2024, she resigned as co-chair of the Bill and Melinda Gates Foundation after a nearly 24-year run."
+          ]
+        },
+        {
+          "text": "after a nearly 24-year run",
+          "type": "range",
+          "quotes": [
+            "In 2024, she resigned as co-chair of the Bill and Melinda Gates Foundation after a nearly 24-year run."
+          ]
+        },
+        {
+          "text": "in 2021",
+          "type": "point",
+          "quotes": [
+            "Bill and Melinda Gates divorced in 2021."
+          ]
+        },
+        {
+          "text": "in 2024",
+          "type": "point",
+          "quotes": [
+            "announcing in 2024 a $1 billion donation through 2026 to the cause."
+          ]
+        },
+        {
+          "text": "through 2026",
+          "type": "range",
+          "quotes": [
+            "announcing in 2024 a $1 billion donation through 2026 to the cause."
+          ]
+        },
+        {
+          "text": "in 1987",
+          "type": "point",
+          "quotes": [
+            "French Gates was one of a small number of women working at Microsoft when she joined the company in 1987."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Pivotal Ventures",
+          "quotes": [
+            "Melinda French Gates - Pivotal Ventures",
+            "through her investing, advocacy and philanthropic firm Pivotal Ventures."
+          ]
+        },
+        {
+          "name": "Bill and Melinda Gates Foundation",
+          "quotes": [
+            "In 2024, she resigned as co-chair of the Bill and Melinda Gates Foundation after a nearly 24-year run."
+          ]
+        },
+        {
+          "name": "Microsoft",
+          "quotes": [
+            "Source of Wealth: Microsoft",
+            "French Gates was one of a small number of women working at Microsoft when she joined the company in 1987."
+          ]
+        },
+        {
+          "name": "Duke University",
+          "quotes": [
+            "Bachelor of Arts/Science, Duke University; Master of Business Administration, Fuqua School of Business",
+            "She majored in computer science and economics at Duke University and then got her MBA degree at Duke."
+          ]
+        },
+        {
+          "name": "Fuqua School of Business",
+          "quotes": [
+            "Bachelor of Arts/Science, Duke University; Master of Business Administration, Fuqua School of Business"
+          ]
+        },
+        {
+          "name": "AutoNation",
+          "quotes": [
+            "Holds stake in AutoNation"
+          ]
+        },
+        {
+          "name": "Deere & Company",
+          "quotes": [
+            "Holds stake in Deere & Company"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Founder",
+          "quotes": [
+            "Founder, Pivotal Ventures"
+          ]
+        },
+        {
+          "title": "co-chair",
+          "quotes": [
+            "In 2024, she resigned as co-chair of the Bill and Melinda Gates Foundation after a nearly 24-year run."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Seattle, Washington",
+          "quotes": [
+            "Residence: Seattle, Washington"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "French Gates was one of a small number of women working at Microsoft when she joined the company in 1987."
+        ],
+        "confidence": "high",
+        "notes": "No specific role mentioned, but joining a company implies a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2024, she resigned as co-chair of the Bill and Melinda Gates Foundation after a nearly 24-year run."
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of a long-term career position as co-chair."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Founder, Pivotal Ventures",
+          "through her investing, advocacy and philanthropic firm Pivotal Ventures."
+        ],
+        "confidence": "high",
+        "notes": "Founder role implies an active career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for career position at Microsoft."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers for career position as Founder of Pivotal Ventures."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "status": "success",
+  "chunk_id": 2753,
+  "chunk_index": 9,
+  "source_url": "https://achievement.org/achiever/ellen-johnson-sirleaf/",
+  "title": "Ellen Johnson Sirleaf | Academy of Achievement",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1985",
+          "type": "point",
+          "quotes": [
+            "elections were called for 1985, and I was persuaded to join in the organizing of a new political party.",
+            "You ran for the Liberian Senate in 1985, didn’t you?"
+          ]
+        },
+        {
+          "text": "July 26, 1985",
+          "type": "point",
+          "quotes": [
+            "There was a Liberian Independence Day celebration in 1985, July 26."
+          ]
+        },
+        {
+          "text": "2008",
+          "type": "point",
+          "quotes": [
+            "Ellen Johnson Sirleaf, President of Liberia, welcomes the United States President, George W. Bush, to Liberia, 2008."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Association of Liberia in the United States",
+          "quotes": [
+            "I spoke in Philadelphia on behalf of the Association of Liberia in the United States."
+          ]
+        },
+        {
+          "name": "U.S. Congress",
+          "quotes": [
+            "The U.S. Congress also did a resolution threatening to cut off aid if political prisoners, which I was one of, were not released."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "keynote speaker",
+          "quotes": [
+            "I was a keynote speaker at that celebration, and I said a few things about the government."
+          ]
+        },
+        {
+          "title": "President of Liberia",
+          "quotes": [
+            "Ellen Johnson Sirleaf, President of Liberia, welcomes the United States President, George W. Bush, to Liberia, 2008."
+          ]
+        },
+        {
+          "title": "senator",
+          "quotes": [
+            "When the party finally was registered and they couldn’t get a deal, so they ran me as a senator and in the elections we won."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Philadelphia",
+          "quotes": [
+            "I spoke in Philadelphia on behalf of the Association of Liberia in the United States.",
+            "I left and came to Philadelphia to make the statement, and then went back with the intent of just forgetting it, since the party was not registered, and going back to Nairobi."
+          ]
+        },
+        {
+          "place": "Nairobi",
+          "quotes": [
+            "I left and came to Philadelphia to make the statement, and then went back with the intent of just forgetting it, since the party was not registered, and going back to Nairobi."
+          ]
+        },
+        {
+          "place": "Liberia",
+          "quotes": [
+            "Ellen Johnson Sirleaf, President of Liberia, welcomes the United States President, George W. Bush, to Liberia, 2008."
+          ]
+        },
+        {
+          "place": "U.S.",
+          "quotes": [
+            "I made a speech in the U.S. and said some things.",
+            "There were protests in the U.S. The U.S. Congress also did a resolution threatening to cut off aid if political prisoners, which I was one of, were not released."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "elections were called for 1985, and I was persuaded to join in the organizing of a new political party.",
+          "When the party finally was registered and they couldn’t get a deal, so they ran me as a senator and in the elections we won."
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of running for and winning a senator position in 1985."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "Ellen Johnson Sirleaf, President of Liberia, welcomes the United States President, George W. Bush, to Liberia, 2008."
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of serving as President of Liberia in 2008."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "I was a keynote speaker at that celebration, and I said a few things about the government.",
+          "There was a Liberian Independence Day celebration in 1985, July 26."
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of being a keynote speaker at the Liberian Independence Day celebration on July 26, 1985, in Philadelphia."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "I spoke in Philadelphia on behalf of the Association of Liberia in the United States."
+        ],
+        "confidence": "medium",
+        "notes": "No clear time marker, but indicates speaking on behalf of the Association of Liberia in the United States in Philadelphia."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Keynote speaker role is a one-time event, might be better classified as an 'award' or 'speaking_engagement' rather than a career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the event, making it difficult to place in chronological context."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Speaking on behalf of an organization is a one-time event, might be better classified as a 'speaking_engagement' rather than a career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 2,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

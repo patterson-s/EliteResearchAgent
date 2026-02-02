@@ -1,0 +1,207 @@
+{
+  "status": "success",
+  "chunk_id": 671,
+  "chunk_index": 0,
+  "source_url": "https://www.womenshistory.org/education-resources/biographies/melinda-gates",
+  "title": "Melinda Gates Biography",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1964",
+          "type": "point",
+          "quotes": [
+            "Melinda Gates was born as Melinda Ann French on August 15, 1964."
+          ]
+        },
+        {
+          "text": "early 2019",
+          "type": "point",
+          "quotes": [
+            "In early 2019, Gates published her first book entitled, The Moment of Lift: How Empowering Women Changes the World."
+          ]
+        },
+        {
+          "text": "1987",
+          "type": "point",
+          "quotes": [
+            "Joining the team in 1987, Gates was the youngest recruit and the only woman in her group of ten new employees with business degrees."
+          ]
+        },
+        {
+          "text": "1996",
+          "type": "point",
+          "quotes": [
+            "She was later promoted to General Manager of Information Products and held that position until she left Microsoft in 1996."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Bill & Melinda Gates Foundation",
+          "quotes": [
+            "As co-chair of the world’s largest private charitable foundation, Melinda Gates is one of the most powerful women in philanthropy. Co-founder of the Bill & Melinda Gates Foundation, she is not only a tech-savvy businesswoman, but she is also an advocate for women’s equality."
+          ]
+        },
+        {
+          "name": "Microsoft",
+          "quotes": [
+            "After graduating, Gates was offered a job at IBM, but turned it down to work at a smaller software company called Microsoft."
+          ]
+        },
+        {
+          "name": "IBM",
+          "quotes": [
+            "After graduating, Gates was offered a job at IBM, but turned it down to work at a smaller software company called Microsoft."
+          ]
+        },
+        {
+          "name": "Ursuline Academy",
+          "quotes": [
+            "Her love for science and technology continued when she attended Ursuline Academy, an all-girls Catholic high school in Dallas."
+          ]
+        },
+        {
+          "name": "Duke University",
+          "quotes": [
+            "During her senior year, she took a campus tour of Duke University and fell in love with their computer science department."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "co-chair",
+          "quotes": [
+            "As co-chair of the world’s largest private charitable foundation, Melinda Gates is one of the most powerful women in philanthropy."
+          ]
+        },
+        {
+          "title": "Co-founder",
+          "quotes": [
+            "Co-founder of the Bill & Melinda Gates Foundation, she is not only a tech-savvy businesswoman, but she is also an advocate for women’s equality."
+          ]
+        },
+        {
+          "title": "marketing manager",
+          "quotes": [
+            "She came on as a marketing manager and developed multimedia products such as; Microsoft Cinemania, Publisher, Word, and Expedia.com."
+          ]
+        },
+        {
+          "title": "General Manager of Information Products",
+          "quotes": [
+            "She was later promoted to General Manager of Information Products and held that position until she left Microsoft in 1996."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Dallas, Texas",
+          "quotes": [
+            "The second of four children, Gates grew up in Dallas, Texas with her family."
+          ]
+        },
+        {
+          "place": "New York City",
+          "quotes": [
+            "Four months after she started at Microsoft, Melinda met Bill Gates at a PC Expo trade show in New York City."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Joining the team in 1987, Gates was the youngest recruit and the only woman in her group of ten new employees with business degrees.",
+          "She came on as a marketing manager and developed multimedia products such as; Microsoft Cinemania, Publisher, Word, and Expedia.com."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "She was later promoted to General Manager of Information Products and held that position until she left Microsoft in 1996."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "As co-chair of the world’s largest private charitable foundation, Melinda Gates is one of the most powerful women in philanthropy.",
+          "Co-founder of the Bill & Melinda Gates Foundation, she is not only a tech-savvy businesswoman, but she is also an advocate for women’s equality."
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker, but clear linkage between organization and roles."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position at Bill & Melinda Gates Foundation."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 2,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

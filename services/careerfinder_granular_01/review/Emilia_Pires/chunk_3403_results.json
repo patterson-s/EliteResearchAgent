@@ -1,0 +1,258 @@
+{
+  "status": "success",
+  "chunk_id": 3403,
+  "chunk_index": 1,
+  "source_url": "https://conflictfieldresearch.colgate.edu/wp-content/uploads/2015/02/9_Reflections_on_Policy_Space.pdf",
+  "title": "9_Reflections_on_Policy_Space.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "when the referendum came",
+          "type": "point",
+          "quotes": [
+            "but when the referendum came, it had to be DPKO, right?"
+          ]
+        },
+        {
+          "text": "later on when we landed back in Timor, in Dili",
+          "type": "point",
+          "quotes": [
+            "And later on when we landed back in Timor, in Dili, and UNTAET started to set themselves up, we found out they never even saw the plan."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "World Bank",
+          "quotes": [
+            "And that is when the World Bank contacted me, because they knew that there was a technical group there."
+          ]
+        },
+        {
+          "name": "United Nations’ Department of Political Affairs (DPA)",
+          "quotes": [
+            "That plan we took to New York and we gave it to [the United Nations’ Department of Political Affairs]. Now, all this time we were working with DPA."
+          ]
+        },
+        {
+          "name": "Department of Peacekeeping Operations (DPKO)",
+          "quotes": [
+            "but when the referendum came, it had to be DPKO, right?"
+          ]
+        },
+        {
+          "name": "UNTAET",
+          "quotes": [
+            "And later on when we landed back in Timor, in Dili, and UNTAET started to set themselves up, we found out they never even saw the plan."
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": [
+        {
+          "place": "Jakarta",
+          "quotes": [
+            "I went to set up another technical working group to support him right there in Jakarta."
+          ]
+        },
+        {
+          "place": "Melbourne",
+          "quotes": [
+            "The World Bank already knew about us in Melbourne, where we did a strategic conference."
+          ]
+        },
+        {
+          "place": "New York",
+          "quotes": [
+            "That plan we took to New York and we gave it to [the United Nations’ Department of Political Affairs]."
+          ]
+        },
+        {
+          "place": "Timor",
+          "quotes": [
+            "And later on when we landed back in Timor, in Dili, and UNTAET started to set themselves up, we found out they never even saw the plan."
+          ]
+        },
+        {
+          "place": "Dili",
+          "quotes": [
+            "And later on when we landed back in Timor, in Dili, and UNTAET started to set themselves up, we found out they never even saw the plan."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "but when the referendum came, it had to be DPKO, right?"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit role mentioned, but involvement with DPKO during the referendum suggests a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "The World Bank already knew about us in Melbourne, where we did a strategic conference."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit role or time marker, but involvement with the World Bank in Melbourne suggests a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "And that is when the World Bank contacted me, because they knew that there was a technical group there.",
+          "I went to set up another technical working group to support him right there in Jakarta."
+        ],
+        "confidence": "high",
+        "notes": "Involvement with the World Bank in setting up a technical working group in Jakarta suggests a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "That plan we took to New York and we gave it to [the United Nations’ Department of Political Affairs]. Now, all this time we were working with DPA."
+        ],
+        "confidence": "high",
+        "notes": "Working with the United Nations’ Department of Political Affairs in New York suggests a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [
+          3,
+          4
+        ],
+        "supporting_quotes": [
+          "And later on when we landed back in Timor, in Dili, and UNTAET started to set themselves up, we found out they never even saw the plan."
+        ],
+        "confidence": "medium",
+        "notes": "Involvement with UNTAET in Timor and Dili suggests a career position, though no explicit role is mentioned."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. While involvement with DPKO is mentioned, no specific role is provided."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quote does not explicitly state a career position, only mentions involvement with DPKO."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role and time marker information. Only involvement with the World Bank in Melbourne is mentioned."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quote does not explicitly state a career position, only mentions the World Bank knowing about the individual in Melbourne."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. Involvement with the World Bank in setting up a technical working group in Jakarta is mentioned, but no specific role is provided."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. Working with the United Nations’ Department of Political Affairs in New York is mentioned, but no specific role is provided."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. Involvement with UNTAET in Timor and Dili is mentioned, but no specific role is provided."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quote does not explicitly state a career position, only mentions involvement with UNTAET."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 0,
+      "warnings": 5,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

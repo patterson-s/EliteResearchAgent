@@ -1,0 +1,230 @@
+{
+  "status": "success",
+  "chunk_id": 793,
+  "chunk_index": 0,
+  "source_url": "https://www.norwayfintechfestival.no/2025/speakers/nikolai-astrup",
+  "title": "Nikolai  Astrup",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "Bergen — April 1. - 3. 2025",
+          "type": "range",
+          "quotes": [
+            "Bergen — April 1. - 3. 2025"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Conservative Party",
+          "quotes": [
+            "Nikolai Astrup is a prominent Norwegian politician from the Conservative Party"
+          ]
+        },
+        {
+          "name": "London School of Economics",
+          "quotes": [
+            "With a master’s degree from the London School of Economics, he combines policy expertise with a strong vision for digital transformation and innovation."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Member of Parliament",
+          "quotes": [
+            "Nikolai Astrup is a prominent Norwegian politician from the Conservative Party, known for his leadership in digitalization and sustainable development.",
+            "A long-time Member of Parliament for Oslo, Astrup has led key committees on energy, transport, and finance."
+          ]
+        },
+        {
+          "title": "Minister of Digitalization",
+          "quotes": [
+            "As Norway’s first Minister of Digitalization, he played a key role in shaping the country’s digital future."
+          ]
+        },
+        {
+          "title": "Minister of Local Government and Modernization",
+          "quotes": [
+            "He has also served as Minister of Local Government and Modernization and Minister of International Development."
+          ]
+        },
+        {
+          "title": "Minister of International Development",
+          "quotes": [
+            "He has also served as Minister of Local Government and Modernization and Minister of International Development."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Oslo",
+          "quotes": [
+            "A long-time Member of Parliament for Oslo, Astrup has led key committees on energy, transport, and finance."
+          ]
+        },
+        {
+          "place": "Bergen",
+          "quotes": [
+            "Bergen — April 1. - 3. 2025"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Nikolai Astrup is a prominent Norwegian politician from the Conservative Party, known for his leadership in digitalization and sustainable development.",
+          "A long-time Member of Parliament for Oslo, Astrup has led key committees on energy, transport, and finance."
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker, but the role and organization are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "As Norway’s first Minister of Digitalization, he played a key role in shaping the country’s digital future."
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker or organization mentioned, but the role is clearly a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He has also served as Minister of Local Government and Modernization and Minister of International Development."
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker or organization mentioned, but the role is clearly a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He has also served as Minister of Local Government and Modernization and Minister of International Development."
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker or organization mentioned, but the role is clearly a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Bergen — April 1. - 3. 2025"
+        ],
+        "confidence": "low",
+        "notes": "Time marker and location are linked, but no specific role or organization mentioned. Assuming this is related to a career activity."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and time marker for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and time marker for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "error",
+        "issues": [
+          {
+            "type": "duplicate",
+            "severity": "high",
+            "description": "Duplicate event for the same role as event_id 2."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "error",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing role and organization for the career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "medium",
+            "description": "Supporting quote does not clearly link to a career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 2,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "status": "success",
+  "chunk_id": 3945,
+  "chunk_index": 4,
+  "source_url": "https://www.linkedin.com/in/josette-sheeran-a5935837",
+  "title": "Josette Sheeran - Firefly Global Group | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2025",
+          "type": "point",
+          "quotes": [
+            "2025 is a monumental year for climate action and the stakes continue to be sky high."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Investing for Peace",
+          "quotes": [
+            "I applaud the funders and leadership of Investing for Peace for this important contribution to the global funding architecture."
+          ]
+        },
+        {
+          "name": "UNDP",
+          "quotes": [
+            "Read the NDC Insights Series on the Climate Promise website: go.undp.org/3dG"
+          ]
+        },
+        {
+          "name": "USAID",
+          "quotes": [
+            "Chinese Assistance Won’t Replace USAID. That’s the Problem.",
+            "Administration's approach to USAID terminations could cost taxpayers $10 billion."
+          ]
+        },
+        {
+          "name": "Devex Pro",
+          "quotes": [
+            "Federal contracts expert Robert Nichols warned during our Devex Pro briefing yesterday that the government's mass termination of 10,000 USAID projects could trigger enormous financial consequences."
+          ]
+        },
+        {
+          "name": "Professional Services Council",
+          "quotes": [
+            "Professional Services Council letter to U.S. Department of State SecState Rubio"
+          ]
+        },
+        {
+          "name": "U.S. Department of State",
+          "quotes": [
+            "Professional Services Council letter to U.S. Department of State SecState Rubio"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Federal contracts expert",
+          "quotes": [
+            "Federal contracts expert Robert Nichols warned during our Devex Pro briefing yesterday that the government's mass termination of 10,000 USAID projects could trigger enormous financial consequences."
+          ]
+        },
+        {
+          "title": "SecState Rubio",
+          "quotes": [
+            "Professional Services Council letter to U.S. Department of State SecState Rubio"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Federal contracts expert Robert Nichols warned during our Devex Pro briefing yesterday that the government's mass termination of 10,000 USAID projects could trigger enormous financial consequences."
+        ],
+        "confidence": "high",
+        "notes": "Role and organization are clearly linked in the same quote, indicating an active position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Professional Services Council letter to U.S. Department of State SecState Rubio"
+        ],
+        "confidence": "high",
+        "notes": "Role and organization are clearly linked in the same quote, indicating an active position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time_marker_ids and location_ids, though the role and organization are clearly linked."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "error",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "high",
+            "description": "The role 'SecState Rubio' is a title of a person, not an active role held by the subject. This event is misclassified as a career_position."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time_marker_ids and location_ids, and the role is not an active position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 1,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

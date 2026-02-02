@@ -1,0 +1,182 @@
+{
+  "status": "success",
+  "chunk_id": 57,
+  "chunk_index": 7,
+  "source_url": "https://www.pbs.org/wgbh/commandingheights/shared/minitextlo/int_anandpanyarachun.html",
+  "title": "Commanding Heights : Anand Panyarachun | on PBS",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "five [or] six years ago",
+          "type": "point",
+          "quotes": [
+            "I'm in the private sector, and five [or] six years ago people would come and knock on your door and plead with you to borrow, be they European banks or Japanese banks."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Clinton administration",
+          "quotes": [
+            "He said they did encourage, but they always told [these countries] they had to have proper regulations and proper transparency, and so it was basically the country's fault.",
+            "But later on, I don't know whether it is Clinton or the U.S. administration,"
+          ]
+        },
+        {
+          "name": "European banks",
+          "quotes": [
+            "I'm in the private sector, and five [or] six years ago people would come and knock on your door and plead with you to borrow, be they European banks or Japanese banks."
+          ]
+        },
+        {
+          "name": "Japanese banks",
+          "quotes": [
+            "I'm in the private sector, and five [or] six years ago people would come and knock on your door and plead with you to borrow, be they European banks or Japanese banks."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "INTERVIEWER",
+          "quotes": [
+            "INTERVIEWER: Was there also a problem with transparency?",
+            "INTERVIEWER: We interviewed Robert Rubin and asked him about the Clinton administration's encouragement of developing countries to open up their capital accounts."
+          ]
+        },
+        {
+          "title": "ANAND PANYARACHUN",
+          "quotes": [
+            "ANAND PANYARACHUN: Oh, definitely. Companies borrow money and they don't use it for the purposes that were intended.",
+            "ANAND PANYARACHUN: Well, my job preceded that of Clinton, so on that score, anyway, he would be exonerated."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Thailand",
+          "quotes": [
+            "But other people said that the Clinton administration pushed very hard for developing countries like Thailand to open up and allow all this money in."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          1,
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "I'm in the private sector, and five [or] six years ago people would come and knock on your door and plead with you to borrow, be they European banks or Japanese banks."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit role mentioned, but the context suggests a position in the private sector interacting with banks. Confidence is medium due to the lack of a specific role title."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "INTERVIEWER: We interviewed Robert Rubin and asked him about the Clinton administration's encouragement of developing countries to open up their capital accounts.",
+          "But other people said that the Clinton administration pushed very hard for developing countries like Thailand to open up and allow all this money in."
+        ],
+        "confidence": "high",
+        "notes": "The INTERVIEWER role is clearly associated with discussing the Clinton administration's policies, particularly regarding Thailand. No time marker is available, but the context is clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "ANAND PANYARACHUN: Oh, definitely. Companies borrow money and they don't use it for the purposes that were intended.",
+          "ANAND PANYARACHUN: Well, my job preceded that of Clinton, so on that score, anyway, he would be exonerated."
+        ],
+        "confidence": "medium",
+        "notes": "ANAND PANYARACHUN mentions having a job that preceded Clinton's, but the specific organization and time frame are unclear. Confidence is medium due to the lack of explicit organizational affiliation."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. While the context suggests a position in the private sector, no specific role title is provided."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quote does not explicitly mention the role or responsibilities, only the sector."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker information. While the context is clear, no specific time frame is provided."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The role 'INTERVIEWER' might not be a career position but rather a temporary or contextual role. Classification as 'career_position' is questionable."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization and time marker information. The event lacks critical details for verification."
+          },
+          {
+            "type": "quote_support",
+            "severity": "medium",
+            "description": "Supporting quotes mention a job but do not provide details about the organization or specific responsibilities."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

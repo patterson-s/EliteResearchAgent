@@ -1,0 +1,141 @@
+{
+  "status": "success",
+  "chunk_id": 601,
+  "chunk_index": 4,
+  "source_url": "https://thechanzo.com/2024/09/02/dr-salim-ahmed-salim-archive-a-digital-memoir-about-africa/",
+  "title": "Dr Salim Ahmed Salim Archive: A Digital Memoir About Africa - The Chanzo",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "December 2, 2014",
+          "type": "point",
+          "quotes": [
+            "Dr Salim Ahmed Salim’s remarks he made on December 2, 2014, at Mandela Hall, African Union, Addis Ababa, Ethiopia, for our deliberation, as quoted on page 93 of the Salim Ahmed Salim: Son of Africa"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Government of the United Republic of Tanzania",
+          "quotes": [
+            "from boring you with my extensive chatter, I would not do justice if I did not take a slingshot to the family of Dr Salim and the Government of the United Republic of Tanzania."
+          ]
+        },
+        {
+          "name": "African Union",
+          "quotes": [
+            "Dr Salim Ahmed Salim’s remarks he made on December 2, 2014, at Mandela Hall, African Union, Addis Ababa, Ethiopia, for our deliberation, as quoted on page 93 of the Salim Ahmed Salim: Son of Africa"
+          ]
+        },
+        {
+          "name": "The Chanzo",
+          "quotes": [
+            "The opinions expressed here are the writer’s own and do not necessarily reflect those of The Chanzo."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "poet, writer and social justice activist",
+          "quotes": [
+            "Jasper “Kido” Sabuni is a poet, writer and social justice activist based in Dar es Salaam, Tanzania."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Dar es Salaam, Tanzania",
+          "quotes": [
+            "Jasper “Kido” Sabuni is a poet, writer and social justice activist based in Dar es Salaam, Tanzania."
+          ]
+        },
+        {
+          "place": "Addis Ababa, Ethiopia",
+          "quotes": [
+            "Dr Salim Ahmed Salim’s remarks he made on December 2, 2014, at Mandela Hall, African Union, Addis Ababa, Ethiopia, for our deliberation, as quoted on page 93 of the Salim Ahmed Salim: Son of Africa"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Jasper “Kido” Sabuni is a poet, writer and social justice activist based in Dar es Salaam, Tanzania."
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker or organization mentioned, but role and location are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Dr Salim Ahmed Salim’s remarks he made on December 2, 2014, at Mandela Hall, African Union, Addis Ababa, Ethiopia, for our deliberation, as quoted on page 93 of the Salim Ahmed Salim: Son of Africa"
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but time, organization, and location are clear. Assuming a career-related event due to the context of remarks at the African Union."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time_marker_ids and organization_ids, though role and location are clear."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role_ids, though time, organization, and location are clear. Assuming career-related event due to context, but role is not explicitly stated."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position, but lacks explicit role. Consider verifying if this is a career position or another type of event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

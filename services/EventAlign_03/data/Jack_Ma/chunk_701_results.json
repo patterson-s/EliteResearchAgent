@@ -1,0 +1,325 @@
+{
+  "status": "success",
+  "chunk_id": 701,
+  "chunk_index": 11,
+  "source_url": "https://en.wikipedia.org/wiki/Jack_Ma",
+  "title": "Jack Ma - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In 2017",
+          "type": "point",
+          "quotes": [
+            "In 2017, Ma advocated for the use of big data and AI to as a means to implement elements of a planned economy"
+          ]
+        },
+        {
+          "text": "November 2018",
+          "type": "point",
+          "quotes": [
+            "In November 2018, the People's Daily identified Ma as a member of the Chinese Communist Party (CCP)"
+          ]
+        },
+        {
+          "text": "In 2019",
+          "type": "point",
+          "quotes": [
+            "When asked in 2019 to give his views on the future, Ma again stated that 996 was currently a 'huge blessing' necessary to achieve success"
+          ]
+        },
+        {
+          "text": "In 2008",
+          "type": "point",
+          "quotes": [
+            "In 2008, Alibaba donated $808,000 to victims of the Sichuan earthquake"
+          ]
+        },
+        {
+          "text": "In 2009",
+          "type": "point",
+          "quotes": [
+            "In 2009 Ma became a trustee of The Nature Conservancy's China program"
+          ]
+        },
+        {
+          "text": "In 2010",
+          "type": "point",
+          "quotes": [
+            "and in 2010 he joined the global Board of Directors of the organization"
+          ]
+        },
+        {
+          "text": "In 2015",
+          "type": "point",
+          "quotes": [
+            "In 2015, Alibaba launched a nonprofit organization, Alibaba Hong Kong Young Entrepreneurs Foundation"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Chinese Communist Party (CCP)",
+          "quotes": [
+            "In November 2018, the People's Daily identified Ma as a member of the Chinese Communist Party (CCP)"
+          ]
+        },
+        {
+          "name": "Jack Ma Foundation",
+          "quotes": [
+            "Ma is the founder of the Jack Ma Foundation, a philanthropic organization focused on improving education, the environment and public health"
+          ]
+        },
+        {
+          "name": "Alibaba",
+          "quotes": [
+            "In 2008, Alibaba donated $808,000 to victims of the Sichuan earthquake"
+          ]
+        },
+        {
+          "name": "The Nature Conservancy",
+          "quotes": [
+            "In 2009 Ma became a trustee of The Nature Conservancy's China program"
+          ]
+        },
+        {
+          "name": "Alibaba Hong Kong Young Entrepreneurs Foundation",
+          "quotes": [
+            "In 2015, Alibaba launched a nonprofit organization, Alibaba Hong Kong Young Entrepreneurs Foundation"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "founder of the Jack Ma Foundation",
+          "quotes": [
+            "Ma is the founder of the Jack Ma Foundation, a philanthropic organization focused on improving education, the environment and public health"
+          ]
+        },
+        {
+          "title": "trustee of The Nature Conservancy's China program",
+          "quotes": [
+            "In 2009 Ma became a trustee of The Nature Conservancy's China program"
+          ]
+        },
+        {
+          "title": "member of the global Board of Directors of The Nature Conservancy",
+          "quotes": [
+            "and in 2010 he joined the global Board of Directors of the organization"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Sichuan",
+          "quotes": [
+            "In 2008, Alibaba donated $808,000 to victims of the Sichuan earthquake"
+          ]
+        },
+        {
+          "place": "Nepal",
+          "quotes": [
+            "In the same year, the company funded the rebuilding of 1,000 houses damaged by the earthquake-hit in Nepal"
+          ]
+        },
+        {
+          "place": "Hong Kong",
+          "quotes": [
+            "In 2015, Alibaba launched a nonprofit organization, Alibaba Hong Kong Young Entrepreneurs Foundation"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "In 2008, Alibaba donated $808,000 to victims of the Sichuan earthquake"
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but the event involves organizational activity."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2009 Ma became a trustee of The Nature Conservancy's China program"
+        ],
+        "confidence": "high",
+        "notes": "Clear role and organization linkage."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "and in 2010 he joined the global Board of Directors of the organization"
+        ],
+        "confidence": "high",
+        "notes": "Clear role and organization linkage."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          6
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "In 2015, Alibaba launched a nonprofit organization, Alibaba Hong Kong Young Entrepreneurs Foundation"
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but the event involves organizational activity."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In November 2018, the People's Daily identified Ma as a member of the Chinese Communist Party (CCP)"
+        ],
+        "confidence": "high",
+        "notes": "Membership in an organization, implying ongoing affiliation."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Ma is the founder of the Jack Ma Foundation, a philanthropic organization focused on improving education, the environment and public health"
+        ],
+        "confidence": "high",
+        "notes": "Founding role implies ongoing involvement, but no specific time marker provided."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "medium",
+            "description": "Event classified as career_position but lacks specific role or responsibilities, and quote only mentions organizational activity."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing role_ids, which is unexpected for a career_position event."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "medium",
+            "description": "Event classified as career_position but lacks specific role or responsibilities, and quote only mentions organizational activity."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing role_ids, which is unexpected for a career_position event."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position, but the role appears to be membership rather than an active position."
+          }
+        ]
+      },
+      {
+        "event_id": 5,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time_marker_ids, making temporal coherence impossible to verify."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position, but the role appears to be a founding role without clear ongoing responsibilities."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 6,
+      "valid": 2,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 6,
+      "awards": 0
+    }
+  }
+}

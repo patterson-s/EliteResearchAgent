@@ -1,0 +1,232 @@
+{
+  "status": "success",
+  "chunk_id": 755,
+  "chunk_index": 6,
+  "source_url": "https://ae.linkedin.com/in/mohammedalgergawi",
+  "title": "‏Mohammad Al Gergawi‏ - ‏وزير شؤون مجلس الوزراء بدولة الإمارات العربية المتحدة • UAE Minister of Cabinet Affairs‏ | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "United Nations",
+          "quotes": [
+            "Engaging with international organizations, including the United Nations, to align local initiatives with global sustainability goals."
+          ]
+        },
+        {
+          "name": "Empowering Women Middle East",
+          "quotes": [
+            "Claudia Pinto is a globally recognized sustainability advisor, philanthropist, and founder of Empowering Women Middle East."
+          ]
+        },
+        {
+          "name": "Relief International",
+          "quotes": [
+            "Sameh A. Relief International"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "sustainability advisor",
+          "quotes": [
+            "Claudia Pinto is a globally recognized sustainability advisor, philanthropist, and founder of Empowering Women Middle East."
+          ]
+        },
+        {
+          "title": "philanthropist",
+          "quotes": [
+            "Claudia Pinto is a globally recognized sustainability advisor, philanthropist, and founder of Empowering Women Middle East."
+          ]
+        },
+        {
+          "title": "founder of Empowering Women Middle East",
+          "quotes": [
+            "Claudia Pinto is a globally recognized sustainability advisor, philanthropist, and founder of Empowering Women Middle East."
+          ]
+        },
+        {
+          "title": "advisor to HH Sheikh Marwan bin Mohammed bin Rashid Al Maktoum",
+          "quotes": [
+            "As an advisor to HH Sheikh Marwan bin Mohammed bin Rashid Al Maktoum, she plays a pivotal role in advancing the UAE’s vision for sustainability and well-being."
+          ]
+        },
+        {
+          "title": "leader in government strategy and national development",
+          "quotes": [
+            "Ahmed Al Mahmood is a prominent leader in government strategy and national development, driving programs that align with the UAE’s vision for a sustainable and innovative future."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Middle East",
+          "quotes": [
+            "Introducing programs that provide education, mentorship, and entrepreneurship opportunities for women and young people in the Middle East."
+          ]
+        },
+        {
+          "place": "Dubai",
+          "quotes": [
+            "Helping companies merge into the Middle East market while aligning with Dubai’s strategy for sustainable growth."
+          ]
+        },
+        {
+          "place": "UAE",
+          "quotes": [
+            "The partnership will also deliver tailored programs to help businesses navigate market entry and align their operations with the UAE’s Vision 2025–2030, offering annual reports to measure progress and ensure long-term impact."
+          ]
+        },
+        {
+          "place": "Iraq",
+          "quotes": [
+            "#Iraq has them all but struggles with the chaos of the 3rd type."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Claudia Pinto is a globally recognized sustainability advisor, philanthropist, and founder of Empowering Women Middle East.",
+          "Introducing programs that provide education, mentorship, and entrepreneurship opportunities for women and young people in the Middle East."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role and organization in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Claudia Pinto is a globally recognized sustainability advisor, philanthropist, and founder of Empowering Women Middle East."
+        ],
+        "confidence": "high",
+        "notes": "Roles mentioned together in the same quote without specific organization or location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "As an advisor to HH Sheikh Marwan bin Mohammed bin Rashid Al Maktoum, she plays a pivotal role in advancing the UAE’s vision for sustainability and well-being."
+        ],
+        "confidence": "high",
+        "notes": "Role mentioned with specific advisory position, no organization or location directly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "Ahmed Al Mahmood is a prominent leader in government strategy and national development, driving programs that align with the UAE’s vision for a sustainable and innovative future.",
+          "The partnership will also deliver tailored programs to help businesses navigate market entry and align their operations with the UAE’s Vision 2025–2030, offering annual reports to measure progress and ensure long-term impact."
+        ],
+        "confidence": "high",
+        "notes": "Role and location linked through context of UAE’s vision and strategy."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "error",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization and location for the career position."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "error",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization and location for the career position."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "The role and location are linked through context, but the direct connection is not explicitly stated in the quotes."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 2,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

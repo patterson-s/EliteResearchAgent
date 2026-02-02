@@ -1,0 +1,201 @@
+{
+  "status": "success",
+  "chunk_id": 3436,
+  "chunk_index": 0,
+  "source_url": "https://www.un.org/sg/en/management/bios/Topbas.shtml",
+  "title": "KADIR TOPBAŞ (TURKEY) | Secretary-General | United Nations",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "United Nations",
+          "quotes": [
+            "KADIR TOPBAŞ (TURKEY) | Secretary-General | United Nations",
+            "Former Deputy Secretaries-General of the United Nations"
+          ]
+        },
+        {
+          "name": "United Cities and Local Governments",
+          "quotes": [
+            "Mr. Topbas is the Mayor of Istanbul and President of United Cities and Local Governments."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Secretary-General",
+          "quotes": [
+            "KADIR TOPBAŞ (TURKEY) | Secretary-General | United Nations"
+          ]
+        },
+        {
+          "title": "Mayor of Istanbul",
+          "quotes": [
+            "Mr. Topbas is the Mayor of Istanbul and President of United Cities and Local Governments."
+          ]
+        },
+        {
+          "title": "President of United Cities and Local Governments",
+          "quotes": [
+            "Mr. Topbas is the Mayor of Istanbul and President of United Cities and Local Governments."
+          ]
+        },
+        {
+          "title": "expert in urban rehabilitation, social transformation and the management of the urban challenges faced by fast-growing cities",
+          "quotes": [
+            "He is also an expert in urban rehabilitation, social transformation and the management of the urban challenges faced by fast-growing cities."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Istanbul",
+          "quotes": [
+            "Mr. Topbas is the Mayor of Istanbul and President of United Cities and Local Governments."
+          ]
+        },
+        {
+          "place": "Turkey",
+          "quotes": [
+            "KADIR TOPBAŞ (TURKEY)"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "KADIR TOPBAŞ (TURKEY) | Secretary-General | United Nations",
+          "Former Deputy Secretaries-General of the United Nations"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time marker, but role and organization are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Mr. Topbas is the Mayor of Istanbul and President of United Cities and Local Governments."
+        ],
+        "confidence": "high",
+        "notes": "Role and organization are clearly linked with location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Mr. Topbas is the Mayor of Istanbul and President of United Cities and Local Governments."
+        ],
+        "confidence": "high",
+        "notes": "Role is clearly linked with location, but no specific organization mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He is also an expert in urban rehabilitation, social transformation and the management of the urban challenges faced by fast-growing cities."
+        ],
+        "confidence": "medium",
+        "notes": "No organization or location mentioned, but role is clear as an expertise-based position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization and time marker for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization, location, and time marker for career position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Role as 'expert' may not qualify as a formal career position without organizational context."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 0,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

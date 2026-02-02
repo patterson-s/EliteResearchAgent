@@ -1,0 +1,240 @@
+{
+  "status": "success",
+  "chunk_id": 2664,
+  "chunk_index": 2,
+  "source_url": "https://en.wikipedia.org/wiki/Ellen_Johnson_Sirleaf",
+  "title": "Ellen Johnson Sirleaf - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1938",
+          "type": "point",
+          "quotes": [
+            "Sirleaf was born in Monrovia in 1938."
+          ]
+        },
+        {
+          "text": "from 1948 to 1955",
+          "type": "range",
+          "quotes": [
+            "She attended the College of West Africa, a preparatory school, from 1948 to 1955."
+          ]
+        },
+        {
+          "text": "1961",
+          "type": "point",
+          "quotes": [
+            "She traveled with her husband to the United States in 1961 to continue her education."
+          ]
+        },
+        {
+          "text": "1961",
+          "type": "point",
+          "quotes": [
+            "They divorced in 1961 because of James's abuse."
+          ]
+        },
+        {
+          "text": "1970",
+          "type": "point",
+          "quotes": [
+            "In 1970, she earned a BA in economics from the Economics Institute of the University of Colorado Boulder."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "College of West Africa",
+          "quotes": [
+            "She attended the College of West Africa, a preparatory school, from 1948 to 1955."
+          ]
+        },
+        {
+          "name": "Madison Business College",
+          "quotes": [
+            "She traveled with her husband to the United States in 1961 to continue her education and earned an associate degree in Accounting at Madison Business College, in Madison, Wisconsin."
+          ]
+        },
+        {
+          "name": "Department of Agriculture",
+          "quotes": [
+            "Early on in their marriage, James worked for the Department of Agriculture, and Sirleaf worked as a bookkeeper for an auto-repair shop."
+          ]
+        },
+        {
+          "name": "Treasury Department (Ministry of Finance)",
+          "quotes": [
+            "When they returned to Liberia, James continued his work in the Agriculture Department and Sirleaf pursued a career in the Treasury Department (Ministry of Finance)."
+          ]
+        },
+        {
+          "name": "Economics Institute of the University of Colorado Boulder",
+          "quotes": [
+            "In 1970, she earned a BA in economics from the Economics Institute of the University of Colorado Boulder."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "homemaker",
+          "quotes": [
+            "The couple had four sons together, and she was primarily occupied as a homemaker."
+          ]
+        },
+        {
+          "title": "bookkeeper",
+          "quotes": [
+            "Early on in their marriage, James worked for the Department of Agriculture, and Sirleaf worked as a bookkeeper for an auto-repair shop."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Monrovia",
+          "quotes": [
+            "He was sent to Monrovia for education, where he changed his surname to Johnson due to her father's loyalty to President Hilary R. W. Johnson."
+          ]
+        },
+        {
+          "place": "Bomi County",
+          "quotes": [
+            "He was the son of a minor Gola chief named Jahmale Carney and one of his wives, Jenneh, in Julijuah, Bomi County."
+          ]
+        },
+        {
+          "place": "Greenville",
+          "quotes": [
+            "Sirleaf's mother was also born into poverty, in Greenville."
+          ]
+        },
+        {
+          "place": "Germany",
+          "quotes": [
+            "Her grandmother, Juah Sarwee, sent Sirleaf's mother to the capital, Monrovia, when her German husband (Sirleaf's grandfather) had to flee the country after Liberia declared war on Germany during World War I."
+          ]
+        },
+        {
+          "place": "Madison, Wisconsin",
+          "quotes": [
+            "She traveled with her husband to the United States in 1961 to continue her education and earned an associate degree in Accounting at Madison Business College, in Madison, Wisconsin."
+          ]
+        },
+        {
+          "place": "Liberia",
+          "quotes": [
+            "When they returned to Liberia, James continued his work in the Agriculture Department and Sirleaf pursued a career in the Treasury Department (Ministry of Finance)."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "She attended the College of West Africa, a preparatory school, from 1948 to 1955."
+        ],
+        "confidence": "high",
+        "notes": "No specific role mentioned, but attendance at an educational institution is considered a career-related activity."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [
+          4
+        ],
+        "supporting_quotes": [
+          "She traveled with her husband to the United States in 1961 to continue her education and earned an associate degree in Accounting at Madison Business College, in Madison, Wisconsin."
+        ],
+        "confidence": "high",
+        "notes": "No specific role mentioned, but attendance at an educational institution is considered a career-related activity."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Early on in their marriage, James worked for the Department of Agriculture, and Sirleaf worked as a bookkeeper for an auto-repair shop."
+        ],
+        "confidence": "high",
+        "notes": "Time marker not explicitly mentioned, but role and organization are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [
+          5
+        ],
+        "supporting_quotes": [
+          "When they returned to Liberia, James continued his work in the Agriculture Department and Sirleaf pursued a career in the Treasury Department (Ministry of Finance)."
+        ],
+        "confidence": "medium",
+        "notes": "Specific role not mentioned, but organization and time marker are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 1970, she earned a BA in economics from the Economics Institute of the University of Colorado Boulder."
+        ],
+        "confidence": "high",
+        "notes": "No specific role mentioned, but attendance at an educational institution is considered a career-related activity."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The couple had four sons together, and she was primarily occupied as a homemaker."
+        ],
+        "confidence": "high",
+        "notes": "Time marker and organization not mentioned, but role is clear."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [],
+    "summary": {}
+  }
+}

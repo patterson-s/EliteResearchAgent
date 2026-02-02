@@ -1,0 +1,193 @@
+{
+  "status": "success",
+  "chunk_id": 869,
+  "chunk_index": 12,
+  "source_url": "https://www.un.org/digital-emerging-technologies/sites/www.un.org.techenvoy/files/hlp_on_digital_cooperation-report_final.pdf",
+  "title": "hlp_on_digital_cooperation-report_final.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "three years",
+          "type": "point",
+          "quotes": [
+            "over half a billion adults gained access to financial tools in three years"
+          ]
+        },
+        {
+          "text": "three years",
+          "type": "point",
+          "quotes": [
+            "India, for example, has added 300 million bank accounts in three years as new business models have been built on the India Stack"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "M-Pesa",
+          "quotes": [
+            "Well-known examples of mobile money include Kenya’s M-Pesa and China’s Alipay."
+          ]
+        },
+        {
+          "name": "Alipay",
+          "quotes": [
+            "Well-known examples of mobile money include Kenya’s M-Pesa and China’s Alipay."
+          ]
+        },
+        {
+          "name": "Vodafone",
+          "quotes": [
+            "Launched in 2007 by Vodafone, M-Pesa received support from diverse stakeholders who all have a role to play in digital cooperation."
+          ]
+        },
+        {
+          "name": "India Stack",
+          "quotes": [
+            "India, for example, has added 300 million bank accounts in three years as new business models have been built on the India Stack, a set of government-managed online standards in areas including online payments and digital identity."
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": [
+        {
+          "place": "Kenya",
+          "quotes": [
+            "Well-known examples of mobile money include Kenya’s M-Pesa and China’s Alipay."
+          ]
+        },
+        {
+          "place": "China",
+          "quotes": [
+            "Well-known examples of mobile money include Kenya’s M-Pesa and China’s Alipay."
+          ]
+        },
+        {
+          "place": "India",
+          "quotes": [
+            "India, for example, has added 300 million bank accounts in three years as new business models have been built on the India Stack, a set of government-managed online standards in areas including online payments and digital identity."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0,
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Well-known examples of mobile money include Kenya’s M-Pesa and China’s Alipay.",
+          "Launched in 2007 by Vodafone, M-Pesa received support from diverse stakeholders who all have a role to play in digital cooperation."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit role mentioned, but the organization and location are clear. Assuming a career position based on the context of launching and supporting M-Pesa."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Well-known examples of mobile money include Kenya’s M-Pesa and China’s Alipay."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit role mentioned, but the organization and location are clear. Assuming a career position based on the context of Alipay being a well-known example of mobile money."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "India, for example, has added 300 million bank accounts in three years as new business models have been built on the India Stack, a set of government-managed online standards in areas including online payments and digital identity."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit role mentioned, but the organization, location, and time markers are clear. Assuming a career position based on the context of building new business models on the India Stack."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. No explicit role mentioned, making it difficult to confirm this as a career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quotes mention M-Pesa and Vodafone but do not clearly link the individual to a specific role or position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. No explicit role mentioned, making it difficult to confirm this as a career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quote only mentions Alipay as a well-known example but does not link the individual to a specific role or position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. No explicit role mentioned, making it difficult to confirm this as a career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quote mentions India Stack and new business models but does not link the individual to a specific role or position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "status": "success",
+  "chunk_id": 534,
+  "chunk_index": 34,
+  "source_url": "https://issafrica.s3.amazonaws.com/site/uploads/Book-2015-Salim.pdf",
+  "title": "Book-2015-Salim.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In October 1985",
+          "type": "point",
+          "quotes": [
+            "In October 1985, Nyerere retired as president and handed over to Ali Hassan Mwinyi"
+          ]
+        },
+        {
+          "text": "From 1985 to 1989",
+          "type": "range",
+          "quotes": [
+            "From 1985 to 1989, Salim served as deputy prime minister and Minister of Defence and National Service in the government of Mwinyi."
+          ]
+        },
+        {
+          "text": "in 1986",
+          "type": "point",
+          "quotes": [
+            "The major challenge that Tanzania faced was the economy and eventually the new government was forced to implement structural adjustment programmes in 1986."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Mkoani District Development Fund",
+          "quotes": [
+            "He established the Mkoani District Development Fund, a non-profit trust."
+          ]
+        },
+        {
+          "name": "Tanzania Electric Supply Company",
+          "quotes": [
+            "He also worked closely with Tanzania Electric Supply Company to ensure that power was distributed to as many people as possible."
+          ]
+        },
+        {
+          "name": "Frente de Libertação de Moçambique (FRELIMO)",
+          "quotes": [
+            "Salim ensured adherence to the policy of Tanzania’s government to provide military support to Mozambique’s Frente de Libertação de Moçambique (FRELIMO)."
+          ]
+        },
+        {
+          "name": "Resistência Nacional Moçambicana (RENAMO)",
+          "quotes": [
+            "to counter the scheme of South Africa’s apartheid regime aimed at destabilising and dividing the country through support to the Resistência Nacional Moçambicana (RENAMO)."
+          ]
+        },
+        {
+          "name": "ANC",
+          "quotes": [
+            "He also continued to work closely with other liberation movements, like the ANC and SWAPO, in their efforts to end apartheid and colonialism in their countries."
+          ]
+        },
+        {
+          "name": "SWAPO",
+          "quotes": [
+            "He also continued to work closely with other liberation movements, like the ANC and SWAPO, in their efforts to end apartheid and colonialism in their countries."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "chairperson of the trust",
+          "quotes": [
+            "Salim was the chairperson of the trust, which paid for various development projects, such as health, education, water supply and road construction."
+          ]
+        },
+        {
+          "title": "deputy prime minister",
+          "quotes": [
+            "From 1985 to 1989, Salim served as deputy prime minister and Minister of Defence and National Service in the government of Mwinyi."
+          ]
+        },
+        {
+          "title": "Minister of Defence and National Service",
+          "quotes": [
+            "From 1985 to 1989, Salim served as deputy prime minister and Minister of Defence and National Service in the government of Mwinyi."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Mkoani District",
+          "quotes": [
+            "He established the Mkoani District Development Fund, a non-profit trust."
+          ]
+        },
+        {
+          "place": "Zanzibar",
+          "quotes": [
+            "Salim’s determination to develop Zanzibar was not limited to Mkoani District but extended to other districts in Pemba."
+          ]
+        },
+        {
+          "place": "Pemba",
+          "quotes": [
+            "Salim’s determination to develop Zanzibar was not limited to Mkoani District but extended to other districts in Pemba."
+          ]
+        },
+        {
+          "place": "Mozambique",
+          "quotes": [
+            "At the request of the government of Mozambique, Tanzanian forces were dispatched to northern parts of Mozambique to counter the scheme of South Africa’s apartheid regime aimed at destabilising and dividing the country through support to the Resistência Nacional Moçambicana (RENAMO)."
+          ]
+        },
+        {
+          "place": "South Africa",
+          "quotes": [
+            "to counter the scheme of South Africa’s apartheid regime aimed at destabilising and dividing the country through support to the Resistência Nacional Moçambicana (RENAMO)."
+          ]
+        },
+        {
+          "place": "Tanzania",
+          "quotes": [
+            "It was a critical period because the Tanzanian economy was not performing well and other African countries were unwilling to provide such support."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1,
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "From 1985 to 1989, Salim served as deputy prime minister and Minister of Defence and National Service in the government of Mwinyi."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, roles, and context."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "He established the Mkoani District Development Fund, a non-profit trust.",
+          "Salim was the chairperson of the trust, which paid for various development projects, such as health, education, water supply and road construction."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between organization, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2,
+          3,
+          5,
+          6
+        ],
+        "role_ids": [],
+        "location_ids": [
+          4
+        ],
+        "supporting_quotes": [
+          "Salim ensured adherence to the policy of Tanzania’s government to provide military support to Mozambique’s Frente de Libertação de Moçambique (FRELIMO).",
+          "to counter the scheme of South Africa’s apartheid regime aimed at destabilising and dividing the country through support to the Resistência Nacional Moçambicana (RENAMO).",
+          "He also continued to work closely with other liberation movements, like the ANC and SWAPO, in their efforts to end apartheid and colonialism in their countries."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time marker, but clear organizational and location linkages."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and role for the career position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position but lacks clear role responsibilities, potentially more aligned with organizational affiliations."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "status": "success",
+  "chunk_id": 2884,
+  "chunk_index": 1,
+  "source_url": "https://www.dlapiper.com/en-us/people/c/cameron-david",
+  "title": "David Cameron | DLA Piper",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "19 September 2025",
+          "type": "point",
+          "quotes": [
+            "19 September 2025"
+          ]
+        },
+        {
+          "text": "5 June 2025",
+          "type": "point",
+          "quotes": [
+            "5 June 2025"
+          ]
+        },
+        {
+          "text": "over the past two decades",
+          "type": "range",
+          "quotes": [
+            "with insights from inside the rooms where key decisions have been made over the past two decades"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "NYU Abu Dhabi",
+          "quotes": [
+            "and as a Visiting Professor at NYU Abu Dhabi, where he teaches a course on Practising Politics in the Age of Disruption."
+          ]
+        },
+        {
+          "name": "DLA Piper",
+          "quotes": [
+            "DLA Piper welcomes David Cameron, former Prime Minister of the United Kingdom, as..."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Visiting Professor",
+          "quotes": [
+            "and as a Visiting Professor at NYU Abu Dhabi, where he teaches a course on Practising Politics in the Age of Disruption."
+          ]
+        },
+        {
+          "title": "former Prime Minister of the United Kingdom",
+          "quotes": [
+            "DLA Piper welcomes David Cameron, former Prime Minister of the United Kingdom, as..."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Abu Dhabi",
+          "quotes": [
+            "and as a Visiting Professor at NYU Abu Dhabi, where he teaches a course on Practising Politics in the Age of Disruption."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "and as a Visiting Professor at NYU Abu Dhabi, where he teaches a course on Practising Politics in the Age of Disruption."
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker provided, but the role and organization are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "DLA Piper welcomes David Cameron, former Prime Minister of the United Kingdom, as..."
+        ],
+        "confidence": "medium",
+        "notes": "The role is clearly linked to the organization, but the exact nature of the position at DLA Piper is not specified."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position at NYU Abu Dhabi."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The role 'Visiting Professor' is typically a career position, but the lack of specific time frame makes it less clear."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing location and exact role title at DLA Piper. The quote only mentions 'former Prime Minister' which is not a current role."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The event is classified as a career position, but the role 'former Prime Minister' suggests a past position rather than a current one."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

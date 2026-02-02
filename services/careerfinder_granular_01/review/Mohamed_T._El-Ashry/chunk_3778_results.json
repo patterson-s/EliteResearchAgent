@@ -1,0 +1,111 @@
+{
+  "status": "success",
+  "chunk_id": 3778,
+  "chunk_index": 2,
+  "source_url": "https://las.illinois.edu/news/2005-10-01/tracking-human-footprint",
+  "title": "Tracking the human footprint | College of Liberal Arts & Sciences | Illinois",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "BS, ’72",
+          "type": "point",
+          "quotes": [
+            "In a discipline devoted to spaces, one of the most significant transformations came recently in Davenport Hall where a little-used room was converted to a new, state-of-the art geospatial laboratory thanks in large part to a generous donation from Candace Penn (BS, ’72, ..."
+          ]
+        },
+        {
+          "text": "BA, ’22",
+          "type": "point",
+          "quotes": [
+            "Christian Hasler (BA, ’22, anthropology) had dreams of working abroad in an archaeological field."
+          ]
+        },
+        {
+          "text": "BS, ’15",
+          "type": "point",
+          "quotes": [
+            "Jennifer Grove (BS, ’15, anthropology) is the collections storage coordinator at Spurlock Museum of World Cultures on campus."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Spurlock Museum of World Cultures",
+          "quotes": [
+            "Jennifer Grove (BS, ’15, anthropology) is the collections storage coordinator at Spurlock Museum of World Cultures on campus."
+          ]
+        },
+        {
+          "name": "College of Liberal Arts & Sciences",
+          "quotes": [
+            "College of Liberal Arts & Sciences"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "collections storage coordinator",
+          "quotes": [
+            "Jennifer Grove (BS, ’15, anthropology) is the collections storage coordinator at Spurlock Museum of World Cultures on campus."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Davenport Hall",
+          "quotes": [
+            "In a discipline devoted to spaces, one of the most significant transformations came recently in Davenport Hall where a little-used room was converted to a new, state-of-the art geospatial laboratory thanks in large part to a generous donation from Candace Penn (BS, ’72, ..."
+          ]
+        },
+        {
+          "place": "Urbana, IL",
+          "quotes": [
+            "2090 Lincoln Hall, 702 S. Wright St., MC-448, Urbana, IL 61801"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Jennifer Grove (BS, ’15, anthropology) is the collections storage coordinator at Spurlock Museum of World Cultures on campus."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time marker, organization, and role in the same quote."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 1,
+      "warnings": 0,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "status": "success",
+  "chunk_id": 3098,
+  "chunk_index": 1,
+  "source_url": "https://awpc.cattcenter.iastate.edu/directory/queen-raina-of-jordan/",
+  "title": "Queen Rania of Jordan  |  Archives of Women's Political Communication",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "U.S. House",
+          "quotes": [
+            "Floor Speech – U.S. House",
+            "U.S. House Committee/Subcommittee Meeting/Hearing"
+          ]
+        },
+        {
+          "name": "U.S. Senate",
+          "quotes": [
+            "Floor Speech – U.S. Senate",
+            "U.S. Senate Committee/Subcommittee Meeting/Hearing"
+          ]
+        },
+        {
+          "name": "U.S. Supreme Court",
+          "quotes": [
+            "U.S. Supreme Court"
+          ]
+        },
+        {
+          "name": "White House",
+          "quotes": [
+            "White House Chief of Staff"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Secretary of Housing and Urban Development",
+          "quotes": [
+            "Secretary of Housing and Urban Development"
+          ]
+        },
+        {
+          "title": "U.S. Secretary of Labor",
+          "quotes": [
+            "U.S. Secretary of Labor"
+          ]
+        },
+        {
+          "title": "U.S. Secretary of State",
+          "quotes": [
+            "U.S. Secretary of State"
+          ]
+        },
+        {
+          "title": "U.S. Secretary of the Interior",
+          "quotes": [
+            "U.S. Secretary of the Interior"
+          ]
+        },
+        {
+          "title": "U.S. Secretary of the Treasury",
+          "quotes": [
+            "U.S. Secretary of the Treasury"
+          ]
+        },
+        {
+          "title": "U.S. Secretary of Transportation",
+          "quotes": [
+            "U.S. Secretary of Transportation"
+          ]
+        },
+        {
+          "title": "U.S. Senator",
+          "quotes": [
+            "U.S. Senator"
+          ]
+        },
+        {
+          "title": "U.S. Trade Representative",
+          "quotes": [
+            "U.S. Trade Representative"
+          ]
+        },
+        {
+          "title": "Vice President",
+          "quotes": [
+            "Vice President"
+          ]
+        },
+        {
+          "title": "White House Chief of Staff",
+          "quotes": [
+            "White House Chief of Staff"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          9
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "White House Chief of Staff"
+        ],
+        "confidence": "high",
+        "notes": "Direct linkage between White House and White House Chief of Staff"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Secretary of Housing and Urban Development",
+          "U.S. Secretary of Labor",
+          "U.S. Secretary of State",
+          "U.S. Secretary of the Interior",
+          "U.S. Secretary of the Treasury",
+          "U.S. Secretary of Transportation",
+          "U.S. Senator",
+          "U.S. Trade Representative"
+        ],
+        "confidence": "medium",
+        "notes": "Multiple secretary roles listed without explicit organization linkage; assumed as distinct career positions"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          6
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "U.S. Senator",
+          "Floor Speech – U.S. Senate"
+        ],
+        "confidence": "high",
+        "notes": "Direct linkage between U.S. Senate and U.S. Senator role"
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "error",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization linkage for multiple secretary roles."
+          },
+          {
+            "type": "classification",
+            "severity": "medium",
+            "description": "Multiple roles listed under a single career position event, potentially requiring separation."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 1,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

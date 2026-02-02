@@ -1,0 +1,234 @@
+{
+  "status": "success",
+  "chunk_id": 1102,
+  "chunk_index": 1,
+  "source_url": "http://www.ieee-ras.org/about-ras/latest-news/member-in-the-news-edson-prestes-joins-unesco-s-ethics-of-artificial-intelligence-group",
+  "title": "Member in the News: Edson Prestes joins Unesco's Ethics of Artificial Intelligence group - IEEE Robotics and Automation Society",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "November 2019",
+          "type": "point",
+          "quotes": [
+            "UNESCO decided to create this normative instrument during UNESCO’s General Conference in November 2019"
+          ]
+        },
+        {
+          "text": "end of 2021",
+          "type": "point",
+          "quotes": [
+            "its goal is to have this law adopted by its Member States at the end of 2021"
+          ]
+        },
+        {
+          "text": "1997",
+          "type": "point",
+          "quotes": [
+            "An example is Universal Declaration on the Human Genome and Human Rights, adopted in 1997"
+          ]
+        },
+        {
+          "text": "14 April 2020",
+          "type": "point",
+          "quotes": [
+            "Published: 14 April 2020"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "IEEE RAS",
+          "quotes": [
+            "IEEE RAS Member and Volunteer",
+            "Member in the News: Edson Prestes joins Unesco's Ethics of Artificial Intelligence group"
+          ]
+        },
+        {
+          "name": "Federal University of Rio Grande do Sul",
+          "quotes": [
+            "Edson Prestes, Federal University of RioGrande do Sul, Brazil"
+          ]
+        },
+        {
+          "name": "Unesco",
+          "quotes": [
+            "Edson Prestes joins Unesco's Ethics of Artificial Intelligence group",
+            "Audrey Azoulay, Unesco’s Director General"
+          ]
+        },
+        {
+          "name": "Unesco's Ethics of Artificial Intelligence group",
+          "quotes": [
+            "Edson Prestes joins Unesco's Ethics of Artificial Intelligence group"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Member and Volunteer",
+          "quotes": [
+            "IEEE RAS Member and Volunteer"
+          ]
+        },
+        {
+          "title": "Director General",
+          "quotes": [
+            "Audrey Azoulay, Unesco’s Director General"
+          ]
+        },
+        {
+          "title": "Ad Hoc Expert Group member",
+          "quotes": [
+            "to join an international Ad Hoc Expert Group in charging of preparing a preliminary text for an international law on Ethics of Artificial Intelligence"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Brazil",
+          "quotes": [
+            "Edson Prestes, Federal University of RioGrande do Sul, Brazil"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "IEEE RAS Member and Volunteer"
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker, but role and organization are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Edson Prestes, Federal University of RioGrande do Sul, Brazil"
+        ],
+        "confidence": "high",
+        "notes": "No specific role mentioned, but affiliation with the university is clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Edson Prestes joins Unesco's Ethics of Artificial Intelligence group",
+          "to join an international Ad Hoc Expert Group in charging of preparing a preliminary text for an international law on Ethics of Artificial Intelligence"
+        ],
+        "confidence": "high",
+        "notes": "Role and organization are clear, but no specific time marker."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Audrey Azoulay, Unesco’s Director General"
+        ],
+        "confidence": "high",
+        "notes": "Role and organization are clear, but no specific time marker."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role for career position."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time marker for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "error",
+        "issues": [
+          {
+            "type": "quote_support",
+            "severity": "high",
+            "description": "Supporting quote does not clearly support the role or career position for Edson Prestes."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 1,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "status": "success",
+  "chunk_id": 394,
+  "chunk_index": 0,
+  "source_url": "https://www.imemo.ru/en/about/history/primakov",
+  "title": "Yevgeny Maksimovich Primakov",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "IMEMO",
+          "quotes": [
+            "Yevgeny Maksimovich Primakov",
+            "IMEMO Anniversary",
+            "President of IMEMO",
+            "Director of IMEMO",
+            "Maritime Indexes by the IMEMO",
+            "“IMEMO Laboratory” podcast"
+          ]
+        },
+        {
+          "name": "Pugwash Committee",
+          "quotes": [
+            "Pugwash Committee library"
+          ]
+        },
+        {
+          "name": "CEPR",
+          "quotes": [
+            "Scientific-theoretical seminar CEPR"
+          ]
+        },
+        {
+          "name": "Center for European Studies",
+          "quotes": [
+            "Scientific seminar of the Center for European Studies"
+          ]
+        },
+        {
+          "name": "CDMS",
+          "quotes": [
+            "Seminar of the CDMS «Modern development problems»"
+          ]
+        },
+        {
+          "name": "CPSS",
+          "quotes": [
+            "Seminar of the CPSS \"Caucasus in the past and present\""
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "President of IMEMO",
+          "quotes": [
+            "President of IMEMO"
+          ]
+        },
+        {
+          "title": "Director of IMEMO",
+          "quotes": [
+            "Director of IMEMO"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "President of IMEMO"
+        ],
+        "confidence": "high",
+        "notes": "Directly stated role as President of IMEMO"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Director of IMEMO"
+        ],
+        "confidence": "high",
+        "notes": "Directly stated role as Director of IMEMO"
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

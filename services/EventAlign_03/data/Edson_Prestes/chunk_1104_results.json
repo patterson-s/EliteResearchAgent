@@ -1,0 +1,205 @@
+{
+  "status": "success",
+  "chunk_id": 1104,
+  "chunk_index": 0,
+  "source_url": "https://hcss.nl/wp-content/uploads/2025/04/Prestes-et-al.-final.pdf",
+  "title": "Prestes-et-al.-final.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "April 2025",
+          "type": "point",
+          "quotes": [
+            "Edson Prestes , Nayat Sánchez -Pi and Maria Vanina Martinez, April 2025",
+            "Authors: Edson Prestes , Nayat Sánchez -Pi, and Maria Vanina Martinez, April 2025"
+          ]
+        },
+        {
+          "text": "2023",
+          "type": "point",
+          "quotes": [
+            "The Global Commission on Responsible Artificial Intelligence in the Military Domain (GC REAIM) is an initiative of the Government of the Netherlands that was launched during the 2023 REAIM Summit on Responsible Artificial Intelligence in the Military Domain in The Hague."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Global Commission on Responsible Artificial Intelligence in the Military Domain (GC REAIM)",
+          "quotes": [
+            "The Global Commission on Responsible Artificial Intelligence in the Military Domain (GC REAIM) is an initiative of the Government of the Netherlands that was launched during the 2023 REAIM Summit on Responsible Artificial Intelligence in the Military Domain in The Hague."
+          ]
+        },
+        {
+          "name": "Government of the Netherlands",
+          "quotes": [
+            "The Global Commission on Responsible Artificial Intelligence in the Military Domain (GC REAIM) is an initiative of the Government of the Netherlands that was launched during the 2023 REAIM Summit on Responsible Artificial Intelligence in the Military Domain in The Hague."
+          ]
+        },
+        {
+          "name": "Dutch Ministry of Foreign Affairs",
+          "quotes": [
+            "Upon request of the Dutch Ministry of Foreign Affairs, the Hague Centre for Strategic Studies acts as the Secretariat of the Commission."
+          ]
+        },
+        {
+          "name": "Hague Centre for Strategic Studies",
+          "quotes": [
+            "Upon request of the Dutch Ministry of Foreign Affairs, the Hague Centre for Strategic Studies acts as the Secretariat of the Commission."
+          ]
+        },
+        {
+          "name": "Foreign, Commonwealth and Development Office (FCDO) of the United Kingdom",
+          "quotes": [
+            "The GC REAIM Expert Policy Note Series was funded by the Foreign, Commonwealth and Development Office (FCDO) of the United Kingdom."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Secretariat of the Commission",
+          "quotes": [
+            "Upon request of the Dutch Ministry of Foreign Affairs, the Hague Centre for Strategic Studies acts as the Secretariat of the Commission."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "The Hague",
+          "quotes": [
+            "The Global Commission on Responsible Artificial Intelligence in the Military Domain (GC REAIM) is an initiative of the Government of the Netherlands that was launched during the 2023 REAIM Summit on Responsible Artificial Intelligence in the Military Domain in The Hague.",
+            "Lange Voorhout 1, 2514 EA The Hague"
+          ]
+        },
+        {
+          "place": "Netherlands",
+          "quotes": [
+            "The Global Commission on Responsible Artificial Intelligence in the Military Domain (GC REAIM) is an initiative of the Government of the Netherlands that was launched during the 2023 REAIM Summit on Responsible Artificial Intelligence in the Military Domain in The Hague."
+          ]
+        },
+        {
+          "place": "United Kingdom",
+          "quotes": [
+            "The GC REAIM Expert Policy Note Series was funded by the Foreign, Commonwealth and Development Office (FCDO) of the United Kingdom."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0,
+          1
+        ],
+        "supporting_quotes": [
+          "The Global Commission on Responsible Artificial Intelligence in the Military Domain (GC REAIM) is an initiative of the Government of the Netherlands that was launched during the 2023 REAIM Summit on Responsible Artificial Intelligence in the Military Domain in The Hague."
+        ],
+        "confidence": "high",
+        "notes": "The event represents the launch of GC REAIM, an initiative of the Government of the Netherlands, without a specific role mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2,
+          3
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Upon request of the Dutch Ministry of Foreign Affairs, the Hague Centre for Strategic Studies acts as the Secretariat of the Commission."
+        ],
+        "confidence": "high",
+        "notes": "The Hague Centre for Strategic Studies acts as the Secretariat of the Commission upon request of the Dutch Ministry of Foreign Affairs."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "The GC REAIM Expert Policy Note Series was funded by the Foreign, Commonwealth and Development Office (FCDO) of the United Kingdom."
+        ],
+        "confidence": "medium",
+        "notes": "The FCDO of the United Kingdom funded the GC REAIM Expert Policy Note Series, but no specific role is mentioned."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for the career position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position but lacks active responsibilities or role details."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "Missing time marker for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for the career position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position but lacks active responsibilities or role details."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

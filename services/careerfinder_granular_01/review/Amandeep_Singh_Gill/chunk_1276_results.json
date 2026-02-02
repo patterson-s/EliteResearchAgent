@@ -1,0 +1,122 @@
+{
+  "status": "success",
+  "chunk_id": 1276,
+  "chunk_index": 1,
+  "source_url": "https://pmindiaun.gov.in/Cdgeneva/pages/OA,,",
+  "title": "Welcome to Permanent Mission of India in Geneva",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2016",
+          "type": "point",
+          "quotes": [
+            "His first book of poems in English was published by Wisdom Tree in 2016."
+          ]
+        },
+        {
+          "text": "November 19, 2025",
+          "type": "point",
+          "quotes": [
+            "Page last updated on November 19, 2025."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Wisdom Tree",
+          "quotes": [
+            "His first book of poems in English was published by Wisdom Tree in 2016."
+          ]
+        },
+        {
+          "name": "Permanent Mission of India to the CD in Geneva",
+          "quotes": [
+            "Copyright © Permanent Mission of India to the CD in Geneva. All rights Reserved."
+          ]
+        },
+        {
+          "name": "Ardhas Technology India Private Limited",
+          "quotes": [
+            "Powered by: Ardhas Technology India Private Limited."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Ambassador",
+          "quotes": [
+            "Ambassador/ PR"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Chandigarh",
+          "quotes": [
+            "Chandigarh. He is married to Ashma Singh and has a daughter (Bani) and a son (Ujjay)."
+          ]
+        },
+        {
+          "place": "Geneva",
+          "quotes": [
+            "Permanent Mission of India to the CD in Geneva."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Ambassador/ PR",
+          "Permanent Mission of India to the CD in Geneva."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time marker, but role and organization are clearly linked. Assuming this is an ongoing position based on the context."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "No time markers provided for the career position, making it impossible to verify temporal coherence."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time information, which is typically expected for career positions."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

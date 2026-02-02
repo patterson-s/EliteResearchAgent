@@ -1,0 +1,186 @@
+{
+  "status": "success",
+  "chunk_id": 2721,
+  "chunk_index": 2,
+  "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10722368/",
+  "title": "Searching for Meaning in the Life of Ellen Johnson-Sirleaf: A Call to Meaningful Responses to Tragedies - PMC",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2010",
+          "type": "point",
+          "quotes": [
+            "the Economic Times (2010) described her as Liberia's best-ever president."
+          ]
+        },
+        {
+          "text": "first 68 years of her life",
+          "type": "range",
+          "quotes": [
+            "This study aimed to investigate how Johnson-Sirleaf pursued meaning within the first 68 years of her life."
+          ]
+        },
+        {
+          "text": "1989 – 2003",
+          "type": "range",
+          "quotes": [
+            "A brief history of Liberia (1989 – 2003)"
+          ]
+        },
+        {
+          "text": "1822",
+          "type": "point",
+          "quotes": [
+            "Liberia is a small West African coastal country founded in 1822 as a settlement area for returning enslaved people."
+          ]
+        },
+        {
+          "text": "1989-1996",
+          "type": "range",
+          "quotes": [
+            "Liberia experienced one of the bloodiest civil conflicts in African history, in the form of two civil wars, the first between 1989-1996 and the second between 1999-2003."
+          ]
+        },
+        {
+          "text": "1999-2003",
+          "type": "range",
+          "quotes": [
+            "Liberia experienced one of the bloodiest civil conflicts in African history, in the form of two civil wars, the first between 1989-1996 and the second between 1999-2003."
+          ]
+        },
+        {
+          "text": "1996",
+          "type": "point",
+          "quotes": [
+            "Liberia held presidential elections in 1996 in which Taylor defeated Johnson-Sirleaf."
+          ]
+        },
+        {
+          "text": "2003",
+          "type": "point",
+          "quotes": [
+            "In 2003, Liberia was named one of the world’s worst places, characterised by ‘warfare, banditry, disease, land mines and violence’."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Economic Times",
+          "quotes": [
+            "the Economic Times (2010) described her as Liberia's best-ever president."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "president",
+          "quotes": [
+            "the Economic Times (2010) described her as Liberia's best-ever president.",
+            "President Doe's regime",
+            "Liberia held presidential elections in 1996 in which Taylor defeated Johnson-Sirleaf."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Liberia",
+          "quotes": [
+            "the Economic Times (2010) described her as Liberia's best-ever president.",
+            "A brief history of Liberia (1989 – 2003)",
+            "Liberia is a small West African coastal country founded in 1822 as a settlement area for returning enslaved people.",
+            "Liberia experienced one of the bloodiest civil conflicts in African history, in the form of two civil wars, the first between 1989-1996 and the second between 1999-2003.",
+            "In 2003, Liberia was named one of the world’s worst places, characterised by ‘warfare, banditry, disease, land mines and violence’."
+          ]
+        },
+        {
+          "place": "West Africa",
+          "quotes": [
+            "Liberia is a small West African coastal country founded in 1822 as a settlement area for returning enslaved people."
+          ]
+        },
+        {
+          "place": "United States of America",
+          "quotes": [
+            "Liberia is a small West African coastal country founded in 1822 as a settlement area for returning enslaved people (their descendants are generally known as Americo-Liberians) from the United States of America."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          6
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Liberia held presidential elections in 1996 in which Taylor defeated Johnson-Sirleaf."
+        ],
+        "confidence": "medium",
+        "notes": "While the quote indicates Johnson-Sirleaf was a candidate for president, it does not confirm she held the position. However, based on the context and her later recognition as Liberia's best-ever president, it is assumed she held the position at some point."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "the Economic Times (2010) described her as Liberia's best-ever president."
+        ],
+        "confidence": "high",
+        "notes": "This is a recognition or award, not an active position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "quote_support",
+            "severity": "medium",
+            "description": "The supporting quote indicates Johnson-Sirleaf was a candidate for president but does not confirm she held the position."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing organization information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 1
+    }
+  }
+}

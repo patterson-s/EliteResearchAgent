@@ -1,0 +1,151 @@
+{
+  "status": "success",
+  "chunk_id": 572,
+  "chunk_index": 72,
+  "source_url": "https://issafrica.s3.amazonaws.com/site/uploads/Book-2015-Salim.pdf",
+  "title": "Book-2015-Salim.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "from September 1989 to September 2001",
+          "type": "range",
+          "quotes": [
+            "Salim would serve as secretary-general of the OAU for 12 years, from September 1989 to September 2001 – an unprecedented three terms."
+          ]
+        },
+        {
+          "text": "July 2002",
+          "type": "point",
+          "quotes": [
+            "He retired from the organisation shortly before it was transformed into the AU in July 2002."
+          ]
+        },
+        {
+          "text": "1993",
+          "type": "point",
+          "quotes": [
+            "It was therefore no surprise that he received letters of support for a second term even before the elections took place in Cairo in 1993, when he was unanimously re-elected."
+          ]
+        },
+        {
+          "text": "1997",
+          "type": "point",
+          "quotes": [
+            "At the OAU summit in Harare in 1997, he emerged as the clear winner at the elections to serve for a third term,"
+          ]
+        },
+        {
+          "text": "2001",
+          "type": "point",
+          "quotes": [
+            "In 2001, in Lusaka, Salim decided not to stand for another term."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "OAU",
+          "quotes": [
+            "Salim would serve as secretary-general of the OAU for 12 years, from September 1989 to September 2001 – an unprecedented three terms.",
+            "Under Salim, the OAU changed from being an entity that was focused on decolonisation and containing the damaging effects of the Cold War to one that developed an African agenda for peace and democracy, and created a position for Africa in global politics.",
+            "At the OAU summit in Harare in 1997, he emerged as the clear winner at the elections to serve for a third term,",
+            "In his last address to the OAU, Salim claimed that efforts to reposition the continent and the OAU had resulted in maintaining the relevance of the OAU internationally:",
+            "When he assumed office, Salim set out a clear agenda on how to revitalise the OAU to secure its key place in multilateral diplomacy.",
+            "Salim was able to orchestrate the strategic shift from the OAU"
+          ]
+        },
+        {
+          "name": "AU",
+          "quotes": [
+            "He retired from the organisation shortly before it was transformed into the AU in July 2002."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "secretary-general of the OAU",
+          "quotes": [
+            "Salim would serve as secretary-general of the OAU for 12 years, from September 1989 to September 2001 – an unprecedented three terms."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Cairo",
+          "quotes": [
+            "It was therefore no surprise that he received letters of support for a second term even before the elections took place in Cairo in 1993, when he was unanimously re-elected."
+          ]
+        },
+        {
+          "place": "Harare",
+          "quotes": [
+            "At the OAU summit in Harare in 1997, he emerged as the clear winner at the elections to serve for a third term,"
+          ]
+        },
+        {
+          "place": "Lusaka",
+          "quotes": [
+            "In 2001, in Lusaka, Salim decided not to stand for another term."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          2,
+          4
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0,
+          1,
+          2
+        ],
+        "supporting_quotes": [
+          "Salim would serve as secretary-general of the OAU for 12 years, from September 1989 to September 2001 – an unprecedented three terms.",
+          "It was therefore no surprise that he received letters of support for a second term even before the elections took place in Cairo in 1993, when he was unanimously re-elected.",
+          "At the OAU summit in Harare in 1997, he emerged as the clear winner at the elections to serve for a third term,",
+          "In 2001, in Lusaka, Salim decided not to stand for another term."
+        ],
+        "confidence": "high",
+        "notes": "All quotes clearly link Salim's role as secretary-general of the OAU with specific time markers and locations."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Multiple locations (Cairo, Harare, Lusaka) are linked to the event, but it's unclear if these are all relevant to the same role or if they represent different instances of the same role. Consider clarifying or separating these locations if they correspond to distinct events."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "status": "success",
+  "chunk_id": 550,
+  "chunk_index": 50,
+  "source_url": "https://issafrica.s3.amazonaws.com/site/uploads/Book-2015-Salim.pdf",
+  "title": "Book-2015-Salim.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "last year",
+          "type": "point",
+          "quotes": [
+            "This manoeuvre worked satisfactorily until last year, when it finally became obvious that no amount of United States persuasion or threat could continue to stop the growing trend towards the restoration of the lawful rights of the People’s Republic of China."
+          ]
+        },
+        {
+          "text": "1971",
+          "type": "point",
+          "quotes": [
+            "In the same year that China was admitted into the UN (1971), the former chairman of the Palestinian Liberation Organization (PLO), Yasser Arafat, was invited to address the UNGA."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "People’s Republic of China",
+          "quotes": [
+            "in favour of, according to the People’s Republic of China, its lawful rights.",
+            "the growing trend towards the restoration of the lawful rights of the People’s Republic of China.",
+            "the importance and significance of the People’s Republic of China."
+          ]
+        },
+        {
+          "name": "United States",
+          "quotes": [
+            "no amount of United States persuasion or threat could continue to stop the growing trend towards the restoration of the lawful rights of the People’s Republic of China.",
+            "Given the current contacts between Peking and Washington and the projected visit of President Nixon to China, the world had every reason to expect that the position of the United States on the question of Chinese representation would reflect the more realistic approach that the Administration seemed to be embarking on.",
+            "all that has changed in so far as the United States’ position on this question of representation is concerned is tactics."
+          ]
+        },
+        {
+          "name": "UN",
+          "quotes": [
+            "that the UN as an international entity could exclude a country with, at the time, a population of about 800 million people:",
+            "to be represented in our Organization.",
+            "In the same year that China was admitted into the UN (1971), the former chairman of the Palestinian Liberation Organization (PLO), Yasser Arafat, was invited to address the UNGA."
+          ]
+        },
+        {
+          "name": "Palestinian Liberation Organization (PLO)",
+          "quotes": [
+            "the former chairman of the Palestinian Liberation Organization (PLO), Yasser Arafat, was invited to address the UNGA."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "chairman of the Palestinian Liberation Organization (PLO)",
+          "quotes": [
+            "the former chairman of the Palestinian Liberation Organization (PLO), Yasser Arafat, was invited to address the UNGA."
+          ]
+        },
+        {
+          "title": "President",
+          "quotes": [
+            "the projected visit of President Nixon to China"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Peking",
+          "quotes": [
+            "Given the current contacts between Peking and Washington and the projected visit of President Nixon to China"
+          ]
+        },
+        {
+          "place": "Washington",
+          "quotes": [
+            "Given the current contacts between Peking and Washington and the projected visit of President Nixon to China"
+          ]
+        },
+        {
+          "place": "China",
+          "quotes": [
+            "Given the current contacts between Peking and Washington and the projected visit of President Nixon to China"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "the former chairman of the Palestinian Liberation Organization (PLO), Yasser Arafat, was invited to address the UNGA."
+        ],
+        "confidence": "high",
+        "notes": "Direct linkage between PLO and its chairman role in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "the projected visit of President Nixon to China"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit organization mentioned, but role (President) and location (China) are clearly linked."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time and organization information for the career position event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

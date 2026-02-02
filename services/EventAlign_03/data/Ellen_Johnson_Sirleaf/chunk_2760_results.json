@@ -1,0 +1,83 @@
+{
+  "status": "success",
+  "chunk_id": 2760,
+  "chunk_index": 16,
+  "source_url": "https://achievement.org/achiever/ellen-johnson-sirleaf/",
+  "title": "Ellen Johnson Sirleaf | Academy of Achievement",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Association of Female Lawyers",
+          "quotes": [
+            "Even before my administration started, the Association of Female Lawyers — given that incidences of rape are so high in our country — had already got legislation passed."
+          ]
+        },
+        {
+          "name": "United Nations",
+          "quotes": [
+            "It was already a criminal offense, but now it’s a crime against humanity, as recognized by the United Nations."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "presidency",
+          "quotes": [
+            "Since assuming the presidency, you’ve also dealt with the issue of rape."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Since assuming the presidency, you’ve also dealt with the issue of rape."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit organization or time marker linked to the role, but the context suggests an active position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers and organization links for the career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quote mentions the presidency but does not explicitly confirm the organization or time frame."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

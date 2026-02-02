@@ -1,0 +1,241 @@
+{
+  "status": "success",
+  "chunk_id": 3570,
+  "chunk_index": 5,
+  "source_url": "https://en.wikipedia.org/wiki/Shaukat_Aziz",
+  "title": "Shaukat Aziz - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "30 July 2004",
+          "type": "point",
+          "quotes": [
+            "While campaigning on 30 July 2004, Aziz survived an assassination attempt in the Attock District of Punjab, Pakistan."
+          ]
+        },
+        {
+          "text": "26 June 2004",
+          "type": "point",
+          "quotes": [
+            "Following the resignation of Mir Zafarullah Khan Jamali on 26 June 2004, Hussain nominated Aziz for the office of prime minister and was also a top choice for the candidacy of prime ministerial post by Musharraf."
+          ]
+        },
+        {
+          "text": "By 2004",
+          "type": "point",
+          "quotes": [
+            "By 2004, Aziz had become a right hand of general Musharraf, as Musharraf described in his memoirs."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Supreme Court of Pakistan",
+          "quotes": [
+            "His public and liberalisation of economy policy expanded the political role of Supreme Court of Pakistan in a higher level of the government and to target high-level of government corruption independently without government interferences."
+          ]
+        },
+        {
+          "name": "IMF",
+          "quotes": [
+            "Pakistan's fiscal performance was praised by IMF and the World Bank."
+          ]
+        },
+        {
+          "name": "World Bank",
+          "quotes": [
+            "Pakistan's fiscal performance was praised by IMF and the World Bank.",
+            "The World Bank further reiterated that Pakistan's economic growth bolstered international confidence."
+          ]
+        },
+        {
+          "name": "Al-Qaeda",
+          "quotes": [
+            "Ten suspected Al-Qaeda perpetrators were arrested in Egypt and later extradited to Pakistan for the crime."
+          ]
+        },
+        {
+          "name": "National Assembly",
+          "quotes": [
+            "However, Aziz was not a member of the National Assembly, although he was a Senator.",
+            "As required by the constitution, the prime minister had to be a member of the National Assembly."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "finance minister",
+          "quotes": [
+            "The strong oligarch business class of Pakistan, notably Chaudhry Shujaat Hussain, had been impressed by Shaukat Aziz's performance as finance minister."
+          ]
+        },
+        {
+          "title": "prime minister",
+          "quotes": [
+            "Following the resignation of Mir Zafarullah Khan Jamali on 26 June 2004, Hussain nominated Aziz for the office of prime minister and was also a top choice for the candidacy of prime ministerial post by Musharraf.",
+            "As required by the constitution, the prime minister had to be a member of the National Assembly."
+          ]
+        },
+        {
+          "title": "Senator",
+          "quotes": [
+            "However, Aziz was not a member of the National Assembly, although he was a Senator."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Attock District",
+          "quotes": [
+            "While campaigning on 30 July 2004, Aziz survived an assassination attempt in the Attock District of Punjab, Pakistan."
+          ]
+        },
+        {
+          "place": "Punjab, Pakistan",
+          "quotes": [
+            "While campaigning on 30 July 2004, Aziz survived an assassination attempt in the Attock District of Punjab, Pakistan."
+          ]
+        },
+        {
+          "place": "Fateh Jang",
+          "quotes": [
+            "The suicide bomb attack was staged in Fateh Jang, a small town to the north of the capital, Islamabad, where Aziz was contesting an election."
+          ]
+        },
+        {
+          "place": "Islamabad",
+          "quotes": [
+            "The suicide bomb attack was staged in Fateh Jang, a small town to the north of the capital, Islamabad, where Aziz was contesting an election.",
+            "After safely reaching Islamabad, Aziz instigated a probe, while the foreign office contacted its mission in Egypt to try to determine the veracity of an Al Qaeda claim of responsibility."
+          ]
+        },
+        {
+          "place": "Egypt",
+          "quotes": [
+            "After safely reaching Islamabad, Aziz instigated a probe, while the foreign office contacted its mission in Egypt to try to determine the veracity of an Al Qaeda claim of responsibility.",
+            "Ten suspected Al-Qaeda perpetrators were arrested in Egypt and later extradited to Pakistan for the crime."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "By 2004, Aziz had become a right hand of general Musharraf, as Musharraf described in his memoirs.",
+          "The strong oligarch business class of Pakistan, notably Chaudhry Shujaat Hussain, had been impressed by Shaukat Aziz's performance as finance minister."
+        ],
+        "confidence": "high",
+        "notes": "Finance minister role is clearly linked to Aziz's career by 2004."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "However, Aziz was not a member of the National Assembly, although he was a Senator."
+        ],
+        "confidence": "high",
+        "notes": "Senator role is explicitly mentioned as Aziz's position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Following the resignation of Mir Zafarullah Khan Jamali on 26 June 2004, Hussain nominated Aziz for the office of prime minister and was also a top choice for the candidacy of prime ministerial post by Musharraf."
+        ],
+        "confidence": "high",
+        "notes": "Nomination for prime minister indicates a career position, even if not yet confirmed."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0,
+          1
+        ],
+        "supporting_quotes": [
+          "While campaigning on 30 July 2004, Aziz survived an assassination attempt in the Attock District of Punjab, Pakistan."
+        ],
+        "confidence": "high",
+        "notes": "Campaigning for prime minister indicates active pursuit of the role."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the finance minister role."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Nomination for prime minister might not fully qualify as a career position until confirmed."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 2,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

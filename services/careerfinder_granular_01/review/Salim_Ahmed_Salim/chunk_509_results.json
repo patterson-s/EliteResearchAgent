@@ -1,0 +1,165 @@
+{
+  "status": "success",
+  "chunk_id": 509,
+  "chunk_index": 9,
+  "source_url": "https://issafrica.s3.amazonaws.com/site/uploads/Book-2015-Salim.pdf",
+  "title": "Book-2015-Salim.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "early 1970s",
+          "type": "point",
+          "quotes": [
+            "the Ian Smith government, prodded by Pretoria’s policies of détente, began a series of diplomatic overtures to end the violence in the early 1970s."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "UN Special Committee on Decolonization",
+          "quotes": [
+            "Salim’s various influential positions at the UN quickly became an invaluable tool for advancing the FLS coalition’s diplomatic agenda."
+          ]
+        },
+        {
+          "name": "Tanzanian government",
+          "quotes": [
+            "Not only was he an influential member of the Tanzanian government and a leading figure on issues of decolonisation,"
+          ]
+        },
+        {
+          "name": "ZANU",
+          "quotes": [
+            "The Special Committee’s declarations and actions against colonialism in Rhodesia aligned with the key negotiating positions advanced by the recognised Zimbabwean liberation movements (i.e. ZANU and the Zimbabwe African People’s Union [ZAPU]"
+          ]
+        },
+        {
+          "name": "Zimbabwe African People’s Union [ZAPU]",
+          "quotes": [
+            "The Special Committee’s declarations and actions against colonialism in Rhodesia aligned with the key negotiating positions advanced by the recognised Zimbabwean liberation movements (i.e. ZANU and the Zimbabwe African People’s Union [ZAPU]"
+          ]
+        },
+        {
+          "name": "ZANU Patriotic Front, ZANU-PF",
+          "quotes": [
+            "and, later, the ZANU Patriotic Front, ZANU-PF"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "chair of the UN Special Committee on Decolonization",
+          "quotes": [
+            "but as the chair of the UN Special Committee on Decolonization he also had privileged and unrestricted access to a host of stakeholders, governments and non-governmental actors."
+          ]
+        },
+        {
+          "title": "influential member of the Tanzanian government",
+          "quotes": [
+            "Not only was he an influential member of the Tanzanian government and a leading figure on issues of decolonisation,"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Rhodesia",
+          "quotes": [
+            "Given the relative military superiority of South Africa and Rhodesia in the region, the FLS capitalised on their comparative diplomatic and moral advantage by extending their struggle to the international arena."
+          ]
+        },
+        {
+          "place": "Namibia",
+          "quotes": [
+            "The shared positions of the Special Committee on Decolonization and the FLS were most apparent and effective in the situations in Rhodesia and Namibia."
+          ]
+        },
+        {
+          "place": "South Africa",
+          "quotes": [
+            "Given the relative military superiority of South Africa and Rhodesia in the region, the FLS capitalised on their comparative diplomatic and moral advantage by extending their struggle to the international arena."
+          ]
+        },
+        {
+          "place": "Zimbabwe",
+          "quotes": [
+            "The Special Committee’s declarations and actions against colonialism in Rhodesia aligned with the key negotiating positions advanced by the recognised Zimbabwean liberation movements (i.e. ZANU and the Zimbabwe African People’s Union [ZAPU]"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Salim’s various influential positions at the UN quickly became an invaluable tool for advancing the FLS coalition’s diplomatic agenda.",
+          "but as the chair of the UN Special Committee on Decolonization he also had privileged and unrestricted access to a host of stakeholders, governments and non-governmental actors."
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker, but role and organization are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Not only was he an influential member of the Tanzanian government and a leading figure on issues of decolonisation,"
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker, but role and organization are clearly linked."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

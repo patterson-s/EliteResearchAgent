@@ -1,0 +1,237 @@
+{
+  "status": "success",
+  "chunk_id": 3578,
+  "chunk_index": 13,
+  "source_url": "https://en.wikipedia.org/wiki/Shaukat_Aziz",
+  "title": "Shaukat Aziz - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "as early as the 1990s",
+          "type": "point",
+          "quotes": [
+            "Shaukat Aziz is roundly criticized for his policy of downsizing in the public sector and disintegrating the effects of nationalisation policies of Benazir Bhutto as early as the 1990s"
+          ]
+        },
+        {
+          "text": "in 2006",
+          "type": "point",
+          "quotes": [
+            "An unsuccessful attempt to privatise the Pakistan Steel Mills was also thwarted by trade unions and pro-nationalization elements who took the case to Supreme Court of Pakistan in 2006"
+          ]
+        },
+        {
+          "text": "two years",
+          "type": "range",
+          "quotes": [
+            "With higher education budget up 15-fold and overall education spending up 36% in two years, he focused on education to improve the availability of skilled labour to fill new jobs"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Peoples Party",
+          "quotes": [
+            "the incompetence by the Peoples Party's government, but also the failure of his government to develop the necessary energy infrastructure on time"
+          ]
+        },
+        {
+          "name": "public sector",
+          "quotes": [
+            "Shaukat Aziz is roundly criticized for his policy of downsizing in the public sector and disintegrating the effects of nationalisation policies of Benazir Bhutto"
+          ]
+        },
+        {
+          "name": "Pakistan Steel Mills",
+          "quotes": [
+            "An unsuccessful attempt to privatise the Pakistan Steel Mills was also thwarted by trade unions and pro-nationalization elements who took the case to Supreme Court of Pakistan in 2006"
+          ]
+        },
+        {
+          "name": "Supreme Court of Pakistan",
+          "quotes": [
+            "An unsuccessful attempt to privatise the Pakistan Steel Mills was also thwarted by trade unions and pro-nationalization elements who took the case to Supreme Court of Pakistan in 2006"
+          ]
+        },
+        {
+          "name": "US treasury",
+          "quotes": [
+            "His credential records are similar to those of the successful US treasury secretaries such as Bob Rubin and Nicholas F. Brady who did well under Clinton and Reagan administrations"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Prime minister",
+          "quotes": [
+            "As Prime minister and as well as finance minister, Aziz did extraordinarily well"
+          ]
+        },
+        {
+          "title": "finance minister",
+          "quotes": [
+            "As Prime minister and as well as finance minister, Aziz did extraordinarily well"
+          ]
+        },
+        {
+          "title": "US treasury secretaries",
+          "quotes": [
+            "His credential records are similar to those of the successful US treasury secretaries such as Bob Rubin and Nicholas F. Brady who did well under Clinton and Reagan administrations"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "United States",
+          "quotes": [
+            "A banker and financier by training and extensive experience in the United States, Aziz's credentials are extremely high and considered one of the successful finance minister of Pakistan"
+          ]
+        },
+        {
+          "place": "Pakistan",
+          "quotes": [
+            "Aziz presided the strong banking sector, unprecedented investment and growth finance sectors in Pakistan to underpin its economy"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Shaukat Aziz is roundly criticized for his policy of downsizing in the public sector and disintegrating the effects of nationalisation policies of Benazir Bhutto as early as the 1990s"
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but the context suggests a leadership or policy-making position in the public sector."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "As Prime minister and as well as finance minister, Aziz did extraordinarily well"
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of roles as Prime Minister and Finance Minister in Pakistan."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "With higher education budget up 15-fold and overall education spending up 36% in two years, he focused on education to improve the availability of skilled labour to fill new jobs"
+        ],
+        "confidence": "high",
+        "notes": "Finance Minister role is implied through the focus on education spending and economic policies."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "His credential records are similar to those of the successful US treasury secretaries such as Bob Rubin and Nicholas F. Brady who did well under Clinton and Reagan administrations"
+        ],
+        "confidence": "medium",
+        "notes": "Comparison to US Treasury Secretaries suggests a similar role, possibly in an international or advisory capacity."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, though context suggests a leadership or policy-making position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quote mentions criticism of policies but does not explicitly state a specific role."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information, though the role is implied through policy focus."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time and organization information, though comparison to US Treasury Secretaries suggests a similar role."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Role classified as 'career_position', but comparison to US Treasury Secretaries might imply an award or recognition."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 1,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

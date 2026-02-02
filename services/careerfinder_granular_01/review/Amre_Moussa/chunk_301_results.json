@@ -1,0 +1,143 @@
+{
+  "status": "success",
+  "chunk_id": 301,
+  "chunk_index": 4,
+  "source_url": "https://en.wikipedia.org/wiki/Amr_Moussa",
+  "title": "Amr Moussa - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "February 2011",
+          "type": "point",
+          "quotes": [
+            "February 2011, the Egyptian daily newspaper Alwafd reported that a group of Egyptian youth met with Moussa to discuss a possible nomination for the presidential election."
+          ]
+        },
+        {
+          "text": "1 March 2011",
+          "type": "point",
+          "quotes": [
+            "Amr Moussa announced that he would be running as a presidential candidate on 1 March 2011."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Alwafd",
+          "quotes": [
+            "February 2011, the Egyptian daily newspaper Alwafd reported that a group of Egyptian youth met with Moussa to discuss a possible nomination for the presidential election."
+          ]
+        },
+        {
+          "name": "Conference Party",
+          "quotes": [
+            "After the election, he formed the Conference Party with which a number of smaller opposition parties aligned."
+          ]
+        },
+        {
+          "name": "Arab League",
+          "quotes": [
+            "Although credited with shaking up the Arab League's bureaucracyacracy's bureaucracy bureaucracy bureaucracy 's bureaucracy acy bureaucracy ac y bureaucracy ac y bureaucracy ac y bureaucracy ac y bureaucracy ac y bureaucracy ac y bureaucracy ac y bureaucracy ac y bureaucracy ac y bureaucracy ac y bureaucracy ac y bureaucracy ac y bureaucracy ac y bureaucracy ac y bureaucracy ac y bureaucracy ac y bureaucracy."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Secretary",
+          "quotes": [
+            "Moussa reportedly agreed to run as a presidential candidate on 1 March 2011."
+          ]
+        },
+        {
+          "title": "Presidential candidate ate",
+          "quotes": [
+            "Amr Moussa announced that he would be running as a presidential candidate on 1 March 2011."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Egypt",
+          "quotes": [
+            "A poll conducted during the 2011 protests asking 'who do you think should be the next President of Egypt? ' showed Moussa in the lead, with 26 % of respondents naming him."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "February 2011, the Egyptian daily newspaper Alwafd reported that a group of Egyptian youth met with Moussa to discuss a possible nomination for the presidential election."
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but the event involves a potential career move."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Amr Moussa announced that he would be running as a presidential candidate on 1 March 2011.",
+          "A poll conducted during the 2011 protests asking 'who do you think should be the next President of Egypt? ' showed Moussa in the lead, with 26 % of respondents naming him."
+        ],
+        "confidence": "high",
+        "notes": "Clear announcement of a presidential candidacy, indicating a career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. While the event involves a potential career move, no specific role is mentioned."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classification as 'career_position' is questionable since it's a discussion about a potential nomination rather than an active role."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

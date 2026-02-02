@@ -1,0 +1,210 @@
+{
+  "status": "success",
+  "chunk_id": 2805,
+  "chunk_index": 24,
+  "source_url": "https://en.wikipedia.org/wiki/David_Cameron",
+  "title": "David Cameron - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "January 2015",
+          "type": "point",
+          "quotes": [
+            "In January 2015 he travelled to the Saudi capital Riyadh to pay his respects, following the death of the nation's King Abdullah."
+          ]
+        },
+        {
+          "text": "March 2014",
+          "type": "point",
+          "quotes": [
+            "He stated that, if this investigation was not completed by March 2014, he would press for an independent international inquiry."
+          ]
+        },
+        {
+          "text": "July 2010",
+          "type": "point",
+          "quotes": [
+            "In a speech in Ankara in July 2010, Cameron stated unequivocally his support for Turkey's accession to the EU, citing economic, security and political considerations, and claimed that those who opposed Turkish membership were driven by 'protectionism, narrow nationalism or prejudice'."
+          ]
+        },
+        {
+          "text": "1948",
+          "type": "point",
+          "quotes": [
+            "Cameron was the first foreign leader to visit Jaffna since the island once colonised by Britain became independent in 1948."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "UN Human Rights Council",
+          "quotes": [
+            "According to WikiLeaks, Cameron initiated a secret deal with Saudi Arabia, ensuring both countries were elected onto the UN Human Rights Council."
+          ]
+        },
+        {
+          "name": "WikiLeaks",
+          "quotes": [
+            "According to WikiLeaks, Cameron initiated a secret deal with Saudi Arabia, ensuring both countries were elected onto the UN Human Rights Council."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "foreign leader",
+          "quotes": [
+            "Cameron was the first foreign leader to visit Jaffna since the island once colonised by Britain became independent in 1948."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "10 Downing Street",
+          "quotes": [
+            "(right) outside 10 Downing Street Cameron supported Britain's close relationship with Saudi Arabia."
+          ]
+        },
+        {
+          "place": "Riyadh",
+          "quotes": [
+            "In January 2015 he travelled to the Saudi capital Riyadh to pay his respects, following the death of the nation's King Abdullah."
+          ]
+        },
+        {
+          "place": "Sri Lanka",
+          "quotes": [
+            "Sri Lanka Cameron reiterated calls for an independent investigation into the alleged war crimes during the final stages of the Sri Lankan Civil War."
+          ]
+        },
+        {
+          "place": "Jaffna",
+          "quotes": [
+            "This followed a visit to Jaffna, a war-ravaged town in the northern part of Sri Lanka; Cameron was the first foreign leader to visit Jaffna since the island once colonised by Britain became independent in 1948."
+          ]
+        },
+        {
+          "place": "Ankara",
+          "quotes": [
+            "In a speech in Ankara in July 2010, Cameron stated unequivocally his support for Turkey's accession to the EU, citing economic, security and political considerations, and claimed that those who opposed Turkish membership were driven by 'protectionism, narrow nationalism or prejudice'."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          3,
+          4
+        ],
+        "supporting_quotes": [
+          "Cameron was the first foreign leader to visit Jaffna since the island once colonised by Britain became independent in 1948.",
+          "This followed a visit to Jaffna, a war-ravaged town in the northern part of Sri Lanka; Cameron was the first foreign leader to visit Jaffna since the island once colonised by Britain became independent in 1948."
+        ],
+        "confidence": "high",
+        "notes": "The role of 'foreign leader' is clearly associated with the visit to Jaffna and Sri Lanka, indicating an active position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          1,
+          2
+        ],
+        "supporting_quotes": [
+          "In January 2015 he travelled to the Saudi capital Riyadh to pay his respects, following the death of the nation's King Abdullah.",
+          "(right) outside 10 Downing Street Cameron supported Britain's close relationship with Saudi Arabia."
+        ],
+        "confidence": "medium",
+        "notes": "While no specific role is mentioned, the context suggests an official capacity related to diplomatic duties, hence classified as a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          5
+        ],
+        "supporting_quotes": [
+          "In a speech in Ankara in July 2010, Cameron stated unequivocally his support for Turkey's accession to the EU, citing economic, security and political considerations, and claimed that those who opposed Turkish membership were driven by 'protectionism, narrow nationalism or prejudice'."
+        ],
+        "confidence": "medium",
+        "notes": "The context suggests an official capacity related to diplomatic duties, hence classified as a career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information, which is unexpected for a career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing role and organization information, making it difficult to confirm the career position classification."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quotes do not explicitly mention a specific role, though context suggests diplomatic duties."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing role and organization information, making it difficult to confirm the career position classification."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quotes do not explicitly mention a specific role, though context suggests diplomatic duties."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

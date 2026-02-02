@@ -1,0 +1,199 @@
+{
+  "status": "success",
+  "chunk_id": 904,
+  "chunk_index": 47,
+  "source_url": "https://www.un.org/digital-emerging-technologies/sites/www.un.org.techenvoy/files/hlp_on_digital_cooperation-report_final.pdf",
+  "title": "hlp_on_digital_cooperation-report_final.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "in 2010",
+          "type": "point",
+          "quotes": [
+            "For example, in 2010 the ITU and UNESCO established the Broadband Commission for Sustainable Development;"
+          ]
+        },
+        {
+          "text": "in 2016",
+          "type": "point",
+          "quotes": [
+            "in 2016 the ITU, UN Women, the International Trade Centre, the GSM Association, UNESCO and the United Nations University set up the EQUALS partnership to tackle the digital gender gap."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "UN",
+          "quotes": [
+            "The UN retains a unique role and convening power to bring stakeholders together to create the norms and frameworks and assist in developing the capacity we need to ensure a safe and equitable digital future for all people."
+          ]
+        },
+        {
+          "name": "UNICEF",
+          "quotes": [
+            "Some UN agencies – such as UNICEF, UNESCO, the World Food Programme (WFP) and the United Nations Development Programme (UNDP) – have made a priority of exploring how the digital transformation can provide them with new approaches to achieve their mandates."
+          ]
+        },
+        {
+          "name": "UNESCO",
+          "quotes": [
+            "Some UN agencies – such as UNICEF, UNESCO, the World Food Programme (WFP) and the United Nations Development Programme (UNDP) – have made a priority of exploring how the digital transformation can provide them with new approaches to achieve their mandates."
+          ]
+        },
+        {
+          "name": "World Food Programme (WFP)",
+          "quotes": [
+            "Some UN agencies – such as UNICEF, UNESCO, the World Food Programme (WFP) and the United Nations Development Programme (UNDP) – have made a priority of exploring how the digital transformation can provide them with new approaches to achieve their mandates."
+          ]
+        },
+        {
+          "name": "United Nations Development Programme (UNDP)",
+          "quotes": [
+            "Some UN agencies – such as UNICEF, UNESCO, the World Food Programme (WFP) and the United Nations Development Programme (UNDP) – have made a priority of exploring how the digital transformation can provide them with new approaches to achieve their mandates."
+          ]
+        },
+        {
+          "name": "Task Force on Digital Financing of the SDGs",
+          "quotes": [
+            "The Task Force on Digital Financing of the SDGs, for example, will explore how digital technologies can be leveraged to finance the SDGs."
+          ]
+        },
+        {
+          "name": "ITU",
+          "quotes": [
+            "in 2010 the ITU and UNESCO established the Broadband Commission for Sustainable Development;"
+          ]
+        },
+        {
+          "name": "Broadband Commission for Sustainable Development",
+          "quotes": [
+            "in 2010 the ITU and UNESCO established the Broadband Commission for Sustainable Development;"
+          ]
+        },
+        {
+          "name": "UN Women",
+          "quotes": [
+            "in 2016 the ITU, UN Women, the International Trade Centre, the GSM Association, UNESCO and the United Nations University set up the EQUALS partnership to tackle the digital gender gap."
+          ]
+        },
+        {
+          "name": "International Trade Centre",
+          "quotes": [
+            "in 2016 the ITU, UN Women, the International Trade Centre, the GSM Association, UNESCO and the United Nations University set up the EQUALS partnership to tackle the digital gender gap."
+          ]
+        },
+        {
+          "name": "GSM Association",
+          "quotes": [
+            "in 2016 the ITU, UN Women, the International Trade Centre, the GSM Association, UNESCO and the United Nations University set up the EQUALS partnership to tackle the digital gender gap."
+          ]
+        },
+        {
+          "name": "United Nations University",
+          "quotes": [
+            "in 2016 the ITU, UN Women, the International Trade Centre, the GSM Association, UNESCO and the United Nations University set up the EQUALS partnership to tackle the digital gender gap."
+          ]
+        },
+        {
+          "name": "EQUALS partnership",
+          "quotes": [
+            "in 2016 the ITU, UN Women, the International Trade Centre, the GSM Association, UNESCO and the United Nations University set up the EQUALS partnership to tackle the digital gender gap."
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          6,
+          7,
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "in 2010 the ITU and UNESCO established the Broadband Commission for Sustainable Development;"
+        ],
+        "confidence": "high",
+        "notes": "Event represents the establishment of the Broadband Commission for Sustainable Development by ITU and UNESCO."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          6,
+          8,
+          9,
+          10,
+          2,
+          11,
+          12
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "in 2016 the ITU, UN Women, the International Trade Centre, the GSM Association, UNESCO and the United Nations University set up the EQUALS partnership to tackle the digital gender gap."
+        ],
+        "confidence": "high",
+        "notes": "Event represents the establishment of the EQUALS partnership by multiple organizations."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as 'career_position' but describes the establishment of an organization rather than a specific role or position."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role_ids and location_ids, which are typically expected for career positions."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as 'career_position' but describes the establishment of a partnership rather than a specific role or position."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role_ids and location_ids, which are typically expected for career positions."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

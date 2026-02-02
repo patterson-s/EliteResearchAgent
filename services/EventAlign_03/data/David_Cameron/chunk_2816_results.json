@@ -1,0 +1,249 @@
+{
+  "status": "success",
+  "chunk_id": 2816,
+  "chunk_index": 35,
+  "source_url": "https://en.wikipedia.org/wiki/David_Cameron",
+  "title": "David Cameron - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2007",
+          "type": "point",
+          "quotes": [
+            "noted in an article published in 2007, that the Muslim community finds aspects such as high divorce rates and drug use uninspiring"
+          ]
+        },
+        {
+          "text": "February 2011",
+          "type": "point",
+          "quotes": [
+            "In his first speech as PM on radicalisation and the causes of terrorism in February 2011, Cameron said that 'state multiculturalism' had failed."
+          ]
+        },
+        {
+          "text": "2010",
+          "type": "point",
+          "quotes": [
+            "In 2010 he appointed the first Muslim member of the British cabinet, Baroness Warsi, as a minister without portfolio"
+          ]
+        },
+        {
+          "text": "2012",
+          "type": "point",
+          "quotes": [
+            "in 2012 made her a special minister of state in foreign affairs."
+          ]
+        },
+        {
+          "text": "August 2014",
+          "type": "point",
+          "quotes": [
+            "She resigned, however, in August 2014 over the government's handling of the 2014 Israel–Gaza conflict."
+          ]
+        },
+        {
+          "text": "2012",
+          "type": "point",
+          "quotes": [
+            "In 2012 Cameron publicly apologised for Thatcher-era policies on homosexuality"
+          ]
+        },
+        {
+          "text": "2006",
+          "type": "point",
+          "quotes": [
+            "In 2006 Cameron described poverty as a 'moral disgrace'"
+          ]
+        },
+        {
+          "text": "2007",
+          "type": "point",
+          "quotes": [
+            "In 2007 Cameron promised: 'We can make British poverty history, and we will make British poverty history'."
+          ]
+        },
+        {
+          "text": "2015",
+          "type": "point",
+          "quotes": [
+            "In 2015 Polly Toynbee questioned Cameron's commitment to tackling poverty"
+          ]
+        },
+        {
+          "text": "2011",
+          "type": "point",
+          "quotes": [
+            "Cameron denied that austerity had contributed to the 2011 England riots"
+          ]
+        },
+        {
+          "text": "2010",
+          "type": "point",
+          "quotes": [
+            "In 2010 Cameron was given a score of 36% in favour of lesbian, gay and bisexual equality by Stonewall."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "British cabinet",
+          "quotes": [
+            "In 2010 he appointed the first Muslim member of the British cabinet, Baroness Warsi, as a minister without portfolio"
+          ]
+        },
+        {
+          "name": "Stonewall",
+          "quotes": [
+            "In 2010 Cameron was given a score of 36% in favour of lesbian, gay and bisexual equality by Stonewall."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "minister without portfolio",
+          "quotes": [
+            "In 2010 he appointed the first Muslim member of the British cabinet, Baroness Warsi, as a minister without portfolio"
+          ]
+        },
+        {
+          "title": "special minister of state in foreign affairs",
+          "quotes": [
+            "in 2012 made her a special minister of state in foreign affairs."
+          ]
+        },
+        {
+          "title": "PM",
+          "quotes": [
+            "In his first speech as PM on radicalisation and the causes of terrorism in February 2011, Cameron said that 'state multiculturalism' had failed."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Britain",
+          "quotes": [
+            "Cameron believes that British Muslims have a duty to integrate into British culture"
+          ]
+        },
+        {
+          "place": "England",
+          "quotes": [
+            "Cameron denied that austerity had contributed to the 2011 England riots"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2010 he appointed the first Muslim member of the British cabinet, Baroness Warsi, as a minister without portfolio"
+        ],
+        "confidence": "high",
+        "notes": "Clear appointment to a specific role in the British cabinet."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "in 2012 made her a special minister of state in foreign affairs."
+        ],
+        "confidence": "medium",
+        "notes": "Role change mentioned but organization not explicitly stated; assumed to be a government position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In his first speech as PM on radicalisation and the causes of terrorism in February 2011, Cameron said that 'state multiculturalism' had failed."
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of Cameron serving as PM."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information, though the context suggests Britain."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information, which is essential for a career position."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information, which is essential for a career position."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information, though the context suggests Britain."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

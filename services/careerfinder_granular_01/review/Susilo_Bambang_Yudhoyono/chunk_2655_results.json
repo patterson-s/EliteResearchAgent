@@ -1,0 +1,179 @@
+{
+  "status": "success",
+  "chunk_id": 2655,
+  "chunk_index": 0,
+  "source_url": "https://obama.artifacts.archives.gov/people/6398/president-susilo-bambang-yudhoyono",
+  "title": "President Susilo Bambang Yudhoyono – People and Organizations – Barack Obama Presidential Library Artifact Collection",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "from 2004 until 2009",
+          "type": "range",
+          "quotes": [
+            "Susilo Bambang Yudhoyono is an Indonesian politician who served two terms as President of Indonesia, from 2004 until 2009."
+          ]
+        },
+        {
+          "text": "From 2013 until 2020",
+          "type": "range",
+          "quotes": [
+            "From 2013 until 2020, he served as the Chairman of the Democratic Party."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Democratic Party",
+          "quotes": [
+            "From 2013 until 2020, he served as the Chairman of the Democratic Party."
+          ]
+        },
+        {
+          "name": "military",
+          "quotes": [
+            "Yudhoyono began his career in the military prior to becoming a cabinet minister and then a politician."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "President of Indonesia",
+          "quotes": [
+            "Susilo Bambang Yudhoyono is an Indonesian politician who served two terms as President of Indonesia, from 2004 until 2009."
+          ]
+        },
+        {
+          "title": "Chairman of the Democratic Party",
+          "quotes": [
+            "From 2013 until 2020, he served as the Chairman of the Democratic Party."
+          ]
+        },
+        {
+          "title": "cabinet minister",
+          "quotes": [
+            "Yudhoyono began his career in the military prior to becoming a cabinet minister and then a politician."
+          ]
+        },
+        {
+          "title": "politician",
+          "quotes": [
+            "Yudhoyono began his career in the military prior to becoming a cabinet minister and then a politician."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Jakarta, Java, Indonesia",
+          "quotes": [
+            "Place Active: Jakarta, Java, Indonesia"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Susilo Bambang Yudhoyono is an Indonesian politician who served two terms as President of Indonesia, from 2004 until 2009.",
+          "Place Active: Jakarta, Java, Indonesia"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "From 2013 until 2020, he served as the Chairman of the Democratic Party.",
+          "Place Active: Jakarta, Java, Indonesia"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          2,
+          3
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Yudhoyono began his career in the military prior to becoming a cabinet minister and then a politician.",
+          "Place Active: Jakarta, Java, Indonesia"
+        ],
+        "confidence": "medium",
+        "notes": "No specific time markers, but roles and organization are clearly linked. Assumed to be prior to 2004 based on sequence."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "Missing specific time markers for the event, only inferred sequence is provided."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as 'career_position' but includes multiple roles (cabinet minister, politician) which might be separate events."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 2,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

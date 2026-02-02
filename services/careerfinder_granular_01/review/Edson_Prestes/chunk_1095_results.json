@@ -1,0 +1,177 @@
+{
+  "status": "success",
+  "chunk_id": 1095,
+  "chunk_index": 5,
+  "source_url": "https://br.linkedin.com/in/edson-prestes",
+  "title": "Edson Prestes - Association For Computer Machinery | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "Jan 2025",
+          "type": "point",
+          "quotes": [
+            "published in Optics Express, Jan 2025."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "University of Arizona",
+          "quotes": [
+            "The student research team from Prof. Yuzuru Takashima’s lab at the University of Arizona developed a solution to double or triple FOV of AR glasses to 90 degrees with a low cost and low index materials such as plastic and BK7 glasses, published in Optics Express, Jan 2025."
+          ]
+        },
+        {
+          "name": "Optics Express",
+          "quotes": [
+            "published in Optics Express, Jan 2025."
+          ]
+        },
+        {
+          "name": "SCOPUS",
+          "quotes": [
+            "Well, there is some goodnews. There are also peer-reviewed Journals indexed on SCOPUS, Web of Science, Google Scholar that charge ZERO FEE."
+          ]
+        },
+        {
+          "name": "Web of Science",
+          "quotes": [
+            "Well, there is some goodnews. There are also peer-reviewed Journals indexed on SCOPUS, Web of Science, Google Scholar that charge ZERO FEE."
+          ]
+        },
+        {
+          "name": "Google Scholar",
+          "quotes": [
+            "Well, there is some goodnews. There are also peer-reviewed Journals indexed on SCOPUS, Web of Science, Google Scholar that charge ZERO FEE."
+          ]
+        },
+        {
+          "name": "DOAJ",
+          "quotes": [
+            "While there are many avenue to find these free journals, a very easy platform is DOAJ.",
+            "Directory of Open Access Journals – DOAJ (http://DOAJ.org)"
+          ]
+        },
+        {
+          "name": "AI & Society",
+          "quotes": [
+            "I'm thrilled to share that my co-authored open-access article with André Sobral, “Artificial Intelligence as Heteromation: The Human Infrastructure Behind the Machine,” has just been published in AI & Society."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "student research team",
+          "quotes": [
+            "The student research team from Prof. Yuzuru Takashima’s lab at the University of Arizona developed a solution to double or triple FOV of AR glasses to 90 degrees with a low cost and low index materials such as plastic and BK7 glasses, published in Optics Express, Jan 2025."
+          ]
+        },
+        {
+          "title": "Prof. Yuzuru Takashima",
+          "quotes": [
+            "The student research team from Prof. Yuzuru Takashima’s lab at the University of Arizona developed a solution to double or triple FOV of AR glasses to 90 degrees with a low cost and low index materials such as plastic and BK7 glasses, published in Optics Express, Jan 2025."
+          ]
+        },
+        {
+          "title": "co-author",
+          "quotes": [
+            "I'm thrilled to share that my co-authored open-access article with André Sobral, “Artificial Intelligence as Heteromation: The Human Infrastructure Behind the Machine,” has just been published in AI & Society."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The student research team from Prof. Yuzuru Takashima’s lab at the University of Arizona developed a solution to double or triple FOV of AR glasses to 90 degrees with a low cost and low index materials such as plastic and BK7 glasses, published in Optics Express, Jan 2025.",
+          "published in Optics Express, Jan 2025."
+        ],
+        "confidence": "high",
+        "notes": "Prof. Yuzuru Takashima is associated with the University of Arizona and the publication in Optics Express, indicating an active academic role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          6
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "I'm thrilled to share that my co-authored open-access article with André Sobral, “Artificial Intelligence as Heteromation: The Human Infrastructure Behind the Machine,” has just been published in AI & Society."
+        ],
+        "confidence": "high",
+        "notes": "Co-authoring an article in AI & Society indicates an active academic or research role."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The event is classified as a career_position, but the role 'student research team' might be more accurately described as an academic project rather than a formal position."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing location information, which could be relevant for a career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "No time marker provided, making it difficult to place this event in a timeline."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The event is classified as a career_position, but co-authoring an article might be better classified as an award or publication rather than a formal position."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing location information, which could be relevant for a career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

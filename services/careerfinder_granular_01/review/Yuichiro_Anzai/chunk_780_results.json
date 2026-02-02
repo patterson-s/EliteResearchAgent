@@ -1,0 +1,179 @@
+{
+  "status": "success",
+  "chunk_id": 780,
+  "chunk_index": 0,
+  "source_url": "https://www.ucl.ac.uk/news/2007/apr/visit-professor-yuichiro-anzai-keio-university",
+  "title": "Visit from Professor Yuichiro Anzai, Keio University | UCL News - UCL – University College London",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "27 April 2007",
+          "type": "point",
+          "quotes": [
+            "27 April 2007\nProfessor Yuichiro Anzai, President of Keio University in Japan, today attended a joint UCL-Keio symposium on the 'Frontiers of Neuroscience'."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Keio University",
+          "quotes": [
+            "Visit from Professor Yuichiro Anzai, Keio University",
+            "Professor Yuichiro Anzai, President of Keio University in Japan, today attended a joint UCL-Keio symposium on the 'Frontiers of Neuroscience'.",
+            "The event marks the 150th anniversary of Keio University, one of Japan's leading higher education institutions, as well as commemorating the launch of Keio University's London Office, established in association with the Japanese Society for the Promotion of Science.",
+            "Keio University"
+          ]
+        },
+        {
+          "name": "UCL – University College London",
+          "quotes": [
+            "Visit from Professor Yuichiro Anzai, Keio University | UCL News - UCL – University College London",
+            "Professor Yuichiro Anzai, President of Keio University in Japan, today attended a joint UCL-Keio symposium on the 'Frontiers of Neuroscience'."
+          ]
+        },
+        {
+          "name": "Japanese Society for the Promotion of Science",
+          "quotes": [
+            "The event marks the 150th anniversary of Keio University, one of Japan's leading higher education institutions, as well as commemorating the launch of Keio University's London Office, established in association with the Japanese Society for the Promotion of Science."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "President of Keio University",
+          "quotes": [
+            "Professor Yuichiro Anzai, President of Keio University in Japan, today attended a joint UCL-Keio symposium on the 'Frontiers of Neuroscience'.",
+            "Professor Anzai also met with UCL President and Provost, Professor Malcolm Grant, to explore opportunities for collaboration."
+          ]
+        },
+        {
+          "title": "UCL President and Provost",
+          "quotes": [
+            "Professor Anzai also met with UCL President and Provost, Professor Malcolm Grant, to explore opportunities for collaboration."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Japan",
+          "quotes": [
+            "Professor Yuichiro Anzai, President of Keio University in Japan, today attended a joint UCL-Keio symposium on the 'Frontiers of Neuroscience'."
+          ]
+        },
+        {
+          "place": "London",
+          "quotes": [
+            "The event marks the 150th anniversary of Keio University, one of Japan's leading higher education institutions, as well as commemorating the launch of Keio University's London Office, established in association with the Japanese Society for the Promotion of Science."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "27 April 2007\nProfessor Yuichiro Anzai, President of Keio University in Japan, today attended a joint UCL-Keio symposium on the 'Frontiers of Neuroscience'.",
+          "Professor Yuichiro Anzai, President of Keio University in Japan, today attended a joint UCL-Keio symposium on the 'Frontiers of Neuroscience'."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Professor Anzai also met with UCL President and Provost, Professor Malcolm Grant, to explore opportunities for collaboration.",
+          "Professor Anzai also met with UCL President and Provost, Professor Malcolm Grant, to explore opportunities for collaboration."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time marker, but clear linkage between organization and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0,
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "The event marks the 150th anniversary of Keio University, one of Japan's leading higher education institutions, as well as commemorating the launch of Keio University's London Office, established in association with the Japanese Society for the Promotion of Science.",
+          "The event marks the 150th anniversary of Keio University, one of Japan's leading higher education institutions, as well as commemorating the launch of Keio University's London Office, established in association with the Japanese Society for the Promotion of Science."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between organizations and location, though no explicit role mentioned."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the event."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for the event."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position but lacks clear role, potentially more related to organizational milestones."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

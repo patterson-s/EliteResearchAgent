@@ -1,0 +1,439 @@
+{
+  "status": "success",
+  "chunk_id": 935,
+  "chunk_index": 0,
+  "source_url": "https://en.wikipedia.org/wiki/Marina_Kaljurand",
+  "title": "Marina Kaljurand - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2 July 2019",
+          "type": "point",
+          "quotes": [
+            "Assumed office 2 July 2019"
+          ]
+        },
+        {
+          "text": "16 July 2015 – 12 September 2016",
+          "type": "range",
+          "quotes": [
+            "In office 16 July 2015 – 12 September 2016"
+          ]
+        },
+        {
+          "text": "2011–2014",
+          "type": "range",
+          "quotes": [
+            "In office 2011–2014"
+          ]
+        },
+        {
+          "text": "2007–2011",
+          "type": "range",
+          "quotes": [
+            "In office 2007–2011"
+          ]
+        },
+        {
+          "text": "2004–2006",
+          "type": "range",
+          "quotes": [
+            "In office 2004–2006"
+          ]
+        },
+        {
+          "text": "2018–present",
+          "type": "open",
+          "quotes": [
+            "Political party Social Democratic Party (2018–present)"
+          ]
+        },
+        {
+          "text": "before 2018",
+          "type": "open",
+          "quotes": [
+            "Other political affiliations Independent (before 2018)"
+          ]
+        },
+        {
+          "text": "6 September 1962",
+          "type": "point",
+          "quotes": [
+            "Born 6 September 1962"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "European Parliament",
+          "quotes": [
+            "Member of the European Parliament",
+            "Assumed office 2 July 2019"
+          ]
+        },
+        {
+          "name": "Social Democratic Party",
+          "quotes": [
+            "Political party Social Democratic Party (2018–present)"
+          ]
+        },
+        {
+          "name": "University of Tartu",
+          "quotes": [
+            "Education University of Tartu"
+          ]
+        },
+        {
+          "name": "Estonian School of Diplomacy",
+          "quotes": [
+            "Education Estonian School of Diplomacy"
+          ]
+        },
+        {
+          "name": "Tufts University",
+          "quotes": [
+            "Education Tufts University"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Member of the European Parliament",
+          "quotes": [
+            "Member of the European Parliament",
+            "Assumed office 2 July 2019"
+          ]
+        },
+        {
+          "title": "Minister of Foreign Affairs",
+          "quotes": [
+            "Minister of Foreign Affairs",
+            "In office 16 July 2015 – 12 September 2016"
+          ]
+        },
+        {
+          "title": "Ambassador of Estonia to the United States",
+          "quotes": [
+            "Ambassador of Estonia to the United States, In office 2011–2014"
+          ]
+        },
+        {
+          "title": "Ambassador of Estonia to Canada",
+          "quotes": [
+            "Ambassador of Estonia to the United States, Canada, and Mexico, In office 2011–2014"
+          ]
+        },
+        {
+          "title": "Ambassador of Estonia to Mexico",
+          "quotes": [
+            "Ambassador of Estonia to the United States, Canada, and Mexico, In office 2011–2014"
+          ]
+        },
+        {
+          "title": "Ambassador of Estonia to Russia",
+          "quotes": [
+            "Estonian Ambassador to Russia, In office 2007–2011"
+          ]
+        },
+        {
+          "title": "Ambassador of Estonia to Israel",
+          "quotes": [
+            "Estonian Ambassador to Israel, In office 2004–2006"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Tallinn",
+          "quotes": [
+            "Born in Tallinn",
+            "Born in Tallinn, Estonia"
+          ]
+        },
+        {
+          "place": "Estonia",
+          "quotes": [
+            "Born in Tallinn, Estonia",
+            "Member of the European Parliament for Estonia"
+          ]
+        },
+        {
+          "place": "United States",
+          "quotes": [
+            "Ambassador of Estonia to the United States"
+          ]
+        },
+        {
+          "place": "Canada",
+          "quotes": [
+            "Ambassador of Estonia to the United States, Canada, and Mexico"
+          ]
+        },
+        {
+          "place": "Mexico",
+          "quotes": [
+            "Ambassador of Estonia to the United States, Canada, and Mexico"
+          ]
+        },
+        {
+          "place": "Russia",
+          "quotes": [
+            "Estonian Ambassador to Russia"
+          ]
+        },
+        {
+          "place": "Israel",
+          "quotes": [
+            "Estonian Ambassador to Israel"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Assumed office 2 July 2019",
+          "Member of the European Parliament",
+          "Member of the European Parliament for Estonia"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In office 16 July 2015 – 12 September 2016",
+          "Minister of Foreign Affairs"
+        ],
+        "confidence": "high",
+        "notes": "No specific organization or location mentioned, but role and time are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2,
+          3,
+          4
+        ],
+        "location_ids": [
+          2,
+          3,
+          4
+        ],
+        "supporting_quotes": [
+          "In office 2011–2014",
+          "Ambassador of Estonia to the United States, Canada, and Mexico"
+        ],
+        "confidence": "high",
+        "notes": "Multiple roles and locations mentioned for the same time period."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          5
+        ],
+        "location_ids": [
+          6
+        ],
+        "supporting_quotes": [
+          "In office 2007–2011",
+          "Estonian Ambassador to Russia"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          6
+        ],
+        "location_ids": [
+          7
+        ],
+        "supporting_quotes": [
+          "In office 2004–2006",
+          "Estonian Ambassador to Israel"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Political party Social Democratic Party (2018–present)"
+        ],
+        "confidence": "high",
+        "notes": "Political affiliation with a clear time marker."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          6
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Other political affiliations Independent (before 2018)"
+        ],
+        "confidence": "medium",
+        "notes": "No specific role or organization, but political affiliation is noted."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          7
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          0,
+          1
+        ],
+        "supporting_quotes": [
+          "Born 6 September 1962",
+          "Born in Tallinn, Estonia"
+        ],
+        "confidence": "high",
+        "notes": "Birth information with location."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location information."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 4,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 5,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Political affiliation marked as career_position, consider reclassification."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role and location information."
+          }
+        ]
+      },
+      {
+        "event_id": 6,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Political affiliation marked as career_position, consider reclassification."
+          },
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization, role, and location information."
+          }
+        ]
+      },
+      {
+        "event_id": 7,
+        "status": "error",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "high",
+            "description": "Birth information incorrectly classified as career_position."
+          },
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization and role information."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 8,
+      "valid": 4,
+      "warnings": 3,
+      "errors": 1,
+      "career_positions": 7,
+      "awards": 0
+    }
+  }
+}

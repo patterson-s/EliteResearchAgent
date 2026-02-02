@@ -1,0 +1,189 @@
+{
+  "status": "success",
+  "chunk_id": 2670,
+  "chunk_index": 8,
+  "source_url": "https://en.wikipedia.org/wiki/Ellen_Johnson_Sirleaf",
+  "title": "Ellen Johnson Sirleaf - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In 2006",
+          "type": "point",
+          "quotes": [
+            "In 2006, the Truth and Reconciliation Commission began work with a mandate to 'promote national peace, security, unity and reconciliation' by investigating more than 20 years of civil conflict in the country."
+          ]
+        },
+        {
+          "text": "June 2009",
+          "type": "point",
+          "quotes": [
+            "In their final report, issued in June 2009, the TRC included Sirleaf in a list of 50 names of people that should be 'specifically barred from holding public offices; elected or appointed for a period of thirty (30) years' for 'being associated with former warring factions.'"
+          ]
+        },
+        {
+          "text": "On 26 July 2009",
+          "type": "point",
+          "quotes": [
+            "On 26 July 2009, Sirleaf apologized to Liberia for supporting Charles Taylor, saying: 'When the true nature of Mr. Taylor's intentions became known, there was no more impassioned critic or strong opponent to him in a democratic process' than she."
+          ]
+        },
+        {
+          "text": "On 28 August",
+          "type": "point",
+          "quotes": [
+            "On 28 August, the legislature announced they must 'consult our constituents for about a year' before deciding whether or not to implement the Commission's recommendations."
+          ]
+        },
+        {
+          "text": "In 2010",
+          "type": "point",
+          "quotes": [
+            "During an appearance at the Council on Foreign Relations in 2010, Sirleaf argued that the implementation of the TRC's recommended ban would unconstitutionally violate her right to due process."
+          ]
+        },
+        {
+          "text": "October 2010",
+          "type": "point",
+          "quotes": [
+            "In October 2010, the chairman of Sirleaf's Unity Party, Varney Sherman, argued that implementation of the recommendation would be unconstitutional, as Article 21(a) of the Constitution prohibits ex post facto laws, and Sirleaf had broken no law by financially supporting Taylor that imposed a ban from public office as a penalty."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "World Bank",
+          "quotes": [
+            "That same month, the World Bank and IMF agreed to fund $1.5 billion in writing off the Liberia's multilateral debt."
+          ]
+        },
+        {
+          "name": "IMF",
+          "quotes": [
+            "That same month, the World Bank and IMF agreed to fund $1.5 billion in writing off the Liberia's multilateral debt."
+          ]
+        },
+        {
+          "name": "Paris Club",
+          "quotes": [
+            "On 16 September, the Paris Club agreed to cancel $1.26 billion, with independent bilateral creditors canceling an additional $107 million, essentially writing off Liberia's remaining external debt."
+          ]
+        },
+        {
+          "name": "Truth and Reconciliation Commission",
+          "quotes": [
+            "In 2006, the Truth and Reconciliation Commission began work with a mandate to 'promote national peace, security, unity and reconciliation' by investigating more than 20 years of civil conflict in the country."
+          ]
+        },
+        {
+          "name": "United Methodist Church",
+          "quotes": [
+            "President Sirleaf addressing the 2008 General Conference of the United Methodist Church in Fort Worth, Texas"
+          ]
+        },
+        {
+          "name": "Council on Foreign Relations",
+          "quotes": [
+            "During an appearance at the Council on Foreign Relations in 2010, Sirleaf argued that the implementation of the TRC's recommended ban would unconstitutionally violate her right to due process."
+          ]
+        },
+        {
+          "name": "Unity Party",
+          "quotes": [
+            "In October 2010, the chairman of Sirleaf's Unity Party, Varney Sherman, argued that implementation of the recommendation would be unconstitutional, as Article 21(a) of the Constitution prohibits ex post facto laws, and Sirleaf had broken no law by financially supporting Taylor that imposed a ban from public office as a penalty."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "President",
+          "quotes": [
+            "President Sirleaf addressing the 2008 General Conference of the United Methodist Church in Fort Worth, Texas"
+          ]
+        },
+        {
+          "title": "chairman of Sirleaf's Unity Party",
+          "quotes": [
+            "In October 2010, the chairman of Sirleaf's Unity Party, Varney Sherman, argued that implementation of the recommendation would be unconstitutional, as Article 21(a) of the Constitution prohibits ex post facto laws, and Sirleaf had broken no law by financially supporting Taylor that imposed a ban from public office as a penalty."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Fort Worth, Texas",
+          "quotes": [
+            "President Sirleaf addressing the 2008 General Conference of the United Methodist Church in Fort Worth, Texas"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "President Sirleaf addressing the 2008 General Conference of the United Methodist Church in Fort Worth, Texas"
+        ],
+        "confidence": "high",
+        "notes": "While the exact time marker is not provided, the role of President is clearly mentioned in the context of a specific event."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [
+          6
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In October 2010, the chairman of Sirleaf's Unity Party, Varney Sherman, argued that implementation of the recommendation would be unconstitutional, as Article 21(a) of the Constitution prohibits ex post facto laws, and Sirleaf had broken no law by financially supporting Taylor that imposed a ban from public office as a penalty."
+        ],
+        "confidence": "high",
+        "notes": "The role of chairman of Sirleaf's Unity Party is clearly associated with the Unity Party and a specific time marker."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time_marker_ids and organization_ids, though the role of President is clearly mentioned."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

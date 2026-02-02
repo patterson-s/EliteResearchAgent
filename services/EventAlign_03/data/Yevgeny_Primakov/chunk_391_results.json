@@ -1,0 +1,150 @@
+{
+  "status": "success",
+  "chunk_id": 391,
+  "chunk_index": 0,
+  "source_url": "https://www.britannica.com/biography/Yevgeny-Primakov",
+  "title": "Yevgeny Primakov | Biography & Facts | Britannica",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "October 29, 1929",
+          "type": "point",
+          "quotes": [
+            "Yevgeny Primakov, (born October 29, 1929, Kiev, Ukraine, U.S.S.R. [now in Ukraine]—died June 26, 2015, Moscow, Russia) was a Russian politician who served as prime minister of Russia (1998–99)."
+          ]
+        },
+        {
+          "text": "June 26, 2015",
+          "type": "point",
+          "quotes": [
+            "Yevgeny Primakov, (born October 29, 1929, Kiev, Ukraine, U.S.S.R. [now in Ukraine]—died June 26, 2015, Moscow, Russia) was a Russian politician who served as prime minister of Russia (1998–99)."
+          ]
+        },
+        {
+          "text": "1998–99",
+          "type": "range",
+          "quotes": [
+            "Yevgeny Primakov, (born October 29, 1929, Kiev, Ukraine, U.S.S.R. [now in Ukraine]—died June 26, 2015, Moscow, Russia) was a Russian politician who served as prime minister of Russia (1998–99)."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Soviet Union",
+          "quotes": [
+            "Primakov grew up with his mother in Tbilisi, Georgia, then a republic of the Soviet Union."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "prime minister of Russia",
+          "quotes": [
+            "Yevgeny Primakov, (born October 29, 1929, Kiev, Ukraine, U.S.S.R. [now in Ukraine]—died June 26, 2015, Moscow, Russia) was a Russian politician who served as prime minister of Russia (1998–99)."
+          ]
+        },
+        {
+          "title": "Russian politician",
+          "quotes": [
+            "Yevgeny Primakov, (born October 29, 1929, Kiev, Ukraine, U.S.S.R. [now in Ukraine]—died June 26, 2015, Moscow, Russia) was a Russian politician who served as prime minister of Russia (1998–99)."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Kiev, Ukraine",
+          "quotes": [
+            "Yevgeny Primakov, (born October 29, 1929, Kiev, Ukraine, U.S.S.R. [now in Ukraine]—died June 26, 2015, Moscow, Russia) was a Russian politician who served as prime minister of Russia (1998–99)."
+          ]
+        },
+        {
+          "place": "Moscow, Russia",
+          "quotes": [
+            "Yevgeny Primakov, (born October 29, 1929, Kiev, Ukraine, U.S.S.R. [now in Ukraine]—died June 26, 2015, Moscow, Russia) was a Russian politician who served as prime minister of Russia (1998–99)."
+          ]
+        },
+        {
+          "place": "Tbilisi, Georgia",
+          "quotes": [
+            "Primakov grew up with his mother in Tbilisi, Georgia, then a republic of the Soviet Union."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Yevgeny Primakov, (born October 29, 1929, Kiev, Ukraine, U.S.S.R. [now in Ukraine]—died June 26, 2015, Moscow, Russia) was a Russian politician who served as prime minister of Russia (1998–99)."
+        ],
+        "confidence": "high",
+        "notes": "The role of prime minister of Russia and the location Moscow, Russia are clearly linked to the time period 1998–99."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "Primakov grew up with his mother in Tbilisi, Georgia, then a republic of the Soviet Union."
+        ],
+        "confidence": "medium",
+        "notes": "While there is no specific role mentioned, the affiliation with the Soviet Union and the location Tbilisi, Georgia are linked, but no specific time period is provided."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time period for the event, making it difficult to place in chronological context."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "No specific role mentioned, only location and organization are provided."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

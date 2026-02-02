@@ -1,0 +1,218 @@
+{
+  "status": "success",
+  "chunk_id": 3677,
+  "chunk_index": 42,
+  "source_url": "https://en.wikipedia.org/wiki/Jens_Stoltenberg",
+  "title": "Jens Stoltenberg - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "10 November 2010",
+          "type": "point",
+          "quotes": [
+            "Verdens Gang (in Norwegian). NTB. 10 November 2010."
+          ]
+        },
+        {
+          "text": "22 July 2011",
+          "type": "point",
+          "quotes": [
+            "Thomas Ege, Rune (22 July 2011)."
+          ]
+        },
+        {
+          "text": "22 October 2011",
+          "type": "point",
+          "quotes": [
+            "Johanson, Marianne (22 October 2011)."
+          ]
+        },
+        {
+          "text": "3 September 2012",
+          "type": "point",
+          "quotes": [
+            "Dagens Næringsliv (in Norwegian). 3 September 2012."
+          ]
+        },
+        {
+          "text": "18 October 2012",
+          "type": "point",
+          "quotes": [
+            "Ansa.no (in Norwegian). 18 October 2012."
+          ]
+        },
+        {
+          "text": "14 March 2009",
+          "type": "point",
+          "quotes": [
+            "Helljesen, Vilde (14 March 2009)."
+          ]
+        },
+        {
+          "text": "9 October 2019",
+          "type": "point",
+          "quotes": [
+            "Discogs. Archived from the original on 9 October 2019. Retrieved 9 October 2019."
+          ]
+        },
+        {
+          "text": "28 June 2025",
+          "type": "point",
+          "quotes": [
+            "Retrieved 28 June 2025."
+          ]
+        },
+        {
+          "text": "17 January 2013",
+          "type": "point",
+          "quotes": [
+            "Retrieved 17 January 2013."
+          ]
+        },
+        {
+          "text": "23 July 2009",
+          "type": "point",
+          "quotes": [
+            "Retrieved 23 July 2009."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Ministry of Justice",
+          "quotes": [
+            "The Ministry of Justice will assess whether Prime Minister Jens Stoltenberg (Labour Party) is competent to participate in the government's consideration of the Report on Drugs, which has recently been sent for consultation."
+          ]
+        },
+        {
+          "name": "Labour Party",
+          "quotes": [
+            "Prime Minister Jens Stoltenberg (Labour Party)",
+            "Jens Stoltenberg's 50th birthday gift from the Labor Party, LO and several trade unions",
+            "Labour (Party) paid taxes for Jens' boat gift"
+          ]
+        },
+        {
+          "name": "LO",
+          "quotes": [
+            "Jens Stoltenberg's 50th birthday gift from the Labor Party, LO and several trade unions",
+            "Labour (Party) paid taxes for Jens' boat gift"
+          ]
+        },
+        {
+          "name": "VG Nett",
+          "quotes": [
+            "(VG Nett) Jens Stoltenbergs 50-årsgave fra Arbeiderpartiet, LO og flere fagforbund får opposisjonen til å rase: En fritidsbåt til nesten 380.000 kroner."
+          ]
+        },
+        {
+          "name": "VG",
+          "quotes": [
+            "(VG) Først fikk Jens Stoltenberg en båt til 380000 kroner i 50-årsgave fra Ap og LO."
+          ]
+        },
+        {
+          "name": "Ap",
+          "quotes": [
+            "(VG) Først fikk Jens Stoltenberg en båt til 380000 kroner i 50-årsgave fra Ap og LO."
+          ]
+        },
+        {
+          "name": "NRK",
+          "quotes": [
+            "Oslo, Norway: NRK."
+          ]
+        },
+        {
+          "name": "Discogs",
+          "quotes": [
+            "Discogs. Archived from the original on 9 October 2019."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Prime Minister",
+          "quotes": [
+            "The Ministry of Justice will assess whether Prime Minister Jens Stoltenberg (Labour Party) is competent to participate in the government's consideration of the Report on Drugs, which has recently been sent for consultation."
+          ]
+        },
+        {
+          "title": "Board member",
+          "quotes": [
+            "Axel Stoltenberg, Board member"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Oslo, Norway",
+          "quotes": [
+            "Oslo, Norway: NRK."
+          ]
+        },
+        {
+          "place": "China",
+          "quotes": [
+            "Stoltenberg to China"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "The Ministry of Justice will assess whether Prime Minister Jens Stoltenberg (Labour Party) is competent to participate in the government's consideration of the Report on Drugs, which has recently been sent for consultation.",
+          "Oslo, Norway: NRK."
+        ],
+        "confidence": "high",
+        "notes": "Prime Minister role is clearly associated with the Ministry of Justice and Labour Party, though no specific time markers are provided."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "No time markers provided for the event, making it impossible to verify temporal coherence."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers, which are typically expected for career position events."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

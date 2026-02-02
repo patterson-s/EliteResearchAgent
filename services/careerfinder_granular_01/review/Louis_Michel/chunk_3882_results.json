@@ -1,0 +1,212 @@
+{
+  "status": "success",
+  "chunk_id": 3882,
+  "chunk_index": 11,
+  "source_url": "https://grokipedia.com/page/Louis_Michel",
+  "title": "Louis Michel",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2006",
+          "type": "point",
+          "quotes": [
+            "In the wake of the DRC's 2006 presidential elections, marred by international observer reports of irregularities and fraud favoring Kabila"
+          ]
+        },
+        {
+          "text": "July 2006",
+          "type": "point",
+          "quotes": [
+            "A July 2006 Belgian petition, initiated by activist Anja Vanduysen, demanded Michel's resignation"
+          ]
+        },
+        {
+          "text": "November 2008",
+          "type": "point",
+          "quotes": [
+            "Similarly, in November 2008, Belgian Foreign Minister Karel de Gucht publicly rebuked Michel"
+          ]
+        },
+        {
+          "text": "June 2010",
+          "type": "point",
+          "quotes": [
+            "In June 2010, during discussions surrounding the 50th anniversary of the Democratic Republic of the Congo's independence from Belgium"
+          ]
+        },
+        {
+          "text": "from 1885 to 1908",
+          "type": "range",
+          "quotes": [
+            "the monarch who personally ruled the Congo Free State from 1885 to 1908"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "European Union",
+          "quotes": [
+            "Michel advocating a 'partnership' model that minimized conditionalities on aid flows to high-corruption environments like the DRC"
+          ]
+        },
+        {
+          "name": "Mouvement Réformateur",
+          "quotes": [
+            "Louis Michel, then a Member of the European Parliament for the liberal Mouvement Réformateur"
+          ]
+        },
+        {
+          "name": "European Parliament",
+          "quotes": [
+            "Louis Michel, then a Member of the European Parliament for the liberal Mouvement Réformateur"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Member of the European Parliament",
+          "quotes": [
+            "Louis Michel, then a Member of the European Parliament for the liberal Mouvement Réformateur"
+          ]
+        },
+        {
+          "title": "Belgian Foreign Minister",
+          "quotes": [
+            "Belgian Foreign Minister Karel de Gucht publicly rebuked Michel"
+          ]
+        },
+        {
+          "title": "Belgium's development cooperation minister",
+          "quotes": [
+            "his son Charles Michel, then Belgium's development cooperation minister"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "DRC",
+          "quotes": [
+            "Michel advocating a 'partnership' model that minimized conditionalities on aid flows to high-corruption environments like the DRC"
+          ]
+        },
+        {
+          "place": "Congo",
+          "quotes": [
+            "publicly hailed the outcome as establishing Congo as a 'democratic state' for the first time since independence"
+          ]
+        },
+        {
+          "place": "Kinshasa",
+          "quotes": [
+            "familial and policy favoritism toward Kinshasa exacerbated governance impunity"
+          ]
+        },
+        {
+          "place": "Belgium",
+          "quotes": [
+            "A July 2006 Belgian petition, initiated by activist Anja Vanduysen, demanded Michel's resignation"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2,
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Louis Michel, then a Member of the European Parliament for the liberal Mouvement Réformateur"
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker, but organization and role are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Belgian Foreign Minister Karel de Gucht publicly rebuked Michel"
+        ],
+        "confidence": "high",
+        "notes": "Time marker and role are clear, but no specific organization mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "his son Charles Michel, then Belgium's development cooperation minister"
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker or organization, but role is clear."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and organization for the career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

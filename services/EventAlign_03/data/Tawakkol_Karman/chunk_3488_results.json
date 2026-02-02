@@ -1,0 +1,135 @@
+{
+  "status": "success",
+  "chunk_id": 3488,
+  "chunk_index": 9,
+  "source_url": "https://en.wikipedia.org/wiki/Tawakkol_Karman",
+  "title": "Tawakkol Karman - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2011",
+          "type": "point",
+          "quotes": [
+            "The 2011 prize is to be divided equally among the three recipients"
+          ]
+        }
+      ],
+      "organizations": [],
+      "roles": [
+        {
+          "title": "Nobel Peace Laureate",
+          "quotes": [
+            "Karman was the first Arab woman, the youngest person at that time to have become a Nobel Peace Laureate"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Sana'a",
+          "quotes": [
+            "Karman, while camped out in Sana'a during ongoing anti-government protests, said: 'I didn't expect it.'"
+          ]
+        },
+        {
+          "place": "Arab world",
+          "quotes": [
+            "I give this award to all of the youth and all of the women across the Arab world, in Egypt, in Tunisia."
+          ]
+        },
+        {
+          "place": "Egypt",
+          "quotes": [
+            "I give this award to all of the youth and all of the women across the Arab world, in Egypt, in Tunisia."
+          ]
+        },
+        {
+          "place": "Tunisia",
+          "quotes": [
+            "I give this award to all of the youth and all of the women across the Arab world, in Egypt, in Tunisia."
+          ]
+        },
+        {
+          "place": "Libya",
+          "quotes": [
+            "adding that it was also for 'Libya, Syria and Yemen and all the youth and women, this is a victory for our demand for citizenship and human rights.'"
+          ]
+        },
+        {
+          "place": "Syria",
+          "quotes": [
+            "adding that it was also for 'Libya, Syria and Yemen and all the youth and women, this is a victory for our demand for citizenship and human rights.'"
+          ]
+        },
+        {
+          "place": "Yemen",
+          "quotes": [
+            "adding that it was also for 'Libya, Syria and Yemen and all the youth and women, this is a victory for our demand for citizenship and human rights.'"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "supporting_quotes": [
+          "The 2011 prize is to be divided equally among the three recipients",
+          "Karman was the first Arab woman, the youngest person at that time to have become a Nobel Peace Laureate",
+          "Karman, while camped out in Sana'a during ongoing anti-government protests, said: 'I didn't expect it.'",
+          "I give this award to all of the youth and all of the women across the Arab world, in Egypt, in Tunisia.",
+          "adding that it was also for 'Libya, Syria and Yemen and all the youth and women, this is a victory for our demand for citizenship and human rights.'"
+        ],
+        "confidence": "high",
+        "notes": "The event is clearly an award based on the mention of 'Nobel Peace Laureate' and the context of receiving a prize."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the award."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Location information seems excessive and not directly tied to the award itself."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 0,
+      "awards": 1
+    }
+  }
+}

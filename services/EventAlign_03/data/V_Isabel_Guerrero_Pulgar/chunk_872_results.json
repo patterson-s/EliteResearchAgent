@@ -1,0 +1,105 @@
+{
+  "status": "success",
+  "chunk_id": 872,
+  "chunk_index": 15,
+  "source_url": "https://www.un.org/digital-emerging-technologies/sites/www.un.org.techenvoy/files/hlp_on_digital_cooperation-report_final.pdf",
+  "title": "hlp_on_digital_cooperation-report_final.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "in 2020",
+          "type": "point",
+          "quotes": [
+            "The World Health Assembly’s consideration of a global strategy for digital health in 2020 presents an opportunity to launch such projects"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "World Health Assembly",
+          "quotes": [
+            "The World Health Assembly’s consideration of a global strategy for digital health in 2020 presents an opportunity to launch such projects"
+          ]
+        },
+        {
+          "name": "Facebook",
+          "quotes": [
+            "such as Facebook, Twitter or Google may collect to drive their business models"
+          ]
+        },
+        {
+          "name": "Twitter",
+          "quotes": [
+            "such as Facebook, Twitter or Google may collect to drive their business models"
+          ]
+        },
+        {
+          "name": "Google",
+          "quotes": [
+            "such as Facebook, Twitter or Google may collect to drive their business models"
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": [
+        {
+          "place": "West Africa",
+          "quotes": [
+            "Aggregated data from individual patient cases was crucial to containing the Ebola outbreak in West Africa"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The World Health Assembly’s consideration of a global strategy for digital health in 2020 presents an opportunity to launch such projects"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit role mentioned, but the context suggests involvement with the World Health Assembly in 2020, likely in a professional capacity."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. While the context suggests involvement with the World Health Assembly, the specific role or responsibilities are not explicitly mentioned."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "The supporting quote does not explicitly state a career position but rather mentions an opportunity for the World Health Assembly. The inference of a professional capacity is indirect."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

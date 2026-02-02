@@ -1,0 +1,157 @@
+{
+  "status": "success",
+  "chunk_id": 2719,
+  "chunk_index": 0,
+  "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10722368/",
+  "title": "Searching for Meaning in the Life of Ellen Johnson-Sirleaf: A Call to Meaningful Responses to Tragedies - PMC",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "born in 1938",
+          "type": "point",
+          "quotes": [
+            "Ellen Johnson-Sirleaf, born in 1938, is Africa's first elected female head of state."
+          ]
+        },
+        {
+          "text": "2023",
+          "type": "point",
+          "quotes": [
+            "J Pers Oriented Res. 2023 Dec 7;9(2):93–103. doi: 10.17505/jpor.2023.25815"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Nelson Mandela University",
+          "quotes": [
+            "Tinashe Timothy Harry, Department of Industrial and Organisational Psychology, Nelson Mandela University, Port Elisabeth, South Africa."
+          ]
+        },
+        {
+          "name": "Department of Industrial and Organisational Psychology",
+          "quotes": [
+            "Tinashe Timothy Harry, Department of Industrial and Organisational Psychology, Nelson Mandela University, Port Elisabeth, South Africa."
+          ]
+        },
+        {
+          "name": "Person-Oriented Research",
+          "quotes": [
+            "© Person-Oriented Research, This article is distributed under the terms of the Creative Commons Attribution 4.0 International License"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Africa's first elected female head of state",
+          "quotes": [
+            "Ellen Johnson-Sirleaf, born in 1938, is Africa's first elected female head of state."
+          ]
+        },
+        {
+          "title": "Corresponding author",
+          "quotes": [
+            "Corresponding author: Tinashe Timothy Harry, Department of Industrial and Organisational Psychology, Nelson Mandela University, South Campus, Summerstrand, Gqeberha, Port Elizabeth 6031, South Africa."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Port Elisabeth, South Africa",
+          "quotes": [
+            "Tinashe Timothy Harry, Department of Industrial and Organisational Psychology, Nelson Mandela University, Port Elisabeth, South Africa."
+          ]
+        },
+        {
+          "place": "Summerstrand, Gqeberha, Port Elizabeth 6031, South Africa",
+          "quotes": [
+            "Corresponding author: Tinashe Timothy Harry, Department of Industrial and Organisational Psychology, Nelson Mandela University, South Campus, Summerstrand, Gqeberha, Port Elizabeth 6031, South Africa."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Ellen Johnson-Sirleaf, born in 1938, is Africa's first elected female head of state."
+        ],
+        "confidence": "high",
+        "notes": "Directly stated role with clear time marker."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1,
+          2
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0,
+          1
+        ],
+        "supporting_quotes": [
+          "Tinashe Timothy Harry, Department of Industrial and Organisational Psychology, Nelson Mandela University, Port Elisabeth, South Africa.",
+          "Corresponding author: Tinashe Timothy Harry, Department of Industrial and Organisational Psychology, Nelson Mandela University, South Campus, Summerstrand, Gqeberha, Port Elizabeth 6031, South Africa."
+        ],
+        "confidence": "high",
+        "notes": "Clear affiliation and role without explicit time marker."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "No time marker provided for the career position, making it difficult to place in a timeline."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The role 'Corresponding author' might not be a long-term career position, consider verifying if this is a one-time or recurring role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

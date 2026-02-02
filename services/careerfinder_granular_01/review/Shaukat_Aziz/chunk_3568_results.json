@@ -1,0 +1,190 @@
+{
+  "status": "success",
+  "chunk_id": 3568,
+  "chunk_index": 3,
+  "source_url": "https://en.wikipedia.org/wiki/Shaukat_Aziz",
+  "title": "Shaukat Aziz - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "12 October 1999",
+          "type": "point",
+          "quotes": [
+            "the United States after staging a coup d'état to deposed the people-elected prime minister Navaz Sharif on 12 October 1999."
+          ]
+        },
+        {
+          "text": "26 November 1999",
+          "type": "point",
+          "quotes": [
+            "On 26 November 1999, while addressing a gathering of influential lobbyists of the Pakistani American community, a political lobbying sub-body of the Association of Pakistani Physicians of North America (APPNA), Musharraf stated that: 'Shaukat Aziz has come to Pakistan with forty other financial experts who have offered free service to revive Pakistan's national economy'."
+          ]
+        },
+        {
+          "text": "November 1999",
+          "type": "point",
+          "quotes": [
+            "Aziz reportedly returned with Musharraf in November 1999 and took charge of the Finance ministry as its Finance Minister."
+          ]
+        },
+        {
+          "text": "1999",
+          "type": "point",
+          "quotes": [
+            "There was a ~70% decline in the national economy with the loss of $150 million (1999) to $600 million (2000), which constituted 0.21% of foreign direct investment (FDI) global flow."
+          ]
+        },
+        {
+          "text": "2000",
+          "type": "point",
+          "quotes": [
+            "There was a ~70% decline in the national economy with the loss of $150 million (1999) to $600 million (2000), which constituted 0.21% of foreign direct investment (FDI) global flow."
+          ]
+        },
+        {
+          "text": "2003",
+          "type": "point",
+          "quotes": [
+            "Shaukat Aziz with Paul Wolfowitz at The Pentagon, 2003."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Association of Pakistani Physicians of North America (APPNA)",
+          "quotes": [
+            "On 26 November 1999, while addressing a gathering of influential lobbyists of the Pakistani American community, a political lobbying sub-body of the Association of Pakistani Physicians of North America (APPNA), Musharraf stated that: 'Shaukat Aziz has come to Pakistan with forty other financial experts who have offered free service to revive Pakistan's national economy'."
+          ]
+        },
+        {
+          "name": "Finance ministry",
+          "quotes": [
+            "Aziz reportedly returned with Musharraf in November 1999 and took charge of the Finance ministry as its Finance Minister."
+          ]
+        },
+        {
+          "name": "Economic Coordination Committee of the Cabinet",
+          "quotes": [
+            "As Minister of Finance Aziz also headed the Economic Coordination Committee of the Cabinet, the Cabinet Committee on Investment, the executive committee of the National Economic Council, and the Cabinet Committee on Privatization."
+          ]
+        },
+        {
+          "name": "Cabinet Committee on Investment",
+          "quotes": [
+            "As Minister of Finance Aziz also headed the Economic Coordination Committee of the Cabinet, the Cabinet Committee on Investment, the executive committee of the National Economic Council, and the Cabinet Committee on Privatization."
+          ]
+        },
+        {
+          "name": "National Economic Council",
+          "quotes": [
+            "As Minister of Finance Aziz also headed the Economic Coordination Committee of the Cabinet, the Cabinet Committee on Investment, the executive committee of the National Economic Council, and the Cabinet Committee on Privatization."
+          ]
+        },
+        {
+          "name": "Cabinet Committee on Privatization",
+          "quotes": [
+            "As Minister of Finance Aziz also headed the Economic Coordination Committee of the Cabinet, the Cabinet Committee on Investment, the executive committee of the National Economic Council, and the Cabinet Committee on Privatization."
+          ]
+        },
+        {
+          "name": "The Pentagon",
+          "quotes": [
+            "Shaukat Aziz with Paul Wolfowitz at The Pentagon, 2003."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Finance Minister",
+          "quotes": [
+            "Aziz reportedly returned with Musharraf in November 1999 and took charge of the Finance ministry as its Finance Minister."
+          ]
+        },
+        {
+          "title": "Minister of Finance",
+          "quotes": [
+            "As Minister of Finance Aziz also headed the Economic Coordination Committee of the Cabinet, the Cabinet Committee on Investment, the executive committee of the National Economic Council, and the Cabinet Committee on Privatization."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "United States",
+          "quotes": [
+            "the United States after staging a coup d'état to deposed the people-elected prime minister Navaz Sharif on 12 October 1999.",
+            "After the 11 September attacks in the United States and Pakistan's role in the war on terror, Aziz travelled to the United States in order to"
+          ]
+        },
+        {
+          "place": "Pakistan",
+          "quotes": [
+            "Shaukat Aziz has come to Pakistan with forty other financial experts who have offered free service to revive Pakistan's national economy.",
+            "Initially there was a decline in the economy, and Aziz attributes this as 'state (Pakistan) unpleasant relations with international financial institutions.'",
+            "After the 11 September attacks in the United States and Pakistan's role in the war on terror, Aziz travelled to the United States in order to"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Aziz reportedly returned with Musharraf in November 1999 and took charge of the Finance ministry as its Finance Minister.",
+          "As Minister of Finance Aziz also headed the Economic Coordination Committee of the Cabinet, the Cabinet Committee on Investment, the executive committee of the National Economic Council, and the Cabinet Committee on Privatization."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role, organization, and time marker."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Multiple organizations (5) linked to a single career position, which seems excessive and may require further verification."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "The quote 'Aziz reportedly returned with Musharraf in November 1999 and took charge of the Finance ministry as its Finance Minister.' does not explicitly mention all the organizations linked to this event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

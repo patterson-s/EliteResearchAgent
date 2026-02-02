@@ -1,0 +1,101 @@
+{
+  "status": "success",
+  "chunk_id": 3855,
+  "chunk_index": 20,
+  "source_url": "https://www.pbs.org/wgbh/commandingheights/shared/minitext/int_ricardolagos.html",
+  "title": "Commanding Heights : Ricardo Lagos | on PBS",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1944",
+          "type": "point",
+          "quotes": [
+            "Bretton Woods set the agreements for the world in 1944, with Mr. Keynes and Mr. White [Harry Dexter-White, assistant secretary of the Treasury under FDR]."
+          ]
+        },
+        {
+          "text": "the near future",
+          "type": "point",
+          "quotes": [
+            "And I do think that some kind of discussion in this area is going to take place in the near future."
+          ]
+        },
+        {
+          "text": "beginning now",
+          "type": "point",
+          "quotes": [
+            "Informally, there has been a discussion on these issues that is beginning now."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Bretton Woods",
+          "quotes": [
+            "Where is the discussion going to take place? In Bretton Woods. Bretton Woods set the agreements for the world in 1944, with Mr. Keynes and Mr. White [Harry Dexter-White, assistant secretary of the Treasury under FDR]."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "assistant secretary of the Treasury under FDR",
+          "quotes": [
+            "Bretton Woods set the agreements for the world in 1944, with Mr. Keynes and Mr. White [Harry Dexter-White, assistant secretary of the Treasury under FDR]."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Bretton Woods set the agreements for the world in 1944, with Mr. Keynes and Mr. White [Harry Dexter-White, assistant secretary of the Treasury under FDR]."
+        ],
+        "confidence": "high",
+        "notes": "The role is clearly associated with the time marker 1944, indicating a career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location information, despite the role being associated with Bretton Woods."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "The quote mentions the role in the context of Bretton Woods agreements but does not explicitly state it as a career position for Mr. White."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

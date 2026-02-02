@@ -1,0 +1,213 @@
+{
+  "status": "success",
+  "chunk_id": 3248,
+  "chunk_index": 0,
+  "source_url": "https://en.wikipedia.org/wiki/Ngozi_Okonjo-Iweala",
+  "title": "Ngozi Okonjo-Iweala - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "since March 2021",
+          "type": "open",
+          "quotes": [
+            "Ngozi Okonjo-Iweala...has been serving as the director-general of the World Trade Organization since March 2021."
+          ]
+        },
+        {
+          "text": "17 August 2011 – 29 May 2015",
+          "type": "range",
+          "quotes": [
+            "Minister of Finance\nIn office\n17 August 2011 – 29 May 2015"
+          ]
+        },
+        {
+          "text": "15 July 2003 – 21 June 2006",
+          "type": "range",
+          "quotes": [
+            "In office\n15 July 2003 – 21 June 2006"
+          ]
+        },
+        {
+          "text": "21 June 2006 – 30 August 2006",
+          "type": "range",
+          "quotes": [
+            "Minister of Foreign Affairs\nIn office\n21 June 2006 – 30 August 2006"
+          ]
+        },
+        {
+          "text": "17 August 2011 – 29 May 2015",
+          "type": "range",
+          "quotes": [
+            "Coordinating Minister for the Economy\nIn office\n17 August 2011 – 29 May 2015"
+          ]
+        },
+        {
+          "text": "(1954-06-13)\n13 June 1954\n(age 71)",
+          "type": "point",
+          "quotes": [
+            "Born\n(\n1954-06-13\n)\n13 June 1954\n(age 71)\nOgwashi Ukwu,\nNigeria"
+          ]
+        },
+        {
+          "text": "Nigeria (1954–present)\nUnited States (2019–present)",
+          "type": "open",
+          "quotes": [
+            "Citizenship\nNigeria (1954–present)\nUnited States (2019–present)"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "World Trade Organization",
+          "quotes": [
+            "Ngozi Okonjo-Iweala...has been serving as the director-general of the World Trade Organization since March 2021."
+          ]
+        },
+        {
+          "name": "Harvard University",
+          "quotes": [
+            "Education\nHarvard University\n(\nBA\n)"
+          ]
+        },
+        {
+          "name": "Massachusetts Institute of Technology",
+          "quotes": [
+            "Massachusetts Institute of Technology\n(\nMA\n,\nPhD\n)"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Director-General",
+          "quotes": [
+            "Ngozi Okonjo-Iweala...has been serving as the director-general of the World Trade Organization since March 2021."
+          ]
+        },
+        {
+          "title": "Minister of Finance",
+          "quotes": [
+            "Minister of Finance\nIn office\n17 August 2011 – 29 May 2015"
+          ]
+        },
+        {
+          "title": "Minister of Foreign Affairs",
+          "quotes": [
+            "Minister of Foreign Affairs\nIn office\n21 June 2006 – 30 August 2006"
+          ]
+        },
+        {
+          "title": "Coordinating Minister for the Economy",
+          "quotes": [
+            "Coordinating Minister for the Economy\nIn office\n17 August 2011 – 29 May 2015"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Ogwashi Ukwu, Nigeria",
+          "quotes": [
+            "Born\n(\n1954-06-13\n)\n13 June 1954\n(age 71)\nOgwashi Ukwu,\nNigeria"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Ngozi Okonjo-Iweala...has been serving as the director-general of the World Trade Organization since March 2021."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1,
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Minister of Finance\nIn office\n17 August 2011 – 29 May 2015",
+          "Coordinating Minister for the Economy\nIn office\n17 August 2011 – 29 May 2015"
+        ],
+        "confidence": "high",
+        "notes": "Simultaneous roles as Minister of Finance and Coordinating Minister for the Economy."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Minister of Foreign Affairs\nIn office\n21 June 2006 – 30 August 2006"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time and role."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

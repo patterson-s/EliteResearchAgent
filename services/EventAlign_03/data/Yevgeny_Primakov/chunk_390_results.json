@@ -1,0 +1,366 @@
+{
+  "status": "success",
+  "chunk_id": 390,
+  "chunk_index": 12,
+  "source_url": "https://en.wikipedia.org/wiki/Yevgeny_Primakov",
+  "title": "Yevgeny Primakov - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Order of the Badge of Honour",
+          "quotes": [
+            "Recipients of the Order of the Badge of Honour"
+          ]
+        },
+        {
+          "name": "Order of Friendship of Peoples",
+          "quotes": [
+            "Recipients of the Order of Friendship of Peoples"
+          ]
+        },
+        {
+          "name": "Order of Honour (Russia)",
+          "quotes": [
+            "Recipients of the Order of Honour (Russia)"
+          ]
+        },
+        {
+          "name": "Order of Prince Yaroslav the Wise",
+          "quotes": [
+            "Recipients of the Order of Prince Yaroslav the Wise, 5th class"
+          ]
+        },
+        {
+          "name": "Order of the Red Banner of Labour",
+          "quotes": [
+            "Recipients of the Order of the Red Banner of Labour"
+          ]
+        },
+        {
+          "name": "USSR State Prize",
+          "quotes": [
+            "Recipients of the USSR State Prize"
+          ]
+        },
+        {
+          "name": "State Prize of the Russian Federation",
+          "quotes": [
+            "State Prize of the Russian Federation laureates"
+          ]
+        },
+        {
+          "name": "KGB",
+          "quotes": [
+            "KGB officers"
+          ]
+        },
+        {
+          "name": "Pravda",
+          "quotes": [
+            "Pravda people"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "prime ministers",
+          "quotes": [
+            "Jewish prime ministers"
+          ]
+        },
+        {
+          "title": "politicians",
+          "quotes": [
+            "Jewish Russian politicians"
+          ]
+        },
+        {
+          "title": "KGB officers",
+          "quotes": [
+            "KGB officers"
+          ]
+        },
+        {
+          "title": "Arabists",
+          "quotes": [
+            "Russian Arabists",
+            "Soviet Arabists"
+          ]
+        },
+        {
+          "title": "orientalists",
+          "quotes": [
+            "Russian orientalists",
+            "Soviet orientalists"
+          ]
+        },
+        {
+          "title": "political scientists",
+          "quotes": [
+            "Russian political scientists"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Russia",
+          "quotes": [
+            "Russian people of Jewish descent",
+            "Order of Honour (Russia)"
+          ]
+        },
+        {
+          "place": "Soviet",
+          "quotes": [
+            "Soviet Arabists",
+            "Soviet orientalists"
+          ]
+        },
+        {
+          "place": "Novodevichy Cemetery",
+          "quotes": [
+            "Burials at Novodevichy Cemetery"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Recipients of the Order of the Badge of Honour"
+        ],
+        "confidence": "high",
+        "notes": "Clear award indicator with no associated role or time marker."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Recipients of the Order of Friendship of Peoples"
+        ],
+        "confidence": "high",
+        "notes": "Clear award indicator with no associated role or time marker."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Recipients of the Order of Honour (Russia)"
+        ],
+        "confidence": "high",
+        "notes": "Clear award indicator with no associated role or time marker."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Recipients of the Order of Prince Yaroslav the Wise, 5th class"
+        ],
+        "confidence": "high",
+        "notes": "Clear award indicator with no associated role or time marker."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Recipients of the Order of the Red Banner of Labour"
+        ],
+        "confidence": "high",
+        "notes": "Clear award indicator with no associated role or time marker."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Recipients of the USSR State Prize"
+        ],
+        "confidence": "high",
+        "notes": "Clear award indicator with no associated role or time marker."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          6
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "State Prize of the Russian Federation laureates"
+        ],
+        "confidence": "high",
+        "notes": "Clear award indicator with no associated role or time marker."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          7
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "KGB officers"
+        ],
+        "confidence": "high",
+        "notes": "Clear career position indicator with associated organization and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          3,
+          4
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Russian Arabists",
+          "Soviet Arabists",
+          "Russian orientalists",
+          "Soviet orientalists"
+        ],
+        "confidence": "medium",
+        "notes": "Roles are linked through shared location and context, but no specific organization is mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          5
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Russian political scientists"
+        ],
+        "confidence": "medium",
+        "notes": "No specific organization or location mentioned, but role is clearly a career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 4,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 5,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 6,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 7,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 8,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 9,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location for career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 10,
+      "valid": 7,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 7
+    }
+  }
+}

@@ -1,0 +1,251 @@
+{
+  "status": "success",
+  "chunk_id": 3079,
+  "chunk_index": 4,
+  "source_url": "https://en.wikipedia.org/wiki/Queen_Rania_of_Jordan",
+  "title": "Queen Rania of Jordan - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2016",
+          "type": "point",
+          "quotes": [
+            "With Sajid Javid at the Supporting Syria and the Region conference, 2016"
+          ]
+        },
+        {
+          "text": "17 May 2006",
+          "type": "point",
+          "quotes": [
+            "a half-hour television interview on The Oprah Winfrey Show on 17 May 2006"
+          ]
+        },
+        {
+          "text": "September 2006",
+          "type": "point",
+          "quotes": [
+            "In September 2006, Rania also joined the United Nations Foundation board of directors."
+          ]
+        },
+        {
+          "text": "September 2003",
+          "type": "point",
+          "quotes": [
+            "In September 2003, Rania accepted an invitation to join the board of directors of the Foundation for International Community Assistance (FINCA)."
+          ]
+        },
+        {
+          "text": "February 2008",
+          "type": "point",
+          "quotes": [
+            "the official opening of FINCA Jordan in February 2008."
+          ]
+        },
+        {
+          "text": "October 2020",
+          "type": "point",
+          "quotes": [
+            "In October 2020, Rania was named as a member of the Earthshot Prize Council"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Jeddah Economic Forum",
+          "quotes": [
+            "regionally and internationally, Rania has campaigned for a greater understanding between cultures in such high-profile forums as the Jeddah Economic Forum"
+          ]
+        },
+        {
+          "name": "Harvard Kennedy School",
+          "quotes": [
+            "Harvard Kennedy School at Harvard University"
+          ]
+        },
+        {
+          "name": "Harvard University",
+          "quotes": [
+            "Harvard Kennedy School at Harvard University"
+          ]
+        },
+        {
+          "name": "Skoll Foundation",
+          "quotes": [
+            "and the Skoll Foundation in the UK."
+          ]
+        },
+        {
+          "name": "United Nations Foundation",
+          "quotes": [
+            "In September 2006, Rania also joined the United Nations Foundation board of directors."
+          ]
+        },
+        {
+          "name": "Foundation for International Community Assistance (FINCA)",
+          "quotes": [
+            "In September 2003, Rania accepted an invitation to join the board of directors of the Foundation for International Community Assistance (FINCA)."
+          ]
+        },
+        {
+          "name": "Earthshot Prize Council",
+          "quotes": [
+            "In October 2020, Rania was named as a member of the Earthshot Prize Council"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "board of directors",
+          "quotes": [
+            "In September 2006, Rania also joined the United Nations Foundation board of directors."
+          ]
+        },
+        {
+          "title": "board of directors",
+          "quotes": [
+            "In September 2003, Rania accepted an invitation to join the board of directors of the Foundation for International Community Assistance (FINCA)."
+          ]
+        },
+        {
+          "title": "member",
+          "quotes": [
+            "In October 2020, Rania was named as a member of the Earthshot Prize Council"
+          ]
+        },
+        {
+          "title": "emissary",
+          "quotes": [
+            "An emissary for the United Nations' International Year of Microcredit in 2005"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "UK",
+          "quotes": [
+            "and the Skoll Foundation in the UK."
+          ]
+        },
+        {
+          "place": "Jordan",
+          "quotes": [
+            "the official opening of FINCA Jordan in February 2008."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In September 2003, Rania accepted an invitation to join the board of directors of the Foundation for International Community Assistance (FINCA)."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In September 2006, Rania also joined the United Nations Foundation board of directors."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [
+          6
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In October 2020, Rania was named as a member of the Earthshot Prize Council"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "An emissary for the United Nations' International Year of Microcredit in 2005"
+        ],
+        "confidence": "medium",
+        "notes": "No clear time marker or organization, but role is clearly a career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and organization information, though role is clearly a career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 3,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

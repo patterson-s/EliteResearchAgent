@@ -1,0 +1,273 @@
+{
+  "status": "success",
+  "chunk_id": 440,
+  "chunk_index": 2,
+  "source_url": "https://www.hoover.org/sites/default/files/research/docs/clm10_rs.pdf",
+  "title": "clm10_rs.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "March 2003",
+          "type": "point",
+          "quotes": [
+            "Qian claims to have gotten the idea for the book after his retirement from the State Council in March 2003"
+          ]
+        },
+        {
+          "text": "1940s",
+          "type": "point",
+          "quotes": [
+            "a habit he developed as an underground party cadre in the 1940s"
+          ]
+        },
+        {
+          "text": "2000 –2003",
+          "type": "range",
+          "quotes": [
+            "He also appends five very interesting speeches he delivered during the 2000 –2003 time frame"
+          ]
+        },
+        {
+          "text": "1988 –98",
+          "type": "range",
+          "quotes": [
+            "covering only Qian’s tenure as foreign minister (1988 –98)"
+          ]
+        },
+        {
+          "text": "1989",
+          "type": "point",
+          "quotes": [
+            "1989 visit to Beijing of former chairman of the Presidium of the Supreme Soviet of the Union of Soviet Socialist Republics Mikhail Gorbachev"
+          ]
+        },
+        {
+          "text": "1989",
+          "type": "point",
+          "quotes": [
+            "China’s role in the 1989 Paris Peace Accords"
+          ]
+        },
+        {
+          "text": "1990",
+          "type": "point",
+          "quotes": [
+            "China’s role in the United Nations Security Council’s consideration of sanctions against Iraq after that country’s invasion of Kuwait in 1990"
+          ]
+        },
+        {
+          "text": "1989",
+          "type": "point",
+          "quotes": [
+            "the funeral of Japan’s Emperor Hirohito in 1989"
+          ]
+        },
+        {
+          "text": "1992",
+          "type": "point",
+          "quotes": [
+            "the normalization of China’s relations with South Korea in 1992"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "State Council",
+          "quotes": [
+            "his retirement from the State Council in March 2003"
+          ]
+        },
+        {
+          "name": "Beijing University Institute of International Relations",
+          "quotes": [
+            "speeches he delivered during the 2000 –2003 time frame to the Beijing University Institute of International Relations"
+          ]
+        },
+        {
+          "name": "Presidium of the Supreme Soviet of the Union of Soviet Socialist Republics",
+          "quotes": [
+            "former chairman of the Presidium of the Supreme Soviet of the Union of Soviet Socialist Republics Mikhail Gorbachev"
+          ]
+        },
+        {
+          "name": "United Nations Security Council",
+          "quotes": [
+            "China’s role in the United Nations Security Council’s consideration of sanctions against Iraq"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "underground party cadre",
+          "quotes": [
+            "a habit he developed as an underground party cadre in the 1940s"
+          ]
+        },
+        {
+          "title": "foreign minister",
+          "quotes": [
+            "covering only Qian’s tenure as foreign minister (1988 –98)"
+          ]
+        },
+        {
+          "title": "(honorary) director",
+          "quotes": [
+            "where he served as (honorary) director"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Beijing",
+          "quotes": [
+            "1989 visit to Beijing of former chairman of the Presidium of the Supreme Soviet of the Union of Soviet Socialist Republics Mikhail Gorbachev"
+          ]
+        },
+        {
+          "place": "Paris",
+          "quotes": [
+            "The Paris Conference on the Cambodia Question"
+          ]
+        },
+        {
+          "place": "Baghdad",
+          "quotes": [
+            "Flying to Baghdad"
+          ]
+        },
+        {
+          "place": "Tokyo",
+          "quotes": [
+            "‘Funeral Diplomacy’ in Tokyo"
+          ]
+        },
+        {
+          "place": "Seoul",
+          "quotes": [
+            "Connecting with Seoul"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "a habit he developed as an underground party cadre in the 1940s"
+        ],
+        "confidence": "high",
+        "notes": "Clear role mentioned with specific time frame."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "covering only Qian’s tenure as foreign minister (1988 –98)"
+        ],
+        "confidence": "high",
+        "notes": "Clear role and time frame mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "his retirement from the State Council in March 2003"
+        ],
+        "confidence": "high",
+        "notes": "Retirement implies previous active role at the State Council."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "speeches he delivered during the 2000 –2003 time frame to the Beijing University Institute of International Relations"
+        ],
+        "confidence": "medium",
+        "notes": "Speeches delivered at an organization, but role is not explicitly stated."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Role is missing, though retirement implies a previous active role."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Role is missing, though speeches imply some affiliation."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position, but role is not explicitly stated."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 2,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

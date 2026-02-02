@@ -1,0 +1,85 @@
+{
+  "status": "success",
+  "chunk_id": 3842,
+  "chunk_index": 7,
+  "source_url": "https://www.pbs.org/wgbh/commandingheights/shared/minitext/int_ricardolagos.html",
+  "title": "Commanding Heights : Ricardo Lagos | on PBS",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Parliament",
+          "quotes": [
+            "was a political decision taken by the citizens represented in Parliament, and they decided, look, we are going to have four years of compulsory schooling."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "minister of public works",
+          "quotes": [
+            "I was minister of public works, and as such I had to provide water in rural communities."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Southern part of Chile",
+          "quotes": [
+            "I got a question from somebody [in the audience from a city] in the Southern part of Chile."
+          ]
+        },
+        {
+          "place": "Northern part of Chile",
+          "quotes": [
+            "So either you go to the Northern part of Chile, or you do not have a scanner."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "I was minister of public works, and as such I had to provide water in rural communities."
+        ],
+        "confidence": "high",
+        "notes": "No organization or location directly linked to the role in the quotes, but the role itself indicates a career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers, organization, and location information for the career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

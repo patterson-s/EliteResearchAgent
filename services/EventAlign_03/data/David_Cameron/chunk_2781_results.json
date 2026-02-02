@@ -1,0 +1,289 @@
+{
+  "status": "success",
+  "chunk_id": 2781,
+  "chunk_index": 0,
+  "source_url": "https://en.wikipedia.org/wiki/David_Cameron",
+  "title": "David Cameron - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2005–2010",
+          "type": "range",
+          "quotes": [
+            "Term as Leader of the Opposition (2005–2010)"
+          ]
+        },
+        {
+          "text": "2010–2016",
+          "type": "range",
+          "quotes": [
+            "Premiership (2010–2016)"
+          ]
+        },
+        {
+          "text": "2016–present",
+          "type": "open",
+          "quotes": [
+            "Post-premiership (2016–present)"
+          ]
+        },
+        {
+          "text": "2023–2024",
+          "type": "range",
+          "quotes": [
+            "Foreign Secretary (2023–2024)"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Conservative Research Department",
+          "quotes": [
+            "Conservative Research Department"
+          ]
+        },
+        {
+          "name": "Carlton",
+          "quotes": [
+            "Carlton"
+          ]
+        },
+        {
+          "name": "European Conservatives and Reformists",
+          "quotes": [
+            "European Conservatives and Reformists"
+          ]
+        },
+        {
+          "name": "NATO",
+          "quotes": [
+            "NATO military intervention in Libya"
+          ]
+        },
+        {
+          "name": "NYU Abu Dhabi",
+          "quotes": [
+            "NYU Abu Dhabi"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Special adviser to the chancellor",
+          "quotes": [
+            "Special adviser to the chancellor"
+          ]
+        },
+        {
+          "title": "Special Adviser to the Home Secretary",
+          "quotes": [
+            "Special Adviser to the Home Secretary"
+          ]
+        },
+        {
+          "title": "Leader of the Opposition",
+          "quotes": [
+            "Term as Leader of the Opposition (2005–2010)"
+          ]
+        },
+        {
+          "title": "Prime Minister",
+          "quotes": [
+            "Premiership (2010–2016)"
+          ]
+        },
+        {
+          "title": "Foreign Secretary",
+          "quotes": [
+            "Foreign Secretary (2023–2024)"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "South Africa",
+          "quotes": [
+            "South Africa"
+          ]
+        },
+        {
+          "place": "Libya",
+          "quotes": [
+            "NATO military intervention in Libya"
+          ]
+        },
+        {
+          "place": "Falklands",
+          "quotes": [
+            "Falklands"
+          ]
+        },
+        {
+          "place": "Saudi Arabia",
+          "quotes": [
+            "Saudi Arabia"
+          ]
+        },
+        {
+          "place": "Sri Lanka",
+          "quotes": [
+            "Sri Lanka"
+          ]
+        },
+        {
+          "place": "Turkey",
+          "quotes": [
+            "Turkey"
+          ]
+        },
+        {
+          "place": "Israel",
+          "quotes": [
+            "Israel"
+          ]
+        },
+        {
+          "place": "Iraq",
+          "quotes": [
+            "Military intervention in Iraq and Syria"
+          ]
+        },
+        {
+          "place": "Syria",
+          "quotes": [
+            "Military intervention in Iraq and Syria"
+          ]
+        },
+        {
+          "place": "India",
+          "quotes": [
+            "India"
+          ]
+        },
+        {
+          "place": "China",
+          "quotes": [
+            "China"
+          ]
+        },
+        {
+          "place": "Russia",
+          "quotes": [
+            "Russia"
+          ]
+        },
+        {
+          "place": "Abu Dhabi",
+          "quotes": [
+            "NYU Abu Dhabi"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Term as Leader of the Opposition (2005–2010)"
+        ],
+        "confidence": "high",
+        "notes": "Clear role and time period, no organization mentioned"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Premiership (2010–2016)"
+        ],
+        "confidence": "high",
+        "notes": "Clear role and time period, no organization mentioned"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Foreign Secretary (2023–2024)"
+        ],
+        "confidence": "high",
+        "notes": "Clear role and time period, no organization mentioned"
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          },
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "Time period 2023–2024 overlaps with the open-ended period 2016–present, which may need clarification."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

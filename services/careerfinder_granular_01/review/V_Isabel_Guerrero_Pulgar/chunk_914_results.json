@@ -1,0 +1,171 @@
+{
+  "status": "success",
+  "chunk_id": 914,
+  "chunk_index": 57,
+  "source_url": "https://www.un.org/digital-emerging-technologies/sites/www.un.org.techenvoy/files/hlp_on_digital_cooperation-report_final.pdf",
+  "title": "hlp_on_digital_cooperation-report_final.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Member States",
+          "quotes": [
+            "support Member States in their consultations on these issues."
+          ]
+        },
+        {
+          "name": "Governments",
+          "quotes": [
+            "20 eminent leaders from Governments, private sector, academia, the technical community, and civil society"
+          ]
+        },
+        {
+          "name": "private sector",
+          "quotes": [
+            "20 eminent leaders from Governments, private sector, academia, the technical community, and civil society",
+            "consult widely with governments, private sector, academia, technical community, civil society, and inter-governmental organisations"
+          ]
+        },
+        {
+          "name": "academia",
+          "quotes": [
+            "20 eminent leaders from Governments, private sector, academia, the technical community, and civil society",
+            "consult widely with governments, private sector, academia, technical community, civil society, and inter-governmental organisations"
+          ]
+        },
+        {
+          "name": "technical community",
+          "quotes": [
+            "20 eminent leaders from Governments, private sector, academia, the technical community, and civil society",
+            "consult widely with governments, private sector, academia, technical community, civil society, and inter-governmental organisations"
+          ]
+        },
+        {
+          "name": "civil society",
+          "quotes": [
+            "20 eminent leaders from Governments, private sector, academia, the technical community, and civil society",
+            "consult widely with governments, private sector, academia, technical community, civil society, and inter-governmental organisations"
+          ]
+        },
+        {
+          "name": "inter-governmental organisations",
+          "quotes": [
+            "consult widely with governments, private sector, academia, technical community, civil society, and inter-governmental organisations"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "co-chairs",
+          "quotes": [
+            "led by two co-chairs."
+          ]
+        },
+        {
+          "title": "Panel members",
+          "quotes": [
+            "The Panel members will serve in their personal capacity."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "20 eminent leaders from Governments, private sector, academia, the technical community, and civil society",
+          "The Panel members will serve in their personal capacity."
+        ],
+        "confidence": "medium",
+        "notes": "No specific time markers provided, but the role of Panel members is clearly associated with various organizations. Confidence is medium due to lack of temporal information."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "support Member States in their consultations on these issues.",
+          "consult widely with governments, private sector, academia, technical community, civil society, and inter-governmental organisations",
+          "led by two co-chairs."
+        ],
+        "confidence": "medium",
+        "notes": "No specific time markers provided, but the role of co-chairs is clearly associated with various organizations. Confidence is medium due to lack of temporal information."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers, making it difficult to establish temporal coherence."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quotes mention 'Panel members' but do not explicitly state the role or responsibilities, making the classification as 'career_position' somewhat uncertain."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers, making it difficult to establish temporal coherence."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quotes mention 'co-chairs' and responsibilities, but the lack of explicit temporal information and clear role definition makes the classification as 'career_position' somewhat uncertain."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

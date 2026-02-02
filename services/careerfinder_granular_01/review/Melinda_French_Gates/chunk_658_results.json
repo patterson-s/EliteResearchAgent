@@ -1,0 +1,162 @@
+{
+  "status": "success",
+  "chunk_id": 658,
+  "chunk_index": 0,
+  "source_url": "https://www.linkedin.com/in/melindagates",
+  "title": "Melinda French Gates - Founder of Pivotal. Co-founder of the Gates Foundation. Author of The Moment of Lift & The Next Day. | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Pivotal",
+          "quotes": [
+            "Founder of Pivotal. Co-founder of the Gates Foundation. Author of The Moment of Lift & The Next Day."
+          ]
+        },
+        {
+          "name": "Gates Foundation",
+          "quotes": [
+            "Founder of Pivotal. Co-founder of the Gates Foundation. Author of The Moment of Lift & The Next Day."
+          ]
+        },
+        {
+          "name": "LinkedIn",
+          "quotes": [
+            "Melinda French Gates - Founder of Pivotal. Co-founder of the Gates Foundation. Author of The Moment of Lift & The Next Day. | LinkedIn"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Founder of Pivotal",
+          "quotes": [
+            "Founder of Pivotal. Co-founder of the Gates Foundation. Author of The Moment of Lift & The Next Day."
+          ]
+        },
+        {
+          "title": "Co-founder of the Gates Foundation",
+          "quotes": [
+            "Founder of Pivotal. Co-founder of the Gates Foundation. Author of The Moment of Lift & The Next Day."
+          ]
+        },
+        {
+          "title": "Author of The Moment of Lift & The Next Day",
+          "quotes": [
+            "Founder of Pivotal. Co-founder of the Gates Foundation. Author of The Moment of Lift & The Next Day."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "United States",
+          "quotes": [
+            "United States"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Founder of Pivotal. Co-founder of the Gates Foundation. Author of The Moment of Lift & The Next Day."
+        ],
+        "confidence": "high",
+        "notes": "Clear founder role at Pivotal, no time markers available."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Founder of Pivotal. Co-founder of the Gates Foundation. Author of The Moment of Lift & The Next Day."
+        ],
+        "confidence": "high",
+        "notes": "Clear co-founder role at the Gates Foundation, no time markers available."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Founder of Pivotal. Co-founder of the Gates Foundation. Author of The Moment of Lift & The Next Day."
+        ],
+        "confidence": "high",
+        "notes": "Author role, no specific organization or time markers available."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position at Pivotal."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position at Gates Foundation."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers and organization for author role."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Author role may not qualify as a career position without active responsibilities."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

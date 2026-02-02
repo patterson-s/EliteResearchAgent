@@ -1,0 +1,164 @@
+{
+  "status": "success",
+  "chunk_id": 843,
+  "chunk_index": 4,
+  "source_url": "https://community.nasscom.in/communities/digital-transformation/united-nations-secretary-generals-high-level-panel-on-digital-cooperation.html",
+  "title": "United Nations Secretary-General’s High-level Panel on Digital Cooperation | nasscom | The Official Community of Indian IT Industry",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In 2015",
+          "type": "point",
+          "quotes": [
+            "In 2015, Melinda created Pivotal Ventures, an investment and incubation company that enables her to bring together other new and emerging strands of her advocacy and philanthropic work"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Bill & Melinda Gates Foundation",
+          "quotes": [
+            "As co-chair of the Bill & Melinda Gates Foundation, Melinda shapes and approves strategies, reviews results, and sets the overall direction of the world’s largest private foundation."
+          ]
+        },
+        {
+          "name": "Pivotal Ventures",
+          "quotes": [
+            "In 2015, Melinda created Pivotal Ventures, an investment and incubation company that enables her to bring together other new and emerging strands of her advocacy and philanthropic work"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "co-chair of the Bill & Melinda Gates Foundation",
+          "quotes": [
+            "As co-chair of the Bill & Melinda Gates Foundation, Melinda shapes and approves strategies, reviews results, and sets the overall direction of the world’s largest private foundation."
+          ]
+        },
+        {
+          "title": "Philanthropist",
+          "quotes": [
+            "Philanthropist Melinda Gates has dedicated her life to achieving transformational improvements in the health and prosperity of families, communities and societies."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "New York",
+          "quotes": [
+            "The Panel is supported by a small Secretariat funded by donor resources, and based in New York and Geneva."
+          ]
+        },
+        {
+          "place": "Geneva",
+          "quotes": [
+            "The Panel is supported by a small Secretariat funded by donor resources, and based in New York and Geneva."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "As co-chair of the Bill & Melinda Gates Foundation, Melinda shapes and approves strategies, reviews results, and sets the overall direction of the world’s largest private foundation."
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker provided, but role and organization are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2015, Melinda created Pivotal Ventures, an investment and incubation company that enables her to bring together other new and emerging strands of her advocacy and philanthropic work"
+        ],
+        "confidence": "high",
+        "notes": "Time marker and organization are clear, but no specific role mentioned beyond creation of the organization."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Philanthropist Melinda Gates has dedicated her life to achieving transformational improvements in the health and prosperity of families, communities and societies."
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker or organization provided, but role is clear as a lifelong dedication."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time marker for the career position at Bill & Melinda Gates Foundation."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role for the career position at Pivotal Ventures."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing time marker and organization for the Philanthropist role, making it less verifiable."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The role 'Philanthropist' could be interpreted as a lifelong dedication rather than a specific career position, consider if this should be classified differently."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

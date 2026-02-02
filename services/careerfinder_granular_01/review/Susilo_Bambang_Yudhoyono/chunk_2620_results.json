@@ -1,0 +1,234 @@
+{
+  "status": "success",
+  "chunk_id": 2620,
+  "chunk_index": 14,
+  "source_url": "https://en.wikipedia.org/wiki/Susilo_Bambang_Yudhoyono",
+  "title": "Susilo Bambang Yudhoyono - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In 2005",
+          "type": "point",
+          "quotes": [
+            "In 2005, former Bank Indonesia deputy Aulia Pohan, who is also the in-law of his son Agus Harimurti, was arrested by the Corruption Eradication Commission (KPK)"
+          ]
+        },
+        {
+          "text": "In 2008",
+          "type": "point",
+          "quotes": [
+            "In 2008, the global financial crisis occurred."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Bank Indonesia",
+          "quotes": [
+            "former Bank Indonesia deputy Aulia Pohan",
+            "the Deputy Governor of Bank Indonesia."
+          ]
+        },
+        {
+          "name": "Corruption Eradication Commission (KPK)",
+          "quotes": [
+            "arrested by the Corruption Eradication Commission (KPK)"
+          ]
+        },
+        {
+          "name": "G20",
+          "quotes": [
+            "Indonesia actively participating in the G20."
+          ]
+        },
+        {
+          "name": "Indonesian Stock Exchange",
+          "quotes": [
+            "the policy of closing the Indonesian Stock Exchange"
+          ]
+        },
+        {
+          "name": "Bank Century",
+          "quotes": [
+            "providing bailout funds for Bank Century",
+            "the arrest of the President Director of Bank Century"
+          ]
+        },
+        {
+          "name": "Indonesian Student Association (HIPMI)",
+          "quotes": [
+            "At an event organized by the Indonesian Student Association (HIPMI)"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "President",
+          "quotes": [
+            "The President strives to make law enforcement in Indonesia",
+            "President Yudhoyono's administration",
+            "I am not a presidential candidate in 2014."
+          ]
+        },
+        {
+          "title": "deputy",
+          "quotes": [
+            "former Bank Indonesia deputy Aulia Pohan"
+          ]
+        },
+        {
+          "title": "President Director",
+          "quotes": [
+            "the arrest of the President Director of Bank Century"
+          ]
+        },
+        {
+          "title": "Deputy Governor",
+          "quotes": [
+            "the Deputy Governor of Bank Indonesia."
+          ]
+        },
+        {
+          "title": "ministers",
+          "quotes": [
+            "He also did not hesitate to dismiss ministers suspected of corruption"
+          ]
+        },
+        {
+          "title": "spokesman",
+          "quotes": [
+            "even though the minister was his former spokesman"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Indonesia",
+          "quotes": [
+            "enforcement in Indonesia.",
+            "The Indonesian government",
+            "Indonesia actively participating in the G20.",
+            "Indonesia managed to survive the crisis"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1,
+          3
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "former Bank Indonesia deputy Aulia Pohan",
+          "the Deputy Governor of Bank Indonesia."
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker, but the role and organization are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "the arrest of the President Director of Bank Century"
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker, but the role and organization are linked through the arrest event."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "The President strives to make law enforcement in Indonesia",
+          "President Yudhoyono's administration"
+        ],
+        "confidence": "high",
+        "notes": "No specific organization mentioned, but the role and location are clearly linked."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "The quote mentions an arrest event but does not explicitly confirm the role as a current position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization for the career position."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

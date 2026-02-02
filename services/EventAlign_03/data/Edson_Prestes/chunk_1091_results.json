@@ -1,0 +1,145 @@
+{
+  "status": "success",
+  "chunk_id": 1091,
+  "chunk_index": 1,
+  "source_url": "https://br.linkedin.com/in/edson-prestes",
+  "title": "Edson Prestes - Association For Computer Machinery | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Association For Computer Machinery",
+          "quotes": [
+            "Association For Computer Machinery"
+          ]
+        },
+        {
+          "name": "Federal University of Rio Grande do Sul",
+          "quotes": [
+            "Federal University of Rio Grande do Sul",
+            "Edson Prestes is Full Professor at Institute of Informatics of the Federal University of…"
+          ]
+        },
+        {
+          "name": "LinkedIn",
+          "quotes": [
+            "Contrato do Usuário do LinkedIn",
+            "Política de Privacidade do LinkedIn",
+            "Política de Cookies do LinkedIn"
+          ]
+        },
+        {
+          "name": "Spanish MoD",
+          "quotes": [
+            "Today I had the honor to be on a Panel in Spain organized by the Spanish MoD to talk about GC REAIM - Global Commission on Responsible Artificial…"
+          ]
+        },
+        {
+          "name": "GC REAIM - Global Commission on Responsible Artificial",
+          "quotes": [
+            "Today I had the honor to be on a Panel in Spain organized by the Spanish MoD to talk about GC REAIM - Global Commission on Responsible Artificial…"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Full Professor",
+          "quotes": [
+            "Edson Prestes is Full Professor at Institute of Informatics of the Federal University of…"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Spain",
+          "quotes": [
+            "Today I had the honor to be on a Panel in Spain organized by the Spanish MoD to talk about GC REAIM - Global Commission on Responsible Artificial…"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Edson Prestes is Full Professor at Institute of Informatics of the Federal University of…",
+          "Federal University of Rio Grande do Sul"
+        ],
+        "confidence": "high",
+        "notes": "No time marker available, but organization and role are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3,
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Today I had the honor to be on a Panel in Spain organized by the Spanish MoD to talk about GC REAIM - Global Commission on Responsible Artificial…",
+          "Spain",
+          "Spanish MoD",
+          "GC REAIM - Global Commission on Responsible Artificial"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit role mentioned, but participation in a panel organized by Spanish MoD and GC REAIM suggests a professional engagement."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker information, which is expected for a career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, making it unclear what the specific career position entails."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position, but the nature of the engagement (panel participation) might be more accurately described as an activity rather than a position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

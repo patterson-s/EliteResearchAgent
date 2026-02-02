@@ -1,0 +1,262 @@
+{
+  "status": "success",
+  "chunk_id": 529,
+  "chunk_index": 29,
+  "source_url": "https://issafrica.s3.amazonaws.com/site/uploads/Book-2015-Salim.pdf",
+  "title": "Book-2015-Salim.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1958",
+          "type": "point",
+          "quotes": [
+            "Salim acknowledges that Babu, whom he had met in 1958, played an important role in educating the people, and especially young leaders like Salim, about national and international affairs."
+          ]
+        },
+        {
+          "text": "1963",
+          "type": "point",
+          "quotes": [
+            "Together with Rajab Saleh, a Zanzibari journalist and member of the ASP , Salim went to Indonesia to attend an Afro-Asian journalists’ conference in 1963."
+          ]
+        },
+        {
+          "text": "early 1963",
+          "type": "point",
+          "quotes": [
+            "The leftist faction, including Babu and Issa, walked out of the ZNP in early 1963 when conservative forces in the party would not agree to the need for broader representation of all Zanzibaris."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "ZNP",
+          "quotes": [
+            "where the ZNP opened a Zanzibar office in Havana.",
+            "The leftist faction, including Babu and Issa, walked out of the ZNP in early 1963 when conservative forces in the party would not agree to the need for broader representation of all Zanzibaris."
+          ]
+        },
+        {
+          "name": "ASP",
+          "quotes": [
+            "Together with Rajab Saleh, a Zanzibari journalist and member of the ASP , Salim went to Indonesia to attend an Afro-Asian journalists’ conference in 1963."
+          ]
+        },
+        {
+          "name": "Umma Party",
+          "quotes": [
+            "After breaking away from the ZNP , they established a new political force, the Umma Party."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "general secretary",
+          "quotes": [
+            "Upon arrival in Zanzibar, however, he found that the British colonial authorities had imprisoned Babu, then the ZNP’s general secretary."
+          ]
+        },
+        {
+          "title": "premier",
+          "quotes": [
+            "where he briefly met Zhou Enlai, China’s premier, and other national leaders."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Cuba",
+          "quotes": [
+            "to go to Cuba, where the ZNP opened a Zanzibar office in Havana.",
+            "There Salim witnessed the impact of the Cuban Revolution in the removal of external domination and establishment of a society where black and white people enjoyed equal rights and opportunities."
+          ]
+        },
+        {
+          "place": "Havana",
+          "quotes": [
+            "where the ZNP opened a Zanzibar office in Havana.",
+            "After almost a year in Cuba, Salim returned to Zanzibar, where he was expected to stay for a week or two before returning to Havana."
+          ]
+        },
+        {
+          "place": "Cairo",
+          "quotes": [
+            "(They also opened one in Cairo."
+          ]
+        },
+        {
+          "place": "Zanzibar",
+          "quotes": [
+            "where the ZNP opened a Zanzibar office in Havana.",
+            "After almost a year in Cuba, Salim returned to Zanzibar, where he was expected to stay for a week or two before returning to Havana."
+          ]
+        },
+        {
+          "place": "Indonesia",
+          "quotes": [
+            "Together with Rajab Saleh, a Zanzibari journalist and member of the ASP , Salim went to Indonesia to attend an Afro-Asian journalists’ conference in 1963."
+          ]
+        },
+        {
+          "place": "China",
+          "quotes": [
+            "After the conference he travelled to China, where he briefly met Zhou Enlai, China’s premier, and other national leaders."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Upon arrival in Zanzibar, however, he found that the British colonial authorities had imprisoned Babu, then the ZNP’s general secretary."
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker, but role and organization are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          0,
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The leftist faction, including Babu and Issa, walked out of the ZNP in early 1963 when conservative forces in the party would not agree to the need for broader representation of all Zanzibaris.",
+          "After breaking away from the ZNP , they established a new political force, the Umma Party."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time marker, organizations, and action."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [
+          5
+        ],
+        "supporting_quotes": [
+          "Together with Rajab Saleh, a Zanzibari journalist and member of the ASP , Salim went to Indonesia to attend an Afro-Asian journalists’ conference in 1963."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time marker, organization, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0,
+          1
+        ],
+        "supporting_quotes": [
+          "where the ZNP opened a Zanzibar office in Havana.",
+          "After almost a year in Cuba, Salim returned to Zanzibar, where he was expected to stay for a week or two before returning to Havana."
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker, but organization and locations are clear."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and role information."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quote does not clearly support a career position for the subject, only mentions Babu's role."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event describes a political action (breaking away and establishing a new party) rather than a clear career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event describes attendance at a conference, which may not qualify as a career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and role information."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event describes travel and office opening, which may not qualify as a clear career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 0,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

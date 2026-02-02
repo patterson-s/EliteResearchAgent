@@ -1,0 +1,246 @@
+{
+  "status": "success",
+  "chunk_id": 3501,
+  "chunk_index": 22,
+  "source_url": "https://en.wikipedia.org/wiki/Tawakkol_Karman",
+  "title": "Tawakkol Karman - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Facebook Oversight Board",
+          "quotes": [
+            "Facebook Oversight Board members"
+          ]
+        },
+        {
+          "name": "Sanaa University",
+          "quotes": [
+            "Sanaa University alumni"
+          ]
+        },
+        {
+          "name": "University of Science and Technology, Sanaa",
+          "quotes": [
+            "University of Science and Technology, Sanaa alumni"
+          ]
+        },
+        {
+          "name": "Muslim Brotherhood",
+          "quotes": [
+            "Female Muslim Brotherhood members",
+            "Yemeni Muslim Brotherhood members"
+          ]
+        },
+        {
+          "name": "Chan Zuckerberg Initiative",
+          "quotes": [
+            "Chan Zuckerberg Initiative"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "journalists",
+          "quotes": [
+            "21st-century journalists",
+            "21st-century women journalists",
+            "Yemeni women journalists"
+          ]
+        },
+        {
+          "title": "women's rights activists",
+          "quotes": [
+            "Yemeni women's rights activists"
+          ]
+        },
+        {
+          "title": "human rights activists",
+          "quotes": [
+            "Yemeni human rights activists"
+          ]
+        },
+        {
+          "title": "Nobel Peace Prize laureates",
+          "quotes": [
+            "Nobel Peace Prize laureates"
+          ]
+        },
+        {
+          "title": "politicians",
+          "quotes": [
+            "21st-century Yemeni politicians",
+            "21st-century Yemeni women politicians"
+          ]
+        },
+        {
+          "title": "Facebook Oversight Board members",
+          "quotes": [
+            "Facebook Oversight Board members"
+          ]
+        },
+        {
+          "title": "women activists",
+          "quotes": [
+            "Yemeni women activists"
+          ]
+        },
+        {
+          "title": "revolutionaries",
+          "quotes": [
+            "Female revolutionaries",
+            "Yemeni revolutionaries"
+          ]
+        },
+        {
+          "title": "Islamic democracy activists",
+          "quotes": [
+            "Islamic democracy activists"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Taiz Governorate",
+          "quotes": [
+            "People from Taiz Governorate"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          5
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Facebook Oversight Board members"
+        ],
+        "confidence": "high",
+        "notes": "Direct match between organization and role quotes."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          7
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Female Muslim Brotherhood members",
+          "Yemeni Muslim Brotherhood members",
+          "Yemeni women activists"
+        ],
+        "confidence": "medium",
+        "notes": "Indirect association between organization and role through shared context."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Nobel Peace Prize laureates"
+        ],
+        "confidence": "high",
+        "notes": "Nobel Peace Prize laureate is clearly an award."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0,
+          1,
+          2,
+          4,
+          6,
+          8
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "21st-century journalists",
+          "21st-century women journalists",
+          "Yemeni women journalists",
+          "Yemeni women's rights activists",
+          "Yemeni human rights activists",
+          "21st-century Yemeni politicians",
+          "21st-century Yemeni women politicians",
+          "Yemeni women activists",
+          "People from Taiz Governorate",
+          "Islamic democracy activists"
+        ],
+        "confidence": "medium",
+        "notes": "Multiple roles grouped together due to shared location and context, but no direct organization linkage."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization linkage for multiple roles."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Multiple roles grouped together may not all constitute distinct career positions."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 2,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 1
+    }
+  }
+}

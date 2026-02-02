@@ -1,0 +1,216 @@
+{
+  "status": "success",
+  "chunk_id": 2946,
+  "chunk_index": 0,
+  "source_url": "https://www.un.org/sg/en/management/bios/Wang.shtml",
+  "title": "YINGFAN WANG (CHINA) | Secretary-General | United Nations",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In 1995",
+          "type": "point",
+          "quotes": [
+            "In 1995, he served as Vice-Minister of Foreign Affairs until the year 2000"
+          ]
+        },
+        {
+          "text": "until the year 2000",
+          "type": "point",
+          "quotes": [
+            "In 1995, he served as Vice-Minister of Foreign Affairs until the year 2000"
+          ]
+        },
+        {
+          "text": "From 2003 to 2008",
+          "type": "range",
+          "quotes": [
+            "From 2003 to 2008, he served as Vice-Chairman of the Foreign Affairs Committee of the Chinese National People's Congress"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "United Nations",
+          "quotes": [
+            "Permanent Representative of China to the UN in New York",
+            "Secretary-General’s MDG Advocacy Group"
+          ]
+        },
+        {
+          "name": "Secretary-General’s MDG Advocacy Group",
+          "quotes": [
+            "Mr. Wang is a member of the Secretary-General’s MDG Advocacy Group, a group of eminent personalities who have shown outstanding leadership in promoting the implementation of the MDGs"
+          ]
+        },
+        {
+          "name": "Foreign Affairs Committee of the Chinese National People's Congress",
+          "quotes": [
+            "From 2003 to 2008, he served as Vice-Chairman of the Foreign Affairs Committee of the Chinese National People's Congress"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Vice-Minister of Foreign Affairs",
+          "quotes": [
+            "In 1995, he served as Vice-Minister of Foreign Affairs until the year 2000"
+          ]
+        },
+        {
+          "title": "Permanent Representative of China to the UN",
+          "quotes": [
+            "when he became the Permanent Representative of China to the UN in New York"
+          ]
+        },
+        {
+          "title": "Vice-Chairman of the Foreign Affairs Committee",
+          "quotes": [
+            "From 2003 to 2008, he served as Vice-Chairman of the Foreign Affairs Committee of the Chinese National People's Congress"
+          ]
+        },
+        {
+          "title": "member of the Secretary-General’s MDG Advocacy Group",
+          "quotes": [
+            "Mr. Wang is a member of the Secretary-General’s MDG Advocacy Group, a group of eminent personalities who have shown outstanding leadership in promoting the implementation of the MDGs"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "New York",
+          "quotes": [
+            "when he became the Permanent Representative of China to the UN in New York"
+          ]
+        },
+        {
+          "place": "China",
+          "quotes": [
+            "YINGFAN WANG (CHINA)",
+            "Permanent Representative of China to the UN in New York",
+            "Foreign Affairs Committee of the Chinese National People's Congress"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 1995, he served as Vice-Minister of Foreign Affairs until the year 2000"
+        ],
+        "confidence": "high",
+        "notes": "Clear career position with defined time period and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "From 2003 to 2008, he served as Vice-Chairman of the Foreign Affairs Committee of the Chinese National People's Congress"
+        ],
+        "confidence": "high",
+        "notes": "Clear career position with defined time period, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Permanent Representative of China to the UN in New York"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time marker, but clear career position with organization, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Mr. Wang is a member of the Secretary-General’s MDG Advocacy Group, a group of eminent personalities who have shown outstanding leadership in promoting the implementation of the MDGs"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time marker, but clear career position with organization and role."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 2,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

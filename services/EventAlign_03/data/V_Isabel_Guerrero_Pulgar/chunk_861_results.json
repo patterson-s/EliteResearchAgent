@@ -1,0 +1,98 @@
+{
+  "status": "success",
+  "chunk_id": 861,
+  "chunk_index": 4,
+  "source_url": "https://www.un.org/digital-emerging-technologies/sites/www.un.org.techenvoy/files/hlp_on_digital_cooperation-report_final.pdf",
+  "title": "hlp_on_digital_cooperation-report_final.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "social media enterprises",
+          "quotes": [
+            "we call on social media enterprises to work with governments, international and local civil society organisations and human rights experts around the world to fully understand and respond to concerns about existing or potential human rights violations."
+          ]
+        },
+        {
+          "name": "governments",
+          "quotes": [
+            "we call on social media enterprises to work with governments, international and local civil society organisations and human rights experts around the world to fully understand and respond to concerns about existing or potential human rights violations."
+          ]
+        },
+        {
+          "name": "international and local civil society organisations",
+          "quotes": [
+            "we call on social media enterprises to work with governments, international and local civil society organisations and human rights experts around the world to fully understand and respond to concerns about existing or potential human rights violations."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "human rights experts",
+          "quotes": [
+            "we call on social media enterprises to work with governments, international and local civil society organisations and human rights experts around the world to fully understand and respond to concerns about existing or potential human rights violations."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0,
+          1,
+          2
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "we call on social media enterprises to work with governments, international and local civil society organisations and human rights experts around the world to fully understand and respond to concerns about existing or potential human rights violations."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time markers, but the collaborative role of human rights experts with organizations is implied as an ongoing responsibility."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "No time markers provided, making it impossible to verify temporal coherence."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing location information, which may be relevant for a career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "The quote implies collaboration but does not explicitly confirm an active career position for 'human rights experts'."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

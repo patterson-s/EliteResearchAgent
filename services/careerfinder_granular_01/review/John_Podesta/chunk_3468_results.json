@@ -1,0 +1,209 @@
+{
+  "status": "success",
+  "chunk_id": 3468,
+  "chunk_index": 3,
+  "source_url": "https://ballotpedia.org/John_Podesta",
+  "title": "John Podesta - Ballotpedia",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "January 2014",
+          "type": "point",
+          "quotes": [
+            "January 2014 marked yet another transition, as Podesta returned to the White House to serve under President Obama as a senior advisor."
+          ]
+        },
+        {
+          "text": "February 2015",
+          "type": "point",
+          "quotes": [
+            "In February 2015, Podesta left the White House to chair Hillary Clinton's PAC, Hillary for America, the official Hillary Clinton 2016 presidential campaign."
+          ]
+        },
+        {
+          "text": "April 2016",
+          "type": "point",
+          "quotes": [
+            "In an April 2016 piece in Time, the magazine outlined Podesta's role in Clinton's campaign"
+          ]
+        },
+        {
+          "text": "May 2016",
+          "type": "point",
+          "quotes": [
+            "In May 2016, Podesta issued a press release concerning the investigations into Clinton's use of a private email server"
+          ]
+        },
+        {
+          "text": "final three years of the administration",
+          "type": "range",
+          "quotes": [
+            "Podesta's hiring, according to Politico, signaled a shift in the Obama White House toward a 'more aggressive focus...on using executive authority to circumvent Congress in the final three years of the administration.'"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "White House",
+          "quotes": [
+            "Podesta returned to the White House to serve under President Obama as a senior advisor."
+          ]
+        },
+        {
+          "name": "CAP",
+          "quotes": [
+            "However, Podesta's position at the White House brought into question whether his policy decisions would reflect the needs of major CAP donors;"
+          ]
+        },
+        {
+          "name": "Hillary for America",
+          "quotes": [
+            "In February 2015, Podesta left the White House to chair Hillary Clinton's PAC, Hillary for America, the official Hillary Clinton 2016 presidential campaign."
+          ]
+        },
+        {
+          "name": "Hillary Clinton 2016 presidential campaign",
+          "quotes": [
+            "In February 2015, Podesta left the White House to chair Hillary Clinton's PAC, Hillary for America, the official Hillary Clinton 2016 presidential campaign."
+          ]
+        },
+        {
+          "name": "New York Times",
+          "quotes": [
+            "The New York Times argued that Podesta's presence would 'impose a more orderly structure' on the campaign, in contrast to Clinton's disorganized 2008 presidential bid."
+          ]
+        },
+        {
+          "name": "Politico",
+          "quotes": [
+            "Politico described Podesta as the 'adult in the room.' Moreover, they argued that he would 'help integrate longtime Clinton allies and newer former Obama staffers' into Clinton's campaign."
+          ]
+        },
+        {
+          "name": "Time",
+          "quotes": [
+            "In an April 2016 piece in Time, the magazine outlined Podesta's role in Clinton's campaign"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "senior advisor",
+          "quotes": [
+            "Podesta returned to the White House to serve under President Obama as a senior advisor."
+          ]
+        },
+        {
+          "title": "chair",
+          "quotes": [
+            "In February 2015, Podesta left the White House to chair Hillary Clinton's PAC, Hillary for America, the official Hillary Clinton 2016 presidential campaign."
+          ]
+        },
+        {
+          "title": "chairman of the campaign",
+          "quotes": [
+            "As chairman of the campaign, Podesta is active in fundraising, strategy, and staff management."
+          ]
+        },
+        {
+          "title": "part coach, part gatekeeper, judge and jury, director, fundraiser, policy wonk and strategist",
+          "quotes": [
+            "And it has been Podesta— part coach, part gatekeeper, judge and jury, director, fundraiser, policy wonk and strategist—who has overseen the Clinton effort."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "White House",
+          "quotes": [
+            "Podesta returned to the White House to serve under President Obama as a senior advisor."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          4
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "January 2014 marked yet another transition, as Podesta returned to the White House to serve under President Obama as a senior advisor.",
+          "Podesta's hiring, according to Politico, signaled a shift in the Obama White House toward a 'more aggressive focus...on using executive authority to circumvent Congress in the final three years of the administration.'"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time markers, organization, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1,
+          2,
+          3
+        ],
+        "organization_ids": [
+          2,
+          3
+        ],
+        "role_ids": [
+          1,
+          2,
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In February 2015, Podesta left the White House to chair Hillary Clinton's PAC, Hillary for America, the official Hillary Clinton 2016 presidential campaign.",
+          "In an April 2016 piece in Time, the magazine outlined Podesta's role in Clinton's campaign",
+          "In May 2016, Podesta issued a press release concerning the investigations into Clinton's use of a private email server",
+          "As chairman of the campaign, Podesta is active in fundraising, strategy, and staff management.",
+          "And it has been Podesta— part coach, part gatekeeper, judge and jury, director, fundraiser, policy wonk and strategist—who has overseen the Clinton effort."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time markers, organizations, and roles. Multiple roles indicate active involvement in the campaign."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information for the campaign roles."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

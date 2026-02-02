@@ -1,0 +1,200 @@
+{
+  "status": "success",
+  "chunk_id": 2751,
+  "chunk_index": 7,
+  "source_url": "https://achievement.org/achiever/ellen-johnson-sirleaf/",
+  "title": "Ellen Johnson Sirleaf | Academy of Achievement",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "in ’79",
+          "type": "point",
+          "quotes": [
+            "I was in the Ministry as a deputy at the time of the Rice Riots in ’79."
+          ]
+        },
+        {
+          "text": "a year later",
+          "type": "point",
+          "quotes": [
+            "People were then imprisoned, and so the soldiers then, a year later, decided to stage a coup d’état."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Ministry of Finance",
+          "quotes": [
+            "I was then an official — Minister of Finance, the head of my Ministry."
+          ]
+        },
+        {
+          "name": "Tolbert government",
+          "quotes": [
+            "Yes, it was the Tolbert government."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Minister of Finance",
+          "quotes": [
+            "I was then an official — Minister of Finance, the head of my Ministry."
+          ]
+        },
+        {
+          "title": "deputy",
+          "quotes": [
+            "I was in the Ministry as a deputy at the time of the Rice Riots in ’79."
+          ]
+        },
+        {
+          "title": "President",
+          "quotes": [
+            "Working for President Tolbert?"
+          ]
+        },
+        {
+          "title": "leader",
+          "quotes": [
+            "The leader that took over then was Samuel Doe."
+          ]
+        },
+        {
+          "title": "sergeant",
+          "quotes": [
+            "Samuel Doe was a sergeant, a very young sergeant who led the rebellion and led all the action that took over."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "I was in the Ministry as a deputy at the time of the Rice Riots in ’79."
+        ],
+        "confidence": "medium",
+        "notes": "No specific organization mentioned, but 'Ministry' implies a government position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "I was then an official — Minister of Finance, the head of my Ministry."
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of a career position as Minister of Finance."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Working for President Tolbert?",
+          "Yes, it was the Tolbert government."
+        ],
+        "confidence": "medium",
+        "notes": "Implied role within the Tolbert government, likely as an official or advisor."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          3,
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The leader that took over then was Samuel Doe.",
+          "Samuel Doe was a sergeant, a very young sergeant who led the rebellion and led all the action that took over."
+        ],
+        "confidence": "medium",
+        "notes": "Samuel Doe's roles as leader and sergeant are mentioned together, indicating a career position during the coup."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information despite mention of 'Ministry'."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time marker and role details are implied but not explicitly stated."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Samuel Doe's roles as 'leader' and 'sergeant' might be better classified as distinct events or further clarified."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and time marker information."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 1,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

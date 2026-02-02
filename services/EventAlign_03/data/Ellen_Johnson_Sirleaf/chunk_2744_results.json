@@ -1,0 +1,251 @@
+{
+  "status": "success",
+  "chunk_id": 2744,
+  "chunk_index": 0,
+  "source_url": "https://achievement.org/achiever/ellen-johnson-sirleaf/",
+  "title": "Ellen Johnson Sirleaf | Academy of Achievement",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "October 29, 1938",
+          "type": "point",
+          "quotes": [
+            "Date of Birth October 29, 1938"
+          ]
+        },
+        {
+          "text": "19th century",
+          "type": "point",
+          "quotes": [
+            "Founded in the 19th century by freed slaves from the United States"
+          ]
+        },
+        {
+          "text": "First World War",
+          "type": "point",
+          "quotes": [
+            "Her maternal grandfather was a German merchant who left the country during the First World War"
+          ]
+        },
+        {
+          "text": "1965",
+          "type": "point",
+          "quotes": [
+            "in 1965, she entered the Treasury Department, later known as the Ministry of Finance"
+          ]
+        },
+        {
+          "text": "2010",
+          "type": "point",
+          "quotes": [
+            "2010: Liberia’s President, Ellen Johnson Sirleaf, and U.S. President Barack Obama face the microphones of the Washington press corps"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "College of West Africa",
+          "quotes": [
+            "young Ellen received her secondary education at the prestigious College of West Africa in Monrovia"
+          ]
+        },
+        {
+          "name": "University of Wisconsin",
+          "quotes": [
+            "Ellen married James Sirleaf, a young agronomist with a degree from the University of Wisconsin"
+          ]
+        },
+        {
+          "name": "Department of Agriculture",
+          "quotes": [
+            "James Sirleaf worked in Liberia’s Department of Agriculture"
+          ]
+        },
+        {
+          "name": "Madison College of Business",
+          "quotes": [
+            "While her husband pursued a graduate degree from the University of Wisconsin’s School of Agriculture, Ellen studied accounting at the Madison College of Business"
+          ]
+        },
+        {
+          "name": "Treasury Department",
+          "quotes": [
+            "in 1965, she entered the Treasury Department, later known as the Ministry of Finance"
+          ]
+        },
+        {
+          "name": "Ministry of Finance",
+          "quotes": [
+            "in 1965, she entered the Treasury Department, later known as the Ministry of Finance"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "homemaker",
+          "quotes": [
+            "With four sons born in rapid succession, Ellen Johnson Sirleaf settled into the role of homemaker"
+          ]
+        },
+        {
+          "title": "bookkeeper",
+          "quotes": [
+            "To augment the family income, Ellen Johnson Sirleaf worked as a bookkeeper for an auto repair shop"
+          ]
+        },
+        {
+          "title": "President of Liberia",
+          "quotes": [
+            "Liberia’s President, Ellen Johnson Sirleaf, and U.S. President Barack Obama face the microphones of the Washington press corps"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Monrovia",
+          "quotes": [
+            "Ellen Eugenia Johnson was born in Monrovia, the capital city of Liberia"
+          ]
+        },
+        {
+          "place": "Liberia",
+          "quotes": [
+            "Ellen Eugenia Johnson was born in Monrovia, the capital city of Liberia"
+          ]
+        },
+        {
+          "place": "United States",
+          "quotes": [
+            "Founded in the 19th century by freed slaves from the United States"
+          ]
+        },
+        {
+          "place": "Washington, D.C.",
+          "quotes": [
+            "Liberia’s President, Ellen Johnson Sirleaf, and U.S. President Barack Obama face the microphones of the Washington press corps in the Oval Office of the White House, Washington, D.C."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          4,
+          5
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "in 1965, she entered the Treasury Department, later known as the Ministry of Finance"
+        ],
+        "confidence": "high",
+        "notes": "Role is implied as part of entering the organization but not explicitly stated."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          4
+        ],
+        "supporting_quotes": [
+          "Liberia’s President, Ellen Johnson Sirleaf, and U.S. President Barack Obama face the microphones of the Washington press corps"
+        ],
+        "confidence": "high",
+        "notes": "Role and location are clearly linked in the quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "With four sons born in rapid succession, Ellen Johnson Sirleaf settled into the role of homemaker"
+        ],
+        "confidence": "high",
+        "notes": "Role is clearly stated but no specific time or organization is mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "To augment the family income, Ellen Johnson Sirleaf worked as a bookkeeper for an auto repair shop"
+        ],
+        "confidence": "high",
+        "notes": "Role is clearly stated but no specific time or organization is mentioned."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, though role is implied in the quote."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time and organization information for the homemaker role."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time and organization information for the bookkeeper role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 1,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

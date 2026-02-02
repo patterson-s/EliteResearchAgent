@@ -1,0 +1,133 @@
+{
+  "status": "success",
+  "chunk_id": 1274,
+  "chunk_index": 0,
+  "source_url": "https://www.itu.int/initiatives/sdgdigital2024/wp-content/uploads/sites/8/2024/09/Amandeep-Singh-Gill-Bio.pdf",
+  "title": "Amandeep-Singh-Gill-Bio.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "June 2022",
+          "type": "point",
+          "quotes": [
+            "Mr . Amandeep Singh Gill was appointed by the United Nations Secretary -General as his Envoy on Technology in June 2022."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "United Nations",
+          "quotes": [
+            "Mr . Amandeep Singh Gill was appointed by the United Nations Secretary -General as his Envoy on Technology in June 2022."
+          ]
+        },
+        {
+          "name": "International Digital Health and Artificial Intelligence Research Collaborative (I -DAIR)",
+          "quotes": [
+            "Before taking up the position as Envoy on Technology, Mr . Gill was the Chief Executive Officer of the International Digital Health and Arti ficial Intelligence Research Collaborative (I -DAIR) project, based at the Graduate Institute, Geneva."
+          ]
+        },
+        {
+          "name": "Graduate Institute, Geneva",
+          "quotes": [
+            "Before taking up the position as Envoy on Technology, Mr . Gill was the Chief Executive Officer of the International Digital Health and Arti ficial Intelligence Research Collaborative (I -DAIR) project, based at the Graduate Institute, Geneva."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Envoy on Technology",
+          "quotes": [
+            "Mr . Amandeep Singh Gill was appointed by the United Nations Secretary -General as his Envoy on Technology in June 2022."
+          ]
+        },
+        {
+          "title": "Chief Executive Officer",
+          "quotes": [
+            "Before taking up the position as Envoy on Technology, Mr . Gill was the Chief Executive Officer of the International Digital Health and Arti ficial Intelligence Research Collaborative (I -DAIR) project, based at the Graduate Institute, Geneva."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Geneva",
+          "quotes": [
+            "Before taking up the position as Envoy on Technology, Mr . Gill was the Chief Executive Officer of the International Digital Health and Arti ficial Intelligence Research Collaborative (I -DAIR) project, based at the Graduate Institute, Geneva."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Mr . Amandeep Singh Gill was appointed by the United Nations Secretary -General as his Envoy on Technology in June 2022."
+        ],
+        "confidence": "high",
+        "notes": "Clear appointment to a specific role within the United Nations."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1,
+          2
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Before taking up the position as Envoy on Technology, Mr . Gill was the Chief Executive Officer of the International Digital Health and Arti ficial Intelligence Research Collaborative (I -DAIR) project, based at the Graduate Institute, Geneva."
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of a previous role as CEO of I-DAIR, based in Geneva."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time marker for the CEO position at I-DAIR."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "status": "success",
+  "chunk_id": 1124,
+  "chunk_index": 2,
+  "source_url": "https://en.wikipedia.org/wiki/Kira_Radinsky",
+  "title": "Kira Radinsky - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "August 7, 2018",
+          "type": "point",
+          "quotes": [
+            "JHaaretz, August 7, 2018"
+          ]
+        },
+        {
+          "text": "2025-05-18",
+          "type": "point",
+          "quotes": [
+            "The Technion Program for Excellence. Retrieved 2025-05-18."
+          ]
+        },
+        {
+          "text": "2023-02-03",
+          "type": "point",
+          "quotes": [
+            "www.maariv.co.il (in Hebrew). 2023-02-03. Retrieved 2025-05-29."
+          ]
+        },
+        {
+          "text": "2016-05-24",
+          "type": "point",
+          "quotes": [
+            "Forbes Israel (in Hebrew). Retrieved 2025-05-29."
+          ]
+        },
+        {
+          "text": "2016-09-13",
+          "type": "point",
+          "quotes": [
+            "Globes. Retrieved 2025-05-18."
+          ]
+        },
+        {
+          "text": "2013-02-04",
+          "type": "point",
+          "quotes": [
+            "Proceedings of the sixth ACM international conference on Web search and data mining. WSDM '13. New York, NY, USA: Association for Computing Machinery. pp. 255–264."
+          ]
+        },
+        {
+          "text": "November 23, 2019",
+          "type": "point",
+          "quotes": [
+            "November 23, 2019. Psychology Today"
+          ]
+        },
+        {
+          "text": "10 March 2021",
+          "type": "point",
+          "quotes": [
+            "Meet the 2021 class of Young Global Leaders. 10 March 2021."
+          ]
+        },
+        {
+          "text": "2020-02-25",
+          "type": "point",
+          "quotes": [
+            "Archived from the original on 2020-02-25. Retrieved 2020-02-25."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "The Technion Program for Excellence",
+          "quotes": [
+            "The Technion Program for Excellence. Retrieved 2025-05-18."
+          ]
+        },
+        {
+          "name": "Forbes Israel",
+          "quotes": [
+            "Forbes Israel (in Hebrew). Retrieved 2025-05-29."
+          ]
+        },
+        {
+          "name": "Globes",
+          "quotes": [
+            "Globes. Retrieved 2025-05-18."
+          ]
+        },
+        {
+          "name": "Association for Computing Machinery",
+          "quotes": [
+            "New York, NY, USA: Association for Computing Machinery. pp. 255–264."
+          ]
+        },
+        {
+          "name": "Psychology Today",
+          "quotes": [
+            "November 23, 2019. Psychology Today"
+          ]
+        },
+        {
+          "name": "Diagnostic Robotics",
+          "quotes": [
+            "Kira Radinsky ChairWoman & Chief Technology Officer at Diagnostic Robotics"
+          ]
+        },
+        {
+          "name": "Lady Globes Magazine",
+          "quotes": [
+            "Dr. Kira Radinsky Named Lady Globes Magazine's 'Woman of the Year'"
+          ]
+        },
+        {
+          "name": "Forbes",
+          "quotes": [
+            "Forbes 30 Under 30: Enterprise Technology"
+          ]
+        },
+        {
+          "name": "Unit 8200",
+          "quotes": [
+            "Unit 8200 alumni"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "ChairWoman & Chief Technology Officer",
+          "quotes": [
+            "Kira Radinsky ChairWoman & Chief Technology Officer at Diagnostic Robotics"
+          ]
+        },
+        {
+          "title": "Woman of the Year",
+          "quotes": [
+            "Dr. Kira Radinsky Named Lady Globes Magazine's 'Woman of the Year'"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Kyiv",
+          "quotes": [
+            "People from Kyiv"
+          ]
+        },
+        {
+          "place": "Israel",
+          "quotes": [
+            "Israeli computer scientists",
+            "Israeli women computer scientists",
+            "Technion – Israel Institute of Technology alumni",
+            "Israeli people of Ukrainian-Jewish descent"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Kira Radinsky ChairWoman & Chief Technology Officer at Diagnostic Robotics"
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker provided, but role and organization are clearly linked."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          6
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Dr. Kira Radinsky Named Lady Globes Magazine's 'Woman of the Year'"
+        ],
+        "confidence": "high",
+        "notes": "Clearly an award based on the title 'Woman of the Year'."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position, making it difficult to place in timeline."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 1
+    }
+  }
+}

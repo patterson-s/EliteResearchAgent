@@ -1,0 +1,209 @@
+{
+  "status": "success",
+  "chunk_id": 3194,
+  "chunk_index": 0,
+  "source_url": "https://www.gainhealth.org/andris-piebalgs",
+  "title": "Andris Piebalgs",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "since 2001",
+          "type": "open",
+          "quotes": [
+            "Explore how GAIN has reached over one billion people since 2001, transforming their lives with improved nutrition through concerted action and effective policy change."
+          ]
+        },
+        {
+          "text": "2002",
+          "type": "point",
+          "quotes": [
+            "The Global Alliance for Improved Nutrition (GAIN) is a Swiss-based foundation launched at the United Nations in 2002 to tackle the human suffering caused by malnutrition."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "The Global Alliance for Improved Nutrition (GAIN)",
+          "quotes": [
+            "The Global Alliance for Improved Nutrition (GAIN) is a Swiss-based foundation launched at the United Nations in 2002 to tackle the human suffering caused by malnutrition."
+          ]
+        },
+        {
+          "name": "United Nations",
+          "quotes": [
+            "The Global Alliance for Improved Nutrition (GAIN) is a Swiss-based foundation launched at the United Nations in 2002 to tackle the human suffering caused by malnutrition."
+          ]
+        },
+        {
+          "name": "GAIN Nordic Partnership",
+          "quotes": [
+            "GAIN Nordic Partnership"
+          ]
+        },
+        {
+          "name": "Global Fortification Data Exchange (GFDx)",
+          "quotes": [
+            "Global Fortification Data Exchange (GFDx)"
+          ]
+        },
+        {
+          "name": "Act4Food Act4Change",
+          "quotes": [
+            "Act4Food Act4Change"
+          ]
+        },
+        {
+          "name": "Zero Hunger Private Sector Pledge",
+          "quotes": [
+            "Zero Hunger Private Sector Pledge"
+          ]
+        },
+        {
+          "name": "SUN Business Network",
+          "quotes": [
+            "SUN Business Network"
+          ]
+        },
+        {
+          "name": "Food Culture Alliance",
+          "quotes": [
+            "Food Culture Alliance"
+          ]
+        },
+        {
+          "name": "Multiple Micronutrient Supplementation (MMS) Project",
+          "quotes": [
+            "Multiple Micronutrient Supplementation (MMS) Project"
+          ]
+        },
+        {
+          "name": "Food Systems Countdown Initiative",
+          "quotes": [
+            "Food Systems Countdown Initiative"
+          ]
+        },
+        {
+          "name": "Global Diet Quality Project",
+          "quotes": [
+            "Global Diet Quality Project"
+          ]
+        },
+        {
+          "name": "Food Systems Dashboard",
+          "quotes": [
+            "Food Systems Dashboard"
+          ]
+        },
+        {
+          "name": "Initiative on Climate Action and Nutrition (I-CAN)",
+          "quotes": [
+            "Initiative on Climate Action and Nutrition (I-CAN)"
+          ]
+        },
+        {
+          "name": "CASCADE (CAtalyzing Strengthened policy aCtion for heAlthy Diets and resiliencE)",
+          "quotes": [
+            "CASCADE (CAtalyzing Strengthened policy aCtion for heAlthy Diets and resiliencE)"
+          ]
+        },
+        {
+          "name": "DELIVER Nigeria",
+          "quotes": [
+            "DELIVER Nigeria"
+          ]
+        },
+        {
+          "name": "EatSafe",
+          "quotes": [
+            "EatSafe"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Executive Director",
+          "quotes": [
+            "Get to know our Executive Director"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Switzerland",
+          "quotes": [
+            "The Global Alliance for Improved Nutrition (GAIN) is a Swiss-based foundation launched at the United Nations in 2002 to tackle the human suffering caused by malnutrition."
+          ]
+        },
+        {
+          "place": "Nigeria",
+          "quotes": [
+            "DELIVER Nigeria"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Explore how GAIN has reached over one billion people since 2001, transforming their lives with improved nutrition through concerted action and effective policy change.",
+          "The Global Alliance for Improved Nutrition (GAIN) is a Swiss-based foundation launched at the United Nations in 2002 to tackle the human suffering caused by malnutrition.",
+          "Get to know our Executive Director"
+        ],
+        "confidence": "medium",
+        "notes": "The role of Executive Director is assumed to be associated with GAIN, but the exact start date is unclear. The event is classified as a career position based on the role title."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "The start date is unclear and potentially inconsistent. The event references 'since 2001' and '2002', but the exact start date for the Executive Director role is not specified."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "The location is assumed to be Switzerland based on the organization's base, but this is not explicitly stated in the quotes."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "The supporting quotes do not explicitly link the Executive Director role to the specific time markers or provide details about the role's responsibilities."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

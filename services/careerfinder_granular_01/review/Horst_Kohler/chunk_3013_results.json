@@ -1,0 +1,187 @@
+{
+  "status": "success",
+  "chunk_id": 3013,
+  "chunk_index": 6,
+  "source_url": "https://en.wikipedia.org/wiki/Horst_K%C3%B6hler",
+  "title": "Horst Köhler - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In October 2006",
+          "type": "point",
+          "quotes": [
+            "In October 2006, Köhler made a far-reaching decision by vetoing the bill which would transfer Germany's Air Safety Administration into private ownership."
+          ]
+        },
+        {
+          "text": "In December 2006",
+          "type": "point",
+          "quotes": [
+            "In December 2006 he did not sign the Consumer Information Law (which intended to make information collected by public food safety agencies available to consumers), because the constitution does not allow the federal government to instruct municipal authorities."
+          ]
+        },
+        {
+          "text": "In March 2007",
+          "type": "point",
+          "quotes": [
+            "In March 2007, Köhler turned down a politically contentious request for clemency by Christian Klar, a terrorist from the far-left Red Army Faction."
+          ]
+        },
+        {
+          "text": "On 22 May 2008",
+          "type": "point",
+          "quotes": [
+            "On 22 May 2008, Köhler announced his candidacy for a second term as president."
+          ]
+        },
+        {
+          "text": "On 23 May 2009",
+          "type": "point",
+          "quotes": [
+            "On 23 May 2009, he was re-elected by the Federal Assembly,"
+          ]
+        },
+        {
+          "text": "on 1 July 2009",
+          "type": "point",
+          "quotes": [
+            "and was sworn into office for a second term on 1 July 2009."
+          ]
+        },
+        {
+          "text": "On 31 May 2010",
+          "type": "point",
+          "quotes": [
+            "On 31 May 2010, Köhler announced his resignation as President of Germany."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Deutsche Flugsicherung",
+          "quotes": [
+            "Köhler after unveiling a bronze statue of Theodor Heuss In October 2006, Köhler made a far-reaching decision by vetoing the bill which would transfer Germany's Air Safety Administration Deutsche Flugsicherung into private ownership."
+          ]
+        },
+        {
+          "name": "Bundestag",
+          "quotes": [
+            "The Bundestag passed this legislation but as president, Köhler was authorized not to sign it into law if, in his opinion, it contravened the constitution."
+          ]
+        },
+        {
+          "name": "Red Army Faction",
+          "quotes": [
+            "In March 2007, Köhler turned down a politically contentious request for clemency by Christian Klar, a terrorist from the far-left Red Army Faction."
+          ]
+        },
+        {
+          "name": "First Merkel cabinet",
+          "quotes": [
+            "In his 2007 Christmas address to the nation, Köhler urged the government ( First Merkel cabinet ) to push ahead more quickly with reforms."
+          ]
+        },
+        {
+          "name": "Deutsche Post",
+          "quotes": [
+            "He was also critical of the introduction of the minimum wage in the postal sector (which had led to the loss of 1,000 jobs at Deutsche Post rival PIN Group), stating that 'a minimum wage that cannot be paid by competitive employers destroys jobs'."
+          ]
+        },
+        {
+          "name": "PIN Group",
+          "quotes": [
+            "He was also critical of the introduction of the minimum wage in the postal sector (which had led to the loss of 1,000 jobs at Deutsche Post rival PIN Group), stating that 'a minimum wage that cannot be paid by competitive employers destroys jobs'."
+          ]
+        },
+        {
+          "name": "Federal Assembly",
+          "quotes": [
+            "On 23 May 2009, he was re-elected by the Federal Assembly,"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "President of Germany",
+          "quotes": [
+            "On 31 May 2010, Köhler announced his resignation as President of Germany."
+          ]
+        },
+        {
+          "title": "president",
+          "quotes": [
+            "The Bundestag passed this legislation but as president, Köhler was authorized not to sign it into law if, in his opinion, it contravened the constitution."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "organization_ids": [
+          7
+        ],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In October 2006, Köhler made a far-reaching decision by vetoing the bill which would transfer Germany's Air Safety Administration into private ownership.",
+          "In December 2006 he did not sign the Consumer Information Law (which intended to make information collected by public food safety agencies available to consumers), because the constitution does not allow the federal government to instruct municipal authorities.",
+          "In March 2007, Köhler turned down a politically contentious request for clemency by Christian Klar, a terrorist from the far-left Red Army Faction.",
+          "On 22 May 2008, Köhler announced his candidacy for a second term as president.",
+          "On 23 May 2009, he was re-elected by the Federal Assembly,",
+          "and was sworn into office for a second term on 1 July 2009.",
+          "On 31 May 2010, Köhler announced his resignation as President of Germany.",
+          "The Bundestag passed this legislation but as president, Köhler was authorized not to sign it into law if, in his opinion, it contravened the constitution."
+        ],
+        "confidence": "high",
+        "notes": "All time markers and roles are directly linked to Köhler's tenure as President of Germany. The Federal Assembly is mentioned in the re-election context."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information, which is not explicitly mentioned in the quotes but could be inferred as Germany."
+          },
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "Time markers are point-in-time and do not provide a clear start and end date for the career position, though the sequence of events is consistent."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

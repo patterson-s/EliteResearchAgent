@@ -1,0 +1,136 @@
+{
+  "status": "success",
+  "chunk_id": 875,
+  "chunk_index": 18,
+  "source_url": "https://www.un.org/digital-emerging-technologies/sites/www.un.org.techenvoy/files/hlp_on_digital_cooperation-report_final.pdf",
+  "title": "hlp_on_digital_cooperation-report_final.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "university",
+          "quotes": [
+            "a rural community of 6,000 people in Mankosi, South Africa, built a solar-powered “mesh network” in collaboration with a university."
+          ]
+        },
+        {
+          "name": "OECD",
+          "quotes": [
+            "Initial work – notably by the OECD, the Group of Twenty (G20), ITU, and the Economist Intelligence Unit – needs to be broadened to reflect the wide"
+          ]
+        },
+        {
+          "name": "Group of Twenty (G20)",
+          "quotes": [
+            "Initial work – notably by the OECD, the Group of Twenty (G20), ITU, and the Economist Intelligence Unit – needs to be broadened to reflect the wide"
+          ]
+        },
+        {
+          "name": "ITU",
+          "quotes": [
+            "Initial work – notably by the OECD, the Group of Twenty (G20), ITU, and the Economist Intelligence Unit – needs to be broadened to reflect the wide"
+          ]
+        },
+        {
+          "name": "Economist Intelligence Unit",
+          "quotes": [
+            "Initial work – notably by the OECD, the Group of Twenty (G20), ITU, and the Economist Intelligence Unit – needs to be broadened to reflect the wide"
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": [
+        {
+          "place": "Mankosi, South Africa",
+          "quotes": [
+            "a rural community of 6,000 people in Mankosi, South Africa, built a solar-powered “mesh network” in collaboration with a university."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "a rural community of 6,000 people in Mankosi, South Africa, built a solar-powered “mesh network” in collaboration with a university."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit role mentioned, but collaboration implies an active position. Confidence is medium due to lack of role information."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Initial work – notably by the OECD, the Group of Twenty (G20), ITU, and the Economist Intelligence Unit – needs to be broadened to reflect the wide"
+        ],
+        "confidence": "high",
+        "notes": "Organizations are mentioned together in the context of initial work, implying active involvement. No specific roles are mentioned, but the context suggests career positions."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, making it difficult to confirm the nature of the career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quote does not explicitly mention an active role, only collaboration, which is inferred."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for all organizations, making it difficult to confirm the nature of the career positions."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quote mentions organizations in the context of initial work, but does not specify individual roles or responsibilities."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

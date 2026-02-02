@@ -1,0 +1,390 @@
+{
+  "status": "success",
+  "chunk_id": 3180,
+  "chunk_index": 5,
+  "source_url": "https://en.wikipedia.org/wiki/Andris_Piebalgs",
+  "title": "Andris Piebalgs - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1957 births",
+          "type": "point",
+          "quotes": [
+            "Categories\n:\n1957 births"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Communist Party of the Soviet Union",
+          "quotes": [
+            "Communist Party of the Soviet Union members"
+          ]
+        },
+        {
+          "name": "Latvian Way",
+          "quotes": [
+            "Latvian Way politicians"
+          ]
+        },
+        {
+          "name": "Latvia's First Party/Latvian Way",
+          "quotes": [
+            "Latvia's First Party/Latvian Way politicians"
+          ]
+        },
+        {
+          "name": "New Unity",
+          "quotes": [
+            "New Unity politicians"
+          ]
+        },
+        {
+          "name": "5th Saeima",
+          "quotes": [
+            "Deputies of the 5th Saeima"
+          ]
+        },
+        {
+          "name": "University of Latvia",
+          "quotes": [
+            "University of Latvia alumni"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Ministers of finance of Latvia",
+          "quotes": [
+            "Ministers of finance of Latvia"
+          ]
+        },
+        {
+          "title": "Deputies of the 5th Saeima",
+          "quotes": [
+            "Deputies of the 5th Saeima"
+          ]
+        },
+        {
+          "title": "Ambassadors of Latvia to Estonia",
+          "quotes": [
+            "Ambassadors of Latvia to Estonia"
+          ]
+        },
+        {
+          "title": "Permanent representatives of Latvia to the European Union",
+          "quotes": [
+            "Permanent representatives of Latvia to the European Union"
+          ]
+        },
+        {
+          "title": "Latvian European commissioners",
+          "quotes": [
+            "Latvian European commissioners"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Valmiera",
+          "quotes": [
+            "People from Valmiera"
+          ]
+        },
+        {
+          "place": "Latvia",
+          "quotes": [
+            "Ministers of finance of Latvia",
+            "Ambassadors of Latvia to Estonia",
+            "Permanent representatives of Latvia to the European Union",
+            "Latvian European commissioners"
+          ]
+        },
+        {
+          "place": "Estonia",
+          "quotes": [
+            "Ambassadors of Latvia to Estonia"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Communist Party of the Soviet Union members"
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but membership implies a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Latvian Way politicians"
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but political affiliation implies a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Latvia's First Party/Latvian Way politicians"
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but political affiliation implies a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "New Unity politicians"
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but political affiliation implies a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Deputies of the 5th Saeima"
+        ],
+        "confidence": "high",
+        "notes": "Clear role and organization linkage."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Ministers of finance of Latvia"
+        ],
+        "confidence": "high",
+        "notes": "Clear role and location linkage."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          1,
+          2
+        ],
+        "supporting_quotes": [
+          "Ambassadors of Latvia to Estonia"
+        ],
+        "confidence": "high",
+        "notes": "Clear role and location linkage."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Permanent representatives of Latvia to the European Union"
+        ],
+        "confidence": "high",
+        "notes": "Clear role and location linkage."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Latvian European commissioners"
+        ],
+        "confidence": "high",
+        "notes": "Clear role and location linkage."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "University of Latvia alumni",
+          "1957 births"
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but alumni status implies a career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. Only organization mentioned."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Political party membership may not always imply a career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. Only organization mentioned."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Political affiliation may not always imply a career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. Only organization mentioned."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Political affiliation may not always imply a career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. Only organization mentioned."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Political affiliation may not always imply a career position."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 5,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 6,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 7,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 8,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 9,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Alumni status may not always imply a career position."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. Only organization and time marker mentioned."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 10,
+      "valid": 5,
+      "warnings": 5,
+      "errors": 0,
+      "career_positions": 10,
+      "awards": 0
+    }
+  }
+}

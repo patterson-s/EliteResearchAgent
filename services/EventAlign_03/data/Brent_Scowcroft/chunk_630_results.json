@@ -1,0 +1,124 @@
+{
+  "status": "success",
+  "chunk_id": 630,
+  "chunk_index": 2,
+  "source_url": "https://rfg.org/leadership/lt-general-ret-brent-scowcroft-deceased/",
+  "title": "Lt. General (Ret.) Brent Scowcroft (Deceased) - RFG",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Syracuse University, Maxwell School of Citizenship & Public Affairs",
+          "quotes": [
+            "Syracuse University, Maxwell School of Citizenship & Public Affairs"
+          ]
+        },
+        {
+          "name": "Texas A&M University, Bush School of Government & Public Service",
+          "quotes": [
+            "Texas A&M University, Bush School of Government & Public Service"
+          ]
+        },
+        {
+          "name": "Tufts University, Fletcher School of Law & Diplomacy",
+          "quotes": [
+            "Tufts University, Fletcher School of Law & Diplomacy"
+          ]
+        },
+        {
+          "name": "University of California, San Diego, School of Global Policy & Strategy",
+          "quotes": [
+            "University of California, San Diego, School of Global Policy & Strategy"
+          ]
+        },
+        {
+          "name": "University of Maryland, School of Public Policy",
+          "quotes": [
+            "University of Maryland, School of Public Policy"
+          ]
+        },
+        {
+          "name": "RFG Alumni Council",
+          "quotes": [
+            "RFG Alumni Council Application Form",
+            "Why do you want to serve on the RFG Alumni Council?"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "member of this Council",
+          "quotes": [
+            "Are you able to commit to serving as a member of this Council for one full year?"
+          ]
+        },
+        {
+          "title": "mentor",
+          "quotes": [
+            "A significant responsibility of this Council is mentoring the current fellows at each of the respective partner schools.",
+            "What ideas do you have for engaging as a mentor with the current cohort of RFG Fellows at your partner school?",
+            "Can you give an example of how you have served as a mentor, either in a formal or informal capacity, in the past?"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "RFG Alumni Council Application Form",
+          "Why do you want to serve on the RFG Alumni Council?",
+          "Are you able to commit to serving as a member of this Council for one full year?",
+          "A significant responsibility of this Council is mentoring the current fellows at each of the respective partner schools.",
+          "What ideas do you have for engaging as a mentor with the current cohort of RFG Fellows at your partner school?",
+          "Can you give an example of how you have served as a mentor, either in a formal or informal capacity, in the past?"
+        ],
+        "confidence": "high",
+        "notes": "The roles and organization are clearly linked through the application form and related questions."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "No time markers provided, making it impossible to verify temporal coherence."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Location information is missing, though it may not be critical for this event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

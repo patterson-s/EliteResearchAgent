@@ -1,0 +1,184 @@
+{
+  "status": "success",
+  "chunk_id": 468,
+  "chunk_index": 2,
+  "source_url": "https://pai.org/resources/pai-celebrates-the-life-of-dr-nafis-sadik/",
+  "title": "PAI Celebrates the Life of Dr. Nafis Sadik, Champion of Women’s Reproductive Health and Rights - PAI",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1994",
+          "type": "point",
+          "quotes": [
+            "Dr. Sadik’s signature diplomatic achievement was forging a consensus among 179 U.N. member states at the 1994 International Conference on Population and Development (ICPD) in Cairo"
+          ]
+        },
+        {
+          "text": "Nearly three decades later",
+          "type": "point",
+          "quotes": [
+            "Nearly three decades later, it remains our roadmap to achieve a world of reproductive rights and choices for all."
+          ]
+        },
+        {
+          "text": "As the 30th anniversary of ICPD approaches",
+          "type": "point",
+          "quotes": [
+            "As the 30th anniversary of ICPD approaches, we look forward to building upon the progress that has been achieved since 1994."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "United Nations (U.N.)",
+          "quotes": [
+            "Dr. Sadik’s signature diplomatic achievement was forging a consensus among 179 U.N. member states at the 1994 International Conference on Population and Development (ICPD) in Cairo"
+          ]
+        },
+        {
+          "name": "UNFPA",
+          "quotes": [
+            "As current UNFPA Executive Director Natalia Kanem noted in a statement on her passing"
+          ]
+        },
+        {
+          "name": "PAI",
+          "quotes": [
+            "PAI Celebrates the Life and Leadership of Dr. Sharon Camp, PAI Emeritus Board Member, former Senior Vice President and “Mother” of Plan B"
+          ]
+        },
+        {
+          "name": "Washington Post",
+          "quotes": [
+            "As recounted in great detail in multi-columned obituaries in the Washington Post and New York Times"
+          ]
+        },
+        {
+          "name": "New York Times",
+          "quotes": [
+            "As recounted in great detail in multi-columned obituaries in the Washington Post and New York Times"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Executive Director",
+          "quotes": [
+            "As current UNFPA Executive Director Natalia Kanem noted in a statement on her passing"
+          ]
+        },
+        {
+          "title": "PAI Emeritus Board Member",
+          "quotes": [
+            "PAI Celebrates the Life and Leadership of Dr. Sharon Camp, PAI Emeritus Board Member, former Senior Vice President and “Mother” of Plan B"
+          ]
+        },
+        {
+          "title": "Senior Vice President",
+          "quotes": [
+            "PAI Celebrates the Life and Leadership of Dr. Sharon Camp, PAI Emeritus Board Member, former Senior Vice President and “Mother” of Plan B"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Cairo",
+          "quotes": [
+            "Dr. Sadik’s signature diplomatic achievement was forging a consensus among 179 U.N. member states at the 1994 International Conference on Population and Development (ICPD) in Cairo"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Dr. Sadik’s signature diplomatic achievement was forging a consensus among 179 U.N. member states at the 1994 International Conference on Population and Development (ICPD) in Cairo"
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but the context implies a leadership or diplomatic position within the U.N. related to the ICPD."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "As current UNFPA Executive Director Natalia Kanem noted in a statement on her passing"
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of a current role as Executive Director of UNFPA."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          1,
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "PAI Celebrates the Life and Leadership of Dr. Sharon Camp, PAI Emeritus Board Member, former Senior Vice President and “Mother” of Plan B"
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of past and current roles within PAI, including Emeritus Board Member and former Senior Vice President."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. While the context implies a leadership or diplomatic position, no specific role is mentioned."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 2,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

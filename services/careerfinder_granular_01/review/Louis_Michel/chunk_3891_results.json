@@ -1,0 +1,230 @@
+{
+  "status": "success",
+  "chunk_id": 3891,
+  "chunk_index": 2,
+  "source_url": "https://guides.loc.gov/feminism-french-women-history/famous/louise-michel",
+  "title": "Louise Michel - French Women & Feminists in History: A Resource Guide - Research Guides at Library of Congress",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1871",
+          "type": "point",
+          "quotes": [
+            "incendiary French leader of the 1871 Paris Commune."
+          ]
+        },
+        {
+          "text": "1885",
+          "type": "point",
+          "quotes": [
+            "Published in 1885 par Charles Malato."
+          ]
+        },
+        {
+          "text": "1886",
+          "type": "point",
+          "quotes": [
+            "Memoires of Louise Michel published in 1886."
+          ]
+        },
+        {
+          "text": "2012",
+          "type": "point",
+          "quotes": [
+            "including 2012's Costa Award medalist Dotter of Her Father's Eyes."
+          ]
+        },
+        {
+          "text": "2016",
+          "type": "point",
+          "quotes": [
+            "Published/Created: 2016"
+          ]
+        },
+        {
+          "text": "Jul 22, 2025",
+          "type": "point",
+          "quotes": [
+            "Last Updated: Jul 22, 2025 8:53 AM"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Paris Commune",
+          "quotes": [
+            "incendiary French leader of the 1871 Paris Commune."
+          ]
+        },
+        {
+          "name": "Library of Congress",
+          "quotes": [
+            "https://guides.loc.gov/feminism-french-women-history"
+          ]
+        },
+        {
+          "name": "Gallica",
+          "quotes": [
+            "Memoires of Louise Michel published in 1886. Digitized in Gallica."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "leader of the 1871 Paris Commune",
+          "quotes": [
+            "incendiary French leader of the 1871 Paris Commune."
+          ]
+        },
+        {
+          "title": "teacher",
+          "quotes": [
+            "a visionary teacher, poet, and radical who took up arms against a reactionary regime that executed thousands."
+          ]
+        },
+        {
+          "title": "poet",
+          "quotes": [
+            "a visionary teacher, poet, and radical who took up arms against a reactionary regime that executed thousands."
+          ]
+        },
+        {
+          "title": "radical",
+          "quotes": [
+            "a visionary teacher, poet, and radical who took up arms against a reactionary regime that executed thousands."
+          ]
+        },
+        {
+          "title": "writer",
+          "quotes": [
+            "The creative partnership of acclaimed writer and academic Mary M. Talbot and graphic-novel pioneer Bryan Talbot has produced some of the most challenging and entertaining graphic novels in recent memory"
+          ]
+        },
+        {
+          "title": "academic",
+          "quotes": [
+            "The creative partnership of acclaimed writer and academic Mary M. Talbot and graphic-novel pioneer Bryan Talbot has produced some of the most challenging and entertaining graphic novels in recent memory"
+          ]
+        },
+        {
+          "title": "graphic-novel pioneer",
+          "quotes": [
+            "The creative partnership of acclaimed writer and academic Mary M. Talbot and graphic-novel pioneer Bryan Talbot has produced some of the most challenging and entertaining graphic novels in recent memory"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Paris",
+          "quotes": [
+            "incendiary French leader of the 1871 Paris Commune."
+          ]
+        },
+        {
+          "place": "France",
+          "quotes": [
+            "Even deportation to a distant penal colony could not stop Michel from taking up the cause of the indigenous population against French colonial oppression."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "incendiary French leader of the 1871 Paris Commune."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1,
+          2,
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "a visionary teacher, poet, and radical who took up arms against a reactionary regime that executed thousands."
+        ],
+        "confidence": "medium",
+        "notes": "No specific time or organization mentioned, but roles are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          4,
+          5,
+          6
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The creative partnership of acclaimed writer and academic Mary M. Talbot and graphic-novel pioneer Bryan Talbot has produced some of the most challenging and entertaining graphic novels in recent memory"
+        ],
+        "confidence": "medium",
+        "notes": "No specific time or organization mentioned, but roles are clearly linked."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time and organization information, though roles are clearly linked."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time and organization information, though roles are clearly linked."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

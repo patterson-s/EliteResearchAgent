@@ -1,0 +1,235 @@
+{
+  "status": "success",
+  "chunk_id": 398,
+  "chunk_index": 4,
+  "source_url": "https://www.imemo.ru/en/about/history/primakov",
+  "title": "Yevgeny Maksimovich Primakov",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2009",
+          "type": "point",
+          "quotes": [
+            "(2009, Приднестровская Молдавская Республика)",
+            "Орден святого благоверного князя Даниила Московского I степени (2009, РПЦ)",
+            "Орден «За заслуги перед Отечеством» I степени (2009)"
+          ]
+        },
+        {
+          "text": "2012",
+          "type": "point",
+          "quotes": [
+            "Орден «Аль-Фахр» I степени (2012)"
+          ]
+        },
+        {
+          "text": "2014",
+          "type": "point",
+          "quotes": [
+            "Орден Славы и Чести I степени Российской православной церкви (2014, РПЦ)",
+            "Орден Александра Невского (2014)"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Приднестровская Молдавская Республика",
+          "quotes": [
+            "(2009, Приднестровская Молдавская Республика)"
+          ]
+        },
+        {
+          "name": "РПЦ",
+          "quotes": [
+            "Орден святого благоверного князя Даниила Московского I степени (2009, РПЦ)",
+            "Орден Славы и Чести I степени Российской православной церкви (2014, РПЦ)"
+          ]
+        },
+        {
+          "name": "Российская православная церковь",
+          "quotes": [
+            "Орден Славы и Чести I степени Российской православной церкви (2014, РПЦ)"
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "(2009, Приднестровская Молдавская Республика)"
+        ],
+        "confidence": "high",
+        "notes": "Award from Приднестровская Молдавская Республика in 2009"
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Орден святого благоверного князя Даниила Московского I степени (2009, РПЦ)"
+        ],
+        "confidence": "high",
+        "notes": "Award from РПЦ in 2009"
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Орден «За заслуги перед Отечеством» I степени (2009)"
+        ],
+        "confidence": "high",
+        "notes": "Award in 2009, no specific organization mentioned"
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Орден «Аль-Фахр» I степени (2012)"
+        ],
+        "confidence": "high",
+        "notes": "Award in 2012, no specific organization mentioned"
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          1,
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Орден Славы и Чести I степени Российской православной церкви (2014, РПЦ)"
+        ],
+        "confidence": "high",
+        "notes": "Award from Российская православная церковь (РПЦ) in 2014"
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Орден Александра Невского (2014)"
+        ],
+        "confidence": "high",
+        "notes": "Award in 2014, no specific organization mentioned"
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing role and location information"
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing role and location information"
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization, role, and location information"
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization, role, and location information"
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing role and location information"
+          }
+        ]
+      },
+      {
+        "event_id": 5,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization, role, and location information"
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 6,
+      "valid": 0,
+      "warnings": 6,
+      "errors": 0,
+      "career_positions": 0,
+      "awards": 6
+    }
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "status": "success",
+  "chunk_id": 2727,
+  "chunk_index": 8,
+  "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10722368/",
+  "title": "Searching for Meaning in the Life of Ellen Johnson-Sirleaf: A Call to Meaningful Responses to Tragedies - PMC",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1957",
+          "type": "point",
+          "quotes": [
+            "1957. Subsequently, the family income plummeted."
+          ]
+        },
+        {
+          "text": "1956",
+          "type": "point",
+          "quotes": [
+            "In 1956 she married James (Doc) Sirleaf (who was seven years older than her)."
+          ]
+        },
+        {
+          "text": "between 1957 and 1961",
+          "type": "range",
+          "quotes": [
+            "She had four sons in quick succession between 1957 and 1961 and became a housewife or homemaker (Bourlin, 2013; Cooper, 2017)."
+          ]
+        },
+        {
+          "text": "In 1961",
+          "type": "point",
+          "quotes": [
+            "In 1961, upon her return to Liberia, she initiated the divorce process as she had suffered domestic abuse from the start of her marriage."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Madison Business College",
+          "quotes": [
+            "where she earned an accounting degree from the Madison Business College in Wisconsin."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "housewife or homemaker",
+          "quotes": [
+            "She had four sons in quick succession between 1957 and 1961 and became a housewife or homemaker (Bourlin, 2013; Cooper, 2017)."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "United States of America (USA)",
+          "quotes": [
+            "Despite feelings of entrapment and domestic abuse, she travelled with her husband to the United States of America (USA), where she earned an accounting degree from the Madison Business College in Wisconsin."
+          ]
+        },
+        {
+          "place": "Wisconsin",
+          "quotes": [
+            "where she earned an accounting degree from the Madison Business College in Wisconsin."
+          ]
+        },
+        {
+          "place": "Liberia",
+          "quotes": [
+            "In 1961, upon her return to Liberia, she initiated the divorce process as she had suffered domestic abuse from the start of her marriage."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "She had four sons in quick succession between 1957 and 1961 and became a housewife or homemaker (Bourlin, 2013; Cooper, 2017)."
+        ],
+        "confidence": "high",
+        "notes": "Role is clearly stated with a defined time period."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0,
+          1
+        ],
+        "supporting_quotes": [
+          "where she earned an accounting degree from the Madison Business College in Wisconsin.",
+          "Despite feelings of entrapment and domestic abuse, she travelled with her husband to the United States of America (USA), where she earned an accounting degree from the Madison Business College in Wisconsin."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time marker, but the event is clearly linked to her time in the USA and Wisconsin."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position, though inferable from context."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Earning a degree is typically an educational event, not a career position, but the event is linked to her time in the USA and Wisconsin, which might imply a temporary role or study period."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

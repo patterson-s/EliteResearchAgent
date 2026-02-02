@@ -1,0 +1,98 @@
+{
+  "status": "success",
+  "chunk_id": 908,
+  "chunk_index": 51,
+  "source_url": "https://www.un.org/digital-emerging-technologies/sites/www.un.org.techenvoy/files/hlp_on_digital_cooperation-report_final.pdf",
+  "title": "hlp_on_digital_cooperation-report_final.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "UN",
+          "quotes": [
+            "We encourage the UN, international development agencies and multilateral banks such as the Asian Development Bank, the New Development Bank and the World Bank to drive this process by incorporating digital inclusion as a key metric in approving and evaluating projects.",
+            "We call on the technology sector to make more sustained and serious efforts to address the gap in female technology employees and management, include women’s voices when determining online terms and conditions, and act to prevent online harassment and promotion of domestic abuse, building upon the work of existing initiatives such as the UN Secretary-General’s High-level Panel on Women’s Economic Empowerment."
+          ]
+        },
+        {
+          "name": "Asian Development Bank",
+          "quotes": [
+            "We encourage the UN, international development agencies and multilateral banks such as the Asian Development Bank, the New Development Bank and the World Bank to drive this process by incorporating digital inclusion as a key metric in approving and evaluating projects."
+          ]
+        },
+        {
+          "name": "New Development Bank",
+          "quotes": [
+            "We encourage the UN, international development agencies and multilateral banks such as the Asian Development Bank, the New Development Bank and the World Bank to drive this process by incorporating digital inclusion as a key metric in approving and evaluating projects."
+          ]
+        },
+        {
+          "name": "World Bank",
+          "quotes": [
+            "We encourage the UN, international development agencies and multilateral banks such as the Asian Development Bank, the New Development Bank and the World Bank to drive this process by incorporating digital inclusion as a key metric in approving and evaluating projects."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "UN Secretary-General’s High-level Panel on Women’s Economic Empowerment",
+          "quotes": [
+            "We call on the technology sector to make more sustained and serious efforts to address the gap in female technology employees and management, include women’s voices when determining online terms and conditions, and act to prevent online harassment and promotion of domestic abuse, building upon the work of existing initiatives such as the UN Secretary-General’s High-level Panel on Women’s Economic Empowerment."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "We call on the technology sector to make more sustained and serious efforts to address the gap in female technology employees and management, include women’s voices when determining online terms and conditions, and act to prevent online harassment and promotion of domestic abuse, building upon the work of existing initiatives such as the UN Secretary-General’s High-level Panel on Women’s Economic Empowerment."
+        ],
+        "confidence": "high",
+        "notes": "The role is directly associated with the UN through the quote, indicating an active panel position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the event, making it difficult to determine when the position was held."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "The quote does not explicitly state that the individual holds the position on the UN Secretary-General’s High-level Panel on Women’s Economic Empowerment, but rather mentions the panel as an existing initiative."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

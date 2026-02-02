@@ -1,0 +1,133 @@
+{
+  "status": "success",
+  "chunk_id": 571,
+  "chunk_index": 71,
+  "source_url": "https://issafrica.s3.amazonaws.com/site/uploads/Book-2015-Salim.pdf",
+  "title": "Book-2015-Salim.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "in 1999",
+          "type": "point",
+          "quotes": [
+            "Salim initiated a major programme of reform and renewal in 1999 with the approval of the Assembly of Heads of State."
+          ]
+        },
+        {
+          "text": "By January 2000",
+          "type": "point",
+          "quotes": [
+            "By January 2000, the restructuring exercise had become a process of change management, underscoring the institutionalisation of the reform process and indicating a reorientation from simply being a short-term project-based undertaking to one that would introduce new systems and methods of work to the organisation."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "OAU Assembly of African Heads of State and Government",
+          "quotes": [
+            "the OAU Assembly of African Heads of State and Government, held in Sirté, Libya."
+          ]
+        },
+        {
+          "name": "OAU",
+          "quotes": [
+            "This declaration to replace the Charter of the OAU, called for the preparation of a constitutive act for the AU."
+          ]
+        },
+        {
+          "name": "AU",
+          "quotes": [
+            "This declaration to replace the Charter of the OAU, called for the preparation of a constitutive act for the AU."
+          ]
+        },
+        {
+          "name": "Assembly of Heads of State",
+          "quotes": [
+            "Salim initiated a major programme of reform and renewal in 1999 with the approval of the Assembly of Heads of State."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "secretary-general",
+          "quotes": [
+            "In his address during the opening session of the last summit that he would attend as secretary-general, the 37th OAU summit in Lusaka, Zambia, Salim appealed to African heads of state and government to ‘find that innermost strength to move our continent to a new level of unity, which irrespective of country, race, creed, ethnicity and religion, can galvanise our people for action’."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Sirté, Libya",
+          "quotes": [
+            "the OAU Assembly of African Heads of State and Government, held in Sirté, Libya."
+          ]
+        },
+        {
+          "place": "Lusaka, Zambia",
+          "quotes": [
+            "In his address during the opening session of the last summit that he would attend as secretary-general, the 37th OAU summit in Lusaka, Zambia, Salim appealed to African heads of state and government to ‘find that innermost strength to move our continent to a new level of unity, which irrespective of country, race, creed, ethnicity and religion, can galvanise our people for action’."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [
+          1,
+          3
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Salim initiated a major programme of reform and renewal in 1999 with the approval of the Assembly of Heads of State.",
+          "By January 2000, the restructuring exercise had become a process of change management, underscoring the institutionalisation of the reform process and indicating a reorientation from simply being a short-term project-based undertaking to one that would introduce new systems and methods of work to the organisation.",
+          "In his address during the opening session of the last summit that he would attend as secretary-general, the 37th OAU summit in Lusaka, Zambia, Salim appealed to African heads of state and government to ‘find that innermost strength to move our continent to a new level of unity, which irrespective of country, race, creed, ethnicity and religion, can galvanise our people for action’."
+        ],
+        "confidence": "high",
+        "notes": "The role of secretary-general is clearly a career position, and the quotes provide context linking the role with the OAU and the Assembly of Heads of State during the specified time period."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing end_date for the career position, making it difficult to determine the duration of the role."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "While the quotes support the role of secretary-general, they do not explicitly link all organizations (e.g., AU) to the event, though context suggests a connection."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "status": "success",
+  "chunk_id": 3903,
+  "chunk_index": 0,
+  "source_url": "https://louisemichel.com/louise-michel-biography/",
+  "title": "Louise Michel Biography",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1871",
+          "type": "point",
+          "quotes": [
+            "Louise Michel during the 1871 Paris Commune"
+          ]
+        },
+        {
+          "text": "1880",
+          "type": "point",
+          "quotes": [
+            "Louise Michel in New Caledonia, and after her 1880 return to Paris following amnesty."
+          ]
+        },
+        {
+          "text": "1890",
+          "type": "point",
+          "quotes": [
+            "Louise Michel After 1890"
+          ]
+        },
+        {
+          "text": "1852",
+          "type": "point",
+          "quotes": [
+            "Louise’s Teacher Exams at Versailles, Primary documents showing the results of Louise's teacher exam in Versailles in 1852."
+          ]
+        },
+        {
+          "text": "November 3, 2021",
+          "type": "point",
+          "quotes": [
+            "by Demas, November 3, 2021"
+          ]
+        },
+        {
+          "text": "September 13, 2024",
+          "type": "point",
+          "quotes": [
+            "September 13, 2024"
+          ]
+        },
+        {
+          "text": "September 6, 2020",
+          "type": "point",
+          "quotes": [
+            "by Demas, September 6, 2020"
+          ]
+        },
+        {
+          "text": "September 13, 2019",
+          "type": "point",
+          "quotes": [
+            "by Demas, September 13, 2019"
+          ]
+        }
+      ],
+      "organizations": [],
+      "roles": [
+        {
+          "title": "school teacher",
+          "quotes": [
+            "Louise Michel's early career as a school teacher in Paris."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Haute Marne",
+          "quotes": [
+            "Louise Michel's early life in Haute Marne"
+          ]
+        },
+        {
+          "place": "Paris",
+          "quotes": [
+            "early career as a school teacher in Paris.",
+            "Louise Michel during the 1871 Paris Commune",
+            "her 1880 return to Paris following amnesty."
+          ]
+        },
+        {
+          "place": "New Caledonia",
+          "quotes": [
+            "Louise Michel in New Caledonia"
+          ]
+        },
+        {
+          "place": "London",
+          "quotes": [
+            "Louise Michel's time in London"
+          ]
+        },
+        {
+          "place": "Versailles",
+          "quotes": [
+            "Louise’s Teacher Exams at Versailles"
+          ]
+        },
+        {
+          "place": "Vroncourt",
+          "quotes": [
+            "Images of Vroncourt, the birthplace of Louise Michel."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          4
+        ],
+        "supporting_quotes": [
+          "Louise’s Teacher Exams at Versailles, Primary documents showing the results of Louise's teacher exam in Versailles in 1852.",
+          "Louise Michel's early career as a school teacher in Paris."
+        ],
+        "confidence": "high",
+        "notes": "Teacher exams and early career as a school teacher are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Louise Michel during the 1871 Paris Commune"
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but involvement in the Paris Commune is a significant event."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          2,
+          1
+        ],
+        "supporting_quotes": [
+          "Louise Michel in New Caledonia, and after her 1880 return to Paris following amnesty."
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but the return to Paris after amnesty is a notable event."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Louise Michel After 1890"
+        ],
+        "confidence": "low",
+        "notes": "No specific role or location mentioned, but the time marker is provided."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and role details for involvement in the 1871 Paris Commune."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and role details for the event in New Caledonia and return to Paris in 1880."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "error",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization, role, and location details for the event after 1890."
+          },
+          {
+            "type": "classification",
+            "severity": "medium",
+            "description": "Classification as 'career_position' is questionable without role or location information."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 1,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

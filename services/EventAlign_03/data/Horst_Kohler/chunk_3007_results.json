@@ -1,0 +1,437 @@
+{
+  "status": "success",
+  "chunk_id": 3007,
+  "chunk_index": 0,
+  "source_url": "https://en.wikipedia.org/wiki/Horst_K%C3%B6hler",
+  "title": "Horst Köhler - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1993–2000",
+          "type": "range",
+          "quotes": [
+            "Career in banking 1993–2000"
+          ]
+        },
+        {
+          "text": "2000–2004",
+          "type": "range",
+          "quotes": [
+            "Head of the International Monetary Fund, 2000–2004"
+          ]
+        },
+        {
+          "text": "2004–2010",
+          "type": "range",
+          "quotes": [
+            "9th president of Germany, 2004–2010",
+            "President of Germany from 2004 to 2010",
+            "In office\n1 July 2004 – 31 May 2010"
+          ]
+        },
+        {
+          "text": "1 July 2004 – 31 May 2010",
+          "type": "range",
+          "quotes": [
+            "In office\n1 July 2004 – 31 May 2010"
+          ]
+        },
+        {
+          "text": "1 May 2000 – 4 March 2004",
+          "type": "range",
+          "quotes": [
+            "In office\n1 May 2000 – 4 March 2004"
+          ]
+        },
+        {
+          "text": "September 1998 – April 2000",
+          "type": "range",
+          "quotes": [
+            "In office\nSeptember 1998 – April 2000"
+          ]
+        },
+        {
+          "text": "1993–1998",
+          "type": "range",
+          "quotes": [
+            "In office\n1993–1998"
+          ]
+        },
+        {
+          "text": "1990–1993",
+          "type": "range",
+          "quotes": [
+            "In office\n1990–1993"
+          ]
+        },
+        {
+          "text": "(1989)",
+          "type": "point",
+          "quotes": [
+            "Preceded by\nHans Tietmeyer\n(1989)"
+          ]
+        },
+        {
+          "text": "1981–2025",
+          "type": "range",
+          "quotes": [
+            "Christian Democratic Union\n(1981–2025)"
+          ]
+        },
+        {
+          "text": "(2025-02-01)",
+          "type": "point",
+          "quotes": [
+            "Died\n1 February 2025\n(2025-02-01)"
+          ]
+        },
+        {
+          "text": "(1943-02-22)",
+          "type": "point",
+          "quotes": [
+            "Born\n(1943-02-22)"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "International Monetary Fund",
+          "quotes": [
+            "Head of the International Monetary Fund, 2000–2004",
+            "Managing Director of the\nInternational Monetary Fund"
+          ]
+        },
+        {
+          "name": "European Bank for Reconstruction and Development",
+          "quotes": [
+            "President of the\nEuropean Bank for Reconstruction and Development"
+          ]
+        },
+        {
+          "name": "German Savings Banks Association",
+          "quotes": [
+            "President of the\nGerman Savings Banks Association"
+          ]
+        },
+        {
+          "name": "Ministry of Finance",
+          "quotes": [
+            "Secretary of State in the Ministry of Finance",
+            "State Secretary in the Ministry of Finance"
+          ]
+        },
+        {
+          "name": "Christian Democratic Union",
+          "quotes": [
+            "Christian Democratic Union\n(1981–2025)"
+          ]
+        },
+        {
+          "name": "University of Tübingen",
+          "quotes": [
+            "Education\nUniversity of Tübingen"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "President of Germany",
+          "quotes": [
+            "President of Germany from 2004 to 2010",
+            "9th president of Germany, 2004–2010"
+          ]
+        },
+        {
+          "title": "Managing Director",
+          "quotes": [
+            "Managing Director of the\nInternational Monetary Fund"
+          ]
+        },
+        {
+          "title": "President of the European Bank for Reconstruction and Development",
+          "quotes": [
+            "President of the\nEuropean Bank for Reconstruction and Development"
+          ]
+        },
+        {
+          "title": "President of the German Savings Banks Association",
+          "quotes": [
+            "President of the\nGerman Savings Banks Association"
+          ]
+        },
+        {
+          "title": "State Secretary in the Ministry of Finance",
+          "quotes": [
+            "State Secretary in the Ministry of Finance"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Heidenstein, General Government (now Skierbieszów, Poland)",
+          "quotes": [
+            "Heidenstein,\nGeneral Government\n(now\nSkierbieszów\n, Poland)"
+          ]
+        },
+        {
+          "place": "Berlin, Germany",
+          "quotes": [
+            "Berlin, Germany"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Career in banking 1993–2000"
+        ],
+        "confidence": "medium",
+        "notes": "No specific organization or role mentioned, but time range is clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1,
+          5
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Head of the International Monetary Fund, 2000–2004",
+          "Managing Director of the\nInternational Monetary Fund",
+          "In office\n1 May 2000 – 4 March 2004"
+        ],
+        "confidence": "high",
+        "notes": "Time range and role are consistent across quotes."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2,
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "9th president of Germany, 2004–2010",
+          "President of Germany from 2004 to 2010",
+          "In office\n1 July 2004 – 31 May 2010"
+        ],
+        "confidence": "high",
+        "notes": "Time range and role are consistent across quotes."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          6
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In office\n1993–1998"
+        ],
+        "confidence": "low",
+        "notes": "No specific organization or role mentioned, but time range is clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          7
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In office\n1990–1993"
+        ],
+        "confidence": "low",
+        "notes": "No specific organization or role mentioned, but time range is clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          10
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Christian Democratic Union\n(1981–2025)"
+        ],
+        "confidence": "high",
+        "notes": "Long-term affiliation with the organization."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "President of the\nEuropean Bank for Reconstruction and Development"
+        ],
+        "confidence": "medium",
+        "notes": "No time range mentioned, but role and organization are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "President of the\nGerman Savings Banks Association"
+        ],
+        "confidence": "medium",
+        "notes": "No time range mentioned, but role and organization are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          5
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "State Secretary in the Ministry of Finance"
+        ],
+        "confidence": "medium",
+        "notes": "No time range mentioned, but role and organization are clear."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and role details for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and role details for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and role details for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 5,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "Time range 1981–2025 seems unusually long for a single career position."
+          }
+        ]
+      },
+      {
+        "event_id": 6,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time range for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 7,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time range for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 8,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time range for career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 9,
+      "valid": 2,
+      "warnings": 7,
+      "errors": 0,
+      "career_positions": 9,
+      "awards": 0
+    }
+  }
+}

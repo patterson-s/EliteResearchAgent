@@ -1,0 +1,216 @@
+{
+  "status": "success",
+  "chunk_id": 573,
+  "chunk_index": 73,
+  "source_url": "https://issafrica.s3.amazonaws.com/site/uploads/Book-2015-Salim.pdf",
+  "title": "Book-2015-Salim.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In October 2000",
+          "type": "point",
+          "quotes": [
+            "In October 2000 the Forum for China-Africa Cooperation was inaugurated, and its first ministerial conference was held in Beijing."
+          ]
+        },
+        {
+          "text": "in July 2001",
+          "type": "point",
+          "quotes": [
+            "Salim’s successor as secretary-general of the OAU was former foreign minister of Côte d’Ivoire Amara Essy, who was elected to succeed him at the AU summit in Lusaka in July 2001."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "AU",
+          "quotes": [
+            "to the AU, which would have a special focus on regional integration and economic development."
+          ]
+        },
+        {
+          "name": "OAU",
+          "quotes": [
+            "During his tenure at the OAU, Salim sought to enhance institutional understanding of the OAU and increase Africa’s relevance on the global stage."
+          ]
+        },
+        {
+          "name": "UN",
+          "quotes": [
+            "In this area, Salim was able to benefit from the role that he had played at the UN."
+          ]
+        },
+        {
+          "name": "Forum for China-Africa Cooperation",
+          "quotes": [
+            "In October 2000 the Forum for China-Africa Cooperation was inaugurated, and its first ministerial conference was held in Beijing."
+          ]
+        },
+        {
+          "name": "AU Commission",
+          "quotes": [
+            "Essy and his successors, Alpha Oumar Konaré, Jean Ping and Nkosazana Dlamini-Zuma were able to build and expand upon this solid base."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "secretary-general of the OAU",
+          "quotes": [
+            "Salim’s successor as secretary-general of the OAU was former foreign minister of Côte d’Ivoire Amara Essy, who was elected to succeed him at the AU summit in Lusaka in July 2001."
+          ]
+        },
+        {
+          "title": "interim chairman of the AU Commission",
+          "quotes": [
+            "Essy served in that position for a year and was then appointed as interim chairman of the AU Commission."
+          ]
+        },
+        {
+          "title": "foreign minister of Côte d’Ivoire",
+          "quotes": [
+            "Salim’s successor as secretary-general of the OAU was former foreign minister of Côte d’Ivoire Amara Essy, who was elected to succeed him at the AU summit in Lusaka in July 2001."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Beijing",
+          "quotes": [
+            "In October 2000 the Forum for China-Africa Cooperation was inaugurated, and its first ministerial conference was held in Beijing."
+          ]
+        },
+        {
+          "place": "Lusaka",
+          "quotes": [
+            "Salim’s successor as secretary-general of the OAU was former foreign minister of Côte d’Ivoire Amara Essy, who was elected to succeed him at the AU summit in Lusaka in July 2001."
+          ]
+        },
+        {
+          "place": "Africa",
+          "quotes": [
+            "His contribution to the advancement of democracy, peace, security and stability on the continent is undisputed."
+          ]
+        },
+        {
+          "place": "China",
+          "quotes": [
+            "One of the most evident results of his quest to enhance South–South cooperation was developing relations with China."
+          ]
+        },
+        {
+          "place": "Abuja",
+          "quotes": [
+            "Salim travelled extensively to promote the Abuja Treaty and the Cairo Declaration."
+          ]
+        },
+        {
+          "place": "Cairo",
+          "quotes": [
+            "Salim travelled extensively to promote the Abuja Treaty and the Cairo Declaration."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Salim’s successor as secretary-general of the OAU was former foreign minister of Côte d’Ivoire Amara Essy, who was elected to succeed him at the AU summit in Lusaka in July 2001."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Essy served in that position for a year and was then appointed as interim chairman of the AU Commission."
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker, but clear role and organization linkage."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "In October 2000 the Forum for China-Africa Cooperation was inaugurated, and its first ministerial conference was held in Beijing."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and location, though no specific role mentioned."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the event."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for the event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "status": "success",
+  "chunk_id": 768,
+  "chunk_index": 5,
+  "source_url": "https://greatarabminds.ae/about-the-gam/great-arab-minds-committee/",
+  "title": "Great Arab Minds Committee | His Excellency Mohammad Abdullah Al Gergawi | His Excellency Saeed Al Nazari",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "American University of Beirut",
+          "quotes": [
+            "Professor of Architecture in the Islamic World at the American University of Beirut"
+          ]
+        },
+        {
+          "name": "Adjaye Associates",
+          "quotes": [
+            "Architect and founder of Adjaye Associates"
+          ]
+        },
+        {
+          "name": "Majarra Company",
+          "quotes": [
+            "President and Founder of Majarra Company"
+          ]
+        },
+        {
+          "name": "LinkedIn",
+          "quotes": [
+            "Head of LinkedIn Middle East and North Africa and Emerging Markets in Africa and Europe"
+          ]
+        },
+        {
+          "name": "KPMG Lower Gulf",
+          "quotes": [
+            "Partner and Head of Advisory at KPMG Lower Gulf"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Professor of Architecture in the Islamic World",
+          "quotes": [
+            "Professor of Architecture in the Islamic World at the American University of Beirut"
+          ]
+        },
+        {
+          "title": "Architect and founder",
+          "quotes": [
+            "Architect and founder of Adjaye Associates"
+          ]
+        },
+        {
+          "title": "Deputy Minister of Cabinet Affairs for Strategic Affairs",
+          "quotes": [
+            "Her Excellency Huda Al Hashemi, Deputy Minister of Cabinet Affairs for Strategic Affairs"
+          ]
+        },
+        {
+          "title": "President and Founder",
+          "quotes": [
+            "President and Founder of Majarra Company"
+          ]
+        },
+        {
+          "title": "Head of LinkedIn Middle East and North Africa and Emerging Markets in Africa and Europe",
+          "quotes": [
+            "Head of LinkedIn Middle East and North Africa and Emerging Markets in Africa and Europe"
+          ]
+        },
+        {
+          "title": "Partner and Head of Advisory",
+          "quotes": [
+            "Partner and Head of Advisory at KPMG Lower Gulf"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Middle East and North Africa",
+          "quotes": [
+            "Head of LinkedIn Middle East and North Africa and Emerging Markets in Africa and Europe"
+          ]
+        },
+        {
+          "place": "Africa and Europe",
+          "quotes": [
+            "Head of LinkedIn Middle East and North Africa and Emerging Markets in Africa and Europe"
+          ]
+        },
+        {
+          "place": "Lower Gulf",
+          "quotes": [
+            "Partner and Head of Advisory at KPMG Lower Gulf"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Professor of Architecture in the Islamic World at the American University of Beirut"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between organization and role in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Architect and founder of Adjaye Associates"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between organization and role in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "President and Founder of Majarra Company"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between organization and role in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [
+          0,
+          1
+        ],
+        "supporting_quotes": [
+          "Head of LinkedIn Middle East and North Africa and Emerging Markets in Africa and Europe"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between organization, role, and locations in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          5
+        ],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "Partner and Head of Advisory at KPMG Lower Gulf"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between organization, role, and location in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Her Excellency Huda Al Hashemi, Deputy Minister of Cabinet Affairs for Strategic Affairs"
+        ],
+        "confidence": "medium",
+        "notes": "No organization mentioned, but role is clearly a career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 5,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and time markers for career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 6,
+      "valid": 0,
+      "warnings": 6,
+      "errors": 0,
+      "career_positions": 6,
+      "awards": 0
+    }
+  }
+}

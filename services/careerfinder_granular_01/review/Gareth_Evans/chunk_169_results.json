@@ -1,0 +1,217 @@
+{
+  "status": "success",
+  "chunk_id": 169,
+  "chunk_index": 6,
+  "source_url": "https://en.wikipedia.org/wiki/Gareth_Evans_(politician)",
+  "title": "Gareth Evans (politician) - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "in 1993",
+          "type": "point",
+          "quotes": [
+            "Evans (left) with United States Secretary of Defense Les Aspin (right) in 1993."
+          ]
+        },
+        {
+          "text": "military invasion in 1975",
+          "type": "point",
+          "quotes": [
+            "for supporting Australia's recognition of Indonesian sovereignty over East Timor following its military invasion in 1975"
+          ]
+        },
+        {
+          "text": "1991",
+          "type": "point",
+          "quotes": [
+            "describing the 1991 Dili massacre as 'an aberration, not an act of state policy'."
+          ]
+        },
+        {
+          "text": "before the events of 1997",
+          "type": "point",
+          "quotes": [
+            "that he personally had worked hard (as subsequently acknowledged by José Ramos-Horta) to achieve real autonomy for East Timor as the only realistic option before the events of 1997"
+          ]
+        },
+        {
+          "text": "in 2002",
+          "type": "point",
+          "quotes": [
+            "The Timor Gap Treaty was replaced by the Timor Sea Treaty after East Timor's independence in 2002."
+          ]
+        },
+        {
+          "text": "In 2018",
+          "type": "point",
+          "quotes": [
+            "In 2018, the treaty in force today was concluded, which is far more favorable to East Timor."
+          ]
+        },
+        {
+          "text": "When in June 1995",
+          "type": "point",
+          "quotes": [
+            "When in June 1995 the resumption of French underground nuclear tests at Moruroa Atoll was announced"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Australian Greens",
+          "quotes": [
+            "a particular intolerance for elected representatives of the Australian Greens."
+          ]
+        },
+        {
+          "name": "Comprehensive Nuclear Test Ban Treaty",
+          "quotes": [
+            "France promised to then permanently close the test facility and join the Comprehensive Nuclear Test Ban Treaty negotiations"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Senator",
+          "quotes": [
+            "Senator Robert Hill"
+          ]
+        },
+        {
+          "title": "United States Secretary of Defense",
+          "quotes": [
+            "United States Secretary of Defense Les Aspin"
+          ]
+        },
+        {
+          "title": "Indonesian Foreign Minister",
+          "quotes": [
+            "with then Indonesian Foreign Minister Ali Alatas"
+          ]
+        },
+        {
+          "title": "Leader",
+          "quotes": [
+            "Leader of the"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "East Timor",
+          "quotes": [
+            "relations with Indonesia over East Timor",
+            "Australian recognition of Indonesian sovereignty over East Timor",
+            "achieve real autonomy for East Timor",
+            "East Timor's independence",
+            "Australia-East Timor spying scandal"
+          ]
+        },
+        {
+          "place": "Pacific",
+          "quotes": [
+            "French Nuclear Tests in the Pacific."
+          ]
+        },
+        {
+          "place": "Moruroa Atoll",
+          "quotes": [
+            "the resumption of French underground nuclear tests at Moruroa Atoll"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Senator Robert Hill"
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker or organization linked, but role is clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Evans (left) with United States Secretary of Defense Les Aspin (right) in 1993."
+        ],
+        "confidence": "high",
+        "notes": "Time marker and role are directly linked in the quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "with then Indonesian Foreign Minister Ali Alatas"
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker, but role and location are linked."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and organization information."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and organization information."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "status": "success",
+  "chunk_id": 465,
+  "chunk_index": 1,
+  "source_url": "https://www.unfpa.org/about/nafis-sadik",
+  "title": "NAFIS SADIK | United Nations Population Fund",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "May 2009",
+          "type": "point",
+          "quotes": [
+            "UNFPA in May 2009 as Chief of Accounts, promoted to Chief of Finance Branch 2 years later and again to Director,…"
+          ]
+        },
+        {
+          "text": "2 years later",
+          "type": "point",
+          "quotes": [
+            "UNFPA in May 2009 as Chief of Accounts, promoted to Chief of Finance Branch 2 years later and again to Director,…"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "UNFPA",
+          "quotes": [
+            "UNFPA in May 2009 as Chief of Accounts, promoted to Chief of Finance Branch 2 years later and again to Director,…"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Chief of Accounts",
+          "quotes": [
+            "UNFPA in May 2009 as Chief of Accounts, promoted to Chief of Finance Branch 2 years later and again to Director,…"
+          ]
+        },
+        {
+          "title": "Chief of Finance Branch",
+          "quotes": [
+            "UNFPA in May 2009 as Chief of Accounts, promoted to Chief of Finance Branch 2 years later and again to Director,…"
+          ]
+        },
+        {
+          "title": "Director",
+          "quotes": [
+            "UNFPA in May 2009 as Chief of Accounts, promoted to Chief of Finance Branch 2 years later and again to Director,…"
+          ]
+        },
+        {
+          "title": "Executive Director",
+          "quotes": [
+            "Executive Director\nDiene Keita"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "UNFPA in May 2009 as Chief of Accounts, promoted to Chief of Finance Branch 2 years later and again to Director,…"
+        ],
+        "confidence": "high",
+        "notes": "Clear start date and role as Chief of Accounts at UNFPA."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "UNFPA in May 2009 as Chief of Accounts, promoted to Chief of Finance Branch 2 years later and again to Director,…"
+        ],
+        "confidence": "high",
+        "notes": "Promotion to Chief of Finance Branch 2 years after starting as Chief of Accounts."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "UNFPA in May 2009 as Chief of Accounts, promoted to Chief of Finance Branch 2 years later and again to Director,…"
+        ],
+        "confidence": "medium",
+        "notes": "Promotion to Director, but exact time marker is not specified. Assumed to follow the previous promotion."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Executive Director\nDiene Keita"
+        ],
+        "confidence": "low",
+        "notes": "Executive Director role mentioned without context or time marker. Assumed to be a separate position at UNFPA."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "Time marker '2 years later' is relative and lacks a specific date."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "Missing specific time marker for the promotion to Director."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and context for the Executive Director role."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quote does not clearly support the role as a career position at UNFPA."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 1,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

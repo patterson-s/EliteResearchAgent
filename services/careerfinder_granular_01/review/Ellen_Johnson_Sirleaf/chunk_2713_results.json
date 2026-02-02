@@ -1,0 +1,225 @@
+{
+  "status": "success",
+  "chunk_id": 2713,
+  "chunk_index": 0,
+  "source_url": "https://www.britannica.com/biography/Ellen-Johnson-Sirleaf",
+  "title": "Ellen Johnson Sirleaf | Achievements, Nobel Peace Prize, & Facts | Britannica",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Council of Women World Leaders",
+          "quotes": [
+            "Council of Women World Leaders - Ellen Johnson Sirleaf"
+          ]
+        },
+        {
+          "name": "Ellen Johnson Sirleaf Presidential Center for Women and Development",
+          "quotes": [
+            "Official Site of the Ellen Johnson Sirleaf Presidential Center for Women and Development"
+          ]
+        },
+        {
+          "name": "The Nobel Prize",
+          "quotes": [
+            "The Nobel Prize - Biography of Ellen Johnson Sirleaf"
+          ]
+        },
+        {
+          "name": "NPR",
+          "quotes": [
+            "NPR - The 'Remarkable Life' Of Liberia's 'Iron Lady'"
+          ]
+        },
+        {
+          "name": "United Nations",
+          "quotes": [
+            "United Nations - Ellen Johnson Sirleaf"
+          ]
+        },
+        {
+          "name": "Academy of Achievement",
+          "quotes": [
+            "Academy of Achievement - Biography of Ellen Johnson Sirleaf"
+          ]
+        },
+        {
+          "name": "National Center for Biotechnology Information",
+          "quotes": [
+            "National Center for Biotechnology Information - PubMed Central - Searching for Meaning in the Life of Ellen Johnson-Sirleaf: A Call to Meaningful Responses to Tragedies"
+          ]
+        },
+        {
+          "name": "The Elders",
+          "quotes": [
+            "The Elders - Biography of Ellen Johnson Sirleaf"
+          ]
+        },
+        {
+          "name": "Columbia University",
+          "quotes": [
+            "Columbia University - World Leaders Forum - Ellen Johnson Sirleaf"
+          ]
+        },
+        {
+          "name": "Global Leadership Foundation",
+          "quotes": [
+            "Global Leadership Foundation - Ellen Johnson Sirleaf"
+          ]
+        },
+        {
+          "name": "Iowa State University",
+          "quotes": [
+            "Iowa State University - Archives of Women's Political Communication - Biography of Ellen Johnson Sirleaf"
+          ]
+        },
+        {
+          "name": "BBC",
+          "quotes": [
+            "BBC - Ellen Johnson Sirleaf: The legacy of Africa's first elected female president"
+          ]
+        },
+        {
+          "name": "Britannica",
+          "quotes": [
+            "Ellen Johnson Sirleaf | Achievements, Nobel Peace Prize, & Facts | Britannica"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "President",
+          "quotes": [
+            "BBC - Ellen Johnson Sirleaf: The legacy of Africa's first elected female president"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Liberia",
+          "quotes": [
+            "NPR - The 'Remarkable Life' Of Liberia's 'Iron Lady'",
+            "BBC - Ellen Johnson Sirleaf: The legacy of Africa's first elected female president"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "BBC - Ellen Johnson Sirleaf: The legacy of Africa's first elected female president",
+          "NPR - The 'Remarkable Life' Of Liberia's 'Iron Lady'"
+        ],
+        "confidence": "high",
+        "notes": "President role in Liberia is clearly a career position, though no specific organization is mentioned in the same quotes."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The Nobel Prize - Biography of Ellen Johnson Sirleaf",
+          "Ellen Johnson Sirleaf | Achievements, Nobel Peace Prize, & Facts | Britannica"
+        ],
+        "confidence": "high",
+        "notes": "The Nobel Prize is clearly an award."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Official Site of the Ellen Johnson Sirleaf Presidential Center for Women and Development"
+        ],
+        "confidence": "medium",
+        "notes": "Assumed career position as it is her presidential center, though no specific role is mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          7
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The Elders - Biography of Ellen Johnson Sirleaf"
+        ],
+        "confidence": "medium",
+        "notes": "Assumed career position as part of The Elders, though no specific role is mentioned."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and time information, though role and location are inferable."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role and time information, though organization is present."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role and time information, though organization is present."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 1,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 1
+    }
+  }
+}

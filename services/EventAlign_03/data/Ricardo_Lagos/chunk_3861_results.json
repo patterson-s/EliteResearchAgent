@@ -1,0 +1,86 @@
+{
+  "status": "success",
+  "chunk_id": 3861,
+  "chunk_index": 26,
+  "source_url": "https://www.pbs.org/wgbh/commandingheights/shared/minitext/int_ricardolagos.html",
+  "title": "Commanding Heights : Ricardo Lagos | on PBS",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Bank of England",
+          "quotes": [
+            "the president of the Bank of England, and I said, 'Do you remember the sentence of Mr. Keynes?'"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "president of the Bank of England",
+          "quotes": [
+            "the president of the Bank of England, and I said, 'Do you remember the sentence of Mr. Keynes?'"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Chile",
+          "quotes": [
+            "What It Means to Be from the Left in Chile Today"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "the president of the Bank of England, and I said, 'Do you remember the sentence of Mr. Keynes?'"
+        ],
+        "confidence": "high",
+        "notes": "Role and organization are clearly linked in the same quote, indicating a career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the career position event."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The role 'president of the Bank of England' is typically a high-level position, but the quote does not explicitly mention active responsibilities, which are expected for a career_position classification."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

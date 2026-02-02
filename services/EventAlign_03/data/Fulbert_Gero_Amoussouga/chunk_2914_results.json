@@ -1,0 +1,95 @@
+{
+  "status": "success",
+  "chunk_id": 2914,
+  "chunk_index": 5,
+  "source_url": "https://cdn.modernghana.com/images/content/report_content/list_of_highlevel_panel_members.pdf",
+  "title": "list_of_highlevel_panel_members.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "Septe mber 2013",
+          "type": "point",
+          "quotes": [
+            "to be organized by the President of the sixty -eighth session of the General Assembly in Septe mber 2013."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "General Assembly",
+          "quotes": [
+            "to be organized by the President of the sixty -eighth session of the General Assembly in Septe mber 2013."
+          ]
+        },
+        {
+          "name": "United Nations",
+          "quotes": [
+            "For more information on the post -2015 process visit: http://www.un.org/millenniumgoals/beyond2015.shtml"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "President of the sixty -eighth session of the General Assembly",
+          "quotes": [
+            "to be organized by the President of the sixty -eighth session of the General Assembly in Septe mber 2013."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "to be organized by the President of the sixty -eighth session of the General Assembly in Septe mber 2013."
+        ],
+        "confidence": "high",
+        "notes": "The role of President of the sixty-eighth session of the General Assembly clearly indicates an active position with responsibilities."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Location information is missing, which may be expected but should be confirmed."
+          },
+          {
+            "type": "quote_support",
+            "severity": "medium",
+            "description": "The supporting quote mentions the role but does not explicitly confirm the start or duration of the position, only referencing an event in September 2013."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

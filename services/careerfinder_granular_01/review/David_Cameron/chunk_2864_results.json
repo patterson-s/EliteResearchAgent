@@ -1,0 +1,235 @@
+{
+  "status": "success",
+  "chunk_id": 2864,
+  "chunk_index": 83,
+  "source_url": "https://en.wikipedia.org/wiki/David_Cameron",
+  "title": "David Cameron - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2005 (party leadership)",
+          "type": "point",
+          "quotes": [
+            "2005 (party leadership)"
+          ]
+        },
+        {
+          "text": "2006 (local)",
+          "type": "point",
+          "quotes": [
+            "2006 (local)"
+          ]
+        },
+        {
+          "text": "2007 (local)",
+          "type": "point",
+          "quotes": [
+            "2007 (local)"
+          ]
+        },
+        {
+          "text": "2008 (local)",
+          "type": "point",
+          "quotes": [
+            "2008 (local)"
+          ]
+        },
+        {
+          "text": "2009 (local)",
+          "type": "point",
+          "quotes": [
+            "2009 (local)"
+          ]
+        },
+        {
+          "text": "2009 (European)",
+          "type": "point",
+          "quotes": [
+            "2009 (European)"
+          ]
+        },
+        {
+          "text": "2010 (local)",
+          "type": "point",
+          "quotes": [
+            "2010 (local)"
+          ]
+        },
+        {
+          "text": "2010 (general)",
+          "type": "point",
+          "quotes": [
+            "2010 (general)"
+          ]
+        },
+        {
+          "text": "2011 (local)",
+          "type": "point",
+          "quotes": [
+            "2011 (local)"
+          ]
+        },
+        {
+          "text": "2012 (local)",
+          "type": "point",
+          "quotes": [
+            "2012 (local)"
+          ]
+        },
+        {
+          "text": "2013 (local)",
+          "type": "point",
+          "quotes": [
+            "2013 (local)"
+          ]
+        },
+        {
+          "text": "2014 (local)",
+          "type": "point",
+          "quotes": [
+            "2014 (local)"
+          ]
+        },
+        {
+          "text": "2014 (European)",
+          "type": "point",
+          "quotes": [
+            "2014 (European)"
+          ]
+        },
+        {
+          "text": "2015 (general)",
+          "type": "point",
+          "quotes": [
+            "2015 (general)"
+          ]
+        },
+        {
+          "text": "2015 (local)",
+          "type": "point",
+          "quotes": [
+            "2015 (local)"
+          ]
+        },
+        {
+          "text": "2016 (local)",
+          "type": "point",
+          "quotes": [
+            "2016 (local)"
+          ]
+        },
+        {
+          "text": "2010–2016",
+          "type": "range",
+          "quotes": [
+            "Cabinet of David Cameron (2010–2016)"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Bullingdon Club",
+          "quotes": [
+            "1987 Bullingdon Club photograph"
+          ]
+        },
+        {
+          "name": "Cabinet of David Cameron",
+          "quotes": [
+            "Cabinet of David Cameron (2010–2016)"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Prime Minister",
+          "quotes": [
+            "Prime ministers of the United Kingdom",
+            "Prime Minister, Deputy Prime Minister and Secretaries of State"
+          ]
+        },
+        {
+          "title": "Foreign Secretary",
+          "quotes": [
+            "Foreign secretaries of the United Kingdom"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Witney",
+          "quotes": [
+            "Witney"
+          ]
+        },
+        {
+          "place": "Notting Hill",
+          "quotes": [
+            "Notting Hill set"
+          ]
+        },
+        {
+          "place": "Chipping Norton",
+          "quotes": [
+            "Chipping Norton set"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          16
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Cabinet of David Cameron (2010–2016)",
+          "Prime ministers of the United Kingdom",
+          "Prime Minister, Deputy Prime Minister and Secretaries of State"
+        ],
+        "confidence": "high",
+        "notes": "Direct linkage between time range, organization, and role."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing location information, which is unexpected for a career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quotes mention 'Cabinet of David Cameron' and 'Prime Minister' but do not explicitly state the role within the cabinet or direct responsibilities."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

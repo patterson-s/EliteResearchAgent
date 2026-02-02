@@ -1,0 +1,145 @@
+{
+  "status": "success",
+  "chunk_id": 3828,
+  "chunk_index": 2,
+  "source_url": "https://theelders.org/profile/ricardo-lagos",
+  "title": "Ricardo Lagos",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "in 2006",
+          "type": "point",
+          "quotes": [
+            "Ricardo Lagos founded the Fundación Democracia y Desarrollo in 2006, a Santiago-based organisation aiming to promote democracy and development."
+          ]
+        },
+        {
+          "text": "Between 2006-2008",
+          "type": "range",
+          "quotes": [
+            "Between 2006-2008, Ricardo Lagos served as President of the Club de Madrid, a group of global leaders working on governance and conflict issues, and remains a member of the organisation to this day."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "European Union",
+          "quotes": [
+            "His administration also secured several important free-trade agreements, including with the European Union, the United States and China."
+          ]
+        },
+        {
+          "name": "United States",
+          "quotes": [
+            "His administration also secured several important free-trade agreements, including with the European Union, the United States and China."
+          ]
+        },
+        {
+          "name": "China",
+          "quotes": [
+            "His administration also secured several important free-trade agreements, including with the European Union, the United States and China."
+          ]
+        },
+        {
+          "name": "Fundación Democracia y Desarrollo",
+          "quotes": [
+            "After leaving office, Ricardo Lagos founded the Fundación Democracia y Desarrollo in 2006, a Santiago-based organisation aiming to promote democracy and development."
+          ]
+        },
+        {
+          "name": "Club de Madrid",
+          "quotes": [
+            "Between 2006-2008, Ricardo Lagos served as President of the Club de Madrid, a group of global leaders working on governance and conflict issues, and remains a member of the organisation to this day."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "President of the Club de Madrid",
+          "quotes": [
+            "Between 2006-2008, Ricardo Lagos served as President of the Club de Madrid, a group of global leaders working on governance and conflict issues, and remains a member of the organisation to this day."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Santiago",
+          "quotes": [
+            "Ricardo Lagos founded the Fundación Democracia y Desarrollo in 2006, a Santiago-based organisation aiming to promote democracy and development."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Ricardo Lagos founded the Fundación Democracia y Desarrollo in 2006, a Santiago-based organisation aiming to promote democracy and development."
+        ],
+        "confidence": "high",
+        "notes": "Role is implied as founder, which is an active position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Between 2006-2008, Ricardo Lagos served as President of the Club de Madrid, a group of global leaders working on governance and conflict issues, and remains a member of the organisation to this day."
+        ],
+        "confidence": "high",
+        "notes": "Clear role and organization with defined time period."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing role_ids despite the role being implied as founder in the notes."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

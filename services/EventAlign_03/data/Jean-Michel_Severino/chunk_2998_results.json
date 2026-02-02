@@ -1,0 +1,80 @@
+{
+  "status": "success",
+  "chunk_id": 2998,
+  "chunk_index": 2,
+  "source_url": "https://ferdi.fr/en/biographies/jean-michel-severino",
+  "title": "Jean-Michel SEVERINO – Ferdi",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "by a decree in 2003",
+          "type": "point",
+          "quotes": [
+            "A foundation recognised to be of public utility by the French state by a decree in 2003."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "French state",
+          "quotes": [
+            "A foundation recognised to be of public utility by the French state by a decree in 2003."
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "A foundation recognised to be of public utility by the French state by a decree in 2003."
+        ],
+        "confidence": "high",
+        "notes": "No specific role mentioned, but the recognition by the French state in 2003 indicates a one-time award or honorific status."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The event is classified as an 'award', but the quote describes a recognition of public utility status, which may not be a typical award. Consider verifying if this is a one-time recognition or an ongoing status."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "The event lacks a specific role, which is unusual for an award. Awards typically involve a recipient or a specific achievement."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 0,
+      "awards": 1
+    }
+  }
+}

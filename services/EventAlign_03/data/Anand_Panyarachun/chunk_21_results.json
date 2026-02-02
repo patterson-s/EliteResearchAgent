@@ -1,0 +1,226 @@
+{
+  "status": "success",
+  "chunk_id": 21,
+  "chunk_index": 0,
+  "source_url": "https://www4.hku.hk/hongrads/graduates/honorary-degree-of-doctor-of-social-sciences-anand-panyarachun",
+  "title": "Anand PANYARACHUN - Biography - The Honorary Graduates - HKU Honorary Graduates",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "earlier this decade",
+          "type": "point",
+          "quotes": [
+            "Mr Anand Panyarachun is a much respected former civil servant who became a businessman and statesman and who was twice asked to be the interim Prime Minister of Thailand after two national crises earlier this decade."
+          ]
+        },
+        {
+          "text": "1996",
+          "type": "point",
+          "quotes": [
+            "151st Congregation (1996)"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Thailand Development Research Institute",
+          "quotes": [
+            "He also sits on the boards of many international companies and chairs the Thailand Development Research Institute and the Thailand Environment Institute."
+          ]
+        },
+        {
+          "name": "Thailand Environment Institute",
+          "quotes": [
+            "He also sits on the boards of many international companies and chairs the Thailand Development Research Institute and the Thailand Environment Institute."
+          ]
+        },
+        {
+          "name": "University",
+          "quotes": [
+            "In recognition of his contributions, the University has resolved to confer upon him the degree of Doctor of Social Sciences honoris causa."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "interim Prime Minister of Thailand",
+          "quotes": [
+            "Mr Anand Panyarachun is a much respected former civil servant who became a businessman and statesman and who was twice asked to be the interim Prime Minister of Thailand after two national crises earlier this decade."
+          ]
+        },
+        {
+          "title": "roving ambassador",
+          "quotes": [
+            "He takes up the role of a roving ambassador for his country who combines addressing business, education and environmental seminars with chairing a multi-billion dollar industrial group."
+          ]
+        },
+        {
+          "title": "chair of a multi-billion dollar industrial group",
+          "quotes": [
+            "He takes up the role of a roving ambassador for his country who combines addressing business, education and environmental seminars with chairing a multi-billion dollar industrial group."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Thailand",
+          "quotes": [
+            "Mr Anand Panyarachun is a much respected former civil servant who became a businessman and statesman and who was twice asked to be the interim Prime Minister of Thailand after two national crises earlier this decade."
+          ]
+        },
+        {
+          "place": "Canada",
+          "quotes": [
+            "16 universities in Thailand and Canada awarded him honorary degrees in various fields."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Mr Anand Panyarachun is a much respected former civil servant who became a businessman and statesman and who was twice asked to be the interim Prime Minister of Thailand after two national crises earlier this decade."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1,
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He takes up the role of a roving ambassador for his country who combines addressing business, education and environmental seminars with chairing a multi-billion dollar industrial group."
+        ],
+        "confidence": "high",
+        "notes": "Simultaneous roles mentioned in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He also sits on the boards of many international companies and chairs the Thailand Development Research Institute and the Thailand Environment Institute."
+        ],
+        "confidence": "high",
+        "notes": "Clear chairmanship roles for both organizations."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In recognition of his contributions, the University has resolved to confer upon him the degree of Doctor of Social Sciences honoris causa."
+        ],
+        "confidence": "high",
+        "notes": "Honorary degree conferred by the University in 1996."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "16 universities in Thailand and Canada awarded him honorary degrees in various fields."
+        ],
+        "confidence": "high",
+        "notes": "Multiple honorary degrees awarded in Canada and Thailand."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time and organization information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role and location information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and role information for the award."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 1,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 2
+    }
+  }
+}

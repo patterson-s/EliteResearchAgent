@@ -1,0 +1,219 @@
+{
+  "status": "success",
+  "chunk_id": 937,
+  "chunk_index": 2,
+  "source_url": "https://en.wikipedia.org/wiki/Marina_Kaljurand",
+  "title": "Marina Kaljurand - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "December 2015",
+          "type": "point",
+          "quotes": [
+            "For example, according to a poll by TNS Emor in December 2015, 20.3 percent of the respondents wanted to see her as president"
+          ]
+        },
+        {
+          "text": "2016",
+          "type": "point",
+          "quotes": [
+            "Ahead of the presidential election in 2016, many polls indicated strong support for Kaljurand"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Estonian government",
+          "quotes": [
+            "Kaljurand then responded that «The foreign ministry and Estonian government are not intending to take actual practical steps regarding that.»"
+          ]
+        },
+        {
+          "name": "Reform Party",
+          "quotes": [
+            "However, the Reform Party decided to support Kallas both in the parliament and in the electoral college."
+          ]
+        },
+        {
+          "name": "TNS Emor",
+          "quotes": [
+            "For example, according to a poll by TNS Emor in December 2015, 20.3 percent of the respondents wanted to see her as president"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Justice Minister",
+          "quotes": [
+            "Justice Minister and former Defence Minister Urmas Reinsalu (IRL) signed a memorandum with the other two Baltic justice ministers"
+          ]
+        },
+        {
+          "title": "Defence Minister",
+          "quotes": [
+            "Justice Minister and former Defence Minister Urmas Reinsalu (IRL) signed a memorandum with the other two Baltic justice ministers"
+          ]
+        },
+        {
+          "title": "Foreign Minister",
+          "quotes": [
+            "As Foreign Minister, Kaljurand has continued the work of former ministers to sign a border treaty between Estonia and Russia."
+          ]
+        },
+        {
+          "title": "Minister of Foreign Affairs",
+          "quotes": [
+            "After the decision was made by the party, Kaljurand announced that she would step down from her position as Minister of Foreign Affairs and would run for presidency without"
+          ]
+        },
+        {
+          "title": "Prime Minister",
+          "quotes": [
+            "Kaljurand suggested that the party would support her in the electoral college while supporting former Prime Minister Siim Kallas in the election in parliament"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Moscow",
+          "quotes": [
+            "Kaljurand said the ambassador always replies that he will inform Moscow."
+          ]
+        },
+        {
+          "place": "Estonia",
+          "quotes": [
+            "As Foreign Minister, Kaljurand has continued the work of former ministers to sign a border treaty between Estonia and Russia."
+          ]
+        },
+        {
+          "place": "Russia",
+          "quotes": [
+            "As Foreign Minister, Kaljurand has continued the work of former ministers to sign a border treaty between Estonia and Russia."
+          ]
+        },
+        {
+          "place": "Narva",
+          "quotes": [
+            "The government's bill includes two treaties and a separate agreement on the delimitation of maritime areas near Narva and the Gulf of Finland."
+          ]
+        },
+        {
+          "place": "Gulf of Finland",
+          "quotes": [
+            "The government's bill includes two treaties and a separate agreement on the delimitation of maritime areas near Narva and the Gulf of Finland."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          1,
+          2
+        ],
+        "supporting_quotes": [
+          "As Foreign Minister, Kaljurand has continued the work of former ministers to sign a border treaty between Estonia and Russia.",
+          "Kaljurand then responded that «The foreign ministry and Estonian government are not intending to take actual practical steps regarding that.»"
+        ],
+        "confidence": "high",
+        "notes": "Foreign Minister role is clearly linked to the Estonian government and locations Estonia and Russia."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "After the decision was made by the party, Kaljurand announced that she would step down from her position as Minister of Foreign Affairs and would run for presidency without"
+        ],
+        "confidence": "medium",
+        "notes": "Minister of Foreign Affairs is mentioned without a clear organization or location, but it is a distinct role from Foreign Minister."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "For example, according to a poll by TNS Emor in December 2015, 20.3 percent of the respondents wanted to see her as president",
+          "Ahead of the presidential election in 2016, many polls indicated strong support for Kaljurand"
+        ],
+        "confidence": "low",
+        "notes": "TNS Emor is mentioned in the context of polls for presidency, but there is no clear role associated with this event."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers for the career position as Foreign Minister."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location for the career position as Minister of Foreign Affairs."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "error",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing role for the event related to TNS Emor polls, making it unclear what career position is being described."
+          },
+          {
+            "type": "classification",
+            "severity": "medium",
+            "description": "Event classified as career_position but lacks clear role, potentially misclassified."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 1,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

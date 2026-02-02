@@ -1,0 +1,218 @@
+{
+  "status": "success",
+  "chunk_id": 3506,
+  "chunk_index": 0,
+  "source_url": "https://www.britannica.com/biography/Tawakkul-Karman",
+  "title": "Tawakkol Karman | Biography, Nobel Prize, and Facts | Britannica",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "born February 7, 1979",
+          "type": "point",
+          "quotes": [
+            "Tawakkol Karman (born February 7, 1979, Taʿizz, Yemen) is a Yemeni women’s rights activist who received the Nobel Peace Prize in 2011 for her role in leading a pro-democracy protest movement."
+          ]
+        },
+        {
+          "text": "1994",
+          "type": "point",
+          "quotes": [
+            "her father, ʿAbd al-Salām Karmān, a lawyer, served as minister of legal affairs before resigning in 1994 over the government’s war against secessionists in southern Yemen."
+          ]
+        },
+        {
+          "text": "1999",
+          "type": "point",
+          "quotes": [
+            "She graduated from the University of Science and Technology in Sanaa with a degree in commerce in 1999 and later earned a master’s degree in political science."
+          ]
+        },
+        {
+          "text": "2011",
+          "type": "point",
+          "quotes": [
+            "Tawakkol Karman (born February 7, 1979, Taʿizz, Yemen) is a Yemeni women’s rights activist who received the Nobel Peace Prize in 2011 for her role in leading a pro-democracy protest movement."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "University of Science and Technology",
+          "quotes": [
+            "She graduated from the University of Science and Technology in Sanaa with a degree in commerce in 1999 and later earned a master’s degree in political science."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "minister of legal affairs",
+          "quotes": [
+            "her father, ʿAbd al-Salām Karmān, a lawyer, served as minister of legal affairs before resigning in 1994 over the government’s war against secessionists in southern Yemen."
+          ]
+        },
+        {
+          "title": "Yemeni women’s rights activist",
+          "quotes": [
+            "Tawakkol Karman, 2017. (more) Tawakkol Karman Yemeni women’s rights activist"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Taʿizz",
+          "quotes": [
+            "Tawakkol Karman (born February 7, 1979, Taʿizz, Yemen) is a Yemeni women’s rights activist who received the Nobel Peace Prize in 2011 for her role in leading a pro-democracy protest movement."
+          ]
+        },
+        {
+          "place": "Yemen",
+          "quotes": [
+            "Tawakkol Karman (born February 7, 1979, Taʿizz, Yemen) is a Yemeni women’s rights activist who received the Nobel Peace Prize in 2011 for her role in leading a pro-democracy protest movement."
+          ]
+        },
+        {
+          "place": "Sanaa",
+          "quotes": [
+            "When she was young, her family moved to Sanaa, where her father, ʿAbd al-Salām Karmān, a lawyer, served as minister of legal affairs before resigning in 1994 over the government’s war against secessionists in southern Yemen."
+          ]
+        },
+        {
+          "place": "southern Yemen",
+          "quotes": [
+            "her father, ʿAbd al-Salām Karmān, a lawyer, served as minister of legal affairs before resigning in 1994 over the government’s war against secessionists in southern Yemen."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Tawakkol Karman (born February 7, 1979, Taʿizz, Yemen) is a Yemeni women’s rights activist who received the Nobel Peace Prize in 2011 for her role in leading a pro-democracy protest movement."
+        ],
+        "confidence": "high",
+        "notes": "Nobel Peace Prize is a clear indicator of an award."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          1,
+          2
+        ],
+        "supporting_quotes": [
+          "Tawakkol Karman, 2017. (more) Tawakkol Karman Yemeni women’s rights activist",
+          "When she was young, her family moved to Sanaa, where her father, ʿAbd al-Salām Karmān, a lawyer, served as minister of legal affairs before resigning in 1994 over the government’s war against secessionists in southern Yemen."
+        ],
+        "confidence": "medium",
+        "notes": "Yemeni women’s rights activist is an ongoing role, but specific time markers are not provided."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          2,
+          3
+        ],
+        "supporting_quotes": [
+          "her father, ʿAbd al-Salām Karmān, a lawyer, served as minister of legal affairs before resigning in 1994 over the government’s war against secessionists in southern Yemen."
+        ],
+        "confidence": "high",
+        "notes": "Minister of legal affairs is a clear career position with a specific time marker."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "She graduated from the University of Science and Technology in Sanaa with a degree in commerce in 1999 and later earned a master’s degree in political science."
+        ],
+        "confidence": "high",
+        "notes": "Graduation from University of Science and Technology is a significant educational milestone, classified as a career position due to its impact on future roles."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for an ongoing role, making it difficult to place in timeline."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "error",
+        "issues": [
+          {
+            "type": "quote_support",
+            "severity": "high",
+            "description": "The quote mentions the father's role, not Tawakkol Karman's, making this event unsupported."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Graduation is typically not classified as a career position, but as an educational milestone."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 1,
+      "career_positions": 3,
+      "awards": 1
+    }
+  }
+}

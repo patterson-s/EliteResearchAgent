@@ -1,0 +1,223 @@
+{
+  "status": "success",
+  "chunk_id": 3187,
+  "chunk_index": 1,
+  "source_url": "https://live.worldbank.org/en/experts/a/andris-piebalgs",
+  "title": "Andris Piebalgs | World Bank Live",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "From 1995 until 2003",
+          "type": "range",
+          "quotes": [
+            "From 1995 until 2003, he worked in the Latvian Diplomatic service."
+          ]
+        },
+        {
+          "text": "1995-1997",
+          "type": "range",
+          "quotes": [
+            "Andris Piebalgs first served as the Ambassador of Latvia in Estonia (1995-1997), where he helped to solve the sea border issue between the two states."
+          ]
+        },
+        {
+          "text": "In 1997",
+          "type": "point",
+          "quotes": [
+            "In 1997 he became the Latvian Ambassador to the EU."
+          ]
+        },
+        {
+          "text": "2004",
+          "type": "point",
+          "quotes": [
+            "which resulted in Latvia's successful accession to the EU in 2004."
+          ]
+        },
+        {
+          "text": "From 2003 to 2004",
+          "type": "range",
+          "quotes": [
+            "From 2003 to 2004, he was appointed Deputy Secretary of State for EU affairs at the Ministry of Foreign Affairs of Latvia."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Latvian Diplomatic service",
+          "quotes": [
+            "From 1995 until 2003, he worked in the Latvian Diplomatic service."
+          ]
+        },
+        {
+          "name": "Ministry of Foreign Affairs of Latvia",
+          "quotes": [
+            "From 2003 to 2004, he was appointed Deputy Secretary of State for EU affairs at the Ministry of Foreign Affairs of Latvia."
+          ]
+        },
+        {
+          "name": "University of Latvia",
+          "quotes": [
+            "Piebalgs is a graduate in Physics from the University of Latvia."
+          ]
+        },
+        {
+          "name": "EU",
+          "quotes": [
+            "In 1997 he became the Latvian Ambassador to the EU.",
+            "He is married and has three children."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Ambassador of Latvia in Estonia",
+          "quotes": [
+            "Andris Piebalgs first served as the Ambassador of Latvia in Estonia (1995-1997), where he helped to solve the sea border issue between the two states."
+          ]
+        },
+        {
+          "title": "Latvian Ambassador to the EU",
+          "quotes": [
+            "In 1997 he became the Latvian Ambassador to the EU."
+          ]
+        },
+        {
+          "title": "Deputy Secretary of State for EU affairs",
+          "quotes": [
+            "From 2003 to 2004, he was appointed Deputy Secretary of State for EU affairs at the Ministry of Foreign Affairs of Latvia."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Estonia",
+          "quotes": [
+            "Andris Piebalgs first served as the Ambassador of Latvia in Estonia (1995-1997), where he helped to solve the sea border issue between the two states."
+          ]
+        },
+        {
+          "place": "Valmiera, Latvia",
+          "quotes": [
+            "Andris Piebalgs was born on 17 September 1957 in Valmiera, Latvia."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Andris Piebalgs first served as the Ambassador of Latvia in Estonia (1995-1997), where he helped to solve the sea border issue between the two states."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 1997 he became the Latvian Ambassador to the EU."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "From 1995 until 2003, he worked in the Latvian Diplomatic service."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time and organization."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "From 2003 to 2004, he was appointed Deputy Secretary of State for EU affairs at the Ministry of Foreign Affairs of Latvia."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing role information, though the event is classified as a career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 3,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

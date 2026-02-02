@@ -1,0 +1,119 @@
+{
+  "status": "success",
+  "chunk_id": 809,
+  "chunk_index": 4,
+  "source_url": "https://internationaldiplomat.com/archives/4670",
+  "title": "Interview with His Excellency Nicolai Astrup, Minister of International Development of Norway – International Diplomat Global",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "22 January",
+          "type": "point",
+          "quotes": [
+            "On 22 January, the day after his visit in Geneva, His Excellency was appointed the first Minister of Digitalisation"
+          ]
+        },
+        {
+          "text": "N.2 juin 2025",
+          "type": "point",
+          "quotes": [
+            "Diva N.2 juin 2025"
+          ]
+        },
+        {
+          "text": "No3 2024",
+          "type": "point",
+          "quotes": [
+            "Diva No3 2024"
+          ]
+        },
+        {
+          "text": "nov. 2025",
+          "type": "point",
+          "quotes": [
+            "ID No. nov. 2025"
+          ]
+        },
+        {
+          "text": "© 2011-2025",
+          "type": "range",
+          "quotes": [
+            "© 2011-2025"
+          ]
+        }
+      ],
+      "organizations": [],
+      "roles": [
+        {
+          "title": "Minister of Digitalisation",
+          "quotes": [
+            "His Excellency was appointed the first Minister of Digitalisation"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Geneva",
+          "quotes": [
+            "the day after his visit in Geneva, His Excellency was appointed the first Minister of Digitalisation"
+          ]
+        },
+        {
+          "place": "Fédération Russe",
+          "quotes": [
+            "Fédération Russe"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "On 22 January, the day after his visit in Geneva, His Excellency was appointed the first Minister of Digitalisation",
+          "His Excellency was appointed the first Minister of Digitalisation"
+        ],
+        "confidence": "medium",
+        "notes": "No organization mentioned, but role and location are clear. Time marker is directly linked to the appointment."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information, though the role and location are clear."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

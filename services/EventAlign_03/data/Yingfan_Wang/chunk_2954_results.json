@@ -1,0 +1,172 @@
+{
+  "status": "success",
+  "chunk_id": 2954,
+  "chunk_index": 0,
+  "source_url": "https://un.china-mission.gov.cn/eng/chinaandun/socialhr/rqwt/200103/t20010327_8417941.htm",
+  "title": "Ambassdor Wang Yingfan, Permanent Representative of China to UN, today deposited with the Secretary-General China's instrument of ratification for the International Covenant for Economic, Social and Cultural Rights_Permanent Mission of the People's Republic of China to the UN",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "On February 28",
+          "type": "point",
+          "quotes": [
+            "On February 28, the 20th Session of the Standing Committee of the 9th National People's Congress (NPC) of the People's Republic of China adopted by vote the decision of the NPC Standing Committee on ratifying the International Covenant on Economic, Social and Cultural Rights."
+          ]
+        },
+        {
+          "text": "On March 27",
+          "type": "point",
+          "quotes": [
+            "On March 27, Ambassador Wang Yingfan, Permanent Representative of the People's Republic of China submitted to the Secretary-General the instrument of ratification for deposit."
+          ]
+        },
+        {
+          "text": "2001-03-27",
+          "type": "point",
+          "quotes": [
+            "2001-03-27 00:00"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Permanent Mission of the People's Republic of China to the UN",
+          "quotes": [
+            "Ambassdor Wang Yingfan, Permanent Representative of China to UN, today deposited with the Secretary-General China's instrument of ratification for the International Covenant for Economic, Social and Cultural Rights_Permanent Mission of the People's Republic of China to the UN",
+            "Permanent Mission of the People's Republic of China to the UN ALL RIGHTS RESERVED"
+          ]
+        },
+        {
+          "name": "United Nations (UN)",
+          "quotes": [
+            "Ambassdor Wang Yingfan, Permanent Representative of China to UN, today deposited with the Secretary-General China's instrument of ratification for the International Covenant for Economic, Social and Cultural Rights"
+          ]
+        },
+        {
+          "name": "Standing Committee of the 9th National People's Congress (NPC)",
+          "quotes": [
+            "On February 28, the 20th Session of the Standing Committee of the 9th National People's Congress (NPC) of the People's Republic of China adopted by vote the decision of the NPC Standing Committee on ratifying the International Covenant on Economic, Social and Cultural Rights."
+          ]
+        },
+        {
+          "name": "International Covenant on Economic, Social and Cultural Rights",
+          "quotes": [
+            "Ambassdor Wang Yingfan, Permanent Representative of China to UN, today deposited with the Secretary-General China's instrument of ratification for the International Covenant for Economic, Social and Cultural Rights"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Ambassador Wang Yingfan, Permanent Representative of China to UN",
+          "quotes": [
+            "Ambassdor Wang Yingfan, Permanent Representative of China to UN, today deposited with the Secretary-General China's instrument of ratification for the International Covenant for Economic, Social and Cultural Rights"
+          ]
+        },
+        {
+          "title": "President of the People's Republic of China",
+          "quotes": [
+            "The instrument of ratification was later signed by Jiang Zemin, President of the People's Republic of China."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Manhattan, New York, NY 10016, USA",
+          "quotes": [
+            "Address: 350 East 35th Street, Manhattan, New York, NY 10016, USA"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "On March 27, Ambassador Wang Yingfan, Permanent Representative of the People's Republic of China submitted to the Secretary-General the instrument of ratification for deposit.",
+          "Ambassdor Wang Yingfan, Permanent Representative of China to UN, today deposited with the Secretary-General China's instrument of ratification for the International Covenant for Economic, Social and Cultural Rights_Permanent Mission of the People's Republic of China to the UN"
+        ],
+        "confidence": "high",
+        "notes": "The role of Ambassador and Permanent Representative is clearly a career position, and the actions described are part of official duties."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Ambassdor Wang Yingfan, Permanent Representative of China to UN, today deposited with the Secretary-General China's instrument of ratification for the International Covenant for Economic, Social and Cultural Rights_Permanent Mission of the People's Republic of China to the UN",
+          "Address: 350 East 35th Street, Manhattan, New York, NY 10016, USA"
+        ],
+        "confidence": "medium",
+        "notes": "While there is no specific time marker, the role and organization are clearly linked, and the location is associated with the organization."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information, though it may be inferable from the organization's context."
+          },
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "Time marker 'On March 27' is present but not explicitly linked to a specific year, which could cause ambiguity."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "high",
+            "description": "No time marker provided, making it impossible to determine when this event occurred."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "While the role and organization are supported, the location is mentioned in a separate quote that does not directly link to the event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

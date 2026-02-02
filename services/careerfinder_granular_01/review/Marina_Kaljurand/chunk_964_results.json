@@ -1,0 +1,148 @@
+{
+  "status": "success",
+  "chunk_id": 964,
+  "chunk_index": 5,
+  "source_url": "http://www.womeninforeignpolicy.org/diplomacy/2018/1/30/marina-kaljurand-diplomat-estonia",
+  "title": "Marina Kaljurand — Women in Foreign Policy | #wifp",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "last year",
+          "type": "point",
+          "quotes": [
+            "Both of the books talk about last year’s Presidential Election in the States."
+          ]
+        },
+        {
+          "text": "the last 20 years",
+          "type": "range",
+          "quotes": [
+            "Things have changed a great deal in the last 20 years, mainly thanks to U.S. Secretary of State being a woman several times."
+          ]
+        },
+        {
+          "text": "26 years",
+          "type": "range",
+          "quotes": [
+            "I worked in the Ministry of Foreign Affairs for 26 years, and I did not have a clue about the outside life."
+          ]
+        },
+        {
+          "text": "my first year out",
+          "type": "point",
+          "quotes": [
+            "It is my first year out, and I am still finding the right balance, however, already at the Ministry I worked with cybersecurity and thus the topic, and people are not new to me."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Ministry of Foreign Affairs",
+          "quotes": [
+            "I worked in the Ministry of Foreign Affairs for 26 years, and I did not have a clue about the outside life."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "U.S. Secretary of State",
+          "quotes": [
+            "Things have changed a great deal in the last 20 years, mainly thanks to U.S. Secretary of State being a woman several times."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Eastern part of Estonia",
+          "quotes": [
+            "Since I can accept more invitation than before, I try to visit schools and the Eastern part of Estonia as much as possible."
+          ]
+        },
+        {
+          "place": "the States",
+          "quotes": [
+            "Both of the books talk about last year’s Presidential Election in the States."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "I worked in the Ministry of Foreign Affairs for 26 years, and I did not have a clue about the outside life."
+        ],
+        "confidence": "high",
+        "notes": "No specific role mentioned, but the long tenure at the Ministry of Foreign Affairs indicates a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Things have changed a great deal in the last 20 years, mainly thanks to U.S. Secretary of State being a woman several times."
+        ],
+        "confidence": "high",
+        "notes": "The role of U.S. Secretary of State is a clear career position, though no specific time marker or organization is directly linked in the quotes."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for the career position at the Ministry of Foreign Affairs."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and organization information for the U.S. Secretary of State role."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The role of U.S. Secretary of State is mentioned in a context that does not clearly indicate it as a personal career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,280 @@
+{
+  "status": "success",
+  "chunk_id": 2950,
+  "chunk_index": 0,
+  "source_url": "https://www.un.org/millenniumgoals/advocates/members/yingfan-wang.shtml",
+  "title": "MDG Advocacy Group",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2003-2008",
+          "type": "range",
+          "quotes": [
+            "Vice-Chairman, Foreign Affairs Committee, Chinese National People's Congress 2003-2008"
+          ]
+        },
+        {
+          "text": "from 1988 to 1990",
+          "type": "range",
+          "quotes": [
+            "served as Ambassador to the Philippines from 1988 to 1990"
+          ]
+        },
+        {
+          "text": "In 1995",
+          "type": "point",
+          "quotes": [
+            "In 1995, Wang was appointed Vice-Minister of Foreign Affairs"
+          ]
+        },
+        {
+          "text": "until the year 2000",
+          "type": "point",
+          "quotes": [
+            "served in that function until the year 2000, when he became the Permanent Representative of China to the United Nations in New York"
+          ]
+        },
+        {
+          "text": "From 2003 to 2008",
+          "type": "range",
+          "quotes": [
+            "From 2003 to 2008, he served as Vice-Chairman of the Foreign Affairs Committee of the Chinese National People's Congress"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Chinese National People's Congress",
+          "quotes": [
+            "Vice-Chairman, Foreign Affairs Committee, Chinese National People's Congress 2003-2008",
+            "From 2003 to 2008, he served as Vice-Chairman of the Foreign Affairs Committee of the Chinese National People's Congress"
+          ]
+        },
+        {
+          "name": "Beijing Foreign Studies University",
+          "quotes": [
+            "He graduated from Beijing Foreign Studies University"
+          ]
+        },
+        {
+          "name": "Chinese embassies of Ghana and the U.K.",
+          "quotes": [
+            "Wang held posts in the Chinese embassies of Ghana and the U.K."
+          ]
+        },
+        {
+          "name": "United Nations",
+          "quotes": [
+            "became the Permanent Representative of China to the United Nations in New York"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Vice-Chairman, Foreign Affairs Committee",
+          "quotes": [
+            "Vice-Chairman, Foreign Affairs Committee, Chinese National People's Congress 2003-2008",
+            "From 2003 to 2008, he served as Vice-Chairman of the Foreign Affairs Committee of the Chinese National People's Congress"
+          ]
+        },
+        {
+          "title": "Ambassador to the Philippines",
+          "quotes": [
+            "served as Ambassador to the Philippines from 1988 to 1990"
+          ]
+        },
+        {
+          "title": "Vice-Minister of Foreign Affairs",
+          "quotes": [
+            "In 1995, Wang was appointed Vice-Minister of Foreign Affairs"
+          ]
+        },
+        {
+          "title": "Permanent Representative of China to the United Nations",
+          "quotes": [
+            "became the Permanent Representative of China to the United Nations in New York"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Inner-Mongolia Autonomous Region",
+          "quotes": [
+            "Yingfan Wang was born in the Inner-Mongolia Autonomous Region of the People's Republic of China in 1942"
+          ]
+        },
+        {
+          "place": "Ghana",
+          "quotes": [
+            "Wang held posts in the Chinese embassies of Ghana and the U.K."
+          ]
+        },
+        {
+          "place": "U.K.",
+          "quotes": [
+            "Wang held posts in the Chinese embassies of Ghana and the U.K."
+          ]
+        },
+        {
+          "place": "Philippines",
+          "quotes": [
+            "served as Ambassador to the Philippines from 1988 to 1990"
+          ]
+        },
+        {
+          "place": "New York",
+          "quotes": [
+            "became the Permanent Representative of China to the United Nations in New York"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          3
+        ],
+        "supporting_quotes": [
+          "served as Ambassador to the Philippines from 1988 to 1990"
+        ],
+        "confidence": "high",
+        "notes": "Clear role and time period with specific location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 1995, Wang was appointed Vice-Minister of Foreign Affairs"
+        ],
+        "confidence": "high",
+        "notes": "Clear role and time point, but no specific organization or location mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [
+          4
+        ],
+        "supporting_quotes": [
+          "served in that function until the year 2000, when he became the Permanent Representative of China to the United Nations in New York"
+        ],
+        "confidence": "high",
+        "notes": "Clear role, organization, and location with a specific time point."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          4
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Vice-Chairman, Foreign Affairs Committee, Chinese National People's Congress 2003-2008",
+          "From 2003 to 2008, he served as Vice-Chairman of the Foreign Affairs Committee of the Chinese National People's Congress"
+        ],
+        "confidence": "high",
+        "notes": "Clear role, organization, and time period."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [
+          1,
+          2
+        ],
+        "supporting_quotes": [
+          "Wang held posts in the Chinese embassies of Ghana and the U.K."
+        ],
+        "confidence": "medium",
+        "notes": "No specific time period mentioned, but clear organization and locations."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing organization and location information, though inferable from role."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time period and role details, making it less clear."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 3,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

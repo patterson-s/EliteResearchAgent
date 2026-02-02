@@ -1,0 +1,167 @@
+{
+  "status": "success",
+  "chunk_id": 2657,
+  "chunk_index": 0,
+  "source_url": "https://londonspeakerbureau.com/speaker-profile/susilo-bambang-yudhoyono/",
+  "title": "Susilo Bambang Yudhoyono – Keynote Speaker | London Speaker Bureau",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2004-14",
+          "type": "range",
+          "quotes": [
+            "Susilo Bambang Yudhoyono (known as SBY) was the 6th President of Indonesia and the first directly elected President in the current democratic era. During his two terms in office, Yudhoyono delivered what the World Economic Forum called “Indonesia’s golden decade”, a period between 2004-14 that was marked by democratic development,...",
+            "During his two terms in office, Yudhoyono delivered what the World Economic Forum called “Indonesia’s golden decade”, a period between 2004-14 that was marked by democratic development, political stability, high economic growth and resilience, conflict resolution and robust international policies."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "World Economic Forum",
+          "quotes": [
+            "During his two terms in office, Yudhoyono delivered what the World Economic Forum called “Indonesia’s golden decade”, a period between 2004-14 that was marked by democratic development,...",
+            "During his two terms in office, Yudhoyono delivered what the World Economic Forum called “Indonesia’s golden decade”, a period between 2004-14 that was marked by democratic development, political stability, high economic growth and resilience, conflict resolution and robust international policies."
+          ]
+        },
+        {
+          "name": "G-20",
+          "quotes": [
+            "Under his leadership, Indonesia became an emerging economy, a regional power, a G-20 member, and assumed important roles on issues ranging from climate change to post-MDG, terrorism to geopolitics, inter-faith issues to architecture."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "President of Indonesia",
+          "quotes": [
+            "Susilo Bambang Yudhoyono (known as SBY) was the 6th President of Indonesia and the first directly elected President in the current democratic era.",
+            "As President of the country with the world’s largest Muslim population, Yudhoyono has become a strong advocate"
+          ]
+        },
+        {
+          "title": "military officer",
+          "quotes": [
+            "Yudhoyono’s development has been exceptional, rising from a military officer to a 4-star general, then politician to cabinet minister then President, becoming among Asia’s most respected statesmen."
+          ]
+        },
+        {
+          "title": "4-star general",
+          "quotes": [
+            "Yudhoyono’s development has been exceptional, rising from a military officer to a 4-star general, then politician to cabinet minister then President, becoming among Asia’s most respected statesmen."
+          ]
+        },
+        {
+          "title": "politician",
+          "quotes": [
+            "Yudhoyono’s development has been exceptional, rising from a military officer to a 4-star general, then politician to cabinet minister then President, becoming among Asia’s most respected statesmen."
+          ]
+        },
+        {
+          "title": "cabinet minister",
+          "quotes": [
+            "Yudhoyono’s development has been exceptional, rising from a military officer to a 4-star general, then politician to cabinet minister then President, becoming among Asia’s most respected statesmen."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Indonesia",
+          "quotes": [
+            "Susilo Bambang Yudhoyono (known as SBY) was the 6th President of Indonesia and the first directly elected President in the current democratic era.",
+            "Under his leadership, Indonesia became an emerging economy, a regional power, a G-20 member, and assumed important roles on issues ranging from climate change to post-MDG, terrorism to geopolitics, inter-faith issues to architecture.",
+            "As President of the country with the world’s largest Muslim population, Yudhoyono has become a strong advocate"
+          ]
+        },
+        {
+          "place": "Aceh",
+          "quotes": [
+            "During his time in office, Indonesia faced the destructive tsunami and a series of natural disasters, separatism, terrorism, financial crisis and more. But he managed to overcome these challenges with a steady hand. His country recovered from the natural disasters, the conflict in Aceh was peacefully and permanently resolved, terrorist groups were disbanded and detained, and the economy rebounded."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Susilo Bambang Yudhoyono (known as SBY) was the 6th President of Indonesia and the first directly elected President in the current democratic era.",
+          "During his two terms in office, Yudhoyono delivered what the World Economic Forum called “Indonesia’s golden decade”, a period between 2004-14 that was marked by democratic development,...",
+          "As President of the country with the world’s largest Muslim population, Yudhoyono has become a strong advocate"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time marker, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Yudhoyono’s development has been exceptional, rising from a military officer to a 4-star general, then politician to cabinet minister then President, becoming among Asia’s most respected statesmen."
+        ],
+        "confidence": "medium",
+        "notes": "No specific time markers, but roles are clearly sequential and part of career progression."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the career progression roles."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Roles are sequential but lack clear time markers, which could affect temporal coherence."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "status": "success",
+  "chunk_id": 3293,
+  "chunk_index": 4,
+  "source_url": "https://en.wikipedia.org/wiki/Elvira_Nabiullina",
+  "title": "Elvira Nabiullina - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "from January 1994 until October 1994",
+          "type": "range",
+          "quotes": [
+            "Previously, Sergey Dubinin had been the acting finance minister of Russia from January 1994 until October 1994 when he was fired following the events of 'Black Tuesday'."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Bank of Russia",
+          "quotes": [
+            "Bank of Russia. Previously, Sergey Dubinin had been the acting finance minister of Russia from January 1994 until October 1994 when he was fired following the events of 'Black Tuesday'."
+          ]
+        },
+        {
+          "name": "Bloomberg",
+          "quotes": [
+            "Levitov, Maria (September 2007). 'Putin Replaces Russian Economy Minister Gref With Nabiullina'. Bloomberg."
+          ]
+        },
+        {
+          "name": "Reuters",
+          "quotes": [
+            "'Russia's Putin switches economy minister to the Kremlin'. Reuters. 24 June 2013. Retrieved 4 March 2022."
+          ]
+        },
+        {
+          "name": "Forbes",
+          "quotes": [
+            "'The World's 100 Most Powerful Women'. Forbes. Retrieved 31 March 2020."
+          ]
+        },
+        {
+          "name": "President of Russia",
+          "quotes": [
+            "О присвоении квалификационных разрядов федеральным государственным служащим Министерства экономического развития и торговли Российской Федерации (Decree 1197) (in Russian). President of Russia. 17 October 2002."
+          ]
+        },
+        {
+          "name": "ECE",
+          "quotes": [
+            "'Elvira Nabiullina' (PDF). ECE. Archived from the original (PDF) on 23 September 2015. Retrieved 25 August 2013."
+          ]
+        },
+        {
+          "name": "Bloomberg News",
+          "quotes": [
+            "Evgenia Pismennaya; Gregory White (14 February 2017). 'Putin's Central Banker Is on a Tear'. Bloomberg News."
+          ]
+        },
+        {
+          "name": "RIA Novosti",
+          "quotes": [
+            "'Elvira Nabiullina. Biography' (in Russian). RIA Novosti."
+          ]
+        },
+        {
+          "name": "Yale News",
+          "quotes": [
+            "'Yale University President Levin Announces Selection of 2007 Yale World Fellows'. Yale News. 3 May 2007. Retrieved 24 March 2017."
+          ]
+        },
+        {
+          "name": "Moscow News",
+          "quotes": [
+            "Policy behind Kudrin ouster. Anna Arutunyan, Moscow News, 30 September 2011. Retrieved 27 June 2012."
+          ]
+        },
+        {
+          "name": "Российская газета",
+          "quotes": [
+            "'Указ Президента Российской Федерации от 21 мая 2012 г. N 674 'О помощнике Президента Российской Федерации''. Российская газета (in Russian). Retrieved 15 June 2021."
+          ]
+        },
+        {
+          "name": "Kommersant",
+          "quotes": [
+            "Буйлов, Максим (Buylov, Maxim) (11 December 2001). 'Банки-2001: Кому принадлежит Россия' [Banks-2001: Who owns Russia]. Kommersant (in Russian). Archived from the original on 11 December 2001. Retrieved 22 March 2022."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "acting finance minister of Russia",
+          "quotes": [
+            "Previously, Sergey Dubinin had been the acting finance minister of Russia from January 1994 until October 1994 when he was fired following the events of 'Black Tuesday'."
+          ]
+        },
+        {
+          "title": "Russian Economy Minister",
+          "quotes": [
+            "Levitov, Maria (September 2007). 'Putin Replaces Russian Economy Minister Gref With Nabiullina'. Bloomberg."
+          ]
+        },
+        {
+          "title": "Chairman of the Central Bank of Russia",
+          "quotes": [
+            "'Политический вектор / Председатель ЦБ России: МВФ хочет председателя Центробанка. И он его получит' [Political vector / Chairman of the Central Bank of Russia: The IMF wants the chairman of the Central Bank. And he will get it]. Kommersant 'Коммерсантъ Власть' №43"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Russia",
+          "quotes": [
+            "Previously, Sergey Dubinin had been the acting finance minister of Russia from January 1994 until October 1994 when he was fired following the events of 'Black Tuesday'."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Previously, Sergey Dubinin had been the acting finance minister of Russia from January 1994 until October 1994 when he was fired following the events of 'Black Tuesday'.",
+          "Bank of Russia. Previously, Sergey Dubinin had been the acting finance minister of Russia from January 1994 until October 1994 when he was fired following the events of 'Black Tuesday'."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, role, and location in the same quotes."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The event is classified as 'career_position', but the role 'acting finance minister of Russia' might be better classified as an award or temporary appointment rather than a standard career position. However, given the active responsibilities implied, it is borderline acceptable as a career position."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "The organization linked to this event is 'Bank of Russia', but the role 'acting finance minister of Russia' is a government position, not directly tied to the Bank of Russia. The organization should likely be 'Government of Russia' or similar."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

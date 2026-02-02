@@ -1,0 +1,343 @@
+{
+  "status": "success",
+  "chunk_id": 3823,
+  "chunk_index": 1,
+  "source_url": "https://www.bushcenter.org/freedom-collection/ricardo-lagos-democratic-transition",
+  "title": "Ricardo Lagos: Democratic Transition | George W. Bush Presidential Center",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "from 2000 to 2006",
+          "type": "range",
+          "quotes": [
+            "Ricardo Lagos served as president of Chile from 2000 to 2006."
+          ]
+        },
+        {
+          "text": "1938",
+          "type": "point",
+          "quotes": [
+            "Lagos was born in 1938 in Santiago, Chile."
+          ]
+        },
+        {
+          "text": "1960",
+          "type": "point",
+          "quotes": [
+            "He earned a law degree from the University of Chile in 1960"
+          ]
+        },
+        {
+          "text": "1966",
+          "type": "point",
+          "quotes": [
+            "he received a doctorate in economics in 1966."
+          ]
+        },
+        {
+          "text": "1973",
+          "type": "point",
+          "quotes": [
+            "But in 1973, Allende was overthrown in a military coup d’état led by Pinochet,"
+          ]
+        },
+        {
+          "text": "1978",
+          "type": "point",
+          "quotes": [
+            "In 1978, he returned to Chile,"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "University of Chile",
+          "quotes": [
+            "He earned a law degree from the University of Chile in 1960",
+            "served as director of the University of Chile’s School of Political and Administrative Sciences"
+          ]
+        },
+        {
+          "name": "Duke University",
+          "quotes": [
+            "he attended Duke University, where he received a doctorate in economics in 1966."
+          ]
+        },
+        {
+          "name": "Latin American Faculty of Social Sciences",
+          "quotes": [
+            "was subsequently appointed secretary general of the Latin American Faculty of Social Sciences."
+          ]
+        },
+        {
+          "name": "United Nations",
+          "quotes": [
+            "he served at the United Nations as a consultant and economist"
+          ]
+        },
+        {
+          "name": "UNESCO",
+          "quotes": [
+            "he served at the United Nations as a consultant and economist at UNESCO"
+          ]
+        },
+        {
+          "name": "International Labor Organization",
+          "quotes": [
+            "he served at the United Nations as a consultant and economist at UNESCO and the International Labor Organization."
+          ]
+        },
+        {
+          "name": "Democratic Alliance",
+          "quotes": [
+            "he became president of the Democratic Alliance, a coalition of parties opposed to Pinochet."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "president of Chile",
+          "quotes": [
+            "Ricardo Lagos served as president of Chile from 2000 to 2006."
+          ]
+        },
+        {
+          "title": "director of the University of Chile’s School of Political and Administrative Sciences",
+          "quotes": [
+            "served as director of the University of Chile’s School of Political and Administrative Sciences"
+          ]
+        },
+        {
+          "title": "secretary general of the Latin American Faculty of Social Sciences",
+          "quotes": [
+            "was subsequently appointed secretary general of the Latin American Faculty of Social Sciences."
+          ]
+        },
+        {
+          "title": "Chilean ambassador to the Soviet Union",
+          "quotes": [
+            "Lagos was nominated by President Salvador Allende to be Chilean ambassador to the Soviet Union."
+          ]
+        },
+        {
+          "title": "consultant and economist at UNESCO and the International Labor Organization",
+          "quotes": [
+            "he served at the United Nations as a consultant and economist at UNESCO and the International Labor Organization."
+          ]
+        },
+        {
+          "title": "president of the Democratic Alliance",
+          "quotes": [
+            "he became president of the Democratic Alliance, a coalition of parties opposed to Pinochet."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Santiago, Chile",
+          "quotes": [
+            "Lagos was born in 1938 in Santiago, Chile."
+          ]
+        },
+        {
+          "place": "Chile",
+          "quotes": [
+            "He returned to Chile and served as director of the University of Chile’s School of Political and Administrative Sciences",
+            "Like many in the democratic opposition to the dictatorship, Lagos left Chile.",
+            "In 1978, he returned to Chile,"
+          ]
+        },
+        {
+          "place": "United States",
+          "quotes": [
+            "While in exile in the United States and Argentina,"
+          ]
+        },
+        {
+          "place": "Argentina",
+          "quotes": [
+            "While in exile in the United States and Argentina,"
+          ]
+        },
+        {
+          "place": "Soviet Union",
+          "quotes": [
+            "Lagos was nominated by President Salvador Allende to be Chilean ambassador to the Soviet Union."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Ricardo Lagos served as president of Chile from 2000 to 2006."
+        ],
+        "confidence": "high",
+        "notes": "Clear presidential role with defined term"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "served as director of the University of Chile’s School of Political and Administrative Sciences",
+          "He returned to Chile and served as director of the University of Chile’s School of Political and Administrative Sciences"
+        ],
+        "confidence": "high",
+        "notes": "No explicit time marker but clear role and organization linkage"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "was subsequently appointed secretary general of the Latin American Faculty of Social Sciences."
+        ],
+        "confidence": "medium",
+        "notes": "No time marker but clear appointment to specific role"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4,
+          5,
+          6
+        ],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "he served at the United Nations as a consultant and economist at UNESCO and the International Labor Organization."
+        ],
+        "confidence": "high",
+        "notes": "Multiple organizations linked to same role"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          7
+        ],
+        "role_ids": [
+          5
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "he became president of the Democratic Alliance, a coalition of parties opposed to Pinochet."
+        ],
+        "confidence": "high",
+        "notes": "Clear leadership role in political organization"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [
+          4
+        ],
+        "supporting_quotes": [
+          "Lagos was nominated by President Salvador Allende to be Chilean ambassador to the Soviet Union."
+        ],
+        "confidence": "medium",
+        "notes": "Ambassadorship mentioned but no explicit time or confirmation of service"
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time marker for the role of director at the University of Chile."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time marker for the role of secretary general at the Latin American Faculty of Social Sciences."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 4,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 5,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and confirmation of service for the role of Chilean ambassador to the Soviet Union."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 6,
+      "valid": 3,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 6,
+      "awards": 0
+    }
+  }
+}

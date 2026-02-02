@@ -1,0 +1,199 @@
+{
+  "status": "success",
+  "chunk_id": 1024,
+  "chunk_index": 8,
+  "source_url": "https://en.wikipedia.org/wiki/Carey_Mulligan",
+  "title": "Carey Mulligan - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "on January 25, 2025",
+          "type": "point",
+          "quotes": [
+            "at the Sundance Film Festival on January 25, 2025. It received acclaim from critics."
+          ]
+        },
+        {
+          "text": "In May 2025",
+          "type": "point",
+          "quotes": [
+            "In May 2025, she joined Greta Gerwig's The Chronicles of Narnia film adaptation, which is titled Narnia: The Magician's Nephew and based on the series' sixth novel."
+          ]
+        },
+        {
+          "text": "from 2009 to 2010",
+          "type": "range",
+          "quotes": [
+            "Mulligan dated Shia LaBeouf, with whom she co-starred in the film Wall Street: Money Never Sleeps, from 2009 to 2010."
+          ]
+        },
+        {
+          "text": "In 2012",
+          "type": "point",
+          "quotes": [
+            "In 2012, she married Marcus Mumford, the lead singer of Mumford & Sons."
+          ]
+        },
+        {
+          "text": "on 21 April 2012",
+          "type": "point",
+          "quotes": [
+            "A few weeks after completing production on the film Inside Llewyn Davis, in which they were both involved, they married on 21 April 2012."
+          ]
+        },
+        {
+          "text": "In 2014",
+          "type": "point",
+          "quotes": [
+            "In 2014, Mulligan became an ambassador for the charity War Child and visited the Democratic Republic of Congo in this role."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Sundance Film Festival",
+          "quotes": [
+            "at the Sundance Film Festival on January 25, 2025. It received acclaim from critics."
+          ]
+        },
+        {
+          "name": "Laika",
+          "quotes": [
+            "She will have a voice role in Laika's stop motion animated feature Wildwood, based on the fantasy novel of the same name."
+          ]
+        },
+        {
+          "name": "Netflix",
+          "quotes": [
+            "Mulligan will also star on the second season of Netflix's anthology series Beef, alongside Oscar Isaac, Cailee Spaeny, Charles Melton."
+          ]
+        },
+        {
+          "name": "Mumford & Sons",
+          "quotes": [
+            "In 2012, she married Marcus Mumford, the lead singer of Mumford & Sons."
+          ]
+        },
+        {
+          "name": "Safe Project",
+          "quotes": [
+            "Aside from acting, Mulligan was among the actresses who took part in the Safe Project—each was photographed in the place she feels safest—for a 2010 series to raise awareness of sex trafficking."
+          ]
+        },
+        {
+          "name": "Alzheimer's Society",
+          "quotes": [
+            "Mulligan became the ambassador of the Alzheimer's Society in 2012, with the goal of raising awareness and research funding for Alzheimers and dementia."
+          ]
+        },
+        {
+          "name": "War Child",
+          "quotes": [
+            "In 2014, Mulligan became an ambassador for the charity War Child and visited the Democratic Republic of Congo in this role."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "ambassador",
+          "quotes": [
+            "Mulligan became the ambassador of the Alzheimer's Society in 2012, with the goal of raising awareness and research funding for Alzheimers and dementia."
+          ]
+        },
+        {
+          "title": "ambassador",
+          "quotes": [
+            "In 2014, Mulligan became an ambassador for the charity War Child and visited the Democratic Republic of Congo in this role."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Democratic Republic of Congo",
+          "quotes": [
+            "In 2014, Mulligan became an ambassador for the charity War Child and visited the Democratic Republic of Congo in this role."
+          ]
+        },
+        {
+          "place": "London",
+          "quotes": [
+            "She helped host and participated in the 2012 Alzheimer's Society Memory Walk and was one of the sponsored Alzheimer's Society runners in the 2013 Nike Run to the Beat half-marathon in London."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [
+          6
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "In 2014, Mulligan became an ambassador for the charity War Child and visited the Democratic Republic of Congo in this role."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Mulligan became the ambassador of the Alzheimer's Society in 2012, with the goal of raising awareness and research funding for Alzheimers and dementia."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information, though it may not be critical for this role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

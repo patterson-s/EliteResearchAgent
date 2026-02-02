@@ -1,0 +1,128 @@
+{
+  "status": "success",
+  "chunk_id": 2890,
+  "chunk_index": 5,
+  "source_url": "https://uk.linkedin.com/in/davidcameronofficial",
+  "title": "David Cameron - Foreign, Commonwealth and Development Office | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Genomics England",
+          "quotes": [
+            "This is fantastic news & has my full backing. When I first launched Genomics England & started #Genomes100k, the idea of sequencing the genome of…"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Taoiseach",
+          "quotes": [
+            "Great to be reunited with my good friend Enda Kenny, Irish Taoiseach when I was PM."
+          ]
+        },
+        {
+          "title": "PM",
+          "quotes": [
+            "Great to be reunited with my good friend Enda Kenny, Irish Taoiseach when I was PM."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Ireland",
+          "quotes": [
+            "From the UK’s Sovereign loan to Ireland to The Queen’s historic…"
+          ]
+        },
+        {
+          "place": "UK",
+          "quotes": [
+            "From the UK’s Sovereign loan to Ireland to The Queen’s historic…"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Great to be reunited with my good friend Enda Kenny, Irish Taoiseach when I was PM."
+        ],
+        "confidence": "medium",
+        "notes": "No specific organization or time marker mentioned, but role and location are clear. Assuming PM refers to a career position in the UK."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "This is fantastic news & has my full backing. When I first launched Genomics England & started #Genomes100k, the idea of sequencing the genome of…"
+        ],
+        "confidence": "high",
+        "notes": "No specific role or time marker mentioned, but organization is clear. Assuming involvement in launching Genomics England implies a career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time_marker and organization information. Only role and location are provided."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quote does not explicitly state the role of 'PM' as a career position, but implies it through context."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role, time_marker, and location information. Only organization is provided."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quote implies involvement in launching Genomics England but does not explicitly state a career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

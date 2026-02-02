@@ -1,0 +1,80 @@
+{
+  "status": "success",
+  "chunk_id": 966,
+  "chunk_index": 7,
+  "source_url": "http://www.womeninforeignpolicy.org/diplomacy/2018/1/30/marina-kaljurand-diplomat-estonia",
+  "title": "Marina Kaljurand — Women in Foreign Policy | #wifp",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2018",
+          "type": "point",
+          "quotes": [
+            "Copyright © 2018, Women in Foreign Policy. All rights reserved."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Women in Foreign Policy",
+          "quotes": [
+            "Copyright © 2018, Women in Foreign Policy. All rights reserved."
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Copyright © 2018, Women in Foreign Policy. All rights reserved."
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but the organization is implied to be active in 2018 based on the copyright notice."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for career_position event."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quote does not clearly mention the individual's role or position within the organization."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

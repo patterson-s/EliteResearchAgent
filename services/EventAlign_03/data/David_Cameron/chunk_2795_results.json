@@ -1,0 +1,266 @@
+{
+  "status": "success",
+  "chunk_id": 2795,
+  "chunk_index": 14,
+  "source_url": "https://en.wikipedia.org/wiki/David_Cameron",
+  "title": "David Cameron - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2006",
+          "type": "point",
+          "quotes": [
+            "ITV News broadcast footage from the 2006 Conservative Party Conference in Bournemouth"
+          ]
+        },
+        {
+          "text": "April 2007",
+          "type": "point",
+          "quotes": [
+            "In his column for The Guardian, comedy writer and broadcaster Charlie Brooker described the Conservative leader as 'a hollow Easter egg with no bag of sweets inside' in April 2007."
+          ]
+        },
+        {
+          "text": "26 June 2007",
+          "type": "point",
+          "quotes": [
+            "Quentin Davies, who defected from the Conservatives to Labour on 26 June 2007, branded him 'superficial, unreliable and [with] an apparent lack of any clear convictions'"
+          ]
+        },
+        {
+          "text": "2006",
+          "type": "point",
+          "quotes": [
+            "Labour used the slogan Dave the Chameleon in their 2006 local elections party broadcast to portray Cameron as an ever-changing populist"
+          ]
+        },
+        {
+          "text": "2005",
+          "type": "point",
+          "quotes": [
+            "During his 2005 Conservative leadership campaign, he addressed the question of drug consumption by remarking: 'I did lots of things before I came into politics which I shouldn't have done. We all did.'"
+          ]
+        },
+        {
+          "text": "13 May 2010",
+          "type": "point",
+          "quotes": [
+            "Speaking at the Home Office on 13 May 2010 His Shadow Cabinet"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "ITV News",
+          "quotes": [
+            "ITV News broadcast footage from the 2006 Conservative Party Conference in Bournemouth"
+          ]
+        },
+        {
+          "name": "Conservative Party",
+          "quotes": [
+            "ITV News broadcast footage from the 2006 Conservative Party Conference in Bournemouth"
+          ]
+        },
+        {
+          "name": "The Guardian",
+          "quotes": [
+            "In his column for The Guardian, comedy writer and broadcaster Charlie Brooker described the Conservative leader as 'a hollow Easter egg with no bag of sweets inside' in April 2007."
+          ]
+        },
+        {
+          "name": "Labour",
+          "quotes": [
+            "Quentin Davies, who defected from the Conservatives to Labour on 26 June 2007, branded him 'superficial, unreliable and [with] an apparent lack of any clear convictions'"
+          ]
+        },
+        {
+          "name": "The Daily Telegraph",
+          "quotes": [
+            "The Daily Telegraph correspondent and blogger Gerald Warner was particularly scathing about Cameron's leadership, saying that it alienated traditionalist conservative elements from the Conservative Party."
+          ]
+        },
+        {
+          "name": "BBC",
+          "quotes": [
+            "Pressed on this point during the BBC television programme Question Time, Cameron expressed the view that everybody was allowed to 'err and stray' in their past."
+          ]
+        },
+        {
+          "name": "Home Office",
+          "quotes": [
+            "Speaking at the Home Office on 13 May 2010 His Shadow Cabinet"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Conservative leader",
+          "quotes": [
+            "In his column for The Guardian, comedy writer and broadcaster Charlie Brooker described the Conservative leader as 'a hollow Easter egg with no bag of sweets inside' in April 2007."
+          ]
+        },
+        {
+          "title": "former Conservative chairman",
+          "quotes": [
+            "On the right of the party, Norman Tebbit, a former Conservative chairman, likened Cameron to Pol Pot"
+          ]
+        },
+        {
+          "title": "MP",
+          "quotes": [
+            "During the leadership election, allegations were made that Cameron had used cannabis and cocaine recreationally before becoming an MP."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Bournemouth",
+          "quotes": [
+            "ITV News broadcast footage from the 2006 Conservative Party Conference in Bournemouth"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "ITV News broadcast footage from the 2006 Conservative Party Conference in Bournemouth"
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but the event is related to the Conservative Party and a specific location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In his column for The Guardian, comedy writer and broadcaster Charlie Brooker described the Conservative leader as 'a hollow Easter egg with no bag of sweets inside' in April 2007."
+        ],
+        "confidence": "high",
+        "notes": "Clear mention of the role 'Conservative leader' associated with The Guardian."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "During his 2005 Conservative leadership campaign, he addressed the question of drug consumption by remarking: 'I did lots of things before I came into politics which I shouldn't have done. We all did.'"
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but the event is related to the Conservative Party leadership campaign."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [
+          6
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Speaking at the Home Office on 13 May 2010 His Shadow Cabinet"
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but the event is related to the Home Office and Shadow Cabinet."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "quote_support",
+            "severity": "medium",
+            "description": "Supporting quote does not clearly mention a specific role or active responsibilities, making it questionable as a career_position."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, which is critical for a career_position event."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "quote_support",
+            "severity": "medium",
+            "description": "Supporting quote mentions a leadership campaign but does not specify a role, making it questionable as a career_position."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role and location information, which are critical for a career_position event."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "quote_support",
+            "severity": "medium",
+            "description": "Supporting quote does not clearly mention a specific role or active responsibilities, making it questionable as a career_position."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role and location information, which are critical for a career_position event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 1,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

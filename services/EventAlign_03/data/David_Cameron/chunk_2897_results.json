@@ -1,0 +1,250 @@
+{
+  "status": "success",
+  "chunk_id": 2897,
+  "chunk_index": 2,
+  "source_url": "https://www.ebsco.com/research-starters/biography/david-cameron",
+  "title": "David Cameron | Research Starters | EBSCO Research",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2010",
+          "type": "point",
+          "quotes": [
+            "the lead-up to the 2010 general elections",
+            "Gordon Brown's Labour Party won 258 seats in the 2010 election",
+            "On May 11, 2010, Brown resigned, and Cameron was appointed prime minister"
+          ]
+        },
+        {
+          "text": "May 11, 2010",
+          "type": "point",
+          "quotes": [
+            "On May 11, 2010, Brown resigned, and Cameron was appointed prime minister"
+          ]
+        },
+        {
+          "text": "since 1974",
+          "type": "point",
+          "quotes": [
+            "Such a circumstance had not occurred in a UK general election since 1974"
+          ]
+        },
+        {
+          "text": "2015",
+          "type": "point",
+          "quotes": [
+            "Cameron won reelection in 2015"
+          ]
+        },
+        {
+          "text": "June 23, 2016",
+          "type": "point",
+          "quotes": [
+            "The referendum was held on June 23, 2016, and resulted in approximately 52 percent of voters being in favor of leaving the EU"
+          ]
+        },
+        {
+          "text": "October 2016",
+          "type": "point",
+          "quotes": [
+            "As a result of the vote, Cameron announced that he would be leaving his position by October 2016"
+          ]
+        },
+        {
+          "text": "July 2016",
+          "type": "point",
+          "quotes": [
+            "He officially signed his resignation in July 2016"
+          ]
+        },
+        {
+          "text": "2017",
+          "type": "point",
+          "quotes": [
+            "In 2017, Cameron became the president of Alzheimer's"
+          ]
+        },
+        {
+          "text": "World War II",
+          "type": "point",
+          "quotes": [
+            "establishing the first coalition government in the UK since World War II"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Conservative Party",
+          "quotes": [
+            "When the election was concluded, the Conservative Party had its most successful election in eighteen years",
+            "Cameron's Conservative Party won 305 in total",
+            "During his tenure, he modernized the Conservative Party"
+          ]
+        },
+        {
+          "name": "Labour Party",
+          "quotes": [
+            "Gordon Brown's Labour Party won 258 seats in the 2010 election"
+          ]
+        },
+        {
+          "name": "Liberal Democrat Party",
+          "quotes": [
+            "The Liberal Democrat Party, led by Nick Clegg, won fifty-seven seats",
+            "Cameron was able to negotiate the formation of a coalition government with Clegg and the Liberal Democrat Party"
+          ]
+        },
+        {
+          "name": "European Union",
+          "quotes": [
+            "He subsequently set a date for a referendum on whether the UK should remain a member of the European Union, a move that became known as Brexit"
+          ]
+        },
+        {
+          "name": "Alzheimer's",
+          "quotes": [
+            "In 2017, Cameron became the president of Alzheimer's"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "prime minister",
+          "quotes": [
+            "On May 11, 2010, Brown resigned, and Cameron was appointed prime minister",
+            "Upon taking office, Cameron named Clegg as his deputy prime minister",
+            "As prime minister, Cameron hoped to oversee a decrease in employment taxes",
+            "Cameron won reelection in 2015",
+            "As a result of the vote, Cameron announced that he would be leaving his position by October 2016"
+          ]
+        },
+        {
+          "title": "deputy prime minister",
+          "quotes": [
+            "Upon taking office, Cameron named Clegg as his deputy prime minister"
+          ]
+        },
+        {
+          "title": "president of Alzheimer's",
+          "quotes": [
+            "In 2017, Cameron became the president of Alzheimer's"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "UK",
+          "quotes": [
+            "Such a circumstance had not occurred in a UK general election since 1974",
+            "establishing the first coalition government in the UK since World War II",
+            "He subsequently set a date for a referendum on whether the UK should remain a member of the European Union"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "On May 11, 2010, Brown resigned, and Cameron was appointed prime minister",
+          "Cameron's Conservative Party won 305 in total",
+          "establishing the first coalition government in the UK since World War II"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Cameron won reelection in 2015",
+          "Cameron's Conservative Party won 305 in total",
+          "He subsequently set a date for a referendum on whether the UK should remain a member of the European Union"
+        ],
+        "confidence": "high",
+        "notes": "Reelection event clearly linked to the prime minister role and Conservative Party."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          6,
+          7
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2017, Cameron became the president of Alzheimer's"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "Missing end date for prime minister role, which could be inferred from later events but is not explicitly stated."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 2,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

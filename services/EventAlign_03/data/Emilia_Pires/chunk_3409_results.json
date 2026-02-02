@@ -1,0 +1,87 @@
+{
+  "status": "success",
+  "chunk_id": 3409,
+  "chunk_index": 7,
+  "source_url": "https://conflictfieldresearch.colgate.edu/wp-content/uploads/2015/02/9_Reflections_on_Policy_Space.pdf",
+  "title": "9_Reflections_on_Policy_Space.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "in 1999",
+          "type": "point",
+          "quotes": [
+            "At this point, you must have had a lot of past experience from working with the World Bank in 1999 that was coming to fruition, no?"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "World Bank",
+          "quotes": [
+            "At this point, you must have had a lot of past experience from working with the World Bank in 1999 that was coming to fruition, no?"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "advisor",
+          "quotes": [
+            "I had some advisors there that I had no use for, they were just useless, but it was satisfying the donors so I kept them."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "At this point, you must have had a lot of past experience from working with the World Bank in 1999 that was coming to fruition, no?"
+        ],
+        "confidence": "medium",
+        "notes": "Role is not explicitly linked to the organization and time marker in the same quote, but the context suggests a career position. Role is mentioned in a separate quote without clear linkage to the organization or time."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. While the event is classified as a career_position, no role is explicitly linked to the organization or time marker in the supporting quote."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "The supporting quote mentions working with the World Bank in 1999 but does not explicitly state the role or responsibilities, making the classification as a career_position less certain."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

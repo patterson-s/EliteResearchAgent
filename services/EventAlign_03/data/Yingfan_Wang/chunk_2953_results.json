@@ -1,0 +1,112 @@
+{
+  "status": "success",
+  "chunk_id": 2953,
+  "chunk_index": 1,
+  "source_url": "https://press.un.org/en/2000/20000301.bio3275.doc.html",
+  "title": "NEW PERMANENT REPRESENTATIVE OF CHINA PRESENTS CREDENTIALS | Meetings Coverage and Press Releases",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2024",
+          "type": "point",
+          "quotes": [
+            "2024"
+          ]
+        },
+        {
+          "text": "25 November 2025",
+          "type": "point",
+          "quotes": [
+            "25 November 2025"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Office for the Coordination of Humanitarian Affairs",
+          "quotes": [
+            "In Ukraine, the Office for the Coordination of Humanitarian Affairs reports that large-scale attacks continued in Kyiv and across multiple regions, killing and injuring dozens of civilians."
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": [
+        {
+          "place": "Ukraine",
+          "quotes": [
+            "In Ukraine, the Office for the Coordination of Humanitarian Affairs reports that large-scale attacks continued in Kyiv and across multiple regions, killing and injuring dozens of civilians."
+          ]
+        },
+        {
+          "place": "Kyiv",
+          "quotes": [
+            "In Ukraine, the Office for the Coordination of Humanitarian Affairs reports that large-scale attacks continued in Kyiv and across multiple regions, killing and injuring dozens of civilians."
+          ]
+        },
+        {
+          "place": "Kharkiv",
+          "quotes": [
+            "Authorities reported that parts of Kharkiv were left without electricity and water."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0,
+          1
+        ],
+        "supporting_quotes": [
+          "In Ukraine, the Office for the Coordination of Humanitarian Affairs reports that large-scale attacks continued in Kyiv and across multiple regions, killing and injuring dozens of civilians."
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but the organization's activities in Ukraine are clearly described. Assuming ongoing responsibilities related to humanitarian coordination."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the event, making it impossible to determine when it occurred."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, though the notes infer responsibilities related to humanitarian coordination."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quote describes the organization's activities but does not explicitly mention a specific career position or role for the individual."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

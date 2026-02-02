@@ -1,0 +1,211 @@
+{
+  "status": "success",
+  "chunk_id": 3706,
+  "chunk_index": 9,
+  "source_url": "https://en.wikipedia.org/wiki/Gordon_Brown",
+  "title": "Gordon Brown - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "up to and beyond the 2005 election",
+          "type": "range",
+          "quotes": [
+            "relationship between Brown and Blair continued up to and beyond the 2005 election"
+          ]
+        },
+        {
+          "text": "7 September 2006",
+          "type": "point",
+          "quotes": [
+            "Blair announced on 7 September 2006 that he would step down within a year."
+          ]
+        },
+        {
+          "text": "January 2007",
+          "type": "point",
+          "quotes": [
+            "speaking at a Fabian Society conference on 'The Next Decade' in January 2007"
+          ]
+        },
+        {
+          "text": "11 May 2007",
+          "type": "point",
+          "quotes": [
+            "On 11 May 2007, after months of speculation, Brown formally announced his bid for the Labour leadership."
+          ]
+        },
+        {
+          "text": "16 May",
+          "type": "point",
+          "quotes": [
+            "On 16 May, Channel 4 News announced that Andrew MacKinlay had nominated Brown"
+          ]
+        },
+        {
+          "text": "24 June 2007",
+          "type": "point",
+          "quotes": [
+            "Brown replaced Blair as Leader of the Labour Party on 24 June 2007."
+          ]
+        },
+        {
+          "text": "27 June 2007",
+          "type": "point",
+          "quotes": [
+            "Brown was invited by the queen to form a government and become prime minister on 27 June 2007."
+          ]
+        },
+        {
+          "text": "2007–2010",
+          "type": "range",
+          "quotes": [
+            "Prime minister (2007–2010)"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Labour",
+          "quotes": [
+            "which Labour won with a reduced majority and reduced vote share.",
+            "Brown formally announced his bid for the Labour leadership.",
+            "Brown replaced Blair as Leader of the Labour Party on 24 June 2007."
+          ]
+        },
+        {
+          "name": "Fabian Society",
+          "quotes": [
+            "speaking at a Fabian Society conference on 'The Next Decade' in January 2007"
+          ]
+        },
+        {
+          "name": "Channel 4 News",
+          "quotes": [
+            "On 16 May, Channel 4 News announced that Andrew MacKinlay had nominated Brown"
+          ]
+        },
+        {
+          "name": "BBC",
+          "quotes": [
+            "A BBC report states that the decisive nomination was made by Tony Wright"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "prime minister",
+          "quotes": [
+            "preparing the ground for Brown to become prime minister",
+            "Brown was invited by the queen to form a government and become prime minister on 27 June 2007.",
+            "Prime minister (2007–2010)"
+          ]
+        },
+        {
+          "title": "Leader of the Labour Party",
+          "quotes": [
+            "Brown replaced Blair as Leader of the Labour Party on 24 June 2007."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Westminster",
+          "quotes": [
+            "he was the only candidate spoken of seriously in Westminster."
+          ]
+        },
+        {
+          "place": "Britain",
+          "quotes": [
+            "titled 'Gordon Brown for Britain'.",
+            "in the service of what matters to the British people, meeting the concerns and aspirations of our whole country."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5,
+          7
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Brown replaced Blair as Leader of the Labour Party on 24 June 2007.",
+          "Prime minister (2007–2010)"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          6,
+          7
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Brown was invited by the queen to form a government and become prime minister on 27 June 2007.",
+          "Prime minister (2007–2010)"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time and role, though organization is not explicitly mentioned."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information, though this might be inferable from context."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information, which is not inferable from the provided quotes."
+          },
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "Time markers 6 and 7 are very close in date, but the event appears to be consistent with the timeline."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

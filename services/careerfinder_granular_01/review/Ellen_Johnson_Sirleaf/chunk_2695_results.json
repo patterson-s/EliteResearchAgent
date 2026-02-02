@@ -1,0 +1,95 @@
+{
+  "status": "success",
+  "chunk_id": 2695,
+  "chunk_index": 1,
+  "source_url": "https://www.nobelprize.org/prizes/peace/2011/johnson_sirleaf/biographical/",
+  "title": "Ellen Johnson Sirleaf – Biographical - NobelPrize.org",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2010",
+          "type": "point",
+          "quotes": [
+            "And in 2010, as the only female and African Head of State, President Ellen Johnson Sirleaf was named by Newsweek Magazine as one of the World Top Ten Leaders."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Newsweek Magazine",
+          "quotes": [
+            "President Ellen Johnson Sirleaf was named by Newsweek Magazine as one of the World Top Ten Leaders."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Head of State",
+          "quotes": [
+            "as the only female and African Head of State, President Ellen Johnson Sirleaf was named by Newsweek Magazine as one of the World Top Ten Leaders."
+          ]
+        },
+        {
+          "title": "President",
+          "quotes": [
+            "President Ellen Johnson Sirleaf was named by Newsweek Magazine as one of the World Top Ten Leaders."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Liberia",
+          "quotes": [
+            "personal courage and unwavering commitment to expanding freedom and improving the lives of people in Liberia and across Africa."
+          ]
+        },
+        {
+          "place": "Africa",
+          "quotes": [
+            "personal courage and unwavering commitment to expanding freedom and improving the lives of people in Liberia and across Africa."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "And in 2010, as the only female and African Head of State, President Ellen Johnson Sirleaf was named by Newsweek Magazine as one of the World Top Ten Leaders."
+        ],
+        "confidence": "high",
+        "notes": "The event is clearly an award as it involves being named one of the World Top Ten Leaders by Newsweek Magazine."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 1,
+      "warnings": 0,
+      "errors": 0,
+      "career_positions": 0,
+      "awards": 1
+    }
+  }
+}

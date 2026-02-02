@@ -1,0 +1,285 @@
+{
+  "status": "success",
+  "chunk_id": 401,
+  "chunk_index": 0,
+  "source_url": "https://valdaiclub.com/a/highlights/former_fm_igor_ivanov_yevgeny_primakov_was_an_outstanding_leader/",
+  "title": "Former FM Igor Ivanov: Yevgeny Primakov Was an Outstanding Leader — Valdai Club",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In December 1970",
+          "type": "point",
+          "quotes": [
+            "In December 1970, Yevgeny Primakov was appointed deputy director of the institute."
+          ]
+        },
+        {
+          "text": "Upon graduating in 1969",
+          "type": "point",
+          "quotes": [
+            "Upon graduating in 1969, I received a job at the highly respected Institute of World Economy and International Relations of the Soviet Academy of Sciences."
+          ]
+        },
+        {
+          "text": "In January 1996",
+          "type": "point",
+          "quotes": [
+            "In January 1996, I was driving home from a"
+          ]
+        },
+        {
+          "text": "after the destructive 1998 crisis",
+          "type": "point",
+          "quotes": [
+            "This speaks volumes about Yevgeny Primakov. He would go on to create Russia’s Foreign Intelligence Service from scratch, serve as foreign minister at a very difficult period in our history and later prime minister after the destructive 1998 crisis."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Institute of World Economy and International Relations of the Soviet Academy of Sciences",
+          "quotes": [
+            "Upon graduating in 1969, I received a job at the highly respected Institute of World Economy and International Relations of the Soviet Academy of Sciences."
+          ]
+        },
+        {
+          "name": "Russian Academy of Sciences",
+          "quotes": [
+            "I was an aide to its director, Nikolai Inozemtsev, a member of the Russian Academy of Sciences."
+          ]
+        },
+        {
+          "name": "Pravda daily",
+          "quotes": [
+            "He had just returned from a long posting in the Middle East, where he was a special correspondent for the Pravda daily."
+          ]
+        },
+        {
+          "name": "Russia’s Foreign Intelligence Service",
+          "quotes": [
+            "This speaks volumes about Yevgeny Primakov. He would go on to create Russia’s Foreign Intelligence Service from scratch, serve as foreign minister at a very difficult period in our history and later prime minister after the destructive 1998 crisis."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "foreign minister",
+          "quotes": [
+            "Primakov took to the post of foreign minister so naturally and tactfully that it seemed to his colleagues that he had already held the post for a long time, even though winning the respect of career diplomats is never easy."
+          ]
+        },
+        {
+          "title": "deputy director of the institute",
+          "quotes": [
+            "In December 1970, Yevgeny Primakov was appointed deputy director of the institute."
+          ]
+        },
+        {
+          "title": "special correspondent",
+          "quotes": [
+            "He had just returned from a long posting in the Middle East, where he was a special correspondent for the Pravda daily."
+          ]
+        },
+        {
+          "title": "prime minister",
+          "quotes": [
+            "This speaks volumes about Yevgeny Primakov. He would go on to create Russia’s Foreign Intelligence Service from scratch, serve as foreign minister at a very difficult period in our history and later prime minister after the destructive 1998 crisis."
+          ]
+        },
+        {
+          "title": "aide to the director",
+          "quotes": [
+            "I was an aide to its director, Nikolai Inozemtsev, a member of the Russian Academy of Sciences."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Middle East",
+          "quotes": [
+            "He had just returned from a long posting in the Middle East, where he was a special correspondent for the Pravda daily."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Upon graduating in 1969, I received a job at the highly respected Institute of World Economy and International Relations of the Soviet Academy of Sciences."
+        ],
+        "confidence": "high",
+        "notes": "Role is implied but not explicitly stated in the quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In December 1970, Yevgeny Primakov was appointed deputy director of the institute."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          5
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "I was an aide to its director, Nikolai Inozemtsev, a member of the Russian Academy of Sciences."
+        ],
+        "confidence": "high",
+        "notes": "Role and organization are clearly linked, but time is unspecified."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "He had just returned from a long posting in the Middle East, where he was a special correspondent for the Pravda daily."
+        ],
+        "confidence": "high",
+        "notes": "Role, organization, and location are clearly linked, but time is unspecified."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Primakov took to the post of foreign minister so naturally and tactfully that it seemed to his colleagues that he had already held the post for a long time, even though winning the respect of career diplomats is never easy."
+        ],
+        "confidence": "medium",
+        "notes": "Role is mentioned but time and organization are not specified."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "This speaks volumes about Yevgeny Primakov. He would go on to create Russia’s Foreign Intelligence Service from scratch, serve as foreign minister at a very difficult period in our history and later prime minister after the destructive 1998 crisis."
+        ],
+        "confidence": "high",
+        "notes": "Role and time are linked, but organization is not explicitly mentioned for this specific role."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Role is missing and not inferable from the quote."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Time is missing and not inferable from the quote."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Time is missing and not inferable from the quote."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Time and organization are missing and not inferable from the quote."
+          }
+        ]
+      },
+      {
+        "event_id": 5,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Organization is missing and not inferable from the quote."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 6,
+      "valid": 1,
+      "warnings": 5,
+      "errors": 0,
+      "career_positions": 6,
+      "awards": 0
+    }
+  }
+}

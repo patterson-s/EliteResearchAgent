@@ -1,0 +1,125 @@
+{
+  "status": "success",
+  "chunk_id": 2718,
+  "chunk_index": 5,
+  "source_url": "https://www.britannica.com/biography/Ellen-Johnson-Sirleaf",
+  "title": "Ellen Johnson Sirleaf | Achievements, Nobel Peace Prize, & Facts | Britannica",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "February 2018",
+          "type": "point",
+          "quotes": [
+            "in February 2018 she was awarded the 2017 Ibrahim Prize for Achievement in African Leadership"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Mo Ibrahim Foundation",
+          "quotes": [
+            "It also brought the possibility of the Mo Ibrahim Foundation awarding $200,000 annually over the course of 10 years to charitable causes supported by Sirleaf."
+          ]
+        },
+        {
+          "name": "Encyclopaedia Britannica",
+          "quotes": [
+            "The Editors of Encyclopaedia Britannica",
+            "This article was most recently revised and updated by Encyclopaedia Britannica."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "leadership of Liberia",
+          "quotes": [
+            "of Sirleaf’s leadership of Liberia during the challenging period of transition after the country’s devastating years of conflict"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Liberia",
+          "quotes": [
+            "of Sirleaf’s leadership of Liberia during the challenging period of transition after the country’s devastating years of conflict",
+            "positive changes that took place in Liberia under her administration"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "in February 2018 she was awarded the 2017 Ibrahim Prize for Achievement in African Leadership",
+          "It also brought the possibility of the Mo Ibrahim Foundation awarding $200,000 annually over the course of 10 years to charitable causes supported by Sirleaf."
+        ],
+        "confidence": "high",
+        "notes": "The event is clearly an award based on the linguistic markers 'awarded' and 'prize'."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "of Sirleaf’s leadership of Liberia during the challenging period of transition after the country’s devastating years of conflict",
+          "positive changes that took place in Liberia under her administration"
+        ],
+        "confidence": "high",
+        "notes": "The event represents a leadership role in Liberia, which is a career position. No specific time marker is provided, but the context implies an ongoing role."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position, making it difficult to place the event in a timeline."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for career position, which could provide context for the role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 1
+    }
+  }
+}

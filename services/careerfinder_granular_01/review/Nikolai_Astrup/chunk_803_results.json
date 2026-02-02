@@ -1,0 +1,168 @@
+{
+  "status": "success",
+  "chunk_id": 803,
+  "chunk_index": 3,
+  "source_url": "https://www.newyorker.com/magazine/2021/07/26/have-you-heard-of-nikolai-astrup",
+  "title": "Have You Heard of Nikolai Astrup? | The New Yorker",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "in 2022",
+          "type": "point",
+          "quotes": [
+            "Peter Schjeldahl was The New Yorker’s longtime art critic until his death, in 2022, at the age of eighty."
+          ]
+        },
+        {
+          "text": "in 1998",
+          "type": "point",
+          "quotes": [
+            "He joined the magazine as a staff writer in 1998."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "The New Yorker",
+          "quotes": [
+            "Peter Schjeldahl was The New Yorker’s longtime art critic until his death, in 2022, at the age of eighty.",
+            "He joined the magazine as a staff writer in 1998."
+          ]
+        },
+        {
+          "name": "Clark Art Institute",
+          "quotes": [
+            "The Clark show, curated by the independent scholar MaryAnne Stevens, insures that, from now on, Astrup must figure in any comprehensive survey of early-twentieth-century European art."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "art critic",
+          "quotes": [
+            "Peter Schjeldahl was The New Yorker’s longtime art critic until his death, in 2022, at the age of eighty."
+          ]
+        },
+        {
+          "title": "staff writer",
+          "quotes": [
+            "He joined the magazine as a staff writer in 1998."
+          ]
+        },
+        {
+          "title": "independent scholar",
+          "quotes": [
+            "The Clark show, curated by the independent scholar MaryAnne Stevens, insures that, from now on, Astrup must figure in any comprehensive survey of early-twentieth-century European art."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He joined the magazine as a staff writer in 1998.",
+          "The New Yorker"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time marker, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Peter Schjeldahl was The New Yorker’s longtime art critic until his death, in 2022, at the age of eighty.",
+          "The New Yorker"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time marker, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The Clark show, curated by the independent scholar MaryAnne Stevens, insures that, from now on, Astrup must figure in any comprehensive survey of early-twentieth-century European art.",
+          "Clark Art Institute"
+        ],
+        "confidence": "medium",
+        "notes": "No time marker, but clear linkage between organization and role. Assuming this is a career position based on the role of independent scholar."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "Time marker 'in 2022' likely refers to the end date of the position, but the event lacks a start date, making temporal coherence unclear."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "No time marker provided, making temporal coherence impossible to verify."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The role 'independent scholar' is ambiguous and may not clearly fit the 'career_position' type without more context."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "status": "success",
+  "chunk_id": 3761,
+  "chunk_index": 1,
+  "source_url": "https://clubmadrid.org/who/members/brown-gordon/",
+  "title": "Gordon Brown - United Kingdom Prime Minister",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "24 June, 2025",
+          "type": "point",
+          "quotes": [
+            "24 June, 2025"
+          ]
+        },
+        {
+          "text": "25 April, 2024",
+          "type": "point",
+          "quotes": [
+            "25 April, 2024"
+          ]
+        },
+        {
+          "text": "21 March, 2024",
+          "type": "point",
+          "quotes": [
+            "21 March, 2024"
+          ]
+        },
+        {
+          "text": "11 November, 2021",
+          "type": "point",
+          "quotes": [
+            "11 November, 2021"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "UN",
+          "quotes": [
+            "Former UN Leaders and Club de Madrid Members Unite in Urgent Call to Defend the UN Charter on its 80th Anniversary"
+          ]
+        },
+        {
+          "name": "Club de Madrid",
+          "quotes": [
+            "Former UN Leaders and Club de Madrid Members Unite in Urgent Call to Defend the UN Charter on its 80th Anniversary",
+            "WORLD LEADERSHIP ALLIANCE CLUB DE MADRID"
+          ]
+        },
+        {
+          "name": "WORLD LEADERSHIP ALLIANCE CLUB DE MADRID",
+          "quotes": [
+            "WORLD LEADERSHIP ALLIANCE CLUB DE MADRID"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Former UN Leaders",
+          "quotes": [
+            "Former UN Leaders and Club de Madrid Members Unite in Urgent Call to Defend the UN Charter on its 80th Anniversary"
+          ]
+        },
+        {
+          "title": "Club de Madrid Members",
+          "quotes": [
+            "Former UN Leaders and Club de Madrid Members Unite in Urgent Call to Defend the UN Charter on its 80th Anniversary"
+          ]
+        },
+        {
+          "title": "prominent global leaders and public figures",
+          "quotes": [
+            "65 prominent global leaders and public figures urge New York to pass groundbreaking bill addressing debt crisis"
+          ]
+        },
+        {
+          "title": "world leaders",
+          "quotes": [
+            "Open Letter to world leaders: A historic opportunity to achieve global pandemic preparedness and response"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "New York",
+          "quotes": [
+            "65 prominent global leaders and public figures urge New York to pass groundbreaking bill addressing debt crisis"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Former UN Leaders and Club de Madrid Members Unite in Urgent Call to Defend the UN Charter on its 80th Anniversary"
+        ],
+        "confidence": "high",
+        "notes": "Roles and organizations are clearly linked in the same quote, indicating a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "65 prominent global leaders and public figures urge New York to pass groundbreaking bill addressing debt crisis"
+        ],
+        "confidence": "medium",
+        "notes": "Role and location are linked, but no specific organization is mentioned. Assuming a career position based on the active role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Open Letter to world leaders: A historic opportunity to achieve global pandemic preparedness and response"
+        ],
+        "confidence": "medium",
+        "notes": "Role is mentioned without a specific organization or location. Assuming a career position based on the active role."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization for the career position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Role 'prominent global leaders and public figures' may not clearly indicate a specific career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization and location for the career position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Role 'world leaders' may not clearly indicate a specific career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

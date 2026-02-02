@@ -1,0 +1,188 @@
+{
+  "status": "success",
+  "chunk_id": 3441,
+  "chunk_index": 0,
+  "source_url": "https://www.wald.org.tr/en/news-from-us/kadir-topbas-a-life-devoted-to-istanbul-1771",
+  "title": "KADİR TOPBAŞ: A LIFE DEVOTED TO ISTANBUL",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "WALD",
+          "quotes": [
+            "WALD Chairman of the Board of Trustees, Dr. Architect Kadir Topbaş's passion for Istanbul, his philosophy of service, visionary projects, actions, journey as a municipality mayor, his perspective on local government was summarized and written by Prof. Dr Recep Bozdoğan as a memories book called A Life Kadir Topbaş: Dedicated to Istanbul.",
+            "As WALD, we believe that the book will contribute to the further development of local governments and local democracy in Turkey.",
+            "WALD 2023 Protection Dialogue Session Kicks Off"
+          ]
+        },
+        {
+          "name": "D&R stores",
+          "quotes": [
+            "Kadir Topbaş: A Life Dedicated to Istanbul memories book, which is an important reference resource for anyone who loves Istanbul, can be obtained from D&R stores and virtual platforms."
+          ]
+        },
+        {
+          "name": "UCLG-MEWA",
+          "quotes": [
+            "UCLG-MEWA Retreat Istanbul'23: Held Under the Theme of 'Redefining Urban Horizons'"
+          ]
+        },
+        {
+          "name": "Consulate General of Palestine in Istanbul",
+          "quotes": [
+            "Visit to the Consulate General of Palestine in Istanbul"
+          ]
+        },
+        {
+          "name": "Dannieh Municipalities Union",
+          "quotes": [
+            "Courtesy Visit to our Foundation by the President of Lebanon Dannieh Municipalities Union"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Chairman of the Board of Trustees",
+          "quotes": [
+            "WALD Chairman of the Board of Trustees, Dr. Architect Kadir Topbaş's passion for Istanbul, his philosophy of service, visionary projects, actions, journey as a municipality mayor, his perspective on local government was summarized and written by Prof. Dr Recep Bozdoğan as a memories book called A Life Kadir Topbaş: Dedicated to Istanbul."
+          ]
+        },
+        {
+          "title": "municipality mayor",
+          "quotes": [
+            "WALD Chairman of the Board of Trustees, Dr. Architect Kadir Topbaş's passion for Istanbul, his philosophy of service, visionary projects, actions, journey as a municipality mayor, his perspective on local government was summarized and written by Prof. Dr Recep Bozdoğan as a memories book called A Life Kadir Topbaş: Dedicated to Istanbul."
+          ]
+        },
+        {
+          "title": "President of Lebanon Dannieh Municipalities Union",
+          "quotes": [
+            "Courtesy Visit to our Foundation by the President of Lebanon Dannieh Municipalities Union"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Istanbul",
+          "quotes": [
+            "KADİR TOPBAŞ: A LIFE DEVOTED TO ISTANBUL",
+            "Kadir Topbaş, a succesful local manager with a global vision, had acquired a distinguished place not only in the history of Istanbul, but also in the history of world local governments.",
+            "Kadir Topbaş: A Life Dedicated to Istanbul memories book, which is an important reference resource for anyone who loves Istanbul, can be obtained from D&R stores and virtual platforms.",
+            "In this book, you will find short but concise reflections of Topbaş's long journey as a municipality that will fill the encyclopedias and his love for Istanbul.",
+            "The work is a guide and reference resource that will contribute to everyone who is dedicated to municipal work and Istanbul.",
+            "Mission dedicated to Istanbul's thousands of years of experience.",
+            "City on top of the world",
+            "Visit to the Consulate General of Palestine in Istanbul",
+            "‘Economic Empowerment in Focus:’ Istanbul's Protection Dialogues Drive Refugee Participation!",
+            "UCLG-MEWA Retreat Istanbul'23: Held Under the Theme of 'Redefining Urban Horizons'"
+          ]
+        },
+        {
+          "place": "Turkey",
+          "quotes": [
+            "As WALD, we believe that the book will contribute to the further development of local governments and local democracy in Turkey."
+          ]
+        },
+        {
+          "place": "Palestine",
+          "quotes": [
+            "Visit to the Consulate General of Palestine in Istanbul"
+          ]
+        },
+        {
+          "place": "Lebanon",
+          "quotes": [
+            "Courtesy Visit to our Foundation by the President of Lebanon Dannieh Municipalities Union"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "WALD Chairman of the Board of Trustees, Dr. Architect Kadir Topbaş's passion for Istanbul, his philosophy of service, visionary projects, actions, journey as a municipality mayor, his perspective on local government was summarized and written by Prof. Dr Recep Bozdoğan as a memories book called A Life Kadir Topbaş: Dedicated to Istanbul."
+        ],
+        "confidence": "high",
+        "notes": "Chairman of the Board of Trustees and municipality mayor roles are directly linked to WALD and Istanbul."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          3
+        ],
+        "supporting_quotes": [
+          "Courtesy Visit to our Foundation by the President of Lebanon Dannieh Municipalities Union"
+        ],
+        "confidence": "high",
+        "notes": "President of Lebanon Dannieh Municipalities Union is a clear career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "No time markers provided, making it impossible to verify temporal coherence."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for a career position event."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "No time markers provided, making it impossible to verify temporal coherence."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for a career position event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

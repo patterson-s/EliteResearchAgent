@@ -1,0 +1,142 @@
+{
+  "status": "success",
+  "chunk_id": 3836,
+  "chunk_index": 1,
+  "source_url": "https://www.pbs.org/wgbh/commandingheights/shared/minitext/int_ricardolagos.html",
+  "title": "Commanding Heights : Ricardo Lagos | on PBS",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In the '60s",
+          "type": "point",
+          "quotes": [
+            "In the '60s, what did you embrace, and how has that thinking changed over the years?"
+          ]
+        },
+        {
+          "text": "more than 25 years",
+          "type": "range",
+          "quotes": [
+            "In more than 25 years, Allende tried to introduce changes in the economic policies in Chile and economic structure of Chile."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Congress",
+          "quotes": [
+            "He was member of Congress here."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "ambassador in Moscow",
+          "quotes": [
+            "I was designated by Allende to be ambassador in Moscow."
+          ]
+        },
+        {
+          "title": "member of Congress",
+          "quotes": [
+            "He was member of Congress here."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Moscow",
+          "quotes": [
+            "I was designated by Allende to be ambassador in Moscow."
+          ]
+        },
+        {
+          "place": "Santiago",
+          "quotes": [
+            "today you go to the supermarket and you find foreign beers all over Santiago, all over Chile."
+          ]
+        },
+        {
+          "place": "Chile",
+          "quotes": [
+            "For a small economy like Chile, 15 million people is not many;",
+            "today you go to the supermarket and you find foreign beers all over Santiago, all over Chile."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "I was designated by Allende to be ambassador in Moscow."
+        ],
+        "confidence": "high",
+        "notes": "No time marker available, but role and location are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He was member of Congress here."
+        ],
+        "confidence": "high",
+        "notes": "No time marker available, but organization and role are clear."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and organization information."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and location information."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

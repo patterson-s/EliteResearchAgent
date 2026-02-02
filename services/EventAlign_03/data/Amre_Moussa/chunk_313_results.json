@@ -1,0 +1,253 @@
+{
+  "status": "success",
+  "chunk_id": 313,
+  "chunk_index": 0,
+  "source_url": "https://dohaforum.org/2024/speakers/amre-moussa",
+  "title": "Amre\tMoussa | Doha Forum",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1983-1986",
+          "type": "range",
+          "quotes": [
+            "He served as the Ambassador of Egypt to India (1983-1986)."
+          ]
+        },
+        {
+          "text": "1990-1991",
+          "type": "range",
+          "quotes": [
+            "Then he became the Permanent Representative of Egypt to the U.N (1990-1991)"
+          ]
+        },
+        {
+          "text": "1991-2001",
+          "type": "range",
+          "quotes": [
+            "the Foreign Minister of Egypt (1991-2001)"
+          ]
+        },
+        {
+          "text": "2001-2011",
+          "type": "range",
+          "quotes": [
+            "the Secretary General of the League of Arab States (2001-2011)"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Interpeace",
+          "quotes": [
+            "Chairman, Interpeace"
+          ]
+        },
+        {
+          "name": "League of Arab States",
+          "quotes": [
+            "as a former Secretary General of the League of Arab States",
+            "the Secretary General of the League of Arab States (2001-2011)"
+          ]
+        },
+        {
+          "name": "U.N.",
+          "quotes": [
+            "the Permanent Representative of Egypt to the U.N (1990-1991)"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Chairman",
+          "quotes": [
+            "Chairman, Interpeace"
+          ]
+        },
+        {
+          "title": "Secretary General of the League of Arab States",
+          "quotes": [
+            "as a former Secretary General of the League of Arab States",
+            "the Secretary General of the League of Arab States (2001-2011)"
+          ]
+        },
+        {
+          "title": "Foreign Minister of Egypt",
+          "quotes": [
+            "as a former Foreign Minister of Egypt",
+            "the Foreign Minister of Egypt (1991-2001)"
+          ]
+        },
+        {
+          "title": "Ambassador of Egypt to India",
+          "quotes": [
+            "He served as the Ambassador of Egypt to India (1983-1986)."
+          ]
+        },
+        {
+          "title": "Permanent Representative of Egypt to the U.N.",
+          "quotes": [
+            "Then he became the Permanent Representative of Egypt to the U.N (1990-1991)"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "India",
+          "quotes": [
+            "He served as the Ambassador of Egypt to India (1983-1986)."
+          ]
+        },
+        {
+          "place": "Egypt",
+          "quotes": [
+            "as a former Foreign Minister of Egypt",
+            "the Foreign Minister of Egypt (1991-2001)",
+            "He served as the Ambassador of Egypt to India (1983-1986).",
+            "Then he became the Permanent Representative of Egypt to the U.N (1990-1991)"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [
+          1,
+          0
+        ],
+        "supporting_quotes": [
+          "He served as the Ambassador of Egypt to India (1983-1986)."
+        ],
+        "confidence": "high",
+        "notes": "Clear role and time marker with location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Then he became the Permanent Representative of Egypt to the U.N (1990-1991)"
+        ],
+        "confidence": "high",
+        "notes": "Clear role, organization, and time marker."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "the Foreign Minister of Egypt (1991-2001)"
+        ],
+        "confidence": "high",
+        "notes": "Clear role and time marker with location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "the Secretary General of the League of Arab States (2001-2011)"
+        ],
+        "confidence": "high",
+        "notes": "Clear role, organization, and time marker."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Chairman, Interpeace"
+        ],
+        "confidence": "medium",
+        "notes": "No time marker, but clear role and organization."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 4,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

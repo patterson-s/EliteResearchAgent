@@ -1,0 +1,201 @@
+{
+  "status": "success",
+  "chunk_id": 28,
+  "chunk_index": 1,
+  "source_url": "https://rmaward.asia/rmawardees/anand-panyarachun/",
+  "title": "Anand Panyarachun - Ramon Magsaysay Award Foundation Philippines",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "October 1976",
+          "type": "point",
+          "quotes": [
+            "As a result, when yet another coup returned the army to power in October 1976, he was branded a communist-sympathizer."
+          ]
+        },
+        {
+          "text": "1979",
+          "type": "point",
+          "quotes": [
+            "In 1979, he resigned and entered business."
+          ]
+        },
+        {
+          "text": "By 1990",
+          "type": "point",
+          "quotes": [
+            "By 1990, ANAND was Executive Chairman of the Saha-Union conglomerate and a widely respected business leader."
+          ]
+        },
+        {
+          "text": "March 1992",
+          "type": "point",
+          "quotes": [
+            "Elections in March 1992 brought a new crisis."
+          ]
+        },
+        {
+          "text": "May",
+          "type": "point",
+          "quotes": [
+            "In May, government soldiers fired upon pro-democracy demonstrators in Bangkok; nearly a hundred died."
+          ]
+        },
+        {
+          "text": "Three months later",
+          "type": "point",
+          "quotes": [
+            "Three months later, he passed the reins of leadership to a freely elected government."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Saha-Union",
+          "quotes": [
+            "By 1990, ANAND was Executive Chairman of the Saha-Union conglomerate and a widely respected business leader.",
+            "ANAND then returned to Saha-Union."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Executive Chairman",
+          "quotes": [
+            "By 1990, ANAND was Executive Chairman of the Saha-Union conglomerate and a widely respected business leader."
+          ]
+        },
+        {
+          "title": "prime minister",
+          "quotes": [
+            "When victorious military-linked political parties named the chief architect of the 1991 coup as prime minister, outraged citizens protested."
+          ]
+        },
+        {
+          "title": "interim premiership",
+          "quotes": [
+            "ANAND was called, once again, to assume the interim premiership and organize credible elections."
+          ]
+        },
+        {
+          "title": "leading member of the assembly drafting his countryâ€™s new constitution",
+          "quotes": [
+            "As a leading member of the assembly drafting his countryâ€™s new constitution, he has labored to strengthen democracy in Thailand by securing civil liberties, making government more accountable to citizens, and eliminating vote buying and other scourges of money politics."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Thailand",
+          "quotes": [
+            "American military bases in Thailand.",
+            "ANANDâ€™s aggressive pursuit of privatization, tax reform, and trade liberalization stoked the countryâ€™s economy and helped win the confidence of investors at home and abroad.",
+            "Thailandâ€™s king now intervened to pave the way for a democratic restoration.",
+            "Thailandâ€™s democracy is still fragile and flawed by corruption.",
+            "As a leading member of the assembly drafting his countryâ€™s new constitution, he has labored to strengthen democracy in Thailand by securing civil liberties, making government more accountable to citizens, and eliminating vote buying and other scourges of money politics."
+          ]
+        },
+        {
+          "place": "Bangkok",
+          "quotes": [
+            "In May, government soldiers fired upon pro-democracy demonstrators in Bangkok; nearly a hundred died."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "By 1990, ANAND was Executive Chairman of the Saha-Union conglomerate and a widely respected business leader."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "As a leading member of the assembly drafting his countryâ€™s new constitution, he has labored to strengthen democracy in Thailand by securing civil liberties, making government more accountable to citizens, and eliminating vote buying and other scourges of money politics."
+        ],
+        "confidence": "high",
+        "notes": "Role and location are clearly linked, but no specific time marker."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "ANAND was called, once again, to assume the interim premiership and organize credible elections."
+        ],
+        "confidence": "medium",
+        "notes": "Role is mentioned but no specific time or organization. Assumed to be a career position due to active responsibilities."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and organization information, though role and location are clearly linked."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and organization information, though role is mentioned and assumed to be a career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

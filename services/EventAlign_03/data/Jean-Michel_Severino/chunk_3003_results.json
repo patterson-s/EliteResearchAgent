@@ -1,0 +1,87 @@
+{
+  "status": "success",
+  "chunk_id": 3003,
+  "chunk_index": 0,
+  "source_url": "https://www.carrefour.com/en/news/appointment-jean-michel-severino-carrefour-foundations-board-directors",
+  "title": "Appointment of Jean-Michel Severino to the Carrefour Foundation's Board of Directors | Carrefour Group",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Carrefour Foundation",
+          "quotes": [
+            "Appointment of Jean-Michel Severino to the Carrefour Foundation's Board of Directors"
+          ]
+        },
+        {
+          "name": "Carrefour Group",
+          "quotes": [
+            "Appointment of Jean-Michel Severino to the Carrefour Foundation's Board of Directors | Carrefour Group"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Board of Directors",
+          "quotes": [
+            "Appointment of Jean-Michel Severino to the Carrefour Foundation's Board of Directors"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Appointment of Jean-Michel Severino to the Carrefour Foundation's Board of Directors",
+          "Appointment of Jean-Michel Severino to the Carrefour Foundation's Board of Directors | Carrefour Group"
+        ],
+        "confidence": "high",
+        "notes": "No time markers provided, but organization and role are clear."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the event, making temporal coherence impossible to verify."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "While 'Board of Directors' suggests a career position, the lack of explicit responsibilities or active role description makes classification slightly uncertain."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

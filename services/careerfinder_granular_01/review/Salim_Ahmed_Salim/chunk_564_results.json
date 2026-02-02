@@ -1,0 +1,201 @@
+{
+  "status": "success",
+  "chunk_id": 564,
+  "chunk_index": 64,
+  "source_url": "https://issafrica.s3.amazonaws.com/site/uploads/Book-2015-Salim.pdf",
+  "title": "Book-2015-Salim.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "Two years after the OAU Declaration on the Political and Socio-Economic Situation in Africa and the Fundamental Changes Taking Place in the World",
+          "type": "point",
+          "quotes": [
+            "Two years after the OAU Declaration on the Political and Socio-Economic Situation in Africa and the Fundamental Changes Taking Place in the World, Salim oversaw a process to draft a proposal to establish a permanent institution for African conflict prevention and resolution."
+          ]
+        },
+        {
+          "text": "June 1992",
+          "type": "point",
+          "quotes": [
+            "The proposal was first presented at the 28th Ordinary Session of the OAU, held in Dakar, Senegal, in June 1992."
+          ]
+        },
+        {
+          "text": "28–30 June 1993",
+          "type": "range",
+          "quotes": [
+            "The revised version was unanimously endorsed by the 29th Ordinary Session of the OAU Heads of State and Government Assembly in Cairo, Egypt, 28–30 June 1993."
+          ]
+        },
+        {
+          "text": "1994",
+          "type": "point",
+          "quotes": [
+            "Though 1994 heralded the end of one chapter in African history, with democratic elections in South Africa, it also witnessed one of the most horrific atrocities in modern Africa: the Rwandan genocide."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "OAU",
+          "quotes": [
+            "The conference also adopted various principles on matters of peace and security in Africa, calling for a greater role to be played by the OAU in these issues."
+          ]
+        },
+        {
+          "name": "UN",
+          "quotes": [
+            "They said it was the UN’s mandate and business."
+          ]
+        },
+        {
+          "name": "OAU Heads of State and Government Assembly",
+          "quotes": [
+            "The revised version was unanimously endorsed by the 29th Ordinary Session of the OAU Heads of State and Government Assembly in Cairo, Egypt, 28–30 June 1993."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "minister",
+          "quotes": [
+            "minister after minister bashed the idea and the secretariat, claiming that peacekeeping was not Africa’s business."
+          ]
+        },
+        {
+          "title": "secretary-general",
+          "quotes": [
+            "a request that the secretary-general undertake an in-depth study on all aspects relating to such a mechanism, including institutional and operational details as well as its financing … and submit them for the consideration and decision of the Assembly of Heads of State and Government at its Twenty-Ninth Ordinary Session."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Dakar, Senegal",
+          "quotes": [
+            "The proposal was first presented at the 28th Ordinary Session of the OAU, held in Dakar, Senegal, in June 1992."
+          ]
+        },
+        {
+          "place": "Cairo, Egypt",
+          "quotes": [
+            "The revised version was unanimously endorsed by the 29th Ordinary Session of the OAU Heads of State and Government Assembly in Cairo, Egypt, 28–30 June 1993."
+          ]
+        },
+        {
+          "place": "South Africa",
+          "quotes": [
+            "Though 1994 heralded the end of one chapter in African history, with democratic elections in South Africa, it also witnessed one of the most horrific atrocities in modern Africa: the Rwandan genocide."
+          ]
+        },
+        {
+          "place": "Rwanda",
+          "quotes": [
+            "Though 1994 heralded the end of one chapter in African history, with democratic elections in South Africa, it also witnessed one of the most horrific atrocities in modern Africa: the Rwandan genocide."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Two years after the OAU Declaration on the Political and Socio-Economic Situation in Africa and the Fundamental Changes Taking Place in the World, Salim oversaw a process to draft a proposal to establish a permanent institution for African conflict prevention and resolution.",
+          "The proposal was first presented at the 28th Ordinary Session of the OAU, held in Dakar, Senegal, in June 1992."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit role mentioned, but 'oversaw a process' implies an active position within the OAU."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          0,
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "The revised version was unanimously endorsed by the 29th Ordinary Session of the OAU Heads of State and Government Assembly in Cairo, Egypt, 28–30 June 1993."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit role mentioned, but involvement in the endorsement process suggests an active position within the OAU or its Assembly."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "a request that the secretary-general undertake an in-depth study on all aspects relating to such a mechanism, including institutional and operational details as well as its financing … and submit them for the consideration and decision of the Assembly of Heads of State and Government at its Twenty-Ninth Ordinary Session."
+        ],
+        "confidence": "high",
+        "notes": "The role of secretary-general is explicitly mentioned, indicating an active position within the OAU."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, though 'oversaw a process' implies an active position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, though involvement in the endorsement process suggests an active position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

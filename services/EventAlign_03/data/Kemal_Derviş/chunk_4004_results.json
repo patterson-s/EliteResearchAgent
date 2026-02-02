@@ -1,0 +1,76 @@
+{
+  "status": "success",
+  "chunk_id": 4004,
+  "chunk_index": 2,
+  "source_url": "https://theforum.erf.org.eg/app/uploads/2014/02/Kemal_Dervis_Bio_CV14.pdf",
+  "title": "Kemal_Dervis_Bio_CV14.pdf",
+  "document_type": "cv_structured",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2006",
+          "type": "point",
+          "quotes": [
+            "which was published in 2006."
+          ]
+        }
+      ],
+      "organizations": [],
+      "roles": [
+        {
+          "title": "author",
+          "quotes": [
+            "He is also the author of"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_cv_structured"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "which was published in 2006.",
+          "He is also the author of"
+        ],
+        "confidence": "medium",
+        "notes": "No organization or location mentioned, but the role of 'author' is clearly linked to the time marker '2006' through the publication quote."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location information, which is unusual for a career position event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

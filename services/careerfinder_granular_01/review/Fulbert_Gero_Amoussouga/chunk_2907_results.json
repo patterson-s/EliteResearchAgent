@@ -1,0 +1,186 @@
+{
+  "status": "success",
+  "chunk_id": 2907,
+  "chunk_index": 0,
+  "source_url": "https://www.un.org/sg/en/management/bios/Amoussouga.shtml",
+  "title": "FULBERT GERO AMOUSSOUGA (BENIN) | Secretary-General | United Nations",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "United Nations",
+          "quotes": [
+            "FULBERT GERO AMOUSSOUGA (BENIN) | Secretary-General | United Nations",
+            "Former Deputy Secretaries-General of the United Nations"
+          ]
+        },
+        {
+          "name": "African Union",
+          "quotes": [
+            "Mr. Amoussouga heads the Economic Analysis Unit of the President of the Republic of Benin and is current chair of the African Union."
+          ]
+        },
+        {
+          "name": "University of Abomey",
+          "quotes": [
+            "Director of the Graduate School of the Faculty of Economics and Management at the University of Abomey"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Secretary-General",
+          "quotes": [
+            "FULBERT GERO AMOUSSOUGA (BENIN) | Secretary-General | United Nations"
+          ]
+        },
+        {
+          "title": "heads the Economic Analysis Unit of the President of the Republic of Benin",
+          "quotes": [
+            "Mr. Amoussouga heads the Economic Analysis Unit of the President of the Republic of Benin and is current chair of the African Union."
+          ]
+        },
+        {
+          "title": "chair of the African Union",
+          "quotes": [
+            "Mr. Amoussouga heads the Economic Analysis Unit of the President of the Republic of Benin and is current chair of the African Union."
+          ]
+        },
+        {
+          "title": "Director of the Graduate School of the Faculty of Economics and Management",
+          "quotes": [
+            "Director of the Graduate School of the Faculty of Economics and Management at the University of Abomey"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Benin",
+          "quotes": [
+            "FULBERT GERO AMOUSSOUGA (BENIN)",
+            "Mr. Amoussouga heads the Economic Analysis Unit of the President of the Republic of Benin and is current chair of the African Union."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "FULBERT GERO AMOUSSOUGA (BENIN) | Secretary-General | United Nations"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role and organization in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Mr. Amoussouga heads the Economic Analysis Unit of the President of the Republic of Benin and is current chair of the African Union."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role and organization in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Director of the Graduate School of the Faculty of Economics and Management at the University of Abomey"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role and organization in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Mr. Amoussouga heads the Economic Analysis Unit of the President of the Republic of Benin and is current chair of the African Union."
+        ],
+        "confidence": "medium",
+        "notes": "Role is mentioned without a specific organization, but linked to Benin. Assumed to be a career position based on context."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information, though it can be inferred from the organization (University of Abomey)."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information, though the role is linked to Benin. This could be incomplete without the specific organization."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 2,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

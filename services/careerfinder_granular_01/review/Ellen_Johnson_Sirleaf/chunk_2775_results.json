@@ -1,0 +1,232 @@
+{
+  "status": "success",
+  "chunk_id": 2775,
+  "chunk_index": 2,
+  "source_url": "https://theelders.org/profile/ellen-johnson-sirleaf",
+  "title": "Ellen Johnson Sirleaf",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "in 2003",
+          "type": "point",
+          "quotes": [
+            "Following over a decade of exile during Liberia’s civil war, Ellen Johnson Sirleaf returned to the country in 2003 and oversaw preparations for democratic elections."
+          ]
+        },
+        {
+          "text": "in 2005",
+          "type": "point",
+          "quotes": [
+            "She was elected President in 2005, vowing to end corruption, establish unity, and rebuild Liberia’s devastated infrastructure."
+          ]
+        },
+        {
+          "text": "By late 2010",
+          "type": "point",
+          "quotes": [
+            "By late 2010, Liberia’s entire debt had been erased."
+          ]
+        },
+        {
+          "text": "In 2017",
+          "type": "point",
+          "quotes": [
+            "In 2017, President Sirleaf retired after two full terms in office."
+          ]
+        },
+        {
+          "text": "in January 2018",
+          "type": "point",
+          "quotes": [
+            "This ensured the country’s first peaceful, democratic transition of power in 73 years in January 2018."
+          ]
+        },
+        {
+          "text": "In 2011",
+          "type": "point",
+          "quotes": [
+            "In 2011, Ellen Johnson Sirleaf was awarded the Nobel Peace Prize, alongside women’s rights campaigners Leymah Gbowee of Liberia and Tawakkul Karman of Yemen."
+          ]
+        },
+        {
+          "text": "Since stepping down as President",
+          "type": "open",
+          "quotes": [
+            "Since stepping down as President, and building on lessons learned during the Ebola epidemic, Ellen Johnson Sirleaf has become a staunch advocate for community health workers and free primary healthcare as a means to protect against the spreading of infectious diseases."
+          ]
+        },
+        {
+          "text": "by 2003",
+          "type": "point",
+          "quotes": [
+            "During the civil war, Liberia’s healthcare infrastructure was severely damaged, with less than half of the population having any access to medical care by 2003."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Transitional Government",
+          "quotes": [
+            "Upon her return to Liberia, she played an active role in the Transitional Government as the country recovered from the civil war and she chaired the Governance Reform Commission of the Transitional Government that was instrumental in preparing the country for its first democratic elections."
+          ]
+        },
+        {
+          "name": "Governance Reform Commission of the Transitional Government",
+          "quotes": [
+            "Upon her return to Liberia, she played an active role in the Transitional Government as the country recovered from the civil war and she chaired the Governance Reform Commission of the Transitional Government that was instrumental in preparing the country for its first democratic elections."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "President",
+          "quotes": [
+            "She was elected President in 2005, vowing to end corruption, establish unity, and rebuild Liberia’s devastated infrastructure."
+          ]
+        },
+        {
+          "title": "chair of the Governance Reform Commission",
+          "quotes": [
+            "Upon her return to Liberia, she played an active role in the Transitional Government as the country recovered from the civil war and she chaired the Governance Reform Commission of the Transitional Government that was instrumental in preparing the country for its first democratic elections."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Liberia",
+          "quotes": [
+            "Following over a decade of exile during Liberia’s civil war, Ellen Johnson Sirleaf returned to the country in 2003 and oversaw preparations for democratic elections."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Following over a decade of exile during Liberia’s civil war, Ellen Johnson Sirleaf returned to the country in 2003 and oversaw preparations for democratic elections.",
+          "Upon her return to Liberia, she played an active role in the Transitional Government as the country recovered from the civil war and she chaired the Governance Reform Commission of the Transitional Government that was instrumental in preparing the country for its first democratic elections."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organizations, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1,
+          3,
+          4
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "She was elected President in 2005, vowing to end corruption, establish unity, and rebuild Liberia’s devastated infrastructure.",
+          "In 2017, President Sirleaf retired after two full terms in office.",
+          "This ensured the country’s first peaceful, democratic transition of power in 73 years in January 2018."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, role, and location. Organization not explicitly mentioned but implied as President of Liberia."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2011, Ellen Johnson Sirleaf was awarded the Nobel Peace Prize, alongside women’s rights campaigners Leymah Gbowee of Liberia and Tawakkul Karman of Yemen."
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of a one-time award."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          6
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Since stepping down as President, and building on lessons learned during the Ebola epidemic, Ellen Johnson Sirleaf has become a staunch advocate for community health workers and free primary healthcare as a means to protect against the spreading of infectious diseases."
+        ],
+        "confidence": "medium",
+        "notes": "No specific organization or role mentioned, but ongoing advocacy is considered a career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Organization not explicitly mentioned, though implied as President of Liberia."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "No specific organization or role mentioned for advocacy work."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Advocacy work may not clearly fit the definition of a career position without more structure or formal role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 2,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 1
+    }
+  }
+}

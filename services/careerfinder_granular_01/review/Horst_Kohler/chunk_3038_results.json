@@ -1,0 +1,184 @@
+{
+  "status": "success",
+  "chunk_id": 3038,
+  "chunk_index": 2,
+  "source_url": "https://www.berlinglobal.org/index.php?horst-koehler-20042010",
+  "title": "Berlin Global | Politics",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "On 23 May 2009",
+          "type": "point",
+          "quotes": [
+            "On 23 May 2009, Federal President Köhler was re-elected for a second term of five years by an absolute majority of 613 votes in the Federal Convention in the first round of voting."
+          ]
+        },
+        {
+          "text": "On 31 May 2010",
+          "type": "point",
+          "quotes": [
+            "On 31 May 2010, Horst Köhler resigned from his office of Federal President."
+          ]
+        },
+        {
+          "text": "since 1981",
+          "type": "open",
+          "quotes": [
+            "Köhler has been a member of the CDU since 1981, but his membership was suspended during his term of office as Federal President."
+          ]
+        },
+        {
+          "text": "On 1 February 2025",
+          "type": "point",
+          "quotes": [
+            "Horst Köhler died on 1 February 2025 in Berlin."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Federal Republic of Germany",
+          "quotes": [
+            "as the ninth President of the Federal Republic of Germany."
+          ]
+        },
+        {
+          "name": "Federal Convention",
+          "quotes": [
+            "by an absolute majority of 613 votes in the Federal Convention in the first round of voting."
+          ]
+        },
+        {
+          "name": "CDU",
+          "quotes": [
+            "Köhler has been a member of the CDU since 1981, but his membership was suspended during his term of office as Federal President."
+          ]
+        },
+        {
+          "name": "European Union",
+          "quotes": [
+            "a country that is shouldering its responsibility to be a force for good in the world and especially in the European Union."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "ninth President of the Federal Republic of Germany",
+          "quotes": [
+            "as the ninth President of the Federal Republic of Germany."
+          ]
+        },
+        {
+          "title": "Federal President",
+          "quotes": [
+            "In the domestic arena, the Federal President was concerned above all with preserving and creating new sustainable jobs."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Berlin",
+          "quotes": [
+            "Horst Köhler died on 1 February 2025 in Berlin."
+          ]
+        },
+        {
+          "place": "Washington D.C.",
+          "quotes": [
+            "Homer Building 601 13th St. NW, Washington D.C. 20005, USA"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "On 23 May 2009, Federal President Köhler was re-elected for a second term of five years by an absolute majority of 613 votes in the Federal Convention in the first round of voting.",
+          "On 31 May 2010, Horst Köhler resigned from his office of Federal President.",
+          "as the ninth President of the Federal Republic of Germany.",
+          "In the domestic arena, the Federal President was concerned above all with preserving and creating new sustainable jobs."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time markers, organization, and roles through quotes."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Köhler has been a member of the CDU since 1981, but his membership was suspended during his term of office as Federal President."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time marker and organization through quotes."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information, which is not explicitly mentioned in the quotes but could be inferred as Germany."
+          },
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "End date is earlier than the start date (2009-05-23 to 2010-05-31), but this seems to be a resignation, which is plausible."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, which is crucial for a career_position event."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position, but the quote mentions membership suspension, which might not qualify as an active role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

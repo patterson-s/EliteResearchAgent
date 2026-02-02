@@ -1,0 +1,136 @@
+{
+  "status": "success",
+  "chunk_id": 3516,
+  "chunk_index": 0,
+  "source_url": "https://www.cfr.org/womens-participation-in-peace-processes/biography/tawakkol-karman-yemen",
+  "title": "Tawakkol Karman (Yemen) | CFR Interactives",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In 2011",
+          "type": "point",
+          "quotes": [
+            "In 2011, she was the first Arab woman to be awarded the Nobel Peace Prize for her work to advance peaceful protests and womenâs rights."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Women Journalists Without Chains",
+          "quotes": [
+            "Tawakkol Karman is the founder of Women Journalists Without Chains, an organization promoting civil rights.",
+            "Tawakkol Karman is the founder and president of Women Journalists Without Chains, a Yemeni organization that promotes civil rights, particularly freedom of expression."
+          ]
+        },
+        {
+          "name": "Nobel Peace Prize",
+          "quotes": [
+            "In 2011, she was the first Arab woman to be awarded the Nobel Peace Prize for her work to advance peaceful protests and womenâs rights.",
+            "In 2011, she was awarded the Nobel Peace Prize in recognition of her work to advance peaceful protests and promote womenâs rights in Yemen, becoming the first Yemeni, first Arab woman, and second Muslim woman to be awarded the prize."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "founder",
+          "quotes": [
+            "Tawakkol Karman is the founder of Women Journalists Without Chains, an organization promoting civil rights.",
+            "Tawakkol Karman is the founder and president of Women Journalists Without Chains, a Yemeni organization that promotes civil rights, particularly freedom of expression."
+          ]
+        },
+        {
+          "title": "president",
+          "quotes": [
+            "Tawakkol Karman is the founder and president of Women Journalists Without Chains, a Yemeni organization that promotes civil rights, particularly freedom of expression."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Yemen",
+          "quotes": [
+            "Tawakkol Karman (Yemen) | CFR Interactives",
+            "a Yemeni organization that promotes civil rights, particularly freedom of expression.",
+            "In 2011, she was awarded the Nobel Peace Prize in recognition of her work to advance peaceful protests and promote womenâs rights in Yemen, becoming the first Yemeni, first Arab woman, and second Muslim woman to be awarded the prize."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Tawakkol Karman is the founder of Women Journalists Without Chains, an organization promoting civil rights.",
+          "Tawakkol Karman is the founder and president of Women Journalists Without Chains, a Yemeni organization that promotes civil rights, particularly freedom of expression.",
+          "Tawakkol Karman (Yemen) | CFR Interactives",
+          "a Yemeni organization that promotes civil rights, particularly freedom of expression."
+        ],
+        "confidence": "high",
+        "notes": "The role of founder and president indicates an ongoing position with active responsibilities."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "In 2011, she was the first Arab woman to be awarded the Nobel Peace Prize for her work to advance peaceful protests and womenâs rights.",
+          "In 2011, she was awarded the Nobel Peace Prize in recognition of her work to advance peaceful protests and promote womenâs rights in Yemen, becoming the first Yemeni, first Arab woman, and second Muslim woman to be awarded the prize."
+        ],
+        "confidence": "high",
+        "notes": "The Nobel Peace Prize is a one-time recognition without ongoing responsibilities."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the career position, making it difficult to determine the duration or timeline of the role."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 1
+    }
+  }
+}

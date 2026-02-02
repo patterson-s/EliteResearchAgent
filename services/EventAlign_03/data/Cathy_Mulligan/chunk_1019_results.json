@@ -1,0 +1,340 @@
+{
+  "status": "success",
+  "chunk_id": 1019,
+  "chunk_index": 3,
+  "source_url": "https://en.wikipedia.org/wiki/Carey_Mulligan",
+  "title": "Carey Mulligan - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2007",
+          "type": "point",
+          "quotes": [
+            "which won her the Constellation Award for Best Female Performance in a 2007 Science Fiction Television Episode."
+          ]
+        },
+        {
+          "text": "2007",
+          "type": "point",
+          "quotes": [
+            "She rounded out 2007 by appearing in an acclaimed stage revival of The Seagull"
+          ]
+        },
+        {
+          "text": "2008",
+          "type": "point",
+          "quotes": [
+            "For her debut Broadway performance in the 2008 American transfer of The Seagull"
+          ]
+        },
+        {
+          "text": "2009–2014",
+          "type": "range",
+          "quotes": [
+            "2009–2014: Breakthrough and rise to prominence"
+          ]
+        },
+        {
+          "text": "2009",
+          "type": "point",
+          "quotes": [
+            "Mulligan at a Q&A for her film An Education (2009)"
+          ]
+        },
+        {
+          "text": "2010",
+          "type": "point",
+          "quotes": [
+            "In 2010, she was invited to join the Academy of Motion Picture Arts and Sciences"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "The Guardian",
+          "quotes": [
+            "The Guardian called her performance 'quite extraordinarily radiant and frank.'"
+          ]
+        },
+        {
+          "name": "Drama Desk Award",
+          "quotes": [
+            "she was nominated for a Drama Desk Award, but lost to Angela Lansbury for Blithe Spirit."
+          ]
+        },
+        {
+          "name": "Academy Award",
+          "quotes": [
+            "she was nominated for an Academy Award, Screen Actors Guild, Golden Globe, Critics Choice and won a BAFTA Award."
+          ]
+        },
+        {
+          "name": "Screen Actors Guild",
+          "quotes": [
+            "she was nominated for an Academy Award, Screen Actors Guild, Golden Globe, Critics Choice and won a BAFTA Award."
+          ]
+        },
+        {
+          "name": "Golden Globe",
+          "quotes": [
+            "she was nominated for an Academy Award, Screen Actors Guild, Golden Globe, Critics Choice and won a BAFTA Award."
+          ]
+        },
+        {
+          "name": "Critics Choice",
+          "quotes": [
+            "she was nominated for an Academy Award, Screen Actors Guild, Golden Globe, Critics Choice and won a BAFTA Award."
+          ]
+        },
+        {
+          "name": "BAFTA Award",
+          "quotes": [
+            "she was nominated for an Academy Award, Screen Actors Guild, Golden Globe, Critics Choice and won a BAFTA Award."
+          ]
+        },
+        {
+          "name": "Entertainment Weekly",
+          "quotes": [
+            "Lisa Schwarzbaum of Entertainment Weekly and Todd McCarthy of Variety both compared her performance to that of Audrey Hepburn."
+          ]
+        },
+        {
+          "name": "Variety",
+          "quotes": [
+            "Lisa Schwarzbaum of Entertainment Weekly and Todd McCarthy of Variety both compared her performance to that of Audrey Hepburn."
+          ]
+        },
+        {
+          "name": "Rolling Stone",
+          "quotes": [
+            "Rolling Stone's Peter Travers described her as having given a 'sensational, starmaking performance,'"
+          ]
+        },
+        {
+          "name": "BAFTA Rising Star Award",
+          "quotes": [
+            "Mulligan received a nomination for the BAFTA Rising Star Award, which is voted on by the British public."
+          ]
+        },
+        {
+          "name": "Academy of Motion Picture Arts and Sciences",
+          "quotes": [
+            "In 2010, she was invited to join the Academy of Motion Picture Arts and Sciences"
+          ]
+        },
+        {
+          "name": "British Independent Award",
+          "quotes": [
+            "She won a British Independent Award for her performance."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Nina",
+          "quotes": [
+            "in which she played Nina alongside Kristin Scott Thomas and Chiwetel Ejiofor."
+          ]
+        },
+        {
+          "title": "Jenny",
+          "quotes": [
+            "she was cast in her first leading role as Jenny, a teenage school girl seduced by an older man in the 2009 independent coming of age film An Education."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Broadway",
+          "quotes": [
+            "For her debut Broadway performance in the 2008 American transfer of The Seagull"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "which won her the Constellation Award for Best Female Performance in a 2007 Science Fiction Television Episode."
+        ],
+        "confidence": "high",
+        "notes": "Clear award mention with specific year."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1,
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "She rounded out 2007 by appearing in an acclaimed stage revival of The Seagull",
+          "For her debut Broadway performance in the 2008 American transfer of The Seagull"
+        ],
+        "confidence": "high",
+        "notes": "Performance in The Seagull across 2007 and 2008, with specific mention of Broadway debut."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "2009–2014: Breakthrough and rise to prominence",
+          "she was cast in her first leading role as Jenny, a teenage school girl seduced by an older man in the 2009 independent coming of age film An Education."
+        ],
+        "confidence": "high",
+        "notes": "Breakthrough period with specific role mention in An Education."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [
+          11
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2010, she was invited to join the Academy of Motion Picture Arts and Sciences"
+        ],
+        "confidence": "medium",
+        "notes": "Invitation to join the Academy is an honorific membership, classified as an award."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "she was nominated for an Academy Award, Screen Actors Guild, Golden Globe, Critics Choice and won a BAFTA Award."
+        ],
+        "confidence": "high",
+        "notes": "Multiple award nominations and win, no specific time marker but clear award context."
+      },
+      {
+        "event_type": "award",
+        "organization_ids": [
+          10
+        ],
+        "time_marker_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Mulligan received a nomination for the BAFTA Rising Star Award, which is voted on by the British public."
+        ],
+        "confidence": "high",
+        "notes": "Clear award nomination mention."
+      },
+      {
+        "event_type": "award",
+        "organization_ids": [
+          12
+        ],
+        "time_marker_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "She won a British Independent Award for her performance."
+        ],
+        "confidence": "high",
+        "notes": "Clear award win mention."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and role details for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization details for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the award event."
+          }
+        ]
+      },
+      {
+        "event_id": 5,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 6,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 7,
+      "valid": 4,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 5
+    }
+  }
+}

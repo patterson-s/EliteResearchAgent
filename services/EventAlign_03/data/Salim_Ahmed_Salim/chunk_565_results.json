@@ -1,0 +1,261 @@
+{
+  "status": "success",
+  "chunk_id": 565,
+  "chunk_index": 65,
+  "source_url": "https://issafrica.s3.amazonaws.com/site/uploads/Book-2015-Salim.pdf",
+  "title": "Book-2015-Salim.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1993",
+          "type": "point",
+          "quotes": [
+            "Together with the Report on Fundamental Changes, the 1993 Cairo Declaration laid the foundation for the 1999 Sirté Declaration"
+          ]
+        },
+        {
+          "text": "1999",
+          "type": "point",
+          "quotes": [
+            "Together with the Report on Fundamental Changes, the 1993 Cairo Declaration laid the foundation for the 1999 Sirté Declaration"
+          ]
+        },
+        {
+          "text": "2002",
+          "type": "point",
+          "quotes": [
+            "In a paper he published in 2002, Salim says the creation of the new mechanism established as a result of the Cairo Declaration signified a shift"
+          ]
+        },
+        {
+          "text": "1990",
+          "type": "point",
+          "quotes": [
+            "The 1990 Report on Fundamental Changes was bold, in that it pointed to the need to accept sovereignty as a responsibility"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "OAU",
+          "quotes": [
+            "many member states of the OAU were experiencing violent conflict with dire economic, social and humanitarian implications."
+          ]
+        },
+        {
+          "name": "AU",
+          "quotes": [
+            "laid the foundation for the 1999 Sirté Declaration to establish the AU, speed up the implementation of an African Economic Community (AEC)"
+          ]
+        },
+        {
+          "name": "African Economic Community (AEC)",
+          "quotes": [
+            "establish the AU, speed up the implementation of an African Economic Community (AEC), establish a pan-African Parliament and other structures"
+          ]
+        },
+        {
+          "name": "AU Peace and Security Council",
+          "quotes": [
+            "including the AU Peace and Security Council, the African Standby Force, the Continental Early-Warning System and the Panel of the Wise."
+          ]
+        },
+        {
+          "name": "African Standby Force",
+          "quotes": [
+            "including the AU Peace and Security Council, the African Standby Force, the Continental Early-Warning System and the Panel of the Wise."
+          ]
+        },
+        {
+          "name": "Continental Early-Warning System",
+          "quotes": [
+            "including the AU Peace and Security Council, the African Standby Force, the Continental Early-Warning System and the Panel of the Wise."
+          ]
+        },
+        {
+          "name": "Panel of the Wise",
+          "quotes": [
+            "including the AU Peace and Security Council, the African Standby Force, the Continental Early-Warning System and the Panel of the Wise."
+          ]
+        },
+        {
+          "name": "United Nations",
+          "quotes": [
+            "‘It was a failure for Africa, the United Nations and humanity at large,’ he said."
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": [
+        {
+          "place": "Africa",
+          "quotes": [
+            "‘It was a failure for Africa, the United Nations and humanity at large,’ he said."
+          ]
+        },
+        {
+          "place": "Cairo",
+          "quotes": [
+            "Together with the Report on Fundamental Changes, the 1993 Cairo Declaration laid the foundation for the 1999 Sirté Declaration"
+          ]
+        },
+        {
+          "place": "Sirté",
+          "quotes": [
+            "Together with the Report on Fundamental Changes, the 1993 Cairo Declaration laid the foundation for the 1999 Sirté Declaration"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [
+          1,
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [
+          1,
+          2
+        ],
+        "supporting_quotes": [
+          "Together with the Report on Fundamental Changes, the 1993 Cairo Declaration laid the foundation for the 1999 Sirté Declaration to establish the AU, speed up the implementation of an African Economic Community (AEC)",
+          "establish the AU, speed up the implementation of an African Economic Community (AEC), establish a pan-African Parliament and other structures"
+        ],
+        "confidence": "medium",
+        "notes": "No specific roles mentioned, but the event involves the establishment of significant organizations and structures, implying active involvement."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The 1990 Report on Fundamental Changes was bold, in that it pointed to the need to accept sovereignty as a responsibility"
+        ],
+        "confidence": "low",
+        "notes": "No organization or role mentioned, only a report. Assumed to be a career-related activity due to the nature of the report."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In a paper he published in 2002, Salim says the creation of the new mechanism established as a result of the Cairo Declaration signified a shift"
+        ],
+        "confidence": "low",
+        "notes": "No organization or role mentioned, only a paper publication. Assumed to be a career-related activity due to the nature of the publication."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "including the AU Peace and Security Council, the African Standby Force, the Continental Early-Warning System and the Panel of the Wise."
+        ],
+        "confidence": "medium",
+        "notes": "No specific roles or time markers mentioned, but the event involves the establishment of significant structures within the AU, implying active involvement."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, making it unclear what specific position or responsibility was held."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quotes mention the establishment of organizations but do not explicitly state the individual's role or involvement."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "error",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization and role information, making it impossible to verify the career position."
+          },
+          {
+            "type": "classification",
+            "severity": "medium",
+            "description": "Event classified as career_position but lacks evidence of active responsibilities or a specific role."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "error",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization and role information, making it impossible to verify the career position."
+          },
+          {
+            "type": "classification",
+            "severity": "medium",
+            "description": "Event classified as career_position but lacks evidence of active responsibilities or a specific role."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role and time marker information, making it unclear when and in what capacity the individual was involved."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quotes mention the establishment of structures but do not explicitly state the individual's role or involvement."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 2,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

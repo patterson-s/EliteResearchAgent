@@ -1,0 +1,265 @@
+{
+  "status": "success",
+  "chunk_id": 756,
+  "chunk_index": 7,
+  "source_url": "https://ae.linkedin.com/in/mohammedalgergawi",
+  "title": "‏Mohammad Al Gergawi‏ - ‏وزير شؤون مجلس الوزراء بدولة الإمارات العربية المتحدة • UAE Minister of Cabinet Affairs‏ | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Masari Association",
+          "quotes": [
+            "We are proud to announce the signing of a Memorandum of Understanding between Masari Association in the Kingdom of Bahrain and the New Jersey Economic Development Authority (NJEDA)"
+          ]
+        },
+        {
+          "name": "New Jersey Economic Development Authority (NJEDA)",
+          "quotes": [
+            "We are proud to announce the signing of a Memorandum of Understanding between Masari Association in the Kingdom of Bahrain and the New Jersey Economic Development Authority (NJEDA)"
+          ]
+        },
+        {
+          "name": "Ministry of Youth",
+          "quotes": [
+            "Deena Al-Khalifa, Ministry of Youth"
+          ]
+        },
+        {
+          "name": "Digital Cooperation Organization (DCO)",
+          "quotes": [
+            "in collaboration with Digital Cooperation Organization (DCO) and Accenture Middle East as knowledge partners.",
+            "Digital Cooperation Organization (DCO)"
+          ]
+        },
+        {
+          "name": "Accenture Middle East",
+          "quotes": [
+            "in collaboration with Digital Cooperation Organization (DCO) and Accenture Middle East as knowledge partners."
+          ]
+        },
+        {
+          "name": "United Nations Office",
+          "quotes": [
+            "The United Nations Office"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Minister of Youth Affairs",
+          "quotes": [
+            "witnessed by H.E. Rawan Tawfeeqi, Bahrain’s Minister of Youth Affairs"
+          ]
+        },
+        {
+          "title": "Governor",
+          "quotes": [
+            "H.E. Governor Phil Murphy, Governor of the State of New Jersey"
+          ]
+        },
+        {
+          "title": "Chairman of Masari",
+          "quotes": [
+            "signed by Mr. Bassam Abdulrahman Al Tattan, Chairman of Masari"
+          ]
+        },
+        {
+          "title": "CEO of NJEDA",
+          "quotes": [
+            "signed by Mr. Tim Sullivan, CEO of NJEDA"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Kingdom of Bahrain",
+          "quotes": [
+            "Masari Association in the Kingdom of Bahrain and the New Jersey Economic Development Authority (NJEDA)"
+          ]
+        },
+        {
+          "place": "New Jersey",
+          "quotes": [
+            "Masari Association in the Kingdom of Bahrain and the New Jersey Economic Development Authority (NJEDA)",
+            "training opportunities for Bahraini youth in New Jersey"
+          ]
+        },
+        {
+          "place": "Jordan",
+          "quotes": [
+            "launched at the DCO 4th General Assembly in Jordan"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [
+          2,
+          3
+        ],
+        "location_ids": [
+          0,
+          1
+        ],
+        "supporting_quotes": [
+          "We are proud to announce the signing of a Memorandum of Understanding between Masari Association in the Kingdom of Bahrain and the New Jersey Economic Development Authority (NJEDA)",
+          "signed by Mr. Bassam Abdulrahman Al Tattan, Chairman of Masari",
+          "signed by Mr. Tim Sullivan, CEO of NJEDA",
+          "Masari Association in the Kingdom of Bahrain and the New Jersey Economic Development Authority (NJEDA)"
+        ],
+        "confidence": "high",
+        "notes": "Event represents the signing of a Memorandum of Understanding between Masari Association and NJEDA, involving their respective leaders."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Deena Al-Khalifa, Ministry of Youth",
+          "witnessed by H.E. Rawan Tawfeeqi, Bahrain’s Minister of Youth Affairs"
+        ],
+        "confidence": "medium",
+        "notes": "Event represents the involvement of the Ministry of Youth and the Minister of Youth Affairs in the Kingdom of Bahrain, though the exact nature of the event is unclear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3,
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "in collaboration with Digital Cooperation Organization (DCO) and Accenture Middle East as knowledge partners.",
+          "launched at the DCO 4th General Assembly in Jordan"
+        ],
+        "confidence": "medium",
+        "notes": "Event represents a collaboration between DCO and Accenture Middle East, though specific roles are not mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "H.E. Governor Phil Murphy, Governor of the State of New Jersey",
+          "training opportunities for Bahraini youth in New Jersey"
+        ],
+        "confidence": "high",
+        "notes": "Event represents the involvement of the Governor of New Jersey in providing training opportunities for Bahraini youth."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as 'career_position' but appears to describe an organizational agreement rather than an individual's role."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers for the event."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "medium",
+            "description": "Event classified as 'career_position' but lacks clear role or responsibility for the individual mentioned."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers for the event."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "medium",
+            "description": "Event classified as 'career_position' but describes an organizational collaboration without individual roles."
+          },
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing role_ids for the event, making it unclear who is involved in what capacity."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers for the event."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as 'career_position' but appears to describe a governmental initiative rather than an individual's role."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers for the event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 0,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

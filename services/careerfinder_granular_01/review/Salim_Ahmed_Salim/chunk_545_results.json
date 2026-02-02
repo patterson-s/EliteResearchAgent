@@ -1,0 +1,218 @@
+{
+  "status": "success",
+  "chunk_id": 545,
+  "chunk_index": 45,
+  "source_url": "https://issafrica.s3.amazonaws.com/site/uploads/Book-2015-Salim.pdf",
+  "title": "Book-2015-Salim.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "in 1953",
+          "type": "point",
+          "quotes": [
+            "the UN had approved Puerto Rico’s association with the US in 1953 by removing it from the list of non-self-governing states and acknowledging the country as a commonwealth state"
+          ]
+        },
+        {
+          "text": "in 1972",
+          "type": "point",
+          "quotes": [
+            "For instance, in 1972, in response to the continued denial by the Portuguese colonial government over the existence of the liberated areas in Guinea-Bissau, the committee decided to dispatch a team to the territory"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "UN Special Mission to Observe the Act of Self-Determination",
+          "quotes": [
+            "However, while leading the UN Special Mission to Observe the Act of Self-Determination in Niue, Salim and other advocates of self-determination realised that the concept could mean outcomes other than solely independence."
+          ]
+        },
+        {
+          "name": "UN",
+          "quotes": [
+            "The people of Niue asked the UN delegation led by Salim to negotiate on their behalf to be recognised as a New Zealand entity, instead of demanding full state independence."
+          ]
+        },
+        {
+          "name": "UNGA",
+          "quotes": [
+            "UNGA Resolution 3285 was consequently adopted, recognising the right of Niue to self-governance, but with economic and administrative support from the New Zealand government."
+          ]
+        },
+        {
+          "name": "Special Committee on Decolonization",
+          "quotes": [
+            "Similarly, the Special Committee on Decolonization supported the initial attempts for Puerto Rico’s bid for self-determination by reconsidering its status as a decolonised state, despite non-cooperation from the US, which maintained that Puerto Rico had already been decolonised and was part of the US ‘commonwealth’."
+          ]
+        },
+        {
+          "name": "US",
+          "quotes": [
+            "Although the UN had approved Puerto Rico’s association with the US in 1953 by removing it from the list of non-self-governing states and acknowledging the country as a commonwealth state, the Special Committee on Decolonization set a precedent"
+          ]
+        },
+        {
+          "name": "Portuguese colonial government",
+          "quotes": [
+            "in response to the continued denial by the Portuguese colonial government over the existence of the liberated areas in Guinea-Bissau, the committee decided to dispatch a team to the territory"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "chairman of the Special Committee on Decolonization",
+          "quotes": [
+            "As chairman of the Special Committee on Decolonization, Salim, together with his colleagues, employed innovative strategies and took initiatives that would contribute to the liberation of people oppressed by colonial rule."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Niue",
+          "quotes": [
+            "However, while leading the UN Special Mission to Observe the Act of Self-Determination in Niue, Salim and other advocates of self-determination realised that the concept could mean outcomes other than solely independence."
+          ]
+        },
+        {
+          "place": "New Zealand",
+          "quotes": [
+            "The people of Niue asked the UN delegation led by Salim to negotiate on their behalf to be recognised as a New Zealand entity, instead of demanding full state independence."
+          ]
+        },
+        {
+          "place": "Caribbean",
+          "quotes": [
+            "This resolution, however, only applied to the smaller colonised islands of the Caribbean and South Pacific."
+          ]
+        },
+        {
+          "place": "South Pacific",
+          "quotes": [
+            "This resolution, however, only applied to the smaller colonised islands of the Caribbean and South Pacific."
+          ]
+        },
+        {
+          "place": "Puerto Rico",
+          "quotes": [
+            "Similarly, the Special Committee on Decolonization supported the initial attempts for Puerto Rico’s bid for self-determination by reconsidering its status as a decolonised state, despite non-cooperation from the US, which maintained that Puerto Rico had already been decolonised and was part of the US ‘commonwealth’."
+          ]
+        },
+        {
+          "place": "Guinea-Bissau",
+          "quotes": [
+            "For instance, in 1972, in response to the continued denial by the Portuguese colonial government over the existence of the liberated areas in Guinea-Bissau, the committee decided to dispatch a team to the territory"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "As chairman of the Special Committee on Decolonization, Salim, together with his colleagues, employed innovative strategies and took initiatives that would contribute to the liberation of people oppressed by colonial rule."
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker, but role and organization are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "However, while leading the UN Special Mission to Observe the Act of Self-Determination in Niue, Salim and other advocates of self-determination realised that the concept could mean outcomes other than solely independence."
+        ],
+        "confidence": "high",
+        "notes": "Salim led the UN Special Mission in Niue, indicating an active role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [
+          5
+        ],
+        "supporting_quotes": [
+          "For instance, in 1972, in response to the continued denial by the Portuguese colonial government over the existence of the liberated areas in Guinea-Bissau, the committee decided to dispatch a team to the territory"
+        ],
+        "confidence": "medium",
+        "notes": "The committee's decision to dispatch a team suggests an active role, but the specific role of Salim is not mentioned."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the event, making it difficult to place in a timeline."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, though the event is described as leading a mission, which implies an active role."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "quote_support",
+            "severity": "medium",
+            "description": "The quote mentions the committee's decision but does not explicitly state Salim's role in the 1972 event."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, making it unclear what Salim's specific involvement was."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

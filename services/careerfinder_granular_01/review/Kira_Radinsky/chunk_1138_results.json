@@ -1,0 +1,129 @@
+{
+  "status": "success",
+  "chunk_id": 1138,
+  "chunk_index": 7,
+  "source_url": "https://www.linkedin.com/in/kira-radinsky",
+  "title": "Kira Radinsky - Diagnostic Robotics | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "story coming in ~2 weeks",
+          "type": "point",
+          "quotes": [
+            "K-Dense Analyst is part of our larger K-Dense platform that can autonomously do original PhD-level research (story coming in ~2 weeks), tackle real drug discovery workflows (story coming next month) and a lot more coming in the next few months."
+          ]
+        },
+        {
+          "text": "story coming next month",
+          "type": "point",
+          "quotes": [
+            "K-Dense Analyst is part of our larger K-Dense platform that can autonomously do original PhD-level research (story coming in ~2 weeks), tackle real drug discovery workflows (story coming next month) and a lot more coming in the next few months."
+          ]
+        },
+        {
+          "text": "next few months",
+          "type": "open",
+          "quotes": [
+            "K-Dense Analyst is part of our larger K-Dense platform that can autonomously do original PhD-level research (story coming in ~2 weeks), tackle real drug discovery workflows (story coming next month) and a lot more coming in the next few months."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Biostate AI",
+          "quotes": [
+            "Built by 3 engineers split between Biostate AI Palo Alto and Bangalore offices."
+          ]
+        },
+        {
+          "name": "FutureHouse",
+          "quotes": [
+            "We built a Multi-agent system (K-Dense Analyst) that just beat GPT-5 on BixBench (the open-ended biological analysis benchmark from FutureHouse), achieving 29.2% vs GPT-5's 22.9%."
+          ]
+        },
+        {
+          "name": "Google",
+          "quotes": [
+            "Simple, let's just say that betting against #Google right now would be... unwise."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "engineers",
+          "quotes": [
+            "Built by 3 engineers split between Biostate AI Palo Alto and Bangalore offices."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Palo Alto",
+          "quotes": [
+            "Built by 3 engineers split between Biostate AI Palo Alto and Bangalore offices."
+          ]
+        },
+        {
+          "place": "Bangalore",
+          "quotes": [
+            "Built by 3 engineers split between Biostate AI Palo Alto and Bangalore offices."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0,
+          1
+        ],
+        "supporting_quotes": [
+          "Built by 3 engineers split between Biostate AI Palo Alto and Bangalore offices."
+        ],
+        "confidence": "high",
+        "notes": "No explicit time markers, but the role and organization are clearly linked."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the career position event."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quote does not explicitly mention the role or responsibilities of the engineers, only their locations and organization."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

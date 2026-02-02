@@ -1,0 +1,220 @@
+{
+  "status": "success",
+  "chunk_id": 762,
+  "chunk_index": 2,
+  "source_url": "https://www.aucegypt.edu/media/media-releases/auc-honors-mohammad-al-gergawi-uae-minister-cabinet-affairs-global-fellow",
+  "title": "AUC Honors Mohammad Al Gergawi, UAE Minister Of Cabinet Affairs With the Global Fellow Award | The American University in Cairo",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "Founded in 1919",
+          "type": "point",
+          "quotes": [
+            "Founded in 1919, The American University in Cairo (AUC) is a leading English-language, American-accredited institution of higher education and center of the intellectual, social, and cultural life of the Arab world."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Georgetown University",
+          "quotes": [
+            "an honorary doctorate in government administration from Georgetown University"
+          ]
+        },
+        {
+          "name": "ESCP Business School",
+          "quotes": [
+            "an honorary doctorate in government administration and future strategies from ESCP Business School in Paris"
+          ]
+        },
+        {
+          "name": "London Business School (LBS)",
+          "quotes": [
+            "an Honorary Fellowship of the London Business School (LBS)"
+          ]
+        },
+        {
+          "name": "The American University in Cairo (AUC)",
+          "quotes": [
+            "Founded in 1919, The American University in Cairo (AUC) is a leading English-language, American-accredited institution of higher education and center of the intellectual, social, and cultural life of the Arab world."
+          ]
+        },
+        {
+          "name": "Facebook",
+          "quotes": [
+            "For more information about the university news and events follow us on Facebook"
+          ]
+        },
+        {
+          "name": "Instagram",
+          "quotes": [
+            "For more information about the university news and events follow us on Instagram"
+          ]
+        },
+        {
+          "name": "LinkedIn",
+          "quotes": [
+            "For more information about the university news and events follow us on LinkedIn"
+          ]
+        },
+        {
+          "name": "YouTube",
+          "quotes": [
+            "For more information about the university news and events follow us on YouTube"
+          ]
+        },
+        {
+          "name": "X",
+          "quotes": [
+            "For more information about the university news and events follow us on X"
+          ]
+        },
+        {
+          "name": "TikTok",
+          "quotes": [
+            "For more information about the university news and events follow us on TikTok"
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": [
+        {
+          "place": "Paris",
+          "quotes": [
+            "an honorary doctorate in government administration and future strategies from ESCP Business School in Paris"
+          ]
+        },
+        {
+          "place": "Egypt",
+          "quotes": [
+            "It is a vital bridge between East and West, linking Egypt and the region to the world through scholarly research, partnerships with academic and research institutions and study abroad programs."
+          ]
+        },
+        {
+          "place": "Cairo",
+          "quotes": [
+            "Founded in 1919, The American University in Cairo (AUC) is a leading English-language, American-accredited institution of higher education and center of the intellectual, social, and cultural life of the Arab world."
+          ]
+        },
+        {
+          "place": "United States of America",
+          "quotes": [
+            "Al Gergawi holds a bachelor’s degree from the United States of America."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "an honorary doctorate in government administration from Georgetown University"
+        ],
+        "confidence": "high",
+        "notes": "Clearly an honorary degree with no associated role or responsibilities."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "an honorary doctorate in government administration and future strategies from ESCP Business School in Paris"
+        ],
+        "confidence": "high",
+        "notes": "Clearly an honorary degree with no associated role or responsibilities."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "an Honorary Fellowship of the London Business School (LBS)"
+        ],
+        "confidence": "high",
+        "notes": "Clearly an honorary fellowship with no associated role or responsibilities."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "Founded in 1919, The American University in Cairo (AUC) is a leading English-language, American-accredited institution of higher education and center of the intellectual, social, and cultural life of the Arab world."
+        ],
+        "confidence": "medium",
+        "notes": "While no specific role is mentioned, the context suggests an institutional founding event, which is typically associated with a career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position but lacks specific role or responsibilities, though context suggests institutional founding."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, which is typically expected for career_position events."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 3,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 3
+    }
+  }
+}

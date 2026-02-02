@@ -1,0 +1,181 @@
+{
+  "status": "success",
+  "chunk_id": 3921,
+  "chunk_index": 2,
+  "source_url": "https://www.taas-online.or.tz/members/view/h.e-william-benjamin-mkapa",
+  "title": "H.E. William Benjamin Mkapa | Tanzania Academy of Sciences (TAAS)",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "in 1996",
+          "type": "point",
+          "quotes": [
+            "The late Mkapa, in 1996, created a Presidential Commission to investigate corruption in the country under the leadership of the retired Prime minister, Hon. Joseph Sinde Warioba."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Presidential Commission",
+          "quotes": [
+            "The late Mkapa, in 1996, created a Presidential Commission to investigate corruption in the country under the leadership of the retired Prime minister, Hon. Joseph Sinde Warioba."
+          ]
+        },
+        {
+          "name": "Anti-Corruption Institution",
+          "quotes": [
+            "The outcome of the Commission did, to a great extent, re-enforced the war against corruption in the country leading to the creation of the Anti-Corruption Institution in the country."
+          ]
+        },
+        {
+          "name": "National Business Council – NBC",
+          "quotes": [
+            "He introduced a system of dialogue between the Government and the Private Sector where he personally oversaw through the National Business Council – NBC."
+          ]
+        },
+        {
+          "name": "National Health Insurance Fund (Mfuko wa Bima Taifa)",
+          "quotes": [
+            "The National Health Insurance Fund (\nMfuko wa Bima Taifa\n)"
+          ]
+        },
+        {
+          "name": "Tanzania Revenue Authority (TRA) (Mamlaka ya Mapato Tanzania)",
+          "quotes": [
+            "Tanzania Revenue Authority (TRA) (\nMamlaka  ya Mapato\nTanzania)"
+          ]
+        },
+        {
+          "name": "Tanzania National Roads Agency (TANROADS) (Wakala wa Barabara Tanzania)",
+          "quotes": [
+            "Tanzania National  Roads Agency (TANROADS) (\nWakala wa\nBarabara\nTanzania)"
+          ]
+        },
+        {
+          "name": "Tanzania Social Support Fund (TASAF) (Mfuko wa Jamii)",
+          "quotes": [
+            "Tanzania Social Support Fund (TASAF) (\nMfuko wa Jamii\n)"
+          ]
+        },
+        {
+          "name": "Tanzania Commission for AIDs (TACAIDS) (Tume ya Kupambana na Ugonjwa wa Ukimwi)",
+          "quotes": [
+            "Tanzania  Commission  for  AIDs (TACAIDS)  (\nTume  ya\nKupambana na Ugonjwa wa Ukimwi\n)."
+          ]
+        },
+        {
+          "name": "Tanzania Poverty Reduction Strategy (MKUKUTA) (Mkakati wa Kuondoa Umaskini na Kukuza Uchumi Tanzania)",
+          "quotes": [
+            "Tanzania Poverty Reduction Strategy (MKUKUTA) (\nMkakati wa Kuondoa Umaskini na Kukuza Uchumi Tanzania\n)."
+          ]
+        },
+        {
+          "name": "Property and Business Formalization Program (BFFP) (Mpango wa Kuimarisha Raslimali na Biashara (MKURABITA)",
+          "quotes": [
+            "Property  and  Business Formalization  Program  (BFFP) (\nMpango wa Kuimarisha Raslimali na Biashara\n(MKURABITA)."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "President",
+          "quotes": [
+            "After his presidential ascendancy, he vigorously began to adjust the economy by introducing reforms in the Government in order to solve the challenges which prevailed then."
+          ]
+        },
+        {
+          "title": "retired Prime minister",
+          "quotes": [
+            "The late Mkapa, in 1996, created a Presidential Commission to investigate corruption in the country under the leadership of the retired Prime minister, Hon. Joseph Sinde Warioba."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Tanzania",
+          "quotes": [
+            "He established very good rapport at international level which enabled Tanzania to get unflinching support from the world over including that of big nations like China and Russia."
+          ]
+        },
+        {
+          "place": "Southern African countries",
+          "quotes": [
+            "The late Benjamin William Mkapa was highly respected in Southern African countries for his grand contributions he made during the liberation struggle under the leadership of Mwalimu Julius Kambarage Nyerere."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The late Mkapa, in 1996, created a Presidential Commission to investigate corruption in the country under the leadership of the retired Prime minister, Hon. Joseph Sinde Warioba."
+        ],
+        "confidence": "high",
+        "notes": "Direct linkage between time marker, organization, and role in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "After his presidential ascendancy, he vigorously began to adjust the economy by introducing reforms in the Government in order to solve the challenges which prevailed then.",
+          "He introduced a system of dialogue between the Government and the Private Sector where he personally oversaw through the National Business Council – NBC."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time marker, but role and organization are clearly linked through the President's actions in Tanzania."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

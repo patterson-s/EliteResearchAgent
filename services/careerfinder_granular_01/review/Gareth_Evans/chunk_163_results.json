@@ -1,0 +1,289 @@
+{
+  "status": "success",
+  "chunk_id": 163,
+  "chunk_index": 0,
+  "source_url": "https://en.wikipedia.org/wiki/Gareth_Evans_(politician)",
+  "title": "Gareth Evans (politician) - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1 January 2010 – 1 January 2020",
+          "type": "range",
+          "quotes": [
+            "Chancellor of Australian National University, In office, 1 January 2010 – 1 January 2020"
+          ]
+        },
+        {
+          "text": "19 March 1996 – 19 October 1998",
+          "type": "range",
+          "quotes": [
+            "Deputy Leader of the Opposition, In office, 19 March 1996 – 19 October 1998",
+            "Deputy Leader of the Labor Party, In office, 19 March 1996 – 19 October 1998"
+          ]
+        },
+        {
+          "text": "24 March 1993 – 11 March 1996",
+          "type": "range",
+          "quotes": [
+            "Leader of the Government in the Senate, In office, 24 March 1993 – 11 March 1996"
+          ]
+        },
+        {
+          "text": "2 September 1988 – 11 March 1996",
+          "type": "range",
+          "quotes": [
+            "Minister for Foreign Affairs, In office, 2 September 1988 – 11 March 1996"
+          ]
+        },
+        {
+          "text": "24 July 1987 – 2 September 1988",
+          "type": "range",
+          "quotes": [
+            "Minister for Transport and Communications, In office, 24 July 1987 – 2 September 1988"
+          ]
+        },
+        {
+          "text": "13 December 1984 – 24 July 1987",
+          "type": "range",
+          "quotes": [
+            "Minister for Resources and Energy, In office, 13 December 1984 – 24 July 1987"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Australian National University",
+          "quotes": [
+            "Chancellor of Australian National University, In office, 1 January 2010 – 1 January 2020"
+          ]
+        },
+        {
+          "name": "Labor Party",
+          "quotes": [
+            "Deputy Leader of the Labor Party, In office, 19 March 1996 – 19 October 1998"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Chancellor",
+          "quotes": [
+            "Chancellor of Australian National University, In office, 1 January 2010 – 1 January 2020"
+          ]
+        },
+        {
+          "title": "Deputy Leader of the Opposition",
+          "quotes": [
+            "Deputy Leader of the Opposition, In office, 19 March 1996 – 19 October 1998"
+          ]
+        },
+        {
+          "title": "Deputy Leader of the Labor Party",
+          "quotes": [
+            "Deputy Leader of the Labor Party, In office, 19 March 1996 – 19 October 1998"
+          ]
+        },
+        {
+          "title": "Leader of the Government in the Senate",
+          "quotes": [
+            "Leader of the Government in the Senate, In office, 24 March 1993 – 11 March 1996"
+          ]
+        },
+        {
+          "title": "Minister for Foreign Affairs",
+          "quotes": [
+            "Minister for Foreign Affairs, In office, 2 September 1988 – 11 March 1996"
+          ]
+        },
+        {
+          "title": "Minister for Transport and Communications",
+          "quotes": [
+            "Minister for Transport and Communications, In office, 24 July 1987 – 2 September 1988"
+          ]
+        },
+        {
+          "title": "Minister for Resources and Energy",
+          "quotes": [
+            "Minister for Resources and Energy, In office, 13 December 1984 – 24 July 1987"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Chancellor of Australian National University, In office, 1 January 2010 – 1 January 2020"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1,
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Deputy Leader of the Opposition, In office, 19 March 1996 – 19 October 1998",
+          "Deputy Leader of the Labor Party, In office, 19 March 1996 – 19 October 1998"
+        ],
+        "confidence": "high",
+        "notes": "Both roles are held simultaneously within the same time frame and organization."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Leader of the Government in the Senate, In office, 24 March 1993 – 11 March 1996"
+        ],
+        "confidence": "high",
+        "notes": "No organization mentioned, but role and time are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Minister for Foreign Affairs, In office, 2 September 1988 – 11 March 1996"
+        ],
+        "confidence": "high",
+        "notes": "No organization mentioned, but role and time are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          5
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Minister for Transport and Communications, In office, 24 July 1987 – 2 September 1988"
+        ],
+        "confidence": "high",
+        "notes": "No organization mentioned, but role and time are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          6
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Minister for Resources and Energy, In office, 13 December 1984 – 24 July 1987"
+        ],
+        "confidence": "high",
+        "notes": "No organization mentioned, but role and time are clear."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the role 'Leader of the Government in the Senate'."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the role 'Minister for Foreign Affairs'."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the role 'Minister for Transport and Communications'."
+          }
+        ]
+      },
+      {
+        "event_id": 5,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the role 'Minister for Resources and Energy'."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 6,
+      "valid": 2,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 6,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,262 @@
+{
+  "status": "success",
+  "chunk_id": 3940,
+  "chunk_index": 1,
+  "source_url": "https://www.mccaininstitute.org/about/leadership/josette-sheeran/",
+  "title": "Ambassador Josette Sheeran: Founder and CEO of Firefly Global Group | McCain Institute",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "World Bank",
+          "quotes": [
+            "alternative delegate to the World Bank and IMF; UN AIDS; the Mars Family Advisory Council and Royal DSM Sustainability Council."
+          ]
+        },
+        {
+          "name": "IMF",
+          "quotes": [
+            "alternative delegate to the World Bank and IMF; UN AIDS; the Mars Family Advisory Council and Royal DSM Sustainability Council."
+          ]
+        },
+        {
+          "name": "UN AIDS",
+          "quotes": [
+            "alternative delegate to the World Bank and IMF; UN AIDS; the Mars Family Advisory Council and Royal DSM Sustainability Council."
+          ]
+        },
+        {
+          "name": "Mars Family Advisory Council",
+          "quotes": [
+            "alternative delegate to the World Bank and IMF; UN AIDS; the Mars Family Advisory Council and Royal DSM Sustainability Council."
+          ]
+        },
+        {
+          "name": "Royal DSM Sustainability Council",
+          "quotes": [
+            "alternative delegate to the World Bank and IMF; UN AIDS; the Mars Family Advisory Council and Royal DSM Sustainability Council."
+          ]
+        },
+        {
+          "name": "Asia Society",
+          "quotes": [
+            "She also served as the President and CEO of the Asia Society, a Rockefeller institution founded during WWII to prevent war through negotiation, policy, conflict resolution, culture, and education."
+          ]
+        },
+        {
+          "name": "Harvard University’s Kennedy School",
+          "quotes": [
+            "She served as a Harvard University’s Kennedy School fellow and taught a graduate program on negotiating the global commons - food, energy and water."
+          ]
+        },
+        {
+          "name": "Arizona State University",
+          "quotes": [
+            "She has served as Professor of Practice at Arizona State University."
+          ]
+        },
+        {
+          "name": "Foreign Policy",
+          "quotes": [
+            "She has been recognized in the world’s Top 100 Twitterati by Foreign Policy and received the Huffington Post Changemaker Award."
+          ]
+        },
+        {
+          "name": "Huffington Post",
+          "quotes": [
+            "She has been recognized in the world’s Top 100 Twitterati by Foreign Policy and received the Huffington Post Changemaker Award."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "alternative delegate",
+          "quotes": [
+            "alternative delegate to the World Bank and IMF; UN AIDS; the Mars Family Advisory Council and Royal DSM Sustainability Council."
+          ]
+        },
+        {
+          "title": "President and CEO of the Asia Society",
+          "quotes": [
+            "She also served as the President and CEO of the Asia Society, a Rockefeller institution founded during WWII to prevent war through negotiation, policy, conflict resolution, culture, and education."
+          ]
+        },
+        {
+          "title": "Harvard University’s Kennedy School fellow",
+          "quotes": [
+            "She served as a Harvard University’s Kennedy School fellow and taught a graduate program on negotiating the global commons - food, energy and water."
+          ]
+        },
+        {
+          "title": "Professor of Practice",
+          "quotes": [
+            "She has served as Professor of Practice at Arizona State University."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "alternative delegate to the World Bank and IMF; UN AIDS; the Mars Family Advisory Council and Royal DSM Sustainability Council."
+        ],
+        "confidence": "high",
+        "notes": "Multiple organizations and a clear role mentioned in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "She also served as the President and CEO of the Asia Society, a Rockefeller institution founded during WWII to prevent war through negotiation, policy, conflict resolution, culture, and education."
+        ],
+        "confidence": "high",
+        "notes": "Clear role and organization mentioned in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          6
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "She served as a Harvard University’s Kennedy School fellow and taught a graduate program on negotiating the global commons - food, energy and water."
+        ],
+        "confidence": "high",
+        "notes": "Clear role and organization mentioned in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          7
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "She has served as Professor of Practice at Arizona State University."
+        ],
+        "confidence": "high",
+        "notes": "Clear role and organization mentioned in the same quote."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          8,
+          9
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "She has been recognized in the world’s Top 100 Twitterati by Foreign Policy and received the Huffington Post Changemaker Award."
+        ],
+        "confidence": "high",
+        "notes": "Clear recognition and award mentioned in the same quote."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Multiple organizations linked to a single role; verify if this is a single position or multiple concurrent roles."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for award."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 0,
+      "warnings": 5,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 1
+    }
+  }
+}

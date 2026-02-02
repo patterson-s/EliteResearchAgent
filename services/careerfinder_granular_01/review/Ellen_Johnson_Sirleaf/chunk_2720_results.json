@@ -1,0 +1,169 @@
+{
+  "status": "success",
+  "chunk_id": 2720,
+  "chunk_index": 1,
+  "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10722368/",
+  "title": "Searching for Meaning in the Life of Ellen Johnson-Sirleaf: A Call to Meaningful Responses to Tragedies - PMC",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "between 1938 and 2005",
+          "type": "range",
+          "quotes": [
+            "The study focused on the period between 1938 and 2005."
+          ]
+        },
+        {
+          "text": "1938 to 2005",
+          "type": "range",
+          "quotes": [
+            "The present psychobiography focuses on a period between 1938 to 2005."
+          ]
+        },
+        {
+          "text": "2006",
+          "type": "point",
+          "quotes": [
+            "culminating in her becoming the president of Liberia in 2006."
+          ]
+        },
+        {
+          "text": "2007",
+          "type": "point",
+          "quotes": [
+            "She has received numerous accolades, including the Presidential Medal of Freedom (the United States’ highest civilian award) in 2007,"
+          ]
+        },
+        {
+          "text": "2011",
+          "type": "point",
+          "quotes": [
+            "the Nobel Prize for Peace in 2011, and the African Gender Award (2011)."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "African Center for Economic Transformation [ACET]",
+          "quotes": [
+            "Johnson-Sirleaf is one of the leading promoters of democratic rule, women empowerment, peace, justice, and freedom (African Center for Economic Transformation [ACET], 2022)."
+          ]
+        },
+        {
+          "name": "Wellesley College",
+          "quotes": [
+            "Johnson-Sirleaf is one of the leading promoters of democratic rule, women empowerment, peace, justice, and freedom (Wellesley College, 2019)."
+          ]
+        },
+        {
+          "name": "Forbes",
+          "quotes": [
+            "She has also been described as one of the most powerful women in Africa and one of the 100 most powerful women globally by Forbes (2011; 2012)."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "president of Liberia",
+          "quotes": [
+            "culminating in her becoming the president of Liberia in 2006."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Liberia",
+          "quotes": [
+            "culminating in her becoming the president of Liberia in 2006."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "culminating in her becoming the president of Liberia in 2006."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role, location, and time marker."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "She has received numerous accolades, including the Presidential Medal of Freedom (the United States’ highest civilian award) in 2007,"
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of a one-time award."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "the Nobel Prize for Peace in 2011, and the African Gender Award (2011)."
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of one-time awards."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 2,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 2
+    }
+  }
+}

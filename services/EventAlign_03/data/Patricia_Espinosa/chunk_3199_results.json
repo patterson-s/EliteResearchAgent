@@ -1,0 +1,204 @@
+{
+  "status": "success",
+  "chunk_id": 3199,
+  "chunk_index": 0,
+  "source_url": "https://www.rockefellerfoundation.org/profiles/patricia-espinosa/",
+  "title": "Patricia Espinosa | RF",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "United Nations Framework Convention on Climate Change",
+          "quotes": [
+            "Patricia Espinosa is a Mexican politician and diplomat, who has served as the Executive Secretary of the United Nations Framework Convention on Climate Change."
+          ]
+        },
+        {
+          "name": "cabinet of President Felipe Calderón",
+          "quotes": [
+            "Prior, she was Secretary of Foreign Affairs in the cabinet of President Felipe Calderón and Mexican Ambassador to Austria, Germany, Slovenia and Slovakia."
+          ]
+        },
+        {
+          "name": "High-Level Panel of Eminent Persons on the Post 2015 Development Agenda",
+          "quotes": [
+            "Named by the UN Secretary-General to the High-Level Panel of Eminent Persons on the Post 2015 Development Agenda, she is a tireless supporter of multilateralism as a way to improve conditions for development in all regions of the world."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Executive Secretary of the United Nations Framework Convention on Climate Change",
+          "quotes": [
+            "Patricia Espinosa is a Mexican politician and diplomat, who has served as the Executive Secretary of the United Nations Framework Convention on Climate Change."
+          ]
+        },
+        {
+          "title": "Secretary of Foreign Affairs",
+          "quotes": [
+            "Prior, she was Secretary of Foreign Affairs in the cabinet of President Felipe Calderón and Mexican Ambassador to Austria, Germany, Slovenia and Slovakia."
+          ]
+        },
+        {
+          "title": "Mexican Ambassador to Austria, Germany, Slovenia and Slovakia",
+          "quotes": [
+            "Prior, she was Secretary of Foreign Affairs in the cabinet of President Felipe Calderón and Mexican Ambassador to Austria, Germany, Slovenia and Slovakia."
+          ]
+        },
+        {
+          "title": "Chair of COP16",
+          "quotes": [
+            "As Mexico’s representative on multilateral bodies and international organizations in Vienna, Geneva and New York, she has led the global movement to address climate change, notably as Chair of COP16 leading to the adoption of the Cancun Agreements."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Vienna",
+          "quotes": [
+            "As Mexico’s representative on multilateral bodies and international organizations in Vienna, Geneva and New York, she has led the global movement to address climate change, notably as Chair of COP16 leading to the adoption of the Cancun Agreements."
+          ]
+        },
+        {
+          "place": "Geneva",
+          "quotes": [
+            "As Mexico’s representative on multilateral bodies and international organizations in Vienna, Geneva and New York, she has led the global movement to address climate change, notably as Chair of COP16 leading to the adoption of the Cancun Agreements."
+          ]
+        },
+        {
+          "place": "New York",
+          "quotes": [
+            "As Mexico’s representative on multilateral bodies and international organizations in Vienna, Geneva and New York, she has led the global movement to address climate change, notably as Chair of COP16 leading to the adoption of the Cancun Agreements."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Patricia Espinosa is a Mexican politician and diplomat, who has served as the Executive Secretary of the United Nations Framework Convention on Climate Change."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between organization and role in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1,
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Prior, she was Secretary of Foreign Affairs in the cabinet of President Felipe Calderón and Mexican Ambassador to Austria, Germany, Slovenia and Slovakia."
+        ],
+        "confidence": "high",
+        "notes": "Both roles are linked to the same organization and mentioned in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [
+          0,
+          1,
+          2
+        ],
+        "supporting_quotes": [
+          "As Mexico’s representative on multilateral bodies and international organizations in Vienna, Geneva and New York, she has led the global movement to address climate change, notably as Chair of COP16 leading to the adoption of the Cancun Agreements."
+        ],
+        "confidence": "high",
+        "notes": "Role is clearly linked to locations and implies active responsibilities."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Named by the UN Secretary-General to the High-Level Panel of Eminent Persons on the Post 2015 Development Agenda, she is a tireless supporter of multilateralism as a way to improve conditions for development in all regions of the world."
+        ],
+        "confidence": "medium",
+        "notes": "Organization is mentioned, but no specific role is provided. Assuming it is a career position based on context."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing organization for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role for career position."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 1,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

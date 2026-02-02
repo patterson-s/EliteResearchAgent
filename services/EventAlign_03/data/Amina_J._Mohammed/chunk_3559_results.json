@@ -1,0 +1,204 @@
+{
+  "status": "success",
+  "chunk_id": 3559,
+  "chunk_index": 6,
+  "source_url": "https://www.educationcannotwait.org/news-stories/featured-content/education-cannot-wait-interviews-amina-j-mohammed-deputy-secretary",
+  "title": "Education Cannot Wait Interviews Amina J. Mohammed, Deputy Secretary-general of the United Nations | Education Cannot Wait",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "75 years ago",
+          "type": "point",
+          "quotes": [
+            "how can all of the UN’s constituencies pro-actively and concretely provide unwavering support to realize the values and commitments made 75 years ago?"
+          ]
+        },
+        {
+          "text": "Monday 8 December 2025",
+          "type": "point",
+          "quotes": [
+            "Organized by Education Cannot Wait (ECW) Inter-agency Network for Education in Emergencies (INEE) United Nations Children's Fund (UNICEF) Monday 8 December 2025 –..."
+          ]
+        },
+        {
+          "text": "03 November 2025",
+          "type": "point",
+          "quotes": [
+            "Dr. David Edwards is the General Secretary of Education International, the voice of teachers and other education employees around the world. Through its... 03 November 2025"
+          ]
+        },
+        {
+          "text": "16 October 2025",
+          "type": "point",
+          "quotes": [
+            "16 October 2025, New York – Globally, 673 million people live in hunger today and, every year, 45 million girls and boys suffer..."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "UN",
+          "quotes": [
+            "how can all of the UN’s constituencies pro-actively and concretely provide unwavering support to realize the values and commitments made 75 years ago?",
+            "It is important that we utilize the comparative advantages of each UN entity and other partners for a strengthened, efficient, and comprehensive global response."
+          ]
+        },
+        {
+          "name": "UNICEF",
+          "quotes": [
+            "With UNICEF’s global field presence and education programming in 145 countries, and UNESCO’s network of specialized institutes and mandate to lead the global coordination of the achievement of the education related targets, the UN can utilize inter-sectoral approaches and tap into collective experience and practices from our expertise around the world.",
+            "Organized by Education Cannot Wait (ECW) Inter-agency Network for Education in Emergencies (INEE) United Nations Children's Fund (UNICEF) Monday 8 December 2025 –..."
+          ]
+        },
+        {
+          "name": "UNESCO",
+          "quotes": [
+            "With UNICEF’s global field presence and education programming in 145 countries, and UNESCO’s network of specialized institutes and mandate to lead the global coordination of the achievement of the education related targets, the UN can utilize inter-sectoral approaches and tap into collective experience and practices from our expertise around the world."
+          ]
+        },
+        {
+          "name": "Education Cannot Wait (ECW)",
+          "quotes": [
+            "Organized by Education Cannot Wait (ECW) Inter-agency Network for Education in Emergencies (INEE) United Nations Children's Fund (UNICEF) Monday 8 December 2025 –..."
+          ]
+        },
+        {
+          "name": "Inter-agency Network for Education in Emergencies (INEE)",
+          "quotes": [
+            "Organized by Education Cannot Wait (ECW) Inter-agency Network for Education in Emergencies (INEE) United Nations Children's Fund (UNICEF) Monday 8 December 2025 –..."
+          ]
+        },
+        {
+          "name": "Education International",
+          "quotes": [
+            "Dr. David Edwards is the General Secretary of Education International, the voice of teachers and other education employees around the world. Through its... 03 November 2025"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "General Secretary of Education International",
+          "quotes": [
+            "Dr. David Edwards is the General Secretary of Education International, the voice of teachers and other education employees around the world. Through its... 03 November 2025"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "New York",
+          "quotes": [
+            "16 October 2025, New York – Globally, 673 million people live in hunger today and, every year, 45 million girls and boys suffer..."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Dr. David Edwards is the General Secretary of Education International, the voice of teachers and other education employees around the world. Through its... 03 November 2025"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role, organization, and time marker."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "16 October 2025, New York – Globally, 673 million people live in hunger today and, every year, 45 million girls and boys suffer..."
+        ],
+        "confidence": "medium",
+        "notes": "No specific role or organization mentioned, but location and time marker are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          3,
+          4,
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Organized by Education Cannot Wait (ECW) Inter-agency Network for Education in Emergencies (INEE) United Nations Children's Fund (UNICEF) Monday 8 December 2025 –..."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between organizations and time marker, indicating an event or collaboration."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and role information, making it unclear what the career position entails."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position but lacks role and organization, which are typically required for this classification."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, making it unclear what the career position entails."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position but lacks role, which is typically required for this classification. This might be more accurately classified as an event or collaboration."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

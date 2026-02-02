@@ -1,0 +1,228 @@
+{
+  "status": "success",
+  "chunk_id": 659,
+  "chunk_index": 1,
+  "source_url": "https://www.linkedin.com/in/melindagates",
+  "title": "Melinda French Gates - Founder of Pivotal. Co-founder of the Gates Foundation. Author of The Moment of Lift & The Next Day. | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "Nov 12, 2025",
+          "type": "point",
+          "quotes": [
+            "What Action for Women’s Health Looks Like\nNov 12, 2025"
+          ]
+        },
+        {
+          "text": "Sep 10, 2025",
+          "type": "point",
+          "quotes": [
+            "It’s Time for Breakthroughs in Women’s Health. Women Have Waited Long Enough.\nSep 10, 2025"
+          ]
+        },
+        {
+          "text": "Aug 12, 2024",
+          "type": "point",
+          "quotes": [
+            "Navigating Change\nAug 12, 2024"
+          ]
+        },
+        {
+          "text": "Aug 6, 2024",
+          "type": "point",
+          "quotes": [
+            "What Billie Jean King and Megan Rapinoe Taught Me About Courage\nAug 6, 2024"
+          ]
+        },
+        {
+          "text": "Jul 30, 2024",
+          "type": "point",
+          "quotes": [
+            "I Turn 60 Next Month. Here’s How I Feel About Getting Older.\nJul 30, 2024"
+          ]
+        },
+        {
+          "text": "Jun 7, 2024",
+          "type": "point",
+          "quotes": [
+            "To my foundation colleagues and alumni\nJun 7, 2024"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Pivotal Ventures",
+          "quotes": [
+            "Pivotal Ventures\nDuke University - The Fuqua School of Business",
+            "Wellcome Leap and Pivotal are committing $100 million to deliver women’s health breakthroughs in years, not decades—and…"
+          ]
+        },
+        {
+          "name": "Duke University - The Fuqua School of Business",
+          "quotes": [
+            "Pivotal Ventures\nDuke University - The Fuqua School of Business"
+          ]
+        },
+        {
+          "name": "Gates Foundation",
+          "quotes": [
+            "Founder of Pivotal. Co-founder of the Gates Foundation.",
+            "I stepped down from the foundation I co-founded and led for…"
+          ]
+        },
+        {
+          "name": "Wellcome Leap",
+          "quotes": [
+            "Wellcome Leap and Pivotal are committing $100 million to deliver women’s health breakthroughs in years, not decades—and…"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Philanthropist",
+          "quotes": [
+            "Philanthropist, businesswoman, author, and global advocate for women & girls."
+          ]
+        },
+        {
+          "title": "businesswoman",
+          "quotes": [
+            "Philanthropist, businesswoman, author, and global advocate for women & girls."
+          ]
+        },
+        {
+          "title": "author",
+          "quotes": [
+            "Philanthropist, businesswoman, author, and global advocate for women & girls.",
+            "Author of The Moment of Lift."
+          ]
+        },
+        {
+          "title": "global advocate for women & girls",
+          "quotes": [
+            "Philanthropist, businesswoman, author, and global advocate for women & girls."
+          ]
+        },
+        {
+          "title": "Founder of Pivotal",
+          "quotes": [
+            "Founder of Pivotal. Co-founder of the Gates Foundation."
+          ]
+        },
+        {
+          "title": "Co-founder of the Gates Foundation",
+          "quotes": [
+            "Founder of Pivotal. Co-founder of the Gates Foundation."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Founder of Pivotal. Co-founder of the Gates Foundation."
+        ],
+        "confidence": "high",
+        "notes": "Founder role implies active creation and leadership of the organization."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          5
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Founder of Pivotal. Co-founder of the Gates Foundation."
+        ],
+        "confidence": "high",
+        "notes": "Co-founder role implies active creation and leadership of the organization."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Philanthropist, businesswoman, author, and global advocate for women & girls."
+        ],
+        "confidence": "high",
+        "notes": "Multiple roles listed together, all implying ongoing activities."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers and organization for career position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Multiple roles listed together may not all be distinct career positions."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

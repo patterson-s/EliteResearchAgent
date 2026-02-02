@@ -1,0 +1,181 @@
+{
+  "status": "success",
+  "chunk_id": 2641,
+  "chunk_index": 0,
+  "source_url": "https://www.britannica.com/biography/Susilo-Bambang-Yudhoyono",
+  "title": "Susilo Bambang Yudhoyono | Biography & Facts | Britannica",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "September 9, 1949",
+          "type": "point",
+          "quotes": [
+            "Susilo Bambang Yudhoyono (born September 9, 1949, Pacitan, East Java, Indonesia) is an Indonesian military officer, politician, and government official who was the first popularly elected president of Indonesia (2004–14)."
+          ]
+        },
+        {
+          "text": "1973",
+          "type": "point",
+          "quotes": [
+            "Following in the footsteps of his father, a middle-ranking officer, he entered the army after graduating from the Indonesian Military Academy in 1973."
+          ]
+        },
+        {
+          "text": "2004–14",
+          "type": "range",
+          "quotes": [
+            "Susilo Bambang Yudhoyono (born September 9, 1949, Pacitan, East Java, Indonesia) is an Indonesian military officer, politician, and government official who was the first popularly elected president of Indonesia (2004–14)."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Indonesian Military Academy",
+          "quotes": [
+            "Following in the footsteps of his father, a middle-ranking officer, he entered the army after graduating from the Indonesian Military Academy in 1973."
+          ]
+        },
+        {
+          "name": "United States Army",
+          "quotes": [
+            "As an officer, Yudhoyono acquired valuable experience abroad, undertaking the United States Army’s Infantry Officer Advanced Course in the early"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "president of Indonesia",
+          "quotes": [
+            "Susilo Bambang Yudhoyono (born September 9, 1949, Pacitan, East Java, Indonesia) is an Indonesian military officer, politician, and government official who was the first popularly elected president of Indonesia (2004–14)."
+          ]
+        },
+        {
+          "title": "military officer",
+          "quotes": [
+            "Susilo Bambang Yudhoyono (born September 9, 1949, Pacitan, East Java, Indonesia) is an Indonesian military officer, politician, and government official who was the first popularly elected president of Indonesia (2004–14)."
+          ]
+        },
+        {
+          "title": "politician",
+          "quotes": [
+            "Susilo Bambang Yudhoyono (born September 9, 1949, Pacitan, East Java, Indonesia) is an Indonesian military officer, politician, and government official who was the first popularly elected president of Indonesia (2004–14)."
+          ]
+        },
+        {
+          "title": "government official",
+          "quotes": [
+            "Susilo Bambang Yudhoyono (born September 9, 1949, Pacitan, East Java, Indonesia) is an Indonesian military officer, politician, and government official who was the first popularly elected president of Indonesia (2004–14)."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Pacitan, East Java, Indonesia",
+          "quotes": [
+            "Susilo Bambang Yudhoyono (born September 9, 1949, Pacitan, East Java, Indonesia) is an Indonesian military officer, politician, and government official who was the first popularly elected president of Indonesia (2004–14)."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Following in the footsteps of his father, a middle-ranking officer, he entered the army after graduating from the Indonesian Military Academy in 1973."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0,
+          2,
+          3
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Susilo Bambang Yudhoyono (born September 9, 1949, Pacitan, East Java, Indonesia) is an Indonesian military officer, politician, and government official who was the first popularly elected president of Indonesia (2004–14)."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, roles, and location. Organization not explicitly mentioned but implied by role as president."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "As an officer, Yudhoyono acquired valuable experience abroad, undertaking the United States Army’s Infantry Officer Advanced Course in the early"
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker, but clear linkage between organization and role. Time is implied as 'early' in his career."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing organization, but implied by role as president."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker, only implied as 'early' in his career."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

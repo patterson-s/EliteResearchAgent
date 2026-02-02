@@ -1,0 +1,86 @@
+{
+  "status": "success",
+  "chunk_id": 3969,
+  "chunk_index": 1,
+  "source_url": "https://japan.kantei.go.jp/101_kishida/meibo/daijin/takemi_keizo_e.html",
+  "title": "TAKEMI Keizo (The Cabinet) | Prime Minister's Office of Japan",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "Apr. 1980",
+          "type": "point",
+          "quotes": [
+            "Apr. 1980\nAssistant, Department of Political Science, Faculty of Political Science and Economics, Tokai University"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Department of Political Science, Faculty of Political Science and Economics, Tokai University",
+          "quotes": [
+            "Department of Political Science, Faculty of Political Science and Economics, Tokai University\nApr. 1980\nAssistant, Department of Political Science, Faculty of Political Science and Economics, Tokai University"
+          ]
+        },
+        {
+          "name": "Tokai University",
+          "quotes": [
+            "Department of Political Science, Faculty of Political Science and Economics, Tokai University\nApr. 1980\nAssistant, Department of Political Science, Faculty of Political Science and Economics, Tokai University"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Assistant",
+          "quotes": [
+            "Apr. 1980\nAssistant, Department of Political Science, Faculty of Political Science and Economics, Tokai University"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Apr. 1980\nAssistant, Department of Political Science, Faculty of Political Science and Economics, Tokai University",
+          "Department of Political Science, Faculty of Political Science and Economics, Tokai University\nApr. 1980\nAssistant, Department of Political Science, Faculty of Political Science and Economics, Tokai University"
+        ],
+        "confidence": "high",
+        "notes": "All entities are mentioned in the same context, indicating a clear career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 1,
+      "warnings": 0,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

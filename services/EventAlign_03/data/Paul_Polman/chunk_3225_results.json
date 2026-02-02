@@ -1,0 +1,113 @@
+{
+  "status": "success",
+  "chunk_id": 3225,
+  "chunk_index": 1,
+  "source_url": "https://uk.linkedin.com/in/paulpolman",
+  "title": "Paul Polman - Business, campaigning, younger me nearly a priest. ‘Net Positive: how courageous companies thrive by giving more than they take’ #1 Thinkers50 | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Unilever",
+          "quotes": [
+            "This is what we aimed for at Unilever, which I ran for a decade."
+          ]
+        },
+        {
+          "name": "UN Secretary General’s High Level Panel",
+          "quotes": [
+            "I had the privilege of serving on the UN Secretary General’s High Level Panel that developed the 2030 Global Goals,"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "ran Unilever",
+          "quotes": [
+            "This is what we aimed for at Unilever, which I ran for a decade."
+          ]
+        },
+        {
+          "title": "serving on the UN Secretary General’s High Level Panel",
+          "quotes": [
+            "I had the privilege of serving on the UN Secretary General’s High Level Panel that developed the 2030 Global Goals,"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "This is what we aimed for at Unilever, which I ran for a decade."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between Unilever and running it for a decade."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "I had the privilege of serving on the UN Secretary General’s High Level Panel that developed the 2030 Global Goals,"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between serving on the UN Secretary General’s High Level Panel and its responsibilities."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position at Unilever."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position at UN Secretary General’s High Level Panel."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

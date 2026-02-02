@@ -1,0 +1,307 @@
+{
+  "status": "success",
+  "chunk_id": 1,
+  "chunk_index": 0,
+  "source_url": "https://en.wikipedia.org/wiki/Anand_Panyarachun",
+  "title": "Anand Panyarachun - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "from 1991 to 1992",
+          "type": "range",
+          "quotes": [
+            "Prime Minister of Thailand from 1991 to 1992"
+          ]
+        },
+        {
+          "text": "10 June 1992 – 22 September 1992",
+          "type": "range",
+          "quotes": [
+            "In office 10 June 1992 – 22 September 1992"
+          ]
+        },
+        {
+          "text": "2 March 1991 – 23 March 1992",
+          "type": "range",
+          "quotes": [
+            "In office 2 March 1991 – 23 March 1992"
+          ]
+        },
+        {
+          "text": "12 August 1975 – 11 March 1977",
+          "type": "range",
+          "quotes": [
+            "In office 12 August 1975 – 11 March 1977"
+          ]
+        },
+        {
+          "text": "1979 – 1984",
+          "type": "range",
+          "quotes": [
+            "to West Germany 1979 – 1984"
+          ]
+        },
+        {
+          "text": "1972 – 1976",
+          "type": "range",
+          "quotes": [
+            "to the United States 1972 – 1976"
+          ]
+        },
+        {
+          "text": "1967 – 1972",
+          "type": "range",
+          "quotes": [
+            "to Canada 1967 – 1972"
+          ]
+        },
+        {
+          "text": "1964 – 1976",
+          "type": "range",
+          "quotes": [
+            "to the United Nations 1964 – 1976"
+          ]
+        },
+        {
+          "text": "9 August 1932",
+          "type": "point",
+          "quotes": [
+            "Born (1932-08-09) 9 August 1932"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "National Peacekeeping Council",
+          "quotes": [
+            "Sunthorn Kongsompong (as Head of the National Peacekeeping Council)"
+          ]
+        },
+        {
+          "name": "Trinity College, Cambridge",
+          "quotes": [
+            "Alma mater Trinity College, Cambridge"
+          ]
+        },
+        {
+          "name": "Dulwich College",
+          "quotes": [
+            "Education Dulwich College"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Prime Minister of Thailand",
+          "quotes": [
+            "Prime Minister of Thailand from 1991 to 1992",
+            "18th Prime Minister of Thailand"
+          ]
+        },
+        {
+          "title": "Permanent Secretary for Foreign Affairs",
+          "quotes": [
+            "Permanent Secretary for Foreign Affairs"
+          ]
+        },
+        {
+          "title": "Ambassador of Thailand",
+          "quotes": [
+            "Ambassador of Thailand"
+          ]
+        },
+        {
+          "title": "Diplomat",
+          "quotes": [
+            "Profession Diplomat"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Bangkok",
+          "quotes": [
+            "Bangkok, Krung Thep, Siam (now Bangkok, Thailand)"
+          ]
+        },
+        {
+          "place": "West Germany",
+          "quotes": [
+            "to West Germany 1979 – 1984"
+          ]
+        },
+        {
+          "place": "United States",
+          "quotes": [
+            "to the United States 1972 – 1976"
+          ]
+        },
+        {
+          "place": "Canada",
+          "quotes": [
+            "to Canada 1967 – 1972"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Prime Minister of Thailand from 1991 to 1992",
+          "18th Prime Minister of Thailand",
+          "Bangkok, Krung Thep, Siam (now Bangkok, Thailand)"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role, time, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "to West Germany 1979 – 1984",
+          "Ambassador of Thailand"
+        ],
+        "confidence": "medium",
+        "notes": "Assumed role as Ambassador based on location and time, but no explicit organization mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "to the United States 1972 – 1976",
+          "Ambassador of Thailand"
+        ],
+        "confidence": "medium",
+        "notes": "Assumed role as Ambassador based on location and time, but no explicit organization mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          6
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          3
+        ],
+        "supporting_quotes": [
+          "to Canada 1967 – 1972",
+          "Ambassador of Thailand"
+        ],
+        "confidence": "medium",
+        "notes": "Assumed role as Ambassador based on location and time, but no explicit organization mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Profession Diplomat"
+        ],
+        "confidence": "low",
+        "notes": "No time or location specified, but role is clearly a career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for Ambassador role."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for Ambassador role."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for Ambassador role."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing time and location information for Diplomat role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 1,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

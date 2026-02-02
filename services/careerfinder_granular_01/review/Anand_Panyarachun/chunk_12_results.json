@@ -1,0 +1,169 @@
+{
+  "status": "success",
+  "chunk_id": 12,
+  "chunk_index": 11,
+  "source_url": "https://en.wikipedia.org/wiki/Anand_Panyarachun",
+  "title": "Anand Panyarachun - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1991–1992",
+          "type": "range",
+          "quotes": [
+            "Prime Minister of Thailand 1991–1992"
+          ]
+        },
+        {
+          "text": "1992",
+          "type": "point",
+          "quotes": [
+            "Prime Minister of Thailand 1992"
+          ]
+        },
+        {
+          "text": "15 December 2010",
+          "type": "point",
+          "quotes": [
+            "The Guardian, WikiLeaks cables: Thai leaders doubt suitability of prince to become king, 15 December 2010"
+          ]
+        },
+        {
+          "text": "16 December",
+          "type": "point",
+          "quotes": [
+            "FT, Cables breach taboo on Thai royal family, 16 December"
+          ]
+        },
+        {
+          "text": "19 March 2018",
+          "type": "point",
+          "quotes": [
+            "Biographical data of Mr. Anand Panyacharun Archived 19 March 2018 at the Wayback Machine"
+          ]
+        },
+        {
+          "text": "30 January 2009",
+          "type": "point",
+          "quotes": [
+            "Biographical data of Mr. Anand Panyacharun Archived 19 March 2018 at the Wayback Machine. Retrieved on 30 January 2009."
+          ]
+        },
+        {
+          "text": "6 July 2018",
+          "type": "point",
+          "quotes": [
+            "ประกาศสำนกนายกรฐมนตรี - เรอง พระราชทานยศกองอาสารไาษาดินแคน (PDF). Archived from the original (PDF) on 6 July 2018."
+          ]
+        },
+        {
+          "text": "November 2018",
+          "type": "point",
+          "quotes": [
+            "Faulder, Dominic (November 2018). Anand Panyarachun and the Making of Modern Thailand."
+          ]
+        },
+        {
+          "text": "12 November 2018",
+          "type": "point",
+          "quotes": [
+            "ISBN 9789814385275. Retrieved 12 November 2018."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "United Nations",
+          "quotes": [
+            "Biography of Anand Panyarachun (United Nations)"
+          ]
+        },
+        {
+          "name": "Asean News Network",
+          "quotes": [
+            "Profile of Khun Anand Panyarachun (Asean News Network)"
+          ]
+        },
+        {
+          "name": "Editions Didier Millet",
+          "quotes": [
+            "Faulder, Dominic (November 2018). Anand Panyarachun and the Making of Modern Thailand. Singapore: Editions Didier Millet."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Prime Minister of Thailand",
+          "quotes": [
+            "Prime Minister of Thailand 1991–1992",
+            "Prime Minister of Thailand 1992"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Thailand",
+          "quotes": [
+            "Prime Minister of Thailand 1991–1992",
+            "Prime Minister of Thailand 1992"
+          ]
+        },
+        {
+          "place": "Singapore",
+          "quotes": [
+            "Faulder, Dominic (November 2018). Anand Panyarachun and the Making of Modern Thailand. Singapore: Editions Didier Millet."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Prime Minister of Thailand 1991–1992",
+          "Prime Minister of Thailand 1992"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time markers, role, and location."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

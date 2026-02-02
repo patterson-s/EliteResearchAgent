@@ -1,0 +1,319 @@
+{
+  "status": "success",
+  "chunk_id": 2652,
+  "chunk_index": 0,
+  "source_url": "https://clubmadrid.org/who/members/bambang-yudhoyono-susilo/",
+  "title": "Susilo Bambang Yudhoyono President of Indonesia",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2004-2014",
+          "type": "range",
+          "quotes": [
+            "President of Indonesia (2004-2014)",
+            "a period between 2004 and 2014 that was marked by democratic development, political stability, high economic growth and resilience, conflict resolution and robust international role."
+          ]
+        },
+        {
+          "text": "mid-2005",
+          "type": "point",
+          "quotes": [
+            "the conflict in Aceh was peacefully and permanently resolved in mid-2005"
+          ]
+        },
+        {
+          "text": "As per November 2015",
+          "type": "point",
+          "quotes": [
+            "As per November 2015, he has 8.2 million followers on Twitter, and 5 million on Facebook."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "World Economic Forum",
+          "quotes": [
+            "Yudhoyono delivered what the World Economic Forum called “Indonesia’s golden decade”"
+          ]
+        },
+        {
+          "name": "G-20",
+          "quotes": [
+            "Indonesia became an emerging economy, a regional power, a G-20 member"
+          ]
+        },
+        {
+          "name": "Global Green Growth Institute (GGGI)",
+          "quotes": [
+            "Yudhoyono is presently chairman of Global Green Growth Institute (GGGI)"
+          ]
+        },
+        {
+          "name": "Partai Demokrat",
+          "quotes": [
+            "as head of Partai Demokrat, remains active in the politics of Indonesia"
+          ]
+        },
+        {
+          "name": "Club de Madrid",
+          "quotes": [
+            "Club de Madrid Member",
+            "Former UN Leaders and Club de Madrid Members Unite in Urgent Call to Defend the UN Charter"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "President of Indonesia",
+          "quotes": [
+            "Susilo Bambang Yudhoyono President of Indonesia",
+            "President of Indonesia (2004-2014)",
+            "the sixth President of the Republic of Indonesia, and also the country’s first directly elected President in the democratic era.",
+            "As President of the country with the world’s largest muslim population"
+          ]
+        },
+        {
+          "title": "Club de Madrid Member",
+          "quotes": [
+            "Club de Madrid Member"
+          ]
+        },
+        {
+          "title": "military officer",
+          "quotes": [
+            "a military officer who became a 4-star general"
+          ]
+        },
+        {
+          "title": "4-star general",
+          "quotes": [
+            "a military officer who became a 4-star general"
+          ]
+        },
+        {
+          "title": "cabinet minister",
+          "quotes": [
+            "who became cabinet minister and then politician"
+          ]
+        },
+        {
+          "title": "politician",
+          "quotes": [
+            "who became cabinet minister and then politician"
+          ]
+        },
+        {
+          "title": "chairman of Global Green Growth Institute (GGGI)",
+          "quotes": [
+            "Yudhoyono is presently chairman of Global Green Growth Institute (GGGI)"
+          ]
+        },
+        {
+          "title": "head of Partai Demokrat",
+          "quotes": [
+            "as head of Partai Demokrat, remains active in the politics of Indonesia"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Indonesia",
+          "quotes": [
+            "President of Indonesia",
+            "the sixth President of the Republic of Indonesia",
+            "Indonesia became an emerging economy",
+            "Indonesia’s democracy steadily moved from strength to strength",
+            "remains active in the politics of Indonesia"
+          ]
+        },
+        {
+          "place": "Aceh",
+          "quotes": [
+            "the conflict in Aceh was peacefully and permanently resolved in mid-2005"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "President of Indonesia (2004-2014)",
+          "Susilo Bambang Yudhoyono President of Indonesia",
+          "the sixth President of the Republic of Indonesia, and also the country’s first directly elected President in the democratic era.",
+          "As President of the country with the world’s largest muslim population"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time marker, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          7
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "as head of Partai Demokrat, remains active in the politics of Indonesia"
+        ],
+        "confidence": "high",
+        "notes": "Ongoing role with clear organization and location linkage."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          6
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Yudhoyono is presently chairman of Global Green Growth Institute (GGGI)"
+        ],
+        "confidence": "high",
+        "notes": "Current role with clear organization and role linkage."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Club de Madrid Member",
+          "Former UN Leaders and Club de Madrid Members Unite in Urgent Call to Defend the UN Charter"
+        ],
+        "confidence": "medium",
+        "notes": "Membership in Club de Madrid, assumed to be an active role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          2,
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "a military officer who became a 4-star general"
+        ],
+        "confidence": "medium",
+        "notes": "Military roles mentioned without specific time markers or organizations."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          4,
+          5
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "who became cabinet minister and then politician"
+        ],
+        "confidence": "medium",
+        "notes": "Roles mentioned without specific time markers or organizations."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time marker for the role as head of Partai Demokrat."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location for the role as chairman of Global Green Growth Institute (GGGI)."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Membership in Club de Madrid may not qualify as a career position if it is purely honorary."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers and organizations for military roles."
+          }
+        ]
+      },
+      {
+        "event_id": 5,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers, organizations, and locations for cabinet minister and politician roles."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 6,
+      "valid": 1,
+      "warnings": 5,
+      "errors": 0,
+      "career_positions": 6,
+      "awards": 0
+    }
+  }
+}

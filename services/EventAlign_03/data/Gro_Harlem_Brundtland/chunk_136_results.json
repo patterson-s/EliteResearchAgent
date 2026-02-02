@@ -1,0 +1,207 @@
+{
+  "status": "success",
+  "chunk_id": 136,
+  "chunk_index": 2,
+  "source_url": "https://nordics.info/show/artikel/gro-harlem-brundtland",
+  "title": "Gro Harlem Brundtland (b. 1939)",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1983",
+          "type": "point",
+          "quotes": [
+            "In 1983 the Secretary General of the United Nations asked her to establish and lead the World Commission on Environment and Development (WCED)."
+          ]
+        },
+        {
+          "text": "April 1987",
+          "type": "point",
+          "quotes": [
+            "Often called the Brundtland Commission, the WCED published a report on its work in April 1987,"
+          ]
+        },
+        {
+          "text": "1998",
+          "type": "point",
+          "quotes": [
+            "In 1998 the World Health Assembly elected Gro Harlem Brundtland Director General of the World Health Organization (WHO)."
+          ]
+        },
+        {
+          "text": "1998-2003",
+          "type": "range",
+          "quotes": [
+            "Battles against malaria and cigarettes have been cited as major WHO achievements under her leadership (1998-2003)."
+          ]
+        },
+        {
+          "text": "1989",
+          "type": "point",
+          "quotes": [
+            "Brundtland greeting Klaus Schwab, founder and executive chairman of the World Economic Forum, at annual meeting in 1989."
+          ]
+        },
+        {
+          "text": "1992",
+          "type": "point",
+          "quotes": [
+            "the U.S. Conference on Environment and Development (1992),"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "World Economic Forum",
+          "quotes": [
+            "Brundtland greeting Klaus Schwab, founder and executive chairman of the World Economic Forum,"
+          ]
+        },
+        {
+          "name": "World Commission on Environment and Development (WCED)",
+          "quotes": [
+            "In 1983 the Secretary General of the United Nations asked her to establish and lead the World Commission on Environment and Development (WCED)."
+          ]
+        },
+        {
+          "name": "United Nations",
+          "quotes": [
+            "In 1983 the Secretary General of the United'the United Nations asked her to establish and lead the World Commission on Environment and Development (WCED)."
+          ]
+        },
+        {
+          "name": "World Health Organization (WHO)",
+          "quotes": [
+            "In 1998 the World Health Assembly elected Gro Harlem Brundtland Director General of the World Health Organization (WHO)."
+          ]
+        },
+        {
+          "name": "World Health Assembly",
+          "quotes": [
+            "In 1998 the World Health Assembly elected Gro Harlem Brundtland Director General of the World Health Organization (WHO)."
+          ]
+        },
+        {
+          "name": "Commission on Macroeconomics and Health",
+          "quotes": [
+            "She established a Commission on Macroeconomics and Health that addressed, among many things, violence as a public health issue and cigarette smoking as a health hazard."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Prime Minister of Israel",
+          "quotes": [
+            "between Yitzchak Rabin, Prime Minister of Israel, and Yasser Arafat, leader of the Palestinian Liberation Organization (PLO)."
+          ]
+        },
+        {
+          "title": "leader of the Palestinian Liberation Organization (PLO)",
+          "quotes": [
+            "between Yitzchak Rabin, Prime Minister of Israel, and Yasser Arafat, leader of the Palestinian Liberation Organization (PLO)."
+          ]
+        },
+        {
+          "title": "founder and executive chairman of the World Economic Forum",
+          "quotes": [
+            "Brundtland greeting Klaus Schwab, founder and executive chairman of the World Economic Forum,"
+          ]
+        },
+        {
+          "title": "Secretary General of the United Nations",
+          "quotes": [
+            "In 1983 the Secretary General of the United Nations asked her to establish and lead the World Commission on Environment and Development (WCED)."
+          ]
+        },
+        {
+          "title": "Director General of the World Health Organization (WHO)",
+          "quotes": [
+            "In 1998 the World Health Assembly elected Gro Harlem Brundtland Director General of the World Health Organization (WHO)."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Rio de Janeiro",
+          "quotes": [
+            "Its recommendations spurred the Earth Summit held at Rio de Janeiro,"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [
+          2,
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 1983 the Secretary General of the United Nations asked her to establish and lead the World Commission on Environment and Development (WCED).",
+          "Often called the Brundtland Commission, the WCED published a report on its work in April 1987,"
+        ],
+        "confidence": "high",
+        "notes": "The role is implied as leadership of the WCED, established and led by her."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2,
+          3
+        ],
+        "organization_ids": [
+          4,
+          3
+        ],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 1998 the World Health Assembly elected Gro Harlem Brundtland Director General of the World Health Organization (WHO).",
+          "Battles against malaria and cigarettes have been cited as major WHO achievements under her leadership (1998-2003)."
+        ],
+        "confidence": "high",
+        "notes": "Clear role and organization linkage with specific time range."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role and location information, though role is implied in the notes."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

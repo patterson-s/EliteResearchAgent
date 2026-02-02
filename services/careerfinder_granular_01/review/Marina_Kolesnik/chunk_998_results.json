@@ -1,0 +1,129 @@
+{
+  "status": "success",
+  "chunk_id": 998,
+  "chunk_index": 2,
+  "source_url": "https://charlottepm.com/meet-the-team/",
+  "title": "Meet the Team - Wess Cason Realty",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "over 10 years of experience",
+          "type": "open",
+          "quotes": [
+            "With over 10 years of experience, Jason consistently gets 5 Star Reviews for his work"
+          ]
+        },
+        {
+          "text": "over 10 years of experience",
+          "type": "open",
+          "quotes": [
+            "Alyssa heads the marketing department , bringing over 10 years of experience across a variety of channels."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Wess Cason Realty",
+          "quotes": [
+            "Focused on building and growing Wess Cason Realty, Alyssa ensures that all marketing, advertising and branding activities are on message and bring value to those in our area."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Maintenance Operations Manager",
+          "quotes": [
+            "Jason Suitor, Maintenance Operations Manager"
+          ]
+        },
+        {
+          "title": "Lead Craftsman",
+          "quotes": [
+            "Jason Suitor is our Lead Craftsman and has a wide variety of maintenance skills."
+          ]
+        },
+        {
+          "title": "Director of Marketing",
+          "quotes": [
+            "Alyssa Cason Tobin, MBA, Director of Marketing"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "With over 10 years of experience, Jason consistently gets 5 Star Reviews for his work",
+          "Jason Suitor, Maintenance Operations Manager",
+          "Jason Suitor is our Lead Craftsman and has a wide variety of maintenance skills."
+        ],
+        "confidence": "high",
+        "notes": "No organization mentioned, but roles and experience are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Alyssa heads the marketing department , bringing over 10 years of experience across a variety of channels.",
+          "Focused on building and growing Wess Cason Realty, Alyssa ensures that all marketing, advertising and branding activities are on message and bring value to those in our area.",
+          "Alyssa Cason Tobin, MBA, Director of Marketing"
+        ],
+        "confidence": "high",
+        "notes": "Organization, role, and experience are clearly linked."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information, though roles and experience are clearly linked."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

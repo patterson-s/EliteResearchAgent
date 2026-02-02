@@ -1,0 +1,213 @@
+{
+  "status": "success",
+  "chunk_id": 1007,
+  "chunk_index": 0,
+  "source_url": "https://wikigender.oecdcode.org/index.html%3Fp=716.html",
+  "title": "Doris Leuthard | Wikigender",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "10 April 1963",
+          "type": "point",
+          "quotes": [
+            "Doris Leuthard (born 10 April 1963) is a Switzerland politician and lawyer."
+          ]
+        },
+        {
+          "text": "Since 1 August 2006",
+          "type": "open",
+          "quotes": [
+            "Since 1 August 2006, she has been a member of the Swiss Federal Council, the executive authority of the Swiss Government."
+          ]
+        },
+        {
+          "text": "From 1999 – 2006",
+          "type": "range",
+          "quotes": [
+            "From 1999 – 2006, Doris Leuthard was a member of the National Council and president of the Christian Democratic People’s Party from 2004-6."
+          ]
+        },
+        {
+          "text": "2004-6",
+          "type": "range",
+          "quotes": [
+            "From 1999 – 2006, Doris Leuthard was a member of the National Council and president of the Christian Democratic People’s Party from 2004-6."
+          ]
+        },
+        {
+          "text": "1 August 2006",
+          "type": "point",
+          "quotes": [
+            "She was elected to the Swiss Federal Council on 1 August 2006, and is responsible for the Doha Round negotiations of the World Trade Organization."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Swiss Federal Council",
+          "quotes": [
+            "Since 1 August 2006, she has been a member of the Swiss Federal Council, the executive authority of the Swiss Government."
+          ]
+        },
+        {
+          "name": "National Council",
+          "quotes": [
+            "From 1999 – 2006, Doris Leuthard was a member of the National Council and president of the Christian Democratic People’s Party from 2004-6."
+          ]
+        },
+        {
+          "name": "Christian Democratic People’s Party",
+          "quotes": [
+            "From 1999 – 2006, Doris Leuthard was a member of the National Council and president of the Christian Democratic People’s Party from 2004-6."
+          ]
+        },
+        {
+          "name": "World Trade Organization",
+          "quotes": [
+            "She was elected to the Swiss Federal Council on 1 August 2006, and is responsible for the Doha Round negotiations of the World Trade Organization."
+          ]
+        },
+        {
+          "name": "Federal Department of Economic Affairs (FDEA)",
+          "quotes": [
+            "She is the Head of the Federal Department of Economic Affairs (FDEA)."
+          ]
+        },
+        {
+          "name": "Federal Office for Agriculture",
+          "quotes": [
+            "Furthermore, the Federal Office for Agriculture and the Federal Veterinary Office are part of the FDEA."
+          ]
+        },
+        {
+          "name": "Federal Veterinary Office",
+          "quotes": [
+            "Furthermore, the Federal Office for Agriculture and the Federal Veterinary Office are part of the FDEA."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "member of the Swiss Federal Council",
+          "quotes": [
+            "Since 1 August 2006, she has been a member of the Swiss Federal Council, the executive authority of the Swiss Government."
+          ]
+        },
+        {
+          "title": "member of the National Council",
+          "quotes": [
+            "From 1999 – 2006, Doris Leuthard was a member of the National Council and president of the Christian Democratic People’s Party from 2004-6."
+          ]
+        },
+        {
+          "title": "president of the Christian Democratic People’s Party",
+          "quotes": [
+            "From 1999 – 2006, Doris Leuthard was a member of the National Council and president of the Christian Democratic People’s Party from 2004-6."
+          ]
+        },
+        {
+          "title": "Head of the Federal Department of Economic Affairs (FDEA)",
+          "quotes": [
+            "She is the Head of the Federal Department of Economic Affairs (FDEA)."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Switzerland",
+          "quotes": [
+            "Doris Leuthard (born 10 April 1963) is a Switzerland politician and lawyer."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2,
+          3
+        ],
+        "organization_ids": [
+          2,
+          3
+        ],
+        "role_ids": [
+          2,
+          3
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "From 1999 – 2006, Doris Leuthard was a member of the National Council and president of the Christian Democratic People’s Party from 2004-6."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organizations, and roles."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1,
+          4
+        ],
+        "organization_ids": [
+          0,
+          4
+        ],
+        "role_ids": [
+          0,
+          4
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Since 1 August 2006, she has been a member of the Swiss Federal Council, the executive authority of the Swiss Government.",
+          "She was elected to the Swiss Federal Council on 1 August 2006, and is responsible for the Doha Round negotiations of the World Trade Organization.",
+          "She is the Head of the Federal Department of Economic Affairs (FDEA)."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organizations, and roles, with additional responsibilities at the World Trade Organization and FDEA."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "The time_marker_ids [2, 3] refer to the range 'From 1999 – 2006' and the sub-range '2004-6'. While these are technically consistent, the sub-range is redundant and could be misleading. Consider consolidating or clarifying the time markers."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "The location_ids [0] is present but not explicitly mentioned in the supporting quote. While it's inferable from the context (Switzerland), it's not directly stated."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

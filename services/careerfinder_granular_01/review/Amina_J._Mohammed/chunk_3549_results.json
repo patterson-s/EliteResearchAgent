@@ -1,0 +1,197 @@
+{
+  "status": "success",
+  "chunk_id": 3549,
+  "chunk_index": 5,
+  "source_url": "https://www.linkedin.com/in/amina-mohammed",
+  "title": "Amina J. Mohammed - United Nations | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "by 2028-29",
+          "type": "point",
+          "quotes": [
+            "✨ A roadmap for 𝟳𝟱𝟬 𝗖𝗕𝗚 𝗽𝗿𝗼𝗷𝗲𝗰𝘁𝘀 𝗯𝘆 𝟮𝟬𝟮𝟴-𝟮𝟵"
+          ]
+        },
+        {
+          "text": "by 2047",
+          "type": "point",
+          "quotes": [
+            "In India’s journey toward Viksit Bharat by 2047, equipping people to seize new opportunities is critical."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Urban Affairs (MoHUA), Government of India",
+          "quotes": [
+            "Urban Affairs  (𝗠𝗼𝗛𝗨𝗔), Government of India, in collaboration with GIZ India."
+          ]
+        },
+        {
+          "name": "GIZ India",
+          "quotes": [
+            "Urban Affairs  (𝗠𝗼𝗛𝗨𝗔), Government of India, in collaboration with GIZ India."
+          ]
+        },
+        {
+          "name": "UNDP in India",
+          "quotes": [
+            "UNDP in India and FICCI are partnering to support industries to accelerate the shift to a circular economy♻️"
+          ]
+        },
+        {
+          "name": "FICCI",
+          "quotes": [
+            "UNDP in India and FICCI are partnering to support industries to accelerate the shift to a circular economy♻️"
+          ]
+        },
+        {
+          "name": "Resource Efficiency & Circular Economy Industry Coalition (RECEIC)",
+          "quotes": [
+            "Through the Resource Efficiency & Circular Economy Industry Coalition (RECEIC), this collaboration will drive innovation, promote sustainable business practices and build stronger, more resilient value chains."
+          ]
+        },
+        {
+          "name": "PCI India",
+          "quotes": [
+            "In today's #ThoughtBlurb, Indrajit Chaudhuri, CEO and Country Director, PCI India emphasizes the need for continuous refreshing of skills to cope with the volatile livelihoods environment."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "CEO and Country Director",
+          "quotes": [
+            "In today's #ThoughtBlurb, Indrajit Chaudhuri, CEO and Country Director, PCI India emphasizes the need for continuous refreshing of skills to cope with the volatile livelihoods environment."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "India",
+          "quotes": [
+            "UNDP in India and FICCI are partnering to support industries to accelerate the shift to a circular economy♻️"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In today's #ThoughtBlurb, Indrajit Chaudhuri, CEO and Country Director, PCI India emphasizes the need for continuous refreshing of skills to cope with the volatile livelihoods environment."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role and organization in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2,
+          3,
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "UNDP in India and FICCI are partnering to support industries to accelerate the shift to a circular economy♻️",
+          "Through the Resource Efficiency & Circular Economy Industry Coalition (RECEIC), this collaboration will drive innovation, promote sustainable business practices and build stronger, more resilient value chains."
+        ],
+        "confidence": "medium",
+        "notes": "Organizations are mentioned in collaboration without specific roles, but implies active partnership."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "✨ A roadmap for 𝟳𝟱𝟬 𝗖𝗕𝗚 𝗽𝗿𝗼𝗷𝗲𝗰𝘁𝘀 𝗯𝘆 𝟮𝟬𝟮𝟴-𝟮𝟵",
+          "In India’s journey toward Viksit Bharat by 2047, equipping people to seize new opportunities is critical.",
+          "Urban Affairs  (𝗠𝗼𝗛𝗨𝗔), Government of India, in collaboration with GIZ India."
+        ],
+        "confidence": "medium",
+        "notes": "Organizations are mentioned in collaboration with time markers, but no specific roles are provided."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for the career position, despite multiple organizations being involved."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position but lacks specific role, which might be more appropriately classified as a partnership or collaboration."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for the career position, despite time markers and organizations being present."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position but lacks specific role, which might be more appropriately classified as a collaboration or project."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "status": "success",
+  "chunk_id": 1094,
+  "chunk_index": 4,
+  "source_url": "https://br.linkedin.com/in/edson-prestes",
+  "title": "Edson Prestes - Association For Computer Machinery | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2016 to 2024",
+          "type": "range",
+          "quotes": [
+            "By analyzing solutions from 2016 to 2024, this study proposes a general architecture aligned with UNESCO’s vision for digital education."
+          ]
+        },
+        {
+          "text": "2025",
+          "type": "point",
+          "quotes": [
+            "Presented at: 2025 2nd International Conference on Computational Intelligence, Communication Technology and Networking (CICTN)",
+            "IEEE Editorial Style Manual for Authors (2025 update)",
+            "Deadline: August 20, 2025"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "UNESCO",
+          "quotes": [
+            "By analyzing solutions from 2016 to 2024, this study proposes a general architecture aligned with UNESCO’s vision for digital education."
+          ]
+        },
+        {
+          "name": "IEEE",
+          "quotes": [
+            "Md. Jalil Piran, Ph.D., SMIEEE",
+            "IEEE Editorial Style Manual for Authors (2025 update)"
+          ]
+        },
+        {
+          "name": "Applied Science",
+          "quotes": [
+            "Guest Editing with Dr. Marcelo Carvalho & Dr. Semih Aslan for the Applied Science Special Issue: Novel Technologies and Applications for Internet of Things."
+          ]
+        },
+        {
+          "name": "Takashima Lab",
+          "quotes": [
+            "A new research paper from Takashima Lab: Expanding"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Guest Editor",
+          "quotes": [
+            "Guest Editing with Dr. Marcelo Carvalho & Dr. Semih Aslan for the Applied Science Special Issue: Novel Technologies and Applications for Internet of Things."
+          ]
+        },
+        {
+          "title": "Author",
+          "quotes": [
+            "Authors: Dr. kusum lata agarwal , Dr. Divya Mishra (Upadhyay) & Myself",
+            "Md. Jalil Piran, Ph.D., SMIEEE"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "By analyzing solutions from 2016 to 2024, this study proposes a general architecture aligned with UNESCO’s vision for digital education."
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but the study is aligned with UNESCO's vision, implying an affiliation or collaboration."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Guest Editing with Dr. Marcelo Carvalho & Dr. Semih Aslan for the Applied Science Special Issue: Novel Technologies and Applications for Internet of Things."
+        ],
+        "confidence": "high",
+        "notes": "Clear role as Guest Editor for Applied Science Special Issue."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Md. Jalil Piran, Ph.D., SMIEEE",
+          "IEEE Editorial Style Manual for Authors (2025 update)"
+        ],
+        "confidence": "high",
+        "notes": "Author affiliation with IEEE, supported by the 2025 update mention."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "A new research paper from Takashima Lab: Expanding",
+          "Authors: Dr. kusum lata agarwal , Dr. Divya Mishra (Upadhyay) & Myself"
+        ],
+        "confidence": "high",
+        "notes": "Author role associated with Takashima Lab, though no specific time marker is provided."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, making it unclear what specific career position is held."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quote implies affiliation or collaboration with UNESCO but does not explicitly state a career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "Time marker '2025' is a point in time, but no start or end date is provided for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "Missing time marker, making it unclear when this career position was held."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 1,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "status": "success",
+  "chunk_id": 3888,
+  "chunk_index": 0,
+  "source_url": "https://europeanleadershipnetwork.org/person/louis-michel/",
+  "title": "Louis Michel | European Leadership Network",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "from 2004 until 2009",
+          "type": "range",
+          "quotes": [
+            "He served as European Commissioner for Development and Humanitarian Aid from 2004 until 2009."
+          ]
+        },
+        {
+          "text": "from 1999 to July 2004",
+          "type": "range",
+          "quotes": [
+            "Michel is a prominent member of the French-speaking liberal party, the Mouvement Réformateur, and served as Belgium’s Foreign Minister and Deputy Prime Minister from 1999 to July 2004."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "European Parliament",
+          "quotes": [
+            "Louis Michel is a former Belgian Member of the European Parliament."
+          ]
+        },
+        {
+          "name": "Mouvement Réformateur",
+          "quotes": [
+            "Michel is a prominent member of the French-speaking liberal party, the Mouvement Réformateur, and served as Belgium’s Foreign Minister and Deputy Prime Minister from 1999 to July 2004."
+          ]
+        },
+        {
+          "name": "European Commission",
+          "quotes": [
+            "He served as European Commissioner for Development and Humanitarian Aid from 2004 until 2009."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Member of the European Parliament",
+          "quotes": [
+            "Louis Michel is a former Belgian Member of the European Parliament."
+          ]
+        },
+        {
+          "title": "European Commissioner for Development and Humanitarian Aid",
+          "quotes": [
+            "He served as European Commissioner for Development and Humanitarian Aid from 2004 until 2009."
+          ]
+        },
+        {
+          "title": "Foreign Minister",
+          "quotes": [
+            "Michel is a prominent member of the French-speaking liberal party, the Mouvement Réformateur, and served as Belgium’s Foreign Minister and Deputy Prime Minister from 1999 to July 2004."
+          ]
+        },
+        {
+          "title": "Deputy Prime Minister",
+          "quotes": [
+            "Michel is a prominent member of the French-speaking liberal party, the Mouvement Réformateur, and served as Belgium’s Foreign Minister and Deputy Prime Minister from 1999 to July 2004."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Belgium",
+          "quotes": [
+            "Michel is a prominent member of the French-speaking liberal party, the Mouvement Réformateur, and served as Belgium’s Foreign Minister and Deputy Prime Minister from 1999 to July 2004."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          2,
+          3
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Michel is a prominent member of the French-speaking liberal party, the Mouvement Réformateur, and served as Belgium’s Foreign Minister and Deputy Prime Minister from 1999 to July 2004."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, roles, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He served as European Commissioner for Development and Humanitarian Aid from 2004 until 2009."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Louis Michel is a former Belgian Member of the European Parliament."
+        ],
+        "confidence": "high",
+        "notes": "No time marker, but clear linkage between organization and role."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position as Member of the European Parliament."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 2,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

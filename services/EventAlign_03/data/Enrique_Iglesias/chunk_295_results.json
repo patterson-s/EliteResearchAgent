@@ -1,0 +1,115 @@
+{
+  "status": "success",
+  "chunk_id": 295,
+  "chunk_index": 1,
+  "source_url": "https://thedialogue.org/expert/enrique-iglesias",
+  "title": "Enrique Iglesias – Inter-American Dialogue",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Inter-American Dialogue Education Program",
+          "quotes": [
+            "The Inter-American Dialogue Education Program"
+          ]
+        },
+        {
+          "name": "Google",
+          "quotes": [
+            "This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Energy Advisor",
+          "quotes": [
+            "Energy Advisor"
+          ]
+        },
+        {
+          "title": "Financial Services Advisor",
+          "quotes": [
+            "Financial Services Advisor"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The Inter-American Dialogue Education Program",
+          "Energy Advisor"
+        ],
+        "confidence": "medium",
+        "notes": "No time marker available, but role and organization are clearly linked through context."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The Inter-American Dialogue Education Program",
+          "Financial Services Advisor"
+        ],
+        "confidence": "medium",
+        "notes": "No time marker available, but role and organization are clearly linked through context."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

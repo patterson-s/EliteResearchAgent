@@ -1,0 +1,196 @@
+{
+  "status": "success",
+  "chunk_id": 3883,
+  "chunk_index": 12,
+  "source_url": "https://grokipedia.com/page/Louis_Michel",
+  "title": "Louis Michel",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2004–2007",
+          "type": "range",
+          "quotes": [
+            "Michel's remarks contrasted with his earlier positions as Belgium's foreign minister (2004–2007)"
+          ]
+        },
+        {
+          "text": "2002",
+          "type": "point",
+          "quotes": [
+            "where in 2002 he had expressed 'sincere regrets' on behalf of Belgium for its role in the 1961 assassination of Congolese Prime Minister Patrice Lumumba"
+          ]
+        },
+        {
+          "text": "2003",
+          "type": "point",
+          "quotes": [
+            "In 2003, he had also stated that former colonial powers like Belgium were 'indebted to their former colonies,'"
+          ]
+        },
+        {
+          "text": "2010",
+          "type": "point",
+          "quotes": [
+            "However, his 2010 defense reframed Leopold's legacy positively,"
+          ]
+        },
+        {
+          "text": "1908",
+          "type": "point",
+          "quotes": [
+            "which prompted international pressure leading to the Congo's annexation by Belgium in 1908."
+          ]
+        },
+        {
+          "text": "2020",
+          "type": "point",
+          "quotes": [
+            "as seen in later movements like Black Lives Matter-inspired statue topplings in 2020 that targeted Leopold monuments in Antwerp and Brussels."
+          ]
+        },
+        {
+          "text": "2004–2009",
+          "type": "range",
+          "quotes": [
+            "This episode contributed to broader scrutiny of Michel's Africa policy, where his pro-engagement stance—evident in his EU commissioner role (2004–2009)"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Force Publique",
+          "quotes": [
+            "they argued his 'visionary' label ignored eyewitness accounts of village burnings and child soldier recruitment under the Force Publique."
+          ]
+        },
+        {
+          "name": "EU",
+          "quotes": [
+            "The controversy underscored divisions in Belgian society over decolonization, with Flemish and Walloon nationalists often resisting full repudiations of Leopold, while francophone liberals like Michel faced intra-party criticism for complicating EU-Congo relations amid ongoing aid dependencies."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Belgium's foreign minister",
+          "quotes": [
+            "Michel's remarks contrasted with his earlier positions as Belgium's foreign minister (2004–2007)"
+          ]
+        },
+        {
+          "title": "EU commissioner",
+          "quotes": [
+            "This episode contributed to broader scrutiny of Michel's Africa policy, where his pro-engagement stance—evident in his EU commissioner role (2004–2009)"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Congo",
+          "quotes": [
+            "an estimated demographic collapse of 8 to 13 million Congolese due to killings, starvation, disease, and low birth rates.",
+            "The controversy underscored divisions in Belgian society over decolonization, with Flemish and Walloon nationalists often resisting full repudiations of Leopold, while francophone liberals like Michel faced intra-party criticism for complicating EU-Congo relations amid ongoing aid dependencies."
+          ]
+        },
+        {
+          "place": "Belgium",
+          "quotes": [
+            "Michel's remarks contrasted with his earlier positions as Belgium's foreign minister (2004–2007)",
+            "former colonial powers like Belgium were 'indebted to their former colonies,'",
+            "Critics, including Congolese diaspora groups and left-leaning Belgian media, highlighted Michel's comments as emblematic of persistent colonial amnesia in Belgium, where statues of Leopold remained prominent despite periodic protests;"
+          ]
+        },
+        {
+          "place": "Brussels",
+          "quotes": [
+            "focusing on the monarch's role in acquiring and exploiting vast rubber and ivory resources that funded Belgian infrastructure, such as Brussels' royal greenhouses and African Museum,",
+            "as seen in later movements like Black Lives Matter-inspired statue topplings in 2020 that targeted Leopold monuments in Antwerp and Brussels."
+          ]
+        },
+        {
+          "place": "Antwerp",
+          "quotes": [
+            "as seen in later movements like Black Lives Matter-inspired statue topplings in 2020 that targeted Leopold monuments in Antwerp and Brussels."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Michel's remarks contrasted with his earlier positions as Belgium's foreign minister (2004–2007)"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          6
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "This episode contributed to broader scrutiny of Michel's Africa policy, where his pro-engagement stance—evident in his EU commissioner role (2004–2009)"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position as Belgium's foreign minister."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing location information for the career position as EU commissioner."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

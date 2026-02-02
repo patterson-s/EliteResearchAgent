@@ -1,0 +1,207 @@
+{
+  "status": "success",
+  "chunk_id": 3383,
+  "chunk_index": 4,
+  "source_url": "https://se.linkedin.com/in/gunilla-carlsson-59478b82",
+  "title": "Gunilla Carlsson – Sida | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2024",
+          "type": "point",
+          "quotes": [
+            "to present the European Court of Auditors Annual Report for 2024 in Sweden."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "European Court of Auditors",
+          "quotes": [
+            "to present the European Court of Auditors Annual Report for 2024 in Sweden."
+          ]
+        },
+        {
+          "name": "Embassy",
+          "quotes": [
+            "Great to have Swedish Ambassador for Global Health Karin Tegmark Wisell visit Uganda in support of the Embassy work for health and SRHR."
+          ]
+        },
+        {
+          "name": "Europaparlamentet",
+          "quotes": [
+            "Idag röstade Europaparlamentet för att införa mammaledighet för EU-parlamentariker!"
+          ]
+        },
+        {
+          "name": "Raoul Wallenberg Institute",
+          "quotes": [
+            "A day of principled dialogue and strategic clarity at the Raoul Wallenberg Institute."
+          ]
+        },
+        {
+          "name": "EU",
+          "quotes": [
+            "We were honoured to host the EU 🇪🇺 Commissioner Hadja Lahbib…"
+          ]
+        },
+        {
+          "name": "Shein",
+          "quotes": [
+            "I Europaparlamentet lyfte jag idag problemet att Shein har sålt barnsexdockor, som normaliserar övergrepp mot barn…"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Swedish Ambassador for Global Health",
+          "quotes": [
+            "Great to have Swedish Ambassador for Global Health Karin Tegmark Wisell visit Uganda in support of the Embassy work for health and SRHR."
+          ]
+        },
+        {
+          "title": "EU Commissioner",
+          "quotes": [
+            "We were honoured to host the EU 🇪🇺 Commissioner Hadja Lahbib…"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Sweden",
+          "quotes": [
+            "to present the European Court of Auditors Annual Report for 2024 in Sweden."
+          ]
+        },
+        {
+          "place": "Uganda",
+          "quotes": [
+            "Great to have Swedish Ambassador for Global Health Karin Tegmark Wisell visit Uganda in support of the Embassy work for health and SRHR."
+          ]
+        },
+        {
+          "place": "Stockholm",
+          "quotes": [
+            "Per Klingbjer, Stockholm"
+          ]
+        },
+        {
+          "place": "Greater Stockholm Metropolitan Area",
+          "quotes": [
+            "Jelena Drenjanin, Greater Stockholm Metropolitan Area"
+          ]
+        },
+        {
+          "place": "Göteborg",
+          "quotes": [
+            "Thomas Larsson, Göteborg"
+          ]
+        },
+        {
+          "place": "Greater Malmö Metropolitan Area",
+          "quotes": [
+            "Fredrik Björk, Greater Malmö Metropolitan Area"
+          ]
+        },
+        {
+          "place": "London",
+          "quotes": [
+            "Mathew Tata, London"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "to present the European Court of Auditors Annual Report for 2024 in Sweden."
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but the event involves presenting an annual report, implying an active role within the organization."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Great to have Swedish Ambassador for Global Health Karin Tegmark Wisell visit Uganda in support of the Embassy work for health and SRHR."
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of an active role as an ambassador supporting embassy work."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "We were honoured to host the EU 🇪🇺 Commissioner Hadja Lahbib…"
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of an active role as an EU Commissioner."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, though the event implies an active role within the organization."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 2,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

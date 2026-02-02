@@ -1,0 +1,370 @@
+{
+  "status": "success",
+  "chunk_id": 3777,
+  "chunk_index": 1,
+  "source_url": "https://las.illinois.edu/news/2005-10-01/tracking-human-footprint",
+  "title": "Tracking the human footprint | College of Liberal Arts & Sciences | Illinois",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "in 1966",
+          "type": "point",
+          "quotes": [
+            "in geology in 1966 from the U of I."
+          ]
+        },
+        {
+          "text": "three years",
+          "type": "range",
+          "quotes": [
+            "After teaching for three years at Cairo University in Egypt, El-Ashry returned to the United States,"
+          ]
+        },
+        {
+          "text": "In 1983",
+          "type": "point",
+          "quotes": [
+            "In 1983, meanwhile, El-Ashry moved on to help build the World Resources Institute,"
+          ]
+        },
+        {
+          "text": "eight years later",
+          "type": "range",
+          "quotes": [
+            "By the time El-Ashry left eight years later, the World Resources Institute had grown to a staff of 110 with a budget of $15 million."
+          ]
+        },
+        {
+          "text": "In 1994",
+          "type": "point",
+          "quotes": [
+            "In 1994, El-Ashry became the first CEO and chairman of GEF,"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "U of I",
+          "quotes": [
+            "in geology in 1966 from the U of I."
+          ]
+        },
+        {
+          "name": "Cairo University",
+          "quotes": [
+            "After teaching for three years at Cairo University in Egypt, El-Ashry returned to the United States,"
+          ]
+        },
+        {
+          "name": "Wilkes University",
+          "quotes": [
+            "he built an environmental sciences department at Wilkes University in Pennsylvania."
+          ]
+        },
+        {
+          "name": "Environmental Defense Fund",
+          "quotes": [
+            "Then he charged headlong into environmental politics with the Environmental Defense Fund."
+          ]
+        },
+        {
+          "name": "Tennessee Valley Authority (TVA)",
+          "quotes": [
+            "He was recruited as director of environmental quality for the Tennessee Valley Authority (TVA)"
+          ]
+        },
+        {
+          "name": "World Resources Institute",
+          "quotes": [
+            "In 1983, meanwhile, El-Ashry moved on to help build the World Resources Institute,"
+          ]
+        },
+        {
+          "name": "World Bank",
+          "quotes": [
+            "became director of environment for the World Bank,"
+          ]
+        },
+        {
+          "name": "Global Environment Facility (GEF)",
+          "quotes": [
+            "He helped establish the Global Environment Facility (GEF),"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "director of environmental quality",
+          "quotes": [
+            "He was recruited as director of environmental quality for the Tennessee Valley Authority (TVA)"
+          ]
+        },
+        {
+          "title": "chief environmental adviser to the President",
+          "quotes": [
+            "Next, El-Ashry served as chief environmental adviser to the President"
+          ]
+        },
+        {
+          "title": "director of environment",
+          "quotes": [
+            "became director of environment for the World Bank,"
+          ]
+        },
+        {
+          "title": "CEO and chairman",
+          "quotes": [
+            "In 1994, El-Ashry became the first CEO and chairman of GEF,"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Egypt",
+          "quotes": [
+            "After teaching for three years at Cairo University in Egypt, El-Ashry returned to the United States,"
+          ]
+        },
+        {
+          "place": "Pennsylvania",
+          "quotes": [
+            "he built an environmental sciences department at Wilkes University in Pennsylvania."
+          ]
+        },
+        {
+          "place": "United States",
+          "quotes": [
+            "El-Ashry returned to the United States,"
+          ]
+        },
+        {
+          "place": "Brazil",
+          "quotes": [
+            "a massive conservation set-aside that protects about 12 percent of the Amazon in Brazil"
+          ]
+        },
+        {
+          "place": "Philippines",
+          "quotes": [
+            "more than $40 million in grants to cover the extra cost of building a geothermal plant instead of a coal power plant in the Philippines."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "in geology in 1966 from the U of I."
+        ],
+        "confidence": "medium",
+        "notes": "Assuming graduation from U of I, role is implied but not explicitly stated."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "After teaching for three years at Cairo University in Egypt, El-Ashry returned to the United States,"
+        ],
+        "confidence": "high",
+        "notes": "Teaching role is explicitly mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "he built an environmental sciences department at Wilkes University in Pennsylvania."
+        ],
+        "confidence": "high",
+        "notes": "Role is implied through the action of building a department."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Then he charged headlong into environmental politics with the Environmental Defense Fund."
+        ],
+        "confidence": "medium",
+        "notes": "Role is not explicitly stated but involvement is clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He was recruited as director of environmental quality for the Tennessee Valley Authority (TVA)"
+        ],
+        "confidence": "high",
+        "notes": "Role and organization are explicitly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2,
+          3
+        ],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 1983, meanwhile, El-Ashry moved on to help build the World Resources Institute,",
+          "By the time El-Ashry left eight years later, the World Resources Institute had grown to a staff of 110 with a budget of $15 million."
+        ],
+        "confidence": "high",
+        "notes": "Role is implied through the action of helping to build the organization."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          6
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "became director of environment for the World Bank,"
+        ],
+        "confidence": "high",
+        "notes": "Role and organization are explicitly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          7
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 1994, El-Ashry became the first CEO and chairman of GEF,"
+        ],
+        "confidence": "high",
+        "notes": "Role and organization are explicitly linked."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role and location information. Role is implied but not explicitly stated."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. Role is implied through the action of building a department."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. Role is not explicitly stated but involvement is clear."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 5,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. Role is implied through the action of helping to build the organization."
+          }
+        ]
+      },
+      {
+        "event_id": 6,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 7,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 8,
+      "valid": 4,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 8,
+      "awards": 0
+    }
+  }
+}

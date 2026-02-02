@@ -1,0 +1,184 @@
+{
+  "status": "success",
+  "chunk_id": 597,
+  "chunk_index": 0,
+  "source_url": "https://thechanzo.com/2024/09/02/dr-salim-ahmed-salim-archive-a-digital-memoir-about-africa/",
+  "title": "Dr Salim Ahmed Salim Archive: A Digital Memoir About Africa - The Chanzo",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "April 20, 2024",
+          "type": "point",
+          "quotes": [
+            "The Chanzo is hosting Digital Freedom and Innovation Day on April 20, 2024."
+          ]
+        },
+        {
+          "text": "September 2, 2024",
+          "type": "point",
+          "quotes": [
+            "Jasper Sabuni\nSeptember 2, 2024"
+          ]
+        },
+        {
+          "text": "2015",
+          "type": "point",
+          "quotes": [
+            "Fast-forward to 2015. Subsequent to Dr Salim’s influence, I graduated from the then Mozambique-Tanzania Centre for Foreign Relations, now Dr Salim Ahmed Salim Centre for Foreign Relations;"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "The Chanzo",
+          "quotes": [
+            "The Chanzo is hosting Digital Freedom and Innovation Day on April 20, 2024."
+          ]
+        },
+        {
+          "name": "Mozambique-Tanzania Centre for Foreign Relations",
+          "quotes": [
+            "Fast-forward to 2015. Subsequent to Dr Salim’s influence, I graduated from the then Mozambique-Tanzania Centre for Foreign Relations, now Dr Salim Ahmed Salim Centre for Foreign Relations;"
+          ]
+        },
+        {
+          "name": "Dr Salim Ahmed Salim Centre for Foreign Relations",
+          "quotes": [
+            "Fast-forward to 2015. Subsequent to Dr Salim’s influence, I graduated from the then Mozambique-Tanzania Centre for Foreign Relations, now Dr Salim Ahmed Salim Centre for Foreign Relations;"
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": [
+        {
+          "place": "Zanzibar",
+          "quotes": [
+            "this incredible treasure born in the islands of Zanzibar."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          1,
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Fast-forward to 2015. Subsequent to Dr Salim’s influence, I graduated from the then Mozambique-Tanzania Centre for Foreign Relations, now Dr Salim Ahmed Salim Centre for Foreign Relations;"
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but graduation implies a student position, classified as a career_position due to educational affiliation."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The Chanzo is hosting Digital Freedom and Innovation Day on April 20, 2024."
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but hosting an event implies an organizational role, classified as a career_position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Jasper Sabuni\nSeptember 2, 2024",
+          "this incredible treasure born in the islands of Zanzibar."
+        ],
+        "confidence": "low",
+        "notes": "No organization or role mentioned, only a location and a name with a date. Classified as a career_position by default due to lack of information."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as 'career_position' but describes a graduation, which is typically not a career role."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, making it unclear what specific position or responsibility was held."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as 'career_position' but only mentions hosting an event, which may not imply a formal career role."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role and location information, making it unclear what specific position or responsibility was held."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "error",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "high",
+            "description": "Event classified as 'career_position' with insufficient information to support any specific role or responsibility."
+          },
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization and role information, making it unclear what specific position or responsibility was held."
+          },
+          {
+            "type": "quote_support",
+            "severity": "medium",
+            "description": "Supporting quotes do not clearly mention any career-related information."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 1,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

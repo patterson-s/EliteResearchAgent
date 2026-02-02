@@ -1,0 +1,217 @@
+{
+  "status": "success",
+  "chunk_id": 2934,
+  "chunk_index": 0,
+  "source_url": "https://en.wikipedia.org/wiki/Izabella_Teixeira",
+  "title": "Izabella Teixeira - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "30 March 2010 – 12 May 2016",
+          "type": "range",
+          "quotes": [
+            "In office\n30 March 2010 – 12 May 2016"
+          ]
+        },
+        {
+          "text": "May 2010",
+          "type": "point",
+          "quotes": [
+            "In May 2010 she was appointed Minister of the Environment"
+          ]
+        },
+        {
+          "text": "January 2011",
+          "type": "point",
+          "quotes": [
+            "in January 2011 she was reappointed to the position by Dilma Rousseff, Brazil's new President."
+          ]
+        },
+        {
+          "text": "October 2010",
+          "type": "point",
+          "quotes": [
+            "In October 2010 Teixeira made a statement on behalf of Brazil at the 10th conference on the Convention on Biological Diversity"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "University of Brasília",
+          "quotes": [
+            "Alma mater\nUniversity of Brasília\n(BS)"
+          ]
+        },
+        {
+          "name": "COPPE/UFRJ (Federal University of Rio de Janeiro)",
+          "quotes": [
+            "a master's degree in energy planning and a Ph.D. in environmental planning from COPPE/UFRJ (Federal University of Rio de Janeiro)."
+          ]
+        },
+        {
+          "name": "Convention on Biological Diversity",
+          "quotes": [
+            "In October 2010 Teixeira made a statement on behalf of Brazil at the 10th conference on the Convention on Biological Diversity"
+          ]
+        },
+        {
+          "name": "United Nations",
+          "quotes": [
+            "She also spoke at the 2010 United Nations Climate Change Conference in Cancún, Mexico."
+          ]
+        },
+        {
+          "name": "UN Conference on",
+          "quotes": [
+            "At home in Brazil, she successfully hosted the Rio+20 ( UN Conference on"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Minister of the Environment",
+          "quotes": [
+            "In May 2010 she was appointed Minister of the Environment, and, in January 2011 she was reappointed to the position by Dilma Rousseff, Brazil's new President."
+          ]
+        },
+        {
+          "title": "Minister of Environment",
+          "quotes": [
+            "Izabella Mônica Vieira Teixeira\n(born 9 October 1961) was the Brazilian\nMinister of the Environment."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Brasília",
+          "quotes": [
+            "Born\nIzabella Mônica Vieira Teixeira\n(1961-10-09)\n9 October 1961 (age 64)\nBrasília, Federal District, Brazil"
+          ]
+        },
+        {
+          "place": "Federal District, Brazil",
+          "quotes": [
+            "Born\nIzabella Mônica Vieira Teixeira\n(1961-10-09)\n9 October 1961 (age 64)\nBrasília, Federal District, Brazil"
+          ]
+        },
+        {
+          "place": "Nagoya, Japan",
+          "quotes": [
+            "In October 2010 Teixeira made a statement on behalf of Brazil at the 10th conference on the Convention on Biological Diversity in Nagoya, Japan"
+          ]
+        },
+        {
+          "place": "Cancún, Mexico",
+          "quotes": [
+            "She also spoke at the 2010 United Nations Climate Change Conference in Cancún, Mexico."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1,
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In office\n30 March 2010 – 12 May 2016",
+          "In May 2010 she was appointed Minister of the Environment, and, in January 2011 she was reappointed to the position by Dilma Rousseff, Brazil's new President.",
+          "Izabella Mônica Vieira Teixeira\n(born 9 October 1961) was the Brazilian\nMinister of the Environment.",
+          "In October 2010 Teixeira made a statement on behalf of Brazil at the 10th conference on the Convention on Biological Diversity"
+        ],
+        "confidence": "high",
+        "notes": "The role of Minister of the Environment is clearly a career position with active responsibilities."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [
+          3
+        ],
+        "supporting_quotes": [
+          "In October 2010 Teixeira made a statement on behalf of Brazil at the 10th conference on the Convention on Biological Diversity in Nagoya, Japan"
+        ],
+        "confidence": "medium",
+        "notes": "This event is related to her role as Minister of the Environment, representing Brazil at an international conference."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "At home in Brazil, she successfully hosted the Rio+20 ( UN Conference on"
+        ],
+        "confidence": "low",
+        "notes": "The exact role and time frame are unclear, but hosting a conference is likely part of her duties as Minister of the Environment."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, though it can be inferred from the context of the first event."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing time marker, role, and location information, making the event incomplete."
+          },
+          {
+            "type": "quote_support",
+            "severity": "medium",
+            "description": "The quote does not clearly specify the exact role or time frame, only mentioning hosting a conference."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

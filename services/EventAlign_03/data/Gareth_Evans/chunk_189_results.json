@@ -1,0 +1,160 @@
+{
+  "status": "success",
+  "chunk_id": 189,
+  "chunk_index": 2,
+  "source_url": "https://www.gevans.org/",
+  "title": "Gareth Evans - Official Site",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "March 2022",
+          "type": "point",
+          "quotes": [
+            "Good International Citizenship: The Case for Decency (Monash University Publishing, March 2022)"
+          ]
+        },
+        {
+          "text": "from 1988 to 1996",
+          "type": "range",
+          "quotes": [
+            "Building on ideas first advanced during his years as Australia's foreign minister, from 1988 to 1996, Evans argues that a state's 'good international citizenship' can be pursued in four general ways"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Monash University Publishing",
+          "quotes": [
+            "Good International Citizenship: The Case for Decency (Monash University Publishing, March 2022)"
+          ]
+        },
+        {
+          "name": "Foreign Affairs",
+          "quotes": [
+            "From G. John Ikenberry's review for Foreign Affairs: In this inspiring and deeply reasoned book, Evans makes the case for a foreign policy that binds the interests of one's country to the well-being of the wider world."
+          ]
+        },
+        {
+          "name": "ASPI The Strategist",
+          "quotes": [
+            "From Graeme Dobell's review for ASPI The Strategist: It's an achingly apposite moment for one of Australia's finest foreign ministers to ponder morality in foreign policy."
+          ]
+        },
+        {
+          "name": "Washington Diplomat",
+          "quotes": [
+            "From John Shaw's review for Washington Diplomat: If you are looking for an example of a contemporary global statesman, Gareth Evans of Australia is a compelling candidate..."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Australia's foreign minister",
+          "quotes": [
+            "He argues that to be, and be seen to be, a good international citizen - a state that cares about other people's suffering, and does everything reasonably possible to alleviate it - is both a moral imperative and a matter of hard-headed national interest.",
+            "Building on ideas first advanced during his years as Australia's foreign minister, from 1988 to 1996, Evans argues that a state's 'good international citizenship' can be pursued in four general ways:",
+            "It's an achingly apposite moment for one of Australia's finest foreign ministers to ponder morality in foreign policy."
+          ]
+        },
+        {
+          "title": "contemporary global statesman",
+          "quotes": [
+            "If you are looking for an example of a contemporary global statesman, Gareth Evans of Australia is a compelling candidate..."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Australia",
+          "quotes": [
+            "Why should we in Australia, or any country, care about poverty, human rights atrocities, health epidemics, environmental catastrophes, weapons proliferation or any other problems afflicting faraway countries, when they don't, as is often the case, have any direct or immediate impact on our own safety or prosperity?",
+            "In this inspiring and deeply reasoned book, Evans makes the case for a foreign policy that binds the interests of one's country to the well-being of the wider world. Building on ideas first advanced during his years as Australia's foreign minister, from 1988 to 1996, Evans argues that a state's 'good international citizenship' can be pursued in four general ways:",
+            "It's an achingly apposite moment for one of Australia's finest foreign ministers to ponder morality in foreign policy.",
+            "If you are looking for an example of a contemporary global statesman, Gareth Evans of Australia is a compelling candidate..."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Building on ideas first advanced during his years as Australia's foreign minister, from 1988 to 1996, Evans argues that a state's 'good international citizenship' can be pursued in four general ways",
+          "It's an achingly apposite moment for one of Australia's finest foreign ministers to ponder morality in foreign policy."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role, time, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "If you are looking for an example of a contemporary global statesman, Gareth Evans of Australia is a compelling candidate..."
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker, but role and location are clear."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information despite clear role and time markers."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and organization information, though role and location are clear."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Role as 'contemporary global statesman' may not clearly fit 'career_position' without active responsibilities mentioned."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

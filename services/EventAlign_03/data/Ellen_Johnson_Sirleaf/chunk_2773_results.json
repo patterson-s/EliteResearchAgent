@@ -1,0 +1,255 @@
+{
+  "status": "success",
+  "chunk_id": 2773,
+  "chunk_index": 0,
+  "source_url": "https://theelders.org/profile/ellen-johnson-sirleaf",
+  "title": "Ellen Johnson Sirleaf",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "The Elders",
+          "quotes": [
+            "Member of The Elders"
+          ]
+        },
+        {
+          "name": "UN",
+          "quotes": [
+            "The UN at 80: Commemoration without candour is unaffordable",
+            "UN Security Council reform is possible, and the General Assembly must lead the way",
+            "UN Security Council needs urgent reform to deliver leadership for peace",
+            "Photo: UN Photo/Eric Kanalstein"
+          ]
+        },
+        {
+          "name": "European Union",
+          "quotes": [
+            "Photo: European Union 2013/European Parliament"
+          ]
+        },
+        {
+          "name": "TED",
+          "quotes": [
+            "Photo: Stacie McChesney/TED"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Member of The Elders",
+          "quotes": [
+            "Member of The Elders"
+          ]
+        },
+        {
+          "title": "Former President of Liberia",
+          "quotes": [
+            "Former President of Liberia and Africa’s first elected female head of state"
+          ]
+        },
+        {
+          "title": "Africa’s first elected female head of state",
+          "quotes": [
+            "Former President of Liberia and Africa’s first elected female head of state",
+            "Africa’s first elected female Head of State"
+          ]
+        },
+        {
+          "title": "Nobel Peace Laureate",
+          "quotes": [
+            "Nobel Peace Laureate"
+          ]
+        },
+        {
+          "title": "Promoter of peace, justice and democratic rule",
+          "quotes": [
+            "a leading promoter of peace, justice and democratic rule"
+          ]
+        },
+        {
+          "title": "Advocate for health for all",
+          "quotes": [
+            "advocate for health for all"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Liberia",
+          "quotes": [
+            "Former President of Liberia and Africa’s first elected female head of state"
+          ]
+        },
+        {
+          "place": "Africa",
+          "quotes": [
+            "Africa’s first elected female head of state",
+            "Africa’s first elected female Head of State"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Member of The Elders"
+        ],
+        "confidence": "high",
+        "notes": "Directly stated membership in The Elders."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1,
+          2
+        ],
+        "location_ids": [
+          0,
+          1
+        ],
+        "supporting_quotes": [
+          "Former President of Liberia and Africa’s first elected female head of state",
+          "Africa’s first elected female Head of State"
+        ],
+        "confidence": "high",
+        "notes": "Former President of Liberia and Africa’s first elected female head of state are clearly linked roles."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Nobel Peace Laureate"
+        ],
+        "confidence": "high",
+        "notes": "Nobel Peace Laureate is a one-time recognition."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "a leading promoter of peace, justice and democratic rule"
+        ],
+        "confidence": "medium",
+        "notes": "Promoter of peace, justice, and democratic rule implies ongoing advocacy work."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          5
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "advocate for health for all"
+        ],
+        "confidence": "medium",
+        "notes": "Advocate for health for all implies ongoing advocacy work."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers and organization for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers and organization for award."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers, organization, and location for career position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Role 'Promoter of peace, justice and democratic rule' may not clearly indicate an active career position."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers, organization, and location for career position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Role 'Advocate for health for all' may not clearly indicate an active career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 0,
+      "warnings": 5,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 1
+    }
+  }
+}

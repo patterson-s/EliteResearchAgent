@@ -1,0 +1,129 @@
+{
+  "status": "success",
+  "chunk_id": 2645,
+  "chunk_index": 0,
+  "source_url": "https://www.indonesia-investments.com/culture/politics/reformation/susilo-bambang-yudhoyono/item7596?",
+  "title": "Susilo Bambang Yudhoyono Government - SBY | Indonesia Investments",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2001-2004",
+          "type": "range",
+          "quotes": [
+            "After Indonesia was ruled for three years by the administration under the leadership of President Megawati Sukarnoputri (2001-2004), daughter of the late Soekarno, it was time for new parliamentary and presidential elections in Indonesia, Southeast Asia's largest economy and the world's largest archipelago."
+          ]
+        },
+        {
+          "text": "April 2004",
+          "type": "point",
+          "quotes": [
+            "In April 2004 approximately 84 percent of the Indonesian electorate (or around 113.5 million people) casted their vote for national parliament."
+          ]
+        },
+        {
+          "text": "2004",
+          "type": "point",
+          "quotes": [
+            "However, both Megawati and her PDI-P party lost a big chunk of popular support ahead of the 2004 elections and therefore many believed she would have to exit the presidential palace after the elections."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "PDI-P",
+          "quotes": [
+            "However, both Megawati and her PDI-P party lost a big chunk of popular support ahead of the 2004 elections and therefore many believed she would have to exit the presidential palace after the elections."
+          ]
+        },
+        {
+          "name": "Golkar",
+          "quotes": [
+            "In this election the two biggest parties of the previous election, to wit Golkar and PDI-P,"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "President",
+          "quotes": [
+            "After Indonesia was ruled for three years by the administration under the leadership of President Megawati Sukarnoputri (2001-2004), daughter of the late Soekarno, it was time for new parliamentary and presidential elections in Indonesia, Southeast Asia's largest economy and the world's largest archipelago."
+          ]
+        },
+        {
+          "title": "former army general",
+          "quotes": [
+            "Over the next decade Indonesia would see a new president: former army general Susilo Bambang Yudhoyono."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Indonesia",
+          "quotes": [
+            "After Indonesia was ruled for three years by the administration under the leadership of President Megawati Sukarnoputri (2001-2004), daughter of the late Soekarno, it was time for new parliamentary and presidential elections in Indonesia, Southeast Asia's largest economy and the world's largest archipelago."
+          ]
+        },
+        {
+          "place": "Southeast Asia",
+          "quotes": [
+            "After Indonesia was ruled for three years by the administration under the leadership of President Megawati Sukarnoputri (2001-2004), daughter of the late Soekarno, it was time for new parliamentary and presidential elections in Indonesia, Southeast Asia's largest economy and the world's largest archipelago."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0,
+          1
+        ],
+        "supporting_quotes": [
+          "After Indonesia was ruled for three years by the administration under the leadership of President Megawati Sukarnoputri (2001-2004), daughter of the late Soekarno, it was time for new parliamentary and presidential elections in Indonesia, Southeast Asia's largest economy and the world's largest archipelago."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, role, and location."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quote does not explicitly mention the role or responsibilities of the career position, only the time and location."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

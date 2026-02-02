@@ -1,0 +1,364 @@
+{
+  "status": "success",
+  "chunk_id": 1002,
+  "chunk_index": 3,
+  "source_url": "https://en.wikipedia.org/wiki/Doris_Leuthard",
+  "title": "Doris Leuthard - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2006–2018",
+          "type": "range",
+          "quotes": [
+            "Member of the Swiss Federal Council 2006–2018",
+            "Head of the Department of Environment, Transport, Energy and Communications 2010–2018"
+          ]
+        },
+        {
+          "text": "2006–2010",
+          "type": "range",
+          "quotes": [
+            "Head of the Department of Economic Affairs 2006–2010"
+          ]
+        },
+        {
+          "text": "2009",
+          "type": "point",
+          "quotes": [
+            "Vice President of Switzerland 2009"
+          ]
+        },
+        {
+          "text": "2010",
+          "type": "point",
+          "quotes": [
+            "President of Switzerland 2010"
+          ]
+        },
+        {
+          "text": "2016",
+          "type": "point",
+          "quotes": [
+            "Vice President of Switzerland 2016"
+          ]
+        },
+        {
+          "text": "2017",
+          "type": "point",
+          "quotes": [
+            "President of Switzerland 2017"
+          ]
+        },
+        {
+          "text": "23 September 2010",
+          "type": "point",
+          "quotes": [
+            "Address by Doris Leuthard (as President of Switzerland) at the General Debate of the 65th Session of the General Assembly of the United Nations, 23 September 2010"
+          ]
+        },
+        {
+          "text": "26 September 2006",
+          "type": "point",
+          "quotes": [
+            "Andreas Steigmeier: Doris Leuthard in German, French and Italian in the online Historical Dictionary of Switzerland, 26 September 2006"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Swiss Federal Council",
+          "quotes": [
+            "Member of the Swiss Federal Council 2006–2018",
+            "Profile of Doris Leuthard with election results on the website of the Swiss Federal Council"
+          ]
+        },
+        {
+          "name": "Swiss Parliament",
+          "quotes": [
+            "Biography of Doris Leuthard on the website of the Swiss Parliament"
+          ]
+        },
+        {
+          "name": "General Assembly of the United Nations",
+          "quotes": [
+            "Address by Doris Leuthard (as President of Switzerland) at the General Debate of the 65th Session of the General Assembly of the United Nations, 23 September 2010"
+          ]
+        },
+        {
+          "name": "Historical Dictionary of Switzerland",
+          "quotes": [
+            "Andreas Steigmeier: Doris Leuthard in German, French and Italian in the online Historical Dictionary of Switzerland, 26 September 2006"
+          ]
+        },
+        {
+          "name": "Department of Economic Affairs",
+          "quotes": [
+            "Head of the Department of Economic Affairs 2006–2010"
+          ]
+        },
+        {
+          "name": "Department of Environment, Transport, Energy and Communications",
+          "quotes": [
+            "Head of the Department of Environment, Transport, Energy and Communications 2010–2018"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Member of the Swiss Federal Council",
+          "quotes": [
+            "Member of the Swiss Federal Council 2006–2018"
+          ]
+        },
+        {
+          "title": "Head of the Department of Economic Affairs",
+          "quotes": [
+            "Head of the Department of Economic Affairs 2006–2010"
+          ]
+        },
+        {
+          "title": "Vice President of Switzerland",
+          "quotes": [
+            "Vice President of Switzerland 2009",
+            "Vice President of Switzerland 2016"
+          ]
+        },
+        {
+          "title": "President of Switzerland",
+          "quotes": [
+            "President of Switzerland 2010",
+            "President of Switzerland 2017",
+            "Address by Doris Leuthard (as President of Switzerland) at the General Debate of the 65th Session of the General Assembly of the United Nations, 23 September 2010"
+          ]
+        },
+        {
+          "title": "Head of the Department of Environment, Transport, Energy and Communications",
+          "quotes": [
+            "Head of the Department of Environment, Transport, Energy and Communications 2010–2018"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Member of the Swiss Federal Council 2006–2018",
+          "Profile of Doris Leuthard with election results on the website of the Swiss Federal Council"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Head of the Department of Economic Affairs 2006–2010"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "President of Switzerland 2010"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time and role"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "President of Switzerland 2017"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time and role"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Vice President of Switzerland 2009"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time and role"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Vice President of Switzerland 2016"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time and role"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          6
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Address by Doris Leuthard (as President of Switzerland) at the General Debate of the 65th Session of the General Assembly of the United Nations, 23 September 2010"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Head of the Department of Environment, Transport, Energy and Communications 2010–2018"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role"
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing organization information for the role of Vice President of Switzerland in 2009"
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing organization information for the role of President of Switzerland in 2010"
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing organization information for the role of Vice President of Switzerland in 2016"
+          }
+        ]
+      },
+      {
+        "event_id": 5,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing organization information for the role of President of Switzerland in 2017"
+          }
+        ]
+      },
+      {
+        "event_id": 6,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 7,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 8,
+      "valid": 4,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 8,
+      "awards": 0
+    }
+  }
+}

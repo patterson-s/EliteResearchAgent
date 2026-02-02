@@ -1,0 +1,195 @@
+{
+  "status": "success",
+  "chunk_id": 1159,
+  "chunk_index": 2,
+  "source_url": "https://ke.linkedin.com/in/nanjira",
+  "title": "Nanjira Sambuli - Nairobi County, Kenya | Professional Profile | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "this week",
+          "type": "point",
+          "quotes": [
+            "Had the good fortune to be in good company at the DPI Summit in Cape Town this week."
+          ]
+        },
+        {
+          "text": "this week",
+          "type": "point",
+          "quotes": [
+            "We’ve got two great posts up at the Development Ekko this week!"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "DPI Summit",
+          "quotes": [
+            "Had the good fortune to be in good company at the DPI Summit in Cape Town this week."
+          ]
+        },
+        {
+          "name": "Development Ekko",
+          "quotes": [
+            "We’ve got two great posts up at the Development Ekko this week!"
+          ]
+        },
+        {
+          "name": "High Court",
+          "quotes": [
+            "Almost missed the news that The 🇰🇪 High Court ruled against declaring access to the internet a fundamental right, esp as government services are…"
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": [
+        {
+          "place": "Cape Town",
+          "quotes": [
+            "Had the good fortune to be in good company at the DPI Summit in Cape Town this week."
+          ]
+        },
+        {
+          "place": "Kenya",
+          "quotes": [
+            "Almost missed the news that The 🇰🇪 High Court ruled against declaring access to the internet a fundamental right, esp as government services are…"
+          ]
+        },
+        {
+          "place": "Europe",
+          "quotes": [
+            "The ‘Brussels Effect’, the idea that companies outside Europe…"
+          ]
+        },
+        {
+          "place": "Brussels",
+          "quotes": [
+            "The ‘Brussels Effect’ isn’t the sole thrust in shaping the global technological order!"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Had the good fortune to be in good company at the DPI Summit in Cape Town this week."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit role mentioned, but attendance at a summit suggests professional involvement."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "We’ve got two great posts up at the Development Ekko this week!"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit role mentioned, but involvement with posts suggests professional affiliation."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Almost missed the news that The 🇰🇪 High Court ruled against declaring access to the internet a fundamental right, esp as government services are…"
+        ],
+        "confidence": "low",
+        "notes": "No explicit role or time marker, but mention of the High Court ruling suggests professional context."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. While attendance at a summit suggests professional involvement, no explicit role is mentioned."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classification as 'career_position' is questionable without clear role or responsibilities mentioned."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role and location information. Involvement with posts suggests professional affiliation, but no explicit role or location is provided."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classification as 'career_position' is questionable without clear role or responsibilities mentioned."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "error",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing time marker and role information. While the context suggests professional involvement, no explicit role or time is provided."
+          },
+          {
+            "type": "quote_support",
+            "severity": "medium",
+            "description": "Supporting quote does not clearly mention the individual's role or involvement with the High Court ruling."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classification as 'career_position' is questionable without clear role or responsibilities mentioned."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 1,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

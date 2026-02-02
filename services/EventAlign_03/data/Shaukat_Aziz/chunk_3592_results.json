@@ -1,0 +1,136 @@
+{
+  "status": "success",
+  "chunk_id": 3592,
+  "chunk_index": 1,
+  "source_url": "https://berggruen.org/people/shaukat-aziz",
+  "title": "Berggruen Institute",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "May 2016",
+          "type": "point",
+          "quotes": [
+            "Mr. Aziz’s book, From Banking to the Thorny World of Politics, was published by Quartet in May 2016 and is available on Amazon.com."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "21st Century Council",
+          "quotes": [
+            "Shaukat Aziz was previously a member of the 21st Century Council."
+          ]
+        },
+        {
+          "name": "Berggruen Institute",
+          "quotes": [
+            "Berggruen Institute"
+          ]
+        },
+        {
+          "name": "Quartet",
+          "quotes": [
+            "Mr. Aziz’s book, From Banking to the Thorny World of Politics, was published by Quartet in May 2016 and is available on Amazon.com."
+          ]
+        },
+        {
+          "name": "Amazon.com",
+          "quotes": [
+            "Mr. Aziz’s book, From Banking to the Thorny World of Politics, was published by Quartet in May 2016 and is available on Amazon.com."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "member of several boards and advisory boards",
+          "quotes": [
+            "Mr. Aziz is a member of several boards and advisory boards of various commercial and non-profit entities around the world."
+          ]
+        },
+        {
+          "title": "member",
+          "quotes": [
+            "Shaukat Aziz was previously a member of the 21st Century Council."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Shaukat Aziz was previously a member of the 21st Century Council."
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker provided, but the role and organization are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Mr. Aziz is a member of several boards and advisory boards of various commercial and non-profit entities around the world."
+        ],
+        "confidence": "medium",
+        "notes": "No specific organization or time marker provided, but the role indicates ongoing career positions."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position, making it difficult to place in a timeline."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization and time marker, making the event incomplete and unverifiable."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The role 'member of several boards and advisory boards' is vague and could be misclassified without more context."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

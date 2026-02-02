@@ -1,0 +1,211 @@
+{
+  "status": "success",
+  "chunk_id": 363,
+  "chunk_index": 1,
+  "source_url": "https://corporatecitizen.in/v4-issue10/cover-story-dynamic-duo-75-indira-and%20-lt-gen-sat%20ish-nambiar-retd-breaking-barriers.html",
+  "title": "Cover Story: Dynamic Duo: 75 Indira and Lt. Gen.Satish Nambiar (retd) Breaking Barriers",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In 2009",
+          "type": "point",
+          "quotes": [
+            "In 2009, in recognition of his sustained efforts in the study and analysis of âNational Security Affairsâ, he was conferred the Padma Bhushan."
+          ]
+        },
+        {
+          "text": "1936",
+          "type": "point",
+          "quotes": [
+            "I was born in Mumbai in 1936 into a family belonging to the Nair community, a warrior clan in Kerala."
+          ]
+        },
+        {
+          "text": "early nineteen forties",
+          "type": "point",
+          "quotes": [
+            "While I did my first three years of schooling in Puneâs St. Vincentâs High School in the early nineteen forties, the rest of my education was in Mumbai (St Maryâs High School and St Xavierâs College)."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Indian Army",
+          "quotes": [
+            "How did you come to join the Indian Army?",
+            "I chose the latter."
+          ]
+        },
+        {
+          "name": "20th Maratha Light Infantry",
+          "quotes": [
+            "my instructors just happened to be from the 20th Maratha Light Infantry and that was how and why I later opted for the Marathas (laughs)."
+          ]
+        },
+        {
+          "name": "NCC",
+          "quotes": [
+            "While in college, I was part of the NCC, and my instructors just happened to be from the 20th Maratha Light Infantry"
+          ]
+        },
+        {
+          "name": "NDA",
+          "quotes": [
+            "In those days, one had the choice of joining the NDA after school or enrol as a direct entry to the Indian Military Academy after your Intermediate."
+          ]
+        },
+        {
+          "name": "Indian Military Academy",
+          "quotes": [
+            "In those days, one had the choice of joining the NDA after school or enrol as a direct entry to the Indian Military Academy after your Intermediate."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "young officer in 20th Maratha Light Infantry",
+          "quotes": [
+            "As a young officer in 20th"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Mumbai",
+          "quotes": [
+            "I was born in Mumbai in 1936 into a family belonging to the Nair community, a warrior clan in Kerala.",
+            "the rest of my education was in Mumbai (St Maryâs High School and St Xavierâs College)."
+          ]
+        },
+        {
+          "place": "Pune",
+          "quotes": [
+            "While I did my first three years of schooling in Puneâs St. Vincentâs High School in the early nineteen forties, the rest of my education was in Mumbai (St Maryâs High School and St Xavierâs College)."
+          ]
+        },
+        {
+          "place": "Kerala",
+          "quotes": [
+            "I was born in Mumbai in 1936 into a family belonging to the Nair community, a warrior clan in Kerala."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2009, in recognition of his sustained efforts in the study and analysis of âNational Security Affairsâ, he was conferred the Padma Bhushan."
+        ],
+        "confidence": "high",
+        "notes": "Clear award recognition with no associated role or organization"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "As a young officer in 20th",
+          "my instructors just happened to be from the 20th Maratha Light Infantry and that was how and why I later opted for the Marathas (laughs)."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time marker, but role and organization are clearly linked"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "While in college, I was part of the NCC, and my instructors just happened to be from the 20th Maratha Light Infantry"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit role mentioned, but organization and context imply career position"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In those days, one had the choice of joining the NDA after school or enrol as a direct entry to the Indian Military Academy after your Intermediate."
+        ],
+        "confidence": "low",
+        "notes": "No explicit role or time marker, but organization mentioned in career context"
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position"
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role for career position"
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing role and time marker for career position"
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 1,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 1
+    }
+  }
+}

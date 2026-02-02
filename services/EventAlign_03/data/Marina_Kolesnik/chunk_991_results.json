@@ -1,0 +1,128 @@
+{
+  "status": "success",
+  "chunk_id": 991,
+  "chunk_index": 2,
+  "source_url": "https://people.equilar.com/bio/person/marina-kolesnik-donkey-republic/28183511",
+  "title": "Marina Kolesnik - Executive Bio, Work History, and Contacts - Equilar ExecAtlas",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Diversified Search Group",
+          "quotes": [
+            "Megan Shattuck, Global Managing Partner, Corporate Business, Diversified Search Group"
+          ]
+        },
+        {
+          "name": "EPIQ Capital Group",
+          "quotes": [
+            "Christine Leong Connors, President and Partner, EPIQ Capital Group"
+          ]
+        },
+        {
+          "name": "ExecAtlas",
+          "quotes": [
+            "By integrating seamlessly with Salesforce, [ExecAtlas] enables our team to not only pinpoint key contacts across the organization",
+            "ExecAtlas Solutions",
+            "ExecAtlas Portal",
+            "ExecAtlas for CRM"
+          ]
+        },
+        {
+          "name": "Salesforce",
+          "quotes": [
+            "By integrating seamlessly with Salesforce, [ExecAtlas] enables our team to not only pinpoint key contacts across the organization"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Global Managing Partner, Corporate Business",
+          "quotes": [
+            "Megan Shattuck, Global Managing Partner, Corporate Business, Diversified Search Group"
+          ]
+        },
+        {
+          "title": "President and Partner",
+          "quotes": [
+            "Christine Leong Connors, President and Partner, EPIQ Capital Group"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Megan Shattuck, Global Managing Partner, Corporate Business, Diversified Search Group"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role and organization in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Christine Leong Connors, President and Partner, EPIQ Capital Group"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role and organization in the same quote."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

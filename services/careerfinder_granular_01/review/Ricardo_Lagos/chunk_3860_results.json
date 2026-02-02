@@ -1,0 +1,144 @@
+{
+  "status": "success",
+  "chunk_id": 3860,
+  "chunk_index": 25,
+  "source_url": "https://www.pbs.org/wgbh/commandingheights/shared/minitext/int_ricardolagos.html",
+  "title": "Commanding Heights : Ricardo Lagos | on PBS",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "PBS",
+          "quotes": [
+            "So once upon a time on PBS you told Pinochet what you thought."
+          ]
+        },
+        {
+          "name": "Central Bank of Chile",
+          "quotes": [
+            "Is the rate of interest that the president of the Central Bank of Chile fixes more important, or is the rate of interest of [another economy] more important?"
+          ]
+        },
+        {
+          "name": "Bank of England",
+          "quotes": [
+            "I remember once Keynes said never, never the Bank of England; that what is the most important demonstration of economy of a country is to establish the rate of interest."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "president",
+          "quotes": [
+            "You were an economist, and now you're a president."
+          ]
+        },
+        {
+          "title": "economist",
+          "quotes": [
+            "You were an economist, and now you're a president."
+          ]
+        },
+        {
+          "title": "president of the Central Bank of Chile",
+          "quotes": [
+            "Is the rate of interest that the president of the Central Bank of Chile fixes more important, or is the rate of interest of [another economy] more important?"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Chile",
+          "quotes": [
+            "Is the rate of interest that the president of the Central Bank of Chile fixes more important, or is the rate of interest of [another economy] more important?"
+          ]
+        },
+        {
+          "place": "England",
+          "quotes": [
+            "I remember the last time that I was in England I talked with"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Is the rate of interest that the president of the Central Bank of Chile fixes more important, or is the rate of interest of [another economy] more important?"
+        ],
+        "confidence": "high",
+        "notes": "Direct mention of role and organization in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "You were an economist, and now you're a president."
+        ],
+        "confidence": "medium",
+        "notes": "No specific organization or location mentioned, but roles are clearly linked."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization and location for career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quote does not clearly support specific career position details, only role transition."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

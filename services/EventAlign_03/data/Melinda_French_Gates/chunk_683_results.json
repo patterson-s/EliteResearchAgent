@@ -1,0 +1,141 @@
+{
+  "status": "success",
+  "chunk_id": 683,
+  "chunk_index": 0,
+  "source_url": "https://www.givingpledge.org/pledger/melinda-french-gates/",
+  "title": "Melinda French Gates - The Giving Pledge",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "Over four decades ago",
+          "type": "point",
+          "quotes": [
+            "Over four decades ago, when I was a high school senior in Dallas, Texas, I had the chance to speak at my class’s graduation ceremony."
+          ]
+        },
+        {
+          "text": "In 2000",
+          "type": "point",
+          "quotes": [
+            "In 2000, I helped create the Gates Foundation, which is dedicated to a world where every person has the chance to lead a healthy and productive life."
+          ]
+        },
+        {
+          "text": "In 2015",
+          "type": "point",
+          "quotes": [
+            "In 2015, I launched Pivotal, which"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Gates Foundation",
+          "quotes": [
+            "In 2000, I helped create the Gates Foundation, which is dedicated to a world where every person has the chance to lead a healthy and productive life."
+          ]
+        },
+        {
+          "name": "Pivotal",
+          "quotes": [
+            "In 2015, I launched Pivotal, which"
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": [
+        {
+          "place": "Dallas, Texas",
+          "quotes": [
+            "Over four decades ago, when I was a high school senior in Dallas, Texas, I had the chance to speak at my class’s graduation ceremony."
+          ]
+        },
+        {
+          "place": "North Carolina",
+          "quotes": [
+            "At the time, I was on the cusp of an exciting new chapter: a move to North Carolina to pursue a degree in computer science."
+          ]
+        },
+        {
+          "place": "United States",
+          "quotes": [
+            "I commit my time, energy, and efforts to the work of fighting poverty and advancing equality—for women and girls and other marginalized groups—in the United States and around the world."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2000, I helped create the Gates Foundation, which is dedicated to a world where every person has the chance to lead a healthy and productive life."
+        ],
+        "confidence": "high",
+        "notes": "No specific role mentioned, but creating an organization implies a founding or leadership role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2015, I launched Pivotal, which"
+        ],
+        "confidence": "high",
+        "notes": "No specific role mentioned, but launching an organization implies a founding or leadership role."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. While the event implies a founding or leadership role, no specific role is mentioned."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. While the event implies a founding or leadership role, no specific role is mentioned."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

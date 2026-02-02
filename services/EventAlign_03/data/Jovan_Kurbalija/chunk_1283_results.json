@@ -1,0 +1,186 @@
+{
+  "status": "success",
+  "chunk_id": 1283,
+  "chunk_index": 3,
+  "source_url": "https://www.diplomacy.edu/people/jovan-kurbalija/",
+  "title": "Jovan Kurbalija | Diplo",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2025",
+          "type": "point",
+          "quotes": [
+            "2025 *UPCOMING* Diplomacy decoded: 300+ types of diplomacy explained"
+          ]
+        },
+        {
+          "text": "2007",
+          "type": "point",
+          "quotes": [
+            "2007 E-Diplomacy the Challenge for Ministries of Foreign Affairs"
+          ]
+        },
+        {
+          "text": "2024",
+          "type": "point",
+          "quotes": [
+            "2024 Protected: Diplomacy Reimagined: Competencies 2040"
+          ]
+        },
+        {
+          "text": "2024",
+          "type": "point",
+          "quotes": [
+            "2024 Protected: Tech Diplomacy: Actors, Trends, and Controversies – Full Book"
+          ]
+        },
+        {
+          "text": "2024",
+          "type": "point",
+          "quotes": [
+            "2024 Tech Diplomacy: Actors, Trends, and Controversies"
+          ]
+        },
+        {
+          "text": "2007",
+          "type": "point",
+          "quotes": [
+            "2007 Diplomats as Writers"
+          ]
+        },
+        {
+          "text": "2024",
+          "type": "point",
+          "quotes": [
+            "2024 *UPCOMING* Understanding AI through national flags"
+          ]
+        },
+        {
+          "text": "2023",
+          "type": "point",
+          "quotes": [
+            "2023 History of Diplomacy and Technology: From Smoke Signals to Artificial Intelligence"
+          ]
+        },
+        {
+          "text": "2006",
+          "type": "point",
+          "quotes": [
+            "2006 A Day in the Life of an E-Diplomat (Ana Gabel story)"
+          ]
+        },
+        {
+          "text": "2022",
+          "type": "point",
+          "quotes": [
+            "2022 Rapport: Des voix africaines plus fortes dans le numérique : construire une politique étrangère et une diplomatie africaines du numérique"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Diplo",
+          "quotes": [
+            "The latest from Diplo and GIP",
+            "Diplo is a non-profit foundation established by the governments of Malta and Switzerland."
+          ]
+        },
+        {
+          "name": "Geneva Internet Platform",
+          "quotes": [
+            "The latest from Diplo and GIP"
+          ]
+        },
+        {
+          "name": "governments of Malta and Switzerland",
+          "quotes": [
+            "Diplo is a non-profit foundation established by the governments of Malta and Switzerland."
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The latest from Diplo and GIP"
+        ],
+        "confidence": "medium",
+        "notes": "No specific role or time marker, but the quote suggests an ongoing affiliation between Diplo and Geneva Internet Platform."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0,
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Diplo is a non-profit foundation established by the governments of Malta and Switzerland."
+        ],
+        "confidence": "high",
+        "notes": "No specific role or time marker, but the quote establishes a foundational relationship between Diplo and the governments of Malta and Switzerland."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role and time marker information, making it difficult to verify the nature and duration of the career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "The quote 'The latest from Diplo and GIP' does not clearly establish a specific role or responsibility, only an affiliation."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role and time marker information, making it difficult to verify the nature and duration of the career position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The quote describes a foundational relationship rather than an active career position, which might be more appropriately classified as an organizational affiliation."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

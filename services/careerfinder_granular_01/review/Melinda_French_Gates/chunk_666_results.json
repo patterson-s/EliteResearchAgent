@@ -1,0 +1,79 @@
+{
+  "status": "success",
+  "chunk_id": 666,
+  "chunk_index": 8,
+  "source_url": "https://www.linkedin.com/in/melindagates",
+  "title": "Melinda French Gates - Founder of Pivotal. Co-founder of the Gates Foundation. Author of The Moment of Lift & The Next Day. | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "IHS Foundation",
+          "quotes": [
+            "Ben Lee, IHS Foundation, discusses 'Trust-based philanthropy' as an increasingly popular phrase in grantmaking circles."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Ben Lee",
+          "quotes": [
+            "Ben Lee, IHS Foundation, discusses 'Trust-based philanthropy' as an increasingly popular phrase in grantmaking circles."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Ben Lee, IHS Foundation, discusses 'Trust-based philanthropy' as an increasingly popular phrase in grantmaking circles."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time marker, but the role and organization are clearly linked in the quote. Assuming 'Ben Lee' is associated with IHS Foundation in a professional capacity."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker information, making temporal coherence impossible to verify."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The role 'Ben Lee' appears to be a name rather than a job title, which is atypical for a career_position. Consider verifying if this is a person's name or an actual role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

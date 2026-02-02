@@ -1,0 +1,101 @@
+{
+  "status": "success",
+  "chunk_id": 3411,
+  "chunk_index": 9,
+  "source_url": "https://conflictfieldresearch.colgate.edu/wp-content/uploads/2015/02/9_Reflections_on_Policy_Space.pdf",
+  "title": "9_Reflections_on_Policy_Space.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "UN",
+          "quotes": [
+            "he gave an order to all the UN organizations that anything I asked for would come as priority, because what I was doing was not just for Timor, it was for the UN too."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Sergio de Mello’s administrative person",
+          "quotes": [
+            "he sent his administrative person and he came out and the message was whatever I wanted I get it."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Adelaide",
+          "quotes": [
+            "She actually rung up the printer in Adelaide and stopped them.",
+            "truckloads [of pamphlets] left Adelaide to Darwin."
+          ]
+        },
+        {
+          "place": "Darwin",
+          "quotes": [
+            "I need it to go to Darwin and get all the books.",
+            "truckloads [of pamphlets] left Adelaide to Darwin."
+          ]
+        },
+        {
+          "place": "Dili",
+          "quotes": [
+            "When they arrived [in Dili] they went to all the districts to be distributed and then we got our copies for the donor’s conference and we pulled it off."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "he sent his administrative person and he came out and the message was whatever I wanted I get it.",
+          "he gave an order to all the UN organizations that anything I asked for would come as priority, because what I was doing was not just for Timor, it was for the UN too."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time markers, but the role and organization are clearly linked. The role appears to be an active position within the UN, hence classified as a career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the event, making temporal coherence impossible to verify."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quotes do not explicitly state the role or responsibilities, only imply an administrative function related to the UN."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

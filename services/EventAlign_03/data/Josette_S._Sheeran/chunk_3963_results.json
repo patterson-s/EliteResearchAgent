@@ -1,0 +1,209 @@
+{
+  "status": "success",
+  "chunk_id": 3963,
+  "chunk_index": 8,
+  "source_url": "https://www.tparents.org/Library/Unification/Talks5/Sheeran/Sheeran-190119.pdf",
+  "title": "Sheeran-190119.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "November 8, 2006",
+          "type": "point",
+          "quotes": [
+            "swissinfo.org, November 8, 2006"
+          ]
+        },
+        {
+          "text": "2007-08-11",
+          "type": "point",
+          "quotes": [
+            "Elisabeth Rosenthal, New York Times, 2007-08-11"
+          ]
+        },
+        {
+          "text": "2008-05-01",
+          "type": "point",
+          "quotes": [
+            "Business Week, 2008-05-01"
+          ]
+        },
+        {
+          "text": "2011-05-21",
+          "type": "point",
+          "quotes": [
+            "Eric Reguly, CTV News, 2011-05-21"
+          ]
+        },
+        {
+          "text": "2009–2012",
+          "type": "range",
+          "quotes": [
+            "Under Secretary of State for Economic, Business, and Agricultural Affairs, 2009–2012"
+          ]
+        },
+        {
+          "text": "2007–2012",
+          "type": "range",
+          "quotes": [
+            "Executive Director of the World Food Programme, 2007–2012"
+          ]
+        },
+        {
+          "text": "19 January 2019, at 01:53 (UTC)",
+          "type": "point",
+          "quotes": [
+            "This page was last edited on 19 January 2019, at 01:53 (UTC)"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "World Food Programme",
+          "quotes": [
+            "Executive Director of the World Food Programme, 2007–2012"
+          ]
+        },
+        {
+          "name": "United Nations",
+          "quotes": [
+            "Under-Secretaries-General of the United Nations",
+            "Representatives of the United States to the United Nations Agencies for Food and Agriculture"
+          ]
+        },
+        {
+          "name": "University of Colorado",
+          "quotes": [
+            "University of Colorado alumni"
+          ]
+        },
+        {
+          "name": "U.S. Department of State",
+          "quotes": [
+            "Under Secretary of State for Economic, Business, and Agricultural Affairs"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Under Secretary of State for Economic, Business, and Agricultural Affairs",
+          "quotes": [
+            "Under Secretary of State for Economic, Business, and Agricultural Affairs, 2009–2012"
+          ]
+        },
+        {
+          "title": "Executive Director of the World Food Programme",
+          "quotes": [
+            "Executive Director of the World Food Programme, 2007–2012"
+          ]
+        },
+        {
+          "title": "Under-Secretary-General of the United Nations",
+          "quotes": [
+            "Under-Secretaries-General of the United Nations"
+          ]
+        },
+        {
+          "title": "Representative of the United States to the United Nations Agencies for Food and Agriculture",
+          "quotes": [
+            "Representatives of the United States to the United Nations Agencies for Food and Agriculture"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Executive Director of the World Food Programme, 2007–2012"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role, organization, and time period."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Under Secretary of State for Economic, Business, and Agricultural Affairs, 2009–2012"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role, organization, and time period."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          2,
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Under-Secretaries-General of the United Nations",
+          "Representatives of the United States to the United Nations Agencies for Food and Agriculture"
+        ],
+        "confidence": "medium",
+        "notes": "No specific time period mentioned, but roles and organization are clearly linked."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time period for career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 2,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "status": "success",
+  "chunk_id": 3546,
+  "chunk_index": 2,
+  "source_url": "https://www.linkedin.com/in/amina-mohammed",
+  "title": "Amina J. Mohammed - United Nations | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "30 years ago",
+          "type": "point",
+          "quotes": [
+            "Women’s rights are human rights. We said it in Beijing 30 years ago — and we say it again today."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "EU",
+          "quotes": [
+            "From the EU to South Africa — the journey continues, and so does the work."
+          ]
+        },
+        {
+          "name": "UN",
+          "quotes": [
+            "Saddened by the passing of Jane Goodall — a remarkable human being, our UN Messenger of Peace and a tireless advocate for our planet."
+          ]
+        },
+        {
+          "name": "United Nations",
+          "quotes": [
+            "As the United Nations marks 80 years, we pause — not at the summit, but at a milestone."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "UN Messenger of Peace",
+          "quotes": [
+            "Saddened by the passing of Jane Goodall — a remarkable human being, our UN Messenger of Peace and a tireless advocate for our planet."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Beijing",
+          "quotes": [
+            "Women’s rights are human rights. We said it in Beijing 30 years ago — and we say it again today."
+          ]
+        },
+        {
+          "place": "South Africa",
+          "quotes": [
+            "From the EU to South Africa — the journey continues, and so does the work."
+          ]
+        },
+        {
+          "place": "New York",
+          "quotes": [
+            "UNGA may be behind us, but the work doesn’t stop. From New York to Brussels, it’s about keeping the momentum — turning the commitments we make into…"
+          ]
+        },
+        {
+          "place": "Brussels",
+          "quotes": [
+            "UNGA may be behind us, but the work doesn’t stop. From New York to Brussels, it’s about keeping the momentum — turning the commitments we make into…"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Saddened by the passing of Jane Goodall — a remarkable human being, our UN Messenger of Peace and a tireless advocate for our planet."
+        ],
+        "confidence": "high",
+        "notes": "UN Messenger of Peace is classified as an award since it is a recognition without explicit ongoing responsibilities mentioned."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time_marker_ids for the event, making it difficult to determine when the award was received."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "While 'UN Messenger of Peace' is classified as an award, the role typically involves ongoing advocacy, which could blur the line between award and career position. However, without explicit responsibilities mentioned, it is reasonable to classify it as an award."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 0,
+      "awards": 1
+    }
+  }
+}

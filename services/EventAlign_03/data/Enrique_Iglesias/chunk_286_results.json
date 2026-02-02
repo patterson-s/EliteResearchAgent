@@ -1,0 +1,230 @@
+{
+  "status": "success",
+  "chunk_id": 286,
+  "chunk_index": 1,
+  "source_url": "https://www.biography.com/musicians/enrique-iglesias",
+  "title": "Enrique Iglesias - Songs, Age & Kids",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1995",
+          "type": "point",
+          "quotes": [
+            "The hard work soon paid off, as Iglesias inked a record contract in 1995."
+          ]
+        },
+        {
+          "text": "1996",
+          "type": "point",
+          "quotes": [
+            "The following year Iglesias took home numerous accolades, including a 1996 Grammy Award for best Latin performer,"
+          ]
+        },
+        {
+          "text": "1997",
+          "type": "point",
+          "quotes": [
+            "Iglesias's 1997 follow-up, Vivir,"
+          ]
+        },
+        {
+          "text": "1999",
+          "type": "point",
+          "quotes": [
+            "In 1999, he made a career breakthrough with the song 'Bailamos' ('We Dance');"
+          ]
+        },
+        {
+          "text": "2000",
+          "type": "point",
+          "quotes": [
+            "Iglesias released his first all-English record, Enrique (2000),"
+          ]
+        },
+        {
+          "text": "2001",
+          "type": "point",
+          "quotes": [
+            "Escape (2001)."
+          ]
+        },
+        {
+          "text": "2003",
+          "type": "point",
+          "quotes": [
+            "the 2003 album 7;"
+          ]
+        },
+        {
+          "text": "2007",
+          "type": "point",
+          "quotes": [
+            "2007's Insomniac,"
+          ]
+        },
+        {
+          "text": "2010",
+          "type": "point",
+          "quotes": [
+            "2010's Euphoria,"
+          ]
+        },
+        {
+          "text": "March 2014",
+          "type": "point",
+          "quotes": [
+            "Iglesias delivered his next album, Sex and Love, in March 2014."
+          ]
+        },
+        {
+          "text": "2015",
+          "type": "point",
+          "quotes": [
+            "'El Perdón' with Nicky Jam in 2015"
+          ]
+        },
+        {
+          "text": "2016",
+          "type": "point",
+          "quotes": [
+            "'Duele el Corazón' with Wisin in 2016."
+          ]
+        },
+        {
+          "text": "2018",
+          "type": "point",
+          "quotes": [
+            "In 2018, Iglesias teamed with Bad Bunny on 'El Baño' and rejoined Pitbull for 'Move to Miami.'"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Billboard",
+          "quotes": [
+            "Billboard's 'Artist of the Year' and 'Album of the Year' honors,"
+          ]
+        },
+        {
+          "name": "Grammy Award",
+          "quotes": [
+            "a 1996 Grammy Award for best Latin performer,"
+          ]
+        },
+        {
+          "name": "American Music Awards",
+          "quotes": [
+            "a pair of American Music Awards."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "singer-songwriter",
+          "quotes": [
+            "Just when it seemed like Iglesias' career had hit its peak of success, the singer-songwriter released his most successful album to date: Escape"
+          ]
+        },
+        {
+          "title": "singer",
+          "quotes": [
+            "Iglesias's 1997 follow-up, Vivir, went big as well, registering more than 5 million in sales and launching the singer's first-ever world tour."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "a 1996 Grammy Award for best Latin performer,"
+        ],
+        "confidence": "high",
+        "notes": "Clear award mention with specific year and organization."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The hard work soon paid off, as Iglesias inked a record contract in 1995.",
+          "Iglesias's 1997 follow-up, Vivir, went big as well, registering more than 5 million in sales and launching the singer's first-ever world tour.",
+          "Just when it seemed like Iglesias' career had hit its peak of success, the singer-songwriter released his most successful album to date: Escape",
+          "In 1999, he made a career breakthrough with the song 'Bailamos' ('We Dance');",
+          "Iglesias released his first all-English record, Enrique (2000),",
+          "Escape (2001).",
+          "the 2003 album 7;",
+          "2007's Insomniac,",
+          "2010's Euphoria,",
+          "Iglesias delivered his next album, Sex and Love, in March 2014.",
+          "'El Perdón' with Nicky Jam in 2015",
+          "'Duele el Corazón' with Wisin in 2016.",
+          "In 2018, Iglesias teamed with Bad Bunny on 'El Baño' and rejoined Pitbull for 'Move to Miami.'"
+        ],
+        "confidence": "high",
+        "notes": "Multiple album releases and collaborations spanning years indicate ongoing career activities as a singer-songwriter."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing organization information for career activities."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 1
+    }
+  }
+}

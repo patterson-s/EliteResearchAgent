@@ -1,0 +1,320 @@
+{
+  "status": "success",
+  "chunk_id": 970,
+  "chunk_index": 3,
+  "source_url": "https://en.wikipedia.org/wiki/Bogolo_Kenewendo",
+  "title": "Bogolo Kenewendo - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1987",
+          "type": "point",
+          "quotes": [
+            "1987 births"
+          ]
+        },
+        {
+          "text": "21st-century",
+          "type": "open",
+          "quotes": [
+            "21st-century Botswana businesswomen",
+            "21st-century Botswana businesspeople",
+            "21st-century Botswana women politicians",
+            "21st-century Botswana politicians"
+          ]
+        },
+        {
+          "text": "April 2018",
+          "type": "point",
+          "quotes": [
+            "Use British English from April 2018"
+          ]
+        },
+        {
+          "text": "February 2021",
+          "type": "point",
+          "quotes": [
+            "Use dmy dates from February 2021"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "University of Botswana",
+          "quotes": [
+            "University of Botswana alumni"
+          ]
+        },
+        {
+          "name": "University of Sussex",
+          "quotes": [
+            "Alumni of the University of Sussex"
+          ]
+        },
+        {
+          "name": "National Assembly (Botswana)",
+          "quotes": [
+            "Members of the National Assembly (Botswana)"
+          ]
+        },
+        {
+          "name": "Parliament of Botswana",
+          "quotes": [
+            "Women members of the Parliament of Botswana"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "economists",
+          "quotes": [
+            "Botswana economists",
+            "Botswana women economists"
+          ]
+        },
+        {
+          "title": "businesswomen",
+          "quotes": [
+            "21st-century Botswana businesswomen"
+          ]
+        },
+        {
+          "title": "businesspeople",
+          "quotes": [
+            "21st-century Botswana businesspeople"
+          ]
+        },
+        {
+          "title": "politicians",
+          "quotes": [
+            "21st-century Botswana women politicians",
+            "21st-century Botswana politicians"
+          ]
+        },
+        {
+          "title": "government ministers",
+          "quotes": [
+            "Women government ministers of Botswana",
+            "Government ministers of Botswana"
+          ]
+        },
+        {
+          "title": "Members of the National Assembly",
+          "quotes": [
+            "Members of the National Assembly (Botswana)"
+          ]
+        },
+        {
+          "title": "Women members of the Parliament",
+          "quotes": [
+            "Women members of the Parliament of Botswana"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Botswana",
+          "quotes": [
+            "Botswana economists",
+            "21st-century Botswana businesswomen",
+            "21st-century Botswana businesspeople",
+            "21st-century Botswana women politicians",
+            "21st-century Botswana politicians",
+            "Botswana women economists",
+            "Women government ministers of Botswana",
+            "Government ministers of Botswana"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1,
+          2
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "21st-century Botswana businesswomen",
+          "21st-century Botswana businesspeople"
+        ],
+        "confidence": "medium",
+        "notes": "No specific organization mentioned, but roles and location are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          3,
+          4
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "21st-century Botswana women politicians",
+          "21st-century Botswana politicians",
+          "Women government ministers of Botswana",
+          "Government ministers of Botswana"
+        ],
+        "confidence": "medium",
+        "notes": "No specific organization mentioned, but roles and location are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Alumni of the University of Sussex"
+        ],
+        "confidence": "low",
+        "notes": "No role or time marker mentioned, only affiliation with the organization."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "University of Botswana alumni"
+        ],
+        "confidence": "low",
+        "notes": "No role or time marker mentioned, only affiliation with the organization."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          5
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Members of the National Assembly (Botswana)"
+        ],
+        "confidence": "high",
+        "notes": "Role and organization are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          6
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Women members of the Parliament of Botswana"
+        ],
+        "confidence": "high",
+        "notes": "Role and organization are clearly linked."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information, though roles and location are clear."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information, though roles and location are clear."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "error",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "high",
+            "description": "Event classified as career_position but lacks role and time marker, appears to be an educational affiliation."
+          },
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing role and time marker information."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "error",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "high",
+            "description": "Event classified as career_position but lacks role and time marker, appears to be an educational affiliation."
+          },
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing role and time marker information."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 5,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 6,
+      "valid": 2,
+      "warnings": 2,
+      "errors": 2,
+      "career_positions": 6,
+      "awards": 0
+    }
+  }
+}

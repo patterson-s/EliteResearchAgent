@@ -1,0 +1,221 @@
+{
+  "status": "success",
+  "chunk_id": 2752,
+  "chunk_index": 8,
+  "source_url": "https://achievement.org/achiever/ellen-johnson-sirleaf/",
+  "title": "Ellen Johnson Sirleaf | Academy of Achievement",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "at the end of 1980",
+          "type": "point",
+          "quotes": [
+            "When I left the country, at the end of 1980, I actually went back to the World Bank."
+          ]
+        },
+        {
+          "text": "in 1977",
+          "type": "point",
+          "quotes": [
+            "I was on leave from the World Bank when I came back in 1977."
+          ]
+        },
+        {
+          "text": "the mid ’80s",
+          "type": "point",
+          "quotes": [
+            "Why did you return to Liberia in the mid ’80s?"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "World Bank",
+          "quotes": [
+            "I actually went back to the World Bank.",
+            "I was on leave from the World Bank when I came back in 1977."
+          ]
+        },
+        {
+          "name": "Citicorp",
+          "quotes": [
+            "I had a very good offer from Citicorp."
+          ]
+        },
+        {
+          "name": "Citibank",
+          "quotes": [
+            "That’s what took me to Nairobi as a vice president of the Citibank regional office."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Vice President of the Citibank regional office",
+          "quotes": [
+            "That’s what took me to Nairobi as a vice president of the Citibank regional office."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Hawaii",
+          "quotes": [
+            "Archbishop Emeritus Desmond Tutu of South Africa applauds the President of Liberia, Ellen Johnson Sirleaf, during a panel discussion at the 2008 International Achievement Summit in Hawaii."
+          ]
+        },
+        {
+          "place": "South Africa",
+          "quotes": [
+            "Archbishop Emeritus Desmond Tutu of South Africa applauds the President of Liberia, Ellen Johnson Sirleaf, during a panel discussion at the 2008 International Achievement Summit in Hawaii."
+          ]
+        },
+        {
+          "place": "Liberia",
+          "quotes": [
+            "Why did you return to Liberia in the mid ’80s?"
+          ]
+        },
+        {
+          "place": "Kenya",
+          "quotes": [
+            "At some point you went to Kenya. Is that right?",
+            "That’s what took me to Nairobi as a vice president of the Citibank regional office."
+          ]
+        },
+        {
+          "place": "Nairobi",
+          "quotes": [
+            "That’s what took me to Nairobi as a vice president of the Citibank regional office."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "I was on leave from the World Bank when I came back in 1977."
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but the context suggests an ongoing position at the World Bank."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "When I left the country, at the end of 1980, I actually went back to the World Bank."
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but the context suggests an ongoing position at the World Bank."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "I had a very good offer from Citicorp."
+        ],
+        "confidence": "low",
+        "notes": "No specific role or time mentioned, but the context suggests a potential career position at Citicorp."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          4
+        ],
+        "supporting_quotes": [
+          "That’s what took me to Nairobi as a vice president of the Citibank regional office."
+        ],
+        "confidence": "high",
+        "notes": "Clear role and organization mentioned, with a specific location."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for the career position at the World Bank."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for the career position at the World Bank."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing role, time, and location information for the potential career position at Citicorp."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classification as 'career_position' is uncertain due to lack of specific details."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 1,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

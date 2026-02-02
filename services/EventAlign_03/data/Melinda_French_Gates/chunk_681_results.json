@@ -1,0 +1,139 @@
+{
+  "status": "success",
+  "chunk_id": 681,
+  "chunk_index": 5,
+  "source_url": "https://www.biography.com/business-leaders/melinda-gates",
+  "title": "Melinda French Gates: Biography, Philanthropist",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "November 2022",
+          "type": "point",
+          "quotes": [
+            "linked to journalist Jon Du Pre in November 2022."
+          ]
+        },
+        {
+          "text": "April 2019",
+          "type": "point",
+          "quotes": [
+            "In April 2019, French Gates released her first book,"
+          ]
+        },
+        {
+          "text": "April 15, 2025",
+          "type": "point",
+          "quotes": [
+            "set to be released April 15, 2025."
+          ]
+        },
+        {
+          "text": "August 2024",
+          "type": "point",
+          "quotes": [
+            "Catherine Caruso joined the Biography.com staff in August 2024,"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Biography.com",
+          "quotes": [
+            "The Biography.com staff is a team of people-obsessed and news-hungry editors with decades of collective experience.",
+            "Catherine Caruso joined the Biography.com staff in August 2024,"
+          ]
+        },
+        {
+          "name": "Syracuse University",
+          "quotes": [
+            "She is a graduate of Syracuse University, where she studied English literature."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Associate Profiles Editor",
+          "quotes": [
+            "Catherine Caruso joined the Biography.com staff in August 2024, having previously worked as a freelance journalist for several years. She is a graduate of Syracuse University, where she studied English literature."
+          ]
+        },
+        {
+          "title": "freelance journalist",
+          "quotes": [
+            "Catherine Caruso joined the Biography.com staff in August 2024, having previously worked as a freelance journalist for several years."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Catherine Caruso joined the Biography.com staff in August 2024,",
+          "The Biography.com staff is a team of people-obsessed and news-hungry editors with decades of collective experience.",
+          "Catherine Caruso joined the Biography.com staff in August 2024, having previously worked as a freelance journalist for several years."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time marker, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Catherine Caruso joined the Biography.com staff in August 2024, having previously worked as a freelance journalist for several years."
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker for this role, but it is mentioned as a previous position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the freelance journalist role, though it is mentioned as a previous position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

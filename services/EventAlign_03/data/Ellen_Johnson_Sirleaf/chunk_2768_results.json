@@ -1,0 +1,221 @@
+{
+  "status": "success",
+  "chunk_id": 2768,
+  "chunk_index": 24,
+  "source_url": "https://achievement.org/achiever/ellen-johnson-sirleaf/",
+  "title": "Ellen Johnson Sirleaf | Academy of Achievement",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "in ’69",
+          "type": "point",
+          "quotes": [
+            "I was a special assistant to the Minister of Finance in ’69 and then went off to graduate work at the Economics Institute of the University of Colorado at Boulder"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "World Bank",
+          "quotes": [
+            "It’s a long way from helping an accountant at an auto repair shop to working with the World Bank.",
+            "To get to the World Bank, I had already left the shop."
+          ]
+        },
+        {
+          "name": "Treasury Department",
+          "quotes": [
+            "I was working in the Treasury Department, what we now call the Ministry of Finance"
+          ]
+        },
+        {
+          "name": "Ministry of Finance",
+          "quotes": [
+            "I was working in the Treasury Department, what we now call the Ministry of Finance",
+            "I was a special assistant to the Minister of Finance in ’69"
+          ]
+        },
+        {
+          "name": "Economics Institute of the University of Colorado at Boulder",
+          "quotes": [
+            "I was a special assistant to the Minister of Finance in ’69 and then went off to graduate work at the Economics Institute of the University of Colorado at Boulder"
+          ]
+        },
+        {
+          "name": "Harvard",
+          "quotes": [
+            "That’s how come I did my graduate work at Harvard.",
+            "and then to Harvard, where I completed my master’s."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "special assistant to the Minister of Finance",
+          "quotes": [
+            "I was a special assistant to the Minister of Finance in ’69"
+          ]
+        },
+        {
+          "title": "Assistant Minister",
+          "quotes": [
+            "When I went off I had been Assistant Minister, you’re correct."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Liberia",
+          "quotes": [
+            "So once again you had to leave the kids in Liberia when you went off to graduate school?"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "I was a special assistant to the Minister of Finance in ’69",
+          "I was working in the Treasury Department, what we now call the Ministry of Finance"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role, organization, and time marker."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "I was a special assistant to the Minister of Finance in ’69 and then went off to graduate work at the Economics Institute of the University of Colorado at Boulder"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit role mentioned, but clear affiliation with the organization for graduate work."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "That’s how come I did my graduate work at Harvard.",
+          "and then to Harvard, where I completed my master’s."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit role mentioned, but clear affiliation with the organization for graduate work."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "It’s a long way from helping an accountant at an auto repair shop to working with the World Bank.",
+          "To get to the World Bank, I had already left the shop."
+        ],
+        "confidence": "low",
+        "notes": "No explicit role or time marker mentioned, but clear affiliation with the organization."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "When I went off I had been Assistant Minister, you’re correct."
+        ],
+        "confidence": "low",
+        "notes": "No explicit organization or time marker mentioned, but clear role indicated."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role and time marker for career position at Economics Institute of the University of Colorado at Boulder."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role and time marker for career position at Harvard."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing role and time marker for career position at World Bank."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization and time marker for role as Assistant Minister."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 1,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

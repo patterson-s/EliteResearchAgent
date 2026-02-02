@@ -1,0 +1,127 @@
+{
+  "status": "success",
+  "chunk_id": 2736,
+  "chunk_index": 17,
+  "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10722368/",
+  "title": "Searching for Meaning in the Life of Ellen Johnson-Sirleaf: A Call to Meaningful Responses to Tragedies - PMC",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2005",
+          "type": "point",
+          "quotes": [
+            "In the 2005 presidential elections, she also faced many negatives, including being too light-skinned, too mature, having political baggage, being too educated, and society insisting on male leadership (Johnson-Sirleaf, 2010)."
+          ]
+        },
+        {
+          "text": "2010",
+          "type": "point",
+          "quotes": [
+            "the anxiety of an unknown fate (Johnson-Sirleaf, 2010).",
+            "In the 2005 presidential elections, she also faced many negatives, including being too light-skinned, too mature, having political baggage, being too educated, and society insisting on male leadership (Johnson-Sirleaf, 2010).",
+            "“Sometimes people find this surprising about me, but I believe that perhaps the thing that has sustained me during my many close calls is that I have a certain frame of mind that banishes fear. I suppose that is the part of me that believes in predestination” (Johnson-Sirleaf, 2010, p. 223)."
+          ]
+        },
+        {
+          "text": "2014",
+          "type": "point",
+          "quotes": [
+            "In what Frankl (2014) referred to as the defiant power of the human spirit, Johnson-Sirleaf took a stand against these adverse circumstances (external and psychophysical factors) in her spiritual dimension through her chosen attitude (Marshall & Marshall, 2012)."
+          ]
+        },
+        {
+          "text": "2000",
+          "type": "point",
+          "quotes": [
+            "Self-distancing allowed her to view the problems as something she had, not something she was (Barnes, 2000).",
+            "Frankl does not disregard our physical and psychological conditions, drives, or the importance of childhood experiences, environment, and upbringing (Barnes, 2000; Frankl, 2006; 2012; 2014; Shantall, 2020)."
+          ]
+        },
+        {
+          "text": "1985a, 1985b",
+          "type": "range",
+          "quotes": [
+            "Johnson-Sirleaf's life illustrates how humans are free agents who are not always free from psychophysical or psychosocial conditions but can take a stand within and against those conditions (Frankl, 1985a, 1985b)."
+          ]
+        },
+        {
+          "text": "2006, 2012, 2014",
+          "type": "range",
+          "quotes": [
+            "Frankl does not disregard our physical and psychological conditions, drives, or the importance of childhood experiences, environment, and upbringing (Barnes, 2000; Frankl, 2006; 2012; 2014; Shantall, 2020)."
+          ]
+        },
+        {
+          "text": "2020",
+          "type": "point",
+          "quotes": [
+            "Frankl does not disregard our physical and psychological conditions, drives, or the importance of childhood experiences, environment, and upbringing (Barnes, 2000; Frankl, 2006; 2012; 2014; Shantall, 2020)."
+          ]
+        },
+        {
+          "text": "2021",
+          "type": "point",
+          "quotes": [
+            "He argues that even under the most restrictive and miserable conditions or circumstances, we have an area of freedom in which we can determine our actions, experiences, or, at the very least, our attitudes towards those conditions (Fabry, 2021)."
+          ]
+        }
+      ],
+      "organizations": [],
+      "roles": [
+        {
+          "title": "presidential candidate",
+          "quotes": [
+            "In the 2005 presidential elections, she also faced many negatives, including being too light-skinned, too mature, having political baggage, being too educated, and society insisting on male leadership (Johnson-Sirleaf, 2010)."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In the 2005 presidential elections, she also faced many negatives, including being too light-skinned, too mature, having political baggage, being too educated, and society insisting on male leadership (Johnson-Sirleaf, 2010)."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time marker (2005) and role (presidential candidate) in the same quote."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location information, which is unexpected for a career position event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

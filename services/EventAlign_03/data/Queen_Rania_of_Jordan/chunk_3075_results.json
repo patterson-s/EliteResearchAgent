@@ -1,0 +1,131 @@
+{
+  "status": "success",
+  "chunk_id": 3075,
+  "chunk_index": 0,
+  "source_url": "https://en.wikipedia.org/wiki/Queen_Rania_of_Jordan",
+  "title": "Queen Rania of Jordan - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "since 1999",
+          "type": "open",
+          "quotes": [
+            "Queen of Jordan since 1999"
+          ]
+        },
+        {
+          "text": "7 February 1999 – present",
+          "type": "range",
+          "quotes": [
+            "Tenure\n7 February 1999 – present"
+          ]
+        },
+        {
+          "text": "22 March 1999",
+          "type": "point",
+          "quotes": [
+            "Proclamation\n22 March 1999"
+          ]
+        },
+        {
+          "text": "1970-08-31",
+          "type": "point",
+          "quotes": [
+            "(1970-08-31)"
+          ]
+        },
+        {
+          "text": "1993",
+          "type": "point",
+          "quotes": [
+            "(m. 1993)"
+          ]
+        }
+      ],
+      "organizations": [],
+      "roles": [
+        {
+          "title": "Queen of Jordan",
+          "quotes": [
+            "Queen of Jordan since 1999",
+            "Rania Al Abdullah,\n[1]\n[a]\n(born\nRania Al-Yassin\n, 31 August 1970) is\nQueen of Jordan\nas the wife of\nKing Abdullah II"
+          ]
+        },
+        {
+          "title": "Queen consort of Jordan",
+          "quotes": [
+            "Queen consort of Jordan"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Kuwait City, Kuwait",
+          "quotes": [
+            "Kuwait City\n,\nKuwait"
+          ]
+        },
+        {
+          "place": "Jordan",
+          "quotes": [
+            "Queen of Jordan since 1999",
+            "Rania Al Abdullah,\n[1]\n[a]\n(born\nRania Al-Yassin\n, 31 August 1970) is\nQueen of Jordan\nas the wife of\nKing Abdullah II"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1,
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Queen of Jordan since 1999",
+          "Tenure\n7 February 1999 – present",
+          "Proclamation\n22 March 1999",
+          "Rania Al Abdullah,\n[1]\n[a]\n(born\nRania Al-Yassin\n, 31 August 1970) is\nQueen of Jordan\nas the wife of\nKing Abdullah II"
+        ],
+        "confidence": "high",
+        "notes": "The role of Queen of Jordan is clearly a career position with ongoing responsibilities, supported by multiple time markers and quotes."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information, which is unexpected for a career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

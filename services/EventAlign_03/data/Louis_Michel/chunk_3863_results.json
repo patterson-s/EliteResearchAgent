@@ -1,0 +1,271 @@
+{
+  "status": "success",
+  "chunk_id": 3863,
+  "chunk_index": 0,
+  "source_url": "https://en.wikipedia.org/wiki/Louis_Michel",
+  "title": "Louis Michel - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1999–2004",
+          "type": "range",
+          "quotes": [
+            "Minister of Foreign Affairs, 1999–2004",
+            "He served in the government of Belgium as minister of foreign affairs from 1999 to 2004"
+          ]
+        },
+        {
+          "text": "2009–2019",
+          "type": "range",
+          "quotes": [
+            "Member of the European Parliament, 2009–2019"
+          ]
+        },
+        {
+          "text": "22 November 2004 – 17 July 2009",
+          "type": "range",
+          "quotes": [
+            "In office\n22 November 2004 – 17 July 2009"
+          ]
+        },
+        {
+          "text": "13 September 2004 – 21 November 2004",
+          "type": "range",
+          "quotes": [
+            "In office\n13 September 2004 – 21 November 2004"
+          ]
+        },
+        {
+          "text": "12 July 1999 – 18 July 2004",
+          "type": "range",
+          "quotes": [
+            "In office\n12 July 1999 – 18 July 2004"
+          ]
+        },
+        {
+          "text": "2004 to 2009",
+          "type": "range",
+          "quotes": [
+            "was European Commissioner for Development and Humanitarian Aid from 2004 to 2009"
+          ]
+        },
+        {
+          "text": "2002–present",
+          "type": "open",
+          "quotes": [
+            "Political party\nReformist Movement\n(2002–present)"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "European Parliament",
+          "quotes": [
+            "Member of the European Parliament, 2009–2019"
+          ]
+        },
+        {
+          "name": "European Commission",
+          "quotes": [
+            "European Commissioner for Development and Humanitarian Aid",
+            "European Commissioner for Research",
+            "was European Commissioner"
+          ]
+        },
+        {
+          "name": "Reformist Movement",
+          "quotes": [
+            "Political party\nReformist Movement\n(2002–present)"
+          ]
+        },
+        {
+          "name": "Liberal Reformist Party",
+          "quotes": [
+            "Other political\naffiliations\nLiberal Reformist Party\n(Before 2002)"
+          ]
+        },
+        {
+          "name": "Government of Belgium",
+          "quotes": [
+            "He served in the government of Belgium as minister of foreign affairs from 1999 to 2004"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Minister of Foreign Affairs",
+          "quotes": [
+            "Minister of Foreign Affairs, 1999–2004",
+            "He served in the government of Belgium as minister of foreign affairs from 1999 to 2004"
+          ]
+        },
+        {
+          "title": "Member of the European Parliament",
+          "quotes": [
+            "Member of the European Parliament, 2009–2019"
+          ]
+        },
+        {
+          "title": "European Commissioner for Development and Humanitarian Aid",
+          "quotes": [
+            "European Commissioner for Development and Humanitarian Aid",
+            "was European Commissioner for Development and Humanitarian Aid from 2004 to 2009"
+          ]
+        },
+        {
+          "title": "European Commissioner for Research",
+          "quotes": [
+            "European Commissioner for Research"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Belgium",
+          "quotes": [
+            "He served in the government of Belgium as minister of foreign affairs from 1999 to 2004",
+            "Belgian politician (born 1947)",
+            "Tienen, Belgium"
+          ]
+        },
+        {
+          "place": "Tienen",
+          "quotes": [
+            "Born\n(1947-09-02)\n2 September 1947\n(age 78)\nTienen, Belgium"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Minister of Foreign Affairs, 1999–2004",
+          "He served in the government of Belgium as minister of foreign affairs from 1999 to 2004"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "was European Commissioner for Development and Humanitarian Aid from 2004 to 2009",
+          "European Commissioner for Development and Humanitarian Aid"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Member of the European Parliament, 2009–2019"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          6
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Political party\nReformist Movement\n(2002–present)"
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but ongoing affiliation with the organization."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information, though it may be inferable from context."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information, though it may be inferable from context."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, making it unclear what the individual's responsibilities were within the organization."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 1,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

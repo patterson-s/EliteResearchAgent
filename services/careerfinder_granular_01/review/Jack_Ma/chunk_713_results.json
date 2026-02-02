@@ -1,0 +1,267 @@
+{
+  "status": "success",
+  "chunk_id": 713,
+  "chunk_index": 0,
+  "source_url": "https://navigator-paper.com/pl/blog/article/life-jack-ma-alibaba-founder",
+  "title": "The inspiring life of Jack Ma, Alibaba Founder",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1964",
+          "type": "point",
+          "quotes": [
+            "Jack Ma was born in Hangzhou in 1964 to a poor family in Communist China."
+          ]
+        },
+        {
+          "text": "1972",
+          "type": "point",
+          "quotes": [
+            "Things changed for the better in Hangzhou in 1972, when Richard Nixon, who was the President of the United States at the time, visited the city."
+          ]
+        },
+        {
+          "text": "1988",
+          "type": "point",
+          "quotes": [
+            "Ma graduated in 1988 and started applying for jobs, with little success."
+          ]
+        },
+        {
+          "text": "1995",
+          "type": "point",
+          "quotes": [
+            "After the birth of the internet, Ma got the chance to use it for the first time while visiting the US in 1995 to recover a payment for the translation business he had started."
+          ]
+        },
+        {
+          "text": "October 1999",
+          "type": "point",
+          "quotes": [
+            "By October 1999, Alibaba had gained $25 million"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Alibaba Group",
+          "quotes": [
+            "Jack Ma, Founder and Executive Chairman of Alibaba Group"
+          ]
+        },
+        {
+          "name": "Hangzhou Teacher’s Institute",
+          "quotes": [
+            "After passing on his third attempt, Ma attended Hangzhou Teacher’s Institute."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Founder and Executive Chairman",
+          "quotes": [
+            "Jack Ma, Founder and Executive Chairman of Alibaba Group"
+          ]
+        },
+        {
+          "title": "English teacher",
+          "quotes": [
+            "He was eventually successful and started a job as an English teacher."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Hangzhou",
+          "quotes": [
+            "Jack Ma was born in Hangzhou in 1964 to a poor family in Communist China."
+          ]
+        },
+        {
+          "place": "China",
+          "quotes": [
+            "he worked his way up to achieve greatness in founding a major ecommerce platform specifically for China – AliBaba"
+          ]
+        },
+        {
+          "place": "USA",
+          "quotes": [
+            "After the birth of the internet, Ma got the chance to use it for the first time while visiting the US in 1995 to recover a payment for the translation business he had started."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Jack Ma was born in Hangzhou in 1964 to a poor family in Communist China."
+        ],
+        "confidence": "high",
+        "notes": "Birth event, no specific career role but foundational information."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "After passing on his third attempt, Ma attended Hangzhou Teacher’s Institute.",
+          "Ma graduated in 1988 and started applying for jobs, with little success."
+        ],
+        "confidence": "high",
+        "notes": "Education at Hangzhou Teacher’s Institute, no specific role mentioned but implies student status."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "He was eventually successful and started a job as an English teacher."
+        ],
+        "confidence": "medium",
+        "notes": "Role as English teacher mentioned without specific time or organization, but likely in Hangzhou."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "After the birth of the internet, Ma got the chance to use it for the first time while visiting the US in 1995 to recover a payment for the translation business he had started."
+        ],
+        "confidence": "high",
+        "notes": "Visit to the USA for business purposes, no specific role but implies entrepreneurial activity."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Jack Ma, Founder and Executive Chairman of Alibaba Group",
+          "By October 1999, Alibaba had gained $25 million",
+          "he worked his way up to achieve greatness in founding a major ecommerce platform specifically for China – AliBaba"
+        ],
+        "confidence": "high",
+        "notes": "Founding and leading Alibaba Group as Executive Chairman, with significant achievements by October 1999."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Birth event classified as career_position, but does not involve a career role."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing organization and role, which is expected for a birth event."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Education event classified as career_position, but does not involve a career role."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing role, which is expected for a student status."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time and organization, making it difficult to place this role in context."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Business visit classified as career_position, but does not involve a specific career role."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing organization and role, which is expected for a business visit."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 1,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

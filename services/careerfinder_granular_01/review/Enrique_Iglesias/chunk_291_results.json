@@ -1,0 +1,240 @@
+{
+  "status": "success",
+  "chunk_id": 291,
+  "chunk_index": 2,
+  "source_url": "https://enrique-iglesias.org/enrique-iglesias-bio/",
+  "title": "Enrique’s Bio – ENRIQUE-IGLESIAS.ORG",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "September",
+          "type": "point",
+          "quotes": [
+            "to Perform in Bulgaria in September"
+          ]
+        },
+        {
+          "text": "March 27, 2025",
+          "type": "point",
+          "quotes": [
+            "March 27, 2025"
+          ]
+        },
+        {
+          "text": "May 3, 2025",
+          "type": "point",
+          "quotes": [
+            "Enrique Iglesias to Headline Exclusive Concert at Rixos Radamis Sharm El Sheikh on May 3, 2025"
+          ]
+        },
+        {
+          "text": "March 4, 2025",
+          "type": "point",
+          "quotes": [
+            "March 4, 2025"
+          ]
+        },
+        {
+          "text": "March 5th",
+          "type": "point",
+          "quotes": [
+            "Enrique Iglesias, Pitbull & IAmChino Set to Drop New Collab “Tamo Bien” on March 5th"
+          ]
+        },
+        {
+          "text": "March 3, 2025",
+          "type": "point",
+          "quotes": [
+            "March 3, 2025"
+          ]
+        },
+        {
+          "text": "JULY 5, 2025",
+          "type": "point",
+          "quotes": [
+            "JULY 5, 2025: Granca Live Fest – Canary Islands"
+          ]
+        },
+        {
+          "text": "June 20, 2016",
+          "type": "point",
+          "quotes": [
+            "Opened: June 20, 2016"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Rixos Radamis Sharm El Sheikh",
+          "quotes": [
+            "Enrique Iglesias to Headline Exclusive Concert at Rixos Radamis Sharm El Sheikh on May 3, 2025"
+          ]
+        },
+        {
+          "name": "Granca Live Fest",
+          "quotes": [
+            "JULY 5, 2025: Granca Live Fest – Canary Islands"
+          ]
+        },
+        {
+          "name": "Facebook",
+          "quotes": [
+            "View enrique’s profile on Facebook",
+            "View Enrique-Iglesias-Tour-Promo-416262101743090’s profile on Facebook"
+          ]
+        },
+        {
+          "name": "Twitter",
+          "quotes": [
+            "View enriqueiglesias’s profile on Twitter"
+          ]
+        },
+        {
+          "name": "Instagram",
+          "quotes": [
+            "View enriqueiglesias’s profile on Instagram",
+            "View enriqueiglesiaseifans’s profile on Instagram"
+          ]
+        },
+        {
+          "name": "YouTube",
+          "quotes": [
+            "View EnriqueIglesiasVEVO’s profile on YouTube"
+          ]
+        },
+        {
+          "name": "Google+",
+          "quotes": [
+            "View EnriqueIglesias’s profile on Google+"
+          ]
+        },
+        {
+          "name": "Wordpress",
+          "quotes": [
+            "Powered By: Wordpress"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Headliner",
+          "quotes": [
+            "Enrique Iglesias to Headline Exclusive Concert at Rixos Radamis Sharm El Sheikh on May 3, 2025"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Bulgaria",
+          "quotes": [
+            "to Perform in Bulgaria in September"
+          ]
+        },
+        {
+          "place": "Canary Islands",
+          "quotes": [
+            "JULY 5, 2025: Granca Live Fest – Canary Islands"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Enrique Iglesias to Headline Exclusive Concert at Rixos Radamis Sharm El Sheikh on May 3, 2025"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          6
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "JULY 5, 2025: Granca Live Fest – Canary Islands"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit role mentioned, but the event is clearly a performance at a festival."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "to Perform in Bulgaria in September"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit organization or role mentioned, but the event is clearly a performance."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, though the event is clearly a performance."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and role information, though the event is clearly a performance."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

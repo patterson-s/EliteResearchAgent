@@ -1,0 +1,332 @@
+{
+  "status": "success",
+  "chunk_id": 3746,
+  "chunk_index": 0,
+  "source_url": "https://educationenvoy.org/what-we-do/",
+  "title": "Gordon Brown | The Office of the UN Special Envoy for Global Education",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "from 2007 to 2010",
+          "type": "range",
+          "quotes": [
+            "He served as Prime Minister of the United Kingdom from 2007 to 2010"
+          ]
+        },
+        {
+          "text": "from 1997 to 2007",
+          "type": "range",
+          "quotes": [
+            "Previously, he served as Chancellor of the Exchequer from 1997 to 2007"
+          ]
+        },
+        {
+          "text": "In April 2009",
+          "type": "point",
+          "quotes": [
+            "In April 2009, he hosted the G20 Summit in London"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "United Nations",
+          "quotes": [
+            "Gordon Brown is the United Nations Special Envoy for Global Education"
+          ]
+        },
+        {
+          "name": "World Economic Forum",
+          "quotes": [
+            "He is Chair of the Global Strategic Infrastructure Initiative of the World Economic Forum"
+          ]
+        },
+        {
+          "name": "New York University",
+          "quotes": [
+            "He also serves as Distinguished Global Leader in Residence of New York University"
+          ]
+        },
+        {
+          "name": "Harvard University’s Kennedy School of Government",
+          "quotes": [
+            "He has recently completed a research project on globalisation and education at Harvard University’s Kennedy School of Government"
+          ]
+        },
+        {
+          "name": "G20",
+          "quotes": [
+            "He served as Prime Minister of the United Kingdom from 2007 to 2010 and is widely credited with preventing a second Great Depression through his stewardship of the 2009 London G20 summit"
+          ]
+        },
+        {
+          "name": "Labour",
+          "quotes": [
+            "During ten years at the Treasury, Gordon masterminded many of Labour’s proudest achievements"
+          ]
+        },
+        {
+          "name": "High Level Panel on Global Education",
+          "quotes": [
+            "He is a passionate advocate for global action to ensure education for all and co-chairs a High Level Panel on Global Education with Graça Machel"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "United Nations Special Envoy for Global Education",
+          "quotes": [
+            "Gordon Brown is the United Nations Special Envoy for Global Education"
+          ]
+        },
+        {
+          "title": "Prime Minister of the United Kingdom",
+          "quotes": [
+            "He served as Prime Minister of the United Kingdom from 2007 to 2010"
+          ]
+        },
+        {
+          "title": "Chair of the Global Strategic Infrastructure Initiative",
+          "quotes": [
+            "He is Chair of the Global Strategic Infrastructure Initiative of the World Economic Forum"
+          ]
+        },
+        {
+          "title": "Distinguished Global Leader in Residence",
+          "quotes": [
+            "He also serves as Distinguished Global Leader in Residence of New York University"
+          ]
+        },
+        {
+          "title": "Chancellor of the Exchequer",
+          "quotes": [
+            "Previously, he served as Chancellor of the Exchequer from 1997 to 2007"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "United Kingdom",
+          "quotes": [
+            "He served as Prime Minister of the United Kingdom from 2007 to 2010"
+          ]
+        },
+        {
+          "place": "London",
+          "quotes": [
+            "In April 2009, he hosted the G20 Summit in London"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Previously, he served as Chancellor of the Exchequer from 1997 to 2007"
+        ],
+        "confidence": "high",
+        "notes": "Clear role and time period, but no organization explicitly mentioned. Assuming it refers to the UK government based on context."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "He served as Prime Minister of the United Kingdom from 2007 to 2010"
+        ],
+        "confidence": "high",
+        "notes": "Clear role, time period, and location. Organization (UK government) implied by role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "In April 2009, he hosted the G20 Summit in London"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit role mentioned, but hosting the summit is an activity associated with his position as Prime Minister."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Gordon Brown is the United Nations Special Envoy for Global Education"
+        ],
+        "confidence": "high",
+        "notes": "Current role with no specific time period mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He is Chair of the Global Strategic Infrastructure Initiative of the World Economic Forum"
+        ],
+        "confidence": "high",
+        "notes": "Current role with no specific time period mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He also serves as Distinguished Global Leader in Residence of New York University"
+        ],
+        "confidence": "high",
+        "notes": "Current role with no specific time period mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          6
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He is a passionate advocate for global action to ensure education for all and co-chairs a High Level Panel on Global Education with Graça Machel"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit role title, but co-chairing the panel indicates an active position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information, though inferred from context."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, though activity is associated with a known position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time period for current role."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time period for current role."
+          }
+        ]
+      },
+      {
+        "event_id": 5,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time period for current role."
+          }
+        ]
+      },
+      {
+        "event_id": 6,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role title, though active position is indicated."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time period for current role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 7,
+      "valid": 1,
+      "warnings": 6,
+      "errors": 0,
+      "career_positions": 7,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "status": "success",
+  "chunk_id": 3434,
+  "chunk_index": 0,
+  "source_url": "https://simple.wikipedia.org/wiki/Kadir_Topba%C5%9F",
+  "title": "Kadir Topbaş - Simple English Wikipedia, the free encyclopedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "28 March 2004 – 22 September 2017",
+          "type": "range",
+          "quotes": [
+            "In office\n28 March 2004\n–\n22 September 2017"
+          ]
+        },
+        {
+          "text": "18 April 1999 – 28 March 2004",
+          "type": "range",
+          "quotes": [
+            "In office\n18 April 1999\n–\n28 March 2004"
+          ]
+        },
+        {
+          "text": "8 January 1945",
+          "type": "point",
+          "quotes": [
+            "Born\n(\n1945-01-08\n)\n8 January 1945"
+          ]
+        },
+        {
+          "text": "13 February 2021",
+          "type": "point",
+          "quotes": [
+            "Died\n13 February 2021\n(2021-02-13)\n(aged\n76)"
+          ]
+        },
+        {
+          "text": "November 2020",
+          "type": "point",
+          "quotes": [
+            "In November 2020, Topbaş was hospitalized for\nCOVID-19"
+          ]
+        },
+        {
+          "text": "2014",
+          "type": "point",
+          "quotes": [
+            "Bogwan Order of Cultural Merit\n(2014)"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Justice and Development Party (AKP)",
+          "quotes": [
+            "Political party\nJustice and Development Party (AKP)",
+            "He was a member of the\nJustice and Development Party (AKP)"
+          ]
+        },
+        {
+          "name": "Istanbul University",
+          "quotes": [
+            "Alma mater\nIstanbul University"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Mayor of Istanbul",
+          "quotes": [
+            "Mayor of Istanbul",
+            "He was\nMayor\nof\nIstanbul\nfrom 2004 to 2017."
+          ]
+        },
+        {
+          "title": "Mayor of Beyoğlu",
+          "quotes": [
+            "Mayor of Beyoğlu"
+          ]
+        },
+        {
+          "title": "architect",
+          "quotes": [
+            "Kadir Topbaş\n(8 January 1945 – 13 February 2021) was a Turkish architect, businessman and politician."
+          ]
+        },
+        {
+          "title": "businessman",
+          "quotes": [
+            "Kadir Topbaş\n(8 January 1945 – 13 February 2021) was a Turkish architect, businessman and politician."
+          ]
+        },
+        {
+          "title": "politician",
+          "quotes": [
+            "Kadir Topbaş\n(8 January 1945 – 13 February 2021) was a Turkish architect, businessman and politician."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Istanbul",
+          "quotes": [
+            "Mayor of Istanbul",
+            "He was\nMayor\nof\nIstanbul\nfrom 2004 to 2017.",
+            "Died\n13 February 2021\n(2021-02-13)\n(aged\n76)\nIstanbul\n, Turkey",
+            "Deaths from the COVID-19 pandemic in Istanbul"
+          ]
+        },
+        {
+          "place": "Yusufeli, Artvin",
+          "quotes": [
+            "Born\n(\n1945-01-08\n)\n8 January 1945\nYusufeli\n,\nArtvin\n, Turkey",
+            "He was born in\nYusufeli\n,\nArtvin"
+          ]
+        },
+        {
+          "place": "Beyoğlu",
+          "quotes": [
+            "Mayor of Beyoğlu"
+          ]
+        },
+        {
+          "place": "Turkey",
+          "quotes": [
+            "Born\n(\n1945-01-08\n)\n8 January 1945\nYusufeli\n,\nArtvin\n, Turkey",
+            "Died\n13 February 2021\n(2021-02-13)\n(aged\n76)\nIstanbul\n, Turkey",
+            "during the\nCOVID-19 pandemic in Turkey"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "In office\n18 April 1999\n–\n28 March 2004",
+          "Mayor of Beyoğlu",
+          "He was a member of the\nJustice and Development Party (AKP)"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, role, and organization."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "In office\n28 March 2004\n–\n22 September 2017",
+          "Mayor of Istanbul",
+          "He was\nMayor\nof\nIstanbul\nfrom 2004 to 2017.",
+          "He was a member of the\nJustice and Development Party (AKP)"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, role, organization, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          2,
+          3,
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Kadir Topbaş\n(8 January 1945 – 13 February 2021) was a Turkish architect, businessman and politician."
+        ],
+        "confidence": "high",
+        "notes": "Roles mentioned together without specific time or organization, but clearly part of career."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Bogwan Order of Cultural Merit\n(2014)"
+        ],
+        "confidence": "high",
+        "notes": "Clear award indication with specific year."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time and organization details for roles mentioned."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 3,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 1
+    }
+  }
+}

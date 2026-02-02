@@ -1,0 +1,124 @@
+{
+  "status": "success",
+  "chunk_id": 555,
+  "chunk_index": 55,
+  "source_url": "https://issafrica.s3.amazonaws.com/site/uploads/Book-2015-Salim.pdf",
+  "title": "Book-2015-Salim.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "UN",
+          "quotes": [
+            "Salim wrote to the then US ambassador to the UN, George Bush Snr, enclosing one particularly vicious letter as an example of the racism.",
+            "Salim was appointed to the UN, but he was clearly willing to learn, constructively engage and compromise where necessary.",
+            "the solidarity of the African group at the UN served as a powerful anchor for Salim."
+          ]
+        },
+        {
+          "name": "Security Council",
+          "quotes": [
+            "Salim also notes that the issue of unequal and unfair representation at the Security Council was a major challenge for Africa.",
+            "And the fact that no African state is a permanent member of the Security Council today continues to pose a challenge for the continent."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "US ambassador to the UN",
+          "quotes": [
+            "Salim wrote to the then US ambassador to the UN, George Bush Snr, enclosing one particularly vicious letter as an example of the racism."
+          ]
+        },
+        {
+          "title": "Tanzania’s then president",
+          "quotes": [
+            "Salim also emphasises that the guidance and support of Tanzania’s then president, Nyerere, gave him the inspiration and confidence to engage as he did in the forums of the UN."
+          ]
+        },
+        {
+          "title": "head of state",
+          "quotes": [
+            "Salim had the back-up and counsel of his head of state when he articulated national, regional and global issues."
+          ]
+        },
+        {
+          "title": "African ambassadors",
+          "quotes": [
+            "He remembers with pride and nostalgia the contribution made by African ambassadors who transcended their geographical and linguistic divides."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Africa",
+          "quotes": [
+            "the issue of unequal and unfair representation at the Security Council was a major challenge for Africa.",
+            "no African state is a permanent member of the Security Council today continues to pose a challenge for the continent.",
+            "Salim’s tenure at the UN raised the profile of Africa and that of other developing and newly independent states.",
+            "Salim is one of Africa’s most celebrated leaders – if not for anything else,"
+          ]
+        },
+        {
+          "place": "Tanzania",
+          "quotes": [
+            "Salim also emphasises that the guidance and support of Tanzania’s then president, Nyerere, gave him the inspiration and confidence to engage as he did in the forums of the UN."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Salim was appointed to the UN, but he was clearly willing to learn, constructively engage and compromise where necessary.",
+          "the solidarity of the African group at the UN served as a powerful anchor for Salim.",
+          "Salim’s tenure at the UN raised the profile of Africa and that of other developing and newly independent states."
+        ],
+        "confidence": "high",
+        "notes": "While the exact role at the UN is not specified, the quotes clearly indicate an appointment and active engagement, suggesting a career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. While the event is classified as a career position, the exact role at the UN is not specified."
+          },
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "No time markers provided, making it impossible to verify temporal coherence."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

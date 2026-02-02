@@ -1,0 +1,167 @@
+{
+  "status": "success",
+  "chunk_id": 54,
+  "chunk_index": 4,
+  "source_url": "https://www.pbs.org/wgbh/commandingheights/shared/minitextlo/int_anandpanyarachun.html",
+  "title": "Commanding Heights : Anand Panyarachun | on PBS",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "a year and a half",
+          "type": "range",
+          "quotes": [
+            "I came in the first time knowing full well that the tenure of my government would not be more than a year and a half."
+          ]
+        },
+        {
+          "text": "a year and four months",
+          "type": "range",
+          "quotes": [
+            "In fact, we stayed for a year and four months."
+          ]
+        },
+        {
+          "text": "1991",
+          "type": "point",
+          "quotes": [
+            "There was a very large credit expansion -- that was in 1991 -- and we came in and within a year managed to curb inflation."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "government",
+          "quotes": [
+            "I came in the first time knowing full well that the tenure of my government would not be more than a year and a half."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "prime minister",
+          "quotes": [
+            "When you first became prime minister, the emerging-markets boom was really taking off."
+          ]
+        },
+        {
+          "title": "minister of trade and industry",
+          "quotes": [
+            "Professor Ogata, the famous Japanese economist [who] was a former minister of trade and industry,"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "East Asia",
+          "quotes": [
+            "He often compared the East Asian countries to the formation of geese, with Japan heading the formation,"
+          ]
+        },
+        {
+          "place": "Japan",
+          "quotes": [
+            "He often compared the East Asian countries to the formation of geese, with Japan heading the formation,"
+          ]
+        },
+        {
+          "place": "Taiwan",
+          "quotes": [
+            "followed by the four tigers -- Taiwan, Hong Kong, Korea, Singapore --"
+          ]
+        },
+        {
+          "place": "Hong Kong",
+          "quotes": [
+            "followed by the four tigers -- Taiwan, Hong Kong, Korea, Singapore --"
+          ]
+        },
+        {
+          "place": "Korea",
+          "quotes": [
+            "followed by the four tigers -- Taiwan, Hong Kong, Korea, Singapore --"
+          ]
+        },
+        {
+          "place": "Singapore",
+          "quotes": [
+            "followed by the four tigers -- Taiwan, Hong Kong, Korea, Singapore --"
+          ]
+        },
+        {
+          "place": "Thailand",
+          "quotes": [
+            "to be followed by tiger cubs, like Thailand, Malaysia, and Indonesia."
+          ]
+        },
+        {
+          "place": "Malaysia",
+          "quotes": [
+            "to be followed by tiger cubs, like Thailand, Malaysia, and Indonesia."
+          ]
+        },
+        {
+          "place": "Indonesia",
+          "quotes": [
+            "to be followed by tiger cubs, like Thailand, Malaysia, and Indonesia."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "I came in the first time knowing full well that the tenure of my government would not be more than a year and a half.",
+          "In fact, we stayed for a year and four months.",
+          "When you first became prime minister, the emerging-markets boom was really taking off."
+        ],
+        "confidence": "high",
+        "notes": "The role of prime minister and the organization (government) are clearly linked in the quotes, with specific time markers indicating the duration of the position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information, which might be inferable but is not explicitly provided."
+          },
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "Time markers are ranges but no specific start or end dates are provided, making temporal coherence verification impossible."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

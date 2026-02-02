@@ -1,0 +1,167 @@
+{
+  "status": "success",
+  "chunk_id": 2754,
+  "chunk_index": 10,
+  "source_url": "https://achievement.org/achiever/ellen-johnson-sirleaf/",
+  "title": "Ellen Johnson Sirleaf | Academy of Achievement",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2008",
+          "type": "point",
+          "quotes": [
+            "Doesn’t this sound like recent (2008) events in Zimbabwe?"
+          ]
+        },
+        {
+          "text": "2006",
+          "type": "point",
+          "quotes": [
+            "Chinese President Hu Jintao welcomes Liberian President Ellen Johnson Sirleaf to the Beijing Summit of the Forum on China-Africa Cooperation held at the Great Hall of the People in Beijing, China, 2006."
+          ]
+        },
+        {
+          "text": "until ’92",
+          "type": "range",
+          "quotes": [
+            "I came back to Washington, D.C. and was associated with a bank called Equator Bank, part of the Hong Kong Bank Group, and I worked with them until ’92."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Citibank",
+          "quotes": [
+            "Obviously, I had to leave the Citibank job."
+          ]
+        },
+        {
+          "name": "Equator Bank",
+          "quotes": [
+            "I came back to Washington, D.C. and was associated with a bank called Equator Bank, part of the Hong Kong Bank Group, and I worked with them until ’92."
+          ]
+        },
+        {
+          "name": "Hong Kong Bank Group",
+          "quotes": [
+            "I came back to Washington, D.C. and was associated with a bank called Equator Bank, part of the Hong Kong Bank Group, and I worked with them until ’92."
+          ]
+        },
+        {
+          "name": "Forum on China-Africa Cooperation",
+          "quotes": [
+            "Chinese President Hu Jintao welcomes Liberian President Ellen Johnson Sirleaf to the Beijing Summit of the Forum on China-Africa Cooperation held at the Great Hall of the People in Beijing, China, 2006."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Liberian President",
+          "quotes": [
+            "Chinese President Hu Jintao welcomes Liberian President Ellen Johnson Sirleaf to the Beijing Summit of the Forum on China-Africa Cooperation held at the Great Hall of the People in Beijing, China, 2006."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Zimbabwe",
+          "quotes": [
+            "Doesn’t this sound like recent (2008) events in Zimbabwe?"
+          ]
+        },
+        {
+          "place": "Beijing, China",
+          "quotes": [
+            "Chinese President Hu Jintao welcomes Liberian President Ellen Johnson Sirleaf to the Beijing Summit of the Forum on China-Africa Cooperation held at the Great Hall of the People in Beijing, China, 2006."
+          ]
+        },
+        {
+          "place": "Washington, D.C.",
+          "quotes": [
+            "Yes. Obviously, I had to leave the Citibank job. I came back to Washington, D.C. and was associated with a bank called Equator Bank, part of the Hong Kong Bank Group, and I worked with them until ’92."
+          ]
+        },
+        {
+          "place": "Liberia",
+          "quotes": [
+            "Looking at your career, one constant is that you’ve always returned to Liberia."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          1,
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "I came back to Washington, D.C. and was associated with a bank called Equator Bank, part of the Hong Kong Bank Group, and I worked with them until ’92."
+        ],
+        "confidence": "medium",
+        "notes": "Role is not explicitly mentioned, but 'associated with' and 'worked with' imply a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Chinese President Hu Jintao welcomes Liberian President Ellen Johnson Sirleaf to the Beijing Summit of the Forum on China-Africa Cooperation held at the Great Hall of the People in Beijing, China, 2006."
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of a career position as Liberian President attending an official summit."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. While 'associated with' and 'worked with' imply a career position, the specific role is not mentioned."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

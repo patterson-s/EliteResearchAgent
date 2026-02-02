@@ -1,0 +1,301 @@
+{
+  "status": "success",
+  "chunk_id": 65,
+  "chunk_index": 1,
+  "source_url": "https://en.wikipedia.org/wiki/Robert_Badinter",
+  "title": "Robert Badinter - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "until 1954",
+          "type": "point",
+          "quotes": [
+            "He continued his studies again at the Sorbonne until 1954."
+          ]
+        },
+        {
+          "text": "In 1965",
+          "type": "point",
+          "quotes": [
+            "In 1965, Badinter was appointed a professor at University of Sorbonne."
+          ]
+        },
+        {
+          "text": "until 1996",
+          "type": "point",
+          "quotes": [
+            "He continued as an Emeritus professor until 1996."
+          ]
+        },
+        {
+          "text": "In 1951",
+          "type": "point",
+          "quotes": [
+            "Badinter started his career in Paris in 1951, as a lawyer working with Henri Torrès."
+          ]
+        },
+        {
+          "text": "In 1965",
+          "type": "point",
+          "quotes": [
+            "In 1965, along with Jean-Denis Bredin, he founded the law firm Badinter, Bredin et partenaires, (now Bredin Prat)."
+          ]
+        },
+        {
+          "text": "until 1981",
+          "type": "point",
+          "quotes": [
+            "where he practised law until 1981."
+          ]
+        },
+        {
+          "text": "on 28 November 1972",
+          "type": "point",
+          "quotes": [
+            "Badinter's activism against capital punishment began after Roger Bontems's execution on 28 November 1972."
+          ]
+        },
+        {
+          "text": "In January 1976",
+          "type": "point",
+          "quotes": [
+            "In January 1976, eight-year-old Philippe Bertrand was kidnapped."
+          ]
+        },
+        {
+          "text": "in 2017",
+          "type": "point",
+          "quotes": [
+            "Henry was sentenced to life imprisonment and died months after a compassionate release from prison in 2017 (after receiving parole in 2001, revoked in 2002)."
+          ]
+        },
+        {
+          "text": "in 2001, revoked in 2002",
+          "type": "range",
+          "quotes": [
+            "Henry was sentenced to life imprisonment and died months after a compassionate release from prison in 2017 (after receiving parole in 2001, revoked in 2002)."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Paris Law Faculty",
+          "quotes": [
+            "Badinter graduated in law from Paris Law Faculty of the University of Paris."
+          ]
+        },
+        {
+          "name": "University of Paris",
+          "quotes": [
+            "Badinter graduated in law from Paris Law Faculty of the University of Paris."
+          ]
+        },
+        {
+          "name": "Columbia University",
+          "quotes": [
+            "He then went to the United States to continue his studies at Columbia University in New York City, where he got his MA."
+          ]
+        },
+        {
+          "name": "the Sorbonne",
+          "quotes": [
+            "He continued his studies again at the Sorbonne until 1954."
+          ]
+        },
+        {
+          "name": "University of Sorbonne",
+          "quotes": [
+            "In 1965, Badinter was appointed a professor at University of Sorbonne."
+          ]
+        },
+        {
+          "name": "Badinter, Bredin et partenaires",
+          "quotes": [
+            "In 1965, along with Jean-Denis Bredin, he founded the law firm Badinter, Bredin et partenaires, (now Bredin Prat)."
+          ]
+        },
+        {
+          "name": "Bredin Prat",
+          "quotes": [
+            "In 1965, along with Jean-Denis Bredin, he founded the law firm Badinter, Bredin et partenaires, (now Bredin Prat)."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "professor",
+          "quotes": [
+            "In 1965, Badinter was appointed a professor at University of Sorbonne."
+          ]
+        },
+        {
+          "title": "Emeritus professor",
+          "quotes": [
+            "He continued as an Emeritus professor until 1996."
+          ]
+        },
+        {
+          "title": "lawyer",
+          "quotes": [
+            "Badinter started his career in Paris in 1951, as a lawyer working with Henri Torrès."
+          ]
+        },
+        {
+          "title": "defense counsel",
+          "quotes": [
+            "Badinter served as defense counsel for Bontems and was outraged by the sentence."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Paris",
+          "quotes": [
+            "Badinter started his career in Paris in 1951, as a lawyer working with Henri Torrès."
+          ]
+        },
+        {
+          "place": "New York City",
+          "quotes": [
+            "He then went to the United States to continue his studies at Columbia University in New York City, where he got his MA."
+          ]
+        },
+        {
+          "place": "Clairvaux Prison",
+          "quotes": [
+            "Along with Claude Buffet, Bontems had taken a prison guard and a nurse hostage during the 1971 revolt in Clairvaux Prison."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Badinter started his career in Paris in 1951, as a lawyer working with Henri Torrès."
+        ],
+        "confidence": "high",
+        "notes": "Clear career position as a lawyer in Paris."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1,
+          2
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 1965, Badinter was appointed a professor at University of Sorbonne.",
+          "He continued as an Emeritus professor until 1996."
+        ],
+        "confidence": "high",
+        "notes": "Clear career position as a professor and later Emeritus professor at the University of Sorbonne."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4,
+          5
+        ],
+        "organization_ids": [
+          5,
+          6
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 1965, along with Jean-Denis Bredin, he founded the law firm Badinter, Bredin et partenaires, (now Bredin Prat).",
+          "where he practised law until 1981."
+        ],
+        "confidence": "high",
+        "notes": "Clear career position as a founder and practitioner at the law firm Badinter, Bredin et partenaires (now Bredin Prat)."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Badinter served as defense counsel for Bontems and was outraged by the sentence."
+        ],
+        "confidence": "medium",
+        "notes": "Role as defense counsel is mentioned but without specific time markers or organizations."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "Overlapping time markers (1965) with event 2, but plausible as simultaneous roles."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "Overlapping time markers (1965) with event 1, but plausible as simultaneous roles."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers and organizations for the role of defense counsel."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 1,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

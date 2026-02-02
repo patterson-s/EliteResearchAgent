@@ -1,0 +1,279 @@
+{
+  "status": "success",
+  "chunk_id": 3643,
+  "chunk_index": 8,
+  "source_url": "https://en.wikipedia.org/wiki/Jens_Stoltenberg",
+  "title": "Jens Stoltenberg - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "in 2000",
+          "type": "point",
+          "quotes": [
+            "When he became prime minister in 2000, he was portrayed as the 'Norwegian Tony Blair'"
+          ]
+        },
+        {
+          "text": "in 2001",
+          "type": "point",
+          "quotes": [
+            "After election defeat in 2001, he reoriented towards a more traditional line of close cooperation with trade unions."
+          ]
+        },
+        {
+          "text": "19 March 2011",
+          "type": "point",
+          "quotes": [
+            "Stoltenberg at the Paris Summit of 19 March 2011 (back row, second from right), which marked the start of a military intervention in Libya"
+          ]
+        },
+        {
+          "text": "27–29 March 2009",
+          "type": "range",
+          "quotes": [
+            "This was among other arenas done through the International Monetary Fund (IMF) and a meeting in Chile 27–29 March 2009 where social democratic leaders from around the world met at a Progressive Governance Conference, just prior to the first G20 summit on the financial crisis."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "New Labour",
+          "quotes": [
+            "his policies were inspired by Blair's New Labour agenda."
+          ]
+        },
+        {
+          "name": "NATO",
+          "quotes": [
+            "Secretary General of NATO Anders Fogh Rasmussen and Stoltenberg, while visiting Oslo talk with members of Telemark Battalion"
+          ]
+        },
+        {
+          "name": "Telemark Battalion",
+          "quotes": [
+            "Secretary General of NATO Anders Fogh Rasmussen and Stoltenberg, while visiting Oslo talk with members of Telemark Battalion"
+          ]
+        },
+        {
+          "name": "European Union",
+          "quotes": [
+            "Stoltenberg has also always been a supporter of Norwegian membership in the European Union."
+          ]
+        },
+        {
+          "name": "International Monetary Fund (IMF)",
+          "quotes": [
+            "This was among other arenas done through the International Monetary Fund (IMF) and a meeting in Chile 27–29 March 2009"
+          ]
+        },
+        {
+          "name": "Progressive Governance Conference",
+          "quotes": [
+            "where social democratic leaders from around the world met at a Progressive Governance Conference, just prior to the first G20 summit on the financial crisis."
+          ]
+        },
+        {
+          "name": "G20",
+          "quotes": [
+            "just prior to the first G20 summit on the financial crisis."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "prime minister",
+          "quotes": [
+            "When he became prime minister in 2000, he was portrayed as the 'Norwegian Tony Blair'"
+          ]
+        },
+        {
+          "title": "Secretary General of NATO",
+          "quotes": [
+            "Secretary General of NATO Anders Fogh Rasmussen and Stoltenberg, while visiting Oslo talk with members of Telemark Battalion"
+          ]
+        },
+        {
+          "title": "President",
+          "quotes": [
+            "President Bill Clinton was among the delegates and panel that would chart a way out of the financial crisis, which included the host Michelle Bachelet, Britain's prime minister Gordon Brown, Brazil's President"
+          ]
+        },
+        {
+          "title": "prime minister",
+          "quotes": [
+            "Britain's prime minister Gordon Brown"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Oslo",
+          "quotes": [
+            "Secretary General of NATO Anders Fogh Rasmussen and Stoltenberg, while visiting Oslo talk with members of Telemark Battalion"
+          ]
+        },
+        {
+          "place": "Libya",
+          "quotes": [
+            "which marked the start of a military intervention in Libya"
+          ]
+        },
+        {
+          "place": "Chile",
+          "quotes": [
+            "a meeting in Chile 27–29 March 2009 where social democratic leaders from around the world met at a Progressive Governance Conference"
+          ]
+        },
+        {
+          "place": "Palestinian Territories",
+          "quotes": [
+            "Stoltenberg has criticized Israel over alleged violations of international law in the Palestinian Territories"
+          ]
+        },
+        {
+          "place": "Gaza Strip",
+          "quotes": [
+            "for their humanitarian work in the Gaza Strip during the Gaza War"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "When he became prime minister in 2000, he was portrayed as the 'Norwegian Tony Blair'"
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of becoming prime minister in 2000."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "After election defeat in 2001, he reoriented towards a more traditional line of close cooperation with trade unions."
+        ],
+        "confidence": "high",
+        "notes": "Continued role as prime minister after election defeat in 2001."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "where social democratic leaders from around the world met at a Progressive Governance Conference, just prior to the first G20 summit on the financial crisis.",
+          "a meeting in Chile 27–29 March 2009"
+        ],
+        "confidence": "medium",
+        "notes": "Participation in Progressive Governance Conference, no specific role mentioned but implies active involvement."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Secretary General of NATO Anders Fogh Rasmussen and Stoltenberg, while visiting Oslo talk with members of Telemark Battalion"
+        ],
+        "confidence": "high",
+        "notes": "Role as Secretary General of NATO mentioned, no specific time marker but clear affiliation."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location information for the prime minister role."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location information for the prime minister role."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position but lacks clear role, possibly more of a participation event."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for the event."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "Missing time marker for the Secretary General of NATO role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 0,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

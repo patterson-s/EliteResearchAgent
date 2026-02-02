@@ -1,0 +1,159 @@
+{
+  "status": "success",
+  "chunk_id": 3694,
+  "chunk_index": 0,
+  "source_url": "https://www.santander.com/en/press-room/santander-international-banking-conference/biographies/jens-stoltenberg",
+  "title": "Jens Stoltenberg Biography | Santander International Banking Conference",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "October 2014",
+          "type": "point",
+          "quotes": [
+            "Jens Stoltenberg became NATO Secretary General in October 2014."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "NATO",
+          "quotes": [
+            "Jens Stoltenberg became NATO Secretary General in October 2014."
+          ]
+        },
+        {
+          "name": "UN",
+          "quotes": [
+            "As a former Prime Minister of Norway and UN Special Envoy, Mr. Stoltenberg has a distinguished record of domestic and international achievements"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Secretary General",
+          "quotes": [
+            "Jens Stoltenberg became NATO Secretary General in October 2014."
+          ]
+        },
+        {
+          "title": "Prime Minister of Norway",
+          "quotes": [
+            "As a former Prime Minister of Norway and UN Special Envoy, Mr. Stoltenberg has a distinguished record of domestic and international achievements"
+          ]
+        },
+        {
+          "title": "UN Special Envoy",
+          "quotes": [
+            "As a former Prime Minister of Norway and UN Special Envoy, Mr. Stoltenberg has a distinguished record of domestic and international achievements"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Norway",
+          "quotes": [
+            "As a former Prime Minister of Norway and UN Special Envoy, Mr. Stoltenberg has a distinguished record of domestic and international achievements"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Jens Stoltenberg became NATO Secretary General in October 2014."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "As a former Prime Minister of Norway and UN Special Envoy, Mr. Stoltenberg has a distinguished record of domestic and international achievements"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time marker, but role and organization are clearly linked. Assumed to be a past position based on 'former'."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "As a former Prime Minister of Norway and UN Special Envoy, Mr. Stoltenberg has a distinguished record of domestic and international achievements"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time marker or organization, but role and location are clearly linked. Assumed to be a past position based on 'former'."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time marker for the career position at UN as Special Envoy."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and organization for the career position as Prime Minister of Norway."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

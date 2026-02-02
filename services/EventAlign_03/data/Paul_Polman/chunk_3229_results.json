@@ -1,0 +1,234 @@
+{
+  "status": "success",
+  "chunk_id": 3229,
+  "chunk_index": 5,
+  "source_url": "https://uk.linkedin.com/in/paulpolman",
+  "title": "Paul Polman - Business, campaigning, younger me nearly a priest. ‘Net Positive: how courageous companies thrive by giving more than they take’ #1 Thinkers50 | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "May 2020 - Present",
+          "type": "open",
+          "quotes": [
+            "COP26 - UN Climate Change Conference\nMay 2020 - Present"
+          ]
+        },
+        {
+          "text": "Jun 2019 - Present",
+          "type": "open",
+          "quotes": [
+            "Jun 2019 - Present"
+          ]
+        },
+        {
+          "text": "In 2013",
+          "type": "point",
+          "quotes": [
+            "In 2013, the EU introduced regulations that helped end dangerous chemicals in baby bottles."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "COP26 - UN Climate Change Conference",
+          "quotes": [
+            "COP26 - UN Climate Change Conference\nMay 2020 - Present"
+          ]
+        },
+        {
+          "name": "IMAGINE",
+          "quotes": [
+            "Co-founder and Chair Emeritus\nIMAGINE",
+            "On behalf of IMAGINE and my Co-Founder Valerie Keller I’m honoured to welcome the newest cohort of IMAGINE Leaders."
+          ]
+        },
+        {
+          "name": "Thinkers50",
+          "quotes": [
+            "I’m deeply honoured that Net Positive, co-authored with my friend and colleague Andrew Winston, has been recognised by Thinkers50 as the top…"
+          ]
+        },
+        {
+          "name": "EU",
+          "quotes": [
+            "In 2013, the EU introduced regulations that helped end dangerous chemicals in baby bottles."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Co-founder and Chair Emeritus",
+          "quotes": [
+            "Co-founder and Chair Emeritus\nIMAGINE"
+          ]
+        },
+        {
+          "title": "Co-Founder",
+          "quotes": [
+            "On behalf of IMAGINE and my Co-Founder Valerie Keller I’m honoured to welcome the newest cohort of IMAGINE Leaders."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "London, United Kingdom",
+          "quotes": [
+            "Jun 2019 - Present\nLondon, United Kingdom"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "COP26 - UN Climate Change Conference\nMay 2020 - Present"
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but association with COP26 is clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Jun 2019 - Present\nLondon, United Kingdom"
+        ],
+        "confidence": "low",
+        "notes": "No organization or role mentioned, only location and time."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Co-founder and Chair Emeritus\nIMAGINE",
+          "On behalf of IMAGINE and my Co-Founder Valerie Keller I’m honoured to welcome the newest cohort of IMAGINE Leaders."
+        ],
+        "confidence": "high",
+        "notes": "Clear association with IMAGINE as Co-founder and Chair Emeritus, and Co-Founder."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "I’m deeply honoured that Net Positive, co-authored with my friend and colleague Andrew Winston, has been recognised by Thinkers50 as the top…"
+        ],
+        "confidence": "high",
+        "notes": "Recognition by Thinkers50 indicates an award or honor."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2013, the EU introduced regulations that helped end dangerous chemicals in baby bottles."
+        ],
+        "confidence": "medium",
+        "notes": "Association with EU in a regulatory context, but no specific role mentioned."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "error",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization and role information for career position."
+          },
+          {
+            "type": "classification",
+            "severity": "medium",
+            "description": "Event classified as career_position but lacks essential details to confirm active role."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for career position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position but role is unclear, could be regulatory recognition rather than active position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 2,
+      "warnings": 2,
+      "errors": 1,
+      "career_positions": 3,
+      "awards": 1
+    }
+  }
+}

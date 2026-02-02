@@ -1,0 +1,230 @@
+{
+  "status": "success",
+  "chunk_id": 2791,
+  "chunk_index": 10,
+  "source_url": "https://en.wikipedia.org/wiki/David_Cameron",
+  "title": "David Cameron - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "At the 1996 Conservative Party Conference",
+          "type": "point",
+          "quotes": [
+            "At the 1996 Conservative Party Conference, Cameron called for tax cuts in the forthcoming Budget to be targeted at the low-paid and to 'small businesses where people took money out of their own pockets to put into companies to keep them going'."
+          ]
+        },
+        {
+          "text": "2001 general election",
+          "type": "point",
+          "quotes": [
+            "In the round of selection contests taking place in the run-up to the 2001 general election, Cameron again attempted to be selected for a winnable seat."
+          ]
+        },
+        {
+          "text": "March 2000",
+          "type": "point",
+          "quotes": [
+            "He was in the final two but narrowly lost at Wealden in March 2000,"
+          ]
+        },
+        {
+          "text": "April 2000",
+          "type": "point",
+          "quotes": [
+            "Cameron was selected as PPC for Witney in Oxfordshire in April 2000."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Conservative Party",
+          "quotes": [
+            "At the 1996 Conservative Party Conference, Cameron called for tax cuts in the forthcoming Budget to be targeted at the low-paid and to 'small businesses where people took money out of their own pockets to put into companies to keep them going'."
+          ]
+        },
+        {
+          "name": "Labour",
+          "quotes": [
+            "However, the Labour candidate, David Kidney, portrayed Cameron as 'a right-wing Tory'."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "PPC (Prospective Parliamentary Candidate)",
+          "quotes": [
+            "Cameron was selected as PPC for Witney in Oxfordshire in April 2000."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Stone",
+          "quotes": [
+            ", ran instead in the neighbouring constituency of Stone, where he was re-elected."
+          ]
+        },
+        {
+          "place": "Stafford",
+          "quotes": [
+            "On election day, Stafford had a swing of 10.7%, almost the same as the national swing, which made it one of the many seats to fall to Labour:"
+          ]
+        },
+        {
+          "place": "Kensington and Chelsea",
+          "quotes": [
+            "He tried for the Kensington and Chelsea seat after the death of Alan Clark, but did not make the shortlist."
+          ]
+        },
+        {
+          "place": "Wealden",
+          "quotes": [
+            "He was in the final two but narrowly lost at Wealden in March 2000,"
+          ]
+        },
+        {
+          "place": "Witney, Oxfordshire",
+          "quotes": [
+            "Cameron was selected as PPC for Witney in Oxfordshire in April 2000."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "At the 1996 Conservative Party Conference, Cameron called for tax cuts in the forthcoming Budget to be targeted at the low-paid and to 'small businesses where people took money out of their own pockets to put into companies to keep them going'."
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but active participation in party conference indicates career involvement."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          4
+        ],
+        "supporting_quotes": [
+          "Cameron was selected as PPC for Witney in Oxfordshire in April 2000."
+        ],
+        "confidence": "high",
+        "notes": "Clear role and location, indicating a specific career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          3
+        ],
+        "supporting_quotes": [
+          "He was in the final two but narrowly lost at Wealden in March 2000,"
+        ],
+        "confidence": "medium",
+        "notes": "Implies active participation in a selection process, though no specific role is mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In the round of selection contests taking place in the run-up to the 2001 general election, Cameron again attempted to be selected for a winnable seat."
+        ],
+        "confidence": "medium",
+        "notes": "Active participation in selection contests, indicating ongoing career efforts."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role and location information, though active participation is implied."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quote supports involvement but does not explicitly state a career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and role information, though active participation is implied."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quote supports involvement in a selection process but does not explicitly state a career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and role information, though active participation is implied."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quote supports involvement in selection contests but does not explicitly state a career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 1,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

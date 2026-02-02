@@ -1,0 +1,247 @@
+{
+  "status": "success",
+  "chunk_id": 3,
+  "chunk_index": 2,
+  "source_url": "https://en.wikipedia.org/wiki/Anand_Panyarachun",
+  "title": "Anand Panyarachun - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1979",
+          "type": "point",
+          "quotes": [
+            "He became the Vice-Chairman of the Saha-Union Group in 1979"
+          ]
+        },
+        {
+          "text": "1991",
+          "type": "point",
+          "quotes": [
+            "He became the Chairman of the Board of Directors in 1991"
+          ]
+        },
+        {
+          "text": "since 1984",
+          "type": "open",
+          "quotes": [
+            "He has been a Director of Siam Commercial Bank since 1984"
+          ]
+        },
+        {
+          "text": "23 February 1991",
+          "type": "point",
+          "quotes": [
+            "On 23 February 1991, a military coup led by General Sunthorn Kongsompong"
+          ]
+        },
+        {
+          "text": "1 March 1991",
+          "type": "point",
+          "quotes": [
+            "The interim constitution that was promulgated on 1 March 1991 reconfirmed the intention of the NKPC to retain substantial control"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Saha-Union Group",
+          "quotes": [
+            "He became the Vice-Chairman of the Saha-Union Group in 1979"
+          ]
+        },
+        {
+          "name": "Siam Commercial Bank",
+          "quotes": [
+            "He has been a Director of Siam Commercial Bank since 1984"
+          ]
+        },
+        {
+          "name": "National Peace Keeping Council (NPKC)",
+          "quotes": [
+            "the military formed a National Peace Keeping Council (NPKC) to run the country"
+          ]
+        },
+        {
+          "name": "Thailand Development Research Institute",
+          "quotes": [
+            "ranging from the president of the Thailand Development Research Institute"
+          ]
+        },
+        {
+          "name": "Thai Rath",
+          "quotes": [
+            "to the mass-circulation newspaper Thai Rath"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Vice-Chairman of the Saha-Union Group",
+          "quotes": [
+            "He became the Vice-Chairman of the Saha-Union Group in 1979"
+          ]
+        },
+        {
+          "title": "Chairman of the Board of Directors",
+          "quotes": [
+            "He became the Chairman of the Board of Directors in 1991"
+          ]
+        },
+        {
+          "title": "Director of Siam Commercial Bank",
+          "quotes": [
+            "He has been a Director of Siam Commercial Bank since 1984"
+          ]
+        },
+        {
+          "title": "interim prime minister",
+          "quotes": [
+            "the NPKC appointed Anand as interim prime minister"
+          ]
+        },
+        {
+          "title": "supreme commander of the armed forces",
+          "quotes": [
+            "General Sunthorn Kongsompong, supreme commander of the armed forces"
+          ]
+        },
+        {
+          "title": "commander-in-chief of the army",
+          "quotes": [
+            "General Suchinda Kraprayoon, the commander-in-chief of the army"
+          ]
+        },
+        {
+          "title": "democratically elected leader",
+          "quotes": [
+            "imprisoned Chatichai Choonhavan, the democratically elected leader"
+          ]
+        },
+        {
+          "title": "foreign minister",
+          "quotes": [
+            "A senior diplomat during the years Prem served as prime minister became foreign minister"
+          ]
+        },
+        {
+          "title": "finance minister",
+          "quotes": [
+            "Amongst those selected by Anand were Prem's previous finance minister"
+          ]
+        },
+        {
+          "title": "economic advisor",
+          "quotes": [
+            "Amongst those selected by Anand were Prem's previous finance minister and economic advisor"
+          ]
+        },
+        {
+          "title": "privy councillor",
+          "quotes": [
+            "The strong guiding hand of privy councillor Prem Tinsulanonda could be seen"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Thailand",
+          "quotes": [
+            "Various commentators, ranging from the president of the Thailand Development Research Institute to the mass-circulation newspaper Thai Rath"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He became the Vice-Chairman of the Saha-Union Group in 1979"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He has been a Director of Siam Commercial Bank since 1984"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He became the Chairman of the Board of Directors in 1991"
+        ],
+        "confidence": "medium",
+        "notes": "Organization not specified, assuming it relates to a previously mentioned organization"
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Organization not specified, assuming it relates to a previously mentioned organization"
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 2,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

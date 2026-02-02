@@ -1,0 +1,100 @@
+{
+  "status": "success",
+  "chunk_id": 3979,
+  "chunk_index": 0,
+  "source_url": "https://www.greenclimate.fund/news/gcf-board-opens-b-19-meeting-elects-lennart-b-229-ge-and-paul-oquist-as-new-co-chairs",
+  "title": "GCF Board opens B.19 meeting, elects Lennart Båge and Paul Oquist as new Co-Chairs | Green Climate Fund",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "26 Feb 2018",
+          "type": "point",
+          "quotes": [
+            "Publication date 26 Feb 2018"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Green Climate Fund",
+          "quotes": [
+            "GCF Board opens B.19 meeting, elects Lennart Båge and Paul Oquist as new Co-Chairs | Green Climate Fund",
+            "The Green Climate Fund (GCF) Board has today appointed two new Co-Chairs at its nineteenth meeting"
+          ]
+        },
+        {
+          "name": "GCF Board",
+          "quotes": [
+            "GCF Board opens B.19 meeting, elects Lennart Båge and Paul Oquist as new Co-Chairs",
+            "The Green Climate Fund (GCF) Board has today appointed two new Co-Chairs at its nineteenth meeting"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Co-Chairs",
+          "quotes": [
+            "GCF Board opens B.19 meeting, elects Lennart Båge and Paul Oquist as new Co-Chairs",
+            "The Green Climate Fund (GCF) Board has today appointed two new Co-Chairs at its nineteenth meeting"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "GCF Board opens B.19 meeting, elects Lennart Båge and Paul Oquist as new Co-Chairs | Green Climate Fund",
+          "The Green Climate Fund (GCF) Board has today appointed two new Co-Chairs at its nineteenth meeting",
+          "GCF Board opens B.19 meeting, elects Lennart Båge and Paul Oquist as new Co-Chairs",
+          "The Green Climate Fund (GCF) Board has today appointed two new Co-Chairs at its nineteenth meeting"
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker linked to the appointment, but the role and organizations are clearly connected through the quotes."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the appointment, though the role and organizations are clearly connected through the quotes."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quotes mention the appointment of Co-Chairs but do not specify individual roles or responsibilities, which is typical for career positions."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

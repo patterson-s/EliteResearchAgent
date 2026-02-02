@@ -1,0 +1,160 @@
+{
+  "status": "success",
+  "chunk_id": 794,
+  "chunk_index": 0,
+  "source_url": "https://norwaysummit.no/speakers/nikolai-astrup",
+  "title": "Norway Summit",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2018-2019",
+          "type": "range",
+          "quotes": [
+            "He served as the Minister of International Development from 2018-2019 in Prime Minister Erna Solberg's cabinet."
+          ]
+        },
+        {
+          "text": "2019",
+          "type": "point",
+          "quotes": [
+            "In 2019, he became the first Minister of Digitalisation."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Conservative Party (HÃ¸yre)",
+          "quotes": [
+            "Nikolai Astrup is a Norwegian politician representing the Conservative Party (HÃ¸yre) for Oslo."
+          ]
+        },
+        {
+          "name": "Ministry of Local Government and Modernization",
+          "quotes": [
+            "The Minister for Digitization is responsible for ICT policy in the Ministry of Local Government and Modernization."
+          ]
+        },
+        {
+          "name": "Ministry of Transport and Communications",
+          "quotes": [
+            "The minister is also responsible for electronic communication at the Ministry of Transport and Communications, including the responsibility for the National Communications Authority."
+          ]
+        },
+        {
+          "name": "Ministry of Trade and Fisheries",
+          "quotes": [
+            "In addition, the Minister is responsible for Altinn, business-oriented ICT, Digital21, and resources for ICT research in the Ministry of Trade and Fisheries."
+          ]
+        },
+        {
+          "name": "London School of Economics and Political Science (LSE)",
+          "quotes": [
+            "Astrup holds a master's degree in European Politics and Governance and a bachelor's degree in International Relations, both from the London School of Economics and Political Science (LSE)."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Minister of International Development",
+          "quotes": [
+            "He served as the Minister of International Development from 2018-2019 in Prime Minister Erna Solberg's cabinet."
+          ]
+        },
+        {
+          "title": "Minister of Digitalisation",
+          "quotes": [
+            "In 2019, he became the first Minister of Digitalisation."
+          ]
+        },
+        {
+          "title": "CEO",
+          "quotes": [
+            "BENEDICTE WESTRE SKOG, CEO, +47 913 52 085, benedicte@norwaysummit.com"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Oslo",
+          "quotes": [
+            "Nikolai Astrup is a Norwegian politician representing the Conservative Party (HÃ¸yre) for Oslo."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He served as the Minister of International Development from 2018-2019 in Prime Minister Erna Solberg's cabinet."
+        ],
+        "confidence": "high",
+        "notes": "No organization explicitly mentioned, but role is clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          1,
+          2,
+          3
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2019, he became the first Minister of Digitalisation.",
+          "The Minister for Digitization is responsible for ICT policy in the Ministry of Local Government and Modernization.",
+          "The minister is also responsible for electronic communication at the Ministry of Transport and Communications, including the responsibility for the National Communications Authority.",
+          "In addition, the Minister is responsible for Altinn, business-oriented ICT, Digital21, and resources for ICT research in the Ministry of Trade and Fisheries."
+        ],
+        "confidence": "high",
+        "notes": "Multiple organizations mentioned as part of the responsibilities of the Minister of Digitalisation."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information despite clear role and time frame."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "status": "success",
+  "chunk_id": 2874,
+  "chunk_index": 0,
+  "source_url": "https://www.britannica.com/biography/David-Cameron",
+  "title": "David Cameron | Biography, Brexit, & Facts | Britannica",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Conservatives",
+          "quotes": [
+            "Cameron’s revitalization of the Conservatives"
+          ]
+        },
+        {
+          "name": "Conservative–Liberal Democratic coalition government",
+          "quotes": [
+            "The Conservative–Liberal Democratic coalition government"
+          ]
+        },
+        {
+          "name": "YouGov PLC",
+          "quotes": [
+            "Peter Kellner is the former president of YouGov PLC"
+          ]
+        },
+        {
+          "name": "Encyclopaedia Britannica",
+          "quotes": [
+            "Encyclopaedia Britannica's editors oversee subject areas in which they have extensive knowledge"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "prime minister of United Kingdom",
+          "quotes": [
+            "David Cameron, prime minister of United Kingdom"
+          ]
+        },
+        {
+          "title": "president of YouGov PLC",
+          "quotes": [
+            "Peter Kellner is the former president of YouGov PLC"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "United Kingdom",
+          "quotes": [
+            "prime minister of United Kingdom"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "David Cameron, prime minister of United Kingdom",
+          "The Conservative–Liberal Democratic coalition government"
+        ],
+        "confidence": "high",
+        "notes": "No explicit time markers, but role and organization are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Peter Kellner is the former president of YouGov PLC"
+        ],
+        "confidence": "high",
+        "notes": "Role and organization are directly linked in the quote."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position, making temporal coherence unverifiable."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information for career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

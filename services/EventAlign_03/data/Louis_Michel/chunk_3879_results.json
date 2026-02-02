@@ -1,0 +1,223 @@
+{
+  "status": "success",
+  "chunk_id": 3879,
+  "chunk_index": 8,
+  "source_url": "https://grokipedia.com/page/Louis_Michel",
+  "title": "Louis Michel",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2015",
+          "type": "point",
+          "quotes": [
+            "Michel rejected guilt-based approaches to Africa's development, stating in a 2015 interview that 'Europe is not guilty' of the continent's shortcomings and criticizing excessive focus on historical remorse."
+          ]
+        },
+        {
+          "text": "2001",
+          "type": "point",
+          "quotes": [
+            "During Belgium's EU presidency in 2001, as foreign minister, Michel urged accelerating enlargement by reducing skeptical assessments of candidate countries, viewing expansion as essential for stability and shared prosperity."
+          ]
+        },
+        {
+          "text": "2004",
+          "type": "point",
+          "quotes": [
+            "Michel supported NATO-EU complementarity but expressed caution on overextending alliances, as in his 2004 view against NATO engagement in Iraq to avoid unwise escalations."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "European Union (EU)",
+          "quotes": [
+            "In this context, he urged EU support for peacebuilding, counter-terrorism, and transparent arms trade to prevent perpetuating instability."
+          ]
+        },
+        {
+          "name": "Spinelli Group",
+          "quotes": [
+            "As a member of the Spinelli Group in the European Parliament, an initiative promoting federalist reforms toward a more unified Europe akin to the 'United States of Europe,' he aligned with efforts to reinvigorate supranational aspirations."
+          ]
+        },
+        {
+          "name": "NATO",
+          "quotes": [
+            "Michel supported NATO-EU complementarity but expressed caution on overextending alliances, as in his 2004 view against NATO engagement in Iraq to avoid unwise escalations."
+          ]
+        },
+        {
+          "name": "European Parliament",
+          "quotes": [
+            "As a member of the Spinelli Group in the European Parliament, an initiative promoting federalist reforms toward a more unified Europe akin to the 'United States of Europe,' he aligned with efforts to reinvigorate supranational aspirations."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "foreign minister",
+          "quotes": [
+            "During Belgium's EU presidency in 2001, as foreign minister, Michel urged accelerating enlargement by reducing skeptical assessments of candidate countries, viewing expansion as essential for stability and shared prosperity."
+          ]
+        },
+        {
+          "title": "development commissioner",
+          "quotes": [
+            "As development commissioner, he pushed for synchronized EU aid efforts to meet the 0.7% GNI target, critiquing bureaucratic micro-management while stressing rapid, neutral humanitarian delivery based on need rather than politics."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Sahel",
+          "quotes": [
+            "He stressed the need for inclusive growth, improved business climates, tax systems, and raw material management to overcome challenges like terrorism, conflicts in regions such as the Sahel and Democratic Republic of Congo, and health crises exemplified by the 2014 Ebola outbreak."
+          ]
+        },
+        {
+          "place": "Democratic Republic of Congo",
+          "quotes": [
+            "He stressed the need for inclusive growth, improved business climates, tax systems, and raw material management to overcome challenges like terrorism, conflicts in regions such as the Sahel and Democratic Republic of Congo, and health crises exemplified by the 2014 Ebola outbreak."
+          ]
+        },
+        {
+          "place": "Iraq",
+          "quotes": [
+            "Michel supported NATO-EU complementarity but expressed caution on overextending alliances, as in his 2004 view against NATO engagement in Iraq to avoid unwise escalations."
+          ]
+        },
+        {
+          "place": "United States",
+          "quotes": [
+            "He advocated positioning the EU as a counterweight to unilateral powers like the United States, enhancing its global influence through unified action."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "During Belgium's EU presidency in 2001, as foreign minister, Michel urged accelerating enlargement by reducing skeptical assessments of candidate countries, viewing expansion as essential for stability and shared prosperity."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "As development commissioner, he pushed for synchronized EU aid efforts to meet the 0.7% GNI target, critiquing bureaucratic micro-management while stressing rapid, neutral humanitarian delivery based on need rather than politics."
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker, but clear linkage between organization and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1,
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "As a member of the Spinelli Group in the European Parliament, an initiative promoting federalist reforms toward a more unified Europe akin to the 'United States of Europe,' he aligned with efforts to reinvigorate supranational aspirations."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between organizations and membership role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [
+          3
+        ],
+        "supporting_quotes": [
+          "Michel supported NATO-EU complementarity but expressed caution on overextending alliances, as in his 2004 view against NATO engagement in Iraq to avoid unwise escalations."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and location with implied role in policy stance."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role for career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 1,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "status": "success",
+  "chunk_id": 1145,
+  "chunk_index": 1,
+  "source_url": "https://jwa.org/encyclopedia/article/radinsky-kira",
+  "title": "Kira Radinsky | Jewish Women's Archive",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2019",
+          "type": "point",
+          "quotes": [
+            "she cofounded in 2019."
+          ]
+        },
+        {
+          "text": "November 25, 2025",
+          "type": "point",
+          "quotes": [
+            "Jewish Women's Archive. 'Kira Radinsky.' (Viewed on November 25, 2025)"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Jewish Women's Archive",
+          "quotes": [
+            "Jewish Women's Archive. 'Kira Radinsky.' (Viewed on November 25, 2025)"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "cofounder",
+          "quotes": [
+            "she cofounded in 2019."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "she cofounded in 2019."
+        ],
+        "confidence": "medium",
+        "notes": "Organization not specified in the quote, but the role of cofounder implies a career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information. While the role of cofounder implies a career position, the specific organization is not mentioned in the quote or entities."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

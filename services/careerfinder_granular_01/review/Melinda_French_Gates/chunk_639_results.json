@@ -1,0 +1,222 @@
+{
+  "status": "success",
+  "chunk_id": 639,
+  "chunk_index": 0,
+  "source_url": "https://en.wikipedia.org/wiki/Melinda_French_Gates",
+  "title": "Melinda French Gates - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1964",
+          "type": "point",
+          "quotes": [
+            "Melinda French Gates (born 1964)",
+            "Melinda Ann French; August 15, 1964"
+          ]
+        },
+        {
+          "text": "1987",
+          "type": "point",
+          "quotes": [
+            "Shortly after joining Microsoft in 1987 as a multimedia product developer"
+          ]
+        },
+        {
+          "text": "1994",
+          "type": "point",
+          "quotes": [
+            "she married in 1994",
+            "Bill Gates, whom she married in 1994"
+          ]
+        },
+        {
+          "text": "2000 to 2024",
+          "type": "range",
+          "quotes": [
+            "From 2000 to 2024, she and Gates co-chaired the Bill & Melinda Gates Foundation"
+          ]
+        },
+        {
+          "text": "May 2024",
+          "type": "point",
+          "quotes": [
+            "After French Gates resigned as co-chair in May 2024"
+          ]
+        },
+        {
+          "text": "2021",
+          "type": "point",
+          "quotes": [
+            "she married in 1994 and divorced in 2021",
+            "whom she married in 1994 and divorced in 2021"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Microsoft",
+          "quotes": [
+            "Shortly after joining Microsoft in 1987 as a multimedia product developer"
+          ]
+        },
+        {
+          "name": "Bill & Melinda Gates Foundation",
+          "quotes": [
+            "From 2000 to 2024, she and Gates co-chaired the Bill & Melinda Gates Foundation"
+          ]
+        },
+        {
+          "name": "Gates Foundation",
+          "quotes": [
+            "After French Gates resigned as co-chair in May 2024, Gates became sole chair of the renamed Gates Foundation"
+          ]
+        },
+        {
+          "name": "Pivotal Ventures",
+          "quotes": [
+            "Founder of Pivotal Ventures"
+          ]
+        },
+        {
+          "name": "Duke University",
+          "quotes": [
+            "she was educated at Duke University, and Duke's Fuqua School of Business"
+          ]
+        },
+        {
+          "name": "Fuqua School of Business",
+          "quotes": [
+            "she was educated at Duke University, and Duke's Fuqua School of Business"
+          ]
+        },
+        {
+          "name": "Ursuline Academy of Dallas",
+          "quotes": [
+            "she was educated at Ursuline Academy of Dallas"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "multimedia product developer",
+          "quotes": [
+            "Shortly after joining Microsoft in 1987 as a multimedia product developer"
+          ]
+        },
+        {
+          "title": "Co-founder and former co-chair",
+          "quotes": [
+            "Co-founder and former co-chair of Gates Foundation"
+          ]
+        },
+        {
+          "title": "Founder",
+          "quotes": [
+            "Founder of Pivotal Ventures"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Dallas, Texas",
+          "quotes": [
+            "Born and raised in Dallas, Texas",
+            "Melinda Ann French; August 15, 1964) is an American philanthropist. Born and raised in Dallas, Texas"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Shortly after joining Microsoft in 1987 as a multimedia product developer"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "From 2000 to 2024, she and Gates co-chaired the Bill & Melinda Gates Foundation"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Founder of Pivotal Ventures"
+        ],
+        "confidence": "high",
+        "notes": "No time marker, but clear linkage between organization and role"
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time marker for career position at Pivotal Ventures"
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 2,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "status": "success",
+  "chunk_id": 3308,
+  "chunk_index": 0,
+  "source_url": "https://www.politico.eu/list/politico-28-class-of-2024/elvira-nabiullina/",
+  "title": "Elvira Nabiullina — POLITICO 28: Class of 2024 – POLITICO",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "During the decade she’s sat at the helm of Russia’s central bank",
+          "type": "open",
+          "quotes": [
+            "During the decade she’s sat at the helm of Russia’s central bank, Nabiullina’s hawkish monetary policies have repeatedly saved the ruble and kept the country’s economy afloat."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Russia’s central bank",
+          "quotes": [
+            "During the decade she’s sat at the helm of Russia’s central bank, Nabiullina’s hawkish monetary policies have repeatedly saved the ruble and kept the country’s economy afloat."
+          ]
+        },
+        {
+          "name": "G8",
+          "quotes": [
+            "she became the first woman to run a central bank of a G8 country."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "top technocrat",
+          "quotes": [
+            "Elvira Nabiullina is the top technocrat keeping Russian President Vladimir Putin’s war machine humming."
+          ]
+        },
+        {
+          "title": "run a central bank",
+          "quotes": [
+            "she became the first woman to run a central bank of a G8 country."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Ufa, a city in Russia’s Republic of Bashkortostan",
+          "quotes": [
+            "she is the daughter of blue-collar ethnic Tatars from Ufa, a city in Russia’s Republic of Bashkortostan, more than 1,000 kilometers from Moscow."
+          ]
+        },
+        {
+          "place": "Moscow",
+          "quotes": [
+            "she is the daughter of blue-collar ethnic Tatars from Ufa, a city in Russia’s Republic of Bashkortostan, more than 1,000 kilometers from Moscow."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "During the decade she’s sat at the helm of Russia’s central bank, Nabiullina’s hawkish monetary policies have repeatedly saved the ruble and kept the country’s economy afloat.",
+          "she became the first woman to run a central bank of a G8 country."
+        ],
+        "confidence": "high",
+        "notes": "The role of running a central bank is clearly a career position, and the time marker indicates an ongoing tenure."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing location information for the career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "The role 'run a central bank' is supported by the quote, but the specific title or responsibilities are not clearly mentioned in the provided quotes."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

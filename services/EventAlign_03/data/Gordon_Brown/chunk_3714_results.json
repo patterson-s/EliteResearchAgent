@@ -1,0 +1,248 @@
+{
+  "status": "success",
+  "chunk_id": 3714,
+  "chunk_index": 17,
+  "source_url": "https://en.wikipedia.org/wiki/Gordon_Brown",
+  "title": "Gordon Brown - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "10 May 2010",
+          "type": "point",
+          "quotes": [
+            "Brown announced on 10 May 2010 that he would stand down as Labour Leader, with a view to a successor being chosen before the next Labour Party Conference in September 2010."
+          ]
+        },
+        {
+          "text": "September 2010",
+          "type": "point",
+          "quotes": [
+            "Brown announced on 10 May 2010 that he would stand down as Labour Leader, with a view to a successor being chosen before the next Labour Party Conference in September 2010."
+          ]
+        },
+        {
+          "text": "2010–present",
+          "type": "open",
+          "quotes": [
+            "Post-premiership (2010–present)"
+          ]
+        },
+        {
+          "text": "2010–2015",
+          "type": "range",
+          "quotes": [
+            "Return to the backbenches (2010–2015)"
+          ]
+        },
+        {
+          "text": "13 May 2010",
+          "type": "point",
+          "quotes": [
+            "On 13 May 2010, in his first public appearance since leaving 10 Downing Street, two days after resigning as prime minister and Leader of the Labour Party, Brown confirmed he intended to stay on in Parliament, serving as a Labour backbencher, to serve the people of his Kirkcaldy and Cowdenbeath constituency."
+          ]
+        },
+        {
+          "text": "2015",
+          "type": "point",
+          "quotes": [
+            "He continued to serve as the MP of Kirkcaldy and Cowdenbeath until 2015."
+          ]
+        },
+        {
+          "text": "Towards the end of May 2010",
+          "type": "point",
+          "quotes": [
+            "Towards the end of May 2010, Brown began writing Beyond the Crash, completing it after 14 weeks."
+          ]
+        },
+        {
+          "text": "2014",
+          "type": "point",
+          "quotes": [
+            "He played a prominent role in the lead-up to, and the aftermath of, the 2014 Scottish independence referendum, campaigning for Scotland to stay in the United Kingdom."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Labour Party",
+          "quotes": [
+            "2010 Labour Party leadership election (UK)",
+            "Brown announced on 10 May 2010 that he would stand down as Labour Leader, with a view to a successor being chosen before the next Labour Party Conference in September 2010.",
+            "He resigned as leader of the Labour Party with immediate effect.",
+            "serving as a Labour backbencher"
+          ]
+        },
+        {
+          "name": "Liberal Democrats",
+          "quotes": [
+            "negotiations between the Labour Party and the Liberal Democrats to form a coalition government failed",
+            "Conservative–Liberal Democrat coalition agreement"
+          ]
+        },
+        {
+          "name": "Conservative–Liberal Democrat coalition",
+          "quotes": [
+            "Conservative–Liberal Democrat coalition agreement"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Labour Leader",
+          "quotes": [
+            "Brown announced on 10 May 2010 that he would stand down as Labour Leader, with a view to a successor being chosen before the next Labour Party Conference in September 2010."
+          ]
+        },
+        {
+          "title": "prime minister",
+          "quotes": [
+            "Brown visited Buckingham Palace to tender his resignation as prime minister to Queen Elizabeth II",
+            "two days after resigning as prime minister and Leader of the Labour Party"
+          ]
+        },
+        {
+          "title": "backbencher",
+          "quotes": [
+            "Brown confirmed he intended to stay on in Parliament, serving as a Labour backbencher"
+          ]
+        },
+        {
+          "title": "MP of Kirkcaldy and Cowdenbeath",
+          "quotes": [
+            "He continued to serve as the MP of Kirkcaldy and Cowdenbeath until 2015."
+          ]
+        },
+        {
+          "title": "Leader of the Opposition",
+          "quotes": [
+            "to recommend that she invite the Leader of the Opposition, David Cameron, to form a government."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Buckingham Palace",
+          "quotes": [
+            "Brown tendering his resignation to Queen Elizabeth II at Buckingham Palace",
+            "Brown visited Buckingham Palace to tender his resignation as prime minister to Queen Elizabeth II"
+          ]
+        },
+        {
+          "place": "Kirkcaldy and Cowdenbeath",
+          "quotes": [
+            "serving the people of his Kirkcaldy and Cowdenbeath constituency",
+            "He continued to serve as the MP of Kirkcaldy and Cowdenbeath until 2015."
+          ]
+        },
+        {
+          "place": "Scotland",
+          "quotes": [
+            "campaigning for Scotland to stay in the United Kingdom",
+            "Our vision for the future of Scotland – yes a Scottish parliament for fairness, battling for equality across the UK"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Brown announced on 10 May 2010 that he would stand down as Labour Leader, with a view to a successor being chosen before the next Labour Party Conference in September 2010."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time markers, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3,
+          5
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          2,
+          3
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Return to the backbenches (2010–2015)",
+          "He continued to serve as the MP of Kirkcaldy and Cowdenbeath until 2015.",
+          "Brown confirmed he intended to stay on in Parliament, serving as a Labour backbencher",
+          "serving the people of his Kirkcaldy and Cowdenbeath constituency"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time markers, organization, roles, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          7
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "He played a prominent role in the lead-up to, and the aftermath of, the 2014 Scottish independence referendum, campaigning for Scotland to stay in the United Kingdom."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit organization or role mentioned, but clear activity in a specific location and time."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and role information, though activity is clear."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 2,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

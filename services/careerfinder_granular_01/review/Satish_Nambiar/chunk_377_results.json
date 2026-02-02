@@ -1,0 +1,103 @@
+{
+  "status": "success",
+  "chunk_id": 377,
+  "chunk_index": 1,
+  "source_url": "https://military-history.fandom.com/wiki/Satish_Nambiar",
+  "title": "Satish Nambiar | Military Wiki | Fandom",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1936",
+          "type": "point",
+          "quotes": [
+            "1936 births"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Indian Army",
+          "quotes": [
+            "Indian Army personnel"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Indian generals",
+          "quotes": [
+            "Indian generals"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Kerala",
+          "quotes": [
+            "People from Kerala"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Indian Army personnel",
+          "Indian generals",
+          "People from Kerala"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time marker linking the role and organization, but the entities are related through context. Assuming a career position based on the role and organization."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "No time markers linked to the event, making it impossible to verify temporal coherence."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time information, which is crucial for a career position event."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quotes do not explicitly link the role 'Indian generals' with the organization 'Indian Army' in a career context."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

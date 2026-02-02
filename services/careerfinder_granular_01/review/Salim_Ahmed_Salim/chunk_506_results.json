@@ -1,0 +1,142 @@
+{
+  "status": "success",
+  "chunk_id": 506,
+  "chunk_index": 6,
+  "source_url": "https://issafrica.s3.amazonaws.com/site/uploads/Book-2015-Salim.pdf",
+  "title": "Book-2015-Salim.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "December 1960",
+          "type": "point",
+          "quotes": [
+            "The impetus for the UN’s actions against colonialism began with UN General Assembly (UNGA) Resolution 1514 of December 1960"
+          ]
+        },
+        {
+          "text": "1962",
+          "type": "point",
+          "quotes": [
+            "The mandate of the committee, which expanded from an initial 17 member states to 24 in 1962"
+          ]
+        },
+        {
+          "text": "from 1960 to 1980",
+          "type": "range",
+          "quotes": [
+            "From 1960 to 1980, representatives from Africa and Asia held the position of committee chair for all but two years."
+          ]
+        },
+        {
+          "text": "from 1972 to 1980",
+          "type": "range",
+          "quotes": [
+            "Salim served as chair from 1972 to 1980."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "UN Special Committee on Decolonization",
+          "quotes": [
+            "The impetus for the UN’s actions against colonialism began with UN General Assembly (UNGA) Resolution 1514 of December 1960, which declared that ‘the subjection of peoples to alien subjugation, domination and exploitation constitutes a denial of fundamental human rights … all peoples have a right to self-determination …’"
+          ]
+        },
+        {
+          "name": "UN General Assembly (UNGA)",
+          "quotes": [
+            "The impetus for the UN’s actions against colonialism began with UN General Assembly (UNGA) Resolution 1514 of December 1960"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "chair",
+          "quotes": [
+            "From 1960 to 1980, representatives from Africa and Asia held the position of committee chair for all but two years.",
+            "Salim served as chair from 1972 to 1980."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "From 1960 to 1980, representatives from Africa and Asia held the position of committee chair for all but two years.",
+          "The impetus for the UN’s actions against colonialism began with UN General Assembly (UNGA) Resolution 1514 of December 1960"
+        ],
+        "confidence": "high",
+        "notes": "Event represents the tenure of chairs from Africa and Asia in the UN Special Committee on Decolonization, supported by overlapping time range and organizational context."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Salim served as chair from 1972 to 1980.",
+          "The impetus for the UN’s actions against colonialism began with UN General Assembly (UNGA) Resolution 1514 of December 1960"
+        ],
+        "confidence": "high",
+        "notes": "Event represents Salim's specific tenure as chair of the UN Special Committee on Decolonization, supported by direct time range and role mention."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information, though this might be inferable from organizational context."
+          },
+          {
+            "type": "quote_support",
+            "severity": "medium",
+            "description": "Supporting quotes do not explicitly mention the specific role or individual holding the position, only general trends."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

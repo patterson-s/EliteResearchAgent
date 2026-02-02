@@ -1,0 +1,204 @@
+{
+  "status": "success",
+  "chunk_id": 2977,
+  "chunk_index": 0,
+  "source_url": "https://www.un.org/sg/en/management/bios/Alonso.shtml",
+  "title": "GISELA ALONSO (CUBA) | Secretary-General | United Nations",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "since 1999",
+          "type": "open",
+          "quotes": [
+            "Ms. Alonso is the current President of the Cuban Agency of Environment, a position she has held since 1999."
+          ]
+        },
+        {
+          "text": "in 1979",
+          "type": "point",
+          "quotes": [
+            "Ms. Alonso has a degree in Chemistry from the University of Havana, and obtained her Doctorate in Biological Sciences in 1979."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Cuban Agency of Environment",
+          "quotes": [
+            "Ms. Alonso is the current President of the Cuban Agency of Environment, a position she has held since 1999."
+          ]
+        },
+        {
+          "name": "Academy of Sciences of Cuba",
+          "quotes": [
+            "Ms. Alonso has held several positions in the Academy of Sciences of Cuba and participated in diverse conferences of the NNUU."
+          ]
+        },
+        {
+          "name": "University of Havana",
+          "quotes": [
+            "Ms. Alonso has a degree in Chemistry from the University of Havana, and obtained her Doctorate in Biological Sciences in 1979."
+          ]
+        },
+        {
+          "name": "NNUU",
+          "quotes": [
+            "Ms. Alonso has held several positions in the Academy of Sciences of Cuba and participated in diverse conferences of the NNUU."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "President of the Cuban Agency of Environment",
+          "quotes": [
+            "Ms. Alonso is the current President of the Cuban Agency of Environment, a position she has held since 1999."
+          ]
+        },
+        {
+          "title": "positions in the Academy of Sciences of Cuba",
+          "quotes": [
+            "Ms. Alonso has held several positions in the Academy of Sciences of Cuba and participated in diverse conferences of the NNUU."
+          ]
+        },
+        {
+          "title": "active advocate for the sustainable development of Small Island Developing States",
+          "quotes": [
+            "She has also been an active advocate for the sustainable development of Small Island Developing States."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Cuba",
+          "quotes": [
+            "GISELA ALONSO (CUBA)",
+            "Ms. Alonso is the current President of the Cuban Agency of Environment, a position she has held since 1999."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Ms. Alonso is the current President of the Cuban Agency of Environment, a position she has held since 1999."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time marker, organization, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Ms. Alonso has held several positions in the Academy of Sciences of Cuba and participated in diverse conferences of the NNUU."
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker, but clear linkage between organization and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "She has also been an active advocate for the sustainable development of Small Island Developing States."
+        ],
+        "confidence": "medium",
+        "notes": "No specific organization or time marker, but role is clearly a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Ms. Alonso has a degree in Chemistry from the University of Havana, and obtained her Doctorate in Biological Sciences in 1979."
+        ],
+        "confidence": "high",
+        "notes": "Educational achievement linked to a specific time marker and organization."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and time marker for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "error",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "high",
+            "description": "Event classified as career_position but describes educational achievement, not a role or responsibility."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 1,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "status": "success",
+  "chunk_id": 2632,
+  "chunk_index": 26,
+  "source_url": "https://en.wikipedia.org/wiki/Susilo_Bambang_Yudhoyono",
+  "title": "Susilo Bambang Yudhoyono - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "12 March 2004",
+          "type": "point",
+          "quotes": [
+            "Kompas.com. 12 March 2004. Archived from the original on 16 May 2007."
+          ]
+        },
+        {
+          "text": "6 May 2004",
+          "type": "point",
+          "quotes": [
+            "Yandhrie (6 May 2004). 'Yudhoyono - Kalla Resmi Daftar ke KPU, 10 Mei'."
+          ]
+        },
+        {
+          "text": "29 September 2004",
+          "type": "point",
+          "quotes": [
+            "Cahyo (29 September 2004). 'SBY Akan Tunjuk 4 Wanita'."
+          ]
+        },
+        {
+          "text": "24–30 October 2005",
+          "type": "range",
+          "quotes": [
+            "Redaksi Tempo (24–30 October 2005). SBY-JK Duet Atau Duel: Edisi Khusus Setahun Pemerintahan SBY-JK."
+          ]
+        },
+        {
+          "text": "13 October 2007",
+          "type": "point",
+          "quotes": [
+            "antaranews.com. 13 October 2007. Archived from the original on 20 September 2022."
+          ]
+        },
+        {
+          "text": "8 January 2008",
+          "type": "point",
+          "quotes": [
+            "BBC News. 8 January 2008. Archived from the original on 9 January 2008."
+          ]
+        },
+        {
+          "text": "22 November 2006",
+          "type": "point",
+          "quotes": [
+            "Morrissey, Scott (22 November 2006)."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Kompas.com",
+          "quotes": [
+            "Kompas.com. 12 March 2004. Archived from the original on 16 May 2007."
+          ]
+        },
+        {
+          "name": "Tempo",
+          "quotes": [
+            "Yandhrie (6 May 2004). 'Yudhoyono - Kalla Resmi Daftar ke KPU, 10 Mei'. Tempo."
+          ]
+        },
+        {
+          "name": "mediaipnu.or.id",
+          "quotes": [
+            "mediaipnu.or.id. 23 August 2022. Archived from the original on 23 August 2022."
+          ]
+        },
+        {
+          "name": "Suara Merdeka",
+          "quotes": [
+            "Suara Merdeka. Retrieved 18 April 2011."
+          ]
+        },
+        {
+          "name": "antaranews.com",
+          "quotes": [
+            "antaranews.com. 13 October 2007. Archived from the original on 20 September 2022."
+          ]
+        },
+        {
+          "name": "BBC News",
+          "quotes": [
+            "BBC News. 8 January 2008. Archived from the original on 9 January 2008."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Presiden Republik Indonesia",
+          "quotes": [
+            "Presiden Republik Indonesia – Dr. H. Susilo Bambang Yudhoyono."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Jakarta, Indonesia",
+          "quotes": [
+            "Redaksi Tempo (24–30 October 2005). SBY-JK Duet Atau Duel: Edisi Khusus Setahun Pemerintahan SBY-JK. Jakarta, Indonesia."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Presiden Republik Indonesia – Dr. H. Susilo Bambang Yudhoyono.",
+          "Redaksi Tempo (24–30 October 2005). SBY-JK Duet Atau Duel: Edisi Khusus Setahun Pemerintahan SBY-JK. Jakarta, Indonesia."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time markers linked to the role, but the role and location are clearly connected. Assuming this is a career position based on the title 'Presiden Republik Indonesia'."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the career position. While the role and location are clearly connected, there is no explicit time frame provided."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quotes do not explicitly mention the duration or start/end dates of the presidency, only referencing a publication from 2005."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

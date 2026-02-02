@@ -1,0 +1,199 @@
+{
+  "status": "success",
+  "chunk_id": 5,
+  "chunk_index": 4,
+  "source_url": "https://en.wikipedia.org/wiki/Anand_Panyarachun",
+  "title": "Anand Panyarachun - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "September 1991",
+          "type": "point",
+          "quotes": [
+            "Anand made visits to China in September 1991 and Japan in December 1991, and went on to meetings with President George H. W. Bush in the United States."
+          ]
+        },
+        {
+          "text": "December 1991",
+          "type": "point",
+          "quotes": [
+            "Anand made visits to China in September 1991 and Japan in December 1991, and went on to meetings with President George H. W. Bush in the United States."
+          ]
+        },
+        {
+          "text": "November and December",
+          "type": "range",
+          "quotes": [
+            "In November and December Anand publicly repeated his views that the country's security did not lie in military might, but in its economic and political development, on one occasion stating, 'Military might is no longer a guarantee of national security.'"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Telecom Asia",
+          "quotes": [
+            "of a multi-billion baht concession to Telecom Asia (today known as True) to build and operate two million telephone lines in Bangkok."
+          ]
+        },
+        {
+          "name": "True",
+          "quotes": [
+            "of a multi-billion baht concession to Telecom Asia (today known as True) to build and operate two million telephone lines in Bangkok."
+          ]
+        },
+        {
+          "name": "Hopewell",
+          "quotes": [
+            "Suspension of the Hopewell rail-train airport link project."
+          ]
+        },
+        {
+          "name": "NPKC",
+          "quotes": [
+            "Anand disagreed with the military junta's plans to increase the defence budget. Anand denied the military's request for supplemental funding that would have totalled 53 billion baht."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Prime Minister",
+          "quotes": [
+            "General Suchinda, the coup leader who installed Anand as Prime Minister, was appointed chairman of Telecom Asia after he was toppled from power.",
+            "Anand made visits to China in September 1991 and Japan in December 1991, and went on to meetings with President George H. W. Bush in the United States."
+          ]
+        },
+        {
+          "title": "chairman of Telecom Asia",
+          "quotes": [
+            "General Suchinda, the coup leader who installed Anand as Prime Minister, was appointed chairman of Telecom Asia after he was toppled from power."
+          ]
+        },
+        {
+          "title": "President",
+          "quotes": [
+            "Anand made visits to China in September 1991 and Japan in December 1991, and went on to meetings with President George H. W. Bush in the United States."
+          ]
+        },
+        {
+          "title": "Junta member Air Chief Marshal",
+          "quotes": [
+            "Junta member Air Chief Marshal Kaset Rojananil criticised the government for being too 'inefficient' and calling for it to resign."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Bangkok",
+          "quotes": [
+            "of a multi-billion baht concession to Telecom Asia (today known as True) to build and operate two million telephone lines in Bangkok."
+          ]
+        },
+        {
+          "place": "China",
+          "quotes": [
+            "Anand made visits to China in September 1991 and Japan in December 1991, and went on to meetings with President George H. W. Bush in the United States."
+          ]
+        },
+        {
+          "place": "Japan",
+          "quotes": [
+            "Anand made visits to China in September 1991 and Japan in December 1991, and went on to meetings with President George H. W. Bush in the United States."
+          ]
+        },
+        {
+          "place": "United States",
+          "quotes": [
+            "Anand made visits to China in September 1991 and Japan in December 1991, and went on to meetings with President George H. W. Bush in the United States."
+          ]
+        },
+        {
+          "place": "Laos",
+          "quotes": [
+            "Relationships with Laos improved significantly, with Thailand allocating one-half of its 200 million baht aid budget to the nation."
+          ]
+        },
+        {
+          "place": "Cambodia",
+          "quotes": [
+            "Thailand under Anand became deeply involved in the Cambodian peace process, while relations with Vietnam went through a period of fence-mending and confidence-building."
+          ]
+        },
+        {
+          "place": "Vietnam",
+          "quotes": [
+            "Thailand under Anand became deeply involved in the Cambodian peace process, while relations with Vietnam went through a period of fence-mending and confidence-building."
+          ]
+        },
+        {
+          "place": "Burma",
+          "quotes": [
+            "The only foreign relations area where there were serious reasons for criticising Anand's administration was Thailand's soft stance towards the repressive military junta of Burma."
+          ]
+        },
+        {
+          "place": "Indochina region",
+          "quotes": [
+            "Suchinda justified the military's request by stating that there were still communist fighters in the Indochina region."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          1,
+          2,
+          3
+        ],
+        "supporting_quotes": [
+          "Anand made visits to China in September 1991 and Japan in December 1991, and went on to meetings with President George H. W. Bush in the United States.",
+          "General Suchinda, the coup leader who installed Anand as Prime Minister, was appointed chairman of Telecom Asia after he was toppled from power."
+        ],
+        "confidence": "high",
+        "notes": "Anand's role as Prime Minister is clearly linked to his visits to China, Japan, and the United States."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quotes mention visits and meetings but do not explicitly detail responsibilities or active duties as Prime Minister."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

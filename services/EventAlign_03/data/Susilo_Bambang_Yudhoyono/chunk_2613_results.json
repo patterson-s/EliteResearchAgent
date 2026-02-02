@@ -1,0 +1,276 @@
+{
+  "status": "success",
+  "chunk_id": 2613,
+  "chunk_index": 7,
+  "source_url": "https://en.wikipedia.org/wiki/Susilo_Bambang_Yudhoyono",
+  "title": "Susilo Bambang Yudhoyono - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "July 2001",
+          "type": "point",
+          "quotes": [
+            "Yudhoyono would break ranks from Wahid in July 2001 when the latter was facing impeachment."
+          ]
+        },
+        {
+          "text": "23 July 2001",
+          "type": "point",
+          "quotes": [
+            "On 23 July 2001, in a special session, the MPR impeached Wahid and replaced him with Megawati as president."
+          ]
+        },
+        {
+          "text": "October 2002",
+          "type": "point",
+          "quotes": [
+            "After the Bali bombings in October 2002, he oversaw the hunt for and arrest of those responsible, and gained a reputation both in Indonesia and abroad as one of the few Indonesian politicians who was serious about the war on terrorism."
+          ]
+        },
+        {
+          "text": "19 May 2003",
+          "type": "point",
+          "quotes": [
+            "On his advice, Megawati declared martial law in Aceh on 19 May 2003, which was then extended in November."
+          ]
+        },
+        {
+          "text": "From 12 to 19 August 2001",
+          "type": "range",
+          "quotes": [
+            "From 12 to 19 August 2001, Rumangkang began holding a series of meetings to discuss the formation of the party while holding consultations with Yudhoyono."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "People's Representative Council (DPR)",
+          "quotes": [
+            "Wahid issued a decree freezing the People's Representative Council (DPR) and then asked Yudhoyono to declare a state of emergency to further strengthen his position."
+          ]
+        },
+        {
+          "name": "MPR",
+          "quotes": [
+            "On 23 July 2001, in a special session, the MPR impeached Wahid and replaced him with Megawati as president."
+          ]
+        },
+        {
+          "name": "Golkar",
+          "quotes": [
+            "Yudhoyono threw his name in the hat and competed against Golkar's Akbar Tanjung and United Development Party's (PPP) Hamzah Haz."
+          ]
+        },
+        {
+          "name": "United Development Party (PPP)",
+          "quotes": [
+            "Yudhoyono threw his name in the hat and competed against Golkar's Akbar Tanjung and United Development Party's (PPP) Hamzah Haz."
+          ]
+        },
+        {
+          "name": "Free Aceh Movement (GAM)",
+          "quotes": [
+            "Yudhoyono also dealt with the Free Aceh Movement (GAM), a separatist movement wanting to separate the Province of Aceh from Indonesia."
+          ]
+        },
+        {
+          "name": "Democratic Party",
+          "quotes": [
+            "Yudhoyono approved of the idea and after going through the basic concepts, left Rumangkang in charge of forming the Party."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "coordinating minister of political, social, and security affairs",
+          "quotes": [
+            "Yudhoyono's official portrait as coordinating minister of political, social, and security affairs, 1999"
+          ]
+        },
+        {
+          "title": "coordinating minister of political and security affairs",
+          "quotes": [
+            "Yudhoyono was appointed to his old position of coordinating minister of political and security affairs in Megawati's new cabinet."
+          ]
+        },
+        {
+          "title": "vice president",
+          "quotes": [
+            "the MPR assembled to elect a new vice president"
+          ]
+        },
+        {
+          "title": "president",
+          "quotes": [
+            "the MPR impeached Wahid and replaced him with Megawati as president."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Bali",
+          "quotes": [
+            "After the Bali bombings in October 2002, he oversaw the hunt for and arrest of those responsible, and gained a reputation both in Indonesia and abroad as one of the few Indonesian politicians who was serious about the war on terrorism."
+          ]
+        },
+        {
+          "place": "Aceh",
+          "quotes": [
+            "Yudhoyono also dealt with the Free Aceh Movement (GAM), a separatist movement wanting to separate the Province of Aceh from Indonesia."
+          ]
+        },
+        {
+          "place": "Indonesia",
+          "quotes": [
+            "gained a reputation both in Indonesia and abroad as one of the few Indonesian politicians who was serious about the war on terrorism."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Yudhoyono's official portrait as coordinating minister of political, social, and security affairs, 1999"
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker or organization linked, but role is clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "On 23 July 2001, in a special session, the MPR impeached Wahid and replaced him with Megawati as president."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Yudhoyono was appointed to his old position of coordinating minister of political and security affairs in Megawati's new cabinet."
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker linked in quotes, but role is clear and likely after Megawati's appointment."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "After the Bali bombings in October 2002, he oversaw the hunt for and arrest of those responsible, and gained a reputation both in Indonesia and abroad as one of the few Indonesian politicians who was serious about the war on terrorism."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "From 12 to 19 August 2001, Rumangkang began holding a series of meetings to discuss the formation of the party while holding consultations with Yudhoyono.",
+          "Yudhoyono approved of the idea and after going through the basic concepts, left Rumangkang in charge of forming the Party."
+        ],
+        "confidence": "medium",
+        "notes": "Yudhoyono's involvement in the formation of the Democratic Party is clear, but his exact role is not specified."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and organization links, though role is clear from the quote."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization link, though role and time marker are clear."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role link, though involvement in the organization and time marker are clear."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 2,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

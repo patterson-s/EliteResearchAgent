@@ -1,0 +1,148 @@
+{
+  "status": "success",
+  "chunk_id": 712,
+  "chunk_index": 2,
+  "source_url": "https://www.britannica.com/money/Jack-Ma",
+  "title": "Jack Ma | Biography, Alibaba, & Facts | Britannica Money",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In September 2018",
+          "type": "point",
+          "quotes": [
+            "In September 2018 it was announced that Ma would step down as chair of Alibaba the following year, though he would remain on the board."
+          ]
+        },
+        {
+          "text": "the following year",
+          "type": "point",
+          "quotes": [
+            "In September 2018 it was announced that Ma would step down as chair of Alibaba the following year, though he would remain on the board."
+          ]
+        },
+        {
+          "text": "In 2014",
+          "type": "point",
+          "quotes": [
+            "In 2014 Ma oversaw the creation of the Ant Group, which served as the parent group of Alipay and other financial services."
+          ]
+        },
+        {
+          "text": "In 2020",
+          "type": "point",
+          "quotes": [
+            "In 2020 Ant was scheduled for an IPO. However, that was delayed when Chinese officials demanded that the company be restructured."
+          ]
+        },
+        {
+          "text": "In April 2021",
+          "type": "point",
+          "quotes": [
+            "In April 2021 Alibaba was charged with a $2.8 billion antitrust fine for violating anti-monopoly laws."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Alibaba",
+          "quotes": [
+            "In September 2018 it was announced that Ma would step down as chair of Alibaba the following year, though he would remain on the board.",
+            "In April 2021 Alibaba was charged with a $2.8 billion antitrust fine for violating anti-monopoly laws."
+          ]
+        },
+        {
+          "name": "Ant Group",
+          "quotes": [
+            "In 2014 Ma oversaw the creation of the Ant Group, which served as the parent group of Alipay and other financial services."
+          ]
+        },
+        {
+          "name": "Alipay",
+          "quotes": [
+            "In 2014 Ma oversaw the creation of the Ant Group, which served as the parent group of Alipay and other financial services."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "chair of Alibaba",
+          "quotes": [
+            "In September 2018 it was announced that Ma would step down as chair of Alibaba the following year, though he would remain on the board."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In September 2018 it was announced that Ma would step down as chair of Alibaba the following year, though he would remain on the board."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time markers, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          1,
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2014 Ma oversaw the creation of the Ant Group, which served as the parent group of Alipay and other financial services."
+        ],
+        "confidence": "high",
+        "notes": "Ma's role in overseeing the creation of Ant Group and its relationship with Alipay is clear."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for the event related to overseeing the creation of Ant Group."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "status": "success",
+  "chunk_id": 2870,
+  "chunk_index": 89,
+  "source_url": "https://en.wikipedia.org/wiki/David_Cameron",
+  "title": "David Cameron - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "House of Lords",
+          "quotes": [
+            "House of Lords"
+          ]
+        },
+        {
+          "name": "Shadow Cabinet of David Cameron",
+          "quotes": [
+            "Shadow Cabinet of David Cameron"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Shadow cabinet members",
+          "quotes": [
+            "Shadow cabinet members"
+          ]
+        },
+        {
+          "title": "Special advisers to the British government",
+          "quotes": [
+            "Special advisers to the British government"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Shadow Cabinet of David Cameron",
+          "Shadow cabinet members"
+        ],
+        "confidence": "high",
+        "notes": "Direct association between the Shadow Cabinet of David Cameron and Shadow cabinet members indicates a clear career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "House of Lords",
+          "Special advisers to the British government"
+        ],
+        "confidence": "medium",
+        "notes": "While the House of Lords is mentioned, the role of Special advisers to the British government is more likely associated with the British government in general rather than specifically the House of Lords. However, given the information, this is the most plausible linkage."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "The role 'Special advisers to the British government' is not clearly linked to the organization 'House of Lords' in the quotes provided."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,384 @@
+{
+  "status": "success",
+  "chunk_id": 170,
+  "chunk_index": 7,
+  "source_url": "https://en.wikipedia.org/wiki/Gareth_Evans_(politician)",
+  "title": "Gareth Evans (politician) - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1993–1996",
+          "type": "range",
+          "quotes": [
+            "government in the Senate, 1993–1996"
+          ]
+        },
+        {
+          "text": "1993",
+          "type": "point",
+          "quotes": [
+            "In 1993, as a member of the Keating government, Senator Evans became Leader of the Government in the Senate"
+          ]
+        },
+        {
+          "text": "since 1987",
+          "type": "open",
+          "quotes": [
+            "replacing the retiring John Button, whose Deputy he had been since 1987"
+          ]
+        },
+        {
+          "text": "1996–1999",
+          "type": "range",
+          "quotes": [
+            "Return to opposition, 1996–1999"
+          ]
+        },
+        {
+          "text": "1995",
+          "type": "point",
+          "quotes": [
+            "in 1995 he gained endorsement for the seat of Holt"
+          ]
+        },
+        {
+          "text": "1996",
+          "type": "point",
+          "quotes": [
+            "and was elected at the 1996 election"
+          ]
+        },
+        {
+          "text": "1997",
+          "type": "point",
+          "quotes": [
+            "during 1997 orchestrated in secret the defection to the Labor Party of the popular leader of the Australian Democrats"
+          ]
+        },
+        {
+          "text": "October",
+          "type": "point",
+          "quotes": [
+            "Senator Cheryl Kernot, who resigned from the Senate in October and became a Labor House of Representatives candidate at the 1998 election"
+          ]
+        },
+        {
+          "text": "1998",
+          "type": "point",
+          "quotes": [
+            "became a Labor House of Representatives candidate at the 1998 election"
+          ]
+        },
+        {
+          "text": "2002",
+          "type": "point",
+          "quotes": [
+            "– by Laurie Oakes in his column in The Bulletin in 2002 – that Evans and Kernot had been having an affair at the time"
+          ]
+        },
+        {
+          "text": "1984",
+          "type": "point",
+          "quotes": [
+            "His first attempt to do so, in 1984, had been thwarted by the Socialist Left faction"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Keating government",
+          "quotes": [
+            "In 1993, as a member of the Keating government, Senator Evans became Leader of the Government in the Senate"
+          ]
+        },
+        {
+          "name": "Senate",
+          "quotes": [
+            "government in the Senate, 1993–1996"
+          ]
+        },
+        {
+          "name": "House of Representatives",
+          "quotes": [
+            "Evans had long desired to move from the Senate to the House of Representatives"
+          ]
+        },
+        {
+          "name": "Socialist Left",
+          "quotes": [
+            "His first attempt to do so, in 1984, had been thwarted by the Socialist Left faction"
+          ]
+        },
+        {
+          "name": "Labor Party",
+          "quotes": [
+            "He was elected Deputy Leader of the Labor Party, defeating Simon Crean"
+          ]
+        },
+        {
+          "name": "Australian Democrats",
+          "quotes": [
+            "the popular leader of the Australian Democrats, Senator Cheryl Kernot"
+          ]
+        },
+        {
+          "name": "The Bulletin",
+          "quotes": [
+            "in his column in The Bulletin in 2002"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Leader of the Government in the Senate",
+          "quotes": [
+            "Senator Evans became Leader of the Government in the Senate"
+          ]
+        },
+        {
+          "title": "Deputy",
+          "quotes": [
+            "whose Deputy he had been since 1987"
+          ]
+        },
+        {
+          "title": "Deputy Leader of the Labor Party",
+          "quotes": [
+            "He was elected Deputy Leader of the Labor Party"
+          ]
+        },
+        {
+          "title": "Shadow Treasurer",
+          "quotes": [
+            "and appointed Shadow Treasurer by Leader Kim Beazley"
+          ]
+        },
+        {
+          "title": "Leader",
+          "quotes": [
+            "Leader Kim Beazley"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Holt",
+          "quotes": [
+            "he gained endorsement for the seat of Holt, in Melbourne's eastern suburbs"
+          ]
+        },
+        {
+          "place": "Melbourne's eastern suburbs",
+          "quotes": [
+            "he gained endorsement for the seat of Holt, in Melbourne's eastern suburbs"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1,
+          0
+        ],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 1993, as a member of the Keating government, Senator Evans became Leader of the Government in the Senate",
+          "government in the Senate, 1993–1996"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "replacing the retiring John Button, whose Deputy he had been since 1987"
+        ],
+        "confidence": "medium",
+        "notes": "No clear organization mentioned, but role and time are linked"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4,
+          5
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          0,
+          1
+        ],
+        "supporting_quotes": [
+          "in 1995 he gained endorsement for the seat of Holt, in Melbourne's eastern suburbs",
+          "and was elected at the 1996 election"
+        ],
+        "confidence": "medium",
+        "notes": "No clear organization or role mentioned, but time and location are linked"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Return to opposition, 1996–1999"
+        ],
+        "confidence": "low",
+        "notes": "No clear organization, role, or location mentioned"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          6,
+          7,
+          8
+        ],
+        "organization_ids": [
+          5,
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "during 1997 orchestrated in secret the defection to the Labor Party of the popular leader of the Australian Democrats",
+          "Senator Cheryl Kernot, who resigned from the Senate in October and became a Labor House of Representatives candidate at the 1998 election",
+          "became a Labor House of Representatives candidate at the 1998 election"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organizations, and actions"
+      },
+      {
+        "event_type": "career_position",
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          2
+        ],
+        "time_marker_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He was elected Deputy Leader of the Labor Party, defeating Simon Crean"
+        ],
+        "confidence": "medium",
+        "notes": "No clear time marker, but organization and role are linked"
+      },
+      {
+        "event_type": "career_position",
+        "organization_ids": [],
+        "role_ids": [
+          3
+        ],
+        "time_marker_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "and appointed Shadow Treasurer by Leader Kim Beazley"
+        ],
+        "confidence": "low",
+        "notes": "No clear organization, time, or location mentioned"
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information, though role and time are linked"
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and role information, though time and location are linked"
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "error",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization, role, and location information"
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 5,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker, though organization and role are linked"
+          }
+        ]
+      },
+      {
+        "event_id": 6,
+        "status": "error",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization, time, and location information"
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 7,
+      "valid": 2,
+      "warnings": 3,
+      "errors": 2,
+      "career_positions": 7,
+      "awards": 0
+    }
+  }
+}

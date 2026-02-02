@@ -1,0 +1,207 @@
+{
+  "status": "success",
+  "chunk_id": 2828,
+  "chunk_index": 47,
+  "source_url": "https://en.wikipedia.org/wiki/David_Cameron",
+  "title": "David Cameron - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "early 2006",
+          "type": "point",
+          "quotes": [
+            "In early 2006, he was photographed cycling to work, followed by his driver in a car carrying his belongings."
+          ]
+        },
+        {
+          "text": "2009",
+          "type": "point",
+          "quotes": [
+            "Cameron is an occasional jogger and in 2009 raised funds for charities by taking part in the Oxford 5K and the Great Brook Run."
+          ]
+        },
+        {
+          "text": "August 2013",
+          "type": "point",
+          "quotes": [
+            "At a Q&A in August 2013, Cameron described himself as a practising Christian and an active member of the Church of England."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Conservative Party",
+          "quotes": [
+            "His Conservative Party spokesperson subsequently said that this was a regular arrangement for Cameron at the time."
+          ]
+        },
+        {
+          "name": "MCC",
+          "quotes": [
+            "A member of MCC, he is also a keen cricket fan and has appeared on Test Match Special."
+          ]
+        },
+        {
+          "name": "Church of England",
+          "quotes": [
+            "At a Q&A in August 2013, Cameron described himself as a practising Christian and an active member of the Church of England."
+          ]
+        },
+        {
+          "name": "Conservative Research Department",
+          "quotes": [
+            "Cameron, David (2009). Tory Policy Making: The Conservative Research Department, 1929-2009. Conservative Research Department."
+          ]
+        },
+        {
+          "name": "New Statesman",
+          "quotes": [
+            "Skidelsky, Robert (12 September 2019). 'Cameron's great fault was mental idleness and today's crisis is a direct consequence of his carelessness'. New Statesman."
+          ]
+        },
+        {
+          "name": "The Guardian",
+          "quotes": [
+            "Kershaw, Ian; Seldon, Anthony; Todd, Selina; Adi, Hakim; Gardiner, Juliet; Bogdanor, Vernon (15 July 2016). 'David Cameron's legacy: the historians' verdict'. The Guardian."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "prime minister",
+          "quotes": [
+            "Before becoming prime minister, Cameron regularly used his bicycle to commute to work."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Oxford",
+          "quotes": [
+            "Cameron is an occasional jogger and in 2009 raised funds for charities by taking part in the Oxford 5K and the Great Brook Run."
+          ]
+        },
+        {
+          "place": "London, England",
+          "quotes": [
+            "Kershaw, Ian; Seldon, Anthony; Todd, Selina; Adi, Hakim; Gardiner, Juliet; Bogdanor, Vernon (15 July 2016). 'David Cameron's legacy: the historians' verdict'. The Guardian. London, England."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Before becoming prime minister, Cameron regularly used his bicycle to commute to work.",
+          "His Conservative Party spokesperson subsequently said that this was a regular arrangement for Cameron at the time."
+        ],
+        "confidence": "high",
+        "notes": "The role of prime minister is clearly a career position, and the Conservative Party is mentioned in the context of his commuting habits."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "At a Q&A in August 2013, Cameron described himself as a practising Christian and an active member of the Church of England."
+        ],
+        "confidence": "high",
+        "notes": "Being an active member of the Church of England implies ongoing participation and is considered a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "A member of MCC, he is also a keen cricket fan and has appeared on Test Match Special."
+        ],
+        "confidence": "medium",
+        "notes": "Membership in MCC is likely a career position, but the exact nature of the role is unclear."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time_marker_ids for the career position event."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quotes mention commuting habits but do not explicitly confirm the role of prime minister during the described period."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Being an active member of the Church of England is not typically classified as a career position."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role_ids for the career position event."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Membership in MCC is not typically classified as a career position."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role_ids and time_marker_ids for the career position event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

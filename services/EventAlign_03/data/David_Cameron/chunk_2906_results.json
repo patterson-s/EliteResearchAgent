@@ -1,0 +1,209 @@
+{
+  "status": "success",
+  "chunk_id": 2906,
+  "chunk_index": 1,
+  "source_url": "https://www.gov.uk/government/people/david-cameron",
+  "title": "The Rt Hon Lord Cameron - GOV.UK",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "7 years",
+          "type": "range",
+          "quotes": [
+            "David spent 7 years at Carlton Communications where he served on the management board."
+          ]
+        },
+        {
+          "text": "February 2009",
+          "type": "point",
+          "quotes": [
+            "their eldest child, Ivan, who suffered from cerebral palsy and severe epilepsy, died in February 2009."
+          ]
+        },
+        {
+          "text": "20 June 2024",
+          "type": "point",
+          "quotes": [
+            "20 June 2024\nPress release\nNew UK sanctions to crack down on Putin's war machine"
+          ]
+        },
+        {
+          "text": "13 June 2024",
+          "type": "point",
+          "quotes": [
+            "13 June 2024\nPress release\nUK contributes financial aid to Occupied Palestinian Territories to increase stability"
+          ]
+        },
+        {
+          "text": "11 June 2024",
+          "type": "point",
+          "quotes": [
+            "11 June 2024\nPress release\nSanctions targeting unlawful transfer of arms from the DPRK to Russia: joint statement"
+          ]
+        },
+        {
+          "text": "31 May 2024",
+          "type": "point",
+          "quotes": [
+            "31 May 2024\nNews story\nWithdrawal Agreement Joint Committee annual report 2023"
+          ]
+        },
+        {
+          "text": "24 May 2024",
+          "type": "point",
+          "quotes": [
+            "24 May 2024\nPolicy paper\nUK and Albania working innovatively to build on migration partnership success"
+          ]
+        },
+        {
+          "text": "22 May 2024",
+          "type": "point",
+          "quotes": [
+            "22 May 2024\nPress release\nUK strengthens ties with Finland in vow to support Ukraine"
+          ]
+        },
+        {
+          "text": "21 May 2024",
+          "type": "point",
+          "quotes": [
+            "21 May 2024\nPress release\nUK–Finland Bilateral Cooperation: Joint Declaration on the Strategic Partnership"
+          ]
+        },
+        {
+          "text": "19 May 2024",
+          "type": "point",
+          "quotes": [
+            "19 May 2024\nNews story\nEl Fasher, Sudan: Foreign Secretary's statement"
+          ]
+        },
+        {
+          "text": "18 May 2024",
+          "type": "point",
+          "quotes": [
+            "18 May 2024\nPress release\n15 years since the end of Sri Lanka's armed conflict: Foreign Secretary statement"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Carlton Communications",
+          "quotes": [
+            "David spent 7 years at Carlton Communications where he served on the management board."
+          ]
+        },
+        {
+          "name": "GOV.UK",
+          "quotes": [
+            "Help us improve GOV.UK"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "management board member",
+          "quotes": [
+            "David spent 7 years at Carlton Communications where he served on the management board."
+          ]
+        },
+        {
+          "title": "Foreign Secretary",
+          "quotes": [
+            "Foreign Secretary to attend Gavi summit to launch AVMA"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "London",
+          "quotes": [
+            "They have 3 children and live in London and West Oxfordshire."
+          ]
+        },
+        {
+          "place": "West Oxfordshire",
+          "quotes": [
+            "They have 3 children and live in London and West Oxfordshire."
+          ]
+        },
+        {
+          "place": "Occupied Palestinian Territories",
+          "quotes": [
+            "UK contributes financial aid to Occupied Palestinian Territories to increase stability"
+          ]
+        },
+        {
+          "place": "Albania",
+          "quotes": [
+            "UK and Albania working innovatively to build on migration partnership success"
+          ]
+        },
+        {
+          "place": "Finland",
+          "quotes": [
+            "UK strengthens ties with Finland in vow to support Ukraine"
+          ]
+        },
+        {
+          "place": "El Fasher, Sudan",
+          "quotes": [
+            "El Fasher, Sudan: Foreign Secretary's statement"
+          ]
+        },
+        {
+          "place": "Sri Lanka",
+          "quotes": [
+            "15 years since the end of Sri Lanka's armed conflict: Foreign Secretary statement"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "David spent 7 years at Carlton Communications where he served on the management board."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing location information for the career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

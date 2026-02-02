@@ -1,0 +1,280 @@
+{
+  "status": "success",
+  "chunk_id": 1022,
+  "chunk_index": 6,
+  "source_url": "https://en.wikipedia.org/wiki/Carey_Mulligan",
+  "title": "Carey Mulligan - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In 2017",
+          "type": "point",
+          "quotes": [
+            "In 2017, she starred in Netflix's Mudbound, directed by Dee Rees."
+          ]
+        },
+        {
+          "text": "In 2018",
+          "type": "point",
+          "quotes": [
+            "In 2018, she starred in Paul Dano's directorial debut film Wildlife with Jake Gyllenhaal."
+          ]
+        },
+        {
+          "text": "2020–present",
+          "type": "open",
+          "quotes": [
+            "2020–present: Established actress"
+          ]
+        },
+        {
+          "text": "In 2020",
+          "type": "point",
+          "quotes": [
+            "In 2020, Mulligan starred in Emerald Fennell's black comedy thriller film Promising Young Woman, alongside Bo Burnham and Alison Brie."
+          ]
+        },
+        {
+          "text": "2023",
+          "type": "point",
+          "quotes": [
+            "Mulligan at an event for Maestro in 2023"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Netflix",
+          "quotes": [
+            "In 2017, she starred in Netflix's Mudbound, directed by Dee Rees."
+          ]
+        },
+        {
+          "name": "Rotten Tomatoes",
+          "quotes": [
+            "On review aggregator Rotten Tomatoes, the film has an approval rating of 97% with the consensus reading, 'Mudbound offers a well-acted, finely detailed snapshot of American history whose scenes of rural class struggle resonate far beyond their period setting.'"
+          ]
+        },
+        {
+          "name": "Academy Award",
+          "quotes": [
+            "The film earned four Academy Award nominations including Best Adapted Screenplay for Rees."
+          ]
+        },
+        {
+          "name": "BBC Two",
+          "quotes": [
+            "Mulligan stepped back into television as a Detective Inspector in Collateral, a BBC Two limited series, receiving plaudits from American and British critics."
+          ]
+        },
+        {
+          "name": "Minetta Lane Theatre",
+          "quotes": [
+            "Mulligan starred off Broadway in the solo show, Girls and Boys at the Minetta Lane Theatre."
+          ]
+        },
+        {
+          "name": "Sundance Film Festival",
+          "quotes": [
+            "She also served as an executive producer on the film, which debuted at the 2020 Sundance Film Festival to great acclaim."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Detective Inspector",
+          "quotes": [
+            "Mulligan stepped back into television as a Detective Inspector in Collateral, a BBC Two limited series, receiving plaudits from American and British critics."
+          ]
+        },
+        {
+          "title": "executive producer",
+          "quotes": [
+            "She also served as an executive producer on the film, which debuted at the 2020 Sundance Film Festival to great acclaim."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "off Broadway",
+          "quotes": [
+            "Mulligan starred off Broadway in the solo show, Girls and Boys at the Minetta Lane Theatre."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2017, she starred in Netflix's Mudbound, directed by Dee Rees."
+        ],
+        "confidence": "high",
+        "notes": "Actor role in Netflix production"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2018, she starred in Paul Dano's directorial debut film Wildlife with Jake Gyllenhaal."
+        ],
+        "confidence": "high",
+        "notes": "Actor role in film production"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2020, Mulligan starred in Emerald Fennell's black comedy thriller film Promising Young Woman, alongside Bo Burnham and Alison Brie."
+        ],
+        "confidence": "high",
+        "notes": "Actor role in film production"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Mulligan stepped back into television as a Detective Inspector in Collateral, a BBC Two limited series, receiving plaudits from American and British critics."
+        ],
+        "confidence": "high",
+        "notes": "Television role with specific character"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Mulligan starred off Broadway in the solo show, Girls and Boys at the Minetta Lane Theatre."
+        ],
+        "confidence": "high",
+        "notes": "Theatrical performance at specific venue"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "She also served as an executive producer on the film, which debuted at the 2020 Sundance Film Festival to great acclaim."
+        ],
+        "confidence": "high",
+        "notes": "Production role at film festival"
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role and location information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time marker information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 5,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 6,
+      "valid": 1,
+      "warnings": 5,
+      "errors": 0,
+      "career_positions": 6,
+      "awards": 0
+    }
+  }
+}

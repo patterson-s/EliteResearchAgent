@@ -1,0 +1,81 @@
+{
+  "status": "success",
+  "chunk_id": 210,
+  "chunk_index": 1,
+  "source_url": "https://archives.eui.eu/en/isaar/266",
+  "title": "Hannay, David",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1973-1986",
+          "type": "range",
+          "quotes": [
+            "The European Commission 1973-1986. Memories of an institution"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "The European Commission",
+          "quotes": [
+            "The European Commission 1973-1986. Memories of an institution"
+          ]
+        },
+        {
+          "name": "Historical Archives of the European Union",
+          "quotes": [
+            "Historical Archives of the European Union"
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The European Commission 1973-1986. Memories of an institution"
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but the time range and organization suggest a career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. While the time range and organization suggest a career position, no specific role is mentioned."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

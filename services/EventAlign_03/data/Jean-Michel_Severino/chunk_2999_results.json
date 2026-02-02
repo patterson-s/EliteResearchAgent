@@ -1,0 +1,221 @@
+{
+  "status": "success",
+  "chunk_id": 2999,
+  "chunk_index": 0,
+  "source_url": "https://scalingcommunityofpractice.com/jean-michel-severino/",
+  "title": "Jean-Michel Severino – Scaling Community of Practice",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Investisseurs et Partenaires (I&P)",
+          "quotes": [
+            "Jean-Michel Severino is Chairman of Investisseurs et Partenaires (I&P), an impact investment company focused on Africa."
+          ]
+        },
+        {
+          "name": "French Development Agency",
+          "quotes": [
+            "He previously served as Director General of the French Development Agency"
+          ]
+        },
+        {
+          "name": "World Bank",
+          "quotes": [
+            "Director for Central Europe and East Asia at the World Bank"
+          ]
+        },
+        {
+          "name": "French Ministry of Finance",
+          "quotes": [
+            "Director of Development at the French Ministry of Finance"
+          ]
+        },
+        {
+          "name": "ESCP Business School",
+          "quotes": [
+            "Severino holds degrees from ESCP Business School, Sciences Po, Paris Dauphine, Sorbonne, and the National School of Administration."
+          ]
+        },
+        {
+          "name": "Sciences Po",
+          "quotes": [
+            "Severino holds degrees from ESCP Business School, Sciences Po, Paris Dauphine, Sorbonne, and the National School of Administration."
+          ]
+        },
+        {
+          "name": "Paris Dauphine",
+          "quotes": [
+            "Severino holds degrees from ESCP Business School, Sciences Po, Paris Dauphine, Sorbonne, and the National School of Administration."
+          ]
+        },
+        {
+          "name": "Sorbonne",
+          "quotes": [
+            "Severino holds degrees from ESCP Business School, Sciences Po, Paris Dauphine, Sorbonne, and the National School of Administration."
+          ]
+        },
+        {
+          "name": "National School of Administration",
+          "quotes": [
+            "Severino holds degrees from ESCP Business School, Sciences Po, Paris Dauphine, Sorbonne, and the National School of Administration."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Chairman of Investisseurs et Partenaires (I&P)",
+          "quotes": [
+            "Jean-Michel Severino is Chairman of Investisseurs et Partenaires (I&P), an impact investment company focused on Africa."
+          ]
+        },
+        {
+          "title": "Director General of the French Development Agency",
+          "quotes": [
+            "He previously served as Director General of the French Development Agency"
+          ]
+        },
+        {
+          "title": "Director for Central Europe and East Asia at the World Bank",
+          "quotes": [
+            "Director for Central Europe and East Asia at the World Bank"
+          ]
+        },
+        {
+          "title": "Director of Development at the French Ministry of Finance",
+          "quotes": [
+            "Director of Development at the French Ministry of Finance"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Jean-Michel Severino is Chairman of Investisseurs et Partenaires (I&P), an impact investment company focused on Africa."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between organization and role in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He previously served as Director General of the French Development Agency"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between organization and role in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Director for Central Europe and East Asia at the World Bank"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between organization and role in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Director of Development at the French Ministry of Finance"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between organization and role in the same quote."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 0,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

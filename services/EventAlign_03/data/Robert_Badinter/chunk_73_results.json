@@ -1,0 +1,205 @@
+{
+  "status": "success",
+  "chunk_id": 73,
+  "chunk_index": 9,
+  "source_url": "https://en.wikipedia.org/wiki/Robert_Badinter",
+  "title": "Robert Badinter - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1981–1986",
+          "type": "range",
+          "quotes": [
+            "Minister of Justice 1981–1986"
+          ]
+        },
+        {
+          "text": "1986–1995",
+          "type": "range",
+          "quotes": [
+            "President of the Constitutional Council 1986–1995"
+          ]
+        },
+        {
+          "text": "22 et 23 mai 2008",
+          "type": "range",
+          "quotes": [
+            "journées d'étude les 22 et 23 mai 2008 à l'université Rennes 2"
+          ]
+        },
+        {
+          "text": "12 March 2017",
+          "type": "point",
+          "quotes": [
+            "accessed 12 March 2017"
+          ]
+        },
+        {
+          "text": "9 February 2024",
+          "type": "point",
+          "quotes": [
+            "9 February 2024"
+          ]
+        },
+        {
+          "text": "12 February 2024",
+          "type": "point",
+          "quotes": [
+            "Retrieved 12 February 2024"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "French Senate",
+          "quotes": [
+            "Official page of Robert Badinter in the French Senate"
+          ]
+        },
+        {
+          "name": "Constitutional Council",
+          "quotes": [
+            "President of the Constitutional Council 1986–1995"
+          ]
+        },
+        {
+          "name": "Télévision suisse romande",
+          "quotes": [
+            "une archive de la Télévision suisse romande"
+          ]
+        },
+        {
+          "name": "université Rennes 2",
+          "quotes": [
+            "à l'université Rennes 2"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Minister of Justice",
+          "quotes": [
+            "Minister of Justice 1981–1986"
+          ]
+        },
+        {
+          "title": "President of the Constitutional Council",
+          "quotes": [
+            "President of the Constitutional Council 1986–1995"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Rennes",
+          "quotes": [
+            "université Rennes 2"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Minister of Justice 1981–1986"
+        ],
+        "confidence": "high",
+        "notes": "Clear role and time range, but no organization explicitly mentioned in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "President of the Constitutional Council 1986–1995"
+        ],
+        "confidence": "high",
+        "notes": "Clear role, organization, and time range."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "journées d'étude les 22 et 23 mai 2008 à l'université Rennes 2"
+        ],
+        "confidence": "medium",
+        "notes": "Event at université Rennes 2, but no specific role mentioned."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information, though role and time range are clear."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position but lacks specific role, making classification questionable."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, though organization and location are present."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

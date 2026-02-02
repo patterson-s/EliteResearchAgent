@@ -1,0 +1,168 @@
+{
+  "status": "success",
+  "chunk_id": 3074,
+  "chunk_index": 5,
+  "source_url": "https://kids.kiddle.co/Naoto_Kan",
+  "title": "Naoto Kan Facts for Kids",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "in 2003 and 2005",
+          "type": "point",
+          "quotes": [
+            "in 2003 and 2005 but did not win."
+          ]
+        },
+        {
+          "text": "In December 2023",
+          "type": "point",
+          "quotes": [
+            "In December 2023, he was elected to the Musashino City Council."
+          ]
+        },
+        {
+          "text": "In 1973",
+          "type": "point",
+          "quotes": [
+            "In 1973, Kan even built a machine to help calculate points in the game of mahjong and applied for a patent for it."
+          ]
+        },
+        {
+          "text": "5 November 2025, at 00:05",
+          "type": "point",
+          "quotes": [
+            "This page was last modified on 5 November 2025, at 00:05."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Musashino City Council",
+          "quotes": [
+            "In December 2023, he was elected to the Musashino City Council."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "political secretary",
+          "quotes": [
+            "He later worked as a political secretary for his father."
+          ]
+        },
+        {
+          "title": "veterinarian",
+          "quotes": [
+            "Shinjiro is a veterinarian and works at an animal hospital in Nerima, Tokyo."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Nerima, Tokyo",
+          "quotes": [
+            "Shinjiro is a veterinarian and works at an animal hospital in Nerima, Tokyo."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In December 2023, he was elected to the Musashino City Council."
+        ],
+        "confidence": "high",
+        "notes": "No specific role mentioned, but election to a council implies a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Shinjiro is a veterinarian and works at an animal hospital in Nerima, Tokyo."
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker, but the role and location are clear, indicating an ongoing career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He later worked as a political secretary for his father."
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker or organization mentioned, but the role indicates a past career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information despite being classified as a career_position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker information, making it difficult to place this event in a timeline."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and organization information, making it difficult to place this event in a timeline or context."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

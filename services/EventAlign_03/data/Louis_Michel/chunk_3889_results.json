@@ -1,0 +1,140 @@
+{
+  "status": "success",
+  "chunk_id": 3889,
+  "chunk_index": 0,
+  "source_url": "https://guides.loc.gov/feminism-french-women-history/famous/louise-michel",
+  "title": "Louise Michel - French Women & Feminists in History: A Resource Guide - Research Guides at Library of Congress",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1830-1905",
+          "type": "range",
+          "quotes": [
+            "Louise Michel (1830-1905) was born out of wedlock to a serving maid and the son of the house in Haute-Marne."
+          ]
+        },
+        {
+          "text": "1865",
+          "type": "point",
+          "quotes": [
+            "Michel moved to Paris in 1865 and opened a school for working class children in Montmartre, where she taught and demonstrated liberal and revolutionary ideas to her pupils."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Library of Congress",
+          "quotes": [
+            "Louise Michel - French Women & Feminists in History: A Resource Guide - Research Guides at Library of Congress"
+          ]
+        },
+        {
+          "name": "Dark Horse Books",
+          "quotes": [
+            "Red Virgin. By Mary M. Talbot, Bryan Talbot, illustrator, (Milwaukie, Oregon: Dark Horse Books, 2016)."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "political activist",
+          "quotes": [
+            "A visible political activist of her day and a figurehead for the French anarchist movement, Louise Michel (1830-1905) was born out of wedlock to a serving maid and the son of the house in Haute-Marne."
+          ]
+        },
+        {
+          "title": "figurehead for the French anarchist movement",
+          "quotes": [
+            "A visible political activist of her day and a figurehead for the French anarchist movement, Louise Michel (1830-1905) was born out of wedlock to a serving maid and the son of the house in Haute-Marne."
+          ]
+        },
+        {
+          "title": "teacher",
+          "quotes": [
+            "Michel moved to Paris in 1865 and opened a school for working class children in Montmartre, where she taught and demonstrated liberal and revolutionary ideas to her pupils."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Haute-Marne",
+          "quotes": [
+            "Louise Michel (1830-1905) was born out of wedlock to a serving maid and the son of the house in Haute-Marne."
+          ]
+        },
+        {
+          "place": "Paris",
+          "quotes": [
+            "Michel moved to Paris in 1865 and opened a school for working class children in Montmartre, where she taught and demonstrated liberal and revolutionary ideas to her pupils."
+          ]
+        },
+        {
+          "place": "Montmartre",
+          "quotes": [
+            "Michel moved to Paris in 1865 and opened a school for working class children in Montmartre, where she taught and demonstrated liberal and revolutionary ideas to her pupils."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0,
+          1,
+          2
+        ],
+        "location_ids": [
+          0,
+          1,
+          2
+        ],
+        "supporting_quotes": [
+          "Louise Michel (1830-1905) was born out of wedlock to a serving maid and the son of the house in Haute-Marne.",
+          "Michel moved to Paris in 1865 and opened a school for working class children in Montmartre, where she taught and demonstrated liberal and revolutionary ideas to her pupils.",
+          "A visible political activist of her day and a figurehead for the French anarchist movement, Louise Michel (1830-1905) was born out of wedlock to a serving maid and the son of the house in Haute-Marne."
+        ],
+        "confidence": "high",
+        "notes": "The roles of political activist, figurehead for the French anarchist movement, and teacher are all supported by the quotes and linked to the time markers and locations."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position, despite having roles and locations."
+          },
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "The time marker '1830-1905' is a lifespan and not specific to the career position. Consider using more precise dates for career events."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

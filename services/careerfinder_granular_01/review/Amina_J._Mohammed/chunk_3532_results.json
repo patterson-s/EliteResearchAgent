@@ -1,0 +1,293 @@
+{
+  "status": "success",
+  "chunk_id": 3532,
+  "chunk_index": 0,
+  "source_url": "https://en.wikipedia.org/wiki/Amina_J._Mohammed",
+  "title": "Amina J. Mohammed - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2015–2017",
+          "type": "range",
+          "quotes": [
+            "Minister of the Environment (2015–2017)"
+          ]
+        },
+        {
+          "text": "2017–present",
+          "type": "open",
+          "quotes": [
+            "Deputy Secretary-General of the United Nations (2017–present)"
+          ]
+        },
+        {
+          "text": "1 January 2017",
+          "type": "point",
+          "quotes": [
+            "Assumed office\n1 January 2017"
+          ]
+        },
+        {
+          "text": "11 November 2015 – 15 December 2016",
+          "type": "range",
+          "quotes": [
+            "In office\n11 November 2015 – 15 December 2016"
+          ]
+        },
+        {
+          "text": "from 2015 to 2016",
+          "type": "range",
+          "quotes": [
+            "Previously, she was\nNigerian Minister of Environment\nfrom 2015 to 2016"
+          ]
+        },
+        {
+          "text": "27 June 1961",
+          "type": "point",
+          "quotes": [
+            "(1961-06-27\n) 27 June 1961",
+            "Amina Jane Mohammed\n[\n4\n]\nwas born in\nLiverpool\n, England, on 27 June 1961"
+          ]
+        },
+        {
+          "text": "in 1989",
+          "type": "point",
+          "quotes": [
+            "She further attended\nHenley Management College\nin 1989 but she does not hold"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "United Nations",
+          "quotes": [
+            "Deputy Secretary-General of the United Nations (2017–present)",
+            "Deputy Secretary-General of the United Nations\n.",
+            "serving as the 5th\nDeputy Secretary-General of the United Nations",
+            "Chair of\nUnited Nations Sustainable Development Group"
+          ]
+        },
+        {
+          "name": "United Nations Sustainable Development Group",
+          "quotes": [
+            "She is also Chair of\nUnited Nations Sustainable Development Group"
+          ]
+        },
+        {
+          "name": "Henley Management College",
+          "quotes": [
+            "She further attended\nHenley Management College\nin 1989 but she does not hold",
+            "Alma mater\nHenley Management College"
+          ]
+        },
+        {
+          "name": "The Buchan School",
+          "quotes": [
+            "and\nThe Buchan School\non the\nIsle of Man"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Deputy Secretary-General of the United Nations",
+          "quotes": [
+            "Deputy Secretary-General of the United Nations (2017–present)",
+            "Deputy Secretary-General of the United Nations\n.",
+            "serving as the 5th\nDeputy Secretary-General of the United Nations"
+          ]
+        },
+        {
+          "title": "Minister of the Environment",
+          "quotes": [
+            "Minister of the Environment (2015–2017)"
+          ]
+        },
+        {
+          "title": "Minister of Environment",
+          "quotes": [
+            "Previously, she was\nNigerian Minister of Environment"
+          ]
+        },
+        {
+          "title": "Chair of United Nations Sustainable Development Group",
+          "quotes": [
+            "She is also Chair of\nUnited Nations Sustainable Development Group"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Liverpool",
+          "quotes": [
+            "Liverpool\n, England",
+            "Amina Jane Mohammed\n[\n4\n]\nwas born in\nLiverpool\n, England, on 27 June 1961"
+          ]
+        },
+        {
+          "place": "England",
+          "quotes": [
+            "Liverpool\n, England",
+            "Amina Jane Mohammed\n[\n4\n]\nwas born in\nLiverpool\n, England, on 27 June 1961"
+          ]
+        },
+        {
+          "place": "Kaduna",
+          "quotes": [
+            "Mohammed attended a primary school in\nKaduna\nand\nMaiduguri\nin Nigeria"
+          ]
+        },
+        {
+          "place": "Maiduguri",
+          "quotes": [
+            "Mohammed attended a primary school in\nKaduna\nand\nMaiduguri\nin Nigeria"
+          ]
+        },
+        {
+          "place": "Isle of Man",
+          "quotes": [
+            "and\nThe Buchan School\non the\nIsle of Man"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          4
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Minister of the Environment (2015–2017)",
+          "Previously, she was\nNigerian Minister of Environment\nfrom 2015 to 2016"
+        ],
+        "confidence": "high",
+        "notes": "Time markers and role align, but organization is implied as Nigeria based on context."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1,
+          2
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Deputy Secretary-General of the United Nations (2017–present)",
+          "Assumed office\n1 January 2017",
+          "serving as the 5th\nDeputy Secretary-General of the United Nations"
+        ],
+        "confidence": "high",
+        "notes": "Time markers, organization, and role align clearly."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "She is also Chair of\nUnited Nations Sustainable Development Group"
+        ],
+        "confidence": "medium",
+        "notes": "No time marker, but organization and role align clearly."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          6
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "She further attended\nHenley Management College\nin 1989 but she does not hold",
+          "Alma mater\nHenley Management College"
+        ],
+        "confidence": "high",
+        "notes": "Time marker and organization align, indicating attendance at the institution."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information, though Nigeria is implied by context."
+          },
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "Date ranges in quotes are inconsistent (2015–2017 vs. 2015–2016)."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time marker for the role of Chair of United Nations Sustainable Development Group."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Attendance at Henley Management College is classified as a career position, but it is more accurately an educational event."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for the event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 1,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

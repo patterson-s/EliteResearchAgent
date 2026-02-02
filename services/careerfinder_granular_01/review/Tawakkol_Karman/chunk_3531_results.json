@@ -1,0 +1,187 @@
+{
+  "status": "success",
+  "chunk_id": 3531,
+  "chunk_index": 2,
+  "source_url": "https://www.nobelprize.org/events/nobel-prize-summit/2023/panellists/tawakkol-karman-3/",
+  "title": "Event information - NobelPrize.org",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "this May",
+          "type": "point",
+          "quotes": [
+            "Ressa who is attending Nobel Prize Summit this May, launched an action plan to address the information crisis at the Nobel Peace Center’s Freedom of Expression Conference."
+          ]
+        },
+        {
+          "text": "this year’s",
+          "type": "point",
+          "quotes": [
+            "Tristan Harris, a technology ethicist and speaker at this year’s summit talks with Issues about the challenge of online misinformation, ways to govern artificial intelligence and a vision of technology that strengthens democracy."
+          ]
+        },
+        {
+          "text": "2023",
+          "type": "point",
+          "quotes": [
+            "“With the 2023 Nobel Prize Summit we will promote the scientific method, critical thinking, and constructive dialogue.”"
+          ]
+        },
+        {
+          "text": "2021",
+          "type": "point",
+          "quotes": [
+            "Nobel Prize Summit 2021"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Nobel Prize Summit",
+          "quotes": [
+            "Ressa who is attending Nobel Prize Summit this May, launched an action plan to address the information crisis at the Nobel Peace Center’s Freedom of Expression Conference."
+          ]
+        },
+        {
+          "name": "Nobel Peace Center",
+          "quotes": [
+            "Ressa who is attending Nobel Prize Summit this May, launched an action plan to address the information crisis at the Nobel Peace Center’s Freedom of Expression Conference."
+          ]
+        },
+        {
+          "name": "Nobel Foundation",
+          "quotes": [
+            "Watch Vidar Helgesen, Executive Director of the Nobel Foundation and Marcia McNutt, President of the US National Academy of Sciences, discuss the upcoming Nobel Prize Summit."
+          ]
+        },
+        {
+          "name": "US National Academy of Sciences",
+          "quotes": [
+            "Watch Vidar Helgesen, Executive Director of the Nobel Foundation and Marcia McNutt, President of the US National Academy of Sciences, discuss the upcoming Nobel Prize Summit."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Executive Director of the Nobel Foundation",
+          "quotes": [
+            "Watch Vidar Helgesen, Executive Director of the Nobel Foundation and Marcia McNutt, President of the US National Academy of Sciences, discuss the upcoming Nobel Prize Summit."
+          ]
+        },
+        {
+          "title": "President of the US National Academy of Sciences",
+          "quotes": [
+            "Watch Vidar Helgesen, Executive Director of the Nobel Foundation and Marcia McNutt, President of the US National Academy of Sciences, discuss the upcoming Nobel Prize Summit."
+          ]
+        },
+        {
+          "title": "technology ethicist and speaker",
+          "quotes": [
+            "Tristan Harris, a technology ethicist and speaker at this year’s summit talks with Issues about the challenge of online misinformation, ways to govern artificial intelligence and a vision of technology that strengthens democracy."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Watch Vidar Helgesen, Executive Director of the Nobel Foundation and Marcia McNutt, President of the US National Academy of Sciences, discuss the upcoming Nobel Prize Summit."
+        ],
+        "confidence": "high",
+        "notes": "Role and organization are clearly linked in the quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Watch Vidar Helgesen, Executive Director of the Nobel Foundation and Marcia McNutt, President of the US National Academy of Sciences, discuss the upcoming Nobel Prize Summit."
+        ],
+        "confidence": "high",
+        "notes": "Role and organization are clearly linked in the quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Tristan Harris, a technology ethicist and speaker at this year’s summit talks with Issues about the challenge of online misinformation, ways to govern artificial intelligence and a vision of technology that strengthens democracy."
+        ],
+        "confidence": "high",
+        "notes": "Role is clearly mentioned in the context of this year's summit."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization for the career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

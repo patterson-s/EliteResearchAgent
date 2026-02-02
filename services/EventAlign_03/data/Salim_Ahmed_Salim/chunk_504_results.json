@@ -1,0 +1,206 @@
+{
+  "status": "success",
+  "chunk_id": 504,
+  "chunk_index": 4,
+  "source_url": "https://issafrica.s3.amazonaws.com/site/uploads/Book-2015-Salim.pdf",
+  "title": "Book-2015-Salim.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In the early 1960s",
+          "type": "point",
+          "quotes": [
+            "In the early 1960s, a broader philosophical shift in support of the armed struggle took hold as the colonial and apartheid governments launched increasingly violent and repressive strategies against the newly independent African states and liberation movements, which had the effect of eliminating opportunity for meaningful dialogue."
+          ]
+        },
+        {
+          "text": "1964–1965",
+          "type": "range",
+          "quotes": [
+            "Salim was ambassador to Egypt (1964–1965) and to India (1965–1968)."
+          ]
+        },
+        {
+          "text": "1965–1968",
+          "type": "range",
+          "quotes": [
+            "Salim was ambassador to Egypt (1964–1965) and to India (1965–1968)."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "OAU’s Liberation Committee",
+          "quotes": [
+            "The OAU’s decision to locate its Liberation Committee’s headquarters in Dar es Salaam affirmed Tanzania’s position at the vanguard of the African liberation struggle."
+          ]
+        },
+        {
+          "name": "African National Congress (ANC)",
+          "quotes": [
+            "in bolstering efforts to secure financial and material support for liberation movements such as the African National Congress (ANC) in South Africa, the Frente de Libertação de Moçambique (Mozambican Liberation Front – FRELIMO) and the Zimbabwe African National Union (ZANU)."
+          ]
+        },
+        {
+          "name": "Frente de Libertação de Moçambique (Mozambican Liberation Front – FRELIMO)",
+          "quotes": [
+            "in bolstering efforts to secure financial and material support for liberation movements such as the African National Congress (ANC) in South Africa, the Frente de Libertação de Moçambique (Mozambican Liberation Front – FRELIMO) and the Zimbabwe African National Union (ZANU)."
+          ]
+        },
+        {
+          "name": "Zimbabwe African National Union (ZANU)",
+          "quotes": [
+            "in bolstering efforts to secure financial and material support for liberation movements such as the African National Congress (ANC) in South Africa, the Frente de Libertação de Moçambique (Mozambican Liberation Front – FRELIMO) and the Zimbabwe African National Union (ZANU)."
+          ]
+        },
+        {
+          "name": "NAM",
+          "quotes": [
+            "His first diplomatic appointments were to countries deeply embedded in the thinking and philosophies of the NAM."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "ambassador to Egypt",
+          "quotes": [
+            "Salim was ambassador to Egypt (1964–1965) and to India (1965–1968)."
+          ]
+        },
+        {
+          "title": "ambassador to India",
+          "quotes": [
+            "Salim was ambassador to Egypt (1964–1965) and to India (1965–1968)."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "British East and Central Africa",
+          "quotes": [
+            "a subregional mechanism steeped in the philosophy of non-violence, which coordinated nationalist movements in what was then British East and Central Africa."
+          ]
+        },
+        {
+          "place": "Tanzania",
+          "quotes": [
+            "Newly independent Tanzania quickly became a political and military mecca for freedom fighters and refugees."
+          ]
+        },
+        {
+          "place": "Dar es Salaam",
+          "quotes": [
+            "The OAU’s decision to locate its Liberation Committee’s headquarters in Dar es Salaam affirmed Tanzania’s position at the vanguard of the African liberation struggle."
+          ]
+        },
+        {
+          "place": "South Africa",
+          "quotes": [
+            "in bolstering efforts to secure financial and material support for liberation movements such as the African National Congress (ANC) in South Africa, the Frente de Libertação de Moçambique (Mozambican Liberation Front – FRELIMO) and the Zimbabwe African National Union (ZANU)."
+          ]
+        },
+        {
+          "place": "Mozambique",
+          "quotes": [
+            "in bolstering efforts to secure financial and material support for liberation movements such as the African National Congress (ANC) in South Africa, the Frente de Libertação de Moçambique (Mozambican Liberation Front – FRELIMO) and the Zimbabwe African National Union (ZANU)."
+          ]
+        },
+        {
+          "place": "Zimbabwe",
+          "quotes": [
+            "in bolstering efforts to secure financial and material support for liberation movements such as the African National Congress (ANC) in South Africa, the Frente de Libertação de Moçambique (Mozambican Liberation Front – FRELIMO) and the Zimbabwe African National Union (ZANU)."
+          ]
+        },
+        {
+          "place": "Egypt",
+          "quotes": [
+            "Salim was ambassador to Egypt (1964–1965) and to India (1965–1968)."
+          ]
+        },
+        {
+          "place": "India",
+          "quotes": [
+            "Salim was ambassador to Egypt (1964–1965) and to India (1965–1968)."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          6
+        ],
+        "supporting_quotes": [
+          "Salim was ambassador to Egypt (1964–1965) and to India (1965–1968)."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          7
+        ],
+        "supporting_quotes": [
+          "Salim was ambassador to Egypt (1964–1965) and to India (1965–1968)."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, role, and location."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "status": "success",
+  "chunk_id": 2726,
+  "chunk_index": 7,
+  "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10722368/",
+  "title": "Searching for Meaning in the Life of Ellen Johnson-Sirleaf: A Call to Meaningful Responses to Tragedies - PMC",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "October 29, 1938",
+          "type": "point",
+          "quotes": [
+            "Johnson-Sirleaf was born on October 29, 1938, in Monrovia, Liberia."
+          ]
+        },
+        {
+          "text": "between 1948 and 1955",
+          "type": "range",
+          "quotes": [
+            "Johnson-Sirleaf attended a prestigious preparatory school named the College of West Africa between 1948 and 1955."
+          ]
+        },
+        {
+          "text": "In 1956",
+          "type": "point",
+          "quotes": [
+            "In 1956, when Ellen was 18 years old, the family’s fortunes turned, as Carney suffered a stroke that paralysed his right side, leading to his demise in"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "College of West Africa",
+          "quotes": [
+            "Johnson-Sirleaf attended a prestigious preparatory school named the College of West Africa between 1948 and 1955."
+          ]
+        },
+        {
+          "name": "Liberian House of Representatives",
+          "quotes": [
+            "He was also the first indigenous person to be elected to the Liberian House of Representatives."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "practising attorney",
+          "quotes": [
+            "Carney apprenticed with a practising attorney (due to a lack of law schools in the country) to become a “poor man’s lawyer” (p. 11)."
+          ]
+        },
+        {
+          "title": "“poor man’s lawyer”",
+          "quotes": [
+            "Carney apprenticed with a practising attorney (due to a lack of law schools in the country) to become a “poor man’s lawyer” (p. 11)."
+          ]
+        },
+        {
+          "title": "elementary school owner",
+          "quotes": [
+            "Her mother was an elementary school owner, teacher, and Presbyterian preacher."
+          ]
+        },
+        {
+          "title": "teacher",
+          "quotes": [
+            "Her mother was an elementary school owner, teacher, and Presbyterian preacher."
+          ]
+        },
+        {
+          "title": "Presbyterian preacher",
+          "quotes": [
+            "Her mother was an elementary school owner, teacher, and Presbyterian preacher."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Monrovia, Liberia",
+          "quotes": [
+            "Johnson-Sirleaf was born on October 29, 1938, in Monrovia, Liberia."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Johnson-Sirleaf attended a prestigious preparatory school named the College of West Africa between 1948 and 1955."
+        ],
+        "confidence": "high",
+        "notes": "No specific role mentioned, but attendance at an educational institution is considered a career-related activity."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as 'career_position' but describes attendance at an educational institution, which is typically not considered a career role."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. While attending an educational institution is noted, no specific role or responsibility is mentioned."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

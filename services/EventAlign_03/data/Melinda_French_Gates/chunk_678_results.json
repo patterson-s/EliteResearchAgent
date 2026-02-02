@@ -1,0 +1,244 @@
+{
+  "status": "success",
+  "chunk_id": 678,
+  "chunk_index": 2,
+  "source_url": "https://www.biography.com/business-leaders/melinda-gates",
+  "title": "Melinda French Gates: Biography, Philanthropist",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2005",
+          "type": "point",
+          "quotes": [
+            "For their work, the couple was named Time’s 2005 Persons of the Year, alongside U2 singer and activist Bono."
+          ]
+        },
+        {
+          "text": "2006",
+          "type": "point",
+          "quotes": [
+            "In 2006, wealthy investor Warren Buffett made a landmark donation of $30 billion to the foundation."
+          ]
+        },
+        {
+          "text": "2011",
+          "type": "point",
+          "quotes": [
+            "The Bill and Melinda Gates Foundation officially restated its mission in 2011 as “improving equity in four areas: global health, education, access to digital information via public libraries, and support for at-risk families in Washington State and Oregon.”"
+          ]
+        },
+        {
+          "text": "2015",
+          "type": "point",
+          "quotes": [
+            "Demonstrating their support for progressive workplace policies, Melinda and Bill announced in 2015 that the foundation’s employees would receive up to a year’s paid leave after the birth or adoption of a child."
+          ]
+        },
+        {
+          "text": "2016",
+          "type": "point",
+          "quotes": [
+            "In 2016, Barack Obama presented the couple with two Presidential Medals of Freedom in recognition of their philanthropic work."
+          ]
+        },
+        {
+          "text": "February 2018",
+          "type": "point",
+          "quotes": [
+            "Marking the 10th edition of the foundation’s annual letter, in February 2018, the pair decided to answer 10 of the toughest questions they face regarding their work."
+          ]
+        },
+        {
+          "text": "March 2020",
+          "type": "point",
+          "quotes": [
+            "In March 2020, the foundation teamed up with the Wellcome Trust and Mastercard to pledge $125 million toward"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Bill and Melinda Gates Foundation",
+          "quotes": [
+            "to form the Bill and Melinda Gates Foundation.",
+            "In 2006, wealthy investor Warren Buffett made a landmark donation of $30 billion to the foundation.",
+            "The Bill and Melinda Gates Foundation officially restated its mission in 2011 as “improving equity in four areas: global health, education, access to digital information via public libraries, and support for at-risk families in Washington State and Oregon.”"
+          ]
+        },
+        {
+          "name": "Time",
+          "quotes": [
+            "For their work, the couple was named Time’s 2005 Persons of the Year, alongside U2 singer and activist Bono."
+          ]
+        },
+        {
+          "name": "Wellcome Trust",
+          "quotes": [
+            "In March 2020, the foundation teamed up with the Wellcome Trust and Mastercard to pledge $125 million toward"
+          ]
+        },
+        {
+          "name": "Mastercard",
+          "quotes": [
+            "In March 2020, the foundation teamed up with the Wellcome Trust and Mastercard to pledge $125 million toward"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Persons of the Year",
+          "quotes": [
+            "For their work, the couple was named Time’s 2005 Persons of the Year, alongside U2 singer and activist Bono."
+          ]
+        },
+        {
+          "title": "President",
+          "quotes": [
+            "Addressing a question about adjusting to President Donald Trump’s policies, Melinda said it was important to maintain a strong relationship with the administration but suggested that Trump could set a better example as a role model."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "United States",
+          "quotes": [
+            "Although the foundation’s initial goal was to place computers and Microsoft products in libraries all over the United States,"
+          ]
+        },
+        {
+          "place": "Washington State",
+          "quotes": [
+            "The Bill and Melinda Gates Foundation officially restated its mission in 2011 as “improving equity in four areas: global health, education, access to digital information via public libraries, and support for at-risk families in Washington State and Oregon.”"
+          ]
+        },
+        {
+          "place": "Oregon",
+          "quotes": [
+            "The Bill and Melinda Gates Foundation officially restated its mission in 2011 as “improving equity in four areas: global health, education, access to digital information via public libraries, and support for at-risk families in Washington State and Oregon.”"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "For their work, the couple was named Time’s 2005 Persons of the Year, alongside U2 singer and activist Bono."
+        ],
+        "confidence": "high",
+        "notes": "Clear award recognition without ongoing responsibilities."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0,
+          1,
+          2
+        ],
+        "supporting_quotes": [
+          "to form the Bill and Melinda Gates Foundation.",
+          "The Bill and Melinda Gates Foundation officially restated its mission in 2011 as “improving equity in four areas: global health, education, access to digital information via public libraries, and support for at-risk families in Washington State and Oregon.”",
+          "Although the foundation’s initial goal was to place computers and Microsoft products in libraries all over the United States,"
+        ],
+        "confidence": "high",
+        "notes": "Ongoing affiliation with the foundation and its mission, indicating a career position."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2016, Barack Obama presented the couple with two Presidential Medals of Freedom in recognition of their philanthropic work."
+        ],
+        "confidence": "high",
+        "notes": "One-time recognition without ongoing responsibilities."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          6
+        ],
+        "organization_ids": [
+          0,
+          2,
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In March 2020, the foundation teamed up with the Wellcome Trust and Mastercard to pledge $125 million toward"
+        ],
+        "confidence": "high",
+        "notes": "Active collaboration indicating ongoing responsibilities."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time_marker_ids, role_ids, and only has organization_ids without clear role or responsibilities mentioned in quotes."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role_ids and location_ids, though collaboration is mentioned, specific role is unclear."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 2,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 2
+    }
+  }
+}

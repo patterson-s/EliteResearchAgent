@@ -1,0 +1,237 @@
+{
+  "status": "success",
+  "chunk_id": 445,
+  "chunk_index": 7,
+  "source_url": "https://www.hoover.org/sites/default/files/research/docs/clm10_rs.pdf",
+  "title": "clm10_rs.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "October 25, 1995",
+          "type": "point",
+          "quotes": [
+            "the meeting between former president Clinton and former president Jiang Zemin at New York’s Lincoln Center on October 25, 1995."
+          ]
+        },
+        {
+          "text": "March 1996",
+          "type": "point",
+          "quotes": [
+            "Most Western descriptions of the “Straits crisis” continue the story on through March 1996, when China held large -scale military exercises along the coast of Fujian Province"
+          ]
+        },
+        {
+          "text": "1992",
+          "type": "point",
+          "quotes": [
+            "One of the most fascinating concerns China’ s decision to normalize relations with the Republic of Korea (ROK, or South Korea) in 1992."
+          ]
+        },
+        {
+          "text": "1991",
+          "type": "point",
+          "quotes": [
+            "his secret meeting in 1991 with then -president Roh Tae Woo, who wanted to set up a “secret channel” to establish relations."
+          ]
+        },
+        {
+          "text": "July 1992",
+          "type": "point",
+          "quotes": [
+            "Qian describes an anxious and surreal trip to the North in July 1992: an empty Sunan airfield, with no welcoming crowd"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Republic of Korea (ROK, or South Korea)",
+          "quotes": [
+            "One of the most fascinating concerns China’ s decision to normalize relations with the Republic of Korea (ROK, or South Korea) in 1992."
+          ]
+        },
+        {
+          "name": "China Leadership Monitor",
+          "quotes": [
+            "Suettinger, China Leadership Monitor , No.10"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "foreign minister",
+          "quotes": [
+            "Qian details his lengthy negotiations with then –ROK foreign minister Lee Sang Ock"
+          ]
+        },
+        {
+          "title": "president",
+          "quotes": [
+            "his secret meeting in 1991 with then -president Roh Tae Woo"
+          ]
+        },
+        {
+          "title": "ambassador",
+          "quotes": [
+            "aside from a few anecdotes of his student days in Moscow and accounts of his life as an ambassador in a remote and insignificant African outpost."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "New York’s Lincoln Center",
+          "quotes": [
+            "the meeting between former president Clinton and former president Jiang Zemin at New York’s Lincoln Center on October 25, 1995."
+          ]
+        },
+        {
+          "place": "Fujian Province",
+          "quotes": [
+            "China held large -scale military exercises along the coast of Fujian Province"
+          ]
+        },
+        {
+          "place": "Taiwan",
+          "quotes": [
+            "launched ballistic missiles into closure areas less than 30 miles from Taiwan’s principal seaports"
+          ]
+        },
+        {
+          "place": "North Korea",
+          "quotes": [
+            "Jiang Zemin orders Qian to go to North Korea to break the news to Kim Il Sung"
+          ]
+        },
+        {
+          "place": "Sunan airfield",
+          "quotes": [
+            "an empty Sunan airfield, with no welcoming crowd"
+          ]
+        },
+        {
+          "place": "Moscow",
+          "quotes": [
+            "aside from a few anecdotes of his student days in Moscow and accounts of his life as an ambassador in a remote and insignificant African outpost."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          6
+        ],
+        "supporting_quotes": [
+          "aside from a few anecdotes of his student days in Moscow and accounts of his life as an ambassador in a remote and insignificant African outpost."
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker or organization mentioned, but the role and location are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "his secret meeting in 1991 with then -president Roh Tae Woo, who wanted to set up a “secret channel” to establish relations."
+        ],
+        "confidence": "high",
+        "notes": "Clear role and time marker, but no specific organization or location mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "One of the most fascinating concerns China’ s decision to normalize relations with the Republic of Korea (ROK, or South Korea) in 1992.",
+          "Qian details his lengthy negotiations with then –ROK foreign minister Lee Sang Ock"
+        ],
+        "confidence": "high",
+        "notes": "Clear role, organization, and time marker, but no specific location mentioned."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and organization information, though role and location are clear."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quote mentions the role of ambassador but does not explicitly state it as a career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location information, though role and time marker are clear."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quote supports the role and time but does not explicitly mention a career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing location information, though role, organization, and time marker are clear."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quote supports the role, organization, and time but does not explicitly mention a career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

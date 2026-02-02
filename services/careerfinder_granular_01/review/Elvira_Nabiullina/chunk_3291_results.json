@@ -1,0 +1,235 @@
+{
+  "status": "success",
+  "chunk_id": 3291,
+  "chunk_index": 2,
+  "source_url": "https://en.wikipedia.org/wiki/Elvira_Nabiullina",
+  "title": "Elvira Nabiullina - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In 2015",
+          "type": "point",
+          "quotes": [
+            "Euromoney magazine named her their 2015 Central Bank Governor of the Year."
+          ]
+        },
+        {
+          "text": "In 2017",
+          "type": "point",
+          "quotes": [
+            "In 2017, the British magazine The Banker chose Nabiullina as 'Central Banker of the Year, Europe'."
+          ]
+        },
+        {
+          "text": "On 28 February 2022",
+          "type": "point",
+          "quotes": [
+            "On 28 February 2022, she gave a speech announcing a number of measures to combat the 2022 Russian financial crisis"
+          ]
+        },
+        {
+          "text": "In March 2022",
+          "type": "point",
+          "quotes": [
+            "In March 2022, it was reported that she had attempted to resign her position, only to be ordered to stay in post by Putin."
+          ]
+        },
+        {
+          "text": "In September 2022",
+          "type": "point",
+          "quotes": [
+            "In September 2022, the United States Treasury Department sanctioned Nabiullina."
+          ]
+        },
+        {
+          "text": "In 2020",
+          "type": "point",
+          "quotes": [
+            "In 2020, Nabiullina appeared at press conferences with a brooch of a blue wave, a dot, a tumbler, a stork."
+          ]
+        },
+        {
+          "text": "In March 2021",
+          "type": "point",
+          "quotes": [
+            "In March 2021, when the increase in the refinancing rate was announced for the first time in three years, she appeared with a hawk."
+          ]
+        },
+        {
+          "text": "In September 2021",
+          "type": "point",
+          "quotes": [
+            "In September 2021, Nabiullina revealed the meaning of the brooches, which represent her own way of communication, an alternate language to 'give the market a chance to reflect'."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Central Bank of Russia",
+          "quotes": [
+            "the Central Bank of Russia, under her leadership, hiked interest rates, free-floated the exchange rate, and kept a cap on inflation"
+          ]
+        },
+        {
+          "name": "Euromoney",
+          "quotes": [
+            "Euromoney magazine named her their 2015 Central Bank Governor of the Year."
+          ]
+        },
+        {
+          "name": "The Banker",
+          "quotes": [
+            "In 2017, the British magazine The Banker chose Nabiullina as 'Central Banker of the Year, Europe'."
+          ]
+        },
+        {
+          "name": "United States Treasury Department",
+          "quotes": [
+            "In September 2022, the United States Treasury Department sanctioned Nabiullina."
+          ]
+        },
+        {
+          "name": "Sciences Po",
+          "quotes": [
+            "Sergei Guriev of Sciences Po speculated that it 'should not be read as she disagreed with Putin's policy, but as a sign that it is time to bury normal monetary policy,'"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Central Bank Governor",
+          "quotes": [
+            "Euromoney magazine named her their 2015 Central Bank Governor of the Year."
+          ]
+        },
+        {
+          "title": "Central Banker",
+          "quotes": [
+            "In 2017, the British magazine The Banker chose Nabiullina as 'Central Banker of the Year, Europe'."
+          ]
+        },
+        {
+          "title": "head of the Central Bank",
+          "quotes": [
+            "There is a belief in the Russian media that the head of the Central Bank uses brooches at public events to signal the state of the economy and the regulator's plans."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Russia",
+          "quotes": [
+            "the Central Bank of Russia, under her leadership, hiked interest rates, free-floated the exchange rate, and kept a cap on inflation"
+          ]
+        },
+        {
+          "place": "Ukraine",
+          "quotes": [
+            "Russian military operation in Ukraine and annexation of Crimea"
+          ]
+        },
+        {
+          "place": "Crimea",
+          "quotes": [
+            "Russian military operation in Ukraine and annexation of Crimea"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Euromoney magazine named her their 2015 Central Bank Governor of the Year."
+        ],
+        "confidence": "high",
+        "notes": "Clear award indication with 'named her... of the Year'"
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2017, the British magazine The Banker chose Nabiullina as 'Central Banker of the Year, Europe'."
+        ],
+        "confidence": "high",
+        "notes": "Clear award indication with 'chose... of the Year'"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "the Central Bank of Russia, under her leadership, hiked interest rates, free-floated the exchange rate, and kept a cap on inflation",
+          "There is a belief in the Russian media that the head of the Central Bank uses brooches at public events to signal the state of the economy and the regulator's plans."
+        ],
+        "confidence": "high",
+        "notes": "Ongoing leadership role at Central Bank of Russia with active responsibilities"
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time_marker_ids for career_position event"
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 2,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 2
+    }
+  }
+}

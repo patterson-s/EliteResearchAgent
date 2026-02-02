@@ -1,0 +1,147 @@
+{
+  "status": "success",
+  "chunk_id": 6,
+  "chunk_index": 5,
+  "source_url": "https://en.wikipedia.org/wiki/Anand_Panyarachun",
+  "title": "Anand Panyarachun - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "on 16 November",
+          "type": "point",
+          "quotes": [
+            "Then on 16 November, Anand spoke out against clauses that gave the appointed 360 member Senate the same powers as elected members of the House of Representatives as well as a clause allowing permanent public officials and military officers to hold political posts."
+          ]
+        },
+        {
+          "text": "mid-June 1991",
+          "type": "point",
+          "quotes": [
+            "In mid-June 1991, the outspoken president of the Labour Congress of Thailand, Thanong Phoarn, mysteriously disappeared."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Constitution Scrutinising Committee",
+          "quotes": [
+            "At first, he refused to comment as the Constitution Scrutinising Committee, hand-picked by Sunthorn, made changes to what became the final draft constitution."
+          ]
+        },
+        {
+          "name": "House of Representatives",
+          "quotes": [
+            "Anand spoke out against clauses that gave the appointed 360 member Senate the same powers as elected members of the House of Representatives"
+          ]
+        },
+        {
+          "name": "Constitution Drafting Assembly",
+          "quotes": [
+            "The military-dominated Constitution Drafting Assembly refused to accept his suggestions and voted unanimously to pass the draft."
+          ]
+        },
+        {
+          "name": "Labour Congress of Thailand",
+          "quotes": [
+            "In mid-June 1991, the outspoken president of the Labour Congress of Thailand, Thanong Phoarn, mysteriously disappeared."
+          ]
+        },
+        {
+          "name": "NPKC",
+          "quotes": [
+            "Not long after it had taken power, the NPKC announced a huge rural development project that would help solve the problems of rural landlessness and encroachment on protected forests"
+          ]
+        },
+        {
+          "name": "Interior Ministry",
+          "quotes": [
+            "The transparency of the denials of censorship by the military-dominated Interior Ministry must"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "president of the Labour Congress of Thailand",
+          "quotes": [
+            "the outspoken president of the Labour Congress of Thailand, Thanong Phoarn"
+          ]
+        },
+        {
+          "title": "deputy defence minister",
+          "quotes": [
+            "The deputy defence minister, a military man, casually brushed the matter aside, claiming that Thanong had probably fled his wife."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In mid-June 1991, the outspoken president of the Labour Congress of Thailand, Thanong Phoarn, mysteriously disappeared.",
+          "the outspoken president of the Labour Congress of Thailand, Thanong Phoarn"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time marker, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The deputy defence minister, a military man, casually brushed the matter aside, claiming that Thanong had probably fled his wife."
+        ],
+        "confidence": "medium",
+        "notes": "No time marker or organization linked, but role is clearly a career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and organization information for the career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

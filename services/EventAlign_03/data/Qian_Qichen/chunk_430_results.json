@@ -1,0 +1,274 @@
+{
+  "status": "success",
+  "chunk_id": 430,
+  "chunk_index": 8,
+  "source_url": "https://en.wikipedia.org/wiki/Qian_Qichen",
+  "title": "Qian Qichen - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1978",
+          "type": "point",
+          "quotes": [
+            "5th Cabinet (1978)"
+          ]
+        },
+        {
+          "text": "1979",
+          "type": "point",
+          "quotes": [
+            "(added 1979)"
+          ]
+        },
+        {
+          "text": "1980",
+          "type": "point",
+          "quotes": [
+            "5th Cabinet (1980)"
+          ]
+        },
+        {
+          "text": "1982",
+          "type": "point",
+          "quotes": [
+            "5th Cabinet (1982)"
+          ]
+        },
+        {
+          "text": "1986",
+          "type": "point",
+          "quotes": [
+            "(added 1986)"
+          ]
+        },
+        {
+          "text": "1991",
+          "type": "point",
+          "quotes": [
+            "(added 1991)"
+          ]
+        },
+        {
+          "text": "1995",
+          "type": "point",
+          "quotes": [
+            "(added 1995)"
+          ]
+        },
+        {
+          "text": "2007",
+          "type": "point",
+          "quotes": [
+            "(died 2007)"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "5th Cabinet",
+          "quotes": [
+            "5th Cabinet (1978)",
+            "5th Cabinet (1980)",
+            "5th Cabinet (1982)"
+          ]
+        },
+        {
+          "name": "6th Cabinet",
+          "quotes": [
+            "6th Cabinet"
+          ]
+        },
+        {
+          "name": "7th Cabinet",
+          "quotes": [
+            "7th Cabinet"
+          ]
+        },
+        {
+          "name": "8th Cabinet",
+          "quotes": [
+            "8th Cabinet"
+          ]
+        },
+        {
+          "name": "9th Cabinet",
+          "quotes": [
+            "9th Cabinet"
+          ]
+        },
+        {
+          "name": "10th Cabinet",
+          "quotes": [
+            "10th Cabinet"
+          ]
+        },
+        {
+          "name": "11th Cabinet",
+          "quotes": [
+            "11th Cabinet"
+          ]
+        },
+        {
+          "name": "12th Cabinet",
+          "quotes": [
+            "12th Cabinet"
+          ]
+        },
+        {
+          "name": "13th Cabinet",
+          "quotes": [
+            "13th Cabinet"
+          ]
+        },
+        {
+          "name": "14th Cabinet",
+          "quotes": [
+            "14th Cabinet"
+          ]
+        },
+        {
+          "name": "5th State Council",
+          "quotes": [
+            "5th State Council"
+          ]
+        },
+        {
+          "name": "6th State Council",
+          "quotes": [
+            "6th State Council"
+          ]
+        },
+        {
+          "name": "7th State Council",
+          "quotes": [
+            "7th State Council"
+          ]
+        },
+        {
+          "name": "8th State Council",
+          "quotes": [
+            "8th State Council"
+          ]
+        },
+        {
+          "name": "9th State Council",
+          "quotes": [
+            "9th State Council"
+          ]
+        },
+        {
+          "name": "10th State Council",
+          "quotes": [
+            "10th State Council"
+          ]
+        },
+        {
+          "name": "11th State Council",
+          "quotes": [
+            "11th State Council"
+          ]
+        },
+        {
+          "name": "12th State Council",
+          "quotes": [
+            "12th State Council"
+          ]
+        },
+        {
+          "name": "13th State Council",
+          "quotes": [
+            "13th State Council"
+          ]
+        },
+        {
+          "name": "14th State Council",
+          "quotes": [
+            "14th State Council"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "State councilor",
+          "quotes": [
+            "State councilors of the People's Republic of China"
+          ]
+        },
+        {
+          "title": "Minister of foreign affairs",
+          "quotes": [
+            "Ministers of foreign affairs of the People's Republic of China"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "5th Cabinet (1978)",
+          "5th Cabinet (1980)",
+          "5th Cabinet (1982)",
+          "(added 1979)",
+          "State councilors of the People's Republic of China",
+          "Ministers of foreign affairs of the People's Republic of China"
+        ],
+        "confidence": "medium",
+        "notes": "Assumed role in 5th Cabinet with multiple time markers, but exact role start/end dates unclear."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "Multiple time markers (1978, 1979, 1980, 1982) without clear start and end dates makes temporal coherence difficult to verify."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Location information is missing, which may be relevant for a career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quotes mention the 5th Cabinet and roles but do not explicitly link the individual to these roles during the specified years."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "status": "success",
+  "chunk_id": 175,
+  "chunk_index": 12,
+  "source_url": "https://en.wikipedia.org/wiki/Gareth_Evans_(politician)",
+  "title": "Gareth Evans (politician) - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "September 2008, paperback edition 2009",
+          "type": "range",
+          "quotes": [
+            "Press, September 2008, paperback edition 2009)"
+          ]
+        },
+        {
+          "text": "2009",
+          "type": "point",
+          "quotes": [
+            "US Council on Foreign Relations Arthur Ross Book Award 2009"
+          ]
+        },
+        {
+          "text": "1991, 2nd ed 1995",
+          "type": "range",
+          "quotes": [
+            "Australia's Foreign Relations (with Bruce Grant, Melbourne University Press 1991, 2nd ed 1995)"
+          ]
+        },
+        {
+          "text": "1993",
+          "type": "point",
+          "quotes": [
+            "Cooperating for Peace: The Global Agenda for the 1990s (Allen & Unwin, 1993)"
+          ]
+        },
+        {
+          "text": "1983",
+          "type": "point",
+          "quotes": [
+            "Australia's Constitution (with John McMillan and Haddon Storey, Allen & Unwin, 1983)"
+          ]
+        },
+        {
+          "text": "1977",
+          "type": "point",
+          "quotes": [
+            "Labor and the Constitution, 1972–1975 (Heinemann, 1977)"
+          ]
+        },
+        {
+          "text": "from 1980 to 1982",
+          "type": "range",
+          "quotes": [
+            "He co-edited the annual Labor Essays series from 1980 to 1982."
+          ]
+        },
+        {
+          "text": "2022",
+          "type": "point",
+          "quotes": [
+            "Good International Citizenship: The Case for Decency (Monash Publishing, 2022)"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "US Council on Foreign Relations",
+          "quotes": [
+            "which was awarded an Honorable Mention in the US Council on Foreign Relations Arthur Ross Book Award 2009"
+          ]
+        },
+        {
+          "name": "Melbourne University Press",
+          "quotes": [
+            "Australia's Foreign Relations (with Bruce Grant, Melbourne University Press 1991, 2nd ed 1995)"
+          ]
+        },
+        {
+          "name": "Allen & Unwin",
+          "quotes": [
+            "Cooperating for Peace: The Global Agenda for the 1990s (Allen & Unwin, 1993)",
+            "Australia's Constitution (with John McMillan and Haddon Storey, Allen & Unwin, 1983)"
+          ]
+        },
+        {
+          "name": "Heinemann",
+          "quotes": [
+            "Labor and the Constitution, 1972–1975 (Heinemann, 1977)"
+          ]
+        },
+        {
+          "name": "Monash Publishing",
+          "quotes": [
+            "Good International Citizenship: The Case for Decency (Monash Publishing, 2022)"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Australian foreign minister",
+          "quotes": [
+            "Evans introduced the idea of 'good international citizenship' in his first major speeches as Australian foreign minister"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "which was awarded an Honorable Mention in the US Council on Foreign Relations Arthur Ross Book Award 2009",
+          "US Council on Foreign Relations Arthur Ross Book Award 2009"
+        ],
+        "confidence": "high",
+        "notes": "Clear award indication with 'awarded' and 'Honorable Mention'"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Evans introduced the idea of 'good international citizenship' in his first major speeches as Australian foreign minister"
+        ],
+        "confidence": "high",
+        "notes": "Role as Australian foreign minister implies active position"
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing role_ids and location_ids for award event, though organization and time are present."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time_marker_ids, organization_ids, and location_ids for career_position event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 1
+    }
+  }
+}

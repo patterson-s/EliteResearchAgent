@@ -1,0 +1,103 @@
+{
+  "status": "success",
+  "chunk_id": 3302,
+  "chunk_index": 2,
+  "source_url": "https://www.forbes.com/profile/elvira-nabiullina/",
+  "title": "Elvira Nabiullina - Bank of Russia",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "Sep 16, 2015",
+          "type": "point",
+          "quotes": [
+            "Sep 16, 2015"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Euromoney magazine",
+          "quotes": [
+            "For Euromoney magazine, Elvira Nabiullina has done a yeoman's job under extraordinary stress."
+          ]
+        },
+        {
+          "name": "Russia’s Central Bank",
+          "quotes": [
+            "Why Russia’s Central Bank Will Never Sell Former Zombie Banks Back To Private Interests"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Central Banker",
+          "quotes": [
+            "And The World's Best Central Banker Is...(Not Yellen)"
+          ]
+        },
+        {
+          "title": "Former Contributor",
+          "quotes": [
+            "By Kenneth Rapoza, Former Contributor"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Sep 16, 2015",
+          "For Euromoney magazine, Elvira Nabiullina has done a yeoman's job under extraordinary stress.",
+          "And The World's Best Central Banker Is...(Not Yellen)"
+        ],
+        "confidence": "high",
+        "notes": "The context suggests Elvira Nabiullina was recognized as the World's Best Central Banker by Euromoney magazine, which is a one-time award."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "quote_support",
+            "severity": "medium",
+            "description": "While the quotes suggest recognition, they do not explicitly state that Elvira Nabiullina received the 'World's Best Central Banker' award from Euromoney magazine."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Location information is missing, though it may not be critical for this event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 0,
+      "awards": 1
+    }
+  }
+}

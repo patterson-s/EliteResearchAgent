@@ -1,0 +1,141 @@
+{
+  "status": "success",
+  "chunk_id": 826,
+  "chunk_index": 12,
+  "source_url": "https://www.buzzsprout.com/1886318/episodes/11578450-the-future-is-multi-channel-marketing-nailing-your-adops-strategy-during-challenging-times-with-sophie-eom-ceo-of-adriel",
+  "title": "The Future is Multi-Channel Marketing: Nailing your AdOps Strategy During Challenging Times with Sophie Eom, CEO of Adriel",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "alikeaudience.com",
+          "quotes": [
+            "To find the show notes, transcripts, and more information about our audience segment offerings log on to our website www.alikeaudience.com."
+          ]
+        },
+        {
+          "name": "Spotify",
+          "quotes": [
+            "Follow\nSpotify\nAmazon Music\nPodcast Index\nRSS Feed"
+          ]
+        },
+        {
+          "name": "Amazon Music",
+          "quotes": [
+            "Follow\nSpotify\nAmazon Music\nPodcast Index\nRSS Feed"
+          ]
+        },
+        {
+          "name": "Podcast Index",
+          "quotes": [
+            "Follow\nSpotify\nAmazon Music\nPodcast Index\nRSS Feed"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Host",
+          "quotes": [
+            "Bosco Lam\nHost\nDerek Fan\nHost"
+          ]
+        },
+        {
+          "title": "Co-host",
+          "quotes": [
+            "Jessica Lam Hill Young\nCo-host"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1,
+          2,
+          3
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Follow\nSpotify\nAmazon Music\nPodcast Index\nRSS Feed",
+          "Bosco Lam\nHost\nDerek Fan\nHost"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time markers, but roles and organizations are clearly linked through quotes. Assuming 'Host' role is associated with the mentioned platforms."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1,
+          2,
+          3
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Follow\nSpotify\nAmazon Music\nPodcast Index\nRSS Feed",
+          "Jessica Lam Hill Young\nCo-host"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time markers, but roles and organizations are clearly linked through quotes. Assuming 'Co-host' role is associated with the mentioned platforms."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position event."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quotes do not explicitly mention the role or organizations in a clear context."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position event."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quotes do not explicitly mention the role or organizations in a clear context."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

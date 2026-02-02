@@ -1,0 +1,205 @@
+{
+  "status": "success",
+  "chunk_id": 635,
+  "chunk_index": 3,
+  "source_url": "https://adst.org/2020/08/an-honest-broker-remembering-brent-scowcroft/",
+  "title": "An Honest Broker: Remembering Brent Scowcroft – Association for Diplomatic Studies & Training",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "By the end of the year, on Christmas Day",
+          "type": "point",
+          "quotes": [
+            "By the end of the year, on Christmas Day, Gorbachev gave up his job."
+          ]
+        },
+        {
+          "text": "1989–1992",
+          "type": "range",
+          "quotes": [
+            "Ambassador Thomas F. Stroock: Guatemala City, Guatemala—Ambassador (1989–1992)"
+          ]
+        },
+        {
+          "text": "November 27, 1993",
+          "type": "point",
+          "quotes": [
+            "Ambassador Stroock was interviewed by Andrew Low on November 27, 1993"
+          ]
+        },
+        {
+          "text": "1991",
+          "type": "point",
+          "quotes": [
+            "Brent Scowcroft and George H.W. Bush  (1991) (Barry Thumma) | AP"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "White House",
+          "quotes": [
+            "Did you get the feeling that this was . . . a White House with a president that really understood situations . . . in other words, a White House that was comfortable with the crisis."
+          ]
+        },
+        {
+          "name": "AP",
+          "quotes": [
+            "Brent Scowcroft and George H.W. Bush  (1991) (Barry Thumma) | AP"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Secretary of State",
+          "quotes": [
+            "pick up Jim Baker, Secretary of State Baker",
+            "Larry Eagleburger, the Secretary of State and the deputy secretary respectively"
+          ]
+        },
+        {
+          "title": "National Security Advisor",
+          "quotes": [
+            "National Security Advisor Brent Scowcroft"
+          ]
+        },
+        {
+          "title": "Ambassador",
+          "quotes": [
+            "Ambassador Thomas F. Stroock: Guatemala City, Guatemala—Ambassador (1989–1992)"
+          ]
+        },
+        {
+          "title": "deputy secretary",
+          "quotes": [
+            "Larry Eagleburger, the Secretary of State and the deputy secretary respectively"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Wyoming or Montana",
+          "quotes": [
+            "who is fishing in Wyoming or Montana. I forget which."
+          ]
+        },
+        {
+          "place": "Moscow",
+          "quotes": [
+            "We flew overnight to get [to Moscow]"
+          ]
+        },
+        {
+          "place": "Guatemala City, Guatemala",
+          "quotes": [
+            "Ambassador Thomas F. Stroock: Guatemala City, Guatemala—Ambassador (1989–1992)"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "Ambassador Thomas F. Stroock: Guatemala City, Guatemala—Ambassador (1989–1992)"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, role, and location in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "National Security Advisor Brent Scowcroft",
+          "Brent Scowcroft and George H.W. Bush  (1991) (Barry Thumma) | AP"
+        ],
+        "confidence": "high",
+        "notes": "Role and organization are linked through the same individual mentioned in the quotes."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0,
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "pick up Jim Baker, Secretary of State Baker",
+          "Larry Eagleburger, the Secretary of State and the deputy secretary respectively"
+        ],
+        "confidence": "medium",
+        "notes": "No clear time marker, but roles are clearly mentioned together in the same context."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information, though the event is otherwise well-supported."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and organization information. Roles are mentioned but lack clear temporal or organizational context."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quotes mention roles but do not clearly link them to a specific time or organization."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

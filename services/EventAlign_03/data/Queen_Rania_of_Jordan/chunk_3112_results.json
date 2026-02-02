@@ -1,0 +1,306 @@
+{
+  "status": "success",
+  "chunk_id": 3112,
+  "chunk_index": 1,
+  "source_url": "https://live.worldbank.org/en/experts/e/expertsqueen-rania-al-abdullah",
+  "title": "Queen Rania Al Abdullah | World Bank Live",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "before 2030",
+          "type": "point",
+          "quotes": [
+            "the Sustainable Development Goals which aim to improve the lives of millions of people before 2030."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "UNICEF",
+          "quotes": [
+            "She is the Eminent Advocate for UNICEF;"
+          ]
+        },
+        {
+          "name": "UN",
+          "quotes": [
+            "she was part of the UN appointed High Level Panel"
+          ]
+        },
+        {
+          "name": "Walther Rathenau Institute",
+          "quotes": [
+            "the Walther Rathenau Award from the Walther Rathenau Institute in Germany"
+          ]
+        },
+        {
+          "name": "Tech Awards",
+          "quotes": [
+            "the James C. Morgan Global Humanitarian Award from Tech Awards, USA;"
+          ]
+        },
+        {
+          "name": "Arab Giving Forum",
+          "quotes": [
+            "the Arab Knight of Giving Award from Arab Giving Forum, UAE;"
+          ]
+        },
+        {
+          "name": "North South Prize",
+          "quotes": [
+            "the North South Prize by the North South Prize, Portugal;"
+          ]
+        },
+        {
+          "name": "YouTube",
+          "quotes": [
+            "the YouTube Visionary Award."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Eminent Advocate for UNICEF",
+          "quotes": [
+            "She is the Eminent Advocate for UNICEF;"
+          ]
+        },
+        {
+          "title": "part of the UN appointed High Level Panel",
+          "quotes": [
+            "she was part of the UN appointed High Level Panel who advised on the shape and content of the Sustainable Development Goals"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Germany",
+          "quotes": [
+            "the Walther Rathenau Award from the Walther Rathenau Institute in Germany"
+          ]
+        },
+        {
+          "place": "USA",
+          "quotes": [
+            "the James C. Morgan Global Humanitarian Award from Tech Awards, USA;"
+          ]
+        },
+        {
+          "place": "UAE",
+          "quotes": [
+            "the Arab Knight of Giving Award from Arab Giving Forum, UAE;"
+          ]
+        },
+        {
+          "place": "Portugal",
+          "quotes": [
+            "the North South Prize by the North South Prize, Portugal;"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "She is the Eminent Advocate for UNICEF;"
+        ],
+        "confidence": "high",
+        "notes": "Role and organization are clearly linked in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "she was part of the UN appointed High Level Panel who advised on the shape and content of the Sustainable Development Goals",
+          "the Sustainable Development Goals which aim to improve the lives of millions of people before 2030."
+        ],
+        "confidence": "high",
+        "notes": "Role, organization, and time marker are linked through the Sustainable Development Goals context."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "the Walther Rathenau Award from the Walther Rathenau Institute in Germany"
+        ],
+        "confidence": "high",
+        "notes": "Clear award indicator with no ongoing responsibilities."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "the James C. Morgan Global Humanitarian Award from Tech Awards, USA;"
+        ],
+        "confidence": "high",
+        "notes": "Clear award indicator with no ongoing responsibilities."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "the Arab Knight of Giving Award from Arab Giving Forum, UAE;"
+        ],
+        "confidence": "high",
+        "notes": "Clear award indicator with no ongoing responsibilities."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [],
+        "location_ids": [
+          3
+        ],
+        "supporting_quotes": [
+          "the North South Prize by the North South Prize, Portugal;"
+        ],
+        "confidence": "high",
+        "notes": "Clear award indicator with no ongoing responsibilities."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          6
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "the YouTube Visionary Award."
+        ],
+        "confidence": "high",
+        "notes": "Clear award indicator with no ongoing responsibilities."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time marker and location information."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time marker information."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time marker information."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time marker information."
+          }
+        ]
+      },
+      {
+        "event_id": 5,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time marker information."
+          }
+        ]
+      },
+      {
+        "event_id": 6,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time marker and location information."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 7,
+      "valid": 1,
+      "warnings": 6,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 5
+    }
+  }
+}

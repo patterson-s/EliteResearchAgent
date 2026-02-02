@@ -1,0 +1,98 @@
+{
+  "status": "success",
+  "chunk_id": 50,
+  "chunk_index": 0,
+  "source_url": "https://www.pbs.org/wgbh/commandingheights/shared/minitextlo/int_anandpanyarachun.html",
+  "title": "Commanding Heights : Anand Panyarachun | on PBS",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "from 1991-92 and again from '92-93",
+          "type": "range",
+          "quotes": [
+            "Thailand's prime minister from 1991-92 and again from '92-93, Anand Panyarachun was instrumental in initiating reforms in several key sectors of the Thai economy, and to this day remains committed to building democratic institutions in Thailand."
+          ]
+        },
+        {
+          "text": "05/07/01",
+          "type": "point",
+          "quotes": [
+            "Interview conducted 05/07/01"
+          ]
+        },
+        {
+          "text": "50 [or] 60 years ago",
+          "type": "point",
+          "quotes": [
+            "because at that time, 50 [or] 60 years ago, Thailand was still an agrarian society."
+          ]
+        }
+      ],
+      "organizations": [],
+      "roles": [
+        {
+          "title": "prime minister",
+          "quotes": [
+            "Thailand's prime minister from 1991-92 and again from '92-93, Anand Panyarachun was instrumental in initiating reforms in several key sectors of the Thai economy, and to this day remains committed to building democratic institutions in Thailand."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Thailand",
+          "quotes": [
+            "Thailand's prime minister from 1991-92 and again from '92-93, Anand Panyarachun was instrumental in initiating reforms in several key sectors of the Thai economy, and to this day remains committed to building democratic institutions in Thailand."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Thailand's prime minister from 1991-92 and again from '92-93, Anand Panyarachun was instrumental in initiating reforms in several key sectors of the Thai economy, and to this day remains committed to building democratic institutions in Thailand."
+        ],
+        "confidence": "high",
+        "notes": "The role of prime minister is clearly a career position, and the time marker and location are directly linked in the quote."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information, which is typically expected for a career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "status": "success",
+  "chunk_id": 3681,
+  "chunk_index": 46,
+  "source_url": "https://en.wikipedia.org/wiki/Jens_Stoltenberg",
+  "title": "Jens Stoltenberg - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2013–17",
+          "type": "range",
+          "quotes": [
+            "Members of the Parliament of Norway 2013–17"
+          ]
+        },
+        {
+          "text": "from 2015",
+          "type": "open",
+          "quotes": [
+            "Helleland (Aarbergsbotten from 2015)"
+          ],
+          "from": "2015"
+        },
+        {
+          "text": "from 2015",
+          "type": "open",
+          "quotes": [
+            "Sandberg (Sandaune from 2015)"
+          ],
+          "from": "2015"
+        },
+        {
+          "text": "until 2015",
+          "type": "point",
+          "quotes": [
+            "Hoksrud (Norheim (until 2015))"
+          ],
+          "until": "2015"
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Parliament of Norway",
+          "quotes": [
+            "Members of the Parliament of Norway 2013–17"
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": [
+        {
+          "place": "Akershus",
+          "quotes": [
+            "Akershus\nSanner"
+          ]
+        },
+        {
+          "place": "Aust-Agder",
+          "quotes": [
+            "Aust-Agder\nde Ruiter"
+          ]
+        },
+        {
+          "place": "Buskerud",
+          "quotes": [
+            "Buskerud\nKolberg"
+          ]
+        },
+        {
+          "place": "Finnmark",
+          "quotes": [
+            "Finnmark\nPedersen"
+          ]
+        },
+        {
+          "place": "Hedmark",
+          "quotes": [
+            "Hedmark\nStorberget"
+          ]
+        },
+        {
+          "place": "Hordaland",
+          "quotes": [
+            "Hordaland\nSolberg"
+          ]
+        },
+        {
+          "place": "Møre og Romsdal",
+          "quotes": [
+            "Møre og Romsdal\nOrten"
+          ]
+        },
+        {
+          "place": "Nord-Trøndelag",
+          "quotes": [
+            "Nord-Trøndelag\nKjerkol"
+          ]
+        },
+        {
+          "place": "Nordland",
+          "quotes": [
+            "Nordland\nBerg-Hansen"
+          ]
+        },
+        {
+          "place": "Oppland",
+          "quotes": [
+            "Oppland\nAasrud"
+          ]
+        },
+        {
+          "place": "Oslo",
+          "quotes": [
+            "Oslo\nStoltenberg"
+          ]
+        },
+        {
+          "place": "Rogaland",
+          "quotes": [
+            "Rogaland\nHøie"
+          ]
+        },
+        {
+          "place": "Sogn og Fjordane",
+          "quotes": [
+            "Sogn og Fjordane\nHeggø"
+          ]
+        },
+        {
+          "place": "Sør-Trøndelag",
+          "quotes": [
+            "Sør-Trøndelag\nGiske"
+          ]
+        },
+        {
+          "place": "Telemark",
+          "quotes": [
+            "Telemark\nAasland"
+          ]
+        },
+        {
+          "place": "Troms",
+          "quotes": [
+            "Troms\nM. Henriksen"
+          ]
+        },
+        {
+          "place": "Vest-Agder",
+          "quotes": [
+            "Vest-Agder\nFoss"
+          ]
+        },
+        {
+          "place": "Vestfold",
+          "quotes": [
+            "Vestfold\nFlåtten"
+          ]
+        },
+        {
+          "place": "Østfold",
+          "quotes": [
+            "Østfold\nS.R. Hansen"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Members of the Parliament of Norway 2013–17"
+        ],
+        "confidence": "medium",
+        "notes": "No specific roles mentioned, but membership in Parliament implies a career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. While membership in Parliament implies a career position, specific roles or responsibilities are not mentioned."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "status": "success",
+  "chunk_id": 2667,
+  "chunk_index": 5,
+  "source_url": "https://en.wikipedia.org/wiki/Ellen_Johnson_Sirleaf",
+  "title": "Ellen Johnson Sirleaf - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1997",
+          "type": "point",
+          "quotes": [
+            "The nation held the 1997 general election, which Sirleaf returned to Liberia to contest."
+          ]
+        },
+        {
+          "text": "2005",
+          "type": "point",
+          "quotes": [
+            "2005 presidential campaign"
+          ]
+        },
+        {
+          "text": "23 November 2005",
+          "type": "point",
+          "quotes": [
+            "On 23 November 2005, Sirleaf was declared the winner of the Liberian election and confirmed as the country's next president and the first woman to be elected as president of an African country."
+          ]
+        },
+        {
+          "text": "16 January 2006",
+          "type": "point",
+          "quotes": [
+            "Her inauguration took place on 16 January 2006."
+          ]
+        },
+        {
+          "text": "January 2010",
+          "type": "point",
+          "quotes": [
+            "In January 2010, Sirleaf announced that she would run for a second term in office in the 2011 presidential election while speaking to a joint session of the legislature."
+          ]
+        },
+        {
+          "text": "31 October 2010",
+          "type": "point",
+          "quotes": [
+            "Sirleaf was renominated as the Unity Party's presidential candidate at the party's national convention on 31 October 2010."
+          ]
+        },
+        {
+          "text": "10 December 2011",
+          "type": "point",
+          "quotes": [
+            "From left to right: Tawakkul Karman, Leymah Gbowee, and Ellen Johnson Sirleaf display their awards during the presentation of the Nobel Peace Prize, 10 December 2011."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Unity Party",
+          "quotes": [
+            "She ran as the presidential candidate for the Unity Party and placed second in a controversial election, getting just under 10% of the vote to Charles Taylor's 75%, with the remaining 15% going to other candidates."
+          ]
+        },
+        {
+          "name": "Governance Reform Commission",
+          "quotes": [
+            "while Sirleaf served as head of the Governance Reform Commission."
+          ]
+        },
+        {
+          "name": "Unity Party",
+          "quotes": [
+            "Sirleaf stood for president as the candidate of the Unity Party in the 2005 general election."
+          ]
+        },
+        {
+          "name": "Unity Party",
+          "quotes": [
+            "Sirleaf was renominated as the Unity Party's presidential candidate at the party's national convention on 31 October 2010."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "presidential candidate",
+          "quotes": [
+            "She ran as the presidential candidate for the Unity Party and placed second in a controversial election, getting just under 10% of the vote to Charles Taylor's 75%, with the remaining 15% going to other candidates."
+          ]
+        },
+        {
+          "title": "head of the Governance Reform Commission",
+          "quotes": [
+            "while Sirleaf served as head of the Governance Reform Commission."
+          ]
+        },
+        {
+          "title": "president",
+          "quotes": [
+            "Sirleaf stood for president as the candidate of the Unity Party in the 2005 general election."
+          ]
+        },
+        {
+          "title": "president",
+          "quotes": [
+            "On 23 November 2005, Sirleaf was declared the winner of the Liberian election and confirmed as the country's next president and the first woman to be elected as president of an African country."
+          ]
+        },
+        {
+          "title": "Vice President",
+          "quotes": [
+            "That same day, Vice President Joseph Boakai was nominated by Sirleaf and confirmed"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Liberia",
+          "quotes": [
+            "The nation held the 1997 general election, which Sirleaf returned to Liberia to contest."
+          ]
+        },
+        {
+          "place": "Abidjan, Ivory Coast",
+          "quotes": [
+            "After controversy about the results and being accused of treason, Sirleaf left Liberia and went into exile in Abidjan, Ivory Coast."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "The nation held the 1997 general election, which Sirleaf returned to Liberia to contest.",
+          "She ran as the presidential candidate for the Unity Party and placed second in a controversial election, getting just under 10% of the vote to Charles Taylor's 75%, with the remaining 15% going to other candidates."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "while Sirleaf served as head of the Governance Reform Commission."
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker, but role and organization are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2,
+          3
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          2,
+          3
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Sirleaf stood for president as the candidate of the Unity Party in the 2005 general election.",
+          "On 23 November 2005, Sirleaf was declared the winner of the Liberian election and confirmed as the country's next president and the first woman to be elected as president of an African country.",
+          "Her inauguration took place on 16 January 2006."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, role, and location."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          6
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "From left to right: Tawakkul Karman, Leymah Gbowee, and Ellen Johnson Sirleaf display their awards during the presentation of the Nobel Peace Prize, 10 December 2011."
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of a one-time award."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the 1997 presidential candidacy."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and location information for the Governance Reform Commission role."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 2,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 1
+    }
+  }
+}

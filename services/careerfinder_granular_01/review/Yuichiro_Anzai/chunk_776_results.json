@@ -1,0 +1,116 @@
+{
+  "status": "success",
+  "chunk_id": 776,
+  "chunk_index": 0,
+  "source_url": "https://japan-forward.com/interview-yuichiro-anzai-why-japan-should-prioritize-closing-gaps-in-educational-opportunities/",
+  "title": "INTERVIEW | Yuichiro Anzai: Why Japan Should Prioritize Closing Gaps in Educational Opportunities | JAPAN Forward",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "in the wake of COVID-19",
+          "type": "point",
+          "quotes": [
+            "Japanese primary schools reopen in the wake of COVID-19"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Central Council for Education",
+          "quotes": [
+            "Yuichiro Anzai, a leader in the world of education and chairman of the Central Council for Education, an advisory panel to the education minister"
+          ]
+        },
+        {
+          "name": "The Sankei Shimbun",
+          "quotes": [
+            "Dr. Anzai told The Sankei Shimbun and JAPAN Forward in a recent exclusive interview"
+          ]
+        },
+        {
+          "name": "JAPAN Forward",
+          "quotes": [
+            "Dr. Anzai told The Sankei Shimbun and JAPAN Forward in a recent exclusive interview"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "chairman of the Central Council for Education",
+          "quotes": [
+            "Yuichiro Anzai, a leader in the world of education and chairman of the Central Council for Education, an advisory panel to the education minister"
+          ]
+        },
+        {
+          "title": "leader in the world of education",
+          "quotes": [
+            "Yuichiro Anzai, a leader in the world of education and chairman of the Central Council for Education, an advisory panel to the education minister"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Japan",
+          "quotes": [
+            "The spread of coronavirus infections in Japan has highlighted strains in the education system cultivated by the nation over many years."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Yuichiro Anzai, a leader in the world of education and chairman of the Central Council for Education, an advisory panel to the education minister",
+          "The spread of coronavirus infections in Japan has highlighted strains in the education system cultivated by the nation over many years."
+        ],
+        "confidence": "high",
+        "notes": "No explicit time marker linked to this position, but the role and organization are clearly connected."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the career position, making temporal coherence verification impossible."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "While the quotes support the role and organization, they do not explicitly state the duration or specific time frame of the position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

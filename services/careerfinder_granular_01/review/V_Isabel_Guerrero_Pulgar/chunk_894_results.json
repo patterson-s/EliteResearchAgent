@@ -1,0 +1,152 @@
+{
+  "status": "success",
+  "chunk_id": 894,
+  "chunk_index": 37,
+  "source_url": "https://www.un.org/digital-emerging-technologies/sites/www.un.org.techenvoy/files/hlp_on_digital_cooperation-report_final.pdf",
+  "title": "hlp_on_digital_cooperation-report_final.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2003 and 2005",
+          "type": "range",
+          "quotes": [
+            "The 2003 and 2005 World Summit on the Information Society (WSIS) established the Internet Governance Forum (IGF) as a platform for multi-stakeholder dialogue."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "World Summit on the Information Society (WSIS)",
+          "quotes": [
+            "The 2003 and 2005 World Summit on the Information Society (WSIS) established the Internet Governance Forum (IGF) as a platform for multi-stakeholder dialogue."
+          ]
+        },
+        {
+          "name": "Internet Governance Forum (IGF)",
+          "quotes": [
+            "The 2003 and 2005 World Summit on the Information Society (WSIS) established the Internet Governance Forum (IGF) as a platform for multi-stakeholder dialogue."
+          ]
+        },
+        {
+          "name": "NetMundial Conference",
+          "quotes": [
+            "The need for strengthened cooperation mechanisms has been raised many times in recent years by broad initiatives – such as the NetMundial Conference"
+          ]
+        },
+        {
+          "name": "Global Commission on Internet Governance",
+          "quotes": [
+            "The need for strengthened cooperation mechanisms has been raised many times in recent years by broad initiatives – such as the Global Commission on Internet Governance"
+          ]
+        },
+        {
+          "name": "Web Foundation’s Contract for the Web",
+          "quotes": [
+            "The need for strengthened cooperation mechanisms has been raised many times in recent years by broad initiatives – such as the Web Foundation’s Contract for the Web"
+          ]
+        },
+        {
+          "name": "Broadband Commission",
+          "quotes": [
+            "more narrowly focused efforts such as the Broadband Commission"
+          ]
+        },
+        {
+          "name": "Alliance for Affordable Internet",
+          "quotes": [
+            "more narrowly focused efforts such as the Alliance for Affordable Internet"
+          ]
+        },
+        {
+          "name": "Internet & Jurisdiction Policy Network",
+          "quotes": [
+            "more narrowly focused efforts such as the Internet & Jurisdiction Policy Network"
+          ]
+        },
+        {
+          "name": "Global Commission on the Stability of Cyberspace",
+          "quotes": [
+            "more narrowly focused efforts such as the Global Commission on the Stability of Cyberspace"
+          ]
+        },
+        {
+          "name": "Charter of Trust",
+          "quotes": [
+            "more narrowly focused efforts such as the Charter of Trust"
+          ]
+        },
+        {
+          "name": "Smart Africa",
+          "quotes": [
+            "more narrowly focused efforts such as Smart Africa"
+          ]
+        },
+        {
+          "name": "International Panel on AI",
+          "quotes": [
+            "the International Panel on AI recently announced by Canada and France."
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The 2003 and 2005 World Summit on the Information Society (WSIS) established the Internet Governance Forum (IGF) as a platform for multi-stakeholder dialogue."
+        ],
+        "confidence": "medium",
+        "notes": "No specific roles mentioned, but the establishment of IGF by WSIS implies an organizational initiative rather than a personal career position. However, classified as career_position due to the nature of the event being an organizational establishment."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "medium",
+            "description": "Event classified as 'career_position' but lacks specific role or individual involvement, suggesting it might be better classified as an organizational initiative or milestone."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role_ids and location_ids, which are expected for a career_position event."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quote does not mention a specific individual or role, which is inconsistent with a career_position event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

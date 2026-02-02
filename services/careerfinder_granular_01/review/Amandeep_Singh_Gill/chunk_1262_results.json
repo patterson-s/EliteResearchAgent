@@ -1,0 +1,189 @@
+{
+  "status": "success",
+  "chunk_id": 1262,
+  "chunk_index": 0,
+  "source_url": "https://www.un.org/sg/en/appointments/odet/amandeep-gill",
+  "title": "Amandeep Gill , Under-Secretary-General and Special Envoy for Digital and Emerging Technologies| Secretary-General",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "10 June 2022",
+          "type": "point",
+          "quotes": [
+            "United Nations Secretary-General António Guterres announced on 10 June 2022 the appointment of Amandeep Singh Gill of India as his Envoy on Technology."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "United Nations",
+          "quotes": [
+            "Welcome to the United Nations",
+            "United Nations Secretary-General António Guterres announced on 10 June 2022 the appointment of Amandeep Singh Gill of India as his Envoy on Technology.",
+            "Previously, he was the Executive Director and Co-Lead of the United Nations Secretary-General’s High-Level Panel on Digital Cooperation"
+          ]
+        },
+        {
+          "name": "International Digital Health and Artificial Intelligence Research Collaborative (I-DAIR)",
+          "quotes": [
+            "Mr. Gill is the Chief Executive Officer of the International Digital Health and Artificial Intelligence Research Collaborative (I-DAIR) project, based at the Graduate Institute of International and Development Studies, Geneva."
+          ]
+        },
+        {
+          "name": "Graduate Institute of International and Development Studies",
+          "quotes": [
+            "Mr. Gill is the Chief Executive Officer of the International Digital Health and Artificial Intelligence Research Collaborative (I-DAIR) project, based at the Graduate Institute of International and Development Studies, Geneva."
+          ]
+        },
+        {
+          "name": "Office for Digital and Emerging Technologies",
+          "quotes": [
+            "Amandeep Gill , Under-Secretary-General and Special Envoy for Digital and Emerging Technologies| Secretary-General",
+            "Office for Digital and Emerging Technologies"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Under-Secretary-General and Special Envoy for Digital and Emerging Technologies",
+          "quotes": [
+            "Amandeep Gill , Under-Secretary-General and Special Envoy for Digital and Emerging Technologies"
+          ]
+        },
+        {
+          "title": "Envoy on Technology",
+          "quotes": [
+            "United Nations Secretary-General António Guterres announced on 10 June 2022 the appointment of Amandeep Singh Gill of India as his Envoy on Technology."
+          ]
+        },
+        {
+          "title": "Chief Executive Officer",
+          "quotes": [
+            "Mr. Gill is the Chief Executive Officer of the International Digital Health and Artificial Intelligence Research Collaborative (I-DAIR) project, based at the Graduate Institute of International and Development Studies, Geneva."
+          ]
+        },
+        {
+          "title": "Executive Director and Co-Lead",
+          "quotes": [
+            "Previously, he was the Executive Director and Co-Lead of the United Nations Secretary-General’s High-Level Panel on Digital Cooperation"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Geneva",
+          "quotes": [
+            "Mr. Gill is the Chief Executive Officer of the International Digital Health and Artificial Intelligence Research Collaborative (I-DAIR) project, based at the Graduate Institute of International and Development Studies, Geneva."
+          ]
+        },
+        {
+          "place": "India",
+          "quotes": [
+            "United Nations Secretary-General António Guterres announced on 10 June 2022 the appointment of Amandeep Singh Gill of India as his Envoy on Technology."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0,
+          3
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "United Nations Secretary-General António Guterres announced on 10 June 2022 the appointment of Amandeep Singh Gill of India as his Envoy on Technology.",
+          "Amandeep Gill , Under-Secretary-General and Special Envoy for Digital and Emerging Technologies"
+        ],
+        "confidence": "high",
+        "notes": "The role of Envoy on Technology is directly linked to the United Nations and the Office for Digital and Emerging Technologies."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1,
+          2
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Mr. Gill is the Chief Executive Officer of the International Digital Health and Artificial Intelligence Research Collaborative (I-DAIR) project, based at the Graduate Institute of International and Development Studies, Geneva."
+        ],
+        "confidence": "high",
+        "notes": "The role of Chief Executive Officer is directly linked to I-DAIR and the Graduate Institute of International and Development Studies."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Previously, he was the Executive Director and Co-Lead of the United Nations Secretary-General’s High-Level Panel on Digital Cooperation"
+        ],
+        "confidence": "high",
+        "notes": "The role of Executive Director and Co-Lead is directly linked to the United Nations."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information for the role of Envoy on Technology."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time and location information for the role of Executive Director and Co-Lead."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

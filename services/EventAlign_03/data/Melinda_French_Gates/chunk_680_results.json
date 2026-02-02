@@ -1,0 +1,181 @@
+{
+  "status": "success",
+  "chunk_id": 680,
+  "chunk_index": 4,
+  "source_url": "https://www.biography.com/business-leaders/melinda-gates",
+  "title": "Melinda French Gates: Biography, Philanthropist",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "from January 1994 to August 2021",
+          "type": "range",
+          "quotes": [
+            "Melinda French Gates and Bill Gates were married from January 1994 to August 2021."
+          ]
+        },
+        {
+          "text": "April 1996",
+          "type": "point",
+          "quotes": [
+            "Melinda gave birth to the couple’s first child, a daughter named Jennifer, in April 1996."
+          ]
+        },
+        {
+          "text": "May 1999",
+          "type": "point",
+          "quotes": [
+            "Their son, Rory, was born in May 1999"
+          ]
+        },
+        {
+          "text": "September 2002",
+          "type": "point",
+          "quotes": [
+            "followed by their second daughter, Phoebe, in September 2002."
+          ]
+        },
+        {
+          "text": "May 2021",
+          "type": "point",
+          "quotes": [
+            "After 27 years of marriage, Melinda and Bill announced their separation in May 2021."
+          ]
+        },
+        {
+          "text": "August 2021",
+          "type": "point",
+          "quotes": [
+            "Their divorce was finalized that August—two weeks before Melinda’s 57th birthday."
+          ]
+        },
+        {
+          "text": "June 2024",
+          "type": "point",
+          "quotes": [
+            "Melinda told Time magazine in June 2024 that while the process of getting a divorce is ‘painful,’ her life since ‘has been wonderful.’"
+          ]
+        },
+        {
+          "text": "October 2024",
+          "type": "point",
+          "quotes": [
+            "The two were first spotted holding hands in New York City in October 2024, according to Page Six."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Microsoft",
+          "quotes": [
+            "Melinda was married to Microsoft founder Bill Gates for nearly three decades.",
+            "At that time, she decided to leave her job at Microsoft so she could focus on child-rearing and philanthropic efforts."
+          ]
+        },
+        {
+          "name": "Time",
+          "quotes": [
+            "Melinda told Time magazine in June 2024 that while the process of getting a divorce is ‘painful,’ her life since ‘has been wonderful.’"
+          ]
+        },
+        {
+          "name": "Page Six",
+          "quotes": [
+            "The two were first spotted holding hands in New York City in October 2024, according to Page Six."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "product manager",
+          "quotes": [
+            "At the time, Melinda was working as a product manager at Bill’s company."
+          ]
+        },
+        {
+          "title": "CEO",
+          "quotes": [
+            "The CEO, who was nine years her senior, eventually asked her out in a parking lot with a couple of weeks’ notice."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Manhattan",
+          "quotes": [
+            "The pair first met at a sales meeting in Manhattan."
+          ]
+        },
+        {
+          "place": "Hawaiian island of Lanai",
+          "quotes": [
+            "They held their wedding on the Hawaiian island of Lanai in a private ceremony in January 1994."
+          ]
+        },
+        {
+          "place": "Lake Washington outside of Seattle",
+          "quotes": [
+            "after spending decades in her ex-husband’s secluded mansion on Lake Washington outside of Seattle"
+          ]
+        },
+        {
+          "place": "New York City",
+          "quotes": [
+            "The two were first spotted holding hands in New York City in October 2024, according to Page Six."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "At the time, Melinda was working as a product manager at Bill’s company.",
+          "At that time, she decided to leave her job at Microsoft so she could focus on child-rearing and philanthropic efforts."
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker for this role, but it is clearly a career position based on the context."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position, making it difficult to place the event in a timeline."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "While the quotes support the role and organization, they do not provide a clear timeframe for the position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "status": "success",
+  "chunk_id": 3642,
+  "chunk_index": 7,
+  "source_url": "https://en.wikipedia.org/wiki/Jens_Stoltenberg",
+  "title": "Jens Stoltenberg - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "23 July 2011",
+          "type": "point",
+          "quotes": [
+            "Stine Renate Håheim interviewed by CNN's Richard Quest on 23 July 2011."
+          ]
+        },
+        {
+          "text": "24 August 2012",
+          "type": "point",
+          "quotes": [
+            "On 24 August 2012, 33-year-old Norwegian Anders Behring Breivik was found guilty by the Oslo District Court"
+          ]
+        },
+        {
+          "text": "3 September 2012",
+          "type": "point",
+          "quotes": [
+            "On 3 September 2012, Norwegian daily Klassekampen wrote that the Gjørv Report on the terrorist attack"
+          ]
+        },
+        {
+          "text": "9 September 2013",
+          "type": "point",
+          "quotes": [
+            "On 9 September 2013, the coalition failed to win a majority, with 72 of the required 85 mandates"
+          ]
+        },
+        {
+          "text": "December 2013",
+          "type": "point",
+          "quotes": [
+            "In December 2013, he was appointed by the United Nations as a Special Envoy on Climate Change"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "CNN",
+          "quotes": [
+            "Stine Renate Håheim interviewed by CNN's Richard Quest on 23 July 2011."
+          ]
+        },
+        {
+          "name": "Oslo District Court",
+          "quotes": [
+            "On 24 August 2012, 33-year-old Norwegian Anders Behring Breivik was found guilty by the Oslo District Court"
+          ]
+        },
+        {
+          "name": "Klassekampen",
+          "quotes": [
+            "On 3 September 2012, Norwegian daily Klassekampen wrote that the Gjørv Report on the terrorist attack"
+          ]
+        },
+        {
+          "name": "United Nations",
+          "quotes": [
+            "In December 2013, he was appointed by the United Nations as a Special Envoy on Climate Change"
+          ]
+        },
+        {
+          "name": "Standing Committee on Foreign Affairs and Defence",
+          "quotes": [
+            "Stoltenberg returned to the Parliament as leader of the opposition, and a member of the Standing Committee on Foreign Affairs and Defence."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "prime minister candidate",
+          "quotes": [
+            "Stoltenberg was the prime minister candidate for the Red-Green Coalition in the 2013 elections"
+          ]
+        },
+        {
+          "title": "leader of the opposition",
+          "quotes": [
+            "Stoltenberg returned to the Parliament as leader of the opposition, and a member of the Standing Committee on Foreign Affairs and Defence."
+          ]
+        },
+        {
+          "title": "Special Envoy on Climate Change",
+          "quotes": [
+            "In December 2013, he was appointed by the United Nations as a Special Envoy on Climate Change"
+          ]
+        },
+        {
+          "title": "prime minister",
+          "quotes": [
+            "Stoltenberg said after the report was published that he had 'ultimate responsibility for the preparedness in our country, a responsibility I take seriously,' but said he would not resign."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Oslo",
+          "quotes": [
+            "On 24 August 2012, 33-year-old Norwegian Anders Behring Breivik was found guilty by the Oslo District Court"
+          ]
+        },
+        {
+          "place": "Utøya island",
+          "quotes": [
+            "On 24 August 2012, 33-year-old Norwegian Anders Behring Breivik was found guilty by the Oslo District Court of having perpetrated by himself both terrorist attacks, the bombing of the prime minister's office and the shooting spree on Utøya island"
+          ]
+        },
+        {
+          "place": "Norway",
+          "quotes": [
+            "despite the Labour Party remaining the largest party in Norway with 31%."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Stoltenberg returned to the Parliament as leader of the opposition, and a member of the Standing Committee on Foreign Affairs and Defence."
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker, but role and organization are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In December 2013, he was appointed by the United Nations as a Special Envoy on Climate Change"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the event, making temporal coherence verification impossible."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

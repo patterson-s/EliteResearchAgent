@@ -1,0 +1,201 @@
+{
+  "status": "success",
+  "chunk_id": 19,
+  "chunk_index": 1,
+  "source_url": "https://clubmadrid.org/who/members/panyarachun-anand/",
+  "title": "Anand Panyarachun Prime Minister of Thailand",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "May 1992",
+          "type": "point",
+          "quotes": [
+            "fair general elections in May 1992 to return democratic rule to the Thai people"
+          ]
+        },
+        {
+          "text": "September that year",
+          "type": "point",
+          "quotes": [
+            "He retired following the general elections of September that year."
+          ]
+        },
+        {
+          "text": "1997",
+          "type": "point",
+          "quotes": [
+            "In 1997, Anand was elected to the Thai Constitution Drafting Assembly and appointed Chairman."
+          ]
+        },
+        {
+          "text": "later that year",
+          "type": "point",
+          "quotes": [
+            "His oversight led to a successful ratification of the new Constitution later that year."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Thai Constitution Drafting Assembly",
+          "quotes": [
+            "In 1997, Anand was elected to the Thai Constitution Drafting Assembly and appointed Chairman."
+          ]
+        },
+        {
+          "name": "Club de Madrid",
+          "quotes": [
+            "Former UN Leaders and Club de Madrid Members Unite in Urgent Call to Defend the UN Charter on its 80th Anniversary"
+          ]
+        },
+        {
+          "name": "WORLD LEADERSHIP ALLIANCE CLUB DE MADRID",
+          "quotes": [
+            "Welcome to the basic information about the cookies on the website of the entity: WORLD LEADERSHIP ALLIANCE CLUB DE MADRID"
+          ]
+        },
+        {
+          "name": "UN",
+          "quotes": [
+            "Former UN Leaders and Club de Madrid Members Unite in Urgent Call to Defend the UN Charter on its 80th Anniversary",
+            "Asia-Pacific needs to foster internal market to sustain its economic recovery says UN and Club de Madrid"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Prime Minister",
+          "quotes": [
+            "Despite turmoil after the elections, Anand was once again invited by the President of Parliament to serve as Thailand´s Prime Minister."
+          ]
+        },
+        {
+          "title": "Chairman",
+          "quotes": [
+            "In 1997, Anand was elected to the Thai Constitution Drafting Assembly and appointed Chairman."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Thailand",
+          "quotes": [
+            "Despite turmoil after the elections, Anand was once again invited by the President of Parliament to serve as Thailand´s Prime Minister."
+          ]
+        },
+        {
+          "place": "Asia-Pacific",
+          "quotes": [
+            "Asia-Pacific needs to foster internal market to sustain its economic recovery says UN and Club de Madrid"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "fair general elections in May 1992 to return democratic rule to the Thai people",
+          "Despite turmoil after the elections, Anand was once again invited by the President of Parliament to serve as Thailand´s Prime Minister."
+        ],
+        "confidence": "high",
+        "notes": "Prime Minister role in Thailand linked to the general elections in May 1992."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 1997, Anand was elected to the Thai Constitution Drafting Assembly and appointed Chairman."
+        ],
+        "confidence": "high",
+        "notes": "Chairman role in the Thai Constitution Drafting Assembly linked to the year 1997."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1,
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Former UN Leaders and Club de Madrid Members Unite in Urgent Call to Defend the UN Charter on its 80th Anniversary",
+          "Asia-Pacific needs to foster internal market to sustain its economic recovery says UN and Club de Madrid"
+        ],
+        "confidence": "medium",
+        "notes": "Affiliation with Club de Madrid and UN, no specific time marker provided."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the Prime Minister role."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "No specific time marker provided for the affiliation with Club de Madrid and UN."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for the affiliation with Club de Madrid and UN."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

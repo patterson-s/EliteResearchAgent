@@ -1,0 +1,185 @@
+{
+  "status": "success",
+  "chunk_id": 3711,
+  "chunk_index": 14,
+  "source_url": "https://en.wikipedia.org/wiki/Gordon_Brown",
+  "title": "Gordon Brown - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "mid-2008",
+          "type": "point",
+          "quotes": [
+            "In mid-2008, Brown's leadership was presented with a challenge as some MPs openly called for him to resign."
+          ]
+        },
+        {
+          "text": "early 2009",
+          "type": "point",
+          "quotes": [
+            "Several MPs argued that if Brown did not recover in the polls by early 2009, he should call for a leadership contest;"
+          ]
+        },
+        {
+          "text": "12 September",
+          "type": "point",
+          "quotes": [
+            "McDonagh was sacked from her role shortly afterward, on 12 September."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "ACMD",
+          "quotes": [
+            "Professor Nutt's predecessor at the ACMD, Sir Michael Rawlins, later said,"
+          ]
+        },
+        {
+          "name": "Labour Party",
+          "quotes": [
+            "This event was dubbed the 'Lancashire Plot', as two backbenchers from (pre-1974) Lancashire urged him to step down and a third questioned his chances of holding on to the Labour Party leadership."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Professor",
+          "quotes": [
+            "Following his resignation, Professor Nutt said Brown had 'made up his mind' to reclassify cannabis despite evidence to the contrary."
+          ]
+        },
+        {
+          "title": "Prime Minister",
+          "quotes": [
+            "Brown's premiership coincided with the global recession,"
+          ]
+        },
+        {
+          "title": "MP",
+          "quotes": [
+            "In mid-2008, Brown's leadership was presented with a challenge as some MPs openly called for him to resign."
+          ]
+        },
+        {
+          "title": "junior government whip",
+          "quotes": [
+            "Siobhain McDonagh, an MP and junior government whip, who during her time in office had never voted against the government,"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Lancashire",
+          "quotes": [
+            "This event was dubbed the 'Lancashire Plot', as two backbenchers from (pre-1974) Lancashire urged him to step down"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Brown's premiership coincided with the global recession"
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker, but the role and organization are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Siobhain McDonagh, an MP and junior government whip, who during her time in office had never voted against the government"
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker or organization, but the role is clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Professor Nutt's predecessor at the ACMD, Sir Michael Rawlins, later said",
+          "Following his resignation, Professor Nutt said Brown had 'made up his mind' to reclassify cannabis despite evidence to the contrary."
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker, but the role and organization are clear."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and organization for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and role for the career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quotes do not clearly support the career position, mentioning resignation rather than active role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

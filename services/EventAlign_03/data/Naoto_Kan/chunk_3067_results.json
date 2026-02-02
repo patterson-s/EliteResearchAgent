@@ -1,0 +1,134 @@
+{
+  "status": "success",
+  "chunk_id": 3067,
+  "chunk_index": 0,
+  "source_url": "https://japan.kantei.go.jp/kan/profile/index_e.html",
+  "title": "Profile of Prime Minister",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "October 10, 1946",
+          "type": "point",
+          "quotes": [
+            "Born in Yamaguchi, Japan, on October 10, 1946"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "House of Representatives",
+          "quotes": [
+            "Member of the House of Representatives"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Prime Minister",
+          "quotes": [
+            "Profile of Prime Minister Kan"
+          ]
+        },
+        {
+          "title": "Member of the House of Representatives",
+          "quotes": [
+            "Member of the House of Representatives"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Yamaguchi, Japan",
+          "quotes": [
+            "Born in Yamaguchi, Japan, on October 10, 1946"
+          ]
+        },
+        {
+          "place": "Tokyo 18th District",
+          "quotes": [
+            "Constituency: Tokyo 18th District (10th Terms)"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Member of the House of Representatives",
+          "Constituency: Tokyo 18th District (10th Terms)"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role and organization, with location providing additional context."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Profile of Prime Minister Kan"
+        ],
+        "confidence": "medium",
+        "notes": "Prime Minister role is mentioned without specific organization or time, but assumed to be a career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization and time markers for the career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quote 'Profile of Prime Minister Kan' does not clearly support the role as a career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,367 @@
+{
+  "status": "success",
+  "chunk_id": 168,
+  "chunk_index": 5,
+  "source_url": "https://en.wikipedia.org/wiki/Gareth_Evans_(politician)",
+  "title": "Gareth Evans (politician) - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1987–88",
+          "type": "range",
+          "quotes": [
+            "As Transport and Communications minister in 1987–88,"
+          ]
+        },
+        {
+          "text": "September 1988",
+          "type": "point",
+          "quotes": [
+            "Evans was appointed Foreign Minister in September 1988,"
+          ]
+        },
+        {
+          "text": "1988–1996",
+          "type": "range",
+          "quotes": [
+            "Minister for Foreign Affairs, 1988–1996"
+          ]
+        },
+        {
+          "text": "1993",
+          "type": "point",
+          "quotes": [
+            "launched in New York City in 1993,"
+          ]
+        },
+        {
+          "text": "1990",
+          "type": "point",
+          "quotes": [
+            "In 1990, Evans famously became the first person to drop the f-bomb in the Australian Parliament,"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Australian Broadcasting Commission",
+          "quotes": [
+            "he was involved in some controversy with the Australian Broadcasting Commission over funding guarantees and charter reform,"
+          ]
+        },
+        {
+          "name": "United Nations",
+          "quotes": [
+            "His most widely acknowledged successes as foreign minister were his initiation of the UN peace plan for Cambodia,"
+          ]
+        },
+        {
+          "name": "Chemical Weapons Convention",
+          "quotes": [
+            "the roles that he and Australia played in bringing to fruition the International Chemical Weapons Convention"
+          ]
+        },
+        {
+          "name": "Asia Pacific Economic Cooperation (APEC)",
+          "quotes": [
+            "establishing both the Asia Pacific Economic Cooperation (APEC) forum"
+          ]
+        },
+        {
+          "name": "ASEAN Regional Forum (ARF)",
+          "quotes": [
+            "establishing both the ASEAN Regional Forum (ARF)."
+          ]
+        },
+        {
+          "name": "Canberra Commission on the Elimination of Nuclear Weapons",
+          "quotes": [
+            "his initiation with Paul Keating of the Canberra Commission on the Elimination of Nuclear Weapons."
+          ]
+        },
+        {
+          "name": "Australian Parliament",
+          "quotes": [
+            "In 1990, Evans famously became the first person to drop the f-bomb in the Australian Parliament,"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Transport and Communications minister",
+          "quotes": [
+            "As Transport and Communications minister in 1987–88,"
+          ]
+        },
+        {
+          "title": "Foreign Minister",
+          "quotes": [
+            "Evans was appointed Foreign Minister in September 1988,"
+          ]
+        },
+        {
+          "title": "Governor-General",
+          "quotes": [
+            "after his predecessor Bill Hayden retired to become Governor-General."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "United States",
+          "quotes": [
+            "The Hawke and Keating governments were committed to shifting emphasis from Australia's traditional relationships with the United States"
+          ]
+        },
+        {
+          "place": "United Kingdom",
+          "quotes": [
+            "The Hawke and Keating governments were committed to shifting emphasis from Australia's traditional relationships with the United Kingdom"
+          ]
+        },
+        {
+          "place": "Asia",
+          "quotes": [
+            "to increased involvement with Asian neighbours,"
+          ]
+        },
+        {
+          "place": "Indonesia",
+          "quotes": [
+            "particularly Indonesia"
+          ]
+        },
+        {
+          "place": "China",
+          "quotes": [
+            "particularly China"
+          ]
+        },
+        {
+          "place": "Cambodia",
+          "quotes": [
+            "His most widely acknowledged successes as foreign minister were his initiation of the UN peace plan for Cambodia,"
+          ]
+        },
+        {
+          "place": "New York City",
+          "quotes": [
+            "launched in New York City in 1993,"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "As Transport and Communications minister in 1987–88,"
+        ],
+        "confidence": "high",
+        "notes": "Clear role and time marker, no specific organization mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1,
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Evans was appointed Foreign Minister in September 1988,",
+          "Minister for Foreign Affairs, 1988–1996"
+        ],
+        "confidence": "high",
+        "notes": "Clear role and time markers, no specific organization mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          6
+        ],
+        "supporting_quotes": [
+          "His most widely acknowledged successes as foreign minister were his initiation of the UN peace plan for Cambodia,"
+        ],
+        "confidence": "medium",
+        "notes": "Implied role and organization through context, no explicit time marker."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3,
+          4
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "establishing both the Asia Pacific Economic Cooperation (APEC) forum",
+          "establishing both the ASEAN Regional Forum (ARF)."
+        ],
+        "confidence": "medium",
+        "notes": "Implied role and organizations through context, no explicit time marker."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "his initiation with Paul Keating of the Canberra Commission on the Elimination of Nuclear Weapons."
+        ],
+        "confidence": "medium",
+        "notes": "Implied role and organization through context, no explicit time marker."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          7
+        ],
+        "supporting_quotes": [
+          "launched in New York City in 1993,"
+        ],
+        "confidence": "low",
+        "notes": "Unclear specific initiative or organization, but implies activity as Foreign Minister."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          6
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 1990, Evans famously became the first person to drop the f-bomb in the Australian Parliament,"
+        ],
+        "confidence": "high",
+        "notes": "Clear role and time marker, specific organization mentioned."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information, though role and time are clear."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information, though role and time are clear."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing time marker and location, though role and organization are implied."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing time marker and location, though role and organizations are implied."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing time marker and location, though role and organization are implied."
+          }
+        ]
+      },
+      {
+        "event_id": 5,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization and unclear specific initiative, though role and location are present."
+          }
+        ]
+      },
+      {
+        "event_id": 6,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 7,
+      "valid": 1,
+      "warnings": 6,
+      "errors": 0,
+      "career_positions": 7,
+      "awards": 0
+    }
+  }
+}

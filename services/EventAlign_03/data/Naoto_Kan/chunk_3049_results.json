@@ -1,0 +1,247 @@
+{
+  "status": "success",
+  "chunk_id": 3049,
+  "chunk_index": 9,
+  "source_url": "https://en.wikipedia.org/wiki/Naoto_Kan",
+  "title": "Naoto Kan - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "in 1970",
+          "type": "point",
+          "quotes": [
+            "wife Nobuko in 1970. Nobuko, born in Okayama Prefecture, entered a relationship with the Tokyo-dwelling Kan after entering Tsuda College."
+          ]
+        },
+        {
+          "text": "2003",
+          "type": "point",
+          "quotes": [
+            "Gentarō is a social activist and ran unsuccessfully for the House of Representatives in 2003 and 2005."
+          ]
+        },
+        {
+          "text": "2005",
+          "type": "point",
+          "quotes": [
+            "Gentarō is a social activist and ran unsuccessfully for the House of Representatives in 2003 and 2005."
+          ]
+        },
+        {
+          "text": "December 2023",
+          "type": "point",
+          "quotes": [
+            "He later served as political secretary to his father and was elected to the Musashino City Council in December 2023."
+          ]
+        },
+        {
+          "text": "1973",
+          "type": "point",
+          "quotes": [
+            "Kan built a machine to calculate the complicated mahjong point system and applied for a patent in 1973."
+          ]
+        },
+        {
+          "text": "2020",
+          "type": "point",
+          "quotes": [
+            "Kan was portrayed by Shirō Sano in the 2020 film Fukushima 50, and by Fumiyo Kohinata in the 2023 Netflix series The Days"
+          ]
+        },
+        {
+          "text": "2023",
+          "type": "point",
+          "quotes": [
+            "Kan was portrayed by Shirō Sano in the 2020 film Fukushima 50, and by Fumiyo Kohinata in the 2023 Netflix series The Days"
+          ]
+        },
+        {
+          "text": "2016",
+          "type": "point",
+          "quotes": [
+            "The docu-drama The Seal of the Sun (2016, 90 min.), directed by Futoshi Sato, produced by Kaori Otsuka and executive produced by Tamiyoshi Tachibana, shows how the Prime Minister's office and the field struggled following the five days after the Fukushima nuclear accident."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Tsuda College",
+          "quotes": [
+            "Nobuko, born in Okayama Prefecture, entered a relationship with the Tokyo-dwelling Kan after entering Tsuda College."
+          ]
+        },
+        {
+          "name": "House of Representatives",
+          "quotes": [
+            "Gentarō is a social activist and ran unsuccessfully for the House of Representatives in 2003 and 2005."
+          ]
+        },
+        {
+          "name": "Musashino City Council",
+          "quotes": [
+            "He later served as political secretary to his father and was elected to the Musashino City Council in December 2023."
+          ]
+        },
+        {
+          "name": "Netflix",
+          "quotes": [
+            "Kan was portrayed by Shirō Sano in the 2020 film Fukushima 50, and by Fumiyo Kohinata in the 2023 Netflix series The Days"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "social activist",
+          "quotes": [
+            "Gentarō is a social activist and ran unsuccessfully for the House of Representatives in 2003 and 2005."
+          ]
+        },
+        {
+          "title": "political secretary",
+          "quotes": [
+            "He later served as political secretary to his father and was elected to the Musashino City Council in December 2023."
+          ]
+        },
+        {
+          "title": "veterinarian",
+          "quotes": [
+            "Shinjiro is a veterinarian and works at an animal hospital in Nerima, Tokyo."
+          ]
+        },
+        {
+          "title": "Prime Minister",
+          "quotes": [
+            "The docu-drama The Seal of the Sun (2016, 90 min.), directed by Futoshi Sato, produced by Kaori Otsuka and executive produced by Tamiyoshi Tachibana, shows how the Prime Minister's office and the field struggled following the five days after the Fukushima nuclear accident."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Okayama Prefecture",
+          "quotes": [
+            "Nobuko, born in Okayama Prefecture, entered a relationship with the Tokyo-dwelling Kan after entering Tsuda College."
+          ]
+        },
+        {
+          "place": "Tokyo",
+          "quotes": [
+            "Nobuko, born in Okayama Prefecture, entered a relationship with the Tokyo-dwelling Kan after entering Tsuda College."
+          ]
+        },
+        {
+          "place": "Musashino City",
+          "quotes": [
+            "He later served as political secretary to his father and was elected to the Musashino City Council in December 2023."
+          ]
+        },
+        {
+          "place": "Nerima, Tokyo",
+          "quotes": [
+            "Shinjiro is a veterinarian and works at an animal hospital in Nerima, Tokyo."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1,
+          2
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Gentarō is a social activist and ran unsuccessfully for the House of Representatives in 2003 and 2005."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role, organization, and time markers."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "He later served as political secretary to his father and was elected to the Musashino City Council in December 2023."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role, organization, location, and time marker."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          3
+        ],
+        "supporting_quotes": [
+          "Shinjiro is a veterinarian and works at an animal hospital in Nerima, Tokyo."
+        ],
+        "confidence": "medium",
+        "notes": "No time marker or organization, but role and location are clear."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing location information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and organization information for the career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

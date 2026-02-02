@@ -1,0 +1,131 @@
+{
+  "status": "success",
+  "chunk_id": 757,
+  "chunk_index": 8,
+  "source_url": "https://ae.linkedin.com/in/mohammedalgergawi",
+  "title": "‏Mohammad Al Gergawi‏ - ‏وزير شؤون مجلس الوزراء بدولة الإمارات العربية المتحدة • UAE Minister of Cabinet Affairs‏ | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "United Nations Office for South-South Cooperation (UNOSSC)",
+          "quotes": [
+            "for South-South Cooperation (UNOSSC) and the Digital Cooperation Organization (DCO) signed a Letter of Intent to strengthen digital collaboration among developing and emerging economies.",
+            "United Nations Office for South-South Cooperation (UNOSSC)"
+          ]
+        },
+        {
+          "name": "Digital Cooperation Organization (DCO)",
+          "quotes": [
+            "for South-South Cooperation (UNOSSC) and the Digital Cooperation Organization (DCO) signed a Letter of Intent to strengthen digital collaboration among developing and emerging economies."
+          ]
+        },
+        {
+          "name": "USAID",
+          "quotes": [
+            "USAID Monitoring, Evaluation, and Learning Activity",
+            "This comprehensive collection of 📚 resources, 🛠️ tools, and 📝 templates is designed to empower 🌟 USAID partners, subcontractors, and grantees to enhance 🔍 and effectively manage ✅ MEL practices in development projects."
+          ]
+        },
+        {
+          "name": "American University of Beirut",
+          "quotes": [
+            "Thrilled to share two very special interviews with American University of Beirut!",
+            "I had the privilege of being interviewed by two incredible minds: Dr. Walid Saad and Dr. Aram Yeretzian of American University of Beirut."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Director of UNOSSC",
+          "quotes": [
+            "Represented by Ms. Dima Al-Khatib, Director of UNOSSC, and H.E. Deemah AlYahya, Secretary-General of DCO, this partnership aims to bridge digital divides, share best practices, and promote inclusive digital development."
+          ]
+        },
+        {
+          "title": "Secretary-General of DCO",
+          "quotes": [
+            "Represented by Ms. Dima Al-Khatib, Director of UNOSSC, and H.E. Deemah AlYahya, Secretary-General of DCO, this partnership aims to bridge digital divides, share best practices, and promote inclusive digital development."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Represented by Ms. Dima Al-Khatib, Director of UNOSSC, and H.E. Deemah AlYahya, Secretary-General of DCO, this partnership aims to bridge digital divides, share best practices, and promote inclusive digital development.",
+          "for South-South Cooperation (UNOSSC) and the Digital Cooperation Organization (DCO) signed a Letter of Intent to strengthen digital collaboration among developing and emerging economies.",
+          "United Nations Office for South-South Cooperation (UNOSSC)"
+        ],
+        "confidence": "high",
+        "notes": "Director role is clearly associated with UNOSSC through the quotes."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Represented by Ms. Dima Al-Khatib, Director of UNOSSC, and H.E. Deemah AlYahya, Secretary-General of DCO, this partnership aims to bridge digital divides, share best practices, and promote inclusive digital development.",
+          "for South-South Cooperation (UNOSSC) and the Digital Cooperation Organization (DCO) signed a Letter of Intent to strengthen digital collaboration among developing and emerging economies."
+        ],
+        "confidence": "high",
+        "notes": "Secretary-General role is clearly associated with DCO through the quotes."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position event."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

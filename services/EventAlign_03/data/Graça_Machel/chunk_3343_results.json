@@ -1,0 +1,175 @@
+{
+  "status": "success",
+  "chunk_id": 3343,
+  "chunk_index": 1,
+  "source_url": "https://kids.britannica.com/kids/article/Gra%C3%A7a-Machel/602116",
+  "title": "Graça Machel\n                    \n                \n                - Kids | Britannica Kids | Homework Help",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In 1995",
+          "type": "point",
+          "quotes": [
+            "In 1995 she received the Nansen Medal from the UN for her work with refugee children."
+          ]
+        },
+        {
+          "text": "In 2007",
+          "type": "point",
+          "quotes": [
+            "In 2007 the United Kingdom named her an honorary dame commander in the Order of the British Empire (a dame is the female equivalent of a knight)."
+          ]
+        },
+        {
+          "text": "In 2007",
+          "type": "point",
+          "quotes": [
+            "Machel became a member of an international group of respected leaders called the Elders in 2007."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "UN",
+          "quotes": [
+            "In 1995 she received the Nansen Medal from the UN for her work with refugee children."
+          ]
+        },
+        {
+          "name": "Order of the British Empire",
+          "quotes": [
+            "In 2007 the United Kingdom named her an honorary dame commander in the Order of the British Empire (a dame is the female equivalent of a knight)."
+          ]
+        },
+        {
+          "name": "The Elders",
+          "quotes": [
+            "Machel became a member of an international group of respected leaders called the Elders in 2007."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "honorary dame commander",
+          "quotes": [
+            "In 2007 the United Kingdom named her an honorary dame commander in the Order of the British Empire (a dame is the female equivalent of a knight)."
+          ]
+        },
+        {
+          "title": "member of The Elders",
+          "quotes": [
+            "Machel became a member of an international group of respected leaders called the Elders in 2007."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "United Kingdom",
+          "quotes": [
+            "In 2007 the United Kingdom named her an honorary dame commander in the Order of the British Empire (a dame is the female equivalent of a knight)."
+          ]
+        },
+        {
+          "place": "Mozambique",
+          "quotes": [
+            "for Community Development in Mozambique."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 1995 she received the Nansen Medal from the UN for her work with refugee children."
+        ],
+        "confidence": "high",
+        "notes": "Clear award indication with no ongoing role."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "In 2007 the United Kingdom named her an honorary dame commander in the Order of the British Empire (a dame is the female equivalent of a knight)."
+        ],
+        "confidence": "high",
+        "notes": "Honorary title with no active responsibilities."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Machel became a member of an international group of respected leaders called the Elders in 2007."
+        ],
+        "confidence": "high",
+        "notes": "Membership in an active group of leaders implies ongoing responsibilities."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Membership in 'The Elders' could be interpreted as either an award or a career position depending on the nature of the group's activities. Current classification as 'career_position' assumes active responsibilities, but this should be verified further."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 2,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 2
+    }
+  }
+}

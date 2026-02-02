@@ -1,0 +1,153 @@
+{
+  "status": "success",
+  "chunk_id": 287,
+  "chunk_index": 2,
+  "source_url": "https://www.biography.com/musicians/enrique-iglesias",
+  "title": "Enrique Iglesias - Songs, Age & Kids",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2001",
+          "type": "point",
+          "quotes": [
+            "Iglesias struck up a relationship with Russian tennis star Anna Kournikova after she appeared in the music video for 'Escape' in 2001."
+          ]
+        },
+        {
+          "text": "December 2017",
+          "type": "point",
+          "quotes": [
+            "They also managed to keep Kournikova's pregnancy a secret, until she gave birth to twins in December 2017."
+          ]
+        },
+        {
+          "text": "January 2020",
+          "type": "point",
+          "quotes": [
+            "The couple later added to their family with the birth a daughter in January 2020."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "University of Miami",
+          "quotes": [
+            "Schools\nUniversity of Miami"
+          ]
+        },
+        {
+          "name": "Gulliver Private School",
+          "quotes": [
+            "Schools\nUniversity of Miami\nGulliver Private School"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Singer",
+          "quotes": [
+            "Best Known For: Enrique Iglesias is a Spanish-born singer known for several hit songs, including 'Bailamos,' 'Rhythm Divine,' 'Be With You,' 'Escape' and 'Hero.'",
+            "Occupations\nSinger"
+          ]
+        },
+        {
+          "title": "Model",
+          "quotes": [
+            "Occupations\nSinger\nModel"
+          ]
+        },
+        {
+          "title": "Songwriter",
+          "quotes": [
+            "Occupations\nSinger\nModel\nSongwriter"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Madrid",
+          "quotes": [
+            "Birth City:                                             Madrid"
+          ]
+        },
+        {
+          "place": "Spain",
+          "quotes": [
+            "Birth Country:                                             Spain"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0,
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Best Known For: Enrique Iglesias is a Spanish-born singer known for several hit songs, including 'Bailamos,' 'Rhythm Divine,' 'Be With You,' 'Escape' and 'Hero.'",
+          "Occupations\nSinger\nModel\nSongwriter"
+        ],
+        "confidence": "high",
+        "notes": "Singer and Songwriter roles are clearly mentioned as occupations, though no specific time markers or organizations are linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Occupations\nSinger\nModel\nSongwriter"
+        ],
+        "confidence": "high",
+        "notes": "Model role is mentioned as an occupation, though no specific time markers or organizations are linked."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers and organizations for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers and organizations for the career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

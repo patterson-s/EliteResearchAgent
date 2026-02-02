@@ -1,0 +1,165 @@
+{
+  "status": "success",
+  "chunk_id": 3790,
+  "chunk_index": 0,
+  "source_url": "https://www.global-canada.org/about",
+  "title": "About",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "Over the last 75 years",
+          "type": "range",
+          "quotes": [
+            "Over the last 75 years, Canada has played an importantâat times criticalâglobal role."
+          ]
+        },
+        {
+          "text": "From the 1950s to the 1990s",
+          "type": "range",
+          "quotes": [
+            "From the 1950s to the 1990s, Canada was associated with UN peacekeeping."
+          ]
+        },
+        {
+          "text": "the 1950s and 1960s",
+          "type": "range",
+          "quotes": [
+            "Many of the terms that used to describe Canadaâs international engagement (âhonest brokerâ, âmiddle powerâ, âliberal internationalismâ) date from the 1950s and 1960s."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Global Canada",
+          "quotes": [
+            "Global Canada believes that it is in Canadaâs strategic interest to increase its global impact.",
+            "Global Canada provides a rallying point for these Global Canadians.",
+            "Global Canada is committed to rigorous, fact-based, strategic diagnostics of Canadaâs global engagement:",
+            "Global Canada aims to identify a limited number of issues in which there is the potential to have a global impact."
+          ]
+        },
+        {
+          "name": "UN",
+          "quotes": [
+            "From the 1950s to the 1990s, Canada was associated with UN peacekeeping."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Global Canadians",
+          "quotes": [
+            "Curating an exciting community of âGlobal CanadiansââCanadians in leadership positions at home and abroad who are passionate about Canadaâs global role:Â  Community"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Canada",
+          "quotes": [
+            "Canadian prosperity depends upon a prosperous, well-governed world.",
+            "Canada has played an importantâat times criticalâglobal role.",
+            "Canadaâs ability to have a global influence cannot be taken for granted.",
+            "Global Canada believes that it is in Canadaâs strategic interest to increase its global impact.",
+            "Canadians in leadership positions at home and abroad who are passionate about Canadaâs global role:",
+            "Many of the terms that used to describe Canadaâs international engagement (âhonest brokerâ, âmiddle powerâ, âliberal internationalismâ) date from the 1950s and 1960s.",
+            "The world has changed. Â Canada has changed.",
+            "our close demographic links around the world; the increasingly global nature of business; our shared concern in the global environment; the clear links between the health, prosperity and stability of countries abroad and our well-being at home.",
+            "Global Canada is committed to rigorous, fact-based, strategic diagnostics of Canadaâs global engagement:",
+            "From the 1950s to the 1990s, Canada was associated with UN peacekeeping.",
+            "What are the areas today in which Canada has the strategic interest and the capability to make a world-scale difference?"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "From the 1950s to the 1990s, Canada was associated with UN peacekeeping."
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but the association with UN peacekeeping implies an active role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Global Canada believes that it is in Canadaâs strategic interest to increase its global impact.",
+          "Global Canada provides a rallying point for these Global Canadians.",
+          "Curating an exciting community of âGlobal CanadiansââCanadians in leadership positions at home and abroad who are passionate about Canadaâs global role:Â  Community"
+        ],
+        "confidence": "high",
+        "notes": "Global Canadians is a role within the Global Canada organization, indicating an active position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. While the association with UN peacekeeping implies an active role, the specific role is not mentioned."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "The quote mentions Canada's association with UN peacekeeping but does not explicitly state an individual's role."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing time, organization, and location information. Only role is provided."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quotes mention Global Canada and Global Canadians but do not clearly link them to a specific career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

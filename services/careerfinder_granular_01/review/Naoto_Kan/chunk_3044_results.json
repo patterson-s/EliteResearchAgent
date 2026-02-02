@@ -1,0 +1,195 @@
+{
+  "status": "success",
+  "chunk_id": 3044,
+  "chunk_index": 4,
+  "source_url": "https://en.wikipedia.org/wiki/Naoto_Kan",
+  "title": "Naoto Kan - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "on 4 June",
+          "type": "point",
+          "quotes": [
+            "The Cabinet resigned en masse on 4 June."
+          ]
+        },
+        {
+          "text": "on 4 June",
+          "type": "point",
+          "quotes": [
+            "Subsequently, on 4 June, Kan was designated prime minister by the Diet."
+          ]
+        },
+        {
+          "text": "On 8 June",
+          "type": "point",
+          "quotes": [
+            "On 8 June, Emperor Akihito formally appointed Kan as the 94th Prime Minister, and the 29th postwar prime minister."
+          ]
+        },
+        {
+          "text": "in the month of June",
+          "type": "point",
+          "quotes": [
+            "Kan's approval ratings fell in the month of June after he proposed an increase in the sales tax rate from 5% to 10%."
+          ]
+        },
+        {
+          "text": "July",
+          "type": "point",
+          "quotes": [
+            "The botched sales tax increase proposal was partially blamed for the DPJ's disappointing results in the July House of Councillors election."
+          ]
+        },
+        {
+          "text": "In August",
+          "type": "point",
+          "quotes": [
+            "In August, Kan apologised to the Republic of Korea on the 100th anniversary of the Japan–Korea Annexation Treaty."
+          ]
+        },
+        {
+          "text": "in September",
+          "type": "point",
+          "quotes": [
+            "Ozawa challenged Kan's leadership of the DPJ in September."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "DPJ",
+          "quotes": [
+            "Kan, at the age of 63, won the leadership of the DPJ with 291 votes to 129, defeating a relatively unknown Ozawa-backed legislator Shinji Tarutoko, 50."
+          ]
+        },
+        {
+          "name": "Diet",
+          "quotes": [
+            "who was leading the environmental policy committee in the lower house of the Diet."
+          ]
+        },
+        {
+          "name": "Your Party",
+          "quotes": [
+            "the DPJ lost its majority and was forced to work with smaller, unaffiliated parties (such as Your Party, the JCP, and the SDP) in order to secure passage of bills in the House of Councillors."
+          ]
+        },
+        {
+          "name": "JCP",
+          "quotes": [
+            "the DPJ lost its majority and was forced to work with smaller, unaffiliated parties (such as Your Party, the JCP, and the SDP) in order to secure passage of bills in the House of Councillors."
+          ]
+        },
+        {
+          "name": "SDP",
+          "quotes": [
+            "the DPJ lost its majority and was forced to work with smaller, unaffiliated parties (such as Your Party, the JCP, and the SDP) in order to secure passage of bills in the House of Councillors."
+          ]
+        },
+        {
+          "name": "Republic of Korea",
+          "quotes": [
+            "In August, Kan apologised to the Republic of Korea on the 100th anniversary of the Japan–Korea Annexation Treaty."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "secretary general",
+          "quotes": [
+            "Ichirō Ozawa, to resign as secretary general."
+          ]
+        },
+        {
+          "title": "Foreign Minister",
+          "quotes": [
+            "Foreign Minister Katsuya Okada and Land and Transport Minister Seiji Maehara, though once considered to be possible successors to Hatoyama, announced their support for Kan."
+          ]
+        },
+        {
+          "title": "Land and Transport Minister",
+          "quotes": [
+            "Foreign Minister Katsuya Okada and Land and Transport Minister Seiji Maehara, though once considered to be possible successors to Hatoyama, announced their support for Kan."
+          ]
+        },
+        {
+          "title": "prime minister",
+          "quotes": [
+            "Subsequently, on 4 June, Kan was designated prime minister by the Diet."
+          ]
+        },
+        {
+          "title": "94th Prime Minister",
+          "quotes": [
+            "On 8 June, Emperor Akihito formally appointed Kan as the 94th Prime Minister, and the 29th postwar prime minister."
+          ]
+        },
+        {
+          "title": "29th postwar prime minister",
+          "quotes": [
+            "On 8 June, Emperor Akihito formally appointed Kan as the 94th Prime Minister, and the 29th postwar prime minister."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1,
+          2
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          3,
+          4,
+          5
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Subsequently, on 4 June, Kan was designated prime minister by the Diet.",
+          "On 8 June, Emperor Akihito formally appointed Kan as the 94th Prime Minister, and the 29th postwar prime minister."
+        ],
+        "confidence": "high",
+        "notes": "Prime Minister role is clearly a career position with active responsibilities."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Location information is missing, which is unexpected for a high-profile position like Prime Minister."
+          },
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "The event has two start dates (4 June and 8 June) but no end date, which may indicate incomplete temporal information."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

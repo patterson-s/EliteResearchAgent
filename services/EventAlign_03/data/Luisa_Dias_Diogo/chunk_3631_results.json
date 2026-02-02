@@ -1,0 +1,284 @@
+{
+  "status": "success",
+  "chunk_id": 3631,
+  "chunk_index": 1,
+  "source_url": "https://www.notablebiographies.com/news/Ca-Ge/Diogo-Luisa.html",
+  "title": "Luisa Diogo Biography - life, children, history, wife, school, mother, old, information, born, drugs, college",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "in 1986",
+          "type": "point",
+          "quotes": [
+            "becoming a department head in 1986"
+          ]
+        },
+        {
+          "text": "in 1989",
+          "type": "point",
+          "quotes": [
+            "in 1989 she was named national budget director"
+          ]
+        },
+        {
+          "text": "after the 1994 Mozambique elections",
+          "type": "point",
+          "quotes": [
+            "After the 1994 Mozambique elections, President Joaquim Chissano (1939–) invited Diogo to leave the World Bank and join the FREMILO government as deputy finance minister"
+          ]
+        },
+        {
+          "text": "By 1999",
+          "type": "point",
+          "quotes": [
+            "By 1999, the second five-year development plan had room to focus on economic reform"
+          ]
+        },
+        {
+          "text": "By the early 2000s",
+          "type": "point",
+          "quotes": [
+            "By the early 2000s financial aid accounted for nearly 60 percent of Mozambique's government revenues"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Finance Ministry",
+          "quotes": [
+            "When Diogo joined the Finance Ministry the country was in year five of its civil war"
+          ]
+        },
+        {
+          "name": "FREMILO party",
+          "quotes": [
+            "The FREMILO party was in power, having established a one-party, socialist government"
+          ]
+        },
+        {
+          "name": "RENAMO",
+          "quotes": [
+            "but it faced constant opposition from members of RENAMO"
+          ]
+        },
+        {
+          "name": "World Bank",
+          "quotes": [
+            "after she earned her master's degree she went to work for the World Bank, serving as program officer in Mozambique"
+          ]
+        },
+        {
+          "name": "International Monetary Fund",
+          "quotes": [
+            "Diogo was able to secure numerous grants from international finance institutions, including the World Bank and the International Monetary Fund"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "department head",
+          "quotes": [
+            "becoming a department head in 1986"
+          ]
+        },
+        {
+          "title": "national budget director",
+          "quotes": [
+            "in 1989 she was named national budget director"
+          ]
+        },
+        {
+          "title": "program officer",
+          "quotes": [
+            "serving as program officer in Mozambique"
+          ]
+        },
+        {
+          "title": "deputy finance minister",
+          "quotes": [
+            "join the FREMILO government as deputy finance minister"
+          ]
+        },
+        {
+          "title": "minister of finance",
+          "quotes": [
+            "That same year Diogo was promoted to minister of finance"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Mozambique",
+          "quotes": [
+            "When Diogo joined the Finance Ministry the country was in year five of its civil war",
+            "serving as program officer in Mozambique",
+            "the economist's entry into the upper level of the Mozambique federal government",
+            "cementing peace within Mozambique's borders",
+            "Mozambique's biggest problems",
+            "Mozambique's government revenues"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "becoming a department head in 1986"
+        ],
+        "confidence": "medium",
+        "notes": "No organization or location specified, but role and time are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "in 1989 she was named national budget director"
+        ],
+        "confidence": "medium",
+        "notes": "No organization or location specified, but role and time are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "serving as program officer in Mozambique",
+          "after she earned her master's degree she went to work for the World Bank"
+        ],
+        "confidence": "high",
+        "notes": "Time marker not explicitly linked, but role, organization, and location are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          1,
+          0
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "After the 1994 Mozambique elections, President Joaquim Chissano (1939–) invited Diogo to leave the World Bank and join the FREMILO government as deputy finance minister",
+          "When Diogo joined the Finance Ministry the country was in year five of its civil war"
+        ],
+        "confidence": "high",
+        "notes": "All entities are clearly linked through quotes."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "That same year Diogo was promoted to minister of finance",
+          "When Diogo joined the Finance Ministry the country was in year five of its civil war"
+        ],
+        "confidence": "medium",
+        "notes": "Time marker not explicitly linked, but role, organization, and location are clear. Assumed to follow deputy finance minister role."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location information, though role and time are clear."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location information, though role and time are clear."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "Time marker not explicitly linked, but role, organization, and location are clear."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "Time marker not explicitly linked, but role, organization, and location are clear. Assumed to follow deputy finance minister role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 1,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

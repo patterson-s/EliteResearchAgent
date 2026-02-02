@@ -1,0 +1,212 @@
+{
+  "status": "success",
+  "chunk_id": 192,
+  "chunk_index": 5,
+  "source_url": "https://www.gevans.org/",
+  "title": "Gareth Evans - Official Site",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2014",
+          "type": "point",
+          "quotes": [
+            "Inside the Hawke-Keating Government: A Cabinet Diary (Melbourne University Press, 2014) xvii + 414 pp"
+          ]
+        },
+        {
+          "text": "2015",
+          "type": "point",
+          "quotes": [
+            "Nuclear Weapons: The State of Play 2015 (with Ramesh Thakur and Tanya Ogilvie-White co-authors), Canberra, Centre for Nuclear Non-Proliferation and Disarmament, 2015, xxv + 304 pp"
+          ]
+        },
+        {
+          "text": "March and April 2015",
+          "type": "range",
+          "quotes": [
+            "the 2015 State of Play report - launched in Geneva, Vienna, Washington DC and other world capitals in March and April 2015 - is a comprehensive analysis of current issues in nuclear disarmament, non-proliferation, security and peaceful uses"
+          ]
+        },
+        {
+          "text": "16 November 2025",
+          "type": "point",
+          "quotes": [
+            "Site last updated 16 November 2025"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Melbourne University Press",
+          "quotes": [
+            "Inside the Hawke-Keating Government: A Cabinet Diary (Melbourne University Press, 2014) xvii + 414 pp"
+          ]
+        },
+        {
+          "name": "Centre for Nuclear Non-Proliferation and Disarmament",
+          "quotes": [
+            "Nuclear Weapons: The State of Play 2015 (with Ramesh Thakur and Tanya Ogilvie-White co-authors), Canberra, Centre for Nuclear Non-Proliferation and Disarmament, 2015, xxv + 304 pp"
+          ]
+        },
+        {
+          "name": "Evans-Kawaguchi International Commission on Nuclear Non-Proliferation and Disarmament",
+          "quotes": [
+            "the 2009 Eliminating Nuclear Threats report of the Evans-Kawaguchi International Commission on Nuclear Non-Proliferation and Disarmament"
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": [
+        {
+          "place": "Canberra",
+          "quotes": [
+            "Nuclear Weapons: The State of Play 2015 (with Ramesh Thakur and Tanya Ogilvie-White co-authors), Canberra, Centre for Nuclear Non-Proliferation and Disarmament, 2015, xxv + 304 pp"
+          ]
+        },
+        {
+          "place": "Geneva",
+          "quotes": [
+            "the 2015 State of Play report - launched in Geneva, Vienna, Washington DC and other world capitals in March and April 2015 - is a comprehensive analysis of current issues in nuclear disarmament, non-proliferation, security and peaceful uses"
+          ]
+        },
+        {
+          "place": "Vienna",
+          "quotes": [
+            "the 2015 State of Play report - launched in Geneva, Vienna, Washington DC and other world capitals in March and April 2015 - is a comprehensive analysis of current issues in nuclear disarmament, non-proliferation, security and peaceful uses"
+          ]
+        },
+        {
+          "place": "Washington DC",
+          "quotes": [
+            "the 2015 State of Play report - launched in Geneva, Vienna, Washington DC and other world capitals in March and April 2015 - is a comprehensive analysis of current issues in nuclear disarmament, non-proliferation, security and peaceful uses"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Inside the Hawke-Keating Government: A Cabinet Diary (Melbourne University Press, 2014) xvii + 414 pp"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit role mentioned, but publication with Melbourne University Press suggests an affiliation."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1,
+          2
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "supporting_quotes": [
+          "Nuclear Weapons: The State of Play 2015 (with Ramesh Thakur and Tanya Ogilvie-White co-authors), Canberra, Centre for Nuclear Non-Proliferation and Disarmament, 2015, xxv + 304 pp",
+          "the 2015 State of Play report - launched in Geneva, Vienna, Washington DC and other world capitals in March and April 2015 - is a comprehensive analysis of current issues in nuclear disarmament, non-proliferation, security and peaceful uses"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit role mentioned, but co-authorship and affiliation with the Centre for Nuclear Non-Proliferation and Disarmament suggest a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "the 2009 Eliminating Nuclear Threats report of the Evans-Kawaguchi International Commission on Nuclear Non-Proliferation and Disarmament"
+        ],
+        "confidence": "low",
+        "notes": "No time marker or explicit role mentioned, but affiliation with the commission suggests a career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. While affiliation with Melbourne University Press is suggested, no explicit role is mentioned."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classification as career_position is uncertain without clear role or responsibilities."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. Co-authorship and affiliation are mentioned, but no explicit role is provided."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classification as career_position is uncertain without clear role or responsibilities."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "error",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "high",
+            "description": "Missing time marker, making it impossible to determine when this event occurred."
+          },
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing role information and time marker, making the event incomplete."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classification as career_position is uncertain without clear role or responsibilities."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 1,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,314 @@
+{
+  "status": "success",
+  "chunk_id": 3697,
+  "chunk_index": 0,
+  "source_url": "https://en.wikipedia.org/wiki/Gordon_Brown",
+  "title": "Gordon Brown - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "from 2007 to 2010",
+          "type": "range",
+          "quotes": [
+            "Prime Minister of the United Kingdom from 2007 to 2010"
+          ]
+        },
+        {
+          "text": "27 June 2007 – 11 May 2010",
+          "type": "range",
+          "quotes": [
+            "In office\n27 June 2007 – 11 May 2010"
+          ]
+        },
+        {
+          "text": "20 September 2021",
+          "type": "point",
+          "quotes": [
+            "Assumed office\n20 September 2021"
+          ]
+        },
+        {
+          "text": "13 July 2012",
+          "type": "point",
+          "quotes": [
+            "Assumed office\n13 July 2012"
+          ]
+        },
+        {
+          "text": "24 June 2007 – 11 May 2010",
+          "type": "range",
+          "quotes": [
+            "In office\n24 June 2007 – 11 May 2010"
+          ]
+        },
+        {
+          "text": "2 May 1997 – 27 June 2007",
+          "type": "range",
+          "quotes": [
+            "In office\n2 May 1997 – 27 June 2007"
+          ]
+        },
+        {
+          "text": "1987–1989",
+          "type": "range",
+          "quotes": [
+            "Shadow Secretary of State\n1987–1989"
+          ]
+        },
+        {
+          "text": "1989–1992",
+          "type": "range",
+          "quotes": [
+            "Chief Secretary to the Treasury\n1989–1992"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "World Health Organization",
+          "quotes": [
+            "World Health Organization Ambassador for Global Health Financing"
+          ]
+        },
+        {
+          "name": "United Nations",
+          "quotes": [
+            "United Nations Special Envoy for Global Education"
+          ]
+        },
+        {
+          "name": "Labour Party",
+          "quotes": [
+            "Leader of the Labour Party"
+          ]
+        },
+        {
+          "name": "Treasury",
+          "quotes": [
+            "Chief Secretary to the Treasury"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Prime Minister of the United Kingdom",
+          "quotes": [
+            "Prime Minister of the United Kingdom from 2007 to 2010"
+          ]
+        },
+        {
+          "title": "World Health Organization Ambassador for Global Health Financing",
+          "quotes": [
+            "World Health Organization Ambassador for Global Health Financing"
+          ]
+        },
+        {
+          "title": "United Nations Special Envoy for Global Education",
+          "quotes": [
+            "United Nations Special Envoy for Global Education"
+          ]
+        },
+        {
+          "title": "Leader of the Labour Party",
+          "quotes": [
+            "Leader of the Labour Party"
+          ]
+        },
+        {
+          "title": "Chancellor of the Exchequer",
+          "quotes": [
+            "Chancellor of the Exchequer"
+          ]
+        },
+        {
+          "title": "Shadow Secretary of State",
+          "quotes": [
+            "Shadow Secretary of State"
+          ]
+        },
+        {
+          "title": "Chief Secretary to the Treasury",
+          "quotes": [
+            "Chief Secretary to the Treasury"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1,
+          5
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Prime Minister of the United Kingdom from 2007 to 2010",
+          "In office\n27 June 2007 – 11 May 2010",
+          "In office\n24 June 2007 – 11 May 2010"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time markers and role"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          6
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          5
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Shadow Secretary of State\n1987–1989"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time marker and role"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          7
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          6
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Chief Secretary to the Treasury\n1989–1992",
+          "Chief Secretary to the Treasury"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time marker, organization, and role"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Assumed office\n20 September 2021",
+          "World Health Organization Ambassador for Global Health Financing"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time marker, organization, and role"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Assumed office\n13 July 2012",
+          "United Nations Special Envoy for Global Education"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time marker, organization, and role"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Leader of the Labour Party"
+        ],
+        "confidence": "medium",
+        "notes": "No time marker available, but clear linkage between organization and role"
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "Multiple time markers provided (ids 0, 1, 5) with slight variations in start dates (2007 vs 24 June 2007 vs 27 June 2007). This could indicate potential inconsistency or need for consolidation."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location information for a high-profile position like Prime Minister."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 4,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 5,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the Leader of the Labour Party position, making it difficult to place this event in the timeline."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 6,
+      "valid": 4,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 6,
+      "awards": 0
+    }
+  }
+}

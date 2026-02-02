@@ -1,0 +1,137 @@
+{
+  "status": "success",
+  "chunk_id": 913,
+  "chunk_index": 56,
+  "source_url": "https://www.un.org/digital-emerging-technologies/sites/www.un.org.techenvoy/files/hlp_on_digital_cooperation-report_final.pdf",
+  "title": "hlp_on_digital_cooperation-report_final.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "United Nations",
+          "quotes": [
+            "a UN Tech Envoy could identify over-the-horizon concerns that need improved cooperation or governance;",
+            "coordinating the digital technology-related efforts of UN entities; improving communication and collaboration among technology experts within the UN; and advising the UN Secretary-General on new technology issues.",
+            "The High-Level Panel on Digital Cooperation convened by the UN Secretary-General will advance proposals to strengthen cooperation"
+          ]
+        },
+        {
+          "name": "High-Level Panel on Digital Cooperation",
+          "quotes": [
+            "The High-Level Panel on Digital Cooperation convened by the UN Secretary-General will advance proposals to strengthen cooperation"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "UN Tech Envoy",
+          "quotes": [
+            "if appointed, a UN Tech Envoy could identify over-the-horizon concerns that need improved cooperation or governance;",
+            "provide light-touch coordination of multi-stakeholder actors to address shared concerns; reinforce principles and norms developed in forums with relevant mandates; and work with UN member states, civil society and businesses to support compliance with agreed norms."
+          ]
+        },
+        {
+          "title": "UN Secretary-General",
+          "quotes": [
+            "advising the UN Secretary-General on new technology issues.",
+            "The High-Level Panel on Digital Cooperation convened by the UN Secretary-General will advance proposals to strengthen cooperation"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "if appointed, a UN Tech Envoy could identify over-the-horizon concerns that need improved cooperation or governance;",
+          "provide light-touch coordination of multi-stakeholder actors to address shared concerns; reinforce principles and norms developed in forums with relevant mandates; and work with UN member states, civil society and businesses to support compliance with agreed norms.",
+          "a UN Tech Envoy could identify over-the-horizon concerns that need improved cooperation or governance;",
+          "coordinating the digital technology-related efforts of UN entities; improving communication and collaboration among technology experts within the UN; and advising the UN Secretary-General on new technology issues."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time markers, but the role and organization are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The High-Level Panel on Digital Cooperation convened by the UN Secretary-General will advance proposals to strengthen cooperation",
+          "advising the UN Secretary-General on new technology issues.",
+          "The High-Level Panel on Digital Cooperation convened by the UN Secretary-General will advance proposals to strengthen cooperation"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time markers, but the role and organization are clearly linked."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the event, making temporal coherence verification impossible."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quotes mention potential responsibilities but do not explicitly confirm the appointment or tenure of the UN Tech Envoy role."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the event, making temporal coherence verification impossible."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The role 'UN Secretary-General' is typically a career position, but the quotes suggest advisory or convening activities rather than active leadership responsibilities."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quotes do not explicitly confirm the appointment or tenure of the role, only advisory activities."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,317 @@
+{
+  "status": "success",
+  "chunk_id": 989,
+  "chunk_index": 0,
+  "source_url": "https://people.equilar.com/bio/person/marina-kolesnik-donkey-republic/28183511",
+  "title": "Marina Kolesnik - Executive Bio, Work History, and Contacts - Equilar ExecAtlas",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2018-2020",
+          "type": "range",
+          "quotes": [
+            "During 2018-2020 she served on the UN High-Level Panel on Digital Cooperation."
+          ]
+        },
+        {
+          "text": "2015",
+          "type": "point",
+          "quotes": [
+            "In 2015, the World Economic Forum in Davos honored Marina as a Young Global Leader."
+          ]
+        },
+        {
+          "text": "02/01/2025",
+          "type": "point",
+          "quotes": [
+            "Equilar on 02/01/2025",
+            "Donkey Republic on 02/01/2025"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Donkey Republic",
+          "quotes": [
+            "Board Member at Donkey Republic",
+            "Donkey Republic on 02/01/2025"
+          ]
+        },
+        {
+          "name": "Equilar",
+          "quotes": [
+            "Equilar on 02/01/2025"
+          ]
+        },
+        {
+          "name": "UniVirtual.Academy (EcoSystemOne Group of companies)",
+          "quotes": [
+            "Co-Founder, COO at UniVirtual.Academy (EcoSystemOne Group of companies)"
+          ]
+        },
+        {
+          "name": "UN High-Level Panel on Digital Cooperation",
+          "quotes": [
+            "During 2018-2020 she served on the UN High-Level Panel on Digital Cooperation."
+          ]
+        },
+        {
+          "name": "World Economic Forum",
+          "quotes": [
+            "In 2015, the World Economic Forum in Davos honored Marina as a Young Global Leader."
+          ]
+        },
+        {
+          "name": "Harvard University - Harvard Business School",
+          "quotes": [
+            "M.B.A., Harvard University - Harvard Business School",
+            "Educational background: MBA from Harvard Business School"
+          ]
+        },
+        {
+          "name": "Product School Inc",
+          "quotes": [
+            "PgCert, Product School Inc"
+          ]
+        },
+        {
+          "name": "ITMO University",
+          "quotes": [
+            "Certification, ITMO University"
+          ]
+        },
+        {
+          "name": "McKinsey",
+          "quotes": [
+            "Marina has raised over US$30 million for her companies and prior to that was a consultant at McKinsey."
+          ]
+        },
+        {
+          "name": "Oktogo",
+          "quotes": [
+            "Marina is also a Co-Founder of Oktogo and Mail.ru."
+          ]
+        },
+        {
+          "name": "Mail.ru",
+          "quotes": [
+            "Marina is also a Co-Founder of Oktogo and Mail.ru."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Board Member",
+          "quotes": [
+            "Board Member at Donkey Republic",
+            "Board Member, Equilar on 02/01/2025"
+          ]
+        },
+        {
+          "title": "Co-Founder, COO",
+          "quotes": [
+            "Co-Founder, COO at UniVirtual.Academy (EcoSystemOne Group of companies)"
+          ]
+        },
+        {
+          "title": "consultant",
+          "quotes": [
+            "Marina has raised over US$30 million for her companies and prior to that was a consultant at McKinsey."
+          ]
+        },
+        {
+          "title": "Co-Founder",
+          "quotes": [
+            "Marina is also a Co-Founder of Oktogo and Mail.ru."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Davos",
+          "quotes": [
+            "In 2015, the World Economic Forum in Davos honored Marina as a Young Global Leader."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "During 2018-2020 she served on the UN High-Level Panel on Digital Cooperation."
+        ],
+        "confidence": "high",
+        "notes": "Role is implied by 'served on' but not explicitly listed in roles."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "In 2015, the World Economic Forum in Davos honored Marina as a Young Global Leader."
+        ],
+        "confidence": "high",
+        "notes": "Clear award indicator with 'honored as'."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Co-Founder, COO at UniVirtual.Academy (EcoSystemOne Group of companies)"
+        ],
+        "confidence": "high",
+        "notes": "No time marker but clear role and organization linkage."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Board Member at Donkey Republic",
+          "Board Member, Equilar on 02/01/2025",
+          "Donkey Republic on 02/01/2025",
+          "Equilar on 02/01/2025"
+        ],
+        "confidence": "medium",
+        "notes": "Same time marker for both organizations with Board Member role. Assuming simultaneous positions."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          8
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Marina has raised over US$30 million for her companies and prior to that was a consultant at McKinsey."
+        ],
+        "confidence": "high",
+        "notes": "No time marker but clear role and organization linkage."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          9,
+          10
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Marina is also a Co-Founder of Oktogo and Mail.ru."
+        ],
+        "confidence": "high",
+        "notes": "No time marker but clear role and organization linkage for both companies."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role and location information, though role is implied by 'served on'."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker information."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker information."
+          }
+        ]
+      },
+      {
+        "event_id": 5,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker information."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 6,
+      "valid": 2,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 1
+    }
+  }
+}

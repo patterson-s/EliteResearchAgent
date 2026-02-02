@@ -1,0 +1,277 @@
+{
+  "status": "success",
+  "chunk_id": 674,
+  "chunk_index": 0,
+  "source_url": "https://100.duke.edu/story/melinda-french-gates/",
+  "title": "Melinda French Gates - Duke Centennial",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1986",
+          "type": "point",
+          "quotes": [
+            "After earning a bachelor’s degree from Duke in computer science and economics in 1986"
+          ]
+        },
+        {
+          "text": "1987",
+          "type": "point",
+          "quotes": [
+            "and an MBA from Duke’s Fuqua School of Business in 1987"
+          ]
+        },
+        {
+          "text": "2000",
+          "type": "point",
+          "quotes": [
+            "In 2000, she co-founded the world’s second-largest charitable foundation, the Bill & Melinda Gates Foundation."
+          ]
+        },
+        {
+          "text": "2002",
+          "type": "point",
+          "quotes": [
+            "In 2002, the foundation gave Duke $30 million to support the construction of a new science building"
+          ]
+        },
+        {
+          "text": "since 1997",
+          "type": "open",
+          "quotes": [
+            "Since 1997, the foundation has awarded grants to support numerous other initiatives at Duke focused on global health, financial aid, civic engagement, and scholarship."
+          ]
+        },
+        {
+          "text": "2015",
+          "type": "point",
+          "quotes": [
+            "In 2015, French Gates founded Pivotal Ventures, an organization focused on accelerating social progress through high-impact investments, philanthropy, partnerships and advocacy."
+          ]
+        },
+        {
+          "text": "2019",
+          "type": "point",
+          "quotes": [
+            "In 2019, she outlined a visionary strategy to position more women in the United States to make decisions, control resources, and shape policies and perspectives."
+          ]
+        },
+        {
+          "text": "2019",
+          "type": "point",
+          "quotes": [
+            "That same year, through Pivotal Ventures, French Gates committed $1 billion over 10 years to expand women’s power and influence in the United States."
+          ]
+        },
+        {
+          "text": "May 2024",
+          "type": "point",
+          "quotes": [
+            "In May 2024, she announced her departure from the foundation and the beginning of a new chapter in her philanthropy."
+          ]
+        },
+        {
+          "text": "through 2026",
+          "type": "open",
+          "quotes": [
+            "As a first step, she announced $1 billion in new spending through 2026 to advance women’s power around the world."
+          ]
+        },
+        {
+          "text": "from 1996 to 2004",
+          "type": "range",
+          "quotes": [
+            "French Gates served as a Duke University trustee from 1996 to 2004."
+          ]
+        },
+        {
+          "text": "2013",
+          "type": "point",
+          "quotes": [
+            "In 2013, she delivered Duke’s commencement address, telling students that ‘humanity in the abstract will never inspire you in the same way as [the] human beings you meet."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Duke University",
+          "quotes": [
+            "Duke alumna Melinda French Gates is consistently listed among Forbes Magazine’s 100 most powerful women."
+          ]
+        },
+        {
+          "name": "Microsoft",
+          "quotes": [
+            "After earning a bachelor’s degree from Duke in computer science and economics in 1986 and an MBA from Duke’s Fuqua School of Business in 1987, Melinda joined Microsoft as a marketing manager"
+          ]
+        },
+        {
+          "name": "Bill & Melinda Gates Foundation",
+          "quotes": [
+            "In 2000, she co-founded the world’s second-largest charitable foundation, the Bill & Melinda Gates Foundation."
+          ]
+        },
+        {
+          "name": "Pivotal Ventures",
+          "quotes": [
+            "In 2015, French Gates founded Pivotal Ventures, an organization focused on accelerating social progress through high-impact investments, philanthropy, partnerships and advocacy."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "marketing manager",
+          "quotes": [
+            "Melinda joined Microsoft as a marketing manager and eventually became a general manager, leading the development of many of the company’s multimedia products including Microsoft Word and Expedia."
+          ]
+        },
+        {
+          "title": "general manager",
+          "quotes": [
+            "Melinda joined Microsoft as a marketing manager and eventually became a general manager, leading the development of many of the company’s multimedia products including Microsoft Word and Expedia."
+          ]
+        },
+        {
+          "title": "Duke University trustee",
+          "quotes": [
+            "French Gates served as a Duke University trustee from 1996 to 2004."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Duke",
+          "quotes": [
+            "After earning a bachelor’s degree from Duke in computer science and economics in 1986"
+          ]
+        },
+        {
+          "place": "United States",
+          "quotes": [
+            "In 2019, she outlined a visionary strategy to position more women in the United States to make decisions, control resources, and shape policies and perspectives."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "After earning a bachelor’s degree from Duke in computer science and economics in 1986 and an MBA from Duke’s Fuqua School of Business in 1987, Melinda joined Microsoft as a marketing manager and eventually became a general manager, leading the development of many of the company’s multimedia products including Microsoft Word and Expedia."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time markers, organization, and roles."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          11
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "French Gates served as a Duke University trustee from 1996 to 2004."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time marker, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2000, she co-founded the world’s second-largest charitable foundation, the Bill & Melinda Gates Foundation."
+        ],
+        "confidence": "high",
+        "notes": "Co-founding an organization is a significant career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2015, French Gates founded Pivotal Ventures, an organization focused on accelerating social progress through high-impact investments, philanthropy, partnerships and advocacy."
+        ],
+        "confidence": "high",
+        "notes": "Founding an organization is a significant career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing role information for co-founding the Bill & Melinda Gates Foundation."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing role information for founding Pivotal Ventures."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 2,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

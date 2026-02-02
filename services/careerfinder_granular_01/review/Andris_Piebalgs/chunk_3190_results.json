@@ -1,0 +1,219 @@
+{
+  "status": "success",
+  "chunk_id": 3190,
+  "chunk_index": 0,
+  "source_url": "https://fsr.eui.eu/people/andris-piebalgs/",
+  "title": "Piebalgs - Florence School of Regulation",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "European University Institute",
+          "quotes": [
+            "Andris Piebalgs is a Professor at the European University Institute and serves as the Chairman of the Implementation Committee of the International Methane Emissions Observatory."
+          ]
+        },
+        {
+          "name": "International Methane Emissions Observatory",
+          "quotes": [
+            "Andris Piebalgs is a Professor at the European University Institute and serves as the Chairman of the Implementation Committee of the International Methane Emissions Observatory."
+          ]
+        },
+        {
+          "name": "European Union",
+          "quotes": [
+            "With a distinguished career in public service, Piebalgs previously held key roles as the European Union Commissioner for Energy and later as the Commissioner for Development."
+          ]
+        },
+        {
+          "name": "United Nations Environment Programme (UNEP)",
+          "quotes": [
+            "Today Tuesday, May 4, Andris Piebalgs, FSR part-time Professor, will address the G20 representatives at United Nations Environment Programme (UNEP)…"
+          ]
+        },
+        {
+          "name": "Florence School of Regulation",
+          "quotes": [
+            "Piebalgs - Florence School of Regulation"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Professor",
+          "quotes": [
+            "Andris Piebalgs is a Professor at the European University Institute and serves as the Chairman of the Implementation Committee of the International Methane Emissions Observatory."
+          ]
+        },
+        {
+          "title": "Chairman of the Implementation Committee",
+          "quotes": [
+            "Andris Piebalgs is a Professor at the European University Institute and serves as the Chairman of the Implementation Committee of the International Methane Emissions Observatory."
+          ]
+        },
+        {
+          "title": "European Union Commissioner for Energy",
+          "quotes": [
+            "With a distinguished career in public service, Piebalgs previously held key roles as the European Union Commissioner for Energy and later as the Commissioner for Development."
+          ]
+        },
+        {
+          "title": "Commissioner for Development",
+          "quotes": [
+            "With a distinguished career in public service, Piebalgs previously held key roles as the European Union Commissioner for Energy and later as the Commissioner for Development."
+          ]
+        },
+        {
+          "title": "Latvia’s Ambassador to the EU",
+          "quotes": [
+            "Before his work with the European Union, Piebalgs was a prominent Latvian politician and diplomat. As Latvia’s Ambassador to the EU, he played a pivotal role in facilitating Latvia’s accession to the European Union."
+          ]
+        },
+        {
+          "title": "Part-time Professor",
+          "quotes": [
+            "Today Tuesday, May 4, Andris Piebalgs, FSR part-time Professor, will address the G20 representatives at United Nations Environment Programme (UNEP)…"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Latvia",
+          "quotes": [
+            "Before his work with the European Union, Piebalgs was a prominent Latvian politician and diplomat. As Latvia’s Ambassador to the EU, he played a pivotal role in facilitating Latvia’s accession to the European Union."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Andris Piebalgs is a Professor at the European University Institute and serves as the Chairman of the Implementation Committee of the International Methane Emissions Observatory."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between Professor role at European University Institute and Chairman role at International Methane Emissions Observatory."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          2,
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "With a distinguished career in public service, Piebalgs previously held key roles as the European Union Commissioner for Energy and later as the Commissioner for Development."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between European Union Commissioner roles for Energy and Development."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Before his work with the European Union, Piebalgs was a prominent Latvian politician and diplomat. As Latvia’s Ambassador to the EU, he played a pivotal role in facilitating Latvia’s accession to the European Union."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between Latvia’s Ambassador to the EU role and Latvia as the location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          5
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Today Tuesday, May 4, Andris Piebalgs, FSR part-time Professor, will address the G20 representatives at United Nations Environment Programme (UNEP)…"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between Part-time Professor role at Florence School of Regulation."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing organization and time markers for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers for the career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 0,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

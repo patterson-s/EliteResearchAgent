@@ -1,0 +1,96 @@
+{
+  "status": "success",
+  "chunk_id": 2776,
+  "chunk_index": 3,
+  "source_url": "https://theelders.org/profile/ellen-johnson-sirleaf",
+  "title": "Ellen Johnson Sirleaf",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "Since the outbreak of COVID-19",
+          "type": "open",
+          "quotes": [
+            "Since the outbreak of COVID-19, Ellen Johnson Sirleaf has taken up the position as Co-chair of the Independent Panel for Pandemic Preparedness and Response (IPPR)"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Independent Panel for Pandemic Preparedness and Response (IPPR)",
+          "quotes": [
+            "Ellen Johnson Sirleaf has taken up the position as Co-chair of the Independent Panel for Pandemic Preparedness and Response (IPPR), an independent body tasked with providing an evidence-based path for the future to ensure that countries and institutions can effectively address health threats"
+          ]
+        },
+        {
+          "name": "The Elders",
+          "quotes": [
+            "Keep up to date with The Elders’ COVID-19 digest: Sign up to receive regular updates about The Elders’ activities during the COVID-19 pandemic"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Co-chair of the Independent Panel for Pandemic Preparedness and Response (IPPR)",
+          "quotes": [
+            "Ellen Johnson Sirleaf has taken up the position as Co-chair of the Independent Panel for Pandemic Preparedness and Response (IPPR)"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Since the outbreak of COVID-19, Ellen Johnson Sirleaf has taken up the position as Co-chair of the Independent Panel for Pandemic Preparedness and Response (IPPR)",
+          "Ellen Johnson Sirleaf has taken up the position as Co-chair of the Independent Panel for Pandemic Preparedness and Response (IPPR), an independent body tasked with providing an evidence-based path for the future to ensure that countries and institutions can effectively address health threats"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time marker, organization, and role in the provided quotes."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information, though it may not be critical for this event."
+          },
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "Time marker is open-ended ('Since the outbreak of COVID-19'), which may lack specificity for precise dating."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

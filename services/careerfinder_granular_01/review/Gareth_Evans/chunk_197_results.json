@@ -1,0 +1,273 @@
+{
+  "status": "success",
+  "chunk_id": 197,
+  "chunk_index": 3,
+  "source_url": "https://en.wikipedia.org/wiki/Gareth_Evans_(filmmaker)",
+  "title": "Gareth Evans (filmmaker) - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "29 November 2011",
+          "type": "point",
+          "quotes": [
+            "Deadline Hollywood. 29 November 2011."
+          ]
+        },
+        {
+          "text": "2009",
+          "type": "point",
+          "quotes": [
+            "Merantau (2009)"
+          ]
+        },
+        {
+          "text": "2011",
+          "type": "point",
+          "quotes": [
+            "The Raid (2011)"
+          ]
+        },
+        {
+          "text": "2013",
+          "type": "point",
+          "quotes": [
+            "V/H/S/2 ('Safe Haven' segment; 2013)"
+          ]
+        },
+        {
+          "text": "2014",
+          "type": "point",
+          "quotes": [
+            "The Raid 2: Berandal (2014)"
+          ]
+        },
+        {
+          "text": "2018",
+          "type": "point",
+          "quotes": [
+            "Apostle (2018)"
+          ]
+        },
+        {
+          "text": "2025",
+          "type": "point",
+          "quotes": [
+            "Havoc (2025)"
+          ]
+        },
+        {
+          "text": "TBA",
+          "type": "open",
+          "quotes": [
+            "A Colt Is My Passport (TBA)"
+          ]
+        },
+        {
+          "text": "June 2024",
+          "type": "point",
+          "quotes": [
+            "Use dmy dates from June 2024"
+          ]
+        },
+        {
+          "text": "June 2024",
+          "type": "point",
+          "quotes": [
+            "Use British English from June 2024"
+          ]
+        },
+        {
+          "text": "June 2020",
+          "type": "point",
+          "quotes": [
+            "Articles with unsourced statements from June 2020"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "University of Glamorgan",
+          "quotes": [
+            "Alumni of the University of Glamorgan"
+          ]
+        },
+        {
+          "name": "IMDb",
+          "quotes": [
+            "Gareth Evans at IMDb"
+          ]
+        },
+        {
+          "name": "Instagram",
+          "quotes": [
+            "Gareth Evans on Instagram"
+          ]
+        },
+        {
+          "name": "Wikimedia Commons",
+          "quotes": [
+            "Wikimedia Commons has media related to Gareth Evans."
+          ]
+        },
+        {
+          "name": "ISNI",
+          "quotes": [
+            "International ISNI"
+          ]
+        },
+        {
+          "name": "VIAF",
+          "quotes": [
+            "International VIAF"
+          ]
+        },
+        {
+          "name": "GND",
+          "quotes": [
+            "International GND"
+          ]
+        },
+        {
+          "name": "WorldCat",
+          "quotes": [
+            "International WorldCat"
+          ]
+        },
+        {
+          "name": "BnF data",
+          "quotes": [
+            "France BnF data"
+          ]
+        },
+        {
+          "name": "IdRef",
+          "quotes": [
+            "Other IdRef"
+          ]
+        },
+        {
+          "name": "Yale LUX",
+          "quotes": [
+            "Other Yale LUX"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "filmmaker",
+          "quotes": [
+            "Gareth Evans (filmmaker)"
+          ]
+        },
+        {
+          "title": "film directors",
+          "quotes": [
+            "Welsh film directors"
+          ]
+        },
+        {
+          "title": "film editors",
+          "quotes": [
+            "Welsh film editors"
+          ]
+        },
+        {
+          "title": "screenwriters",
+          "quotes": [
+            "21st-century Welsh screenwriters"
+          ]
+        },
+        {
+          "title": "Action film directors",
+          "quotes": [
+            "Action film directors"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Hirwaun",
+          "quotes": [
+            "People from Hirwaun"
+          ]
+        },
+        {
+          "place": "Indonesia",
+          "quotes": [
+            "British emigrants to Indonesia"
+          ]
+        },
+        {
+          "place": "Indonesia",
+          "quotes": [
+            "Welsh emigrants to Indonesia"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "location_ids": [
+          0,
+          1,
+          2
+        ],
+        "supporting_quotes": [
+          "Gareth Evans (filmmaker)",
+          "Welsh film directors",
+          "Welsh film editors",
+          "21st-century Welsh screenwriters",
+          "Action film directors",
+          "People from Hirwaun",
+          "British emigrants to Indonesia",
+          "Welsh emigrants to Indonesia"
+        ],
+        "confidence": "high",
+        "notes": "All roles and locations are directly associated with Gareth Evans through shared context, but no specific time markers or organizations are linked. The event is classified as a career position due to the active roles mentioned."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers and organizations, making it difficult to contextualize the event temporally and institutionally."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quotes provide descriptive context but do not explicitly mention specific career positions or responsibilities."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

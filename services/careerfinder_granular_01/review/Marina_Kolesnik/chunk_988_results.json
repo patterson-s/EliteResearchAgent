@@ -1,0 +1,158 @@
+{
+  "status": "success",
+  "chunk_id": 988,
+  "chunk_index": 2,
+  "source_url": "https://www.marketscreener.com/insider/MARINA-KOLESNIK-A0TSRH/",
+  "title": "Marina Kolesnik: Positions, Relations and Network - MarketScreener",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "founded in 2018",
+          "type": "point",
+          "quotes": [
+            "founded in 2018. The CEOs are Erdem Ovacik, Christian Dufft."
+          ]
+        },
+        {
+          "text": "founded on October 16, 2001",
+          "type": "point",
+          "quotes": [
+            "The company was founded on October 16, 2001 and is headquartered in Moscow, Russia."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "DonkeyRepublic",
+          "quotes": [
+            "Customers can rent a bike near them in more than 71 cities around the world and unlock it with the Danish company's app.",
+            "Stay up to date with the latest DonkeyRepublic news from new cities, financial reports and more, right here in one convenient place."
+          ]
+        },
+        {
+          "name": "Univirtual Academy LLC",
+          "quotes": [
+            "Univirtual Academy LLC"
+          ]
+        },
+        {
+          "name": "Mail.ru LLC",
+          "quotes": [
+            "Mail.ru LLC",
+            "Mail.ru LLC",
+            "Mail.ru operates an online portal providing free email services."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "CEOs",
+          "quotes": [
+            "The CEOs are Erdem Ovacik, Christian Dufft."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Moscow, Russia",
+          "quotes": [
+            "The company was founded on October 16, 2001 and is headquartered in Moscow, Russia."
+          ]
+        },
+        {
+          "place": "Denmark",
+          "quotes": [
+            "Customers can rent a bike near them in more than 71 cities around the world and unlock it with the Danish company's app."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "founded in 2018. The CEOs are Erdem Ovacik, Christian Dufft.",
+          "Customers can rent a bike near them in more than 71 cities around the world and unlock it with the Danish company's app."
+        ],
+        "confidence": "high",
+        "notes": "CEOs are directly linked to DonkeyRepublic through the founding quote and the Danish company reference."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "The company was founded on October 16, 2001 and is headquartered in Moscow, Russia.",
+          "Mail.ru LLC",
+          "Mail.ru operates an online portal providing free email services."
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but the event is linked to the founding of Mail.ru LLC in Moscow, Russia."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing specific role information despite being classified as a career_position. Only 'CEOs' is mentioned in the quotes, but not directly linked to this event."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "error",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing role information entirely, making it unclear what career position is being described."
+          },
+          {
+            "type": "classification",
+            "severity": "medium",
+            "description": "Classified as career_position but lacks active role or responsibilities, potentially misclassified."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 1,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

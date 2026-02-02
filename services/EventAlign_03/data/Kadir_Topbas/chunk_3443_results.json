@@ -1,0 +1,260 @@
+{
+  "status": "success",
+  "chunk_id": 3443,
+  "chunk_index": 0,
+  "source_url": "https://www.dailysabah.com/turkey/istanbul/former-mayor-of-istanbul-kadir-topbas-dies-of-covid-19-aged-76",
+  "title": "Former Mayor of Istanbul Kadir Topbaş dies of COVID-19 aged 76 | Daily Sabah",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "Feb 13, 2021",
+          "type": "point",
+          "quotes": [
+            "Feb 13, 2021 - 4:14 pm GMT+3",
+            "Feb 13, 2021 4:14 pm"
+          ]
+        },
+        {
+          "text": "Sept. 30, 2017",
+          "type": "point",
+          "quotes": [
+            "on Sept. 30, 2017"
+          ]
+        },
+        {
+          "text": "since November",
+          "type": "open",
+          "quotes": [
+            "since November"
+          ]
+        },
+        {
+          "text": "Nov. 16. 2020",
+          "type": "point",
+          "quotes": [
+            "Nov. 16. 2020"
+          ]
+        },
+        {
+          "text": "from 2004 to 2017",
+          "type": "range",
+          "quotes": [
+            "served as mayor from 2004 to 2017"
+          ]
+        },
+        {
+          "text": "1999",
+          "type": "point",
+          "quotes": [
+            "became mayor of Istanbul's Beyoğlu district in 1999"
+          ]
+        },
+        {
+          "text": "2004",
+          "type": "point",
+          "quotes": [
+            "After the 2004 local elections, he assumed office as the mayor of Istanbul",
+            "In 2004, he became the head of Istanbul-based United Cities"
+          ]
+        },
+        {
+          "text": "2009 and 2013",
+          "type": "range",
+          "quotes": [
+            "reelected twice for the post in 2009 and 2013"
+          ]
+        },
+        {
+          "text": "Feb. 9, 2017",
+          "type": "point",
+          "quotes": [
+            "file photo dated Feb. 9, 2017"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Istanbul Metropolitan Municipality (IBB)",
+          "quotes": [
+            "Istanbul Metropolitan Municipality (IBB) headquarters",
+            "funeral ceremony for the late mayor will be held Sunday at the Istanbul Metropolitan Municipality (IBB) headquarters"
+          ]
+        },
+        {
+          "name": "Justice and Development Party (AK Party)",
+          "quotes": [
+            "as a candidate of the ruling Justice and Development Party (AK Party)"
+          ]
+        },
+        {
+          "name": "United Cities",
+          "quotes": [
+            "head of Istanbul-based United Cities"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Mayor of Istanbul",
+          "quotes": [
+            "Former Mayor of Istanbul",
+            "assumed the role for 13 years",
+            "served as mayor from 2004 to 2017",
+            "became mayor of Istanbul's Beyoğlu district in 1999",
+            "assumed office as the mayor of Istanbul"
+          ]
+        },
+        {
+          "title": "mayor of Istanbul's Beyoğlu district",
+          "quotes": [
+            "became mayor of Istanbul's Beyoğlu district in 1999"
+          ]
+        },
+        {
+          "title": "head of Istanbul-based United Cities",
+          "quotes": [
+            "In 2004, he became the head of Istanbul-based United Cities"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Istanbul",
+          "quotes": [
+            "Former Mayor of Istanbul",
+            "in hospital in Istanbul",
+            "funeral ceremony for the late mayor will be held Sunday at the Istanbul Metropolitan Municipality (IBB) headquarters in Istanbul's Fatih district",
+            "became mayor of Istanbul's Beyoğlu district in 1999",
+            "assumed office as the mayor of Istanbul",
+            "head of Istanbul-based United Cities"
+          ]
+        },
+        {
+          "place": "Beyoğlu district",
+          "quotes": [
+            "became mayor of Istanbul's Beyoğlu district in 1999"
+          ]
+        },
+        {
+          "place": "Fatih district",
+          "quotes": [
+            "Istanbul's Fatih district"
+          ]
+        },
+        {
+          "place": "Black Sea region",
+          "quotes": [
+            "Black Sea region trip"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          1,
+          0
+        ],
+        "supporting_quotes": [
+          "became mayor of Istanbul's Beyoğlu district in 1999"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4,
+          6,
+          7
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "served as mayor from 2004 to 2017",
+          "After the 2004 local elections, he assumed office as the mayor of Istanbul",
+          "reelected twice for the post in 2009 and 2013",
+          "Former Mayor of Istanbul",
+          "assumed the role for 13 years",
+          "assumed office as the mayor of Istanbul"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          6
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "In 2004, he became the head of Istanbul-based United Cities",
+          "head of Istanbul-based United Cities"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, role, and location."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 2,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

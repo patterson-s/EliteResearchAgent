@@ -1,0 +1,182 @@
+{
+  "status": "success",
+  "chunk_id": 599,
+  "chunk_index": 2,
+  "source_url": "https://thechanzo.com/2024/09/02/dr-salim-ahmed-salim-archive-a-digital-memoir-about-africa/",
+  "title": "Dr Salim Ahmed Salim Archive: A Digital Memoir About Africa - The Chanzo",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In 1970",
+          "type": "point",
+          "quotes": [
+            "In 1970, at the age of 27, Dr Salim, with his youthful look and swag, presented his credentials to UN Secretary-General U Thant as the new Permanent Representative of Tanzania."
+          ]
+        },
+        {
+          "text": "in 1972",
+          "type": "point",
+          "quotes": [
+            "Dr Salim was elected chairman of the special committee on decolonisation in 1972;"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "UN",
+          "quotes": [
+            "presented his credentials to UN Secretary-General U Thant as the new Permanent Representative of Tanzania.",
+            "New Notes Reveal France’s Role in Preventing Salim’s Bid At the UN"
+          ]
+        },
+        {
+          "name": "Tanzania",
+          "quotes": [
+            "presented his credentials to UN Secretary-General U Thant as the new Permanent Representative of Tanzania.",
+            "Mwalimu Nyerere, in his humorous self, teased that he found it amusing when, in Europe, he’d be asked about the status of different African countries, and yet he is only president of Tanzania."
+          ]
+        },
+        {
+          "name": "special committee on decolonisation",
+          "quotes": [
+            "Dr Salim was elected chairman of the special committee on decolonisation in 1972;"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Permanent Representative of Tanzania",
+          "quotes": [
+            "presented his credentials to UN Secretary-General U Thant as the new Permanent Representative of Tanzania."
+          ]
+        },
+        {
+          "title": "Permanent Representative of Africa",
+          "quotes": [
+            "Dr Salim, by de facto, had to act as the Permanent Representative of Africa."
+          ]
+        },
+        {
+          "title": "Tanzanian Ambassador",
+          "quotes": [
+            "due to his multiple roles as a de jure Tanzanian Ambassador and de facto African Diplomat,"
+          ]
+        },
+        {
+          "title": "African Diplomat",
+          "quotes": [
+            "due to his multiple roles as a de jure Tanzanian Ambassador and de facto African Diplomat,"
+          ]
+        },
+        {
+          "title": "chairman of the special committee on decolonisation",
+          "quotes": [
+            "Dr Salim was elected chairman of the special committee on decolonisation in 1972;"
+          ]
+        },
+        {
+          "title": "president of Tanzania",
+          "quotes": [
+            "Mwalimu Nyerere, in his humorous self, teased that he found it amusing when, in Europe, he’d be asked about the status of different African countries, and yet he is only president of Tanzania."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Africa",
+          "quotes": [
+            "Salim represented Tanzania and fought and promoted the ongoing liberation struggles across Africa and even internationally.",
+            "Mwalimu Nyerere, in his humorous self, teased that he found it amusing when, in Europe, he’d be asked about the status of different African countries, and yet he is only president of Tanzania.",
+            "one definitely needs to have a detailed analysis of the archive and Dr. Salim’s life within the context of the African continent.",
+            "Salim and his African heritage",
+            "where else was decolonisation predominant, if not in Africa and also in"
+          ]
+        },
+        {
+          "place": "Europe",
+          "quotes": [
+            "Mwalimu Nyerere, in his humorous self, teased that he found it amusing when, in Europe, he’d be asked about the status of different African countries, and yet he is only president of Tanzania."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 1970, at the age of 27, Dr Salim, with his youthful look and swag, presented his credentials to UN Secretary-General U Thant as the new Permanent Representative of Tanzania."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organizations, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Dr Salim was elected chairman of the special committee on decolonisation in 1972;"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information, which could be inferred from context but is not explicitly provided."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information, which could be inferred from context but is not explicitly provided."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

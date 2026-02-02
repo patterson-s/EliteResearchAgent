@@ -1,0 +1,204 @@
+{
+  "status": "success",
+  "chunk_id": 7,
+  "chunk_index": 6,
+  "source_url": "https://en.wikipedia.org/wiki/Anand_Panyarachun",
+  "title": "Anand Panyarachun - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "24 May 1992",
+          "type": "point",
+          "quotes": [
+            "Suchinda resigned on 24 May 1992, following an intervention by the king that ended the violent military crackdown on massive popular protests against his government."
+          ]
+        },
+        {
+          "text": "10 June 1992",
+          "type": "point",
+          "quotes": [
+            "The House Speaker instead announced that no decision would be made until the constitutional amendments were passed on 10 June 1992, adding that the next prime minister would be a civilian."
+          ]
+        },
+        {
+          "text": "10 June 1992",
+          "type": "point",
+          "quotes": [
+            "On 10 June 1992, Arthit surprised the country by recommending Anand's name instead of Somboon's to the king."
+          ]
+        },
+        {
+          "text": "29 June",
+          "type": "point",
+          "quotes": [
+            "The Internal Peacekeeping Law, which allowed for the use of military force against demonstrators, was abolished on 29 June,"
+          ]
+        },
+        {
+          "text": "1 August",
+          "type": "point",
+          "quotes": [
+            "and on 1 August, he removed Air Chief Marshal Kaset, General Issarapong, and General Chainarong, the First Regional Army Commander, from their posts."
+          ]
+        },
+        {
+          "text": "later in 1992",
+          "type": "point",
+          "quotes": [
+            "Anand was succeeded by democratically elected Chuan Leekpai later in 1992."
+          ]
+        },
+        {
+          "text": "after the general elections of 1992",
+          "type": "point",
+          "quotes": [
+            "Anand rejoined the Saha-Union Group as chairman after the general elections of 1992."
+          ]
+        },
+        {
+          "text": "in 2002",
+          "type": "point",
+          "quotes": [
+            "He resigned from Saha-Union Group in 2002."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "parliament",
+          "quotes": [
+            "Anand was succeeded by General Suchinda, who was appointed by parliament after general elections."
+          ]
+        },
+        {
+          "name": "Chart Thai Party",
+          "quotes": [
+            "leader of the Chart Thai Party, for the premiership."
+          ]
+        },
+        {
+          "name": "Saha-Union Group",
+          "quotes": [
+            "Anand rejoined the Saha-Union Group as chairman after the general elections of 1992."
+          ]
+        },
+        {
+          "name": "Independent Power Producer",
+          "quotes": [
+            "His government had awarded Saha-Union a major Independent Power Producer concession."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "General",
+          "quotes": [
+            "Anand was succeeded by General Suchinda, who was appointed by parliament after general elections."
+          ]
+        },
+        {
+          "title": "Air Chief Marshal",
+          "quotes": [
+            "nominated Air Chief Marshal Somboon Rahong, leader of the Chart Thai Party, for the premiership."
+          ]
+        },
+        {
+          "title": "House Speaker",
+          "quotes": [
+            "At the time it looked as if House Speaker Arthit Urairat was set to submit Somboon's name to the king."
+          ]
+        },
+        {
+          "title": "privy councillor",
+          "quotes": [
+            "Arthit however held back the nomination of Somboon following a meeting with privy councillor Prem,"
+          ]
+        },
+        {
+          "title": "prime minister",
+          "quotes": [
+            "Four days later Anand announced the formation of his cabinet, which included twenty respected technocrats who had held ministerial portfolios during his previous tenure as prime minister."
+          ]
+        },
+        {
+          "title": "First Regional Army Commander",
+          "quotes": [
+            "General Chainarong, the First Regional Army Commander, from their posts."
+          ]
+        },
+        {
+          "title": "chairman",
+          "quotes": [
+            "Anand rejoined the Saha-Union Group as chairman after the general elections of 1992."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          6
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          6
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Anand rejoined the Saha-Union Group as chairman after the general elections of 1992."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          7
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          6
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He resigned from Saha-Union Group in 2002."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 2,
+      "warnings": 0,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

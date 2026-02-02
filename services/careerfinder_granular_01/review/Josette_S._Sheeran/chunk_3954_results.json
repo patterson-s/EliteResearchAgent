@@ -1,0 +1,207 @@
+{
+  "status": "success",
+  "chunk_id": 3954,
+  "chunk_index": 1,
+  "source_url": "https://press.un.org/en/2006/sga1025.doc.htm",
+  "title": "JOSETTE SHEERAN OF UNITED STATES APPOINTED TO HEAD WORLD FOOD PROGRAMME | Meetings Coverage and Press Releases",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "for more than a decade",
+          "type": "open",
+          "quotes": [
+            "She has been a member of the Council on Foreign Relations for more than a decade and has served on its Washington advisory board."
+          ]
+        },
+        {
+          "text": "4-6 November 2025",
+          "type": "range",
+          "quotes": [
+            "Second World Summit for Social Development 2025, 4-6 November 2025, Doha, Qatar"
+          ]
+        },
+        {
+          "text": "22-30 Sep. 2025",
+          "type": "range",
+          "quotes": [
+            "High-Level Meetings of the Eightieth General Assembly, New York, 22-30 Sep. 2025"
+          ]
+        },
+        {
+          "text": "5-8 Aug. 2025",
+          "type": "range",
+          "quotes": [
+            "Third UN Conference on Landlocked Developing Countries, Awaza, Turkmenistan, 5-8 Aug. 2025"
+          ]
+        },
+        {
+          "text": "30 June-3 July 2025",
+          "type": "range",
+          "quotes": [
+            "Fourth International Conference on Financing for Development, Sevilla, 30 June-3 July 2025"
+          ]
+        },
+        {
+          "text": "10 Sep. - 24 Dec. 2024",
+          "type": "range",
+          "quotes": [
+            "Highlights of General Assembly 79th Session, New York, 10 Sep. - 24 Dec. 2024"
+          ]
+        },
+        {
+          "text": "25 November 2025",
+          "type": "point",
+          "quotes": [
+            "Daily Noon Briefing, 25 November 2025"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Council on Foreign Relations",
+          "quotes": [
+            "She has been a member of the Council on Foreign Relations for more than a decade and has served on its Washington advisory board."
+          ]
+        },
+        {
+          "name": "National Order of Women Legislators",
+          "quotes": [
+            "She has received numerous awards, including the Press Award for Journalistic Achievement by the National Order of Women Legislators"
+          ]
+        },
+        {
+          "name": "UNHQ",
+          "quotes": [
+            "In progress at UNHQ"
+          ]
+        },
+        {
+          "name": "Office for the Coordination of Humanitarian Affairs",
+          "quotes": [
+            "In Ukraine, the Office for the Coordination of Humanitarian Affairs reports that large-scale attacks continued in Kyiv and across multiple regions"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "member of the Council on Foreign Relations",
+          "quotes": [
+            "She has been a member of the Council on Foreign Relations for more than a decade and has served on its Washington advisory board."
+          ]
+        },
+        {
+          "title": "served on its Washington advisory board",
+          "quotes": [
+            "She has been a member of the Council on Foreign Relations for more than a decade and has served on its Washington advisory board."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Washington",
+          "quotes": [
+            "She has been a member of the Council on Foreign Relations for more than a decade and has served on its Washington advisory board."
+          ]
+        },
+        {
+          "place": "Doha, Qatar",
+          "quotes": [
+            "Second World Summit for Social Development 2025, 4-6 November 2025, Doha, Qatar"
+          ]
+        },
+        {
+          "place": "New York",
+          "quotes": [
+            "High-Level Meetings of the Eightieth General Assembly, New York, 22-30 Sep. 2025"
+          ]
+        },
+        {
+          "place": "Awaza, Turkmenistan",
+          "quotes": [
+            "Third UN Conference on Landlocked Developing Countries, Awaza, Turkmenistan, 5-8 Aug. 2025"
+          ]
+        },
+        {
+          "place": "Sevilla",
+          "quotes": [
+            "Fourth International Conference on Financing for Development, Sevilla, 30 June-3 July 2025"
+          ]
+        },
+        {
+          "place": "New York",
+          "quotes": [
+            "Highlights of General Assembly 79th Session, New York, 10 Sep. - 24 Dec. 2024"
+          ]
+        },
+        {
+          "place": "Kyiv",
+          "quotes": [
+            "In Ukraine, the Office for the Coordination of Humanitarian Affairs reports that large-scale attacks continued in Kyiv and across multiple regions"
+          ]
+        },
+        {
+          "place": "Kharkiv",
+          "quotes": [
+            "Authorities reported that parts of Kharkiv were left without electricity and water."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "She has been a member of the Council on Foreign Relations for more than a decade and has served on its Washington advisory board."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, roles, and location."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "Time marker is open-ended ('for more than a decade'), making it difficult to verify temporal coherence without a specific end date."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "While 'member of the Council on Foreign Relations' is a valid career position, 'served on its Washington advisory board' could imply a more specific role that might need further clarification for accurate classification."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

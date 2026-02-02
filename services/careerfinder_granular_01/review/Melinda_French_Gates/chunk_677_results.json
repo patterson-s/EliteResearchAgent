@@ -1,0 +1,280 @@
+{
+  "status": "success",
+  "chunk_id": 677,
+  "chunk_index": 1,
+  "source_url": "https://www.biography.com/business-leaders/melinda-gates",
+  "title": "Melinda French Gates: Biography, Philanthropist",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "August 15, 1964",
+          "type": "point",
+          "quotes": [
+            "Melinda French Gates was born Melinda Ann French on August 15, 1964, in Dallas."
+          ]
+        },
+        {
+          "text": "1986",
+          "type": "point",
+          "quotes": [
+            "earning a bachelor’s degree in computer science from Duke University in 1986."
+          ]
+        },
+        {
+          "text": "1987",
+          "type": "point",
+          "quotes": [
+            "She started out as a product manager in 1987, primarily developing multimedia and interactive products."
+          ]
+        },
+        {
+          "text": "1994–2021",
+          "type": "range",
+          "quotes": [
+            "SPOUSE: Bill Gates (1994–2021)"
+          ]
+        },
+        {
+          "text": "1996",
+          "type": "point",
+          "quotes": [
+            "Melinda left the company in 1996 to focus on raising their children."
+          ]
+        },
+        {
+          "text": "2000",
+          "type": "point",
+          "quotes": [
+            "In 2000, Melinda and Bill combined two family charitable organizations and contributed around $16"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Ursuline Academy",
+          "quotes": [
+            "Melinda developed an early interest in computers while taking an advanced math class at the Ursuline Academy, a Catholic school for girls."
+          ]
+        },
+        {
+          "name": "Duke University",
+          "quotes": [
+            "earning a bachelor’s degree in computer science from Duke University in 1986."
+          ]
+        },
+        {
+          "name": "Fuqua School of Business",
+          "quotes": [
+            "she obtained a master’s in business administration, with a focus in economics, from Duke’s Fuqua School of Business, while interning at IBM."
+          ]
+        },
+        {
+          "name": "IBM",
+          "quotes": [
+            "she obtained a master’s in business administration, with a focus in economics, from Duke’s Fuqua School of Business, while interning at IBM."
+          ]
+        },
+        {
+          "name": "Microsoft Corporation",
+          "quotes": [
+            "After graduating, French was offered a job at IBM but turned it down to work at Microsoft Corporation."
+          ]
+        },
+        {
+          "name": "The Bill and Melinda Gates Foundation",
+          "quotes": [
+            "Bill and Melinda Gates had been supporting philanthropic endeavors for years before launching their foundation in 2000."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "product manager",
+          "quotes": [
+            "She started out as a product manager in 1987, primarily developing multimedia and interactive products."
+          ]
+        },
+        {
+          "title": "general manager of information products",
+          "quotes": [
+            "Over the course of her nine years working for Microsoft, French worked her way up to general manager of information products."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Dallas, Texas",
+          "quotes": [
+            "Melinda French Gates was born Melinda Ann French on August 15, 1964, in Dallas, Texas."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "earning a bachelor’s degree in computer science from Duke University in 1986."
+        ],
+        "confidence": "high",
+        "notes": "Clear educational position with specific time marker and organization."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2,
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "she obtained a master’s in business administration, with a focus in economics, from Duke’s Fuqua School of Business, while interning at IBM."
+        ],
+        "confidence": "high",
+        "notes": "Clear educational and internship position without specific time marker but with clear organizations."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "She started out as a product manager in 1987, primarily developing multimedia and interactive products.",
+          "After graduating, French was offered a job at IBM but turned it down to work at Microsoft Corporation."
+        ],
+        "confidence": "high",
+        "notes": "Clear career position with specific time marker, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Over the course of her nine years working for Microsoft, French worked her way up to general manager of information products."
+        ],
+        "confidence": "medium",
+        "notes": "Clear career position without specific time marker but with clear organization and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2000, Melinda and Bill combined two family charitable organizations and contributed around $16",
+          "Bill and Melinda Gates had been supporting philanthropic endeavors for years before launching their foundation in 2000."
+        ],
+        "confidence": "high",
+        "notes": "Clear career position with specific time marker and organization, indicating a founding role in the foundation."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as 'career_position' but describes an educational achievement rather than a professional role."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role_ids and location_ids, though this is expected for an educational event."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as 'career_position' but primarily describes an educational achievement with an internship."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time_marker_ids, role_ids, and location_ids."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "Missing time_marker_ids, making it difficult to place this event in the timeline."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as 'career_position' but describes a founding role in a charitable organization, which might be better classified as an award or philanthropic activity."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role_ids and location_ids."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 1,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

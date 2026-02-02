@@ -1,0 +1,148 @@
+{
+  "status": "success",
+  "chunk_id": 2902,
+  "chunk_index": 2,
+  "source_url": "https://www.amazon.com/Record-David-Cameron/dp/0062687840",
+  "title": "For the Record: Cameron, David: 9780062687845: Amazon.com: Books",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2005",
+          "type": "point",
+          "quotes": [
+            "David Cameron was elected Conservative leader in 2005, promising to modernize the party following its three successive electoral defeats."
+          ]
+        },
+        {
+          "text": "2010",
+          "type": "point",
+          "quotes": [
+            "He became Prime Minister in 2010, forming Britain’s first coalition government in 70 years, at a moment of economic crisis, and went on to win the first outright Conservative majority for 23 years at the 2015 general election."
+          ]
+        },
+        {
+          "text": "2015",
+          "type": "point",
+          "quotes": [
+            "He became Prime Minister in 2010, forming Britain’s first coalition government in 70 years, at a moment of economic crisis, and went on to win the first outright Conservative majority for 23 years at the 2015 general election."
+          ]
+        },
+        {
+          "text": "September 24, 2019",
+          "type": "point",
+          "quotes": [
+            "For the Record\nHardcover – September 24, 2019"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Conservative",
+          "quotes": [
+            "David Cameron was elected Conservative leader in 2005, promising to modernize the party following its three successive electoral defeats."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Conservative leader",
+          "quotes": [
+            "David Cameron was elected Conservative leader in 2005, promising to modernize the party following its three successive electoral defeats."
+          ]
+        },
+        {
+          "title": "Prime Minister",
+          "quotes": [
+            "He became Prime Minister in 2010, forming Britain’s first coalition government in 70 years, at a moment of economic crisis, and went on to win the first outright Conservative majority for 23 years at the 2015 general election."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Britain",
+          "quotes": [
+            "He became Prime Minister in 2010, forming Britain’s first coalition government in 70 years, at a moment of economic crisis, and went on to win the first outright Conservative majority for 23 years at the 2015 general election."
+          ]
+        },
+        {
+          "place": "UK",
+          "quotes": [
+            "In\nFor the Record\n, he will explain how the governments he led transformed the UK economy while implementing a modern, compassionate agenda that included reforming education and welfare, legalizing gay marriage, honoring the UK’s commitment to overseas aid and spearheading environmental policies."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "David Cameron was elected Conservative leader in 2005, promising to modernize the party following its three successive electoral defeats."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1,
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "He became Prime Minister in 2010, forming Britain’s first coalition government in 70 years, at a moment of economic crisis, and went on to win the first outright Conservative majority for 23 years at the 2015 general election."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, role, and location. Organization not explicitly mentioned but implied through context."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing organization information, though it can be inferred from context."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

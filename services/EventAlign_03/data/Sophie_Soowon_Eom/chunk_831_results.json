@@ -1,0 +1,187 @@
+{
+  "status": "success",
+  "chunk_id": 831,
+  "chunk_index": 0,
+  "source_url": "https://koreatechdesk.com/international-womens-day-shine-on-those-leading-the-path-in-the-korean-startup-ecosystem",
+  "title": "International Women’s Day: Shine on those leading the path in the Korean startup ecosystem - KoreaTechDesk | Korean Startup and Technology News",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "March 8, 2022",
+          "type": "point",
+          "quotes": [
+            "by Jinju Jeon March 8, 2022"
+          ]
+        },
+        {
+          "text": "over the past 50 years",
+          "type": "range",
+          "quotes": [
+            "South Korea has made impressive economic progress over the past 50 years, from one of the world’s poorest countries to an industrial and technology powerhouse."
+          ]
+        },
+        {
+          "text": "in 2015",
+          "type": "point",
+          "quotes": [
+            "She launched Market Kurly in 2015, an app that delivers fresh vegetables, eggs, and perishable foods delivered by sunrise."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "KoreaTechDesk",
+          "quotes": [
+            "International Women’s Day: Shine on those leading the path in the Korean startup ecosystem - KoreaTechDesk | Korean Startup and Technology News"
+          ]
+        },
+        {
+          "name": "Organization for Economic Cooperation and Development",
+          "quotes": [
+            "Only about 10 percent of managerial positions in South Korea are held by women, the lowest among the countries studied by the Organization for Economic Cooperation and Development."
+          ]
+        },
+        {
+          "name": "Goldman Sachs",
+          "quotes": [
+            "A former Goldman Sachs banker, Kim turned her obsession with fresh food and groceries into a business."
+          ]
+        },
+        {
+          "name": "Market Kurly",
+          "quotes": [
+            "She launched Market Kurly in 2015, an app that delivers fresh vegetables, eggs, and perishable foods delivered by sunrise."
+          ]
+        },
+        {
+          "name": "Samsung",
+          "quotes": [
+            "Corporate giants like Samsung, Naver, Kakao may have led by hiring women in top positions; it is difficult for Korean women to climb the corporate ladder."
+          ]
+        },
+        {
+          "name": "Naver",
+          "quotes": [
+            "Corporate giants like Samsung, Naver, Kakao may have led by hiring women in top positions; it is difficult for Korean women to climb the corporate ladder."
+          ]
+        },
+        {
+          "name": "Kakao",
+          "quotes": [
+            "Corporate giants like Samsung, Naver, Kakao may have led by hiring women in top positions; it is difficult for Korean women to climb the corporate ladder."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "CEO",
+          "quotes": [
+            "Sophie Kim, CEO, Market Kurly"
+          ]
+        },
+        {
+          "title": "banker",
+          "quotes": [
+            "A former Goldman Sachs banker, Kim turned her obsession with fresh food and groceries into a business."
+          ]
+        },
+        {
+          "title": "startup founders",
+          "quotes": [
+            "Less than 10 % of women are startup founders in Korea compared to 24% in Silicon Valley."
+          ]
+        },
+        {
+          "title": "managerial positions",
+          "quotes": [
+            "Only about 10 percent of managerial positions in South Korea are held by women, the lowest among the countries studied by the Organization for Economic Cooperation and Development."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "South Korea",
+          "quotes": [
+            "South Korea has made impressive economic progress over the past 50 years, from one of the world’s poorest countries to an industrial and technology powerhouse."
+          ]
+        },
+        {
+          "place": "Silicon Valley",
+          "quotes": [
+            "Less than 10 % of women are startup founders in Korea compared to 24% in Silicon Valley."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "She launched Market Kurly in 2015, an app that delivers fresh vegetables, eggs, and perishable foods delivered by sunrise.",
+          "Sophie Kim, CEO, Market Kurly"
+        ],
+        "confidence": "high",
+        "notes": "Direct linkage between time marker, organization, and role through quotes."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "A former Goldman Sachs banker, Kim turned her obsession with fresh food and groceries into a business."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between organization and role, no specific time marker provided."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position at Goldman Sachs."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

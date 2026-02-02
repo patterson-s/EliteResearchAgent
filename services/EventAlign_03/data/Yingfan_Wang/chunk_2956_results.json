@@ -1,0 +1,179 @@
+{
+  "status": "success",
+  "chunk_id": 2956,
+  "chunk_index": 1,
+  "source_url": "https://yaledailynews.com/blog/2001/10/19/chinas-un-ambassador-talks-terror-human-rights/",
+  "title": "China's UN ambassador talks terror, human rights - Yale Daily News",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "last spring",
+          "type": "point",
+          "quotes": [
+            "the crisis over the U.S. spy plane that was downed in China last spring"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Morse College",
+          "quotes": [
+            "Morse College Master Frank Keil said. ‘The ambassador was very open, and there was a remarkable interchange of ideas.’"
+          ]
+        },
+        {
+          "name": "Yale",
+          "quotes": [
+            "Yale, Harvard alumni hosting tailgate for academic freedom at The Game",
+            "At changing law library, internal tensions prompted workplace review",
+            "FOOTBALL: Yale wins The Game for fourth year in a row",
+            "‘That’s me, I won’: Rhodes Scholar picks reflect on Yale journeys",
+            "As Yale and Harvard meet, treatment by Trump sets them apart"
+          ]
+        },
+        {
+          "name": "Harvard",
+          "quotes": [
+            "Yale, Harvard alumni hosting tailgate for academic freedom at The Game",
+            "As Yale and Harvard meet, treatment by Trump sets them apart"
+          ]
+        },
+        {
+          "name": "The Yale Daily News",
+          "quotes": [
+            "The Yale Daily News"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "ambassador",
+          "quotes": [
+            "a student asked the ambassador about China’s stance on the current military operations in Afghanistan",
+            "The ambassador was very open, and there was a remarkable interchange of ideas",
+            "The ambassador was very straightforward and open"
+          ]
+        },
+        {
+          "title": "Morse College Master",
+          "quotes": [
+            "Morse College Master Frank Keil said. ‘The ambassador was very open, and there was a remarkable interchange of ideas.’"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "China",
+          "quotes": [
+            "the crisis over the U.S. spy plane that was downed in China last spring",
+            "the transition of Hong Kong and Macau to Chinese rule",
+            "the passing and implementation of over 300 new laws in China",
+            "problems of excess labor in rural China"
+          ]
+        },
+        {
+          "place": "Afghanistan",
+          "quotes": [
+            "China’s stance on the current military operations in Afghanistan"
+          ]
+        },
+        {
+          "place": "Hong Kong",
+          "quotes": [
+            "the transition of Hong Kong and Macau to Chinese rule"
+          ]
+        },
+        {
+          "place": "Macau",
+          "quotes": [
+            "the transition of Hong Kong and Macau to Chinese rule"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Morse College Master Frank Keil said. ‘The ambassador was very open, and there was a remarkable interchange of ideas.’"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between Morse College and the role of Morse College Master."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0,
+          1
+        ],
+        "supporting_quotes": [
+          "the crisis over the U.S. spy plane that was downed in China last spring",
+          "a student asked the ambassador about China’s stance on the current military operations in Afghanistan",
+          "The ambassador was very open, and there was a remarkable interchange of ideas",
+          "The ambassador was very straightforward and open"
+        ],
+        "confidence": "medium",
+        "notes": "Ambassador role is mentioned in context with China and Afghanistan, but no specific organization is linked. Time marker 'last spring' is included."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the career position event."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization for the ambassador role, though the role is mentioned in context with China and Afghanistan."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The role of 'ambassador' could be more clearly classified if the organization were specified."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

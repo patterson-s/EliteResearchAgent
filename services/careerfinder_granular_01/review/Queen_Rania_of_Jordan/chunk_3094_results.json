@@ -1,0 +1,310 @@
+{
+  "status": "success",
+  "chunk_id": 3094,
+  "chunk_index": 19,
+  "source_url": "https://en.wikipedia.org/wiki/Queen_Rania_of_Jordan",
+  "title": "Queen Rania of Jordan - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1970",
+          "type": "point",
+          "quotes": [
+            "1970 births"
+          ]
+        },
+        {
+          "text": "August 2025",
+          "type": "point",
+          "quotes": [
+            "Articles with dead external links from August 2025"
+          ]
+        },
+        {
+          "text": "July 2016",
+          "type": "point",
+          "quotes": [
+            "Articles with dead external links from July 2016"
+          ]
+        },
+        {
+          "text": "July 2024",
+          "type": "point",
+          "quotes": [
+            "Articles with dead external links from July 2024"
+          ]
+        },
+        {
+          "text": "February 2025",
+          "type": "point",
+          "quotes": [
+            "Wikipedia neutral point of view disputes from February 2025"
+          ]
+        },
+        {
+          "text": "November 2023",
+          "type": "point",
+          "quotes": [
+            "Use dmy dates from November 2023",
+            "Use British English from November 2023"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "The American University in Cairo",
+          "quotes": [
+            "The American University in Cairo alumni"
+          ]
+        },
+        {
+          "name": "Apple Inc.",
+          "quotes": [
+            "Apple Inc. employees"
+          ]
+        },
+        {
+          "name": "Arab Open University",
+          "quotes": [
+            "Arab Open University people"
+          ]
+        },
+        {
+          "name": "Citigroup",
+          "quotes": [
+            "Citigroup employees"
+          ]
+        },
+        {
+          "name": "UNICEF",
+          "quotes": [
+            "UNICEF goodwill ambassadors"
+          ]
+        },
+        {
+          "name": "United Nations Foundation",
+          "quotes": [
+            "United Nations Foundation"
+          ]
+        },
+        {
+          "name": "United Arab Emirates Health Foundation",
+          "quotes": [
+            "United Arab Emirates Health Foundation Prize laureates"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "queen consort",
+          "quotes": [
+            "Former queen consort given the title of princess upon divorce"
+          ]
+        },
+        {
+          "title": "princess",
+          "quotes": [
+            "Princess of Jordan by birth and marriage",
+            "Jordanian princesses by marriage"
+          ]
+        },
+        {
+          "title": "goodwill ambassador",
+          "quotes": [
+            "UNICEF goodwill ambassadors"
+          ]
+        },
+        {
+          "title": "employee",
+          "quotes": [
+            "Apple Inc. employees",
+            "Citigroup employees"
+          ]
+        },
+        {
+          "title": "alumni",
+          "quotes": [
+            "The American University in Cairo alumni"
+          ]
+        },
+        {
+          "title": "YouTuber",
+          "quotes": [
+            "Jordanian YouTubers"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Kuwait City",
+          "quotes": [
+            "People from Kuwait City"
+          ]
+        },
+        {
+          "place": "Jordan",
+          "quotes": [
+            "Queen Rania of Jordan",
+            "Jordanian royal consorts",
+            "Jordanian feminists",
+            "Jordanian people of Palestinian descent",
+            "Jordanian YouTubers",
+            "Jordanian princesses by marriage"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "UNICEF goodwill ambassadors"
+        ],
+        "confidence": "high",
+        "notes": "Direct match between organization and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Apple Inc. employees"
+        ],
+        "confidence": "high",
+        "notes": "Direct match between organization and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Citigroup employees"
+        ],
+        "confidence": "high",
+        "notes": "Direct match between organization and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The American University in Cairo alumni"
+        ],
+        "confidence": "high",
+        "notes": "Direct match between organization and role."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          6
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "United Arab Emirates Health Foundation Prize laureates"
+        ],
+        "confidence": "high",
+        "notes": "Indicates a one-time recognition (laureate) without ongoing responsibilities."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers for award."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 0,
+      "warnings": 5,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 1
+    }
+  }
+}

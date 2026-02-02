@@ -1,0 +1,220 @@
+{
+  "status": "success",
+  "chunk_id": 898,
+  "chunk_index": 41,
+  "source_url": "https://www.un.org/digital-emerging-technologies/sites/www.un.org.techenvoy/files/hlp_on_digital_cooperation-report_final.pdf",
+  "title": "hlp_on_digital_cooperation-report_final.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2005",
+          "type": "point",
+          "quotes": [
+            "The IGF was established by the World Summit on the Information Society (Tunis, 2005)."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "UN",
+          "quotes": [
+            "UN Secretary-General",
+            "the main global space convened by the UN for addressing internet governance and digital policy issues.",
+            "appointed for three years by the UN Secretary-General"
+          ]
+        },
+        {
+          "name": "Internet Governance Forum (IGF)",
+          "quotes": [
+            "The proposed Internet Governance Forum Plus, or IGF Plus, would build on the existing IGF which was established by the World Summit on the Information Society (Tunis, 2005).",
+            "The IGF is currently the main global space convened by the UN for addressing internet governance and digital policy issues."
+          ]
+        },
+        {
+          "name": "World Summit on the Information Society",
+          "quotes": [
+            "The IGF was established by the World Summit on the Information Society (Tunis, 2005)."
+          ]
+        },
+        {
+          "name": "Advisory Group",
+          "quotes": [
+            "The Advisory Group, based on the IGF’s current Multistakeholder Advisory Group, would be responsible for preparing annual meetings, and identifying focus policy issues each year."
+          ]
+        },
+        {
+          "name": "Multistakeholder Advisory Group",
+          "quotes": [
+            "The Advisory Group, based on the IGF’s current Multistakeholder Advisory Group, would be responsible for preparing annual meetings, and identifying focus policy issues each year."
+          ]
+        },
+        {
+          "name": "Cooperation Accelerator",
+          "quotes": [
+            "The Cooperation Accelerator would accelerate issue-centred cooperation across a wide range"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "UN Secretary-General",
+          "quotes": [
+            "UN Secretary-General initiate in our Recommendation 5A.",
+            "appointed for three years by the UN Secretary-General"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Tunis",
+          "quotes": [
+            "The IGF was established by the World Summit on the Information Society (Tunis, 2005)."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          1,
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "The IGF was established by the World Summit on the Information Society (Tunis, 2005).",
+          "The proposed Internet Governance Forum Plus, or IGF Plus, would build on the existing IGF which was established by the World Summit on the Information Society (Tunis, 2005)."
+        ],
+        "confidence": "high",
+        "notes": "Establishment of the IGF by the World Summit on the Information Society is a clear career-related event, though no specific role is mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "UN Secretary-General initiate in our Recommendation 5A.",
+          "appointed for three years by the UN Secretary-General",
+          "the main global space convened by the UN for addressing internet governance and digital policy issues."
+        ],
+        "confidence": "high",
+        "notes": "The role of UN Secretary-General is clearly a career position, with responsibilities related to the IGF and UN."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1,
+          3,
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The Advisory Group, based on the IGF’s current Multistakeholder Advisory Group, would be responsible for preparing annual meetings, and identifying focus policy issues each year."
+        ],
+        "confidence": "medium",
+        "notes": "The Advisory Group and Multistakeholder Advisory Group are career positions with active responsibilities, though no specific time marker is provided."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1,
+          5
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The Cooperation Accelerator would accelerate issue-centred cooperation across a wide range"
+        ],
+        "confidence": "medium",
+        "notes": "The Cooperation Accelerator is a career-related initiative, though no specific time marker or role is mentioned."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for the career position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Establishment of an organization might not qualify as a career position without a specific role."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information and time marker for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information and time marker for the career position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The Cooperation Accelerator seems more like an initiative than a career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 0,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,283 @@
+{
+  "status": "success",
+  "chunk_id": 121,
+  "chunk_index": 0,
+  "source_url": "https://www.britannica.com/biography/Gro-Harlem-Brundtland",
+  "title": "Gro Harlem Brundtland | Biography & Facts | Britannica",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1981, 1986–89, and 1990–96",
+          "type": "range",
+          "quotes": [
+            "serving for three terms (1981, 1986–89, and 1990–96)"
+          ]
+        },
+        {
+          "text": "1998–2003",
+          "type": "range",
+          "quotes": [
+            "director general of the World Health Organization (WHO; 1998–2003)"
+          ]
+        },
+        {
+          "text": "1963",
+          "type": "point",
+          "quotes": [
+            "she received an M.D. degree from the University of Oslo in 1963"
+          ]
+        },
+        {
+          "text": "1965",
+          "type": "point",
+          "quotes": [
+            "a master’s degree in public health from Harvard University in 1965"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "World Health Organization",
+          "quotes": [
+            "director general of the World Health Organization (WHO; 1998–2003)"
+          ]
+        },
+        {
+          "name": "University of Oslo",
+          "quotes": [
+            "she received an M.D. degree from the University of Oslo in 1963"
+          ]
+        },
+        {
+          "name": "Harvard University",
+          "quotes": [
+            "a master’s degree in public health from Harvard University in 1965"
+          ]
+        },
+        {
+          "name": "Labour Party",
+          "quotes": [
+            "A member of the Labour Party, she was minister of the environment"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "prime minister of Norway",
+          "quotes": [
+            "prime minister of Norway",
+            "serving for three terms (1981, 1986–89, and 1990–96)"
+          ]
+        },
+        {
+          "title": "director general of the World Health Organization",
+          "quotes": [
+            "director general of the World Health Organization (WHO; 1998–2003)"
+          ]
+        },
+        {
+          "title": "public health officer",
+          "quotes": [
+            "She then worked as a public health officer for the city of Oslo and for Oslo schools."
+          ]
+        },
+        {
+          "title": "minister of the environment",
+          "quotes": [
+            "A member of the Labour Party, she was minister of the environment"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Oslo",
+          "quotes": [
+            "born April 20, 1939, Oslo, Norway",
+            "She then worked as a public health officer for the city of Oslo and for Oslo schools."
+          ]
+        },
+        {
+          "place": "Norway",
+          "quotes": [
+            "born April 20, 1939, Oslo, Norway",
+            "prime minister of Norway"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "serving for three terms (1981, 1986–89, and 1990–96)",
+          "prime minister of Norway"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "she received an M.D. degree from the University of Oslo in 1963"
+        ],
+        "confidence": "high",
+        "notes": "Educational achievement linked to organization and time."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "a master’s degree in public health from Harvard University in 1965"
+        ],
+        "confidence": "high",
+        "notes": "Educational achievement linked to organization and time."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "director general of the World Health Organization (WHO; 1998–2003)"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "She then worked as a public health officer for the city of Oslo and for Oslo schools."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time marker, but role and location are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "A member of the Labour Party, she was minister of the environment"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time marker, but organization and role are clearly linked."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Educational achievement (M.D. degree) classified as career_position, consider reclassifying as award or education event."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Educational achievement (master’s degree) classified as career_position, consider reclassifying as award or education event."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the public health officer role."
+          }
+        ]
+      },
+      {
+        "event_id": 5,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the minister of the environment role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 6,
+      "valid": 2,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 6,
+      "awards": 0
+    }
+  }
+}

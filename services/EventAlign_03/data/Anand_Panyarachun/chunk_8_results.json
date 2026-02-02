@@ -1,0 +1,208 @@
+{
+  "status": "success",
+  "chunk_id": 8,
+  "chunk_index": 7,
+  "source_url": "https://en.wikipedia.org/wiki/Anand_Panyarachun",
+  "title": "Anand Panyarachun - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In 1996",
+          "type": "point",
+          "quotes": [
+            "In 1996, Anand was elected as a member of the Constitution Drafting Assembly and was appointed Chairman of the Drafting Committee."
+          ]
+        },
+        {
+          "text": "1997",
+          "type": "point",
+          "quotes": [
+            "He oversaw the drafting of what became known as the 'Peoples' Constitution' of 1997."
+          ]
+        },
+        {
+          "text": "2006",
+          "type": "point",
+          "quotes": [
+            "The constitution was abrogated in 2006 after a military coup against Thaksin Shinawatra that Anand supported."
+          ]
+        },
+        {
+          "text": "From March 2005",
+          "type": "open",
+          "quotes": [
+            "From March 2005, Anand served as chairman of the National Reconciliation Commission (NRC), tasked with overseeing that peace was restored to the troubled south."
+          ]
+        },
+        {
+          "text": "from 2005 to 2006",
+          "type": "range",
+          "quotes": [
+            "Unfortunately, the situation deteriorated from 2005 to 2006, with escalating violence, especially among teachers and civilians."
+          ]
+        },
+        {
+          "text": "5 June 2006",
+          "type": "point",
+          "quotes": [
+            "Anand finally submitted the NRC's recommendations on 5 June 2006."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Constitution Drafting Assembly",
+          "quotes": [
+            "In 1996, Anand was elected as a member of the Constitution Drafting Assembly and was appointed Chairman of the Drafting Committee."
+          ]
+        },
+        {
+          "name": "Drafting Committee",
+          "quotes": [
+            "In 1996, Anand was elected as a member of the Constitution Drafting Assembly and was appointed Chairman of the Drafting Committee."
+          ]
+        },
+        {
+          "name": "National Reconciliation Commission (NRC)",
+          "quotes": [
+            "From March 2005, Anand served as chairman of the National Reconciliation Commission (NRC), tasked with overseeing that peace was restored to the troubled south."
+          ]
+        },
+        {
+          "name": "Election Commission",
+          "quotes": [
+            "Establishment of several independent government agencies, including the Election Commission, the Office of the Auditor-General, and the National Human Rights Commission"
+          ]
+        },
+        {
+          "name": "Office of the Auditor-General",
+          "quotes": [
+            "Establishment of several independent government agencies, including the Election Commission, the Office of the Auditor-General, and the National Human Rights Commission"
+          ]
+        },
+        {
+          "name": "National Human Rights Commission",
+          "quotes": [
+            "Establishment of several independent government agencies, including the Election Commission, the Office of the Auditor-General, and the National Human Rights Commission"
+          ]
+        },
+        {
+          "name": "Privy Council",
+          "quotes": [
+            "The recommendations were rejected by Privy Council President Prem, who stated, 'We cannot accept that [proposal] as we are Thai. The country is Thai and the language is Thai... We have to be proud to be Thai and have the Thai language as the sole national language'."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Chairman of the Drafting Committee",
+          "quotes": [
+            "In 1996, Anand was elected as a member of the Constitution Drafting Assembly and was appointed Chairman of the Drafting Committee."
+          ]
+        },
+        {
+          "title": "chairman of the National Reconciliation Commission (NRC)",
+          "quotes": [
+            "From March 2005, Anand served as chairman of the National Reconciliation Commission (NRC), tasked with overseeing that peace was restored to the troubled south."
+          ]
+        },
+        {
+          "title": "Privy Council President",
+          "quotes": [
+            "The recommendations were rejected by Privy Council President Prem, who stated, 'We cannot accept that [proposal] as we are Thai. The country is Thai and the language is Thai... We have to be proud to be Thai and have the Thai language as the sole national language'."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "troubled south",
+          "quotes": [
+            "From March 2005, Anand served as chairman of the National Reconciliation Commission (NRC), tasked with overseeing that peace was restored to the troubled south."
+          ]
+        },
+        {
+          "place": "southern border provinces",
+          "quotes": [
+            "Establishing a Peaceful Strategic Administrative Centre for southern border provinces"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 1996, Anand was elected as a member of the Constitution Drafting Assembly and was appointed Chairman of the Drafting Committee."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organizations, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3,
+          5
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "From March 2005, Anand served as chairman of the National Reconciliation Commission (NRC), tasked with overseeing that peace was restored to the troubled south.",
+          "Anand finally submitted the NRC's recommendations on 5 June 2006."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, role, and location."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "The event specifies 'From March 2005' as the start date but does not clearly define an end date, despite referencing '5 June 2006' in the quotes. The end date should be explicitly linked to the event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

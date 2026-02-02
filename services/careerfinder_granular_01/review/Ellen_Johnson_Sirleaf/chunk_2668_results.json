@@ -1,0 +1,187 @@
+{
+  "status": "success",
+  "chunk_id": 2668,
+  "chunk_index": 6,
+  "source_url": "https://en.wikipedia.org/wiki/Ellen_Johnson_Sirleaf",
+  "title": "Ellen Johnson Sirleaf - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "four days prior to the election",
+          "type": "point",
+          "quotes": [
+            "The awarding of the Nobel Peace Prize to Sirleaf four days prior to the election sparked criticism from opposition parties"
+          ]
+        },
+        {
+          "text": "16 January 2012",
+          "type": "point",
+          "quotes": [
+            "She took the presidential oath for her second presidency on 16 January 2012."
+          ]
+        },
+        {
+          "text": "26 July 2006",
+          "type": "point",
+          "quotes": [
+            "A fire broke out at the Executive Mansion on 26 July 2006, seriously damaging the structure."
+          ]
+        },
+        {
+          "text": "13 January 2018",
+          "type": "point",
+          "quotes": [
+            "In the late evening hours of 13 January 2018, she along with some officials of the Unity Party were expelled"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Congress for Democratic Change",
+          "quotes": [
+            "Congress for Democratic Change candidate Winston Tubman calling the award 'undeserved' and 'a political interference in our country's politics.'"
+          ]
+        },
+        {
+          "name": "Unity Party",
+          "quotes": [
+            "In the late evening hours of 13 January 2018, she along with some officials of the Unity Party were expelled by the National Executive Committee of the party"
+          ]
+        },
+        {
+          "name": "National Executive Committee of the party",
+          "quotes": [
+            "by the National Executive Committee of the party, for failing to support Unity Party presidential candidate, and Sirleaf's Vice President, Joseph Boakai."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "running mate",
+          "quotes": [
+            "by the delegates as Sirleaf's running mate."
+          ]
+        },
+        {
+          "title": "candidate",
+          "quotes": [
+            "Congress for Democratic Change candidate Winston Tubman calling the award 'undeserved' and 'a political interference in our country's politics.'"
+          ]
+        },
+        {
+          "title": "Vice President",
+          "quotes": [
+            "for failing to support Unity Party presidential candidate, and Sirleaf's Vice President, Joseph Boakai."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Monrovia",
+          "quotes": [
+            "Sirleaf at her inauguration in Monrovia"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The awarding of the Nobel Peace Prize to Sirleaf four days prior to the election sparked criticism from opposition parties"
+        ],
+        "confidence": "high",
+        "notes": "Nobel Peace Prize is a clear indicator of an award."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "She took the presidential oath for her second presidency on 16 January 2012.",
+          "Sirleaf at her inauguration in Monrovia"
+        ],
+        "confidence": "high",
+        "notes": "Presidential oath indicates a career position, though the organization is not explicitly mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          1,
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In the late evening hours of 13 January 2018, she along with some officials of the Unity Party were expelled by the National Executive Committee of the party, for failing to support Unity Party presidential candidate, and Sirleaf's Vice President, Joseph Boakai."
+        ],
+        "confidence": "medium",
+        "notes": "Expulsion from Unity Party and mention of Vice President suggest a career position, but the exact role is unclear."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for the career position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position, but the exact role is unclear from the quotes."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 1
+    }
+  }
+}

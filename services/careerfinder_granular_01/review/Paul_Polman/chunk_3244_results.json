@@ -1,0 +1,110 @@
+{
+  "status": "success",
+  "chunk_id": 3244,
+  "chunk_index": 3,
+  "source_url": "https://magazine.uc.edu/content/dam/magazine/docs/PaulPolmanPortfolio08.pdf",
+  "title": "PaulPolmanPortfolio08.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Unilever",
+          "quotes": [
+            "After joining Unilever, Polman told the Wall Street Journal he plans to accelerate Unilever’s growth, but not at all costs.",
+            "This type of leadership—founded in deep beliefs and values—is what Polman believes will drive the success of companies like P&G, Nestlé and Unilever."
+          ]
+        },
+        {
+          "name": "Wall Street Journal",
+          "quotes": [
+            "After joining Unilever, Polman told the Wall Street Journal he plans to accelerate Unilever’s growth, but not at all costs."
+          ]
+        },
+        {
+          "name": "P&G",
+          "quotes": [
+            "This type of leadership—founded in deep beliefs and values—is what Polman believes will drive the success of companies like P&G, Nestlé and Unilever."
+          ]
+        },
+        {
+          "name": "Nestlé",
+          "quotes": [
+            "This type of leadership—founded in deep beliefs and values—is what Polman believes will drive the success of companies like P&G, Nestlé and Unilever."
+          ]
+        },
+        {
+          "name": "Wall Street",
+          "quotes": [
+            "The significant events we have seen in the financial markets are affecting us all, and it is clear that politics and public policy will need to drive the solution rather than Wall Street alone."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "business managers",
+          "quotes": [
+            "Polman says it’s important for business managers to think"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "After joining Unilever, Polman told the Wall Street Journal he plans to accelerate Unilever’s growth, but not at all costs.",
+          "Polman says it’s important for business managers to think"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time markers, but the role and organization are clearly linked. Assuming 'business managers' refers to a position at Unilever."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the career position event."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing location information for the career position event."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "The role 'business managers' is mentioned in a quote but does not clearly specify a specific position or title at Unilever."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

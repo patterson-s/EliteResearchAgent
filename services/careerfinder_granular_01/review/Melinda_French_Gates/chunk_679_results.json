@@ -1,0 +1,243 @@
+{
+  "status": "success",
+  "chunk_id": 679,
+  "chunk_index": 3,
+  "source_url": "https://www.biography.com/business-leaders/melinda-gates",
+  "title": "Melinda French Gates: Biography, Philanthropist",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "By 2023",
+          "type": "point",
+          "quotes": [
+            "By 2023, the foundation had funded a total of $77.6 billion in grants."
+          ]
+        },
+        {
+          "text": "May 2024",
+          "type": "point",
+          "quotes": [
+            "she stepped down from her role as co-chair of the foundation in May 2024."
+          ]
+        },
+        {
+          "text": "In 2015",
+          "type": "point",
+          "quotes": [
+            "In 2015, French Gates launched Pivotal Ventures, an investment firm aimed at funding organizations that support social progress."
+          ]
+        },
+        {
+          "text": "October 2024",
+          "type": "point",
+          "quotes": [
+            "In October 2024, she announced $250 million of her pledge will go to the Action for Women’s Health fund, which she launched through Pivotal Ventures."
+          ]
+        },
+        {
+          "text": "As of March 13, 2025",
+          "type": "point",
+          "quotes": [
+            "As of March 13, 2025, French Gates has an estimated net worth of $30.1 billion, according to Forbes’ real-time tracker."
+          ]
+        },
+        {
+          "text": "June 2024",
+          "type": "point",
+          "quotes": [
+            "she told Time in June 2024. “To have a law on the books since I was 9 years old, and to have it rolled back, and all the downstream consequences—like these women’s-health deserts now when we already have one of the highest maternal-mortality rates of high-income countries—I can’t not speak up about that,”"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Bill and Melinda Gates Foundation",
+          "quotes": [
+            "the Bill and Melinda Gates Foundation to give extensively over the years."
+          ]
+        },
+        {
+          "name": "Gates Foundation",
+          "quotes": [
+            "After her departure, the organization was renamed the Gates Foundation."
+          ]
+        },
+        {
+          "name": "Pivotal Ventures",
+          "quotes": [
+            "In 2015, French Gates launched Pivotal Ventures, an investment firm aimed at funding organizations that support social progress."
+          ]
+        },
+        {
+          "name": "Action for Women’s Health fund",
+          "quotes": [
+            "In October 2024, she announced $250 million of her pledge will go to the Action for Women’s Health fund, which she launched through Pivotal Ventures."
+          ]
+        },
+        {
+          "name": "Time’s Up Legal Defense Fund",
+          "quotes": [
+            "She will also spread another $200 million between 16 organizations that aim to advance women’s rights, including the Time’s Up Legal Defense Fund and the National Domestic Workers Alliance."
+          ]
+        },
+        {
+          "name": "National Domestic Workers Alliance",
+          "quotes": [
+            "She will also spread another $200 million between 16 organizations that aim to advance women’s rights, including the Time’s Up Legal Defense Fund and the National Domestic Workers Alliance."
+          ]
+        },
+        {
+          "name": "Forbes",
+          "quotes": [
+            "As of March 13, 2025, French Gates has an estimated net worth of $30.1 billion, according to Forbes’ real-time tracker."
+          ]
+        },
+        {
+          "name": "Time",
+          "quotes": [
+            "she told Time in June 2024. “To have a law on the books since I was 9 years old, and to have it rolled back, and all the downstream consequences—like these women’s-health deserts now when we already have one of the highest maternal-mortality rates of high-income countries—I can’t not speak up about that,”"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "co-chair of the foundation",
+          "quotes": [
+            "she stepped down from her role as co-chair of the foundation in May 2024."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "By 2023, the foundation had funded a total of $77.6 billion in grants.",
+          "she stepped down from her role as co-chair of the foundation in May 2024.",
+          "the Bill and Melinda Gates Foundation to give extensively over the years.",
+          "After her departure, the organization was renamed the Gates Foundation.",
+          "co-chair of the foundation"
+        ],
+        "confidence": "high",
+        "notes": "The role of co-chair and the organizations Bill and Melinda Gates Foundation/Gates Foundation are clearly linked in the quotes."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2015, French Gates launched Pivotal Ventures, an investment firm aimed at funding organizations that support social progress.",
+          "Pivotal Ventures"
+        ],
+        "confidence": "high",
+        "notes": "Launching Pivotal Ventures is considered a career position as it involves founding and likely leading an investment firm."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In October 2024, she announced $250 million of her pledge will go to the Action for Women’s Health fund, which she launched through Pivotal Ventures.",
+          "Action for Women’s Health fund"
+        ],
+        "confidence": "high",
+        "notes": "Launching the Action for Women’s Health fund through Pivotal Ventures is considered a career position as it involves active involvement in funding and initiatives."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing location information, which is not explicitly inferable from the context."
+          },
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "Time markers 'By 2023' and 'May 2024' do not clearly define a start and end date for the position, but the sequence seems plausible."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, though the event is classified as a career position involving founding an organization."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing location information, which is not explicitly inferable from the context."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, though the event is classified as a career position involving launching a fund."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing location information, which is not explicitly inferable from the context."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Launching a fund could be considered more of an initiative than a career position, though active involvement is mentioned."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

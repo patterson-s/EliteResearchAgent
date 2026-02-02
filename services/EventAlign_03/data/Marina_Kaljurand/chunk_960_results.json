@@ -1,0 +1,257 @@
+{
+  "status": "success",
+  "chunk_id": 960,
+  "chunk_index": 1,
+  "source_url": "http://www.womeninforeignpolicy.org/diplomacy/2018/1/30/marina-kaljurand-diplomat-estonia",
+  "title": "Marina Kaljurand — Women in Foreign Policy | #wifp",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "in August of the same year",
+          "type": "point",
+          "quotes": [
+            "At that time, we were not sure that in August of the same year, we would have our own country to run."
+          ]
+        },
+        {
+          "text": "every 3-4 years",
+          "type": "range",
+          "quotes": [
+            "Currently, I am 55-years old, and I have changed the topic I have worked on in every 3-4 years."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Ministry of Foreign Affairs",
+          "quotes": [
+            "I was the 21st member of Ministry of Foreign Affairs, and today we have over 600 people working in the Ministry.",
+            "The Ministry of Foreign Affairs of Estonia is small, and thus one cannot be a specialist in one field- be it security, development or environment for example."
+          ]
+        },
+        {
+          "name": "Press and Media Department",
+          "quotes": [
+            "I started at the Press and Media Department, then I worked as a lawyer in the Ministry, after that as a Consul."
+          ]
+        },
+        {
+          "name": "European Union",
+          "quotes": [
+            "I was part of Estonia’s accession negotiations with the European Union."
+          ]
+        },
+        {
+          "name": "OECD (Organisation for Economic Cooperation and Development)",
+          "quotes": [
+            "Then, I led the accession negotiations to OECD (Organisation for Economic Cooperation and Development)."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "lawyer in the Ministry",
+          "quotes": [
+            "I started at the Press and Media Department, then I worked as a lawyer in the Ministry, after that as a Consul."
+          ]
+        },
+        {
+          "title": "Consul",
+          "quotes": [
+            "I started at the Press and Media Department, then I worked as a lawyer in the Ministry, after that as a Consul."
+          ]
+        },
+        {
+          "title": "Deputy Secretary of Trade and Development",
+          "quotes": [
+            "Then, I was Deputy Secretary of Trade and Development."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Estonia",
+          "quotes": [
+            "The Ministry of Foreign Affairs of Estonia is small, and thus one cannot be a specialist in one field- be it security, development or environment for example.",
+            "I was part of Estonia’s accession negotiations with the European Union."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "I started at the Press and Media Department, then I worked as a lawyer in the Ministry, after that as a Consul."
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker, but clear role and organization linkage."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "I started at the Press and Media Department, then I worked as a lawyer in the Ministry, after that as a Consul."
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker, but clear role and organization linkage."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "I started at the Press and Media Department, then I worked as a lawyer in the Ministry, after that as a Consul."
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker, but clear role and organization linkage."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "I was part of Estonia’s accession negotiations with the European Union."
+        ],
+        "confidence": "high",
+        "notes": "Clear organization, role implied by context, and location linkage."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Then, I led the accession negotiations to OECD (Organisation for Economic Cooperation and Development)."
+        ],
+        "confidence": "high",
+        "notes": "Clear organization and role implied by context."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Then, I was Deputy Secretary of Trade and Development."
+        ],
+        "confidence": "medium",
+        "notes": "No specific organization or time marker, but clear role."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role_ids and location_ids, though organization is clear from context."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Organization_ids is 0, which is not a valid organization. Role is clear but organization is ambiguous."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Organization_ids is 0, which is not a valid organization. Role is clear but organization is ambiguous."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role_ids, though organization and location are clear from context."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role_ids and location_ids, though organization is clear from context."
+          }
+        ]
+      },
+      {
+        "event_id": 5,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization_ids and location_ids, though role is clear from context."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 6,
+      "valid": 0,
+      "warnings": 6,
+      "errors": 0,
+      "career_positions": 6,
+      "awards": 0
+    }
+  }
+}

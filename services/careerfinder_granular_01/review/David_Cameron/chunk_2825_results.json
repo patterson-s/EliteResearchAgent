@@ -1,0 +1,245 @@
+{
+  "status": "success",
+  "chunk_id": 2825,
+  "chunk_index": 44,
+  "source_url": "https://en.wikipedia.org/wiki/David_Cameron",
+  "title": "David Cameron - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1945",
+          "type": "point",
+          "quotes": [
+            "1945, ranking above only Alec Douglas-Home and Anthony Eden."
+          ]
+        },
+        {
+          "text": "2013",
+          "type": "point",
+          "quotes": [
+            "With Holly Willoughby and Phillip Schofield on the set of This Morning in 2013, Cameron made a cameo appearance in the BBC television programme Top Gear's India Special,"
+          ]
+        },
+        {
+          "text": "8 November 2012",
+          "type": "point",
+          "quotes": [
+            "Amid the Jimmy Savile sexual abuse scandal on 8 November 2012, Cameron was interviewed by Phillip Schofield and Holly Willoughby on This Morning,"
+          ]
+        },
+        {
+          "text": "2010",
+          "type": "point",
+          "quotes": [
+            "Cameron with his wife, Samantha, at a polling station in 2010"
+          ]
+        },
+        {
+          "text": "2019",
+          "type": "point",
+          "quotes": [
+            "In 2019 he was interviewed for The Cameron Years, a BBC mini-documentary series on his premiership."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "BBC",
+          "quotes": [
+            "Cameron made a cameo appearance in the BBC television programme Top Gear's India Special,",
+            "a BBC mini-documentary series on his premiership."
+          ]
+        },
+        {
+          "name": "ITV",
+          "quotes": [
+            "Cameron was portrayed by comedian Jon Culshaw in ITV's satirical sketch show Newzoids,",
+            "ITV's director of television, Peter Fincham, said that Schofield was 'wrong' in confronting Cameron"
+          ]
+        },
+        {
+          "name": "Channel 4",
+          "quotes": [
+            "and by Mark Dexter in the Channel 4 television films Coalition and Brexit: The Uncivil War."
+          ]
+        },
+        {
+          "name": "Ofcom",
+          "quotes": [
+            "ITV's director of television, Peter Fincham, said that Schofield was 'wrong' in confronting Cameron and the broadcaster had agreed to co-operate fully with government regulator Ofcom's investigation into the matter."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Prime Minister",
+          "quotes": [
+            "The Cameron Years, a BBC mini-documentary series on his premiership."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "India",
+          "quotes": [
+            "Cameron made a cameo appearance in the BBC television programme Top Gear's India Special, where he tells the trio of Jeremy Clarkson, James May and Richard Hammond to 'stay away from India'"
+          ]
+        },
+        {
+          "place": "Mexico",
+          "quotes": [
+            "and suggested that they mend fences with Mexico."
+          ]
+        },
+        {
+          "place": "North Wales",
+          "quotes": [
+            "a list he had obtained from the internet of five people named as paedophiles in connection with the North Wales child abuse scandal."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The Cameron Years, a BBC mini-documentary series on his premiership."
+        ],
+        "confidence": "high",
+        "notes": "Prime Minister role is clearly indicated, but no specific time or organization is directly linked in the quotes."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Cameron made a cameo appearance in the BBC television programme Top Gear's India Special,"
+        ],
+        "confidence": "high",
+        "notes": "Cameo appearance in BBC programme linked to India in 2013."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Amid the Jimmy Savile sexual abuse scandal on 8 November 2012, Cameron was interviewed by Phillip Schofield and Holly Willoughby on This Morning,"
+        ],
+        "confidence": "high",
+        "notes": "Interview on ITV's This Morning in 2012."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2019 he was interviewed for The Cameron Years, a BBC mini-documentary series on his premiership."
+        ],
+        "confidence": "high",
+        "notes": "Interview for BBC mini-documentary series in 2019."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time and organization markers for the Prime Minister role, despite clear role indication."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Cameo appearance in a TV program is not typically classified as a career position."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing role information for the event."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Interview on a TV program is not typically classified as a career position."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing role and location information for the event."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Interview for a documentary series is not typically classified as a career position."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing role and location information for the event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 0,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

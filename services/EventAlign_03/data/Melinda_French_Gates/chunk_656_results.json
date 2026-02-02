@@ -1,0 +1,267 @@
+{
+  "status": "success",
+  "chunk_id": 656,
+  "chunk_index": 0,
+  "source_url": "https://www.gatesfoundation.org/about/leadership/melinda-french-gates",
+  "title": "Melinda French Gates",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2000-2024",
+          "type": "range",
+          "quotes": [
+            "Co-chair (2000-2024)",
+            "Co-chair (2000-2024), Gates Foundation"
+          ]
+        },
+        {
+          "text": "June 2024",
+          "type": "point",
+          "quotes": [
+            "Melinda left the Gates Foundation in June 2024."
+          ]
+        },
+        {
+          "text": "2015",
+          "type": "point",
+          "quotes": [
+            "an organization she formed in 2015"
+          ]
+        },
+        {
+          "text": "over 25 years",
+          "type": "open",
+          "quotes": [
+            "For over 25 years, Melinda has led efforts to unlock a healthier, more prosperous, more equal future."
+          ]
+        },
+        {
+          "text": "first decade of her career",
+          "type": "open",
+          "quotes": [
+            "Melinda spent the first decade of her career developing multimedia products at Microsoft"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Gates Foundation",
+          "quotes": [
+            "She founded and co-chaired the Gates Foundation",
+            "Co-chair (2000-2024), Gates Foundation"
+          ]
+        },
+        {
+          "name": "Pivotal",
+          "quotes": [
+            "Today, she heads Pivotal, an organization she formed in 2015"
+          ]
+        },
+        {
+          "name": "Microsoft",
+          "quotes": [
+            "Melinda spent the first decade of her career developing multimedia products at Microsoft"
+          ]
+        },
+        {
+          "name": "Duke University",
+          "quotes": [
+            "She attended Duke University, where she received a bachelor’s degree in computer science and economics and an MBA."
+          ]
+        },
+        {
+          "name": "Moment of Lift Books",
+          "quotes": [
+            "Through her imprint, Moment of Lift Books, she amplifies other voices by publishing original nonfiction"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Co-chair",
+          "quotes": [
+            "Co-chair (2000-2024)",
+            "Co-chair (2000-2024), Gates Foundation"
+          ]
+        },
+        {
+          "title": "philanthropist",
+          "quotes": [
+            "Melinda French Gates is a philanthropist, businesswoman, and global advocate for women and girls."
+          ]
+        },
+        {
+          "title": "businesswoman",
+          "quotes": [
+            "Melinda French Gates is a philanthropist, businesswoman, and global advocate for women and girls."
+          ]
+        },
+        {
+          "title": "global advocate for women and girls",
+          "quotes": [
+            "Melinda French Gates is a philanthropist, businesswoman, and global advocate for women and girls."
+          ]
+        },
+        {
+          "title": "heads Pivotal",
+          "quotes": [
+            "Today, she heads Pivotal, an organization she formed in 2015"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Dallas, Texas",
+          "quotes": [
+            "The second of four children, Melinda grew up in Dallas, Texas."
+          ]
+        },
+        {
+          "place": "Seattle, Washington",
+          "quotes": [
+            "Melinda has three children—Jenn, Rory, and Phoebe—and lives in Seattle, Washington."
+          ]
+        },
+        {
+          "place": "U.S.",
+          "quotes": [
+            "Pivotal drives impact using high-impact investments, philanthropy, partnerships, and advocacy."
+          ]
+        },
+        {
+          "place": "Global South",
+          "quotes": [
+            "Melinda French Gates pens the foreword to a new paper that addresses the need to expand access to affordable credit for women entrepreneurs in the Global South."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Co-chair (2000-2024)",
+          "Co-chair (2000-2024), Gates Foundation",
+          "She founded and co-chaired the Gates Foundation"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Today, she heads Pivotal, an organization she formed in 2015",
+          "an organization she formed in 2015"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Melinda spent the first decade of her career developing multimedia products at Microsoft"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit role mentioned, but implies active position"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1,
+          2,
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Melinda French Gates is a philanthropist, businesswoman, and global advocate for women and girls."
+        ],
+        "confidence": "medium",
+        "notes": "No time or organization linkage, but roles are clearly stated"
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing role information, though context implies active position"
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time and organization linkage, making event less verifiable"
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Roles listed are more descriptive than specific positions, consider verifying classification"
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 2,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

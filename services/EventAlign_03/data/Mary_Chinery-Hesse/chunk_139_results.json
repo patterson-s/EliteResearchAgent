@@ -1,0 +1,232 @@
+{
+  "status": "success",
+  "chunk_id": 139,
+  "chunk_index": 0,
+  "source_url": "https://en.wikipedia.org/wiki/Mary_Chinery-Hesse",
+  "title": "Mary Chinery-Hesse - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1 August 2018",
+          "type": "point",
+          "quotes": [
+            "serving as the first woman Chancellor of the University of Ghana, inducted on 1 August 2018."
+          ]
+        },
+        {
+          "text": "29 October 1938",
+          "type": "point",
+          "quotes": [
+            "Mary Akuokor Chinery-Hesse, FAAS, OSG, née Blay (born 29 October 1938)"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "University of Ghana",
+          "quotes": [
+            "serving as the first woman Chancellor of the University of Ghana, inducted on 1 August 2018."
+          ]
+        },
+        {
+          "name": "International Labour Organization",
+          "quotes": [
+            "She was the first female Deputy Director-General of the International Labour Organization"
+          ]
+        },
+        {
+          "name": "United Nations",
+          "quotes": [
+            "She was also the first woman to attain the rank of Under-Secretary-General of the United Nations in the history of the international organisation."
+          ]
+        },
+        {
+          "name": "Wesley Girls' Senior High School",
+          "quotes": [
+            "She had her secondary education at the Wesley Girls' Senior High School in Cape Coast."
+          ]
+        },
+        {
+          "name": "Supreme Court of Ghana",
+          "quotes": [
+            "Robert Samuel Blay, a barrister, jurist, and Justice of the Supreme Court of Ghana during the First Republic."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Chancellor of the University of Ghana",
+          "quotes": [
+            "serving as the first woman Chancellor of the University of Ghana, inducted on 1 August 2018."
+          ]
+        },
+        {
+          "title": "Deputy Director-General",
+          "quotes": [
+            "She was the first female Deputy Director-General of the International Labour Organization"
+          ]
+        },
+        {
+          "title": "Under-Secretary-General of the United Nations",
+          "quotes": [
+            "She was also the first woman to attain the rank of Under-Secretary-General of the United Nations in the history of the international organisation."
+          ]
+        },
+        {
+          "title": "Justice of the Supreme Court of Ghana",
+          "quotes": [
+            "Robert Samuel Blay, a barrister, jurist, and Justice of the Supreme Court of Ghana during the First Republic."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Cape Coast",
+          "quotes": [
+            "She had her secondary education at the Wesley Girls' Senior High School in Cape Coast."
+          ]
+        },
+        {
+          "place": "Jamestown, Accra",
+          "quotes": [
+            "Her mother was Marjorie Lady Mould of Jamestown, Accra."
+          ]
+        },
+        {
+          "place": "Gold Coast",
+          "quotes": [
+            "Her maternal great-grandfather was John van der Puije, the Gold Coast merchant, newspaper publisher, traditional ruler and politician."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "serving as the first woman Chancellor of the University of Ghana, inducted on 1 August 2018."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "She was the first female Deputy Director-General of the International Labour Organization"
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker, but clear linkage between organization and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "She was also the first woman to attain the rank of Under-Secretary-General of the United Nations in the history of the international organisation."
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker, but clear linkage between organization and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Robert Samuel Blay, a barrister, jurist, and Justice of the Supreme Court of Ghana during the First Republic."
+        ],
+        "confidence": "medium",
+        "notes": "Assuming this role is related to the individual in question based on context, though the quote mentions a different name."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position at International Labour Organization."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position at United Nations."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "error",
+        "issues": [
+          {
+            "type": "quote_support",
+            "severity": "high",
+            "description": "Quote mentions a different individual (Robert Samuel Blay), not clearly linked to the subject."
+          },
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing time marker and unclear linkage to the subject."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 1,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

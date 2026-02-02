@@ -1,0 +1,103 @@
+{
+  "status": "success",
+  "chunk_id": 1096,
+  "chunk_index": 6,
+  "source_url": "https://br.linkedin.com/in/edson-prestes",
+  "title": "Edson Prestes - Association For Computer Machinery | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Computers & Operations Research",
+          "quotes": [
+            "New paper alert: 'Facility Location and Restoration Games' with Suzan Iloglu and Carla Michini has been published in Computers & Operations Research."
+          ]
+        },
+        {
+          "name": "IEEE International Requirements Engineering Conference (RE)",
+          "quotes": [
+            "Our paper 'Prompt Engineering for Requirements Engineering: A Literature Review and Roadmap' was accepted at the Requirements Engineering for Trustworthy Artificial Intelligence (RETRAI) workshop at the IEEE International Requirements Engineering Conference (RE)."
+          ]
+        },
+        {
+          "name": "Monash Information Technology",
+          "quotes": [
+            "The best part is that the paper is the outcome of a Master's student (Kaicheng) project at Monash Information Technology, co-supervised with ultra-talented Fanyu Wang."
+          ]
+        },
+        {
+          "name": "MRS Bulletin",
+          "quotes": [
+            "Our new article, 'Computation and Machine Learning for Materials: Past, Present, and Future Perspectives,' is now published in the MRS Bulletin 50th Anniversary collection."
+          ]
+        },
+        {
+          "name": "IEEE TTS",
+          "quotes": [
+            "🔔 IEEE TTS New Paper: Facial Emotion Recognition in the Future of Work: Social Implications and Policy Recommendations by Elma Hajrić, PhD Farah Najar Arevalo Leonard Bruce Fritz Smith Katina Michael"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "co-supervisor",
+          "quotes": [
+            "The best part is that the paper is the outcome of a Master's student (Kaicheng) project at Monash Information Technology, co-supervised with ultra-talented Fanyu Wang."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The best part is that the paper is the outcome of a Master's student (Kaicheng) project at Monash Information Technology, co-supervised with ultra-talented Fanyu Wang."
+        ],
+        "confidence": "high",
+        "notes": "The role of co-supervisor at Monash Information Technology indicates an active career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the career position, making it difficult to determine the duration or timeframe of the role."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information, though this is less critical for a supervisory role that may not be tied to a specific location."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

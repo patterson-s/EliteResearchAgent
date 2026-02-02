@@ -1,0 +1,118 @@
+{
+  "status": "success",
+  "chunk_id": 796,
+  "chunk_index": 0,
+  "source_url": "https://www.unwomen.org/en/news/stories/2018/7/partner-profile-interview-with-nikolai-astrup",
+  "title": "Interview with Nikolai Astrup, Norwegian Minister of International Development. | UN Women – Headquarters",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In 2018",
+          "type": "point",
+          "quotes": [
+            "In 2018, the Government of Norway contributed regular resources of USD 10.8 million to UN Women."
+          ]
+        },
+        {
+          "text": "2017",
+          "type": "point",
+          "quotes": [
+            "we have therefore doubled our aid to education over the last years to 3,4 billion NOK in 2017."
+          ]
+        },
+        {
+          "text": "This year",
+          "type": "point",
+          "quotes": [
+            "This year, Norway will launch its fourth National Action Plan for Women, Peace and Security."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Government of Norway",
+          "quotes": [
+            "In 2018, the Government of Norway contributed regular resources of USD 10.8 million to UN Women."
+          ]
+        },
+        {
+          "name": "UN Women",
+          "quotes": [
+            "In 2018, the Government of Norway contributed regular resources of USD 10.8 million to UN Women."
+          ]
+        },
+        {
+          "name": "Ministry of Foreign Affairs Norway",
+          "quotes": [
+            "Nikolai Astrup, Minister of International Development of Norway. Photo: Ministry of Foreign Affairs Norway/Sturlason"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Minister of International Development of Norway",
+          "quotes": [
+            "Nikolai Astrup, Minister of International Development of Norway."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Norway",
+          "quotes": [
+            "Nikolai Astrup, Minister of International Development of Norway."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Nikolai Astrup, Minister of International Development of Norway.",
+          "Ministry of Foreign Affairs Norway/Sturlason"
+        ],
+        "confidence": "high",
+        "notes": "No explicit time marker, but role and organization are clearly linked."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position, though notes suggest role and organization are linked."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

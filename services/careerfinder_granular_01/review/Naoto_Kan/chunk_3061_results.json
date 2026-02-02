@@ -1,0 +1,183 @@
+{
+  "status": "success",
+  "chunk_id": 3061,
+  "chunk_index": 0,
+  "source_url": "https://www.un.org/sg/en/management/bios/Kan.shtml",
+  "title": "NAOTO KAN (JAPAN) | Secretary-General | United Nations",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2011",
+          "type": "point",
+          "quotes": [
+            "As Prime Minister, Mr. Kan led Japan's emergency response to the 2011 Great East Japan Earthquake, tsunami and Fukushima Daiichi nuclear accident."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "United Nations",
+          "quotes": [
+            "NAOTO KAN (JAPAN) | Secretary-General | United Nations"
+          ]
+        },
+        {
+          "name": "Japan's Technical Committee on Renewable Energy",
+          "quotes": [
+            "He is currently an advisor on renewable energy for Japan's Technical Committee on Renewable Energy."
+          ]
+        },
+        {
+          "name": "Japan's Foreign Affairs Committee",
+          "quotes": [
+            "He was also the Minister of Health and Welfare, and Chairman of Japan's Foreign Affairs Committee."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Prime Minister of Japan",
+          "quotes": [
+            "Mr. Kan is the former Prime Minister of Japan.",
+            "As Prime Minister, Mr. Kan led Japan's emergency response to the 2011 Great East Japan Earthquake, tsunami and Fukushima Daiichi nuclear accident."
+          ]
+        },
+        {
+          "title": "Minister of Health and Welfare",
+          "quotes": [
+            "He was also the Minister of Health and Welfare, and Chairman of Japan's Foreign Affairs Committee."
+          ]
+        },
+        {
+          "title": "Chairman of Japan's Foreign Affairs Committee",
+          "quotes": [
+            "He was also the Minister of Health and Welfare, and Chairman of Japan's Foreign Affairs Committee."
+          ]
+        },
+        {
+          "title": "advisor on renewable energy",
+          "quotes": [
+            "He is currently an advisor on renewable energy for Japan's Technical Committee on Renewable Energy."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Japan",
+          "quotes": [
+            "Mr. Kan is the former Prime Minister of Japan.",
+            "As Prime Minister, Mr. Kan led Japan's emergency response to the 2011 Great East Japan Earthquake, tsunami and Fukushima Daiichi nuclear accident."
+          ]
+        },
+        {
+          "place": "Fukushima",
+          "quotes": [
+            "As Prime Minister, Mr. Kan led Japan's emergency response to the 2011 Great East Japan Earthquake, tsunami and Fukushima Daiichi nuclear accident."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0,
+          1
+        ],
+        "supporting_quotes": [
+          "As Prime Minister, Mr. Kan led Japan's emergency response to the 2011 Great East Japan Earthquake, tsunami and Fukushima Daiichi nuclear accident.",
+          "Mr. Kan is the former Prime Minister of Japan."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role, time, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "He was also the Minister of Health and Welfare, and Chairman of Japan's Foreign Affairs Committee."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role and organization."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "He is currently an advisor on renewable energy for Japan's Technical Committee on Renewable Energy."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role and organization."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the Prime Minister role."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time information for the Minister of Health and Welfare and Chairman roles."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

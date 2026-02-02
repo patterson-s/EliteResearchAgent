@@ -1,0 +1,119 @@
+{
+  "status": "success",
+  "chunk_id": 2957,
+  "chunk_index": 0,
+  "source_url": "https://www.mfa.gov.cn/eng/wjb/zzjg_663340/gjs_665170/gjzzyhy_665174/2594_665176/2602_665192/202406/t20240606_11404479.html",
+  "title": "Statement by H.E. Ambassador WANG Yingfan, Head of the Chinese Delegation and Permanent Representative of China to the UN at the High-Level Segment of ECOSOC'S Substantive Session_Ministry of Foreign Affairs of the People's Republic of China",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "July 10, 2002",
+          "type": "point",
+          "quotes": [
+            "Updated: July 10, 2002 00:00"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Ministry of Foreign Affairs of the People's Republic of China",
+          "quotes": [
+            "Statement by H.E. Ambassador WANG Yingfan, Head of the Chinese Delegation and Permanent Representative of China to the UN at the High-Level Segment of ECOSOC'S Substantive Session_Ministry of Foreign Affairs of the People's Republic of China"
+          ]
+        },
+        {
+          "name": "United Nations (UN)",
+          "quotes": [
+            "Permanent Representative of China to the UN"
+          ]
+        },
+        {
+          "name": "ECOSOC",
+          "quotes": [
+            "High-Level Segment of ECOSOC'S Substantive Session"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Head of the Chinese Delegation",
+          "quotes": [
+            "Statement by H.E. Ambassador WANG Yingfan, Head of the Chinese Delegation and Permanent Representative of China to the UN"
+          ]
+        },
+        {
+          "title": "Permanent Representative of China to the UN",
+          "quotes": [
+            "Statement by H.E. Ambassador WANG Yingfan, Head of the Chinese Delegation and Permanent Representative of China to the UN"
+          ]
+        },
+        {
+          "title": "Ambassador",
+          "quotes": [
+            "H.E. Ambassador WANG Yingfan"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [
+          0,
+          1,
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Updated: July 10, 2002 00:00",
+          "Statement by H.E. Ambassador WANG Yingfan, Head of the Chinese Delegation and Permanent Representative of China to the UN at the High-Level Segment of ECOSOC'S Substantive Session_Ministry of Foreign Affairs of the People's Republic of China",
+          "Permanent Representative of China to the UN",
+          "H.E. Ambassador WANG Yingfan"
+        ],
+        "confidence": "high",
+        "notes": "All roles and organizations are mentioned in the same context, indicating a single career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information, which might be expected for a career position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The event is classified as a career_position, but the roles include 'Ambassador' which could be an honorary title. However, given the context of active representation, it seems appropriate."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

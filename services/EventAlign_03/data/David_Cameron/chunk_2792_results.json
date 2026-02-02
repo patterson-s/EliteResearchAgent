@@ -1,0 +1,191 @@
+{
+  "status": "success",
+  "chunk_id": 2792,
+  "chunk_index": 11,
+  "source_url": "https://en.wikipedia.org/wiki/David_Cameron",
+  "title": "David Cameron - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "Two days before Duncan Smith won the leadership contest on 13 September 2001",
+          "type": "point",
+          "quotes": [
+            "Two days before Duncan Smith won the leadership contest on 13 September 2001, the 9/11 attacks occurred."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Labour Party",
+          "quotes": [
+            "'crossed the floor' to join the Labour Party, and was selected instead for the safe Labour seat of St Helens South."
+          ]
+        },
+        {
+          "name": "The Guardian",
+          "quotes": [
+            "During the election campaign, Cameron accepted the offer of writing a regular column for The Guardian's online section."
+          ]
+        },
+        {
+          "name": "Commons Home Affairs Select Committee",
+          "quotes": [
+            "Upon his election to Parliament, Cameron served as a member of the Commons Home Affairs Select Committee, a prominent appointment for a newly elected MP."
+          ]
+        },
+        {
+          "name": "Conservative Party",
+          "quotes": [
+            "Cameron endorsed Iain Duncan Smith in the 2001 Conservative Party leadership election and organised an event in Witney for party supporters to hear John Bercow speaking for him."
+          ]
+        },
+        {
+          "name": "Commission for Racial Equality",
+          "quotes": [
+            "He opposed the payment of compensation to Gurbux Singh, who had resigned as head of the Commission for Racial Equality after a confrontation with the police;"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Parliamentary backbencher",
+          "quotes": [
+            "Upon his election to Parliament, Cameron served as a member of the Commons Home Affairs Select Committee, a prominent appointment for a newly elected MP."
+          ]
+        },
+        {
+          "title": "member of the Commons Home Affairs Select Committee",
+          "quotes": [
+            "Upon his election to Parliament, Cameron served as a member of the Commons Home Affairs Select Committee, a prominent appointment for a newly elected MP."
+          ]
+        },
+        {
+          "title": "head of the Commission for Racial Equality",
+          "quotes": [
+            "He opposed the payment of compensation to Gurbux Singh, who had resigned as head of the Commission for Racial Equality after a confrontation with the police;"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "St Helens South",
+          "quotes": [
+            "'crossed the floor' to join the Labour Party, and was selected instead for the safe Labour seat of St Helens South."
+          ]
+        },
+        {
+          "place": "Witney",
+          "quotes": [
+            "Cameron endorsed Iain Duncan Smith in the 2001 Conservative Party leadership election and organised an event in Witney for party supporters to hear John Bercow speaking for him."
+          ]
+        },
+        {
+          "place": "Afghanistan",
+          "quotes": [
+            "He correctly identified the problem of Islamist extremism, the inadequacy of our response both domestically and internationally, and supported—quite rightly in my view—the action to remove the Taliban regime from Afghanistan."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Cameron endorsed Iain Duncan Smith in the 2001 Conservative Party leadership election and organised an event in Witney for party supporters to hear John Bercow speaking for him."
+        ],
+        "confidence": "high",
+        "notes": "No specific role mentioned, but active involvement in party leadership election indicates a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          1,
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Upon his election to Parliament, Cameron served as a member of the Commons Home Affairs Select Committee, a prominent appointment for a newly elected MP."
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of a career position with active responsibilities."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He opposed the payment of compensation to Gurbux Singh, who had resigned as head of the Commission for Racial Equality after a confrontation with the police;"
+        ],
+        "confidence": "medium",
+        "notes": "The role is mentioned in the context of opposition to compensation, implying an active position, but the exact nature of the involvement is unclear."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role_ids for a career_position event. While the notes suggest active involvement, the absence of a specific role makes it incomplete."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The role is mentioned in the context of opposition to compensation, but it's unclear if this constitutes an active career position or a one-time action."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing location_ids for a career_position event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "status": "success",
+  "chunk_id": 237,
+  "chunk_index": 5,
+  "source_url": "https://en.wikipedia.org/wiki/Enrique_Iglesias",
+  "title": "Enrique Iglesias - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "March 1999",
+          "type": "point",
+          "quotes": [
+            "After attending one of Iglesias's concerts in March 1999, American actor Will Smith asked Iglesias to contribute a song to the soundtrack of his upcoming movie Wild Wild West;"
+          ]
+        },
+        {
+          "text": "8 June 2000",
+          "type": "point",
+          "quotes": [
+            "On 8 June 2000, Iglesias came to New York and sang the song, live and unplugged, on Stern's show with just an accompanying guitarist."
+          ]
+        },
+        {
+          "text": "2000",
+          "type": "point",
+          "quotes": [
+            "In 2000, Iglesias performed at the Super Bowl XXXIV halftime show with Christina Aguilera, Phil Collins and Toni Braxton."
+          ]
+        },
+        {
+          "text": "2001",
+          "type": "point",
+          "quotes": [
+            "In 2001, Iglesias released his second English-language album Escape."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Interscope",
+          "quotes": [
+            "Signing a multi-album deal, after weeks of negotiations with Interscope, Iglesias recorded and released his first full record in English, Enrique."
+          ]
+        },
+        {
+          "name": "Billboard",
+          "quotes": [
+            "becoming an international hit and peaking at number one on the US Billboard Hot 100.",
+            "The album's single 'Be with You' became Iglesias's second number-one single on Billboard's Hot 100 chart."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "actor",
+          "quotes": [
+            "American actor Will Smith asked Iglesias to contribute a song to the soundtrack of his upcoming movie Wild Wild West;"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "New York",
+          "quotes": [
+            "On 8 June 2000, Iglesias came to New York and sang the song, live and unplugged, on Stern's show with just an accompanying guitarist."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "After attending one of Iglesias's concerts in March 1999, American actor Will Smith asked Iglesias to contribute a song to the soundtrack of his upcoming movie Wild Wild West;"
+        ],
+        "confidence": "medium",
+        "notes": "No direct organization or role mentioned, but implies a collaborative project."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "On 8 June 2000, Iglesias came to New York and sang the song, live and unplugged, on Stern's show with just an accompanying guitarist."
+        ],
+        "confidence": "high",
+        "notes": "Performance event with clear location and time."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2000, Iglesias performed at the Super Bowl XXXIV halftime show with Christina Aguilera, Phil Collins and Toni Braxton."
+        ],
+        "confidence": "high",
+        "notes": "Major performance event with clear time."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2001, Iglesias released his second English-language album Escape."
+        ],
+        "confidence": "high",
+        "notes": "Album release event with clear time."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Signing a multi-album deal, after weeks of negotiations with Interscope, Iglesias recorded and released his first full record in English, Enrique."
+        ],
+        "confidence": "high",
+        "notes": "Signing event with clear organization, but no specific time marker."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and role details, though the event implies a collaborative project."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position, but lacks typical career position details like role or organization."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position, but appears to be a performance event rather than a formal role."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position, but appears to be a performance event rather than a formal role."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position, but appears to be an album release rather than a formal role."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "Missing time marker for the signing event."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position, but appears to be a signing event rather than a formal role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 0,
+      "warnings": 5,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "status": "success",
+  "chunk_id": 24,
+  "chunk_index": 2,
+  "source_url": "https://www.cfr.org/blog/anand-panyarachun-and-making-modern-thailand-review",
+  "title": "Anand Panyarachun and The Making of Modern Thailand: A Review | Council on Foreign Relations",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "following the 1976 military coup",
+          "type": "point",
+          "quotes": [
+            "U.S. military presence in the kingdom made him particularly unpopular with Thailand’s generals, who charged him with communist tendencies following the 1976 military coup and the Thammasat University massacre."
+          ]
+        },
+        {
+          "text": "1978",
+          "type": "point",
+          "quotes": [
+            "this experience had a profound impact on Anand and his family—it led to his decision to exit the foreign service in 1978 and start a second career in business."
+          ]
+        },
+        {
+          "text": "1991",
+          "type": "point",
+          "quotes": [
+            "Anand’s rise to premiership in 1991 was unexpected."
+          ]
+        },
+        {
+          "text": "May 1992",
+          "type": "point",
+          "quotes": [
+            "Anand’s second term as Thailand’s prime minister followed General Suchinda’s short-lived elected government and the bloody crackdown on anti-government protesters in May 1992."
+          ]
+        },
+        {
+          "text": "104 days long",
+          "type": "range",
+          "quotes": [
+            "Anand’s second term was only 104 days long and had no legislative agenda."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Thammasat University",
+          "quotes": [
+            "U.S. military presence in the kingdom made him particularly unpopular with Thailand’s generals, who charged him with communist tendencies following the 1976 military coup and the Thammasat University massacre."
+          ]
+        },
+        {
+          "name": "Royal Thai Army",
+          "quotes": [
+            "This was a missed opportunity to hold the Royal Thai Army accountable for the May 1992 events, but Anand maintains to this day that any formal investigation was the responsibility of the elected governments that came to power after him."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "prime minister",
+          "quotes": [
+            "Anand’s rise to premiership in 1991 was unexpected.",
+            "Anand’s second term as Thailand’s prime minister followed General Suchinda’s short-lived elected government and the bloody crackdown on anti-government protesters in May 1992."
+          ]
+        },
+        {
+          "title": "chairing the constitution drafting committee",
+          "quotes": [
+            "Following his two premierships, Anand returned to work in the private sector. He also became involved in many activities with public-service elements, both in Thailand and abroad. Some of his most notable contributions include chairing the constitution drafting committee that"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Thailand",
+          "quotes": [
+            "U.S. military presence in the kingdom made him particularly unpopular with Thailand’s generals, who charged him with communist tendencies following the 1976 military coup and the Thammasat University massacre.",
+            "Anand’s second term as Thailand’s prime minister followed General Suchinda’s short-lived elected government and the bloody crackdown on anti-government protesters in May 1992.",
+            "Following his two premierships, Anand returned to work in the private sector. He also became involved in many activities with public-service elements, both in Thailand and abroad."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Anand’s rise to premiership in 1991 was unexpected.",
+          "Anand’s second term as Thailand’s prime minister followed General Suchinda’s short-lived elected government and the bloody crackdown on anti-government protesters in May 1992."
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of Anand's role as prime minister starting in 1991."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Anand’s second term as Thailand’s prime minister followed General Suchinda’s short-lived elected government and the bloody crackdown on anti-government protesters in May 1992."
+        ],
+        "confidence": "high",
+        "notes": "Second term as prime minister starting in May 1992, though short-lived."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Following his two premierships, Anand returned to work in the private sector. He also became involved in many activities with public-service elements, both in Thailand and abroad. Some of his most notable contributions include chairing the constitution drafting committee that"
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker, but role is clearly a career position following his premierships."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position as prime minister."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position as prime minister."
+          },
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "End date for the second term is not explicitly provided, though it is mentioned as 'short-lived' and '104 days long'."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position following premierships."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "status": "success",
+  "chunk_id": 2764,
+  "chunk_index": 20,
+  "source_url": "https://achievement.org/achiever/ellen-johnson-sirleaf/",
+  "title": "Ellen Johnson Sirleaf | Academy of Achievement",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "After the 1997 elections",
+          "type": "point",
+          "quotes": [
+            "After the 1997 elections, for example, after all the effort we made and the results that were announced."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "legislature",
+          "quotes": [
+            "My father, in a way, was a leader, since he was one of the first native persons in our legislature."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "leader",
+          "quotes": [
+            "My father, in a way, was a leader, since he was one of the first native persons in our legislature."
+          ]
+        },
+        {
+          "title": "lawyer",
+          "quotes": [
+            "He was a lawyer, but he was also, like I said, the first one to represent the indigenous population in our legislature."
+          ]
+        },
+        {
+          "title": "teacher",
+          "quotes": [
+            "My mother was a teacher, but that also enabled her to exhibit some leadership by bringing all the — so many of the children in the neighborhood remember her and the role she played."
+          ]
+        },
+        {
+          "title": "pastor",
+          "quotes": [
+            "She subsequently became a pastor, and that put her in a leadership position in the church."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "My father, in a way, was a leader, since he was one of the first native persons in our legislature.",
+          "He was a lawyer, but he was also, like I said, the first one to represent the indigenous population in our legislature."
+        ],
+        "confidence": "high",
+        "notes": "The roles 'leader' and 'lawyer' are clearly associated with the 'legislature' organization."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "My mother was a teacher, but that also enabled her to exhibit some leadership by bringing all the — so many of the children in the neighborhood remember her and the role she played."
+        ],
+        "confidence": "high",
+        "notes": "The role 'teacher' is mentioned without a specific organization, but it is clearly a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "She subsequently became a pastor, and that put her in a leadership position in the church."
+        ],
+        "confidence": "high",
+        "notes": "The role 'pastor' is mentioned without a specific organization, but it is clearly a career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and time markers for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and time markers for the career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

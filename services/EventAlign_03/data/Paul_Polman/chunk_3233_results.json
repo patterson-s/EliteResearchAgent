@@ -1,0 +1,144 @@
+{
+  "status": "success",
+  "chunk_id": 3233,
+  "chunk_index": 9,
+  "source_url": "https://uk.linkedin.com/in/paulpolman",
+  "title": "Paul Polman - Business, campaigning, younger me nearly a priest. ‘Net Positive: how courageous companies thrive by giving more than they take’ #1 Thinkers50 | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "since the 2015 Paris Agreement",
+          "type": "open",
+          "quotes": [
+            "Witness investigation, based on analysis by Profundo, shows that banks and asset managers globally derived $26 billion in income through their funding of 50 deforesting companies since the 2015 Paris Agreement."
+          ]
+        },
+        {
+          "text": "next month",
+          "type": "point",
+          "quotes": [
+            "At #COP30 next month, the Brazilian government plans to launch the Tropical Forests Forever Facility (#TFFF), a flagship new fund designed to protect tropical forests by investing in global financial markets and using the returns to support forested countries."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Profundo",
+          "quotes": [
+            "Witness investigation, based on analysis by Profundo, shows that banks and asset managers globally derived $26 billion in income through their funding of 50 deforesting companies since the 2015 Paris Agreement."
+          ]
+        },
+        {
+          "name": "Cargill",
+          "quotes": [
+            "These firms include the likes of US commodity trader Cargill, Singapore-based palm oil giant Wilmar and Brazilian meat company JBS."
+          ]
+        },
+        {
+          "name": "Wilmar",
+          "quotes": [
+            "These firms include the likes of US commodity trader Cargill, Singapore-based palm oil giant Wilmar and Brazilian meat company JBS."
+          ]
+        },
+        {
+          "name": "JBS",
+          "quotes": [
+            "These firms include the likes of US commodity trader Cargill, Singapore-based palm oil giant Wilmar and Brazilian meat company JBS."
+          ]
+        },
+        {
+          "name": "The London School of Economics and Political Science (LSE)",
+          "quotes": [
+            "We asked Professor Professor Nicola Ranger from the The London School of Economics and Political Science (LSE)."
+          ]
+        },
+        {
+          "name": "Tropical Forests Forever Facility (#TFFF)",
+          "quotes": [
+            "At #COP30 next month, the Brazilian government plans to launch the Tropical Forests Forever Facility (#TFFF), a flagship new fund designed to protect tropical forests by investing in global financial markets and using the returns to support forested countries."
+          ]
+        },
+        {
+          "name": "Institutional Investors Group on Climate Change (IIGCC)",
+          "quotes": [
+            "The Institutional Investors Group on Climate Change (IIGCC) released a report detailing strategies for the UK to establish itself as a leading sustainable finance hub."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Professor",
+          "quotes": [
+            "We asked Professor Professor Nicola Ranger from the The London School of Economics and Political Science (LSE)."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "UK",
+          "quotes": [
+            "The UK as a Climate Finance Hub 2025 report",
+            "The Institutional Investors Group on Climate Change (IIGCC) released a report detailing strategies for the UK to establish itself as a leading sustainable finance hub."
+          ]
+        },
+        {
+          "place": "Emerging Markets and Developing Economies (EMDEs)",
+          "quotes": [
+            "A primary focus is mobilizing institutional investment into Emerging Markets and Developing Economies (EMDEs), essential for global climate mitigation and adaptation efforts."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "We asked Professor Professor Nicola Ranger from the The London School of Economics and Political Science (LSE)."
+        ],
+        "confidence": "high",
+        "notes": "Professor role is clearly associated with The London School of Economics and Political Science (LSE)."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the career position, making it difficult to determine the duration or period of the role."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information, though the organization (LSE) is based in the UK, this is not explicitly stated in the event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

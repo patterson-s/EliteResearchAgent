@@ -1,0 +1,234 @@
+{
+  "status": "success",
+  "chunk_id": 3739,
+  "chunk_index": 42,
+  "source_url": "https://en.wikipedia.org/wiki/Gordon_Brown",
+  "title": "Gordon Brown - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1997–2001",
+          "type": "range",
+          "quotes": [
+            "First (1997–2001)"
+          ]
+        },
+        {
+          "text": "2001–2005",
+          "type": "range",
+          "quotes": [
+            "Second (2001–2005)"
+          ]
+        },
+        {
+          "text": "2005–2007",
+          "type": "range",
+          "quotes": [
+            "Third (2005–2007)"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Labour Party",
+          "quotes": [
+            "Leaders of the Labour Party"
+          ]
+        },
+        {
+          "name": "Brown Cabinet",
+          "quotes": [
+            "Brown Cabinet"
+          ]
+        },
+        {
+          "name": "Blair Cabinet",
+          "quotes": [
+            "Blair Cabinet"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Leaders",
+          "quotes": [
+            "Leaders of the Labour Party"
+          ]
+        },
+        {
+          "title": "Deputy Leaders",
+          "quotes": [
+            "Deputy Leaders"
+          ]
+        },
+        {
+          "title": "General Secretaries",
+          "quotes": [
+            "General Secretaries"
+          ]
+        },
+        {
+          "title": "Treasurers",
+          "quotes": [
+            "Treasurers"
+          ]
+        },
+        {
+          "title": "Leaders in the Lords",
+          "quotes": [
+            "Leaders in the Lords"
+          ]
+        },
+        {
+          "title": "Scottish Labour Leaders",
+          "quotes": [
+            "Scottish Labour Leaders"
+          ]
+        },
+        {
+          "title": "PLP Chairs",
+          "quotes": [
+            "PLP Chairs"
+          ]
+        },
+        {
+          "title": "EPLP Leaders",
+          "quotes": [
+            "EPLP Leaders"
+          ]
+        },
+        {
+          "title": "Cabinet members",
+          "quotes": [
+            "Cabinet members"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "First (1997–2001)",
+          "Leaders of the Labour Party"
+        ],
+        "confidence": "high",
+        "notes": "Direct linkage between time marker and role/organization through shared quotes."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Second (2001–2005)",
+          "Deputy Leaders"
+        ],
+        "confidence": "medium",
+        "notes": "Assumed linkage based on sequential time markers and roles within the same organization."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Third (2005–2007)",
+          "General Secretaries"
+        ],
+        "confidence": "medium",
+        "notes": "Assumed linkage based on sequential time markers and roles within the same organization."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quote 'First (1997–2001)' does not clearly mention the role or organization."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quote 'Second (2001–2005)' does not clearly mention the role or organization."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quote 'Third (2005–2007)' does not clearly mention the role or organization."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

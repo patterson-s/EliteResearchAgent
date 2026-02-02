@@ -1,0 +1,232 @@
+{
+  "status": "success",
+  "chunk_id": 3705,
+  "chunk_index": 8,
+  "source_url": "https://en.wikipedia.org/wiki/Gordon_Brown",
+  "title": "Gordon Brown - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In October 1997",
+          "type": "point",
+          "quotes": [
+            "In October 1997, Brown announced that the Treasury would set five economic tests to determine whether the economic case had been made for the United Kingdom to adopt the European single currency."
+          ]
+        },
+        {
+          "text": "June 2003",
+          "type": "point",
+          "quotes": [
+            "The Treasury indicated that the tests had not been passed in June 2003."
+          ]
+        },
+        {
+          "text": "In 2000",
+          "type": "point",
+          "quotes": [
+            "In 2000, Brown was accused of starting a political row about higher education (referred to as the Laura Spence affair) when he accused the University of Oxford of elitism in its admissions procedures, describing its decision not to offer a place to state school pupil Laura Spence as 'absolutely outrageous'."
+          ]
+        },
+        {
+          "text": "Between 1999 and 2002",
+          "type": "range",
+          "quotes": [
+            "Between 1999 and 2002 Brown sold 60% of the UK's gold reserves shortly before gold entered a protracted bull market, since nicknamed by dealers as the Brown Bottom or Brown's Bottom."
+          ]
+        },
+        {
+          "text": "from July 1999 to March 2002",
+          "type": "range",
+          "quotes": [
+            "The UK eventually sold about 395 tons of gold over 17 auctions from July 1999 to March 2002, at an average price of about US$275 per ounce, raising approximately US$3.5 billion."
+          ]
+        },
+        {
+          "text": "By 2011",
+          "type": "point",
+          "quotes": [
+            "By 2011, that quantity of gold would be worth over $19 billion, leading to Brown's decision to sell the gold being widely criticised."
+          ]
+        },
+        {
+          "text": "As of August 2024",
+          "type": "point",
+          "quotes": [
+            "As of August 2024 the gold prize is approximately £1,905 per ounce, which would value the reserves sold at £26.5 billion."
+          ]
+        },
+        {
+          "text": "in 2004",
+          "type": "point",
+          "quotes": [
+            "As Chancellor, Brown argued against renationalising the railways, saying at the Labour conference in 2004 that it would cost £22 billion."
+          ]
+        },
+        {
+          "text": "On 20 April 2006",
+          "type": "point",
+          "quotes": [
+            "On 20 April 2006, in a speech to the United Nations Ambassadors, Brown outlined a 'Green' view of global development."
+          ]
+        },
+        {
+          "text": "In October 2004",
+          "type": "point",
+          "quotes": [
+            "In October 2004, Blair announced he would not lead the party into a fourth general election, but would serve a full third term."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Treasury",
+          "quotes": [
+            "In October 1997, Brown announced that the Treasury would set five economic tests to determine whether the economic case had been made for the United Kingdom to adopt the European single currency."
+          ]
+        },
+        {
+          "name": "University of Oxford",
+          "quotes": [
+            "In 2000, Brown was accused of starting a political row about higher education (referred to as the Laura Spence affair) when he accused the University of Oxford of elitism in its admissions procedures, describing its decision not to offer a place to state school pupil Laura Spence as 'absolutely outrageous'."
+          ]
+        },
+        {
+          "name": "United Nations",
+          "quotes": [
+            "On 20 April 2006, in a speech to the United Nations Ambassadors, Brown outlined a 'Green' view of global development."
+          ]
+        },
+        {
+          "name": "Labour Party",
+          "quotes": [
+            "In October 2004, Blair announced he would not lead the party into a fourth general election, but would serve a full third term."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Chancellor",
+          "quotes": [
+            "As Chancellor, Brown argued against renationalising the railways, saying at the Labour conference in 2004 that it would cost £22 billion."
+          ]
+        },
+        {
+          "title": "Chancellor of the Exchequer",
+          "quotes": [
+            "Lord Jenkins, then Oxford Chancellor and himself a former Labour Chancellor of the Exchequer, said 'nearly every fact he used was false.'"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "United Kingdom",
+          "quotes": [
+            "In October 1997, Brown announced that the Treasury would set five economic tests to determine whether the economic case had been made for the United Kingdom to adopt the European single currency."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1,
+          4
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "In October 1997, Brown announced that the Treasury would set five economic tests to determine whether the economic case had been made for the United Kingdom to adopt the European single currency.",
+          "The Treasury indicated that the tests had not been passed in June 2003.",
+          "The UK eventually sold about 395 tons of gold over 17 auctions from July 1999 to March 2002, at an average price of about US$275 per ounce, raising approximately US$3.5 billion."
+        ],
+        "confidence": "high",
+        "notes": "The role of Chancellor of the Exchequer is clearly associated with the Treasury and the United Kingdom, with multiple time markers indicating an ongoing position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          7
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "As Chancellor, Brown argued against renationalising the railways, saying at the Labour conference in 2004 that it would cost £22 billion."
+        ],
+        "confidence": "medium",
+        "notes": "The role of Chancellor is mentioned, but the organization and location are not explicitly stated in the same quote. However, it is implied to be related to the United Kingdom."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          8
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "On 20 April 2006, in a speech to the United Nations Ambassadors, Brown outlined a 'Green' view of global development."
+        ],
+        "confidence": "medium",
+        "notes": "The event involves a speech to the United Nations Ambassadors, implying an official role, but the specific role is not mentioned."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing organization and location information, though implied to be related to the United Kingdom."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, though the event implies an official capacity."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

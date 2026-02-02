@@ -1,0 +1,236 @@
+{
+  "status": "success",
+  "chunk_id": 1003,
+  "chunk_index": 4,
+  "source_url": "https://en.wikipedia.org/wiki/Doris_Leuthard",
+  "title": "Doris Leuthard - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Christian Democratic People's Party of Switzerland",
+          "quotes": [
+            "Christian Democratic People's Party of Switzerland politicians"
+          ]
+        },
+        {
+          "name": "Federal Council (Switzerland)",
+          "quotes": [
+            "Members of the Federal Council (Switzerland)"
+          ]
+        },
+        {
+          "name": "National Council (Switzerland)",
+          "quotes": [
+            "Members of the National Council (Switzerland) 1999–2003",
+            "Members of the National Council (Switzerland) 2003–2007"
+          ]
+        },
+        {
+          "name": "University of Zurich",
+          "quotes": [
+            "University of Zurich alumni"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Agriculture ministers of Switzerland",
+          "quotes": [
+            "Agriculture ministers of Switzerland"
+          ]
+        },
+        {
+          "title": "Ministers of environment, transport, energy and communications of Switzerland",
+          "quotes": [
+            "Ministers of environment, transport, energy and communications of Switzerland"
+          ]
+        },
+        {
+          "title": "Presidents of the Swiss Confederation",
+          "quotes": [
+            "Presidents of the Swiss Confederation"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Aargau",
+          "quotes": [
+            "Politicians from Aargau"
+          ]
+        },
+        {
+          "place": "Muri District",
+          "quotes": [
+            "People from Muri District"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Christian Democratic People's Party of Switzerland politicians",
+          "Politicians from Aargau"
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but affiliation with the party and location is clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0,
+          1,
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Members of the Federal Council (Switzerland)",
+          "Agriculture ministers of Switzerland",
+          "Ministers of environment, transport, energy and communications of Switzerland",
+          "Presidents of the Swiss Confederation"
+        ],
+        "confidence": "high",
+        "notes": "Multiple roles associated with the Federal Council, indicating active positions."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Members of the National Council (Switzerland) 1999–2003",
+          "Members of the National Council (Switzerland) 2003–2007"
+        ],
+        "confidence": "high",
+        "notes": "Membership in the National Council indicates an active role, though specific time periods are mentioned without specific roles."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "University of Zurich alumni"
+        ],
+        "confidence": "low",
+        "notes": "Alumni status does not necessarily imply an active role, but it is classified as a career position due to the lack of indicators for an award."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "People from Muri District"
+        ],
+        "confidence": "low",
+        "notes": "Location mentioned without any associated organization or role, but classified as a career position due to the lack of indicators for an award."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, making it unclear what specific career position is held."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classification as career_position is uncertain without a clear role, though party affiliation is present."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, though time periods and organization are clear."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "medium",
+            "description": "Alumni status is not typically a career position and lacks indicators of an active role."
+          },
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing role and time information, making the event incomplete."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "medium",
+            "description": "Location mention without organization or role does not clearly indicate a career position."
+          },
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization and role information, making the event incomplete."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 1,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

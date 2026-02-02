@@ -1,0 +1,378 @@
+{
+  "status": "success",
+  "chunk_id": 3210,
+  "chunk_index": 2,
+  "source_url": "https://en.wikipedia.org/wiki/Paul_Polman",
+  "title": "Paul Polman - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "May 2018",
+          "type": "point",
+          "quotes": [
+            "In May 2018, Polman received an honorary doctorate from George Mason University."
+          ]
+        },
+        {
+          "text": "1979",
+          "type": "point",
+          "quotes": [
+            "Polman worked for Procter & Gamble for 27 years, starting in 1979 as a cost analyst,"
+          ]
+        },
+        {
+          "text": "from 1995 to 1998",
+          "type": "range",
+          "quotes": [
+            "becoming managing director of P&G U.K. from 1995 to 1998,"
+          ]
+        },
+        {
+          "text": "from 1998 to 2001",
+          "type": "range",
+          "quotes": [
+            "president of global fabric care from 1998 to 2001,"
+          ]
+        },
+        {
+          "text": "2001",
+          "type": "point",
+          "quotes": [
+            "and group president for Europe in 2001."
+          ]
+        },
+        {
+          "text": "2006",
+          "type": "point",
+          "quotes": [
+            "Polman then joined Nestlé in 2006 as chief financial officer"
+          ]
+        },
+        {
+          "text": "February 2008",
+          "type": "point",
+          "quotes": [
+            "and in February 2008 became vice president and head of the Americas."
+          ]
+        },
+        {
+          "text": "1 January 2009",
+          "type": "point",
+          "quotes": [
+            "On 1 January 2009, Polman succeeded Patrick Cescau as chief executive officer of Unilever."
+          ]
+        },
+        {
+          "text": "2013 and 2014",
+          "type": "range",
+          "quotes": [
+            "the company missed sales targets for six out of eight quarters in 2013 and 2014."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "George Mason University",
+          "quotes": [
+            "In May 2018, Polman received an honorary doctorate from George Mason University."
+          ]
+        },
+        {
+          "name": "Procter & Gamble",
+          "quotes": [
+            "Polman worked for Procter & Gamble for 27 years, starting in 1979 as a cost analyst,"
+          ]
+        },
+        {
+          "name": "P&G U.K.",
+          "quotes": [
+            "becoming managing director of P&G U.K. from 1995 to 1998,"
+          ]
+        },
+        {
+          "name": "Nestlé",
+          "quotes": [
+            "Polman then joined Nestlé in 2006 as chief financial officer"
+          ]
+        },
+        {
+          "name": "Unilever",
+          "quotes": [
+            "On 1 January 2009, Polman succeeded Patrick Cescau as chief executive officer of Unilever."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "cost analyst",
+          "quotes": [
+            "starting in 1979 as a cost analyst,"
+          ]
+        },
+        {
+          "title": "managing director of P&G U.K.",
+          "quotes": [
+            "becoming managing director of P&G U.K. from 1995 to 1998,"
+          ]
+        },
+        {
+          "title": "president of global fabric care",
+          "quotes": [
+            "president of global fabric care from 1998 to 2001,"
+          ]
+        },
+        {
+          "title": "group president for Europe",
+          "quotes": [
+            "and group president for Europe in 2001."
+          ]
+        },
+        {
+          "title": "chief financial officer",
+          "quotes": [
+            "Polman then joined Nestlé in 2006 as chief financial officer"
+          ]
+        },
+        {
+          "title": "vice president and head of the Americas",
+          "quotes": [
+            "and in February 2008 became vice president and head of the Americas."
+          ]
+        },
+        {
+          "title": "chief executive officer",
+          "quotes": [
+            "On 1 January 2009, Polman succeeded Patrick Cescau as chief executive officer of Unilever."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "U.K.",
+          "quotes": [
+            "becoming managing director of P&G U.K. from 1995 to 1998,"
+          ]
+        },
+        {
+          "place": "Europe",
+          "quotes": [
+            "and group president for Europe in 2001."
+          ]
+        },
+        {
+          "place": "Americas",
+          "quotes": [
+            "and in February 2008 became vice president and head of the Americas."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Polman worked for Procter & Gamble for 27 years, starting in 1979 as a cost analyst,"
+        ],
+        "confidence": "high",
+        "notes": "Clear career position with start date and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "becoming managing director of P&G U.K. from 1995 to 1998,"
+        ],
+        "confidence": "high",
+        "notes": "Clear career position with time range, organization, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "president of global fabric care from 1998 to 2001,"
+        ],
+        "confidence": "high",
+        "notes": "Clear career position with time range and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "and group president for Europe in 2001."
+        ],
+        "confidence": "high",
+        "notes": "Clear career position with time point, organization, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Polman then joined Nestlé in 2006 as chief financial officer"
+        ],
+        "confidence": "high",
+        "notes": "Clear career position with start date, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          6
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          5
+        ],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "and in February 2008 became vice president and head of the Americas."
+        ],
+        "confidence": "high",
+        "notes": "Clear career position with time point, organization, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          7
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          6
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "On 1 January 2009, Polman succeeded Patrick Cescau as chief executive officer of Unilever."
+        ],
+        "confidence": "high",
+        "notes": "Clear career position with start date, organization, and role."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In May 2018, Polman received an honorary doctorate from George Mason University."
+        ],
+        "confidence": "high",
+        "notes": "Clear award with time point, organization, and description of honorary doctorate."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 4,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 5,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 6,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 7,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 8,
+      "valid": 8,
+      "warnings": 0,
+      "errors": 0,
+      "career_positions": 7,
+      "awards": 1
+    }
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "status": "success",
+  "chunk_id": 2933,
+  "chunk_index": 4,
+  "source_url": "https://cebri.org/en/especialista/63/izabella-teixeira",
+  "title": "CEBRI | Izabella Teixeira",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "11 august 2020",
+          "type": "point",
+          "quotes": [
+            "Brazil-Argentina Dialogue Forum\nSouth America\n11 august 2020"
+          ]
+        },
+        {
+          "text": "30 july 2020",
+          "type": "point",
+          "quotes": [
+            "The Climate Adaptation Agenda and the Implementation Challenges of the Paris Agreement\nEnvironment\n30 july 2020"
+          ]
+        },
+        {
+          "text": "14 july 2020",
+          "type": "point",
+          "quotes": [
+            "Global Alliances for Sustainability\nMultilateralism\n14 july 2020"
+          ]
+        },
+        {
+          "text": "19 may 2020",
+          "type": "point",
+          "quotes": [
+            "The Amazon by Sebastião Salgado\nCulture\nEnvironment\n19 may 2020"
+          ]
+        },
+        {
+          "text": "13 may 2020",
+          "type": "point",
+          "quotes": [
+            "From the Pandemic to Utopia\nEnvironment\n13 may 2020"
+          ]
+        },
+        {
+          "text": "29 april 2020",
+          "type": "point",
+          "quotes": [
+            "Will the Shock of the Pandemic Awaken the World to the Catastrophic Risks of Climate Change?\nEnvironment\n29 april 2020"
+          ]
+        },
+        {
+          "text": "03 march 2020",
+          "type": "point",
+          "quotes": [
+            "Market, State and Society: the Future of Brazil in Light of the Chinese Experience\nAsia\n03 march 2020"
+          ]
+        },
+        {
+          "text": "10 july 2019",
+          "type": "point",
+          "quotes": [
+            "Roundtable “Stimulating the Economy Means Protecting the Environment”\nEnvironment\n10 july 2019"
+          ]
+        },
+        {
+          "text": "29 may 2019",
+          "type": "point",
+          "quotes": [
+            "Seminar | Global Energy Transition: Challenges for Brazil - Circular Economy, Mobility, and Sanitation\nEnergy\n29 may 2019"
+          ]
+        }
+      ],
+      "organizations": [],
+      "roles": [],
+      "locations": [
+        {
+          "place": "Brazil",
+          "quotes": [
+            "Market, State and Society: the Future of Brazil in Light of the Chinese Experience\nAsia\n03 march 2020",
+            "Seminar | Global Energy Transition: Challenges for Brazil - Circular Economy, Mobility, and Sanitation\nEnergy\n29 may 2019"
+          ]
+        },
+        {
+          "place": "South America",
+          "quotes": [
+            "Brazil-Argentina Dialogue Forum\nSouth America\n11 august 2020"
+          ]
+        },
+        {
+          "place": "Asia",
+          "quotes": [
+            "Market, State and Society: the Future of Brazil in Light of the Chinese Experience\nAsia\n03 march 2020"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          6
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          0,
+          2
+        ],
+        "supporting_quotes": [
+          "Market, State and Society: the Future of Brazil in Light of the Chinese Experience\nAsia\n03 march 2020"
+        ],
+        "confidence": "low",
+        "notes": "No clear organization or role mentioned, but location and time are linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          8
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Seminar | Global Energy Transition: Challenges for Brazil - Circular Economy, Mobility, and Sanitation\nEnergy\n29 may 2019"
+        ],
+        "confidence": "low",
+        "notes": "No clear organization or role mentioned, but location and time are linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Brazil-Argentina Dialogue Forum\nSouth America\n11 august 2020"
+        ],
+        "confidence": "low",
+        "notes": "No clear organization or role mentioned, but location and time are linked."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and role information, making it unclear what the career position entails."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position but lacks clear indicators of an active role or responsibilities."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and role information, making it unclear what the career position entails."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position but lacks clear indicators of an active role or responsibilities."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and role information, making it unclear what the career position entails."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position but lacks clear indicators of an active role or responsibilities."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

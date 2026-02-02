@@ -1,0 +1,262 @@
+{
+  "status": "success",
+  "chunk_id": 2606,
+  "chunk_index": 0,
+  "source_url": "https://en.wikipedia.org/wiki/Susilo_Bambang_Yudhoyono",
+  "title": "Susilo Bambang Yudhoyono - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2004 to 2014",
+          "type": "range",
+          "quotes": [
+            "President of Indonesia from 2004 to 2014"
+          ]
+        },
+        {
+          "text": "20 October 2004 – 20 October 2014",
+          "type": "range",
+          "quotes": [
+            "In office 20 October 2004 – 20 October 2014"
+          ]
+        },
+        {
+          "text": "10 August 2001 – 12 March 2004",
+          "type": "range",
+          "quotes": [
+            "In office 10 August 2001 – 12 March 2004"
+          ]
+        },
+        {
+          "text": "23 August 2000 – 1 June 2001",
+          "type": "range",
+          "quotes": [
+            "In office 23 August 2000 – 1 June 2001"
+          ]
+        },
+        {
+          "text": "29 October 1999 – 23 August 2000",
+          "type": "range",
+          "quotes": [
+            "In office 29 October 1999 – 23 August 2000"
+          ]
+        },
+        {
+          "text": "23 August 1996 – 7 August 1997",
+          "type": "range",
+          "quotes": [
+            "In office 23 August 1996 – 7 August 1997"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Democratic Party",
+          "quotes": [
+            "Democratic Party"
+          ]
+        },
+        {
+          "name": "Kodam II/Sriwijaya",
+          "quotes": [
+            "Commander of Kodam II/Sriwijaya"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "President of Indonesia",
+          "quotes": [
+            "President of Indonesia from 2004 to 2014",
+            "6th President of Indonesia"
+          ]
+        },
+        {
+          "title": "Coordinating Minister for Political, Social, and Security Affairs",
+          "quotes": [
+            "Coordinating Minister for Political, Social, and Security Affairs"
+          ]
+        },
+        {
+          "title": "Minister of Mining and Energy",
+          "quotes": [
+            "Minister of Mining and Energy"
+          ]
+        },
+        {
+          "title": "Commander of Kodam II/Sriwijaya",
+          "quotes": [
+            "Commander of Kodam II/Sriwijaya"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Indonesia",
+          "quotes": [
+            "President of Indonesia"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "President of Indonesia from 2004 to 2014",
+          "In office 20 October 2004 – 20 October 2014",
+          "6th President of Indonesia",
+          "President of Indonesia"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time markers, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In office 10 August 2001 – 12 March 2004",
+          "Coordinating Minister for Political, Social, and Security Affairs"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time marker and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In office 23 August 2000 – 1 June 2001",
+          "Minister of Mining and Energy"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time marker and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In office 29 October 1999 – 23 August 2000",
+          "Minister of Mining and Energy"
+        ],
+        "confidence": "medium",
+        "notes": "Assumed same role as previous event due to overlapping time markers and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In office 23 August 1996 – 7 August 1997",
+          "Commander of Kodam II/Sriwijaya"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time marker, organization, and role."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing organization and location information."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing organization and location information."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "error",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "high",
+            "description": "Overlapping time markers with event 2, indicating potential duplicate or incorrect time range."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing organization and location information."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 2,
+      "warnings": 2,
+      "errors": 1,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

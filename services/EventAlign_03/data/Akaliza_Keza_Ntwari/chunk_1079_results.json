@@ -1,0 +1,160 @@
+{
+  "status": "success",
+  "chunk_id": 1079,
+  "chunk_index": 1,
+  "source_url": "https://blogs.kent.ac.uk/engineering-news/2018/09/04/kent-alumna-from-rwanda-joins-high-level-un-panel-alongside-melinda-gates-and-jack-ma-and-makes-significant-strides-to-change-the-face-of-technology-in-her-country/",
+  "title": "Kent Alumna from Rwanda joins high level UN panel alongside Melinda Gates and Jack Ma and makes significant strides to change the face of technology in her country – School of Engineering News",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2014",
+          "type": "point",
+          "quotes": [
+            "Board in 2014. In 2014 Akaliza was also offered MEXT scholarship and completed a two year Master’s degree in 2016 at the Kobe Institute of Computing in Japan."
+          ]
+        },
+        {
+          "text": "2016",
+          "type": "point",
+          "quotes": [
+            "Akaliza returned to Rwanda in 2016 where she continued to offer her services as a multimedia consultant to clients around the world and personally advocate and pursue positive impact in and through ICT development in Africa."
+          ]
+        },
+        {
+          "text": "September 2018",
+          "type": "point",
+          "quotes": [
+            "The Panel will hold its first meeting this September 2018 and is expected to submit its final report to the Secretary-General within 9 months."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Kobe Institute of Computing",
+          "quotes": [
+            "Akaliza was also offered MEXT scholarship and completed a two year Master’s degree in 2016 at the Kobe Institute of Computing in Japan."
+          ]
+        },
+        {
+          "name": "University of Kent",
+          "quotes": [
+            "The views expressed in this blog are not necessarily those of the University of Kent."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "multimedia consultant",
+          "quotes": [
+            "Akaliza returned to Rwanda in 2016 where she continued to offer her services as a multimedia consultant to clients around the world and personally advocate and pursue positive impact in and through ICT development in Africa."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Rwanda",
+          "quotes": [
+            "Akaliza returned to Rwanda in 2016 where she continued to offer her services as a multimedia consultant to clients around the world and personally advocate and pursue positive impact in and through ICT development in Africa."
+          ]
+        },
+        {
+          "place": "Japan",
+          "quotes": [
+            "Akaliza was also offered MEXT scholarship and completed a two year Master’s degree in 2016 at the Kobe Institute of Computing in Japan."
+          ]
+        },
+        {
+          "place": "Africa",
+          "quotes": [
+            "Akaliza returned to Rwanda in 2016 where she continued to offer her services as a multimedia consultant to clients around the world and personally advocate and pursue positive impact in and through ICT development in Africa."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Board in 2014. In 2014 Akaliza was also offered MEXT scholarship and completed a two year Master’s degree in 2016 at the Kobe Institute of Computing in Japan.",
+          "Akaliza was also offered MEXT scholarship and completed a two year Master’s degree in 2016 at the Kobe Institute of Computing in Japan."
+        ],
+        "confidence": "high",
+        "notes": "Role is implied as a student pursuing a Master's degree."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0,
+          2
+        ],
+        "supporting_quotes": [
+          "Akaliza returned to Rwanda in 2016 where she continued to offer her services as a multimedia consultant to clients around the world and personally advocate and pursue positive impact in and through ICT development in Africa."
+        ],
+        "confidence": "high",
+        "notes": "No specific organization mentioned, but role and location are clear."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as 'career_position' but describes educational pursuit (Master's degree) rather than a professional role."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, though notes imply student role."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information, though role and location are clear."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

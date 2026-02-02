@@ -1,0 +1,185 @@
+{
+  "status": "success",
+  "chunk_id": 1064,
+  "chunk_index": 1,
+  "source_url": "https://www.fondationbotnar.org/akaliza-keza-ntwari-writes-on-women-led-innovation/",
+  "title": "Akaliza Keza Ntwari writes on women-led innovation - Fondation Botnar",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Fondation Botnar",
+          "quotes": [
+            "built by Fondation Botnar, a Swiss-based foundation which acts as a true catalyst in the future of digital innovation in global health."
+          ]
+        },
+        {
+          "name": "Women Deliver",
+          "quotes": [
+            "The map, which launched at Women Deliver, is a first of its kind – showcasing technological solutions with the potential to tackle health and wellbeing issues facing women and girls."
+          ]
+        },
+        {
+          "name": "Lady Driver",
+          "quotes": [
+            "Lady Driver is an app on a mission to tackle this, employing solely female taxi drivers and ensuring all male riders are first approved."
+          ]
+        },
+        {
+          "name": "Maven",
+          "quotes": [
+            "Katherine Ryder, guided by an all-female board, founded Maven. Maven technology provides immediate and continuous lines of communication between patients and providers;"
+          ]
+        },
+        {
+          "name": "SHEROES",
+          "quotes": [
+            "Created by technology entrepreneur Sairee Chahal, SHEROES is a women-only social networking app which puts innovation at the heart of combating issues derived from gender inequality in India."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "founder",
+          "quotes": [
+            "Katherine Ryder, guided by an all-female board, founded Maven."
+          ]
+        },
+        {
+          "title": "technology entrepreneur",
+          "quotes": [
+            "Created by technology entrepreneur Sairee Chahal, SHEROES is a women-only social networking app"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Brazil",
+          "quotes": [
+            "Lady Driver is already improving city safety in Brazil, while also opening up important economic opportunities for those part of the community."
+          ]
+        },
+        {
+          "place": "India",
+          "quotes": [
+            "SHEROES is a women-only social networking app which puts innovation at the heart of combating issues derived from gender inequality in India."
+          ]
+        },
+        {
+          "place": "US",
+          "quotes": [
+            "Tired of access issues in the US health system that exclude many women from being able to visit a healthcare professional,"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Katherine Ryder, guided by an all-female board, founded Maven."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between Katherine Ryder as founder of Maven."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Created by technology entrepreneur Sairee Chahal, SHEROES is a women-only social networking app which puts innovation at the heart of combating issues derived from gender inequality in India."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between Sairee Chahal as technology entrepreneur and creator of SHEROES in India."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Lady Driver is an app on a mission to tackle this, employing solely female taxi drivers and ensuring all male riders are first approved.",
+          "Lady Driver is already improving city safety in Brazil, while also opening up important economic opportunities for those part of the community."
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but the organization is clearly active in Brazil with ongoing responsibilities."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the career position event."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the career position event."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "error",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing role information for the career position event."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the career position event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 1,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

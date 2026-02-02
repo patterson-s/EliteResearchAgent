@@ -1,0 +1,196 @@
+{
+  "status": "success",
+  "chunk_id": 3348,
+  "chunk_index": 0,
+  "source_url": "https://en.wikipedia.org/wiki/Kim_Sung-hwan_(diplomat)",
+  "title": "Kim Sung-hwan (diplomat) - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "8 October 2010 to 24 February 2013",
+          "type": "range",
+          "quotes": [
+            "Kim Sung-hwan (Korean: 김성환; born 13 April 1953) is a South Korean politician who was South Korea's Minister of Foreign Affairs and Trade from 8 October 2010 to 24 February 2013."
+          ]
+        },
+        {
+          "text": "from March 2008",
+          "type": "open",
+          "quotes": [
+            "His previous positions include Vice Minister of Foreign Affairs and Trade (from March 2008) and Senior Secretary to the President for Foreign Affairs and National Security (from June 2008)."
+          ]
+        },
+        {
+          "text": "from June 2008",
+          "type": "open",
+          "quotes": [
+            "His previous positions include Vice Minister of Foreign Affairs and Trade (from March 2008) and Senior Secretary to the President for Foreign Affairs and National Security (from June 2008)."
+          ]
+        },
+        {
+          "text": "13 April 1953",
+          "type": "point",
+          "quotes": [
+            "Kim Sung-hwan (Korean: 김성환; born 13 April 1953) is a South Korean politician who was South Korea's Minister of Foreign Affairs and Trade from 8 October 2010 to 24 February 2013."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Ministry of Foreign Affairs and Trade",
+          "quotes": [
+            "Kim Sung-hwan (Korean: 김성환; born 13 April 1953) is a South Korean politician who was South Korea's Minister of Foreign Affairs and Trade from 8 October 2010 to 24 February 2013.",
+            "His previous positions include Vice Minister of Foreign Affairs and Trade (from March 2008) and Senior Secretary to the President for Foreign Affairs and National Security (from June 2008)."
+          ]
+        },
+        {
+          "name": "Saenuri",
+          "quotes": [
+            "Political party Saenuri"
+          ]
+        },
+        {
+          "name": "Seoul National University",
+          "quotes": [
+            "Alma mater Seoul National University"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Minister of Foreign Affairs and Trade",
+          "quotes": [
+            "Kim Sung-hwan (Korean: 김성환; born 13 April 1953) is a South Korean politician who was South Korea's Minister of Foreign Affairs and Trade from 8 October 2010 to 24 February 2013."
+          ]
+        },
+        {
+          "title": "Vice Minister of Foreign Affairs and Trade",
+          "quotes": [
+            "His previous positions include Vice Minister of Foreign Affairs and Trade (from March 2008) and Senior Secretary to the President for Foreign Affairs and National Security (from June 2008)."
+          ]
+        },
+        {
+          "title": "Senior Secretary to the President for Foreign Affairs and National Security",
+          "quotes": [
+            "His previous positions include Vice Minister of Foreign Affairs and Trade (from March 2008) and Senior Secretary to the President for Foreign Affairs and National Security (from June 2008)."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Seoul",
+          "quotes": [
+            "Born (1953-04-13) 13 April 1953 (age 72) Seoul, South Korea"
+          ]
+        },
+        {
+          "place": "South Korea",
+          "quotes": [
+            "Kim Sung-hwan (Korean: 김성환; born 13 April 1953) is a South Korean politician who was South Korea's Minister of Foreign Affairs and Trade from 8 October 2010 to 24 February 2013.",
+            "Born (1953-04-13) 13 April 1953 (age 72) Seoul, South Korea"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Kim Sung-hwan (Korean: 김성환; born 13 April 1953) is a South Korean politician who was South Korea's Minister of Foreign Affairs and Trade from 8 October 2010 to 24 February 2013."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "His previous positions include Vice Minister of Foreign Affairs and Trade (from March 2008) and Senior Secretary to the President for Foreign Affairs and National Security (from June 2008)."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "His previous positions include Vice Minister of Foreign Affairs and Trade (from March 2008) and Senior Secretary to the President for Foreign Affairs and National Security (from June 2008)."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time and role, but organization is implied and not explicitly stated."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information, though it may be inferable from context."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location information, though organization is implied in the quote."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

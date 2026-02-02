@@ -1,0 +1,185 @@
+{
+  "status": "success",
+  "chunk_id": 414,
+  "chunk_index": 9,
+  "source_url": "https://ciaotest.cc.columbia.edu/olj/meria/meria598_freedman.html",
+  "title": "Russia And The Middle East: The Primakov Era",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "late summer of 1997",
+          "type": "point",
+          "quotes": [
+            "The split between the reformers and Berezovsky during the late summer of 1997, however, seems to have given Primakov more room to maneuver"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Russian foreign policymaking establishment",
+          "quotes": [
+            "Russian-Israeli relations may increasingly become a battleground within the Russian foreign policymaking establishment between those interested in good economic and even military/technical relations with Israel, and those like Primakov seeking political advantages through a closer relationship with the Arabs."
+          ]
+        },
+        {
+          "name": "Cambridge University Press",
+          "quotes": [
+            "Among his publications are: Moscow and the Middle East (Cambridge University Press,1991);"
+          ]
+        },
+        {
+          "name": "Westview Press",
+          "quotes": [
+            "Among his publications are: [...] Israel Under Rabin (Westview Press,1995)"
+          ]
+        },
+        {
+          "name": "Baltimore Hebrew University",
+          "quotes": [
+            "Dr. Robert O. Freedman is Peggy Meyerhoff Professor of Political Science and President of Baltimore Hebrew University."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Peggy Meyerhoff Professor of Political Science",
+          "quotes": [
+            "Dr. Robert O. Freedman is Peggy Meyerhoff Professor of Political Science and President of Baltimore Hebrew University."
+          ]
+        },
+        {
+          "title": "President of Baltimore Hebrew University",
+          "quotes": [
+            "Dr. Robert O. Freedman is Peggy Meyerhoff Professor of Political Science and President of Baltimore Hebrew University."
+          ]
+        },
+        {
+          "title": "Russian foreign minister",
+          "quotes": [
+            "the looming crisis in Russian-Turkish relations over the missile sale to Cyprus and serious divisions in Moscow over relations with Israel will challenge not only the Russian foreign minister's ability to manage relations with those two countries"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Russia",
+          "quotes": [
+            "Russian and Israeli firms signed an agreement to coproduce an AWACS aircraft and the Israeli food manufacturer Tnuva filmed a 'milk in space' commercial aboard the Russian space station MIR."
+          ]
+        },
+        {
+          "place": "Israel",
+          "quotes": [
+            "Russian and Israeli firms signed an agreement to coproduce an AWACS aircraft and the Israeli food manufacturer Tnuva filmed a 'milk in space' commercial aboard the Russian space station MIR."
+          ]
+        },
+        {
+          "place": "Turkey",
+          "quotes": [
+            "As in the case of Russia's relations with Turkey, Russian-Israeli relations may increasingly become a battleground within the Russian foreign policymaking establishment"
+          ]
+        },
+        {
+          "place": "Iraq",
+          "quotes": [
+            "This analysis of Russian foreign policy toward the Middle East under Primakov has demonstrated that in many areas, especially Russia's relations with Iraq and Iran, Primakov has carried on policies initiated by his predecessor, Andrei Kozyrev."
+          ]
+        },
+        {
+          "place": "Iran",
+          "quotes": [
+            "This analysis of Russian foreign policy toward the Middle East under Primakov has demonstrated that in many areas, especially Russia's relations with Iraq and Iran, Primakov has carried on policies initiated by his predecessor, Andrei Kozyrev."
+          ]
+        },
+        {
+          "place": "Cyprus",
+          "quotes": [
+            "the looming crisis in Russian-Turkish relations over the missile sale to Cyprus and serious divisions in Moscow over relations with Israel"
+          ]
+        },
+        {
+          "place": "Moscow",
+          "quotes": [
+            "the looming crisis in Russian-Turkish relations over the missile sale to Cyprus and serious divisions in Moscow over relations with Israel"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Dr. Robert O. Freedman is Peggy Meyerhoff Professor of Political Science and President of Baltimore Hebrew University."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between organization and roles in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Russian-Israeli relations may increasingly become a battleground within the Russian foreign policymaking establishment between those interested in good economic and even military/technical relations with Israel, and those like Primakov seeking political advantages through a closer relationship with the Arabs.",
+          "the looming crisis in Russian-Turkish relations over the missile sale to Cyprus and serious divisions in Moscow over relations with Israel will challenge not only the Russian foreign minister's ability to manage relations with those two countries"
+        ],
+        "confidence": "medium",
+        "notes": "Implicit linkage between organization and role through context, but no direct mention in the same quote."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "quote_support",
+            "severity": "medium",
+            "description": "Implicit linkage between organization and role through context, but no direct mention in the same quote."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers for the event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

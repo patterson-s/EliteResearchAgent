@@ -1,0 +1,169 @@
+{
+  "status": "success",
+  "chunk_id": 1269,
+  "chunk_index": 5,
+  "source_url": "https://www.linkedin.com/in/amandeep-gill-33052416",
+  "title": "Amandeep Gill - United Nations | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Centre for Social and Economic Progress",
+          "quotes": [
+            "Centre for Social and Economic Progress\nHow is China engaging with South Asia beyond state-to-state diplomacy?"
+          ]
+        },
+        {
+          "name": "Observer Research Foundation",
+          "quotes": [
+            "Dhruva Jaishankar\nObserver Research Foundation…"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "examined the theme",
+          "quotes": [
+            "In the fifth episode of our China in South Asia seminar series, Shruti Jargad 章双提 examined the theme “Heritage Diplomacy and Sub-National Engagement”, with Kalyan Bhandari and Ajaya Bhadra Khanal."
+          ]
+        },
+        {
+          "title": "made insightful comments",
+          "quotes": [
+            "Jabin T. Jacob (郑嘉宾) made insightful comments on the two papers."
+          ]
+        },
+        {
+          "title": "analysed",
+          "quotes": [
+            "Bhandari analysed how Chinese investments, while diversifying Nepal’s tourism and promoting heritage rebuilding, also introduce vulnerabilities through economic dependence and soft power influence."
+          ]
+        },
+        {
+          "title": "highlighted",
+          "quotes": [
+            "Khanal highlighted how China's development and security initiatives and sub-national engagements are transforming traditional cross-border interactions, and posing new challenges for local communities in northern border provinces in Nepal."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "China",
+          "quotes": [
+            "How is China engaging with South Asia beyond state-to-state diplomacy?",
+            "China's development and security initiatives and sub-national engagements are transforming traditional cross-border interactions, and posing new challenges for local communities in northern border provinces in Nepal."
+          ]
+        },
+        {
+          "place": "South Asia",
+          "quotes": [
+            "How is China engaging with South Asia beyond state-to-state diplomacy?"
+          ]
+        },
+        {
+          "place": "Nepal",
+          "quotes": [
+            "Bhandari analysed how Chinese investments, while diversifying Nepal’s tourism and promoting heritage rebuilding, also introduce vulnerabilities through economic dependence and soft power influence.",
+            "posing new challenges for local communities in northern border provinces in Nepal."
+          ]
+        },
+        {
+          "place": "India",
+          "quotes": [
+            "Some big announcements that many might have missed in the India-UK trade agreement related to digital provisions. This has important implications not just for India but trade negotiations with the US and EU."
+          ]
+        },
+        {
+          "place": "UK",
+          "quotes": [
+            "Some big announcements that many might have missed in the India-UK trade agreement related to digital provisions."
+          ]
+        },
+        {
+          "place": "US",
+          "quotes": [
+            "This has important implications not just for India but trade negotiations with the US and EU."
+          ]
+        },
+        {
+          "place": "EU",
+          "quotes": [
+            "This has important implications not just for India but trade negotiations with the US and EU."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "location_ids": [
+          0,
+          1,
+          2
+        ],
+        "supporting_quotes": [
+          "Centre for Social and Economic Progress\nHow is China engaging with South Asia beyond state-to-state diplomacy?",
+          "In the fifth episode of our China in South Asia seminar series, Shruti Jargad 章双提 examined the theme “Heritage Diplomacy and Sub-National Engagement”, with Kalyan Bhandari and Ajaya Bhadra Khanal.",
+          "Jabin T. Jacob (郑嘉宾) made insightful comments on the two papers.",
+          "Bhandari analysed how Chinese investments, while diversifying Nepal’s tourism and promoting heritage rebuilding, also introduce vulnerabilities through economic dependence and soft power influence.",
+          "Khanal highlighted how China's development and security initiatives and sub-national engagements are transforming traditional cross-border interactions, and posing new challenges for local communities in northern border provinces in Nepal."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time markers, but roles and organizations are linked through the seminar series context."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "No time markers provided, making temporal coherence impossible to verify."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quotes describe actions (examined, analysed, highlighted) but do not explicitly state a career position or role."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "While roles and organizations are linked, the absence of explicit time markers and unclear role permanence make completeness questionable."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The event is classified as a career_position, but the roles described (examined, analysed, highlighted) seem more like contributions to a seminar rather than a formal position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

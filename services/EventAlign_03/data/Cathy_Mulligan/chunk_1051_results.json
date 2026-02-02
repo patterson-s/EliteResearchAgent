@@ -1,0 +1,174 @@
+{
+  "status": "success",
+  "chunk_id": 1051,
+  "chunk_index": 0,
+  "source_url": "https://se.linkedin.com/in/cathymulligan",
+  "title": "Catherine Mulligan, Ph.D. FHEA – Digital Transformation | Digital Resilience | Digital Sustainability  | LinkedIn TopVoice | ex-WEF fellow | ex-UNSG HLP on Digital Cooperation | All views expressed here are personal views only | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "WEF",
+          "quotes": [
+            "Digital Transformation | Digital Resilience | Digital Sustainability  | LinkedIn TopVoice | ex-WEF fellow | ex-UNSG HLP on Digital Cooperation | All views expressed here are personal views only"
+          ]
+        },
+        {
+          "name": "UNSG HLP on Digital Cooperation",
+          "quotes": [
+            "Digital Transformation | Digital Resilience | Digital Sustainability  | LinkedIn TopVoice | ex-WEF fellow | ex-UNSG HLP on Digital Cooperation | All views expressed here are personal views only"
+          ]
+        },
+        {
+          "name": "LinkedIn",
+          "quotes": [
+            "Catherine Mulligan, Ph.D. FHEA – Digital Transformation | Digital Sustainability  | LinkedIn TopVoice | ex-WEF fellow | ex-UNSG HLP on Digital Cooperation | All views expressed here are personal views only | LinkedIn"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "LinkedIn TopVoice",
+          "quotes": [
+            "Digital Transformation | Digital Resilience | Digital Sustainability  | LinkedIn TopVoice | ex-WEF fellow | ex-UNSG HLP on Digital Cooperation | All views expressed here are personal views only"
+          ]
+        },
+        {
+          "title": "ex-WEF fellow",
+          "quotes": [
+            "Digital Transformation | Digital Resilience | Digital Sustainability  | LinkedIn TopVoice | ex-WEF fellow | ex-UNSG HLP on Digital Cooperation | All views expressed here are personal views only"
+          ]
+        },
+        {
+          "title": "ex-UNSG HLP on Digital Cooperation",
+          "quotes": [
+            "Digital Transformation | Digital Resilience | Digital Sustainability  | LinkedIn TopVoice | ex-WEF fellow | ex-UNSG HLP on Digital Cooperation | All views expressed here are personal views only"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Sverige",
+          "quotes": [
+            "Sverige"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Digital Transformation | Digital Resilience | Digital Sustainability  | LinkedIn TopVoice | ex-WEF fellow | ex-UNSG HLP on Digital Cooperation | All views expressed here are personal views only"
+        ],
+        "confidence": "medium",
+        "notes": "No time markers available, but the role 'ex-WEF fellow' is clearly associated with the organization 'WEF'. Assuming this is a past position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Digital Transformation | Digital Resilience | Digital Sustainability  | LinkedIn TopVoice | ex-WEF fellow | ex-UNSG HLP on Digital Cooperation | All views expressed here are personal views only"
+        ],
+        "confidence": "medium",
+        "notes": "No time markers available, but the role 'ex-UNSG HLP on Digital Cooperation' is clearly associated with the organization 'UNSG HLP on Digital Cooperation'. Assuming this is a past position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Catherine Mulligan, Ph.D. FHEA – Digital Transformation | Digital Sustainability  | LinkedIn TopVoice | ex-WEF fellow | ex-UNSG HLP on Digital Cooperation | All views expressed here are personal views only | LinkedIn"
+        ],
+        "confidence": "high",
+        "notes": "The role 'LinkedIn TopVoice' is directly associated with the organization 'LinkedIn'. No time markers, but the context suggests an ongoing or past affiliation."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "No time markers available, making it impossible to verify temporal coherence."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The role 'ex-WEF fellow' is classified as a career position, but fellowships are typically awards unless they involve active duties."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "No time markers available, making it impossible to verify temporal coherence."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The role 'ex-UNSG HLP on Digital Cooperation' is classified as a career position, but it may be more accurately described as an advisory or honorary role."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "No time markers available, making it impossible to verify temporal coherence."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The role 'LinkedIn TopVoice' is classified as a career position, but it may be more accurately described as a recognition or award."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

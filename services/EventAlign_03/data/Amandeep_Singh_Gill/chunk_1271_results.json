@@ -1,0 +1,267 @@
+{
+  "status": "success",
+  "chunk_id": 1271,
+  "chunk_index": 0,
+  "source_url": "https://spia.princeton.edu/events/deans-leadership-series-amandeep-gill-united-nations-under-secretary-general-and-special",
+  "title": "Dean's Leadership Series: Amandeep Gill, United Nations Under-Secretary-General and Special Envoy for Digital and Emerging Technologies | Princeton School of Public and International Affairs",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "Feb 11 2026",
+          "type": "point",
+          "quotes": [
+            "Date & Time\nFeb 11 2026\n12:30 PM - 1:30 PM"
+          ]
+        },
+        {
+          "text": "12:30 PM - 1:30 PM",
+          "type": "range",
+          "quotes": [
+            "Date & Time\nFeb 11 2026\n12:30 PM - 1:30 PM"
+          ]
+        },
+        {
+          "text": "In 2024",
+          "type": "point",
+          "quotes": [
+            "In 2024, TIME magazine named him one of the 100 most influential people in AI."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "United Nations",
+          "quotes": [
+            "Amandeep Gill, United Nations Under-Secretary-General and Special Envoy for Digital and Emerging Technologies"
+          ]
+        },
+        {
+          "name": "Princeton School of Public and International Affairs",
+          "quotes": [
+            "Princeton School of Public and International Affairs"
+          ]
+        },
+        {
+          "name": "Secretary-General’s High-level Advisory Body on AI",
+          "quotes": [
+            "USG Gill is also a member of the Secretary-General’s High-level Advisory Body on AI and Scientific Advisory Board."
+          ]
+        },
+        {
+          "name": "Scientific Advisory Board",
+          "quotes": [
+            "USG Gill is also a member of the Secretary-General’s High-level Advisory Body on AI and Scientific Advisory Board."
+          ]
+        },
+        {
+          "name": "UN's High-Level Panel on Digital Cooperation",
+          "quotes": [
+            "Previously, he was Executive Director of the UN's High-Level Panel on Digital Cooperation"
+          ]
+        },
+        {
+          "name": "Conference on Disarmament",
+          "quotes": [
+            "India's Ambassador to the Conference on Disarmament."
+          ]
+        },
+        {
+          "name": "TIME magazine",
+          "quotes": [
+            "In 2024, TIME magazine named him one of the 100 most influential people in AI."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Under-Secretary-General and Special Envoy for Digital and Emerging Technologies",
+          "quotes": [
+            "Amandeep Gill, United Nations Under-Secretary-General and Special Envoy for Digital and Emerging Technologies"
+          ]
+        },
+        {
+          "title": "Executive Director of the UN's High-Level Panel on Digital Cooperation",
+          "quotes": [
+            "Previously, he was Executive Director of the UN's High-Level Panel on Digital Cooperation"
+          ]
+        },
+        {
+          "title": "India's Ambassador to the Conference on Disarmament",
+          "quotes": [
+            "India's Ambassador to the Conference on Disarmament."
+          ]
+        },
+        {
+          "title": "member of the Secretary-General’s High-level Advisory Body on AI",
+          "quotes": [
+            "USG Gill is also a member of the Secretary-General’s High-level Advisory Body on AI and Scientific Advisory Board."
+          ]
+        },
+        {
+          "title": "member of the Scientific Advisory Board",
+          "quotes": [
+            "USG Gill is also a member of the Secretary-General’s High-level Advisory Body on AI and Scientific Advisory Board."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Robertson Hall",
+          "quotes": [
+            "Location\nRobertson Hall"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Amandeep Gill, United Nations Under-Secretary-General and Special Envoy for Digital and Emerging Technologies"
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker, but role and organization are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2,
+          3
+        ],
+        "role_ids": [
+          3,
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "USG Gill is also a member of the Secretary-General’s High-level Advisory Body on AI and Scientific Advisory Board."
+        ],
+        "confidence": "high",
+        "notes": "Roles and organizations are clearly linked, no specific time marker."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "India's Ambassador to the Conference on Disarmament."
+        ],
+        "confidence": "high",
+        "notes": "Role and organization are clearly linked, no specific time marker."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Previously, he was Executive Director of the UN's High-Level Panel on Digital Cooperation"
+        ],
+        "confidence": "high",
+        "notes": "Role and organization are clearly linked, no specific time marker."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          6
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2024, TIME magazine named him one of the 100 most influential people in AI."
+        ],
+        "confidence": "high",
+        "notes": "Clear award indicator with specific time marker and organization."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 1,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 1
+    }
+  }
+}

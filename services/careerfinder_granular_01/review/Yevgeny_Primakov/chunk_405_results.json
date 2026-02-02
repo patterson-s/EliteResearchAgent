@@ -1,0 +1,163 @@
+{
+  "status": "success",
+  "chunk_id": 405,
+  "chunk_index": 0,
+  "source_url": "https://ciaotest.cc.columbia.edu/olj/meria/meria598_freedman.html",
+  "title": "Russia And The Middle East: The Primakov Era",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "January 1996",
+          "type": "point",
+          "quotes": [
+            "When he became Russia's foreign minister in January 1996, Yevgeny Primakov, an old Soviet Middle East specialist, was expected to put his personal imprint on Russian policy toward the Middle East"
+          ]
+        },
+        {
+          "text": "December 1995",
+          "type": "point",
+          "quotes": [
+            "Primakov, known for his anti-American policies, was appointed foreign minister in January 1996 largely as Yeltsin's reaction to the Duma's sharply rightward turn after the December 1995 elections."
+          ]
+        },
+        {
+          "text": "May 1998",
+          "type": "point",
+          "quotes": [
+            "Middle East Review of International Affairs, Vol. 2 No. 2/May 1998"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Middle East Review of International Affairs",
+          "quotes": [
+            "Middle East Review of International Affairs, Vol. 2 No. 2/May 1998"
+          ]
+        },
+        {
+          "name": "Duma",
+          "quotes": [
+            "Within the Duma are three major factions: the 'Atlanticists,' who have supported a pro-American foreign policy (except on the issue of NATO expansion), as well as rapid economic reform and a policy of cooperation with the newly independent states of the former Soviet Union (FSU);"
+          ]
+        },
+        {
+          "name": "NATO",
+          "quotes": [
+            "the 'Atlanticists,' who have supported a pro-American foreign policy (except on the issue of NATO expansion), as well as rapid economic reform and a policy of cooperation with the newly independent states of the former Soviet Union (FSU);"
+          ]
+        },
+        {
+          "name": "Soviet Union (FSU)",
+          "quotes": [
+            "the 'Atlanticists,' who have supported a pro-American foreign policy (except on the issue of NATO expansion), as well as rapid economic reform and a policy of cooperation with the newly independent states of the former Soviet Union (FSU);"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "foreign minister",
+          "quotes": [
+            "When he became Russia's foreign minister in January 1996, Yevgeny Primakov, an old Soviet Middle East specialist, was expected to put his personal imprint on Russian policy toward the Middle East"
+          ]
+        },
+        {
+          "title": "predecessor, Andrei Kozyrev",
+          "quotes": [
+            "as well as do a better job in coordinating Russian foreign policy than his predecessor, Andrei Kozyrev."
+          ]
+        },
+        {
+          "title": "Yeltsin's ambassador to the Duma",
+          "quotes": [
+            "In many ways, Primakov, who opposes U.S. hegemony and advocates a major role for Russia in world affairs, became Yeltsin's ambassador to the Duma where he is well-liked."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Russia",
+          "quotes": [
+            "When he became Russia's foreign minister in January 1996, Yevgeny Primakov, an old Soviet Middle East specialist, was expected to put his personal imprint on Russian policy toward the Middle East"
+          ]
+        },
+        {
+          "place": "Middle East",
+          "quotes": [
+            "When he became Russia's foreign minister in January 1996, Yevgeny Primakov, an old Soviet Middle East specialist, was expected to put his personal imprint on Russian policy toward the Middle East"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0,
+          1
+        ],
+        "supporting_quotes": [
+          "When he became Russia's foreign minister in January 1996, Yevgeny Primakov, an old Soviet Middle East specialist, was expected to put his personal imprint on Russian policy toward the Middle East"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, role, and location in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In many ways, Primakov, who opposes U.S. hegemony and advocates a major role for Russia in world affairs, became Yeltsin's ambassador to the Duma where he is well-liked."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between organization and role in the same quote, though no specific time marker is provided."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

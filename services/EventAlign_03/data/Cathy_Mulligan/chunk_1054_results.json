@@ -1,0 +1,158 @@
+{
+  "status": "success",
+  "chunk_id": 1054,
+  "chunk_index": 3,
+  "source_url": "https://se.linkedin.com/in/cathymulligan",
+  "title": "Catherine Mulligan, Ph.D. FHEA – Digital Transformation | Digital Resilience | Digital Sustainability  | LinkedIn TopVoice | ex-WEF fellow | ex-UNSG HLP on Digital Cooperation | All views expressed here are personal views only | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "UNSW Canberra",
+          "quotes": [
+            "Dr Alex Antic, UNSW Canberra, • 15 tn följare, “Owning the Algorithm - Australia’s Path to AI Sovereignty”"
+          ]
+        },
+        {
+          "name": "InnovationAus.com",
+          "quotes": [
+            "In this piece for InnovationAus.com, I explore why sovereign AI is not just a technological ambition - but a strategic necessity for Australia’s future."
+          ]
+        },
+        {
+          "name": "Abu Dhabi Investment Office",
+          "quotes": [
+            "Massimo Falcioni, Abu Dhabi Investment Office, • 47 tn följare, Public development banks (PDBs) / Development Financial Institutions (DFIs) are pivotal in driving the global shift towards low-emissions climate-resilient development"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Dr Alex Antic",
+          "quotes": [
+            "Dr Alex Antic, UNSW Canberra, • 15 tn följare, “Owning the Algorithm - Australia’s Path to AI Sovereignty”"
+          ]
+        },
+        {
+          "title": "Senator Tim Ayres",
+          "quotes": [
+            "I’d love to hear from leaders shaping this space: Senator Tim Ayres, Dr Andrew Charlton, Chris Fechner, Sue Keay, Toby Walsh FAA FTSE FRSN, Jon Whittle, Lee Hickin, Anton van den Hengel, Simon Lucey, Elanor Huntington, Jeremy Howard, Ed Santow, Nicholas Davis, Bill Simpson-Young, Simon Bush, Damian Kassabgi"
+          ]
+        },
+        {
+          "title": "Massimo Falcioni",
+          "quotes": [
+            "Massimo Falcioni, Abu Dhabi Investment Office, • 47 tn följare, Public development banks (PDBs) / Development Financial Institutions (DFIs) are pivotal in driving the global shift towards low-emissions climate-resilient development"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Australia",
+          "quotes": [
+            "From national security and public trust to economic resilience and cultural relevance, we must ensure our AI systems are developed, governed, and aligned with Australian values."
+          ]
+        },
+        {
+          "place": "Westminster",
+          "quotes": [
+            "In Westminster today discussing the governance of AGI."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Dr Alex Antic, UNSW Canberra, • 15 tn följare, “Owning the Algorithm - Australia’s Path to AI Sovereignty”"
+        ],
+        "confidence": "high",
+        "notes": "Clear affiliation between Dr Alex Antic and UNSW Canberra."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Massimo Falcioni, Abu Dhabi Investment Office, • 47 tn följare, Public development banks (PDBs) / Development Financial Institutions (DFIs) are pivotal in driving the global shift towards low-emissions climate-resilient development"
+        ],
+        "confidence": "high",
+        "notes": "Clear affiliation between Massimo Falcioni and Abu Dhabi Investment Office."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing location information for career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quote does not explicitly state the role or responsibilities of Dr Alex Antic at UNSW Canberra."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing location information for career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quote does not explicitly state the role or responsibilities of Massimo Falcioni at Abu Dhabi Investment Office."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

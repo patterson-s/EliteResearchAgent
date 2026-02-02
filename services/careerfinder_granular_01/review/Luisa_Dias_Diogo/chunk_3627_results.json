@@ -1,0 +1,194 @@
+{
+  "status": "success",
+  "chunk_id": 3627,
+  "chunk_index": 0,
+  "source_url": "https://www.peaceparks.org/peace-parks-foundation-welcomes-dr-luisa-diogo-to-the-board/",
+  "title": "Peace Parks Foundation Welcomes Dr. Luísa Diogo to the Board - Peace Parks Foundation",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In 2004",
+          "type": "point",
+          "quotes": [
+            "In 2004, Dr Diogo was appointed as Mozambique’s first female Prime Minister, a position she held with distinction until 2010."
+          ]
+        },
+        {
+          "text": "until 2010",
+          "type": "point",
+          "quotes": [
+            "In 2004, Dr Diogo was appointed as Mozambique’s first female Prime Minister, a position she held with distinction until 2010."
+          ]
+        },
+        {
+          "text": "15 October 2025",
+          "type": "point",
+          "quotes": [
+            "15 October 2025"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Peace Parks Foundation",
+          "quotes": [
+            "Peace Parks Foundation Welcomes Dr. Luísa Diogo to the Board",
+            "Peace Parks Foundation is delighted to announce the appointment of Dr. Luísa Dias Diogo to its Board of Directors."
+          ]
+        },
+        {
+          "name": "Board of Directors",
+          "quotes": [
+            "Peace Parks Foundation is delighted to announce the appointment of Dr. Luísa Dias Diogo to its Board of Directors."
+          ]
+        },
+        {
+          "name": "Government of Mozambique",
+          "quotes": [
+            "In 2004, Dr Diogo was appointed as Mozambique’s first female Prime Minister, a position she held with distinction until 2010."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Prime Minister of Mozambique",
+          "quotes": [
+            "A distinguished economist, business leader, and former Prime Minister of Mozambique, Dr. Diogo brings a wealth of experience from both the public and private sectors, along with a lifelong dedication to sustainable development and sound governance.",
+            "In 2004, Dr Diogo was appointed as Mozambique’s first female Prime Minister, a position she held with distinction until 2010."
+          ]
+        },
+        {
+          "title": "Minister of Planning and Finance",
+          "quotes": [
+            "Earlier in her career, as Minister of Planning and Finance, she spearheaded major public-sector and economic reforms that strengthened Mozambique’s resilience and promoted"
+          ]
+        },
+        {
+          "title": "Board member",
+          "quotes": [
+            "New Board member: Dr. Luísa Dias Diogo"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Mozambique",
+          "quotes": [
+            "A distinguished economist, business leader, and former Prime Minister of Mozambique, Dr. Diogo brings a wealth of experience from both the public and private sectors, along with a lifelong dedication to sustainable development and sound governance.",
+            "In 2004, Dr Diogo was appointed as Mozambique’s first female Prime Minister, a position she held with distinction until 2010."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "In 2004, Dr Diogo was appointed as Mozambique’s first female Prime Minister, a position she held with distinction until 2010.",
+          "A distinguished economist, business leader, and former Prime Minister of Mozambique, Dr. Diogo brings a wealth of experience from both the public and private sectors, along with a lifelong dedication to sustainable development and sound governance."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time markers, organization, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Earlier in her career, as Minister of Planning and Finance, she spearheaded major public-sector and economic reforms that strengthened Mozambique’s resilience and promoted"
+        ],
+        "confidence": "medium",
+        "notes": "No specific time markers, but role and organization are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Peace Parks Foundation Welcomes Dr. Luísa Diogo to the Board",
+          "Peace Parks Foundation is delighted to announce the appointment of Dr. Luísa Dias Diogo to its Board of Directors.",
+          "New Board member: Dr. Luísa Dias Diogo"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between organization and role, though time marker is missing."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the career position as Minister of Planning and Finance."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the career position as Board member at Peace Parks Foundation."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information for the career position as Board member."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

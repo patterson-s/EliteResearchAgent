@@ -1,0 +1,158 @@
+{
+  "status": "success",
+  "chunk_id": 638,
+  "chunk_index": 6,
+  "source_url": "https://adst.org/2020/08/an-honest-broker-remembering-brent-scowcroft/",
+  "title": "An Honest Broker: Remembering Brent Scowcroft – Association for Diplomatic Studies & Training",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1993–1997",
+          "type": "range",
+          "quotes": [
+            "New York City, New York—United Nations, U.S. Representative (Ambassador) for Special Political Affairs (1993–1997)"
+          ]
+        },
+        {
+          "text": "April 27, 2001",
+          "type": "point",
+          "quotes": [
+            "Karl Inderfurth was interviewed by Charles Stuart Kennedy on April 27, 2001."
+          ]
+        },
+        {
+          "text": "1988–1992",
+          "type": "range",
+          "quotes": [
+            "Washington, D.C.—Acting Senior Director, Director for Counterterrorism and Counternarcotics, National Security Council (1988–1992)"
+          ]
+        },
+        {
+          "text": "May 12, 2003",
+          "type": "point",
+          "quotes": [
+            "Rand Beers was interviewed by Charles Stuart Kennedy on May 12, 2003."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "United Nations",
+          "quotes": [
+            "New York City, New York—United Nations, U.S. Representative (Ambassador) for Special Political Affairs (1993–1997)"
+          ]
+        },
+        {
+          "name": "National Security Council",
+          "quotes": [
+            "He became what is called an “honest broker” at the NSC.",
+            "Washington, D.C.—Acting Senior Director, Director for Counterterrorism and Counternarcotics, National Security Council (1988–1992)"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "U.S. Representative (Ambassador) for Special Political Affairs",
+          "quotes": [
+            "New York City, New York—United Nations, U.S. Representative (Ambassador) for Special Political Affairs (1993–1997)"
+          ]
+        },
+        {
+          "title": "Acting Senior Director, Director for Counterterrorism and Counternarcotics",
+          "quotes": [
+            "Washington, D.C.—Acting Senior Director, Director for Counterterrorism and Counternarcotics, National Security Council (1988–1992)"
+          ]
+        },
+        {
+          "title": "“honest broker” at the NSC",
+          "quotes": [
+            "Scowcroft came in and became what is called an “honest broker” at the NSC."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "New York City, New York",
+          "quotes": [
+            "New York City, New York—United Nations, U.S. Representative (Ambassador) for Special Political Affairs (1993–1997)"
+          ]
+        },
+        {
+          "place": "Washington, D.C.",
+          "quotes": [
+            "Washington, D.C.—Acting Senior Director, Director for Counterterrorism and Counternarcotics, National Security Council (1988–1992)"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "New York City, New York—United Nations, U.S. Representative (Ambassador) for Special Political Affairs (1993–1997)"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Washington, D.C.—Acting Senior Director, Director for Counterterrorism and Counternarcotics, National Security Council (1988–1992)"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, role, and location."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 2,
+      "warnings": 0,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

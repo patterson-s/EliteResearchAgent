@@ -1,0 +1,142 @@
+{
+  "status": "success",
+  "chunk_id": 637,
+  "chunk_index": 5,
+  "source_url": "https://adst.org/2020/08/an-honest-broker-remembering-brent-scowcroft/",
+  "title": "An Honest Broker: Remembering Brent Scowcroft – Association for Diplomatic Studies & Training",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "August 30, 2001",
+          "type": "point",
+          "quotes": [
+            "Arthur Houghton was interviewed by Charles Stuart Kennedy on August 30, 2001."
+          ]
+        },
+        {
+          "text": "1974–1976",
+          "type": "range",
+          "quotes": [
+            "Washington, D.C.—National Security Council (1974–1976)"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "National Security Council",
+          "quotes": [
+            "‘honest broker’ at the NSC",
+            "Washington, D.C.—National Security Council (1974–1976)",
+            "communication link between the President and NSC staff"
+          ]
+        },
+        {
+          "name": "State Department",
+          "quotes": [
+            "‘It’s been approved by everybody in the State Department.’"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "advisor to the President",
+          "quotes": [
+            "Brent was there to be an advisor to the President and a communication link between the President and NSC staff as well as other agencies of government."
+          ]
+        },
+        {
+          "title": "communication link between the President and NSC staff as well as other agencies of government",
+          "quotes": [
+            "Brent was there to be an advisor to the President and a communication link between the President and NSC staff as well as other agencies of government."
+          ]
+        },
+        {
+          "title": "‘honest broker’ at the NSC",
+          "quotes": [
+            "Scowcroft came in and became what is called an ‘honest broker’ at the NSC"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Washington, D.C.",
+          "quotes": [
+            "Washington, D.C.—National Security Council (1974–1976)"
+          ]
+        },
+        {
+          "place": "White House",
+          "quotes": [
+            "You can hear that there is a chopper warming up on the White House south lawn."
+          ]
+        },
+        {
+          "place": "Camp David",
+          "quotes": [
+            "The President was headed off at noon for some place — I think Camp David, I’m not sure."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0,
+          1,
+          2
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Washington, D.C.—National Security Council (1974–1976)",
+          "‘honest broker’ at the NSC",
+          "Brent was there to be an advisor to the President and a communication link between the President and NSC staff as well as other agencies of government.",
+          "Scowcroft came in and became what is called an ‘honest broker’ at the NSC"
+        ],
+        "confidence": "high",
+        "notes": "All roles and the organization are mentioned in the same context, indicating a single career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "The time_marker_ids reference 'August 30, 2001', which does not align with the date range '1974–1976' mentioned in the supporting quotes."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "While the event is classified as 'career_position', the role '‘honest broker’ at the NSC' could be interpreted as a descriptive title rather than a formal position. However, the other roles clearly indicate active responsibilities."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

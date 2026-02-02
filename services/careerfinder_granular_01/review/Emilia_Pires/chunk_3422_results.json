@@ -1,0 +1,268 @@
+{
+  "status": "success",
+  "chunk_id": 3422,
+  "chunk_index": 0,
+  "source_url": "https://www.forbes.com/global/2009/0907/power-women-09-east-timor-finance-emilia-pires.html",
+  "title": "Emilia Pires",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "Aug 28, 2009",
+          "type": "point",
+          "quotes": [
+            "Aug 28, 2009, 02:00pm EDT"
+          ]
+        },
+        {
+          "text": "Jul 16, 2012",
+          "type": "point",
+          "quotes": [
+            "Jul 16, 2012, 05:52pm EDT"
+          ]
+        },
+        {
+          "text": "10 years after breaking free from a quarter-century of brutal Indonesian military rule",
+          "type": "point",
+          "quotes": [
+            "ten years after breaking free from a quarter-century of brutal Indonesian military rule"
+          ]
+        },
+        {
+          "text": "by 2020",
+          "type": "point",
+          "quotes": [
+            "that could reach $20 billion by 2020"
+          ]
+        },
+        {
+          "text": "in 1975",
+          "type": "point",
+          "quotes": [
+            "But that all changed in 1975 when an Indonesian-fanned civil war erupted after Lisbon abandoned Timor"
+          ]
+        },
+        {
+          "text": "24 years away from East Timor",
+          "type": "range",
+          "quotes": [
+            "Exiled to Australia at age 15, she spent 24 years away from East Timor"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Organisation for Economic Co-operation & Development",
+          "quotes": [
+            "membership in the Organisation for Economic Co-operation & Development, the rich countries club"
+          ]
+        },
+        {
+          "name": "Peterson Institute for International Economics",
+          "quotes": [
+            "The Peterson Institute for International Economics in Washington, D.C. last year ranked it as the world's third-best-managed sovereign fund, after New Zealand's and Norway's"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "finance minister",
+          "quotes": [
+            "Good experience for her job as finance minister.",
+            "East Timor Finance Minister Emilia Pires"
+          ]
+        },
+        {
+          "title": "resources minister",
+          "quotes": [
+            "brother Alfredo is the resources minister"
+          ]
+        },
+        {
+          "title": "U.S. ambassador to East Timor",
+          "quotes": [
+            "says the U.S. ambassador to East Timor, Hans G. Klemm"
+          ]
+        },
+        {
+          "title": "Australian ambassador in Dili",
+          "quotes": [
+            "The Australian ambassador in Dili, Peter Heyward, says"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Australia",
+          "quotes": [
+            "Exiled to Australia at age 15, she spent 24 years away from East Timor."
+          ]
+        },
+        {
+          "place": "East Timor",
+          "quotes": [
+            "Exiled to Australia at age 15, she spent 24 years away from East Timor.",
+            "East Timor Finance Minister Emilia Pires"
+          ]
+        },
+        {
+          "place": "Atabae",
+          "quotes": [
+            "Pires was born to a prominent mixed-race family in Atabae."
+          ]
+        },
+        {
+          "place": "Portugal",
+          "quotes": [
+            "Her grandfather served in Portugal's colonial brigades"
+          ]
+        },
+        {
+          "place": "Darwin",
+          "quotes": [
+            "Just 15, Emilia was evacuated to Darwin."
+          ]
+        },
+        {
+          "place": "Washington, D.C.",
+          "quotes": [
+            "The Peterson Institute for International Economics in Washington, D.C."
+          ]
+        },
+        {
+          "place": "Dili",
+          "quotes": [
+            "The Australian ambassador in Dili, Peter Heyward, says"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Good experience for her job as finance minister.",
+          "East Timor Finance Minister Emilia Pires"
+        ],
+        "confidence": "high",
+        "notes": "No specific time markers or organizations mentioned, but role and location are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "brother Alfredo is the resources minister"
+        ],
+        "confidence": "medium",
+        "notes": "No specific time markers, organizations, or direct location linkage, but role is clear and implied location is East Timor."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "says the U.S. ambassador to East Timor, Hans G. Klemm"
+        ],
+        "confidence": "high",
+        "notes": "No specific time markers or organizations mentioned, but role and location are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [
+          6
+        ],
+        "supporting_quotes": [
+          "The Australian ambassador in Dili, Peter Heyward, says"
+        ],
+        "confidence": "high",
+        "notes": "No specific time markers or organizations mentioned, but role and location are clear."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers and organization information."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers, organization, and direct location linkage."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers and organization information."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers and organization information."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 0,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

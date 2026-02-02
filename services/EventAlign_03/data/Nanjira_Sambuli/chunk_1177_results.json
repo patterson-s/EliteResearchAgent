@@ -1,0 +1,209 @@
+{
+  "status": "success",
+  "chunk_id": 1177,
+  "chunk_index": 9,
+  "source_url": "https://techherng.com/nanjira-sambuli/",
+  "title": "Nanjira Sambuli: The woman of many parts - TECHHER",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "iHub Research",
+          "quotes": [
+            "With iHub Research, Nanjira has developed a framework for assessing the viability, verification, and validity of crowd-sourcing information for her projects."
+          ]
+        },
+        {
+          "name": "UNEP",
+          "quotes": [
+            "Sambuli has worked with organizations such as UNEP, Africans Act 4 Africa, and Global Power Shift, on their pan-African and international new media based campaigns."
+          ]
+        },
+        {
+          "name": "Africans Act 4 Africa",
+          "quotes": [
+            "Sambuli has worked with organizations such as UNEP, Africans Act 4 Africa, and Global Power Shift, on their pan-African and international new media based campaigns."
+          ]
+        },
+        {
+          "name": "Global Power Shift",
+          "quotes": [
+            "Sambuli has worked with organizations such as UNEP, Africans Act 4 Africa, and Global Power Shift, on their pan-African and international new media based campaigns."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "editor of Innovative Africa: The new face of Africa tech essays collection",
+          "quotes": [
+            "On the technology front, Nanjira is the editor of Innovative Africa: The new face of Africa tech essays collection."
+          ]
+        },
+        {
+          "title": "Board member",
+          "quotes": [
+            "She is presently on of the Board of"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Nairobi, Kenya",
+          "quotes": [
+            "Nanjira Sambuli is a mathematician, new media strategist and technology enthusiast based in Nairobi, Kenya."
+          ]
+        },
+        {
+          "place": "Kenya",
+          "quotes": [
+            "One of them is Umati, an online dangerous speech monitoring project currently running in Kenya and Nigeria."
+          ]
+        },
+        {
+          "place": "Nigeria",
+          "quotes": [
+            "One of them is Umati, an online dangerous speech monitoring project currently running in Kenya and Nigeria."
+          ]
+        },
+        {
+          "place": "East Africa",
+          "quotes": [
+            "Another is a publication on ICT and Governance (Civic Tech Landscape) in East Africa."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "With iHub Research, Nanjira has developed a framework for assessing the viability, verification, and validity of crowd-sourcing information for her projects.",
+          "Nanjira Sambuli is a mathematician, new media strategist and technology enthusiast based in Nairobi, Kenya."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit role mentioned, but the context suggests an active position with iHub Research."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1,
+          2,
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Sambuli has worked with organizations such as UNEP, Africans Act 4 Africa, and Global Power Shift, on their pan-African and international new media based campaigns.",
+          "Nanjira Sambuli is a mathematician, new media strategist and technology enthusiast based in Nairobi, Kenya."
+        ],
+        "confidence": "high",
+        "notes": "Active collaboration with multiple organizations on specific campaigns."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "On the technology front, Nanjira is the editor of Innovative Africa: The new face of Africa tech essays collection.",
+          "Nanjira Sambuli is a mathematician, new media strategist and technology enthusiast based in Nairobi, Kenya."
+        ],
+        "confidence": "high",
+        "notes": "Active role as editor of a publication."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "She is presently on of the Board of",
+          "Nanjira Sambuli is a mathematician, new media strategist and technology enthusiast based in Nairobi, Kenya."
+        ],
+        "confidence": "low",
+        "notes": "Incomplete information about the organization for the Board member role."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, though context suggests an active position with iHub Research."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, though active collaboration with multiple organizations is mentioned."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "error",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization information for the Board member role, making the event incomplete."
+          },
+          {
+            "type": "quote_support",
+            "severity": "medium",
+            "description": "Supporting quote is incomplete and does not clearly support the claimed role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 1,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

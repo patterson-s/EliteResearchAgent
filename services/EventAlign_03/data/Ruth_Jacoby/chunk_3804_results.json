@@ -1,0 +1,216 @@
+{
+  "status": "success",
+  "chunk_id": 3804,
+  "chunk_index": 0,
+  "source_url": "https://media.un.org/avlibrary/en/asset/d217/d2170510",
+  "title": "World Chronicle 847A: Ruth Jacoby, Economic and Social Affairs | UN Audiovisual Library",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2 December 2001",
+          "type": "point",
+          "quotes": [
+            "2 December 2001",
+            "Production Date\n2 December 2001"
+          ]
+        },
+        {
+          "text": "March 2002",
+          "type": "point",
+          "quotes": [
+            "A summit-level meeting in Monterrey, Mexico, in March 2002 will address one of the most important issues facing the world in the twenty first century"
+          ]
+        },
+        {
+          "text": "28 Sep 2000",
+          "type": "point",
+          "quotes": [
+            "World Chronicle 800: Victoria Kwakwa, World Bank\nEnglish\n28 Sep 2000"
+          ]
+        },
+        {
+          "text": "10 Nov 2001",
+          "type": "point",
+          "quotes": [
+            "World Chronicle 842: Steven Miller, DESA\nEnglish\n10 Nov 2001"
+          ]
+        },
+        {
+          "text": "23 Sep 1992",
+          "type": "point",
+          "quotes": [
+            "World Chronicle 480: Karl P. Sauvant, UN DESD\nEnglish\n23 Sep 1992"
+          ]
+        },
+        {
+          "text": "08 Mar 1996",
+          "type": "point",
+          "quotes": [
+            "World Chronicle 623: Thomas Johansson, UNDP\nEnglish\n08 Mar 1996"
+          ]
+        },
+        {
+          "text": "06 Jun 2002",
+          "type": "point",
+          "quotes": [
+            "World Chronicle 867: Global Online Help for Public Administration…\nEnglish\n06 Jun 2002"
+          ]
+        },
+        {
+          "text": "07 Apr 1994",
+          "type": "point",
+          "quotes": [
+            "World Chronicle 549: Jyothi Shankar Singh, Population and Development…\nEnglish\n07 Apr 1994"
+          ]
+        },
+        {
+          "text": "31 Oct",
+          "type": "point",
+          "quotes": [
+            "World Chronicle 406: Martti Ahtisaari, USG for Administration…\nEnglish\n31 Oct"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "United Nations",
+          "quotes": [
+            "Ruth Jacoby, a Swedish Ambassador to the United Nations for Economic and Social Affairs"
+          ]
+        },
+        {
+          "name": "Preparatory Committee of the International Conference on Financing for Development",
+          "quotes": [
+            "Co-Chairperson of the Preparatory Committee of the International Conference on Financing for Development"
+          ]
+        },
+        {
+          "name": "World Bank",
+          "quotes": [
+            "World Chronicle 800: Victoria Kwakwa, World Bank"
+          ]
+        },
+        {
+          "name": "DESA",
+          "quotes": [
+            "World Chronicle 842: Steven Miller, DESA"
+          ]
+        },
+        {
+          "name": "UN DESD",
+          "quotes": [
+            "World Chronicle 480: Karl P. Sauvant, UN DESD"
+          ]
+        },
+        {
+          "name": "UNDP",
+          "quotes": [
+            "World Chronicle 623: Thomas Johansson, UNDP"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Swedish Ambassador to the United Nations for Economic and Social Affairs",
+          "quotes": [
+            "Ruth Jacoby, a Swedish Ambassador to the United Nations for Economic and Social Affairs"
+          ]
+        },
+        {
+          "title": "Co-Chairperson of the Preparatory Committee of the International Conference on Financing for Development",
+          "quotes": [
+            "Co-Chairperson of the Preparatory Committee of the International Conference on Financing for Development"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Monterrey, Mexico",
+          "quotes": [
+            "A summit-level meeting in Monterrey, Mexico, in March 2002 will address one of the most important issues facing the world in the twenty first century"
+          ]
+        },
+        {
+          "place": "Sweden",
+          "quotes": [
+            "Ruth Jacoby, a Swedish Ambassador to the United Nations for Economic and Social Affairs"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Ruth Jacoby, a Swedish Ambassador to the United Nations for Economic and Social Affairs"
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker provided, but role and organization are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Co-Chairperson of the Preparatory Committee of the International Conference on Financing for Development",
+          "A summit-level meeting in Monterrey, Mexico, in March 2002 will address one of the most important issues facing the world in the twenty first century"
+        ],
+        "confidence": "high",
+        "notes": "Time marker, organization, role, and location are all linked through the same context."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position, making it difficult to place the event in a timeline."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

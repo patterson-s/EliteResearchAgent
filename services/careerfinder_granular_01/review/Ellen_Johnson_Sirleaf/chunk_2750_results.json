@@ -1,0 +1,220 @@
+{
+  "status": "success",
+  "chunk_id": 2750,
+  "chunk_index": 6,
+  "source_url": "https://achievement.org/achiever/ellen-johnson-sirleaf/",
+  "title": "Ellen Johnson Sirleaf | Academy of Achievement",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "in the 1990s",
+          "type": "point",
+          "quotes": [
+            "Johnson Sirleaf returned to Liberia in the 1990s, after the violent overthrow of General Doe."
+          ]
+        },
+        {
+          "text": "1997",
+          "type": "point",
+          "quotes": [
+            "She ran for president in 1997, but the victor in that contest, Charles Taylor, forced her into exile yet again."
+          ]
+        },
+        {
+          "text": "2005",
+          "type": "point",
+          "quotes": [
+            "After winning a decisive victory in the 2005 election, President Johnson Sirleaf moved quickly to repair the wounds of years of misrule and disorder."
+          ]
+        },
+        {
+          "text": "July 4, 2008",
+          "type": "point",
+          "quotes": [
+            "Kailua-Kona, Hawaii, July 4, 2008"
+          ]
+        },
+        {
+          "text": "1979",
+          "type": "point",
+          "quotes": [
+            "Of course, that all was changed when the trouble started in 1979. When we had the Rice Riots, and a year later in 1980 a coup d’état, the whole environment had changed."
+          ]
+        },
+        {
+          "text": "1980",
+          "type": "point",
+          "quotes": [
+            "Of course, that all was changed when the trouble started in 1979. When we had the Rice Riots, and a year later in 1980 a coup d’état, the whole environment had changed."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "UN Development Programme",
+          "quotes": [
+            "She again went into exile, and built a second career in banking and international development, running the African bureau of the UN Development Programme."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "running the African bureau of the UN Development Programme",
+          "quotes": [
+            "She again went into exile, and built a second career in banking and international development, running the African bureau of the UN Development Programme."
+          ]
+        },
+        {
+          "title": "President",
+          "quotes": [
+            "She ran for president in 1997, but the victor in that contest, Charles Taylor, forced her into exile yet again.",
+            "After winning a decisive victory in the 2005 election, President Johnson Sirleaf moved quickly to repair the wounds of years of misrule and disorder."
+          ]
+        },
+        {
+          "title": "chair a national commission on government reform",
+          "quotes": [
+            "When Taylor fell from power, Johnson Sirleaf returned to chair a national commission on government reform, setting the stage for Liberia’s first truly free election in decades."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Liberia",
+          "quotes": [
+            "Johnson Sirleaf returned to Liberia in the 1990s, after the violent overthrow of General Doe.",
+            "Going back for a moment to the Liberia of your childhood, paint a picture of what it was like politically and socially at that time."
+          ]
+        },
+        {
+          "place": "Kailua-Kona, Hawaii",
+          "quotes": [
+            "Kailua-Kona, Hawaii, July 4, 2008"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Johnson Sirleaf returned to Liberia in the 1990s, after the violent overthrow of General Doe.",
+          "When Taylor fell from power, Johnson Sirleaf returned to chair a national commission on government reform, setting the stage for Liberia’s first truly free election in decades."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "She again went into exile, and built a second career in banking and international development, running the African bureau of the UN Development Programme."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between organization and role, though time is unspecified."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "After winning a decisive victory in the 2005 election, President Johnson Sirleaf moved quickly to repair the wounds of years of misrule and disorder."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "She ran for president in 1997, but the victor in that contest, Charles Taylor, forced her into exile yet again."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, role, and location, though the role was not successfully held."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The event is classified as a career position, but the role was not successfully held. Consider if this should be classified differently."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 2,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

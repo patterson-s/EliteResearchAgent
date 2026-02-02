@@ -1,0 +1,148 @@
+{
+  "status": "success",
+  "chunk_id": 3419,
+  "chunk_index": 17,
+  "source_url": "https://conflictfieldresearch.colgate.edu/wp-content/uploads/2015/02/9_Reflections_on_Policy_Space.pdf",
+  "title": "9_Reflections_on_Policy_Space.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "one year and a half",
+          "type": "range",
+          "quotes": [
+            "in government we executed 558 million dollars cash in one year and a half."
+          ]
+        },
+        {
+          "text": "five years",
+          "type": "range",
+          "quotes": [
+            "The whole Fretilin government executed 475 million dollars in five years."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Fretilin government",
+          "quotes": [
+            "The whole Fretilin government executed 475 million dollars in five years."
+          ]
+        },
+        {
+          "name": "finance Ministry",
+          "quotes": [
+            "In the finance Ministry I only changed one director, the procurement, everybody else is still the same."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "director",
+          "quotes": [
+            "In the finance Ministry I only changed one director, the procurement, everybody else is still the same."
+          ]
+        },
+        {
+          "title": "advisors",
+          "quotes": [
+            "And I changed a few advisors."
+          ]
+        },
+        {
+          "title": "ministers",
+          "quotes": [
+            "I am teaching all the other ministers."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The whole Fretilin government executed 475 million dollars in five years."
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but the context implies a leadership or executive position within the Fretilin government."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0,
+          1,
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In the finance Ministry I only changed one director, the procurement, everybody else is still the same.",
+          "And I changed a few advisors.",
+          "I am teaching all the other ministers."
+        ],
+        "confidence": "high",
+        "notes": "Multiple roles mentioned within the finance Ministry, indicating active positions."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. While the context implies a leadership or executive position, no specific role is mentioned."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quote does not explicitly mention the individual's role, only the organization's actions."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time information for the career position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Multiple roles mentioned (director, advisors, ministers) which might indicate separate events or a need for clarification."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

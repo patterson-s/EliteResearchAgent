@@ -1,0 +1,157 @@
+{
+  "status": "success",
+  "chunk_id": 3006,
+  "chunk_index": 2,
+  "source_url": "https://www.bundespraesident.de/EN/role-and-functions/the-german-federal-presidents/horst-koehler/horst-koehler_node.html",
+  "title": "Der Bundespräsident  -  Horst Köhler",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "On 23 May 2009",
+          "type": "point",
+          "quotes": [
+            "On 23 May 2009, Federal President Köhler was re-elected for a second term of five years by an absolute majority of 613 votes in the Federal Convention in the first round of voting."
+          ]
+        },
+        {
+          "text": "On 31 May 2010",
+          "type": "point",
+          "quotes": [
+            "On 31 May 2010, Horst Köhler resigned from his office of Federal President."
+          ]
+        },
+        {
+          "text": "since 1981",
+          "type": "open",
+          "quotes": [
+            "Köhler has been a member of the CDU since 1981, but his membership was suspended during his term of office as Federal President."
+          ]
+        },
+        {
+          "text": "on 1 February 2025",
+          "type": "point",
+          "quotes": [
+            "Horst Köhler died on 1 February 2025 in Berlin."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Federal Convention",
+          "quotes": [
+            "On 23 May 2009, Federal President Köhler was re-elected for a second term of five years by an absolute majority of 613 votes in the Federal Convention in the first round of voting."
+          ]
+        },
+        {
+          "name": "CDU",
+          "quotes": [
+            "Köhler has been a member of the CDU since 1981, but his membership was suspended during his term of office as Federal President."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Federal President",
+          "quotes": [
+            "On 23 May 2009, Federal President Köhler was re-elected for a second term of five years by an absolute majority of 613 votes in the Federal Convention in the first round of voting.",
+            "On 31 May 2010, Horst Köhler resigned from his office of Federal President.",
+            "Köhler has been a member of the CDU since 1981, but his membership was suspended during his term of office as Federal President."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Berlin",
+          "quotes": [
+            "Horst Köhler died on 1 February 2025 in Berlin."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "On 23 May 2009, Federal President Köhler was re-elected for a second term of five years by an absolute majority of 613 votes in the Federal Convention in the first round of voting.",
+          "On 31 May 2010, Horst Köhler resigned from his office of Federal President."
+        ],
+        "confidence": "high",
+        "notes": "Federal President role is clearly a career position with active responsibilities."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Köhler has been a member of the CDU since 1981, but his membership was suspended during his term of office as Federal President."
+        ],
+        "confidence": "high",
+        "notes": "Membership in CDU is an ongoing affiliation, classified as a career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "Missing explicit start and end dates, only point markers provided. Temporal coherence cannot be fully verified."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing organization and location information, though inferable from context."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "CDU membership classified as career_position, but may be better suited as an affiliation rather than an active role."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, only organization and time marker provided."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

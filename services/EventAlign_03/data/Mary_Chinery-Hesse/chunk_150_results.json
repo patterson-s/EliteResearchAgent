@@ -1,0 +1,140 @@
+{
+  "status": "success",
+  "chunk_id": 150,
+  "chunk_index": 0,
+  "source_url": "https://www.linkedin.com/posts/toily-kurbanov_mary-chinery-hesse-from-ghana-is-a-trailblazer-activity-7387019851367878656-rTTp",
+  "title": "Mary Chinery-Hesse from Ghana is a trailblazer. She became UN Resident Coordinator in the 1970s — the first African woman to hold this critical role at a time when UN leadership was, by and large, a… | Toily Kurbanov | 17 comments",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "in the 1970s",
+          "type": "point",
+          "quotes": [
+            "She became UN Resident Coordinator in the 1970s — the first African woman to hold this critical role at a time when UN leadership was, by and large, a White men’s club."
+          ]
+        },
+        {
+          "text": "in 1989",
+          "type": "point",
+          "quotes": [
+            "🎉 Mary Chinery-Hesse was also the first female Deputy Director-General of the International Labour Organization, appointed to that post in 1989."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "UN",
+          "quotes": [
+            "She became UN Resident Coordinator in the 1970s — the first African woman to hold this critical role at a time when UN leadership was, by and large, a White men’s club."
+          ]
+        },
+        {
+          "name": "United Nations Volunteers",
+          "quotes": [
+            "We finally met in person and spoke about the history of the UN, her leadership lessons, and her advice to United Nations Volunteers."
+          ]
+        },
+        {
+          "name": "International Labour Organization",
+          "quotes": [
+            "🎉 Mary Chinery-Hesse was also the first female Deputy Director-General of the International Labour Organization, appointed to that post in 1989."
+          ]
+        },
+        {
+          "name": "Government of President Kuffuour",
+          "quotes": [
+            "Had the honor of working closely with her when she served in the Government of President Kuffuour"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "UN Resident Coordinator",
+          "quotes": [
+            "She became UN Resident Coordinator in the 1970s — the first African woman to hold this critical role at a time when UN leadership was, by and large, a White men’s club."
+          ]
+        },
+        {
+          "title": "Deputy Director-General",
+          "quotes": [
+            "🎉 Mary Chinery-Hesse was also the first female Deputy Director-General of the International Labour Organization, appointed to that post in 1989."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Ghana",
+          "quotes": [
+            "Mary Chinery-Hesse from Ghana is a trailblazer.",
+            "I had written about her earlier and, upon arriving in Ghana, started my visit by paying respect."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "She became UN Resident Coordinator in the 1970s — the first African woman to hold this critical role at a time when UN leadership was, by and large, a White men’s club."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "🎉 Mary Chinery-Hesse was also the first female Deputy Director-General of the International Labour Organization, appointed to that post in 1989."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 2,
+      "warnings": 0,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

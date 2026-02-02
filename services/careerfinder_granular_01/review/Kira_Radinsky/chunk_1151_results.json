@@ -1,0 +1,140 @@
+{
+  "status": "success",
+  "chunk_id": 1151,
+  "chunk_index": 3,
+  "source_url": "https://pmwcintl.com/speaker/kira-radinsky-314_diagnostic-robotics_2025sv/",
+  "title": "Kira Radinsky  - 2025sv  - PMWC Precision Medicine World Conference",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "NOV. 26",
+          "type": "point",
+          "quotes": [
+            "$1324 NOV. 26 PMWC Silicon Valley, California"
+          ]
+        },
+        {
+          "text": "Mar. 4-6",
+          "type": "range",
+          "quotes": [
+            "Mar. 4-6 Santa Clara Convent.Ctr"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "PMWC",
+          "quotes": [
+            "$1324 NOV. 26 PMWC Silicon Valley, California",
+            "Submit to Speak in the PMWC Showcase"
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": [
+        {
+          "place": "Silicon Valley, California",
+          "quotes": [
+            "$1324 NOV. 26 PMWC Silicon Valley, California"
+          ]
+        },
+        {
+          "place": "Santa Clara",
+          "quotes": [
+            "Mar. 4-6 Santa Clara Convent.Ctr"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "$1324 NOV. 26 PMWC Silicon Valley, California"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit role mentioned, but the event is associated with an organization and location, suggesting a career-related activity."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Mar. 4-6 Santa Clara Convent.Ctr"
+        ],
+        "confidence": "low",
+        "notes": "No organization or role mentioned, only a time marker and location. Event type defaulted to career_position due to lack of award indicators."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, making it unclear what the career position entails."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quote does not explicitly mention a career position, only a date, organization, and location."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "error",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization and role information, making the event type classification uncertain."
+          },
+          {
+            "type": "quote_support",
+            "severity": "medium",
+            "description": "Supporting quote does not provide any context to support a career position classification."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event type defaulted to career_position without clear indicators, potentially misclassified."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 1,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

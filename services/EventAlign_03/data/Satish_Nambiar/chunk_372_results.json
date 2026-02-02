@@ -1,0 +1,86 @@
+{
+  "status": "success",
+  "chunk_id": 372,
+  "chunk_index": 10,
+  "source_url": "https://corporatecitizen.in/v4-issue10/cover-story-dynamic-duo-75-indira-and%20-lt-gen-sat%20ish-nambiar-retd-breaking-barriers.html",
+  "title": "Cover Story: Dynamic Duo: 75 Indira and Lt. Gen.Satish Nambiar (retd) Breaking Barriers",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "army",
+          "quotes": [
+            "Weâve had a wonderful innings in the army, thanks to the good and supportive people around us, both seniors and juniors."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "army officer",
+          "quotes": [
+            "my army officer son"
+          ]
+        },
+        {
+          "title": "interior designer",
+          "quotes": [
+            "my daughter who is an interior designer"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Weâve had a wonderful innings in the army, thanks to the good and supportive people around us, both seniors and juniors.",
+          "my army officer son"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time marker, but the role and organization are clearly linked through the quotes."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the event, making temporal coherence impossible to verify."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quotes do not explicitly state the individual's own role as an army officer, only mention 'my army officer son' which could be a relative rather than the subject."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

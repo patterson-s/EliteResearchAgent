@@ -1,0 +1,205 @@
+{
+  "status": "success",
+  "chunk_id": 3802,
+  "chunk_index": 0,
+  "source_url": "https://www.wikidata.org/wiki/Q4956151",
+  "title": "Ruth Jacoby - Wikidata",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2006",
+          "type": "point",
+          "quotes": [
+            "position held ambassador of Sweden to Germany start time 2006"
+          ]
+        },
+        {
+          "text": "2010",
+          "type": "point",
+          "quotes": [
+            "position held ambassador of Sweden to Germany end time 2010"
+          ]
+        },
+        {
+          "text": "2010",
+          "type": "point",
+          "quotes": [
+            "Swedish ambassador to Italy start time 2010"
+          ]
+        },
+        {
+          "text": "2015",
+          "type": "point",
+          "quotes": [
+            "Swedish ambassador to Italy end time 2015"
+          ]
+        },
+        {
+          "text": "13 January 1949",
+          "type": "point",
+          "quotes": [
+            "date of birth 13 January 1949"
+          ]
+        },
+        {
+          "text": "14 August 2015",
+          "type": "point",
+          "quotes": [
+            "GND ID 188427384 retrieved 14 August 2015"
+          ]
+        },
+        {
+          "text": "4 June 2022",
+          "type": "point",
+          "quotes": [
+            "described by source Vem är hon retrieved 4 June 2022"
+          ]
+        },
+        {
+          "text": "15 June 2021",
+          "type": "point",
+          "quotes": [
+            "VIAF cluster ID 270769710 reason for deprecated rank conflation 1 reference retrieved 15 June 2021"
+          ]
+        },
+        {
+          "text": "15 April 2024",
+          "type": "point",
+          "quotes": [
+            "OpenSanctions ID Q4956151 1 reference retrieved 15 April 2024"
+          ]
+        }
+      ],
+      "organizations": [],
+      "roles": [
+        {
+          "title": "ambassador of Sweden to Germany",
+          "quotes": [
+            "position held ambassador of Sweden to Germany"
+          ]
+        },
+        {
+          "title": "Swedish ambassador to Italy",
+          "quotes": [
+            "Swedish ambassador to Italy"
+          ]
+        },
+        {
+          "title": "diplomat",
+          "quotes": [
+            "occupation diplomat"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Germany",
+          "quotes": [
+            "ambassador of Sweden to Germany"
+          ]
+        },
+        {
+          "place": "Italy",
+          "quotes": [
+            "Swedish ambassador to Italy"
+          ]
+        },
+        {
+          "place": "New York City",
+          "quotes": [
+            "place of birth New York City"
+          ]
+        },
+        {
+          "place": "Sweden",
+          "quotes": [
+            "country of citizenship Sweden"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "position held ambassador of Sweden to Germany start time 2006",
+          "position held ambassador of Sweden to Germany end time 2010",
+          "ambassador of Sweden to Germany"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role, location, and time markers."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2,
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Swedish ambassador to Italy start time 2010",
+          "Swedish ambassador to Italy end time 2015",
+          "Swedish ambassador to Italy"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role, location, and time markers."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

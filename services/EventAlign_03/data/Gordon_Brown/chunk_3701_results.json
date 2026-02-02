@@ -1,0 +1,230 @@
+{
+  "status": "success",
+  "chunk_id": 3701,
+  "chunk_index": 4,
+  "source_url": "https://en.wikipedia.org/wiki/Gordon_Brown",
+  "title": "Gordon Brown - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1972",
+          "type": "point",
+          "quotes": [
+            "Brown graduated from Edinburgh with an undergraduate MA degree with First-Class Honours in history in 1972."
+          ]
+        },
+        {
+          "text": "1982",
+          "type": "point",
+          "quotes": [
+            "He stayed on to obtain his PhD degree in history, which he gained ten years later in 1982, defending a thesis titled The Labour Party and Political Change in Scotland 1918–1929."
+          ]
+        },
+        {
+          "text": "1972",
+          "type": "point",
+          "quotes": [
+            "In 1972, while still a student, Brown was elected Rector of the University of Edinburgh, the convener of the University Court."
+          ]
+        },
+        {
+          "text": "until 1975",
+          "type": "range",
+          "quotes": [
+            "He served as Rector until 1975, and also edited the document The Red Paper on Scotland."
+          ]
+        },
+        {
+          "text": "From 1976 to 1980",
+          "type": "range",
+          "quotes": [
+            "From 1976 to 1980 Brown was employed as a lecturer in politics at Glasgow College of Technology."
+          ]
+        },
+        {
+          "text": "1979",
+          "type": "point",
+          "quotes": [
+            "In the 1979 general election, Brown stood for the Edinburgh South constituency, losing to the Conservative candidate, Michael Ancram."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "University of Edinburgh",
+          "quotes": [
+            "He was accepted by the University of Edinburgh to study history at the same early age of 16.",
+            "Brown graduated from Edinburgh with an undergraduate MA degree with First-Class Honours in history in 1972.",
+            "In 1972, while still a student, Brown was elected Rector of the University of Edinburgh, the convener of the University Court."
+          ]
+        },
+        {
+          "name": "Edinburgh Royal Infirmary",
+          "quotes": [
+            "Brown underwent experimental surgery at the Edinburgh Royal Infirmary and his right eye was saved by a young eye surgeon, Hector Chawla."
+          ]
+        },
+        {
+          "name": "Glasgow College of Technology",
+          "quotes": [
+            "From 1976 to 1980 Brown was employed as a lecturer in politics at Glasgow College of Technology."
+          ]
+        },
+        {
+          "name": "Open University",
+          "quotes": [
+            "He also worked as a tutor for the Open University."
+          ]
+        },
+        {
+          "name": "University Court",
+          "quotes": [
+            "In 1972, while still a student, Brown was elected Rector of the University of Edinburgh, the convener of the University Court."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Rector of the University of Edinburgh",
+          "quotes": [
+            "In 1972, while still a student, Brown was elected Rector of the University of Edinburgh, the convener of the University Court."
+          ]
+        },
+        {
+          "title": "convener of the University Court",
+          "quotes": [
+            "In 1972, while still a student, Brown was elected Rector of the University of Edinburgh, the convener of the University Court."
+          ]
+        },
+        {
+          "title": "lecturer in politics",
+          "quotes": [
+            "From 1976 to 1980 Brown was employed as a lecturer in politics at Glasgow College of Technology."
+          ]
+        },
+        {
+          "title": "tutor",
+          "quotes": [
+            "He also worked as a tutor for the Open University."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Edinburgh",
+          "quotes": [
+            "He was accepted by the University of Edinburgh to study history at the same early age of 16.",
+            "Brown graduated from Edinburgh with an undergraduate MA degree with First-Class Honours in history in 1972.",
+            "In the 1979 general election, Brown stood for the Edinburgh South constituency, losing to the Conservative candidate, Michael Ancram."
+          ]
+        },
+        {
+          "place": "Glasgow",
+          "quotes": [
+            "From 1976 to 1980 Brown was employed as a lecturer in politics at Glasgow College of Technology."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2,
+          3
+        ],
+        "organization_ids": [
+          0,
+          4
+        ],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "In 1972, while still a student, Brown was elected Rector of the University of Edinburgh, the convener of the University Court.",
+          "He served as Rector until 1975, and also edited the document The Red Paper on Scotland."
+        ],
+        "confidence": "high",
+        "notes": "Rector and convener roles are clearly linked to the University of Edinburgh and University Court."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "From 1976 to 1980 Brown was employed as a lecturer in politics at Glasgow College of Technology."
+        ],
+        "confidence": "high",
+        "notes": "Lecturer role is clearly linked to Glasgow College of Technology."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He also worked as a tutor for the Open University."
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker, but tutor role is clearly linked to the Open University."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time marker for the tutor role at the Open University."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 2,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

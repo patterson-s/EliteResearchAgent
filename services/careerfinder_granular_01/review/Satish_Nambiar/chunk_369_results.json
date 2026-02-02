@@ -1,0 +1,165 @@
+{
+  "status": "success",
+  "chunk_id": 369,
+  "chunk_index": 7,
+  "source_url": "https://corporatecitizen.in/v4-issue10/cover-story-dynamic-duo-75-indira-and%20-lt-gen-sat%20ish-nambiar-retd-breaking-barriers.html",
+  "title": "Cover Story: Dynamic Duo: 75 Indira and Lt. Gen.Satish Nambiar (retd) Breaking Barriers",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "in 2000",
+          "type": "point",
+          "quotes": [
+            "Receiving UN Secretary General Kofi Annan at the United Service Institution of India in 2000; also in the picture is Chief of Naval Staff Admiral Sushil Kumar."
+          ]
+        },
+        {
+          "text": "2005",
+          "type": "point",
+          "quotes": [
+            "With George Clooney at a dinner in New Delhi: 2005."
+          ]
+        },
+        {
+          "text": "the year was 1970",
+          "type": "point",
+          "quotes": [
+            "However, you must remember that the year was 1970, when one pretty much did as one was told."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "United Service Institution of India",
+          "quotes": [
+            "Receiving UN Secretary General Kofi Annan at the United Service Institution of India in 2000; also in the picture is Chief of Naval Staff Admiral Sushil Kumar."
+          ]
+        },
+        {
+          "name": "Air Force",
+          "quotes": [
+            "Having had an elder sister who was senior to me by 15 years and married into the Air Force, I sort of knew what marriage to a Defense officer would entail."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "UN Secretary General",
+          "quotes": [
+            "Receiving UN Secretary General Kofi Annan at the United Service Institution of India in 2000; also in the picture is Chief of Naval Staff Admiral Sushil Kumar."
+          ]
+        },
+        {
+          "title": "Chief of Naval Staff",
+          "quotes": [
+            "Receiving UN Secretary General Kofi Annan at the United Service Institution of India in 2000; also in the picture is Chief of Naval Staff Admiral Sushil Kumar."
+          ]
+        },
+        {
+          "title": "Defense officer",
+          "quotes": [
+            "Having had an elder sister who was senior to me by 15 years and married into the Air Force, I sort of knew what marriage to a Defense officer would entail."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "New Delhi",
+          "quotes": [
+            "With George Clooney at a dinner in New Delhi: 2005."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Receiving UN Secretary General Kofi Annan at the United Service Institution of India in 2000; also in the picture is Chief of Naval Staff Admiral Sushil Kumar."
+        ],
+        "confidence": "high",
+        "notes": "The role of Chief of Naval Staff is clearly associated with the United Service Institution of India in the given quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Having had an elder sister who was senior to me by 15 years and married into the Air Force, I sort of knew what marriage to a Defense officer would entail."
+        ],
+        "confidence": "medium",
+        "notes": "The role of Defense officer is associated with the Air Force, but there is no specific time marker. However, it is mentioned in the context of a personal story, implying a past or ongoing affiliation."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "quote_support",
+            "severity": "medium",
+            "description": "The quote mentions the Chief of Naval Staff but does not explicitly state that the subject held this position, only that they were present in a picture with the Chief of Naval Staff."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Location information is missing."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "No time marker is associated with this event, making it difficult to place temporally."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "The quote mentions the role of a Defense officer in the context of a personal story, but does not explicitly state that the subject held this position."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Location information is missing."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

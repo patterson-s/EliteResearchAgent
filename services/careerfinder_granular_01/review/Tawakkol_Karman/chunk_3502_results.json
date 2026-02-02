@@ -1,0 +1,224 @@
+{
+  "status": "success",
+  "chunk_id": 3502,
+  "chunk_index": 0,
+  "source_url": "https://www.nobelwomensinitiative.org/tawakkolkarman",
+  "title": "Tawakkol Karman - Nobel Women's Initiative",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "Since 2006",
+          "type": "open",
+          "quotes": [
+            "Since 2006 we have worked in solidarity with women's movements, organizations, and activists around the world to build peace, defend justice, and champion equality for all."
+          ]
+        },
+        {
+          "text": "2011",
+          "type": "point",
+          "quotes": [
+            "Tawakkol Karman was known as “The Mother of the Revolution” and was awarded the Nobel Peace Prize in 2011 in recognition of her work in nonviolent struggle for women’s rights and democracy in Yemen."
+          ]
+        },
+        {
+          "text": "1979",
+          "type": "point",
+          "quotes": [
+            "Tawakkol was born in 1979 in Taiz, Yemen’s third largest city."
+          ]
+        },
+        {
+          "text": "1990",
+          "type": "point",
+          "quotes": [
+            "Growing up in a politically tumultuous country, Tawakkol witnessed the unification of North and South Yemen in 1990, followed by a civil war between the two factions in 1994 in which the North triumphed over the South."
+          ]
+        },
+        {
+          "text": "1994",
+          "type": "point",
+          "quotes": [
+            "Growing up in a politically tumultuous country, Tawakkol witnessed the unification of North and South Yemen in 1990, followed by a civil war between the two factions in 1994 in which the North triumphed over the South."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Nobel Women's Initiative",
+          "quotes": [
+            "Tawakkol Karman - Nobel Women's Initiative"
+          ]
+        },
+        {
+          "name": "University of Science and Technology",
+          "quotes": [
+            "She studied an undergraduate degree in Commerce from the University of Science and Technology in Sana’a before completing a graduate degree in Political Science from the University of Sana’a."
+          ]
+        },
+        {
+          "name": "University of Sana’a",
+          "quotes": [
+            "She studied an undergraduate degree in Commerce from the University of Science and Technology in Sana’a before completing a graduate degree in Political Science from the University of Sana’a."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "human rights activist",
+          "quotes": [
+            "Karman is a mother of four as well as a human rights activist, journalist, and politician."
+          ]
+        },
+        {
+          "title": "journalist",
+          "quotes": [
+            "Karman is a mother of four as well as a human rights activist, journalist, and politician."
+          ]
+        },
+        {
+          "title": "politician",
+          "quotes": [
+            "Karman is a mother of four as well as a human rights activist, journalist, and politician."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Yemen",
+          "quotes": [
+            "awarded the Nobel Peace Prize in 2011 in recognition of her work in nonviolent struggle for women’s rights and democracy in Yemen."
+          ]
+        },
+        {
+          "place": "Taiz",
+          "quotes": [
+            "Tawakkol was born in 1979 in Taiz, Yemen’s third largest city."
+          ]
+        },
+        {
+          "place": "Sana’a",
+          "quotes": [
+            "She studied an undergraduate degree in Commerce from the University of Science and Technology in Sana’a before completing a graduate degree in Political Science from the University of Sana’a."
+          ]
+        },
+        {
+          "place": "North Yemen",
+          "quotes": [
+            "Growing up in a politically tumultuous country, Tawakkol witnessed the unification of North and South Yemen in 1990, followed by a civil war between the two factions in 1994 in which the North triumphed over the South."
+          ]
+        },
+        {
+          "place": "South Yemen",
+          "quotes": [
+            "Growing up in a politically tumultuous country, Tawakkol witnessed the unification of North and South Yemen in 1990, followed by a civil war between the two factions in 1994 in which the North triumphed over the South."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0,
+          1,
+          2
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Since 2006 we have worked in solidarity with women's movements, organizations, and activists around the world to build peace, defend justice, and champion equality for all.",
+          "Karman is a mother of four as well as a human rights activist, journalist, and politician."
+        ],
+        "confidence": "high",
+        "notes": "Roles are mentioned together in the same quote, indicating simultaneous positions."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Tawakkol Karman was known as “The Mother of the Revolution” and was awarded the Nobel Peace Prize in 2011 in recognition of her work in nonviolent struggle for women’s rights and democracy in Yemen."
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of a one-time award."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1,
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [
+          3
+        ],
+        "supporting_quotes": [
+          "She studied an undergraduate degree in Commerce from the University of Science and Technology in Sana’a before completing a graduate degree in Political Science from the University of Sana’a."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time marker, but organizations and location are clearly linked."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for career positions."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "Missing time marker for career position event."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for career position event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 1
+    }
+  }
+}

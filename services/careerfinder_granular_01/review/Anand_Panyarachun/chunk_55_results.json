@@ -1,0 +1,128 @@
+{
+  "status": "success",
+  "chunk_id": 55,
+  "chunk_index": 5,
+  "source_url": "https://www.pbs.org/wgbh/commandingheights/shared/minitextlo/int_anandpanyarachun.html",
+  "title": "Commanding Heights : Anand Panyarachun | on PBS",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "in 1991",
+          "type": "point",
+          "quotes": [
+            "So we in Thailand, in 1991, have graduated from the early phase of industrialization."
+          ]
+        },
+        {
+          "text": "within five years",
+          "type": "range",
+          "quotes": [
+            "my government did make out a blueprint that our aim, within five years, was to become a regional or subregional financial center"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "my government",
+          "quotes": [
+            "my government did make out a blueprint that our aim, within five years, was to become a regional or subregional financial center"
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": [
+        {
+          "place": "Thailand",
+          "quotes": [
+            "So we in Thailand, in 1991, have graduated from the early phase of industrialization."
+          ]
+        },
+        {
+          "place": "Singapore",
+          "quotes": [
+            "We look at Singapore. Singapore had proved to be a rather effective financial center in Asia."
+          ]
+        },
+        {
+          "place": "Hong Kong",
+          "quotes": [
+            "a notch or two below Singapore or Hong Kong."
+          ]
+        },
+        {
+          "place": "England with London",
+          "quotes": [
+            "You look at England with London and its financial center, Germany with Frankfurt, and America with New York and Chicago, so they had to go hand in hand."
+          ]
+        },
+        {
+          "place": "Germany with Frankfurt",
+          "quotes": [
+            "You look at England with London and its financial center, Germany with Frankfurt, and America with New York and Chicago, so they had to go hand in hand."
+          ]
+        },
+        {
+          "place": "America with New York and Chicago",
+          "quotes": [
+            "You look at England with London and its financial center, Germany with Frankfurt, and America with New York and Chicago, so they had to go hand in hand."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "So we in Thailand, in 1991, have graduated from the early phase of industrialization.",
+          "my government did make out a blueprint that our aim, within five years, was to become a regional or subregional financial center"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit role mentioned, but the context suggests a governmental position in Thailand. Confidence is medium due to the lack of a specific role."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. While the context suggests a governmental position, no specific role is mentioned."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quotes do not explicitly confirm the event_type 'career_position'. The quotes imply a governmental role but do not clearly state a specific position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

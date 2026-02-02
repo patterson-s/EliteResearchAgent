@@ -1,0 +1,199 @@
+{
+  "status": "success",
+  "chunk_id": 517,
+  "chunk_index": 17,
+  "source_url": "https://issafrica.s3.amazonaws.com/site/uploads/Book-2015-Salim.pdf",
+  "title": "Book-2015-Salim.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "April 1972",
+          "type": "point",
+          "quotes": [
+            "Before the UN Special Mission to Guinea-Bissau in April 1972, the Portuguese colonial authorities had denied requests for study visits"
+          ]
+        },
+        {
+          "text": "1971",
+          "type": "point",
+          "quotes": [
+            "In 1971 the PAIGC extended an invitation to the UN Special Mission to visit the areas of Guinea-Bissau under its control."
+          ]
+        },
+        {
+          "text": "From 2 to 8 April 1972",
+          "type": "range",
+          "quotes": [
+            "From 2 to 8 April 1972, the UN Special Mission, comprising representatives from Ecuador, Sweden and Tunisia, visited the liberated areas of Guinea-Bissau under the control of the PAIGC."
+          ]
+        },
+        {
+          "text": "September 1973",
+          "type": "point",
+          "quotes": [
+            "Soon afterwards, in September 1973, the National Assembly of Guinea-Bissau declared its independence and over 70 UN member states afforded the country diplomatic recognition."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "UN Special Mission",
+          "quotes": [
+            "Before the UN Special Mission to Guinea-Bissau in April 1972, the Portuguese colonial authorities had denied requests for study visits"
+          ]
+        },
+        {
+          "name": "PAIGC",
+          "quotes": [
+            "In 1971 the PAIGC extended an invitation to the UN Special Mission to visit the areas of Guinea-Bissau under its control."
+          ]
+        },
+        {
+          "name": "UN",
+          "quotes": [
+            "Salim later commented that as a result of that mission, the UN made a dramatic breakthrough in generating greater understanding among the international community of the liberation movements’ legitimacy."
+          ]
+        },
+        {
+          "name": "UNGA",
+          "quotes": [
+            "Within a month of the return of the UN Special Mission, the UNGA had recognised the PAIGC as the only authentic representative of the people in the territory."
+          ]
+        },
+        {
+          "name": "National Assembly of Guinea-Bissau",
+          "quotes": [
+            "Soon afterwards, in September 1973, the National Assembly of Guinea-Bissau declared its independence and over 70 UN member states afforded the country diplomatic recognition."
+          ]
+        },
+        {
+          "name": "UN Special Committee on Decolonization",
+          "quotes": [
+            "This mission was the first of many that Salim would undertake to ensure the participation of and coherence between the liberation movements, the UN Special Committee on Decolonization and other international stakeholders."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "representatives",
+          "quotes": [
+            "From 2 to 8 April 1972, the UN Special Mission, comprising representatives from Ecuador, Sweden and Tunisia, visited the liberated areas of Guinea-Bissau under the control of the PAIGC."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Guinea-Bissau",
+          "quotes": [
+            "Before the UN Special Mission to Guinea-Bissau in April 1972, the Portuguese colonial authorities had denied requests for study visits"
+          ]
+        },
+        {
+          "place": "Portugal",
+          "quotes": [
+            "Besides, they held the myth that Portugal was pluri-continental and that all Portuguese colonies were part of Portugal."
+          ]
+        },
+        {
+          "place": "Ecuador",
+          "quotes": [
+            "From 2 to 8 April 1972, the UN Special Mission, comprising representatives from Ecuador, Sweden and Tunisia, visited the liberated areas of Guinea-Bissau under the control of the PAIGC."
+          ]
+        },
+        {
+          "place": "Sweden",
+          "quotes": [
+            "From 2 to 8 April 1972, the UN Special Mission, comprising representatives from Ecuador, Sweden and Tunisia, visited the liberated areas of Guinea-Bissau under the control of the PAIGC."
+          ]
+        },
+        {
+          "place": "Tunisia",
+          "quotes": [
+            "From 2 to 8 April 1972, the UN Special Mission, comprising representatives from Ecuador, Sweden and Tunisia, visited the liberated areas of Guinea-Bissau under the control of the PAIGC."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0,
+          2,
+          3,
+          4
+        ],
+        "supporting_quotes": [
+          "From 2 to 8 April 1972, the UN Special Mission, comprising representatives from Ecuador, Sweden and Tunisia, visited the liberated areas of Guinea-Bissau under the control of the PAIGC."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, role, and locations in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Soon afterwards, in September 1973, the National Assembly of Guinea-Bissau declared its independence and over 70 UN member states afforded the country diplomatic recognition."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and location in the same quote. No specific role mentioned, but the event is significant enough to be considered a career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for the career position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position but lacks clear role or responsibilities, potentially more of a significant event than a position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

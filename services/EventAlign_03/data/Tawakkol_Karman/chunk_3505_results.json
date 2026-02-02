@@ -1,0 +1,160 @@
+{
+  "status": "success",
+  "chunk_id": 3505,
+  "chunk_index": 0,
+  "source_url": "https://www.nobelprize.org/prizes/peace/2011/karman/facts/",
+  "title": "Tawakkol Karman – Facts - NobelPrize.org",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "7 February 1979",
+          "type": "point",
+          "quotes": [
+            "Born: 7 February 1979, Ta'izz, Yemen"
+          ]
+        },
+        {
+          "text": "2011",
+          "type": "point",
+          "quotes": [
+            "Tawakkol Karman came forward as a courageous leadership figure during the Arab Spring in 2011"
+          ]
+        },
+        {
+          "text": "2003",
+          "type": "point",
+          "quotes": [
+            "Like Iranian Shirin Ebadi, Peace Prize laureate for 2003, she maintained that Islam is no obstacle to the full acceptance of women in every sphere of society."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Women Journalists without Chains",
+          "quotes": [
+            "She founded the organisation Women Journalists without Chains, and was imprisoned and persecuted on account of her active engagement."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "journalist",
+          "quotes": [
+            "Tawakkol Karman, a Yemeni journalist, was the first woman to win the Nobel Peace Prize from the Arab world."
+          ]
+        },
+        {
+          "title": "Nobel Peace Prize laureate",
+          "quotes": [
+            "Tawakkol Karman, a Yemeni journalist, was the first woman to win the Nobel Peace Prize from the Arab world."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Ta'izz, Yemen",
+          "quotes": [
+            "Born: 7 February 1979, Ta'izz, Yemen"
+          ]
+        },
+        {
+          "place": "Yemen",
+          "quotes": [
+            "Residence at the time of the award: Yemen"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "She founded the organisation Women Journalists without Chains, and was imprisoned and persecuted on account of her active engagement.",
+          "Tawakkol Karman, a Yemeni journalist, was the first woman to win the Nobel Peace Prize from the Arab world.",
+          "Residence at the time of the award: Yemen"
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker, but the organization and role are clearly linked through the quotes."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Like Iranian Shirin Ebadi, Peace Prize laureate for 2003, she maintained that Islam is no obstacle to the full acceptance of women in every sphere of society.",
+          "Tawakkol Karman, a Yemeni journalist, was the first woman to win the Nobel Peace Prize from the Arab world.",
+          "Residence at the time of the award: Yemen"
+        ],
+        "confidence": "high",
+        "notes": "The Nobel Peace Prize is clearly an award, and the time marker is explicitly mentioned in the context of another laureate, but the exact year of Tawakkol Karman's award is not specified in the provided quotes. However, her role as a laureate is confirmed."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "No time marker provided for the career position, making it impossible to verify temporal coherence."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time marker for the career position, though the organization and role are clearly linked through the quotes."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "Time marker '2003' is mentioned but not explicitly linked to Tawakkol Karman's award. The exact year of her Nobel Peace Prize is not specified in the provided quotes."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing organization for the award, though the role and location are clearly supported by the quotes."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 1
+    }
+  }
+}

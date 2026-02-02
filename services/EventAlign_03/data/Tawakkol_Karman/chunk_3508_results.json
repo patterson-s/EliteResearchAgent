@@ -1,0 +1,238 @@
+{
+  "status": "success",
+  "chunk_id": 3508,
+  "chunk_index": 0,
+  "source_url": "https://mediatheque.lindau-nobel.org/laureates/karman/cv",
+  "title": "CV - Tawakkol Karman | Lindau Mediatheque",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "born 7 February 1979",
+          "type": "point",
+          "quotes": [
+            "Tawakkol Karman (born 7 February 1979, Ta’izz, Yemen) is a human rights activist, journalist and politician."
+          ]
+        },
+        {
+          "text": "2011",
+          "type": "point",
+          "quotes": [
+            "She played a key role in the 2011 pro-democracy youth uprising in Yemen and was reportedly called the 'Iron Woman' and 'Mother of the Revolution'.",
+            "One year later, in early 2011, with the participation of many youth activists, Karman co-founded the 'Council of the Peaceful Popular Youth Revolution'."
+          ]
+        },
+        {
+          "text": "2007",
+          "type": "point",
+          "quotes": [
+            "She started calling for the outset of the regime of late President Ali Saleh in 2007 by publishing articles in Yemeni newspapers."
+          ]
+        },
+        {
+          "text": "2005",
+          "type": "point",
+          "quotes": [
+            "In 2005 she co-founded 'Women Journalists Without Chains' to advocate for freedom of the press, and worked as a campaigning journalist, reporting on government injustice and human rights issues, including malnutrition and illiteracy among girls."
+          ]
+        },
+        {
+          "text": "January 2010",
+          "type": "point",
+          "quotes": [
+            "In January 2010, she was taken to prison."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Women Journalists Without Chains",
+          "quotes": [
+            "In 2005 she co-founded 'Women Journalists Without Chains' to advocate for freedom of the press, and worked as a campaigning journalist, reporting on government injustice and human rights issues, including malnutrition and illiteracy among girls."
+          ]
+        },
+        {
+          "name": "Council of the Peaceful Popular Youth Revolution",
+          "quotes": [
+            "One year later, in early 2011, with the participation of many youth activists, Karman co-founded the 'Council of the Peaceful Popular Youth Revolution'."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "human rights activist",
+          "quotes": [
+            "Tawakkol Karman (born 7 February 1979, Ta’izz, Yemen) is a human rights activist, journalist and politician."
+          ]
+        },
+        {
+          "title": "journalist",
+          "quotes": [
+            "Tawakkol Karman (born 7 February 1979, Ta’izz, Yemen) is a human rights activist, journalist and politician.",
+            "Tawakkol Karman became a journalist struggling for human rights and justice."
+          ]
+        },
+        {
+          "title": "politician",
+          "quotes": [
+            "Tawakkol Karman (born 7 February 1979, Ta’izz, Yemen) is a human rights activist, journalist and politician."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Ta’izz, Yemen",
+          "quotes": [
+            "Tawakkol Karman (born 7 February 1979, Ta’izz, Yemen) is a human rights activist, journalist and politician."
+          ]
+        },
+        {
+          "place": "Yemen",
+          "quotes": [
+            "She played a key role in the 2011 pro-democracy youth uprising in Yemen and was reportedly called the 'Iron Woman' and 'Mother of the Revolution'.",
+            "She started calling for the outset of the regime of late President Ali Saleh in 2007 by publishing articles in Yemeni newspapers.",
+            "She has inspired women in Yemen by setting an example that women are capable of doing anything they set their minds to, including political reforms."
+          ]
+        },
+        {
+          "place": "Middle East",
+          "quotes": [
+            "Karman has become one of the leading figures in the Middle East to promote the culture of non-violence to fight political oppression and bring institutional change."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0,
+          1,
+          2
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Tawakkol Karman (born 7 February 1979, Ta’izz, Yemen) is a human rights activist, journalist and politician."
+        ],
+        "confidence": "high",
+        "notes": "Birth and initial roles mentioned together."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2005 she co-founded 'Women Journalists Without Chains' to advocate for freedom of the press, and worked as a campaigning journalist, reporting on government injustice and human rights issues, including malnutrition and illiteracy among girls."
+        ],
+        "confidence": "high",
+        "notes": "Co-founding of organization and role as journalist clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "She started calling for the outset of the regime of late President Ali Saleh in 2007 by publishing articles in Yemeni newspapers."
+        ],
+        "confidence": "high",
+        "notes": "Activism and journalism in Yemen mentioned together."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "One year later, in early 2011, with the participation of many youth activists, Karman co-founded the 'Council of the Peaceful Popular Youth Revolution'."
+        ],
+        "confidence": "high",
+        "notes": "Co-founding of organization and role as activist clearly linked."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for initial roles."
+          },
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "Birth date used as a time marker for career positions, which is unconventional."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for activism and journalism roles."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 2,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

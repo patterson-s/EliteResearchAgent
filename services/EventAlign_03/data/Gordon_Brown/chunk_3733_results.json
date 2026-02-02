@@ -1,0 +1,231 @@
+{
+  "status": "success",
+  "chunk_id": 3733,
+  "chunk_index": 36,
+  "source_url": "https://en.wikipedia.org/wiki/Gordon_Brown",
+  "title": "Gordon Brown - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "11 June 2021",
+          "type": "point",
+          "quotes": [
+            "www.scotsman.com. 11 June 2021."
+          ]
+        },
+        {
+          "text": "2 November 2022",
+          "type": "point",
+          "quotes": [
+            "Archived from the original on 2 November 2022."
+          ]
+        },
+        {
+          "text": "20 September 2021",
+          "type": "point",
+          "quotes": [
+            "World Health Organization. 20 September 2021."
+          ]
+        },
+        {
+          "text": "2 March 2025",
+          "type": "point",
+          "quotes": [
+            "Retrieved 2 March 2025."
+          ]
+        },
+        {
+          "text": "6 January 2023",
+          "type": "point",
+          "quotes": [
+            "House of Commons Library. 6 January 2023."
+          ]
+        },
+        {
+          "text": "2 January 2024",
+          "type": "point",
+          "quotes": [
+            "Archived (PDF) from the original on 2 January 2024."
+          ]
+        },
+        {
+          "text": "5 December 2022",
+          "type": "point",
+          "quotes": [
+            "Labour Party. 5 December 2022."
+          ]
+        },
+        {
+          "text": "26 December 2023",
+          "type": "point",
+          "quotes": [
+            "Archived (PDF) from the original on 26 December 2023."
+          ]
+        },
+        {
+          "text": "21 December 2022",
+          "type": "point",
+          "quotes": [
+            "BBC News. 21 December 2022."
+          ]
+        },
+        {
+          "text": "11 October 2023",
+          "type": "point",
+          "quotes": [
+            "Slobodian, Quinn (11 October 2023)."
+          ]
+        },
+        {
+          "text": "7 July 2024",
+          "type": "point",
+          "quotes": [
+            "Retrieved 7 July 2024."
+          ]
+        },
+        {
+          "text": "14 May 2024",
+          "type": "point",
+          "quotes": [
+            "The Guardian. 14 May 2024."
+          ]
+        },
+        {
+          "text": "21 May 2024",
+          "type": "point",
+          "quotes": [
+            "Retrieved 21 May 2024."
+          ]
+        },
+        {
+          "text": "18 May 2024",
+          "type": "point",
+          "quotes": [
+            "Savage, Michael (18 May 2024)."
+          ]
+        },
+        {
+          "text": "22 November",
+          "type": "point",
+          "quotes": [
+            "Brown, Gordon (22 November"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "World Health Organization",
+          "quotes": [
+            "Former UK Prime Minister Gordon Brown appointed WHO Ambassador for Global Health Financing. World Health Organization. 20 September 2021."
+          ]
+        },
+        {
+          "name": "House of Commons Library",
+          "quotes": [
+            "House of Lords Reform in the 2019 Parliament (PDF). London: House of Commons Library. 6 January 2023."
+          ]
+        },
+        {
+          "name": "Labour Party",
+          "quotes": [
+            "A New Britain: Renewing our Democracy and Rebuilding our Economy – Report of the Commission on the UK's Future (PDF). Labour Party. 5 December 2022."
+          ]
+        },
+        {
+          "name": "BBC News",
+          "quotes": [
+            "Gordon Brown: Labour plan would make UK work for Scotland. BBC News. 5 December 2022."
+          ]
+        },
+        {
+          "name": "The Guardian",
+          "quotes": [
+            "Permacrisis by Gordon Brown, Mohamed El-Erian and Michael Spence review – road to nowhere. The Guardian. 11 October 2023."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Former UK Prime Minister",
+          "quotes": [
+            "Former UK Prime Minister Gordon Brown appointed WHO Ambassador for Global Health Financing."
+          ]
+        },
+        {
+          "title": "WHO Ambassador for Global Health Financing",
+          "quotes": [
+            "Former UK Prime Minister Gordon Brown appointed WHO Ambassador for Global Health Financing."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "London",
+          "quotes": [
+            "House of Lords Reform in the 2019 Parliament (PDF). London: House of Commons Library. 6 January 2023."
+          ]
+        },
+        {
+          "place": "Scotland",
+          "quotes": [
+            "Gordon Brown: Labour plan would make UK work for Scotland. BBC News. 5 December 2022."
+          ]
+        },
+        {
+          "place": "UK",
+          "quotes": [
+            "Gordon Brown: Labour plan would make UK work for Scotland. BBC News. 5 December 2022."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Former UK Prime Minister Gordon Brown appointed WHO Ambassador for Global Health Financing. World Health Organization. 20 September 2021."
+        ],
+        "confidence": "high",
+        "notes": "Clear appointment to an active role with responsibilities."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information, which could be relevant for a global role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

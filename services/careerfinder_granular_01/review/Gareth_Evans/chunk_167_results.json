@@ -1,0 +1,195 @@
+{
+  "status": "success",
+  "chunk_id": 167,
+  "chunk_index": 4,
+  "source_url": "https://en.wikipedia.org/wiki/Gareth_Evans_(politician)",
+  "title": "Gareth Evans (politician) - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "after the 1984 election",
+          "type": "point",
+          "quotes": [
+            "In a demotion following this mixed record, Hawke moved him to the less sensitive portfolio of Resources and Energy after the 1984 election."
+          ]
+        },
+        {
+          "text": "1984–1988",
+          "type": "range",
+          "quotes": [
+            "Resources, energy, transport and communications, 1984–1988"
+          ]
+        },
+        {
+          "text": "from 1984 to 1987",
+          "type": "range",
+          "quotes": [
+            "As Minister for Resources and Energy from 1984 to 1987"
+          ]
+        },
+        {
+          "text": "in 1986",
+          "type": "point",
+          "quotes": [
+            "managing the Australian fallout from the crash in world oil prices in 1986"
+          ]
+        },
+        {
+          "text": "In February 1987",
+          "type": "point",
+          "quotes": [
+            "In February 1987, shortly after his appointment as Manager of Government Business in the Senate, Evans caused controversy by making comments comparing a Senate debate to rape"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Commonwealth Director of Public Prosecutions",
+          "quotes": [
+            "He achieved a number of reforms, including the establishment of the Commonwealth Director of Public Prosecutions"
+          ]
+        },
+        {
+          "name": "National Crime Authority",
+          "quotes": [
+            "He achieved a number of reforms, including the establishment of the National Crime Authority"
+          ]
+        },
+        {
+          "name": "Family Law",
+          "quotes": [
+            "the strengthening of the Family Law and Freedom of Information Act"
+          ]
+        },
+        {
+          "name": "Freedom of Information Act",
+          "quotes": [
+            "the strengthening of the Family Law and Freedom of Information Act"
+          ]
+        },
+        {
+          "name": "ALP",
+          "quotes": [
+            "His ALP colleague Susan Ryan asked him to withdraw the comment, but he refused to do so."
+          ]
+        },
+        {
+          "name": "Canberra Rape Crisis Centre",
+          "quotes": [
+            "The Canberra Rape Crisis Centre requested that Evans apologise and staged a protest in the public gallery of the Senate two days later."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Minister for Resources and Energy",
+          "quotes": [
+            "As Minister for Resources and Energy from 1984 to 1987"
+          ]
+        },
+        {
+          "title": "Manager of Government Business in the Senate",
+          "quotes": [
+            "In February 1987, shortly after his appointment as Manager of Government Business in the Senate, Evans caused controversy by making comments comparing a Senate debate to rape"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "North West Shelf",
+          "quotes": [
+            "he won industry support for his role in rescuing from possible collapse of the huge North West Shelf gas project"
+          ]
+        },
+        {
+          "place": "Canberra",
+          "quotes": [
+            "The Canberra Rape Crisis Centre requested that Evans apologise and staged a protest in the public gallery of the Senate two days later."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1,
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In a demotion following this mixed record, Hawke moved him to the less sensitive portfolio of Resources and Energy after the 1984 election.",
+          "Resources, energy, transport and communications, 1984–1988",
+          "As Minister for Resources and Energy from 1984 to 1987"
+        ],
+        "confidence": "high",
+        "notes": "Time markers and role are clearly linked through quotes."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In February 1987, shortly after his appointment as Manager of Government Business in the Senate, Evans caused controversy by making comments comparing a Senate debate to rape"
+        ],
+        "confidence": "high",
+        "notes": "Time marker and role are directly linked in the quote."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location information, which could be inferable but is not explicitly provided."
+          },
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "Time markers include both a point ('after the 1984 election') and ranges ('1984–1988', '1984 to 1987'), which are consistent but could be more precisely aligned."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location information, which could be inferable but is not explicitly provided."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

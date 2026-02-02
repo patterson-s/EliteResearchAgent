@@ -1,0 +1,216 @@
+{
+  "status": "success",
+  "chunk_id": 2660,
+  "chunk_index": 1,
+  "source_url": "https://www.cdu.edu.au/files/2021-12/dr-susilo-bambamg-yudhoyono.pdf",
+  "title": "dr-susilo-bambamg-yudhoyono.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In 2002",
+          "type": "point",
+          "quotes": [
+            "In 2002 Doctor Yudhoyono became the principal founder of the Partai Demokrat"
+          ]
+        },
+        {
+          "text": "2004",
+          "type": "point",
+          "quotes": [
+            "The Partai Demokrat’s success eventually enabled him to challenge for and win the Presidency of Indonesia in 2004"
+          ]
+        },
+        {
+          "text": "October 2002",
+          "type": "point",
+          "quotes": [
+            "While still a Minister under President Megawati, Doctor Yudhoyono oversaw the hunt for and arrest of those responsible for the October 2002 Bali bombing"
+          ]
+        },
+        {
+          "text": "2004",
+          "type": "point",
+          "quotes": [
+            "Early on in his Presidency, Doctor Yudhoyono faced the aftermath of the greatest natural disaster to befall Indonesia in more than a century, when the ‘Boxing Day’ tsunami struck in 2004"
+          ]
+        },
+        {
+          "text": "2008",
+          "type": "point",
+          "quotes": [
+            "Following this disaster, Doctor Yudhoyono managed to bring about significant improvement in Indonesia’s economy, despite the global financial crisis in 2008"
+          ]
+        },
+        {
+          "text": "2009",
+          "type": "point",
+          "quotes": [
+            "His successes saw him returned to office in the 2009 Presidential elections"
+          ]
+        },
+        {
+          "text": "2009 to 2013",
+          "type": "range",
+          "quotes": [
+            "In the period 2009 to 2013 his government’s policies resulted in Indonesia experiencing high economic growth second only"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Partai Demokrat",
+          "quotes": [
+            "In 2002 Doctor Yudhoyono became the principal founder of the Partai Demokrat"
+          ]
+        },
+        {
+          "name": "Bogor Agricultural University",
+          "quotes": [
+            "the same year he was also awarded a Ph.D. in economics from Indonesia’s Bogor Agricultural University"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "principal founder",
+          "quotes": [
+            "In 2002 Doctor Yudhoyono became the principal founder of the Partai Demokrat"
+          ]
+        },
+        {
+          "title": "Minister",
+          "quotes": [
+            "While still a Minister under President Megawati, Doctor Yudhoyono oversaw the hunt for and arrest of those responsible for the October 2002 Bali bombing"
+          ]
+        },
+        {
+          "title": "President",
+          "quotes": [
+            "The Partai Demokrat’s success eventually enabled him to challenge for and win the Presidency of Indonesia in 2004"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Indonesia",
+          "quotes": [
+            "The Partai Demokrat’s success eventually enabled him to challenge for and win the Presidency of Indonesia in 2004"
+          ]
+        },
+        {
+          "place": "Bali",
+          "quotes": [
+            "While still a Minister under President Megawati, Doctor Yudhoyono oversaw the hunt for and arrest of those responsible for the October 2002 Bali bombing"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2002 Doctor Yudhoyono became the principal founder of the Partai Demokrat"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "While still a Minister under President Megawati, Doctor Yudhoyono oversaw the hunt for and arrest of those responsible for the October 2002 Bali bombing"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1,
+          4,
+          5,
+          6
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "The Partai Demokrat’s success eventually enabled him to challenge for and win the Presidency of Indonesia in 2004",
+          "Early on in his Presidency, Doctor Yudhoyono faced the aftermath of the greatest natural disaster to befall Indonesia in more than a century, when the ‘Boxing Day’ tsunami struck in 2004",
+          "Following this disaster, Doctor Yudhoyono managed to bring about significant improvement in Indonesia’s economy, despite the global financial crisis in 2008",
+          "His successes saw him returned to office in the 2009 Presidential elections",
+          "In the period 2009 to 2013 his government’s policies resulted in Indonesia experiencing high economic growth second only"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, role, and location across multiple quotes."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the Minister role."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the President role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

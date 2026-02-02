@@ -1,0 +1,241 @@
+{
+  "status": "success",
+  "chunk_id": 3200,
+  "chunk_index": 0,
+  "source_url": "https://www.un.org/sg/en/management/bios/Espinosa.shtml",
+  "title": "PATRICIA ESPINOSA (MEXICO) | Secretary-General | United Nations",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "From June 2001 to 2006",
+          "type": "range",
+          "quotes": [
+            "From June 2001 to 2006, she served as Ambassador to Austria, Slovenia, Slovakia, and Germany, and as Permanent Representative to the International Organizations in Vienna."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "United Nations",
+          "quotes": [
+            "PATRICIA ESPINOSA (MEXICO) | Secretary-General | United Nations"
+          ]
+        },
+        {
+          "name": "Secretariat of Foreign Affairs",
+          "quotes": [
+            "Previously, she was Director General of Regional Organizations of the Americas at the Secretariat of Foreign Affairs."
+          ]
+        },
+        {
+          "name": "International Organizations in Vienna",
+          "quotes": [
+            "From June 2001 to 2006, she served as Ambassador to Austria, Slovenia, Slovakia, and Germany, and as Permanent Representative to the International Organizations in Vienna."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Secretary-General",
+          "quotes": [
+            "PATRICIA ESPINOSA (MEXICO) | Secretary-General | United Nations"
+          ]
+        },
+        {
+          "title": "Secretary of Foreign Affairs for Mexico",
+          "quotes": [
+            "Ms. Espinosa is the current Secretary of Foreign Affairs for Mexico."
+          ]
+        },
+        {
+          "title": "Ambassador to Austria, Slovenia, Slovakia, and Germany",
+          "quotes": [
+            "From June 2001 to 2006, she served as Ambassador to Austria, Slovenia, Slovakia, and Germany, and as Permanent Representative to the International Organizations in Vienna."
+          ]
+        },
+        {
+          "title": "Permanent Representative to the International Organizations in Vienna",
+          "quotes": [
+            "From June 2001 to 2006, she served as Ambassador to Austria, Slovenia, Slovakia, and Germany, and as Permanent Representative to the International Organizations in Vienna."
+          ]
+        },
+        {
+          "title": "Director General of Regional Organizations of the Americas",
+          "quotes": [
+            "Previously, she was Director General of Regional Organizations of the Americas at the Secretariat of Foreign Affairs."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Mexico",
+          "quotes": [
+            "PATRICIA ESPINOSA (MEXICO)"
+          ]
+        },
+        {
+          "place": "Austria",
+          "quotes": [
+            "From June 2001 to 2006, she served as Ambassador to Austria, Slovenia, Slovakia, and Germany, and as Permanent Representative to the International Organizations in Vienna."
+          ]
+        },
+        {
+          "place": "Slovenia",
+          "quotes": [
+            "From June 2001 to 2006, she served as Ambassador to Austria, Slovenia, Slovakia, and Germany, and as Permanent Representative to the International Organizations in Vienna."
+          ]
+        },
+        {
+          "place": "Slovakia",
+          "quotes": [
+            "From June 2001 to 2006, she served as Ambassador to Austria, Slovenia, Slovakia, and Germany, and as Permanent Representative to the International Organizations in Vienna."
+          ]
+        },
+        {
+          "place": "Germany",
+          "quotes": [
+            "From June 2001 to 2006, she served as Ambassador to Austria, Slovenia, Slovakia, and Germany, and as Permanent Representative to the International Organizations in Vienna."
+          ]
+        },
+        {
+          "place": "Vienna",
+          "quotes": [
+            "From June 2001 to 2006, she served as Ambassador to Austria, Slovenia, Slovakia, and Germany, and as Permanent Representative to the International Organizations in Vienna."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          2,
+          3
+        ],
+        "location_ids": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "supporting_quotes": [
+          "From June 2001 to 2006, she served as Ambassador to Austria, Slovenia, Slovakia, and Germany, and as Permanent Representative to the International Organizations in Vienna."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organizations, roles, and locations in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "PATRICIA ESPINOSA (MEXICO) | Secretary-General | United Nations"
+        ],
+        "confidence": "high",
+        "notes": "No explicit time marker, but clear linkage between organization, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Previously, she was Director General of Regional Organizations of the Americas at the Secretariat of Foreign Affairs."
+        ],
+        "confidence": "high",
+        "notes": "No explicit time marker or location, but clear linkage between organization and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Ms. Espinosa is the current Secretary of Foreign Affairs for Mexico."
+        ],
+        "confidence": "high",
+        "notes": "No explicit organization or time marker, but clear linkage between role and location."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and location for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and time marker for career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 1,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

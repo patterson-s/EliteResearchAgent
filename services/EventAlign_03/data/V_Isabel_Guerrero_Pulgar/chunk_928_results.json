@@ -1,0 +1,170 @@
+{
+  "status": "success",
+  "chunk_id": 928,
+  "chunk_index": 71,
+  "source_url": "https://www.un.org/digital-emerging-technologies/sites/www.un.org.techenvoy/files/hlp_on_digital_cooperation-report_final.pdf",
+  "title": "hlp_on_digital_cooperation-report_final.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "23 October 2018",
+          "type": "point",
+          "quotes": [
+            "See Convention on Prohibitions or Restrictions on the Use of Certain Conventional Weapons Which May Be Deemed to Be Excessively Injurious or to Have Indiscriminate Effects, “Report of the 2018 session of the Group of Governmental Experts on Emerging Technologies in the Area of Lethal Autonomous Weapons Systems”, 23 October 2018"
+          ]
+        },
+        {
+          "text": "5 November 2018",
+          "type": "point",
+          "quotes": [
+            "António Guterres, United Nations Secretary-General, remarks at the Web Summit, Lisbon, 5 November 2018"
+          ]
+        },
+        {
+          "text": "March 29, 2019",
+          "type": "point",
+          "quotes": [
+            "‘Autonomous weapons that kill must be banned, insists UN chief’, March 29, 2019"
+          ]
+        },
+        {
+          "text": "17 February 2018",
+          "type": "point",
+          "quotes": [
+            "David Dodwell, ‘The integration of mass surveillance and new digital technologies is unnerving’, The South China Morning Post, 17 February 2018"
+          ]
+        },
+        {
+          "text": "19 December 2014",
+          "type": "point",
+          "quotes": [
+            "United Nations General Assembly, Summary of the Human Rights Council panel discussion on the right to privacy in the digital age, 19 December 2014"
+          ]
+        },
+        {
+          "text": "3 December 2016",
+          "type": "point",
+          "quotes": [
+            "National Public Radio, ‘A year after San Bernardino and Apple-FBI, where are we on encryption?’, 3 December 2016"
+          ]
+        },
+        {
+          "text": "20 November 2018",
+          "type": "point",
+          "quotes": [
+            "UK Open Data Institute, ‘UK’s first ‘data trust’ pilots to be led by the ODI in partnership with central and local government’, 20 November 2018"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Association for the Advancement of Artificial Intelligence",
+          "quotes": [
+            "Wendell Wallach, An Agile Ethical/Legal Model for the International and National Governance of AI and Robotics (Association for the Advancement of Artificial Intelligence, 2018)"
+          ]
+        },
+        {
+          "name": "United Nations",
+          "quotes": [
+            "António Guterres, United Nations Secretary-General, remarks at the Web Summit, Lisbon, 5 November 2018"
+          ]
+        },
+        {
+          "name": "OECD",
+          "quotes": [
+            "Provisions similar to the U.S. Fourth Amendment exist in several Constitutions and the 1980 OECD Guidelines codified 8 principles that have influenced privacy regulations since then."
+          ]
+        },
+        {
+          "name": "United Nations General Assembly",
+          "quotes": [
+            "United Nations General Assembly, Summary of the Human Rights Council panel discussion on the right to privacy in the digital age, 19 December 2014"
+          ]
+        },
+        {
+          "name": "National Public Radio",
+          "quotes": [
+            "National Public Radio, ‘A year after San Bernardino and Apple-FBI, where are we on encryption?’, 3 December 2016"
+          ]
+        },
+        {
+          "name": "UK Open Data Institute",
+          "quotes": [
+            "UK Open Data Institute, ‘UK’s first ‘data trust’ pilots to be led by the ODI in partnership with central and local government’, 20 November 2018"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "United Nations Secretary-General",
+          "quotes": [
+            "António Guterres, United Nations Secretary-General, remarks at the Web Summit, Lisbon, 5 November 2018"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Lisbon",
+          "quotes": [
+            "António Guterres, United Nations Secretary-General, remarks at the Web Summit, Lisbon, 5 November 2018"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "António Guterres, United Nations Secretary-General, remarks at the Web Summit, Lisbon, 5 November 2018"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, role, and location in the same quote."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "The time_marker_id 1 corresponds to '23 October 2018', but the supporting quote mentions '5 November 2018'. These dates are close but not the same, which may indicate a minor temporal inconsistency."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "The event is missing a clear start and end date, which is unusual for a career position. Only a single time marker is provided, which may not fully capture the duration of the role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

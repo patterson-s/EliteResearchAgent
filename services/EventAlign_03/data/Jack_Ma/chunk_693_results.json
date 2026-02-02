@@ -1,0 +1,302 @@
+{
+  "status": "success",
+  "chunk_id": 693,
+  "chunk_index": 3,
+  "source_url": "https://en.wikipedia.org/wiki/Jack_Ma",
+  "title": "Jack Ma - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1988",
+          "type": "point",
+          "quotes": [
+            "after graduating from Hangzhou Normal University in 1988, Ma applied for 31 different odd entry-level jobs and was rejected for every single one."
+          ]
+        },
+        {
+          "text": "1994",
+          "type": "point",
+          "quotes": [
+            "In 1994, Ma heard about the Internet and also started his first company,"
+          ]
+        },
+        {
+          "text": "early 1995",
+          "type": "point",
+          "quotes": [
+            "In early 1995, he travelled abroad to the United States on behalf of the Hangzhou municipal government with colleagues who had helped introduce him to the Internet."
+          ]
+        },
+        {
+          "text": "April 1995",
+          "type": "point",
+          "quotes": [
+            "In April 1995, Ma and his business partner He Yibing (a computer instructor), opened the first office for China Pages,"
+          ]
+        },
+        {
+          "text": "10 May 1995",
+          "type": "point",
+          "quotes": [
+            "On 10 May 1995, the pair registered the domain chinapages.com in the United States."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Hangzhou Dianzi University",
+          "quotes": [
+            "a lecturer in English and international trade at Hangzhou Dianzi University."
+          ]
+        },
+        {
+          "name": "Harvard Business School",
+          "quotes": [
+            "Ma also claims to have applied to Harvard Business School ten times consecutively, being rejected every time."
+          ]
+        },
+        {
+          "name": "Hangzhou Normal University",
+          "quotes": [
+            "after graduating from Hangzhou Normal University in 1988,"
+          ]
+        },
+        {
+          "name": "KFC",
+          "quotes": [
+            "I went for a job with the KFC; they said, 'you're no good', Ma told interviewer Charlie Rose. 'I even went to KFC when it came to my city....'"
+          ]
+        },
+        {
+          "name": "Hangzhou Haibo Translation Agency",
+          "quotes": [
+            "In 1994, Ma heard about the Internet and also started his first company, Hangzhou Haibo Translation Agency (杭州海波翻譯社, Hángzhōu Hǎibō Fānyì Shè),"
+          ]
+        },
+        {
+          "name": "China Pages",
+          "quotes": [
+            "In April 1995, Ma and his business partner He Yibing (a computer instructor), opened the first office for China Pages,"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "lecturer in English and international trade",
+          "quotes": [
+            "a lecturer in English and international trade at Hangzhou Dianzi University."
+          ]
+        },
+        {
+          "title": "computer instructor",
+          "quotes": [
+            "Ma and his business partner He Yibing (a computer instructor),"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Hangzhou",
+          "quotes": [
+            "Hangzhou Dianzi University",
+            "Hangzhou Normal University",
+            "Hangzhou Haibo Translation Agency",
+            "on behalf of the Hangzhou municipal government"
+          ]
+        },
+        {
+          "place": "United States",
+          "quotes": [
+            "travelled abroad to the United States",
+            "registered the domain chinapages.com in the United States",
+            "with the help of friends in the United States."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "after graduating from Hangzhou Normal University in 1988, Ma applied for 31 different odd entry-level jobs and was rejected for every single one."
+        ],
+        "confidence": "high",
+        "notes": "Graduation event with no specific role mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "In 1994, Ma heard about the Internet and also started his first company, Hangzhou Haibo Translation Agency (杭州海波翻譯社, Hángzhōu Hǎibō Fānyì Shè),"
+        ],
+        "confidence": "high",
+        "notes": "Starting a company indicates a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          0,
+          1
+        ],
+        "supporting_quotes": [
+          "In early 1995, he travelled abroad to the United States on behalf of the Hangzhou municipal government with colleagues who had helped introduce him to the Internet."
+        ],
+        "confidence": "medium",
+        "notes": "Travel event with no specific organization or role mentioned, but likely related to career activities."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "In April 1995, Ma and his business partner He Yibing (a computer instructor), opened the first office for China Pages,"
+        ],
+        "confidence": "high",
+        "notes": "Opening an office for a company indicates a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "On 10 May 1995, the pair registered the domain chinapages.com in the United States."
+        ],
+        "confidence": "high",
+        "notes": "Registering a domain for a company indicates a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "a lecturer in English and international trade at Hangzhou Dianzi University."
+        ],
+        "confidence": "high",
+        "notes": "Lecturer role at a university indicates a career position, but no specific time marker is provided."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for career position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event describes graduation and job applications, which may not qualify as a career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and role information for career position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event describes travel, which may not qualify as a career position without more context."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 4,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 5,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "Missing time marker for career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 6,
+      "valid": 3,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 6,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "status": "success",
+  "chunk_id": 1162,
+  "chunk_index": 5,
+  "source_url": "https://ke.linkedin.com/in/nanjira",
+  "title": "Nanjira Sambuli - Nairobi County, Kenya | Professional Profile | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2026",
+          "type": "point",
+          "quotes": [
+            "The 2026 National Budget WASH Analysis Brief"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Africa CDC",
+          "quotes": [
+            "Under the leadership of Africa CDC, this fund will mobilize resources from both our Member States and partners"
+          ]
+        },
+        {
+          "name": "BBC News",
+          "quotes": [
+            "My interview with BBC News: https://ow.ly/apXc50V2Mk1"
+          ]
+        },
+        {
+          "name": "SolidarMed",
+          "quotes": [
+            "Majani Edward\nSolidarMed"
+          ]
+        },
+        {
+          "name": "WaterAid Zambia",
+          "quotes": [
+            "Eddy Chikuta\nWaterAid Zambia"
+          ]
+        },
+        {
+          "name": "United Nations Population Fund (UNFPA)",
+          "quotes": [
+            "This week, together with United Nations Population Fund (UNFPA) colleagues from HQ, we hosted a feedback session with midwives in Botswana"
+          ]
+        },
+        {
+          "name": "Mercy Corps",
+          "quotes": [
+            "Stephen Mwangangi\nMercy Corps"
+          ]
+        },
+        {
+          "name": "The Agency Fund",
+          "quotes": [
+            "The Agency Fund – a philanthropic collaborative fund that supports projects that activate human agency, human development, and social mobility."
+          ]
+        },
+        {
+          "name": "Climate Lead",
+          "quotes": [
+            "Climate Lead – a network of funders and experts that supports philanthropists to address the climate crisis with urgency and impact."
+          ]
+        },
+        {
+          "name": "Honnold Foundation",
+          "quotes": [
+            "Honnold Foundation - builds trust-based partnerships with community organizations"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Leader",
+          "quotes": [
+            "Under the leadership of Africa CDC"
+          ]
+        },
+        {
+          "title": "Midwives",
+          "quotes": [
+            "we hosted a feedback session with midwives in Botswana on using virtual reality for in-service training."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Africa",
+          "quotes": [
+            "ensuring Africa can respond to health crises without over-reliance on external funding.",
+            "UNFPA has developed VR learning modules and simulation to improve maternal healthcare delivery across Africa."
+          ]
+        },
+        {
+          "place": "Kenya",
+          "quotes": [
+            "My recent published article explores this question within the Kenyan context"
+          ]
+        },
+        {
+          "place": "Zambia",
+          "quotes": [
+            "The 2026 National Budget WASH Analysis Brief\nThis brief unpacks Zambia’s WASH financing trends."
+          ]
+        },
+        {
+          "place": "Botswana",
+          "quotes": [
+            "we hosted a feedback session with midwives in Botswana on using virtual reality for in-service training."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Under the leadership of Africa CDC",
+          "ensuring Africa can respond to health crises without over-reliance on external funding."
+        ],
+        "confidence": "high",
+        "notes": "Leader role directly linked to Africa CDC and Africa."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          3
+        ],
+        "supporting_quotes": [
+          "we hosted a feedback session with midwives in Botswana on using virtual reality for in-service training.",
+          "This week, together with United Nations Population Fund (UNFPA) colleagues from HQ, we hosted a feedback session with midwives in Botswana"
+        ],
+        "confidence": "high",
+        "notes": "Midwives role directly linked to UNFPA and Botswana."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "The 2026 National Budget WASH Analysis Brief",
+          "This brief unpacks Zambia’s WASH financing trends."
+        ],
+        "confidence": "medium",
+        "notes": "Time marker and location linked, but no specific organization or role mentioned."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the career position event."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization and role information for the career position event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

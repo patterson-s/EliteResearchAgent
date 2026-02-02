@@ -1,0 +1,235 @@
+{
+  "status": "success",
+  "chunk_id": 2671,
+  "chunk_index": 9,
+  "source_url": "https://en.wikipedia.org/wiki/Ellen_Johnson_Sirleaf",
+  "title": "Ellen Johnson Sirleaf - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In January 2011",
+          "type": "point",
+          "quotes": [
+            "In January 2011, the Supreme Court ruled in Williams v. Tah, a case brought by another person recommended for being banned from public office in the TRC report, that the TRC's recommendation was an unconstitutional violation of the listed individuals' right to procedural due process"
+          ]
+        },
+        {
+          "text": "December 2011",
+          "type": "point",
+          "quotes": [
+            "Following a speech made by United States Secretary of State Hillary Clinton in December 2011 that America's foreign aid would be used to promote the protection of gay rights"
+          ]
+        },
+        {
+          "text": "In February 2012",
+          "type": "point",
+          "quotes": [
+            "In February 2012, Bong County Senator Jewel Taylor proposed a bill that would carry a term of ten years in prison for homosexual activity, while a similar bill was introduced in the House of Representatives"
+          ]
+        },
+        {
+          "text": "On 19 March",
+          "type": "point",
+          "quotes": [
+            "On 19 March, Sirleaf addressed the issue, saying that she would not repeal the current law but would also not sign into law either of the two proposed bills"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Supreme Court",
+          "quotes": [
+            "In January 2011, the Supreme Court ruled in Williams v. Tah, a case brought by another person recommended for being banned from public office in the TRC report"
+          ]
+        },
+        {
+          "name": "TRC",
+          "quotes": [
+            "In January 2011, the Supreme Court ruled in Williams v. Tah, a case brought by another person recommended for being banned from public office in the TRC report"
+          ]
+        },
+        {
+          "name": "The Guardian",
+          "quotes": [
+            "According to The Guardian, 'Since Clinton's remarks, Liberian newspapers have published numerous articles and editorials describing homosexuality as 'desecrating', 'abusive' and an 'abomination'."
+          ]
+        },
+        {
+          "name": "House of Representatives",
+          "quotes": [
+            "In February 2012, Bong County Senator Jewel Taylor proposed a bill that would carry a term of ten years in prison for homosexual activity, while a similar bill was introduced in the House of Representatives"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "United States Secretary of State",
+          "quotes": [
+            "Following a speech made by United States Secretary of State Hillary Clinton in December 2011 that America's foreign aid would be used to promote the protection of gay rights"
+          ]
+        },
+        {
+          "title": "Bong County Senator",
+          "quotes": [
+            "In February 2012, Bong County Senator Jewel Taylor proposed a bill that would carry a term of ten years in prison for homosexual activity"
+          ]
+        },
+        {
+          "title": "Liberia's former Solicitor General",
+          "quotes": [
+            "According to Tiawan Gongloe, Liberia's former Solicitor General, 'If she tried to decriminalise the [current anti-gay] law it would be political suicide.'"
+          ]
+        },
+        {
+          "title": "Sirleaf's press secretary",
+          "quotes": [
+            "In a letter to The Guardian, Sirleaf's press secretary challenged the portrayal of her remarks in the media saying that:  'There currently exists no law referencing homosexuality in Liberia, and as such the President could not be defending a law on homosexuality.'"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Bong County",
+          "quotes": [
+            "In February 2012, Bong County Senator Jewel Taylor proposed a bill that would carry a term of ten years in prison for homosexual activity"
+          ]
+        },
+        {
+          "place": "Liberia",
+          "quotes": [
+            "According to The Guardian, 'Since Clinton's remarks, Liberian newspapers have published numerous articles and editorials describing homosexuality as 'desecrating', 'abusive' and an 'abomination'."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Following a speech made by United States Secretary of State Hillary Clinton in December 2011 that America's foreign aid would be used to promote the protection of gay rights"
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of a role held by Hillary Clinton as United States Secretary of State."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "In February 2012, Bong County Senator Jewel Taylor proposed a bill that would carry a term of ten years in prison for homosexual activity"
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of a role held by Jewel Taylor as Bong County Senator."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "According to Tiawan Gongloe, Liberia's former Solicitor General, 'If she tried to decriminalise the [current anti-gay] law it would be political suicide.'"
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker, but the role is clearly stated as Liberia's former Solicitor General."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In a letter to The Guardian, Sirleaf's press secretary challenged the portrayal of her remarks in the media saying that:  'There currently exists no law referencing homosexuality in Liberia, and as such the President could not be defending a law on homosexuality.'"
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker, but the role is clearly stated as Sirleaf's press secretary."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "Missing time marker for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "Missing time marker for the career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 0,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

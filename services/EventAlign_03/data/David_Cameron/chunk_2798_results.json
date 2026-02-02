@@ -1,0 +1,229 @@
+{
+  "status": "success",
+  "chunk_id": 2798,
+  "chunk_index": 17,
+  "source_url": "https://en.wikipedia.org/wiki/David_Cameron",
+  "title": "David Cameron - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "A day later",
+          "type": "point",
+          "quotes": [
+            "A day later The Daily Telegraph published figures showing over five years he had claimed £82,450 on his second home allowance."
+          ]
+        },
+        {
+          "text": "In April 2014",
+          "type": "point",
+          "quotes": [
+            "In April 2014 he was criticised for his handling of the expenses row surrounding Culture Secretary Maria Miller, when he rejected calls from fellow Conservative MPs to sack her from the front bench."
+          ]
+        },
+        {
+          "text": "In 2009",
+          "type": "point",
+          "quotes": [
+            "In 2009 as leader of the opposition, with Lib Dem leader Nick Clegg, who later became deputy prime minister, and Lib Dem spokesman Chris Huhne"
+          ]
+        },
+        {
+          "text": "2010 general election",
+          "type": "point",
+          "quotes": [
+            "The 2010 general election resulted in the Conservatives, led by Cameron, winning the largest number of seats (306)."
+          ]
+        },
+        {
+          "text": "since February 1974",
+          "type": "point",
+          "quotes": [
+            "This was, however, 20 seats short of an overall majority, and resulted in the nation's first hung parliament since February 1974."
+          ]
+        },
+        {
+          "text": "late 2009",
+          "type": "point",
+          "quotes": [
+            "In late 2009 Cameron had urged the Liberal Democrats to join the Conservatives in"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "The Daily Telegraph",
+          "quotes": [
+            "A day later The Daily Telegraph published figures showing over five years he had claimed £82,450 on his second home allowance."
+          ]
+        },
+        {
+          "name": "The Mail on Sunday",
+          "quotes": [
+            "after a report in The Mail on Sunday suggested he could have reduced the mortgage interest bill by putting an additional £75,000 of his own money towards purchasing the home in Witney, instead of paying off an earlier mortgage on his London home."
+          ]
+        },
+        {
+          "name": "Conservatives",
+          "quotes": [
+            "The Conservatives had last won a general election in 1992.",
+            "The 2010 general election resulted in the Conservatives, led by Cameron, winning the largest number of seats (306).",
+            "In late 2009 Cameron had urged the Liberal Democrats to join the Conservatives in"
+          ]
+        },
+        {
+          "name": "Liberal Democrats",
+          "quotes": [
+            "Talks between Cameron and then Liberal Democrat leader Nick Clegg led to an agreed Conservative/Liberal Democrat coalition.",
+            "In late 2009 Cameron had urged the Liberal Democrats to join the Conservatives in"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "leader of the opposition",
+          "quotes": [
+            "In 2009 as leader of the opposition, with Lib Dem leader Nick Clegg, who later became deputy prime minister, and Lib Dem spokesman Chris Huhne"
+          ]
+        },
+        {
+          "title": "deputy prime minister",
+          "quotes": [
+            "In 2009 as leader of the opposition, with Lib Dem leader Nick Clegg, who later became deputy prime minister, and Lib Dem spokesman Chris Huhne"
+          ]
+        },
+        {
+          "title": "Culture Secretary",
+          "quotes": [
+            "In April 2014 he was criticised for his handling of the expenses row surrounding Culture Secretary Maria Miller, when he rejected calls from fellow Conservative MPs to sack her from the front bench."
+          ]
+        },
+        {
+          "title": "Lib Dem leader",
+          "quotes": [
+            "In 2009 as leader of the opposition, with Lib Dem leader Nick Clegg, who later became deputy prime minister, and Lib Dem spokesman Chris Huhne"
+          ]
+        },
+        {
+          "title": "Lib Dem spokesman",
+          "quotes": [
+            "In 2009 as leader of the opposition, with Lib Dem leader Nick Clegg, who later became deputy prime minister, and Lib Dem spokesman Chris Huhne"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Witney",
+          "quotes": [
+            "suggested he could have reduced the mortgage interest bill by putting an additional £75,000 of his own money towards purchasing the home in Witney, instead of paying off an earlier mortgage on his London home."
+          ]
+        },
+        {
+          "place": "London",
+          "quotes": [
+            "suggested he could have reduced the mortgage interest bill by putting an additional £75,000 of his own money towards purchasing the home in Witney, instead of paying off an earlier mortgage on his London home."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2009 as leader of the opposition, with Lib Dem leader Nick Clegg, who later became deputy prime minister, and Lib Dem spokesman Chris Huhne"
+        ],
+        "confidence": "high",
+        "notes": "Clear role as leader of the opposition in 2009"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The 2010 general election resulted in the Conservatives, led by Cameron, winning the largest number of seats (306)"
+        ],
+        "confidence": "high",
+        "notes": "Cameron leading the Conservatives in the 2010 general election"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [
+          2,
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In late 2009 Cameron had urged the Liberal Democrats to join the Conservatives in"
+        ],
+        "confidence": "medium",
+        "notes": "Cameron's involvement with Conservatives and Liberal Democrats in late 2009, but no specific role mentioned"
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information despite being classified as a career_position"
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information despite being classified as a career_position"
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Involvement with organizations mentioned but no clear role, consider if this should be classified as an interaction rather than a career_position"
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

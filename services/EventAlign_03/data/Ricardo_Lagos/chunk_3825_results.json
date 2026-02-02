@@ -1,0 +1,146 @@
+{
+  "status": "success",
+  "chunk_id": 3825,
+  "chunk_index": 3,
+  "source_url": "https://www.bushcenter.org/freedom-collection/ricardo-lagos-democratic-transition",
+  "title": "Ricardo Lagos: Democratic Transition | George W. Bush Presidential Center",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In 1980",
+          "type": "point",
+          "quotes": [
+            "In 1980, the Pinochet regime promulgated a new constitution."
+          ]
+        },
+        {
+          "text": "1988",
+          "type": "point",
+          "quotes": [
+            "It included a provision calling a referendum in 1988, allowing voters a yes or no vote on whether to prolong Pinochet’s tenure as president."
+          ]
+        },
+        {
+          "text": "In 1989",
+          "type": "point",
+          "quotes": [
+            "In 1989, Chilean democracy was fully restored by a democratic election to choose a new president, the first free election in nearly twenty years."
+          ]
+        },
+        {
+          "text": "Since the return to democracy",
+          "type": "open",
+          "quotes": [
+            "Since the return to democracy, Chile has implemented significant economic and political reforms, including a free trade agreement with the United States."
+          ]
+        },
+        {
+          "text": "2014",
+          "type": "point",
+          "quotes": [
+            "Freedom House’s 2014 Freedom in the World report categorized Chile as “free” with an overall freedom rating of one, with one being the freest and seven being the least."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Freedom House",
+          "quotes": [
+            "Freedom House’s 2014 Freedom in the World report categorized Chile as “free” with an overall freedom rating of one, with one being the freest and seven being the least."
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": [
+        {
+          "place": "Chile",
+          "quotes": [
+            "In 1989, Chilean democracy was fully restored by a democratic election to choose a new president, the first free election in nearly twenty years."
+          ]
+        },
+        {
+          "place": "United States",
+          "quotes": [
+            "Since the return to democracy, Chile has implemented significant economic and political reforms, including a free trade agreement with the United States."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2,
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "In 1989, Chilean democracy was fully restored by a democratic election to choose a new president, the first free election in nearly twenty years.",
+          "Since the return to democracy, Chile has implemented significant economic and political reforms, including a free trade agreement with the United States."
+        ],
+        "confidence": "medium",
+        "notes": "No specific roles or organizations mentioned, but the event represents a significant political transition and ongoing reforms in Chile."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Freedom House’s 2014 Freedom in the World report categorized Chile as “free” with an overall freedom rating of one, with one being the freest and seven being the least."
+        ],
+        "confidence": "high",
+        "notes": "This event represents a one-time recognition by Freedom House, classifying Chile as 'free' in their report."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and role information, making it difficult to classify as a career_position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event seems to describe a political transition rather than a specific career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 1
+    }
+  }
+}

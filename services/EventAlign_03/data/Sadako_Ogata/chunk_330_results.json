@@ -1,0 +1,254 @@
+{
+  "status": "success",
+  "chunk_id": 330,
+  "chunk_index": 2,
+  "source_url": "https://humanities.wustl.edu/news/japans-five-foot-giant-international-relations",
+  "title": "Japan’s “five-foot giant” of international relations | Center for the Humanities",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "February 17, 1993",
+          "type": "point",
+          "quotes": [
+            "One of the most dramatic moments during Ogata’s decade as high commissioner took place on February 17, 1993, when she abruptly announced that the UNHCR would suspend the delivery of aid to desperate refugees in Bosnia-Herzegovina"
+          ]
+        },
+        {
+          "text": "ten years",
+          "type": "range",
+          "quotes": [
+            "As Ogata herself put it, ‘no decision that I took in my ten years as high commissioner caused as much havoc.’"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "UN Refugee Agency",
+          "quotes": [
+            "UN Refugee Agency collaborate with military forces, including the U.S.-led coalition in Iraq and NATO in Yugoslavia",
+            "Her personal aide, Kazuo Tase, recalls Ogata giving a speech at the UN Refugee Agency after she had left her post."
+          ]
+        },
+        {
+          "name": "U.S.-led coalition in Iraq",
+          "quotes": [
+            "UN Refugee Agency collaborate with military forces, including the U.S.-led coalition in Iraq and NATO in Yugoslavia"
+          ]
+        },
+        {
+          "name": "NATO",
+          "quotes": [
+            "UN Refugee Agency collaborate with military forces, including the U.S.-led coalition in Iraq and NATO in Yugoslavia"
+          ]
+        },
+        {
+          "name": "Security Council",
+          "quotes": [
+            "Ogata was the first commissioner to brief the Security Council, where she urged member states to act more decisively in devising political solutions to conflict"
+          ]
+        },
+        {
+          "name": "UNHCR",
+          "quotes": [
+            "One of the most dramatic moments during Ogata’s decade as high commissioner took place on February 17, 1993, when she abruptly announced that the UNHCR would suspend the delivery of aid to desperate refugees in Bosnia-Herzegovina"
+          ]
+        },
+        {
+          "name": "United Nations",
+          "quotes": [
+            "The media covered Ogata’s decision to suspend the humanitarian mission as a showdown between Ogata and the secretary general of the United Nations, Boutros Boutros-Ghali."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "commissioner",
+          "quotes": [
+            "Ogata was the first commissioner to brief the Security Council, where she urged member states to act more decisively in devising political solutions to conflict"
+          ]
+        },
+        {
+          "title": "high commissioner",
+          "quotes": [
+            "One of the most dramatic moments during Ogata’s decade as high commissioner took place on February 17, 1993",
+            "As Ogata herself put it, ‘no decision that I took in my ten years as high commissioner caused as much havoc.’"
+          ]
+        },
+        {
+          "title": "secretary general of the United Nations",
+          "quotes": [
+            "The media covered Ogata’s decision to suspend the humanitarian mission as a showdown between Ogata and the secretary general of the United Nations, Boutros Boutros-Ghali."
+          ]
+        },
+        {
+          "title": "personal aide",
+          "quotes": [
+            "Her personal aide, Kazuo Tase, recalls Ogata giving a speech at the UN Refugee Agency after she had left her post."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Iraq",
+          "quotes": [
+            "UN Refugee Agency collaborate with military forces, including the U.S.-led coalition in Iraq and NATO in Yugoslavia"
+          ]
+        },
+        {
+          "place": "Yugoslavia",
+          "quotes": [
+            "UN Refugee Agency collaborate with military forces, including the U.S.-led coalition in Iraq and NATO in Yugoslavia",
+            "Should they help civilians leave their homes in the former Yugoslavia, thereby facilitating ethnic cleansing, or force them to remain in the midst of conflict?"
+          ]
+        },
+        {
+          "place": "Bosnia-Herzegovina",
+          "quotes": [
+            "One of the most dramatic moments during Ogata’s decade as high commissioner took place on February 17, 1993, when she abruptly announced that the UNHCR would suspend the delivery of aid to desperate refugees in Bosnia-Herzegovina"
+          ]
+        },
+        {
+          "place": "Rwanda",
+          "quotes": [
+            "Should they provide humanitarian aid to refugees in camps located on the borders of Rwanda, even if perpetrators of the genocide were among the recipients of that aid?"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "One of the most dramatic moments during Ogata’s decade as high commissioner took place on February 17, 1993, when she abruptly announced that the UNHCR would suspend the delivery of aid to desperate refugees in Bosnia-Herzegovina",
+          "As Ogata herself put it, ‘no decision that I took in my ten years as high commissioner caused as much havoc.’"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time markers, organization, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0,
+          1
+        ],
+        "supporting_quotes": [
+          "UN Refugee Agency collaborate with military forces, including the U.S.-led coalition in Iraq and NATO in Yugoslavia"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time marker, but clear linkage between organization, role, and locations."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Ogata was the first commissioner to brief the Security Council, where she urged member states to act more decisively in devising political solutions to conflict"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit location, but clear linkage between organization and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Her personal aide, Kazuo Tase, recalls Ogata giving a speech at the UN Refugee Agency after she had left her post."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between organization and role, though no explicit time marker or location."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker information."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and location information."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and location information."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Role 'personal aide' might not be a career position but rather a supporting role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 1,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

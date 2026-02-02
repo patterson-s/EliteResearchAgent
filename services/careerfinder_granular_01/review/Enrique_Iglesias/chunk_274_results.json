@@ -1,0 +1,206 @@
+{
+  "status": "success",
+  "chunk_id": 274,
+  "chunk_index": 42,
+  "source_url": "https://en.wikipedia.org/wiki/Enrique_Iglesias",
+  "title": "Enrique Iglesias - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Gulliver Preparatory School",
+          "quotes": [
+            "Gulliver Preparatory School alumni"
+          ]
+        },
+        {
+          "name": "Interscope Records",
+          "quotes": [
+            "Interscope Records artists"
+          ]
+        },
+        {
+          "name": "RCA Records",
+          "quotes": [
+            "RCA Records artists"
+          ]
+        },
+        {
+          "name": "Republic Records",
+          "quotes": [
+            "Republic Records artists"
+          ]
+        },
+        {
+          "name": "Sony Music Latin",
+          "quotes": [
+            "Sony Music Latin artists"
+          ]
+        },
+        {
+          "name": "Sony Music Spain",
+          "quotes": [
+            "Sony Music Spain artists"
+          ]
+        },
+        {
+          "name": "Universal Music Latin Entertainment",
+          "quotes": [
+            "Universal Music Latin Entertainment artists"
+          ]
+        },
+        {
+          "name": "University of Miami",
+          "quotes": [
+            "University of Miami alumni"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "alumni",
+          "quotes": [
+            "Gulliver Preparatory School alumni",
+            "University of Miami alumni"
+          ]
+        },
+        {
+          "title": "artists",
+          "quotes": [
+            "Interscope Records artists",
+            "RCA Records artists",
+            "Republic Records artists",
+            "Sony Music Latin artists",
+            "Sony Music Spain artists",
+            "Universal Music Latin Entertainment artists"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Madrid",
+          "quotes": [
+            "Male actors from Madrid",
+            "Singers from Madrid"
+          ]
+        },
+        {
+          "place": "Miami",
+          "quotes": [
+            "Male actors from Miami",
+            "Singers from Miami"
+          ]
+        },
+        {
+          "place": "Florida",
+          "quotes": [
+            "Songwriters from Florida"
+          ]
+        },
+        {
+          "place": "United States",
+          "quotes": [
+            "Spanish emigrants to the United States",
+            "Spanish expatriates in the United States"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Interscope Records artists",
+          "RCA Records artists",
+          "Republic Records artists",
+          "Sony Music Latin artists",
+          "Sony Music Spain artists",
+          "Universal Music Latin Entertainment artists"
+        ],
+        "confidence": "high",
+        "notes": "Multiple record labels mentioned with the role 'artists', indicating ongoing affiliations."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0,
+          8
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Gulliver Preparatory School alumni",
+          "University of Miami alumni"
+        ],
+        "confidence": "high",
+        "notes": "Two educational institutions mentioned with the role 'alumni', indicating past affiliations."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career positions, making it difficult to establish temporal coherence."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The role 'artists' is somewhat vague for a career position; consider verifying if this implies active responsibilities or is more of an affiliation."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The role 'alumni' typically indicates a past affiliation rather than an active career position; consider reclassifying as an educational background or award if applicable."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career positions, making it difficult to establish temporal coherence."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

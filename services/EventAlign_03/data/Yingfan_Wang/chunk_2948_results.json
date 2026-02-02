@@ -1,0 +1,244 @@
+{
+  "status": "success",
+  "chunk_id": 2948,
+  "chunk_index": 1,
+  "source_url": "https://en.wikipedia.org/wiki/Wang_Yingfan",
+  "title": "Wang Yingfan - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "October 2000 – June 2003",
+          "type": "range",
+          "quotes": [
+            "Permanent Representative and Ambassador of China to the United Nations\nOctober 2000 – June 2003"
+          ]
+        },
+        {
+          "text": "1946–1971",
+          "type": "range",
+          "quotes": [
+            "Republic of China\n(1946–1971)"
+          ]
+        },
+        {
+          "text": "1971–present",
+          "type": "open",
+          "quotes": [
+            "People's Republic of China\n(1971–present)"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "United Nations",
+          "quotes": [
+            "Permanent Representative and Ambassador of China to the United Nations"
+          ]
+        },
+        {
+          "name": "Republic of China",
+          "quotes": [
+            "Republic of China\n(1946–1971)"
+          ]
+        },
+        {
+          "name": "People's Republic of China",
+          "quotes": [
+            "People's Republic of China\n(1971–present)"
+          ]
+        },
+        {
+          "name": "Standing Committee of the 10th National People's Congress",
+          "quotes": [
+            "Members of the Standing Committee of the 10th National People's Congress"
+          ]
+        },
+        {
+          "name": "Preparatory Committee for the Hong Kong Special Administrative Region",
+          "quotes": [
+            "Members of the Preparatory Committee for the Hong Kong Special Administrative Region"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Permanent Representative and Ambassador of China to the United Nations",
+          "quotes": [
+            "Permanent Representative and Ambassador of China to the United Nations"
+          ]
+        },
+        {
+          "title": "Ambassadors of China to the Philippines",
+          "quotes": [
+            "Ambassadors of China to the Philippines"
+          ]
+        },
+        {
+          "title": "Members of the Standing Committee of the 10th National People's Congress",
+          "quotes": [
+            "Members of the Standing Committee of the 10th National People's Congress"
+          ]
+        },
+        {
+          "title": "Members of the Preparatory Committee for the Hong Kong Special Administrative Region",
+          "quotes": [
+            "Members of the Preparatory Committee for the Hong Kong Special Administrative Region"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Inner Mongolia",
+          "quotes": [
+            "People's Republic of China politicians from Inner Mongolia"
+          ]
+        },
+        {
+          "place": "Hinggan League",
+          "quotes": [
+            "People from Hinggan League"
+          ]
+        },
+        {
+          "place": "Hong Kong Special Administrative Region",
+          "quotes": [
+            "Members of the Preparatory Committee for the Hong Kong Special Administrative Region"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Permanent Representative and Ambassador of China to the United Nations\nOctober 2000 – June 2003"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "People's Republic of China\n(1971–present)",
+          "People's Republic of China politicians from Inner Mongolia"
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but affiliation is clear"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Members of the Standing Committee of the 10th National People's Congress"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between organization and role, no time marker available"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "Members of the Preparatory Committee for the Hong Kong Special Administrative Region"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between organization, role, and location, no time marker available"
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, though affiliation is clear"
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classification as career_position is uncertain without a specific role"
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker information"
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker information"
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 1,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

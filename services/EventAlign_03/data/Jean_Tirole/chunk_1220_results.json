@@ -1,0 +1,223 @@
+{
+  "status": "success",
+  "chunk_id": 1220,
+  "chunk_index": 0,
+  "source_url": "https://www.tse-fr.eu/people/jean-tirole",
+  "title": "Jean Tirole | TSE",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2007",
+          "type": "point",
+          "quotes": [
+            "He is laureate of numerous international distinctions, including the 2007 CNRS gold medal and the 2014 Sveriges Riksbank prize in economic sciences in memory of Alfred Nobel."
+          ]
+        },
+        {
+          "text": "2014",
+          "type": "point",
+          "quotes": [
+            "He is laureate of numerous international distinctions, including the 2007 CNRS gold medal and the 2014 Sveriges Riksbank prize in economic sciences in memory of Alfred Nobel."
+          ]
+        },
+        {
+          "text": "2017",
+          "type": "point",
+          "quotes": [
+            "Published in English in 2017, his latest book entitled Economics for the Common Good is accessible to a wide audience and available in a number of other languages."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Foundation JJ Laffont-Toulouse School of Economics (TSE)",
+          "quotes": [
+            "Jean Tirole is honorary chairman of the Foundation JJ Laffont-Toulouse School of Economics (TSE) and of the Institute for Advanced Study in Toulouse (IAST), and scientific director of TSE-Partnership."
+          ]
+        },
+        {
+          "name": "Institute for Advanced Study in Toulouse (IAST)",
+          "quotes": [
+            "Jean Tirole is honorary chairman of the Foundation JJ Laffont-Toulouse School of Economics (TSE) and of the Institute for Advanced Study in Toulouse (IAST), and scientific director of TSE-Partnership."
+          ]
+        },
+        {
+          "name": "TSE-Partnership",
+          "quotes": [
+            "Jean Tirole is honorary chairman of the Foundation JJ Laffont-Toulouse School of Economics (TSE) and of the Institute for Advanced Study in Toulouse (IAST), and scientific director of TSE-Partnership."
+          ]
+        },
+        {
+          "name": "MIT",
+          "quotes": [
+            "He is also affiliated with MIT, where he holds a visiting position, and the Institut de France."
+          ]
+        },
+        {
+          "name": "Institut de France",
+          "quotes": [
+            "He is also affiliated with MIT, where he holds a visiting position, and the Institut de France."
+          ]
+        },
+        {
+          "name": "CNRS",
+          "quotes": [
+            "He is laureate of numerous international distinctions, including the 2007 CNRS gold medal and the 2014 Sveriges Riksbank prize in economic sciences in memory of Alfred Nobel."
+          ]
+        },
+        {
+          "name": "Sveriges Riksbank",
+          "quotes": [
+            "He is laureate of numerous international distinctions, including the 2007 CNRS gold medal and the 2014 Sveriges Riksbank prize in economic sciences in memory of Alfred Nobel."
+          ]
+        },
+        {
+          "name": "BBVA Foundation",
+          "quotes": [
+            "Announcement of BBVA Foundation Frontiers of Knowledge Award"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "honorary chairman",
+          "quotes": [
+            "Jean Tirole is honorary chairman of the Foundation JJ Laffont-Toulouse School of Economics (TSE) and of the Institute for Advanced Study in Toulouse (IAST), and scientific director of TSE-Partnership."
+          ]
+        },
+        {
+          "title": "scientific director",
+          "quotes": [
+            "Jean Tirole is honorary chairman of the Foundation JJ Laffont-Toulouse School of Economics (TSE) and of the Institute for Advanced Study in Toulouse (IAST), and scientific director of TSE-Partnership."
+          ]
+        },
+        {
+          "title": "visiting position",
+          "quotes": [
+            "He is also affiliated with MIT, where he holds a visiting position, and the Institut de France."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He is laureate of numerous international distinctions, including the 2007 CNRS gold medal and the 2014 Sveriges Riksbank prize in economic sciences in memory of Alfred Nobel."
+        ],
+        "confidence": "high",
+        "notes": "CNRS gold medal is a one-time recognition."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          6
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He is laureate of numerous international distinctions, including the 2007 CNRS gold medal and the 2014 Sveriges Riksbank prize in economic sciences in memory of Alfred Nobel."
+        ],
+        "confidence": "high",
+        "notes": "Sveriges Riksbank prize is a one-time recognition."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0,
+          1,
+          2
+        ],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Jean Tirole is honorary chairman of the Foundation JJ Laffont-Toulouse School of Economics (TSE) and of the Institute for Advanced Study in Toulouse (IAST), and scientific director of TSE-Partnership."
+        ],
+        "confidence": "high",
+        "notes": "Honorary chairman and scientific director imply ongoing responsibilities."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3,
+          4
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He is also affiliated with MIT, where he holds a visiting position, and the Institut de France."
+        ],
+        "confidence": "high",
+        "notes": "Visiting position at MIT and affiliation with Institut de France imply ongoing responsibilities."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers for career positions, which are typically time-bound."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers for career positions, which are typically time-bound."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 2,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 2
+    }
+  }
+}

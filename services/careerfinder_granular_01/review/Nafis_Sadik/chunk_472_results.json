@@ -1,0 +1,229 @@
+{
+  "status": "success",
+  "chunk_id": 472,
+  "chunk_index": 1,
+  "source_url": "https://www.prb.org/resources/nafis-sadik-architect-of-icpd/",
+  "title": "Nafis Sadik, Architect of ICPD | PRB",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "from 1991 to 1999",
+          "type": "range",
+          "quotes": [
+            "He directed population programs at the Rockefeller Foundation from 1991 to 1999"
+          ]
+        },
+        {
+          "text": "from 1983 to 1986",
+          "type": "range",
+          "quotes": [
+            "He directed population programs at the U.S. Agency for International Development from 1983 to 1986"
+          ]
+        },
+        {
+          "text": "April 1994",
+          "type": "point",
+          "quotes": [
+            "Speaking before the final preconference meeting in April 1994, she proposed five 20-year goals"
+          ]
+        },
+        {
+          "text": "for the year 2015",
+          "type": "point",
+          "quotes": [
+            "Perhaps Nafis’ most important contribution to ICPD was the introduction of global goals for the year 2015"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "ICPD",
+          "quotes": [
+            "Representatives of international NGOs and foundations urged Nafis to open the ICPD to NGOs",
+            "Perhaps Nafis’ most important contribution to ICPD was the introduction of global goals for the year 2015",
+            "ICPD culminated a distinguished career",
+            "Nafis Sadik, Architect of ICPD"
+          ]
+        },
+        {
+          "name": "Rockefeller Foundation",
+          "quotes": [
+            "He directed population programs at the Rockefeller Foundation from 1991 to 1999"
+          ]
+        },
+        {
+          "name": "U.S. Agency for International Development",
+          "quotes": [
+            "He directed population programs at the U.S. Agency for International Development from 1983 to 1986"
+          ]
+        },
+        {
+          "name": "Columbia University",
+          "quotes": [
+            "Steven Sinding is professor of clinical public health at Columbia University"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "program administrator",
+          "quotes": [
+            "Nafis, a longtime program administrator, was inclined to side with the latter"
+          ]
+        },
+        {
+          "title": "professor of clinical public health",
+          "quotes": [
+            "Steven Sinding is professor of clinical public health at Columbia University"
+          ]
+        },
+        {
+          "title": "director of population programs",
+          "quotes": [
+            "He directed population programs at the Rockefeller Foundation from 1991 to 1999",
+            "He directed population programs at the U.S. Agency for International Development from 1983 to 1986"
+          ]
+        },
+        {
+          "title": "grassroots doctor",
+          "quotes": [
+            "ICPD culminated a distinguished career: from grassroots doctor to architect of one of the most successful international agreements of the last 30 years"
+          ]
+        },
+        {
+          "title": "architect of ICPD",
+          "quotes": [
+            "Nafis Sadik, Architect of ICPD",
+            "ICPD culminated a distinguished career: from grassroots doctor to architect of one of the most successful international agreements of the last 30 years"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He directed population programs at the U.S. Agency for International Development from 1983 to 1986"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He directed population programs at the Rockefeller Foundation from 1991 to 1999"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Steven Sinding is professor of clinical public health at Columbia University"
+        ],
+        "confidence": "high",
+        "notes": "No time marker, but clear linkage between organization and role"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Nafis Sadik, Architect of ICPD",
+          "ICPD culminated a distinguished career: from grassroots doctor to architect of one of the most successful international agreements of the last 30 years"
+        ],
+        "confidence": "medium",
+        "notes": "Role is tied to ICPD, but no explicit time marker"
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time marker for career position"
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Role 'architect of ICPD' may not clearly fit career_position without active responsibilities"
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and organization details for career position"
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 2,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

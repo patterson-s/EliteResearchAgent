@@ -1,0 +1,219 @@
+{
+  "status": "success",
+  "chunk_id": 2749,
+  "chunk_index": 5,
+  "source_url": "https://achievement.org/achiever/ellen-johnson-sirleaf/",
+  "title": "Ellen Johnson Sirleaf | Academy of Achievement",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "Four days after the announcement of the Nobel Prize",
+          "type": "point",
+          "quotes": [
+            "Four days after the announcement of the Nobel Prize, President Johnson Sirleaf was elected to a second six-year term in office."
+          ]
+        },
+        {
+          "text": "2017",
+          "type": "point",
+          "quotes": [
+            "Johnson Sirleaf’s choice, George Weah, won a decisive victory in the 2017 election."
+          ]
+        },
+        {
+          "text": "In January 2018",
+          "type": "point",
+          "quotes": [
+            "In January 2018, Mr. Weah was sworn in as President of Liberia — the country’s first peaceful, democratic transition of power in 73 years."
+          ]
+        },
+        {
+          "text": "2006",
+          "type": "point",
+          "quotes": [
+            "In 2006, Ellen Johnson Sirleaf took the oath of office as President of Liberia, the first woman to serve as elected leader of an African nation."
+          ]
+        },
+        {
+          "text": "1980",
+          "type": "point",
+          "quotes": [
+            "The Harvard-educated Johnson Sirleaf served as Minister of Finance before the elected government fell victim to a military coup in 1980."
+          ]
+        },
+        {
+          "text": "Five years later",
+          "type": "point",
+          "quotes": [
+            "Five years later, she returned to run for the vice presidency, only to be"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Unity Party",
+          "quotes": [
+            "She declined to endorse the nominee of the Unity Party, Vice President Joseph Boakai, and instead threw her support to a former opponent, George Weah, a retired soccer star who enjoyed enormous popularity with the Liberian public."
+          ]
+        },
+        {
+          "name": "Mo Ibrahim Foundation",
+          "quotes": [
+            "In making the award, the Mo Ibrahim Foundation cited Johnson Sirleaf’s “transformative leadership” of a country “devastated and broken by 14 years of civil war.”"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "President of Liberia",
+          "quotes": [
+            "In 2006, Ellen Johnson Sirleaf took the oath of office as President of Liberia, the first woman to serve as elected leader of an African nation."
+          ]
+        },
+        {
+          "title": "Vice President",
+          "quotes": [
+            "Five years later, she returned to run for the vice presidency, only to be"
+          ]
+        },
+        {
+          "title": "Minister of Finance",
+          "quotes": [
+            "The Harvard-educated Johnson Sirleaf served as Minister of Finance before the elected government fell victim to a military coup in 1980."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Liberia",
+          "quotes": [
+            "In 2006, Ellen Johnson Sirleaf took the oath of office as President of Liberia, the first woman to serve as elected leader of an African nation."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "In 2006, Ellen Johnson Sirleaf took the oath of office as President of Liberia, the first woman to serve as elected leader of an African nation."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Five years later, she returned to run for the vice presidency, only to be"
+        ],
+        "confidence": "medium",
+        "notes": "Time marker is relative, but role is clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The Harvard-educated Johnson Sirleaf served as Minister of Finance before the elected government fell victim to a military coup in 1980."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time and role."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Four days after the announcement of the Nobel Prize, President Johnson Sirleaf was elected to a second six-year term in office.",
+          "In making the award, the Mo Ibrahim Foundation cited Johnson Sirleaf’s “transformative leadership” of a country “devastated and broken by 14 years of civil war.”"
+        ],
+        "confidence": "high",
+        "notes": "Nobel Prize is a clear award indicator, linked to the Mo Ibrahim Foundation's citation."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing location information for the career position."
+          },
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "Relative time marker 'Five years later' makes it difficult to establish exact dates without additional context."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The event is classified as 'award' but mentions 'Nobel Prize' which is typically a separate award from the Mo Ibrahim Foundation. Verify if this is a single award or a misclassification."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 2,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 1
+    }
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "status": "success",
+  "chunk_id": 889,
+  "chunk_index": 32,
+  "source_url": "https://www.un.org/digital-emerging-technologies/sites/www.un.org.techenvoy/files/hlp_on_digital_cooperation-report_final.pdf",
+  "title": "hlp_on_digital_cooperation-report_final.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "5Rights Foundation",
+          "quotes": [
+            "The 5Rights Foundation and British Telecom developed an initiative to help children understand how the apps and games they use make money, including techniques to keep their attention for longer."
+          ]
+        },
+        {
+          "name": "British Telecom",
+          "quotes": [
+            "The 5Rights Foundation and British Telecom developed an initiative to help children understand how the apps and games they use make money, including techniques to keep their attention for longer."
+          ]
+        },
+        {
+          "name": "Cisco Networking Academy",
+          "quotes": [
+            "The Cisco Networking Academy and United Nations Volunteers are training youth in Asia and Latin America to explore how digital technologies can enable them to become agents of social change in their"
+          ]
+        },
+        {
+          "name": "United Nations Volunteers",
+          "quotes": [
+            "The Cisco Networking Academy and United Nations Volunteers are training youth in Asia and Latin America to explore how digital technologies can enable them to become agents of social change in their"
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": [
+        {
+          "place": "Asia",
+          "quotes": [
+            "The Cisco Networking Academy and United Nations Volunteers are training youth in Asia and Latin America to explore how digital technologies can enable them to become agents of social change in their"
+          ]
+        },
+        {
+          "place": "Latin America",
+          "quotes": [
+            "The Cisco Networking Academy and United Nations Volunteers are training youth in Asia and Latin America to explore how digital technologies can enable them to become agents of social change in their"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The 5Rights Foundation and British Telecom developed an initiative to help children understand how the apps and games they use make money, including techniques to keep their attention for longer."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit roles mentioned, but the collaboration implies an active partnership, hence classified as a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2,
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0,
+          1
+        ],
+        "supporting_quotes": [
+          "The Cisco Networking Academy and United Nations Volunteers are training youth in Asia and Latin America to explore how digital technologies can enable them to become agents of social change in their"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit roles mentioned, but the training initiative implies an active collaboration, hence classified as a career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. While the collaboration implies an active partnership, no specific role is mentioned."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classification as 'career_position' is questionable without explicit role or responsibility mentioned."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. While the training initiative implies an active collaboration, no specific role is mentioned."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classification as 'career_position' is questionable without explicit role or responsibility mentioned."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

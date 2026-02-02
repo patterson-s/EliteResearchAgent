@@ -1,0 +1,240 @@
+{
+  "status": "success",
+  "chunk_id": 3464,
+  "chunk_index": 0,
+  "source_url": "https://www.un.org/sg/en/management/bios/Podesta.shtml",
+  "title": "JOHN PODESTA (UNITED STATES OF AMERICA) | Secretary-General | United Nations",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "United Nations",
+          "quotes": [
+            "JOHN PODESTA (UNITED STATES OF AMERICA) | Secretary-General | United Nations",
+            "Former Deputy Secretaries-General of the United Nations"
+          ]
+        },
+        {
+          "name": "Center for American Progress",
+          "quotes": [
+            "Mr. Podesta is the Chair of the Center for American Progress."
+          ]
+        },
+        {
+          "name": "Obama-Biden Transition",
+          "quotes": [
+            "He previously served as Co-Chair of the Obama-Biden Transition."
+          ]
+        },
+        {
+          "name": "White House",
+          "quotes": [
+            "He previously served as... White House Chief of Staff to President William J. Clinton."
+          ]
+        },
+        {
+          "name": "National Security Council",
+          "quotes": [
+            "He served in the president's cabinet and as a principal on the National Security Council."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Secretary-General",
+          "quotes": [
+            "JOHN PODESTA (UNITED STATES OF AMERICA) | Secretary-General | United Nations"
+          ]
+        },
+        {
+          "title": "Chair of the Center for American Progress",
+          "quotes": [
+            "Mr. Podesta is the Chair of the Center for American Progress."
+          ]
+        },
+        {
+          "title": "Co-Chair of the Obama-Biden Transition",
+          "quotes": [
+            "He previously served as Co-Chair of the Obama-Biden Transition."
+          ]
+        },
+        {
+          "title": "White House Chief of Staff",
+          "quotes": [
+            "He previously served as... White House Chief of Staff to President William J. Clinton."
+          ]
+        },
+        {
+          "title": "Principal on the National Security Council",
+          "quotes": [
+            "He served in the president's cabinet and as a principal on the National Security Council."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "United States of America",
+          "quotes": [
+            "JOHN PODESTA (UNITED STATES OF AMERICA)"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "JOHN PODESTA (UNITED STATES OF AMERICA) | Secretary-General | United Nations"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role and organization in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Mr. Podesta is the Chair of the Center for American Progress."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role and organization in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He previously served as Co-Chair of the Obama-Biden Transition."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role and organization in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He previously served as... White House Chief of Staff to President William J. Clinton."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role and organization in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He served in the president's cabinet and as a principal on the National Security Council."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role and organization in the same quote."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers and location for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers and location for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers and location for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers and location for career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 0,
+      "warnings": 5,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "status": "success",
+  "chunk_id": 3421,
+  "chunk_index": 19,
+  "source_url": "https://conflictfieldresearch.colgate.edu/wp-content/uploads/2015/02/9_Reflections_on_Policy_Space.pdf",
+  "title": "9_Reflections_on_Policy_Space.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "UN",
+          "quotes": [
+            "Because controlling is very hard for them now because they don’t have money, we have.",
+            "the UN doesn’t want them to do, the minister comes to me and says I need money for this project."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "minister",
+          "quotes": [
+            "if a minister wants to do something the UN doesn’t want them to do, the minister comes to me and says I need money for this project.",
+            "I want to push the ministers to use the resources of the donors to their priorities."
+          ]
+        },
+        {
+          "title": "donor",
+          "quotes": [
+            "Because if a minister wants to do something the UN doesn’t want them to do, the minister comes to me and says I need money for this project. I am not getting any help.",
+            "I want to push the ministers to use the resources of the donors to their priorities."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "if a minister wants to do something the UN doesn’t want them to do, the minister comes to me and says I need money for this project.",
+          "the UN doesn’t want them to do, the minister comes to me and says I need money for this project."
+        ],
+        "confidence": "medium",
+        "notes": "The role of 'minister' is mentioned in relation to the UN, suggesting an active position. However, the exact nature of the position and its responsibilities are not entirely clear, hence the confidence is marked as 'medium'."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "I want to push the ministers to use the resources of the donors to their priorities.",
+          "Because if a minister wants to do something the UN doesn’t want them to do, the minister comes to me and says I need money for this project. I am not getting any help."
+        ],
+        "confidence": "low",
+        "notes": "The role of 'donor' is mentioned, but it is unclear if this is a formal position or a more general term. The confidence is marked as 'low' due to the ambiguity."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers and location information."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quotes mention the role of 'minister' but do not clearly define the specific responsibilities or context of the position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "error",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing time markers, organization, and location information."
+          },
+          {
+            "type": "classification",
+            "severity": "medium",
+            "description": "The role 'donor' does not clearly indicate an active career position and may be misclassified."
+          },
+          {
+            "type": "quote_support",
+            "severity": "medium",
+            "description": "Quotes do not provide clear evidence of a formal career position for the role of 'donor'."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 1,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "status": "success",
+  "chunk_id": 3660,
+  "chunk_index": 25,
+  "source_url": "https://en.wikipedia.org/wiki/Jens_Stoltenberg",
+  "title": "Jens Stoltenberg - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "12 July 2020",
+          "type": "point",
+          "quotes": [
+            "On 12 July 2020 Stoltenberg was the invited guest on the long running BBC Radio 4 programme Desert Island Discs."
+          ]
+        },
+        {
+          "text": "2011",
+          "type": "point",
+          "quotes": [
+            "In the crime drama 22 July, which depicts the 2011 Norway attacks, he is played by actor Ola G. Furuseth."
+          ]
+        },
+        {
+          "text": "1970s",
+          "type": "range",
+          "quotes": [
+            "As a youth, Stoltenberg participated in protest rallies against the U.S. war in Vietnam in the 1970s."
+          ]
+        },
+        {
+          "text": "2001",
+          "type": "point",
+          "quotes": [
+            "In 2001, Stoltenberg crashed his Labour Party (Ap) owned car into a parked car; he then left the premises without leaving a note with his name or number; the damages cost 8,000 Norwegian kroner to repair."
+          ]
+        },
+        {
+          "text": "2002",
+          "type": "point",
+          "quotes": [
+            "In 2002, Stoltenberg admitted to having used hashish (cannabis) in his youth."
+          ]
+        },
+        {
+          "text": "2011",
+          "type": "point",
+          "quotes": [
+            "In 2011 Stoltenberg received a 380,000 kroner boat as a birthday gift from the Norwegian Labour Party (Ap) and the Norwegian Confederation of Trade Unions (LO); the Ap & LO also paid the tax for the gift, which led to criticism."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Labour party",
+          "quotes": [
+            "released as a promotional video by the Labour party for the election campaign."
+          ]
+        },
+        {
+          "name": "BBC Radio 4",
+          "quotes": [
+            "On 12 July 2020 Stoltenberg was the invited guest on the long running BBC Radio 4 programme Desert Island Discs."
+          ]
+        },
+        {
+          "name": "Labour Party (Ap)",
+          "quotes": [
+            "In 2001, Stoltenberg crashed his Labour Party (Ap) owned car into a parked car; he then left the premises without leaving a note with his name or number; the damages cost 8,000 Norwegian kroner to repair."
+          ]
+        },
+        {
+          "name": "Ministry of Justice and Public Security",
+          "quotes": [
+            "He therefore asked the Ministry of Justice and Public Security to evaluate his impartiality in the upcoming government response to the report on drugs by the Stoltenberg Commission, headed by his father, Thorvald Stoltenberg."
+          ]
+        },
+        {
+          "name": "Stoltenberg Commission",
+          "quotes": [
+            "He therefore asked the Ministry of Justice and Public Security to evaluate his impartiality in the upcoming government response to the report on drugs by the Stoltenberg Commission, headed by his father, Thorvald Stoltenberg."
+          ]
+        },
+        {
+          "name": "Norwegian Labour Party (Ap)",
+          "quotes": [
+            "In 2011 Stoltenberg received a 380,000 kroner boat as a birthday gift from the Norwegian Labour Party (Ap) and the Norwegian Confederation of Trade Unions (LO); the Ap & LO also paid the tax for the gift, which led to criticism."
+          ]
+        },
+        {
+          "name": "Norwegian Confederation of Trade Unions (LO)",
+          "quotes": [
+            "In 2011 Stoltenberg received a 380,000 kroner boat as a birthday gift from the Norwegian Labour Party (Ap) and the Norwegian Confederation of Trade Unions (LO); the Ap & LO also paid the tax for the gift, which led to criticism."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "invited guest",
+          "quotes": [
+            "On 12 July 2020 Stoltenberg was the invited guest on the long running BBC Radio 4 programme Desert Island Discs."
+          ]
+        },
+        {
+          "title": "actor",
+          "quotes": [
+            "In the crime drama 22 July, which depicts the 2011 Norway attacks, he is played by actor Ola G. Furuseth."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Norway",
+          "quotes": [
+            "In the crime drama 22 July, which depicts the 2011 Norway attacks, he is played by actor Ola G. Furuseth."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2001, Stoltenberg crashed his Labour Party (Ap) owned car into a parked car; he then left the premises without leaving a note with his name or number; the damages cost 8,000 Norwegian kroner to repair."
+        ],
+        "confidence": "medium",
+        "notes": "Implied affiliation with Labour Party (Ap) as a career position, though no specific role is mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          5,
+          6
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2011 Stoltenberg received a 380,000 kroner boat as a birthday gift from the Norwegian Labour Party (Ap) and the Norwegian Confederation of Trade Unions (LO); the Ap & LO also paid the tax for the gift, which led to criticism."
+        ],
+        "confidence": "medium",
+        "notes": "Implied affiliation with Norwegian Labour Party (Ap) and Norwegian Confederation of Trade Unions (LO) as a career position, though no specific role is mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "On 12 July 2020 Stoltenberg was the invited guest on the long running BBC Radio 4 programme Desert Island Discs."
+        ],
+        "confidence": "high",
+        "notes": "Clear role as an invited guest on a BBC Radio 4 programme."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role and time information. Affiliation with Labour Party (Ap) is implied but no specific role is mentioned."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classification as career_position is questionable without a clear role or responsibility."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role and time information. Affiliation with Norwegian Labour Party (Ap) and Norwegian Confederation of Trade Unions (LO) is implied but no specific role is mentioned."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classification as career_position is questionable without a clear role or responsibility."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

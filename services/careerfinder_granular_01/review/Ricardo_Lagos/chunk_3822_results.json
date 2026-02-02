@@ -1,0 +1,102 @@
+{
+  "status": "success",
+  "chunk_id": 3822,
+  "chunk_index": 0,
+  "source_url": "https://www.bushcenter.org/freedom-collection/ricardo-lagos-democratic-transition",
+  "title": "Ricardo Lagos: Democratic Transition | George W. Bush Presidential Center",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "between 1973 and 1990",
+          "type": "range",
+          "quotes": [
+            "Augusto Pinochet was dictator of Chile between 1973 and 1990."
+          ]
+        }
+      ],
+      "organizations": [],
+      "roles": [
+        {
+          "title": "dictator of Chile",
+          "quotes": [
+            "Augusto Pinochet was dictator of Chile between 1973 and 1990."
+          ]
+        },
+        {
+          "title": "President",
+          "quotes": [
+            "Mr. President, do you want to know the truth?"
+          ]
+        },
+        {
+          "title": "Commander in Chief",
+          "quotes": [
+            "the Commander in Chief went to see me one day and said:"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Chile",
+          "quotes": [
+            "I had to be able to knock on the door of every house in Chile and say:",
+            "Augusto Pinochet was dictator of Chile between 1973 and 1990."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Augusto Pinochet was dictator of Chile between 1973 and 1990."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, role, and location from the same quote."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The role 'dictator of Chile' might be better classified as a political position rather than a standard career position, but it is not clearly misclassified."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

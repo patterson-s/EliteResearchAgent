@@ -1,0 +1,278 @@
+{
+  "status": "success",
+  "chunk_id": 3943,
+  "chunk_index": 2,
+  "source_url": "https://www.linkedin.com/in/josette-sheeran-a5935837",
+  "title": "Josette Sheeran - Firefly Global Group | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "this month",
+          "type": "point",
+          "quotes": [
+            "Rubio's first foreign trip as Secretary of State will be to Latin America this month"
+          ]
+        },
+        {
+          "text": "Spring 2025",
+          "type": "point",
+          "quotes": [
+            "Glad to share the release of the Spring 2025 edition of The World Bank Poverty and Equity Briefs (PEBs)"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "OMB",
+          "quotes": [
+            "This will likely come from OMB and/or the Department of State"
+          ]
+        },
+        {
+          "name": "Department of State",
+          "quotes": [
+            "This will likely come from OMB and/or the Department of State"
+          ]
+        },
+        {
+          "name": "USAID",
+          "quotes": [
+            "USAID lifts pause on external staff communications, with the exception of communications on four related Executive Orders.",
+            "USAID partners are assessing how their programs align with new Administration’s foreign policy priorities."
+          ]
+        },
+        {
+          "name": "Schwab Foundation for Social Entrepreneurship",
+          "quotes": [
+            "The Schwab Foundation for Social Entrepreneurship has just released our latest report, 'Collecting Data on Social Enterprise: A Playbook for Practitioners'"
+          ]
+        },
+        {
+          "name": "Advisory Group on Social Enterprise Data",
+          "quotes": [
+            "together with the Advisory Group on Social Enterprise Data and the World Economic Forum."
+          ]
+        },
+        {
+          "name": "World Economic Forum",
+          "quotes": [
+            "together with the Advisory Group on Social Enterprise Data and the World Economic Forum."
+          ]
+        },
+        {
+          "name": "The World Bank",
+          "quotes": [
+            "Glad to share the release of the Spring 2025 edition of The World Bank Poverty and Equity Briefs (PEBs)"
+          ]
+        },
+        {
+          "name": "DFIs",
+          "quotes": [
+            "I have been talking to DFIs and MDBs about investing in Somalia and places"
+          ]
+        },
+        {
+          "name": "MDBs",
+          "quotes": [
+            "I have been talking to DFIs and MDBs about investing in Somalia and places"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Secretary of State",
+          "quotes": [
+            "Rubio's first foreign trip as Secretary of State will be to Latin America this month"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Latin America",
+          "quotes": [
+            "Rubio's first foreign trip as Secretary of State will be to Latin America this month"
+          ]
+        },
+        {
+          "place": "Somalia",
+          "quotes": [
+            "I have been talking to DFIs and MDBs about investing in Somalia and places"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Rubio's first foreign trip as Secretary of State will be to Latin America this month"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role, organization, and time marker."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "USAID lifts pause on external staff communications, with the exception of communications on four related Executive Orders.",
+          "USAID partners are assessing how their programs align with new Administration’s foreign policy priorities."
+        ],
+        "confidence": "medium",
+        "notes": "No specific role or time marker mentioned, but implies ongoing organizational activity."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          6
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Glad to share the release of the Spring 2025 edition of The World Bank Poverty and Equity Briefs (PEBs)"
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but implies ongoing organizational activity with a clear time marker."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          7,
+          8
+        ],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "I have been talking to DFIs and MDBs about investing in Somalia and places"
+        ],
+        "confidence": "medium",
+        "notes": "No specific role or time marker mentioned, but implies ongoing discussions with organizations and a specific location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3,
+          4,
+          5
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The Schwab Foundation for Social Entrepreneurship has just released our latest report, 'Collecting Data on Social Enterprise: A Playbook for Practitioners'",
+          "together with the Advisory Group on Social Enterprise Data and the World Economic Forum."
+        ],
+        "confidence": "medium",
+        "notes": "No specific role or time marker mentioned, but implies ongoing collaboration between organizations."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and role for career position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "No active role mentioned, but implies organizational activity."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role for career position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "No active role mentioned, but implies organizational activity with a clear time marker."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and role for career position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "No active role mentioned, but implies ongoing discussions with organizations."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and role for career position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "No active role mentioned, but implies ongoing collaboration between organizations."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 1,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

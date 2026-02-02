@@ -1,0 +1,228 @@
+{
+  "status": "success",
+  "chunk_id": 570,
+  "chunk_index": 70,
+  "source_url": "https://issafrica.s3.amazonaws.com/site/uploads/Book-2015-Salim.pdf",
+  "title": "Book-2015-Salim.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "June 1991",
+          "type": "point",
+          "quotes": [
+            "the OAU Abuja summit of June 1991 resulted in the treaty of the AEC"
+          ]
+        },
+        {
+          "text": "2002",
+          "type": "point",
+          "quotes": [
+            "laid the foundation for the formation of the AU in 2002"
+          ]
+        },
+        {
+          "text": "May 1994",
+          "type": "point",
+          "quotes": [
+            "The Abuja Treaty came into force after it was ratified in May 1994"
+          ]
+        },
+        {
+          "text": "starting in 1994",
+          "type": "point",
+          "quotes": [
+            "The creation of the AEC was envisaged in six stages, starting in 1994"
+          ]
+        },
+        {
+          "text": "3 April 1994",
+          "type": "point",
+          "quotes": [
+            "In an address to the Pan-African Congress on 3 April 1994, in Kampala"
+          ]
+        },
+        {
+          "text": "9 September 1999",
+          "type": "point",
+          "quotes": [
+            "He also played a central part in the OAU’s adoption of the Sirté Declaration on 9 September 1999"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "OAU",
+          "quotes": [
+            "Inspired by the 1990 Declaration on Fundamental Changes, the OAU Abuja summit of June 1991 resulted in the treaty of the AEC"
+          ]
+        },
+        {
+          "name": "AEC",
+          "quotes": [
+            "the treaty of the AEC, which laid the foundation for the formation of the AU in 2002"
+          ]
+        },
+        {
+          "name": "AU",
+          "quotes": [
+            "laid the foundation for the formation of the AU in 2002"
+          ]
+        },
+        {
+          "name": "RECs",
+          "quotes": [
+            "It provided for the AEC to be established by means of a process that involved the coordination, harmonisation and integration of the activities of the RECs"
+          ]
+        },
+        {
+          "name": "Pan-African Congress",
+          "quotes": [
+            "In an address to the Pan-African Congress on 3 April 1994, in Kampala"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Salim personally promoted the treaty to member states",
+          "quotes": [
+            "Salim personally promoted the treaty to member states though official visits and by organising platforms in Addis Ababa and elsewhere"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Addis Ababa",
+          "quotes": [
+            "Salim personally promoted the treaty to member states though official visits and by organising platforms in Addis Ababa and elsewhere"
+          ]
+        },
+        {
+          "place": "Kampala",
+          "quotes": [
+            "In an address to the Pan-African Congress on 3 April 1994, in Kampala"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          3
+        ],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Inspired by the 1990 Declaration on Fundamental Changes, the OAU Abuja summit of June 1991 resulted in the treaty of the AEC",
+          "The creation of the AEC was envisaged in six stages, starting in 1994",
+          "Salim personally promoted the treaty to member states though official visits and by organising platforms in Addis Ababa and elsewhere"
+        ],
+        "confidence": "medium",
+        "notes": "The role is linked to the OAU and AEC through the promotion of the treaty, but the exact position is not specified."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "In an address to the Pan-African Congress on 3 April 1994, in Kampala"
+        ],
+        "confidence": "low",
+        "notes": "No specific role is mentioned, but the event is linked to the Pan-African Congress and Kampala."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He also played a central part in the OAU’s adoption of the Sirté Declaration on 9 September 1999"
+        ],
+        "confidence": "low",
+        "notes": "No specific role is mentioned, but the event is linked to the OAU and the adoption of the Sirté Declaration."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "The exact career position is not specified, though the role is linked to the OAU and AEC through the promotion of the treaty."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "error",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "No specific role is mentioned, making it unclear what career position is being described."
+          },
+          {
+            "type": "classification",
+            "severity": "medium",
+            "description": "The event is classified as a career_position but lacks a clear role, which is essential for this classification."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "error",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "No specific role is mentioned, making it unclear what career position is being described."
+          },
+          {
+            "type": "classification",
+            "severity": "medium",
+            "description": "The event is classified as a career_position but lacks a clear role, which is essential for this classification."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 2,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

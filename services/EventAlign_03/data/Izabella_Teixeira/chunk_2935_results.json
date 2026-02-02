@@ -1,0 +1,196 @@
+{
+  "status": "success",
+  "chunk_id": 2935,
+  "chunk_index": 1,
+  "source_url": "https://en.wikipedia.org/wiki/Izabella_Teixeira",
+  "title": "Izabella Teixeira - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "24 September 2012",
+          "type": "point",
+          "quotes": [
+            "On 24 September 2012, Teixeira was appointed by UN Secretary-General Ban Ki-moon to serve on the High-Level Panel of Eminent Persons on the Post-2015 Development Agenda."
+          ]
+        },
+        {
+          "text": "from 2004 to 2012",
+          "type": "range",
+          "quotes": [
+            "Teixeira is devoted to reversing the deforestation of the Amazon Rainforest, and achieved an 84% reduction in deforestation from 2004 to 2012, a 'remarkable feat that is a tribute to her courage to push against the tide of destruction and is a significant initiative from Brazil on climate change mitigation'."
+          ]
+        },
+        {
+          "text": "From August 2012 to July 2013",
+          "type": "range",
+          "quotes": [
+            "From August 2012 to July 2013, the rate of deforestation increased by 29% in the Amazônia Legal (Legal Amazon),"
+          ]
+        },
+        {
+          "text": "from 2013 to 2014",
+          "type": "range",
+          "quotes": [
+            "and from 2013 to 2014, it rose by 358%."
+          ]
+        },
+        {
+          "text": "October 2014",
+          "type": "point",
+          "quotes": [
+            "With Teixeira as Environment Minister, Brazil has also refused to sign the anti-deforestation pledge that aims to reduce deforestation by 2030, dealing a blow to the Climate Change summit that took place in New York in October 2014."
+          ]
+        },
+        {
+          "text": "24 May 2014",
+          "type": "point",
+          "quotes": [
+            "On 24 May 2014, Teixeira announced a pollution-reducing initiative aimed at making the 2014 FIFA World Cup the most environmentally friendly ever by allowing companies to buy carbon credits in exchange for the right to advertise themselves as official 'green seal' World Cup sponsors."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "United Nations",
+          "quotes": [
+            "Izabella Teixeira (Brazil) . United Nations . Retrieved 16 January 2016."
+          ]
+        },
+        {
+          "name": "UN Secretary-General’s High-level Panel on Global Sustainability (GSP)",
+          "quotes": [
+            "Izabella Teixeira . UN Secretary-General’s High-level Panel on Global Sustainability (GSP) . Retrieved 16 January 2016."
+          ]
+        },
+        {
+          "name": "High-Level Panel of Eminent Persons on the Post-2015 Development Agenda",
+          "quotes": [
+            "On 24 September 2012, Teixeira was appointed by UN Secretary-General Ban Ki-moon to serve on the High-Level Panel of Eminent Persons on the Post-2015 Development Agenda."
+          ]
+        },
+        {
+          "name": "United Nations Environment Program",
+          "quotes": [
+            "In addition, along with the United Nations Environment Program, Teixeira launched a project called 'green passport' that promoted sustainable tourism."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Environment Minister",
+          "quotes": [
+            "With Teixeira as Environment Minister, Brazil has also refused to sign the anti-deforestation pledge that aims to reduce deforestation by 2030, dealing a blow to the Climate Change summit that took place in New York in October 2014."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Brazil",
+          "quotes": [
+            "Teixeira is devoted to reversing the deforestation of the Amazon Rainforest, and achieved an 84% reduction in deforestation from 2004 to 2012, a 'remarkable feat that is a tribute to her courage to push against the tide of destruction and is a significant initiative from Brazil on climate change mitigation'."
+          ]
+        },
+        {
+          "place": "Amazônia Legal (Legal Amazon)",
+          "quotes": [
+            "From August 2012 to July 2013, the rate of deforestation increased by 29% in the Amazônia Legal (Legal Amazon),"
+          ]
+        },
+        {
+          "place": "New York",
+          "quotes": [
+            "With Teixeira as Environment Minister, Brazil has also refused to sign the anti-deforestation pledge that aims to reduce deforestation by 2030, dealing a blow to the Climate Change summit that took place in New York in October 2014."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "On 24 September 2012, Teixeira was appointed by UN Secretary-General Ban Ki-moon to serve on the High-Level Panel of Eminent Persons on the Post-2015 Development Agenda."
+        ],
+        "confidence": "high",
+        "notes": "Clear appointment to a panel, indicating an active role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "With Teixeira as Environment Minister, Brazil has also refused to sign the anti-deforestation pledge that aims to reduce deforestation by 2030, dealing a blow to the Climate Change summit that took place in New York in October 2014."
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of Teixeira serving as Environment Minister, with specific actions taken in that role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In addition, along with the United Nations Environment Program, Teixeira launched a project called 'green passport' that promoted sustainable tourism."
+        ],
+        "confidence": "medium",
+        "notes": "Collaboration with UN Environment Program on a specific project, suggesting an active role but without explicit time markers."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the collaboration with the United Nations Environment Program."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 2,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

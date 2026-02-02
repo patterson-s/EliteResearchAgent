@@ -1,0 +1,183 @@
+{
+  "status": "success",
+  "chunk_id": 3351,
+  "chunk_index": 0,
+  "source_url": "https://www.un.org/sg/en/management/bios/Kim.shtml",
+  "title": "SUNG-HWAN KIM (REPUBLIC OF KOREA) | Secretary-General | United Nations",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "United Nations",
+          "quotes": [
+            "SUNG-HWAN KIM (REPUBLIC OF KOREA) | Secretary-General | United Nations",
+            "Former Deputy Secretaries-General of the United Nations"
+          ]
+        },
+        {
+          "name": "Republic of Korea",
+          "quotes": [
+            "SUNG-HWAN KIM (REPUBLIC OF KOREA)",
+            "Mr. Kim is the current Minister of Foreign Affairs and Trade for the Republic of Korea",
+            "representing the Republic of Korea to international organizations"
+          ]
+        },
+        {
+          "name": "United States of America",
+          "quotes": [
+            "representing the Republic of Korea to international organizations, the United States of America"
+          ]
+        },
+        {
+          "name": "Russian Federation",
+          "quotes": [
+            "representing the Republic of Korea to international organizations, the United States of America, the Russian Federation"
+          ]
+        },
+        {
+          "name": "Uzbekistan",
+          "quotes": [
+            "representing the Republic of Korea to international organizations, the United States of America, the Russian Federation, Uzbekistan"
+          ]
+        },
+        {
+          "name": "India",
+          "quotes": [
+            "representing the Republic of Korea to international organizations, the United States of America, the Russian Federation, Uzbekistan and India"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Secretary-General",
+          "quotes": [
+            "SUNG-HWAN KIM (REPUBLIC OF KOREA) | Secretary-General | United Nations"
+          ]
+        },
+        {
+          "title": "Minister of Foreign Affairs and Trade",
+          "quotes": [
+            "Mr. Kim is the current Minister of Foreign Affairs and Trade for the Republic of Korea"
+          ]
+        },
+        {
+          "title": "Former Deputy Secretary-General of the United Nations",
+          "quotes": [
+            "Jan Eliasson, Former Deputy Secretary-General of the United Nations",
+            "Asha-Rose Migiro, Former Deputy Secretary-General of the United Nations",
+            "Mark Brown, Former Deputy Secretary-General of the United Nations",
+            "Louise Fréchette, Former Deputy Secretary-General of the United Nations"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "SUNG-HWAN KIM (REPUBLIC OF KOREA) | Secretary-General | United Nations"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between Sung-Hwan Kim and the role of Secretary-General at the United Nations."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Mr. Kim is the current Minister of Foreign Affairs and Trade for the Republic of Korea"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between Sung-Hwan Kim and the role of Minister of Foreign Affairs and Trade for the Republic of Korea."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "representing the Republic of Korea to international organizations, the United States of America, the Russian Federation, Uzbekistan and India"
+        ],
+        "confidence": "medium",
+        "notes": "Implied role of representation for the Republic of Korea to multiple countries, but no specific title mentioned."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing role title and time markers for the career position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position but lacks specific role title, which might affect classification accuracy."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

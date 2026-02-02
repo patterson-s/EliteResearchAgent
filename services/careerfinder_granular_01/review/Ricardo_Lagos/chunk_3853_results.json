@@ -1,0 +1,167 @@
+{
+  "status": "success",
+  "chunk_id": 3853,
+  "chunk_index": 18,
+  "source_url": "https://www.pbs.org/wgbh/commandingheights/shared/minitext/int_ricardolagos.html",
+  "title": "Commanding Heights : Ricardo Lagos | on PBS",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1995",
+          "type": "point",
+          "quotes": [
+            "Look what happened with some friends in Argentina or in Turkey or in Russia or in Mexico in '95."
+          ]
+        },
+        {
+          "text": "1980-1991",
+          "type": "range",
+          "quotes": [
+            "Karl-Otto Pohl [president of the Bundesbank, 1980-1991]"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Central Bank",
+          "quotes": [
+            "he called the Central Bank as he didn't know what was the explanation.",
+            "half a billion was lost by the Central Bank"
+          ]
+        },
+        {
+          "name": "Bundesbank",
+          "quotes": [
+            "Karl-Otto Pohl [president of the Bundesbank, 1980-1991]",
+            "then the Bundesbank went to defend the peseta."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "President",
+          "quotes": [
+            "President Gonzalez [Spanish prime minister and president Felipe Gonzalez]",
+            "Mr. President, I have an explanation"
+          ]
+        },
+        {
+          "title": "Spanish prime minister",
+          "quotes": [
+            "President Gonzalez [Spanish prime minister and president Felipe Gonzalez]"
+          ]
+        },
+        {
+          "title": "president of the Bundesbank",
+          "quotes": [
+            "Karl-Otto Pohl [president of the Bundesbank, 1980-1991]"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Wall Street",
+          "quotes": [
+            "Some people in Wall Street, some risk analyst that said, 'This country is very good; put your money here,'"
+          ]
+        },
+        {
+          "place": "Madrid",
+          "quotes": [
+            "On the plane from Madrid to Bonn, half a billion was lost by the Central Bank;",
+            "He arrived in Madrid; nobody had an explanation what happened with the peseta."
+          ]
+        },
+        {
+          "place": "Bonn",
+          "quotes": [
+            "On the plane from Madrid to Bonn, half a billion was lost by the Central Bank;"
+          ]
+        },
+        {
+          "place": "Hong Kong",
+          "quotes": [
+            "A woman in Hong Kong decided that probably the peseta was going to be devalued,"
+          ]
+        },
+        {
+          "place": "Argentina",
+          "quotes": [
+            "Look what happened with some friends in Argentina or in Turkey or in Russia or in Mexico in '95."
+          ]
+        },
+        {
+          "place": "Turkey",
+          "quotes": [
+            "Look what happened with some friends in Argentina or in Turkey or in Russia or in Mexico in '95."
+          ]
+        },
+        {
+          "place": "Russia",
+          "quotes": [
+            "Look what happened with some friends in Argentina or in Turkey or in Russia or in Mexico in '95."
+          ]
+        },
+        {
+          "place": "Mexico",
+          "quotes": [
+            "Look what happened with some friends in Argentina or in Turkey or in Russia or in Mexico in '95."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Karl-Otto Pohl [president of the Bundesbank, 1980-1991]"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "Time marker '1995' does not align with the role's time range '1980-1991'."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Location information is missing, though it may not be critical for this event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "status": "success",
+  "chunk_id": 234,
+  "chunk_index": 2,
+  "source_url": "https://en.wikipedia.org/wiki/Enrique_Iglesias",
+  "title": "Enrique Iglesias - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In December 2016",
+          "type": "point",
+          "quotes": [
+            "In December 2016, Billboard magazine named him the 14th most successful and top male dance club artist of all time."
+          ]
+        },
+        {
+          "text": "December 1981",
+          "type": "point",
+          "quotes": [
+            "however, in December 1981, Iglesias's grandfather Dr. Julio Iglesias Puga was kidnapped by the armed Basque group ETA."
+          ]
+        },
+        {
+          "text": "1995–1996",
+          "type": "range",
+          "quotes": [
+            "1995–1996: Enrique Iglesias"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Billboard",
+          "quotes": [
+            "In December 2016, Billboard magazine named him the 14th most successful and top male dance club artist of all time."
+          ]
+        },
+        {
+          "name": "Gulliver Preparatory School",
+          "quotes": [
+            "Iglesias attended Gulliver Preparatory School, a private high school in Miami, where he developed an interest in writing songs."
+          ]
+        },
+        {
+          "name": "University of Miami",
+          "quotes": [
+            "After graduating from high school he attended the University of Miami in Coral Gables, Florida, where he studied business but dropped out after a year to pursue a recording career."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "singer",
+          "quotes": [
+            "the third and youngest child of Spanish singer Julio Iglesias"
+          ]
+        },
+        {
+          "title": "socialite and magazine journalist",
+          "quotes": [
+            "Filipina socialite and magazine journalist Isabel Preysler"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Madrid",
+          "quotes": [
+            "Enrique Miguel Iglesias Preysler was born in Madrid"
+          ]
+        },
+        {
+          "place": "Galicia",
+          "quotes": [
+            "His father's family is from Galicia and Andalusia"
+          ]
+        },
+        {
+          "place": "Andalusia",
+          "quotes": [
+            "His father's family is from Galicia and Andalusia"
+          ]
+        },
+        {
+          "place": "Miami",
+          "quotes": [
+            "For their safety, Enrique and his brother Julio were sent to live with their father in Miami."
+          ]
+        },
+        {
+          "place": "Coral Gables, Florida",
+          "quotes": [
+            "After graduating from high school he attended the University of Miami in Coral Gables, Florida"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In December 2016, Billboard magazine named him the 14th most successful and top male dance club artist of all time."
+        ],
+        "confidence": "high",
+        "notes": "Clear award recognition from Billboard magazine."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [
+          3
+        ],
+        "supporting_quotes": [
+          "Iglesias attended Gulliver Preparatory School, a private high school in Miami, where he developed an interest in writing songs."
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but attendance at a school is considered a career position in educational context."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [
+          4
+        ],
+        "supporting_quotes": [
+          "After graduating from high school he attended the University of Miami in Coral Gables, Florida, where he studied business but dropped out after a year to pursue a recording career."
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but attendance at a university is considered a career position in educational context."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "1995–1996: Enrique Iglesias",
+          "the third and youngest child of Spanish singer Julio Iglesias"
+        ],
+        "confidence": "low",
+        "notes": "Assumed career position as a singer based on the time range and context, but no explicit role or organization mentioned."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Attendance at a high school is not typically classified as a career position."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time marker for the attendance period."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Attendance at a university is not typically classified as a career position."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time marker for the attendance period."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location information for the career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "The quote does not explicitly state the role or organization, only a time range and family context."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 1,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 1
+    }
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "status": "success",
+  "chunk_id": 368,
+  "chunk_index": 6,
+  "source_url": "https://corporatecitizen.in/v4-issue10/cover-story-dynamic-duo-75-indira-and%20-lt-gen-sat%20ish-nambiar-retd-breaking-barriers.html",
+  "title": "Cover Story: Dynamic Duo: 75 Indira and Lt. Gen.Satish Nambiar (retd) Breaking Barriers",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "December 16, 1971",
+          "type": "point",
+          "quotes": [
+            "I myself was amidst the august company to have entered Dacca (Dhaka) on December 16, 1971 along with my men."
+          ]
+        },
+        {
+          "text": "Republic Day 1992",
+          "type": "point",
+          "quotes": [
+            "With Prime Minister Narasimha Rao on Republic Day 1992."
+          ]
+        },
+        {
+          "text": "1979",
+          "type": "point",
+          "quotes": [
+            "As member of an Indian Army Training Team in Baghdad, Iraq: 1979."
+          ]
+        },
+        {
+          "text": "the seventies",
+          "type": "range",
+          "quotes": [
+            "one must go back to the seventies when Pakistan brought China back into the international environment once again, by acting as a go-between between Kissinger and them."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Indian Army",
+          "quotes": [
+            "As member of an Indian Army Training Team in Baghdad, Iraq: 1979."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Prime Minister",
+          "quotes": [
+            "With Prime Minister Narasimha Rao on Republic Day 1992."
+          ]
+        },
+        {
+          "title": "member of an Indian Army Training Team",
+          "quotes": [
+            "As member of an Indian Army Training Team in Baghdad, Iraq: 1979."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Pakistan",
+          "quotes": [
+            "With regard to Pakistan, letâs be realistic.",
+            "Whatâs your take on Chinaâs relationship with Pakistan?",
+            "In order to understand the link between China and Pakistan, one must go back to the seventies when Pakistan brought China back into the international environment once again, by acting as a go-between between Kissinger and them."
+          ]
+        },
+        {
+          "place": "India",
+          "quotes": [
+            "This was a country formed on an anti-India agenda.",
+            "So, India helped break that country up."
+          ]
+        },
+        {
+          "place": "Dhaka",
+          "quotes": [
+            "I myself was amidst the august company to have entered Dacca (Dhaka) on December 16, 1971 along with my men."
+          ]
+        },
+        {
+          "place": "Baghdad, Iraq",
+          "quotes": [
+            "As member of an Indian Army Training Team in Baghdad, Iraq: 1979."
+          ]
+        },
+        {
+          "place": "China",
+          "quotes": [
+            "Whatâs your take on Chinaâs relationship with Pakistan?",
+            "In order to understand the link between China and Pakistan, one must go back to the seventies when Pakistan brought China back into the international environment once again, by acting as a go-between between Kissinger and them."
+          ]
+        },
+        {
+          "place": "US",
+          "quotes": [
+            "A similar equation exists between Pakistan and the US.",
+            "The Americans will never completely dump Pakistan, no matter what Trump says now."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          3
+        ],
+        "supporting_quotes": [
+          "As member of an Indian Army Training Team in Baghdad, Iraq: 1979."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, role, and location."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 1,
+      "warnings": 0,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "status": "success",
+  "chunk_id": 3509,
+  "chunk_index": 1,
+  "source_url": "https://mediatheque.lindau-nobel.org/laureates/karman/cv",
+  "title": "CV - Tawakkol Karman | Lindau Mediatheque",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2011",
+          "type": "point",
+          "quotes": [
+            "TIME Magazine's Most Rebellious Woman in History in 2011"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "United Nations High-Level Panel of Eminent Persons on Post-2015 Development",
+          "quotes": [
+            "member of the United Nations High-Level Panel of Eminent Persons on Post-2015 Development"
+          ]
+        },
+        {
+          "name": "Transparency International's Advisory Council",
+          "quotes": [
+            "member of Transparency International's Advisory Council"
+          ]
+        },
+        {
+          "name": "University of Science and Technology, Sana’a",
+          "quotes": [
+            "Karman earned an undergraduate degree in administration from the Faculty of Commerce and Economics at the University of Science and Technology, Sana’a"
+          ]
+        },
+        {
+          "name": "University of Sana'a",
+          "quotes": [
+            "a graduate degree in education psychology from the University of Sana'a"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "member of the United Nations High-Level Panel of Eminent Persons on Post-2015 Development",
+          "quotes": [
+            "member of the United Nations High-Level Panel of Eminent Persons on Post-2015 Development"
+          ]
+        },
+        {
+          "title": "member of Transparency International's Advisory Council",
+          "quotes": [
+            "member of Transparency International's Advisory Council"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Sana’a",
+          "quotes": [
+            "University of Science and Technology, Sana’a",
+            "University of Sana'a"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "TIME Magazine's Most Rebellious Woman in History in 2011"
+        ],
+        "confidence": "high",
+        "notes": "Clear award recognition without ongoing responsibilities"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "member of the United Nations High-Level Panel of Eminent Persons on Post-2015 Development"
+        ],
+        "confidence": "high",
+        "notes": "Active membership with ongoing responsibilities"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "member of Transparency International's Advisory Council"
+        ],
+        "confidence": "high",
+        "notes": "Active membership with ongoing responsibilities"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Karman earned an undergraduate degree in administration from the Faculty of Commerce and Economics at the University of Science and Technology, Sana’a"
+        ],
+        "confidence": "medium",
+        "notes": "Educational affiliation, assumed to be a past position"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "a graduate degree in education psychology from the University of Sana'a"
+        ],
+        "confidence": "medium",
+        "notes": "Educational affiliation, assumed to be a past position"
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position"
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position"
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Educational affiliation classified as career_position, consider reclassification or flagging as educational event"
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for career position"
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position"
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Educational affiliation classified as career_position, consider reclassification or flagging as educational event"
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for career position"
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position"
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 1,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 1
+    }
+  }
+}

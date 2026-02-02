@@ -1,0 +1,276 @@
+{
+  "status": "success",
+  "chunk_id": 1020,
+  "chunk_index": 4,
+  "source_url": "https://en.wikipedia.org/wiki/Carey_Mulligan",
+  "title": "Carey Mulligan - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2010",
+          "type": "point",
+          "quotes": [
+            "Screened out of competition at the 2010 Cannes Film Festival",
+            "Mulligan at the 2010 Toronto International Film Festival",
+            "Mulligan auditioned for the role of Daisy in late 2010"
+          ]
+        },
+        {
+          "text": "from 13 May – 3 July 2011",
+          "type": "range",
+          "quotes": [
+            "She returned to the stage in the Atlantic Theater Company's off-Broadway play adaptation of Ingmar Bergman's Through a Glass, Darkly, from 13 May – 3 July 2011."
+          ]
+        },
+        {
+          "text": "2011",
+          "type": "point",
+          "quotes": [
+            "Mulligan co-starred in two critically acclaimed films in 2011.",
+            "Drive debuted at 2011 Cannes Film Festival and Shame debuted at 2011 Venice Film Festival"
+          ]
+        },
+        {
+          "text": "May 2013",
+          "type": "point",
+          "quotes": [
+            "In 2013, she starred as Daisy Buchanan in Baz Luhrmann's The Great Gatsby opposite Leonardo DiCaprio, which was released in May 2013."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Atlantic Theater Company",
+          "quotes": [
+            "She returned to the stage in the Atlantic Theater Company's off-Broadway play adaptation of Ingmar Bergman's Through a Glass, Darkly, from 13 May – 3 July 2011."
+          ]
+        },
+        {
+          "name": "The New York Times",
+          "quotes": [
+            "Ben Brantley, theater critic for The New York Times, wrote that Mulligan's performance was 'acting of the highest order'; he also described her as 'extraordinary' and 'one of the finest actresses of her generation.'"
+          ]
+        },
+        {
+          "name": "Drama Desk Award",
+          "quotes": [
+            "For her performance she was nominated for the Drama Desk Award for Outstanding Actress in a Play."
+          ]
+        },
+        {
+          "name": "BAFTA Award",
+          "quotes": [
+            "She received her second nomination for the BAFTA Award for Best Actress in a Supporting Role —for the film Drive which also garnered a total of 4 BAFTA award nominations, including Best Picture and Best Director."
+          ]
+        },
+        {
+          "name": "BIFA",
+          "quotes": [
+            "For her performance in Shame, she received critical praise as well as a nomination for the BIFA for Best Supporting Actress."
+          ]
+        },
+        {
+          "name": "The Hollywood Reporter",
+          "quotes": [
+            "Todd McCarthy of The Hollywood Reporter wrote of her performance, 'Exposing herself emotionally and physically as she never has before, Mulligan is terrific in this unexpected role of a deeply wounded and troubled soul.'"
+          ]
+        },
+        {
+          "name": "Vogue",
+          "quotes": [
+            "While attending a Vogue fashion"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Outstanding Actress in a Play",
+          "quotes": [
+            "For her performance she was nominated for the Drama Desk Award for Outstanding Actress in a Play."
+          ]
+        },
+        {
+          "title": "Best Actress in a Supporting Role",
+          "quotes": [
+            "She received her second nomination for the BAFTA Award for Best Actress in a Supporting Role —for the film Drive which also garnered a total of 4 BAFTA award nominations, including Best Picture and Best Director."
+          ]
+        },
+        {
+          "title": "Best Supporting Actress",
+          "quotes": [
+            "For her performance in Shame, she received critical praise as well as a nomination for the BIFA for Best Supporting Actress."
+          ]
+        },
+        {
+          "title": "Daisy Buchanan",
+          "quotes": [
+            "In 2013, she starred as Daisy Buchanan in Baz Luhrmann's The Great Gatsby opposite Leonardo DiCaprio, which was released in May 2013."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Cannes",
+          "quotes": [
+            "Screened out of competition at the 2010 Cannes Film Festival",
+            "Drive debuted at 2011 Cannes Film Festival"
+          ]
+        },
+        {
+          "place": "Toronto",
+          "quotes": [
+            "Mulligan at the 2010 Toronto International Film Festival"
+          ]
+        },
+        {
+          "place": "Venice",
+          "quotes": [
+            "Shame debuted at 2011 Venice Film Festival"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "She returned to the stage in the Atlantic Theater Company's off-Broadway play adaptation of Ingmar Bergman's Through a Glass, Darkly, from 13 May – 3 July 2011."
+        ],
+        "confidence": "high",
+        "notes": "Clear stage role with specific time and organization."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "For her performance she was nominated for the Drama Desk Award for Outstanding Actress in a Play."
+        ],
+        "confidence": "high",
+        "notes": "Award nomination with no ongoing responsibilities."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "She received her second nomination for the BAFTA Award for Best Actress in a Supporting Role —for the film Drive which also garnered a total of 4 BAFTA award nominations, including Best Picture and Best Director."
+        ],
+        "confidence": "high",
+        "notes": "Award nomination with no ongoing responsibilities."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "For her performance in Shame, she received critical praise as well as a nomination for the BIFA for Best Supporting Actress."
+        ],
+        "confidence": "high",
+        "notes": "Award nomination with no ongoing responsibilities."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2013, she starred as Daisy Buchanan in Baz Luhrmann's The Great Gatsby opposite Leonardo DiCaprio, which was released in May 2013."
+        ],
+        "confidence": "high",
+        "notes": "Clear film role with specific time and character."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time marker for award nomination."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time marker for award nomination."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time marker for award nomination."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 2,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 3
+    }
+  }
+}

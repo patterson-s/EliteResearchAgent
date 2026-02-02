@@ -1,0 +1,155 @@
+{
+  "status": "success",
+  "chunk_id": 435,
+  "chunk_index": 3,
+  "source_url": "https://www.fmprc.gov.cn/eng/zy/wjrw/3606_665551/202405/t20240531_11367610.html",
+  "title": "Qian Qichen_Ministry of Foreign Affairs of the People's Republic of China",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In 1997",
+          "type": "point",
+          "quotes": [
+            "In 1997, in the capacity of member of the Chinese government delegation, Vice Premier and Foreign Minister concurrently, he went to Hong Kong to observe the ceremony of the handover of Hong Kong."
+          ]
+        },
+        {
+          "text": "In April 1998",
+          "type": "point",
+          "quotes": [
+            "In April 1998, he was appointed member of the Preparatory Committee of the National People's Congress for Macao Special Administrative Region."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Chinese government delegation",
+          "quotes": [
+            "In 1997, in the capacity of member of the Chinese government delegation, Vice Premier and Foreign Minister concurrently, he went to Hong Kong to observe the ceremony of the handover of Hong Kong."
+          ]
+        },
+        {
+          "name": "Preparatory Committee of the National People's Congress for Macao Special Administrative Region",
+          "quotes": [
+            "In April 1998, he was appointed member of the Preparatory Committee of the National People's Congress for Macao Special Administrative Region."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Vice Premier and Foreign Minister",
+          "quotes": [
+            "In 1997, in the capacity of member of the Chinese government delegation, Vice Premier and Foreign Minister concurrently, he went to Hong Kong to observe the ceremony of the handover of Hong Kong."
+          ]
+        },
+        {
+          "title": "member of the Chinese government delegation",
+          "quotes": [
+            "In 1997, in the capacity of member of the Chinese government delegation, Vice Premier and Foreign Minister concurrently, he went to Hong Kong to observe the ceremony of the handover of Hong Kong."
+          ]
+        },
+        {
+          "title": "member of the Preparatory Committee of the National People's Congress for Macao Special Administrative Region",
+          "quotes": [
+            "In April 1998, he was appointed member of the Preparatory Committee of the National People's Congress for Macao Special Administrative Region."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Hong Kong",
+          "quotes": [
+            "In 1997, in the capacity of member of the Chinese government delegation, Vice Premier and Foreign Minister concurrently, he went to Hong Kong to observe the ceremony of the handover of Hong Kong."
+          ]
+        },
+        {
+          "place": "Macao Special Administrative Region",
+          "quotes": [
+            "In April 1998, he was appointed member of the Preparatory Committee of the National People's Congress for Macao Special Administrative Region."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "In 1997, in the capacity of member of the Chinese government delegation, Vice Premier and Foreign Minister concurrently, he went to Hong Kong to observe the ceremony of the handover of Hong Kong."
+        ],
+        "confidence": "high",
+        "notes": "Roles and organization are clearly linked in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "In April 1998, he was appointed member of the Preparatory Committee of the National People's Congress for Macao Special Administrative Region."
+        ],
+        "confidence": "high",
+        "notes": "Role and organization are clearly linked in the same quote."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The event is classified as a career_position, but the role 'member of the Chinese government delegation' might be more accurately described as a temporary assignment rather than a long-term position."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "The event lacks end_date information, making it unclear how long the roles were held."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "status": "success",
+  "chunk_id": 233,
+  "chunk_index": 1,
+  "source_url": "https://en.wikipedia.org/wiki/Enrique_Iglesias",
+  "title": "Enrique Iglesias - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "mid-1990s",
+          "type": "point",
+          "quotes": [
+            "He started his recording career in the mid-1990s on the Mexican label Fonovisa"
+          ]
+        },
+        {
+          "text": "turn of the millennium",
+          "type": "point",
+          "quotes": [
+            "By the turn of the millennium, he made a successful crossover into the mainstream English-language market."
+          ]
+        },
+        {
+          "text": "2010",
+          "type": "point",
+          "quotes": [
+            "In 2010, Iglesias parted with Interscope Records and signed with another Universal Music Group label, Republic Records"
+          ]
+        },
+        {
+          "text": "2015",
+          "type": "point",
+          "quotes": [
+            "In 2015, he parted ways with Universal Music Group after being there for over a decade."
+          ]
+        },
+        {
+          "text": "October 2022",
+          "type": "point",
+          "quotes": [
+            "in October 2022 he was honored with the Top Latin Artist of All Time at the Latin Billboard Awards."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Fonovisa",
+          "quotes": [
+            "He started his recording career in the mid-1990s on the Mexican label Fonovisa",
+            "under Universal Music Latin."
+          ]
+        },
+        {
+          "name": "Universal Music Group",
+          "quotes": [
+            "He signed a multi-album deal with Universal Music Group for US$68 million",
+            "In 2010, Iglesias parted with Interscope Records and signed with another Universal Music Group label, Republic Records",
+            "In 2015, he parted ways with Universal Music Group after being there for over a decade."
+          ]
+        },
+        {
+          "name": "Interscope Records",
+          "quotes": [
+            "He signed a multi-album deal with Universal Music Group for US$68 million with Interscope Records",
+            "In 2010, Iglesias parted with Interscope Records and signed with another Universal Music Group label, Republic Records"
+          ]
+        },
+        {
+          "name": "Universal Music Latin",
+          "quotes": [
+            "During this time he also released Spanish albums such as Quizás and 95/08 Éxitos under Universal Music Latin."
+          ]
+        },
+        {
+          "name": "Republic Records",
+          "quotes": [
+            "In 2010, Iglesias parted with Interscope Records and signed with another Universal Music Group label, Republic Records"
+          ]
+        },
+        {
+          "name": "Sony Music",
+          "quotes": [
+            "In 2015, he parted ways with Universal Music Group after being there for over a decade. He signed with Sony Music"
+          ]
+        },
+        {
+          "name": "Sony Music Latin",
+          "quotes": [
+            "He signed with Sony Music and his subsequent albums were to be released two more bilingual albums Final (Vol. 1) and Final (Vol. 2) with Sony Music Latin in Spanish"
+          ]
+        },
+        {
+          "name": "RCA Records",
+          "quotes": [
+            "He signed with Sony Music and his subsequent albums were to be released two more bilingual albums Final (Vol. 1) and Final (Vol. 2) with Sony Music Latin in Spanish and RCA Records in English."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "singer",
+          "quotes": [
+            "Enrique Miguel Iglesias Preysler (Spanish pronunciation: [enˈrike miˈɣel iˈɣlesjas ˈpɾejsleɾ] ; born 8 May 1975) is a Spanish singer and songwriter."
+          ]
+        },
+        {
+          "title": "songwriter",
+          "quotes": [
+            "Enrique Miguel Iglesias Preysler (Spanish pronunciation: [enˈrike miˈɣel iˈɣlesjas ˈpɾejsleɾ] ; born 8 May 1975) is a Spanish singer and songwriter."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Miami-Dade County, Florida, U.S.",
+          "quotes": [
+            "Origin Miami-Dade County, Florida, U.S."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He started his recording career in the mid-1990s on the Mexican label Fonovisa",
+          "Enrique Miguel Iglesias Preysler (Spanish pronunciation: [enˈrike miˈɣel iˈɣlesjas ˈpɾejsleɾ] ; born 8 May 1975) is a Spanish singer and songwriter."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and roles."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1,
+          2
+        ],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He signed a multi-album deal with Universal Music Group for US$68 million with Interscope Records",
+          "Enrique Miguel Iglesias Preysler (Spanish pronunciation: [enˈrike miˈɣel iˈɣlesjas ˈpɾejsleɾ] ; born 8 May 1975) is a Spanish singer and songwriter."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between organizations and roles, no specific time marker."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2010, Iglesias parted with Interscope Records and signed with another Universal Music Group label, Republic Records",
+          "Enrique Miguel Iglesias Preysler (Spanish pronunciation: [enˈrike miˈɣel iˈɣlesjas ˈpɾejsleɾ] ; born 8 May 1975) is a Spanish singer and songwriter."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and roles."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          5,
+          6,
+          7
+        ],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2015, he parted ways with Universal Music Group after being there for over a decade. He signed with Sony Music",
+          "He signed with Sony Music and his subsequent albums were to be released two more bilingual albums Final (Vol. 1) and Final (Vol. 2) with Sony Music Latin in Spanish and RCA Records in English.",
+          "Enrique Miguel Iglesias Preysler (Spanish pronunciation: [enˈrike miˈɣel iˈɣlesjas ˈpɾejsleɾ] ; born 8 May 1975) is a Spanish singer and songwriter."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organizations, and roles."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "in October 2022 he was honored with the Top Latin Artist of All Time at the Latin Billboard Awards."
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of a one-time award."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position event."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 4,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 4,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 1
+    }
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "status": "success",
+  "chunk_id": 1209,
+  "chunk_index": 0,
+  "source_url": "https://www.nobelprize.org/prizes/economic-sciences/2014/tirole/biographical/",
+  "title": "Jean Tirole – Biographical - NobelPrize.org",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1971–1973",
+          "type": "range",
+          "quotes": [
+            "I left Troyes after my baccalaureate to carry out preparatory studies at the Lycée Henri Poincaré in Nancy (1971–1973)."
+          ]
+        },
+        {
+          "text": "1973–1976",
+          "type": "range",
+          "quotes": [
+            "I then entered the Ecole Polytechnique (1973–1976),"
+          ]
+        },
+        {
+          "text": "1976–1978",
+          "type": "range",
+          "quotes": [
+            "followed by the Ecole des Ponts et Chaussées (1976–1978),"
+          ]
+        },
+        {
+          "text": "1976–1978",
+          "type": "range",
+          "quotes": [
+            "a ‘doctorat de troisieme cycle’ (a degree intermediate between a Master degree and a PhD, which has since disappeared) in decision mathematics from Université Paris-Dauphine (1976–1978),"
+          ]
+        },
+        {
+          "text": "1978–1981",
+          "type": "range",
+          "quotes": [
+            "and finally a PhD in economics from MIT (1978–1981)."
+          ]
+        },
+        {
+          "text": "1992",
+          "type": "point",
+          "quotes": [
+            "My father, who passed away in 1992, was an obstetrician/gynecologist;"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Lycée Henri Poincaré",
+          "quotes": [
+            "I left Troyes after my baccalaureate to carry out preparatory studies at the Lycée Henri Poincaré in Nancy (1971–1973)."
+          ]
+        },
+        {
+          "name": "Ecole Polytechnique",
+          "quotes": [
+            "I then entered the Ecole Polytechnique (1973–1976),"
+          ]
+        },
+        {
+          "name": "Ecole des Ponts et Chaussées",
+          "quotes": [
+            "followed by the Ecole des Ponts et Chaussées (1976–1978),"
+          ]
+        },
+        {
+          "name": "Université Paris-Dauphine",
+          "quotes": [
+            "a ‘doctorat de troisieme cycle’ (a degree intermediate between a Master degree and a PhD, which has since disappeared) in decision mathematics from Université Paris-Dauphine (1976–1978),"
+          ]
+        },
+        {
+          "name": "MIT",
+          "quotes": [
+            "and finally a PhD in economics from MIT (1978–1981)."
+          ]
+        },
+        {
+          "name": "Corps des Ponts et Chaussées",
+          "quotes": [
+            "In 1976 I joined the engineering ‘corps of roads and bridges’ (Corps des Ponts et Chaussées), an applied corps of civil servants dating back"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "civil servant",
+          "quotes": [
+            "In 1976 I joined the engineering ‘corps of roads and bridges’ (Corps des Ponts et Chaussées), an applied corps of civil servants dating back"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Troyes",
+          "quotes": [
+            "I was born and raised in Troyes, a town located east of Paris and north of Burgundy."
+          ]
+        },
+        {
+          "place": "Paris",
+          "quotes": [
+            "I was born and raised in Troyes, a town located east of Paris and north of Burgundy."
+          ]
+        },
+        {
+          "place": "Burgundy",
+          "quotes": [
+            "I was born and raised in Troyes, a town located east of Paris and north of Burgundy."
+          ]
+        },
+        {
+          "place": "Nancy",
+          "quotes": [
+            "I left Troyes after my baccalaureate to carry out preparatory studies at the Lycée Henri Poincaré in Nancy (1971–1973)."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          4
+        ],
+        "supporting_quotes": [
+          "I left Troyes after my baccalaureate to carry out preparatory studies at the Lycée Henri Poincaré in Nancy (1971–1973)."
+        ],
+        "confidence": "high",
+        "notes": "No specific role mentioned, but the context implies a student position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "I then entered the Ecole Polytechnique (1973–1976),"
+        ],
+        "confidence": "high",
+        "notes": "No specific role mentioned, but the context implies a student position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2,
+          3
+        ],
+        "organization_ids": [
+          2,
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "followed by the Ecole des Ponts et Chaussées (1976–1978),",
+          "a ‘doctorat de troisieme cycle’ (a degree intermediate between a Master degree and a PhD, which has since disappeared) in decision mathematics from Université Paris-Dauphine (1976–1978),"
+        ],
+        "confidence": "high",
+        "notes": "Concurrent studies at two institutions during the same period."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "and finally a PhD in economics from MIT (1978–1981)."
+        ],
+        "confidence": "high",
+        "notes": "No specific role mentioned, but the context implies a student position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 1976 I joined the engineering ‘corps of roads and bridges’ (Corps des Ponts et Chaussées), an applied corps of civil servants dating back"
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of joining a professional corps with a specific role."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing role information, though context implies a student position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing role information, though context implies a student position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing role information, though context implies a student position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing role information, though context implies a student position."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 1,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "status": "success",
+  "chunk_id": 149,
+  "chunk_index": 1,
+  "source_url": "https://aasciences.africa/fellows/mary-chinery",
+  "title": "Mary Chinery-Hesse (née Blay) | The AAS",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "©1985-2025",
+          "type": "range",
+          "quotes": [
+            "©1985-2025"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "The African Academy of Sciences",
+          "quotes": [
+            "Powered by The African Academy of Sciences All Rights Reserved"
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": [
+        {
+          "place": "8 Miotoni Lane, Karen, Nairobi Kenya",
+          "quotes": [
+            "We are located at: 8 Miotoni Lane, Karen, Nairobi Kenya."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "©1985-2025",
+          "Powered by The African Academy of Sciences All Rights Reserved",
+          "We are located at: 8 Miotoni Lane, Karen, Nairobi Kenya."
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but the organization and location are clearly linked. Assuming a general affiliation or operational presence."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. No specific role mentioned, making it unclear what the career position entails."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classification as 'career_position' is questionable without a clear role. Could be more accurately classified as an affiliation or operational presence."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

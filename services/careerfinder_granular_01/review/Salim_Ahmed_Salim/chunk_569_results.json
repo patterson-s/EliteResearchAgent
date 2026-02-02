@@ -1,0 +1,222 @@
+{
+  "status": "success",
+  "chunk_id": 569,
+  "chunk_index": 69,
+  "source_url": "https://issafrica.s3.amazonaws.com/site/uploads/Book-2015-Salim.pdf",
+  "title": "Book-2015-Salim.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "in 2001",
+          "type": "point",
+          "quotes": [
+            "One of the final achievements of Salim’s leadership at the OAU was organising the first OAU–Civil Society Conference, held in Addis Ababa in 2001."
+          ]
+        },
+        {
+          "text": "on 21 May 1997",
+          "type": "point",
+          "quotes": [
+            "The first joint project between the ISS and the OAU was a continental experts meeting, held in Kempton Park on 21 May 1997 in support of the Ottawa Process, which led to the adoption of a ban on anti-personnel landmines."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "OAU",
+          "quotes": [
+            "One of the final achievements of Salim’s leadership at the OAU was organising the first OAU–Civil Society Conference, held in Addis Ababa in 2001.",
+            "The first joint project between the ISS and the OAU was a continental experts meeting, held in Kempton Park on 21 May 1997 in support of the Ottawa Process, which led to the adoption of a ban on anti-personnel landmines.",
+            "The ISS would work closely with the OAU’s Department of Politics, Peace and Security in subsequent years, helping the OAU draft policies and formulate its stance on early warning, peacekeeping, security-sector reform, counterterrorism and related issues.",
+            "Salim even recalls an incident when an African ambassador walked out of an OAU meeting, opposing the presence of a member from a civil-society group."
+          ]
+        },
+        {
+          "name": "Institute for Security Studies (ISS)",
+          "quotes": [
+            "With the support of the ANC’s secretary-general, Salim started collaborating with the Institute for Security Studies (ISS).",
+            "The first joint project between the ISS and the OAU was a continental experts meeting, held in Kempton Park on 21 May 1997 in support of the Ottawa Process, which led to the adoption of a ban on anti-personnel landmines.",
+            "The ISS would work closely with the OAU’s Department of Politics, Peace and Security in subsequent years, helping the OAU draft policies and formulate its stance on early warning, peacekeeping, security-sector reform, counterterrorism and related issues."
+          ]
+        },
+        {
+          "name": "ANC",
+          "quotes": [
+            "With the support of the ANC’s secretary-general, Salim started collaborating with the Institute for Security Studies (ISS)."
+          ]
+        },
+        {
+          "name": "Department of Politics, Peace and Security",
+          "quotes": [
+            "The ISS would work closely with the OAU’s Department of Politics, Peace and Security in subsequent years, helping the OAU draft policies and formulate its stance on early warning, peacekeeping, security-sector reform, counterterrorism and related issues."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "leadership at the OAU",
+          "quotes": [
+            "One of the final achievements of Salim’s leadership at the OAU was organising the first OAU–Civil Society Conference, held in Addis Ababa in 2001."
+          ]
+        },
+        {
+          "title": "secretary-general",
+          "quotes": [
+            "With the support of the ANC’s secretary-general, Salim started collaborating with the Institute for Security Studies (ISS)."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Addis Ababa",
+          "quotes": [
+            "One of the final achievements of Salim’s leadership at the OAU was organising the first OAU–Civil Society Conference, held in Addis Ababa in 2001."
+          ]
+        },
+        {
+          "place": "Kempton Park",
+          "quotes": [
+            "The first joint project between the ISS and the OAU was a continental experts meeting, held in Kempton Park on 21 May 1997 in support of the Ottawa Process, which led to the adoption of a ban on anti-personnel landmines."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "One of the final achievements of Salim’s leadership at the OAU was organising the first OAU–Civil Society Conference, held in Addis Ababa in 2001."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "The first joint project between the ISS and the OAU was a continental experts meeting, held in Kempton Park on 21 May 1997 in support of the Ottawa Process, which led to the adoption of a ban on anti-personnel landmines."
+        ],
+        "confidence": "high",
+        "notes": "Collaboration between organizations with a specific project and location, indicating a career-related activity."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1,
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The ISS would work closely with the OAU’s Department of Politics, Peace and Security in subsequent years, helping the OAU draft policies and formulate its stance on early warning, peacekeeping, security-sector reform, counterterrorism and related issues."
+        ],
+        "confidence": "medium",
+        "notes": "Ongoing collaboration without specific time markers, but clear organizational and departmental involvement."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "With the support of the ANC’s secretary-general, Salim started collaborating with the Institute for Security Studies (ISS)."
+        ],
+        "confidence": "high",
+        "notes": "Clear role and organizational involvement, indicating a career-related activity."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position but lacks a clear role, potentially more of a collaboration event."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers, making it difficult to place the event in a timeline."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position but lacks a clear role, potentially more of a collaboration event."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing location information, which could be important for context."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position but the role mentioned is of a supporting entity (ANC's secretary-general), not the individual's role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 1,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

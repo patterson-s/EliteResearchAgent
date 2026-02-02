@@ -1,0 +1,248 @@
+{
+  "status": "success",
+  "chunk_id": 836,
+  "chunk_index": 0,
+  "source_url": "https://blogs.worldbank.org/en/team/i/isabel-guerrero",
+  "title": "Isabel Guerrero | Vice President",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "July 1, 2008",
+          "type": "point",
+          "quotes": [
+            "became the World Bank’s Vice President for the South Asia Region on July 1, 2008."
+          ]
+        },
+        {
+          "text": "since 1982",
+          "type": "open",
+          "quotes": [
+            "She has held management positions in various countries and regions since joining the Bank in 1982."
+          ]
+        },
+        {
+          "text": "1981",
+          "type": "point",
+          "quotes": [
+            "Ms. Guerrero holds a M.Sc. degree in Economics from the London School of Economics and Political Science (1981)"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "World Bank",
+          "quotes": [
+            "became the World Bank’s Vice President for the South Asia Region on July 1, 2008.",
+            "since joining the Bank in 1982."
+          ]
+        },
+        {
+          "name": "London School of Economics and Political Science",
+          "quotes": [
+            "Ms. Guerrero holds a M.Sc. degree in Economics from the London School of Economics and Political Science (1981)"
+          ]
+        },
+        {
+          "name": "Washington Psychoanalytic Institute",
+          "quotes": [
+            "is a Psychoanalyst trained in the Washington Psychoanalytic Institute."
+          ]
+        },
+        {
+          "name": "Instituto Psicológico Peruano",
+          "quotes": [
+            "She also holds a degree from Instituto Psicológico Peruano."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Vice President for the South Asia Region",
+          "quotes": [
+            "became the World Bank’s Vice President for the South Asia Region on July 1, 2008."
+          ]
+        },
+        {
+          "title": "management positions",
+          "quotes": [
+            "She has held management positions in various countries and regions since joining the Bank in 1982."
+          ]
+        },
+        {
+          "title": "Psychoanalyst",
+          "quotes": [
+            "is a Psychoanalyst trained in the Washington Psychoanalytic Institute."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Chile",
+          "quotes": [
+            "A national of Chile,"
+          ]
+        },
+        {
+          "place": "London",
+          "quotes": [
+            "Ms. Guerrero holds a M.Sc. degree in Economics from the London School of Economics and Political Science (1981)"
+          ]
+        },
+        {
+          "place": "Washington",
+          "quotes": [
+            "is a Psychoanalyst trained in the Washington Psychoanalytic Institute."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "became the World Bank’s Vice President for the South Asia Region on July 1, 2008."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "She has held management positions in various countries and regions since joining the Bank in 1982."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "is a Psychoanalyst trained in the Washington Psychoanalytic Institute."
+        ],
+        "confidence": "high",
+        "notes": "No time marker, but clear linkage between organization, role, and location."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Ms. Guerrero holds a M.Sc. degree in Economics from the London School of Economics and Political Science (1981)"
+        ],
+        "confidence": "high",
+        "notes": "Degree is considered an award as it is a one-time recognition."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "She also holds a degree from Instituto Psicológico Peruano."
+        ],
+        "confidence": "high",
+        "notes": "Degree is considered an award as it is a one-time recognition. No time marker available."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "The time marker 'since 1982' is open-ended and does not specify an end date, which might affect temporal coherence with other events."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time marker for the career position, which might affect temporal coherence with other events."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time marker for the award, which might affect temporal coherence with other events."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 2,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 2
+    }
+  }
+}

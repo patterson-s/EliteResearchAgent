@@ -1,0 +1,149 @@
+{
+  "status": "success",
+  "chunk_id": 367,
+  "chunk_index": 5,
+  "source_url": "https://corporatecitizen.in/v4-issue10/cover-story-dynamic-duo-75-indira-and%20-lt-gen-sat%20ish-nambiar-retd-breaking-barriers.html",
+  "title": "Cover Story: Dynamic Duo: 75 Indira and Lt. Gen.Satish Nambiar (retd) Breaking Barriers",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2009",
+          "type": "point",
+          "quotes": [
+            "Receiving the Padma Bhushan from President Pratibha Patil: 2009."
+          ]
+        },
+        {
+          "text": "March 1975",
+          "type": "point",
+          "quotes": [
+            "The two of us, daughter Rekha and son Rajesh: March 1975"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Padma Bhushan",
+          "quotes": [
+            "Receiving the Padma Bhushan from President Pratibha Patil: 2009."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "President",
+          "quotes": [
+            "Receiving the Padma Bhushan from President Pratibha Patil: 2009."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "India",
+          "quotes": [
+            "We have never had conscription in India, just volunteers."
+          ]
+        },
+        {
+          "place": "Pakistan",
+          "quotes": [
+            "Add to that the happenings in our immediate neighborhood as in Pakistan and Burma for example and briefly in Bangladesh where military dictatorships had assumed charge."
+          ]
+        },
+        {
+          "place": "Burma",
+          "quotes": [
+            "Add to that the happenings in our immediate neighborhood as in Pakistan and Burma for example and briefly in Bangladesh where military dictatorships had assumed charge."
+          ]
+        },
+        {
+          "place": "Bangladesh",
+          "quotes": [
+            "Add to that the happenings in our immediate neighborhood as in Pakistan and Burma for example and briefly in Bangladesh where military dictatorships had assumed charge."
+          ]
+        },
+        {
+          "place": "China",
+          "quotes": [
+            "We have been, by and large, so obsessed with Pakistan that we tend to forget that in the days to come it is China that is going to be our greatest rival in the neighborhood."
+          ]
+        },
+        {
+          "place": "US",
+          "quotes": [
+            "They have a lot to deal with—the US, Japan, Russia, and possibly even Vietnam, being higher up than India."
+          ]
+        },
+        {
+          "place": "Japan",
+          "quotes": [
+            "They have a lot to deal with—the US, Japan, Russia, and possibly even Vietnam, being higher up than India."
+          ]
+        },
+        {
+          "place": "Russia",
+          "quotes": [
+            "They have a lot to deal with—the US, Japan, Russia, and possibly even Vietnam, being higher up than India."
+          ]
+        },
+        {
+          "place": "Vietnam",
+          "quotes": [
+            "They have a lot to deal with—the US, Japan, Russia, and possibly even Vietnam, being higher up than India."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Receiving the Padma Bhushan from President Pratibha Patil: 2009."
+        ],
+        "confidence": "high",
+        "notes": "The Padma Bhushan is a prestigious award, and the context clearly indicates a one-time recognition."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information for the award event."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing role information for the award recipient."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 0,
+      "awards": 1
+    }
+  }
+}

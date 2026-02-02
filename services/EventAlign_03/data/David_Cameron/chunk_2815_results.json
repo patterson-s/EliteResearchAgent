@@ -1,0 +1,222 @@
+{
+  "status": "success",
+  "chunk_id": 2815,
+  "chunk_index": 34,
+  "source_url": "https://en.wikipedia.org/wiki/David_Cameron",
+  "title": "David Cameron - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "December 2005",
+          "type": "point",
+          "quotes": [
+            "Cameron described himself in December 2005 as a 'modern compassionate conservative'"
+          ]
+        },
+        {
+          "text": "2006",
+          "type": "point",
+          "quotes": [
+            "In his first Conservative conference speech as party leader in Bournemouth in 2006, he described the National Health Service as 'one of the 20th Century's greatest achievements'"
+          ]
+        },
+        {
+          "text": "May 2011",
+          "type": "point",
+          "quotes": [
+            "With Barack Obama and then German chancellor Angela Merkel at Deauville, France, May 2011, Cameron said that he believed in 'spreading freedom and democracy, and supporting humanitarian intervention'"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Westminster",
+          "quotes": [
+            "saying that he was 'fed up with the Punch and Judy politics of Westminster'"
+          ]
+        },
+        {
+          "name": "NATO",
+          "quotes": [
+            "he believes multilateralism can take the form of acting through 'NATO, the UN, the G8, the EU and other institutions'"
+          ]
+        },
+        {
+          "name": "UN",
+          "quotes": [
+            "he believes multilateralism can take the form of acting through 'NATO, the UN, the G8, the EU and other institutions'"
+          ]
+        },
+        {
+          "name": "G8",
+          "quotes": [
+            "he believes multilateralism can take the form of acting through 'NATO, the UN, the G8, the EU and other institutions'"
+          ]
+        },
+        {
+          "name": "EU",
+          "quotes": [
+            "he believes multilateralism can take the form of acting through 'NATO, the UN, the G8, the EU and other institutions'"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "leader of the opposition",
+          "quotes": [
+            "As leader of the opposition, Cameron asserted that he did not intend to oppose the government as a matter of course"
+          ]
+        },
+        {
+          "title": "party leader",
+          "quotes": [
+            "In his first Conservative conference speech as party leader in Bournemouth in 2006, he described the National Health Service as 'one of the 20th Century's greatest achievements'"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Westminster",
+          "quotes": [
+            "saying that he was 'fed up with the Punch and Judy politics of Westminster'"
+          ]
+        },
+        {
+          "place": "Bournemouth",
+          "quotes": [
+            "In his first Conservative conference speech as party leader in Bournemouth in 2006, he described the National Health Service as 'one of the 20th Century's greatest achievements'"
+          ]
+        },
+        {
+          "place": "Deauville, France",
+          "quotes": [
+            "With Barack Obama and then German chancellor Angela Merkel at Deauville, France, May 2011, Cameron said that he believed in 'spreading freedom and democracy, and supporting humanitarian intervention'"
+          ]
+        },
+        {
+          "place": "Darfur, Sudan",
+          "quotes": [
+            "Cameron said that he believed in 'spreading freedom and democracy, and supporting humanitarian intervention' in cases such as the genocide in Darfur, Sudan"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "In his first Conservative conference speech as party leader in Bournemouth in 2006, he described the National Health Service as 'one of the 20th Century's greatest achievements'"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, role, and location in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "As leader of the opposition, Cameron asserted that he did not intend to oppose the government as a matter of course",
+          "saying that he was 'fed up with the Punch and Judy politics of Westminster'"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time marker, but role and location are linked through context."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [
+          2,
+          3
+        ],
+        "supporting_quotes": [
+          "With Barack Obama and then German chancellor Angela Merkel at Deauville, France, May 2011, Cameron said that he believed in 'spreading freedom and democracy, and supporting humanitarian intervention'",
+          "he believes multilateralism can take the form of acting through 'NATO, the UN, the G8, the EU and other institutions'",
+          "Cameron said that he believed in 'spreading freedom and democracy, and supporting humanitarian intervention' in cases such as the genocide in Darfur, Sudan"
+        ],
+        "confidence": "high",
+        "notes": "Organizations are mentioned in a separate quote but are relevant to the context of Cameron's beliefs and actions during the specified time and locations."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information despite having a clear role and location."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "error",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing time marker, organization, and location information, making the event incomplete."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information despite having time markers, organizations, and locations."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as 'career_position' but lacks a clear role, which might make it more akin to a statement or belief rather than a position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 1,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

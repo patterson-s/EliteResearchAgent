@@ -1,0 +1,199 @@
+{
+  "status": "success",
+  "chunk_id": 3653,
+  "chunk_index": 18,
+  "source_url": "https://en.wikipedia.org/wiki/Jens_Stoltenberg",
+  "title": "Jens Stoltenberg - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "earlier this year",
+          "type": "point",
+          "quotes": [
+            "The more support we are able to provide to these countries... it is much better to support them now than when we have seen developments going in absolutely the wrong direction as we saw with the invasion of Ukraine earlier this year."
+          ]
+        },
+        {
+          "text": "December",
+          "type": "point",
+          "quotes": [
+            "In December, he said in an interview that 'there is no doubt that a full-fledged' war between Russia and NATO is a 'possibility'."
+          ]
+        },
+        {
+          "text": "2023",
+          "type": "point",
+          "quotes": [
+            "2023 [edit] Stoltenberg with Volodymyr Zelenskyy, Giorgia Meloni, Joe Biden, Rishi Sunak, Gitanas Nausėda and Recep Tayyip Erdoğan at the 2023 Vilnius summit"
+          ]
+        },
+        {
+          "text": "between 28 January and 4 February",
+          "type": "range",
+          "quotes": [
+            "Following the 2023 Chinese balloon incident between 28 January and 4 February, Stoltenberg said the incident said the balloon 'confirms a pattern of Chinese behavior where we see that China has invested heavily in new capabilities, including different types of surveillance and intelligence platforms', and that it presents security challenges for the members of NATO."
+          ]
+        },
+        {
+          "text": "On 12 February",
+          "type": "point",
+          "quotes": [
+            "On 12 February, a NATO spokesperson said Stoltenberg had no intention of seeking a fourth extension of his term as NATO secretary-general, after the German newspaper Welt am Sonntag reported member states wanted him to stay on while the Russo-Ukrainian War continues."
+          ]
+        },
+        {
+          "text": "On 13 February",
+          "type": "point",
+          "quotes": [
+            "On 13 February, Stoltenberg said that Russian President Vladimir Putin is 'sending thousands and thousands of more troops, accepting a very high rate of casualty, taking big losses, but putting pressure on the Ukrainians.'"
+          ]
+        },
+        {
+          "text": "On 14 June",
+          "type": "point",
+          "quotes": [
+            "On 14 June, Stoltenberg expressed support for Ukraine's counter-offensive against Russia to recapture the occupied territories of Ukraine and called on Western"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "NATO",
+          "quotes": [
+            "closing press conference Stoltenberg said that NATO expressed its solidarity with all three partners and also that 'if there is one lesson learned from Ukraine it is that we need to support them now.'"
+          ]
+        },
+        {
+          "name": "Welt am Sonntag",
+          "quotes": [
+            "On 12 February, a NATO spokesperson said Stoltenberg had no intention of seeking a fourth extension of his term as NATO secretary-general, after the German newspaper Welt am Sonntag reported member states wanted him to stay on while the Russo-Ukrainian War continues."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "NATO secretary-general",
+          "quotes": [
+            "On 12 February, a NATO spokesperson said Stoltenberg had no intention of seeking a fourth extension of his term as NATO secretary-general, after the German newspaper Welt am Sonntag reported member states wanted him to stay on while the Russo-Ukrainian War continues."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Ukraine",
+          "quotes": [
+            "closing press conference Stoltenberg said that NATO expressed its solidarity with all three partners and also that 'if there is one lesson learned from Ukraine it is that we need to support them now.'"
+          ]
+        },
+        {
+          "place": "Vilnius",
+          "quotes": [
+            "2023 [edit] Stoltenberg with Volodymyr Zelenskyy, Giorgia Meloni, Joe Biden, Rishi Sunak, Gitanas Nausėda and Recep Tayyip Erdoğan at the 2023 Vilnius summit"
+          ]
+        },
+        {
+          "place": "Brussels",
+          "quotes": [
+            "Stoltenberg and Israeli President Isaac Herzog at NATO headquarters in Brussels"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "On 12 February, a NATO spokesperson said Stoltenberg had no intention of seeking a fourth extension of his term as NATO secretary-general, after the German newspaper Welt am Sonntag reported member states wanted him to stay on while the Russo-Ukrainian War continues."
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of an active role as NATO secretary-general."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "2023 [edit] Stoltenberg with Volodymyr Zelenskyy, Giorgia Meloni, Joe Biden, Rishi Sunak, Gitanas Nausėda and Recep Tayyip Erdoğan at the 2023 Vilnius summit"
+        ],
+        "confidence": "high",
+        "notes": "Participation in the 2023 Vilnius summit as NATO secretary-general."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "Stoltenberg and Israeli President Isaac Herzog at NATO headquarters in Brussels"
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker, but clear affiliation with NATO and role as secretary-general."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the event, making temporal coherence verification impossible."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 2,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

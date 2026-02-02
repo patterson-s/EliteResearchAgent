@@ -1,0 +1,165 @@
+{
+  "status": "success",
+  "chunk_id": 2765,
+  "chunk_index": 21,
+  "source_url": "https://achievement.org/achiever/ellen-johnson-sirleaf/",
+  "title": "Ellen Johnson Sirleaf | Academy of Achievement",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "during World War II",
+          "type": "point",
+          "quotes": [
+            "But during World War II when the allies were fighting Germany, Liberia, being so close to the United States, with the emancipated slaves having founded the country, we identified with the Allied forces, and also declared war on Germany and expelled all of the Germans who were in the country."
+          ]
+        }
+      ],
+      "organizations": [],
+      "roles": [
+        {
+          "title": "chief",
+          "quotes": [
+            "Yes, he was a chief. He was a Gola chief. So absolutely, that really set him apart."
+          ]
+        },
+        {
+          "title": "German traders",
+          "quotes": [
+            "My maternal grandfather came from Germany, and he was one of the many German traders that penetrated the West African coast and did business in one of our rural areas."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Germany",
+          "quotes": [
+            "My maternal grandfather came from Germany, and he was one of the many German traders that penetrated the West African coast and did business in one of our rural areas."
+          ]
+        },
+        {
+          "place": "West African coast",
+          "quotes": [
+            "My maternal grandfather came from Germany, and he was one of the many German traders that penetrated the West African coast and did business in one of our rural areas."
+          ]
+        },
+        {
+          "place": "Liberia",
+          "quotes": [
+            "But during World War II when the allies were fighting Germany, Liberia, being so close to the United States, with the emancipated slaves having founded the country, we identified with the Allied forces, and also declared war on Germany and expelled all of the Germans who were in the country."
+          ]
+        },
+        {
+          "place": "United States",
+          "quotes": [
+            "But during World War II when the allies were fighting Germany, Liberia, being so close to the United States, with the emancipated slaves having founded the country, we identified with the Allied forces, and also declared war on Germany and expelled all of the Germans who were in the country."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Yes, he was a chief. He was a Gola chief. So absolutely, that really set him apart."
+        ],
+        "confidence": "high",
+        "notes": "Role is clearly a career position, but no time marker or location directly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0,
+          1
+        ],
+        "supporting_quotes": [
+          "My maternal grandfather came from Germany, and he was one of the many German traders that penetrated the West African coast and did business in one of our rural areas."
+        ],
+        "confidence": "high",
+        "notes": "Role and locations are clearly linked, but no time marker directly associated."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          2,
+          3
+        ],
+        "supporting_quotes": [
+          "But during World War II when the allies were fighting Germany, Liberia, being so close to the United States, with the emancipated slaves having founded the country, we identified with the Allied forces, and also declared war on Germany and expelled all of the Germans who were in the country."
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but the event involves significant actions during a specific time period and locations."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and location information, though role is clearly supported by the quote."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker, though role and locations are clearly supported by the quote."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "error",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing role information, making it unclear if this qualifies as a career position. Time marker and locations are present but insufficient for classification."
+          },
+          {
+            "type": "classification",
+            "severity": "medium",
+            "description": "Event may not qualify as a career position without a clear role or active responsibilities mentioned."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 1,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

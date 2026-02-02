@@ -1,0 +1,138 @@
+{
+  "status": "success",
+  "chunk_id": 1161,
+  "chunk_index": 4,
+  "source_url": "https://ke.linkedin.com/in/nanjira",
+  "title": "Nanjira Sambuli - Nairobi County, Kenya | Professional Profile | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "National Conference 2025",
+          "type": "point",
+          "quotes": [
+            "•National Conference 2025•\nAt the National Conference of Women's Cooperatives with VAMNICOM Official, we saw 140+ women cooperators from 10 states shatter the glass ceiling and many stereotypes."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "World Resources Institute",
+          "quotes": [
+            "Samuel Kamande\nWorld Resources Institute\nWhen #communication is ignored in #policy, even the best ideas struggle to succeed."
+          ]
+        },
+        {
+          "name": "Kenya’s Affordable Housing Project",
+          "quotes": [
+            "In my latest analysis, I examined Kenya’s Affordable Housing Project and the Social Health Insurance Fund (SHIF)."
+          ]
+        },
+        {
+          "name": "Social Health Insurance Fund (SHIF)",
+          "quotes": [
+            "In my latest analysis, I examined Kenya’s Affordable Housing Project and the Social Health Insurance Fund (SHIF)."
+          ]
+        },
+        {
+          "name": "SEWA Cooperative Federation",
+          "quotes": [
+            "SEWA Cooperative Federation\n•National Conference 2025•\nAt the National Conference of Women's Cooperatives with VAMNICOM Official, we saw 140+ women cooperators from 10 states shatter the glass ceiling and many stereotypes."
+          ]
+        },
+        {
+          "name": "VAMNICOM",
+          "quotes": [
+            "At the National Conference of Women's Cooperatives with VAMNICOM Official, we saw 140+ women cooperators from 10 states shatter the glass ceiling and many stereotypes."
+          ]
+        },
+        {
+          "name": "Africa CDC",
+          "quotes": [
+            "Dr. Jean Kaseya\nAfrica CDC\nChallenge can be an opportunity."
+          ]
+        },
+        {
+          "name": "African Union",
+          "quotes": [
+            "The African Union has approved the Africa Epidemics Fund, a critical"
+          ]
+        },
+        {
+          "name": "Africa Epidemics Fund",
+          "quotes": [
+            "The African Union has approved the Africa Epidemics Fund, a critical"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Official",
+          "quotes": [
+            "At the National Conference of Women's Cooperatives with VAMNICOM Official, we saw 140+ women cooperators from 10 states shatter the glass ceiling and many stereotypes."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Kenya",
+          "quotes": [
+            "In my latest analysis, I examined Kenya’s Affordable Housing Project and the Social Health Insurance Fund (SHIF)."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "At the National Conference of Women's Cooperatives with VAMNICOM Official, we saw 140+ women cooperators from 10 states shatter the glass ceiling and many stereotypes."
+        ],
+        "confidence": "high",
+        "notes": "The role 'Official' is associated with VAMNICOM at the National Conference 2025, indicating an active position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing location information, which is not explicitly inferable from the context."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "The quote mentions the role 'Official' at the conference but does not clearly describe active responsibilities, which is expected for a career_position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

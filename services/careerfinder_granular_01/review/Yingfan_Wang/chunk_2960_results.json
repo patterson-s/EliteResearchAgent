@@ -1,0 +1,121 @@
+{
+  "status": "success",
+  "chunk_id": 2960,
+  "chunk_index": 0,
+  "source_url": "http://www.chinadaily.com.cn/china/2013-03/11/content_16299538.htm",
+  "title": "China names first special envoy on Asian affairs\n - China - Chinadaily.com.cn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2013-03-11",
+          "type": "point",
+          "quotes": [
+            "Xinhua | Updated:  2013-03-11 18:51"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Foreign Ministry",
+          "quotes": [
+            "A Foreign Ministry spokeswoman on Monday confirmed the appointment of a former senior diplomat as special representative on Asian affairs.",
+            "The government recently appointed Wang Yingfan, a former vice-foreign minister, as the Foreign Ministry's first special representative on Asian affairs,"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "special representative on Asian affairs",
+          "quotes": [
+            "A Foreign Ministry spokeswoman on Monday confirmed the appointment of a former senior diplomat as special representative on Asian affairs.",
+            "The government recently appointed Wang Yingfan, a former vice-foreign minister, as the Foreign Ministry's first special representative on Asian affairs"
+          ]
+        },
+        {
+          "title": "former vice-foreign minister",
+          "quotes": [
+            "The government recently appointed Wang Yingfan, a former vice-foreign minister, as the Foreign Ministry's first special representative on Asian affairs"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "BEIJING",
+          "quotes": [
+            "BEIJING - A Foreign Ministry spokeswoman on Monday confirmed the appointment of a former senior diplomat as special representative on Asian affairs."
+          ]
+        },
+        {
+          "place": "China",
+          "quotes": [
+            "Wang will be largely responsible for handling issues between China and Myanmar, she said."
+          ]
+        },
+        {
+          "place": "Myanmar",
+          "quotes": [
+            "Wang will be largely responsible for handling issues between China and Myanmar, she said."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "A Foreign Ministry spokeswoman on Monday confirmed the appointment of a former senior diplomat as special representative on Asian affairs.",
+          "BEIJING - A Foreign Ministry spokeswoman on Monday confirmed the appointment of a former senior diplomat as special representative on Asian affairs.",
+          "The government recently appointed Wang Yingfan, a former vice-foreign minister, as the Foreign Ministry's first special representative on Asian affairs",
+          "Xinhua | Updated:  2013-03-11 18:51"
+        ],
+        "confidence": "high",
+        "notes": "The role of 'special representative on Asian affairs' is clearly an active position within the Foreign Ministry, confirmed by the appointment announcement."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing end_date for the career position, which is expected for roles with defined terms."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Location information is present but not directly linked to the role's primary responsibilities, only mentioned in context of specific duties."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

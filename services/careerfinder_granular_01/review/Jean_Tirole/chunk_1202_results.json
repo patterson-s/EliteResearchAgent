@@ -1,0 +1,291 @@
+{
+  "status": "success",
+  "chunk_id": 1202,
+  "chunk_index": 5,
+  "source_url": "https://en.wikipedia.org/wiki/Jean_Tirole",
+  "title": "Jean Tirole - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "in 2014",
+          "type": "point",
+          "quotes": [
+            "Tirole was awarded the Nobel Memorial Prize in Economic Sciences in 2014 for his analysis of market power and the regulation of natural monopolies."
+          ]
+        },
+        {
+          "text": "in 1989",
+          "type": "point",
+          "quotes": [
+            "Tirole has also received: Doctorates honoris causa from the Université libre de Bruxelles in 1989,"
+          ]
+        },
+        {
+          "text": "in 2007",
+          "type": "point",
+          "quotes": [
+            "the London Business School and the University of Montreal in 2007,"
+          ]
+        },
+        {
+          "text": "in 2011",
+          "type": "point",
+          "quotes": [
+            "the University of Mannheim in 2011,"
+          ]
+        },
+        {
+          "text": "in 2012",
+          "type": "point",
+          "quotes": [
+            "the Athens University of Economics and Business and the University of Rome Tor Vergata in 2012"
+          ]
+        },
+        {
+          "text": "in 2013",
+          "type": "point",
+          "quotes": [
+            "as well as the University of Lausanne in 2013."
+          ]
+        },
+        {
+          "text": "in 2010",
+          "type": "point",
+          "quotes": [
+            "The 'Prix Claude Levi-Strauss' in 2010."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Université libre de Bruxelles",
+          "quotes": [
+            "Tirole has also received: Doctorates honoris causa from the Université libre de Bruxelles in 1989,"
+          ]
+        },
+        {
+          "name": "London Business School",
+          "quotes": [
+            "the London Business School and the University of Montreal in 2007,"
+          ]
+        },
+        {
+          "name": "University of Montreal",
+          "quotes": [
+            "the London Business School and the University of Montreal in 2007,"
+          ]
+        },
+        {
+          "name": "University of Mannheim",
+          "quotes": [
+            "the University of Mannheim in 2011,"
+          ]
+        },
+        {
+          "name": "Athens University of Economics and Business",
+          "quotes": [
+            "the Athens University of Economics and Business and the University of Rome Tor Vergata in 2012"
+          ]
+        },
+        {
+          "name": "University of Rome Tor Vergata",
+          "quotes": [
+            "the Athens University of Economics and Business and the University of Rome Tor Vergata in 2012"
+          ]
+        },
+        {
+          "name": "University of Lausanne",
+          "quotes": [
+            "as well as the University of Lausanne in 2013."
+          ]
+        },
+        {
+          "name": "Chicago Mercantile Exchange",
+          "quotes": [
+            "The Chicago Mercantile Exchange – Mathematical Sciences Research"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Nobel Memorial Prize in Economic Sciences recipient",
+          "quotes": [
+            "Tirole was awarded the Nobel Memorial Prize in Economic Sciences in 2014 for his analysis of market power and the regulation of natural monopolies."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Tirole was awarded the Nobel Memorial Prize in Economic Sciences in 2014 for his analysis of market power and the regulation of natural monopolies."
+        ],
+        "confidence": "high",
+        "notes": "Clear award indication with 'awarded' and named prize."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Tirole has also received: Doctorates honoris causa from the Université libre de Bruxelles in 1989,"
+        ],
+        "confidence": "high",
+        "notes": "Honorary doctorate is a one-time award."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          1,
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "the London Business School and the University of Montreal in 2007,"
+        ],
+        "confidence": "medium",
+        "notes": "Assuming honorary degrees based on context, though not explicitly stated."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "the University of Mannheim in 2011,"
+        ],
+        "confidence": "medium",
+        "notes": "Assuming honorary degree based on pattern with other universities."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          4,
+          5
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "the Athens University of Economics and Business and the University of Rome Tor Vergata in 2012"
+        ],
+        "confidence": "medium",
+        "notes": "Assuming honorary degrees based on pattern with other universities."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [
+          6
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "as well as the University of Lausanne in 2013."
+        ],
+        "confidence": "medium",
+        "notes": "Assuming honorary degree based on pattern with other universities."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Assumption of honorary degree based on context, not explicitly stated in quote."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Assumption of honorary degree based on pattern with other universities, not explicitly stated in quote."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Assumption of honorary degrees based on pattern with other universities, not explicitly stated in quote."
+          }
+        ]
+      },
+      {
+        "event_id": 5,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Assumption of honorary degree based on pattern with other universities, not explicitly stated in quote."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 6,
+      "valid": 2,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 0,
+      "awards": 6
+    }
+  }
+}

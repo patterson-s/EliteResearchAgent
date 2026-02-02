@@ -1,0 +1,221 @@
+{
+  "status": "success",
+  "chunk_id": 325,
+  "chunk_index": 1,
+  "source_url": "https://polisci.berkeley.edu/150w/sadako-ogata",
+  "title": "Sadako Ogata | UC Berkeley Political Science",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In 1991",
+          "type": "point",
+          "quotes": [
+            "In 1991, Sadako Ogata became the first woman, the first Japanese person, and the first academic to be named the United Nations High Commissioner for Refugees (UNHCR)."
+          ]
+        },
+        {
+          "text": "1963",
+          "type": "point",
+          "quotes": [
+            "A 1963 graduate, she was a Japanese academic, diplomat, author, administrator, and professor emeritus at the Roman Catholic Sophia University."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "United Nations High Commissioner for Refugees (UNHCR)",
+          "quotes": [
+            "In 1991, Sadako Ogata became the first woman, the first Japanese person, and the first academic to be named the United Nations High Commissioner for Refugees (UNHCR)."
+          ]
+        },
+        {
+          "name": "Berkeley’s Ph.D. program in Political Science",
+          "quotes": [
+            "Sadako Ogata is among the most prominent alumni of Berkeley’s Ph.D. program in Political Science."
+          ]
+        },
+        {
+          "name": "Roman Catholic Sophia University",
+          "quotes": [
+            "she was a Japanese academic, diplomat, author, administrator, and professor emeritus at the Roman Catholic Sophia University."
+          ]
+        },
+        {
+          "name": "World Economic Forum",
+          "quotes": [
+            "Sadako Ogata at the World Economic Forum Annual Meeting 1993. Copyright by World Economic Forum (www.weforum.org)."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "United Nations High Commissioner for Refugees",
+          "quotes": [
+            "In 1991, Sadako Ogata became the first woman, the first Japanese person, and the first academic to be named the United Nations High Commissioner for Refugees (UNHCR)."
+          ]
+        },
+        {
+          "title": "academic",
+          "quotes": [
+            "she was a Japanese academic, diplomat, author, administrator, and professor emeritus at the Roman Catholic Sophia University."
+          ]
+        },
+        {
+          "title": "diplomat",
+          "quotes": [
+            "she was a Japanese academic, diplomat, author, administrator, and professor emeritus at the Roman Catholic Sophia University."
+          ]
+        },
+        {
+          "title": "author",
+          "quotes": [
+            "she was a Japanese academic, diplomat, author, administrator, and professor emeritus at the Roman Catholic Sophia University."
+          ]
+        },
+        {
+          "title": "administrator",
+          "quotes": [
+            "she was a Japanese academic, diplomat, author, administrator, and professor emeritus at the Roman Catholic Sophia University."
+          ]
+        },
+        {
+          "title": "professor emeritus",
+          "quotes": [
+            "she was a Japanese academic, diplomat, author, administrator, and professor emeritus at the Roman Catholic Sophia University."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 1991, Sadako Ogata became the first woman, the first Japanese person, and the first academic to be named the United Nations High Commissioner for Refugees (UNHCR)."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "A 1963 graduate, she was a Japanese academic, diplomat, author, administrator, and professor emeritus at the Roman Catholic Sophia University."
+        ],
+        "confidence": "high",
+        "notes": "Multiple roles associated with the same organization and time marker."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Sadako Ogata is among the most prominent alumni of Berkeley’s Ph.D. program in Political Science."
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker or role, but clear affiliation with the organization."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Sadako Ogata at the World Economic Forum Annual Meeting 1993. Copyright by World Economic Forum (www.weforum.org)."
+        ],
+        "confidence": "low",
+        "notes": "No specific role mentioned, but attendance at the event implies professional involvement."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Multiple roles listed under a single career position, which may be better represented as separate events."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and role details, though affiliation is clear."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position but lacks specific role, may be better classified as an attendance or participation event."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role details, only attendance at an event is mentioned."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 1,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

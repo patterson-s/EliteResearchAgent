@@ -1,0 +1,141 @@
+{
+  "status": "success",
+  "chunk_id": 977,
+  "chunk_index": 1,
+  "source_url": "https://www.linkedin.com/in/marinakolesnik",
+  "title": "Marina Kolesnik - New York, New York, United States | Professional Profile | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "Apr 2023",
+          "type": "point",
+          "quotes": [
+            "ASU+GSV Summit 2023 Elite 200 winner\nASU+GSV Summit\nIssued\nApr 2023"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "LinkedIn",
+          "quotes": [
+            "you agree to LinkedIn’s\nUser Agreement"
+          ]
+        },
+        {
+          "name": "Gartner",
+          "quotes": [
+            "We’re proud to be named in the new Gartner® research “𝗖𝗹𝗶𝗲𝗻𝘁 𝗭𝗲𝗿𝗼” 𝗶𝗻 𝗔𝗰𝘁𝗶𝗼𝗻: 𝗘𝘅𝗮𝗺𝗽𝗹𝗲𝘀 𝗮𝗻𝗱 𝗠𝗲𝘁𝗿𝗶𝗰𝘀 𝘁𝗼…"
+          ]
+        },
+        {
+          "name": "United Nations",
+          "quotes": [
+            "Member of the High-level Panel on Digital Cooperation\nUnited Nations"
+          ]
+        },
+        {
+          "name": "ASU+GSV Summit",
+          "quotes": [
+            "ASU+GSV Summit 2023 Elite 200 winner\nASU+GSV Summit"
+          ]
+        },
+        {
+          "name": "High-level Panel on Digital Cooperation",
+          "quotes": [
+            "Member of the High-level Panel on Digital Cooperation\nUnited Nations"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Member of the High-level Panel on Digital Cooperation",
+          "quotes": [
+            "Member of the High-level Panel on Digital Cooperation\nUnited Nations"
+          ]
+        },
+        {
+          "title": "Co-Chair of the High-level Panel on Digital Cooperation",
+          "quotes": [
+            "Ms. Melinda Gates, Co-Chair of the"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "City of Boston",
+          "quotes": [
+            "City of Boston, your tree is coming! Mayor Michelle Wu picked a great one."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "ASU+GSV Summit 2023 Elite 200 winner\nASU+GSV Summit\nIssued\nApr 2023"
+        ],
+        "confidence": "high",
+        "notes": "Clear award indication with 'winner' and specific date."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2,
+          4
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Member of the High-level Panel on Digital Cooperation\nUnited Nations"
+        ],
+        "confidence": "high",
+        "notes": "Active role as a member of a panel, indicating ongoing responsibilities."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers for career position, making it difficult to determine duration or timeline."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 1
+    }
+  }
+}

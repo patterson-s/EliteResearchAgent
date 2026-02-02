@@ -1,0 +1,126 @@
+{
+  "status": "success",
+  "chunk_id": 3704,
+  "chunk_index": 7,
+  "source_url": "https://en.wikipedia.org/wiki/Gordon_Brown",
+  "title": "Gordon Brown - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "in 2007",
+          "type": "point",
+          "quotes": [
+            "He abolished this 10% tax band in his last budget in 2007 to reduce the basic rate from 22% to 20%, increasing tax for 5 million people"
+          ]
+        },
+        {
+          "text": "in 1997",
+          "type": "point",
+          "quotes": [
+            "Brown also implemented the Windfall Tax in 1997 on the privatised utilities."
+          ]
+        },
+        {
+          "text": "from 1997 to 2006",
+          "type": "range",
+          "quotes": [
+            "According to the OECD, UK taxation increased from a 39.3% share of gross domestic product in 1997 to 42.4% in 2006, going to a higher level than that of Germany."
+          ]
+        },
+        {
+          "text": "in 2000",
+          "type": "point",
+          "quotes": [
+            "Brown's 2000 Spending Review outlined a major expansion of government spending, particularly on health and education."
+          ]
+        },
+        {
+          "text": "in April 2002",
+          "type": "point",
+          "quotes": [
+            "In his April 2002 budget, Brown increased National Insurance to pay for health spending."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Institute for Fiscal Studies",
+          "quotes": [
+            "according to the calculations of the Institute for Fiscal Studies, leaving those earning between £5,000 and £18,000 as the biggest losers."
+          ]
+        },
+        {
+          "name": "OECD",
+          "quotes": [
+            "According to the OECD, UK taxation increased from a 39.3% share of gross domestic product in 1997 to 42.4% in 2006, going to a higher level than that of Germany."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "chancellor",
+          "quotes": [
+            "in his last budget as chancellor, Brown gave an extra £3 billion in pension allowances, an increase in the child tax credit, and an increase in the working tax credit."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1,
+          2,
+          4
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Brown also implemented the Windfall Tax in 1997 on the privatised utilities.",
+          "According to the OECD, UK taxation increased from a 39.3% share of gross domestic product in 1997 to 42.4% in 2006, going to a higher level than that of Germany.",
+          "In his April 2002 budget, Brown increased National Insurance to pay for health spending.",
+          "in his last budget as chancellor, Brown gave an extra £3 billion in pension allowances, an increase in the child tax credit, and an increase in the working tax credit."
+        ],
+        "confidence": "high",
+        "notes": "The role of chancellor is clearly associated with the time markers through budgetary actions."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing location information for the career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

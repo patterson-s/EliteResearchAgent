@@ -1,0 +1,242 @@
+{
+  "status": "success",
+  "chunk_id": 3931,
+  "chunk_index": 0,
+  "source_url": "https://en.wikipedia.org/wiki/Josette_Sheeran",
+  "title": "Josette Sheeran - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "March 14, 2021 – May 2, 2022",
+          "type": "range",
+          "quotes": [
+            "Executive Director of the McCain Institute In office March 14, 2021 – May 2, 2022"
+          ]
+        },
+        {
+          "text": "April 4, 2007 – April 5, 2012",
+          "type": "range",
+          "quotes": [
+            "Executive Director of the World Food Programme In office April 4, 2007 – April 5, 2012"
+          ]
+        },
+        {
+          "text": "August 23, 2005 – April 4, 2007",
+          "type": "range",
+          "quotes": [
+            "16th Under Secretary of State for Economic, Business, and Agricultural Affairs In office August 23, 2005 – April 4, 2007"
+          ]
+        },
+        {
+          "text": "2001-2005",
+          "type": "range",
+          "quotes": [
+            "She served as Ambassador and Deputy U.S. Trade Representative under President George Bush, covering all Asia, Africa and Intellectual Property, Technology and Agriculture from 2001-2005."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "McCain Institute",
+          "quotes": [
+            "Executive Director of the McCain Institute In office March 14, 2021 – May 2, 2022"
+          ]
+        },
+        {
+          "name": "World Food Programme",
+          "quotes": [
+            "Executive Director of the World Food Programme In office April 4, 2007 – April 5, 2012"
+          ]
+        },
+        {
+          "name": "United States Department of State",
+          "quotes": [
+            "She served in the United States Department of State as Under Secretary of State for Secretary of State Condoleezza Rice covering Economic Growth, Energy, Technology, Agriculture and the Environment, with the rank of Ambassador."
+          ]
+        },
+        {
+          "name": "Firefly Global Group",
+          "quotes": [
+            "She currently serves as founder and CEO of Firefly Global Group, a geopolitical and business consulting firm, supporting founders and accelerating new technologies"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Executive Director of the McCain Institute",
+          "quotes": [
+            "Executive Director of the McCain Institute In office March 14, 2021 – May 2, 2022"
+          ]
+        },
+        {
+          "title": "Executive Director of the World Food Programme",
+          "quotes": [
+            "Executive Director of the World Food Programme In office April 4, 2007 – April 5, 2012"
+          ]
+        },
+        {
+          "title": "Under Secretary of State for Economic, Business, and Agricultural Affairs",
+          "quotes": [
+            "16th Under Secretary of State for Economic, Business, and Agricultural Affairs In office August 23, 2005 – April 4, 2007"
+          ]
+        },
+        {
+          "title": "Ambassador and Deputy U.S. Trade Representative",
+          "quotes": [
+            "She served as Ambassador and Deputy U.S. Trade Representative under President George Bush, covering all Asia, Africa and Intellectual Property, Technology and Agriculture from 2001-2005."
+          ]
+        },
+        {
+          "title": "founder and CEO of Firefly Global Group",
+          "quotes": [
+            "She currently serves as founder and CEO of Firefly Global Group, a geopolitical and business consulting firm, supporting founders and accelerating new technologies"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Executive Director of the McCain Institute In office March 14, 2021 – May 2, 2022"
+        ],
+        "confidence": "high",
+        "notes": "Direct match between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Executive Director of the World Food Programme In office April 4, 2007 – April 5, 2012"
+        ],
+        "confidence": "high",
+        "notes": "Direct match between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "16th Under Secretary of State for Economic, Business, and Agricultural Affairs In office August 23, 2005 – April 4, 2007",
+          "She served in the United States Department of State as Under Secretary of State for Secretary of State Condoleezza Rice covering Economic Growth, Energy, Technology, Agriculture and the Environment, with the rank of Ambassador."
+        ],
+        "confidence": "high",
+        "notes": "Direct match between time, organization, and role, with additional context from a related quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "She served as Ambassador and Deputy U.S. Trade Representative under President George Bush, covering all Asia, Africa and Intellectual Property, Technology and Agriculture from 2001-2005."
+        ],
+        "confidence": "medium",
+        "notes": "No organization explicitly mentioned, but role and time are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "She currently serves as founder and CEO of Firefly Global Group, a geopolitical and business consulting firm, supporting founders and accelerating new technologies"
+        ],
+        "confidence": "high",
+        "notes": "Current role with no specific time range provided."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information, though role and time are clear."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "No specific time range provided for current role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 3,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "status": "success",
+  "chunk_id": 2786,
+  "chunk_index": 5,
+  "source_url": "https://en.wikipedia.org/wiki/David_Cameron",
+  "title": "David Cameron - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "After leaving Eton in 1984",
+          "type": "point",
+          "quotes": [
+            "After leaving Eton in 1984 Cameron started a nine-month gap year."
+          ]
+        },
+        {
+          "text": "In October 1985",
+          "type": "point",
+          "quotes": [
+            "In October 1985 Cameron began his Bachelor of Arts course in Philosophy, Politics and Economics (PPE) at Brasenose College, Oxford."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "University of Oxford",
+          "quotes": [
+            "the entrance exam for the University of Oxford, and was offered an exhibition at Brasenose College."
+          ]
+        },
+        {
+          "name": "Brasenose College",
+          "quotes": [
+            "was offered an exhibition at Brasenose College.",
+            "Brasenose College, Oxford",
+            "In October 1985 Cameron began his Bachelor of Arts course in Philosophy, Politics and Economics (PPE) at Brasenose College, Oxford."
+          ]
+        },
+        {
+          "name": "Eton",
+          "quotes": [
+            "After leaving Eton in 1984 Cameron started a nine-month gap year."
+          ]
+        },
+        {
+          "name": "House of Commons",
+          "quotes": [
+            "during which time he attended debates in the House of Commons."
+          ]
+        },
+        {
+          "name": "Jardine Matheson",
+          "quotes": [
+            "Through his father, he was then employed for a further three months in Hong Kong by Jardine Matheson as a 'ship jumper', an administrative post."
+          ]
+        },
+        {
+          "name": "Soviet Union",
+          "quotes": [
+            "Returning from Hong Kong, Cameron visited the then- Soviet Union, where he was approached by two Russian men speaking fluent English."
+          ]
+        },
+        {
+          "name": "KGB",
+          "quotes": [
+            "it was 'definitely an attempt' by the KGB to recruit him."
+          ]
+        },
+        {
+          "name": "Bullingdon Club",
+          "quotes": [
+            "While at Oxford, Cameron was a member of the Bullingdon Club, an exclusive all-male dining society with a reputation for an outlandish drinking culture associated with boisterous behaviour and damaging property."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "researcher",
+          "quotes": [
+            "For three months, he worked as a researcher for his godfather Tim Rathbone, then Conservative MP for Lewes,"
+          ]
+        },
+        {
+          "title": "'ship jumper'",
+          "quotes": [
+            "Through his father, he was then employed for a further three months in Hong Kong by Jardine Matheson as a 'ship jumper', an administrative post."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Lewes",
+          "quotes": [
+            "then Conservative MP for Lewes,"
+          ]
+        },
+        {
+          "place": "Hong Kong",
+          "quotes": [
+            "Through his father, he was then employed for a further three months in Hong Kong by Jardine Matheson as a 'ship jumper', an administrative post.",
+            "Returning from Hong Kong, Cameron visited the then- Soviet Union, where he was approached by two Russian men speaking fluent English."
+          ]
+        },
+        {
+          "place": "Soviet Union",
+          "quotes": [
+            "Returning from Hong Kong, Cameron visited the then- Soviet Union, where he was approached by two Russian men speaking fluent English."
+          ]
+        },
+        {
+          "place": "Oxford",
+          "quotes": [
+            "Brasenose College, Oxford",
+            "In October 1985 Cameron began his Bachelor of Arts course in Philosophy, Politics and Economics (PPE) at Brasenose College, Oxford.",
+            "While at Oxford, Cameron was a member of the Bullingdon Club,"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "After leaving Eton in 1984 Cameron started a nine-month gap year."
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but indicates a transition period after leaving Eton."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "For three months, he worked as a researcher for his godfather Tim Rathbone, then Conservative MP for Lewes,"
+        ],
+        "confidence": "high",
+        "notes": "Clear role and organization linkage."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Through his father, he was then employed for a further three months in Hong Kong by Jardine Matheson as a 'ship jumper', an administrative post."
+        ],
+        "confidence": "high",
+        "notes": "Clear role, organization, and location linkage."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [
+          3
+        ],
+        "supporting_quotes": [
+          "In October 1985 Cameron began his Bachelor of Arts course in Philosophy, Politics and Economics (PPE) at Brasenose College, Oxford.",
+          "While at Oxford, Cameron was a member of the Bullingdon Club,"
+        ],
+        "confidence": "high",
+        "notes": "Clear organization and location linkage, with additional extracurricular activity mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          7
+        ],
+        "role_ids": [],
+        "location_ids": [
+          3
+        ],
+        "supporting_quotes": [
+          "While at Oxford, Cameron was a member of the Bullingdon Club,"
+        ],
+        "confidence": "high",
+        "notes": "Extracurricular activity at Oxford, considered a career position due to its impact on networking and future opportunities."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role_ids and location_ids, though the event is a transition period which may not require these."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classification as career_position is questionable for a gap year without specific responsibilities."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role_ids, though the event is about education which may not require a specific role."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classification as career_position is questionable for an extracurricular activity, even if it has networking impact."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 2,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

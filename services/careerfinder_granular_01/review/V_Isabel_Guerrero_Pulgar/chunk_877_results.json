@@ -1,0 +1,116 @@
+{
+  "status": "success",
+  "chunk_id": 877,
+  "chunk_index": 20,
+  "source_url": "https://www.un.org/digital-emerging-technologies/sites/www.un.org.techenvoy/files/hlp_on_digital_cooperation-report_final.pdf",
+  "title": "hlp_on_digital_cooperation-report_final.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "International Trade Union Confederation",
+          "quotes": [
+            "efforts by the International Trade Union Confederation in Ghana and Rwanda"
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": [
+        {
+          "place": "Ghana",
+          "quotes": [
+            "efforts by the International Trade Union Confederation in Ghana and Rwanda"
+          ]
+        },
+        {
+          "place": "Rwanda",
+          "quotes": [
+            "efforts by the International Trade Union Confederation in Ghana and Rwanda"
+          ]
+        },
+        {
+          "place": "France",
+          "quotes": [
+            "France’s Compte Personnel de Formation"
+          ]
+        },
+        {
+          "place": "Scotland",
+          "quotes": [
+            "Scotland’s Individual Training Account"
+          ]
+        },
+        {
+          "place": "Finland",
+          "quotes": [
+            "Finland’s transformation of work and the labour market sub-group under its national AI programme"
+          ]
+        },
+        {
+          "place": "Singapore",
+          "quotes": [
+            "Singapore’s Skills Framework for Information and Communication Technology (ICT)"
+          ]
+        },
+        {
+          "place": "Germany",
+          "quotes": [
+            "Germany’s Crowdsourcing Code of Conduct"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0,
+          1
+        ],
+        "supporting_quotes": [
+          "efforts by the International Trade Union Confederation in Ghana and Rwanda"
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but the organization's efforts in specific locations imply an active position. Confidence is medium due to lack of role information."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, making it difficult to confirm the nature of the career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quote mentions organizational efforts but does not explicitly confirm an individual's role or position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

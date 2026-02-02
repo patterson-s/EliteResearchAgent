@@ -1,0 +1,194 @@
+{
+  "status": "success",
+  "chunk_id": 685,
+  "chunk_index": 2,
+  "source_url": "https://www.givingpledge.org/pledger/melinda-french-gates/",
+  "title": "Melinda French Gates - The Giving Pledge",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "more than 25 years into this work",
+          "type": "open",
+          "quotes": [
+            "And more than 25 years into this work, I feel that my debt to life—and my debt to humanity—has only grown."
+          ]
+        },
+        {
+          "text": "September 10, 2025",
+          "type": "point",
+          "quotes": [
+            "September 10, 2025"
+          ]
+        },
+        {
+          "text": "December 3, 2024",
+          "type": "point",
+          "quotes": [
+            "December 3, 2024"
+          ]
+        },
+        {
+          "text": "January 11, 2024",
+          "type": "point",
+          "quotes": [
+            "January 11, 2024"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Pivotal Ventures",
+          "quotes": [
+            "Pivotal Ventures partnership with Wellcome Leap will further research in critically underfunded areas in women’s health."
+          ]
+        },
+        {
+          "name": "Wellcome Leap",
+          "quotes": [
+            "Pivotal Ventures partnership with Wellcome Leap will further research in critically underfunded areas in women’s health."
+          ]
+        },
+        {
+          "name": "Giving Pledge",
+          "quotes": [
+            "Explore the Giving Pledge community’s learning and impact",
+            "including Giving Pledge signatories Sara Blakely, Tsitsi Masiyiwa, Cari Tuna, and Anne Wojcicki"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Philanthropist",
+          "quotes": [
+            "Philanthropists are generally more helpful to the world when we’re standing behind a movement rather than trying to lead our own.",
+            "Engaging in philanthropy has been one of the most rewarding experiences of my time on this planet."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "And more than 25 years into this work, I feel that my debt to life—and my debt to humanity—has only grown.",
+          "Philanthropists are generally more helpful to the world when we’re standing behind a movement rather than trying to lead our own.",
+          "Engaging in philanthropy has been one of the most rewarding experiences of my time on this planet."
+        ],
+        "confidence": "medium",
+        "notes": "The role of Philanthropist is mentioned with a time marker indicating ongoing work, but no specific organization is linked. Confidence is medium due to lack of organizational context."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Pivotal Ventures partnership with Wellcome Leap will further research in critically underfunded areas in women’s health.",
+          "Philanthropists are generally more helpful to the world when we’re standing behind a movement rather than trying to lead our own.",
+          "Engaging in philanthropy has been one of the most rewarding experiences of my time on this planet."
+        ],
+        "confidence": "medium",
+        "notes": "The organizations Pivotal Ventures and Wellcome Leap are mentioned in partnership, but no specific time marker is linked. Confidence is medium due to lack of temporal context."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Explore the Giving Pledge community’s learning and impact",
+          "including Giving Pledge signatories Sara Blakely, Tsitsi Masiyiwa, Cari Tuna, and Anne Wojcicki",
+          "Philanthropists are generally more helpful to the world when we’re standing behind a movement rather than trying to lead our own.",
+          "Engaging in philanthropy has been one of the most rewarding experiences of my time on this planet."
+        ],
+        "confidence": "medium",
+        "notes": "The organization Giving Pledge is mentioned, but no specific time marker is linked. Confidence is medium due to lack of temporal context."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quotes do not explicitly mention a specific role or responsibilities, only general sentiments about philanthropy."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "Missing time marker for the career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quotes do not explicitly mention a specific role or responsibilities, only general sentiments about philanthropy."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "Missing time marker for the career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quotes do not explicitly mention a specific role or responsibilities, only general sentiments about philanthropy."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

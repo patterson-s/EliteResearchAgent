@@ -1,0 +1,283 @@
+{
+  "status": "success",
+  "chunk_id": 525,
+  "chunk_index": 25,
+  "source_url": "https://issafrica.s3.amazonaws.com/site/uploads/Book-2015-Salim.pdf",
+  "title": "Book-2015-Salim.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2012/3",
+          "type": "range",
+          "quotes": [
+            "Gounden was also involved in the Madagascar mediation in 2012/3."
+          ]
+        },
+        {
+          "text": "2011",
+          "type": "point",
+          "quotes": [
+            "Daniel Forti joined ACCORD in 2011 as a research intern,"
+          ]
+        },
+        {
+          "text": "from 2012 until 2015",
+          "type": "range",
+          "quotes": [
+            "then worked as a junior researcher from 2012 until 2015."
+          ]
+        },
+        {
+          "text": "1940s",
+          "type": "point",
+          "quotes": [
+            "the rise of African nationalism and nationalist consciousness in Tanganyika and Zanzibar began in the 1940s,"
+          ]
+        },
+        {
+          "text": "1950s",
+          "type": "point",
+          "quotes": [
+            "reached fever pitch in the 1950s."
+          ]
+        },
+        {
+          "text": "from 1885 to 1918",
+          "type": "range",
+          "quotes": [
+            "Tanganyika was first colonised as part of the German East Africa colony from 1885 to 1918."
+          ]
+        },
+        {
+          "text": "by the 1880s",
+          "type": "point",
+          "quotes": [
+            "By the 1880s, Zanzibar was under Arab rule."
+          ]
+        },
+        {
+          "text": "from 1945 to 1961",
+          "type": "range",
+          "quotes": [
+            "from 1945 to 1961 it was a trusteeship territory under the UN."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "UN Security Council",
+          "quotes": [
+            "He has addressed the UN Security Council on matters relating to conflict management"
+          ]
+        },
+        {
+          "name": "World Economic Forum",
+          "quotes": [
+            "has been elected by the World Economic Forum as one of its Global Leaders for Tomorrow."
+          ]
+        },
+        {
+          "name": "Georgetown University",
+          "quotes": [
+            "He has a master’s degree in law from Georgetown University, Washington DC,"
+          ]
+        },
+        {
+          "name": "ACCORD",
+          "quotes": [
+            "Daniel Forti joined ACCORD in 2011 as a research intern,"
+          ]
+        },
+        {
+          "name": "Duke University’s Sanford School of Public Policy",
+          "quotes": [
+            "He graduated from Duke University’s Sanford School of Public Policy in 2012,"
+          ]
+        },
+        {
+          "name": "Tanzanian government",
+          "quotes": [
+            "his rich contribution as a civil servant for the Tanzanian government,"
+          ]
+        },
+        {
+          "name": "League of Nations",
+          "quotes": [
+            "the League of Nations handed them over to other colonial powers as mandatory territories."
+          ]
+        },
+        {
+          "name": "UN",
+          "quotes": [
+            "from 1945 to 1961 it was a trusteeship territory under the UN."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "research intern",
+          "quotes": [
+            "Daniel Forti joined ACCORD in 2011 as a research intern,"
+          ]
+        },
+        {
+          "title": "junior researcher",
+          "quotes": [
+            "then worked as a junior researcher from 2012 until 2015."
+          ]
+        },
+        {
+          "title": "civil servant",
+          "quotes": [
+            "his rich contribution as a civil servant for the Tanzanian government,"
+          ]
+        },
+        {
+          "title": "Global Leaders for Tomorrow",
+          "quotes": [
+            "has been elected by the World Economic Forum as one of its Global Leaders for Tomorrow."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Washington DC",
+          "quotes": [
+            "He has a master’s degree in law from Georgetown University, Washington DC,"
+          ]
+        },
+        {
+          "place": "Madagascar",
+          "quotes": [
+            "Gounden was also involved in the Madagascar mediation in 2012/3."
+          ]
+        },
+        {
+          "place": "Tanganyika",
+          "quotes": [
+            "the rise of African nationalism and nationalist consciousness in Tanganyika and Zanzibar began in the 1940s,"
+          ]
+        },
+        {
+          "place": "Zanzibar",
+          "quotes": [
+            "the rise of African nationalism and nationalist consciousness in Tanganyika and Zanzibar began in the 1940s,"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Daniel Forti joined ACCORD in 2011 as a research intern,"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "then worked as a junior researcher from 2012 until 2015."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "his rich contribution as a civil servant for the Tanzanian government,"
+        ],
+        "confidence": "medium",
+        "notes": "No time marker, but clear linkage between organization and role."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "has been elected by the World Economic Forum as one of its Global Leaders for Tomorrow."
+        ],
+        "confidence": "high",
+        "notes": "Role 'Global Leaders for Tomorrow' is an honorific title, indicating an award."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position as a civil servant."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 3,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 1
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "status": "success",
+  "chunk_id": 1008,
+  "chunk_index": 1,
+  "source_url": "https://wikigender.oecdcode.org/index.html%3Fp=716.html",
+  "title": "Doris Leuthard | Wikigender",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2023",
+          "type": "point",
+          "quotes": [
+            "Events calendar\n2023"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "@ReykjavikGlobal",
+          "quotes": [
+            "interested in making lasting change for women as political leaders &amp; you're attending @ReykjavikGlobal, do n…",
+            "Are you at this week's @ReykjavikGlobal Forum?"
+          ]
+        },
+        {
+          "name": "@OECD_Centre",
+          "quotes": [
+            "Who's the leader? @OECD_Centre Director, @REArnadottir is moderating a Leaders' Talk tomorrow on shifting society's…",
+            "Stop by  @OECD_Centre's session on how we can boost women's political empow…"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "@OECD_Centre Director",
+          "quotes": [
+            "Who's the leader? @OECD_Centre Director, @REArnadottir is moderating a Leaders' Talk tomorrow on shifting society's…"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Who's the leader? @OECD_Centre Director, @REArnadottir is moderating a Leaders' Talk tomorrow on shifting society's…"
+        ],
+        "confidence": "high",
+        "notes": "The role of Director at @OECD_Centre is clearly indicated, but no specific time marker is available."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position event."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information for the career position event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

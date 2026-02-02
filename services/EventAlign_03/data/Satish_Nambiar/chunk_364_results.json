@@ -1,0 +1,190 @@
+{
+  "status": "success",
+  "chunk_id": 364,
+  "chunk_index": 2,
+  "source_url": "https://corporatecitizen.in/v4-issue10/cover-story-dynamic-duo-75-indira-and%20-lt-gen-sat%20ish-nambiar-retd-breaking-barriers.html",
+  "title": "Cover Story: Dynamic Duo: 75 Indira and Lt. Gen.Satish Nambiar (retd) Breaking Barriers",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1958",
+          "type": "point",
+          "quotes": [
+            "Battalion, The Maratha Light Infantry: 1958"
+          ]
+        },
+        {
+          "text": "1956",
+          "type": "point",
+          "quotes": [
+            "As a Gentleman Cadet at the Indian Military Academy in 1956."
+          ]
+        },
+        {
+          "text": "March 1972",
+          "type": "point",
+          "quotes": [
+            "Being greeted by PM Indira Gandhi: March 1972.",
+            "With PM Indira Gandhi: March 1972."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Indian Military Academy",
+          "quotes": [
+            "As a Gentleman Cadet at the Indian Military Academy in 1956."
+          ]
+        },
+        {
+          "name": "The Maratha Light Infantry",
+          "quotes": [
+            "Battalion, The Maratha Light Infantry: 1958"
+          ]
+        },
+        {
+          "name": "Army",
+          "quotes": [
+            "The drills that the Army, Navy and Air Force are shown practicing are not just for show, you know."
+          ]
+        },
+        {
+          "name": "Navy",
+          "quotes": [
+            "The drills that the Army, Navy and Air Force are shown practicing are not just for show, you know."
+          ]
+        },
+        {
+          "name": "Air Force",
+          "quotes": [
+            "The drills that the Army, Navy and Air Force are shown practicing are not just for show, you know."
+          ]
+        },
+        {
+          "name": "National Defense Academy",
+          "quotes": [
+            "Do you think todayâs cadets of the National Defense Academy are not physically equipped for rigorous training and what do you think of the intrusion of technology into their lives?"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Gentleman Cadet",
+          "quotes": [
+            "As a Gentleman Cadet at the Indian Military Academy in 1956."
+          ]
+        },
+        {
+          "title": "PM",
+          "quotes": [
+            "Being greeted by PM Indira Gandhi: March 1972.",
+            "With PM Indira Gandhi: March 1972."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "As a Gentleman Cadet at the Indian Military Academy in 1956."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Battalion, The Maratha Light Infantry: 1958"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit role mentioned, but organization and time are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Being greeted by PM Indira Gandhi: March 1972.",
+          "With PM Indira Gandhi: March 1972."
+        ],
+        "confidence": "low",
+        "notes": "No organization mentioned, but role and time are clear. Assuming PM refers to a position held by Indira Gandhi."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, though organization and time are clear."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information, though role and time are clear."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position, but role 'PM' might not be an active position held by the subject."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

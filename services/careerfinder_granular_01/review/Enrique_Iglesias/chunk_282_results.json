@@ -1,0 +1,128 @@
+{
+  "status": "success",
+  "chunk_id": 282,
+  "chunk_index": 1,
+  "source_url": "https://www.cepal.org/en/staff/enrique-v-iglesias",
+  "title": "Enrique V. Iglesias | Economic Commission for Latin America and the Caribbean",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In May 1982",
+          "type": "point",
+          "quotes": [
+            "In May 1982 the United Nations Secretary-General appointed him Special Advisor on New and Renewable Energy Sources to the General Director for International Economic Development and Cooperation, at UN headquarters."
+          ]
+        },
+        {
+          "text": "september 2005",
+          "type": "point",
+          "quotes": [
+            "In september 2005 he stepped down as President of the Inter-American Development Bank (IDB), a position he assumed for the fourth time on 1 April 2003."
+          ]
+        },
+        {
+          "text": "1 April 2003",
+          "type": "point",
+          "quotes": [
+            "In september 2005 he stepped down as President of the Inter-American Development Bank (IDB), a position he assumed for the fourth time on 1 April 2003."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "United Nations",
+          "quotes": [
+            "In May 1982 the United Nations Secretary-General appointed him Special Advisor on New and Renewable Energy Sources to the General Director for International Economic Development and Cooperation, at UN headquarters."
+          ]
+        },
+        {
+          "name": "Inter-American Development Bank (IDB)",
+          "quotes": [
+            "In september 2005 he stepped down as President of the Inter-American Development Bank (IDB), a position he assumed for the fourth time on 1 April 2003."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Special Advisor on New and Renewable Energy Sources to the General Director for International Economic Development and Cooperation",
+          "quotes": [
+            "In May 1982 the United Nations Secretary-General appointed him Special Advisor on New and Renewable Energy Sources to the General Director for International Economic Development and Cooperation, at UN headquarters."
+          ]
+        },
+        {
+          "title": "President of the Inter-American Development Bank (IDB)",
+          "quotes": [
+            "In september 2005 he stepped down as President of the Inter-American Development Bank (IDB), a position he assumed for the fourth time on 1 April 2003."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In May 1982 the United Nations Secretary-General appointed him Special Advisor on New and Renewable Energy Sources to the General Director for International Economic Development and Cooperation, at UN headquarters."
+        ],
+        "confidence": "high",
+        "notes": "Clear appointment to a specific role within the United Nations."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1,
+          2
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In september 2005 he stepped down as President of the Inter-American Development Bank (IDB), a position he assumed for the fourth time on 1 April 2003."
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of assuming and stepping down from a leadership role at the Inter-American Development Bank."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 2,
+      "warnings": 0,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "status": "success",
+  "chunk_id": 716,
+  "chunk_index": 0,
+  "source_url": "https://www.forbes.com/profile/jack-ma/",
+  "title": "Jack Ma",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "in 1999",
+          "type": "point",
+          "quotes": [
+            "A former English teacher, Jack Ma cofounded Alibaba Group Holding, now one of the world's largest e-commerce businesses, in 1999."
+          ]
+        },
+        {
+          "text": "in 2019",
+          "type": "point",
+          "quotes": [
+            "The former high-flying billionaire stepped down as Alibaba's executive chairman in 2019."
+          ]
+        },
+        {
+          "text": "in 2023",
+          "type": "point",
+          "quotes": [
+            "After approximately a year overseas, Ma returned to China in 2023 just as Alibaba unveiled a plan to split itself into six businesses."
+          ]
+        },
+        {
+          "text": "as of 11/25/25",
+          "type": "point",
+          "quotes": [
+            "Real Time Net Worth as of 11/25/25"
+          ]
+        },
+        {
+          "text": "Aug 28, 2025",
+          "type": "point",
+          "quotes": [
+            "Aug 28, 2025 Global Labubu Craze Makes Pop Mart’s Young Founder Richer Than Jack Ma"
+          ]
+        },
+        {
+          "text": "Apr 10, 2024",
+          "type": "point",
+          "quotes": [
+            "Apr 10, 2024 Alibaba Billionaire Jack Ma Returns To Spotlight, Praises Company Leaders Amid Massive Restructuring"
+          ]
+        },
+        {
+          "text": "Feb 22, 2024",
+          "type": "point",
+          "quotes": [
+            "Feb 22, 2024 Alibaba Cofounder Jack Ma’s Wife Bought $37 Million Worth Of"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Alibaba Group Holding",
+          "quotes": [
+            "A former English teacher, Jack Ma cofounded Alibaba Group Holding, now one of the world's largest e-commerce businesses, in 1999."
+          ]
+        },
+        {
+          "name": "Cainiao logistics unit",
+          "quotes": [
+            "But that overhaul has been on hold after the company walked back from the IPO plans of its Cainiao logistics unit and cloud computing arm."
+          ]
+        },
+        {
+          "name": "YTO Express Group",
+          "quotes": [
+            "Holds stake in YTO Express Group"
+          ]
+        },
+        {
+          "name": "Huayi Brothers Media Corp",
+          "quotes": [
+            "Related by financial asset: Huayi Brothers Media Corp"
+          ]
+        },
+        {
+          "name": "Pop Mart International Group",
+          "quotes": [
+            "Wang Ning, founder of toy maker Pop Mart International Group, has become richer than Alibaba cofounder Jack Ma thanks to the global mania for the company’s Labubu dolls."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "English teacher",
+          "quotes": [
+            "A former English teacher, Jack Ma cofounded Alibaba Group Holding, now one of the world's largest e-commerce businesses, in 1999."
+          ]
+        },
+        {
+          "title": "executive chairman",
+          "quotes": [
+            "The former high-flying billionaire stepped down as Alibaba's executive chairman in 2019."
+          ]
+        },
+        {
+          "title": "mentor",
+          "quotes": [
+            "Ma remains a mentor, and often encourages employees to innovate and change at a time of heightened market competition."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Hangzhou, China",
+          "quotes": [
+            "Residence Hangzhou, China"
+          ]
+        },
+        {
+          "place": "France",
+          "quotes": [
+            "Ma owns a vineyard in France."
+          ]
+        },
+        {
+          "place": "China",
+          "quotes": [
+            "After approximately a year overseas, Ma returned to China in 2023 just as Alibaba unveiled a plan to split itself into six businesses."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "A former English teacher, Jack Ma cofounded Alibaba Group Holding, now one of the world's largest e-commerce businesses, in 1999.",
+          "The former high-flying billionaire stepped down as Alibaba's executive chairman in 2019."
+        ],
+        "confidence": "high",
+        "notes": "Cofounding Alibaba and serving as executive chairman are clearly career positions."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The former high-flying billionaire stepped down as Alibaba's executive chairman in 2019.",
+          "Ma remains a mentor, and often encourages employees to innovate and change at a time of heightened market competition."
+        ],
+        "confidence": "medium",
+        "notes": "Mentor role is mentioned without clear time bounds but is likely ongoing after stepping down as chairman."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Mentor role is mentioned without clear time bounds, making it difficult to verify the exact duration of this position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

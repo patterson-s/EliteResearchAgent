@@ -1,0 +1,216 @@
+{
+  "status": "success",
+  "chunk_id": 501,
+  "chunk_index": 1,
+  "source_url": "https://issafrica.s3.amazonaws.com/site/uploads/Book-2015-Salim.pdf",
+  "title": "Book-2015-Salim.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "Born in 1942",
+          "type": "point",
+          "quotes": [
+            "Born in 1942 in Zanzibar, he became active in politics at a young age as a founder of the All-Zanzibar Student Union"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "All-Zanzibar Student Union",
+          "quotes": [
+            "he became active in politics at a young age as a founder of the All-Zanzibar Student Union, which he served as its first vice-president"
+          ]
+        },
+        {
+          "name": "United Republic of Tanzania",
+          "quotes": [
+            "At the age of 22, the youngest African ambassador, he represented the United Republic of Tanzania in Egypt, India, China and the UN in New York"
+          ]
+        },
+        {
+          "name": "Organisation of African Unity (OAU)",
+          "quotes": [
+            "His dedication to Africa continued unabated as he served as chairperson of the African Union Panel of the Wise and in other prominent African institutions, such as the Mwalimu Nyerere Foundation"
+          ]
+        },
+        {
+          "name": "African Union Panel of the Wise",
+          "quotes": [
+            "His dedication to Africa continued unabated as he served as chairperson of the African Union Panel of the Wise and in other prominent African institutions, such as the Mwalimu Nyerere Foundation"
+          ]
+        },
+        {
+          "name": "Mwalimu Nyerere Foundation",
+          "quotes": [
+            "His dedication to Africa continued unabated as he served as chairperson of the African Union Panel of the Wise and in other prominent African institutions, such as the Mwalimu Nyerere Foundation"
+          ]
+        },
+        {
+          "name": "United Nations (UN)",
+          "quotes": [
+            "At the age of 22, the youngest African ambassador, he represented the United Republic of Tanzania in Egypt, India, China and the UN in New York"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "first vice-president of the All-Zanzibar Student Union",
+          "quotes": [
+            "he became active in politics at a young age as a founder of the All-Zanzibar Student Union, which he served as its first vice-president"
+          ]
+        },
+        {
+          "title": "youngest African ambassador",
+          "quotes": [
+            "At the age of 22, the youngest African ambassador, he represented the United Republic of Tanzania in Egypt, India, China and the UN in New York"
+          ]
+        },
+        {
+          "title": "chairperson of the African Union Panel of the Wise",
+          "quotes": [
+            "His dedication to Africa continued unabated as he served as chairperson of the African Union Panel of the Wise and in other prominent African institutions, such as the Mwalimu Nyerere Foundation"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Zanzibar",
+          "quotes": [
+            "Born in 1942 in Zanzibar, he became active in politics at a young age as a founder of the All-Zanzibar Student Union"
+          ]
+        },
+        {
+          "place": "Egypt",
+          "quotes": [
+            "At the age of 22, the youngest African ambassador, he represented the United Republic of Tanzania in Egypt, India, China and the UN in New York"
+          ]
+        },
+        {
+          "place": "India",
+          "quotes": [
+            "At the age of 22, the youngest African ambassador, he represented the United Republic of Tanzania in Egypt, India, China and the UN in New York"
+          ]
+        },
+        {
+          "place": "China",
+          "quotes": [
+            "At the age of 22, the youngest African ambassador, he represented the United Republic of Tanzania in Egypt, India, China and the UN in New York"
+          ]
+        },
+        {
+          "place": "New York",
+          "quotes": [
+            "At the age of 22, the youngest African ambassador, he represented the United Republic of Tanzania in Egypt, India, China and the UN in New York"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Born in 1942 in Zanzibar, he became active in politics at a young age as a founder of the All-Zanzibar Student Union",
+          "he became active in politics at a young age as a founder of the All-Zanzibar Student Union, which he served as its first vice-president"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1,
+          6
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "supporting_quotes": [
+          "At the age of 22, the youngest African ambassador, he represented the United Republic of Tanzania in Egypt, India, China and the UN in New York"
+        ],
+        "confidence": "high",
+        "notes": "No explicit time marker, but clear linkage between organization, role, and locations."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2,
+          3,
+          4
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "His dedication to Africa continued unabated as he served as chairperson of the African Union Panel of the Wise and in other prominent African institutions, such as the Mwalimu Nyerere Foundation"
+        ],
+        "confidence": "high",
+        "notes": "No explicit time marker or location, but clear linkage between organizations and role."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the event."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and location for the event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

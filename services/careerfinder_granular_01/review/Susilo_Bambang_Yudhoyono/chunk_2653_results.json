@@ -1,0 +1,155 @@
+{
+  "status": "success",
+  "chunk_id": 2653,
+  "chunk_index": 1,
+  "source_url": "https://clubmadrid.org/who/members/bambang-yudhoyono-susilo/",
+  "title": "Susilo Bambang Yudhoyono President of Indonesia",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "on its 80th Anniversary",
+          "type": "point",
+          "quotes": [
+            "on its 80th Anniversary"
+          ]
+        },
+        {
+          "text": "24 June, 2025",
+          "type": "point",
+          "quotes": [
+            "24 June, 2025"
+          ]
+        },
+        {
+          "text": "5 April, 2019",
+          "type": "point",
+          "quotes": [
+            "5 April, 2019"
+          ]
+        },
+        {
+          "text": "26 July, 2017",
+          "type": "point",
+          "quotes": [
+            "26 July, 2017"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Club de Madrid",
+          "quotes": [
+            "Club de Madrid presents its 2018 Annual Report",
+            "Rui Maria De Araujo & four Club de Madrid Members to participate in the NGD roundtable on the future of Democracy in Asia-Oceania",
+            "WORLD LEADERSHIP ALLIANCE CLUB DE MADRID"
+          ]
+        },
+        {
+          "name": "WORLD LEADERSHIP ALLIANCE CLUB DE MADRID",
+          "quotes": [
+            "WORLD LEADERSHIP ALLIANCE CLUB DE MADRID"
+          ]
+        },
+        {
+          "name": "NGD",
+          "quotes": [
+            "Rui Maria De Araujo & four Club de Madrid Members to participate in the NGD roundtable on the future of Democracy in Asia-Oceania"
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": [
+        {
+          "place": "Asia-Oceania",
+          "quotes": [
+            "Rui Maria De Araujo & four Club de Madrid Members to participate in the NGD roundtable on the future of Democracy in Asia-Oceania"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Club de Madrid presents its 2018 Annual Report",
+          "WORLD LEADERSHIP ALLIANCE CLUB DE MADRID"
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but the organization is clearly referenced in multiple quotes. Assuming a career position due to the nature of the organization and its activities."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0,
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Rui Maria De Araujo & four Club de Madrid Members to participate in the NGD roundtable on the future of Democracy in Asia-Oceania"
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but participation in a roundtable suggests an active role. Assuming a career position due to the context of the event."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. No specific role mentioned in the supporting quotes."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classification as career_position is uncertain without clear role or responsibilities mentioned."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. No specific role mentioned in the supporting quotes."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classification as career_position is uncertain without clear role or responsibilities mentioned, despite participation in a roundtable."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "status": "success",
+  "chunk_id": 2743,
+  "chunk_index": 24,
+  "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10722368/",
+  "title": "Searching for Meaning in the Life of Ellen Johnson-Sirleaf: A Call to Meaningful Responses to Tragedies - PMC",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Palgrave Macmillan",
+          "quotes": [
+            "Lifecourse. Palgrave Macmillan. 10.1007/978-3-030-81238-6_4",
+            "Steady, F. C. (2011). Women and Leadership in Liberia. In Women and Leadership in West Africa (pp. 99-160). Palgrave Macmillan.",
+            "Wong, P.T.P., Page, D., Cheung, T.C.K. (2022). A Self-Transcendence Model of Servant Leadership. In: Dhiman, S., Roberts, G.E. (Eds) The Palgrave Handbook of Servant Leadership. Palgrave Macmillan."
+          ]
+        },
+        {
+          "name": "Wits University Press",
+          "quotes": [
+            "Van Niekerk, R., Prenter, T., & Fouché, J. P. (2019). Doing psychobiography: The case of Christiaan Barnard. In S. Laher, S. Kramer, & A. Fynn (Eds.), Transforming research methods in the Social Sciences Case-studies from South Africa (pp. 168–185). Wits University Press."
+          ]
+        },
+        {
+          "name": "Springer",
+          "quotes": [
+            "Wong, P.T.P. (2016). Meaning-Seeking, Self-Transcendence, and Well-being. In: Batthyány, A. (Eds) Logotherapy and Existential Analysis. Logotherapy and Existential Analysis: Proceedings of the Viktor Frankl Institute Vienna, vol 1. Springer.",
+            "Wong, P.T.P. (2014). Viktor Frankl's Meaning-Seeking Model and Positive Psychology. In: Batthyany, A., Russo-Netzer, P. (Eds) Meaning in Positive and Existential Psychology. Springer."
+          ]
+        },
+        {
+          "name": "United Nations Human Rights Office of the High Commissioner",
+          "quotes": [
+            "United Nations Human Rights Office of the High Commissioner  (n.d.). Fact Sheet No.23, Harmful Traditional Practices Affecting the Health of Women and Children;"
+          ]
+        },
+        {
+          "name": "Frontiers in Psychology",
+          "quotes": [
+            "Van Tongeren DR. & Showalter Van Tongeren SA. (2021) Finding Meaning Amidst COVID-19: An Existential Positive Psychology Model of Suffering. Frontiers in Psychology, 12: 641747."
+          ]
+        },
+        {
+          "name": "Global Citizen",
+          "quotes": [
+            "Wilson, M. (2015). Seven times Liberian President Ellen Johnson Sirleaf came first. Global Citizen."
+          ]
+        },
+        {
+          "name": "Wellesley College",
+          "quotes": [
+            "Wellesley College . (2019, March 8). Ellen Johnson Sirleaf, Full Wellesley Asks Interview."
+          ]
+        },
+        {
+          "name": "Sage",
+          "quotes": [
+            "Yin, R. K. (2013). Case study research: Design and methods (5th ed.). Sage."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Liberian President",
+          "quotes": [
+            "Wilson, M. (2015). Seven times Liberian President Ellen Johnson Sirleaf came first. Global Citizen."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Liberia",
+          "quotes": [
+            "Steady, F. C. (2011). Women and Leadership in Liberia. In Women and Leadership in West Africa (pp. 99-160). Palgrave Macmillan.",
+            "Wilson, M. (2015). Seven times Liberian President Ellen Johnson Sirleaf came first. Global Citizen."
+          ]
+        },
+        {
+          "place": "West Africa",
+          "quotes": [
+            "Steady, F. C. (2011). Women and Leadership in Liberia. In Women and Leadership in West Africa (pp. 99-160). Palgrave Macmillan."
+          ]
+        },
+        {
+          "place": "South Africa",
+          "quotes": [
+            "Van Niekerk, R., Prenter, T., & Fouché, J. P. (2019). Doing psychobiography: The case of Christiaan Barnard. In S. Laher, S. Kramer, & A. Fynn (Eds.), Transforming research methods in the Social Sciences Case-studies from South Africa (pp. 168–185). Wits University Press."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Wilson, M. (2015). Seven times Liberian President Ellen Johnson Sirleaf came first. Global Citizen."
+        ],
+        "confidence": "high",
+        "notes": "Direct mention of role as Liberian President with location in Liberia."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time_marker_ids and organization_ids despite high confidence and direct mention of role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

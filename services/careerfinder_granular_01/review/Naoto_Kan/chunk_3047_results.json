@@ -1,0 +1,154 @@
+{
+  "status": "success",
+  "chunk_id": 3047,
+  "chunk_index": 7,
+  "source_url": "https://en.wikipedia.org/wiki/Naoto_Kan",
+  "title": "Naoto Kan - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "by 2030",
+          "type": "point",
+          "quotes": [
+            "scrap the plan to have nuclear power contribute 53 percent (of electricity supply) by 2030 and reduce the degree of reliance on nuclear power,"
+          ]
+        },
+        {
+          "text": "In August",
+          "type": "point",
+          "quotes": [
+            "In August, Kan removed three of Japan's top nuclear energy officials in effort to break ties between government and the atomic industry."
+          ]
+        },
+        {
+          "text": "in 2012",
+          "type": "point",
+          "quotes": [
+            "When interviewed in 2012, after resigning as prime minister, Kan said the Fukushima accident made it clear to him that 'Japan needs to dramatically reduce its dependence on nuclear power'"
+          ]
+        },
+        {
+          "text": "on 10 August 2011",
+          "type": "point",
+          "quotes": [
+            "Kan announced his intention to resign on 10 August 2011."
+          ]
+        },
+        {
+          "text": "On 26 August",
+          "type": "point",
+          "quotes": [
+            "On 26 August, with passage of a debt bill and the renewable energy bill as final conditions, Kan expected 'to see his successor in office [within the] week'"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "government panel",
+          "quotes": [
+            "Kan told a government panel."
+          ]
+        },
+        {
+          "name": "Democratic Party (Japan, 1998)",
+          "quotes": [
+            "See also: 2011 Democratic Party (Japan, 1998) leadership election"
+          ]
+        },
+        {
+          "name": "Kyodo news",
+          "quotes": [
+            "according to a Kyodo news report, which cited cabinet ministers"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "prime minister",
+          "quotes": [
+            "after resigning as prime minister"
+          ]
+        },
+        {
+          "title": "successor",
+          "quotes": [
+            "Kan expected 'to see his successor in office [within the] week'"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Tokyo",
+          "quotes": [
+            "there was a chance that people might not be able to live in the capital zone including Tokyo and would have to evacuate"
+          ]
+        },
+        {
+          "place": "Japan",
+          "quotes": [
+            "Kan said Japan should abandon plans to build 14 new reactors by 2030."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3,
+          4
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Kan announced his intention to resign on 10 August 2011.",
+          "On 26 August, with passage of a debt bill and the renewable energy bill as final conditions, Kan expected 'to see his successor in office [within the] week'",
+          "after resigning as prime minister",
+          "See also: 2011 Democratic Party (Japan, 1998) leadership election"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time markers, organization, role, and location."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "quote_support",
+            "severity": "medium",
+            "description": "Supporting quotes primarily discuss resignation and post-resignation activities rather than active responsibilities during the career position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as 'career_position' but quotes focus on resignation, which might suggest a transition rather than an active role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

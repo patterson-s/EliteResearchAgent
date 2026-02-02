@@ -1,0 +1,128 @@
+{
+  "status": "success",
+  "chunk_id": 769,
+  "chunk_index": 0,
+  "source_url": "https://www.worldgovernmentssummit.org/media-hub/speakers/detail/0033z00003HbO6eAAF",
+  "title": "H.E. Mohammad Algergawi",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "since 2006",
+          "type": "open",
+          "quotes": [
+            "His Excellency Mohammad bin Abdullah Al Gergawi is the Minister of Cabinet Affairs in the UAE Government since 2006."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Ministry of Cabinet Affairs",
+          "quotes": [
+            "Minister of Cabinet Affairs & Chairman World Government Summit, Ministry of Cabinet Affairs",
+            "His Excellency Mohammad bin Abdullah Al Gergawi is the Minister of Cabinet Affairs in the UAE Government since 2006."
+          ]
+        },
+        {
+          "name": "World Government Summit",
+          "quotes": [
+            "Minister of Cabinet Affairs & Chairman World Government Summit, Ministry of Cabinet Affairs",
+            "Become a part of the World Government Summit community, where visionaries, leaders, and changemakers connect to drive global progress."
+          ]
+        },
+        {
+          "name": "UAE Government",
+          "quotes": [
+            "His Excellency Mohammad bin Abdullah Al Gergawi is the Minister of Cabinet Affairs in the UAE Government since 2006."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Minister of Cabinet Affairs",
+          "quotes": [
+            "Minister of Cabinet Affairs & Chairman World Government Summit, Ministry of Cabinet Affairs",
+            "His Excellency Mohammad bin Abdullah Al Gergawi is the Minister of Cabinet Affairs in the UAE Government since 2006."
+          ]
+        },
+        {
+          "title": "Chairman World Government Summit",
+          "quotes": [
+            "Minister of Cabinet Affairs & Chairman World Government Summit, Ministry of Cabinet Affairs"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0,
+          2
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "His Excellency Mohammad bin Abdullah Al Gergawi is the Minister of Cabinet Affairs in the UAE Government since 2006.",
+          "Minister of Cabinet Affairs & Chairman World Government Summit, Ministry of Cabinet Affairs"
+        ],
+        "confidence": "high",
+        "notes": "The role of Minister of Cabinet Affairs is clearly linked to the UAE Government and the Ministry of Cabinet Affairs."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Minister of Cabinet Affairs & Chairman World Government Summit, Ministry of Cabinet Affairs"
+        ],
+        "confidence": "high",
+        "notes": "The role of Chairman of the World Government Summit is mentioned alongside the Minister of Cabinet Affairs role, implying a concurrent position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the Chairman World Government Summit position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

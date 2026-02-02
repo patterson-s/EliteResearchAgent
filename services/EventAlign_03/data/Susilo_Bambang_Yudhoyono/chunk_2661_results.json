@@ -1,0 +1,146 @@
+{
+  "status": "success",
+  "chunk_id": 2661,
+  "chunk_index": 2,
+  "source_url": "https://www.cdu.edu.au/files/2021-12/dr-susilo-bambamg-yudhoyono.pdf",
+  "title": "dr-susilo-bambamg-yudhoyono.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2004",
+          "type": "point",
+          "quotes": [
+            "Doctor Yudhoyono’s 2004 award of the Star of the Republic of Indonesia, an award of the highest order given to those who have given extraordinary service to the integrity, viability and greatness of Indonesia, is worth mention here."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Charles Darwin University",
+          "quotes": [
+            "Chancellor, in recognition of his services to Indonesia, to democracy and to harmonious international relations with Australia, particularly northern Australia, the Council of Charles Darwin University awards Doctor Yudhoyono the degree of Doctor of Economics, honoris causa."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "President",
+          "quotes": [
+            "Under Doctor Yudhoyono’s Presidency Indonesia has peacefully reformed to become a more stable and affluent democracy."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Indonesia",
+          "quotes": [
+            "The Indonesian state budget and foreign exchange reserves nearly quadrupled during Doctor Yudhoyono’s term and the ratio of government debt to gross domestic product more than halved."
+          ]
+        },
+        {
+          "place": "Australia",
+          "quotes": [
+            "One of Doctor Yudhoyono’s other great achievements in office was greater and more active international engagement, including with Australia."
+          ]
+        },
+        {
+          "place": "Northern Territory",
+          "quotes": [
+            "Doctor Yudhoyono’s connection to the Northern Territory is close both geographically and personally."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Doctor Yudhoyono’s 2004 award of the Star of the Republic of Indonesia, an award of the highest order given to those who have given extraordinary service to the integrity, viability and greatness of Indonesia, is worth mention here."
+        ],
+        "confidence": "high",
+        "notes": "Clear award mention with specific year and details."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Chancellor, in recognition of his services to Indonesia, to democracy and to harmonious international relations with Australia, particularly northern Australia, the Council of Charles Darwin University awards Doctor Yudhoyono the degree of Doctor of Economics, honoris causa."
+        ],
+        "confidence": "high",
+        "notes": "Honorary degree awarded by Charles Darwin University, clearly an award."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Under Doctor Yudhoyono’s Presidency Indonesia has peacefully reformed to become a more stable and affluent democracy.",
+          "The Indonesian state budget and foreign exchange reserves nearly quadrupled during Doctor Yudhoyono’s term and the ratio of government debt to gross domestic product more than halved."
+        ],
+        "confidence": "high",
+        "notes": "Presidency of Indonesia is a clear career position with active responsibilities."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time marker for the award event."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and time marker for the career position event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 2
+    }
+  }
+}

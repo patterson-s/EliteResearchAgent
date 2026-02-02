@@ -1,0 +1,196 @@
+{
+  "status": "success",
+  "chunk_id": 3606,
+  "chunk_index": 1,
+  "source_url": "https://awpc.cattcenter.iastate.edu/directory/luisa-d-diogo/",
+  "title": "Luisa D Diogo  |  Archives of Women's Political Communication",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "until the December 2004 elections",
+          "type": "point",
+          "quotes": [
+            "finance minister until the December 2004 elections"
+          ]
+        },
+        {
+          "text": "until January 2010",
+          "type": "point",
+          "quotes": [
+            "She served as prime minister until January 2010"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Network of Women Ministers and Parliamentarians (MUNIPA)",
+          "quotes": [
+            "Recently, Diogo has focused on gender equality and women's empowerment through the Network of Women Ministers and Parliamentarians (MUNIPA)"
+          ]
+        },
+        {
+          "name": "Council of Women World Leaders",
+          "quotes": [
+            "Diogo is also a member of the Council of Women World Leaders, an international network of current and former women presidents and prime ministers"
+          ]
+        },
+        {
+          "name": "African Union Foundation",
+          "quotes": [
+            "African Union Foundation (n.d.). “Dr Luísa Diogo”"
+          ]
+        },
+        {
+          "name": "Club de Madrid",
+          "quotes": [
+            "Club de Madrid (n.d.). “Luisa Diogo”"
+          ]
+        },
+        {
+          "name": "Council of Women World Leaders",
+          "quotes": [
+            "Council of Women World Leaders (n.d.). “LUÍSA DIAS DIOGO”"
+          ]
+        },
+        {
+          "name": "Encyclopedia of World Biographies",
+          "quotes": [
+            "Encyclopedia of World Biographies (n.d.). “Luisa Diogo Biography”"
+          ]
+        },
+        {
+          "name": "Advameg, Inc.",
+          "quotes": [
+            "Encyclopedia of World Biographies (n.d.). “Luisa Diogo Biography” Advameg, Inc."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "finance minister",
+          "quotes": [
+            "finance minister until the December 2004 elections"
+          ]
+        },
+        {
+          "title": "prime minister",
+          "quotes": [
+            "She served as prime minister until January 2010"
+          ]
+        },
+        {
+          "title": "member",
+          "quotes": [
+            "Diogo is also a member of the Council of Women World Leaders"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "finance minister until the December 2004 elections"
+        ],
+        "confidence": "high",
+        "notes": "Clear role and time marker, but no organization mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "She served as prime minister until January 2010"
+        ],
+        "confidence": "high",
+        "notes": "Clear role and time marker, but no organization mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Diogo is also a member of the Council of Women World Leaders"
+        ],
+        "confidence": "high",
+        "notes": "Clear role and organization, but no time marker."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The role 'member' might not be an active career position, consider reclassification as an award or affiliation."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

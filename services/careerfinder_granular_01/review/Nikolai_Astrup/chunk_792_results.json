@@ -1,0 +1,80 @@
+{
+  "status": "success",
+  "chunk_id": 792,
+  "chunk_index": 2,
+  "source_url": "https://www.stortinget.no/en/In-English/Members-of-the-Storting/current-members-of-parliament/representative/?perid=NA",
+  "title": "Biography: Astrup, Nikolai",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2004",
+          "type": "point",
+          "quotes": [
+            "velferdsstaten (Welfare after the welfare state), Norwegian Young Conservatives 2004"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Norwegian Young Conservatives",
+          "quotes": [
+            "velferdsstaten (Welfare after the welfare state), Norwegian Young Conservatives 2004"
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "velferdsstaten (Welfare after the welfare state), Norwegian Young Conservatives 2004"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit role mentioned, but association with an organization in a specific year suggests a career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. While the event is associated with an organization and a specific year, there is no explicit role mentioned."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "The supporting quote does not clearly indicate a career position, as it only mentions an association with the organization and a publication or event in 2004."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "status": "success",
+  "chunk_id": 2955,
+  "chunk_index": 0,
+  "source_url": "https://yaledailynews.com/blog/2001/10/19/chinas-un-ambassador-talks-terror-human-rights/",
+  "title": "China's UN ambassador talks terror, human rights - Yale Daily News",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "Oct 19, 2001",
+          "type": "point",
+          "quotes": [
+            "12:00 am, Oct 19, 2001"
+          ]
+        },
+        {
+          "text": "Sept. 11",
+          "type": "point",
+          "quotes": [
+            "the terrorist attacks of Sept. 11"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "United Nations",
+          "quotes": [
+            "China’s permanent representative to the United Nations",
+            "his country’s representative to the United Nations"
+          ]
+        },
+        {
+          "name": "Yale Daily News",
+          "quotes": [
+            "China's UN ambassador talks terror, human rights - Yale Daily News"
+          ]
+        },
+        {
+          "name": "Morse College",
+          "quotes": [
+            "Thursday’s Morse College Master’s Tea"
+          ]
+        },
+        {
+          "name": "Yale International Relations Association",
+          "quotes": [
+            "held in association with the Yale International Relations Association"
+          ]
+        },
+        {
+          "name": "Amnesty International",
+          "quotes": [
+            "members of Amnesty International presented the ambassador with 80 letters"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "permanent representative to the United Nations",
+          "quotes": [
+            "Wang Yingfan, China’s permanent representative to the United Nations"
+          ]
+        },
+        {
+          "title": "diplomat",
+          "quotes": [
+            "My role as a diplomat is to help create a favorable international environment for China"
+          ]
+        },
+        {
+          "title": "ambassador",
+          "quotes": [
+            "members of Amnesty International presented the ambassador with 80 letters"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "United Kingdom",
+          "quotes": [
+            "Wang has served his country in the United Kingdom, Ghana, the Philippines and China"
+          ]
+        },
+        {
+          "place": "Ghana",
+          "quotes": [
+            "Wang has served his country in the United Kingdom, Ghana, the Philippines and China"
+          ]
+        },
+        {
+          "place": "Philippines",
+          "quotes": [
+            "Wang has served his country in the United Kingdom, Ghana, the Philippines and China"
+          ]
+        },
+        {
+          "place": "China",
+          "quotes": [
+            "Wang has served his country in the United Kingdom, Ghana, the Philippines and China",
+            "I am proud to represent China"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          3
+        ],
+        "supporting_quotes": [
+          "12:00 am, Oct 19, 2001",
+          "China’s permanent representative to the United Nations",
+          "Wang Yingfan, China’s permanent representative to the United Nations",
+          "I am proud to represent China"
+        ],
+        "confidence": "high",
+        "notes": "Direct linkage between time marker, organization, role, and location through quotes."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "supporting_quotes": [
+          "My role as a diplomat is to help create a favorable international environment for China",
+          "Wang has served his country in the United Kingdom, Ghana, the Philippines and China"
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker or organization mentioned, but role and locations are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          3
+        ],
+        "supporting_quotes": [
+          "members of Amnesty International presented the ambassador with 80 letters",
+          "China’s permanent representative to the United Nations",
+          "I am proud to represent China"
+        ],
+        "confidence": "high",
+        "notes": "Ambassador role is linked to the United Nations and China through quotes."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and organization information, though role and locations are supported by quotes."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker, though organization, role, and location are supported by quotes."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

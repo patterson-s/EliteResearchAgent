@@ -1,0 +1,156 @@
+{
+  "status": "success",
+  "chunk_id": 684,
+  "chunk_index": 1,
+  "source_url": "https://www.givingpledge.org/pledger/melinda-french-gates/",
+  "title": "Melinda French Gates - The Giving Pledge",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "in 2010",
+          "type": "point",
+          "quotes": [
+            "Along the way, I co-founded the Giving Pledge in 2010 and committed to giving away the majority of my resources in my lifetime."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Giving Pledge",
+          "quotes": [
+            "Along the way, I co-founded the Giving Pledge in 2010 and committed to giving away the majority of my resources in my lifetime."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "co-founder of the Giving Pledge",
+          "quotes": [
+            "Along the way, I co-founded the Giving Pledge in 2010 and committed to giving away the majority of my resources in my lifetime."
+          ]
+        },
+        {
+          "title": "philanthropist",
+          "quotes": [
+            "The ultimate goal of any philanthropist should be to render the need for philanthropy obsolete.",
+            "I think it’s important for philanthropists to set ambitious goals and measure our progress against those goals."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Seattle",
+          "quotes": [
+            "It’s much easier to imagine that you have all the answers when you’re sitting in a conference room in Seattle than when you’re face-to-face with a business owner in Nairobi or an indigenous activist in New Mexico."
+          ]
+        },
+        {
+          "place": "Nairobi",
+          "quotes": [
+            "It’s much easier to imagine that you have all the answers when you’re sitting in a conference room in Seattle than when you’re face-to-face with a business owner in Nairobi or an indigenous activist in New Mexico."
+          ]
+        },
+        {
+          "place": "New Mexico",
+          "quotes": [
+            "It’s much easier to imagine that you have all the answers when you’re sitting in a conference room in Seattle than when you’re face-to-face with a business owner in Nairobi or an indigenous activist in New Mexico."
+          ]
+        },
+        {
+          "place": "United States",
+          "quotes": [
+            "focuses on advancing progress for women and families in the United States and around the world.",
+            "I also commit my time, energy, and efforts to the work of fighting poverty and advancing equality—for women and girls and other marginalized groups—in the United States and around the world."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Along the way, I co-founded the Giving Pledge in 2010 and committed to giving away the majority of my resources in my lifetime."
+        ],
+        "confidence": "high",
+        "notes": "Co-founding an organization implies an active role with ongoing responsibilities."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "supporting_quotes": [
+          "The ultimate goal of any philanthropist should be to render the need for philanthropy obsolete.",
+          "I think it’s important for philanthropists to set ambitious goals and measure our progress against those goals.",
+          "It’s much easier to imagine that you have all the answers when you’re sitting in a conference room in Seattle than when you’re face-to-face with a business owner in Nairobi or an indigenous activist in New Mexico.",
+          "focuses on advancing progress for women and families in the United States and around the world.",
+          "I also commit my time, energy, and efforts to the work of fighting poverty and advancing equality—for women and girls and other marginalized groups—in the United States and around the world."
+        ],
+        "confidence": "high",
+        "notes": "Philanthropist is an active role with ongoing responsibilities, supported by multiple quotes detailing activities and goals."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing location information for the event."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time and organization information for the event."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "While quotes support the role of philanthropist, they do not explicitly mention specific organizations or time frames."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

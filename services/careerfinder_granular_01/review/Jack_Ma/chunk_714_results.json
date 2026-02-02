@@ -1,0 +1,165 @@
+{
+  "status": "success",
+  "chunk_id": 714,
+  "chunk_index": 1,
+  "source_url": "https://navigator-paper.com/pl/blog/article/life-jack-ma-alibaba-founder",
+  "title": "The inspiring life of Jack Ma, Alibaba Founder",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In 2005",
+          "type": "point",
+          "quotes": [
+            "In 2005, Yahoo invested $1 billion into the company in exchange for a 40% share."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Goldman Sachs",
+          "quotes": [
+            "worth of funding from Goldman Sachs and SoftBank."
+          ]
+        },
+        {
+          "name": "SoftBank",
+          "quotes": [
+            "worth of funding from Goldman Sachs and SoftBank."
+          ]
+        },
+        {
+          "name": "Yahoo",
+          "quotes": [
+            "In 2005, Yahoo invested $1 billion into the company in exchange for a 40% share."
+          ]
+        },
+        {
+          "name": "Alibaba",
+          "quotes": [
+            "Ma has since stepped down as CEO of Alibaba, but still stays on board as an executive chairman."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "CEO of Alibaba",
+          "quotes": [
+            "Ma has since stepped down as CEO of Alibaba, but still stays on board as an executive chairman."
+          ]
+        },
+        {
+          "title": "executive chairman",
+          "quotes": [
+            "Ma has since stepped down as CEO of Alibaba, but still stays on board as an executive chairman."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Ma has since stepped down as CEO of Alibaba, but still stays on board as an executive chairman."
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker for the CEO role, but it is clearly a past position with a transition to executive chairman."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Ma has since stepped down as CEO of Alibaba, but still stays on board as an executive chairman."
+        ],
+        "confidence": "high",
+        "notes": "Current role as executive chairman, no specific time marker but implied as ongoing."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2005, Yahoo invested $1 billion into the company in exchange for a 40% share."
+        ],
+        "confidence": "medium",
+        "notes": "While this is an investment event, it does not directly indicate a specific role for any individual, hence classified as a career_position for the organization's activity."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the CEO role, making it difficult to establish temporal coherence."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "No specific time marker for the executive chairman role, though it is implied as ongoing."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "error",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "high",
+            "description": "Event misclassified as career_position. The quote describes an investment event, not a specific role for an individual."
+          },
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing role_ids, as the event does not describe a specific position for any individual."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 1,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

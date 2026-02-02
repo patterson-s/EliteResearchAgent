@@ -1,0 +1,250 @@
+{
+  "status": "success",
+  "chunk_id": 2756,
+  "chunk_index": 12,
+  "source_url": "https://achievement.org/achiever/ellen-johnson-sirleaf/",
+  "title": "Ellen Johnson Sirleaf | Academy of Achievement",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "from ’85",
+          "type": "open",
+          "quotes": [
+            "there was a party already there from ’85 — it was a part of what we called the Grand Coalition."
+          ]
+        },
+        {
+          "text": "1997 elections",
+          "type": "point",
+          "quotes": [
+            "this was in the 1997 elections, when Charles Taylor was making a bid following a small cessation of the war"
+          ]
+        },
+        {
+          "text": "2005 elections",
+          "type": "point",
+          "quotes": [
+            "we mobilized the party to prepare ourselves for the 2005 elections."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Unity Party",
+          "quotes": [
+            "we then built a party around me and my candidacy, and had a very strong showing, we thought."
+          ]
+        },
+        {
+          "name": "Liberian Action Party",
+          "quotes": [
+            "I was a member of another party that we formed called the Liberian Action Party."
+          ]
+        },
+        {
+          "name": "Grand Coalition",
+          "quotes": [
+            "there was a party already there from ’85 — it was a part of what we called the Grand Coalition."
+          ]
+        },
+        {
+          "name": "UN Special Court",
+          "quotes": [
+            "he was under an indictment by the UN Special Court for crimes committed in Sierra Leone"
+          ]
+        },
+        {
+          "name": "United Nations",
+          "quotes": [
+            "the Nigerians turned him over to the United Nations, which took him to the Netherlands."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "candidate",
+          "quotes": [
+            "I came back to run on the Unity Party ticket — this was in the 1997 elections"
+          ]
+        },
+        {
+          "title": "member",
+          "quotes": [
+            "I was a member of another party that we formed called the Liberian Action Party."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Abidjan",
+          "quotes": [
+            "this time I settled right in Abidjan, where I could keep my finger on the political pulse"
+          ]
+        },
+        {
+          "place": "Accra",
+          "quotes": [
+            "we all ended up in Accra for the peace talks."
+          ]
+        },
+        {
+          "place": "Nigeria",
+          "quotes": [
+            "Taylor was taken out of the country by the West African leaders. He went into exile in Nigeria for some time"
+          ]
+        },
+        {
+          "place": "The Hague",
+          "quotes": [
+            "He’s on trial in The Hague right now."
+          ]
+        },
+        {
+          "place": "Netherlands",
+          "quotes": [
+            "the Nigerians turned him over to the United Nations, which took him to the Netherlands."
+          ]
+        },
+        {
+          "place": "Sierra Leone",
+          "quotes": [
+            "he was under an indictment by the UN Special Court for crimes committed in Sierra Leone"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "there was a party already there from ’85 — it was a part of what we called the Grand Coalition."
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but association with Grand Coalition is clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "I came back to run on the Unity Party ticket — this was in the 1997 elections"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "I was a member of another party that we formed called the Liberian Action Party."
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker, but role and organization are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "we mobilized the party to prepare ourselves for the 2005 elections."
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but association with Unity Party is clear."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, making it unclear what specific position was held."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quote mentions association with Grand Coalition but does not specify a role or position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker, making it difficult to place the event chronologically."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, making it unclear what specific position was held."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quote mentions mobilization for elections but does not specify a role or position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 1,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

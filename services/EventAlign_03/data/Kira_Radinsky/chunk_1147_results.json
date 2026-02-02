@@ -1,0 +1,199 @@
+{
+  "status": "success",
+  "chunk_id": 1147,
+  "chunk_index": 1,
+  "source_url": "https://www.diagnosticrobotics.com/kira-radinsky-dr",
+  "title": "Kira Radinsky DR",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "over two decades",
+          "type": "range",
+          "quotes": [
+            "pressing health and human problems for over two decades."
+          ]
+        },
+        {
+          "text": "2014",
+          "type": "point",
+          "quotes": [
+            "successfully predicting the first Cholera outbreak in Cuba in 130 years, and an uprising in Sudan in 2014."
+          ]
+        },
+        {
+          "text": "2016",
+          "type": "point",
+          "quotes": [
+            "It was acquired by eBay in 2016, where she went on to serve as Chief Scientist (IL)."
+          ]
+        },
+        {
+          "text": "2024",
+          "type": "point",
+          "quotes": [
+            "Â© 2024 Diagnostic Robotics."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Microsoft Research",
+          "quotes": [
+            "At Microsoft Research and Technion, she developed the worldâs first AI models to detect early warning signs of global crisis events, including disease outbreaks and political unrest."
+          ]
+        },
+        {
+          "name": "Technion",
+          "quotes": [
+            "At Microsoft Research and Technion, she developed the worldâs first AI models to detect early warning signs of global crisis events, including disease outbreaks and political unrest."
+          ]
+        },
+        {
+          "name": "SalesPredict",
+          "quotes": [
+            "A noted pioneer in predictive algorithms, she founded the company SalesPredict."
+          ]
+        },
+        {
+          "name": "eBay",
+          "quotes": [
+            "It was acquired by eBay in 2016, where she went on to serve as Chief Scientist (IL)."
+          ]
+        },
+        {
+          "name": "Diagnostic Robotics",
+          "quotes": [
+            "She founded Diagnostic Robotics to use powerful predictive algorithms to ID not only patients who were going to be expensive next, but to highlight the ones that were most impactable."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Chief Scientist (IL)",
+          "quotes": [
+            "It was acquired by eBay in 2016, where she went on to serve as Chief Scientist (IL)."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "At Microsoft Research and Technion, she developed the worldâs first AI models to detect early warning signs of global crisis events, including disease outbreaks and political unrest."
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker, but the role is clearly a career position based on the development of AI models."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "A noted pioneer in predictive algorithms, she founded the company SalesPredict."
+        ],
+        "confidence": "high",
+        "notes": "Founding a company is a clear career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "It was acquired by eBay in 2016, where she went on to serve as Chief Scientist (IL)."
+        ],
+        "confidence": "high",
+        "notes": "Serving as Chief Scientist is a clear career position with specific time marker."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "She founded Diagnostic Robotics to use powerful predictive algorithms to ID not only patients who were going to be expensive next, but to highlight the ones that were most impactable."
+        ],
+        "confidence": "high",
+        "notes": "Founding Diagnostic Robotics is a clear career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers and role information."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers and role information."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers and role information."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 1,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

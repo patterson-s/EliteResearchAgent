@@ -1,0 +1,275 @@
+{
+  "status": "success",
+  "chunk_id": 2879,
+  "chunk_index": 1,
+  "source_url": "https://www.gov.uk/government/history/past-prime-ministers/david-cameron",
+  "title": "History of The Rt Hon Lord Cameron - GOV.UK",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In 2011",
+          "type": "point",
+          "quotes": [
+            "In 2011, the UK also took a lead in the international intervention in Libya."
+          ]
+        },
+        {
+          "text": "2013",
+          "type": "point",
+          "quotes": [
+            "Following the UK hosting the successful London 2012 Olympic and Paralympic Games, he chaired the 2013 G8 Summit in Northern Ireland"
+          ]
+        },
+        {
+          "text": "2011",
+          "type": "point",
+          "quotes": [
+            "The first in 2011, known as the alternative vote referendum, asked whether the current existing method of electing MPs should remain for future general elections."
+          ]
+        },
+        {
+          "text": "2014",
+          "type": "point",
+          "quotes": [
+            "The second referendum held in 2014 asked whether Scotland should be an independent country."
+          ]
+        },
+        {
+          "text": "June 2016",
+          "type": "point",
+          "quotes": [
+            "In June 2016, the British people voted to leave the EU and following this result, he resigned as Prime Minister and leader of the Conservative Party"
+          ]
+        },
+        {
+          "text": "13",
+          "type": "point",
+          "quotes": [
+            "leaving 10 Downing Street on 13"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Conservative Party",
+          "quotes": [
+            "In June 2016, the British people voted to leave the EU and following this result, he resigned as Prime Minister and leader of the Conservative Party"
+          ]
+        },
+        {
+          "name": "G8",
+          "quotes": [
+            "Following the UK hosting the successful London 2012 Olympic and Paralympic Games, he chaired the 2013 G8 Summit in Northern Ireland"
+          ]
+        },
+        {
+          "name": "NATO",
+          "quotes": [
+            "Under his leadership, the UK committed to the NATO 2% defence spending target and also meeting the UN target of 0.7% aid and development spending."
+          ]
+        },
+        {
+          "name": "UN",
+          "quotes": [
+            "Under his leadership, the UK committed to the NATO 2% defence spending target and also meeting the UN target of 0.7% aid and development spending."
+          ]
+        },
+        {
+          "name": "European Union (EU)",
+          "quotes": [
+            "For the third referendum, on Britain’s relationship with the European Union (EU), David Cameron led the campaign for the UK to remain in the EU."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Prime Minister",
+          "quotes": [
+            "During his time as Prime Minister, his government led the way on the equalities agenda by passing the UK’s same sex marriage act.",
+            "In June 2016, the British people voted to leave the EU and following this result, he resigned as Prime Minister and leader of the Conservative Party"
+          ]
+        },
+        {
+          "title": "leader of the Conservative Party",
+          "quotes": [
+            "In June 2016, the British people voted to leave the EU and following this result, he resigned as Prime Minister and leader of the Conservative Party"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Northern Ireland",
+          "quotes": [
+            "Following the UK hosting the successful London 2012 Olympic and Paralympic Games, he chaired the 2013 G8 Summit in Northern Ireland"
+          ]
+        },
+        {
+          "place": "Scotland",
+          "quotes": [
+            "The second referendum held in 2014 asked whether Scotland should be an independent country."
+          ]
+        },
+        {
+          "place": "India",
+          "quotes": [
+            "David Cameron made it a priority for Britain to build strong partnerships with India and China."
+          ]
+        },
+        {
+          "place": "China",
+          "quotes": [
+            "David Cameron made it a priority for Britain to build strong partnerships with India and China."
+          ]
+        },
+        {
+          "place": "United States",
+          "quotes": [
+            "Throughout, he championed Britain’s special relationship with the United States, working closely with President Barack Obama."
+          ]
+        },
+        {
+          "place": "Libya",
+          "quotes": [
+            "In 2011, the UK also took a lead in the international intervention in Libya."
+          ]
+        },
+        {
+          "place": "10 Downing Street",
+          "quotes": [
+            "leaving 10 Downing Street on 13"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In June 2016, the British people voted to leave the EU and following this result, he resigned as Prime Minister and leader of the Conservative Party",
+          "During his time as Prime Minister, his government led the way on the equalities agenda by passing the UK’s same sex marriage act."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role, organization, and time marker."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Following the UK hosting the successful London 2012 Olympic and Paralympic Games, he chaired the 2013 G8 Summit in Northern Ireland"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between organization, location, and time marker, with implicit role as chair."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2,
+          3
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Under his leadership, the UK committed to the NATO 2% defence spending target and also meeting the UN target of 0.7% aid and development spending."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time marker, but clear linkage between organizations and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          5
+        ],
+        "supporting_quotes": [
+          "In 2011, the UK also took a lead in the international intervention in Libya."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit organization, but clear linkage between role, time marker, and location."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing role_ids, though role is implicitly mentioned in the quote as 'chair'."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time_marker_ids, making it difficult to place the event in a timeline."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization_ids, though the role and location are clear."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 1,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

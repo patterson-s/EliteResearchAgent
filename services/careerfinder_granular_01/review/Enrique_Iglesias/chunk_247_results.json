@@ -1,0 +1,284 @@
+{
+  "status": "success",
+  "chunk_id": 247,
+  "chunk_index": 15,
+  "source_url": "https://en.wikipedia.org/wiki/Enrique_Iglesias",
+  "title": "Enrique Iglesias - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2004",
+          "type": "point",
+          "quotes": [
+            "Andrea Bocelli's first pop album Andrea (2004).",
+            "Iglesias also played the part of an evil Roman emperor in a Pepsi ad in 2004,"
+          ]
+        },
+        {
+          "text": "2005",
+          "type": "point",
+          "quotes": [
+            "Spice Girl Melanie C for her album Beautiful Intentions (2005)."
+          ]
+        },
+        {
+          "text": "2006",
+          "type": "point",
+          "quotes": [
+            "Four songs co-written by Iglesias appear on the UK band The Hollies' 2006 album Staying Power."
+          ]
+        },
+        {
+          "text": "2010",
+          "type": "point",
+          "quotes": [
+            "In 2010, Idol Allstars (Swedish Idol Series) released the song 'All I Need Is You', co-written by Iglesias with Andreas Carlsson, Kalle Engström, and Kristian Lundin."
+          ]
+        },
+        {
+          "text": "2012",
+          "type": "point",
+          "quotes": [
+            "He also co-wrote Jennifer Lopez's song 'Dance Again', which was released in 2012,"
+          ]
+        },
+        {
+          "text": "2000",
+          "type": "point",
+          "quotes": [
+            "In 2000, Iglesias co-produced an off-Broadway musical called Four Guys Named Jose and Una Mujer Named Maria."
+          ]
+        },
+        {
+          "text": "2007",
+          "type": "point",
+          "quotes": [
+            "In 2007, he had a guest appearance in the TV comedy Two and a Half Men as a carpenter/handyman."
+          ]
+        },
+        {
+          "text": "since 2001",
+          "type": "open",
+          "quotes": [
+            "Since 2001, Iglesias has been in a relationship with Russian tennis player Anna Kournikova."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Billboard",
+          "quotes": [
+            "and reached the number one position in the Billboard Hot Dance Club Songs."
+          ]
+        },
+        {
+          "name": "Pepsi",
+          "quotes": [
+            "Iglesias also played the part of an evil Roman emperor in a Pepsi ad in 2004,"
+          ]
+        },
+        {
+          "name": "Tommy Hilfiger",
+          "quotes": [
+            "as well as appearing in commercials for Tommy Hilfiger,"
+          ]
+        },
+        {
+          "name": "Doritos",
+          "quotes": [
+            "as well as appearing in commercials for Doritos,"
+          ]
+        },
+        {
+          "name": "Viceroy",
+          "quotes": [
+            "as well as appearing in commercials for Viceroy watches."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "co-writer",
+          "quotes": [
+            "Guy Chambers to write 'Un Nuovo Giorno', the lead single from Andrea Bocelli's first pop album Andrea (2004).",
+            "Iglesias also co-wrote the single 'The Way' for American Idol runner-up Clay Aiken.",
+            "Four songs co-written by Iglesias appear on the UK band The Hollies' 2006 album Staying Power.",
+            "In 2010, Idol Allstars (Swedish Idol Series) released the song 'All I Need Is You', co-written by Iglesias with Andreas Carlsson, Kalle Engström, and Kristian Lundin.",
+            "He also co-wrote Jennifer Lopez's song 'Dance Again', which was released in 2012,"
+          ]
+        },
+        {
+          "title": "co-producer",
+          "quotes": [
+            "In 2000, Iglesias co-produced an off-Broadway musical called Four Guys Named Jose and Una Mujer Named Maria."
+          ]
+        },
+        {
+          "title": "actor",
+          "quotes": [
+            "Iglesias starred alongside Antonio Banderas, Salma Hayek, and Johnny Depp in the Robert Rodriguez film Once Upon a Time in Mexico, in which he played the well-spoken gun-wielding Lorenzo.",
+            "In 2007, he had a guest appearance in the TV comedy Two and a Half Men as a carpenter/handyman.",
+            "He also guest-starred as Gael, an Argentinean guitar playing/surfer/massage therapist love interest of Robin in season 3 of the TV show How I Met Your Mother."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Europe",
+          "quotes": [
+            "The song has since gone to become a huge hit throughout Europe, and peaked in the number one spot in numerous countries."
+          ]
+        },
+        {
+          "place": "off-Broadway",
+          "quotes": [
+            "In 2000, Iglesias co-produced an off-Broadway musical called Four Guys Named Jose and Una Mujer Named Maria."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "In 2000, Iglesias co-produced an off-Broadway musical called Four Guys Named Jose and Una Mujer Named Maria."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Iglesias also played the part of an evil Roman emperor in a Pepsi ad in 2004,"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit role mentioned, but involvement in ad campaign implies career activity."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          7
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "as well as appearing in commercials for Tommy Hilfiger,",
+          "as well as appearing in commercials for Doritos,",
+          "as well as appearing in commercials for Viceroy watches."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time marker, but commercial appearances imply career activities."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2,
+          3,
+          4
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Four songs co-written by Iglesias appear on the UK band The Hollies' 2006 album Staying Power.",
+          "In 2010, Idol Allstars (Swedish Idol Series) released the song 'All I Need Is You', co-written by Iglesias with Andreas Carlsson, Kalle Engström, and Kristian Lundin.",
+          "He also co-wrote Jennifer Lopez's song 'Dance Again', which was released in 2012,"
+        ],
+        "confidence": "high",
+        "notes": "Multiple instances of co-writing songs across different years."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          6
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2007, he had a guest appearance in the TV comedy Two and a Half Men as a carpenter/handyman.",
+          "He also guest-starred as Gael, an Argentinean guitar playing/surfer/massage therapist love interest of Robin in season 3 of the TV show How I Met Your Mother."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time and acting roles."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information despite involvement in ad campaign."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and organization/role details for commercial appearances."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 4,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 3,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

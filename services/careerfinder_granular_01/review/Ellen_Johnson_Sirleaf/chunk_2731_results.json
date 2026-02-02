@@ -1,0 +1,108 @@
+{
+  "status": "success",
+  "chunk_id": 2731,
+  "chunk_index": 12,
+  "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10722368/",
+  "title": "Searching for Meaning in the Life of Ellen Johnson-Sirleaf: A Call to Meaningful Responses to Tragedies - PMC",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "From childhood",
+          "type": "point",
+          "quotes": [
+            "From childhood, Johnson-Sirleaf appears to have openly opposed patriarchal values (Cooper, 2017)."
+          ]
+        },
+        {
+          "text": "12 to 20 years",
+          "type": "range",
+          "quotes": [
+            "Erikson (1968) argued that the period from 12 to 20 years is essential for identity formation."
+          ]
+        },
+        {
+          "text": "at 17",
+          "type": "point",
+          "quotes": [
+            "Consequently, Johnson-Sirleaf temporarily abandoned her ambitions by marrying at 17 and giving birth to four children in five years."
+          ]
+        },
+        {
+          "text": "five years",
+          "type": "range",
+          "quotes": [
+            "Consequently, Johnson-Sirleaf temporarily abandoned her ambitions by marrying at 17 and giving birth to four children in five years."
+          ]
+        }
+      ],
+      "organizations": [],
+      "roles": [
+        {
+          "title": "leadership roles in school",
+          "quotes": [
+            "She engaged in activities mainly for boys, for instance, playing football and taking up leadership roles in school (Johnson-Sirleaf, 2010)."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "From childhood, Johnson-Sirleaf appears to have openly opposed patriarchal values (Cooper, 2017).",
+          "She engaged in activities mainly for boys, for instance, playing football and taking up leadership roles in school (Johnson-Sirleaf, 2010)."
+        ],
+        "confidence": "medium",
+        "notes": "Time markers and role are linked through the context of Johnson-Sirleaf's early life, but the exact timing of the leadership roles is not explicitly stated."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location information, which is not inferable from the context."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quotes mention leadership roles in school but do not explicitly link them to a specific career position or responsibilities."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as 'career_position', but the role 'leadership roles in school' could be interpreted as part of educational activities rather than a formal career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "status": "success",
+  "chunk_id": 3835,
+  "chunk_index": 0,
+  "source_url": "https://www.pbs.org/wgbh/commandingheights/shared/minitext/int_ricardolagos.html",
+  "title": "Commanding Heights : Ricardo Lagos | on PBS",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1960s",
+          "type": "point",
+          "quotes": [
+            "Chile's Closed Economy of the 1960s",
+            "In the '60s it was much easier to convince an American university to accept somebody with a law background.",
+            "Then what you have is the sense that you can build your own economy in the way that you want, and this is the reason why, during the '60s in Chile, there were extreme political procedures in the area of economic policies"
+          ]
+        },
+        {
+          "text": "01/19/02",
+          "type": "point",
+          "quotes": [
+            "Interview conducted 01/19/02"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Socialist Party",
+          "quotes": [
+            "Currently the president of Chile, Socialist Party leader Ricardo Lagos began his career as an economist and lawyer."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "president of Chile",
+          "quotes": [
+            "Currently the president of Chile, Socialist Party leader Ricardo Lagos began his career as an economist and lawyer."
+          ]
+        },
+        {
+          "title": "Socialist Party leader",
+          "quotes": [
+            "Currently the president of Chile, Socialist Party leader Ricardo Lagos began his career as an economist and lawyer."
+          ]
+        },
+        {
+          "title": "economist",
+          "quotes": [
+            "Currently the president of Chile, Socialist Party leader Ricardo Lagos began his career as an economist and lawyer."
+          ]
+        },
+        {
+          "title": "lawyer",
+          "quotes": [
+            "Currently the president of Chile, Socialist Party leader Ricardo Lagos began his career as an economist and lawyer."
+          ]
+        },
+        {
+          "title": "minister of education",
+          "quotes": [
+            "he has served as minister of education and minister of public works."
+          ]
+        },
+        {
+          "title": "minister of public works",
+          "quotes": [
+            "he has served as minister of education and minister of public works."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Chile",
+          "quotes": [
+            "Currently the president of Chile, Socialist Party leader Ricardo Lagos began his career as an economist and lawyer.",
+            "Living in a very closed world in this country meant that whiskey, Scotch whiskey, not to mention bourbon -- nobody knew bourbon -- but Scotch whiskey was something almost impossible to find here in Chile.",
+            "Then what you have is the sense that you can build your own economy in the way that you want, and this is the reason why, during the '60s in Chile, there were extreme political procedures in the area of economic policies"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Currently the president of Chile, Socialist Party leader Ricardo Lagos began his career as an economist and lawyer."
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker, but role and organization are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "he has served as minister of education and minister of public works."
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker or organization, but role is clearly a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          5
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "he has served as minister of education and minister of public works."
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker or organization, but role is clearly a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2,
+          3
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Currently the president of Chile, Socialist Party leader Ricardo Lagos began his career as an economist and lawyer.",
+          "In the '60s it was much easier to convince an American university to accept somebody with a law background."
+        ],
+        "confidence": "medium",
+        "notes": "Time marker is indirectly linked through the context of the 1960s, but roles are clearly career positions."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position as president of Chile."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and time marker for the career position as minister of education."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and time marker for the career position as minister of public works."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization for the career positions as economist and lawyer."
+          },
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "Time marker '1960s' is indirectly linked and may not accurately represent the start of the career."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 0,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

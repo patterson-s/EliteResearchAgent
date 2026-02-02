@@ -1,0 +1,294 @@
+{
+  "status": "success",
+  "chunk_id": 999,
+  "chunk_index": 0,
+  "source_url": "https://en.wikipedia.org/wiki/Doris_Leuthard",
+  "title": "Doris Leuthard - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "from 2006 to 2018",
+          "type": "range",
+          "quotes": [
+            "Swiss Federal Councillor from 2006 to 2018",
+            "Member of the Swiss Federal Council from 2006 to 2018"
+          ]
+        },
+        {
+          "text": "1 January 2017 – 31 December 2017",
+          "type": "range",
+          "quotes": [
+            "In office 1 January 2017 – 31 December 2017"
+          ]
+        },
+        {
+          "text": "1 January 2010 – 31 December 2010",
+          "type": "range",
+          "quotes": [
+            "In office 1 January 2010 – 31 December 2010"
+          ]
+        },
+        {
+          "text": "1 January 2016 – 31 December 2016",
+          "type": "range",
+          "quotes": [
+            "In office 1 January 2016 – 31 December 2016"
+          ]
+        },
+        {
+          "text": "1 January 2009 – 31 December 2009",
+          "type": "range",
+          "quotes": [
+            "In office 1 January 2009 – 31 December 2009"
+          ]
+        },
+        {
+          "text": "1 November 2010 – 31 December 2018",
+          "type": "range",
+          "quotes": [
+            "In office 1 November 2010 – 31 December 2018"
+          ]
+        },
+        {
+          "text": "1 August 2006 – 31 October 2010",
+          "type": "range",
+          "quotes": [
+            "In office 1 August 2006 – 31 October 2010"
+          ]
+        },
+        {
+          "text": "1 August 2006 – 31 December 2018",
+          "type": "range",
+          "quotes": [
+            "In office 1 August 2006 – 31 December 2018"
+          ]
+        },
+        {
+          "text": "10 April 1963",
+          "type": "point",
+          "quotes": [
+            "Born (1963-04-10) 10 April 1963"
+          ]
+        },
+        {
+          "text": "as of 19 December 2019",
+          "type": "point",
+          "quotes": [
+            "As of 19 December 2019 she is a member of the board of the Kofi Annan Foundation"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Swiss Federal Council",
+          "quotes": [
+            "Member of the Swiss Federal Council from 2006 to 2018"
+          ]
+        },
+        {
+          "name": "Christian Democratic People's Party",
+          "quotes": [
+            "A member of the Christian Democratic People's Party (CVP/PDC)"
+          ]
+        },
+        {
+          "name": "Federal Department of Economic Affairs",
+          "quotes": [
+            "Federal Department of Economic Affairs"
+          ]
+        },
+        {
+          "name": "Federal Department of Environment, Transport, Energy and Communications",
+          "quotes": [
+            "Federal Department of Environment, Transport, Energy and Communications"
+          ]
+        },
+        {
+          "name": "Kofi Annan Foundation",
+          "quotes": [
+            "As of 19 December 2019 she is a member of the board of the Kofi Annan Foundation"
+          ]
+        },
+        {
+          "name": "Stadler Rail",
+          "quotes": [
+            "and Stadler Rail"
+          ]
+        },
+        {
+          "name": "University of Zurich",
+          "quotes": [
+            "Alma mater University of Zurich"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Swiss Federal Councillor",
+          "quotes": [
+            "Swiss Federal Councillor from 2006 to 2018"
+          ]
+        },
+        {
+          "title": "President of the Swiss Confederation",
+          "quotes": [
+            "elected as President of the Swiss Confederation for 2010 and 2017"
+          ]
+        },
+        {
+          "title": "Head of the Federal Department of Economic Affairs",
+          "quotes": [
+            "headed the Federal Department of Economic Affairs"
+          ]
+        },
+        {
+          "title": "Head of the Federal Department of Environment, Transport, Energy and Communications",
+          "quotes": [
+            "head of the Federal Department of Environment, Transport, Energy and Communications"
+          ]
+        },
+        {
+          "title": "Member of the board",
+          "quotes": [
+            "As of 19 December 2019 she is a member of the board of the Kofi Annan Foundation and Stadler Rail"
+          ]
+        },
+        {
+          "title": "Vice President of Switzerland",
+          "quotes": [
+            "Vice President of Switzerland"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Merenschwand, Switzerland",
+          "quotes": [
+            "Born (1963-04-10) 10 April 1963 Merenschwand, Switzerland"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Swiss Federal Councillor from 2006 to 2018",
+          "Member of the Swiss Federal Council from 2006 to 2018"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "elected as President of the Swiss Confederation for 2010 and 2017"
+        ],
+        "confidence": "medium",
+        "notes": "Role mentioned without explicit organization, but assumed to be Swiss Federal Council"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          6
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "head of the Federal Department of Environment, Transport, Energy and Communications"
+        ],
+        "confidence": "medium",
+        "notes": "Role mentioned without explicit time or organization, but assumed to be within Swiss Federal Council tenure"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          10
+        ],
+        "organization_ids": [
+          4,
+          5
+        ],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "As of 19 December 2019 she is a member of the board of the Kofi Annan Foundation and Stadler Rail"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organizations, and role"
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing organization information, though context suggests Swiss Federal Council"
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time and organization information, though assumed to be within Swiss Federal Council tenure"
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 2,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "status": "success",
+  "chunk_id": 805,
+  "chunk_index": 0,
+  "source_url": "https://internationaldiplomat.com/archives/4670",
+  "title": "Interview with His Excellency Nicolai Astrup, Minister of International Development of Norway – International Diplomat Global",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "International Diplomat Magazine",
+          "quotes": [
+            "La première édition globale de International Diplomat Magazine a terminé sa migration ultime"
+          ]
+        },
+        {
+          "name": "United Nations",
+          "quotes": [
+            "United Nations Secretary-General’s High-level Panel on Digital Cooperation"
+          ]
+        },
+        {
+          "name": "Bill & Melinda Gates Foundation",
+          "quotes": [
+            "Ms. Melinda Gates, Co-Chair of the Bill & Melinda Gates Foundation"
+          ]
+        },
+        {
+          "name": "Alibaba Group",
+          "quotes": [
+            "Mr. Jack Ma, Executive Chairman of Alibaba Group"
+          ]
+        },
+        {
+          "name": "Erna Solberg Government",
+          "quotes": [
+            "You seem to be the youngest member of the Erna Solberg Government?"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Minister of International Development of Norway",
+          "quotes": [
+            "Interview with His Excellency Nicolai Astrup, Minister of International Development of Norway"
+          ]
+        },
+        {
+          "title": "Norwegian Prime Minister",
+          "quotes": [
+            "The Norwegian Prime Minister, Erna Solberg picked the right man for this important position"
+          ]
+        },
+        {
+          "title": "Member of the UN Secretary-General’s High-Level Panel",
+          "quotes": [
+            "You are one of 20 members of the UN Secretary-General’s High-Level Panel, appointed in your personal capacity"
+          ]
+        },
+        {
+          "title": "Co-Chair of the Bill & Melinda Gates Foundation",
+          "quotes": [
+            "Ms. Melinda Gates, Co-Chair of the Bill & Melinda Gates Foundation"
+          ]
+        },
+        {
+          "title": "Executive Chairman of Alibaba Group",
+          "quotes": [
+            "Mr. Jack Ma, Executive Chairman of Alibaba Group"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Geneva",
+          "quotes": [
+            "We had a chance to meet him in Geneva, where he participated in the United Nations Secretary-General’s High-level Panel on Digital Cooperation"
+          ]
+        },
+        {
+          "place": "Norway",
+          "quotes": [
+            "It is not every day that one has the chance to meet a person like the Norwegian Minister of International Development, Nicolai Astrup"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "United Nations Secretary-General’s High-level Panel on Digital Cooperation",
+          "You are one of 20 members of the UN Secretary-General’s High-Level Panel, appointed in your personal capacity",
+          "We had a chance to meet him in Geneva, where he participated in the United Nations Secretary-General’s High-level Panel on Digital Cooperation"
+        ],
+        "confidence": "high",
+        "notes": "Role and organization are clearly linked through the UN Secretary-General’s High-Level Panel."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Ms. Melinda Gates, Co-Chair of the Bill & Melinda Gates Foundation"
+        ],
+        "confidence": "high",
+        "notes": "Role and organization are directly linked through the Co-Chair position at the Bill & Melinda Gates Foundation."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Mr. Jack Ma, Executive Chairman of Alibaba Group"
+        ],
+        "confidence": "high",
+        "notes": "Role and organization are directly linked through the Executive Chairman position at Alibaba Group."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Interview with His Excellency Nicolai Astrup, Minister of International Development of Norway",
+          "It is not every day that one has the chance to meet a person like the Norwegian Minister of International Development, Nicolai Astrup"
+        ],
+        "confidence": "high",
+        "notes": "Role and organization are linked through the Minister position in the Erna Solberg Government, with location in Norway."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "The Norwegian Prime Minister, Erna Solberg picked the right man for this important position",
+          "You seem to be the youngest member of the Erna Solberg Government?"
+        ],
+        "confidence": "high",
+        "notes": "Role and organization are linked through the Prime Minister position in the Erna Solberg Government, with location in Norway."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers and location for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers and location for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 0,
+      "warnings": 5,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

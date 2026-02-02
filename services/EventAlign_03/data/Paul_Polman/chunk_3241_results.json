@@ -1,0 +1,248 @@
+{
+  "status": "success",
+  "chunk_id": 3241,
+  "chunk_index": 0,
+  "source_url": "https://magazine.uc.edu/content/dam/magazine/docs/PaulPolmanPortfolio08.pdf",
+  "title": "PaulPolmanPortfolio08.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "late 1970s",
+          "type": "point",
+          "quotes": [
+            "It was amidst the /f_inancial instability of the late 1970s, a /f_ter all, that he decided to move from his native Netherlands to pursue two graduate degrees at UC."
+          ]
+        },
+        {
+          "text": "From 2005 through 2008",
+          "type": "range",
+          "quotes": [
+            "From 2005 through 2008, he was chief /f_inance o ﬃcer for the world’s largest food company, Nestlé."
+          ]
+        },
+        {
+          "text": "FAL L  2008",
+          "type": "point",
+          "quotes": [
+            "MBA AND MS STUDE NTS WIN FIRS T ACG CU P V O LU M E  23, FAL L  2008"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "UC",
+          "quotes": [
+            "he decided to move from his native Netherlands to pursue two graduate degrees at UC.",
+            "The lessons he learned at UC have held Polman in good stead during this three-decade career in the consumer-goods industry."
+          ]
+        },
+        {
+          "name": "Unilever",
+          "quotes": [
+            "Polman recently took the reigns as chief executive o ﬃcer of consumer-goods giant Unilever.",
+            "‘Patrick Cescau has done an amazing job transforming this company over the last four years and preparing it for today’s challenging times, ’ says Polman. ‘Unilever is now a /f_itter, leaner, more competitive organization, ready to compete in today’s environment.’"
+          ]
+        },
+        {
+          "name": "Procter & Gamble",
+          "quotes": [
+            "Before Unilever, his studies at UC helped launch a 26-year career at another consumer-goods leviathan—Procter & Gamble—culminating with his position as group president of P&G Europe."
+          ]
+        },
+        {
+          "name": "Nestlé",
+          "quotes": [
+            "From 2005 through 2008, he was chief /f_inance o ﬃcer for the world’s largest food company, Nestlé."
+          ]
+        },
+        {
+          "name": "University of Groningen",
+          "quotes": [
+            "Polman chose an American university because he wanted to be exposed to the world’s top business leaders. ‘During my undergraduate courses at the University of Groningen"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "chief executive o ﬃcer",
+          "quotes": [
+            "Polman recently took the reigns as chief executive o ﬃcer of consumer-goods giant Unilever."
+          ]
+        },
+        {
+          "title": "group president of P&G Europe",
+          "quotes": [
+            "Before Unilever, his studies at UC helped launch a 26-year career at another consumer-goods leviathan—Procter & Gamble—culminating with his position as group president of P&G Europe."
+          ]
+        },
+        {
+          "title": "chief /f_inance o ﬃcer",
+          "quotes": [
+            "From 2005 through 2008, he was chief /f_inance o ﬃcer for the world’s largest food company, Nestlé."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Netherlands",
+          "quotes": [
+            "It was amidst the /f_inancial instability of the late 1970s, a /f_ter all, that he decided to move from his native Netherlands to pursue two graduate degrees at UC."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "It was amidst the /f_inancial instability of the late 1970s, a /f_ter all, that he decided to move from his native Netherlands to pursue two graduate degrees at UC.",
+          "he decided to move from his native Netherlands to pursue two graduate degrees at UC.",
+          "The lessons he learned at UC have held Polman in good stead during this three-decade career in the consumer-goods industry."
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but the context indicates a student position at UC."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "From 2005 through 2008, he was chief /f_inance o ﬃcer for the world’s largest food company, Nestlé."
+        ],
+        "confidence": "high",
+        "notes": "Clear role and organization with a defined time period."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Before Unilever, his studies at UC helped launch a 26-year career at another consumer-goods leviathan—Procter & Gamble—culminating with his position as group president of P&G Europe."
+        ],
+        "confidence": "medium",
+        "notes": "No specific time period mentioned, but the role and organization are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Polman recently took the reigns as chief executive o ﬃcer of consumer-goods giant Unilever.",
+          "‘Patrick Cescau has done an amazing job transforming this company over the last four years and preparing it for today’s challenging times, ’ says Polman. ‘Unilever is now a /f_itter, leaner, more competitive organization, ready to compete in today’s environment.’"
+        ],
+        "confidence": "high",
+        "notes": "Clear role and organization, though the time period is not specified."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Polman chose an American university because he wanted to be exposed to the world’s top business leaders. ‘During my undergraduate courses at the University of Groningen"
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but the context indicates a student position at the University of Groningen."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "No specific role mentioned, only inferred student position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "No specific time period mentioned for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "No specific time period mentioned for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "No specific role mentioned, only inferred student position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 1,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

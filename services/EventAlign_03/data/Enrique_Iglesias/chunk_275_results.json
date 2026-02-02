@@ -1,0 +1,221 @@
+{
+  "status": "success",
+  "chunk_id": 275,
+  "chunk_index": 0,
+  "source_url": "https://en.wikipedia.org/wiki/Enrique_V._Iglesias",
+  "title": "Enrique V. Iglesias - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "from 1967 to 1969",
+          "type": "range",
+          "quotes": [
+            "He served as the first president of the Central Bank of Uruguay from 1967 to 1969."
+          ]
+        },
+        {
+          "text": "from 1988 to 2005",
+          "type": "range",
+          "quotes": [
+            "He has also served as President of the Inter-American Development Bank from 1988 to 2005"
+          ]
+        },
+        {
+          "text": "29 July 1930",
+          "type": "point",
+          "quotes": [
+            "Enrique Valentín Iglesias García (born 29 July 1930 in Arancedo, Asturias)"
+          ]
+        },
+        {
+          "text": "1934",
+          "type": "point",
+          "quotes": [
+            "His parents emigrated to Uruguay in 1934"
+          ]
+        },
+        {
+          "text": "1953",
+          "type": "point",
+          "quotes": [
+            "in 1953, he graduated from Uruguay's Universidad de la República"
+          ]
+        },
+        {
+          "text": "28 May 2019",
+          "type": "point",
+          "quotes": [
+            "He was appointed Special Adviser for Venezuela to Federica Mogherini, the European Union's High Representative for Foreign Affairs and Security Policy and Vice-President of the European Commission, on 28 May 2019."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Central Bank of Uruguay",
+          "quotes": [
+            "He served as the first president of the Central Bank of Uruguay from 1967 to 1969."
+          ]
+        },
+        {
+          "name": "Inter-American Development Bank",
+          "quotes": [
+            "He has also served as President of the Inter-American Development Bank from 1988 to 2005, an international institution dedicated to furthering economic development in the Western Hemisphere through investment and policy formulation."
+          ]
+        },
+        {
+          "name": "European Union",
+          "quotes": [
+            "He was appointed Special Adviser for Venezuela to Federica Mogherini, the European Union's High Representative for Foreign Affairs and Security Policy and Vice-President of the European Commission, on 28 May 2019."
+          ]
+        },
+        {
+          "name": "Universidad de la República",
+          "quotes": [
+            "in 1953, he graduated from Uruguay's Universidad de la República with a degree in economics and business administration."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "President of the Central Bank of Uruguay",
+          "quotes": [
+            "He served as the first president of the Central Bank of Uruguay from 1967 to 1969."
+          ]
+        },
+        {
+          "title": "President of the Inter-American Development Bank",
+          "quotes": [
+            "He has also served as President of the Inter-American Development Bank from 1988 to 2005"
+          ]
+        },
+        {
+          "title": "Special Adviser for Venezuela",
+          "quotes": [
+            "He was appointed Special Adviser for Venezuela to Federica Mogherini, the European Union's High Representative for Foreign Affairs and Security Policy and Vice-President of the European Commission, on 28 May 2019."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Arancedo, Asturias",
+          "quotes": [
+            "Enrique Valentín Iglesias García (born 29 July 1930 in Arancedo, Asturias)"
+          ]
+        },
+        {
+          "place": "Uruguay",
+          "quotes": [
+            "His parents emigrated to Uruguay in 1934 and Enrique was naturalized as a Uruguayan citizen, he currently holds Uruguayan-Spanish dual citizenship."
+          ]
+        },
+        {
+          "place": "Western Hemisphere",
+          "quotes": [
+            "an international institution dedicated to furthering economic development in the Western Hemisphere through investment and policy formulation."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He served as the first president of the Central Bank of Uruguay from 1967 to 1969."
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He has also served as President of the Inter-American Development Bank from 1988 to 2005",
+          "an international institution dedicated to furthering economic development in the Western Hemisphere through investment and policy formulation."
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He was appointed Special Adviser for Venezuela to Federica Mogherini, the European Union's High Representative for Foreign Affairs and Security Policy and Vice-President of the European Commission, on 28 May 2019."
+        ],
+        "confidence": "high",
+        "notes": ""
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information, which could be inferred as Uruguay but is not explicitly stated in the event."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information, though the organization operates in the Western Hemisphere, the specific location of the role is not provided."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

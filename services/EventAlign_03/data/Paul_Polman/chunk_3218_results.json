@@ -1,0 +1,115 @@
+{
+  "status": "success",
+  "chunk_id": 3218,
+  "chunk_index": 0,
+  "source_url": "https://www.paulpolman.com/about/",
+  "title": "About Paul Polman",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "between 2009-19",
+          "type": "range",
+          "quotes": [
+            "I was CEO of Unilever between 2009-19. Working with a tremendous team, we showed that responsible business models can go hand-in-hand with strong performance, raising top and bottom line growth, outperforming the industry, and increasing shareholder returns by 290% while the company consistently ranked first in the world for sustainability and one of the best places to work."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "University of Cincinnati",
+          "quotes": [
+            "After a bachelors in economics in the Netherlands, I finished my graduate studies MA and MBA in Economics and Business in America at the University of Cincinnati."
+          ]
+        },
+        {
+          "name": "Procter & Gamble",
+          "quotes": [
+            "I worked for three great companies in the years that followed: Procter & Gamble, Nestle, and Unilever – all built to last."
+          ]
+        },
+        {
+          "name": "Nestle",
+          "quotes": [
+            "I worked for three great companies in the years that followed: Procter & Gamble, Nestle, and Unilever – all built to last."
+          ]
+        },
+        {
+          "name": "Unilever",
+          "quotes": [
+            "I worked for three great companies in the years that followed: Procter & Gamble, Nestle, and Unilever – all built to last."
+          ]
+        },
+        {
+          "name": "United Nations",
+          "quotes": [
+            "I was honoured to sit on the high-level United Nations panel which originally developed the 2030 Sustainable Development Goals."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "CEO of Unilever",
+          "quotes": [
+            "I was CEO of Unilever between 2009-19. Working with a tremendous team, we showed that responsible business models can go hand-in-hand with strong performance, raising top and bottom line growth, outperforming the industry, and increasing shareholder returns by 290% while the company consistently ranked first in the world for sustainability and one of the best places to work."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Netherlands",
+          "quotes": [
+            "I was one of six children born in the Netherlands."
+          ]
+        },
+        {
+          "place": "America",
+          "quotes": [
+            "After a bachelors in economics in the Netherlands, I finished my graduate studies MA and MBA in Economics and Business in America at the University of Cincinnati."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "I was CEO of Unilever between 2009-19. Working with a tremendous team, we showed that responsible business models can go hand-in-hand with strong performance, raising top and bottom line growth, outperforming the industry, and increasing shareholder returns by 290% while the company consistently ranked first in the world for sustainability and one of the best places to work."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time marker, organization, and role in the same quote."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 1,
+      "warnings": 0,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

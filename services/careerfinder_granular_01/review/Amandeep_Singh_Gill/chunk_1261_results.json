@@ -1,0 +1,244 @@
+{
+  "status": "success",
+  "chunk_id": 1261,
+  "chunk_index": 2,
+  "source_url": "https://en.wikipedia.org/wiki/Amandeep_Singh_Gill",
+  "title": "Amandeep Singh Gill - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2 January 2020",
+          "type": "point",
+          "quotes": [
+            "Amandeep Singh Gill (2 January 2020). 'Imagining the AI future'."
+          ]
+        },
+        {
+          "text": "13 December 2023",
+          "type": "point",
+          "quotes": [
+            "'India has unique position on how AI could play out in the Global South: UN tech envoy'. Economic Times. PTI. 13 December 2023."
+          ]
+        },
+        {
+          "text": "26 September 2023",
+          "type": "point",
+          "quotes": [
+            "Peltz, Jennifer (26 September 2023). 'The UN's tech policy chief is optimistic about AI even though it could subvert democracy, delude society at large and make us less human'."
+          ]
+        },
+        {
+          "text": "17 January 2024",
+          "type": "point",
+          "quotes": [
+            "Retrieved 17 January 2024."
+          ]
+        },
+        {
+          "text": "19 January 2024",
+          "type": "point",
+          "quotes": [
+            "Retrieved 19 January 2024."
+          ]
+        },
+        {
+          "text": "21 January 2024",
+          "type": "point",
+          "quotes": [
+            "Retrieved 21 January 2024."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "United Nations",
+          "quotes": [
+            "United Nations officials",
+            "'India has unique position on how AI could play out in the Global South: UN tech envoy'"
+          ]
+        },
+        {
+          "name": "Panjab University",
+          "quotes": [
+            "Panjab University alumni"
+          ]
+        },
+        {
+          "name": "King's College London",
+          "quotes": [
+            "Alumni of King's College London"
+          ]
+        },
+        {
+          "name": "Indian Foreign Service",
+          "quotes": [
+            "Indian Foreign Service officers"
+          ]
+        },
+        {
+          "name": "IISS",
+          "quotes": [
+            "Amandeep Singh Gill (2 January 2020). 'Imagining the AI future'. IISS."
+          ]
+        },
+        {
+          "name": "Economic Times",
+          "quotes": [
+            "'India has unique position on how AI could play out in the Global South: UN tech envoy'. Economic Times. PTI."
+          ]
+        },
+        {
+          "name": "Fortune Magazine",
+          "quotes": [
+            "Peltz, Jennifer (26 September 2023). 'The UN's tech policy chief is optimistic about AI even though it could subvert democracy, delude society at large and make us less human'. Fortune Magazine."
+          ]
+        },
+        {
+          "name": "Associated Press",
+          "quotes": [
+            "Peltz, Jennifer (26 September 2023). 'The UN's tech policy chief is optimistic about AI even though it could subvert democracy, delude society at large and make us less human'. Associated Press."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Ambassador",
+          "quotes": [
+            "Ambassador Amandeep Singh Gill"
+          ]
+        },
+        {
+          "title": "UN tech envoy",
+          "quotes": [
+            "'India has unique position on how AI could play out in the Global South: UN tech envoy'"
+          ]
+        },
+        {
+          "title": "UN's tech policy chief",
+          "quotes": [
+            "Peltz, Jennifer (26 September 2023). 'The UN's tech policy chief is optimistic about AI even though it could subvert democracy, delude society at large and make us less human'."
+          ]
+        },
+        {
+          "title": "Permanent representative of India to the United Nations",
+          "quotes": [
+            "Permanent representatives of India to the United Nations"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1,
+          2
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1,
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "'India has unique position on how AI could play out in the Global South: UN tech envoy'",
+          "Peltz, Jennifer (26 September 2023). 'The UN's tech policy chief is optimistic about AI even though it could subvert democracy, delude society at large and make us less human'"
+        ],
+        "confidence": "high",
+        "notes": "The role of UN tech envoy and UN's tech policy chief are linked through the United Nations organization and the context of AI policy."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Permanent representatives of India to the United Nations"
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker is provided, but the role is clearly associated with the United Nations."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Amandeep Singh Gill (2 January 2020). 'Imagining the AI future'. IISS.",
+          "Ambassador Amandeep Singh Gill"
+        ],
+        "confidence": "high",
+        "notes": "The role of Ambassador is associated with IISS and the publication date."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "Multiple time markers (13 December 2023 and 26 September 2023) are present, but no clear start and end dates are defined. This could lead to ambiguity in the timeline."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Location information is missing, which may be relevant for a career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "No time markers are provided, making it difficult to place this event in a chronological context."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Location information is missing, which may be relevant for a career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

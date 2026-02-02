@@ -1,0 +1,133 @@
+{
+  "status": "success",
+  "chunk_id": 567,
+  "chunk_index": 67,
+  "source_url": "https://issafrica.s3.amazonaws.com/site/uploads/Book-2015-Salim.pdf",
+  "title": "Book-2015-Salim.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "June 1995",
+          "type": "point",
+          "quotes": [
+            "The OAU summit in June 1995 in Addis Ababa adopted a decision that, for the first time, provided for limited peacekeeping operations, under exceptional circumstances, to be conducted by the OAU itself."
+          ]
+        },
+        {
+          "text": "June 1996",
+          "type": "point",
+          "quotes": [
+            "The first meeting of chiefs of staff of members of the Central Organ of the OAU Mechanism took place in June 1996."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "OAU",
+          "quotes": [
+            "Salim persistently pushed the agenda of an African peacekeeping operation and argued that ‘world events have demonstrated that even though the OAU may wish to focus its efforts on the prevention of conflicts, it cannot exclude itself in some circumstances from undertaking activities of a peacekeeping nature’"
+          ]
+        },
+        {
+          "name": "Central Organ of the OAU Mechanism",
+          "quotes": [
+            "The first meeting of chiefs of staff of members of the Central Organ of the OAU Mechanism took place in June 1996."
+          ]
+        },
+        {
+          "name": "UN",
+          "quotes": [
+            "The meeting focused on two crucial issues: strengthening Africa’s capacity in the field of peacekeeping under the aegis of the UN, and the modalities for limited peacekeeping operations undertaken by the OAU."
+          ]
+        },
+        {
+          "name": "AU’s Peace and Security Architecture",
+          "quotes": [
+            "This would later become the peace fund under the AU’s Peace and Security Architecture."
+          ]
+        },
+        {
+          "name": "regional economic communities (RECs)",
+          "quotes": [
+            "The 1993 Cairo Declaration also created a platform for constructive cooperation and working relations between the OAU and the various regional economic communities (RECs)."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "chiefs of staff",
+          "quotes": [
+            "The first meeting of chiefs of staff of members of the Central Organ of the OAU Mechanism took place in June 1996."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Addis Ababa",
+          "quotes": [
+            "The OAU summit in June 1995 in Addis Ababa adopted a decision that, for the first time, provided for limited peacekeeping operations, under exceptional circumstances, to be conducted by the OAU itself."
+          ]
+        },
+        {
+          "place": "Africa",
+          "quotes": [
+            "Salim said that ‘the future of conflict prevention, management and resolution in Africa depends in large measure, on the establishment of a viable indigenous capacity for peace’."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The first meeting of chiefs of staff of members of the Central Organ of the OAU Mechanism took place in June 1996."
+        ],
+        "confidence": "high",
+        "notes": "Direct linkage between role, organization, and time marker in the same quote."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing location information for the event."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "The quote mentions a meeting of chiefs of staff but does not explicitly state that this is a career position for the individual in question."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

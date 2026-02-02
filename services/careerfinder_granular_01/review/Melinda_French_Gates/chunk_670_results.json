@@ -1,0 +1,133 @@
+{
+  "status": "success",
+  "chunk_id": 670,
+  "chunk_index": 12,
+  "source_url": "https://www.linkedin.com/in/melindagates",
+  "title": "Melinda French Gates - Founder of Pivotal. Co-founder of the Gates Foundation. Author of The Moment of Lift & The Next Day. | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Indiana University Lilly Family School of Philanthropy",
+          "quotes": [
+            "Genevieve Shaker, PhD, professor of Philanthropic Studies  and Donald A. Campbell Chair in Fundraising Leadership at the Indiana University Lilly Family School of Philanthropy.",
+            "Heist earned his master’s degree in Philanthropic Studies from the IU Lilly Family School of Philanthropy."
+          ]
+        },
+        {
+          "name": "Brigham Young University",
+          "quotes": [
+            "Shaker authored the report along with Brigham Young University researchers Rachel M. Sumsion, MPA, and H. Daniel Heist, PhD, under the auspices of the DAF Research Collaborative."
+          ]
+        },
+        {
+          "name": "DAF Research Collaborative",
+          "quotes": [
+            "Shaker authored the report along with Brigham Young University researchers Rachel M. Sumsion, MPA, and H. Daniel Heist, PhD, under the auspices of the DAF Research Collaborative."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "professor of Philanthropic Studies",
+          "quotes": [
+            "Genevieve Shaker, PhD, professor of Philanthropic Studies  and Donald A. Campbell Chair in Fundraising Leadership at the Indiana University Lilly Family School of Philanthropy."
+          ]
+        },
+        {
+          "title": "Donald A. Campbell Chair in Fundraising Leadership",
+          "quotes": [
+            "Genevieve Shaker, PhD, professor of Philanthropic Studies  and Donald A. Campbell Chair in Fundraising Leadership at the Indiana University Lilly Family School of Philanthropy."
+          ]
+        },
+        {
+          "title": "researchers",
+          "quotes": [
+            "Shaker authored the report along with Brigham Young University researchers Rachel M. Sumsion, MPA, and H. Daniel Heist, PhD, under the auspices of the DAF Research Collaborative."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Genevieve Shaker, PhD, professor of Philanthropic Studies  and Donald A. Campbell Chair in Fundraising Leadership at the Indiana University Lilly Family School of Philanthropy."
+        ],
+        "confidence": "high",
+        "notes": "No time markers available, but organization and roles are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1,
+          2
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Shaker authored the report along with Brigham Young University researchers Rachel M. Sumsion, MPA, and H. Daniel Heist, PhD, under the auspices of the DAF Research Collaborative."
+        ],
+        "confidence": "high",
+        "notes": "Researchers are associated with Brigham Young University and DAF Research Collaborative, though no time markers are available."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position, making temporal coherence impossible to verify."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position, making temporal coherence impossible to verify."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Role 'researchers' is somewhat vague and may not clearly indicate a specific career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "status": "success",
+  "chunk_id": 304,
+  "chunk_index": 7,
+  "source_url": "https://en.wikipedia.org/wiki/Amr_Moussa",
+  "title": "Amr Moussa - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1990–1991",
+          "type": "range",
+          "quotes": [
+            "Egyptian Ambassador to the United Nations, 1990–1991"
+          ]
+        },
+        {
+          "text": "2001–2011",
+          "type": "range",
+          "quotes": [
+            "Secretary-General of the Arab League, 2001–2011"
+          ]
+        },
+        {
+          "text": "1991–2001",
+          "type": "range",
+          "quotes": [
+            "Minister of Foreign Affairs, 1991–2001"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "League of Arab States",
+          "quotes": [
+            "Secretary-General at League of Arab States"
+          ]
+        },
+        {
+          "name": "Arab League",
+          "quotes": [
+            "Amr Moussa, secretary general of the Arab League",
+            "Secretary-General of the Arab League, 2001–2011"
+          ]
+        },
+        {
+          "name": "United Nations",
+          "quotes": [
+            "Egyptian Ambassador to the United Nations, 1990–1991"
+          ]
+        },
+        {
+          "name": "Cairo University",
+          "quotes": [
+            "Cairo University alumni"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Secretary-General",
+          "quotes": [
+            "Secretary-General at League of Arab States",
+            "Secretary-General of the Arab League, 2001–2011"
+          ]
+        },
+        {
+          "title": "Egyptian Ambassador to the United Nations",
+          "quotes": [
+            "Egyptian Ambassador to the United Nations, 1990–1991"
+          ]
+        },
+        {
+          "title": "Minister of Foreign Affairs",
+          "quotes": [
+            "Minister of Foreign Affairs, 1991–2001"
+          ]
+        },
+        {
+          "title": "Permanent representative of Egypt to the United Nations",
+          "quotes": [
+            "Permanent representatives of Egypt to the United Nations"
+          ]
+        },
+        {
+          "title": "Ambassador of Egypt to India",
+          "quotes": [
+            "Ambassadors of Egypt to India"
+          ]
+        },
+        {
+          "title": "Ambassador of Egypt to Switzerland",
+          "quotes": [
+            "Ambassadors of Egypt to Switzerland"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Cairo",
+          "quotes": [
+            "Politicians from Cairo"
+          ]
+        },
+        {
+          "place": "Egypt",
+          "quotes": [
+            "Egyptian Ambassador to the United Nations",
+            "Ambassadors of Egypt to India",
+            "Ambassadors of Egypt to Switzerland",
+            "Minister of Foreign Affairs of Egypt"
+          ]
+        },
+        {
+          "place": "India",
+          "quotes": [
+            "Ambassadors of Egypt to India"
+          ]
+        },
+        {
+          "place": "Switzerland",
+          "quotes": [
+            "Ambassadors of Egypt to Switzerland"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Egyptian Ambassador to the United Nations, 1990–1991"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Minister of Foreign Affairs, 1991–2001"
+        ],
+        "confidence": "high",
+        "notes": "No specific organization mentioned, but role and location are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Secretary-General of the Arab League, 2001–2011",
+          "Secretary-General at League of Arab States"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the Minister of Foreign Affairs role."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 2,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,292 @@
+{
+  "status": "success",
+  "chunk_id": 172,
+  "chunk_index": 9,
+  "source_url": "https://en.wikipedia.org/wiki/Gareth_Evans_(politician)",
+  "title": "Gareth Evans (politician) - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "December 2001",
+          "type": "point",
+          "quotes": [
+            "which published its report, The Responsibility to Protect, in December 2001."
+          ]
+        },
+        {
+          "text": "2005",
+          "type": "point",
+          "quotes": [
+            "at the 2005 World Summit,"
+          ]
+        },
+        {
+          "text": "July 2009",
+          "type": "point",
+          "quotes": [
+            "including in July 2009 participating at the UNGA in an interactive dialogue with Noam Chomsky."
+          ]
+        },
+        {
+          "text": "1990s",
+          "type": "range",
+          "quotes": [
+            "which had failed to generate any international consensus about how to respond to the 1990s catastrophes of Rwanda, Bosnia and Kosovo."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "International Commission on Intervention and State Sovereignty (ICISS)",
+          "quotes": [
+            "the International Commission on Intervention and State Sovereignty (ICISS), appointed by the government of Canada to address the issue of genocide and other mass atrocity crimes,"
+          ]
+        },
+        {
+          "name": "United Nations General Assembly",
+          "quotes": [
+            "as endorsed by the United Nations General Assembly at the 2005 World Summit,"
+          ]
+        },
+        {
+          "name": "UN Security Council",
+          "quotes": [
+            "with coercive military intervention, approved by the UN Security Council, available as a last resort."
+          ]
+        },
+        {
+          "name": "UN Secretary-General's High Level Panel on Threats, Challenges and Change",
+          "quotes": [
+            "subsequently as a member of the UN Secretary-General's High Level Panel on Threats, Challenges and Change,"
+          ]
+        },
+        {
+          "name": "Global Centre on the Responsibility to Protect",
+          "quotes": [
+            "Co-Chair of the Advisory Board of the Global Centre on the Responsibility to Protect,"
+          ]
+        },
+        {
+          "name": "Global Responsibility to Protect",
+          "quotes": [
+            "a member of the Editorial Board of the journal Global Responsibility to Protect"
+          ]
+        },
+        {
+          "name": "Brookings Institution",
+          "quotes": [
+            "and as the author of the Brookings Institution-published The Responsibility to Protect: Ending Mass Atrocity Crimes Once and For All"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "co-chair of the International Commission on Intervention and State Sovereignty",
+          "quotes": [
+            "first as co-chair of the International Commission on Intervention and State Sovereignty which introduced the expression in its 2001 report of that name,"
+          ]
+        },
+        {
+          "title": "member of the UN Secretary-General's High Level Panel on Threats, Challenges and Change",
+          "quotes": [
+            "subsequently as a member of the UN Secretary-General's High Level Panel on Threats, Challenges and Change,"
+          ]
+        },
+        {
+          "title": "Co-Chair of the Advisory Board of the Global Centre on the Responsibility to Protect",
+          "quotes": [
+            "Co-Chair of the Advisory Board of the Global Centre on the Responsibility to Protect,"
+          ]
+        },
+        {
+          "title": "member of the Editorial Board of the journal Global Responsibility to Protect",
+          "quotes": [
+            "a member of the Editorial Board of the journal Global Responsibility to Protect"
+          ]
+        },
+        {
+          "title": "author",
+          "quotes": [
+            "and as the author of the Brookings Institution-published The Responsibility to Protect: Ending Mass Atrocity Crimes Once and For All"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Rwanda",
+          "quotes": [
+            "which had failed to generate any international consensus about how to respond to the 1990s catastrophes of Rwanda, Bosnia and Kosovo."
+          ]
+        },
+        {
+          "place": "Bosnia",
+          "quotes": [
+            "which had failed to generate any international consensus about how to respond to the 1990s catastrophes of Rwanda, Bosnia and Kosovo."
+          ]
+        },
+        {
+          "place": "Kosovo",
+          "quotes": [
+            "which had failed to generate any international consensus about how to respond to the 1990s catastrophes of Rwanda, Bosnia and Kosovo."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "first as co-chair of the International Commission on Intervention and State Sovereignty which introduced the expression in its 2001 report of that name,",
+          "which published its report, The Responsibility to Protect, in December 2001."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role, organization, and time marker."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "subsequently as a member of the UN Secretary-General's High Level Panel on Threats, Challenges and Change,"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time marker, but role and organization are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Co-Chair of the Advisory Board of the Global Centre on the Responsibility to Protect,"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role and organization."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "a member of the Editorial Board of the journal Global Responsibility to Protect"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role and organization."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          6
+        ],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "and as the author of the Brookings Institution-published The Responsibility to Protect: Ending Mass Atrocity Crimes Once and For All"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role and organization."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the event."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the event."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the event."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the event."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The role 'author' might not be a career position but rather a one-time activity."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 1,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "status": "success",
+  "chunk_id": 2980,
+  "chunk_index": 0,
+  "source_url": "https://usao.edu/news/spotlight-alonso.html",
+  "title": "Student Spotlight: Gisela Alonso | University of Science and Arts of Oklahoma",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "August 09, 2023",
+          "type": "point",
+          "quotes": [
+            "August 09, 2023"
+          ]
+        },
+        {
+          "text": "about five years",
+          "type": "range",
+          "quotes": [
+            "she had been out of college for about five years"
+          ]
+        },
+        {
+          "text": "set to graduate in 2025",
+          "type": "point",
+          "quotes": [
+            "Now a communications major set to graduate in 2025"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "University of Science and Arts of Oklahoma",
+          "quotes": [
+            "University of Science and Arts of Oklahoma",
+            "USAO"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "student",
+          "quotes": [
+            "Student Spotlight: Gisela Alonso",
+            "During her time as a student"
+          ]
+        },
+        {
+          "title": "communications major",
+          "quotes": [
+            "Now a communications major set to graduate in 2025"
+          ]
+        },
+        {
+          "title": "professor of communication",
+          "quotes": [
+            "Dr. J.C. Casey, professor of communication"
+          ]
+        },
+        {
+          "title": "advisor",
+          "quotes": [
+            "became my advisor"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Carnegie",
+          "quotes": [
+            "Gisela Alonso of Carnegie"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Now a communications major set to graduate in 2025",
+          "University of Science and Arts of Oklahoma",
+          "Gisela Alonso of Carnegie"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time marker, organization, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Dr. J.C. Casey, professor of communication",
+          "became my advisor",
+          "University of Science and Arts of Oklahoma"
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker, but role and organization are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "she had been out of college for about five years",
+          "During her time as a student",
+          "University of Science and Arts of Oklahoma",
+          "Gisela Alonso of Carnegie"
+        ],
+        "confidence": "medium",
+        "notes": "Time marker is approximate, but role, organization, and location are linked."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "Time marker is approximate and may not provide precise dating for the event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "status": "success",
+  "chunk_id": 3866,
+  "chunk_index": 3,
+  "source_url": "https://en.wikipedia.org/wiki/Louis_Michel",
+  "title": "Louis Michel - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "since he became Belgian Minister of Foreign Affairs (1999–2004)",
+          "type": "range",
+          "quotes": [
+            "Michel has been interested in the Central Africa situation and busy with the Democratic Republic of the Congo dossier since he became Belgian Minister of Foreign Affairs (1999–2004) and European Commissioner in charge of the Development & Humanitarian Aid in the Barroso Commission."
+          ]
+        },
+        {
+          "text": "Congo was a Belgian colony between 1908 and 1960",
+          "type": "range",
+          "quotes": [
+            "Congo was a Belgian colony between 1908 and 1960. Since then, the relations between Brussels and Kinshasa have been tumultuous."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Barroso Commission",
+          "quotes": [
+            "Michel has been interested in the Central Africa situation and busy with the Democratic Republic of the Congo dossier since he became Belgian Minister of Foreign Affairs (1999–2004) and European Commissioner in charge of the Development & Humanitarian Aid in the Barroso Commission."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Belgian Minister of Foreign Affairs",
+          "quotes": [
+            "Michel has been interested in the Central Africa situation and busy with the Democratic Republic of the Congo dossier since he became Belgian Minister of Foreign Affairs (1999–2004) and European Commissioner in charge of the Development & Humanitarian Aid in the Barroso Commission."
+          ]
+        },
+        {
+          "title": "European Commissioner in charge of the Development & Humanitarian Aid",
+          "quotes": [
+            "Michel has been interested in the Central Africa situation and busy with the Democratic Republic of the Congo dossier since he became Belgian Minister of Foreign Affairs (1999–2004) and European Commissioner in charge of the Development & Humanitarian Aid in the Barroso Commission."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Democratic Republic of the Congo",
+          "quotes": [
+            "Michel has been interested in the Central Africa situation and busy with the Democratic Republic of the Congo dossier since he became Belgian Minister of Foreign Affairs (1999–2004) and European Commissioner in charge of the Development & Humanitarian Aid in the Barroso Commission."
+          ]
+        },
+        {
+          "place": "Brussels",
+          "quotes": [
+            "Since then, the relations between Brussels and Kinshasa have been tumultuous."
+          ]
+        },
+        {
+          "place": "Kinshasa",
+          "quotes": [
+            "Since then, the relations between Brussels and Kinshasa have been tumultuous."
+          ]
+        },
+        {
+          "place": "Katanga",
+          "quotes": [
+            "They have included such events as the secession of Katanga backed by Belgium, the murder of the Prime Minister Lumumba by the"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Michel has been interested in the Central Africa situation and busy with the Democratic Republic of the Congo dossier since he became Belgian Minister of Foreign Affairs (1999–2004) and European Commissioner in charge of the Development & Humanitarian Aid in the Barroso Commission."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time marker, role, and location based on the quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Michel has been interested in the Central Africa situation and busy with the Democratic Republic of the Congo dossier since he became Belgian Minister of Foreign Affairs (1999–2004) and European Commissioner in charge of the Development & Humanitarian Aid in the Barroso Commission."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time marker, organization, role, and location based on the quote."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

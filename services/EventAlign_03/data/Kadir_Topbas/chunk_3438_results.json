@@ -1,0 +1,333 @@
+{
+  "status": "success",
+  "chunk_id": 3438,
+  "chunk_index": 1,
+  "source_url": "http://www.citymayors.com/mayors/istanbul-mayor.html",
+  "title": "City Mayors: Kadir Topbas - Mayor of Istanbul",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "5 April 2009",
+          "type": "point",
+          "quotes": [
+            "5 April 2009: Istanbul is the only city in the world to straddle two continents, an historic bridge between Europe and Asia."
+          ]
+        },
+        {
+          "text": "1945",
+          "type": "point",
+          "quotes": [
+            "Topbas was born in 1945 in the Black Sea province of Artvin (which borders Georgia), moving with his family to Istanbul a year later."
+          ]
+        },
+        {
+          "text": "1972",
+          "type": "point",
+          "quotes": [
+            "He graduated from the Marmara University Faculty of Theology in 1972 and Mimar Sinan University’s Department of Architecture in 1974."
+          ]
+        },
+        {
+          "text": "1974",
+          "type": "point",
+          "quotes": [
+            "He graduated from the Marmara University Faculty of Theology in 1972 and Mimar Sinan University’s Department of Architecture in 1974."
+          ]
+        },
+        {
+          "text": "Between 1994 and 1998",
+          "type": "range",
+          "quotes": [
+            "Between 1994 and 1998, he served as architectural adviser to Istanbul Mayor (and now Prime Minister) Recep Tayyip Erdogan, overseeing the restoration of a number of historic buildings in the city and was also appointed to act as deputy"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "United Cities and Local Governments",
+          "quotes": [
+            "An architect by training, recently he was elected co-president of the United Cities and Local Governments organisation."
+          ]
+        },
+        {
+          "name": "Marmara University Faculty of Theology",
+          "quotes": [
+            "He graduated from the Marmara University Faculty of Theology in 1972 and Mimar Sinan University’s Department of Architecture in 1974."
+          ]
+        },
+        {
+          "name": "Mimar Sinan University’s Department of Architecture",
+          "quotes": [
+            "He graduated from the Marmara University Faculty of Theology in 1972 and Mimar Sinan University’s Department of Architecture in 1974."
+          ]
+        },
+        {
+          "name": "Istanbul University",
+          "quotes": [
+            "He then obtained a PhD in architectural history at Istanbul University (for the thesis ‘Hidiv Kasrı and its place in Bosphorus civilian architecture’), going on to work as a freelance architect for several years."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Mayor of Istanbul",
+          "quotes": [
+            "Kadir Topbas, Mayor of Istanbul"
+          ]
+        },
+        {
+          "title": "co-president of the United Cities and Local Governments",
+          "quotes": [
+            "An architect by training, recently he was elected co-president of the United Cities and Local Governments organisation."
+          ]
+        },
+        {
+          "title": "architectural adviser to Istanbul Mayor",
+          "quotes": [
+            "Between 1994 and 1998, he served as architectural adviser to Istanbul Mayor (and now Prime Minister) Recep Tayyip Erdogan, overseeing the restoration of a number of historic buildings in the city and was also appointed to act as deputy"
+          ]
+        },
+        {
+          "title": "deputy",
+          "quotes": [
+            "Between 1994 and 1998, he served as architectural adviser to Istanbul Mayor (and now Prime Minister) Recep Tayyip Erdogan, overseeing the restoration of a number of historic buildings in the city and was also appointed to act as deputy"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Istanbul",
+          "quotes": [
+            "Istanbul is the only city in the world to straddle two continents, an historic bridge between Europe and Asia."
+          ]
+        },
+        {
+          "place": "Artvin",
+          "quotes": [
+            "Topbas was born in 1945 in the Black Sea province of Artvin (which borders Georgia), moving with his family to Istanbul a year later."
+          ]
+        },
+        {
+          "place": "Georgia",
+          "quotes": [
+            "Topbas was born in 1945 in the Black Sea province of Artvin (which borders Georgia), moving with his family to Istanbul a year later."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1,
+          2
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "He graduated from the Marmara University Faculty of Theology in 1972 and Mimar Sinan University’s Department of Architecture in 1974.",
+          "Topbas was born in 1945 in the Black Sea province of Artvin (which borders Georgia), moving with his family to Istanbul a year later."
+        ],
+        "confidence": "high",
+        "notes": "Graduation from Marmara University Faculty of Theology and birth in Artvin are clearly linked to the individual's early life and education."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "He graduated from the Marmara University Faculty of Theology in 1972 and Mimar Sinan University’s Department of Architecture in 1974."
+        ],
+        "confidence": "high",
+        "notes": "Graduation from Mimar Sinan University’s Department of Architecture is a clear career milestone."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2,
+          3
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Between 1994 and 1998, he served as architectural adviser to Istanbul Mayor (and now Prime Minister) Recep Tayyip Erdogan, overseeing the restoration of a number of historic buildings in the city and was also appointed to act as deputy"
+        ],
+        "confidence": "high",
+        "notes": "Serving as architectural adviser and deputy to the Istanbul Mayor are clear career positions."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "He then obtained a PhD in architectural history at Istanbul University (for the thesis ‘Hidiv Kasrı and its place in Bosphorus civilian architecture’), going on to work as a freelance architect for several years."
+        ],
+        "confidence": "medium",
+        "notes": "Obtaining a PhD is a significant academic achievement, but the exact time is not specified."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "An architect by training, recently he was elected co-president of the United Cities and Local Governments organisation."
+        ],
+        "confidence": "medium",
+        "notes": "Election as co-president is a recent event, but the exact time is not specified."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Kadir Topbas, Mayor of Istanbul"
+        ],
+        "confidence": "high",
+        "notes": "Serving as Mayor of Istanbul is a clear career position, though the exact time is not specified in this quote."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position, but the supporting quotes primarily mention education and birth, which are not typically career positions."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role_ids for the event, making it unclear what specific career position is being referred to."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position, but graduation is typically an educational milestone rather than a career position."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role_ids for the event, making it unclear what specific career position is being referred to."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position, but obtaining a PhD is an academic achievement, not necessarily a career position unless followed by a specific role."
+          },
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing time_marker_ids, making it impossible to determine when this event occurred."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role_ids for the event, making it unclear what specific career position is being referred to."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing time_marker_ids, making it impossible to determine when this event occurred."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role_ids for the event, though the organization is mentioned, the specific role is unclear."
+          }
+        ]
+      },
+      {
+        "event_id": 5,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing time_marker_ids, making it impossible to determine when this event occurred."
+          },
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization_ids and location_ids, though the role is mentioned, the context is incomplete."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 6,
+      "valid": 1,
+      "warnings": 5,
+      "errors": 0,
+      "career_positions": 6,
+      "awards": 0
+    }
+  }
+}

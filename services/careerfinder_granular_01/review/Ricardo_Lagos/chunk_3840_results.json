@@ -1,0 +1,144 @@
+{
+  "status": "success",
+  "chunk_id": 3840,
+  "chunk_index": 5,
+  "source_url": "https://www.pbs.org/wgbh/commandingheights/shared/minitext/int_ricardolagos.html",
+  "title": "Commanding Heights : Ricardo Lagos | on PBS",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "Mr. Mitterrand came to Chile in 1971",
+          "type": "point",
+          "quotes": [
+            "Mr Mitterrand came to Chile in 1971. Nobody cared about him. The only one that cared about him was President Allende, who received him in the presidential palace and gave a dinner for him."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Socialist Party",
+          "quotes": [
+            "I remember going to a congress of the Socialist Party in Bordeaux, a congress of those Socialists living abroad."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "leader",
+          "quotes": [
+            "Either you are a leader because you are a trade union leader, or because you are a politician, or because you are a cultural figure."
+          ]
+        },
+        {
+          "title": "trade union leader",
+          "quotes": [
+            "Either you are a leader because you are a trade union leader, or because you are a politician, or because you are a cultural figure."
+          ]
+        },
+        {
+          "title": "politician",
+          "quotes": [
+            "Either you are a leader because you are a trade union leader, or because you are a politician, or because you are a cultural figure."
+          ]
+        },
+        {
+          "title": "President",
+          "quotes": [
+            "The only one that cared about him was President Allende, who received him in the presidential palace and gave a dinner for him."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Bordeaux",
+          "quotes": [
+            "I remember going to a congress of the Socialist Party in Bordeaux, a congress of those Socialists living abroad. They wanted to be together in Bordeaux to discuss what can we do with Mr. Pinochet and so on and so forth."
+          ]
+        },
+        {
+          "place": "Chile",
+          "quotes": [
+            "Many writers, painters, people were expelled, so what happened when so many Chileans suddenly start looking at Chile from abroad, the most important thing I would say is [they gain] some sort of cosmopolitan point of view of what's going on."
+          ]
+        },
+        {
+          "place": "Germany",
+          "quotes": [
+            "There was a very funny discussion, and if you had been in Bordeaux you could say this chap came from Germany, this one from Italy, this one from the U.S., in the sense that their politics had the [influence] of a Nordic country;"
+          ]
+        },
+        {
+          "place": "Italy",
+          "quotes": [
+            "There was a very funny discussion, and if you had been in Bordeaux you could say this chap came from Germany, this one from Italy, this one from the U.S., in the sense that their politics had the [influence] of a Nordic country;"
+          ]
+        },
+        {
+          "place": "U.S.",
+          "quotes": [
+            "There was a very funny discussion, and if you had been in Bordeaux you could say this chap came from Germany, this one from Italy, this one from the U.S., in the sense that their politics had the [influence] of a Nordic country;"
+          ]
+        },
+        {
+          "place": "Nordic countries",
+          "quotes": [
+            "The way to understand the legacy is after those people that were abroad perceived the functioning of the U.S., the functioning of the Nordic countries, the Socialists and the left wing had some sort of disdain for these Nordic countries, to say nothing about Social Democrats."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Mr Mitterrand came to Chile in 1971. Nobody cared about him. The only one that cared about him was President Allende, who received him in the presidential palace and gave a dinner for him."
+        ],
+        "confidence": "high",
+        "notes": "President Allende's role is clearly mentioned in the context of Mr. Mitterrand's visit to Chile."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The role 'President' is mentioned, but it's unclear if this event describes a career position for President Allende or is merely contextual information about Mr. Mitterrand's visit."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

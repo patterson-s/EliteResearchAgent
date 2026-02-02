@@ -1,0 +1,249 @@
+{
+  "status": "success",
+  "chunk_id": 2979,
+  "chunk_index": 1,
+  "source_url": "https://www.scielosp.org/article/medicc/2015.v17n2/4-4/",
+  "title": "SciELO - Saúde Pública - About the Contributors About the Contributors",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "Apr 2015",
+          "type": "point",
+          "quotes": [
+            "Publication Dates\nPublication in this collection\nApr 2015"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Cardiology and Cardiovascular Surgery Institute",
+          "quotes": [
+            "medicine working group at the Cardiology and Cardiovascular Surgery Institute in Havana."
+          ]
+        },
+        {
+          "name": "Interdisciplinary Community Health Complex",
+          "quotes": [
+            "Dr Ribot coordinates the addictions program at the Interdisciplinary Community Health Complex in Havana’s Marianao Municipality."
+          ]
+        },
+        {
+          "name": "Climate Center of Cuba’s Meteorology Institute",
+          "quotes": [
+            "Senior scientist at the Climate Center of Cuba’s Meteorology Institute in Havana,"
+          ]
+        },
+        {
+          "name": "Environmental Defense Fund (EDF)",
+          "quotes": [
+            "senior attorney and director of the Environmental Defense Fund (EDF)’s Cuba Program."
+          ]
+        },
+        {
+          "name": "SOS Pesca",
+          "quotes": [
+            "He directs EDF’s work on SOS Pesca, a community-based initiative to promote sustainable fisheries on Cuba’s southern coast."
+          ]
+        },
+        {
+          "name": "Medical Education Cooperation with Cuba",
+          "quotes": [
+            "Medical Education Cooperation with Cuba\nOakland - California - United States"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Dual specialist in family medicine and psychiatry",
+          "quotes": [
+            "Dual specialist in family medicine and psychiatry, with master’s degrees in bioethics and healthy aging."
+          ]
+        },
+        {
+          "title": "coordinates the addictions program",
+          "quotes": [
+            "Dr Ribot coordinates the addictions program at the Interdisciplinary Community Health Complex in Havana’s Marianao Municipality."
+          ]
+        },
+        {
+          "title": "Senior scientist",
+          "quotes": [
+            "Senior scientist at the Climate Center of Cuba’s Meteorology Institute in Havana,"
+          ]
+        },
+        {
+          "title": "senior attorney and director",
+          "quotes": [
+            "senior attorney and director of the Environmental Defense Fund (EDF)’s Cuba Program."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Havana",
+          "quotes": [
+            "medicine working group at the Cardiology and Cardiovascular Surgery Institute in Havana.",
+            "Dr Ribot coordinates the addictions program at the Interdisciplinary Community Health Complex in Havana’s Marianao Municipality.",
+            "Senior scientist at the Climate Center of Cuba’s Meteorology Institute in Havana,"
+          ]
+        },
+        {
+          "place": "Marianao Municipality",
+          "quotes": [
+            "Dr Ribot coordinates the addictions program at the Interdisciplinary Community Health Complex in Havana’s Marianao Municipality."
+          ]
+        },
+        {
+          "place": "western Cuba",
+          "quotes": [
+            "her research on climate and health includes a project on climate variability and air quality in relation to chronic non-communicable diseases in western Cuba."
+          ]
+        },
+        {
+          "place": "Cuba’s southern coast",
+          "quotes": [
+            "He directs EDF’s work on SOS Pesca, a community-based initiative to promote sustainable fisheries on Cuba’s southern coast."
+          ]
+        },
+        {
+          "place": "Oakland - California - United States",
+          "quotes": [
+            "Medical Education Cooperation with Cuba\nOakland - California - United States"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0,
+          1
+        ],
+        "supporting_quotes": [
+          "Dr Ribot coordinates the addictions program at the Interdisciplinary Community Health Complex in Havana’s Marianao Municipality."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role, organization, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Senior scientist at the Climate Center of Cuba’s Meteorology Institute in Havana,"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role, organization, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3,
+          4
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [
+          3
+        ],
+        "supporting_quotes": [
+          "senior attorney and director of the Environmental Defense Fund (EDF)’s Cuba Program.",
+          "He directs EDF’s work on SOS Pesca, a community-based initiative to promote sustainable fisheries on Cuba’s southern coast."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role, organizations, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "medicine working group at the Cardiology and Cardiovascular Surgery Institute in Havana.",
+          "Dual specialist in family medicine and psychiatry, with master’s degrees in bioethics and healthy aging."
+        ],
+        "confidence": "medium",
+        "notes": "Role and organization are linked, but the exact nature of the position is unclear."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time markers for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers and unclear exact nature of the position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quotes mention roles and organizations but do not clearly define the specific position held."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 2,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

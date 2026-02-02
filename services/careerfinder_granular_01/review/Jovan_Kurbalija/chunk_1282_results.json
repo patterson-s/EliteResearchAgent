@@ -1,0 +1,196 @@
+{
+  "status": "success",
+  "chunk_id": 1282,
+  "chunk_index": 2,
+  "source_url": "https://www.diplomacy.edu/people/jovan-kurbalija/",
+  "title": "Jovan Kurbalija | Diplo",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "28 Sep, 2025",
+          "type": "point",
+          "quotes": [
+            "28 Sep, 2025\nThe strategic imperative of open source AI"
+          ]
+        },
+        {
+          "text": "27 Sep, 2025",
+          "type": "point",
+          "quotes": [
+            "27 Sep, 2025\nShould the United Nations continue writing reports?"
+          ]
+        },
+        {
+          "text": "23 Sep, 2025",
+          "type": "point",
+          "quotes": [
+            "23 Sep, 2025\nOman: Nexus between traditional and tech diplomacy"
+          ]
+        },
+        {
+          "text": "22–26 September",
+          "type": "range",
+          "quotes": [
+            "This week (22–26 September), I will be in Oman discussing the impact of AI on diplomacy, centred around two guiding questions: This text provides a few reflections for answering these and other ques[...]"
+          ]
+        },
+        {
+          "text": "03 Sep, 2025",
+          "type": "point",
+          "quotes": [
+            "03 Sep, 2025\nFrom summer disillusionment to autumn clarity: Ten lessons for AI"
+          ]
+        },
+        {
+          "text": "1 September",
+          "type": "point",
+          "quotes": [
+            "It is 1 September, the start of the academic and diplomatic year, and this time, AI is the centre of attention."
+          ]
+        },
+        {
+          "text": "01 Sep, 2025",
+          "type": "point",
+          "quotes": [
+            "01 Sep, 2025\nSurvive the AI jargon tsunami: Find shelter in your mother tongue"
+          ]
+        },
+        {
+          "text": "17 Aug, 2025",
+          "type": "point",
+          "quotes": [
+            "17 Aug, 2025\nAlaska’s tech history: The failed cables that could have rewired the world"
+          ]
+        },
+        {
+          "text": "15 Aug, 2025",
+          "type": "point",
+          "quotes": [
+            "15 Aug, 2025\n2025\nAI Apprenticeship: Learning about AI by developing AI"
+          ]
+        },
+        {
+          "text": "late 19th century",
+          "type": "point",
+          "quotes": [
+            "in the late 19th century, Alaska was on the brink of becoming a telecommunication hub[...]"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "United Nations",
+          "quotes": [
+            "Should the United Nations continue writing reports?\nIt’s a heretical question, but a necessary one."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "UN Secretary-General",
+          "quotes": [
+            "the UN Secretary-General has questioned the impact of the thousands of reports the organ[...]"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Oman",
+          "quotes": [
+            "Oman: Nexus between traditional and tech diplomacy\nThis week (22–26 September), I will be in Oman discussing the impact of AI on diplomacy, centred around two guiding questions: This text provides a few reflections for answering these and other ques[...]"
+          ]
+        },
+        {
+          "place": "Alaska",
+          "quotes": [
+            "Alaska’s tech history: The failed cables that could have rewired the world\nAs the Trump-Putin summit brought Alaska into focus, its overlooked telegraph cables reveal a fascinating history: in the late 19th century, Alaska was on the brink of becoming a telecommunication hub[...]"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Should the United Nations continue writing reports?\nIt’s a heretical question, but a necessary one.",
+          "the UN Secretary-General has questioned the impact of the thousands of reports the organ[...]"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time marker linking the role and organization, but the quotes suggest an ongoing position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "This week (22–26 September), I will be in Oman discussing the impact of AI on diplomacy, centred around two guiding questions: This text provides a few reflections for answering these and other ques[...]"
+        ],
+        "confidence": "high",
+        "notes": "The quote indicates a specific activity in Oman during the specified time range, likely part of a broader career role."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and location information, though the quotes suggest an ongoing position with the United Nations as UN Secretary-General."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quotes do not explicitly link the role of UN Secretary-General to the United Nations in a clear career position context."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and role information, though the quote indicates a specific activity in Oman during the specified time range."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The event is classified as a career_position, but the quote describes a specific activity rather than an ongoing role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

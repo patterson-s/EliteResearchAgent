@@ -1,0 +1,237 @@
+{
+  "status": "success",
+  "chunk_id": 3571,
+  "chunk_index": 6,
+  "source_url": "https://en.wikipedia.org/wiki/Shaukat_Aziz",
+  "title": "Shaukat Aziz - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "24 January 2006",
+          "type": "point",
+          "quotes": [
+            "Shaukat Aziz at the White House with US president George W. Bush, 24 January 2006."
+          ]
+        },
+        {
+          "text": "2005",
+          "type": "point",
+          "quotes": [
+            "Aziz strengthened the policy formats and area of responsibility of National Reconstruction Bureau (NRB) after appointing Daniyal Aziz in 2005."
+          ]
+        },
+        {
+          "text": "1990s",
+          "type": "range",
+          "quotes": [
+            "In 2005, Aziz's government installed 6,000 water supply and sanitation filter plants through the Khushal Pakistan (lit. Prospered Pakistan) programme, a scheme founded by Nawaz Sharif in the 1990s."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "parliament",
+          "quotes": [
+            "while Aziz fulfilled the constitutional requirement of securing a seat in the lower house of parliament."
+          ]
+        },
+        {
+          "name": "National Reconstruction Bureau (NRB)",
+          "quotes": [
+            "Aziz strengthened the policy formats and area of responsibility of National Reconstruction Bureau (NRB) after appointing Daniyal Aziz in 2005."
+          ]
+        },
+        {
+          "name": "Alliance for Restoration of Democracy (ARD)",
+          "quotes": [
+            "Aziz thrashed the Alliance for Restoration of Democracy (ARD) led by conservative leader Javed Hashmi who was placed"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "prime minister of India",
+          "quotes": [
+            "became the prime minister of India and Aziz was widely seen as compatible with his Indian counterpart."
+          ]
+        },
+        {
+          "title": "Prime Minister",
+          "quotes": [
+            "Secretary of Defense Donald H. Rumsfeld (right) greets Prime Minister Shaukat Aziz at the Pentagon.",
+            "As prime minister, Aziz took hard stance against rivals and took a hardline against his political challengers."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "White House",
+          "quotes": [
+            "Shaukat Aziz at the White House with US president George W. Bush, 24 January 2006."
+          ]
+        },
+        {
+          "place": "Pakistan",
+          "quotes": [
+            "In Pakistan, it was also said that Musharraf blindly trusted Aziz and sometimes, Musharraf's approvals were not needed for the projects that normally required permission.",
+            "Aziz successfully oversaw the rapid development of the local government system in Pakistan as part of his 'Strengthening Decentralisation' program."
+          ]
+        },
+        {
+          "place": "Tharparkar-I",
+          "quotes": [
+            "Aziz ran from two constituencies, Tharparkar-I in Sindh, and Attock District."
+          ]
+        },
+        {
+          "place": "Sindh",
+          "quotes": [
+            "Aziz ran from two constituencies, Tharparkar-I in Sindh, and Attock District."
+          ]
+        },
+        {
+          "place": "Attock District",
+          "quotes": [
+            "Aziz ran from two constituencies, Tharparkar-I in Sindh, and Attock District."
+          ]
+        },
+        {
+          "place": "Tharparkar",
+          "quotes": [
+            "Even after the assassination attempt, Aziz continued campaigning and won from both constituencies. Since he could retain only one seat, he immediately vacated his Tharparkar seat, preferring to represent Attock, where he had won by 76,156 votes to 29,497."
+          ]
+        },
+        {
+          "place": "Pentagon",
+          "quotes": [
+            "Secretary of Defense Donald H. Rumsfeld (right) greets Prime Minister Shaukat Aziz at the Pentagon."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "As prime minister, Aziz took hard stance against rivals and took a hardline against his political challengers.",
+          "Aziz successfully oversaw the rapid development of the local government system in Pakistan as part of his 'Strengthening Decentralisation' program."
+        ],
+        "confidence": "high",
+        "notes": "Prime Minister role in Pakistan is clearly a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Aziz strengthened the policy formats and area of responsibility of National Reconstruction Bureau (NRB) after appointing Daniyal Aziz in 2005."
+        ],
+        "confidence": "medium",
+        "notes": "While the exact role is not specified, strengthening an organization's policies implies an active position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0,
+          6
+        ],
+        "supporting_quotes": [
+          "Shaukat Aziz at the White House with US president George W. Bush, 24 January 2006.",
+          "Secretary of Defense Donald H. Rumsfeld (right) greets Prime Minister Shaukat Aziz at the Pentagon."
+        ],
+        "confidence": "high",
+        "notes": "Prime Minister role during official visits to the White House and Pentagon."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "while Aziz fulfilled the constitutional requirement of securing a seat in the lower house of parliament."
+        ],
+        "confidence": "medium",
+        "notes": "Securing a seat in parliament implies an active political role, though the exact position is not specified."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role and location information, though the event is supported by the quote."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "The role 'Prime Minister' is mentioned in quotes, but the location 'India' in the role entity does not match the context of Pakistan."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role, organization, and location information, though securing a seat in parliament implies an active political role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 1,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

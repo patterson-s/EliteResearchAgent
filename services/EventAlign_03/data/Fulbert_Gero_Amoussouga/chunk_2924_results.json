@@ -1,0 +1,175 @@
+{
+  "status": "success",
+  "chunk_id": 2924,
+  "chunk_index": 0,
+  "source_url": "https://www.devex.com/news/just-announced-meet-the-architects-of-our-post-mdg-agenda-78815",
+  "title": "Just announced: Meet the architects of our post-MDG agenda | Devex",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "September",
+          "type": "point",
+          "quotes": [
+            "The panel is set to hold its first meeting in September and is expected to submit findings — which will inform Ban’s report to member states — on the first half of 2013."
+          ]
+        },
+        {
+          "text": "first half of 2013",
+          "type": "range",
+          "quotes": [
+            "The panel is set to hold its first meeting in September and is expected to submit findings — which will inform Ban’s report to member states — on the first half of 2013."
+          ]
+        },
+        {
+          "text": "01 August 2012",
+          "type": "point",
+          "quotes": [
+            "By Jenny Lei Ravelo // 01 August 2012"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "United Nations",
+          "quotes": [
+            "In the news: United Nations",
+            "at the request of U.N. Secretary-General Ban Ki-moon",
+            "advise U.N. Secretary-General Ban Ki-moon"
+          ]
+        },
+        {
+          "name": "high-level panel",
+          "quotes": [
+            "These are just four of the 26 luminaries who have been chosen to shape international development cooperation for years to come. They all are members of a high-level panel that will advise U.N. Secretary-General Ban Ki-moon"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "trade and foreign affairs minister of South Korea",
+          "quotes": [
+            "Sung-Hwan Kim, the current trade and foreign affairs minister of South Korea, who will help craft a blueprint for international development cooperation at the request of U.N. Secretary-General Ban Ki-moon."
+          ]
+        },
+        {
+          "title": "U.N. Secretary-General",
+          "quotes": [
+            "at the request of U.N. Secretary-General Ban Ki-moon",
+            "advise U.N. Secretary-General Ban Ki-moon"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "South Korea",
+          "quotes": [
+            "Sung-Hwan Kim, the current trade and foreign affairs minister of South Korea, who will help craft a blueprint for international development cooperation at the request of U.N. Secretary-General Ban Ki-moon."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "at the request of U.N. Secretary-General Ban Ki-moon",
+          "advise U.N. Secretary-General Ban Ki-moon"
+        ],
+        "confidence": "high",
+        "notes": "U.N. Secretary-General is an active role with ongoing responsibilities."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Sung-Hwan Kim, the current trade and foreign affairs minister of South Korea, who will help craft a blueprint for international development cooperation at the request of U.N. Secretary-General Ban Ki-moon."
+        ],
+        "confidence": "high",
+        "notes": "Trade and foreign affairs minister is an active government role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [
+          1,
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "The panel is set to hold its first meeting in September and is expected to submit findings — which will inform Ban’s report to member states — on the first half of 2013.",
+          "These are just four of the 26 luminaries who have been chosen to shape international development cooperation for years to come. They all are members of a high-level panel that will advise U.N. Secretary-General Ban Ki-moon"
+        ],
+        "confidence": "medium",
+        "notes": "High-level panel membership implies active participation, though specific roles are not mentioned."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for the career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quotes mention panel membership but do not specify individual roles."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "status": "success",
+  "chunk_id": 176,
+  "chunk_index": 13,
+  "source_url": "https://en.wikipedia.org/wiki/Gareth_Evans_(politician)",
+  "title": "Gareth Evans (politician) - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1995",
+          "type": "point",
+          "quotes": [
+            "Evans won the 1995 Grawemeyer Award for Ideas Improving World Order"
+          ]
+        },
+        {
+          "text": "fall 1994",
+          "type": "point",
+          "quotes": [
+            "for his fall 1994 Foreign Policy article, 'Cooperative Security and Intra-State Conflict'"
+          ]
+        },
+        {
+          "text": "11 June 2012",
+          "type": "point",
+          "quotes": [
+            "On 11 June 2012, Evans was named a Companion of the Order of Australia"
+          ]
+        },
+        {
+          "text": "2001",
+          "type": "point",
+          "quotes": [
+            "He had previously been made an Officer of the Order of Australia (AO) in 2001"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Order of Australia",
+          "quotes": [
+            "On 11 June 2012, Evans was named a Companion of the Order of Australia",
+            "He had previously been made an Officer of the Order of Australia (AO) in 2001"
+          ]
+        },
+        {
+          "name": "Australian Parliament",
+          "quotes": [
+            "for 'service to the Australian Parliament, particularly through advancing Australia's foreign policy and trade interests'"
+          ]
+        },
+        {
+          "name": "United Nations",
+          "quotes": [
+            "especially in Asia and through the United Nations"
+          ]
+        },
+        {
+          "name": "Grawemeyer Award",
+          "quotes": [
+            "Evans won the 1995 Grawemeyer Award for Ideas Improving World Order"
+          ]
+        },
+        {
+          "name": "Foreign Policy",
+          "quotes": [
+            "for his fall 1994 Foreign Policy article, 'Cooperative Security and Intra-State Conflict'"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Companion of the Order of Australia",
+          "quotes": [
+            "On 11 June 2012, Evans was named a Companion of the Order of Australia"
+          ]
+        },
+        {
+          "title": "Officer of the Order of Australia",
+          "quotes": [
+            "He had previously been made an Officer of the Order of Australia (AO) in 2001"
+          ]
+        },
+        {
+          "title": "adviser to governments",
+          "quotes": [
+            "for 'eminent service to international relations, particularly in the Asia Pacific Region as an adviser to governments on a range of global policy matters'"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Asia Pacific Region",
+          "quotes": [
+            "for 'eminent service to international relations, particularly in the Asia Pacific Region as an adviser to governments on a range of global policy matters'"
+          ]
+        },
+        {
+          "place": "Asia",
+          "quotes": [
+            "especially in Asia and through the United Nations"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Evans won the 1995 Grawemeyer Award for Ideas Improving World Order"
+        ],
+        "confidence": "high",
+        "notes": "Clear award recognition"
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "On 11 June 2012, Evans was named a Companion of the Order of Australia"
+        ],
+        "confidence": "high",
+        "notes": "Honorary recognition without ongoing duties"
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He had previously been made an Officer of the Order of Australia (AO) in 2001"
+        ],
+        "confidence": "high",
+        "notes": "Honorary recognition without ongoing duties"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "for 'eminent service to international relations, particularly in the Asia Pacific Region as an adviser to governments on a range of global policy matters'"
+        ],
+        "confidence": "medium",
+        "notes": "Role implies active service, but time markers are missing"
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "Time marker is missing for the start of the role, making it difficult to establish temporal coherence."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers, organization, and location information, making the event incomplete."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The role 'adviser to governments' could be misclassified as a career position if it lacks active duties, but the description suggests active service."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 2,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 3
+    }
+  }
+}

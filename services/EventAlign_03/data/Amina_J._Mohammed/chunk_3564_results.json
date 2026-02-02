@@ -1,0 +1,329 @@
+{
+  "status": "success",
+  "chunk_id": 3564,
+  "chunk_index": 0,
+  "source_url": "https://www.brooklyn.edu/president/presidential-lecture-series/presidential-lecture-series-with-amina-j-mohammed/",
+  "title": "Presidential Lecture Series With Amina J. Mohammed | Brooklyn College",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "fall 2024",
+          "type": "point",
+          "quotes": [
+            "The fall 2024 Presidential Lecture Series featured Brooklyn College President Michelle J. Anderson in conversation with Amina J. Mohammed"
+          ]
+        },
+        {
+          "text": "November 11, 2024",
+          "type": "point",
+          "quotes": [
+            "November 11, 2024"
+          ]
+        },
+        {
+          "text": "2012",
+          "type": "point",
+          "quotes": [
+            "Mohammed first joined the United Nations in 2012, as special adviser to former Secretary-General Ban Ki-moon"
+          ]
+        },
+        {
+          "text": "post-2015",
+          "type": "open",
+          "quotes": [
+            "Mohammed first joined the United Nations in 2012, as special adviser to former Secretary-General Ban Ki-moon with the responsibility for post-2015 development planning"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Brooklyn College",
+          "quotes": [
+            "The fall 2024 Presidential Lecture Series featured Brooklyn College President Michelle J. Anderson in conversation with Amina J. Mohammed"
+          ]
+        },
+        {
+          "name": "United Nations",
+          "quotes": [
+            "Amina J. Mohammed, deputy secretary-general of the United Nations and chair of the United Nations Sustainable Development Group"
+          ]
+        },
+        {
+          "name": "United Nations Sustainable Development Group",
+          "quotes": [
+            "Amina J. Mohammed, deputy secretary-general of the United Nations and chair of the United Nations Sustainable Development Group"
+          ]
+        },
+        {
+          "name": "Federal Republic of Nigeria",
+          "quotes": [
+            "Mohammed served as minister of environment of the Federal Republic of Nigeria"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "President",
+          "quotes": [
+            "Brooklyn College President Michelle J. Anderson"
+          ]
+        },
+        {
+          "title": "deputy secretary-general of the United Nations",
+          "quotes": [
+            "Amina J. Mohammed, deputy secretary-general of the United Nations and chair of the United Nations Sustainable Development Group"
+          ]
+        },
+        {
+          "title": "chair of the United Nations Sustainable Development Group",
+          "quotes": [
+            "Amina J. Mohammed, deputy secretary-general of the United Nations and chair of the United Nations Sustainable Development Group"
+          ]
+        },
+        {
+          "title": "minister of environment",
+          "quotes": [
+            "Mohammed served as minister of environment of the Federal Republic of Nigeria"
+          ]
+        },
+        {
+          "title": "special adviser to former Secretary-General Ban Ki-moon",
+          "quotes": [
+            "Mohammed first joined the United Nations in 2012, as special adviser to former Secretary-General Ban Ki-moon"
+          ]
+        },
+        {
+          "title": "adviser to four successive presidents on poverty, public sector reform, and sustainable development",
+          "quotes": [
+            "She served as an advocate focused on increasing access to education and other social services, before moving into the public sector, where she rose to the position of adviser to four successive presidents on poverty, public sector reform, and sustainable development"
+          ]
+        },
+        {
+          "title": "adjunct professor",
+          "quotes": [
+            "Mohammed has been conferred several honorary doctorates and has served as an adjunct professor, lecturing on international development"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Brooklyn",
+          "quotes": [
+            "Presidential Lecture Series With Amina J. Mohammed | Brooklyn College"
+          ]
+        },
+        {
+          "place": "Nigeria",
+          "quotes": [
+            "Mohammed served as minister of environment of the Federal Republic of Nigeria"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Mohammed first joined the United Nations in 2012, as special adviser to former Secretary-General Ban Ki-moon"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Mohammed first joined the United Nations in 2012, as special adviser to former Secretary-General Ban Ki-moon with the responsibility for post-2015 development planning"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role with additional responsibility"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1,
+          2
+        ],
+        "role_ids": [
+          1,
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Amina J. Mohammed, deputy secretary-general of the United Nations and chair of the United Nations Sustainable Development Group"
+        ],
+        "confidence": "high",
+        "notes": "Simultaneous roles within the same organization, no explicit time marker but clear linkage"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Mohammed served as minister of environment of the Federal Republic of Nigeria"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between organization, role, and location"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          5
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "She served as an advocate focused on increasing access to education and other social services, before moving into the public sector, where she rose to the position of adviser to four successive presidents on poverty, public sector reform, and sustainable development"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit organization or time marker, but role is clearly a career position"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          6
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Mohammed has been conferred several honorary doctorates and has served as an adjunct professor, lecturing on international development"
+        ],
+        "confidence": "high",
+        "notes": "Role is clearly a career position, though no explicit organization or time marker"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "The fall 2024 Presidential Lecture Series featured Brooklyn College President Michelle J. Anderson in conversation with Amina J. Mohammed",
+          "Presidential Lecture Series With Amina J. Mohammed | Brooklyn College"
+        ],
+        "confidence": "high",
+        "notes": "Event participation, not a career position but included for completeness"
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "low",
+            "description": "Event 1 is a duplicate of event 0 with minor additional details, suggesting potential redundancy"
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and time marker for role as advocate and adviser to presidents"
+          }
+        ]
+      },
+      {
+        "event_id": 5,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and time marker for adjunct professor role"
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Adjunct professor role could be misclassified as career_position if it was honorary or short-term"
+          }
+        ]
+      },
+      {
+        "event_id": 6,
+        "status": "error",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "high",
+            "description": "Event participation is not a career position and should be reclassified or removed"
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 7,
+      "valid": 3,
+      "warnings": 3,
+      "errors": 1,
+      "career_positions": 6,
+      "awards": 0
+    }
+  }
+}

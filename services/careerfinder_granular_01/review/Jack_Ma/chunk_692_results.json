@@ -1,0 +1,188 @@
+{
+  "status": "success",
+  "chunk_id": 692,
+  "chunk_index": 2,
+  "source_url": "https://en.wikipedia.org/wiki/Jack_Ma",
+  "title": "Jack Ma - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In 1982",
+          "type": "point",
+          "quotes": [
+            "In 1982, at the age of 18, Ma failed the Chinese college entrance exam on his initial attempt, obtaining only 1 point in mathematics."
+          ]
+        },
+        {
+          "text": "In 1983",
+          "type": "point",
+          "quotes": [
+            "In 1983, Ma failed his college entrance exam for the second time."
+          ]
+        },
+        {
+          "text": "In 1984",
+          "type": "point",
+          "quotes": [
+            "Undeterred, he decided to take the entrance exam a third time in 1984."
+          ]
+        },
+        {
+          "text": "In 1988",
+          "type": "point",
+          "quotes": [
+            "In 1988, Ma earned a BA degree in English from Hangzhou Normal University."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Hangzhou Normal University",
+          "quotes": [
+            "However, Ma's academic fortunes changed since the enrollment target for prospective majors in Hangzhou Normal University's Department of English was not met, as some prospective students had the opportunity to be accepted and promoted into it, with Ma himself having ended up being promoted to the department's foreign language major.",
+            "In 1988, Ma earned a BA degree in English from Hangzhou Normal University."
+          ]
+        },
+        {
+          "name": "Hangzhou Federation of Students",
+          "quotes": [
+            "He was also elected as the chairman of the student union and later became the chairman of the Hangzhou Federation of Students, serving in that capacity for two terms."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "chairman of the student union",
+          "quotes": [
+            "He was also elected as the chairman of the student union and later became the chairman of the Hangzhou Federation of Students, serving in that capacity for two terms."
+          ]
+        },
+        {
+          "title": "chairman of the Hangzhou Federation of Students",
+          "quotes": [
+            "He was also elected as the chairman of the student union and later became the chairman of the Hangzhou Federation of Students, serving in that capacity for two terms."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Hangzhou",
+          "quotes": [
+            "However, Ma's academic fortunes changed since the enrollment target for prospective majors in Hangzhou Normal University's Department of English was not met, as some prospective students had the opportunity to be accepted and promoted into it, with Ma himself having ended up being promoted to the department's foreign language major."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "He was also elected as the chairman of the student union and later became the chairman of the Hangzhou Federation of Students, serving in that capacity for two terms."
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker provided, but the role and organization are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "He was also elected as the chairman of the student union and later became the chairman of the Hangzhou Federation of Students, serving in that capacity for two terms."
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker provided, but the role and organization are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "In 1988, Ma earned a BA degree in English from Hangzhou Normal University."
+        ],
+        "confidence": "high",
+        "notes": "This event represents the completion of a degree, which is a significant academic milestone."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the event, making temporal coherence verification impossible."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the event, making temporal coherence verification impossible."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "error",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "high",
+            "description": "Event classified as 'career_position' but describes the completion of a degree, which is more appropriately classified as an educational milestone rather than a career position."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and role details, which are essential for a career position event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 1,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "status": "success",
+  "chunk_id": 453,
+  "chunk_index": 1,
+  "source_url": "https://www.scmp.com/comment/insight-opinion/article/2094016/qian-qichen-master-diplomat-who-earned-respect",
+  "title": "Qian Qichen – a master diplomat who earned respect | South China Morning Post",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "foreign ministry",
+          "quotes": [
+            "his appointment as the first foreign ministry spokesman, a system that was adopted by other ministries."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "foreign ministry spokesman",
+          "quotes": [
+            "his appointment as the first foreign ministry spokesman, a system that was adopted by other ministries."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Hong Kong",
+          "quotes": [
+            "he has been remembered in Hong Kong and elsewhere with such fondness and respect."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "his appointment as the first foreign ministry spokesman, a system that was adopted by other ministries."
+        ],
+        "confidence": "high",
+        "notes": "No time marker available, but organization and role are clearly linked."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker information, which is expected for career positions."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

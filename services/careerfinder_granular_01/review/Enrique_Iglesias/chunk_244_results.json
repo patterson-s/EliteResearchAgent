@@ -1,0 +1,171 @@
+{
+  "status": "success",
+  "chunk_id": 244,
+  "chunk_index": 12,
+  "source_url": "https://en.wikipedia.org/wiki/Enrique_Iglesias",
+  "title": "Enrique Iglesias - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "14 March 2014",
+          "type": "point",
+          "quotes": [
+            "On 14 March 2014, Iglesias released his tenth studio album, Sex and Love."
+          ]
+        },
+        {
+          "text": "2015",
+          "type": "point",
+          "quotes": [
+            "Iglesias performing with Pitbull at the Frank Erwin Center in Austin, Texas, 2015"
+          ]
+        },
+        {
+          "text": "2017",
+          "type": "point",
+          "quotes": [
+            "This record was later broken in 2017 when 'Despacito' by Luis Fonsi and Daddy Yankee featuring Justin Bieber"
+          ]
+        },
+        {
+          "text": "2014",
+          "type": "point",
+          "quotes": [
+            "The original Spanish music video of the song was also YouTube's second most watched music video of 2014"
+          ]
+        },
+        {
+          "text": "1996",
+          "type": "point",
+          "quotes": [
+            "becoming the highest charting Spanish song since the Macarena in 1996"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Billboard",
+          "quotes": [
+            "'Bailando' was immensely successful becoming his 25th No. 1 on Billboard Hot Latin Songs chart.",
+            "'Bailando' was No. 1 for 41 consecutive weeks on Billboard's Hot Latin songs chart"
+          ]
+        },
+        {
+          "name": "YouTube",
+          "quotes": [
+            "The original Spanish music video of the song was also YouTube's second most watched music video of 2014"
+          ]
+        },
+        {
+          "name": "Spotify",
+          "quotes": [
+            "Sex and Love was Spotify's"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "singer",
+          "quotes": [
+            "a duet with Mexican singer Marco Antonio Solis",
+            "featured the Portuguese singer Mickael Carreira and the Brazilian singer Luan Santana"
+          ]
+        },
+        {
+          "title": "rapper",
+          "quotes": [
+            "which featured rapper Sean Paul"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Spain",
+          "quotes": [
+            "in Spain"
+          ]
+        },
+        {
+          "place": "Austin, Texas",
+          "quotes": [
+            "Iglesias performing with Pitbull at the Frank Erwin Center in Austin, Texas, 2015"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "On 14 March 2014, Iglesias released his tenth studio album, Sex and Love."
+        ],
+        "confidence": "high",
+        "notes": "Event based on album release, assuming singer role is active."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Iglesias performing with Pitbull at the Frank Erwin Center in Austin, Texas, 2015"
+        ],
+        "confidence": "high",
+        "notes": "Performance event with clear location and role."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location information, which could be relevant for a career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Quote mentions album release but does not explicitly state singer role, though it can be inferred."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

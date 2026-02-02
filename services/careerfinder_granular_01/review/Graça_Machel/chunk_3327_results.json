@@ -1,0 +1,207 @@
+{
+  "status": "success",
+  "chunk_id": 3327,
+  "chunk_index": 7,
+  "source_url": "https://en.wikipedia.org/wiki/Gra%C3%A7a_Machel",
+  "title": "Graça Machel - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1975–1986",
+          "type": "range",
+          "quotes": [
+            "First Lady of Mozambique 1975–1986"
+          ]
+        },
+        {
+          "text": "1998–1999",
+          "type": "range",
+          "quotes": [
+            "First Lady of South Africa 1998–1999"
+          ]
+        },
+        {
+          "text": "4 February 2012",
+          "type": "point",
+          "quotes": [
+            "Archived 4 February 2012 at the Wayback Machine"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "BBC",
+          "quotes": [
+            "BBC Profile of Graça Machel"
+          ]
+        },
+        {
+          "name": "UNICEF",
+          "quotes": [
+            "UNICEF Report – Impact of Armed Conflict on Children by Graça Machel"
+          ]
+        },
+        {
+          "name": "SAHistory",
+          "quotes": [
+            "SAHistory bio"
+          ]
+        },
+        {
+          "name": "UN Foundation",
+          "quotes": [
+            "UN Foundation Bio"
+          ]
+        },
+        {
+          "name": "IMDb",
+          "quotes": [
+            "Graça Machel at IMDb"
+          ]
+        },
+        {
+          "name": "Africa Progress Panel",
+          "quotes": [
+            "Africa Progress Panel"
+          ]
+        },
+        {
+          "name": "The Elders",
+          "quotes": [
+            "The Elders"
+          ]
+        },
+        {
+          "name": "African National Congress",
+          "quotes": [
+            "President of the African National Congress (1991–1997)"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "First Lady of Mozambique",
+          "quotes": [
+            "First Lady of Mozambique 1975–1986"
+          ]
+        },
+        {
+          "title": "First Lady of South Africa",
+          "quotes": [
+            "First Lady of South Africa 1998–1999"
+          ]
+        },
+        {
+          "title": "Deputy Chair",
+          "quotes": [
+            "Deputy Chairs Ban Ki-moon, Graça Machel"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Mozambique",
+          "quotes": [
+            "First Lady of Mozambique 1975–1986"
+          ]
+        },
+        {
+          "place": "South Africa",
+          "quotes": [
+            "First Lady of South Africa 1998–1999"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "First Lady of Mozambique 1975–1986"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, role, and location"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "First Lady of South Africa 1998–1999"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, role, and location"
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Deputy Chairs Ban Ki-moon, Graça Machel"
+        ],
+        "confidence": "medium",
+        "notes": "No time or organization specified, but role is clear"
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time and organization information for the Deputy Chair role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 2,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

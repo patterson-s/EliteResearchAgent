@@ -1,0 +1,162 @@
+{
+  "status": "success",
+  "chunk_id": 549,
+  "chunk_index": 49,
+  "source_url": "https://issafrica.s3.amazonaws.com/site/uploads/Book-2015-Salim.pdf",
+  "title": "Book-2015-Salim.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "for a period of 22 years now",
+          "type": "range",
+          "quotes": [
+            "The seat in the United Nations which has been unlawfully occupied by the representatives of Chiang Kai-shek should have belonged to representatives of the People’s Republic of China for a period of 22 years now."
+          ]
+        },
+        {
+          "text": "During the past 22 years",
+          "type": "range",
+          "quotes": [
+            "During the past 22 years there has been steady and spectacular progress in China and a growing realisation of the significance of China as a great power."
+          ]
+        },
+        {
+          "text": "Throughout the 1950s",
+          "type": "range",
+          "quotes": [
+            "Suffice it to recall that throughout the 1950s, largely under the influence of the United States, when the question of representation should have been settled according to the law and practice"
+          ]
+        },
+        {
+          "text": "During the 1960s",
+          "type": "range",
+          "quotes": [
+            "During the 1960s, United Nations membership having grown so as to make it difficult for the United States to continue taking for granted its control of the majority, the ‘important question’ device was invented to thwart the anticipated trend"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "United Nations",
+          "quotes": [
+            "The seat in the United Nations which has been unlawfully occupied by the representatives of Chiang Kai-shek should have belonged to representatives of the People’s Republic of China for a period of 22 years now."
+          ]
+        },
+        {
+          "name": "UNGA",
+          "quotes": [
+            "In his address to the UNGA on the issue of China’s representation, Salim argued his position in the following terms:"
+          ]
+        },
+        {
+          "name": "Special Committee on Decolonization",
+          "quotes": [
+            "which Salim recalls as one of his greater achievements as chairman of the Special Committee on Decolonization."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "chairman of the Special Committee on Decolonization",
+          "quotes": [
+            "which Salim recalls as one of his greater achievements as chairman of the Special Committee on Decolonization."
+          ]
+        },
+        {
+          "title": "ambassadors to the UN",
+          "quotes": [
+            "Together with other diplomats, including the Zambian and Congolese ambassadors to the UN, Salim pushed diligently for the restoration of all the lawful rights of China"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "China",
+          "quotes": [
+            "The seat in the United Nations which has been unlawfully occupied by the representatives of Chiang Kai-shek should have belonged to representatives of the People’s Republic of China for a period of 22 years now."
+          ]
+        },
+        {
+          "place": "United States",
+          "quotes": [
+            "But thanks to the systematic opposition of the United States, the people of China’s representation has not been realised."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "which Salim recalls as one of his greater achievements as chairman of the Special Committee on Decolonization."
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker, but role and organization are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "The seat in the United Nations which has been unlawfully occupied by the representatives of Chiang Kai-shek should have belonged to representatives of the People’s Republic of China for a period of 22 years now.",
+          "During the past 22 years there has been steady and spectacular progress in China and a growing realisation of the significance of China as a great power.",
+          "Together with other diplomats, including the Zambian and Congolese ambassadors to the UN, Salim pushed diligently for the restoration of all the lawful rights of China"
+        ],
+        "confidence": "high",
+        "notes": "Time markers and location are linked through the context of China's representation in the United Nations. Role is inferred from the context of ambassadors to the UN."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the career position event."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 1,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

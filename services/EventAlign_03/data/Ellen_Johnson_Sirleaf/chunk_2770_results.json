@@ -1,0 +1,103 @@
+{
+  "status": "success",
+  "chunk_id": 2770,
+  "chunk_index": 26,
+  "source_url": "https://achievement.org/achiever/ellen-johnson-sirleaf/",
+  "title": "Ellen Johnson Sirleaf | Academy of Achievement",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Al Qaeda",
+          "quotes": [
+            "I don’t know if Al Qaeda is in Liberia, frankly. We’ve heard rumors in the past, during the Taylor era, when he was doing dealings with a lot of shady characters that he had.",
+            "If that were ever brought to us we would rule it out very quickly. I doubt it."
+          ]
+        },
+        {
+          "name": "IMF (International Monetary Fund)",
+          "quotes": [
+            "Today a majority of that debt has been cancelled and we’ve completed our first program with the IMF (International Monetary Fund)."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "President",
+          "quotes": [
+            "Thank you very much, Madam President. It was a real privilege to talk with you.",
+            "Ellen Johnson Sirleaf: Thank you."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Liberia",
+          "quotes": [
+            "I don’t know if Al Qaeda is in Liberia, frankly. We’ve heard rumors in the past, during the Taylor era, when he was doing dealings with a lot of shady characters that he had.",
+            "Today, you know, our image of being a pariah state, a failed state, has turned around completely. Whereas people — Liberians — were afraid to carry a Liberian passport, because you’d be seen as this nation of death and destruction. Today, Liberians are very proud to carry their passport because everybody sees Liberia as beginning to be uplifted and beginning to become a possible model of success, a post-conflict success story."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Thank you very much, Madam President. It was a real privilege to talk with you.",
+          "Ellen Johnson Sirleaf: Thank you.",
+          "I don’t know if Al Qaeda is in Liberia, frankly. We’ve heard rumors in the past, during the Taylor era, when he was doing dealings with a lot of shady characters that he had.",
+          "Today, you know, our image of being a pariah state, a failed state, has turned around completely. Whereas people — Liberians — were afraid to carry a Liberian passport, because you’d be seen as this nation of death and destruction. Today, Liberians are very proud to carry their passport because everybody sees Liberia as beginning to be uplifted and beginning to become a possible model of success, a post-conflict success story."
+        ],
+        "confidence": "medium",
+        "notes": "The role of 'President' is mentioned in direct association with Ellen Johnson Sirleaf, and the location 'Liberia' is discussed in the context of her leadership. However, there is no explicit time marker linking the role to a specific period."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "No time markers provided, making it impossible to verify temporal coherence or duration of the career position."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information, which is typically expected for a career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "While the role of 'President' is mentioned, there is no explicit statement confirming Ellen Johnson Sirleaf's tenure as President during the discussed period."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

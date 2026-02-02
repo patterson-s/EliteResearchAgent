@@ -1,0 +1,179 @@
+{
+  "status": "success",
+  "chunk_id": 3408,
+  "chunk_index": 6,
+  "source_url": "https://conflictfieldresearch.colgate.edu/wp-content/uploads/2015/02/9_Reflections_on_Policy_Space.pdf",
+  "title": "9_Reflections_on_Policy_Space.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Planning Commission",
+          "quotes": [
+            "For example, in the Planning Commission, I had to work with the government that was there and that was Mari Alkatiri."
+          ]
+        },
+        {
+          "name": "Civil Society Commission",
+          "quotes": [
+            "He created all these boxes, but the boxes were empty. Now, I had to fill up the boxes and come up with ideas of how to do it."
+          ]
+        },
+        {
+          "name": "UN",
+          "quotes": [
+            "Of course, in the end the UN was responsible, so I reported to him.",
+            "I had to do it for the UN. [I had] to satisfy everybody."
+          ]
+        },
+        {
+          "name": "government",
+          "quotes": [
+            "I was supposed to work for the government, but in the end I had to do it for everybody. I had to do it for the government."
+          ]
+        },
+        {
+          "name": "civil society",
+          "quotes": [
+            "I had to do it for the civil society."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "work with the government",
+          "quotes": [
+            "I had to work with the government that was there and that was Mari Alkatiri."
+          ]
+        },
+        {
+          "title": "fill up the boxes and come up with ideas",
+          "quotes": [
+            "Now, I had to fill up the boxes and come up with ideas of how to do it."
+          ]
+        },
+        {
+          "title": "satisfy everybody",
+          "quotes": [
+            "[I had] to satisfy everybody."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0,
+          3
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "For example, in the Planning Commission, I had to work with the government that was there and that was Mari Alkatiri.",
+          "I had to work with the government that was there and that was Mari Alkatiri."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time markers, but the role and organizations are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He created all these boxes, but the boxes were empty. Now, I had to fill up the boxes and come up with ideas of how to do it.",
+          "Now, I had to fill up the boxes and come up with ideas of how to do it."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time markers, but the role and organization are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2,
+          3,
+          4
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Of course, in the end the UN was responsible, so I reported to him.",
+          "I had to do it for the UN. [I had] to satisfy everybody.",
+          "I was supposed to work for the government, but in the end I had to do it for everybody. I had to do it for the government.",
+          "I had to do it for the civil society.",
+          "[I had] to satisfy everybody."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time markers, but the role and organizations are clearly linked, indicating a multifaceted responsibility."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Role 'satisfy everybody' seems vague for a career position classification."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

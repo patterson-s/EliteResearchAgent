@@ -1,0 +1,304 @@
+{
+  "status": "success",
+  "chunk_id": 2728,
+  "chunk_index": 9,
+  "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10722368/",
+  "title": "Searching for Meaning in the Life of Ellen Johnson-Sirleaf: A Call to Meaningful Responses to Tragedies - PMC",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "in 1971",
+          "type": "point",
+          "quotes": [
+            "She acquired a master’s degree in public administration from Harvard University in 1971."
+          ]
+        },
+        {
+          "text": "In 1979",
+          "type": "point",
+          "quotes": [
+            "In 1979, Johnson-Sirleaf was appointed the first female Minister of Finance in Liberia under President William Tolbert."
+          ]
+        },
+        {
+          "text": "In 1980",
+          "type": "point",
+          "quotes": [
+            "In 1980, President Tolbert was removed and executed in a coup d’état led by General Samuel Doe."
+          ]
+        },
+        {
+          "text": "in 1980",
+          "type": "point",
+          "quotes": [
+            "she had to escape the country with the help of the World Bank in 1980."
+          ]
+        },
+        {
+          "text": "In 1984",
+          "type": "point",
+          "quotes": [
+            "In 1984, she returned to Liberia as she felt compelled to serve her country."
+          ]
+        },
+        {
+          "text": "In 1985",
+          "type": "point",
+          "quotes": [
+            "Instead of moving overseas, in 1985 she contested and won the elections for a senatorial seat."
+          ]
+        },
+        {
+          "text": "In 1986",
+          "type": "point",
+          "quotes": [
+            "In 1986, upon being released from prison, she went into exile to escape the increasingly oppressive military government."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Harvard University",
+          "quotes": [
+            "She acquired a master’s degree in public administration from Harvard University in 1971."
+          ]
+        },
+        {
+          "name": "Liberian government",
+          "quotes": [
+            "This contributed to her rapid ascendency in the Liberian government, initially serving as an Assistant to the Minister of Finance."
+          ]
+        },
+        {
+          "name": "Liberian Bank for Development and Investment",
+          "quotes": [
+            "she stayed and served in President Doe’s government as the president of the Liberian Bank for Development and Investment."
+          ]
+        },
+        {
+          "name": "World Bank",
+          "quotes": [
+            "she had to escape the country with the help of the World Bank in 1980."
+          ]
+        },
+        {
+          "name": "HSBC Equator Bank",
+          "quotes": [
+            "During that period, Johnson-Sirleaf held several positions for organisations such as the HSBC Equator Bank, the United Nations, and the World Bank."
+          ]
+        },
+        {
+          "name": "United Nations",
+          "quotes": [
+            "During that period, Johnson-Sirleaf held several positions for organisations such as the HSBC Equator Bank, the United Nations, and the World Bank."
+          ]
+        },
+        {
+          "name": "World Bank",
+          "quotes": [
+            "During that period, Johnson-Sirleaf held several positions for organisations such as the HSBC Equator Bank, the United Nations, and the World Bank."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Assistant to the Minister of Finance",
+          "quotes": [
+            "initially serving as an Assistant to the Minister of Finance."
+          ]
+        },
+        {
+          "title": "Minister of Finance",
+          "quotes": [
+            "In 1979, Johnson-Sirleaf was appointed the first female Minister of Finance in Liberia under President William Tolbert."
+          ]
+        },
+        {
+          "title": "president of the Liberian Bank for Development and Investment",
+          "quotes": [
+            "she stayed and served in President Doe’s government as the president of the Liberian Bank for Development and Investment."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Liberia",
+          "quotes": [
+            "In 1979, Johnson-Sirleaf was appointed the first female Minister of Finance in Liberia under President William Tolbert."
+          ]
+        },
+        {
+          "place": "Harvard University",
+          "quotes": [
+            "She acquired a master’s degree in public administration from Harvard University in 1971."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "She acquired a master’s degree in public administration from Harvard University in 1971."
+        ],
+        "confidence": "high",
+        "notes": "Educational achievement, not a role, but included as a significant career milestone."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "In 1979, Johnson-Sirleaf was appointed the first female Minister of Finance in Liberia under President William Tolbert.",
+          "initially serving as an Assistant to the Minister of Finance."
+        ],
+        "confidence": "high",
+        "notes": "Clear appointment to a ministerial role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "she stayed and served in President Doe’s government as the president of the Liberian Bank for Development and Investment."
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker, but role and organization are clear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "In 1985, she contested and won the elections for a senatorial seat."
+        ],
+        "confidence": "high",
+        "notes": "Elected position, clear career milestone."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          4,
+          5,
+          6
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "During that period, Johnson-Sirleaf held several positions for organisations such as the HSBC Equator Bank, the United Nations, and the World Bank."
+        ],
+        "confidence": "medium",
+        "notes": "No specific roles mentioned, but organizations and time period are clear."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as 'career_position' but describes an educational achievement rather than a role."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing role_ids, as this is an educational milestone, not a position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time_marker_ids, making temporal placement uncertain."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing organization_ids and role_ids for the senatorial position."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role_ids for positions held at HSBC Equator Bank, United Nations, and World Bank."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time_marker_ids, making temporal placement uncertain."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 1,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

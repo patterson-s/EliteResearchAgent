@@ -1,0 +1,172 @@
+{
+  "status": "success",
+  "chunk_id": 407,
+  "chunk_index": 2,
+  "source_url": "https://ciaotest.cc.columbia.edu/olj/meria/meria598_freedman.html",
+  "title": "Russia And The Middle East: The Primakov Era",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1994",
+          "type": "point",
+          "quotes": [
+            "Kozyrev sought to defuse a major crisis precipitated by Iraqi leader Saddam Hussein in 1994"
+          ]
+        },
+        {
+          "text": "1997",
+          "type": "point",
+          "quotes": [
+            "much as Primakov was to try to do in 1997 and 1998",
+            "during the 1997 Iraqi crisis",
+            "committed itself to purchasing 36.7 million barrels in 1997",
+            "Primakov's behavior in both the October-November 1997 and January-February 1998 Iraqi crises"
+          ]
+        },
+        {
+          "text": "1998",
+          "type": "point",
+          "quotes": [
+            "much as Primakov was to try to do in 1997 and 1998",
+            "Primakov's behavior in both the October-November 1997 and January-February 1998 Iraqi crises"
+          ]
+        },
+        {
+          "text": "October-November 1997",
+          "type": "range",
+          "quotes": [
+            "Primakov's behavior in both the October-November 1997 and January-February 1998 Iraqi crises"
+          ]
+        },
+        {
+          "text": "January-February 1998",
+          "type": "range",
+          "quotes": [
+            "Primakov's behavior in both the October-November 1997 and January-February 1998 Iraqi crises"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Duma",
+          "quotes": [
+            "despite the fact that the Duma regularly voted for the lifting of sanctions."
+          ]
+        },
+        {
+          "name": "Center for Strategic Studies in Moscow",
+          "quotes": [
+            "Andrei Piontkowski of the Center for Strategic Studies in Moscow stated during the 1997 Iraqi crisis"
+          ]
+        },
+        {
+          "name": "Lukoil",
+          "quotes": [
+            "Saddam Hussein has cleverly dangled major contracts before influential Russian companies, such as Lukoil, which was part of a multi-billion dollar agreement to develop the West Kurna oil field."
+          ]
+        },
+        {
+          "name": "UN",
+          "quotes": [
+            "Russia had become the major purchaser of Iraqi oil under the UN-approved oil-for-food agreement"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Deputy Prime Minister",
+          "quotes": [
+            "Iraqi Deputy Prime Minister Tarik Aziz became a visitor to Moscow even before Primakov took office"
+          ]
+        },
+        {
+          "title": "foreign minister",
+          "quotes": [
+            "By the time Primakov became Russia's foreign minister"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Moscow",
+          "quotes": [
+            "Iraqi Deputy Prime Minister Tarik Aziz became a visitor to Moscow even before Primakov took office",
+            "Andrei Piontkowski of the Center for Strategic Studies in Moscow stated during the 1997 Iraqi crisis"
+          ]
+        },
+        {
+          "place": "Russia",
+          "quotes": [
+            "By the time Primakov became Russia's foreign minister, it was clear that Yeltsin had three major interests in developing Russia's relationship with Iraq:",
+            "To spur the Russians to greater efforts to lift the sanctions",
+            "Russia had become the major purchaser of Iraqi oil under the UN-approved oil-for-food agreement"
+          ]
+        },
+        {
+          "place": "Iraq",
+          "quotes": [
+            "Yeltsin's Russia has in Iraq is in regaining the $7 billion Iraq owes to Russia",
+            "The third interest in Iraq is in acquiring contracts for Russian factories, oil and gas companies"
+          ]
+        },
+        {
+          "place": "West Kurna oil field",
+          "quotes": [
+            "which was part of a multi-billion dollar agreement to develop the West Kurna oil field."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "By the time Primakov became Russia's foreign minister, it was clear that Yeltsin had three major interests in developing Russia's relationship with Iraq:"
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker, but the role and location are clear."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker information, making it difficult to determine the exact period of the career position."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information, which is crucial for understanding the context of the career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

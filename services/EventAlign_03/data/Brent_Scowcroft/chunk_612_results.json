@@ -1,0 +1,250 @@
+{
+  "status": "success",
+  "chunk_id": 612,
+  "chunk_index": 5,
+  "source_url": "https://en.wikipedia.org/wiki/Brent_Scowcroft",
+  "title": "Brent Scowcroft - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "October 3, 2007",
+          "type": "point",
+          "quotes": [
+            "HBO History Makers Series: A Conversation with Brent Scowcroft, October 3, 2007"
+          ]
+        },
+        {
+          "text": "1991",
+          "type": "point",
+          "quotes": [
+            "President George H. W. Bush presented him with the Presidential Medal of Freedom in 1991."
+          ]
+        },
+        {
+          "text": "1993",
+          "type": "point",
+          "quotes": [
+            "In 1993, he was created an Honorary Knight Commander of the Order of the British Empire by Queen Elizabeth II at Buckingham Palace."
+          ]
+        },
+        {
+          "text": "1988",
+          "type": "point",
+          "quotes": [
+            "In 1988, he received the Golden Plate Award of the American Academy of Achievement."
+          ]
+        },
+        {
+          "text": "2005",
+          "type": "point",
+          "quotes": [
+            "In 2005, Scowcroft was awarded the William Oliver Baker Award by the Intelligence and National Security Alliance."
+          ]
+        },
+        {
+          "text": "1998",
+          "type": "point",
+          "quotes": [
+            "In 1998, he co-wrote A World Transformed with George H. W. Bush."
+          ]
+        },
+        {
+          "text": "early 1990s",
+          "type": "point",
+          "quotes": [
+            "This book described what it was like to be in the White House during the end of the Cold War, as the Soviet Union collapsed in the early 1990s."
+          ]
+        },
+        {
+          "text": "1991",
+          "type": "point",
+          "quotes": [
+            "Notably, both figures explained why they didn't go on to Baghdad in 1991: 'Had we gone the invasion route, the United States could conceivably still be an occupying power in a bitterly hostile land.'"
+          ]
+        },
+        {
+          "text": "1994",
+          "type": "point",
+          "quotes": [
+            "In 1994, Scowcroft co-authored the opinion-editorial 'The Time for Temporizing is Over' urging President Bill Clinton to order a preemptive strike on North Korea's Yongbyon nuclear facility unless it readmitted International Atomic Energy Agency inspectors."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Council on Foreign Relations",
+          "quotes": [
+            "Council on Foreign Relations, October 3, 2007"
+          ]
+        },
+        {
+          "name": "American Academy of Achievement",
+          "quotes": [
+            "In 1988, he received the Golden Plate Award of the American Academy of Achievement."
+          ]
+        },
+        {
+          "name": "Intelligence and National Security Alliance",
+          "quotes": [
+            "In 2005, Scowcroft was awarded the William Oliver Baker Award by the Intelligence and National Security Alliance."
+          ]
+        },
+        {
+          "name": "International Atomic Energy Agency",
+          "quotes": [
+            "In 1994, Scowcroft co-authored the opinion-editorial 'The Time for Temporizing is Over' urging President Bill Clinton to order a preemptive strike on North Korea's Yongbyon nuclear facility unless it readmitted International Atomic Energy Agency inspectors."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "President",
+          "quotes": [
+            "President George H. W. Bush presented him with the Presidential Medal of Freedom in 1991."
+          ]
+        },
+        {
+          "title": "Honorary Knight Commander of the Order of the British Empire",
+          "quotes": [
+            "In 1993, he was created an Honorary Knight Commander of the Order of the British Empire by Queen Elizabeth II at Buckingham Palace."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Buckingham Palace",
+          "quotes": [
+            "In 1993, he was created an Honorary Knight Commander of the Order of the British Empire by Queen Elizabeth II at Buckingham Palace."
+          ]
+        },
+        {
+          "place": "Baghdad",
+          "quotes": [
+            "Notably, both figures explained why they didn't go on to Baghdad in 1991: 'Had we gone the invasion route, the United States could conceivably still be an occupying power in a bitterly hostile land.'"
+          ]
+        },
+        {
+          "place": "North Korea",
+          "quotes": [
+            "In 1994, Scowcroft co-authored the opinion-editorial 'The Time for Temporizing is Over' urging President Bill Clinton to order a preemptive strike on North Korea's Yongbyon nuclear facility unless it readmitted International Atomic Energy Agency inspectors."
+          ]
+        },
+        {
+          "place": "Yongbyon",
+          "quotes": [
+            "In 1994, Scowcroft co-authored the opinion-editorial 'The Time for Temporizing is Over' urging President Bill Clinton to order a preemptive strike on North Korea's Yongbyon nuclear facility unless it readmitted International Atomic Energy Agency inspectors."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "President George H. W. Bush presented him with the Presidential Medal of Freedom in 1991."
+        ],
+        "confidence": "high",
+        "notes": "Clear award indication with no associated role or organization."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "In 1993, he was created an Honorary Knight Commander of the Order of the British Empire by Queen Elizabeth II at Buckingham Palace."
+        ],
+        "confidence": "high",
+        "notes": "Honorary title with no active responsibilities indicated."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 1988, he received the Golden Plate Award of the American Academy of Achievement."
+        ],
+        "confidence": "high",
+        "notes": "Clear award indication with no associated role or ongoing responsibilities."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2005, Scowcroft was awarded the William Oliver Baker Award by the Intelligence and National Security Alliance."
+        ],
+        "confidence": "high",
+        "notes": "Clear award indication with no associated role or ongoing responsibilities."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Role ID 1 (Honorary Knight Commander of the Order of the British Empire) seems related to the award but is listed under role_ids instead of being treated as part of the award title."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 3,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 0,
+      "awards": 4
+    }
+  }
+}

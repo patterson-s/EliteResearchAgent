@@ -1,0 +1,249 @@
+{
+  "status": "success",
+  "chunk_id": 3574,
+  "chunk_index": 9,
+  "source_url": "https://en.wikipedia.org/wiki/Shaukat_Aziz",
+  "title": "Shaukat Aziz - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In 2007",
+          "type": "point",
+          "quotes": [
+            "In 2007, Aziz further diversified his nuclear energy policy, terming it as 'criteria based nuclear technology' while continued financing the nuclear power projects."
+          ]
+        },
+        {
+          "text": "in 2011",
+          "type": "point",
+          "quotes": [
+            "Its foundation was laid by his successor Yousaf Raza Gillani in 2011."
+          ]
+        },
+        {
+          "text": "In 2004",
+          "type": "point",
+          "quotes": [
+            "In 2004, Aziz directed the Ministry of Water and Power and Planning Commission to prepare an integrated energy plan for the country."
+          ]
+        },
+        {
+          "text": "In May 2006",
+          "type": "point",
+          "quotes": [
+            "In May 2006, Aziz stressed that: 'Pakistan's deep military and economic cooperation with China was one not based on 'transient interest', but was 'higher than Himalayas, deeper than oceans'."
+          ]
+        },
+        {
+          "text": "In August 2006",
+          "type": "point",
+          "quotes": [
+            "In August 2006, Aziz visited the People's Republic of China, seeking Chinese cooperation in space technology."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Ministry of Water and Power",
+          "quotes": [
+            "In 2004, Aziz directed the Ministry of Water and Power and Planning Commission to prepare an integrated energy plan for the country."
+          ]
+        },
+        {
+          "name": "Planning Commission",
+          "quotes": [
+            "In 2004, Aziz directed the Ministry of Water and Power and Planning Commission to prepare an integrated energy plan for the country."
+          ]
+        },
+        {
+          "name": "Water and Power Development Authority (WAPDA)",
+          "quotes": [
+            "Aziz approved the 'Vision 2025' programme' of Water and Power Development Authority (WAPDA) to produce power through water."
+          ]
+        },
+        {
+          "name": "China",
+          "quotes": [
+            "Aziz oversaw the successful development of the JF-17 Thunder fighter programme in record time, built with the close cooperation with China."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Prime Minister",
+          "quotes": [
+            "In a joint statement of Prime Minister Shaukat Aziz and Chinese Premier Wen Jiabao, Aziz emphasised that: 'both countries are determined to elevate their friendship and strategic partnership.'"
+          ]
+        },
+        {
+          "title": "Chinese Premier",
+          "quotes": [
+            "In a joint statement of Prime Minister Shaukat Aziz and Chinese Premier Wen Jiabao, Aziz emphasised that: 'both countries are determined to elevate their friendship and strategic partnership.'"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Pakistan",
+          "quotes": [
+            "Aziz presided initial construction of major hydroelectric power plants project in Pakistan, such as approving the Diamer-Bhasha Dam."
+          ]
+        },
+        {
+          "place": "People's Republic of China",
+          "quotes": [
+            "In August 2006, Aziz visited the People's Republic of China, seeking Chinese cooperation in space technology."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2004, Aziz directed the Ministry of Water and Power and Planning Commission to prepare an integrated energy plan for the country."
+        ],
+        "confidence": "high",
+        "notes": "No explicit role mentioned, but directing organizations implies a leadership position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Aziz approved the 'Vision 2025' programme' of Water and Power Development Authority (WAPDA) to produce power through water."
+        ],
+        "confidence": "high",
+        "notes": "Approval of a program implies a leadership or decision-making role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2007, Aziz further diversified his nuclear energy policy, terming it as 'criteria based nuclear technology' while continued financing the nuclear power projects.",
+          "In a joint statement of Prime Minister Shaukat Aziz and Chinese Premier Wen Jiabao, Aziz emphasised that: 'both countries are determined to elevate their friendship and strategic partnership.'"
+        ],
+        "confidence": "high",
+        "notes": "Prime Minister role is explicitly mentioned in the joint statement."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "In August 2006, Aziz visited the People's Republic of China, seeking Chinese cooperation in space technology.",
+          "In a joint statement of Prime Minister Shaukat Aziz and Chinese Premier Wen Jiabao, Aziz emphasised that: 'both countries are determined to elevate their friendship and strategic partnership.'"
+        ],
+        "confidence": "high",
+        "notes": "Prime Minister role is implied by the visit and joint statement."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Aziz oversaw the successful development of the JF-17 Thunder fighter programme in record time, built with the close cooperation with China.",
+          "In a joint statement of Prime Minister Shaukat Aziz and Chinese Premier Wen Jiabao, Aziz emphasised that: 'both countries are determined to elevate their friendship and strategic partnership.'"
+        ],
+        "confidence": "high",
+        "notes": "Overseeing a program and making joint statements imply a leadership role."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, though leadership is implied by directing organizations."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and role information, though leadership is implied by approving a program."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing organization information, though leadership is implied by overseeing a program and making joint statements."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 2,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

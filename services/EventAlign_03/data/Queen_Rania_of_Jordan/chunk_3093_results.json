@@ -1,0 +1,84 @@
+{
+  "status": "success",
+  "chunk_id": 3093,
+  "chunk_index": 18,
+  "source_url": "https://en.wikipedia.org/wiki/Queen_Rania_of_Jordan",
+  "title": "Queen Rania of Jordan - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "1999–present",
+          "type": "open",
+          "quotes": [
+            "Queen consort of Jordan 1999–present"
+          ]
+        }
+      ],
+      "organizations": [],
+      "roles": [
+        {
+          "title": "Queen consort of Jordan",
+          "quotes": [
+            "Queen consort of Jordan 1999–present"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Jordan",
+          "quotes": [
+            "Queen consort of Jordan 1999–present"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Queen consort of Jordan 1999–present"
+        ],
+        "confidence": "high",
+        "notes": "Role as Queen consort is an ongoing position with ceremonial and representative duties."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing organization entity despite the role being tied to a specific country (Jordan)."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

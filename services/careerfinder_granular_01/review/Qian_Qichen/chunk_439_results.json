@@ -1,0 +1,375 @@
+{
+  "status": "success",
+  "chunk_id": 439,
+  "chunk_index": 1,
+  "source_url": "https://www.hoover.org/sites/default/files/research/docs/clm10_rs.pdf",
+  "title": "clm10_rs.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "last year",
+          "type": "point",
+          "quotes": [
+            "Li Zhaoxing, appointed last year as foreign minister, is also considered close to Qian,"
+          ]
+        },
+        {
+          "text": "in 2008",
+          "type": "point",
+          "quotes": [
+            "his age (63) will require him to step down at the end of his current term, in 2008."
+          ]
+        },
+        {
+          "text": "from 1982 until his retirement in 2003",
+          "type": "range",
+          "quotes": [
+            "since he was either the ranking vice minister, minister, or State Council overseer from 1982 until his retirement in 2003."
+          ]
+        },
+        {
+          "text": "mid-1990s",
+          "type": "point",
+          "quotes": [
+            "Zhang Yesui probably worked closely with Qian in the International Organizations Department in the mid-1990s;"
+          ]
+        },
+        {
+          "text": "October 2003",
+          "type": "point",
+          "quotes": [
+            "with the publication in October 2003 of his book, Ten Stories of a Diplomat (Waijiao shiji )."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Foreign Ministry",
+          "quotes": [
+            "become a state councillor and probably has principal supervisory responsibility over the Foreign Ministry."
+          ]
+        },
+        {
+          "name": "China Leadership Monitor",
+          "quotes": [
+            "Suettinger, China Leadership Monitor , No.10"
+          ]
+        },
+        {
+          "name": "Soviet and East European Affairs Department",
+          "quotes": [
+            "Dai Bingguo started his career in the Soviet and East European Affairs Department, where Qian also got his start;"
+          ]
+        },
+        {
+          "name": "Japan and the Asian Affairs Department",
+          "quotes": [
+            "Wang Yi served under Tang Jiaxuan in Japan and the Asian Affairs Department;"
+          ]
+        },
+        {
+          "name": "International Organizations Department",
+          "quotes": [
+            "Zhang Yesui probably worked closely with Qian in the International Organizations Department in the mid-1990s;"
+          ]
+        },
+        {
+          "name": "American and Oceanian Affairs Department",
+          "quotes": [
+            "Zhou Wenzhong rose rapidly in the American and Oceanian Affairs Department, in which Qian played a conspicuous policy role."
+          ]
+        },
+        {
+          "name": "Ministry of Foreign Affairs (MFA)",
+          "quotes": [
+            "This is not to imply that Qian retains authority over personnel issues within the Ministry of Foreign Affairs (MFA)."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "state councillor",
+          "quotes": [
+            "become a state councillor and probably has principal supervisory responsibility over the Foreign Ministry."
+          ]
+        },
+        {
+          "title": "foreign minister",
+          "quotes": [
+            "rather undistinguished tour as foreign minister (operating in Qian’s shadow)."
+          ]
+        },
+        {
+          "title": "foreign minister",
+          "quotes": [
+            "Li Zhaoxing, appointed last year as foreign minister, is also considered close to Qian,"
+          ]
+        },
+        {
+          "title": "ranking vice minister",
+          "quotes": [
+            "since he was either the ranking vice minister, minister, or State Council overseer from 1982 until his retirement in 2003."
+          ]
+        },
+        {
+          "title": "minister",
+          "quotes": [
+            "since he was either the ranking vice minister, minister, or State Council overseer from 1982 until his retirement in 2003."
+          ]
+        },
+        {
+          "title": "State Council overseer",
+          "quotes": [
+            "since he was either the ranking vice minister, minister, or State Council overseer from 1982 until his retirement in 2003."
+          ]
+        },
+        {
+          "title": "vice ministers",
+          "quotes": [
+            "Of the current vice ministers, for example, Dai Bingguo started his career in the Soviet and East European Affairs Department,"
+          ]
+        },
+        {
+          "title": "ambassadorships",
+          "quotes": [
+            "step-by-step upward movement through departments, ambassadorships, and assistant and vice minister positions"
+          ]
+        },
+        {
+          "title": "assistant and vice minister positions",
+          "quotes": [
+            "step-by-step upward movement through departments, ambassadorships, and assistant and vice minister positions"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Beijing",
+          "quotes": [
+            "it has been prominently displayed in the major bookstores in Beijing, Shanghai, and other major urban centers for the last several months."
+          ]
+        },
+        {
+          "place": "Shanghai",
+          "quotes": [
+            "it has been prominently displayed in the major bookstores in Beijing, Shanghai, and other major urban centers for the last several months."
+          ]
+        },
+        {
+          "place": "Japan",
+          "quotes": [
+            "Wang Yi served under Tang Jiaxuan in Japan and the Asian Affairs Department;"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          4,
+          5,
+          6
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "since he was either the ranking vice minister, minister, or State Council overseer from 1982 until his retirement in 2003."
+        ],
+        "confidence": "high",
+        "notes": "Roles are clearly linked to the time period, but no specific organization is mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Li Zhaoxing, appointed last year as foreign minister, is also considered close to Qian,"
+        ],
+        "confidence": "high",
+        "notes": "Role is clearly linked to the time marker, but no specific organization is mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "become a state councillor and probably has principal supervisory responsibility over the Foreign Ministry."
+        ],
+        "confidence": "high",
+        "notes": "Role and organization are clearly linked, but no specific time marker is mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Zhang Yesui probably worked closely with Qian in the International Organizations Department in the mid-1990s;"
+        ],
+        "confidence": "medium",
+        "notes": "Organization is linked to the time marker, but no specific role is mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [
+          3
+        ],
+        "supporting_quotes": [
+          "Wang Yi served under Tang Jiaxuan in Japan and the Asian Affairs Department;"
+        ],
+        "confidence": "medium",
+        "notes": "Organization and location are linked, but no specific time marker or role is mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          7
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Dai Bingguo started his career in the Soviet and East European Affairs Department, where Qian also got his start;"
+        ],
+        "confidence": "medium",
+        "notes": "Organization is linked to the role, but no specific time marker is mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          5
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Zhou Wenzhong rose rapidly in the American and Oceanian Affairs Department, in which Qian played a conspicuous policy role."
+        ],
+        "confidence": "medium",
+        "notes": "Organization is mentioned, but no specific time marker or role is linked."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information despite having time marker and roles."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information despite having time marker and role."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and role information despite having organization."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information despite having time marker and organization."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and role information despite having organization and location."
+          }
+        ]
+      },
+      {
+        "event_id": 5,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker information despite having organization and role."
+          }
+        ]
+      },
+      {
+        "event_id": 6,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and role information despite having organization."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 7,
+      "valid": 0,
+      "warnings": 7,
+      "errors": 0,
+      "career_positions": 7,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "status": "success",
+  "chunk_id": 3305,
+  "chunk_index": 2,
+  "source_url": "https://www.npr.org/sections/money/2022/04/19/1093339972/who-is-the-real-elvira-nabiullina",
+  "title": "Who is the real Elvira Nabiullina? : Planet Money : NPR",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "March, after the invasion of Ukraine",
+          "type": "point",
+          "quotes": [
+            "despite rumors that she asked to resign in March, after the invasion of Ukraine."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Rosneft",
+          "quotes": [
+            "oil flagship Rosneft.",
+            "She then added those notes to the CBR's Lombard credit list of securities that can be used as collateral for hard currency. Next, she made billions of dollars in loans to Rosneft, using the company's own notes as collateral."
+          ]
+        },
+        {
+          "name": "CBR",
+          "quotes": [
+            "She then added those notes to the CBR's Lombard credit list of securities that can be used as collateral for hard currency."
+          ]
+        },
+        {
+          "name": "Kremlin",
+          "quotes": [
+            "She not only destroyed Russian savings, but she made the cost of investment for them a lot higher. The Russian central bank says it has a mandate of protecting the economy and keeping price stability in check as with most central banks, but really Nabiullina only has one mandate and that is to protect the Kremlin and the Kremlin regime.",
+            "She does, after all, work in the Kremlin, which is hardly a bastion of transparency."
+          ]
+        },
+        {
+          "name": "Russian central bank",
+          "quotes": [
+            "The Russian central bank says it has a mandate of protecting the economy and keeping price stability in check as with most central banks, but really Nabiullina only has one mandate and that is to protect the Kremlin and the Kremlin regime."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "key member of Putin's inner circle",
+          "quotes": [
+            "Nabiullina remains a key member of Putin's inner circle,"
+          ]
+        },
+        {
+          "title": "minister of armaments and war production",
+          "quotes": [
+            "Some even compare her to Albert Speer, Hitler's minister of armaments and war production, who was jailed for war crimes."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Crimea",
+          "quotes": [
+            "Russia had just invaded Crimea and the West had imposed sanctions on a raft of companies, including Rosneft."
+          ]
+        },
+        {
+          "place": "Ukraine",
+          "quotes": [
+            "despite rumors that she asked to resign in March, after the invasion of Ukraine.",
+            "Other critics go further, saying she assisted in the plan for the invasion of Ukraine by building up Russia's foreign currency reserves on the one hand, while squeezing the Russian people with austerity measures on the other."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Nabiullina remains a key member of Putin's inner circle",
+          "The Russian central bank says it has a mandate of protecting the economy and keeping price stability in check as with most central banks, but really Nabiullina only has one mandate and that is to protect the Kremlin and the Kremlin regime."
+        ],
+        "confidence": "high",
+        "notes": "The role 'key member of Putin's inner circle' is directly linked to the organization 'Kremlin' through the shared context of Nabiullina's responsibilities and mandate."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          1,
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "She then added those notes to the CBR's Lombard credit list of securities that can be used as collateral for hard currency.",
+          "The Russian central bank says it has a mandate of protecting the economy and keeping price stability in check as with most central banks, but really Nabiullina only has one mandate and that is to protect the Kremlin and the Kremlin regime."
+        ],
+        "confidence": "medium",
+        "notes": "While the exact role is not specified, the actions described (adding notes to CBR's Lombard credit list) imply an active position within CBR and the Russian central bank. Time marker is included as it is mentioned in the context of her actions."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "She then added those notes to the CBR's Lombard credit list of securities that can be used as collateral for hard currency. Next, she made billions of dollars in loans to Rosneft, using the company's own notes as collateral."
+        ],
+        "confidence": "low",
+        "notes": "The connection between Nabiullina and Rosneft is based on her actions involving loans, but the exact nature of her role within Rosneft is unclear. No specific role or time marker is mentioned."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time_marker_ids and location_ids, which could provide additional context for the event."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role_ids, which is crucial for understanding the specific position held."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "The quote mentions actions but does not explicitly state a role or position, making the classification as 'career_position' somewhat uncertain."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "error",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing time_marker_ids, role_ids, and location_ids, making the event incomplete and lacking essential context."
+          },
+          {
+            "type": "quote_support",
+            "severity": "medium",
+            "description": "The quote describes actions but does not clearly indicate a formal role or position within Rosneft, questioning the classification as 'career_position'."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The event may be misclassified as 'career_position' if the actions described do not constitute a formal role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 1,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

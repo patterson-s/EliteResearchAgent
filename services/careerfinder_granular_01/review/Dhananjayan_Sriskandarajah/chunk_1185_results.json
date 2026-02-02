@@ -1,0 +1,107 @@
+{
+  "status": "success",
+  "chunk_id": 1185,
+  "chunk_index": 3,
+  "source_url": "https://en.wikipedia.org/wiki/Dhananjayan_Sriskandarajah",
+  "title": "Dhananjayan Sriskandarajah - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "17 July 2024",
+          "type": "point",
+          "quotes": [
+            "Sriskandarajah in conversation with Dame Julia Unwin at The Conduit, London, 17 July 2024."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "The Conduit",
+          "quotes": [
+            "Sriskandarajah in conversation with Dame Julia Unwin at The Conduit, London, 17 July 2024."
+          ]
+        },
+        {
+          "name": "Magdalen College, Oxford",
+          "quotes": [
+            "Alumni of Magdalen College, Oxford"
+          ]
+        },
+        {
+          "name": "James Ruse Agricultural High School",
+          "quotes": [
+            "People educated at James Ruse Agricultural High School"
+          ]
+        },
+        {
+          "name": "University of Sydney",
+          "quotes": [
+            "University of Sydney alumni"
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": [
+        {
+          "place": "London",
+          "quotes": [
+            "Sriskandarajah in conversation with Dame Julia Unwin at The Conduit, London, 17 July 2024."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Sriskandarajah in conversation with Dame Julia Unwin at The Conduit, London, 17 July 2024."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit role mentioned, but the event implies an affiliation with The Conduit as a speaker or participant."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. While the event implies an affiliation with The Conduit, the specific role or position is not explicitly stated."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classification as 'career_position' is questionable without clear role information. This might be better classified as an event or appearance rather than a formal position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

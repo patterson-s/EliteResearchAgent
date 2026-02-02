@@ -1,0 +1,128 @@
+{
+  "status": "success",
+  "chunk_id": 912,
+  "chunk_index": 55,
+  "source_url": "https://www.un.org/digital-emerging-technologies/sites/www.un.org.techenvoy/files/hlp_on_digital_cooperation-report_final.pdf",
+  "title": "hlp_on_digital_cooperation-report_final.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2020",
+          "type": "point",
+          "quotes": [
+            "We suggest an initial goal of marking the UN's 75th anniversary in 2020 with a “Global Commitment for Digital Cooperation”"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "UN",
+          "quotes": [
+            "We recommend that, as a matter of urgency, the UN Secretary-General facilitate an agile and open consultation process",
+            "We suggest an initial goal of marking the UN's 75th anniversary in 2020 with a “Global Commitment for Digital Cooperation”"
+          ]
+        },
+        {
+          "name": "WTO",
+          "quotes": [
+            "for example, while the WTO remains a major forum to address issues raised"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "UN Secretary-General",
+          "quotes": [
+            "We recommend that, as a matter of urgency, the UN Secretary-General facilitate an agile and open consultation process",
+            "we understand that the UN Secretary-General may appoint a Technology Envoy"
+          ]
+        },
+        {
+          "title": "Technology Envoy",
+          "quotes": [
+            "we understand that the UN Secretary-General may appoint a Technology Envoy"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "We recommend that, as a matter of urgency, the UN Secretary-General facilitate an agile and open consultation process"
+        ],
+        "confidence": "high",
+        "notes": "The role of UN Secretary-General is clearly mentioned with active responsibilities."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "we understand that the UN Secretary-General may appoint a Technology Envoy"
+        ],
+        "confidence": "medium",
+        "notes": "The Technology Envoy role is mentioned as a potential appointment, but no specific time or active duties are detailed."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the event."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the event."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "The quote mentions the role as a potential appointment but does not confirm it as a current or past position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

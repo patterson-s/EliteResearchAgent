@@ -1,0 +1,117 @@
+{
+  "status": "success",
+  "chunk_id": 1143,
+  "chunk_index": 1,
+  "source_url": "https://otd.harvard.edu/events/biomedical-informatics-entrepreneurs-salon-kira-radinsky-diagnostic-robotics/",
+  "title": "Biomedical Informatics… | Harvard Office of Technology Development",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "since the 1990’s",
+          "type": "open",
+          "quotes": [
+            "He also has worked on AI applications in medicine since the 1990’s, including automated ventilator control, pediatric growth monitoring, detection of domestic abuse, diagnosing autism from multimodal data and most recently assisting clinicians using whole genome sequence and clinical histories to diagnose rare or unknown disease patients."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "National Academy of Medicine",
+          "quotes": [
+            "He is a member of the National Academy of Medicine, the American Society for Clinical Investigation and the American College of Medical Informatics."
+          ]
+        },
+        {
+          "name": "American Society for Clinical Investigation",
+          "quotes": [
+            "He is a member of the National Academy of Medicine, the American Society for Clinical Investigation and the American College of Medical Informatics."
+          ]
+        },
+        {
+          "name": "American College of Medical Informatics",
+          "quotes": [
+            "He is a member of the National Academy of Medicine, the American Society for Clinical Investigation and the American College of Medical Informatics."
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He also has worked on AI applications in medicine since the 1990’s, including automated ventilator control, pediatric growth monitoring, detection of domestic abuse, diagnosing autism from multimodal data and most recently assisting clinicians using whole genome sequence and clinical histories to diagnose rare or unknown disease patients."
+        ],
+        "confidence": "high",
+        "notes": "While no specific organization or role is mentioned, the ongoing work in AI applications in medicine since the 1990’s is classified as a career position due to the active and continuous nature of the work."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0,
+          1,
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He is a member of the National Academy of Medicine, the American Society for Clinical Investigation and the American College of Medical Informatics."
+        ],
+        "confidence": "high",
+        "notes": "Membership in professional organizations is classified as a career position, assuming active participation and ongoing responsibilities."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and role details, though the ongoing work is classified as a career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Membership in professional organizations is typically not classified as a career position unless active responsibilities are clearly mentioned."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and role details."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

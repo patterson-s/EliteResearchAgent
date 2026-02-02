@@ -1,0 +1,212 @@
+{
+  "status": "success",
+  "chunk_id": 2785,
+  "chunk_index": 4,
+  "source_url": "https://en.wikipedia.org/wiki/David_Cameron",
+  "title": "David Cameron - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "8 September 2010",
+          "type": "point",
+          "quotes": [
+            "Cameron's father was born at Blairmore House near Huntly, Aberdeenshire, and died near Toulon, France, on 8 September 2010;"
+          ]
+        },
+        {
+          "text": "the 1880s",
+          "type": "point",
+          "quotes": [
+            "who had made a fortune in the grain trade in Chicago, United States, before returning to Scotland in the 1880s."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Heatherdown School",
+          "quotes": [
+            "From the age of seven, he was taught at Heatherdown School in Winkfield, Berkshire."
+          ]
+        },
+        {
+          "name": "Eton College",
+          "quotes": [
+            "At the age of 13, he went on to Eton College in Berkshire, following his father and elder brother."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Justice of the Peace",
+          "quotes": [
+            "a retired Justice of the Peace and the daughter of Sir William Mount, 2nd Baronet."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "London",
+          "quotes": [
+            ", London,"
+          ]
+        },
+        {
+          "place": "Peasemore, Berkshire",
+          "quotes": [
+            "and raised at Peasemore in Berkshire."
+          ]
+        },
+        {
+          "place": "Blairmore House near Huntly, Aberdeenshire",
+          "quotes": [
+            "Cameron's father was born at Blairmore House near Huntly, Aberdeenshire, and died near Toulon, France, on 8 September 2010;"
+          ]
+        },
+        {
+          "place": "Toulon, France",
+          "quotes": [
+            "Cameron's father was born at Blairmore House near Huntly, Aberdeenshire, and died near Toulon, France, on 8 September 2010;"
+          ]
+        },
+        {
+          "place": "Chicago, United States",
+          "quotes": [
+            "who had made a fortune in the grain trade in Chicago, United States, before returning to Scotland in the 1880s."
+          ]
+        },
+        {
+          "place": "Winkfield, Berkshire",
+          "quotes": [
+            "From the age of seven, he was taught at Heatherdown School in Winkfield, Berkshire."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          5
+        ],
+        "supporting_quotes": [
+          "From the age of seven, he was taught at Heatherdown School in Winkfield, Berkshire."
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but attendance at school is considered a career position for the purpose of this exercise."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "At the age of 13, he went on to Eton College in Berkshire, following his father and elder brother."
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but attendance at college is considered a career position for the purpose of this exercise."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "a retired Justice of the Peace and the daughter of Sir William Mount, 2nd Baronet."
+        ],
+        "confidence": "high",
+        "notes": "Justice of the Peace is a clear career position, though the context suggests retirement."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Attendance at school is questionable as a 'career_position' without specific role or responsibilities."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the event."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Attendance at college is questionable as a 'career_position' without specific role or responsibilities."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the event."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role and location information."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Retired role is questionable as an active 'career_position'."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location information."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

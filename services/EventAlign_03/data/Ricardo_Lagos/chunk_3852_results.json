@@ -1,0 +1,114 @@
+{
+  "status": "success",
+  "chunk_id": 3852,
+  "chunk_index": 17,
+  "source_url": "https://www.pbs.org/wgbh/commandingheights/shared/minitext/int_ricardolagos.html",
+  "title": "Commanding Heights : Ricardo Lagos | on PBS",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "UN",
+          "quotes": [
+            "If we are going to be in a global world, it is going to be essential to have either the UN or some other areas to discuss these real issues"
+          ]
+        },
+        {
+          "name": "G7",
+          "quotes": [
+            "the only way to discuss those issues is in the G7, which is fine, but the decisions of the G7 are the decisions being taken by the more developed countries"
+          ]
+        },
+        {
+          "name": "United Nations",
+          "quotes": [
+            "The United Nations was a tremendous advance, but ... what's there going to be ... for a global world now?"
+          ]
+        },
+        {
+          "name": "Financial Times",
+          "quotes": [
+            "read every day the Financial Times or the Herald or the Wall Street Journal -- that's it -- to see what's going on."
+          ]
+        },
+        {
+          "name": "Herald",
+          "quotes": [
+            "read every day the Financial Times or the Herald or the Wall Street Journal -- that's it -- to see what's going on."
+          ]
+        },
+        {
+          "name": "Wall Street Journal",
+          "quotes": [
+            "read every day the Financial Times or the Herald or the Wall Street Journal -- that's it -- to see what's going on."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "president of a small country",
+          "quotes": [
+            "What can I do as a president of a small country with an open economy?"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Seattle",
+          "quotes": [
+            "What happened in Seattle is very important. The people that complained in Seattle finally accept that they are connected through the Internet; they are globalized also."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "What can I do as a president of a small country with an open economy?"
+        ],
+        "confidence": "medium",
+        "notes": "No specific organization or time marker provided, but the role is clearly stated."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers and organization details, making the event contextually incomplete."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quote does not provide context for the organization or time period, only mentions the role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

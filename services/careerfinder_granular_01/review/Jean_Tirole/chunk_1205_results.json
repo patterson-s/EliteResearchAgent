@@ -1,0 +1,175 @@
+{
+  "status": "success",
+  "chunk_id": 1205,
+  "chunk_index": 8,
+  "source_url": "https://en.wikipedia.org/wiki/Jean_Tirole",
+  "title": "Jean Tirole - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "21 July 2002",
+          "type": "point",
+          "quotes": [
+            "Tirole, Jean (21 July 2002). Financial Crises, Liquidity, and the International Monetary System. Princeton University Press."
+          ]
+        },
+        {
+          "text": "2010",
+          "type": "point",
+          "quotes": [
+            "Dewatripont, Mathias; Rochet, Jean-Charles; Tirole, Jean; Tribe, Keith (2010). Balancing the banks: global lessons from the financial crisis. Princeton: Princeton University Press."
+          ]
+        },
+        {
+          "text": "9 July 2018",
+          "type": "point",
+          "quotes": [
+            "'Book Review: Economics for the Common Good by Jean Tirole'. LSE Review of Books. 9 July 2018."
+          ]
+        },
+        {
+          "text": "13 August 2022",
+          "type": "point",
+          "quotes": [
+            "'Book Review: Economics for the Common Good by Jean Tirole'. LSE Review of Books. 9 July 2018. Retrieved 13 August 2022."
+          ]
+        },
+        {
+          "text": "16.10.2022",
+          "type": "point",
+          "quotes": [
+            "Jean Tirole in Hyde Park Civilization on ČT24 16.10.2022 (moderator Daniel Stach)"
+          ]
+        },
+        {
+          "text": "2014",
+          "type": "point",
+          "quotes": [
+            "Laureate of the Nobel Memorial Prize in Economics 2014"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "The MIT Press",
+          "quotes": [
+            "Fudenberg, Drew; Tirole, Jean. 'Game Theory'. The MIT Press."
+          ]
+        },
+        {
+          "name": "Princeton University Press",
+          "quotes": [
+            "Tirole, Jean (21 July 2002). Financial Crises, Liquidity, and the International Monetary System. Princeton University Press."
+          ]
+        },
+        {
+          "name": "LSE Review of Books",
+          "quotes": [
+            "'Book Review: Economics for the Common Good by Jean Tirole'. LSE Review of Books. 9 July 2018."
+          ]
+        },
+        {
+          "name": "IDEI",
+          "quotes": [
+            "Personal info and curriculum vitae on the IDEI website"
+          ]
+        },
+        {
+          "name": "BBVA Foundation Frontiers of Knowledge Awards",
+          "quotes": [
+            "BBVA Foundation Frontiers of Knowledge Awards"
+          ]
+        },
+        {
+          "name": "Federal Reserve Bank of Richmond",
+          "quotes": [
+            "Econ Focus interview, Federal Reserve Bank of Richmond, Fourth Quarter 2017"
+          ]
+        },
+        {
+          "name": "Nobelprize.org",
+          "quotes": [
+            "Jean Tirole on Nobelprize.org"
+          ]
+        },
+        {
+          "name": "Sveriges Riksbank",
+          "quotes": [
+            "Laureates of the Sveriges Riksbank Prize in Economic Sciences"
+          ]
+        },
+        {
+          "name": "ČT24",
+          "quotes": [
+            "Jean Tirole in Hyde Park Civilization on ČT24 16.10.2022 (moderator Daniel Stach)"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Laureate of the Nobel Memorial Prize in Economics",
+          "quotes": [
+            "Laureate of the Nobel Memorial Prize in Economics 2014"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [
+          7,
+          8
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Laureate of the Nobel Memorial Prize in Economics 2014",
+          "Laureates of the Sveriges Riksbank Prize in Economic Sciences",
+          "Jean Tirole on Nobelprize.org"
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of a one-time award with no ongoing responsibilities."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information, which is typically present for award events."
+          },
+          {
+            "type": "quote_support",
+            "severity": "medium",
+            "description": "While quotes support the award, the specific organizations (Sveriges Riksbank and Nobelprize.org) are not clearly linked to the event in a way that confirms their role in the award."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 0,
+      "awards": 1
+    }
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "status": "success",
+  "chunk_id": 2804,
+  "chunk_index": 23,
+  "source_url": "https://en.wikipedia.org/wiki/David_Cameron",
+  "title": "David Cameron - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In 2015 through 2016",
+          "type": "range",
+          "quotes": [
+            "In 2015 through 2016 the Foreign Affairs Select Committee conducted an extensive and highly critical inquiry into the British involvement in the civil war."
+          ]
+        },
+        {
+          "text": "By mid-2011",
+          "type": "point",
+          "quotes": [
+            "By mid-2011, the initial limited intervention to protect Libyan civilians had become a policy of regime change."
+          ]
+        },
+        {
+          "text": "In 2013",
+          "type": "point",
+          "quotes": [
+            "In 2013 in response to Argentina's calls for negotiations over the Falkland Islands' sovereignty, a referendum was called, asking Falkland Islanders whether they supported the continuation of their status as an Overseas Territory of the United Kingdom."
+          ]
+        },
+        {
+          "text": "Hosting a hunger summit in 2012",
+          "type": "point",
+          "quotes": [
+            "Hosting a hunger summit in 2012, with Pelé (second left) and Mo Farah"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Foreign Affairs Select Committee",
+          "quotes": [
+            "In 2015 through 2016 the Foreign Affairs Select Committee conducted an extensive and highly critical inquiry into the British involvement in the civil war."
+          ]
+        },
+        {
+          "name": "ISIL",
+          "quotes": [
+            "the growth of ISIL in North Africa."
+          ]
+        },
+        {
+          "name": "The Atlantic",
+          "quotes": [
+            "US president Barack Obama also acknowledged there had been issues with following up the conflict planning, commenting in an interview with The Atlantic that Cameron had allowed himself to be 'distracted by a range of other things'."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "US president",
+          "quotes": [
+            "US president Barack Obama also acknowledged there had been issues with following up the conflict planning, commenting in an interview with The Atlantic that Cameron had allowed himself to be 'distracted by a range of other things'."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Libya",
+          "quotes": [
+            "Two days later, the UK and the United States fired more than 110 Tomahawk missiles at targets in Libya."
+          ]
+        },
+        {
+          "place": "Tripoli",
+          "quotes": [
+            "adding that 'a lot of people said that Tripoli was completely different to Benghazi and that the two don't get on—they were wrong.'"
+          ]
+        },
+        {
+          "place": "Benghazi",
+          "quotes": [
+            "adding that 'a lot of people said that Tripoli was completely different to Benghazi and that the two don't get on—they were wrong.'"
+          ]
+        },
+        {
+          "place": "North Africa",
+          "quotes": [
+            "the growth of ISIL in North Africa."
+          ]
+        },
+        {
+          "place": "Falkland Islands",
+          "quotes": [
+            "In 2013 in response to Argentina's calls for negotiations over the Falkland Islands' sovereignty, a referendum was called, asking Falkland Islanders whether they supported the continuation of their status as an Overseas Territory of the United Kingdom."
+          ]
+        },
+        {
+          "place": "Saudi Arabia",
+          "quotes": [
+            "Saudi Arabia Hosting a hunger summit in 2012, with Pelé (second left) and Mo Farah"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In 2015 through 2016 the Foreign Affairs Select Committee conducted an extensive and highly critical inquiry into the British involvement in the civil war."
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but the organization's activity implies a career position."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "US president Barack Obama also acknowledged there had been issues with following up the conflict planning, commenting in an interview with The Atlantic that Cameron had allowed himself to be 'distracted by a range of other things'."
+        ],
+        "confidence": "high",
+        "notes": "US president is a clear career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role and location information, making it difficult to fully understand the career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "The quote mentions the organization's activity but does not explicitly state a specific role for the individual."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing time and organization information, which is crucial for a career position event."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "The quote supports the role but does not provide context for the time or organization."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

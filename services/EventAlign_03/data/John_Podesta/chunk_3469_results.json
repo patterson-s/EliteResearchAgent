@@ -1,0 +1,211 @@
+{
+  "status": "success",
+  "chunk_id": 3469,
+  "chunk_index": 4,
+  "source_url": "https://ballotpedia.org/John_Podesta",
+  "title": "John Podesta - Ballotpedia",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "September 2016",
+          "type": "point",
+          "quotes": [
+            "In a September 2016 profile for Yahoo News, Podesta described his relationship with Clinton campaign manager Robby Mook as being like 'yin and yang,'"
+          ]
+        },
+        {
+          "text": "July 2016",
+          "type": "point",
+          "quotes": [
+            "In July 2016, The New York Times reported that, according to three Democrats, Podesta would have 'the right of first refusal on becoming [Clinton's] chief of staff.'"
+          ]
+        },
+        {
+          "text": "October 2016",
+          "type": "point",
+          "quotes": [
+            "In October 2016, WikiLeaks announced that it had hacked 50,000 emails from Hillary Clinton's campaign staff, and it began releasing"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Yahoo News",
+          "quotes": [
+            "In a September 2016 profile for Yahoo News, Podesta described his relationship with Clinton campaign manager Robby Mook as being like 'yin and yang,'"
+          ]
+        },
+        {
+          "name": "The New York Times",
+          "quotes": [
+            "In July 2016, The New York Times reported that, according to three Democrats, Podesta would have 'the right of first refusal on becoming [Clinton's] chief of staff.'"
+          ]
+        },
+        {
+          "name": "Politico",
+          "quotes": [
+            "In an interview with Politico, Podesta said he would refuse the job."
+          ]
+        },
+        {
+          "name": "WikiLeaks",
+          "quotes": [
+            "In October 2016, WikiLeaks announced that it had hacked 50,000 emails from Hillary Clinton's campaign staff, and it began releasing"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Campaign manager",
+          "quotes": [
+            "Robby Mook, Campaign manager",
+            "Podesta described his relationship with Clinton campaign manager Robby Mook as being like 'yin and yang,'"
+          ]
+        },
+        {
+          "title": "Chief strategist and pollster",
+          "quotes": [
+            "Joel Benenson, Chief strategist and pollster"
+          ]
+        },
+        {
+          "title": "Political director",
+          "quotes": [
+            "Amanda Renteria, Political director"
+          ]
+        },
+        {
+          "title": "Campaign chairman",
+          "quotes": [
+            "John Podesta, Campaign chairman"
+          ]
+        },
+        {
+          "title": "Vice chair",
+          "quotes": [
+            "Huma Abedin, Vice chair"
+          ]
+        },
+        {
+          "title": "Communications director",
+          "quotes": [
+            "Jennifer Palmieri, Communications director"
+          ]
+        },
+        {
+          "title": "Media advisor",
+          "quotes": [
+            "Jim Margolis, Media advisor"
+          ]
+        },
+        {
+          "title": "Senior policy advisor",
+          "quotes": [
+            "Jake Sullivan, Senior policy advisor",
+            "Maya Harris, Senior policy advisor"
+          ]
+        },
+        {
+          "title": "Director of state campaigns and political engagement",
+          "quotes": [
+            "Marlon Marshall, Director of state campaigns and political engagement"
+          ]
+        },
+        {
+          "title": "Congressional liaison",
+          "quotes": [
+            "LaDavia Drane, Congressional liaison"
+          ]
+        },
+        {
+          "title": "chief of staff",
+          "quotes": [
+            "Podesta would have 'the right of first refusal on becoming [Clinton's] chief of staff.'",
+            "Podesta 'said he has no interest in doing it [serving as chief of staff] a second time — and may not serve in the administration at all.'"
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In a September 2016 profile for Yahoo News, Podesta described his relationship with Clinton campaign manager Robby Mook as being like 'yin and yang',",
+          "John Podesta, Campaign chairman"
+        ],
+        "confidence": "high",
+        "notes": "Directly mentioned as Campaign chairman in the context of September 2016."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          10
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In July 2016, The New York Times reported that, according to three Democrats, Podesta would have 'the right of first refusal on becoming [Clinton's] chief of staff.'",
+          "Podesta 'said he has no interest in doing it [serving as chief of staff] a second time — and may not serve in the administration at all.'"
+        ],
+        "confidence": "medium",
+        "notes": "Potential future role as chief of staff mentioned, but not confirmed as held."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as 'career_position' but the role is speculative and not confirmed as held."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

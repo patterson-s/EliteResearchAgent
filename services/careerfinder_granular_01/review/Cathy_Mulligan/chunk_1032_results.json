@@ -1,0 +1,150 @@
+{
+  "status": "success",
+  "chunk_id": 1032,
+  "chunk_index": 16,
+  "source_url": "https://en.wikipedia.org/wiki/Carey_Mulligan",
+  "title": "Carey Mulligan - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "31 December 2024",
+          "type": "point",
+          "quotes": [
+            "Variety. 31 December 2024. Retrieved 31 December 2024."
+          ]
+        },
+        {
+          "text": "30 December 2024",
+          "type": "point",
+          "quotes": [
+            "The London Gazette (Supplement). 30 December 2024. p. N9."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Variety",
+          "quotes": [
+            "Variety. 31 December 2024. Retrieved 31 December 2024."
+          ]
+        },
+        {
+          "name": "The London Gazette",
+          "quotes": [
+            "The London Gazette (Supplement). 30 December 2024. p. N9."
+          ]
+        },
+        {
+          "name": "Wikimedia Commons",
+          "quotes": [
+            "Wikimedia Commons has media related to Carey Mulligan."
+          ]
+        },
+        {
+          "name": "Wikiquote",
+          "quotes": [
+            "Wikiquote has quotations related to Carey Mulligan."
+          ]
+        },
+        {
+          "name": "IMDb",
+          "quotes": [
+            "Carey Mulligan at IMDb"
+          ]
+        },
+        {
+          "name": "Internet Broadway Database",
+          "quotes": [
+            "Carey Mulligan at the Internet Broadway Database"
+          ]
+        },
+        {
+          "name": "Internet Off-Broadway Database",
+          "quotes": [
+            "Carey Mulligan at the Internet Off-Broadway Database (archived)"
+          ]
+        },
+        {
+          "name": "The Guardian",
+          "quotes": [
+            "Carey Mulligan collected news and commentary at The Guardian"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Commander of the British Empire",
+          "quotes": [
+            "Knighted, Carey Mulligan and Sarah Lancashire Made Commanders of British Empire in U.K. New Year Honors List"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "U.K.",
+          "quotes": [
+            "Knighted, Carey Mulligan and Sarah Lancashire Made Commanders of British Empire in U.K. New Year Honors List"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Knighted, Carey Mulligan and Sarah Lancashire Made Commanders of British Empire in U.K. New Year Honors List",
+          "The London Gazette (Supplement). 30 December 2024. p. N9.",
+          "Variety. 31 December 2024. Retrieved 31 December 2024."
+        ],
+        "confidence": "high",
+        "notes": "The role 'Commander of the British Empire' is clearly an honor, and the context suggests it is an award rather than an active position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "The event is missing the organization that conferred the award. While 'The London Gazette' and 'Variety' are mentioned, the conferring organization (e.g., the British government) is not explicitly stated."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "The quote mentions 'Knighted' which might imply a different honor than 'Commander of the British Empire'. Clarification is needed to ensure the event is accurately described."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 0,
+      "awards": 1
+    }
+  }
+}

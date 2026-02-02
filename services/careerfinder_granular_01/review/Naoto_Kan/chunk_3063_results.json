@@ -1,0 +1,300 @@
+{
+  "status": "success",
+  "chunk_id": 3063,
+  "chunk_index": 1,
+  "source_url": "https://www.bbc.com/news/10228471",
+  "title": "Profile: Naoto Kan - BBC News",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "the election of 2003",
+          "type": "point",
+          "quotes": [
+            "the DPJ and led it during the election of 2003, establishing the party as a credible opposition force and potential challenger to the LDP."
+          ]
+        },
+        {
+          "text": "a year later",
+          "type": "point",
+          "quotes": [
+            "But a year later he stood down, after admitting that he had failed to make state pension payments for 10 months while he was health minister."
+          ]
+        },
+        {
+          "text": "Five years later",
+          "type": "point",
+          "quotes": [
+            "Five years later, he became deputy prime minister when Yukio Hatoyama swept to power amid widespread popular discontent with the LDP government."
+          ]
+        },
+        {
+          "text": "four months later",
+          "type": "point",
+          "quotes": [
+            "But he took over the finance portfolio four months later after Hirohisa Fujii stepped down due to ill health."
+          ]
+        },
+        {
+          "text": "June 2010",
+          "type": "point",
+          "quotes": [
+            "Announcing his candidacy to replace Yukio Hatoyama in June 2010, he emphasised his ordinary roots."
+          ]
+        },
+        {
+          "text": "last July",
+          "type": "point",
+          "quotes": [
+            "Mr Kan also received a stinging rebuke by the electorate last July, when the DPJ lost their majority in the upper house of parliament over proposed tax reforms."
+          ]
+        },
+        {
+          "text": "26 August 2011",
+          "type": "point",
+          "quotes": [
+            "Published\n26 August 2011"
+          ]
+        },
+        {
+          "text": "2 June 2011",
+          "type": "point",
+          "quotes": [
+            "Published\n2 June 2011"
+          ]
+        },
+        {
+          "text": "7 July 2011",
+          "type": "point",
+          "quotes": [
+            "Published\n7 July 2011"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "DPJ",
+          "quotes": [
+            "the DPJ and led it during the election of 2003, establishing the party as a credible opposition force and potential challenger to the LDP.",
+            "Although his failure to pay was an apparent oversight, Mr Kan said he was resigning to avoid further damaging the DPJ.",
+            "With just three months under his belt as prime minister, Mr Kan survived a leadership challenge by DPJ veteran powerbroker Ichiro Ozawa.",
+            "Mr Kan also received a stinging rebuke by the electorate last July, when the DPJ lost their majority in the upper house of parliament over proposed tax reforms."
+          ]
+        },
+        {
+          "name": "LDP",
+          "quotes": [
+            "the DPJ and led it during the election of 2003, establishing the party as a credible opposition force and potential challenger to the LDP.",
+            "Five years later, he became deputy prime minister when Yukio Hatoyama swept to power amid widespread popular discontent with the LDP government."
+          ]
+        },
+        {
+          "name": "National Strategy Bureau",
+          "quotes": [
+            "He was also appointed to head the National Strategy Bureau, a new body charged with wresting control of policy-making from the powerful bureaucracy."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "health minister",
+          "quotes": [
+            "after admitting that he had failed to make state pension payments for 10 months while he was health minister."
+          ]
+        },
+        {
+          "title": "deputy prime minister",
+          "quotes": [
+            "Five years later, he became deputy prime minister when Yukio Hatoyama swept to power amid widespread popular discontent with the LDP government."
+          ]
+        },
+        {
+          "title": "head the National Strategy Bureau",
+          "quotes": [
+            "He was also appointed to head the National Strategy Bureau, a new body charged with wresting control of policy-making from the powerful bureaucracy."
+          ]
+        },
+        {
+          "title": "finance portfolio",
+          "quotes": [
+            "But he took over the finance portfolio four months later after Hirohisa Fujii stepped down due to ill health."
+          ]
+        },
+        {
+          "title": "prime minister",
+          "quotes": [
+            "With just three months under his belt as prime minister, Mr Kan survived a leadership challenge by DPJ veteran powerbroker Ichiro Ozawa.",
+            "Japan PM survives no-confidence vote."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "the DPJ and led it during the election of 2003, establishing the party as a credible opposition force and potential challenger to the LDP."
+        ],
+        "confidence": "high",
+        "notes": "No specific role mentioned, but leadership of DPJ is implied."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "after admitting that he had failed to make state pension payments for 10 months while he was health minister."
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker, but role is clearly stated."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Five years later, he became deputy prime minister when Yukio Hatoyama swept to power amid widespread popular discontent with the LDP government."
+        ],
+        "confidence": "high",
+        "notes": "Role and time marker are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "But he took over the finance portfolio four months later after Hirohisa Fujii stepped down due to ill health."
+        ],
+        "confidence": "high",
+        "notes": "Role and time marker are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "With just three months under his belt as prime minister, Mr Kan survived a leadership challenge by DPJ veteran powerbroker Ichiro Ozawa."
+        ],
+        "confidence": "high",
+        "notes": "Role and organization are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He was also appointed to head the National Strategy Bureau, a new body charged with wresting control of policy-making from the powerful bureaucracy."
+        ],
+        "confidence": "high",
+        "notes": "Role and organization are clearly linked."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role_ids despite leadership of DPJ being implied."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time_marker_ids and organization_ids."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time_marker_ids."
+          }
+        ]
+      },
+      {
+        "event_id": 5,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time_marker_ids."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 6,
+      "valid": 2,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 6,
+      "awards": 0
+    }
+  }
+}

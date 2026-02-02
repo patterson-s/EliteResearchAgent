@@ -1,0 +1,232 @@
+{
+  "status": "success",
+  "chunk_id": 3757,
+  "chunk_index": 3,
+  "source_url": "https://www.britannica.com/biography/Gordon-Brown",
+  "title": "Gordon Brown | Prime Minister of UK, Labour Party Leader | Britannica",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "February 20, 1951",
+          "type": "point",
+          "quotes": [
+            "Born: February 20, 1951, Glasgow, Scotland (age 74)"
+          ]
+        },
+        {
+          "text": "2007-2010",
+          "type": "range",
+          "quotes": [
+            "Title / Office: prime minister (2007-2010), United Kingdom"
+          ]
+        },
+        {
+          "text": "2006",
+          "type": "point",
+          "quotes": [
+            "British Prime Minister Tony Blair and Chancellor of the Exchequer Gordon Brown arriving at the Labour Party's local election headquarters in London, 2006."
+          ]
+        },
+        {
+          "text": "June 2007",
+          "type": "point",
+          "quotes": [
+            "indeed, in June 2007 a leaked document surfaced showing that Blair had considered removing Brown as chancellor of the Exchequer after the 2005 election."
+          ]
+        },
+        {
+          "text": "September 2006",
+          "type": "point",
+          "quotes": [
+            "In September 2006, shortly after the Labour Party fared poorly in local elections—blamed in part on the party’s support of the Iraq War—Blair announced that he would step down as prime minister within a year."
+          ]
+        },
+        {
+          "text": "April 2007",
+          "type": "point",
+          "quotes": [
+            "Gordon Brown attending a press conference at the International Monetary Fund headquarters in Washington, D.C., April 2007."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Labour Party",
+          "quotes": [
+            "British Prime Minister Tony Blair and Chancellor of the Exchequer Gordon Brown arriving at the Labour Party's local election headquarters in London, 2006.",
+            "In September 2006, shortly after the Labour Party fared poorly in local elections—blamed in part on the party’s support of the Iraq War—Blair announced that he would step down as prime minister within a year.",
+            "Brown subsequently pledged his support for Blair, and Blair in turn later backed Brown to succeed him as Labour Party leader and prime minister."
+          ]
+        },
+        {
+          "name": "International Monetary Fund",
+          "quotes": [
+            "Gordon Brown attending a press conference at the International Monetary Fund headquarters in Washington, D.C., April 2007."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "prime minister",
+          "quotes": [
+            "Title / Office: prime minister (2007-2010), United Kingdom",
+            "British Prime Minister Tony Blair and Chancellor of the Exchequer Gordon Brown arriving at the Labour Party's local election headquarters in London, 2006.",
+            "In September 2006, shortly after the Labour Party fared poorly in local elections—blamed in part on the party’s support of the Iraq War—Blair announced that he would step down as prime minister within a year.",
+            "Brown subsequently pledged his support for Blair, and Blair in turn later backed Brown to succeed him as Labour Party leader and prime minister."
+          ]
+        },
+        {
+          "title": "Chancellor of the Exchequer",
+          "quotes": [
+            "British Prime Minister Tony Blair and Chancellor of the Exchequer Gordon Brown arriving at the Labour Party's local election headquarters in London, 2006.",
+            "indeed, in June 2007 a leaked document surfaced showing that Blair had considered removing Brown as chancellor of the Exchequer after the 2005 election."
+          ]
+        },
+        {
+          "title": "Labour Party leader",
+          "quotes": [
+            "Brown subsequently pledged his support for Blair, and Blair in turn later backed Brown to succeed him as Labour Party leader and prime minister."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Glasgow, Scotland",
+          "quotes": [
+            "Born: February 20, 1951, Glasgow, Scotland (age 74)"
+          ]
+        },
+        {
+          "place": "London",
+          "quotes": [
+            "British Prime Minister Tony Blair and Chancellor of the Exchequer Gordon Brown arriving at the Labour Party's local election headquarters in London, 2006."
+          ]
+        },
+        {
+          "place": "Washington, D.C.",
+          "quotes": [
+            "Gordon Brown attending a press conference at the International Monetary Fund headquarters in Washington, D.C., April 2007."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Title / Office: prime minister (2007-2010), United Kingdom"
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of role and time period."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "British Prime Minister Tony Blair and Chancellor of the Exchequer Gordon Brown arriving at the Labour Party's local election headquarters in London, 2006."
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of role, organization, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          5
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "Gordon Brown attending a press conference at the International Monetary Fund headquarters in Washington, D.C., April 2007."
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but attendance at IMF headquarters suggests official capacity."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0,
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Brown subsequently pledged his support for Blair, and Blair in turn later backed Brown to succeed him as Labour Party leader and prime minister."
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of succession to Labour Party leader and prime minister roles."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "No specific role mentioned in the event, though context suggests official capacity."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 3,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

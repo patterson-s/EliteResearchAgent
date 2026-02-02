@@ -1,0 +1,313 @@
+{
+  "status": "success",
+  "chunk_id": 3601,
+  "chunk_index": 0,
+  "source_url": "https://en.wikipedia.org/wiki/Lu%C3%ADsa_Diogo",
+  "title": "Luísa Diogo - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2004–2010",
+          "type": "range",
+          "quotes": [
+            "Prime Minister, 2004–2010",
+            "served as Prime Minister of Mozambique from February 2004 to January 2010"
+          ]
+        },
+        {
+          "text": "17 February 2004 – 16 January 2010",
+          "type": "range",
+          "quotes": [
+            "In office 17 February 2004 – 16 January 2010"
+          ]
+        },
+        {
+          "text": "2000–2005",
+          "type": "range",
+          "quotes": [
+            "Minister of Economy and Finance, In office 2000–2005"
+          ]
+        },
+        {
+          "text": "February 2005",
+          "type": "point",
+          "quotes": [
+            "she continued to hold that post until February 2005"
+          ]
+        },
+        {
+          "text": "1980",
+          "type": "point",
+          "quotes": [
+            "Diogo began working in the Mozambique Finance Ministry in 1980"
+          ]
+        },
+        {
+          "text": "1986",
+          "type": "point",
+          "quotes": [
+            "She became head of department in 1986"
+          ]
+        },
+        {
+          "text": "1983",
+          "type": "point",
+          "quotes": [
+            "She graduated with a bachelor's degree in 1983"
+          ]
+        },
+        {
+          "text": "1992",
+          "type": "point",
+          "quotes": [
+            "She went on to obtain a master's degree in financial economics at the School of Oriental and African Studies, University of London in 1992"
+          ]
+        },
+        {
+          "text": "2011",
+          "type": "point",
+          "quotes": [
+            "PhD( University of London 2011 24 November )"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "FRELIMO",
+          "quotes": [
+            "Diogo represents the party FRELIMO",
+            "She was the first female prime minister of Mozambique. Diogo represents the party FRELIMO"
+          ]
+        },
+        {
+          "name": "Eduardo Mondlane University",
+          "quotes": [
+            "Diogo studied economics at Eduardo Mondlane University in Maputo",
+            "Alma mater Eduardo Mondlane University"
+          ]
+        },
+        {
+          "name": "University of London",
+          "quotes": [
+            "She went on to obtain a master's degree in financial economics at the School of Oriental and African Studies, University of London in 1992",
+            "Alma mater University of London",
+            "PhD( University of London 2011 24 November )"
+          ]
+        },
+        {
+          "name": "School of Oriental and African Studies",
+          "quotes": [
+            "She went on to obtain a master's degree in financial economics at the School of Oriental and African Studies, University of London in 1992"
+          ]
+        },
+        {
+          "name": "Mozambique Finance Ministry",
+          "quotes": [
+            "Diogo began working in the Mozambique Finance Ministry in 1980"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Prime Minister of Mozambique",
+          "quotes": [
+            "11th Prime Minister of Mozambique",
+            "served as Prime Minister of Mozambique from February 2004 to January 2010",
+            "She was the first female prime minister of Mozambique"
+          ]
+        },
+        {
+          "title": "Minister of Planning and Finance",
+          "quotes": [
+            "Before becoming prime minister, she was Minister of Planning and Finance",
+            "Minister of Economy and Finance"
+          ]
+        },
+        {
+          "title": "head of department",
+          "quotes": [
+            "She became head of department in 1986"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Maputo",
+          "quotes": [
+            "Diogo studied economics at Eduardo Mondlane University in Maputo"
+          ]
+        },
+        {
+          "place": "Magoé",
+          "quotes": [
+            "Born (1958-04-11) 11 April 1958 Magoé, Portuguese Mozambique"
+          ]
+        },
+        {
+          "place": "Portuguese Mozambique",
+          "quotes": [
+            "Born (1958-04-11) 11 April 1958 Magoé, Portuguese Mozambique"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4,
+          5
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Diogo began working in the Mozambique Finance Ministry in 1980",
+          "She became head of department in 1986"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time markers, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2,
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Minister of Economy and Finance, In office 2000–2005",
+          "she continued to hold that post until February 2005"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time markers and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0,
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Prime Minister, 2004–2010",
+          "served as Prime Minister of Mozambique from February 2004 to January 2010",
+          "She was the first female prime minister of Mozambique. Diogo represents the party FRELIMO"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time markers, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          6
+        ],
+        "organization_ids": [
+          1,
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Diogo studied economics at Eduardo Mondlane University in Maputo",
+          "She graduated with a bachelor's degree in 1983",
+          "She went on to obtain a master's degree in financial economics at the School of Oriental and African Studies, University of London in 1992"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time markers, organizations, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          8
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "PhD( University of London 2011 24 November )"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time marker and organization."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "error",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "high",
+            "description": "Event classified as career_position but describes educational background, not a professional role."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "error",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "high",
+            "description": "Event classified as career_position but describes obtaining a PhD, which is typically an educational achievement, not a professional role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 2,
+      "warnings": 1,
+      "errors": 2,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "status": "success",
+  "chunk_id": 3747,
+  "chunk_index": 1,
+  "source_url": "https://educationenvoy.org/what-we-do/",
+  "title": "Gordon Brown | The Office of the UN Special Envoy for Global Education",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "University of Edinburgh",
+          "quotes": [
+            "Gordon has a PhD in History from the University of Edinburgh and spent his early career working as a lecturer."
+          ]
+        },
+        {
+          "name": "Global Business Coalition for Education",
+          "quotes": [
+            "He is married to Sarah Brown, the Chair of the Global Business Coalition for Education, and the couple live in Fife, Scotland with their two sons."
+          ]
+        },
+        {
+          "name": "The Office of Gordon and Sarah Brown",
+          "quotes": [
+            "For more information please visit The Office of Gordon and Sarah Brown."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "lecturer",
+          "quotes": [
+            "Gordon has a PhD in History from the University of Edinburgh and spent his early career working as a lecturer."
+          ]
+        },
+        {
+          "title": "Chair of the Global Business Coalition for Education",
+          "quotes": [
+            "He is married to Sarah Brown, the Chair of the Global Business Coalition for Education, and the couple live in Fife, Scotland with their two sons."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Fife, Scotland",
+          "quotes": [
+            "He is married to Sarah Brown, the Chair of the Global Business Coalition for Education, and the couple live in Fife, Scotland with their two sons."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Gordon has a PhD in History from the University of Edinburgh and spent his early career working as a lecturer."
+        ],
+        "confidence": "high",
+        "notes": "No time marker available, but organization and role are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "He is married to Sarah Brown, the Chair of the Global Business Coalition for Education, and the couple live in Fife, Scotland with their two sons."
+        ],
+        "confidence": "high",
+        "notes": "Role and organization are clearly linked, with location providing additional context."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position, making temporal coherence impossible to verify."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "While 'lecturer' is a valid career position, the quote does not explicitly state the duration or active responsibilities, which could be clearer."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "error",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "high",
+            "description": "The role 'Chair of the Global Business Coalition for Education' is attributed to Sarah Brown, not the subject of the event. This event should be reclassified or removed as it does not describe a career position held by the subject."
+          },
+          {
+            "type": "quote_support",
+            "severity": "high",
+            "description": "The supporting quote does not provide information about the subject's career position; it only mentions their spouse's role and location."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 1,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

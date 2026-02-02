@@ -1,0 +1,205 @@
+{
+  "status": "success",
+  "chunk_id": 3560,
+  "chunk_index": 0,
+  "source_url": "https://www.un.org/sg/en/dsg/about-the-deputy-secretary-general",
+  "title": "About the Deputy-Secretary-General | Secretary-General | United Nations",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "February 2017",
+          "type": "point",
+          "quotes": [
+            "She took office in February 2017 and is the fifth occupant of the post."
+          ]
+        },
+        {
+          "text": "2012",
+          "type": "point",
+          "quotes": [
+            "Ms. Mohammed first joined the United Nations in 2012 as Special Adviser to former Secretary-General Ban Ki-moon with the responsibility for post-2015 development planning."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "United Nations",
+          "quotes": [
+            "The current Deputy Secretary-General is Ms. Amina J. Mohammed, of Nigeria. She took office in February 2017 and is the fifth occupant of the post.",
+            "Ms. Mohammed first joined the United Nations in 2012 as Special Adviser to former Secretary-General Ban Ki-moon with the responsibility for post-2015 development planning."
+          ]
+        },
+        {
+          "name": "United Nations Sustainable Development Group",
+          "quotes": [
+            "Ms. Mohammed is also Chair of the United Nations Sustainable Development Group."
+          ]
+        },
+        {
+          "name": "Federal Republic of Nigeria",
+          "quotes": [
+            "Prior to her appointment to the post of Deputy Secretary-General, Ms. Mohammed served as Minister of Environment of the Federal Republic of Nigeria where she steered the country’s efforts on climate action and efforts to protect the natural environment."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Deputy Secretary-General",
+          "quotes": [
+            "The current Deputy Secretary-General is Ms. Amina J. Mohammed, of Nigeria. She took office in February 2017 and is the fifth occupant of the post.",
+            "Prior to her appointment to the post of Deputy Secretary-General, Ms. Mohammed served as Minister of Environment of the Federal Republic of Nigeria where she steered the country’s efforts on climate action and efforts to protect the natural environment."
+          ]
+        },
+        {
+          "title": "Chair of the United Nations Sustainable Development Group",
+          "quotes": [
+            "Ms. Mohammed is also Chair of the United Nations Sustainable Development Group."
+          ]
+        },
+        {
+          "title": "Minister of Environment",
+          "quotes": [
+            "Prior to her appointment to the post of Deputy Secretary-General, Ms. Mohammed served as Minister of Environment of the Federal Republic of Nigeria where she steered the country’s efforts on climate action and efforts to protect the natural environment."
+          ]
+        },
+        {
+          "title": "Special Adviser to the Secretary-General",
+          "quotes": [
+            "Ms. Mohammed first joined the United Nations in 2012 as Special Adviser to former Secretary-General Ban Ki-moon with the responsibility for post-2015 development planning."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Nigeria",
+          "quotes": [
+            "The current Deputy Secretary-General is Ms. Amina J. Mohammed, of Nigeria. She took office in February 2017 and is the fifth occupant of the post."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "She took office in February 2017 and is the fifth occupant of the post.",
+          "The current Deputy Secretary-General is Ms. Amina J. Mohammed, of Nigeria."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0,
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Ms. Mohammed is also Chair of the United Nations Sustainable Development Group."
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker, but clear linkage between organizations and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Prior to her appointment to the post of Deputy Secretary-General, Ms. Mohammed served as Minister of Environment of the Federal Republic of Nigeria where she steered the country’s efforts on climate action and efforts to protect the natural environment."
+        ],
+        "confidence": "high",
+        "notes": "No specific time marker, but clear linkage between organization and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Ms. Mohammed first joined the United Nations in 2012 as Special Adviser to former Secretary-General Ban Ki-moon with the responsibility for post-2015 development planning."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 2,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

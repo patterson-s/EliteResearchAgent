@@ -1,0 +1,240 @@
+{
+  "status": "success",
+  "chunk_id": 3181,
+  "chunk_index": 0,
+  "source_url": "https://www.eui.eu/people?id=andris-piebalgs",
+  "title": "Andris Piebalgs • European University Institute",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2015",
+          "type": "point",
+          "quotes": [
+            "He joined the FSR in 2015 as Senior Fellow."
+          ]
+        },
+        {
+          "text": "2023",
+          "type": "point",
+          "quotes": [
+            "OLLIER, Jean-Yves; PIEBALGS, Andris (2023), The appeal procedure in the application of the EU energy law : experience from ACER’s Board of Appeal 2016-2021, Other"
+          ]
+        },
+        {
+          "text": "2024",
+          "type": "point",
+          "quotes": [
+            "BELYI, Andrei V.; PIEBALGS, Andris (2024), Europe’s energy challenges : security and infrastructure in a dangerous landscape, Other"
+          ]
+        },
+        {
+          "text": "2025",
+          "type": "point",
+          "quotes": [
+            "PIEBALGS, Andris; PAVLENKO, Olena; NITSOVYCH, Roman; BILOUS, Andrii; LAPENKO, Olena (2025), Supporting Ukraine's energy sector : keeping Ukraine's accession to the EU in sight, Other"
+          ]
+        },
+        {
+          "text": "2016-2021",
+          "type": "range",
+          "quotes": [
+            "OLLIER, Jean-Yves; PIEBALGS, Andris (2023), The appeal procedure in the application of the EU energy law : experience from ACER’s Board of Appeal 2016-2021, Other"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "European University Institute",
+          "quotes": [
+            "Andris Piebalgs • European University Institute",
+            "European University Institute"
+          ]
+        },
+        {
+          "name": "Robert Schuman Centre for Advanced Studies",
+          "quotes": [
+            "Part-time Professor, Robert Schuman Centre for Advanced Studies"
+          ]
+        },
+        {
+          "name": "FSR",
+          "quotes": [
+            "He joined the FSR in 2015 as Senior Fellow."
+          ]
+        },
+        {
+          "name": "ACER’s Board of Appeal",
+          "quotes": [
+            "OLLIER, Jean-Yves; PIEBALGS, Andris (2023), The appeal procedure in the application of the EU energy law : experience from ACER’s Board of Appeal 2016-2021, Other"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Part-time Professor",
+          "quotes": [
+            "Part-time Professor, Robert Schuman Centre for Advanced Studies"
+          ]
+        },
+        {
+          "title": "Adviser to the President of Latvia",
+          "quotes": [
+            "Andris Piebalgs is Adviser to the President of Latvia and former Commissioner for Energy (Barroso I) and for Development (Barroso II)."
+          ]
+        },
+        {
+          "title": "Commissioner for Energy (Barroso I)",
+          "quotes": [
+            "Andris Piebalgs is Adviser to the President of Latvia and former Commissioner for Energy (Barroso I) and for Development (Barroso II)."
+          ]
+        },
+        {
+          "title": "Commissioner for Development (Barroso II)",
+          "quotes": [
+            "Andris Piebalgs is Adviser to the President of Latvia and former Commissioner for Energy (Barroso I) and for Development (Barroso II)."
+          ]
+        },
+        {
+          "title": "Senior Fellow",
+          "quotes": [
+            "He joined the FSR in 2015 as Senior Fellow."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He joined the FSR in 2015 as Senior Fellow."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Part-time Professor, Robert Schuman Centre for Advanced Studies"
+        ],
+        "confidence": "high",
+        "notes": "No time marker, but clear linkage between organization and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1,
+          2,
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Andris Piebalgs is Adviser to the President of Latvia and former Commissioner for Energy (Barroso I) and for Development (Barroso II)."
+        ],
+        "confidence": "medium",
+        "notes": "No time marker or organization, but roles are clearly linked in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "OLLIER, Jean-Yves; PIEBALGS, Andris (2023), The appeal procedure in the application of the EU energy law : experience from ACER’s Board of Appeal 2016-2021, Other"
+        ],
+        "confidence": "medium",
+        "notes": "Implied role at ACER’s Board of Appeal based on time range and organization mention."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time marker for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and organization for career positions."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Roles include 'former Commissioner' which might be better classified as past positions rather than current career positions."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role for career position at ACER’s Board of Appeal."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Role is implied but not explicitly stated in the supporting quote."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 1,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

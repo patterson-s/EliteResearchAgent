@@ -1,0 +1,162 @@
+{
+  "status": "success",
+  "chunk_id": 2974,
+  "chunk_index": 1,
+  "source_url": "https://www.un.org/sg/en/content/sg/personnel-appointments/2025-05-02/ms-maria-angela-holguin-cuellar-of-colombia-secretary-generals-personal-envoy-cyprus",
+  "title": "Ms. María Angela Holguín Cuéllar of Colombia - Secretary-General's Personal Envoy on Cyprus | Secretary-General | United Nations",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Universidad de Los Andes",
+          "quotes": [
+            "Ms. Holguín holds a degree in Political Science from the Universidad de Los Andes in Bogotá, Colombia."
+          ]
+        },
+        {
+          "name": "Centre d´Études Diplomatiques et Stratégiques",
+          "quotes": [
+            "She also studied at the Centre d´Études Diplomatiques et Stratégiques and at the Université Paris–Sorbonne in Paris, France."
+          ]
+        },
+        {
+          "name": "Université Paris–Sorbonne",
+          "quotes": [
+            "She also studied at the Centre d´Études Diplomatiques et Stratégiques and at the Université Paris–Sorbonne in Paris, France."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Deputy Minister of Foreign Affairs",
+          "quotes": [
+            "Deputy Minister of Foreign Affairs."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Bogotá, Colombia",
+          "quotes": [
+            "Ms. Holguín holds a degree in Political Science from the Universidad de Los Andes in Bogotá, Colombia."
+          ]
+        },
+        {
+          "place": "Paris, France",
+          "quotes": [
+            "She also studied at the Centre d´Études Diplomatiques et Stratégiques and at the Université Paris–Sorbonne in Paris, France."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Ms. Holguín holds a degree in Political Science from the Universidad de Los Andes in Bogotá, Colombia."
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but the educational background is clearly stated. Assuming this is part of her career path."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1,
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "She also studied at the Centre d´Études Diplomatiques et Stratégiques and at the Université Paris–Sorbonne in Paris, France."
+        ],
+        "confidence": "medium",
+        "notes": "No specific role mentioned, but the educational background is clearly stated. Assuming this is part of her career path."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Deputy Minister of Foreign Affairs."
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of a career position, but no organization or location specified."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position but describes educational background rather than a professional role."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role_ids, which is unexpected for a career_position event."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Event classified as career_position but describes educational background rather than a professional role."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role_ids, which is unexpected for a career_position event."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization_ids and location_ids, which are critical for a career_position event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

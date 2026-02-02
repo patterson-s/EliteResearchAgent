@@ -1,0 +1,179 @@
+{
+  "status": "success",
+  "chunk_id": 1265,
+  "chunk_index": 1,
+  "source_url": "https://www.linkedin.com/in/amandeep-gill-33052416",
+  "title": "Amandeep Gill - United Nations | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "Nov 14, 2023",
+          "type": "point",
+          "quotes": [
+            "UK AI Safety Summit: A personal perspective\nNov 14, 2023"
+          ]
+        },
+        {
+          "text": "November 1-2, 2024",
+          "type": "range",
+          "quotes": [
+            "As we look back at the UK AI Safety Summit held on November 1-2, 2024, I'd like to share some observations from a…"
+          ]
+        },
+        {
+          "text": "Apr 6, 2018",
+          "type": "point",
+          "quotes": [
+            "A UN forum in Geneva gets to grips with concerns about autonomous weapons\nApr 6, 2018"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "United Nations",
+          "quotes": [
+            "United Nations",
+            "A UN forum in Geneva gets to grips with concerns about autonomous weapons"
+          ]
+        },
+        {
+          "name": "King's College London",
+          "quotes": [
+            "King's College London"
+          ]
+        },
+        {
+          "name": "EPFL",
+          "quotes": [
+            "Just defended my PhD at EPFL — and looking back, it’s been a wild, beautiful ride."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "engineer",
+          "quotes": [
+            "As an engineer, I understand digital technologies. As a science diplomat, I understand…"
+          ]
+        },
+        {
+          "title": "science diplomat",
+          "quotes": [
+            "As an engineer, I understand digital technologies. As a science diplomat, I understand…"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Geneva",
+          "quotes": [
+            "A UN forum in Geneva gets to grips with concerns about autonomous weapons"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "A UN forum in Geneva gets to grips with concerns about autonomous weapons\nApr 6, 2018",
+          "United Nations",
+          "As an engineer, I understand digital technologies. As a science diplomat, I understand…"
+        ],
+        "confidence": "medium",
+        "notes": "The role of 'science diplomat' is linked to the UN forum in Geneva, but the exact nature of the position is unclear. Defaulting to career_position due to active participation implied."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Just defended my PhD at EPFL — and looking back, it’s been a wild, beautiful ride."
+        ],
+        "confidence": "high",
+        "notes": "PhD defense at EPFL implies a past academic position, but no specific role or time marker is provided."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "As an engineer, I understand digital technologies. As a science diplomat, I understand…"
+        ],
+        "confidence": "medium",
+        "notes": "Both roles are mentioned together, but no specific organization or time marker is provided. Assuming simultaneous roles."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "The exact nature of the position as a 'science diplomat' at the UN forum is unclear, though active participation is implied."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "No specific role or time marker is provided for the PhD defense at EPFL, though it implies a past academic position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "No specific organization or time marker is provided for the roles of 'engineer' and 'science diplomat', though simultaneous roles are assumed."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

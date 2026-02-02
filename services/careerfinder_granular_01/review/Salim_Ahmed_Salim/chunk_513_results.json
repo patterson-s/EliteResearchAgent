@@ -1,0 +1,156 @@
+{
+  "status": "success",
+  "chunk_id": 513,
+  "chunk_index": 13,
+  "source_url": "https://issafrica.s3.amazonaws.com/site/uploads/Book-2015-Salim.pdf",
+  "title": "Book-2015-Salim.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "In late 1972",
+          "type": "point",
+          "quotes": [
+            "In late 1972, Salim, then chairman of the UN Special Committee on Decolonization and working in tandem with his African colleagues, effectively lobbied a broad section of UN member states to allow Amílcar Cabral, secretary-general of the African Party for the Independence of Guinea and Cape Verde (PAIGC) to speak at the UNGA."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "UN High Commission for Refugees (UNHCR)",
+          "quotes": [
+            "The Nordic countries were among the leading financial contributors to certain key projects, such as the UN High Commission for Refugees (UNHCR) and UN Development Programme projects in the FLS countries, especially those focusing on the provision of humanitarian and technical support on issues such as education and health."
+          ]
+        },
+        {
+          "name": "UN Development Programme",
+          "quotes": [
+            "The Nordic countries were among the leading financial contributors to certain key projects, such as the UN High Commission for Refugees (UNHCR) and UN Development Programme projects in the FLS countries, especially those focusing on the provision of humanitarian and technical support on issues such as education and health."
+          ]
+        },
+        {
+          "name": "ANC’s Solomon Mahlangu Freedom College",
+          "quotes": [
+            "For example, they funded the ANC’s Solomon Mahlangu Freedom College for South African refugees in Morogoro, Tanzania."
+          ]
+        },
+        {
+          "name": "UN Special Committee on Decolonization",
+          "quotes": [
+            "Salim consistently managed to reach compromise and consensus with the Nordic countries on key diplomatic issues during his tenure with the Special Committee on Decolonization.",
+            "In late 1972, Salim, then chairman of the UN Special Committee on Decolonization and working in tandem with his African colleagues, effectively lobbied a broad section of UN member states to allow Amílcar Cabral, secretary-general of the African Party for the Independence of Guinea and Cape Verde (PAIGC) to speak at the UNGA."
+          ]
+        },
+        {
+          "name": "African Party for the Independence of Guinea and Cape Verde (PAIGC)",
+          "quotes": [
+            "In late 1972, Salim, then chairman of the UN Special Committee on Decolonization and working in tandem with his African colleagues, effectively lobbied a broad section of UN member states to allow Amílcar Cabral, secretary-general of the African Party for the Independence of Guinea and Cape Verde (PAIGC) to speak at the UNGA."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "chairman of the UN Special Committee on Decolonization",
+          "quotes": [
+            "In late 1972, Salim, then chairman of the UN Special Committee on Decolonization and working in tandem with his African colleagues, effectively lobbied a broad section of UN member states to allow Amílcar Cabral, secretary-general of the African Party for the Independence of Guinea and Cape Verde (PAIGC) to speak at the UNGA."
+          ]
+        },
+        {
+          "title": "secretary-general of the African Party for the Independence of Guinea and Cape Verde (PAIGC)",
+          "quotes": [
+            "In late 1972, Salim, then chairman of the UN Special Committee on Decolonization and working in tandem with his African colleagues, effectively lobbied a broad section of UN member states to allow Amílcar Cabral, secretary-general of the African Party for the Independence of Guinea and Cape Verde (PAIGC) to speak at the UNGA."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Morogoro, Tanzania",
+          "quotes": [
+            "For example, they funded the ANC’s Solomon Mahlangu Freedom College for South African refugees in Morogoro, Tanzania."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In late 1972, Salim, then chairman of the UN Special Committee on Decolonization and working in tandem with his African colleagues, effectively lobbied a broad section of UN member states to allow Amílcar Cabral, secretary-general of the African Party for the Independence of Guinea and Cape Verde (PAIGC) to speak at the UNGA."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time marker, organization, and role in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "In late 1972, Salim, then chairman of the UN Special Committee on Decolonization and working in tandem with his African colleagues, effectively lobbied a broad section of UN member states to allow Amílcar Cabral, secretary-general of the African Party for the Independence of Guinea and Cape Verde (PAIGC) to speak at the UNGA."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time marker, organization, and role in the same quote."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information, which might be inferable but is not explicitly provided."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "error",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "high",
+            "description": "The role 'secretary-general of the African Party for the Independence of Guinea and Cape Verde (PAIGC)' does not match the organization 'UN Special Committee on Decolonization', indicating a potential misclassification or incorrect linkage."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information, which might be inferable but is not explicitly provided."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 1,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

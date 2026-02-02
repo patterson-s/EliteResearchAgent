@@ -1,0 +1,123 @@
+{
+  "status": "success",
+  "chunk_id": 553,
+  "chunk_index": 53,
+  "source_url": "https://issafrica.s3.amazonaws.com/site/uploads/Book-2015-Salim.pdf",
+  "title": "Book-2015-Salim.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "From 1979 to 1980",
+          "type": "range",
+          "quotes": [
+            "From 1979 to 1980, Salim served as president of the UNGA for the 34th Special Session, 6th Emergency Special Session, 7th Emergency Special Session and 11th Special Session (sessions on Afghanistan, Palestine and development)."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "UNGA",
+          "quotes": [
+            "From 1979 to 1980, Salim served as president of the UNGA for the 34th Special Session, 6th Emergency Special Session, 7th Emergency Special Session and 11th Special Session (sessions on Afghanistan, Palestine and development)."
+          ]
+        },
+        {
+          "name": "UN",
+          "quotes": [
+            "According to Salim, serving in this capacity gave him access to high-profile, influential individuals such as Pope John Paul II, President Fidel Castro and other world leaders, who met him in New York to engage on crucial issues before they addressed the UNGA."
+          ]
+        },
+        {
+          "name": "Security Council",
+          "quotes": [
+            "We speak not in anger but in anguish, not with rancour but in utter dismay, not with malice towards those who have chosen to frustrate the Security Council’s action [to expel South Africa from the UN for crimes against humanity] but certainly with injured feelings."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "president of the UNGA",
+          "quotes": [
+            "From 1979 to 1980, Salim served as president of the UNGA for the 34th Special Session, 6th Emergency Special Session, 7th Emergency Special Session and 11th Special Session (sessions on Afghanistan, Palestine and development)."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "New York",
+          "quotes": [
+            "According to Salim, serving in this capacity gave him access to high-profile, influential individuals such as Pope John Paul II, President Fidel Castro and other world leaders, who met him in New York to engage on crucial issues before they addressed the UNGA."
+          ]
+        },
+        {
+          "place": "Africa",
+          "quotes": [
+            "The period in which Salim served at the UN was, by his own admission, the most exciting and opportune time as an African."
+          ]
+        },
+        {
+          "place": "South Africa",
+          "quotes": [
+            "We speak not in anger but in anguish, not with rancour but in utter dismay, not with malice towards those who have chosen to frustrate the Security Council’s action [to expel South Africa from the UN for crimes against humanity] but certainly with injured feelings."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "From 1979 to 1980, Salim served as president of the UNGA for the 34th Special Session, 6th Emergency Special Session, 7th Emergency Special Session and 11th Special Session (sessions on Afghanistan, Palestine and development).",
+          "According to Salim, serving in this capacity gave him access to high-profile, influential individuals such as Pope John Paul II, President Fidel Castro and other world leaders, who met him in New York to engage on crucial issues before they addressed the UNGA."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, role, and location in the same context."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "The organization 'UNGA' is correctly identified, but the broader organization 'UN' is mentioned in the context and could be relevant. Consider adding 'UN' as a related organization for completeness."
+          },
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "The location 'New York' is mentioned in the quotes but not explicitly linked to the event. Consider adding 'New York' as the location for completeness."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

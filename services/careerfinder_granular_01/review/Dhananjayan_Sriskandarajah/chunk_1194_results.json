@@ -1,0 +1,94 @@
+{
+  "status": "success",
+  "chunk_id": 1194,
+  "chunk_index": 1,
+  "source_url": "http://cpsummit.ngo/dhananjayan-sriskandarajah",
+  "title": "Dhananjayan Sriskandarajah — Global Summit on Community Philanthropy",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Global Fund for Community Foundations",
+          "quotes": [
+            "© Global Fund for Community Foundations"
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": [
+        {
+          "place": "Johannesburg",
+          "quotes": [
+            "Fourth Floor\n158 Jan Smuts Avenue\nRosebank\nJohannesburg 2196\nSouth Africa"
+          ]
+        },
+        {
+          "place": "South Africa",
+          "quotes": [
+            "Fourth Floor\n158 Jan Smuts Avenue\nRosebank\nJohannesburg 2196\nSouth Africa",
+            "Section 21 Company South Africa"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0,
+          1
+        ],
+        "supporting_quotes": [
+          "© Global Fund for Community Foundations",
+          "Fourth Floor\n158 Jan Smuts Avenue\nRosebank\nJohannesburg 2196\nSouth Africa",
+          "Section 21 Company South Africa"
+        ],
+        "confidence": "low",
+        "notes": "No explicit role mentioned, but the organization and location suggest an affiliation. Defaulting to career_position due to lack of award indicators."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information, making it difficult to confirm the nature of the career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quotes do not explicitly mention a role or responsibilities, only organizational and location details."
+          },
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "Classification as 'career_position' is uncertain due to lack of explicit role or responsibilities."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

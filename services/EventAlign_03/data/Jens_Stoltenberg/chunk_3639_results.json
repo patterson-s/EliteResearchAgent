@@ -1,0 +1,258 @@
+{
+  "status": "success",
+  "chunk_id": 3639,
+  "chunk_index": 4,
+  "source_url": "https://en.wikipedia.org/wiki/Jens_Stoltenberg",
+  "title": "Jens Stoltenberg - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "February 2000",
+          "type": "point",
+          "quotes": [
+            "He became the parliamentary leader and prime minister candidate for the Labour Party in February 2000."
+          ]
+        },
+        {
+          "text": "2000–2001",
+          "type": "range",
+          "quotes": [
+            "First term as Prime Minister (2000–2001)",
+            "Stoltenberg's first tenure as Prime Minister (2000–2001)"
+          ]
+        },
+        {
+          "text": "from 17 March 2000 to 19 October 2001",
+          "type": "range",
+          "quotes": [
+            "Stoltenberg's first cabinet governed Norway from 17 March 2000 to 19 October 2001."
+          ]
+        },
+        {
+          "text": "10 September 2001",
+          "type": "point",
+          "quotes": [
+            "In the parliamentary election of 10 September 2001, the party suffered one of its worst results ever, winning only 24% of the vote."
+          ]
+        },
+        {
+          "text": "since 1924",
+          "type": "open",
+          "quotes": [
+            "with the Labour Party suffering from its worst election campaign results since 1924."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "first cabinet of Kjell Magne Bondevik",
+          "quotes": [
+            "to the first cabinet of Kjell Magne Bondevik."
+          ]
+        },
+        {
+          "name": "Storting",
+          "quotes": [
+            "After Jagland's resignation and while in parliamentary opposition, Stoltenberg served on the standing committee on Oil and Energy Affairs in the Storting."
+          ]
+        },
+        {
+          "name": "Labour Party",
+          "quotes": [
+            "He became the parliamentary leader and prime minister candidate for the Labour Party in February 2000.",
+            "Stoltenberg was the deputy leader of the Labour Party while Jagland was the party leader.",
+            "In the parliamentary election of 10 September 2001, the party suffered one of its worst results ever, winning only 24% of the vote.",
+            "With the 98% votes taken, the Labour Party only garnered 24%, falling from 35%."
+          ]
+        },
+        {
+          "name": "Stoltenberg's First Cabinet",
+          "quotes": [
+            "Main article: Stoltenberg's First Cabinet"
+          ]
+        },
+        {
+          "name": "NATO",
+          "quotes": [
+            "Stoltenberg and Jonas Gahr Støre with US president George W. Bush during the NATO Summit in April 2008."
+          ]
+        },
+        {
+          "name": "first cabinet of Bondevik",
+          "quotes": [
+            "In 2000, the first cabinet of Bondevik resigned following an unsuccessful motion of confidence."
+          ]
+        },
+        {
+          "name": "Dagbladet",
+          "quotes": [
+            "The Norwegian newspaper Dagbladet stated: 'We are heading for a political earthquake when the votes are counted tonight, if we believe the opinion polls.'"
+          ]
+        },
+        {
+          "name": "The Associated Press",
+          "quotes": [
+            "In an interview with The Associated Press Jagland stated 'It is unstable and unpredictable.'"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "parliamentary leader",
+          "quotes": [
+            "He became the parliamentary leader and prime minister candidate for the Labour Party in February 2000."
+          ]
+        },
+        {
+          "title": "prime minister candidate",
+          "quotes": [
+            "He became the parliamentary leader and prime minister candidate for the Labour Party in February 2000."
+          ]
+        },
+        {
+          "title": "Prime Minister",
+          "quotes": [
+            "First term as Prime Minister (2000–2001)",
+            "Stoltenberg's first tenure as Prime Minister (2000–2001)"
+          ]
+        },
+        {
+          "title": "deputy leader",
+          "quotes": [
+            "Stoltenberg was the deputy leader of the Labour Party while Jagland was the party leader."
+          ]
+        },
+        {
+          "title": "party leader",
+          "quotes": [
+            "Stoltenberg was the deputy leader of the Labour Party while Jagland was the party leader."
+          ]
+        },
+        {
+          "title": "Foreign Minister",
+          "quotes": [
+            "Instead Jagland was given the post as Foreign Minister."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Norway",
+          "quotes": [
+            "Stoltenberg's first cabinet governed Norway from 17 March 2000 to 19 October 2001."
+          ]
+        },
+        {
+          "place": "New York City",
+          "quotes": [
+            "Stoltenberg with Russian president Vladimir Putin in New York City, 2000."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He became the parliamentary leader and prime minister candidate for the Labour Party in February 2000."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and roles."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1,
+          2
+        ],
+        "organization_ids": [
+          3
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "First term as Prime Minister (2000–2001)",
+          "Stoltenberg's first tenure as Prime Minister (2000–2001)",
+          "Stoltenberg's first cabinet governed Norway from 17 March 2000 to 19 October 2001."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Stoltenberg was the deputy leader of the Labour Party while Jagland was the party leader."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time marker, but role and organization are clear."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "temporal",
+            "severity": "medium",
+            "description": "Overlapping time ranges (2000-2001 and 17 March 2000 to 19 October 2001) are plausible but should be verified for consistency."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time marker for the deputy leader role, though the role and organization are clear."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

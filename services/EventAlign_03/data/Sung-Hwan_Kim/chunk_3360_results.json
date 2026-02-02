@@ -1,0 +1,190 @@
+{
+  "status": "success",
+  "chunk_id": 3360,
+  "chunk_index": 3,
+  "source_url": "https://en.wikipedia.org/wiki/Kim_Sung-hwan_(politician)",
+  "title": "Kim Sung-hwan (politician) - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "State Council of South Korea",
+          "quotes": [
+            "See also: State Council of South Korea"
+          ]
+        },
+        {
+          "name": "Yonsei University",
+          "quotes": [
+            "Yonsei University alumni"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Minister of Gender Equality and Family",
+          "quotes": [
+            "Kim Young-hoon\nMinister of Gender Equality and Family"
+          ]
+        },
+        {
+          "title": "Minister of Land, Infrastructure, and Transport",
+          "quotes": [
+            "Won Min-kyung\nMinister of Land, Infrastructure, and Transport"
+          ]
+        },
+        {
+          "title": "Minister of Oceans and Fisheries",
+          "quotes": [
+            "Kim Yun-deok\nMinister of Oceans and Fisheries"
+          ]
+        },
+        {
+          "title": "Minister of SMEs and Startups",
+          "quotes": [
+            "Chun Jae-soo\nMinister of SMEs and Startups"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Yeosu",
+          "quotes": [
+            "People from Yeosu"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Kim Young-hoon\nMinister of Gender Equality and Family",
+          "See also: State Council of South Korea"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time marker, but role and organization are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Won Min-kyung\nMinister of Land, Infrastructure, and Transport",
+          "See also: State Council of South Korea"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time marker, but role and organization are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Kim Yun-deok\nMinister of Oceans and Fisheries",
+          "See also: State Council of South Korea"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time marker, but role and organization are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Chun Jae-soo\nMinister of SMEs and Startups",
+          "See also: State Council of South Korea"
+        ],
+        "confidence": "medium",
+        "notes": "No explicit time marker, but role and organization are clearly linked."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 0,
+      "warnings": 4,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

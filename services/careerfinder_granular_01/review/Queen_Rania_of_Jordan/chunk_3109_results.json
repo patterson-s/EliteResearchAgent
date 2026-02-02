@@ -1,0 +1,112 @@
+{
+  "status": "success",
+  "chunk_id": 3109,
+  "chunk_index": 0,
+  "source_url": "https://www.britannica.com/biography/Rania-al-Abdullah",
+  "title": "Rania al-Abdullah | Queen of Jordan, Husband, & Social Media | Britannica",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "born August 31, 1970",
+          "type": "point",
+          "quotes": [
+            "Rania al-Abdullah (born August 31, 1970, Kuwait) is the queen of Jordan from 1999."
+          ]
+        },
+        {
+          "text": "from 1999",
+          "type": "open",
+          "quotes": [
+            "Rania al-Abdullah (born August 31, 1970, Kuwait) is the queen of Jordan from 1999."
+          ]
+        },
+        {
+          "text": "Oct. 31, 2025",
+          "type": "point",
+          "quotes": [
+            "Last updated Oct. 31, 2025"
+          ]
+        }
+      ],
+      "organizations": [],
+      "roles": [
+        {
+          "title": "queen of Jordan",
+          "quotes": [
+            "Rania al-Abdullah, queen of Jordan, 2021.",
+            "Rania al-Abdullah (born August 31, 1970, Kuwait) is the queen of Jordan from 1999."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Kuwait",
+          "quotes": [
+            "Rania al-Abdullah (born August 31, 1970, Kuwait) is the queen of Jordan from 1999."
+          ]
+        },
+        {
+          "place": "Jordan",
+          "quotes": [
+            "Rania al-Abdullah, queen of Jordan, 2021.",
+            "Rania al-Abdullah (born August 31, 1970, Kuwait) is the queen of Jordan from 1999."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          1
+        ],
+        "supporting_quotes": [
+          "Rania al-Abdullah (born August 31, 1970, Kuwait) is the queen of Jordan from 1999.",
+          "Rania al-Abdullah, queen of Jordan, 2021."
+        ],
+        "confidence": "high",
+        "notes": "The role of 'queen of Jordan' is an active position with ongoing responsibilities, thus classified as a career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The role of 'queen of Jordan' is typically a title rather than a career position with active responsibilities. Consider reclassifying as an award or honorary title."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information, which is relevant for a career position or title."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

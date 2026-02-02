@@ -1,0 +1,90 @@
+{
+  "status": "success",
+  "chunk_id": 962,
+  "chunk_index": 3,
+  "source_url": "http://www.womeninforeignpolicy.org/diplomacy/2018/1/30/marina-kaljurand-diplomat-estonia",
+  "title": "Marina Kaljurand — Women in Foreign Policy | #wifp",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "Ministry of Foreign Affairs",
+          "quotes": [
+            "However, the practice in the Ministry of Foreign Affairs has shown that people with different backgrounds can be very successful diplomats."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "diplomats",
+          "quotes": [
+            "I know diplomats who have stepped down because of that.",
+            "if they wish to become diplomats."
+          ]
+        },
+        {
+          "title": "Ambassador",
+          "quotes": [
+            "As a diplomat, you have to learn something new every 2-3 years, since as an Ambassador you do not represent only one field."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "However, the practice in the Ministry of Foreign Affairs has shown that people with different backgrounds can be very successful diplomats.",
+          "I know diplomats who have stepped down because of that.",
+          "if they wish to become diplomats.",
+          "As a diplomat, you have to learn something new every 2-3 years, since as an Ambassador you do not represent only one field."
+        ],
+        "confidence": "medium",
+        "notes": "The roles 'diplomats' and 'Ambassador' are linked to the Ministry of Foreign Affairs through context, but there is no explicit time marker. Confidence is medium due to the lack of direct temporal information."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the career position event, making it difficult to establish temporal context."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quotes do not explicitly state the individual's personal tenure as a diplomat or Ambassador, only discussing diplomats and Ambassadors in general terms."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "status": "success",
+  "chunk_id": 1108,
+  "chunk_index": 4,
+  "source_url": "https://hcss.nl/wp-content/uploads/2025/04/Prestes-et-al.-final.pdf",
+  "title": "Prestes-et-al.-final.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "Since 2010",
+          "type": "open",
+          "quotes": [
+            "Since 2010, IEEE RAS has embarked on creating standards focused on ontologies to enable unambiguous communication among humans, artificial systems and among artificial systems and humans."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "IEEE Robotics and Automation Society (IEEE RAS)",
+          "quotes": [
+            "IEEE Robotics and Automation Society (IEEE RAS) has conducted a very intense and distinctive process in this direction."
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Since 2010, IEEE RAS has embarked on creating standards focused on ontologies to enable unambiguous communication among humans, artificial systems and among artificial systems and humans.",
+          "IEEE Robotics and Automation Society (IEEE RAS) has conducted a very intense and distinctive process in this direction."
+        ],
+        "confidence": "medium",
+        "notes": "No explicit role mentioned, but the organization's activities since 2010 imply ongoing involvement. Defaulting to career_position due to active responsibilities."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information. While the organization's activities are mentioned, there is no explicit role or responsibility assigned to the individual."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Supporting quotes describe organizational activities but do not explicitly mention an individual's involvement or role."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "status": "success",
+  "chunk_id": 3551,
+  "chunk_index": 7,
+  "source_url": "https://www.linkedin.com/in/amina-mohammed",
+  "title": "Amina J. Mohammed - United Nations | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "by 2030",
+          "type": "point",
+          "quotes": [
+            "with India projected to generate 165M tonnes of waste annually by 2030."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "IFC",
+          "quotes": [
+            "Mohit Ganeriwala , Sr. Operations Officer, IFC, underscored the urgent need for strategic partnerships and private sector investments in solid waste management.",
+            "IFC and EU together under our regional ACSIIS partnership , is driving impact through PPPs, and ensuring urban development is inclusive and sustainable.",
+            "Read more about IFC’s Cities Initiative here: http://wrld.bg/Cfq050V5W34"
+          ]
+        },
+        {
+          "name": "EU",
+          "quotes": [
+            "IFC and EU together under our regional ACSIIS partnership , is driving impact through PPPs, and ensuring urban development is inclusive and sustainable."
+          ]
+        },
+        {
+          "name": "ACSIIS",
+          "quotes": [
+            "IFC and EU together under our regional ACSIIS partnership , is driving impact through PPPs, and ensuring urban development is inclusive and sustainable."
+          ]
+        },
+        {
+          "name": "LinkedIn",
+          "quotes": [
+            "Explore top content on LinkedIn",
+            "Agree & Join LinkedIn",
+            "By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement, Privacy Policy, and Cookie Policy."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Sr. Operations Officer",
+          "quotes": [
+            "Mohit Ganeriwala , Sr. Operations Officer, IFC, underscored the urgent need for strategic partnerships and private sector investments in solid waste management."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "India",
+          "quotes": [
+            "with India projected to generate 165M tonnes of waste annually by 2030."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Mohit Ganeriwala , Sr. Operations Officer, IFC, underscored the urgent need for strategic partnerships and private sector investments in solid waste management."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between role and organization in the same quote."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0,
+          1,
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "IFC and EU together under our regional ACSIIS partnership , is driving impact through PPPs, and ensuring urban development is inclusive and sustainable."
+        ],
+        "confidence": "medium",
+        "notes": "Organizations mentioned together in a partnership context, but no specific role is mentioned."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "error",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing role information for the career position."
+          },
+          {
+            "type": "classification",
+            "severity": "medium",
+            "description": "Event classified as career_position but lacks role details, making classification questionable."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 1,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

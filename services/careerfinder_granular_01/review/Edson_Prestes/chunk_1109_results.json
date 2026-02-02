@@ -1,0 +1,126 @@
+{
+  "status": "success",
+  "chunk_id": 1109,
+  "chunk_index": 5,
+  "source_url": "https://hcss.nl/wp-content/uploads/2025/04/Prestes-et-al.-final.pdf",
+  "title": "Prestes-et-al.-final.pdf",
+  "document_type": "pdf_document",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2010",
+          "type": "point",
+          "quotes": [
+            "as a result of the process that started in 2010"
+          ]
+        },
+        {
+          "text": "April 2015",
+          "type": "point",
+          "quotes": [
+            "IEEE Std 1872 -2015 , April 2015, 1 –60"
+          ]
+        },
+        {
+          "text": "November 2021",
+          "type": "point",
+          "quotes": [
+            "IEEE Std 7007 -2021 , November 2021, 1 –119"
+          ]
+        },
+        {
+          "text": "March 1, 2024",
+          "type": "point",
+          "quotes": [
+            "Working paper CCW/GGE.1/2024/WP.1, Group of Governmental Experts on Emerging Technologies in the Area of Lethal Autonomous Weapons Systems, Convention on Certain Conventional Weapons, March 1, 2024"
+          ]
+        },
+        {
+          "text": "2015 and 2021",
+          "type": "range",
+          "quotes": [
+            "Due to the relevance of both standards, their respective working groups were the recipients of the international IEEE Emerging Technology Award in 2015 and 2021"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "IEEE",
+          "quotes": [
+            "IEEE RAS standard based on ontologies was the IEEE 1872 -2015 Ontologies for Robotics and Automation3",
+            "IEEE, ‘IEEE Standard Ontologies for Robotics and Automation’",
+            "IEEE, ‘IEEE Ontological Standard for Ethically Driven Robotics and Automation Systems’",
+            "IEEE’s First Global Ontological Standard for Ethically Driven Robotics and Automation Systems",
+            "IEEE Emerging Technology Award in 2015 and 2021"
+          ]
+        },
+        {
+          "name": "Brazilian Government",
+          "quotes": [
+            "This standard has also been advocated by the Brazilian Government to be used as a foundation to create confidence building measures in the GGE on LAWS meetings."
+          ]
+        },
+        {
+          "name": "Group of Governmental Experts on Emerging Technologies in the Area of Lethal Autonomous Weapons Systems",
+          "quotes": [
+            "Group of Governmental Experts on Emerging Technologies in the Area of Lethal Autonomous Weapons Systems, Convention on Certain Conventional Weapons, March 1, 2024"
+          ]
+        },
+        {
+          "name": "Convention on Certain Conventional Weapons",
+          "quotes": [
+            "Convention on Certain Conventional Weapons, March 1, 2024"
+          ]
+        }
+      ],
+      "roles": [],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Due to the relevance of both standards, their respective working groups were the recipients of the international IEEE Emerging Technology Award in 2015 and 2021",
+          "IEEE Emerging Technology Award in 2015 and 2021"
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of an award received by IEEE working groups in 2015 and 2021."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role and location information, which could provide additional context for the award."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 0,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 0,
+      "awards": 1
+    }
+  }
+}

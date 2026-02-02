@@ -1,0 +1,155 @@
+{
+  "status": "success",
+  "chunk_id": 1052,
+  "chunk_index": 1,
+  "source_url": "https://se.linkedin.com/in/cathymulligan",
+  "title": "Catherine Mulligan, Ph.D. FHEA – Digital Transformation | Digital Resilience | Digital Sustainability  | LinkedIn TopVoice | ex-WEF fellow | ex-UNSG HLP on Digital Cooperation | All views expressed here are personal views only | LinkedIn",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "University of Cambridge",
+          "quotes": [
+            "University of Cambridge",
+            "Founded and scaled international research centres - including the first academic blockchain institute globally - collaborating across universities, industry, policy forums, and governments"
+          ]
+        },
+        {
+          "name": "UN Secretary General’s High-Level Panel on Digital Cooperation",
+          "quotes": [
+            "Shaped digital infrastructure and regulatory ecosystems through experience with the UN Secretary General’s High-Level Panel on Digital Cooperation and as a World Economic Forum Fellow driving data-policy and digital resilience agendas"
+          ]
+        },
+        {
+          "name": "World Economic Forum",
+          "quotes": [
+            "Shaped digital infrastructure and regulatory ecosystems through experience with the UN Secretary General’s High-Level Panel on Digital Cooperation and as a World Economic Forum Fellow driving data-policy and digital resilience agendas"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Founder",
+          "quotes": [
+            "Founded and scaled international research centres - including the first academic blockchain institute globally - collaborating across universities, industry, policy forums, and governments"
+          ]
+        },
+        {
+          "title": "World Economic Forum Fellow",
+          "quotes": [
+            "Shaped digital infrastructure and regulatory ecosystems through experience with the UN Secretary General’s High-Level Panel on Digital Cooperation and as a World Economic Forum Fellow driving data-policy and digital resilience agendas"
+          ]
+        },
+        {
+          "title": "Leader",
+          "quotes": [
+            "Built and led high impact, multidisciplinary teams across geographies, sectors, and cultural contexts - mobilising faculty, engineers, policymakers, business leaders, and civic actors."
+          ]
+        }
+      ],
+      "locations": []
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "University of Cambridge",
+          "Founded and scaled international research centres - including the first academic blockchain institute globally - collaborating across universities, industry, policy forums, and governments",
+          "Founded and scaled international research centres - including the first academic blockchain institute globally - collaborating across universities, industry, policy forums, and governments"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between founding international research centres and the University of Cambridge."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1,
+          2
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Shaped digital infrastructure and regulatory ecosystems through experience with the UN Secretary General’s High-Level Panel on Digital Cooperation and as a World Economic Forum Fellow driving data-policy and digital resilience agendas",
+          "Shaped digital infrastructure and regulatory ecosystems through experience with the UN Secretary General’s High-Level Panel on Digital Cooperation and as a World Economic Forum Fellow driving data-policy and digital resilience agendas"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between the role of World Economic Forum Fellow and involvement with the UN Secretary General’s High-Level Panel on Digital Cooperation."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Built and led high impact, multidisciplinary teams across geographies, sectors, and cultural contexts - mobilising faculty, engineers, policymakers, business leaders, and civic actors."
+        ],
+        "confidence": "medium",
+        "notes": "No specific organization linked, but the role of Leader is clearly a career position."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "high",
+            "description": "Missing organization and time markers for career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 0,
+      "warnings": 3,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

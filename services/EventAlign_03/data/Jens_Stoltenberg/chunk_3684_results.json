@@ -1,0 +1,164 @@
+{
+  "status": "success",
+  "chunk_id": 3684,
+  "chunk_index": 1,
+  "source_url": "https://www.nato.int/en/about-us/organization/who-we-are/nato-secretaries-general/jens-stoltenberg",
+  "title": "Jens Stoltenberg | NATO Biography",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "01 October 2014 - 30 September 2024",
+          "type": "range",
+          "quotes": [
+            "01 October 2014 - 30 September 2024",
+            "Jens Stoltenberg became NATO Secretary General in October 2014. As a former Prime Minister of Norway and UN Special Envoy, Mr Stoltenberg has a distinguished record of domestic and international achievements spanning security, defence, climate, energy, and economics. He is a strong supporter of greater global and transatlantic cooperation. NATO Allies extended Mr Stoltenberg’s term by unanimous consent four times, and his term ended on 1 October 2024."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "NATO",
+          "quotes": [
+            "Jens Stoltenberg became NATO Secretary General in October 2014.",
+            "Under Mr Stoltenberg’s leadership, NATO has responded to a more challenging security environment by implementing the biggest reinforcement of its collective defence since the Cold War – with more forces, increased defence spending, and an unprecedented four rounds"
+          ]
+        },
+        {
+          "name": "UN",
+          "quotes": [
+            "As a former Prime Minister of Norway and UN Special Envoy, Mr Stoltenberg has a distinguished record of domestic and international achievements spanning security, defence, climate, energy, and economics."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Secretary General",
+          "quotes": [
+            "Jens Stoltenberg became NATO Secretary General in October 2014."
+          ]
+        },
+        {
+          "title": "Prime Minister of Norway",
+          "quotes": [
+            "As a former Prime Minister of Norway and UN Special Envoy, Mr Stoltenberg has a distinguished record of domestic and international achievements spanning security, defence, climate, energy, and economics."
+          ]
+        },
+        {
+          "title": "UN Special Envoy",
+          "quotes": [
+            "As a former Prime Minister of Norway and UN Special Envoy, Mr Stoltenberg has a distinguished record of domestic and international achievements spanning security, defence, climate, energy, and economics."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Norway",
+          "quotes": [
+            "As a former Prime Minister of Norway and UN Special Envoy, Mr Stoltenberg has a distinguished record of domestic and international achievements spanning security, defence, climate, energy, and economics."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "01 October 2014 - 30 September 2024",
+          "Jens Stoltenberg became NATO Secretary General in October 2014.",
+          "Under Mr Stoltenberg’s leadership, NATO has responded to a more challenging security environment by implementing the biggest reinforcement of its collective defence since the Cold War – with more forces, increased defence spending, and an unprecedented four rounds",
+          "NATO Allies extended Mr Stoltenberg’s term by unanimous consent four times, and his term ended on 1 October 2024."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "As a former Prime Minister of Norway and UN Special Envoy, Mr Stoltenberg has a distinguished record of domestic and international achievements spanning security, defence, climate, energy, and economics."
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker, but role and organization are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "As a former Prime Minister of Norway and UN Special Envoy, Mr Stoltenberg has a distinguished record of domestic and international achievements spanning security, defence, climate, energy, and economics."
+        ],
+        "confidence": "medium",
+        "notes": "No specific time marker or organization, but role and location are clearly linked."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for career position."
+          }
+        ]
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker and organization for career position."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 1,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "status": "success",
+  "chunk_id": 3575,
+  "chunk_index": 10,
+  "source_url": "https://en.wikipedia.org/wiki/Shaukat_Aziz",
+  "title": "Shaukat Aziz - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "April 2006",
+          "type": "point",
+          "quotes": [
+            "the Shaheen-II missile program and witnessed its first flight at an undisclosed location in April 2006."
+          ]
+        },
+        {
+          "text": "8 August 2005",
+          "type": "point",
+          "quotes": [
+            "On 8 August 2005, Aziz issued directives to tightened the security and control and command of the National Command Authority"
+          ]
+        },
+        {
+          "text": "2004",
+          "type": "point",
+          "quotes": [
+            "In 2004, Aziz stated and clarified Pakistan's nuclear policy to the world and India in an interview given to the Times of India"
+          ]
+        },
+        {
+          "text": "2005 and onwards",
+          "type": "open",
+          "quotes": [
+            "From 2005 and onwards, Aziz's government took major steps against atomic proliferation"
+          ]
+        },
+        {
+          "text": "2006",
+          "type": "point",
+          "quotes": [
+            "Shaukat Aziz with Condoleezza Rice, 2006"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "National Command Authority",
+          "quotes": [
+            "Aziz issued directives to tightened the security and control and command of the National Command Authority"
+          ]
+        },
+        {
+          "name": "Times of India",
+          "quotes": [
+            "in an interview given to the Times of India"
+          ]
+        },
+        {
+          "name": "United States",
+          "quotes": [
+            "Aziz took initiatives to strengthen the relations with the United States"
+          ]
+        },
+        {
+          "name": "European Union",
+          "quotes": [
+            "Aziz took initiatives to strengthen the relations with the European Union"
+          ]
+        },
+        {
+          "name": "EU-3",
+          "quotes": [
+            "Erdoğan described the EU-3 proposal, with Russian enhancements, as a very attractive offer for Iran."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Prime Minister",
+          "quotes": [
+            "Prime Minister Shaukat Aziz, Times of India"
+          ]
+        },
+        {
+          "title": "Iranian President",
+          "quotes": [
+            "Iranian President Mahmoud Ahmadinejad"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Iran",
+          "quotes": [
+            "Aziz travelled to Iran in 2006"
+          ]
+        },
+        {
+          "place": "United States",
+          "quotes": [
+            "relations with the United States were extremely cordial and friendly."
+          ]
+        },
+        {
+          "place": "Russia",
+          "quotes": [
+            "Aziz took initiatives to strengthen the relations with Russia"
+          ]
+        },
+        {
+          "place": "India",
+          "quotes": [
+            "Aziz took initiatives to strengthen the relations with India"
+          ]
+        },
+        {
+          "place": "China",
+          "quotes": [
+            "Aziz took initiatives to strengthen the relations with China"
+          ]
+        },
+        {
+          "place": "Saudi Arabia",
+          "quotes": [
+            "Aziz took initiatives to strengthen the relations with Saudi Arabia"
+          ]
+        },
+        {
+          "place": "Japan",
+          "quotes": [
+            "Aziz's tenure saw considerable improvements in relations with Japan."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2,
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Prime Minister Shaukat Aziz, Times of India",
+          "In 2004, Aziz stated and clarified Pakistan's nuclear policy to the world and India in an interview given to the Times of India",
+          "From 2005 and onwards, Aziz's government took major steps against atomic proliferation"
+        ],
+        "confidence": "high",
+        "notes": "Prime Minister role is clearly linked to Shaukat Aziz and his activities in 2004 and onwards."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "On 8 August 2005, Aziz issued directives to tightened the security and control and command of the National Command Authority",
+          "Prime Minister Shaukat Aziz, Times of India"
+        ],
+        "confidence": "high",
+        "notes": "Prime Minister Aziz's directive to the National Command Authority in 2005 indicates an active role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          4
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Aziz travelled to Iran in 2006",
+          "Prime Minister Shaukat Aziz, Times of India"
+        ],
+        "confidence": "medium",
+        "notes": "Travel to Iran in 2006 is likely part of Prime Minister Aziz's duties, but the exact nature of the visit is unclear."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [
+          2,
+          3
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "supporting_quotes": [
+          "From 2005 and onwards, Aziz's government took major steps against atomic proliferation",
+          "Aziz took initiatives to strengthen the relations with the United States",
+          "Aziz took initiatives to strengthen the relations with the European Union",
+          "Aziz took initiatives to strengthen the relations with Russia",
+          "Aziz took initiatives to strengthen the relations with India",
+          "Aziz took initiatives to strengthen the relations with China",
+          "Aziz took initiatives to strengthen the relations with Saudi Arabia",
+          "Aziz's tenure saw considerable improvements in relations with Japan.",
+          "Prime Minister Shaukat Aziz, Times of India"
+        ],
+        "confidence": "high",
+        "notes": "Prime Minister Aziz's initiatives to strengthen relations with multiple countries and organizations are part of his active role."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization and location information, despite being a career position."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing organization information, despite being a career position."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "The quote about traveling to Iran does not clearly indicate the nature of the visit as part of Prime Minister duties."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 2,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 4,
+      "awards": 0
+    }
+  }
+}

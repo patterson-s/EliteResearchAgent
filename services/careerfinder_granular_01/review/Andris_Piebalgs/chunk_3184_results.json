@@ -1,0 +1,240 @@
+{
+  "status": "success",
+  "chunk_id": 3184,
+  "chunk_index": 0,
+  "source_url": "https://www.un.org/sg/en/management/bios/Piebalgs.shtml",
+  "title": "ANDRIS PIEBALGS (LATVIA) | Secretary-General | United Nations",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2004-2009",
+          "type": "range",
+          "quotes": [
+            "He was previously European Commissioner for Energy (2004-2009)"
+          ]
+        },
+        {
+          "text": "2003-2004",
+          "type": "range",
+          "quotes": [
+            "Deputy Secretary of State, Ministry of Foreign Affairs of Latvia (2003-2004)"
+          ]
+        },
+        {
+          "text": "1994-1995",
+          "type": "range",
+          "quotes": [
+            "Minister of Finance of Latvia (1994-1995)"
+          ]
+        },
+        {
+          "text": "1990-1993",
+          "type": "range",
+          "quotes": [
+            "Minister of Education of Latvia (1990-1993)"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "European Commission",
+          "quotes": [
+            "Mr. Piebalgs is currently the Commissioner for Development for the European Commission."
+          ]
+        },
+        {
+          "name": "Ministry of Foreign Affairs of Latvia",
+          "quotes": [
+            "Deputy Secretary of State, Ministry of Foreign Affairs of Latvia (2003-2004)"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Commissioner for Development",
+          "quotes": [
+            "Mr. Piebalgs is currently the Commissioner for Development for the European Commission."
+          ]
+        },
+        {
+          "title": "European Commissioner for Energy",
+          "quotes": [
+            "He was previously European Commissioner for Energy (2004-2009)"
+          ]
+        },
+        {
+          "title": "Deputy Secretary of State",
+          "quotes": [
+            "Deputy Secretary of State, Ministry of Foreign Affairs of Latvia (2003-2004)"
+          ]
+        },
+        {
+          "title": "Minister of Finance of Latvia",
+          "quotes": [
+            "Minister of Finance of Latvia (1994-1995)"
+          ]
+        },
+        {
+          "title": "Minister of Education of Latvia",
+          "quotes": [
+            "Minister of Education of Latvia (1990-1993)"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Latvia",
+          "quotes": [
+            "Deputy Secretary of State, Ministry of Foreign Affairs of Latvia (2003-2004)",
+            "Minister of Finance of Latvia (1994-1995)",
+            "Minister of Education of Latvia (1990-1993)"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          3
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Minister of Education of Latvia (1990-1993)"
+        ],
+        "confidence": "high",
+        "notes": "Clear role and time marker with location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          3
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Minister of Finance of Latvia (1994-1995)"
+        ],
+        "confidence": "high",
+        "notes": "Clear role and time marker with location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          2
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Deputy Secretary of State, Ministry of Foreign Affairs of Latvia (2003-2004)"
+        ],
+        "confidence": "high",
+        "notes": "Clear role, organization, and time marker with location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "He was previously European Commissioner for Energy (2004-2009)"
+        ],
+        "confidence": "high",
+        "notes": "Clear role and time marker, but no explicit location mentioned."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Mr. Piebalgs is currently the Commissioner for Development for the European Commission."
+        ],
+        "confidence": "high",
+        "notes": "Current role with organization, no time marker provided."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing location information, though inferable from role context."
+          }
+        ]
+      },
+      {
+        "event_id": 4,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time marker for current role, making temporal coherence unverifiable."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 5,
+      "valid": 3,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 5,
+      "awards": 0
+    }
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "status": "success",
+  "chunk_id": 3295,
+  "chunk_index": 6,
+  "source_url": "https://en.wikipedia.org/wiki/Elvira_Nabiullina",
+  "title": "Elvira Nabiullina - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "2013–present",
+          "type": "open",
+          "quotes": [
+            "Governor of the Central Bank of Russia 2013–present"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Central Bank of Russia",
+          "quotes": [
+            "Governor of the Central Bank of Russia 2013–present",
+            "Governors of the Central Bank of Russia"
+          ]
+        },
+        {
+          "name": "Moscow State University",
+          "quotes": [
+            "Moscow State University alumni"
+          ]
+        },
+        {
+          "name": "United Russia",
+          "quotes": [
+            "United Russia politicians"
+          ]
+        },
+        {
+          "name": "U.S. Department of the Treasury",
+          "quotes": [
+            "Russian individuals subject to U.S. Department of the Treasury sanctions"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Governor of the Central Bank of Russia",
+          "quotes": [
+            "Governor of the Central Bank of Russia 2013–present",
+            "Governors of the Central Bank of Russia"
+          ]
+        },
+        {
+          "title": "Economy ministers of Russia",
+          "quotes": [
+            "Economy ministers of Russia"
+          ]
+        },
+        {
+          "title": "Women government ministers of Russia",
+          "quotes": [
+            "Women government ministers of Russia"
+          ]
+        },
+        {
+          "title": "Aides to the president of Russia",
+          "quotes": [
+            "Aides to the president of Russia"
+          ]
+        },
+        {
+          "title": "1st class Active State Councillors of the Russian Federation",
+          "quotes": [
+            "1st class Active State Councillors of the Russian Federation"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Ufa",
+          "quotes": [
+            "Politicians from Ufa"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Governor of the Central Bank of Russia 2013–present",
+          "Governors of the Central Bank of Russia"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time marker, organization, and role in the same quotes."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 1,
+      "valid": 1,
+      "warnings": 0,
+      "errors": 0,
+      "career_positions": 1,
+      "awards": 0
+    }
+  }
+}

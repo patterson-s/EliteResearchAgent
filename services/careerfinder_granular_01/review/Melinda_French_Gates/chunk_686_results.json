@@ -1,0 +1,186 @@
+{
+  "status": "success",
+  "chunk_id": 686,
+  "chunk_index": 0,
+  "source_url": "https://live.worldbank.org/en/experts/m/melinda-french-gates",
+  "title": "Melinda French Gates | World Bank Live",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "the first decade of her career",
+          "type": "range",
+          "quotes": [
+            "Melinda spent the first decade of her career developing multimedia products at Microsoft before leaving the company to focus on her family and philanthropic work."
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Bill & Melinda Gates Foundation",
+          "quotes": [
+            "As the co-chair of the Bill & Melinda Gates Foundation, Melinda sets the direction and priorities of the world’s largest philanthropy."
+          ]
+        },
+        {
+          "name": "Pivotal Ventures",
+          "quotes": [
+            "She is also the founder of Pivotal Ventures, an investment and incubation company working to drive social progress for women and families in the United States,"
+          ]
+        },
+        {
+          "name": "Microsoft",
+          "quotes": [
+            "Melinda spent the first decade of her career developing multimedia products at Microsoft before leaving the company to focus on her family and philanthropic work."
+          ]
+        },
+        {
+          "name": "Duke University",
+          "quotes": [
+            "She received a bachelor’s degree in computer science from Duke University and an MBA from Duke’s Fuqua School."
+          ]
+        },
+        {
+          "name": "Duke’s Fuqua School",
+          "quotes": [
+            "She received a bachelor’s degree in computer science from Duke University and an MBA from Duke’s Fuqua School."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "Co-chair of the Bill & Melinda Gates Foundation",
+          "quotes": [
+            "As the co-chair of the Bill & Melinda Gates Foundation, Melinda sets the direction and priorities of the world’s largest philanthropy."
+          ]
+        },
+        {
+          "title": "Founder of Pivotal Ventures",
+          "quotes": [
+            "She is also the founder of Pivotal Ventures, an investment and incubation company working to drive social progress for women and families in the United States,"
+          ]
+        },
+        {
+          "title": "Featured Speaker",
+          "quotes": [
+            "Featured Speaker\nMelinda French Gates"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Dallas, Texas",
+          "quotes": [
+            "Melinda grew up in Dallas, Texas."
+          ]
+        },
+        {
+          "place": "Seattle, Washington",
+          "quotes": [
+            "She has three children, Jenn, Rory, and Phoebe, and lives in Seattle, Washington."
+          ]
+        },
+        {
+          "place": "United States",
+          "quotes": [
+            "an investment and incubation company working to drive social progress for women and families in the United States,"
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Melinda spent the first decade of her career developing multimedia products at Microsoft before leaving the company to focus on her family and philanthropic work."
+        ],
+        "confidence": "high",
+        "notes": "Role at Microsoft is implied by the quote but not explicitly stated as a title."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "As the co-chair of the Bill & Melinda Gates Foundation, Melinda sets the direction and priorities of the world’s largest philanthropy."
+        ],
+        "confidence": "high",
+        "notes": "Clear indication of an active leadership role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [
+          2
+        ],
+        "supporting_quotes": [
+          "She is also the founder of Pivotal Ventures, an investment and incubation company working to drive social progress for women and families in the United States,"
+        ],
+        "confidence": "high",
+        "notes": "Founder role implies active involvement in the organization."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role_ids and location_ids despite having organization and time information."
+          },
+          {
+            "type": "quote_support",
+            "severity": "low",
+            "description": "Role at Microsoft is implied but not explicitly stated in the quote."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "valid",
+        "issues": []
+      }
+    ],
+    "summary": {
+      "total_events": 3,
+      "valid": 2,
+      "warnings": 1,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 0
+    }
+  }
+}

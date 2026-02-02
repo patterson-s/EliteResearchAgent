@@ -1,0 +1,174 @@
+{
+  "status": "success",
+  "chunk_id": 627,
+  "chunk_index": 0,
+  "source_url": "https://www.themontfortacademy.org/brent-scowcroft-world-leaders-library",
+  "title": "Brent Scowcroft International Affairs Library | The Montfort Academy | Authentic Catholic Education & Classical Excellence",
+  "document_type": "web_general",
+  "step1": {
+    "entities": {
+      "time_markers": [],
+      "organizations": [
+        {
+          "name": "The Scowcroft Group",
+          "quotes": [
+            "Former National Security Adviser of the United States of America Lt. Gen. Brent Scowcroft (USAF, ret.) and his colleagues at The Scowcroft Group of Washington, D.C. made a very meaningful and extraordinary donation of his personal collection of the biographies and autobiographies of world leaders."
+          ]
+        },
+        {
+          "name": "The Montfort Academy",
+          "quotes": [
+            "The Montfort Academy is forever grateful to this American hero for this very special collection."
+          ]
+        },
+        {
+          "name": "United States of America",
+          "quotes": [
+            "Former National Security Adviser of the United States of America Lt. Gen. Brent Scowcroft (USAF, ret.)"
+          ]
+        },
+        {
+          "name": "United States Foreign Policy",
+          "quotes": [
+            "There are few words that can describe the impact of Brent Scowcroft on American history and on the lives of many young people he mentored, especially in his very pragmatic approach to United States Foreign Policy."
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "National Security Adviser",
+          "quotes": [
+            "Former National Security Adviser of the United States of America Lt. Gen. Brent Scowcroft (USAF, ret.)"
+          ]
+        },
+        {
+          "title": "Lt. Gen.",
+          "quotes": [
+            "Former National Security Adviser of the United States of America Lt. Gen. Brent Scowcroft (USAF, ret.)"
+          ]
+        },
+        {
+          "title": "Presidents of the United States",
+          "quotes": [
+            "Many of these precious volumes are signed by Presidents of the United States, Vice Presidents, First Ladies, Prime Ministers, Secretaries of Defense, Secretaries of State, and many others."
+          ]
+        },
+        {
+          "title": "Vice Presidents",
+          "quotes": [
+            "Many of these precious volumes are signed by Presidents of the United States, Vice Presidents, First Ladies, Prime Ministers, Secretaries of Defense, Secretaries of State, and many others."
+          ]
+        },
+        {
+          "title": "First Ladies",
+          "quotes": [
+            "Many of these precious volumes are signed by Presidents of the United States, Vice Presidents, First Ladies, Prime Ministers, Secretaries of Defense, Secretaries of State, and many others."
+          ]
+        },
+        {
+          "title": "Prime Ministers",
+          "quotes": [
+            "Many of these precious volumes are signed by Presidents of the United States, Vice Presidents, First Ladies, Prime Ministers, Secretaries of Defense, Secretaries of State, and many others."
+          ]
+        },
+        {
+          "title": "Secretaries of Defense",
+          "quotes": [
+            "Many of these precious volumes are signed by Presidents of the United States, Vice Presidents, First Ladies, Prime Ministers, Secretaries of Defense, Secretaries of State, and many others."
+          ]
+        },
+        {
+          "title": "Secretaries of State",
+          "quotes": [
+            "Many of these precious volumes are signed by Presidents of the United States, Vice Presidents, First Ladies, Prime Ministers, Secretaries of Defense, Secretaries of State, and many others."
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Washington, D.C.",
+          "quotes": [
+            "Former National Security Adviser of the United States of America Lt. Gen. Brent Scowcroft (USAF, ret.) and his colleagues at The Scowcroft Group of Washington, D.C. made a very meaningful and extraordinary donation of his personal collection of the biographies and autobiographies of world leaders."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          0,
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Former National Security Adviser of the United States of America Lt. Gen. Brent Scowcroft (USAF, ret.)"
+        ],
+        "confidence": "high",
+        "notes": "No time markers available, but organization and roles are clearly linked."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          0
+        ],
+        "role_ids": [],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Former National Security Adviser of the United States of America Lt. Gen. Brent Scowcroft (USAF, ret.) and his colleagues at The Scowcroft Group of Washington, D.C. made a very meaningful and extraordinary donation of his personal collection of the biographies and autobiographies of world leaders."
+        ],
+        "confidence": "high",
+        "notes": "No specific role mentioned, but affiliation with The Scowcroft Group is clear."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position event."
+          }
+        ]
+      },
+      {
+        "event_id": 1,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing role information for career position event."
+          },
+          {
+            "type": "completeness",
+            "severity": "medium",
+            "description": "Missing time markers for career position event."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 2,
+      "valid": 0,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 2,
+      "awards": 0
+    }
+  }
+}

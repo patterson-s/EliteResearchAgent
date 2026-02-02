@@ -1,0 +1,241 @@
+{
+  "status": "success",
+  "chunk_id": 9,
+  "chunk_index": 8,
+  "source_url": "https://en.wikipedia.org/wiki/Anand_Panyarachun",
+  "title": "Anand Panyarachun - Wikipedia",
+  "document_type": "wikipedia_narrative",
+  "step1": {
+    "entities": {
+      "time_markers": [
+        {
+          "text": "since 1996",
+          "type": "open",
+          "quotes": [
+            "Anand served as UNICEF Ambassador for Thailand since 1996."
+          ]
+        },
+        {
+          "text": "During November 2003 and December 2004",
+          "type": "range",
+          "quotes": [
+            "During November 2003 and December 2004, Anand was requested by then United Nations Secretary-General Kofi Annan to chair the High-Level Panel on Threats, Challenges and Change"
+          ]
+        },
+        {
+          "text": "1991",
+          "type": "point",
+          "quotes": [
+            "1991 - Knight Grand Cordon (Special Class) of the Most Exalted Order of the White Elephant"
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "American International Group (AIG)",
+          "quotes": [
+            "Commission and the International Advisory Board of American International Group (AIG)."
+          ]
+        },
+        {
+          "name": "Carlyle Group",
+          "quotes": [
+            "Anand is a member of the Carlyle Group and sits on the Carlyle Group's advisory board for Asia-Pacific."
+          ]
+        },
+        {
+          "name": "UNICEF",
+          "quotes": [
+            "Anand served as UNICEF Ambassador for Thailand since 1996."
+          ]
+        },
+        {
+          "name": "United Nations",
+          "quotes": [
+            "During November 2003 and December 2004, Anand was requested by then United Nations Secretary-General Kofi Annan to chair the High-Level Panel on Threats, Challenges and Change of the United Nations."
+          ]
+        },
+        {
+          "name": "High-Level Panel on Threats, Challenges and Change",
+          "quotes": [
+            "During November 2003 and December 2004, Anand was requested by then United Nations Secretary-General Kofi Annan to chair the High-Level Panel on Threats, Challenges and Change of the United Nations."
+          ]
+        },
+        {
+          "name": "Honours System of Thailand",
+          "quotes": [
+            "Anand has received the following royal decorations in the Honours System of Thailand:"
+          ]
+        },
+        {
+          "name": "Order of the White Elephant",
+          "quotes": [
+            "1991 - Knight Grand Cordon (Special Class) of the Most Exalted Order of the White Elephant"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": "UNICEF Ambassador for Thailand",
+          "quotes": [
+            "Anand served as UNICEF Ambassador for Thailand since 1996."
+          ]
+        },
+        {
+          "title": "chair the High-Level Panel on Threats, Challenges and Change",
+          "quotes": [
+            "During November 2003 and December 2004, Anand was requested by then United Nations Secretary-General Kofi Annan to chair the High-Level Panel on Threats, Challenges and Change of the United Nations."
+          ]
+        },
+        {
+          "title": "member of the Carlyle Group",
+          "quotes": [
+            "Anand is a member of the Carlyle Group and sits on the Carlyle Group's advisory board for Asia-Pacific."
+          ]
+        },
+        {
+          "title": "sits on the Carlyle Group's advisory board for Asia-Pacific",
+          "quotes": [
+            "Anand is a member of the Carlyle Group and sits on the Carlyle Group's advisory board for Asia-Pacific."
+          ]
+        },
+        {
+          "title": "Knight Grand Cordon (Special Class) of the Most Exalted Order of the White Elephant",
+          "quotes": [
+            "1991 - Knight Grand Cordon (Special Class) of the Most Exalted Order of the White Elephant"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "place": "Thailand",
+          "quotes": [
+            "Anand served as UNICEF Ambassador for Thailand since 1996."
+          ]
+        }
+      ]
+    },
+    "prompt_used": "step1_narrative"
+  },
+  "step2": {
+    "assembled_events": [
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          0
+        ],
+        "organization_ids": [
+          2
+        ],
+        "role_ids": [
+          0
+        ],
+        "location_ids": [
+          0
+        ],
+        "supporting_quotes": [
+          "Anand served as UNICEF Ambassador for Thailand since 1996."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, role, and location."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [
+          1
+        ],
+        "organization_ids": [
+          4
+        ],
+        "role_ids": [
+          1
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "During November 2003 and December 2004, Anand was requested by then United Nations Secretary-General Kofi Annan to chair the High-Level Panel on Threats, Challenges and Change of the United Nations."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role."
+      },
+      {
+        "event_type": "career_position",
+        "time_marker_ids": [],
+        "organization_ids": [
+          1
+        ],
+        "role_ids": [
+          2,
+          3
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "Anand is a member of the Carlyle Group and sits on the Carlyle Group's advisory board for Asia-Pacific."
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between organization and roles, no specific time marker provided."
+      },
+      {
+        "event_type": "award",
+        "time_marker_ids": [
+          2
+        ],
+        "organization_ids": [
+          6
+        ],
+        "role_ids": [
+          4
+        ],
+        "location_ids": [],
+        "supporting_quotes": [
+          "1991 - Knight Grand Cordon (Special Class) of the Most Exalted Order of the White Elephant"
+        ],
+        "confidence": "high",
+        "notes": "Clear linkage between time, organization, and role, with the role being an honorary title."
+      }
+    ]
+  },
+  "step3": {
+    "verified_events": [
+      {
+        "event_id": 0,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 1,
+        "status": "valid",
+        "issues": []
+      },
+      {
+        "event_id": 2,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "completeness",
+            "severity": "low",
+            "description": "Missing time marker for the career position."
+          }
+        ]
+      },
+      {
+        "event_id": 3,
+        "status": "warning",
+        "issues": [
+          {
+            "type": "classification",
+            "severity": "low",
+            "description": "The role 'Knight Grand Cordon (Special Class) of the Most Exalted Order of the White Elephant' seems more like an honorary title than a career position, but classification as 'award' is plausible."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_events": 4,
+      "valid": 2,
+      "warnings": 2,
+      "errors": 0,
+      "career_positions": 3,
+      "awards": 1
+    }
+  }
+}
