@@ -1,0 +1,70 @@
+You are extracting discrete career events for {person_name} at {core_org}.
+
+CORE ORGANIZATION: {core_org}
+STANDARDIZED NAME: {core_org_standardized}
+Known variations in text: {org_variations}
+
+You will analyze text chunks that mention this organization and extract ALL discrete career events.
+
+DEFINITION OF A CAREER EVENT:
+A career event is an atomic unit representing one specific role/position at one organization during one time period. It includes:
+- Time: Start and end dates (as precise as possible)
+- Organization: The employer/institution
+- Location: Geographic location (if mentioned)
+- Role: Title and description of work
+
+RULES FOR GRANULARITY:
+- If someone held multiple concurrent roles, create SEPARATE events for each
+- If a role evolved over time (e.g., Assistant Professor → Associate Professor), create SEPARATE events
+- If dates overlap (concurrent positions), that's fine - record both
+- If someone had the same title at the same org across multiple non-contiguous periods, create separate events for each period
+
+HANDLING AMBIGUITY:
+- If dates are vague ("in the 1990s", "not long after"), note as approximate and provide best estimate
+- If end date is unclear but person clearly left, note as "unknown" 
+- If currently ongoing, note as "ongoing"
+- If information is completely missing, leave field empty - DO NOT GUESS
+
+TEXT SOURCES:
+{chunks_text}
+
+PREVIOUSLY EXTRACTED ENTITIES (for reference):
+{entities_summary}
+
+OUTPUT FORMAT:
+Return ONLY a JSON object with this structure. DO NOT include any explanations, notes, or text before or after the JSON.
+
+{{
+  "events": [
+    {{
+      "start_date": "1995",
+      "start_date_precision": "year",
+      "end_date": "2000",
+      "end_date_precision": "year",
+      "organization": "{core_org_standardized}",
+      "organization_original_text": "exact text from source",
+      "role_title": "Professor of Economics",
+      "role_description": "Detailed description of responsibilities, accomplishments, context. Include ALL relevant details from the text.",
+      "location": "Cambridge, MA",
+      "location_confidence": "explicit",
+      "concurrent_with_notes": "Also served as visiting scholar at World Bank during summers",
+      "source_chunks": [3115, 3116]
+    }}
+  ]
+}}
+
+FIELD DEFINITIONS:
+- start_date/end_date: As precise as possible (YYYY-MM-DD, YYYY-MM, or YYYY)
+- date_precision: "day", "month", "year", "approximate", "unknown"
+- organization: Use the standardized core organization name
+- organization_original_text: Exact text as it appears in source
+- role_title: The formal title/position
+- role_description: Rich description including what they did, accomplishments, context, transitions
+- location: Geographic location if mentioned
+- location_confidence: "explicit" (directly stated), "inferred" (from context), "unknown"
+- concurrent_with_notes: Note if this overlaps with other roles
+- source_chunks: List of chunk_ids where this information appears
+
+CRITICAL: Return ONLY the JSON object. No explanations, no markdown, no additional text.
+
+Extract ALL career events you can find. Be thorough but precise.

@@ -1,0 +1,74 @@
+You are reconciling two independent extractions of career events for {person_name} at {core_org}.
+
+Two separate extraction runs were performed on the same source material. Your task is to create a single, authoritative list of career events by comparing these extractions and resolving any conflicts.
+
+CORE ORGANIZATION: {core_org_standardized}
+
+EXTRACTION RUN A:
+{run_a_events}
+
+EXTRACTION RUN B:
+{run_b_events}
+
+ORIGINAL TEXT (for verification when needed):
+{chunks_text}
+
+RECONCILIATION RULES:
+
+1. PERFECT AGREEMENT:
+If both runs extracted the same event with same dates/title, include it with confidence: "high"
+
+2. PARTIAL AGREEMENT:
+If both found the same event but disagree on details (dates, title wording):
+- Check original text to determine which is more accurate
+- Include the more accurate version with confidence: "medium"
+- Note the discrepancy in extraction_notes
+
+3. SINGLE SOURCE:
+If only ONE run found an event:
+- Verify the event exists in original text
+- If verified, include with confidence: "medium"
+- If cannot verify, EXCLUDE
+- Note reason in extraction_notes
+
+4. CONFLICTS:
+If runs extracted different events or fundamentally disagree:
+- Check original text carefully
+- Include whichever version is better supported by text
+- Document decision in extraction_notes
+
+OUTPUT FORMAT:
+Return a JSON object with this structure:
+
+{{
+  "extraction_metadata": {{
+    "run_a_event_count": 3,
+    "run_b_event_count": 4,
+    "final_event_count": 4,
+    "agreements": 2,
+    "conflicts_resolved": 2
+  }},
+  "events": [
+    {{
+      "event_id": "auto-generated if needed",
+      "start_date": "1995",
+      "start_date_precision": "year",
+      "end_date": "2000",
+      "end_date_precision": "year",
+      "organization": "{core_org_standardized}",
+      "organization_original_text": "exact text from source",
+      "role_title": "Professor of Economics",
+      "role_description": "Detailed description",
+      "location": "Cambridge, MA",
+      "location_confidence": "explicit",
+      "concurrent_with_notes": "",
+      "source_chunks": [3115, 3116],
+      "extraction_confidence": "high",
+      "extraction_notes": "Both runs agreed on all details"
+    }}
+  ]
+}}
+
+CRITICAL: Base all decisions on the ORIGINAL TEXT. Do not invent information. If something cannot be verified, exclude it or mark confidence as low.
+
+Be thorough but conservative - it's better to exclude an uncertain event than to include incorrect information.

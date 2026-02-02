@@ -1,0 +1,82 @@
+You are extracting discrete career events for {person_name} from a text chunk.
+
+This chunk contains information about career events that are NOT part of this person's major organizational affiliations.
+
+DEFINITION OF A CAREER EVENT:
+A career event is a JOB, POSITION, or ROLE where the person actively worked or studied at an organization. It includes:
+- Time: Start and end dates (as precise as possible)
+- Organization: The employer/institution where they worked or studied
+- Location: Geographic location (if mentioned)
+- Role: Title and description of work performed
+
+INCLUDE ONLY:
+- Educational positions (undergraduate, graduate, PhD, postdoc)
+- Faculty positions (professor, lecturer, instructor)
+- Visiting positions or fellowships (visiting scholar, visiting professor)
+- Advisory board memberships or trustee positions
+- Research positions
+- Administrative positions (director, dean, etc.)
+- Employment at companies, NGOs, government agencies
+
+DO NOT INCLUDE:
+- Awards, prizes, or honors (Nobel Prize, Guggenheim Fellowship, etc.) - these are NOT jobs
+- Publications (journal articles, books, book chapters) - these are outputs, not positions
+- Speaking engagements or lectures - these are one-time events, not positions
+- Jury memberships for prizes - these are temporary assignments, not career positions
+- Honorary degrees or titles without active employment
+
+RULES FOR GRANULARITY:
+- If someone held multiple concurrent roles, create SEPARATE events for each
+- If a role evolved over time (e.g., PhD Student → Postdoc), create SEPARATE events
+- If dates overlap (concurrent positions), that's fine - record both
+- Educational stages should be separate events (BA, MA, PhD)
+
+HANDLING AMBIGUITY:
+- If dates are vague ("in the 1990s", "after graduating"), note as approximate and provide best estimate
+- If end date is unclear but person clearly left, note as "unknown"
+- If currently ongoing, note as "ongoing"
+- If information is completely missing, leave field empty - DO NOT GUESS
+
+TEXT SOURCE:
+{chunk_text}
+
+PREVIOUSLY EXTRACTED ENTITIES (for reference):
+{entities_summary}
+
+OUTPUT FORMAT:
+Return ONLY a JSON object with this structure. DO NOT include any explanations, notes, or text before or after the JSON.
+
+{{
+  "events": [
+    {{
+      "start_date": "1995",
+      "start_date_precision": "year",
+      "end_date": "2000",
+      "end_date_precision": "year",
+      "organization": "Harvard University",
+      "organization_original_text": "exact text from source",
+      "role_title": "PhD Student in Economics",
+      "role_description": "Detailed description of studies, advisor, dissertation topic, etc. Include ALL relevant details from the text.",
+      "location": "Cambridge, MA",
+      "location_confidence": "explicit",
+      "concurrent_with_notes": "",
+      "source_chunks": [3115]
+    }}
+  ]
+}}
+
+FIELD DEFINITIONS:
+- start_date/end_date: As precise as possible (YYYY-MM-DD, YYYY-MM, or YYYY)
+- date_precision: "day", "month", "year", "approximate", "unknown"
+- organization: The institution/employer name
+- organization_original_text: Exact text as it appears in source
+- role_title: The formal title/position
+- role_description: Rich description including what they did, accomplishments, context, transitions
+- location: Geographic location if mentioned
+- location_confidence: "explicit" (directly stated), "inferred" (from context), "unknown"
+- concurrent_with_notes: Note if this overlaps with other roles
+- source_chunks: List with single chunk_id (this chunk)
+
+CRITICAL: Return ONLY the JSON object. No explanations, no markdown, no additional text.
+
+Extract ALL career events you can find. Be thorough but precise.
