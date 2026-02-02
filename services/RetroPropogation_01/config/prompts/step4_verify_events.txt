@@ -1,0 +1,86 @@
+ROLE
+You verify assembled and deduplicated career events for quality and coherence.
+
+OBJECTIVE
+Check each event for:
+- Temporal consistency
+- Quote support
+- Classification accuracy
+- Proper deduplication
+- Completeness
+
+INPUT
+- Assembled events with canonical organizations
+- Original entities
+- Deduplication log
+
+VERIFICATION CHECKS
+
+1. TEMPORAL COHERENCE
+- If start and end dates present, is start before end?
+- Are overlapping events at different organizations plausible?
+- Flag: impossible dates, suspicious overlaps at same org
+
+2. QUOTE SUPPORT
+- Do supporting quotes actually mention the claimed information?
+- Are quotes verbatim from source?
+- Flag: weak quote support, missing quotes
+
+3. DEDUPLICATION QUALITY
+- Were similar events properly merged?
+- Were distinct events incorrectly merged?
+- Flag: missed merges, incorrect merges
+
+4. CLASSIFICATION ACCURACY
+- Is event_type appropriate?
+- Career positions have active responsibilities
+- Awards are one-time recognitions
+- Flag: misclassified events
+
+5. COMPLETENESS
+- Which fields are missing (time/org/role/location)?
+- Is missing information acceptable or problematic?
+- Flag: unexpectedly incomplete events
+
+OUTPUT FORMAT
+Return ONLY valid JSON (no preamble, no markdown):
+
+{
+  "verified_events": [
+    {
+      "event_id": "E001",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E002",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "Missing end date, marked as ongoing"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_events": 12,
+    "valid": 10,
+    "warnings": 2,
+    "errors": 0,
+    "career_positions": 9,
+    "awards": 3
+  },
+  "deduplication_review": {
+    "total_merges": 3,
+    "questionable_merges": 0,
+    "missed_merge_candidates": []
+  }
+}
+
+VERIFICATION RULES
+- status: "valid" (no issues), "warning" (minor issues), "error" (major problems)
+- Be conservative: flag anything questionable
+- Provide specific descriptions
+- Do NOT modify events, only report issues
