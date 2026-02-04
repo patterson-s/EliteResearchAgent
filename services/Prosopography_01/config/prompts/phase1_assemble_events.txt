@@ -36,6 +36,19 @@ ASSEMBLY RULES
 6. Preserve all supporting quotes
 7. If time information is missing or vague, create the event anyway and note in "notes"
 
+HANDLING INFERRED ORGANIZATIONS
+The canonical_organizations list includes INFERRED organizations (marked with "inferred": true).
+These are organizations deduced from role context, not explicitly mentioned in text.
+
+Examples:
+- "diplomatic career" roles → Link to inferred "Ministry of Foreign Affairs - [Country]"
+- "Ambassador to France" → Link to inferred "Ministry of Foreign Affairs - [Country]"
+- Embassy postings → Link to inferred "Ministry of Foreign Affairs - [Country]"
+
+IMPORTANT: When you see diplomatic/government roles, ALWAYS link them to the appropriate
+Ministry of Foreign Affairs or government ministry from the canonical organizations list.
+Do NOT leave these events with org_id = null or "Unknown".
+
 DEDUPLICATION RULES
 Merge two events ONLY if ALL of:
 1. Same canonical organization

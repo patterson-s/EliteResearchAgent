@@ -96,7 +96,9 @@ class Phase1Pipeline:
         step2_result = discover_canonical_orgs(
             step1_result["entities"]["organizations"],
             self.llm_client,
-            self.config
+            self.config,
+            roles=step1_result["entities"].get("roles", []),
+            person_name=person_name
         )
 
         results["steps"]["step2"] = {

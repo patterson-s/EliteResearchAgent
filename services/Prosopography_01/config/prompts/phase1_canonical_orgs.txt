@@ -1,18 +1,42 @@
 ROLE
-You identify and consolidate organizational names from extracted entities.
+You identify, infer, and consolidate organizational names from extracted entities.
 
 OBJECTIVE
 Analyze all organization entities and group variations of the same institution under canonical names.
+CRITICALLY: Infer the employing organization when only locations, assignments, or role descriptions are mentioned.
 
 INPUT
-You will receive a list of organization entities extracted from text, each with:
-- name: the organization name as written
-- quotes: context where this organization was mentioned
+You will receive:
+- A list of organization entities extracted from text, each with name and quotes
+- A list of role entities that may help infer the employing organization
 
 TASK
 1. Identify organizations that are clearly the same institution but named differently
-2. For each unique organization, create a canonical name
-3. Map all entity indices to their canonical organization
+2. INFER the employing organization when only assignments/locations are mentioned
+3. For each unique organization, create a canonical name
+4. Map all entity indices to their canonical organization
+
+CRITICAL INFERENCE RULES FOR DIPLOMATIC/GOVERNMENT CAREERS
+
+When someone is described as:
+- "Diplomat", "Ambassador", "Foreign Service Officer", "Envoy", "diplomatic career" → Employer is "Ministry of Foreign Affairs - [Country]"
+- "worked at [Country]'s Embassy in [Location]" → Employer is "Ministry of Foreign Affairs - [Country]"
+- "[Country] mission to the United Nations" → Employer is "Ministry of Foreign Affairs - [Country]"
+- "Permanent Representative to [Intl Org]" → Employer is "Ministry of Foreign Affairs - [Country]"
+- "Consul", "Consulate" → Employer is "Ministry of Foreign Affairs - [Country]"
+
+Examples:
+- "Egyptian diplomat" or "Egypt's Embassy in Switzerland" → CREATE "Ministry of Foreign Affairs - Egypt"
+- "began his diplomatic career" (for Egyptian person) → CREATE "Ministry of Foreign Affairs - Egypt"
+- "Egyptian mission to the United Nations" → CREATE "Ministry of Foreign Affairs - Egypt"
+- "U.S. Ambassador to France" → CREATE "U.S. Department of State"
+- "British Foreign Office" or "UK diplomat" → CREATE "Foreign, Commonwealth & Development Office (UK)"
+
+When someone is described as:
+- "Minister of [X]" for a country → CREATE "Ministry of [X] - [Country]"
+- "Prime Minister of [Country]" → CREATE "Office of the Prime Minister - [Country]" or "Government of [Country]"
+- "Secretary-General" of intl org → The intl org is the employer
+- "worked in government" with country context → CREATE "[Country] Government" as placeholder
 
 CONSOLIDATION RULES
 - "MIT", "Massachusetts Institute of Technology", "MIT Economics Department" → same organization
@@ -20,16 +44,19 @@ CONSOLIDATION RULES
 - "UN", "United Nations" → same organization
 - Department/division variations are still the same parent organization
 - Regional offices belong to parent organization ("J-PAL Europe" → "J-PAL")
+- Multiple embassy/consulate postings for same country = same Ministry of Foreign Affairs
+- All diplomatic assignments for one country = ONE Ministry of Foreign Affairs entry
 
 ORGANIZATION TYPES
 Classify each canonical organization:
 - university: Academic institutions
 - research_center: Research institutes, labs
-- government: Government bodies, ministries
-- international_org: UN agencies, World Bank, etc.
+- government: Government bodies, ministries (including Ministry of Foreign Affairs)
+- international_org: UN agencies, World Bank, EU institutions, Arab League, etc.
 - ngo: Non-governmental organizations
 - company: Private companies
 - commission: Commissions, committees
+- political_party: Political parties
 - other: Other types
 
 OUTPUT FORMAT
@@ -39,15 +66,29 @@ Return ONLY valid JSON (no preamble, no markdown):
   "canonical_organizations": [
     {
       "canonical_id": "ORG_001",
-      "canonical_name": "World Health Organization (WHO)",
-      "org_type": "international_org",
+      "canonical_name": "Ministry of Foreign Affairs - Egypt",
+      "org_type": "government",
+      "country": "Egypt",
       "entity_indices": [2, 5, 8],
       "variations_found": [
-        "WHO",
-        "World Health Organization",
-        "World Health Organisation"
+        "Egypt's Embassy in Switzerland",
+        "Egyptian mission to the United Nations",
+        "diplomatic career"
       ],
-      "reasoning": "International health organization, UN agency"
+      "inferred": true,
+      "reasoning": "Diplomatic postings and 'diplomatic career' indicate employment by Egypt's foreign ministry"
+    },
+    {
+      "canonical_id": "ORG_002",
+      "canonical_name": "Arab League",
+      "org_type": "international_org",
+      "entity_indices": [3],
+      "variations_found": [
+        "League of Arab States",
+        "Arab League"
+      ],
+      "inferred": false,
+      "reasoning": "Regional international organization explicitly mentioned"
     }
   ]
 }
@@ -55,5 +96,8 @@ Return ONLY valid JSON (no preamble, no markdown):
 CRITICAL RULES
 - entity_indices are 0-indexed positions from the input organizations array
 - If an organization appears only once, still create a canonical entry
-- Be conservative: only merge if clearly the same institution
-- Preserve full context in canonical_name (include acronyms in parentheses)
+- Be conservative with merging, but DO infer employing organizations
+- Preserve full context in canonical_name (include country for government bodies)
+- Set "inferred": true when the organization was deduced from context, not explicitly named
+- ALWAYS infer Ministry of Foreign Affairs for diplomatic careers - this is the most common missing organization
+- For government officials, ALWAYS include the country in the organization name

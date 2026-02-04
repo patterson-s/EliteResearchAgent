@@ -14,7 +14,9 @@ from utils import load_prompt, load_config
 def discover_canonical_orgs(
     organizations: List[Dict[str, Any]],
     llm_client: LLMClient,
-    config: Optional[Dict[str, Any]] = None
+    config: Optional[Dict[str, Any]] = None,
+    roles: Optional[List[Dict[str, Any]]] = None,
+    person_name: Optional[str] = None
 ) -> Dict[str, Any]:
     """Discover canonical organizations from extracted organization entities.
 
@@ -22,6 +24,8 @@ def discover_canonical_orgs(
         organizations: List of organization entities with name and quotes
         llm_client: LLM client instance
         config: Optional configuration
+        roles: Optional list of role entities (helps infer employer organizations)
+        person_name: Optional person name (helps infer nationality for diplomatic careers)
 
     Returns:
         Dictionary with canonical_organizations list
@@ -29,14 +33,15 @@ def discover_canonical_orgs(
     if config is None:
         config = load_config()
 
-    if not organizations:
+    # Even with no explicit organizations, roles can help us infer employers
+    if not organizations and not roles:
         return {"canonical_organizations": []}
 
     system_prompt = load_prompt("phase1_canonical_orgs", config)
 
     # Format organizations for the prompt
     org_list = []
-    for idx, org in enumerate(organizations):
+    for idx, org in enumerate(organizations or []):
         org_entry = {
             "index": idx,
             "name": org.get("name", ""),
@@ -44,10 +49,31 @@ def discover_canonical_orgs(
         }
         org_list.append(org_entry)
 
-    user_prompt = f"""Analyze these organization entities and identify canonical organizations:
+    # Format roles to help infer employer organizations
+    role_list = []
+    for idx, role in enumerate(roles or []):
+        role_entry = {
+            "index": idx,
+            "title": role.get("title", ""),
+            "quotes": role.get("quotes", [])[:2]
+        }
+        role_list.append(role_entry)
 
-ORGANIZATIONS:
+    # Build user prompt with both organizations and roles
+    user_prompt = f"""Analyze these entities and identify canonical organizations.
+
+PERSON: {person_name or "Unknown"}
+
+ORGANIZATIONS EXPLICITLY MENTIONED:
 {json.dumps(org_list, indent=2)}
+
+ROLES/POSITIONS (use to INFER employer organizations):
+{json.dumps(role_list, indent=2)}
+
+CRITICAL: For diplomatic/government roles, you MUST infer the employing organization:
+- "Diplomat", "Ambassador", "Embassy" roles → Ministry of Foreign Affairs - [Country]
+- "Minister of X" → Ministry of X - [Country]
+- Look at the person's nationality to determine which country's ministry
 
 Return ONLY valid JSON with the canonical organizations mapping."""
 
