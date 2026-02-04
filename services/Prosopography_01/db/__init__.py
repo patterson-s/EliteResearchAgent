@@ -1,5 +1,8 @@
 # Database layer for Prosopography Tool
-from .connection import get_connection, release_connection, close_all_connections
+from .connection import (
+    get_connection, release_connection, close_all_connections,
+    get_db_connection, reset_pool
+)
 from .models import (
     Person, CanonicalOrganization, CareerEvent,
     SourceEvidence, UserCorrection, VerificationIssue,
@@ -15,6 +18,7 @@ from .issue_repo import IssueRepository
 __all__ = [
     # Connection
     'get_connection', 'release_connection', 'close_all_connections',
+    'get_db_connection', 'reset_pool',
     # Models
     'Person', 'CanonicalOrganization', 'CareerEvent',
     'SourceEvidence', 'UserCorrection', 'VerificationIssue',

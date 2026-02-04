@@ -5,6 +5,7 @@ import psycopg2
 from psycopg2 import pool
 from urllib.parse import urlparse
 from dotenv import load_dotenv
+from contextlib import contextmanager
 
 load_dotenv()
 
@@ -65,19 +66,49 @@ def init_connection_pool():
 
 def get_connection():
     """Get a connection from the pool."""
-    pool = init_connection_pool()
-    return pool.getconn()
+    p = init_connection_pool()
+    return p.getconn()
 
 
 def release_connection(conn):
     """Return a connection to the pool."""
-    pool = init_connection_pool()
-    pool.putconn(conn)
+    if conn is None:
+        return
+    try:
+        p = init_connection_pool()
+        p.putconn(conn)
+    except Exception:
+        # If pool is closed or connection is bad, just close it
+        try:
+            conn.close()
+        except Exception:
+            pass
+
+
+@contextmanager
+def get_db_connection():
+    """Context manager for database connections - ensures proper release."""
+    conn = None
+    try:
+        conn = get_connection()
+        yield conn
+    finally:
+        if conn:
+            release_connection(conn)
 
 
 def close_all_connections():
     """Close all connections in the pool."""
     global connection_pool
     if connection_pool is not None:
-        connection_pool.closeall()
+        try:
+            connection_pool.closeall()
+        except Exception:
+            pass
         connection_pool = None
+
+
+def reset_pool():
+    """Reset the connection pool - useful when connections get exhausted."""
+    close_all_connections()
+    init_connection_pool()

@@ -3,15 +3,24 @@
 import streamlit as st
 import sys
 from pathlib import Path
+import shutil
 
 # Add parent to path for imports
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
-from db import PersonRepository
+from db import PersonRepository, reset_pool
 from evaluation.metrics import MetricsCalculator
 
 st.set_page_config(page_title="Dashboard", layout="wide")
 st.title("Dashboard")
+
+# Sidebar controls
+with st.sidebar:
+    st.subheader("Database Controls")
+    if st.button("🔄 Reset Connection Pool", help="Use if you see 'connection pool exhausted' errors"):
+        reset_pool()
+        st.success("Connection pool reset!")
+        st.rerun()
 
 # Initialize repositories
 person_repo = PersonRepository()
@@ -51,7 +60,7 @@ try:
             summary = summary_map.get(person.person_id, {})
 
             with st.container():
-                col1, col2, col3, col4, col5 = st.columns([3, 2, 1, 1, 1])
+                col1, col2, col3, col4, col5, col6 = st.columns([3, 2, 1, 1, 1, 1])
 
                 with col1:
                     st.markdown(f"**{person.person_name}**")
@@ -82,6 +91,33 @@ try:
                         st.warning(f"{warnings} warnings")
                     else:
                         st.success("No issues")
+
+                with col6:
+                    # Delete button with confirmation
+                    delete_key = f"delete_{person.person_id}"
+                    confirm_key = f"confirm_{person.person_id}"
+
+                    if st.session_state.get(confirm_key):
+                        col_yes, col_no = st.columns(2)
+                        with col_yes:
+                            if st.button("✓", key=f"yes_{person.person_id}", help="Confirm delete"):
+                                # Delete from database
+                                person_repo.delete(person.person_id)
+                                # Also delete review folder if exists
+                                safe_name = person.person_name.replace(" ", "_")
+                                review_dir = Path(__file__).parent.parent.parent / "review" / safe_name
+                                if review_dir.exists():
+                                    shutil.rmtree(review_dir)
+                                st.session_state[confirm_key] = False
+                                st.rerun()
+                        with col_no:
+                            if st.button("✗", key=f"no_{person.person_id}", help="Cancel"):
+                                st.session_state[confirm_key] = False
+                                st.rerun()
+                    else:
+                        if st.button("🗑️", key=delete_key, help="Delete person and all data"):
+                            st.session_state[confirm_key] = True
+                            st.rerun()
 
                 st.markdown("---")
 
