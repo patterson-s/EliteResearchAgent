@@ -1,11 +1,15 @@
 """Step 2: Determine if candidate matches existing event or is new."""
 
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
 from typing import Dict, Any, List, Optional
 import json
 
-from ..llm_client import LLMClient
-from ..utils import load_prompt, load_config
-from ..db import CareerEvent
+from llm_client import LLMClient
+from utils import load_prompt, load_config
+from db import CareerEvent
 
 
 def match_or_new(

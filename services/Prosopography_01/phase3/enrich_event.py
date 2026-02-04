@@ -1,11 +1,15 @@
 """Step 3a: Enrich an existing event with new information."""
 
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
 from typing import Dict, Any, Optional
 import json
 
-from ..llm_client import LLMClient
-from ..utils import load_prompt, load_config
-from ..db import CareerEvent
+from llm_client import LLMClient
+from utils import load_prompt, load_config
+from db import CareerEvent
 
 
 def enrich_event(

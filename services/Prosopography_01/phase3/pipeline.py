@@ -1,24 +1,27 @@
 """Phase 3 Pipeline: Supplement events with additional sources."""
 
-from typing import Dict, Any, List, Optional, Callable
+import sys
 from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
+from typing import Dict, Any, List, Optional, Callable
 import json
 
-from ..db import (
+from db import (
     PersonRepository, EventRepository, EvidenceRepository,
     OrganizationRepository, IssueRepository,
     Person, CareerEvent, SourceEvidence, CanonicalOrganization,
     get_connection, release_connection
 )
-from ..llm_client import LLMClient
-from ..utils import (
+from llm_client import LLMClient
+from utils import (
     load_config, get_review_dir, save_json_checkpoint,
     extract_source_type, normalize_time_period
 )
-from .extract_candidates import extract_candidates
-from .match_or_new import match_or_new
-from .enrich_event import enrich_event
-from .create_event import create_event
+from phase3.extract_candidates import extract_candidates
+from phase3.match_or_new import match_or_new
+from phase3.enrich_event import enrich_event
+from phase3.create_event import create_event
 
 
 class Phase3Pipeline:

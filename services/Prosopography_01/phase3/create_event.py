@@ -1,10 +1,14 @@
 """Step 3b: Create a new event from a candidate."""
 
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
 from typing import Dict, Any, Optional
 import json
 
-from ..llm_client import LLMClient
-from ..utils import load_prompt, load_config
+from llm_client import LLMClient
+from utils import load_prompt, load_config
 
 
 def create_event(

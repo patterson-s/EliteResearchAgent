@@ -1,11 +1,15 @@
 """LLM client for Cohere API."""
 
 import os
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent))
+
 from typing import Dict, Any, Optional
 import cohere
 from dotenv import load_dotenv
 
-from .utils import load_config, parse_json_response
+from utils import load_config, parse_json_response
 
 load_dotenv()
 

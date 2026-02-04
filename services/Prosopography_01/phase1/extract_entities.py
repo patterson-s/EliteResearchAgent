@@ -1,11 +1,15 @@
 """Step 1: Extract entities from text chunks."""
 
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
 from typing import Dict, Any, List, Optional
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import time
 
-from ..llm_client import LLMClient
-from ..utils import load_prompt, load_config
+from llm_client import LLMClient
+from utils import load_prompt, load_config
 
 
 def extract_entities_from_chunk(

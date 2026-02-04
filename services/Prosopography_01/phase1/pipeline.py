@@ -1,23 +1,26 @@
 """Phase 1 Pipeline: Extract career events from Wikipedia."""
 
-from typing import Dict, Any, List, Optional
+import sys
 from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
+from typing import Dict, Any, List, Optional
 import json
 
-from ..db import (
+from db import (
     PersonRepository, EventRepository, EvidenceRepository,
     OrganizationRepository, IssueRepository,
     Person, CareerEvent, SourceEvidence, CanonicalOrganization, VerificationIssue
 )
-from ..llm_client import LLMClient
-from ..utils import (
+from llm_client import LLMClient
+from utils import (
     load_config, get_review_dir, save_json_checkpoint,
     chunk_text, extract_source_type, normalize_time_period
 )
-from .extract_entities import extract_entities_parallel
-from .discover_orgs import discover_canonical_orgs, build_org_mapping
-from .assemble_events import assemble_events
-from .verify_events import verify_events
+from phase1.extract_entities import extract_entities_parallel
+from phase1.discover_orgs import discover_canonical_orgs, build_org_mapping
+from phase1.assemble_events import assemble_events
+from phase1.verify_events import verify_events
 
 
 class Phase1Pipeline:

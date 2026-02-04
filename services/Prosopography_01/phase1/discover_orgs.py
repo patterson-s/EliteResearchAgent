@@ -1,10 +1,14 @@
 """Step 2: Discover and consolidate canonical organizations."""
 
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
 from typing import Dict, Any, List, Optional
 import json
 
-from ..llm_client import LLMClient
-from ..utils import load_prompt, load_config
+from llm_client import LLMClient
+from utils import load_prompt, load_config
 
 
 def discover_canonical_orgs(

@@ -1,8 +1,12 @@
 """Issue tracking service for verification issues."""
 
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
 from typing import Dict, Any, List, Optional
 
-from ..db import IssueRepository, EventRepository, VerificationIssue
+from db import IssueRepository, EventRepository, VerificationIssue
 
 
 class IssueTracker:

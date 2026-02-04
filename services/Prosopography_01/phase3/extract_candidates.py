@@ -1,9 +1,13 @@
 """Step 1: Extract candidate career events from source chunks."""
 
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
 from typing import Dict, Any, List, Optional
 
-from ..llm_client import LLMClient
-from ..utils import load_prompt, load_config
+from llm_client import LLMClient
+from utils import load_prompt, load_config
 
 
 def extract_candidates(

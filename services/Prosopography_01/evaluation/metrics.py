@@ -1,8 +1,12 @@
 """Metrics calculation for evaluation."""
 
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
 from typing import Dict, Any, List, Optional
 
-from ..db import (
+from db import (
     PersonRepository, EventRepository, EvidenceRepository,
     CorrectionRepository, IssueRepository,
     get_connection, release_connection

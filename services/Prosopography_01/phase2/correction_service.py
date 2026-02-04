@@ -1,9 +1,13 @@
 """Service for applying user corrections to career events."""
 
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
 from typing import Dict, Any, List, Optional
 import json
 
-from ..db import (
+from db import (
     EventRepository, CorrectionRepository, IssueRepository,
     PersonRepository, OrganizationRepository,
     CareerEvent, UserCorrection
