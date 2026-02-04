@@ -61,24 +61,36 @@ def get_source_text_from_checkpoint(person_name: str) -> Optional[str]:
     return None
 
 
+def escape_html(text: str) -> str:
+    """Escape HTML special characters."""
+    return (text
+            .replace("&", "&amp;")
+            .replace("<", "&lt;")
+            .replace(">", "&gt;")
+            .replace('"', "&quot;"))
+
+
 def highlight_quote_in_chunk(chunk_text: str, quote: str) -> str:
-    """Highlight the quote within the chunk text using markdown.
+    """Highlight the quote within the chunk text using HTML.
 
     Args:
         chunk_text: The full chunk text
         quote: The quote to highlight
 
     Returns:
-        HTML/markdown with the quote highlighted
+        HTML with the quote highlighted in yellow
     """
     if not chunk_text or not quote:
-        return chunk_text or ""
+        return escape_html(chunk_text or "")
 
     # Try exact match first
     if quote in chunk_text:
         # Split around the quote and add highlighting
         parts = chunk_text.split(quote, 1)
-        return f"{parts[0]}**🔍 {quote}**{parts[1] if len(parts) > 1 else ''}"
+        before = escape_html(parts[0])
+        highlighted = f'<mark style="background-color: #ffeb3b; padding: 2px 4px; border-radius: 3px;">🔍 {escape_html(quote)}</mark>'
+        after = escape_html(parts[1]) if len(parts) > 1 else ''
+        return f"{before}{highlighted}{after}"
 
     # Try case-insensitive match
     lower_chunk = chunk_text.lower()
@@ -87,10 +99,13 @@ def highlight_quote_in_chunk(chunk_text: str, quote: str) -> str:
         idx = lower_chunk.find(lower_quote)
         original_quote = chunk_text[idx:idx + len(quote)]
         parts = chunk_text.split(original_quote, 1)
-        return f"{parts[0]}**🔍 {original_quote}**{parts[1] if len(parts) > 1 else ''}"
+        before = escape_html(parts[0])
+        highlighted = f'<mark style="background-color: #ffeb3b; padding: 2px 4px; border-radius: 3px;">🔍 {escape_html(original_quote)}</mark>'
+        after = escape_html(parts[1]) if len(parts) > 1 else ''
+        return f"{before}{highlighted}{after}"
 
-    # Quote not found in chunk - just return chunk
-    return chunk_text
+    # Quote not found in chunk - just return escaped text
+    return escape_html(chunk_text)
 
 
 def render_evidence_panel(
@@ -160,10 +175,8 @@ def render_evidence_panel(
                 st.markdown("---")
                 st.markdown("**Full Context (quote highlighted):**")
 
-                # Find the quote in the context and show surrounding text
-                highlighted_text = highlight_quote_in_chunk(context_text, quote)
-
                 # If using full source, trim to show only relevant portion (±500 chars)
+                text_to_highlight = context_text
                 if not chunk_text and source_text_fallback:
                     quote_lower = quote.lower()
                     text_lower = context_text.lower()
@@ -177,7 +190,10 @@ def render_evidence_panel(
                             trimmed_text = "..." + trimmed_text
                         if end < len(context_text):
                             trimmed_text = trimmed_text + "..."
-                        highlighted_text = highlight_quote_in_chunk(trimmed_text, quote)
+                        text_to_highlight = trimmed_text
+
+                # Now highlight the quote in the (possibly trimmed) text
+                highlighted_text = highlight_quote_in_chunk(text_to_highlight, quote)
 
                 # Use a container with background for readability
                 st.markdown(
