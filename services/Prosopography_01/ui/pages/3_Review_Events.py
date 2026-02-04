@@ -151,7 +151,7 @@ with col1:
                 st.error("Please provide a reason")
 
 with col2:
-    render_evidence_panel(evidence)
+    render_evidence_panel(evidence, person_name=selected_person)
 
 # Navigation buttons at bottom
 st.markdown("---")

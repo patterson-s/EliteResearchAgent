@@ -90,6 +90,13 @@ class Phase1Pipeline:
 
         if save_checkpoints:
             save_json_checkpoint(step1_result, review_dir / "phase1_entities.json")
+            # Save full source text for evidence context display
+            source_checkpoint = {
+                "source_url": source_url,
+                "full_text": wikipedia_text,
+                "chunks": chunks
+            }
+            save_json_checkpoint(source_checkpoint, review_dir / "phase1_source.json")
 
         # Step 2: Discover canonical organizations
         print("Step 2: Discovering canonical organizations...")

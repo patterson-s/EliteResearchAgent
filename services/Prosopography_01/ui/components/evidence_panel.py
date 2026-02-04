@@ -3,6 +3,7 @@
 import streamlit as st
 from typing import List, Any, Optional
 import sys
+import json
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
@@ -34,6 +35,30 @@ def get_chunk_text(chunk_id: Optional[int]) -> Optional[str]:
             return row[0] if row else None
     except Exception:
         return None
+
+
+def get_source_text_from_checkpoint(person_name: str) -> Optional[str]:
+    """Load the full source text from the checkpoint file.
+
+    Args:
+        person_name: Name of the person
+
+    Returns:
+        The full source text or None if not found
+    """
+    try:
+        # Normalize person name for directory
+        safe_name = person_name.replace(" ", "_")
+        review_dir = Path(__file__).parent.parent.parent / "review" / safe_name
+        source_file = review_dir / "phase1_source.json"
+
+        if source_file.exists():
+            with open(source_file, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                return data.get("full_text")
+    except Exception:
+        pass
+    return None
 
 
 def highlight_quote_in_chunk(chunk_text: str, quote: str) -> str:
@@ -68,12 +93,17 @@ def highlight_quote_in_chunk(chunk_text: str, quote: str) -> str:
     return chunk_text
 
 
-def render_evidence_panel(evidence_list: List[Any], max_expanded: int = 3) -> None:
+def render_evidence_panel(
+    evidence_list: List[Any],
+    max_expanded: int = 3,
+    person_name: Optional[str] = None
+) -> None:
     """Render a panel showing supporting evidence quotes.
 
     Args:
         evidence_list: List of SourceEvidence objects or dictionaries
         max_expanded: Number of quotes to show expanded by default
+        person_name: Optional person name for loading source checkpoint
     """
     st.markdown("### Supporting Evidence")
 
@@ -82,6 +112,11 @@ def render_evidence_panel(evidence_list: List[Any], max_expanded: int = 3) -> No
         return
 
     st.markdown(f"**{len(evidence_list)} source(s):**")
+
+    # Try to load full source text from checkpoint as fallback
+    source_text_fallback = None
+    if person_name:
+        source_text_fallback = get_source_text_from_checkpoint(person_name)
 
     for i, evidence in enumerate(evidence_list):
         # Handle both objects and dictionaries
@@ -115,12 +150,35 @@ def render_evidence_panel(evidence_list: List[Any], max_expanded: int = 3) -> No
             # Show the quote
             st.markdown(f"**Quote:** *{quote}*")
 
-            # Try to get and show full chunk context with quote highlighted
+            # Try to get full context - from chunk_id or fallback to full source text
             chunk_text = get_chunk_text(chunk_id)
-            if chunk_text:
+
+            # Use full source text as fallback if no chunk_id
+            context_text = chunk_text or source_text_fallback
+
+            if context_text and quote:
                 st.markdown("---")
                 st.markdown("**Full Context (quote highlighted):**")
-                highlighted_text = highlight_quote_in_chunk(chunk_text, quote)
+
+                # Find the quote in the context and show surrounding text
+                highlighted_text = highlight_quote_in_chunk(context_text, quote)
+
+                # If using full source, trim to show only relevant portion (±500 chars)
+                if not chunk_text and source_text_fallback:
+                    quote_lower = quote.lower()
+                    text_lower = context_text.lower()
+                    idx = text_lower.find(quote_lower)
+                    if idx >= 0:
+                        start = max(0, idx - 500)
+                        end = min(len(context_text), idx + len(quote) + 500)
+                        trimmed_text = context_text[start:end]
+                        # Add ellipsis if trimmed
+                        if start > 0:
+                            trimmed_text = "..." + trimmed_text
+                        if end < len(context_text):
+                            trimmed_text = trimmed_text + "..."
+                        highlighted_text = highlight_quote_in_chunk(trimmed_text, quote)
+
                 # Use a container with background for readability
                 st.markdown(
                     f'<div style="background-color: #f0f2f6; padding: 10px; border-radius: 5px; font-size: 0.9em;">{highlighted_text}</div>',
