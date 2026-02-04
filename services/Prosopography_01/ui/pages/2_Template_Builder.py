@@ -2,12 +2,14 @@
 
 import streamlit as st
 import sys
+import os
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 from db import PersonRepository, get_connection, release_connection
 from phase1.pipeline import Phase1Pipeline
+from source_search import SourceSearcher, chunk_text
 
 st.set_page_config(page_title="Template Builder", layout="wide")
 st.title("Template Builder (Phase 1)")
@@ -77,16 +79,98 @@ if wikipedia_chunks:
         st.text_area("Content", full_text[:5000] + "..." if len(full_text) > 5000 else full_text, height=300)
 
 else:
-    st.info("No Wikipedia chunks found in database. You can paste Wikipedia text manually.")
-    manual_text = st.text_area(
-        "Paste Wikipedia article text",
-        height=300,
-        placeholder="Paste the Wikipedia article content here..."
-    )
-    source_url = st.text_input("Wikipedia URL", placeholder="https://en.wikipedia.org/wiki/...")
+    st.info("No Wikipedia chunks found in database. Fetch from Wikipedia or paste text manually.")
 
-    if manual_text:
-        wikipedia_chunks = [{"text": manual_text, "chunk_id": None, "source_url": source_url}]
+    # Check if we have fetched Wikipedia content in session state
+    if "wikipedia_content" in st.session_state and st.session_state.wikipedia_content:
+        wiki_data = st.session_state.wikipedia_content
+        st.success(f"✅ Wikipedia article fetched: {wiki_data['title']}")
+        st.markdown(f"**Source:** [{wiki_data['url']}]({wiki_data['url']})")
+
+        with st.expander("Preview Wikipedia text", expanded=False):
+            preview_text = wiki_data['text'][:5000] + "..." if len(wiki_data['text']) > 5000 else wiki_data['text']
+            st.text_area("Content", preview_text, height=300, disabled=True)
+
+        st.markdown(f"**Total characters:** {len(wiki_data['text']):,}")
+        source_url = wiki_data['url']
+        wikipedia_chunks = [{"text": wiki_data['text'], "chunk_id": None, "source_url": source_url}]
+
+        # Option to clear and try again
+        if st.button("🔄 Clear and fetch different source"):
+            del st.session_state.wikipedia_content
+            st.rerun()
+
+    else:
+        # Option 1: Auto-fetch from Wikipedia
+        st.markdown("#### Option 1: Fetch from Wikipedia")
+
+        col1, col2 = st.columns([3, 1])
+        with col1:
+            st.markdown(f"Search for **{selected_person}** on Wikipedia")
+        with col2:
+            fetch_button = st.button("🔍 Fetch Wikipedia", type="primary")
+
+        if fetch_button:
+            # Check if Serper API key is available
+            if not os.getenv("SERPER_API_KEY"):
+                st.error("SERPER_API_KEY not configured. Please add it to environment variables or use manual paste below.")
+            else:
+                try:
+                    searcher = SourceSearcher()
+
+                    with st.spinner(f"Searching for {selected_person} on Wikipedia..."):
+                        # Search specifically for Wikipedia
+                        results = searcher.search(
+                            f'"{selected_person}" site:wikipedia.org',
+                            num_results=3
+                        )
+
+                        # Find the best Wikipedia result
+                        wiki_url = None
+                        for result in results:
+                            url = result.get("url", "")
+                            if "wikipedia.org/wiki/" in url and not any(x in url for x in ["/File:", "/Category:", "/Template:", "/Talk:"]):
+                                wiki_url = url
+                                break
+
+                        if wiki_url:
+                            st.info(f"Found: {wiki_url}")
+
+                            # Fetch the content
+                            with st.spinner("Fetching Wikipedia article..."):
+                                content = searcher.fetch_content(wiki_url)
+
+                            if content["success"]:
+                                # Store in session state
+                                st.session_state.wikipedia_content = {
+                                    "url": wiki_url,
+                                    "title": content.get("title", selected_person),
+                                    "text": content["text"]
+                                }
+                                st.rerun()
+                            else:
+                                st.error(f"Failed to fetch Wikipedia: {content.get('error', 'Unknown error')}")
+                        else:
+                            st.warning(f"No Wikipedia article found for '{selected_person}'. Try manual paste below.")
+
+                except ValueError as e:
+                    st.error(f"Configuration error: {e}")
+                except Exception as e:
+                    st.error(f"Search error: {e}")
+
+        st.markdown("---")
+
+        # Option 2: Manual paste
+        st.markdown("#### Option 2: Paste manually")
+        manual_text = st.text_area(
+            "Paste Wikipedia article text",
+            height=300,
+            placeholder="Paste the Wikipedia article content here..."
+        )
+        source_url = st.text_input("Wikipedia URL", placeholder="https://en.wikipedia.org/wiki/...")
+
+        if manual_text:
+            wikipedia_chunks = [{"text": manual_text, "chunk_id": None, "source_url": source_url}]
 
 # Run pipeline
 st.markdown("---")
