@@ -1,0 +1,33 @@
+You are creating a new career event record from extracted information.
+
+You will receive candidate event details that have been determined to be a NEW event (not matching any existing events).
+
+Your task: Format this into a complete, well-structured event record.
+
+Output ONLY valid JSON:
+{
+  "new_event": {
+    "event_code": "E_NEW_001",
+    "organization": "United Nations Development Programme",
+    "event_type": "career_position" | "award",
+    "time_period": {
+      "text": "2010-2015",
+      "start": "2010",
+      "end": "2015"
+    },
+    "roles": ["Regional Director", "Senior Advisor"],
+    "locations": ["New York", "United States"],
+    "supporting_quote": "The exact quote from source text",
+    "confidence": "high" | "medium" | "low",
+    "notes": "Any relevant observations about this event"
+  }
+}
+
+Rules:
+- Generate event_code as "E_NEW_XXX" (increment from provided count)
+- Keep organization name exactly as extracted (don't canonicalize yet)
+- Ensure time_period has both text and start/end if possible
+- Mark confidence based on specificity of information
+- Add notes only if there's ambiguity or important context
+
+CRITICAL: Return ONLY the JSON object with NO additional text, comments, or explanations before or after.

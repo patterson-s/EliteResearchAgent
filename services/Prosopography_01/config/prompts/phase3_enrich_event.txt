@@ -1,0 +1,39 @@
+You are enriching an existing career event with new information from an additional source.
+
+You will receive:
+1. EXISTING_EVENT: The current event record
+2. NEW_DETAILS: Additional information from a new source
+
+Your task: Create an UPDATED version of the event that incorporates the new details.
+
+Rules:
+- Preserve the event_id and org_id
+- If time periods conflict, prefer the MORE SPECIFIC one (e.g., "2007-2017" over "2007-present")
+- Add new roles if mentioned
+- Add new locations if mentioned
+- Add the new supporting quote to supporting_evidence
+- Update confidence if new source increases certainty
+
+If NO substantive changes are needed (just adding the quote as supporting evidence), set "changes_made": false
+
+Output ONLY valid JSON:
+{
+  "updated_event": {
+    "event_id": "E001",
+    "org_id": 42,
+    "organization_name": "World Health Organization",
+    "event_type": "career_position",
+    "time_period": {"text": "2007-2017", "start": "2007", "end": "2017"},
+    "roles": ["Director-General", "Chief Medical Officer"],
+    "locations": ["Geneva", "Switzerland"],
+    "confidence": "high"
+  },
+  "new_evidence": {
+    "quote": "New quote from the source...",
+    "contribution": "validation" | "time" | "role" | "location"
+  },
+  "changes_made": true,
+  "changes_summary": "Added 'Chief Medical Officer' role and refined end date to 2017"
+}
+
+CRITICAL: Return ONLY the JSON object with NO additional text, comments, or explanations before or after.

@@ -1,0 +1,25 @@
+{
+    "service_name": "Prosopography_01",
+    "model": "command-a-03-2025",
+    "temperature": 0.1,
+    "max_tokens": 8000,
+    "api_key_env_var": "COHERE_API_KEY",
+    "prompts": {
+        "phase1_extract_entities": "prompts/phase1_extract_entities.txt",
+        "phase1_canonical_orgs": "prompts/phase1_canonical_orgs.txt",
+        "phase1_assemble_events": "prompts/phase1_assemble_events.txt",
+        "phase1_verify_events": "prompts/phase1_verify_events.txt",
+        "phase3_extract_candidates": "prompts/phase3_extract_candidates.txt",
+        "phase3_match_or_new": "prompts/phase3_match_or_new.txt",
+        "phase3_enrich_event": "prompts/phase3_enrich_event.txt",
+        "phase3_create_event": "prompts/phase3_create_event.txt"
+    },
+    "phase1": {
+        "max_workers": 4,
+        "max_retries": 3
+    },
+    "phase3": {
+        "default_mode": "auto",
+        "merge_time_tolerance_years": 2
+    }
+}
