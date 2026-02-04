@@ -153,21 +153,6 @@ with col1:
 with col2:
     render_evidence_panel(evidence)
 
-    # Add custom evidence
-    with st.expander("Add Custom Evidence"):
-        quote = st.text_area("Quote", key="new_quote")
-        source = st.text_input("Source URL", key="new_source")
-        if st.button("Add Evidence"):
-            if quote:
-                event_editor.add_evidence(
-                    current_event.event_id,
-                    quote=quote,
-                    source_url=source or "manual",
-                    source_type="manual"
-                )
-                st.success("Evidence added!")
-                st.rerun()
-
 # Navigation buttons at bottom
 st.markdown("---")
 nav_col1, nav_col2, nav_col3 = st.columns([1, 2, 1])
