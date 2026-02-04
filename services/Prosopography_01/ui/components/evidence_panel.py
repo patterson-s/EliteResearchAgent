@@ -195,9 +195,9 @@ def render_evidence_panel(
                 # Now highlight the quote in the (possibly trimmed) text
                 highlighted_text = highlight_quote_in_chunk(text_to_highlight, quote)
 
-                # Use a container with background for readability
+                # Use a scrollable container with background for readability
                 st.markdown(
-                    f'<div style="background-color: #f0f2f6; padding: 10px; border-radius: 5px; font-size: 0.9em;">{highlighted_text}</div>',
+                    f'<div style="background-color: #f0f2f6; padding: 10px; border-radius: 5px; font-size: 0.9em; max-height: 300px; overflow-y: auto;">{highlighted_text}</div>',
                     unsafe_allow_html=True
                 )
 
