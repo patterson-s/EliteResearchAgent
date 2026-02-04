@@ -46,12 +46,12 @@ try:
     conn = get_connection()
     with conn.cursor() as cur:
         cur.execute("""
-            SELECT c.chunk_id, c.text, c.chunk_index, c.source_url
+            SELECT c.id, c.text, c.chunk_index, sr.url
             FROM sources.chunks c
-            JOIN sources.search_results sr ON c.source_url = sr.url
-            JOIN sources.persons_searched ps ON sr.person_id = ps.person_id
+            JOIN sources.search_results sr ON c.search_result_id = sr.id
+            JOIN sources.persons_searched ps ON sr.person_search_id = ps.id
             WHERE ps.person_name = %s
-            AND c.source_url LIKE '%%wikipedia%%'
+            AND sr.url LIKE '%%wikipedia%%'
             ORDER BY c.chunk_index
         """, (selected_person,))
         rows = cur.fetchall()
@@ -64,7 +64,7 @@ try:
             })
     release_connection(conn)
 except Exception as e:
-    st.info(f"Could not load Wikipedia chunks from database: {e}")
+    pass  # Silently fall back to manual entry
 
 if wikipedia_chunks:
     st.success(f"Found {len(wikipedia_chunks)} Wikipedia chunks in database")

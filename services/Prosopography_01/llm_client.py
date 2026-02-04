@@ -23,10 +23,26 @@ class LLMClient:
         api_key = os.getenv(self.config.get("api_key_env_var", "COHERE_API_KEY"))
         if not api_key:
             raise ValueError("COHERE_API_KEY environment variable not set")
+
+        # Try to detect Cohere SDK version
         self.client = cohere.Client(api_key)
-        self.model = self.config.get("model", "command-a-03-2025")
+        self.model = self.config.get("model", "command-r-plus")
         self.temperature = self.config.get("temperature", 0.1)
         self.max_tokens = self.config.get("max_tokens", 8000)
+
+        # Detect API version by checking available methods/signatures
+        self._use_v2_api = self._detect_api_version()
+
+    def _detect_api_version(self) -> bool:
+        """Detect if we should use v2 API (messages) or v1 API (message/preamble)."""
+        import inspect
+        try:
+            sig = inspect.signature(self.client.chat)
+            params = sig.parameters
+            # v2 API uses 'messages', v1 uses 'message'
+            return 'messages' in params
+        except Exception:
+            return False
 
     def generate(
         self,
@@ -46,19 +62,30 @@ class LLMClient:
         Returns:
             The generated text response
         """
-        messages = []
-        if system_prompt:
-            messages.append({"role": "system", "content": system_prompt})
-        messages.append({"role": "user", "content": prompt})
+        if self._use_v2_api:
+            # Cohere v2 API (newer SDK)
+            messages = []
+            if system_prompt:
+                messages.append({"role": "system", "content": system_prompt})
+            messages.append({"role": "user", "content": prompt})
 
-        response = self.client.chat(
-            model=self.model,
-            messages=messages,
-            temperature=temperature or self.temperature,
-            max_tokens=max_tokens or self.max_tokens
-        )
-
-        return response.message.content[0].text
+            response = self.client.chat(
+                model=self.model,
+                messages=messages,
+                temperature=temperature or self.temperature,
+                max_tokens=max_tokens or self.max_tokens
+            )
+            return response.message.content[0].text
+        else:
+            # Cohere v1 API (older SDK)
+            response = self.client.chat(
+                model=self.model,
+                message=prompt,
+                preamble=system_prompt,
+                temperature=temperature or self.temperature,
+                max_tokens=max_tokens or self.max_tokens
+            )
+            return response.text
 
     def generate_json(
         self,
