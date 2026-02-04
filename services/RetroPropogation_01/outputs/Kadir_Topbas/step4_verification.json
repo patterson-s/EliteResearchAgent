@@ -1,0 +1,178 @@
+{
+  "verified_events": [
+    {
+      "event_id": "E001",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E002",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E003",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E004",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "medium",
+          "description": "Missing organization, start and end dates"
+        }
+      ]
+    },
+    {
+      "event_id": "E005",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "medium",
+          "description": "Missing organization, start and end dates, location"
+        }
+      ]
+    },
+    {
+      "event_id": "E006",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "medium",
+          "description": "Missing organization, start and end dates, location"
+        }
+      ]
+    },
+    {
+      "event_id": "E007",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "medium",
+          "description": "Missing organization, start and end dates"
+        }
+      ]
+    },
+    {
+      "event_id": "E008",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "medium",
+          "description": "Missing organization, start and end dates"
+        }
+      ]
+    },
+    {
+      "event_id": "E009",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "medium",
+          "description": "Missing organization, start and end dates"
+        }
+      ]
+    },
+    {
+      "event_id": "E010",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E011",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E012",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E013",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "Missing start and end dates, location"
+        }
+      ]
+    },
+    {
+      "event_id": "E014",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "Missing end date, location"
+        }
+      ]
+    },
+    {
+      "event_id": "E015",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "Missing end date"
+        }
+      ]
+    },
+    {
+      "event_id": "E016",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "Missing end date"
+        }
+      ]
+    },
+    {
+      "event_id": "E017",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E018",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E019",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E020",
+      "status": "valid",
+      "issues": []
+    }
+  ],
+  "summary": {
+    "total_events": 20,
+    "valid": 10,
+    "warnings": 10,
+    "errors": 0,
+    "career_positions": 18,
+    "awards": 2
+  },
+  "deduplication_review": {
+    "total_merges": 0,
+    "questionable_merges": 0,
+    "missed_merge_candidates": []
+  },
+  "raw_llm_output": "```json\n{\n  \"verified_events\": [\n    {\n      \"event_id\": \"E001\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E002\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E003\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E004\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"medium\",\n          \"description\": \"Missing organization, start and end dates\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E005\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"medium\",\n          \"description\": \"Missing organization, start and end dates, location\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E006\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"medium\",\n          \"description\": \"Missing organization, start and end dates, location\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E007\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"medium\",\n          \"description\": \"Missing organization, start and end dates\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E008\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"medium\",\n          \"description\": \"Missing organization, start and end dates\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E009\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"medium\",\n          \"description\": \"Missing organization, start and end dates\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E010\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E011\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E012\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E013\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"Missing start and end dates, location\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E014\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"Missing end date, location\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E015\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"Missing end date\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E016\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"Missing end date\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E017\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E018\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E019\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E020\",\n      \"status\": \"valid\",\n      \"issues\": []\n    }\n  ],\n  \"summary\": {\n    \"total_events\": 20,\n    \"valid\": 10,\n    \"warnings\": 10,\n    \"errors\": 0,\n    \"career_positions\": 18,\n    \"awards\": 2\n  },\n  \"deduplication_review\": {\n    \"total_merges\": 0,\n    \"questionable_merges\": 0,\n    \"missed_merge_candidates\": []\n  }\n}\n```"
+}

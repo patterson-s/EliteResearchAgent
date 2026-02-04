@@ -1,0 +1,136 @@
+{
+  "verified_events": [
+    {
+      "event_id": "E001",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E002",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "Missing start and end dates, marked as ongoing"
+        }
+      ]
+    },
+    {
+      "event_id": "E003",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "Missing start and end dates, marked as ongoing"
+        }
+      ]
+    },
+    {
+      "event_id": "E004",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "Missing end date, marked as ongoing"
+        }
+      ]
+    },
+    {
+      "event_id": "E005",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "Missing start and end dates, marked as ongoing"
+        }
+      ]
+    },
+    {
+      "event_id": "E006",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "Missing end date, marked as ongoing"
+        }
+      ]
+    },
+    {
+      "event_id": "E007",
+      "status": "error",
+      "issues": [
+        {
+          "type": "temporal_coherence",
+          "severity": "high",
+          "description": "Start date in 2026 is after the present year, impossible"
+        }
+      ]
+    },
+    {
+      "event_id": "E008",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "Missing end date, marked as ongoing"
+        }
+      ]
+    },
+    {
+      "event_id": "E009",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E010",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "Missing end date, marked as ongoing"
+        }
+      ]
+    },
+    {
+      "event_id": "E011",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E012",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E013",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E014",
+      "status": "valid",
+      "issues": []
+    }
+  ],
+  "summary": {
+    "total_events": 14,
+    "valid": 6,
+    "warnings": 7,
+    "errors": 1,
+    "career_positions": 9,
+    "awards": 5
+  },
+  "deduplication_review": {
+    "total_merges": 0,
+    "questionable_merges": 0,
+    "missed_merge_candidates": []
+  },
+  "raw_llm_output": "```json\n{\n  \"verified_events\": [\n    {\n      \"event_id\": \"E001\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E002\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"Missing start and end dates, marked as ongoing\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E003\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"Missing start and end dates, marked as ongoing\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E004\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"Missing end date, marked as ongoing\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E005\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"Missing start and end dates, marked as ongoing\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E006\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"Missing end date, marked as ongoing\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E007\",\n      \"status\": \"error\",\n      \"issues\": [\n        {\n          \"type\": \"temporal_coherence\",\n          \"severity\": \"high\",\n          \"description\": \"Start date in 2026 is after the present year, impossible\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E008\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"Missing end date, marked as ongoing\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E009\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E010\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"Missing end date, marked as ongoing\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E011\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E012\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E013\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E014\",\n      \"status\": \"valid\",\n      \"issues\": []\n    }\n  ],\n  \"summary\": {\n    \"total_events\": 14,\n    \"valid\": 6,\n    \"warnings\": 7,\n    \"errors\": 1,\n    \"career_positions\": 9,\n    \"awards\": 5\n  },\n  \"deduplication_review\": {\n    \"total_merges\": 0,\n    \"questionable_merges\": 0,\n    \"missed_merge_candidates\": []\n  }\n}\n```"
+}

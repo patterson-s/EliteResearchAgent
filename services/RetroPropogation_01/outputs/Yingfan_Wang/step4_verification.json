@@ -1,0 +1,101 @@
+{
+  "verified_events": [
+    {
+      "event_id": "E001",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E002",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E003",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E004",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "medium",
+          "description": "Missing time period and organization details"
+        }
+      ]
+    },
+    {
+      "event_id": "E005",
+      "status": "error",
+      "issues": [
+        {
+          "type": "deduplication",
+          "severity": "high",
+          "description": "Duplicate event of E001 with minor role variation, should have been merged"
+        }
+      ]
+    },
+    {
+      "event_id": "E006",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "high",
+          "description": "Missing time period and location details"
+        },
+        {
+          "type": "quote_support",
+          "severity": "medium",
+          "description": "Quote does not specify time period or organization"
+        }
+      ]
+    },
+    {
+      "event_id": "E007",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "medium",
+          "description": "Missing time period details"
+        }
+      ]
+    },
+    {
+      "event_id": "E008",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "medium",
+          "description": "Missing time period details"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_events": 8,
+    "valid": 3,
+    "warnings": 4,
+    "errors": 1,
+    "career_positions": 8,
+    "awards": 0
+  },
+  "deduplication_review": {
+    "total_merges": 1,
+    "questionable_merges": 0,
+    "missed_merge_candidates": [
+      {
+        "events": [
+          "E001",
+          "E005"
+        ],
+        "reasoning": "Same organization (United Nations), overlapping periods, similar roles"
+      }
+    ]
+  },
+  "raw_llm_output": "```json\n{\n  \"verified_events\": [\n    {\n      \"event_id\": \"E001\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E002\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E003\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E004\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"medium\",\n          \"description\": \"Missing time period and organization details\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E005\",\n      \"status\": \"error\",\n      \"issues\": [\n        {\n          \"type\": \"deduplication\",\n          \"severity\": \"high\",\n          \"description\": \"Duplicate event of E001 with minor role variation, should have been merged\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E006\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"high\",\n          \"description\": \"Missing time period and location details\"\n        },\n        {\n          \"type\": \"quote_support\",\n          \"severity\": \"medium\",\n          \"description\": \"Quote does not specify time period or organization\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E007\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"medium\",\n          \"description\": \"Missing time period details\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E008\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"medium\",\n          \"description\": \"Missing time period details\"\n        }\n      ]\n    }\n  ],\n  \"summary\": {\n    \"total_events\": 8,\n    \"valid\": 3,\n    \"warnings\": 4,\n    \"errors\": 1,\n    \"career_positions\": 8,\n    \"awards\": 0\n  },\n  \"deduplication_review\": {\n    \"total_merges\": 1,\n    \"questionable_merges\": 0,\n    \"missed_merge_candidates\": [\n      {\n        \"events\": [\"E001\", \"E005\"],\n        \"reasoning\": \"Same organization (United Nations), overlapping periods, similar roles\"\n      }\n    ]\n  }\n}\n```"
+}

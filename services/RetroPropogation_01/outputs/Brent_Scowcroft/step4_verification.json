@@ -1,0 +1,245 @@
+{
+  "verified_events": [
+    {
+      "event_id": "E001",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "temporal_coherence",
+          "severity": "high",
+          "description": "End date 1975 conflicts with overlapping event E003 (1948-1953) and E004 (1964-1966) at the same organization (USAF). Possible incorrect end date."
+        },
+        {
+          "type": "quote_support",
+          "severity": "medium",
+          "description": "Supporting quote only mentions service years, not specific role as 'officer'."
+        }
+      ]
+    },
+    {
+      "event_id": "E002",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E003",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "temporal_coherence",
+          "severity": "medium",
+          "description": "Overlaps with broader event E001 (1947-1975) at the same organization (USAF). Possible duplicate or incorrectly scoped event."
+        }
+      ]
+    },
+    {
+      "event_id": "E004",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E005",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E006",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "temporal_coherence",
+          "severity": "low",
+          "description": "Start date 1969 is after the end of event E004 (1964-1966) at the same organization (USAF), but role and location suggest continuity. Possible missing event or incorrect dates."
+        }
+      ]
+    },
+    {
+      "event_id": "E007",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E008",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E009",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E010",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E011",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "Missing time period. Acceptable for career positions with unclear tenure."
+        }
+      ]
+    },
+    {
+      "event_id": "E012",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E013",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E014",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "Missing time period. Acceptable for career positions with unclear tenure."
+        }
+      ]
+    },
+    {
+      "event_id": "E015",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "Missing time period. Acceptable for career positions with unclear tenure."
+        }
+      ]
+    },
+    {
+      "event_id": "E016",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "Missing time period. Acceptable for career positions with unclear tenure."
+        }
+      ]
+    },
+    {
+      "event_id": "E017",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "Missing time period. Acceptable for membership events with unclear tenure."
+        }
+      ]
+    },
+    {
+      "event_id": "E018",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "Missing time period. Acceptable for membership events with unclear tenure."
+        }
+      ]
+    },
+    {
+      "event_id": "E019",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "Missing time period. Acceptable for membership events with unclear tenure."
+        }
+      ]
+    },
+    {
+      "event_id": "E020",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "Missing time period. Acceptable for board membership events with unclear tenure."
+        }
+      ]
+    },
+    {
+      "event_id": "E021",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "Missing time period. Acceptable for board membership events with unclear tenure."
+        }
+      ]
+    },
+    {
+      "event_id": "E022",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E023",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E024",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "classification_accuracy",
+          "severity": "medium",
+          "description": "Event classified as 'award' but has no awarding organization. Possibly misclassified honorary title."
+        }
+      ]
+    },
+    {
+      "event_id": "E025",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E026",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E027",
+      "status": "valid",
+      "issues": []
+    }
+  ],
+  "summary": {
+    "total_events": 27,
+    "valid": 14,
+    "warnings": 13,
+    "errors": 0,
+    "career_positions": 23,
+    "awards": 4
+  },
+  "deduplication_review": {
+    "total_merges": 0,
+    "questionable_merges": 0,
+    "missed_merge_candidates": [
+      {
+        "candidates": [
+          "E001",
+          "E003",
+          "E004"
+        ],
+        "description": "Overlapping USAF positions with different time periods. Possible fragmentation of a single career track."
+      }
+    ]
+  },
+  "raw_llm_output": "```json\n{\n  \"verified_events\": [\n    {\n      \"event_id\": \"E001\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"temporal_coherence\",\n          \"severity\": \"high\",\n          \"description\": \"End date 1975 conflicts with overlapping event E003 (1948-1953) and E004 (1964-1966) at the same organization (USAF). Possible incorrect end date.\"\n        },\n        {\n          \"type\": \"quote_support\",\n          \"severity\": \"medium\",\n          \"description\": \"Supporting quote only mentions service years, not specific role as 'officer'.\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E002\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E003\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"temporal_coherence\",\n          \"severity\": \"medium\",\n          \"description\": \"Overlaps with broader event E001 (1947-1975) at the same organization (USAF). Possible duplicate or incorrectly scoped event.\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E004\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E005\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E006\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"temporal_coherence\",\n          \"severity\": \"low\",\n          \"description\": \"Start date 1969 is after the end of event E004 (1964-1966) at the same organization (USAF), but role and location suggest continuity. Possible missing event or incorrect dates.\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E007\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E008\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E009\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E010\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E011\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"Missing time period. Acceptable for career positions with unclear tenure.\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E012\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E013\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E014\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"Missing time period. Acceptable for career positions with unclear tenure.\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E015\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"Missing time period. Acceptable for career positions with unclear tenure.\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E016\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"Missing time period. Acceptable for career positions with unclear tenure.\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E017\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"Missing time period. Acceptable for membership events with unclear tenure.\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E018\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"Missing time period. Acceptable for membership events with unclear tenure.\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E019\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"Missing time period. Acceptable for membership events with unclear tenure.\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E020\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"Missing time period. Acceptable for board membership events with unclear tenure.\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E021\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"Missing time period. Acceptable for board membership events with unclear tenure.\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E022\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E023\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E024\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"classification_accuracy\",\n          \"severity\": \"medium\",\n          \"description\": \"Event classified as 'award' but has no awarding organization. Possibly misclassified honorary title.\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E025\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E026\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E027\",\n      \"status\": \"valid\",\n      \"issues\": []\n    }\n  ],\n  \"summary\": {\n    \"total_events\": 27,\n    \"valid\": 14,\n    \"warnings\": 13,\n    \"errors\": 0,\n    \"career_positions\": 23,\n    \"awards\": 4\n  },\n  \"deduplication_review\": {\n    \"total_merges\": 0,\n    \"questionable_merges\": 0,\n    \"missed_merge_candidates\": [\n      {\n        \"candidates\": [\"E001\", \"E003\", \"E004\"],\n        \"description\": \"Overlapping USAF positions with different time periods. Possible fragmentation of a single career track.\"\n      }\n    ]\n  }\n}\n```"
+}

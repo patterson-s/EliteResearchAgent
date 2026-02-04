@@ -1,0 +1,127 @@
+{
+  "verified_events": [
+    {
+      "event_id": "E001",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E002",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "Missing time period details, marked as ongoing"
+        }
+      ]
+    },
+    {
+      "event_id": "E003",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "Missing time period details, marked as ongoing"
+        }
+      ]
+    },
+    {
+      "event_id": "E004",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "Missing time period details, marked as ongoing"
+        },
+        {
+          "type": "temporal_consistency",
+          "severity": "medium",
+          "description": "Overlaps with E001 at the same organization (Parliament of Botswana) without clear distinction"
+        }
+      ]
+    },
+    {
+      "event_id": "E005",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E006",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E007",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E008",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "Missing time period details, marked as ongoing"
+        }
+      ]
+    },
+    {
+      "event_id": "E009",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "Missing time period details, marked as ongoing"
+        }
+      ]
+    },
+    {
+      "event_id": "E010",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E011",
+      "status": "error",
+      "issues": [
+        {
+          "type": "temporal_consistency",
+          "severity": "high",
+          "description": "Start date (November 2024) is after the end date of E001 and E012 at the same organization (Parliament of Botswana), indicating a potential error"
+        }
+      ]
+    },
+    {
+      "event_id": "E012",
+      "status": "valid",
+      "issues": []
+    }
+  ],
+  "summary": {
+    "total_events": 12,
+    "valid": 6,
+    "warnings": 4,
+    "errors": 2,
+    "career_positions": 12,
+    "awards": 0
+  },
+  "deduplication_review": {
+    "total_merges": 0,
+    "questionable_merges": 0,
+    "missed_merge_candidates": [
+      {
+        "event_ids": [
+          "E001",
+          "E004"
+        ],
+        "reason": "Overlapping roles at the same organization (Parliament of Botswana) with unclear distinction"
+      }
+    ]
+  },
+  "raw_llm_output": "```json\n{\n  \"verified_events\": [\n    {\n      \"event_id\": \"E001\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E002\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"Missing time period details, marked as ongoing\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E003\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"Missing time period details, marked as ongoing\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E004\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"Missing time period details, marked as ongoing\"\n        },\n        {\n          \"type\": \"temporal_consistency\",\n          \"severity\": \"medium\",\n          \"description\": \"Overlaps with E001 at the same organization (Parliament of Botswana) without clear distinction\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E005\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E006\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E007\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E008\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"Missing time period details, marked as ongoing\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E009\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"Missing time period details, marked as ongoing\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E010\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E011\",\n      \"status\": \"error\",\n      \"issues\": [\n        {\n          \"type\": \"temporal_consistency\",\n          \"severity\": \"high\",\n          \"description\": \"Start date (November 2024) is after the end date of E001 and E012 at the same organization (Parliament of Botswana), indicating a potential error\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E012\",\n      \"status\": \"valid\",\n      \"issues\": []\n    }\n  ],\n  \"summary\": {\n    \"total_events\": 12,\n    \"valid\": 6,\n    \"warnings\": 4,\n    \"errors\": 2,\n    \"career_positions\": 12,\n    \"awards\": 0\n  },\n  \"deduplication_review\": {\n    \"total_merges\": 0,\n    \"questionable_merges\": 0,\n    \"missed_merge_candidates\": [\n      {\n        \"event_ids\": [\"E001\", \"E004\"],\n        \"reason\": \"Overlapping roles at the same organization (Parliament of Botswana) with unclear distinction\"\n      }\n    ]\n  }\n}\n```"
+}

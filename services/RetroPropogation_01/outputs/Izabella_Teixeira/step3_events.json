@@ -1,0 +1,118 @@
+{
+  "events": [
+    {
+      "event_id": "E001",
+      "event_type": "career_position",
+      "canonical_org_id": "ORG_008",
+      "canonical_org_name": "Cabinet of Dilma Rousseff",
+      "time_period": {
+        "start": "2010",
+        "end": "2016",
+        "text": "2010–2016"
+      },
+      "roles": [
+        "Minister of the Environment"
+      ],
+      "locations": [
+        "Brazil"
+      ],
+      "supporting_quotes": [
+        "In May 2010 she was appointed Minister of the Environment",
+        "Izabella Mônica Vieira Teixeira\n(born 9 October 1961) was the\nBrazilian\nMinister of the Environment.",
+        "Minister of Environment 2010–2016"
+      ],
+      "source_entity_ids": {
+        "time_markers": [
+          0,
+          1,
+          19
+        ],
+        "organizations": [
+          12
+        ],
+        "roles": [
+          0,
+          4
+        ],
+        "locations": [
+          4,
+          8
+        ]
+      },
+      "confidence": "high",
+      "merged_from": [],
+      "notes": ""
+    },
+    {
+      "event_id": "E002",
+      "event_type": "career_position",
+      "canonical_org_id": "ORG_004",
+      "canonical_org_name": "United Nations (UN)",
+      "time_period": {
+        "start": "2012",
+        "end": "2013",
+        "text": "From August 2012 to July 2013"
+      },
+      "roles": [
+        "Member of the High-Level Panel of Eminent Persons on the Post-2015 Development Agenda"
+      ],
+      "locations": [],
+      "supporting_quotes": [
+        "On 24 September 2012, Teixeira was appointed by UN Secretary-General Ban Ki-moon to serve on the High-Level Panel of Eminent Persons on the Post-2015 Development Agenda."
+      ],
+      "source_entity_ids": {
+        "time_markers": [
+          6
+        ],
+        "organizations": [
+          5,
+          6
+        ],
+        "roles": [],
+        "locations": []
+      },
+      "confidence": "high",
+      "merged_from": [],
+      "notes": "Role inferred from appointment to the panel"
+    },
+    {
+      "event_id": "E003",
+      "event_type": "award",
+      "canonical_org_id": "ORG_004",
+      "canonical_org_name": "United Nations (UN)",
+      "time_period": {
+        "start": "2013",
+        "end": "2013",
+        "text": "2013"
+      },
+      "roles": [
+        "2013 Laureate – Policy Leadership (co-winner)"
+      ],
+      "locations": [],
+      "supporting_quotes": [
+        "'2013 Laureate – Policy Leadership (co-winner) Izabella Teixeira'. United Nations Environment Programme."
+      ],
+      "source_entity_ids": {
+        "time_markers": [
+          13
+        ],
+        "organizations": [
+          9
+        ],
+        "roles": [],
+        "locations": []
+      },
+      "confidence": "high",
+      "merged_from": [],
+      "notes": ""
+    }
+  ],
+  "deduplication_log": [],
+  "raw_llm_output": "```json\n{\n  \"events\": [\n    {\n      \"event_id\": \"E001\",\n      \"event_type\": \"career_position\",\n      \"canonical_org_id\": \"ORG_008\",\n      \"canonical_org_name\": \"Cabinet of Dilma Rousseff\",\n      \"time_period\": {\n        \"start\": \"2010\",\n        \"end\": \"2016\",\n        \"text\": \"2010–2016\"\n      },\n      \"roles\": [\n        \"Minister of the Environment\"\n      ],\n      \"locations\": [\n        \"Brazil\"\n      ],\n      \"supporting_quotes\": [\n        \"In May 2010 she was appointed Minister of the Environment\",\n        \"Izabella Mônica Vieira Teixeira\\n(born 9 October 1961) was the\\nBrazilian\\nMinister of the Environment.\",\n        \"Minister of Environment 2010–2016\"\n      ],\n      \"source_entity_ids\": {\n        \"time_markers\": [0, 1, 19],\n        \"organizations\": [12],\n        \"roles\": [0, 4],\n        \"locations\": [4, 8]\n      },\n      \"confidence\": \"high\",\n      \"merged_from\": [],\n      \"notes\": \"\"\n    },\n    {\n      \"event_id\": \"E002\",\n      \"event_type\": \"career_position\",\n      \"canonical_org_id\": \"ORG_004\",\n      \"canonical_org_name\": \"United Nations (UN)\",\n      \"time_period\": {\n        \"start\": \"2012\",\n        \"end\": \"2013\",\n        \"text\": \"From August 2012 to July 2013\"\n      },\n      \"roles\": [\n        \"Member of the High-Level Panel of Eminent Persons on the Post-2015 Development Agenda\"\n      ],\n      \"locations\": [],\n      \"supporting_quotes\": [\n        \"On 24 September 2012, Teixeira was appointed by UN Secretary-General Ban Ki-moon to serve on the High-Level Panel of Eminent Persons on the Post-2015 Development Agenda.\"\n      ],\n      \"source_entity_ids\": {\n        \"time_markers\": [6],\n        \"organizations\": [5, 6],\n        \"roles\": [],\n        \"locations\": []\n      },\n      \"confidence\": \"high\",\n      \"merged_from\": [],\n      \"notes\": \"Role inferred from appointment to the panel\"\n    },\n    {\n      \"event_id\": \"E003\",\n      \"event_type\": \"award\",\n      \"canonical_org_id\": \"ORG_004\",\n      \"canonical_org_name\": \"United Nations (UN)\",\n      \"time_period\": {\n        \"start\": \"2013\",\n        \"end\": \"2013\",\n        \"text\": \"2013\"\n      },\n      \"roles\": [\n        \"2013 Laureate – Policy Leadership (co-winner)\"\n      ],\n      \"locations\": [],\n      \"supporting_quotes\": [\n        \"'2013 Laureate – Policy Leadership (co-winner) Izabella Teixeira'. United Nations Environment Programme.\"\n      ],\n      \"source_entity_ids\": {\n        \"time_markers\": [13],\n        \"organizations\": [9],\n        \"roles\": [],\n        \"locations\": []\n      },\n      \"confidence\": \"high\",\n      \"merged_from\": [],\n      \"notes\": \"\"\n    }\n  ],\n  \"deduplication_log\": [],\n  \"unprocessed_roles\": []\n}\n```",
+  "summary": {
+    "total_events": 3,
+    "career_positions": 2,
+    "awards": 1,
+    "deduplication_actions": 0
+  }
+}

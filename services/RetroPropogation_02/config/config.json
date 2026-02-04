@@ -1,0 +1,15 @@
+{
+  "model": "command-a-03-2025",
+  "temperature": 0.3,
+  "api_key_env_var": "COHERE_API_KEY",
+  "max_tokens_extract": 8000,
+  "max_tokens_match": 8000,
+  "max_tokens_enrich": 8000,
+  "max_tokens_create": 8000,
+  "prompts": {
+    "step1_extract_candidates": "prompts/step1_extract_candidates.txt",
+    "step2_match_or_new": "prompts/step2_match_or_new.txt",
+    "step3a_enrich_event": "prompts/step3a_enrich_event.txt",
+    "step3b_create_event": "prompts/step3b_create_event.txt"
+  }
+}

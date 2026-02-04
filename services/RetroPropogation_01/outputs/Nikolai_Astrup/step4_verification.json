@@ -1,0 +1,123 @@
+{
+  "verified_events": [
+    {
+      "event_id": "E001",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E002",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E003",
+      "status": "error",
+      "issues": [
+        {
+          "type": "quote_support",
+          "severity": "high",
+          "description": "Supporting quote does not mention specific time period or role details"
+        }
+      ]
+    },
+    {
+      "event_id": "E004",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E005",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "End date missing, marked as ongoing"
+        }
+      ]
+    },
+    {
+      "event_id": "E006",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E007",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E008",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E009",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E010",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "End date unclear"
+        }
+      ]
+    },
+    {
+      "event_id": "E011",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E012",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "End date unclear"
+        }
+      ]
+    },
+    {
+      "event_id": "E013",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E014",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E015",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "End date unclear"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_events": 15,
+    "valid": 9,
+    "warnings": 4,
+    "errors": 1,
+    "career_positions": 14,
+    "awards": 0
+  },
+  "deduplication_review": {
+    "total_merges": 0,
+    "questionable_merges": 0,
+    "missed_merge_candidates": []
+  },
+  "raw_llm_output": "```json\n{\n  \"verified_events\": [\n    {\n      \"event_id\": \"E001\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E002\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E003\",\n      \"status\": \"error\",\n      \"issues\": [\n        {\n          \"type\": \"quote_support\",\n          \"severity\": \"high\",\n          \"description\": \"Supporting quote does not mention specific time period or role details\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E004\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E005\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"End date missing, marked as ongoing\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E006\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E007\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E008\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E009\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E010\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"End date unclear\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E011\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E012\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"End date unclear\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E013\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E014\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E015\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"End date unclear\"\n        }\n      ]\n    }\n  ],\n  \"summary\": {\n    \"total_events\": 15,\n    \"valid\": 9,\n    \"warnings\": 4,\n    \"errors\": 1,\n    \"career_positions\": 14,\n    \"awards\": 0\n  },\n  \"deduplication_review\": {\n    \"total_merges\": 0,\n    \"questionable_merges\": 0,\n    \"missed_merge_candidates\": []\n  }\n}\n```"
+}

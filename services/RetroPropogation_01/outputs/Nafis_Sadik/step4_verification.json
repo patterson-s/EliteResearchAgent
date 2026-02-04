@@ -1,0 +1,193 @@
+{
+  "verified_events": [
+    {
+      "event_id": "E001",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "deduplication",
+          "severity": "high",
+          "description": "Duplicate of E002 with same time period and overlapping roles. Merge recommended."
+        }
+      ]
+    },
+    {
+      "event_id": "E002",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E003",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "deduplication",
+          "severity": "high",
+          "description": "Duplicate of E004 with identical time period and overlapping roles. Merge recommended."
+        }
+      ]
+    },
+    {
+      "event_id": "E004",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E005",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E006",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "medium",
+          "description": "Missing time period for career position"
+        }
+      ]
+    },
+    {
+      "event_id": "E007",
+      "status": "error",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "high",
+          "description": "Missing time period, organization, and location for career position"
+        },
+        {
+          "type": "quote_support",
+          "severity": "medium",
+          "description": "Supporting quote does not specify time period or organization"
+        }
+      ]
+    },
+    {
+      "event_id": "E008",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E009",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "temporal_consistency",
+          "severity": "low",
+          "description": "End date missing but quote indicates appointment in 1964"
+        }
+      ]
+    },
+    {
+      "event_id": "E010",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E011",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "temporal_consistency",
+          "severity": "low",
+          "description": "End date missing but quote indicates joining in 1971"
+        }
+      ]
+    },
+    {
+      "event_id": "E012",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "medium",
+          "description": "Missing time period for career position"
+        }
+      ]
+    },
+    {
+      "event_id": "E013",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "medium",
+          "description": "Missing time period for career position"
+        }
+      ]
+    },
+    {
+      "event_id": "E014",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "medium",
+          "description": "Missing time period for career position"
+        }
+      ]
+    },
+    {
+      "event_id": "E015",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "medium",
+          "description": "Missing time period for career position"
+        }
+      ]
+    },
+    {
+      "event_id": "E016",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E017",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E018",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E019",
+      "status": "valid",
+      "issues": []
+    }
+  ],
+  "summary": {
+    "total_events": 19,
+    "valid": 9,
+    "warnings": 9,
+    "errors": 1,
+    "career_positions": 15,
+    "awards": 4
+  },
+  "deduplication_review": {
+    "total_merges": 0,
+    "questionable_merges": 2,
+    "missed_merge_candidates": [
+      {
+        "event_ids": [
+          "E001",
+          "E002"
+        ],
+        "reason": "Identical time period and overlapping roles at related UN organizations"
+      },
+      {
+        "event_ids": [
+          "E003",
+          "E004"
+        ],
+        "reason": "Identical time period and overlapping roles at related organizations"
+      }
+    ]
+  },
+  "raw_llm_output": "```json\n{\n  \"verified_events\": [\n    {\n      \"event_id\": \"E001\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"deduplication\",\n          \"severity\": \"high\",\n          \"description\": \"Duplicate of E002 with same time period and overlapping roles. Merge recommended.\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E002\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E003\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"deduplication\",\n          \"severity\": \"high\",\n          \"description\": \"Duplicate of E004 with identical time period and overlapping roles. Merge recommended.\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E004\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E005\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E006\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"medium\",\n          \"description\": \"Missing time period for career position\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E007\",\n      \"status\": \"error\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"high\",\n          \"description\": \"Missing time period, organization, and location for career position\"\n        },\n        {\n          \"type\": \"quote_support\",\n          \"severity\": \"medium\",\n          \"description\": \"Supporting quote does not specify time period or organization\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E008\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E009\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"temporal_consistency\",\n          \"severity\": \"low\",\n          \"description\": \"End date missing but quote indicates appointment in 1964\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E010\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E011\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"temporal_consistency\",\n          \"severity\": \"low\",\n          \"description\": \"End date missing but quote indicates joining in 1971\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E012\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"medium\",\n          \"description\": \"Missing time period for career position\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E013\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"medium\",\n          \"description\": \"Missing time period for career position\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E014\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"medium\",\n          \"description\": \"Missing time period for career position\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E015\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"medium\",\n          \"description\": \"Missing time period for career position\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E016\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E017\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E018\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E019\",\n      \"status\": \"valid\",\n      \"issues\": []\n    }\n  ],\n  \"summary\": {\n    \"total_events\": 19,\n    \"valid\": 9,\n    \"warnings\": 9,\n    \"errors\": 1,\n    \"career_positions\": 15,\n    \"awards\": 4\n  },\n  \"deduplication_review\": {\n    \"total_merges\": 0,\n    \"questionable_merges\": 2,\n    \"missed_merge_candidates\": [\n      {\n        \"event_ids\": [\"E001\", \"E002\"],\n        \"reason\": \"Identical time period and overlapping roles at related UN organizations\"\n      },\n      {\n        \"event_ids\": [\"E003\", \"E004\"],\n        \"reason\": \"Identical time period and overlapping roles at related organizations\"\n      }\n    ]\n  }\n}\n```"
+}

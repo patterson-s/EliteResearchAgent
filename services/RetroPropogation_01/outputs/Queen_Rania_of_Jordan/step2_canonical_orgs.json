@@ -1,0 +1,978 @@
+{
+  "canonical_organizations": [
+    {
+      "canonical_id": "ORG_001",
+      "canonical_name": "New English School",
+      "org_type": "other",
+      "entity_indices": [
+        0
+      ],
+      "variations_found": [
+        "New English School"
+      ],
+      "reasoning": "School mentioned in context, no variations found."
+    },
+    {
+      "canonical_id": "ORG_002",
+      "canonical_name": "American University in Cairo (AUC)",
+      "org_type": "university",
+      "entity_indices": [
+        1,
+        61
+      ],
+      "variations_found": [
+        "American University in Cairo",
+        "The American University in Cairo"
+      ],
+      "reasoning": "University with variations in article usage."
+    },
+    {
+      "canonical_id": "ORG_003",
+      "canonical_name": "Citibank",
+      "org_type": "company",
+      "entity_indices": [
+        2,
+        70
+      ],
+      "variations_found": [
+        "Citibank",
+        "Citigroup"
+      ],
+      "reasoning": "Company with Citibank as primary name, Citigroup as parent company."
+    },
+    {
+      "canonical_id": "ORG_004",
+      "canonical_name": "Apple Inc.",
+      "org_type": "company",
+      "entity_indices": [
+        3,
+        62
+      ],
+      "variations_found": [
+        "Apple Inc."
+      ],
+      "reasoning": "Company with no variations found."
+    },
+    {
+      "canonical_id": "ORG_005",
+      "canonical_name": "Mosaic Foundation",
+      "org_type": "ngo",
+      "entity_indices": [
+        4
+      ],
+      "variations_found": [
+        "Mosaic Foundation"
+      ],
+      "reasoning": "Foundation mentioned in partnership context."
+    },
+    {
+      "canonical_id": "ORG_006",
+      "canonical_name": "Sesame Workshop",
+      "org_type": "ngo",
+      "entity_indices": [
+        5,
+        55,
+        72
+      ],
+      "variations_found": [
+        "Sesame Workshop"
+      ],
+      "reasoning": "Non-profit organization with consistent naming."
+    },
+    {
+      "canonical_id": "ORG_007",
+      "canonical_name": "Ministry of Education (Jordan)",
+      "org_type": "government",
+      "entity_indices": [
+        6,
+        9
+      ],
+      "variations_found": [
+        "Ministry of Education"
+      ],
+      "reasoning": "Government ministry in Jordan, context clarifies country."
+    },
+    {
+      "canonical_id": "ORG_008",
+      "canonical_name": "The Queen Rania Al Abdullah Center for Educational Technology",
+      "org_type": "research_center",
+      "entity_indices": [
+        7
+      ],
+      "variations_found": [
+        "The Queen Rania Al Abdullah Center for Educational Technology"
+      ],
+      "reasoning": "Educational technology center established by Queen Rania."
+    },
+    {
+      "canonical_id": "ORG_009",
+      "canonical_name": "Queen Rania Teacher Academy",
+      "org_type": "research_center",
+      "entity_indices": [
+        8
+      ],
+      "variations_found": [
+        "Queen Rania Teacher Academy"
+      ],
+      "reasoning": "Teacher academy associated with Queen Rania."
+    },
+    {
+      "canonical_id": "ORG_010",
+      "canonical_name": "Jordan River Foundation (JRF)",
+      "org_type": "ngo",
+      "entity_indices": [
+        10,
+        66
+      ],
+      "variations_found": [
+        "Jordan River Foundation (JRF)",
+        "Jordan River Foundation"
+      ],
+      "reasoning": "Foundation established by Queen Rania with acronym variation."
+    },
+    {
+      "canonical_id": "ORG_011",
+      "canonical_name": "Jordan River Children Program (JRCP)",
+      "org_type": "ngo",
+      "entity_indices": [
+        11
+      ],
+      "variations_found": [
+        "Jordan River Children Program (JRCP)"
+      ],
+      "reasoning": "Program under Jordan River Foundation with acronym."
+    },
+    {
+      "canonical_id": "ORG_012",
+      "canonical_name": "Al-Aman Fund for the Future of Orphans",
+      "org_type": "ngo",
+      "entity_indices": [
+        12
+      ],
+      "variations_found": [
+        "Al-Aman Fund for the Future of Orphans"
+      ],
+      "reasoning": "Fund initiated by Queen Rania for orphans."
+    },
+    {
+      "canonical_id": "ORG_013",
+      "canonical_name": "INJAZ Al-Arab",
+      "org_type": "ngo",
+      "entity_indices": [
+        13,
+        16,
+        68
+      ],
+      "variations_found": [
+        "INJAZ Al-Arab",
+        "Injaz"
+      ],
+      "reasoning": "Regional organization with INJAZ Al-Arab as primary name."
+    },
+    {
+      "canonical_id": "ORG_014",
+      "canonical_name": "Royal Health Awareness Society (RHAS)",
+      "org_type": "ngo",
+      "entity_indices": [
+        14,
+        67
+      ],
+      "variations_found": [
+        "Royal Health Awareness Society (RHAS)",
+        "Royal Health Awareness Society"
+      ],
+      "reasoning": "Health society established by Queen Rania with acronym variation."
+    },
+    {
+      "canonical_id": "ORG_015",
+      "canonical_name": "World Economic Forum (WEF)",
+      "org_type": "international_org",
+      "entity_indices": [
+        15,
+        22,
+        25,
+        31,
+        35,
+        39,
+        57,
+        77
+      ],
+      "variations_found": [
+        "World Economic Forum",
+        "World Economic Forum (WEF)"
+      ],
+      "reasoning": "International organization with acronym variation."
+    },
+    {
+      "canonical_id": "ORG_016",
+      "canonical_name": "INJAZ Arabia",
+      "org_type": "ngo",
+      "entity_indices": [
+        16
+      ],
+      "variations_found": [
+        "INJAZ Arabia"
+      ],
+      "reasoning": "Regional variation of INJAZ organization."
+    },
+    {
+      "canonical_id": "ORG_017",
+      "canonical_name": "Queen Rania Children's Hospital",
+      "org_type": "other",
+      "entity_indices": [
+        17
+      ],
+      "variations_found": [
+        "Queen Rania Children's Hospital"
+      ],
+      "reasoning": "Hospital named after Queen Rania."
+    },
+    {
+      "canonical_id": "ORG_018",
+      "canonical_name": "United Nations Children's Fund (UNICEF)",
+      "org_type": "international_org",
+      "entity_indices": [
+        18,
+        36,
+        73
+      ],
+      "variations_found": [
+        "United Nations Children's Fund (UNICEF)",
+        "UNICEF"
+      ],
+      "reasoning": "UN agency with acronym variation."
+    },
+    {
+      "canonical_id": "ORG_019",
+      "canonical_name": "International Youth Foundation",
+      "org_type": "ngo",
+      "entity_indices": [
+        19,
+        74
+      ],
+      "variations_found": [
+        "International Youth Foundation"
+      ],
+      "reasoning": "Foundation focused on youth development."
+    },
+    {
+      "canonical_id": "ORG_020",
+      "canonical_name": "United Nations Girls' Education Initiative (UNGEI)",
+      "org_type": "international_org",
+      "entity_indices": [
+        20,
+        38,
+        75
+      ],
+      "variations_found": [
+        "United Nations Girls' Education Initiative (UNGEI)"
+      ],
+      "reasoning": "UN initiative with consistent naming."
+    },
+    {
+      "canonical_id": "ORG_021",
+      "canonical_name": "Global Campaign for Education (GCE)",
+      "org_type": "ngo",
+      "entity_indices": [
+        21,
+        40,
+        76
+      ],
+      "variations_found": [
+        "Global Campaign for Education (GCE)",
+        "Global Campaign for Education"
+      ],
+      "reasoning": "Global education campaign with acronym variation."
+    },
+    {
+      "canonical_id": "ORG_022",
+      "canonical_name": "FIFA",
+      "org_type": "international_org",
+      "entity_indices": [
+        23,
+        58,
+        78
+      ],
+      "variations_found": [
+        "FIFA"
+      ],
+      "reasoning": "International football federation with consistent naming."
+    },
+    {
+      "canonical_id": "ORG_023",
+      "canonical_name": "Jeddah Economic Forum",
+      "org_type": "other",
+      "entity_indices": [
+        24
+      ],
+      "variations_found": [
+        "Jeddah Economic Forum"
+      ],
+      "reasoning": "Economic forum based in Jeddah."
+    },
+    {
+      "canonical_id": "ORG_024",
+      "canonical_name": "Harvard University",
+      "org_type": "university",
+      "entity_indices": [
+        26,
+        27,
+        79
+      ],
+      "variations_found": [
+        "Harvard University",
+        "Harvard Kennedy School",
+        "Harvard University's John F. Kennedy School of Government"
+      ],
+      "reasoning": "University with school and department variations."
+    },
+    {
+      "canonical_id": "ORG_025",
+      "canonical_name": "Skoll Foundation",
+      "org_type": "ngo",
+      "entity_indices": [
+        28
+      ],
+      "variations_found": [
+        "Skoll Foundation"
+      ],
+      "reasoning": "Foundation associated with Skoll World Forum."
+    },
+    {
+      "canonical_id": "ORG_026",
+      "canonical_name": "United Nations Foundation",
+      "org_type": "international_org",
+      "entity_indices": [
+        29,
+        37,
+        71
+      ],
+      "variations_found": [
+        "United Nations Foundation"
+      ],
+      "reasoning": "Foundation affiliated with the United Nations."
+    },
+    {
+      "canonical_id": "ORG_027",
+      "canonical_name": "Foundation for International Community Assistance (FINCA)",
+      "org_type": "ngo",
+      "entity_indices": [
+        30,
+        80
+      ],
+      "variations_found": [
+        "Foundation for International Community Assistance (FINCA)",
+        "FINCA International",
+        "FINCA Jordan"
+      ],
+      "reasoning": "Foundation with international and regional variations."
+    },
+    {
+      "canonical_id": "ORG_028",
+      "canonical_name": "Earthshot Prize Council",
+      "org_type": "commission",
+      "entity_indices": [
+        32
+      ],
+      "variations_found": [
+        "Earthshot Prize Council"
+      ],
+      "reasoning": "Council associated with the Earthshot Prize."
+    },
+    {
+      "canonical_id": "ORG_029",
+      "canonical_name": "YouTube",
+      "org_type": "company",
+      "entity_indices": [
+        33,
+        82
+      ],
+      "variations_found": [
+        "YouTube"
+      ],
+      "reasoning": "Company with consistent naming."
+    },
+    {
+      "canonical_id": "ORG_030",
+      "canonical_name": "United Nations",
+      "org_type": "international_org",
+      "entity_indices": [
+        34,
+        41
+      ],
+      "variations_found": [
+        "United Nations"
+      ],
+      "reasoning": "International organization with consistent naming."
+    },
+    {
+      "canonical_id": "ORG_031",
+      "canonical_name": "1GOAL",
+      "org_type": "ngo",
+      "entity_indices": [
+        39
+      ],
+      "variations_found": [
+        "1GOAL"
+      ],
+      "reasoning": "Education initiative with consistent naming."
+    },
+    {
+      "canonical_id": "ORG_032",
+      "canonical_name": "New7Wonders",
+      "org_type": "other",
+      "entity_indices": [
+        42,
+        83
+      ],
+      "variations_found": [
+        "New7Wonders",
+        "New 7 Wonders"
+      ],
+      "reasoning": "Organization with numerical variation in name."
+    },
+    {
+      "canonical_id": "ORG_033",
+      "canonical_name": "Greater Amman Municipality",
+      "org_type": "government",
+      "entity_indices": [
+        43
+      ],
+      "variations_found": [
+        "Greater Amman Municipality"
+      ],
+      "reasoning": "Municipal government in Amman."
+    },
+    {
+      "canonical_id": "ORG_034",
+      "canonical_name": "The New York Times",
+      "org_type": "company",
+      "entity_indices": [
+        44
+      ],
+      "variations_found": [
+        "New York Times",
+        "The New York Times"
+      ],
+      "reasoning": "Newspaper with article variation."
+    },
+    {
+      "canonical_id": "ORG_035",
+      "canonical_name": "GAVI",
+      "org_type": "international_org",
+      "entity_indices": [
+        59
+      ],
+      "variations_found": [
+        "GAVI"
+      ],
+      "reasoning": "International vaccine alliance with consistent naming."
+    },
+    {
+      "canonical_id": "ORG_036",
+      "canonical_name": "International Center for Research on Women (ICRW)",
+      "org_type": "research_center",
+      "entity_indices": [
+        60
+      ],
+      "variations_found": [
+        "International Center for Research on Women (ICRW)",
+        "ICRW"
+      ],
+      "reasoning": "Research center with acronym variation."
+    },
+    {
+      "canonical_id": "ORG_037",
+      "canonical_name": "Arab Open University",
+      "org_type": "university",
+      "entity_indices": [
+        63,
+        84
+      ],
+      "variations_found": [
+        "Arab Open University"
+      ],
+      "reasoning": "University with consistent naming."
+    },
+    {
+      "canonical_id": "ORG_038",
+      "canonical_name": "Operation Smile",
+      "org_type": "ngo",
+      "entity_indices": [
+        64,
+        85
+      ],
+      "variations_found": [
+        "Operation Smile"
+      ],
+      "reasoning": "Non-profit organization with consistent naming."
+    },
+    {
+      "canonical_id": "ORG_039",
+      "canonical_name": "The Royal Hashemite Court",
+      "org_type": "government",
+      "entity_indices": [
+        45,
+        86
+      ],
+      "variations_found": [
+        "The Royal Hashemite Court",
+        "Royal Hashemite Court"
+      ],
+      "reasoning": "Royal court with article variation."
+    },
+    {
+      "canonical_id": "ORG_040",
+      "canonical_name": "Columbia University World Leaders Forum",
+      "org_type": "other",
+      "entity_indices": [
+        46
+      ],
+      "variations_found": [
+        "Columbia University World Leaders Forum"
+      ],
+      "reasoning": "Forum associated with Columbia University."
+    },
+    {
+      "canonical_id": "ORG_041",
+      "canonical_name": "BBC",
+      "org_type": "company",
+      "entity_indices": [
+        47,
+        87
+      ],
+      "variations_found": [
+        "BBC"
+      ],
+      "reasoning": "Broadcasting corporation with consistent naming."
+    },
+    {
+      "canonical_id": "ORG_042",
+      "canonical_name": "Roya News",
+      "org_type": "company",
+      "entity_indices": [
+        48
+      ],
+      "variations_found": [
+        "Roya News"
+      ],
+      "reasoning": "News organization with consistent naming."
+    },
+    {
+      "canonical_id": "ORG_043",
+      "canonical_name": "CNBC",
+      "org_type": "company",
+      "entity_indices": [
+        49
+      ],
+      "variations_found": [
+        "CNBC"
+      ],
+      "reasoning": "News network with consistent naming."
+    },
+    {
+      "canonical_id": "ORG_044",
+      "canonical_name": "The Daily Telegraph",
+      "org_type": "company",
+      "entity_indices": [
+        50
+      ],
+      "variations_found": [
+        "The Daily Telegraph"
+      ],
+      "reasoning": "Newspaper with consistent naming."
+    },
+    {
+      "canonical_id": "ORG_045",
+      "canonical_name": "Jordan Times",
+      "org_type": "company",
+      "entity_indices": [
+        51,
+        88
+      ],
+      "variations_found": [
+        "Jordan Times"
+      ],
+      "reasoning": "Newspaper with consistent naming."
+    },
+    {
+      "canonical_id": "ORG_046",
+      "canonical_name": "Children's Museum Jordan",
+      "org_type": "other",
+      "entity_indices": [
+        52
+      ],
+      "variations_found": [
+        "Children's Museum Jordan"
+      ],
+      "reasoning": "Museum in Jordan with consistent naming."
+    },
+    {
+      "canonical_id": "ORG_047",
+      "canonical_name": "Madrasati",
+      "org_type": "other",
+      "entity_indices": [
+        53
+      ],
+      "variations_found": [
+        "Madrasati"
+      ],
+      "reasoning": "Initiative with consistent naming."
+    },
+    {
+      "canonical_id": "ORG_048",
+      "canonical_name": "Queen Rania Foundation",
+      "org_type": "ngo",
+      "entity_indices": [
+        54
+      ],
+      "variations_found": [
+        "Queen Rania Foundation"
+      ],
+      "reasoning": "Foundation named after Queen Rania."
+    },
+    {
+      "canonical_id": "ORG_049",
+      "canonical_name": "Queen Rania Scholarship Program",
+      "org_type": "other",
+      "entity_indices": [
+        56
+      ],
+      "variations_found": [
+        "Queen Rania Scholarship Program"
+      ],
+      "reasoning": "Scholarship program named after Queen Rania."
+    },
+    {
+      "canonical_id": "ORG_050",
+      "canonical_name": "Himmeh.jo",
+      "org_type": "other",
+      "entity_indices": [
+        65
+      ],
+      "variations_found": [
+        "Himmeh.jo"
+      ],
+      "reasoning": "Website with consistent naming."
+    },
+    {
+      "canonical_id": "ORG_051",
+      "canonical_name": "Forum of Young Global Leaders (YGL)",
+      "org_type": "commission",
+      "entity_indices": [
+        69
+      ],
+      "variations_found": [
+        "Forum of Young Global Leaders (YGL)"
+      ],
+      "reasoning": "Forum with acronym variation."
+    },
+    {
+      "canonical_id": "ORG_052",
+      "canonical_name": "Every Child Council for the GAVI Alliance",
+      "org_type": "commission",
+      "entity_indices": [
+        70
+      ],
+      "variations_found": [
+        "Every Child Council for the GAVI Alliance"
+      ],
+      "reasoning": "Council associated with GAVI Alliance."
+    },
+    {
+      "canonical_id": "ORG_053",
+      "canonical_name": "University of Exeter",
+      "org_type": "university",
+      "entity_indices": [
+        67
+      ],
+      "variations_found": [
+        "University of Exeter"
+      ],
+      "reasoning": "University with consistent naming."
+    },
+    {
+      "canonical_id": "ORG_054",
+      "canonical_name": "University of Jordan",
+      "org_type": "university",
+      "entity_indices": [
+        68
+      ],
+      "variations_found": [
+        "University of Jordan"
+      ],
+      "reasoning": "University with consistent naming."
+    },
+    {
+      "canonical_id": "ORG_055",
+      "canonical_name": "University of Malaya",
+      "org_type": "university",
+      "entity_indices": [
+        69
+      ],
+      "variations_found": [
+        "University of Malaya"
+      ],
+      "reasoning": "University with consistent naming."
+    },
+    {
+      "canonical_id": "ORG_056",
+      "canonical_name": "Sapienza University of Rome",
+      "org_type": "university",
+      "entity_indices": [
+        70
+      ],
+      "variations_found": [
+        "University of Sapienza",
+        "Sapienza University of Rome"
+      ],
+      "reasoning": "University with English and local name variations."
+    },
+    {
+      "canonical_id": "ORG_057",
+      "canonical_name": "Fashion for Relief",
+      "org_type": "ngo",
+      "entity_indices": [
+        71
+      ],
+      "variations_found": [
+        "Fashion for Relief"
+      ],
+      "reasoning": "Charity organization with consistent naming."
+    },
+    {
+      "canonical_id": "ORG_058",
+      "canonical_name": "The Big Read",
+      "org_type": "other",
+      "entity_indices": [
+        81
+      ],
+      "variations_found": [
+        "The Big Read"
+      ],
+      "reasoning": "Initiative with consistent naming."
+    },
+    {
+      "canonical_id": "ORG_059",
+      "canonical_name": "White House Blog",
+      "org_type": "government",
+      "entity_indices": [
+        82
+      ],
+      "variations_found": [
+        "White House Blog"
+      ],
+      "reasoning": "Government blog with consistent naming."
+    },
+    {
+      "canonical_id": "ORG_060",
+      "canonical_name": "Huffington Post",
+      "org_type": "company",
+      "entity_indices": [
+        72,
+        89
+      ],
+      "variations_found": [
+        "Huffington Post"
+      ],
+      "reasoning": "News website with consistent naming."
+    },
+    {
+      "canonical_id": "ORG_061",
+      "canonical_name": "Forbes",
+      "org_type": "company",
+      "entity_indices": [
+        73,
+        90
+      ],
+      "variations_found": [
+        "Forbes"
+      ],
+      "reasoning": "Magazine with consistent naming."
+    },
+    {
+      "canonical_id": "ORG_062",
+      "canonical_name": "Skoll World Forum",
+      "org_type": "other",
+      "entity_indices": [
+        80
+      ],
+      "variations_found": [
+        "Skoll World Forum"
+      ],
+      "reasoning": "Forum associated with Skoll Foundation."
+    },
+    {
+      "canonical_id": "ORG_063",
+      "canonical_name": "FINCA Jordan",
+      "org_type": "ngo",
+      "entity_indices": [
+        81
+      ],
+      "variations_found": [
+        "FINCA Jordan"
+      ],
+      "reasoning": "Regional branch of FINCA."
+    },
+    {
+      "canonical_id": "ORG_064",
+      "canonical_name": "CBS News",
+      "org_type": "company",
+      "entity_indices": [
+        82
+      ],
+      "variations_found": [
+        "CBS News"
+      ],
+      "reasoning": "News network with consistent naming."
+    },
+    {
+      "canonical_id": "ORG_065",
+      "canonical_name": "People",
+      "org_type": "company",
+      "entity_indices": [
+        83
+      ],
+      "variations_found": [
+        "people.com",
+        "People"
+      ],
+      "reasoning": "Magazine with website variation."
+    },
+    {
+      "canonical_id": "ORG_066",
+      "canonical_name": "USA Today",
+      "org_type": "company",
+      "entity_indices": [
+        84
+      ],
+      "variations_found": [
+        "USA Today"
+      ],
+      "reasoning": "Newspaper with consistent naming."
+    },
+    {
+      "canonical_id": "ORG_067",
+      "canonical_name": "The Guardian",
+      "org_type": "company",
+      "entity_indices": [
+        85
+      ],
+      "variations_found": [
+        "The Guardian"
+      ],
+      "reasoning": "Newspaper with consistent naming."
+    },
+    {
+      "canonical_id": "ORG_068",
+      "canonical_name": "The Washington Post",
+      "org_type": "company",
+      "entity_indices": [
+        86
+      ],
+      "variations_found": [
+        "The Washington Post"
+      ],
+      "reasoning": "Newspaper with consistent naming."
+    },
+    {
+      "canonical_id": "ORG_069",
+      "canonical_name": "Time Out Chicago",
+      "org_type": "company",
+      "entity_indices": [
+        87
+      ],
+      "variations_found": [
+        "Time Out, Chicago"
+      ],
+      "reasoning": "Magazine with location variation."
+    },
+    {
+      "canonical_id": "ORG_070",
+      "canonical_name": "Hello Magazine",
+      "org_type": "company",
+      "entity_indices": [
+        88
+      ],
+      "variations_found": [
+        "Hello Magazine"
+      ],
+      "reasoning": "Magazine with consistent naming."
+    },
+    {
+      "canonical_id": "ORG_071",
+      "canonical_name": "Arab News",
+      "org_type": "company",
+      "entity_indices": [
+        89
+      ],
+      "variations_found": [
+        "Arab News"
+      ],
+      "reasoning": "Newspaper with consistent naming."
+    },
+    {
+      "canonical_id": "ORG_072",
+      "canonical_name": "Business Insider",
+      "org_type": "company",
+      "entity_indices": [
+        90
+      ],
+      "variations_found": [
+        "Business Insider"
+      ],
+      "reasoning": "News website with consistent naming."
+    },
+    {
+      "canonical_id": "ORG_073",
+      "canonical_name": "Facebook",
+      "org_type": "company",
+      "entity_indices": [
+        91
+      ],
+      "variations_found": [
+        "Facebook"
+      ],
+      "reasoning": "Social media platform with consistent naming."
+    },
+    {
+      "canonical_id": "ORG_074",
+      "canonical_name": "Michael O'Mara Books",
+      "org_type": "company",
+      "entity_indices": [
+        92
+      ],
+      "variations_found": [
+        "Michael O'Mara Books"
+      ],
+      "reasoning": "Publishing house with consistent naming."
+    },
+    {
+      "canonical_id": "ORG_075",
+      "canonical_name": "Hyperion Books",
+      "org_type": "company",
+      "entity_indices": [
+        93
+      ],
+      "variations_found": [
+        "Hyperion Books"
+      ],
+      "reasoning": "Publishing house with consistent naming."
+    },
+    {
+      "canonical_id": "ORG_076",
+      "canonical_name": "The Christian Science Monitor",
+      "org_type": "company",
+      "entity_indices": [
+        94
+      ],
+      "variations_found": [
+        "Christian Science Monitor",
+        "The Christian Science Monitor"
+      ],
+      "reasoning": "Newspaper with article variation."
+    }
+  ],
+  "raw_llm_output": "```json\n{\n  \"canonical_organizations\": [\n    {\n      \"canonical_id\": \"ORG_001\",\n      \"canonical_name\": \"New English School\",\n      \"org_type\": \"other\",\n      \"entity_indices\": [0],\n      \"variations_found\": [\"New English School\"],\n      \"reasoning\": \"School mentioned in context, no variations found.\"\n    },\n    {\n      \"canonical_id\": \"ORG_002\",\n      \"canonical_name\": \"American University in Cairo (AUC)\",\n      \"org_type\": \"university\",\n      \"entity_indices\": [1, 61],\n      \"variations_found\": [\"American University in Cairo\", \"The American University in Cairo\"],\n      \"reasoning\": \"University with variations in article usage.\"\n    },\n    {\n      \"canonical_id\": \"ORG_003\",\n      \"canonical_name\": \"Citibank\",\n      \"org_type\": \"company\",\n      \"entity_indices\": [2, 70],\n      \"variations_found\": [\"Citibank\", \"Citigroup\"],\n      \"reasoning\": \"Company with Citibank as primary name, Citigroup as parent company.\"\n    },\n    {\n      \"canonical_id\": \"ORG_004\",\n      \"canonical_name\": \"Apple Inc.\",\n      \"org_type\": \"company\",\n      \"entity_indices\": [3, 62],\n      \"variations_found\": [\"Apple Inc.\"],\n      \"reasoning\": \"Company with no variations found.\"\n    },\n    {\n      \"canonical_id\": \"ORG_005\",\n      \"canonical_name\": \"Mosaic Foundation\",\n      \"org_type\": \"ngo\",\n      \"entity_indices\": [4],\n      \"variations_found\": [\"Mosaic Foundation\"],\n      \"reasoning\": \"Foundation mentioned in partnership context.\"\n    },\n    {\n      \"canonical_id\": \"ORG_006\",\n      \"canonical_name\": \"Sesame Workshop\",\n      \"org_type\": \"ngo\",\n      \"entity_indices\": [5, 55, 72],\n      \"variations_found\": [\"Sesame Workshop\"],\n      \"reasoning\": \"Non-profit organization with consistent naming.\"\n    },\n    {\n      \"canonical_id\": \"ORG_007\",\n      \"canonical_name\": \"Ministry of Education (Jordan)\",\n      \"org_type\": \"government\",\n      \"entity_indices\": [6, 9],\n      \"variations_found\": [\"Ministry of Education\"],\n      \"reasoning\": \"Government ministry in Jordan, context clarifies country.\"\n    },\n    {\n      \"canonical_id\": \"ORG_008\",\n      \"canonical_name\": \"The Queen Rania Al Abdullah Center for Educational Technology\",\n      \"org_type\": \"research_center\",\n      \"entity_indices\": [7],\n      \"variations_found\": [\"The Queen Rania Al Abdullah Center for Educational Technology\"],\n      \"reasoning\": \"Educational technology center established by Queen Rania.\"\n    },\n    {\n      \"canonical_id\": \"ORG_009\",\n      \"canonical_name\": \"Queen Rania Teacher Academy\",\n      \"org_type\": \"research_center\",\n      \"entity_indices\": [8],\n      \"variations_found\": [\"Queen Rania Teacher Academy\"],\n      \"reasoning\": \"Teacher academy associated with Queen Rania.\"\n    },\n    {\n      \"canonical_id\": \"ORG_010\",\n      \"canonical_name\": \"Jordan River Foundation (JRF)\",\n      \"org_type\": \"ngo\",\n      \"entity_indices\": [10, 66],\n      \"variations_found\": [\"Jordan River Foundation (JRF)\", \"Jordan River Foundation\"],\n      \"reasoning\": \"Foundation established by Queen Rania with acronym variation.\"\n    },\n    {\n      \"canonical_id\": \"ORG_011\",\n      \"canonical_name\": \"Jordan River Children Program (JRCP)\",\n      \"org_type\": \"ngo\",\n      \"entity_indices\": [11],\n      \"variations_found\": [\"Jordan River Children Program (JRCP)\"],\n      \"reasoning\": \"Program under Jordan River Foundation with acronym.\"\n    },\n    {\n      \"canonical_id\": \"ORG_012\",\n      \"canonical_name\": \"Al-Aman Fund for the Future of Orphans\",\n      \"org_type\": \"ngo\",\n      \"entity_indices\": [12],\n      \"variations_found\": [\"Al-Aman Fund for the Future of Orphans\"],\n      \"reasoning\": \"Fund initiated by Queen Rania for orphans.\"\n    },\n    {\n      \"canonical_id\": \"ORG_013\",\n      \"canonical_name\": \"INJAZ Al-Arab\",\n      \"org_type\": \"ngo\",\n      \"entity_indices\": [13, 16, 68],\n      \"variations_found\": [\"INJAZ Al-Arab\", \"Injaz\"],\n      \"reasoning\": \"Regional organization with INJAZ Al-Arab as primary name.\"\n    },\n    {\n      \"canonical_id\": \"ORG_014\",\n      \"canonical_name\": \"Royal Health Awareness Society (RHAS)\",\n      \"org_type\": \"ngo\",\n      \"entity_indices\": [14, 67],\n      \"variations_found\": [\"Royal Health Awareness Society (RHAS)\", \"Royal Health Awareness Society\"],\n      \"reasoning\": \"Health society established by Queen Rania with acronym variation.\"\n    },\n    {\n      \"canonical_id\": \"ORG_015\",\n      \"canonical_name\": \"World Economic Forum (WEF)\",\n      \"org_type\": \"international_org\",\n      \"entity_indices\": [15, 22, 25, 31, 35, 39, 57, 77],\n      \"variations_found\": [\"World Economic Forum\", \"World Economic Forum (WEF)\"],\n      \"reasoning\": \"International organization with acronym variation.\"\n    },\n    {\n      \"canonical_id\": \"ORG_016\",\n      \"canonical_name\": \"INJAZ Arabia\",\n      \"org_type\": \"ngo\",\n      \"entity_indices\": [16],\n      \"variations_found\": [\"INJAZ Arabia\"],\n      \"reasoning\": \"Regional variation of INJAZ organization.\"\n    },\n    {\n      \"canonical_id\": \"ORG_017\",\n      \"canonical_name\": \"Queen Rania Children's Hospital\",\n      \"org_type\": \"other\",\n      \"entity_indices\": [17],\n      \"variations_found\": [\"Queen Rania Children's Hospital\"],\n      \"reasoning\": \"Hospital named after Queen Rania.\"\n    },\n    {\n      \"canonical_id\": \"ORG_018\",\n      \"canonical_name\": \"United Nations Children's Fund (UNICEF)\",\n      \"org_type\": \"international_org\",\n      \"entity_indices\": [18, 36, 73],\n      \"variations_found\": [\"United Nations Children's Fund (UNICEF)\", \"UNICEF\"],\n      \"reasoning\": \"UN agency with acronym variation.\"\n    },\n    {\n      \"canonical_id\": \"ORG_019\",\n      \"canonical_name\": \"International Youth Foundation\",\n      \"org_type\": \"ngo\",\n      \"entity_indices\": [19, 74],\n      \"variations_found\": [\"International Youth Foundation\"],\n      \"reasoning\": \"Foundation focused on youth development.\"\n    },\n    {\n      \"canonical_id\": \"ORG_020\",\n      \"canonical_name\": \"United Nations Girls' Education Initiative (UNGEI)\",\n      \"org_type\": \"international_org\",\n      \"entity_indices\": [20, 38, 75],\n      \"variations_found\": [\"United Nations Girls' Education Initiative (UNGEI)\"],\n      \"reasoning\": \"UN initiative with consistent naming.\"\n    },\n    {\n      \"canonical_id\": \"ORG_021\",\n      \"canonical_name\": \"Global Campaign for Education (GCE)\",\n      \"org_type\": \"ngo\",\n      \"entity_indices\": [21, 40, 76],\n      \"variations_found\": [\"Global Campaign for Education (GCE)\", \"Global Campaign for Education\"],\n      \"reasoning\": \"Global education campaign with acronym variation.\"\n    },\n    {\n      \"canonical_id\": \"ORG_022\",\n      \"canonical_name\": \"FIFA\",\n      \"org_type\": \"international_org\",\n      \"entity_indices\": [23, 58, 78],\n      \"variations_found\": [\"FIFA\"],\n      \"reasoning\": \"International football federation with consistent naming.\"\n    },\n    {\n      \"canonical_id\": \"ORG_023\",\n      \"canonical_name\": \"Jeddah Economic Forum\",\n      \"org_type\": \"other\",\n      \"entity_indices\": [24],\n      \"variations_found\": [\"Jeddah Economic Forum\"],\n      \"reasoning\": \"Economic forum based in Jeddah.\"\n    },\n    {\n      \"canonical_id\": \"ORG_024\",\n      \"canonical_name\": \"Harvard University\",\n      \"org_type\": \"university\",\n      \"entity_indices\": [26, 27, 79],\n      \"variations_found\": [\"Harvard University\", \"Harvard Kennedy School\", \"Harvard University's John F. Kennedy School of Government\"],\n      \"reasoning\": \"University with school and department variations.\"\n    },\n    {\n      \"canonical_id\": \"ORG_025\",\n      \"canonical_name\": \"Skoll Foundation\",\n      \"org_type\": \"ngo\",\n      \"entity_indices\": [28],\n      \"variations_found\": [\"Skoll Foundation\"],\n      \"reasoning\": \"Foundation associated with Skoll World Forum.\"\n    },\n    {\n      \"canonical_id\": \"ORG_026\",\n      \"canonical_name\": \"United Nations Foundation\",\n      \"org_type\": \"international_org\",\n      \"entity_indices\": [29, 37, 71],\n      \"variations_found\": [\"United Nations Foundation\"],\n      \"reasoning\": \"Foundation affiliated with the United Nations.\"\n    },\n    {\n      \"canonical_id\": \"ORG_027\",\n      \"canonical_name\": \"Foundation for International Community Assistance (FINCA)\",\n      \"org_type\": \"ngo\",\n      \"entity_indices\": [30, 80],\n      \"variations_found\": [\"Foundation for International Community Assistance (FINCA)\", \"FINCA International\", \"FINCA Jordan\"],\n      \"reasoning\": \"Foundation with international and regional variations.\"\n    },\n    {\n      \"canonical_id\": \"ORG_028\",\n      \"canonical_name\": \"Earthshot Prize Council\",\n      \"org_type\": \"commission\",\n      \"entity_indices\": [32],\n      \"variations_found\": [\"Earthshot Prize Council\"],\n      \"reasoning\": \"Council associated with the Earthshot Prize.\"\n    },\n    {\n      \"canonical_id\": \"ORG_029\",\n      \"canonical_name\": \"YouTube\",\n      \"org_type\": \"company\",\n      \"entity_indices\": [33, 82],\n      \"variations_found\": [\"YouTube\"],\n      \"reasoning\": \"Company with consistent naming.\"\n    },\n    {\n      \"canonical_id\": \"ORG_030\",\n      \"canonical_name\": \"United Nations\",\n      \"org_type\": \"international_org\",\n      \"entity_indices\": [34, 41],\n      \"variations_found\": [\"United Nations\"],\n      \"reasoning\": \"International organization with consistent naming.\"\n    },\n    {\n      \"canonical_id\": \"ORG_031\",\n      \"canonical_name\": \"1GOAL\",\n      \"org_type\": \"ngo\",\n      \"entity_indices\": [39],\n      \"variations_found\": [\"1GOAL\"],\n      \"reasoning\": \"Education initiative with consistent naming.\"\n    },\n    {\n      \"canonical_id\": \"ORG_032\",\n      \"canonical_name\": \"New7Wonders\",\n      \"org_type\": \"other\",\n      \"entity_indices\": [42, 83],\n      \"variations_found\": [\"New7Wonders\", \"New 7 Wonders\"],\n      \"reasoning\": \"Organization with numerical variation in name.\"\n    },\n    {\n      \"canonical_id\": \"ORG_033\",\n      \"canonical_name\": \"Greater Amman Municipality\",\n      \"org_type\": \"government\",\n      \"entity_indices\": [43],\n      \"variations_found\": [\"Greater Amman Municipality\"],\n      \"reasoning\": \"Municipal government in Amman.\"\n    },\n    {\n      \"canonical_id\": \"ORG_034\",\n      \"canonical_name\": \"The New York Times\",\n      \"org_type\": \"company\",\n      \"entity_indices\": [44],\n      \"variations_found\": [\"New York Times\", \"The New York Times\"],\n      \"reasoning\": \"Newspaper with article variation.\"\n    },\n    {\n      \"canonical_id\": \"ORG_035\",\n      \"canonical_name\": \"GAVI\",\n      \"org_type\": \"international_org\",\n      \"entity_indices\": [59],\n      \"variations_found\": [\"GAVI\"],\n      \"reasoning\": \"International vaccine alliance with consistent naming.\"\n    },\n    {\n      \"canonical_id\": \"ORG_036\",\n      \"canonical_name\": \"International Center for Research on Women (ICRW)\",\n      \"org_type\": \"research_center\",\n      \"entity_indices\": [60],\n      \"variations_found\": [\"International Center for Research on Women (ICRW)\", \"ICRW\"],\n      \"reasoning\": \"Research center with acronym variation.\"\n    },\n    {\n      \"canonical_id\": \"ORG_037\",\n      \"canonical_name\": \"Arab Open University\",\n      \"org_type\": \"university\",\n      \"entity_indices\": [63, 84],\n      \"variations_found\": [\"Arab Open University\"],\n      \"reasoning\": \"University with consistent naming.\"\n    },\n    {\n      \"canonical_id\": \"ORG_038\",\n      \"canonical_name\": \"Operation Smile\",\n      \"org_type\": \"ngo\",\n      \"entity_indices\": [64, 85],\n      \"variations_found\": [\"Operation Smile\"],\n      \"reasoning\": \"Non-profit organization with consistent naming.\"\n    },\n    {\n      \"canonical_id\": \"ORG_039\",\n      \"canonical_name\": \"The Royal Hashemite Court\",\n      \"org_type\": \"government\",\n      \"entity_indices\": [45, 86],\n      \"variations_found\": [\"The Royal Hashemite Court\", \"Royal Hashemite Court\"],\n      \"reasoning\": \"Royal court with article variation.\"\n    },\n    {\n      \"canonical_id\": \"ORG_040\",\n      \"canonical_name\": \"Columbia University World Leaders Forum\",\n      \"org_type\": \"other\",\n      \"entity_indices\": [46],\n      \"variations_found\": [\"Columbia University World Leaders Forum\"],\n      \"reasoning\": \"Forum associated with Columbia University.\"\n    },\n    {\n      \"canonical_id\": \"ORG_041\",\n      \"canonical_name\": \"BBC\",\n      \"org_type\": \"company\",\n      \"entity_indices\": [47, 87],\n      \"variations_found\": [\"BBC\"],\n      \"reasoning\": \"Broadcasting corporation with consistent naming.\"\n    },\n    {\n      \"canonical_id\": \"ORG_042\",\n      \"canonical_name\": \"Roya News\",\n      \"org_type\": \"company\",\n      \"entity_indices\": [48],\n      \"variations_found\": [\"Roya News\"],\n      \"reasoning\": \"News organization with consistent naming.\"\n    },\n    {\n      \"canonical_id\": \"ORG_043\",\n      \"canonical_name\": \"CNBC\",\n      \"org_type\": \"company\",\n      \"entity_indices\": [49],\n      \"variations_found\": [\"CNBC\"],\n      \"reasoning\": \"News network with consistent naming.\"\n    },\n    {\n      \"canonical_id\": \"ORG_044\",\n      \"canonical_name\": \"The Daily Telegraph\",\n      \"org_type\": \"company\",\n      \"entity_indices\": [50],\n      \"variations_found\": [\"The Daily Telegraph\"],\n      \"reasoning\": \"Newspaper with consistent naming.\"\n    },\n    {\n      \"canonical_id\": \"ORG_045\",\n      \"canonical_name\": \"Jordan Times\",\n      \"org_type\": \"company\",\n      \"entity_indices\": [51, 88],\n      \"variations_found\": [\"Jordan Times\"],\n      \"reasoning\": \"Newspaper with consistent naming.\"\n    },\n    {\n      \"canonical_id\": \"ORG_046\",\n      \"canonical_name\": \"Children's Museum Jordan\",\n      \"org_type\": \"other\",\n      \"entity_indices\": [52],\n      \"variations_found\": [\"Children's Museum Jordan\"],\n      \"reasoning\": \"Museum in Jordan with consistent naming.\"\n    },\n    {\n      \"canonical_id\": \"ORG_047\",\n      \"canonical_name\": \"Madrasati\",\n      \"org_type\": \"other\",\n      \"entity_indices\": [53],\n      \"variations_found\": [\"Madrasati\"],\n      \"reasoning\": \"Initiative with consistent naming.\"\n    },\n    {\n      \"canonical_id\": \"ORG_048\",\n      \"canonical_name\": \"Queen Rania Foundation\",\n      \"org_type\": \"ngo\",\n      \"entity_indices\": [54],\n      \"variations_found\": [\"Queen Rania Foundation\"],\n      \"reasoning\": \"Foundation named after Queen Rania.\"\n    },\n    {\n      \"canonical_id\": \"ORG_049\",\n      \"canonical_name\": \"Queen Rania Scholarship Program\",\n      \"org_type\": \"other\",\n      \"entity_indices\": [56],\n      \"variations_found\": [\"Queen Rania Scholarship Program\"],\n      \"reasoning\": \"Scholarship program named after Queen Rania.\"\n    },\n    {\n      \"canonical_id\": \"ORG_050\",\n      \"canonical_name\": \"Himmeh.jo\",\n      \"org_type\": \"other\",\n      \"entity_indices\": [65],\n      \"variations_found\": [\"Himmeh.jo\"],\n      \"reasoning\": \"Website with consistent naming.\"\n    },\n    {\n      \"canonical_id\": \"ORG_051\",\n      \"canonical_name\": \"Forum of Young Global Leaders (YGL)\",\n      \"org_type\": \"commission\",\n      \"entity_indices\": [69],\n      \"variations_found\": [\"Forum of Young Global Leaders (YGL)\"],\n      \"reasoning\": \"Forum with acronym variation.\"\n    },\n    {\n      \"canonical_id\": \"ORG_052\",\n      \"canonical_name\": \"Every Child Council for the GAVI Alliance\",\n      \"org_type\": \"commission\",\n      \"entity_indices\": [70],\n      \"variations_found\": [\"Every Child Council for the GAVI Alliance\"],\n      \"reasoning\": \"Council associated with GAVI Alliance.\"\n    },\n    {\n      \"canonical_id\": \"ORG_053\",\n      \"canonical_name\": \"University of Exeter\",\n      \"org_type\": \"university\",\n      \"entity_indices\": [67],\n      \"variations_found\": [\"University of Exeter\"],\n      \"reasoning\": \"University with consistent naming.\"\n    },\n    {\n      \"canonical_id\": \"ORG_054\",\n      \"canonical_name\": \"University of Jordan\",\n      \"org_type\": \"university\",\n      \"entity_indices\": [68],\n      \"variations_found\": [\"University of Jordan\"],\n      \"reasoning\": \"University with consistent naming.\"\n    },\n    {\n      \"canonical_id\": \"ORG_055\",\n      \"canonical_name\": \"University of Malaya\",\n      \"org_type\": \"university\",\n      \"entity_indices\": [69],\n      \"variations_found\": [\"University of Malaya\"],\n      \"reasoning\": \"University with consistent naming.\"\n    },\n    {\n      \"canonical_id\": \"ORG_056\",\n      \"canonical_name\": \"Sapienza University of Rome\",\n      \"org_type\": \"university\",\n      \"entity_indices\": [70],\n      \"variations_found\": [\"University of Sapienza\", \"Sapienza University of Rome\"],\n      \"reasoning\": \"University with English and local name variations.\"\n    },\n    {\n      \"canonical_id\": \"ORG_057\",\n      \"canonical_name\": \"Fashion for Relief\",\n      \"org_type\": \"ngo\",\n      \"entity_indices\": [71],\n      \"variations_found\": [\"Fashion for Relief\"],\n      \"reasoning\": \"Charity organization with consistent naming.\"\n    },\n    {\n      \"canonical_id\": \"ORG_058\",\n      \"canonical_name\": \"The Big Read\",\n      \"org_type\": \"other\",\n      \"entity_indices\": [81],\n      \"variations_found\": [\"The Big Read\"],\n      \"reasoning\": \"Initiative with consistent naming.\"\n    },\n    {\n      \"canonical_id\": \"ORG_059\",\n      \"canonical_name\": \"White House Blog\",\n      \"org_type\": \"government\",\n      \"entity_indices\": [82],\n      \"variations_found\": [\"White House Blog\"],\n      \"reasoning\": \"Government blog with consistent naming.\"\n    },\n    {\n      \"canonical_id\": \"ORG_060\",\n      \"canonical_name\": \"Huffington Post\",\n      \"org_type\": \"company\",\n      \"entity_indices\": [72, 89],\n      \"variations_found\": [\"Huffington Post\"],\n      \"reasoning\": \"News website with consistent naming.\"\n    },\n    {\n      \"canonical_id\": \"ORG_061\",\n      \"canonical_name\": \"Forbes\",\n      \"org_type\": \"company\",\n      \"entity_indices\": [73, 90],\n      \"variations_found\": [\"Forbes\"],\n      \"reasoning\": \"Magazine with consistent naming.\"\n    },\n    {\n      \"canonical_id\": \"ORG_062\",\n      \"canonical_name\": \"Skoll World Forum\",\n      \"org_type\": \"other\",\n      \"entity_indices\": [80],\n      \"variations_found\": [\"Skoll World Forum\"],\n      \"reasoning\": \"Forum associated with Skoll Foundation.\"\n    },\n    {\n      \"canonical_id\": \"ORG_063\",\n      \"canonical_name\": \"FINCA Jordan\",\n      \"org_type\": \"ngo\",\n      \"entity_indices\": [81],\n      \"variations_found\": [\"FINCA Jordan\"],\n      \"reasoning\": \"Regional branch of FINCA.\"\n    },\n    {\n      \"canonical_id\": \"ORG_064\",\n      \"canonical_name\": \"CBS News\",\n      \"org_type\": \"company\",\n      \"entity_indices\": [82],\n      \"variations_found\": [\"CBS News\"],\n      \"reasoning\": \"News network with consistent naming.\"\n    },\n    {\n      \"canonical_id\": \"ORG_065\",\n      \"canonical_name\": \"People\",\n      \"org_type\": \"company\",\n      \"entity_indices\": [83],\n      \"variations_found\": [\"people.com\", \"People\"],\n      \"reasoning\": \"Magazine with website variation.\"\n    },\n    {\n      \"canonical_id\": \"ORG_066\",\n      \"canonical_name\": \"USA Today\",\n      \"org_type\": \"company\",\n      \"entity_indices\": [84],\n      \"variations_found\": [\"USA Today\"],\n      \"reasoning\": \"Newspaper with consistent naming.\"\n    },\n    {\n      \"canonical_id\": \"ORG_067\",\n      \"canonical_name\": \"The Guardian\",\n      \"org_type\": \"company\",\n      \"entity_indices\": [85],\n      \"variations_found\": [\"The Guardian\"],\n      \"reasoning\": \"Newspaper with consistent naming.\"\n    },\n    {\n      \"canonical_id\": \"ORG_068\",\n      \"canonical_name\": \"The Washington Post\",\n      \"org_type\": \"company\",\n      \"entity_indices\": [86],\n      \"variations_found\": [\"The Washington Post\"],\n      \"reasoning\": \"Newspaper with consistent naming.\"\n    },\n    {\n      \"canonical_id\": \"ORG_069\",\n      \"canonical_name\": \"Time Out Chicago\",\n      \"org_type\": \"company\",\n      \"entity_indices\": [87],\n      \"variations_found\": [\"Time Out, Chicago\"],\n      \"reasoning\": \"Magazine with location variation.\"\n    },\n    {\n      \"canonical_id\": \"ORG_070\",\n      \"canonical_name\": \"Hello Magazine\",\n      \"org_type\": \"company\",\n      \"entity_indices\": [88],\n      \"variations_found\": [\"Hello Magazine\"],\n      \"reasoning\": \"Magazine with consistent naming.\"\n    },\n    {\n      \"canonical_id\": \"ORG_071\",\n      \"canonical_name\": \"Arab News\",\n      \"org_type\": \"company\",\n      \"entity_indices\": [89],\n      \"variations_found\": [\"Arab News\"],\n      \"reasoning\": \"Newspaper with consistent naming.\"\n    },\n    {\n      \"canonical_id\": \"ORG_072\",\n      \"canonical_name\": \"Business Insider\",\n      \"org_type\": \"company\",\n      \"entity_indices\": [90],\n      \"variations_found\": [\"Business Insider\"],\n      \"reasoning\": \"News website with consistent naming.\"\n    },\n    {\n      \"canonical_id\": \"ORG_073\",\n      \"canonical_name\": \"Facebook\",\n      \"org_type\": \"company\",\n      \"entity_indices\": [91],\n      \"variations_found\": [\"Facebook\"],\n      \"reasoning\": \"Social media platform with consistent naming.\"\n    },\n    {\n      \"canonical_id\": \"ORG_074\",\n      \"canonical_name\": \"Michael O'Mara Books\",\n      \"org_type\": \"company\",\n      \"entity_indices\": [92],\n      \"variations_found\": [\"Michael O'Mara Books\"],\n      \"reasoning\": \"Publishing house with consistent naming.\"\n    },\n    {\n      \"canonical_id\": \"ORG_075\",\n      \"canonical_name\": \"Hyperion Books\",\n      \"org_type\": \"company\",\n      \"entity_indices\": [93],\n      \"variations_found\": [\"Hyperion Books\"],\n      \"reasoning\": \"Publishing house with consistent naming.\"\n    },\n    {\n      \"canonical_id\": \"ORG_076\",\n      \"canonical_name\": \"The Christian Science Monitor\",\n      \"org_type\": \"company\",\n      \"entity_indices\": [94],\n      \"variations_found\": [\"Christian Science Monitor\", \"The Christian Science Monitor\"],\n      \"reasoning\": \"Newspaper with article variation.\"\n    }\n  ]\n}\n```",
+  "total_org_entities": 178
+}

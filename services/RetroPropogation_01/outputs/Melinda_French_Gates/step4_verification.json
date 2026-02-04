@@ -1,0 +1,153 @@
+{
+  "verified_events": [
+    {
+      "event_id": "E001",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "medium",
+          "description": "End date missing, but quote indicates role ended before 1996"
+        }
+      ]
+    },
+    {
+      "event_id": "E002",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "temporal_coherence",
+          "severity": "low",
+          "description": "Start date missing, but quote indicates role began after graduation in 1987"
+        },
+        {
+          "type": "completeness",
+          "severity": "medium",
+          "description": "Missing start and end dates"
+        }
+      ]
+    },
+    {
+      "event_id": "E003",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E004",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E005",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E006",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "medium",
+          "description": "Start date missing"
+        }
+      ]
+    },
+    {
+      "event_id": "E007",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "temporal_coherence",
+          "severity": "high",
+          "description": "End date listed as 2024, but supporting quote mentions resignation in May 2024"
+        }
+      ]
+    },
+    {
+      "event_id": "E008",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E009",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E010",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E011",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E012",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E013",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E014",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E015",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E016",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E017",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E018",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "Year not specified in quote"
+        }
+      ]
+    },
+    {
+      "event_id": "E019",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E020",
+      "status": "valid",
+      "issues": []
+    }
+  ],
+  "summary": {
+    "total_events": 20,
+    "valid": 14,
+    "warnings": 6,
+    "errors": 0,
+    "career_positions": 8,
+    "awards": 12
+  },
+  "deduplication_review": {
+    "total_merges": 0,
+    "questionable_merges": 0,
+    "missed_merge_candidates": []
+  },
+  "raw_llm_output": "```json\n{\n  \"verified_events\": [\n    {\n      \"event_id\": \"E001\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"medium\",\n          \"description\": \"End date missing, but quote indicates role ended before 1996\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E002\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"temporal_coherence\",\n          \"severity\": \"low\",\n          \"description\": \"Start date missing, but quote indicates role began after graduation in 1987\"\n        },\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"medium\",\n          \"description\": \"Missing start and end dates\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E003\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E004\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E005\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E006\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"medium\",\n          \"description\": \"Start date missing\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E007\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"temporal_coherence\",\n          \"severity\": \"high\",\n          \"description\": \"End date listed as 2024, but supporting quote mentions resignation in May 2024\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E008\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E009\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E010\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E011\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E012\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E013\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E014\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E015\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E016\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E017\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E018\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"Year not specified in quote\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E019\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E020\",\n      \"status\": \"valid\",\n      \"issues\": []\n    }\n  ],\n  \"summary\": {\n    \"total_events\": 20,\n    \"valid\": 14,\n    \"warnings\": 6,\n    \"errors\": 0,\n    \"career_positions\": 8,\n    \"awards\": 12\n  },\n  \"deduplication_review\": {\n    \"total_merges\": 0,\n    \"questionable_merges\": 0,\n    \"missed_merge_candidates\": []\n  }\n}\n```"
+}

@@ -1,0 +1,91 @@
+{
+  "verified_events": [
+    {
+      "event_id": "E001",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "temporal_coherence",
+          "severity": "medium",
+          "description": "Overlapping career positions at University of Paris (Sorbonne) and Badinter, Bredin et partenaires (Bredin Prat) from 1965 to 1981. Requires verification if part-time or concurrent roles."
+        },
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "Missing locations for event."
+        }
+      ]
+    },
+    {
+      "event_id": "E002",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E003",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E004",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "temporal_coherence",
+          "severity": "medium",
+          "description": "Overlapping career positions at Constitutional Council and as Minister of Justice from 1981 to 1986. Requires verification if part-time or concurrent roles."
+        }
+      ]
+    },
+    {
+      "event_id": "E005",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E006",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "Missing end date, marked as ongoing."
+        },
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "Missing locations for event."
+        }
+      ]
+    },
+    {
+      "event_id": "E007",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E008",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E009",
+      "status": "valid",
+      "issues": []
+    }
+  ],
+  "summary": {
+    "total_events": 9,
+    "valid": 5,
+    "warnings": 4,
+    "errors": 0,
+    "career_positions": 7,
+    "awards": 2
+  },
+  "deduplication_review": {
+    "total_merges": 0,
+    "questionable_merges": 0,
+    "missed_merge_candidates": []
+  },
+  "raw_llm_output": "```json\n{\n  \"verified_events\": [\n    {\n      \"event_id\": \"E001\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"temporal_coherence\",\n          \"severity\": \"medium\",\n          \"description\": \"Overlapping career positions at University of Paris (Sorbonne) and Badinter, Bredin et partenaires (Bredin Prat) from 1965 to 1981. Requires verification if part-time or concurrent roles.\"\n        },\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"Missing locations for event.\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E002\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E003\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E004\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"temporal_coherence\",\n          \"severity\": \"medium\",\n          \"description\": \"Overlapping career positions at Constitutional Council and as Minister of Justice from 1981 to 1986. Requires verification if part-time or concurrent roles.\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E005\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E006\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"Missing end date, marked as ongoing.\"\n        },\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"Missing locations for event.\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E007\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E008\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E009\",\n      \"status\": \"valid\",\n      \"issues\": []\n    }\n  ],\n  \"summary\": {\n    \"total_events\": 9,\n    \"valid\": 5,\n    \"warnings\": 4,\n    \"errors\": 0,\n    \"career_positions\": 7,\n    \"awards\": 2\n  },\n  \"deduplication_review\": {\n    \"total_merges\": 0,\n    \"questionable_merges\": 0,\n    \"missed_merge_candidates\": []\n  }\n}\n```"
+}

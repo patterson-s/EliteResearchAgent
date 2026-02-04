@@ -1,0 +1,101 @@
+{
+  "verified_events": [
+    {
+      "event_id": "E001",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E002",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "temporal_coherence",
+          "severity": "medium",
+          "description": "Overlaps with E003 (Senior Secretary role) starting June 2008, but both are listed as ongoing from different start dates."
+        }
+      ]
+    },
+    {
+      "event_id": "E003",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "high",
+          "description": "Missing canonical organization for a government position."
+        },
+        {
+          "type": "temporal_coherence",
+          "severity": "medium",
+          "description": "Overlaps with E002 (Vice Minister role) starting March 2008."
+        }
+      ]
+    },
+    {
+      "event_id": "E004",
+      "status": "error",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "high",
+          "description": "Missing time period and organization information."
+        },
+        {
+          "type": "classification_accuracy",
+          "severity": "medium",
+          "description": "Role 'Diplomat' is too generic for a career position without specific responsibilities."
+        }
+      ]
+    },
+    {
+      "event_id": "E005",
+      "status": "error",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "high",
+          "description": "Missing time period and organization information."
+        },
+        {
+          "type": "quote_support",
+          "severity": "high",
+          "description": "Supporting quote only mentions congratulations, not a specific tenure."
+        }
+      ]
+    },
+    {
+      "event_id": "E006",
+      "status": "error",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "high",
+          "description": "Missing time period and organization information."
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_events": 6,
+    "valid": 1,
+    "warnings": 2,
+    "errors": 3,
+    "career_positions": 6,
+    "awards": 0
+  },
+  "deduplication_review": {
+    "total_merges": 0,
+    "questionable_merges": 0,
+    "missed_merge_candidates": [
+      {
+        "candidate_ids": [
+          "E004",
+          "E005"
+        ],
+        "reason": "Both events lack critical information and could be duplicates of other roles."
+      }
+    ]
+  },
+  "raw_llm_output": "```json\n{\n  \"verified_events\": [\n    {\n      \"event_id\": \"E001\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E002\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"temporal_coherence\",\n          \"severity\": \"medium\",\n          \"description\": \"Overlaps with E003 (Senior Secretary role) starting June 2008, but both are listed as ongoing from different start dates.\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E003\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"high\",\n          \"description\": \"Missing canonical organization for a government position.\"\n        },\n        {\n          \"type\": \"temporal_coherence\",\n          \"severity\": \"medium\",\n          \"description\": \"Overlaps with E002 (Vice Minister role) starting March 2008.\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E004\",\n      \"status\": \"error\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"high\",\n          \"description\": \"Missing time period and organization information.\"\n        },\n        {\n          \"type\": \"classification_accuracy\",\n          \"severity\": \"medium\",\n          \"description\": \"Role 'Diplomat' is too generic for a career position without specific responsibilities.\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E005\",\n      \"status\": \"error\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"high\",\n          \"description\": \"Missing time period and organization information.\"\n        },\n        {\n          \"type\": \"quote_support\",\n          \"severity\": \"high\",\n          \"description\": \"Supporting quote only mentions congratulations, not a specific tenure.\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E006\",\n      \"status\": \"error\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"high\",\n          \"description\": \"Missing time period and organization information.\"\n        }\n      ]\n    }\n  ],\n  \"summary\": {\n    \"total_events\": 6,\n    \"valid\": 1,\n    \"warnings\": 2,\n    \"errors\": 3,\n    \"career_positions\": 6,\n    \"awards\": 0\n  },\n  \"deduplication_review\": {\n    \"total_merges\": 0,\n    \"questionable_merges\": 0,\n    \"missed_merge_candidates\": [\n      {\n        \"candidate_ids\": [\"E004\", \"E005\"],\n        \"reason\": \"Both events lack critical information and could be duplicates of other roles.\"\n      }\n    ]\n  }\n}\n```"
+}

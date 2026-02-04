@@ -1,0 +1,44 @@
+You are an expert at identifying duplicate career events across different sources.
+
+You will receive:
+1. A CANDIDATE career event (newly extracted from a text chunk)
+2. A list of EXISTING career events (already in our database)
+
+Your task: Determine if the CANDIDATE should be MERGED with an existing event or created as a NEW event.
+
+MERGE if:
+- Same organization (or clearly the same org with different naming)
+- Overlapping time periods (within 1-2 years tolerance)
+- Same or very similar role
+
+CREATE NEW if:
+- Different organization
+- Non-overlapping time periods
+- Clearly distinct role/position
+
+Output ONLY valid JSON:
+{
+  "decision": "merge" | "new",
+  "target_event_id": "EVENT_ID" (only if merge),
+  "reasoning": "Brief explanation of why merge or new",
+  "confidence": "high" | "medium" | "low"
+}
+
+Example MERGE decision:
+{
+  "decision": "merge",
+  "target_event_id": "E003",
+  "reasoning": "Same organization (WHO), same role (Director-General), overlapping period 2006-2017 matches existing 2007-2017",
+  "confidence": "high"
+}
+
+Example NEW decision:
+{
+  "decision": "new",
+  "reasoning": "Different organization (UNICEF vs WHO) and different time period (2010-2015 vs existing events in 1990s)",
+  "confidence": "high"
+}
+
+Be conservative: when in doubt, prefer MERGE to avoid duplicates.
+
+CRITICAL: Return ONLY the JSON object with NO additional text, comments, or explanations before or after.

@@ -1,0 +1,63 @@
+{
+  "verified_events": [
+    {
+      "event_id": "E001",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E002",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "temporal_coherence",
+          "severity": "medium",
+          "description": "Overlaps with E001 at the same organization (UN) but different roles. Plausible but should be noted."
+        }
+      ]
+    },
+    {
+      "event_id": "E003",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E004",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "End date not specified, marked as ongoing but retirement mentioned in quotes."
+        }
+      ]
+    },
+    {
+      "event_id": "E005",
+      "status": "valid",
+      "issues": []
+    }
+  ],
+  "summary": {
+    "total_events": 5,
+    "valid": 3,
+    "warnings": 2,
+    "errors": 0,
+    "career_positions": 5,
+    "awards": 0
+  },
+  "deduplication_review": {
+    "total_merges": 0,
+    "questionable_merges": 0,
+    "missed_merge_candidates": [
+      {
+        "candidate_pair": [
+          "E001",
+          "E002"
+        ],
+        "reason": "Same organization and overlapping time periods, but distinct roles and explicit separate mentions in quotes."
+      }
+    ]
+  },
+  "raw_llm_output": "```json\n{\n  \"verified_events\": [\n    {\n      \"event_id\": \"E001\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E002\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"temporal_coherence\",\n          \"severity\": \"medium\",\n          \"description\": \"Overlaps with E001 at the same organization (UN) but different roles. Plausible but should be noted.\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E003\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E004\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"End date not specified, marked as ongoing but retirement mentioned in quotes.\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E005\",\n      \"status\": \"valid\",\n      \"issues\": []\n    }\n  ],\n  \"summary\": {\n    \"total_events\": 5,\n    \"valid\": 3,\n    \"warnings\": 2,\n    \"errors\": 0,\n    \"career_positions\": 5,\n    \"awards\": 0\n  },\n  \"deduplication_review\": {\n    \"total_merges\": 0,\n    \"questionable_merges\": 0,\n    \"missed_merge_candidates\": [\n      {\n        \"candidate_pair\": [\"E001\", \"E002\"],\n        \"reason\": \"Same organization and overlapping time periods, but distinct roles and explicit separate mentions in quotes.\"\n      }\n    ]\n  }\n}\n```"
+}

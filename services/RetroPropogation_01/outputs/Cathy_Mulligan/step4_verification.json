@@ -1,0 +1,49 @@
+{
+  "verified_events": [
+    {
+      "event_id": "E001",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E002",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E003",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E004",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E005",
+      "status": "error",
+      "issues": [
+        {
+          "type": "temporal_consistency",
+          "severity": "high",
+          "description": "Future date (2025) is not acceptable for verification."
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_events": 5,
+    "valid": 4,
+    "warnings": 0,
+    "errors": 1,
+    "career_positions": 4,
+    "awards": 1
+  },
+  "deduplication_review": {
+    "total_merges": 0,
+    "questionable_merges": 0,
+    "missed_merge_candidates": []
+  },
+  "raw_llm_output": "```json\n{\n  \"verified_events\": [\n    {\n      \"event_id\": \"E001\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E002\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E003\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E004\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E005\",\n      \"status\": \"error\",\n      \"issues\": [\n        {\n          \"type\": \"temporal_consistency\",\n          \"severity\": \"high\",\n          \"description\": \"Future date (2025) is not acceptable for verification.\"\n        }\n      ]\n    }\n  ],\n  \"summary\": {\n    \"total_events\": 5,\n    \"valid\": 4,\n    \"warnings\": 0,\n    \"errors\": 1,\n    \"career_positions\": 4,\n    \"awards\": 1\n  },\n  \"deduplication_review\": {\n    \"total_merges\": 0,\n    \"questionable_merges\": 0,\n    \"missed_merge_candidates\": []\n  }\n}\n```"
+}

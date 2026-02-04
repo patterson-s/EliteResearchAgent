@@ -1,0 +1,203 @@
+{
+  "verified_events": [
+    {
+      "event_id": "E001",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E002",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "quote_support",
+          "severity": "medium",
+          "description": "Quote supports board membership for private companies, not specifically I&P. Role should be clarified or merged."
+        }
+      ]
+    },
+    {
+      "event_id": "E003",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E004",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "Missing time period for Director role at AFD"
+        }
+      ]
+    },
+    {
+      "event_id": "E005",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "Missing time period for Director role at French Ministry of Cooperation"
+        }
+      ]
+    },
+    {
+      "event_id": "E006",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E007",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E008",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E009",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E010",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E011",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E012",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E013",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "Missing time period for President of PROPARCO"
+        }
+      ]
+    },
+    {
+      "event_id": "E014",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "classification",
+          "severity": "medium",
+          "description": "Appointment to panel is not a standard career position"
+        }
+      ]
+    },
+    {
+      "event_id": "E015",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "Missing time period for Danone board role"
+        }
+      ]
+    },
+    {
+      "event_id": "E016",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "Missing time period for EBI SA Groupe Ecobank board role"
+        }
+      ]
+    },
+    {
+      "event_id": "E017",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "Missing time period for Orange S.A. board role"
+        }
+      ]
+    },
+    {
+      "event_id": "E018",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "Missing time period for PhiTrust Impact Investors board role"
+        }
+      ]
+    },
+    {
+      "event_id": "E019",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "Missing time period for Fondation Grameen Crédit Agricole board role"
+        }
+      ]
+    },
+    {
+      "event_id": "E020",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "Missing time period for Ordre national du Mérite"
+        }
+      ]
+    },
+    {
+      "event_id": "E021",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "Missing time period for Legion of Honour"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_events": 21,
+    "valid": 10,
+    "warnings": 11,
+    "errors": 0,
+    "career_positions": 19,
+    "awards": 2
+  },
+  "deduplication_review": {
+    "total_merges": 0,
+    "questionable_merges": 0,
+    "missed_merge_candidates": [
+      {
+        "candidates": [
+          "E001",
+          "E002"
+        ],
+        "reason": "Overlapping roles at same organization with identical time periods"
+      }
+    ]
+  },
+  "raw_llm_output": "```json\n{\n  \"verified_events\": [\n    {\n      \"event_id\": \"E001\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E002\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"quote_support\",\n          \"severity\": \"medium\",\n          \"description\": \"Quote supports board membership for private companies, not specifically I&P. Role should be clarified or merged.\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E003\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E004\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"Missing time period for Director role at AFD\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E005\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"Missing time period for Director role at French Ministry of Cooperation\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E006\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E007\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E008\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E009\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E010\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E011\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E012\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E013\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"Missing time period for President of PROPARCO\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E014\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"classification\",\n          \"severity\": \"medium\",\n          \"description\": \"Appointment to panel is not a standard career position\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E015\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"Missing time period for Danone board role\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E016\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"Missing time period for EBI SA Groupe Ecobank board role\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E017\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"Missing time period for Orange S.A. board role\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E018\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"Missing time period for PhiTrust Impact Investors board role\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E019\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"Missing time period for Fondation Grameen Crédit Agricole board role\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E020\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"Missing time period for Ordre national du Mérite\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E021\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"Missing time period for Legion of Honour\"\n        }\n      ]\n    }\n  ],\n  \"summary\": {\n    \"total_events\": 21,\n    \"valid\": 10,\n    \"warnings\": 11,\n    \"errors\": 0,\n    \"career_positions\": 19,\n    \"awards\": 2\n  },\n  \"deduplication_review\": {\n    \"total_merges\": 0,\n    \"questionable_merges\": 0,\n    \"missed_merge_candidates\": [\n      {\n        \"candidates\": [\"E001\", \"E002\"],\n        \"reason\": \"Overlapping roles at same organization with identical time periods\"\n      }\n    ]\n  }\n}\n```"
+}

@@ -1,0 +1,201 @@
+{
+  "events": [
+    {
+      "event_id": "E001",
+      "event_type": "career_position",
+      "canonical_org_id": "ORG_001",
+      "canonical_org_name": "Royal Court Theatre",
+      "time_period": {
+        "start": "2004",
+        "end": null,
+        "text": "2004"
+      },
+      "roles": [
+        "actor"
+      ],
+      "locations": [
+        "London"
+      ],
+      "supporting_quotes": [
+        "Mulligan made her professional acting debut on stage in Kevin Elyot's play Forty Winks (2004) at the Royal Court Theatre.",
+        "In 2004, Mulligan made her stage debut in the play Forty Winks at the Royal Court Theatre in London."
+      ],
+      "source_entity_ids": {
+        "time_markers": [
+          4,
+          27
+        ],
+        "organizations": [
+          0,
+          9
+        ],
+        "roles": [
+          30
+        ],
+        "locations": [
+          8,
+          27
+        ]
+      },
+      "confidence": "high",
+      "merged_from": [],
+      "notes": ""
+    },
+    {
+      "event_id": "E002",
+      "event_type": "career_position",
+      "canonical_org_id": "ORG_002",
+      "canonical_org_name": "Broadway",
+      "time_period": {
+        "start": "2008",
+        "end": null,
+        "text": "2008"
+      },
+      "roles": [
+        "actor"
+      ],
+      "locations": [],
+      "supporting_quotes": [
+        "She made her Broadway debut playing Nina in the revival of Anton Chekhov's The Seagull (2008)."
+      ],
+      "source_entity_ids": {
+        "time_markers": [
+          7
+        ],
+        "organizations": [
+          1
+        ],
+        "roles": [
+          2
+        ],
+        "locations": []
+      },
+      "confidence": "high",
+      "merged_from": [],
+      "notes": ""
+    },
+    {
+      "event_id": "E003",
+      "event_type": "career_position",
+      "canonical_org_id": "ORG_003",
+      "canonical_org_name": "Alzheimer's Society",
+      "time_period": {
+        "start": "2012",
+        "end": null,
+        "text": "since 2012"
+      },
+      "roles": [
+        "ambassador"
+      ],
+      "locations": [],
+      "supporting_quotes": [
+        "Mulligan has been an ambassador for the Alzheimer's Society since 2012, and an ambassador for War Child since 2014",
+        "Mulligan became the ambassador of the Alzheimer's Society in 2012, with the goal of raising awareness and research funding for Alzheimers and dementia."
+      ],
+      "source_entity_ids": {
+        "time_markers": [
+          14,
+          57
+        ],
+        "organizations": [
+          2,
+          58
+        ],
+        "roles": [
+          3,
+          26
+        ],
+        "locations": []
+      },
+      "confidence": "high",
+      "merged_from": [],
+      "notes": ""
+    },
+    {
+      "event_id": "E004",
+      "event_type": "career_position",
+      "canonical_org_id": "ORG_004",
+      "canonical_org_name": "War Child",
+      "time_period": {
+        "start": "2014",
+        "end": null,
+        "text": "since 2014"
+      },
+      "roles": [
+        "ambassador"
+      ],
+      "locations": [
+        "Democratic Republic of Congo"
+      ],
+      "supporting_quotes": [
+        "Mulligan has been an ambassador for the Alzheimer's Society since 2012, and an ambassador for War Child since 2014",
+        "In 2014, Mulligan became an ambassador for the charity War Child and visited the Democratic Republic of Congo in this role."
+      ],
+      "source_entity_ids": {
+        "time_markers": [
+          15,
+          59
+        ],
+        "organizations": [
+          3,
+          59
+        ],
+        "roles": [
+          3,
+          27
+        ],
+        "locations": [
+          19
+        ]
+      },
+      "confidence": "high",
+      "merged_from": [],
+      "notes": ""
+    },
+    {
+      "event_id": "E005",
+      "event_type": "award",
+      "canonical_org_id": "ORG_041",
+      "canonical_org_name": "Order of the British Empire",
+      "time_period": {
+        "start": "2025",
+        "end": null,
+        "text": "2025"
+      },
+      "roles": [
+        "Commander of the Order of the British Empire (CBE)"
+      ],
+      "locations": [],
+      "supporting_quotes": [
+        "She was appointed Commander of the Order of the British Empire (CBE) in 2025 for services to drama.",
+        "She was appointed Commander of the Order of the British Empire (CBE) in the 2025 New Year Honours for services to drama."
+      ],
+      "source_entity_ids": {
+        "time_markers": [
+          9,
+          60
+        ],
+        "organizations": [
+          52,
+          81
+        ],
+        "roles": [
+          0,
+          28
+        ],
+        "locations": []
+      },
+      "confidence": "high",
+      "merged_from": [],
+      "notes": ""
+    }
+  ],
+  "deduplication_log": [],
+  "raw_llm_output": "```json\n{\n  \"events\": [\n    {\n      \"event_id\": \"E001\",\n      \"event_type\": \"career_position\",\n      \"canonical_org_id\": \"ORG_001\",\n      \"canonical_org_name\": \"Royal Court Theatre\",\n      \"time_period\": {\n        \"start\": \"2004\",\n        \"end\": null,\n        \"text\": \"2004\"\n      },\n      \"roles\": [\n        \"actor\"\n      ],\n      \"locations\": [\n        \"London\"\n      ],\n      \"supporting_quotes\": [\n        \"Mulligan made her professional acting debut on stage in Kevin Elyot's play Forty Winks (2004) at the Royal Court Theatre.\",\n        \"In 2004, Mulligan made her stage debut in the play Forty Winks at the Royal Court Theatre in London.\"\n      ],\n      \"source_entity_ids\": {\n        \"time_markers\": [\n          4,\n          27\n        ],\n        \"organizations\": [\n          0,\n          9\n        ],\n        \"roles\": [\n          30\n        ],\n        \"locations\": [\n          8,\n          27\n        ]\n      },\n      \"confidence\": \"high\",\n      \"merged_from\": [],\n      \"notes\": \"\"\n    },\n    {\n      \"event_id\": \"E002\",\n      \"event_type\": \"career_position\",\n      \"canonical_org_id\": \"ORG_002\",\n      \"canonical_org_name\": \"Broadway\",\n      \"time_period\": {\n        \"start\": \"2008\",\n        \"end\": null,\n        \"text\": \"2008\"\n      },\n      \"roles\": [\n        \"actor\"\n      ],\n      \"locations\": [],\n      \"supporting_quotes\": [\n        \"She made her Broadway debut playing Nina in the revival of Anton Chekhov's The Seagull (2008).\"\n      ],\n      \"source_entity_ids\": {\n        \"time_markers\": [\n          7\n        ],\n        \"organizations\": [\n          1\n        ],\n        \"roles\": [\n          2\n        ],\n        \"locations\": []\n      },\n      \"confidence\": \"high\",\n      \"merged_from\": [],\n      \"notes\": \"\"\n    },\n    {\n      \"event_id\": \"E003\",\n      \"event_type\": \"career_position\",\n      \"canonical_org_id\": \"ORG_003\",\n      \"canonical_org_name\": \"Alzheimer's Society\",\n      \"time_period\": {\n        \"start\": \"2012\",\n        \"end\": null,\n        \"text\": \"since 2012\"\n      },\n      \"roles\": [\n        \"ambassador\"\n      ],\n      \"locations\": [],\n      \"supporting_quotes\": [\n        \"Mulligan has been an ambassador for the Alzheimer's Society since 2012, and an ambassador for War Child since 2014\",\n        \"Mulligan became the ambassador of the Alzheimer's Society in 2012, with the goal of raising awareness and research funding for Alzheimers and dementia.\"\n      ],\n      \"source_entity_ids\": {\n        \"time_markers\": [\n          14,\n          57\n        ],\n        \"organizations\": [\n          2,\n          58\n        ],\n        \"roles\": [\n          3,\n          26\n        ],\n        \"locations\": []\n      },\n      \"confidence\": \"high\",\n      \"merged_from\": [],\n      \"notes\": \"\"\n    },\n    {\n      \"event_id\": \"E004\",\n      \"event_type\": \"career_position\",\n      \"canonical_org_id\": \"ORG_004\",\n      \"canonical_org_name\": \"War Child\",\n      \"time_period\": {\n        \"start\": \"2014\",\n        \"end\": null,\n        \"text\": \"since 2014\"\n      },\n      \"roles\": [\n        \"ambassador\"\n      ],\n      \"locations\": [\n        \"Democratic Republic of Congo\"\n      ],\n      \"supporting_quotes\": [\n        \"Mulligan has been an ambassador for the Alzheimer's Society since 2012, and an ambassador for War Child since 2014\",\n        \"In 2014, Mulligan became an ambassador for the charity War Child and visited the Democratic Republic of Congo in this role.\"\n      ],\n      \"source_entity_ids\": {\n        \"time_markers\": [\n          15,\n          59\n        ],\n        \"organizations\": [\n          3,\n          59\n        ],\n        \"roles\": [\n          3,\n          27\n        ],\n        \"locations\": [\n          19\n        ]\n      },\n      \"confidence\": \"high\",\n      \"merged_from\": [],\n      \"notes\": \"\"\n    },\n    {\n      \"event_id\": \"E005\",\n      \"event_type\": \"award\",\n      \"canonical_org_id\": \"ORG_041\",\n      \"canonical_org_name\": \"Order of the British Empire\",\n      \"time_period\": {\n        \"start\": \"2025\",\n        \"end\": null,\n        \"text\": \"2025\"\n      },\n      \"roles\": [\n        \"Commander of the Order of the British Empire (CBE)\"\n      ],\n      \"locations\": [],\n      \"supporting_quotes\": [\n        \"She was appointed Commander of the Order of the British Empire (CBE) in 2025 for services to drama.\",\n        \"She was appointed Commander of the Order of the British Empire (CBE) in the 2025 New Year Honours for services to drama.\"\n      ],\n      \"source_entity_ids\": {\n        \"time_markers\": [\n          9,\n          60\n        ],\n        \"organizations\": [\n          52,\n          81\n        ],\n        \"roles\": [\n          0,\n          28\n        ],\n        \"locations\": []\n      },\n      \"confidence\": \"high\",\n      \"merged_from\": [],\n      \"notes\": \"\"\n    }\n  ],\n  \"deduplication_log\": [],\n  \"unprocessed_roles\": []\n}\n```",
+  "summary": {
+    "total_events": 5,
+    "career_positions": 4,
+    "awards": 1,
+    "deduplication_actions": 0
+  }
+}

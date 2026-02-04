@@ -1,0 +1,132 @@
+{
+  "verified_events": [
+    {
+      "event_id": "E001",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E002",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E003",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E004",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "temporal_consistency",
+          "severity": "medium",
+          "description": "Overlapping dates with E005, but distinct roles and supported by quotes"
+        }
+      ]
+    },
+    {
+      "event_id": "E005",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "temporal_consistency",
+          "severity": "medium",
+          "description": "Overlapping dates with E004, but distinct roles and supported by quotes"
+        }
+      ]
+    },
+    {
+      "event_id": "E006",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E007",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "Missing organization, inferred from role and location"
+        }
+      ]
+    },
+    {
+      "event_id": "E008",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E009",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E010",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E011",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "Missing end date, marked as ongoing"
+        }
+      ]
+    },
+    {
+      "event_id": "E012",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "Missing end date, marked as ongoing"
+        },
+        {
+          "type": "classification",
+          "severity": "low",
+          "description": "Role inferred from action, may not be a formal career position"
+        }
+      ]
+    },
+    {
+      "event_id": "E013",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "Missing end date, marked as ongoing"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_events": 13,
+    "valid": 7,
+    "warnings": 6,
+    "errors": 0,
+    "career_positions": 12,
+    "awards": 1
+  },
+  "deduplication_review": {
+    "total_merges": 0,
+    "questionable_merges": 0,
+    "missed_merge_candidates": [
+      {
+        "event_ids": [
+          "E004",
+          "E005"
+        ],
+        "reason": "Overlapping time periods and roles, but distinct events supported by quotes"
+      }
+    ]
+  },
+  "raw_llm_output": "```json\n{\n  \"verified_events\": [\n    {\n      \"event_id\": \"E001\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E002\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E003\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E004\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"temporal_consistency\",\n          \"severity\": \"medium\",\n          \"description\": \"Overlapping dates with E005, but distinct roles and supported by quotes\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E005\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"temporal_consistency\",\n          \"severity\": \"medium\",\n          \"description\": \"Overlapping dates with E004, but distinct roles and supported by quotes\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E006\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E007\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"Missing organization, inferred from role and location\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E008\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E009\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E010\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E011\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"Missing end date, marked as ongoing\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E012\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"Missing end date, marked as ongoing\"\n        },\n        {\n          \"type\": \"classification\",\n          \"severity\": \"low\",\n          \"description\": \"Role inferred from action, may not be a formal career position\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E013\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"Missing end date, marked as ongoing\"\n        }\n      ]\n    }\n  ],\n  \"summary\": {\n    \"total_events\": 13,\n    \"valid\": 7,\n    \"warnings\": 6,\n    \"errors\": 0,\n    \"career_positions\": 12,\n    \"awards\": 1\n  },\n  \"deduplication_review\": {\n    \"total_merges\": 0,\n    \"questionable_merges\": 0,\n    \"missed_merge_candidates\": [\n      {\n        \"event_ids\": [\"E004\", \"E005\"],\n        \"reason\": \"Overlapping time periods and roles, but distinct events supported by quotes\"\n      }\n    ]\n  }\n}\n```"
+}

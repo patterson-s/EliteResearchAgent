@@ -1,0 +1,158 @@
+{
+  "verified_events": [
+    {
+      "event_id": "E001",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "Missing end date, marked as ongoing"
+        },
+        {
+          "type": "quote_support",
+          "severity": "medium",
+          "description": "Role not explicitly stated in quote, inferred as general employee"
+        }
+      ]
+    },
+    {
+      "event_id": "E002",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E003",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E004",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E005",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "temporal_coherence",
+          "severity": "low",
+          "description": "Overlaps with E004 at different organization, but plausible"
+        }
+      ]
+    },
+    {
+      "event_id": "E006",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "temporal_coherence",
+          "severity": "low",
+          "description": "Overlaps with E005 at different organization, but plausible"
+        }
+      ]
+    },
+    {
+      "event_id": "E007",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "temporal_coherence",
+          "severity": "medium",
+          "description": "Overlaps with E006 at different organization, requires verification"
+        }
+      ]
+    },
+    {
+      "event_id": "E008",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "temporal_coherence",
+          "severity": "medium",
+          "description": "Overlaps with E007 at different organization, requires verification"
+        }
+      ]
+    },
+    {
+      "event_id": "E009",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "temporal_coherence",
+          "severity": "medium",
+          "description": "Overlaps with E008 at different organization, requires verification"
+        }
+      ]
+    },
+    {
+      "event_id": "E010",
+      "status": "valid",
+      "issues": []
+    },
+    {
+      "event_id": "E011",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "medium",
+          "description": "Missing start date, marked as current"
+        }
+      ]
+    },
+    {
+      "event_id": "E012",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "medium",
+          "description": "Missing start date, marked as current"
+        }
+      ]
+    },
+    {
+      "event_id": "E013",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "medium",
+          "description": "Missing start date, marked as current"
+        }
+      ]
+    },
+    {
+      "event_id": "E014",
+      "status": "warning",
+      "issues": [
+        {
+          "type": "completeness",
+          "severity": "low",
+          "description": "Missing end date, marked as ongoing"
+        },
+        {
+          "type": "quote_support",
+          "severity": "low",
+          "description": "Time period for each term as Student Union president not specified"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_events": 14,
+    "valid": 3,
+    "warnings": 11,
+    "errors": 0,
+    "career_positions": 13,
+    "awards": 1
+  },
+  "deduplication_review": {
+    "total_merges": 0,
+    "questionable_merges": 0,
+    "missed_merge_candidates": []
+  },
+  "raw_llm_output": "```json\n{\n  \"verified_events\": [\n    {\n      \"event_id\": \"E001\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"Missing end date, marked as ongoing\"\n        },\n        {\n          \"type\": \"quote_support\",\n          \"severity\": \"medium\",\n          \"description\": \"Role not explicitly stated in quote, inferred as general employee\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E002\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E003\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E004\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E005\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"temporal_coherence\",\n          \"severity\": \"low\",\n          \"description\": \"Overlaps with E004 at different organization, but plausible\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E006\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"temporal_coherence\",\n          \"severity\": \"low\",\n          \"description\": \"Overlaps with E005 at different organization, but plausible\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E007\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"temporal_coherence\",\n          \"severity\": \"medium\",\n          \"description\": \"Overlaps with E006 at different organization, requires verification\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E008\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"temporal_coherence\",\n          \"severity\": \"medium\",\n          \"description\": \"Overlaps with E007 at different organization, requires verification\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E009\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"temporal_coherence\",\n          \"severity\": \"medium\",\n          \"description\": \"Overlaps with E008 at different organization, requires verification\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E010\",\n      \"status\": \"valid\",\n      \"issues\": []\n    },\n    {\n      \"event_id\": \"E011\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"medium\",\n          \"description\": \"Missing start date, marked as current\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E012\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"medium\",\n          \"description\": \"Missing start date, marked as current\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E013\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"medium\",\n          \"description\": \"Missing start date, marked as current\"\n        }\n      ]\n    },\n    {\n      \"event_id\": \"E014\",\n      \"status\": \"warning\",\n      \"issues\": [\n        {\n          \"type\": \"completeness\",\n          \"severity\": \"low\",\n          \"description\": \"Missing end date, marked as ongoing\"\n        },\n        {\n          \"type\": \"quote_support\",\n          \"severity\": \"low\",\n          \"description\": \"Time period for each term as Student Union president not specified\"\n        }\n      ]\n    }\n  ],\n  \"summary\": {\n    \"total_events\": 14,\n    \"valid\": 3,\n    \"warnings\": 11,\n    \"errors\": 0,\n    \"career_positions\": 13,\n    \"awards\": 1\n  },\n  \"deduplication_review\": {\n    \"total_merges\": 0,\n    \"questionable_merges\": 0,\n    \"missed_merge_candidates\": []\n  }\n}\n```"
+}
